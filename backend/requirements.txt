@@ -1,0 +1,4 @@
+sqlalchemy
+psycopg2
+sqlalchemy-utils
+fastapi[all]

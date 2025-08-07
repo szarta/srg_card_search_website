@@ -1,0 +1,27 @@
+---
+repos:
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.29.0
+    hooks:
+      - id: yamllint  # to ensure all yaml is properly formatted
+        args: [-c=conf/yamllint.yaml]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1  # Use the ref you want to point at
+    hooks:
+      - id: check-yaml
+      - id: debug-statements
+      - id: trailing-whitespace   # remove trailing whitespace
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.4.3
+    hooks:
+      # Run the linter.
+      - id: ruff
+        args: [--fix]
+      # Run the formatter.
+      - id: ruff-format
+  - repo: https://github.com/yunojuno/pre-commit-xenon
+    rev: v0.1
+    hooks:
+      - id: xenon
+        args: ["--max-average=B", "--max-modules=C", "--max-absolute=C"]

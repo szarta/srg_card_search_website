@@ -14,7 +14,6 @@ from models.base import Card, MainDeckCard, CardType, AttackSubtype, PlayOrderSu
 from database import SessionLocal
 from schemas.card_schema import Card as CardSchema, PaginatedCardResponse
 
-from uuid import UUID
 
 router = APIRouter()
 
@@ -86,8 +85,8 @@ def list_cards(
 
 
 @router.get("/cards/{db_uuid}", response_model=CardSchema)
-def get_card(db_uuid: UUID, db: Session = Depends(get_db)):
-    card = db.query(Card).filter(Card.db_uuid == str(db_uuid)).first()
+def get_card(db_uuid: str, db: Session = Depends(get_db)):
+    card = db.query(Card).filter(Card.db_uuid == db_uuid).first()
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
     return CardSchema.model_validate(card)

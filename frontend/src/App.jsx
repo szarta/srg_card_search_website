@@ -7,13 +7,6 @@ function App() {
     <Router>
       <div className="min-h-screen flex flex-col font-sans text-gray-100">
 
-        {/* Header */}
-        <header className="bg-srgGray px-6 py-4">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <h1 className="text-3xl font-bold text-srgPurple">SRG Card Search</h1>
-          </div>
-        </header>
-
         {/* Main */}
         <main className="flex-grow px-4 py-6 max-w-7xl mx-auto w-full">
           <Routes>

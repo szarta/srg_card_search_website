@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         srgDark: "#121212",
-        srgPurple: "#6C63FF",
+        srgPurple: "#3b0a55",
         srgGray: "#1e1e2f",
       },
     },

@@ -67,6 +67,7 @@ class Card(Base):
     rules_text = Column(String)
     errata_text = Column(String)
     comments = Column(String)
+    tags = Column(String)
     card_type = Column(String)
 
     related_cards = relationship(
@@ -81,7 +82,6 @@ class MainDeckCard(Card):
     __tablename__ = "main_deck_cards"
     db_uuid = Column(String, ForeignKey("cards.db_uuid"), primary_key=True)
     deck_card_number = Column(Integer)
-    tags = Column(String)
     atk_type = Column(Enum(AttackSubtype))
     play_order = Column(Enum(PlayOrderSubtype))
     rules = Column(String)

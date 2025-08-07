@@ -40,32 +40,34 @@ def list_cards(
     offset: int = Query(0, ge=0),
     sort_order: str = Query("asc", enum=["asc", "desc"]),
 ):
-    if card_type == CardType.main_deck:
+    # Ensure card_poly is always defined
+    card_poly = None
+    if card_type == CardType.main_deck.value:
         card_poly = with_polymorphic(Card, [MainDeckCard])
         query = db.query(card_poly)
     else:
         query = db.query(Card)
+        # For filtering on MainDeckCard fields, we skip when not main deck
 
-    # ✅ Apply only valid enum filters
+    # Common filters on Card
     if card_type in [e.value for e in CardType]:
         query = query.filter(Card.card_type == card_type)
 
-    if card_type == CardType.main_deck:
+    if card_type == CardType.main_deck.value:
         if atk_type in [e.value for e in AttackSubtype]:
             query = query.filter(card_poly.MainDeckCard.atk_type == atk_type)
-
         if play_order in [e.value for e in PlayOrderSubtype]:
             query = query.filter(card_poly.MainDeckCard.play_order == play_order)
 
-        if deck_card_number is not None:
-            query = query.filter(
-                card_poly.MainDeckCard.deck_card_number == deck_card_number
-            )
+    if deck_card_number is not None and card_type == CardType.main_deck.value:
+        query = query.filter(
+            card_poly.MainDeckCard.deck_card_number == deck_card_number
+        )
 
     if q:
+        # Always search Card.name/rules_text regardless of card type
         query = query.filter(
-            (card_poly.Card.name.ilike(f"%{q}%"))
-            | (card_poly.Card.rules_text.ilike(f"%{q}%"))
+            (Card.name.ilike(f"%{q}%")) | (Card.rules_text.ilike(f"%{q}%"))
         )
 
     if is_banned is not None:
@@ -75,6 +77,7 @@ def list_cards(
         query = query.filter(Card.release_set == release_set)
 
     total_count = query.count()
+
     query = query.order_by(asc(Card.name) if sort_order == "asc" else desc(Card.name))
     results = query.offset(offset).limit(limit).all()
 

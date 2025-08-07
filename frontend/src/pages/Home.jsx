@@ -85,9 +85,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div class="mt-4">
-            <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   );

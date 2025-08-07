@@ -1,4 +1,3 @@
-// src/components/SearchBar.jsx
 import React, { useState } from "react";
 
 export default function SearchBar({ onSearch }) {
@@ -19,8 +18,9 @@ export default function SearchBar({ onSearch }) {
         placeholder="Search name or rules..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="bg-gray-900 border border-gray-700 rounded px-3 py-2 text-white w-64"
+        className="bg-gray-900 border border-gray-700 rounded px-3 py-2 text-white"
       />
+
       <select
         value={cardType}
         onChange={(e) => setCardType(e.target.value)}
@@ -32,6 +32,7 @@ export default function SearchBar({ onSearch }) {
         <option value="LeadCard">Lead</option>
         <option value="FollowUpCard">Follow Up</option>
       </select>
+
       <select
         value={atkType}
         onChange={(e) => setAtkType(e.target.value)}
@@ -42,6 +43,7 @@ export default function SearchBar({ onSearch }) {
         <option value="Grapple">Grapple</option>
         <option value="Submission">Submission</option>
       </select>
+
       <select
         value={playOrder}
         onChange={(e) => setPlayOrder(e.target.value)}
@@ -51,6 +53,7 @@ export default function SearchBar({ onSearch }) {
         <option value="1">Turn 1</option>
         <option value="2">Turn 2+</option>
       </select>
+
       <button
         type="submit"
         className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"

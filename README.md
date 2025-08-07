@@ -19,9 +19,10 @@ Backend technology stackup:
 Frontend technology stackup:
 
 * React with Javascript
+* Vite
 
 
-## Setup ##
+## Backend Setup ##
 
 Setup Postgres, if not already installed:
 
@@ -62,3 +63,23 @@ To run backend:
     uvicorn main:app --reload
 
 
+## Frontend Setup ##
+
+Setup NVM to control node version:
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+After restarting shell:
+
+    nvm install 20.19.0
+    nvm use 20.19.0
+    nvm alias default 20.19.0
+
+To install frontend requirements:
+
+    cd frontend
+    npm install
+
+To run frontend:
+    cd frontend
+    npm run dev

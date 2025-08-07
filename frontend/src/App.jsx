@@ -1,23 +1,18 @@
-// src/App.jsx
-import { useState, useEffect } from "react";
-import SearchBar from "./components/SearchBar";
-import CardGrid from "./components/CardGrid";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import CardDetail from "./pages/CardDetail";
 
-export default function App() {
-  const [cards, setCards] = useState([]);
-
-  const handleSearch = async (params) => {
-    const query = new URLSearchParams(params).toString();
-    const response = await fetch(`http://localhost:8000/cards?${query}`);
-    const data = await response.json();
-    setCards(data.items); // assuming your FastAPI response includes `items`
-  };
-
+function App() {
   return (
-    <div className="max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mt-4">SRG Supershow Card Search</h1>
-      <SearchBar onSearch={handleSearch} />
-      <CardGrid cards={cards} />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gray-100 text-gray-900">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/card/:uuid" element={<CardDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
+
+export default App;

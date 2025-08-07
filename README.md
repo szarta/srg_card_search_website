@@ -83,3 +83,8 @@ To install frontend requirements:
 To run frontend:
     cd frontend
     npm run dev
+
+
+# Contributions/Thanks #
+
+

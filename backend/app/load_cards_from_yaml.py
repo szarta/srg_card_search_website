@@ -2,6 +2,7 @@
 @copyright Copyright 2025, Brandon Arrendondo
 See LICENSE.txt for details.
 """
+
 import yaml
 import uuid
 from sqlalchemy.orm import sessionmaker
@@ -10,12 +11,17 @@ from sqlalchemy import create_engine
 from models.base import (
     Card,
     MainDeckCard,
-    SingleCompetitorCard, TornadoCompetitorCard, TrioCompetitorCard,
-    EntranceCard, SpectacleCard, CrowdMeterCard,
-    AttackSubtype, PlayOrderSubtype
+    SingleCompetitorCard,
+    TornadoCompetitorCard,
+    TrioCompetitorCard,
+    EntranceCard,
+    SpectacleCard,
+    CrowdMeterCard,
+    AttackSubtype,
+    PlayOrderSubtype,
 )
 
-DATABASE_URL = "postgresql://postgres:qaz1234@localhost/srg_cards"
+DATABASE_URL = "postgresql://SECURE_USERNAME:SECURE_PASSWORD@localhost/srg_cards"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
@@ -43,14 +49,14 @@ def clear_all_cards(session):
 
 
 def load_cards(yaml_file: str, output_file: str):
-    with open(yaml_file, 'r') as f:
+    with open(yaml_file, "r") as f:
         original_data = yaml.safe_load(f)
 
     updated_data = []
     session = Session()
 
     confirm = input("⚠️ This will DELETE all existing cards. Continue? (y/N): ")
-    if confirm.lower() != 'y':
+    if confirm.lower() != "y":
         print("Aborted.")
         return
 
@@ -88,7 +94,9 @@ def load_cards(yaml_file: str, output_file: str):
         session.add(card)
 
         # Convert enums back to string for output YAML
-        cleaned_entry = {k: (v.value if isinstance(v, Enum) else v) for k, v in entry.items()}
+        cleaned_entry = {
+            k: (v.value if isinstance(v, Enum) else v) for k, v in entry.items()
+        }
         updated_data.append(cleaned_entry)
 
     session.commit()

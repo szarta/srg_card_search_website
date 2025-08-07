@@ -22,7 +22,7 @@ export default function CardDetail() {
         src={`http://localhost:8000/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`}
         alt={card.name}
       />
-      <pre className="bg-white p-4 rounded shadow text-sm whitespace-pre-wrap">
+      <pre className="bg-gray-900 p-4 rounded shadow text-sm whitespace-pre-wrap">
         {card.rules_text || "No rules text"}
       </pre>
     </div>

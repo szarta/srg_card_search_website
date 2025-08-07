@@ -10,7 +10,14 @@ from sqlalchemy import asc, desc
 from typing import Optional
 from sqlalchemy.orm import with_polymorphic
 
-from models.base import Card, MainDeckCard, CardType, AttackSubtype, PlayOrderSubtype
+from models.base import (
+    Card,
+    MainDeckCard,
+    CompetitorCard,
+    CardType,
+    AttackSubtype,
+    PlayOrderSubtype,
+)
 from database import SessionLocal
 from schemas.card_schema import Card as CardSchema, PaginatedCardResponse
 
@@ -39,11 +46,24 @@ def list_cards(
     limit: int = Query(20, ge=1, le=100),
     offset: int = Query(0, ge=0),
     sort_order: str = Query("asc", enum=["asc", "desc"]),
+    power: Optional[int] = Query(None),
+    agility: Optional[int] = Query(None),
+    strike: Optional[int] = Query(None),
+    submission: Optional[int] = Query(None),
+    grapple: Optional[int] = Query(None),
+    technique: Optional[int] = Query(None),
 ):
     # Ensure card_poly is always defined
     card_poly = None
     if card_type == CardType.main_deck.value:
         card_poly = with_polymorphic(Card, [MainDeckCard])
+        query = db.query(card_poly)
+    elif card_type in [
+        CardType.single_competitor.value,
+        CardType.tornado_competitor.value,
+        CardType.trio_competitor.value,
+    ]:
+        card_poly = with_polymorphic(Card, [CompetitorCard])
         query = db.query(card_poly)
     else:
         query = db.query(Card)
@@ -58,6 +78,28 @@ def list_cards(
             query = query.filter(card_poly.MainDeckCard.atk_type == atk_type)
         if play_order in [e.value for e in PlayOrderSubtype]:
             query = query.filter(card_poly.MainDeckCard.play_order == play_order)
+
+    if (
+        card_type
+        in [
+            CardType.single_competitor.value,
+            CardType.tornado_competitor.value,
+            CardType.trio_competitor.value,
+        ]
+        and card_poly
+    ):
+        if power is not None:
+            query = query.filter(card_poly.CompetitorCard.power == power)
+        if agility is not None:
+            query = query.filter(card_poly.CompetitorCard.agility == agility)
+        if strike is not None:
+            query = query.filter(card_poly.CompetitorCard.strike == strike)
+        if submission is not None:
+            query = query.filter(card_poly.CompetitorCard.submission == submission)
+        if grapple is not None:
+            query = query.filter(card_poly.CompetitorCard.grapple == grapple)
+        if technique is not None:
+            query = query.filter(card_poly.CompetitorCard.technique == technique)
 
     if deck_card_number is not None and card_type == CardType.main_deck.value:
         query = query.filter(

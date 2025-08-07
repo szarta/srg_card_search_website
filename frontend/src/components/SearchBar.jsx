@@ -53,18 +53,22 @@ export default function SearchBar({ onSearch }) {
 
   return (
     <div className="space-y-4 bg-white p-4 rounded shadow">
-      <form onSubmit={handleSubmit}>
+        <form
+        onSubmit={handleSubmit}
+        className="bg-srgDark rounded-md p-4 shadow-md flex flex-col md:flex-row md:items-center gap-4"
+        >
+
         <input
           type="text"
           name="q"
           placeholder="Search name or rules..."
           value={filters.q}
           onChange={handleChange}
-          className="w-full p-2 border rounded"
+          className="bg-srgGray text-white border border-gray-600 rounded px-3 py-2 w-full"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
-          <select name="card_type" value={filters.card_type} onChange={handleChange} className="p-2 border rounded">
+          <select name="card_type" value={filters.card_type} onChange={handleChange} className="bg-srgGray text-white border border-gray-600 rounded px-3 py-2">
             <option value="">All Card Types</option>
             <option value="MainDeckCard">Main Deck</option>
             <option value="SingleCompetitorCard">Single Competitor</option>
@@ -75,14 +79,14 @@ export default function SearchBar({ onSearch }) {
             <option value="CrowdMeterCard">Crowd Meter</option>
           </select>
 
-          <select name="atk_type" value={filters.atk_type} onChange={handleChange} className="p-2 border rounded">
+          <select name="atk_type" value={filters.atk_type} onChange={handleChange} className="bg-srgGray text-white border border-gray-600 rounded px-3 py-2">
             <option value="">All Attack Types</option>
             <option value="Strike">Strike</option>
             <option value="Grapple">Grapple</option>
             <option value="Submission">Submission</option>
           </select>
 
-          <select name="play_order" value={filters.play_order} onChange={handleChange} className="p-2 border rounded">
+          <select name="play_order" value={filters.play_order} onChange={handleChange} className="bg-srgGray text-white border border-gray-600 rounded px-3 py-2">
             <option value="">All Play Orders</option>
             <option value="Lead">Lead</option>
             <option value="Follow Up">Follow Up</option>

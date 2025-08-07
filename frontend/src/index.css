@@ -1,3 +1,8 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 requires this to enable dark: variant */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

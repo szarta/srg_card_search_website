@@ -8,7 +8,7 @@ from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import asc, desc
 from typing import Optional
-from sqlalchemy.orm import with_polymorphic
+from sqlalchemy.orm import with_polymorphic, joinedload
 
 from models.base import (
     Card,
@@ -131,7 +131,36 @@ def list_cards(
 
 @router.get("/cards/{db_uuid}", response_model=CardSchema)
 def get_card(db_uuid: str, db: Session = Depends(get_db)):
-    card = db.query(Card).filter(Card.db_uuid == db_uuid).first()
+    # 1) first fetch just the type
+    ctype = db.query(Card.card_type).filter(Card.db_uuid == db_uuid).scalar()
+
+    # 2) If this is a competitor, query that subclass directly so
+    #    its related_finishes relationship is on the mapper.
+    if ctype in {
+        CardType.single_competitor.value,
+        CardType.tornado_competitor.value,
+        CardType.trio_competitor.value,
+    }:
+        card = (
+            db.query(CompetitorCard)
+            .options(
+                joinedload(CompetitorCard.related_cards),
+                joinedload(CompetitorCard.related_finishes),
+            )
+            .filter(CompetitorCard.db_uuid == db_uuid)
+            .first()
+        )
+    else:
+        # Non-competitors only have related_cards
+        card = (
+            db.query(Card)
+            .options(joinedload(Card.related_cards))
+            .filter(Card.db_uuid == db_uuid)
+            .first()
+        )
+
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
-    return CardSchema.model_validate(card)
+
+    # explicitly dump to dict so nested lists show up
+    return CardSchema.model_validate(card).model_dump()

@@ -1,0 +1,91 @@
+- name: American Double Punch
+  srg_url: https://supershowthegame.com/product/01-american-double-punch/
+  release_set: Unknown
+  is_banned: false
+  rules_text: Each player adds the bottom card of their deck to their hand or stop
+    any lead Grapple.
+  errata_text: ''
+  comments: ''
+  deck_card_number: 1
+  tags: stop lead
+  atk_type: Strike
+  play_order: Lead
+  db_uuid: d9f6e890e1c846e79d4c11b649aa3683
+  card_type: MainDeckCard
+- name: The End is Near
+  srg_url: https://supershowthegame.com/product/15-the-end-is-near/
+  release_set: Unknown
+  is_banned: false
+  rules_text: If your Submission skill is greater than your opponent's Submission
+    skill, stop any Follow Up Strike or Finish Strike.  When you stop a card, the
+    stopped card has blank text until the end of the turn.
+  errata_text: ''
+  comments: ''
+  deck_card_number: 15
+  tags: skill stop
+  atk_type: Submission
+  play_order: Follow Up
+  db_uuid: 9c522e6e0b2a4254b7b72aa3da805c72
+  card_type: MainDeckCard
+- name: Alex Hammerstone
+  srg_url: https://supershowthegame.com/product/hammerstone/
+  release_set: Unknown
+  is_banned: false
+  rules_text: When you roll Power for your turn roll, draw 1 card and discard 1 card
+    from your hand.
+  errata_text: ''
+  comments: ''
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 9
+  db_uuid: eb68a4f3acd74fb592885308366529f2
+  card_type: SingleCompetitorCard
+  related_finishes: [
+    40419bfdf4a04147809995aa68a2586b,
+    b889fced61744419805a6ccf4cfae0c3,
+    c3d4ebd4f4104494a43bdfcce01d6cb4
+  ]
+- name: Burning Hammer
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  release_set: Unknown
+  is_banned: false
+  errata_text: ''
+  comments: ''
+  tags: ''
+  srg_url: https://supershowthegame.com/product/hammerstone/
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck'
+  db_uuid: c3d4ebd4f4104494a43bdfcce01d6cb4
+  card_type: MainDeckCard
+- name: Nightmare Pendulum
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  release_set: Unknown
+  srg_url: https://supershowthegame.com/product/hammerstone/
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Your opponent randomly discards 1 card from their hand until they discard a finish
+    card.'
+  db_uuid: 40419bfdf4a04147809995aa68a2586b
+  card_type: MainDeckCard
+- name: Spinal Countdown
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  release_set: Unknown
+  srg_url: https://supershowthegame.com/product/hammerstone/
+  rules_text: +1 to Technique\n+4 to Submission\nYour finish roll is +1 for each card
+    you have in play with "Spine" in the name.
+  db_uuid: b889fced61744419805a6ccf4cfae0c3
+  card_type: MainDeckCard

@@ -43,11 +43,10 @@
   grapple: 9
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
-  related_finishes: [
-    40419bfdf4a04147809995aa68a2586b,
-    b889fced61744419805a6ccf4cfae0c3,
-    c3d4ebd4f4104494a43bdfcce01d6cb4
-  ]
+  related_finishes:
+  - 40419bfdf4a04147809995aa68a2586b
+  - b889fced61744419805a6ccf4cfae0c3
+  - c3d4ebd4f4104494a43bdfcce01d6cb4
 - name: Burning Hammer
   deck_card_number: 28
   atk_type: Strike
@@ -89,3 +88,90 @@
     you have in play with "Spine" in the name.
   db_uuid: b889fced61744419805a6ccf4cfae0c3
   card_type: MainDeckCard
+- name: The Rising Sun
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 6
+  srg_url: https://supershowthegame.com/product/the-rising-sun/
+  rules_text: Whenever you roll Technique, draw 1 card.
+  related_finishes:
+  - fd05369cc86241898b47a1846d2d13e7
+  - 813b7639865341f7bca992dbf6931f76
+  - a175f29cdf774861b4d762e749e093d9
+  db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
+- name: The Sundown
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  srg_url: https://supershowthegame.com/product/the-rising-sun/
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Flip 2 cards, shuffle 2 cards from your discard pile into your deck.  Draw 2 cards'
+  db_uuid: fd05369cc86241898b47a1846d2d13e7
+- name: The Sunset Suplex
+  card_type: MainDeckCard
+  play_order: Finish
+  atk_type: Grapple
+  deck_card_number: 29
+  srg_url: https://supershowthegame.com/product/the-rising-sun/
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +3 to Grapple'
+  db_uuid: 813b7639865341f7bca992dbf6931f76
+- name: Circle of the Sun
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  srg_url: https://supershowthegame.com/product/the-rising-sun/
+  atk_type: Submission
+  rules_text: Your opponent gets 1 breakout roll this turn.
+  db_uuid: a175f29cdf774861b4d762e749e093d9
+- name: Lock Up
+  card_type: MainDeckCard
+  deck_card_number: 2
+  srg_url: https://supershowthegame.com/product/02-lock-up/
+  atk_type: Grapple
+  play_order: Lead
+  rules_text: Stop any Lead Submission.
+  db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
+- name: Headlock
+  card_type: MainDeckCard
+  deck_card_number: 3
+  srg_url: https://supershowthegame.com/product/03-headlock-os/
+  atk_type: Submission
+  play_order: Lead
+  rules_text: Stop any Lead Strike.
+  db_uuid: 685b2201f4994f9785f6f966cd4030c7
+- name: Kick
+  card_type: MainDeckCard
+  deck_card_number: 4
+  srg_url: https://supershowthegame.com/product/04-kick/
+  atk_type: Strike
+  play_order: Lead
+  rules_text: Stop any Follow Up Grapple.
+  db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
+- name: Hip Toss
+  card_type: MainDeckCard
+  deck_card_number: 5
+  srg_url: https://supershowthegame.com/product/05-hip-toss-os/
+  atk_type: Grapple
+  play_order: Lead
+  rules_text: Stop any Follow Up Submission.
+  db_uuid: f8197b5661294828847dd5e1865a2cfb
+- name: Armbar
+  card_type: MainDeckCard
+  deck_card_number: 6
+  srg_url: https://supershowthegame.com/product/06-armbar-os/
+  atk_type: Submission
+  play_order: Lead
+  rules_text: Stop any Follow Up Strike.
+  db_uuid: cda286cadae54ff0bbaa5aa168598f05

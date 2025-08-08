@@ -47,7 +47,7 @@ def load_cards(input_path: str, output_path: str):
     for entry in data:
         if not entry.get("db_uuid"):
             new_uuid = str(uuid.uuid4())
-            entry["db_uuid"] = new_uuid
+            entry["db_uuid"] = str(new_uuid).replace("-", "")
             print(f"🆕 Generated UUID {new_uuid} for entry '{entry.get('name')}'")
 
     # 2) Split entries by whether they have `related_finishes`

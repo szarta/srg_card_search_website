@@ -74,6 +74,12 @@ export default function CardDetail() {
                   <td>Yes</td>
                 </tr>
               )}
+              {card.rules_text && (
+                <tr>
+                  <td className="font-semibold py-4 align-top">Rules</td>
+                  <td className="whitespace-pre-wrap text-sm pt-4 pb-2 pl-6">{card.rules_text}</td>
+                </tr>
+              )}
               {isCompetitor &&
                 stats.map((stat) =>
                   card[stat] != null ? (

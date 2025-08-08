@@ -30,7 +30,7 @@ export default function SearchBar({ onSearch }) {
     });
   };
 
-  const isMainDeck = cardType === "Main Deck";
+  const isMainDeck = cardType === "MainDeckCard";
   const isCompetitor =
     cardType === "SingleCompetitorCard" ||
     cardType === "TornadoCompetitorCard" ||
@@ -55,7 +55,7 @@ export default function SearchBar({ onSearch }) {
         className="bg-gray-900 text-white border border-gray-600 rounded px-3 py-2"
       >
         <option value="">All Card Types</option>
-        <option value="Main Deck">Main Deck</option>
+        <option value="MainDeckCard">Main Deck</option>
         <option value="SingleCompetitorCard">Single Competitor</option>
         <option value="TornadoCompetitorCard">Tornado Competitor</option>
         <option value="TrioCompetitorCard">Trio Competitor</option>

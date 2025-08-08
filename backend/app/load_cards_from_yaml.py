@@ -1,16 +1,20 @@
+#!/usr/bin/env python3
 """
-@copyright Copyright 2025, Brandon Arrendondo
-See LICENSE.txt for details.
+Two-pass loader for SRG Supershow cards with UUID generation and YAML output:
+ 1) Ensure every entry has a db_uuid (generate if missing)
+ 2) Insert all cards without cross-references
+ 3) Insert remaining cards and link related finishes
+ 4) Write out an updated YAML with all entries (including generated UUIDs)
 """
-
+import sys
 import yaml
 import uuid
-from sqlalchemy.orm import sessionmaker
-from enum import Enum
-from sqlalchemy import create_engine
+from sqlalchemy.exc import IntegrityError
+from database import SessionLocal
 from models.base import (
-    Card,
+    CardType,
     MainDeckCard,
+    CompetitorCard,
     SingleCompetitorCard,
     TornadoCompetitorCard,
     TrioCompetitorCard,
@@ -21,94 +25,140 @@ from models.base import (
     PlayOrderSubtype,
 )
 
-DATABASE_URL = "postgresql://SECURE_USERNAME:SECURE_PASSWORD@localhost/srg_cards"
-engine = create_engine(DATABASE_URL)
-Session = sessionmaker(bind=engine)
-
-card_type_map = {
-    "MainDeckCard": MainDeckCard,
-    "SingleCompetitorCard": SingleCompetitorCard,
-    "TornadoCompetitorCard": TornadoCompetitorCard,
-    "TrioCompetitorCard": TrioCompetitorCard,
-    "EntranceCard": EntranceCard,
-    "SpectacleCard": SpectacleCard,
-    "CrowdMeterCard": CrowdMeterCard,
+# Map `CardType.value` → SQLAlchemy class
+MODEL_MAP = {
+    CardType.main_deck.value: MainDeckCard,
+    CardType.single_competitor.value: SingleCompetitorCard,
+    CardType.tornado_competitor.value: TornadoCompetitorCard,
+    CardType.trio_competitor.value: TrioCompetitorCard,
+    CardType.entrance.value: EntranceCard,
+    CardType.spectacle.value: SpectacleCard,
+    CardType.crowd_meter.value: CrowdMeterCard,
 }
 
 
-def clear_all_cards(session):
-    session.query(MainDeckCard).delete()
-    session.query(SingleCompetitorCard).delete()
-    session.query(TornadoCompetitorCard).delete()
-    session.query(TrioCompetitorCard).delete()
-    session.query(EntranceCard).delete()
-    session.query(SpectacleCard).delete()
-    session.query(CrowdMeterCard).delete()
-    session.query(Card).delete()
-    session.commit()
+def load_cards(input_path: str, output_path: str):
+    # 1) Read YAML
+    with open(input_path) as f:
+        data = yaml.safe_load(f)
 
+    # 1a) Ensure UUIDs on every entry
+    for entry in data:
+        if not entry.get('db_uuid'):
+            new_uuid = str(uuid.uuid4())
+            entry['db_uuid'] = new_uuid
+            print(f"🆕 Generated UUID {new_uuid} for entry '{entry.get('name')}'")
 
-def load_cards(yaml_file: str, output_file: str):
-    with open(yaml_file, "r") as f:
-        original_data = yaml.safe_load(f)
+    # 2) Split entries by whether they have `related_finishes`
+    no_refs   = [e for e in data if not e.get('related_finishes')]
+    with_refs = [e for e in data if e.get('related_finishes')]
 
-    updated_data = []
-    session = Session()
+    session = SessionLocal()
+    inserted = {}  # db_uuid -> instance
 
-    confirm = input("⚠️ This will DELETE all existing cards. Continue? (y/N): ")
-    if confirm.lower() != "y":
-        print("Aborted.")
-        return
-
-    clear_all_cards(session)
-
-    for entry in original_data:
-        entry = entry.copy()
-        type_name = entry.pop("card_type")
-        Model = card_type_map.get(type_name)
-
-        if not Model:
-            print(f"Skipping unknown card type: {type_name}")
+    # Phase 1: insert base cards
+    print("🚀 Phase 1: inserting cards without references...")
+    for entry in no_refs:
+        ctype = entry['card_type']
+        cls   = MODEL_MAP.get(ctype)
+        if not cls:
+            print(f"⚠️  Skipping unknown card_type {ctype!r} for {entry.get('name')!r}")
             continue
 
-        db_uuid = entry.get("db_uuid") or uuid.uuid4().hex
-        entry["db_uuid"] = db_uuid
-        entry["card_type"] = type_name
-
-        # Enum cleanup
-        if "atk_type" in entry:
-            try:
-                entry["atk_type"] = AttackSubtype[entry["atk_type"]]
-            except KeyError:
-                print(f"Invalid atk_type: {entry['atk_type']} — skipping.")
-                continue
-
-        if "play_order" in entry:
-            try:
-                entry["play_order"] = PlayOrderSubtype(entry["play_order"])
-            except KeyError:
-                print(f"Invalid play_order: {entry['play_order']} — skipping.")
-                continue
-
-        card = Model(**entry)
-        session.add(card)
-
-        # Convert enums back to string for output YAML
-        cleaned_entry = {
-            k: (v.value if isinstance(v, Enum) else v) for k, v in entry.items()
+        # Common fields for all cards
+        kwargs = {
+            'db_uuid':      entry['db_uuid'],
+            'name':         entry['name'],
+            'srg_url':      entry.get('srg_url'),
+            'release_set':  entry.get('release_set'),
+            'is_banned':    entry.get('is_banned', False),
+            'rules_text':   entry.get('rules_text'),
+            'errata_text':  entry.get('errata_text'),
+            'comments':     entry.get('comments'),
+            'tags':         entry.get('tags'),
+            'card_type':    ctype,
         }
-        updated_data.append(cleaned_entry)
+        # MainDeckCard extras
+        if cls is MainDeckCard:
+            if entry.get('deck_card_number') is not None:
+                kwargs['deck_card_number'] = entry['deck_card_number']
+            if entry.get('atk_type') is not None:
+                kwargs['atk_type']     = AttackSubtype(entry['atk_type'])
+            if entry.get('play_order') is not None:
+                kwargs['play_order']  = PlayOrderSubtype(entry['play_order'])
+
+        # CompetitorCard (and subclasses) extras
+        elif issubclass(cls, CompetitorCard):
+            for stat in ('power','agility','strike','submission','grapple','technique'):
+                if entry.get(stat) is not None:
+                    kwargs[stat] = entry[stat]
+
+        try:
+            card = cls(**kwargs)
+            session.add(card)
+            session.flush()
+            inserted[entry['db_uuid']] = card
+            print(f"✅ Inserted {cls.__name__} '{card.name}'")
+        except IntegrityError as err:
+            session.rollback()
+            print(f"❌ Failed to insert {entry.get('name')!r}: {err}")
+
+    # Phase 2: insert & link cards with references
+    print("🚀 Phase 2: inserting cards with references...")
+    for entry in with_refs:
+        ctype = entry['card_type']
+        cls   = MODEL_MAP.get(ctype)
+        if not cls:
+            print(f"⚠️  Skipping unknown card_type {ctype!r} for {entry.get('name')!r}")
+            continue
+
+        kwargs = {
+            'db_uuid':      entry['db_uuid'],
+            'name':         entry['name'],
+            'srg_url':      entry.get('srg_url'),
+            'release_set':  entry.get('release_set'),
+            'is_banned':    entry.get('is_banned', False),
+            'rules_text':   entry.get('rules_text'),
+            'errata_text':  entry.get('errata_text'),
+            'comments':     entry.get('comments'),
+            'tags':         entry.get('tags'),
+            'card_type':    ctype,
+        }
+        if issubclass(cls, CompetitorCard):
+            for stat in ('power','agility','strike','submission','grapple','technique'):
+                if entry.get(stat) is not None:
+                    kwargs[stat] = entry[stat]
+
+        try:
+            card = cls(**kwargs)
+            session.add(card)
+            session.flush()
+            # Link related finishes
+            for fid in entry.get('related_finishes', []):
+                finish_card = inserted.get(fid) or session.query(MainDeckCard).filter_by(db_uuid=fid).one()
+                card.related_finishes.append(finish_card)
+            session.flush()
+            inserted[entry['db_uuid']] = card
+            print(f"✅ Linked finishes for '{card.name}'")
+        except Exception as err:
+            session.rollback()
+            print(f"❌ Error linking finishes for {entry.get('name')!r}: {err}")
 
     session.commit()
     session.close()
-    print(f"🟡 Loaded {len(original_data)} entries from {yaml_file}")
-    print(f"✅ Loaded {len(updated_data)} cards.")
+    print("🎉 Database load complete.")
 
-    # Write output YAML with UUIDs
-    with open(output_file, "w") as f:
-        yaml.dump(updated_data, f, sort_keys=False)
-    print(f"📁 Wrote updated YAML with UUIDs to {output_file}")
+    # 4) Write out augmented YAML
+    try:
+        with open(output_path, 'w') as f:
+            yaml.safe_dump(data, f, sort_keys=False)
+        print(f"📦 Wrote augmented YAML to {output_path}")
+    except Exception as err:
+        print(f"❌ Failed to write augmented YAML: {err}")
 
 
-if __name__ == "__main__":
-    load_cards("cards.yaml", "cards_with_uuids.yaml")
+if __name__ == '__main__':
+    input_path = sys.argv[1] if len(sys.argv) > 1 else 'cards.yaml'
+    output_path = sys.argv[2] if len(sys.argv) > 2 else 'augmented_cards.yaml'
+    load_cards(input_path, output_path)
+

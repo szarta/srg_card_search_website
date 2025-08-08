@@ -49,7 +49,7 @@ Without further ado, the list.
 [[Crossbow]]
 [[Superman Punch]]
 [[Spinning Side Slam]]
-[[Chicken Wing]] 
+[[Chicken Wing]]
 
 ## Final Thoughts ##
 

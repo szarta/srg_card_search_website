@@ -2,6 +2,7 @@
 slug: the-rising-sun-example
 title: "The Rising Sun Example"
 author: Dondo
+author_email: dondo@get-diced.com
 date: 2025-08-08
 ---
 

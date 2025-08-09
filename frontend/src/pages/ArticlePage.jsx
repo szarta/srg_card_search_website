@@ -36,7 +36,19 @@ export default function ArticlePage() {
         <h1 className="text-4xl font-bold">{meta.title}</h1>
         {meta.author && meta.date && (
           <p className="text-sm text-gray-300">
-            by {meta.author} — {new Date(meta.date).toLocaleDateString()}
+            by{" "}
+            {meta.author_email ? (
+              <a
+                href={`mailto:${meta.author_email}`}
+                className="text-blue-400 hover:underline"
+              >
+                {meta.author}
+              </a>
+            ) : (
+              meta.author
+            )}
+            {" — "}
+            {new Date(meta.date).toLocaleDateString()}
           </p>
         )}
         {meta.video && (
@@ -66,8 +78,7 @@ export default function ArticlePage() {
           a: ({ node, ...props }) => (
             <a className="text-blue-400 hover:underline" {...props} />
           ),
-
-          // Paragraph override: parse [[…]] and [[[…]]]
+          // Paragraph with inline bracket parsing
           p: ({ node, children, ...props }) => {
             const text = Array.isArray(children) ? children.join("") : children;
             const parts = [];
@@ -83,8 +94,7 @@ export default function ArticlePage() {
             if (lastIndex < text.length) parts.push(text.slice(lastIndex));
             return <p {...props}>{parts}</p>;
           },
-
-          // Table-cell override: same bracket parsing inside <td>
+          // Table cell override to support inline bracket parsing
           td: ({ node, children, ...props }) => {
             const text = Array.isArray(children) ? children.join("") : children;
             const parts = [];
@@ -100,12 +110,51 @@ export default function ArticlePage() {
             if (lastIndex < text.length) parts.push(text.slice(lastIndex));
             return <td {...props}>{parts}</td>;
           },
+{
+          h1: ({ node, ...props }) => (
+            <h1 className="text-4xl font-bold mt-8 mb-4" {...props} />
+          ),
+          h2: ({ node, ...props }) => (
+            <h2 className="text-3xl mt-6 mb-3" {...props} />
+          ),
+          h3: ({ node, ...props }) => (
+            <h3 className="text-2xl mt-5 mb-2" {...props} />
+          ),
+          a: ({ node, ...props }) => (
+            <a className="text-blue-400 hover:underline" {...props} />
+          ),
+          p: ({ node, children, ...props }) => {
+            const parts = [];
+            const re = /\[\[\[([^\]]+)\]\]\]|\[\[([^\]]+)\]\]/g;
+            children.forEach((child, idx) => {
+              if (typeof child === 'string') {
+                let txt = child;
+                let last = 0;
+                let m;
+                while ((m = re.exec(txt))) {
+                  if (m.index > last) {
+                    parts.push(txt.slice(last, m.index));
+                  }
+                  if (m[1]) {
+                    parts.push(<CardImage key={`${idx}-${m.index}`} name={m[1].trim()} />);
+                  } else if (m[2]) {
+                    parts.push(<CardLink key={`${idx}-${m.index}`} name={m[2].trim()} />);
+                  }
+                  last = m.index + m[0].length;
+                }
+                if (last < txt.length) {
+                  parts.push(txt.slice(last));
+                }
+              } else {
+                parts.push(child);
+              }
+            });
+            return <p {...props}>{parts}</p>;
+          },
         }}
       >
         {content}
       </ReactMarkdown>
-
-
     </article>
   );
 }

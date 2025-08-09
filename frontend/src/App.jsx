@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
+import DeckList    from "./pages/DeckList";
+import ArticlePage from "./pages/ArticlePage";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/card/:uuid" element={<CardDetail />} />
+            <Route path="/decks" element={<DeckList />} />
+            <Route path="/decks/:slug" element={<ArticlePage />} />
           </Routes>
         </main>
 
@@ -22,9 +26,8 @@ function App() {
             <h3 className="text-white font-bold mb-2">Cards</h3>
             <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="/">Search</a></li>
-                <li><a className="hover:text-srgPurple" href="#">Syntax Guide</a></li>
-                <li><a className="hover:text-srgPurple" href="#">All Sets</a></li>
                 <li><a className="hover:text-srgPurple" href="#">Random Card</a></li>
+                <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
             </ul>
             </div>
             <div>

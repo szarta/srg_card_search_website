@@ -15,7 +15,7 @@ export default function DeckList() {
           <li key={slug}>
             <Link
               to={`/decks/${slug}`}
-              className="text-blue-400 hover:underline"
+              className="text-cyan-300 hover:underline"
             >
               {title}
             </Link>

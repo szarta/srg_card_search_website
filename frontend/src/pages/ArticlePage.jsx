@@ -40,7 +40,7 @@ export default function ArticlePage() {
             {meta.author_email ? (
               <a
                 href={`mailto:${meta.author_email}`}
-                className="text-blue-400 hover:underline"
+                className="text-cyan-300 hover:underline"
               >
                 {meta.author}
               </a>
@@ -76,7 +76,7 @@ export default function ArticlePage() {
             <h3 className="text-2xl mt-5 mb-2" {...props} />
           ),
           a: ({ node, ...props }) => (
-            <a className="text-blue-400 hover:underline" {...props} />
+            <a className="text-cyan-300 hover:underline" {...props} />
           ),
           // Paragraph with inline bracket parsing
           p: ({ node, children, ...props }) => {
@@ -121,7 +121,7 @@ export default function ArticlePage() {
             <h3 className="text-2xl mt-5 mb-2" {...props} />
           ),
           a: ({ node, ...props }) => (
-            <a className="text-blue-400 hover:underline" {...props} />
+            <a className="text-cyan-300 hover:underline" {...props} />
           ),
           p: ({ node, children, ...props }) => {
             const parts = [];

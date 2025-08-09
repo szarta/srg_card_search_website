@@ -112,7 +112,7 @@ export default function CardDetail() {
                       href={card.srg_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-400 hover:underline"
+                      className="text-cyan-300 hover:underline"
                     >
                       Official SRG Page
                     </a>

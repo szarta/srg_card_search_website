@@ -16,7 +16,7 @@ export default function CardLink({ name }) {
   return (
     <Link
       to={`/card/${card.db_uuid}`}
-      className="text-blue-400 hover:underline"
+      className="text-cyan-300 hover:underline"
     >
       {name}
     </Link>

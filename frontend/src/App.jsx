@@ -34,23 +34,15 @@ function App() {
             <h3 className="text-white font-bold mb-2">SRG</h3>
             <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="https://supershowthegame.com" target="_blank" rel="noreferrer">Official Site</a></li>
-                <li><a className="hover:text-srgPurple" href="#">FAQs</a></li>
-                <li><a className="hover:text-srgPurple" href="#">Community</a></li>
+                <li><a className="hover:text-srgPurple" href="https://www.srgpc.net/">SRGPC Card Database</a></li>
+                <li><a className="hover:text-srgPurple" href="https://www.facebook.com/groups/824706107919586/">Supershow Facebook Group</a></li>
+                <li><a className="hover:text-srgPurple" href="https://www.facebook.com/groups/1022514771216225">Card Trading Group</a></li>
             </ul>
             </div>
             <div>
             <h3 className="text-white font-bold mb-2">Developer</h3>
             <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="https://github.com/szarta/srg_card_search_website" target="_blank" rel="noreferrer">GitHub</a></li>
-                <li><a className="hover:text-srgPurple" href="#">API</a></li>
-            </ul>
-            </div>
-            <div>
-            <h3 className="text-white font-bold mb-2">Legal</h3>
-            <ul className="space-y-1">
-                <li><a className="hover:text-srgPurple" href="#">Terms</a></li>
-                <li><a className="hover:text-srgPurple" href="#">Privacy</a></li>
-                <li><a className="hover:text-srgPurple" href="#">Contact</a></li>
             </ul>
             </div>
         </div>

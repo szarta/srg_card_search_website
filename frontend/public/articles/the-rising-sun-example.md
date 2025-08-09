@@ -10,7 +10,7 @@ date: 2025-08-08
 
 [[[The Rising Sun]]]
 
-This is an example decklist to showcase displaying decks using the get-rolled
+This is an example decklist to showcase displaying decks using the get-diced
 API.  I'll start with [[The Rising Sun]], because I actually have cards for
 it.
 

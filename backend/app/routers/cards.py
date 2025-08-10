@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import asc, desc
 from typing import Optional
 from sqlalchemy.orm import with_polymorphic, joinedload
+import re
 
 from models.base import (
     Card,
@@ -31,6 +32,10 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+def _slugify(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
 @router.get("/cards", response_model=PaginatedCardResponse)
@@ -127,6 +132,35 @@ def list_cards(
         "total_count": total_count,
         "items": [CardSchema.model_validate(row).model_dump() for row in results],
     }
+
+
+@router.get("/cards/slug/{slug}", response_model=CardSchema)
+def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
+    # Broad filter by words to keep DB work reasonable,
+    # then exact-match via Python slugify
+    words = [w for w in slug.split("-") if w]
+    q = db.query(Card)
+    for w in words:
+        q = q.filter(Card.name.ilike(f"%{w}%"))
+
+    candidates = q.all()
+    card = next((c for c in candidates if _slugify(c.name) == slug), None)
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+
+    # Join related_* exactly like your /cards/{db_uuid} endpoint
+    ctype = card.card_type
+    opts = [joinedload(Card.related_cards)]
+    if ctype in {
+        CardType.single_competitor.value,
+        CardType.tornado_competitor.value,
+        CardType.trio_competitor.value,
+    }:
+        opts.append(joinedload(CompetitorCard.related_finishes))
+
+    card = db.query(Card).options(*opts).filter(Card.db_uuid == card.db_uuid).first()
+
+    return CardSchema.model_validate(card).model_dump()
 
 
 @router.get("/cards/{db_uuid}", response_model=CardSchema)

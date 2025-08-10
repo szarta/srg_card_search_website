@@ -1,16 +1,30 @@
 import { useParams, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useMemo, useEffect, useState } from "react";
 import Pagination from "../components/Pagination";
+import { slugify } from "../lib/slug";
 
 export default function CardDetail() {
-  const { uuid } = useParams();
+  const { idOrSlug } = useParams();
   const [card, setCard] = useState(null);
   const [relCardsPage, setRelCardsPage] = useState(1);
   const [relFinPage, setRelFinPage] = useState(1);
   const itemsPerPage = 5;
+  const [copied, setCopied] = useState(false);
+  const slug = useMemo(() => (card?.name ? slugify(card.name) : ""), [card]);
+
+  const copySlugUrl = () => {
+    if (!slug) return;
+    const url = `${window.location.origin}/card/${slug}`;
+    navigator.clipboard?.writeText(url).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1200);
+    });
+  };
 
   useEffect(() => {
-    fetch(`/cards/${uuid}`)
+      const isUuid = /^[0-9a-f]{32}$/i.test(idOrSlug);
+      const url = isUuid ? `/cards/${idOrSlug}` : `/cards/slug/${idOrSlug}`;
+      fetch(url)
       .then((res) => res.json())
       .then((data) => {
         setCard(data);
@@ -18,7 +32,7 @@ export default function CardDetail() {
         setRelFinPage(1);
       })
       .catch(console.error);
-  }, [uuid]);
+  }, [idOrSlug]);
 
   if (!card) return <div className="p-4 text-center text-gray-400">Loading...</div>;
 
@@ -60,6 +74,24 @@ export default function CardDetail() {
         {/* Right: Card Details */}
         <div className="flex-grow">
           <h1 className="text-2xl font-bold mb-4">{card.name}</h1>
+            {slug && (
+            <div className="mt-2 mb-4 flex items-center gap-3 text-sm">
+                <span className="text-gray-400">Link:</span>
+                <Link
+                to={`/card/${slug}`}
+                className="text-cyan-300 hover:text-cyan-200 underline underline-offset-2"
+                >
+                /card/{slug}
+                </Link>
+                <button
+                onClick={copySlugUrl}
+                className="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-gray-200"
+                >
+                {copied ? "Copied!" : "Copy"}
+                </button>
+            </div>
+            )}
+
           <table className="w-full mb-4">
             <tbody>
               {card.card_type && (

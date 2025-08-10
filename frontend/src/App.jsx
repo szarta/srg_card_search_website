@@ -13,7 +13,7 @@ function App() {
         <main className="flex-grow px-4 py-6 max-w-7xl mx-auto w-full">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/card/:uuid" element={<CardDetail />} />
+            <Route path="/card/:idOrSlug" element={<CardDetail />} />
             <Route path="/decks" element={<DeckList />} />
             <Route path="/decks/:slug" element={<ArticlePage />} />
           </Routes>

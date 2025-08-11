@@ -1,3 +1,4 @@
+---
 - name: American Double Punch
   srg_url: https://supershowthegame.com/product/01-american-double-punch/
   release_set: Unknown
@@ -44,9 +45,9 @@
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
   related_finishes:
-  - 40419bfdf4a04147809995aa68a2586b
-  - b889fced61744419805a6ccf4cfae0c3
-  - c3d4ebd4f4104494a43bdfcce01d6cb4
+     - 40419bfdf4a04147809995aa68a2586b
+     - b889fced61744419805a6ccf4cfae0c3
+     - c3d4ebd4f4104494a43bdfcce01d6cb4
 - name: Burning Hammer
   deck_card_number: 28
   atk_type: Strike
@@ -99,9 +100,9 @@
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
-  - fd05369cc86241898b47a1846d2d13e7
-  - 813b7639865341f7bca992dbf6931f76
-  - a175f29cdf774861b4d762e749e093d9
+     - fd05369cc86241898b47a1846d2d13e7
+     - 813b7639865341f7bca992dbf6931f76
+     - a175f29cdf774861b4d762e749e093d9
   db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
 - name: The Sundown
   card_type: MainDeckCard
@@ -175,3 +176,163 @@
   play_order: Lead
   rules_text: Stop any Follow Up Strike.
   db_uuid: cda286cadae54ff0bbaa5aa168598f05
+- name: Aaron Dallas
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll: Your opponent randomly reveals
+    1 card in their hand; if it is a stop, they discard it.'
+  srg_url: https://supershowthegame.com/product/aaron-dallas/
+  db_uuid: ca03f4b01d5d409fbd3a75a8e58d83a1
+  related_finishes:
+     - 31ab2f0496e64b75a349d1b43d503088
+     - f09f15c51c37454c88216673d381bd1e
+     - 20b4b457c0e948a7b2ee3de55ac525cc
+     - 98dc503d4fc440e1828186024e0db7d8
+     - 588e9300687e47219cd404235031d8d3
+     - 9a6b598359b74c3fab8ecb0056bf97f9
+     - 583ce65671864a5699baf0f730b974b4
+     - 3143d64b2c2e415b81f1b42b8c7f5786
+     - 12048b7630154f6a9f388e612d613e6c
+- name: Southern State Stomps
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +1 to Power\n+2 to Strike\nDraw 1 card for each Follow Up you have in
+    play.
+  srg_url: https://supershowthegame.com/product/28-southern-state-stomps/
+  db_uuid: 31ab2f0496e64b75a349d1b43d503088
+- name: Southern State Sweep
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 29
+  atk_type: Grapple
+  rules_text: +1 to Power\n+1 To Technique\n+1 to Submission\nIf you have 2 other
+    Grapples in play, double these bonuses.
+  srg_url: https://supershowthegame.com/product/29-southern-state-sweep/
+  db_uuid: f09f15c51c37454c88216673d381bd1e
+- name: Southern State Toe Hold
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  atk_type: Submission
+  rules_text: +1 to Technique\n+1 to Agility\n+1 to Submission\nStop any Strike with
+    "Kick" in the name that cannot be stopped.
+  srg_url: https://supershowthegame.com/product/30-southern-state-toe-hold/
+  db_uuid: 20b4b457c0e948a7b2ee3de55ac525cc
+- name: Southern State Steel Chain
+  card_type: MainDeckCard
+  atk_type: Strike
+  deck_card_number: 28
+  play_order: Finish
+  rules_text: +1 to Strike\n+1 to Submission\n+1 to Grapple\nYour opponent randomly
+    discards 1 card from their hand.
+  srg_url: https://supershowthegame.com/product/28-southern-state-steel-chain/
+  db_uuid: 98dc503d4fc440e1828186024e0db7d8
+- name: Southern State Spike
+  card_type: MainDeckCard
+  deck_card_number: 29
+  play_order: Finish
+  atk_type: Grapple
+  rules_text: +1 to Power\n+2 To Grapple\nYour next turn roll is +1.\nIf you hit a
+    Strike last turn, double these bonuses.
+  srg_url: ''
+  db_uuid: 588e9300687e47219cd404235031d8d3
+- name: Southern State Crab
+  card_type: MainDeckCard
+  deck_card_number: 30
+  play_order: Finish
+  atk_type: Submission
+  rules_text: +1 to Submission\nSeach your deck for 1 Finish and add it to your hand.\nOnce
+    per turn:\nYou may discard 1 Finish from your hand to re-roll your Finish roll.
+  srl_url: ''
+  db_uuid: 9a6b598359b74c3fab8ecb0056bf97f9
+- name: Southern State Cross
+  card_type: MainDeckCard
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Bury 1 card in you or your opponent''s discard pile.'
+  srg_url: ''
+  db_uuid: 583ce65671864a5699baf0f730b974b4
+- name: Southern State Suplex
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 29
+  atk_type: Grapple
+  rules_text: '+2 to Grapple.
+
+    Your lowest skill is +3.'
+  srg_url: https://supershowthegame.com/product/29-southern-state-suplex/
+  db_uuid: 3143d64b2c2e415b81f1b42b8c7f5786
+- name: Southern State Trap
+  card_type: MainDeckCard
+  deck_card_number: 30
+  play_order: Finish
+  atk_type: Submission
+  rules_text: Copy the text of 1 card in your discard pile.
+  srg_url: https://supershowthegame.com/product/30-southern-state-trap/
+  db_uuid: 12048b7630154f6a9f388e612d613e6c
+- name: Amazing Red
+  release_set: Unknown
+  is_banned: false
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 7
+  srg_url: https://supershowthegame.com/product/amazing-red/
+  rules_text: When you roll Power for your turn roll draw 2 cards.
+  tag: world_championship
+  db_uuid: 2507369b706f4dec83b61e8da40b80c0
+- name: Infrared
+  card_type: MainDeckCard
+  deck_card_number: 28
+  play_order: Finish
+  atk_type: Strike
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  srg_url: https://supershowthegame.com/product/amazing-red/
+  db_uuid: b36a163260f2481b9fe93ca951a27f8a
+- name: Code Red
+  card_type: MainDeckCard
+  deck_card_number: 29
+  play_order: Finish
+  atk_type: Grapple
+  rules_text: '+4 to Power
+
+    +2 to Grapple
+
+    Bury any number of cards in your hand, then draw the same number of cards.'
+  srg_url: https://supershowthegame.com/product/amazing-red/
+  db_uuid: 6b71fa12b14c4464bbad53ad3995915d
+- name: Red Cross
+  card_type: MainDeckCard
+  deck_card_number: 30
+  play_order: Finish
+  atk_type: Submission
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Bury any number of cards in your hand, your opponent buries the same number of
+    cards in his hand.'
+  srg_url: https://supershowthegame.com/product/amazing-red/
+  db_uuid: 988a1e53a2124782a0f3addf54f5215b
+...

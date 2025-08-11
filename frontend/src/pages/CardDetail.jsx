@@ -36,7 +36,7 @@ export default function CardDetail() {
 
   if (!card) return <div className="p-4 text-center text-gray-400">Loading...</div>;
 
-  const stats = ["power", "agility", "strike", "submission", "grapple", "technique"];
+  const stats = ["power", "technique", "agility", "strike", "submission", "grapple"];
   const competitorTypes = [
     "SingleCompetitorCard",
     "TornadoCompetitorCard",

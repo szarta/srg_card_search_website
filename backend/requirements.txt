@@ -2,3 +2,6 @@ sqlalchemy
 psycopg2
 sqlalchemy-utils
 fastapi[all]
+pillow
+pyyaml
+rapidfuzz

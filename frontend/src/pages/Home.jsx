@@ -29,6 +29,13 @@ export default function Home() {
     if (f.atkType) params.append("atk_type", f.atkType);
     if (f.playOrder) params.append("play_order", f.playOrder);
 
+
+    // Main Deck: deck_card_number
+    if (f.cardType === "MainDeckCard" && f.deckCardNumber !== "") {
+      const n = parseInt(f.deckCardNumber, 10);
+      if (!Number.isNaN(n)) params.append("deck_card_number", String(n));
+    }
+
     // competitor stat filters (backend expects Optional[int])
     ["power","agility","strike","submission","grapple","technique"].forEach((k) => {
       const v = f?.[k];

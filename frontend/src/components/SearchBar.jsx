@@ -5,6 +5,7 @@ export default function SearchBar({ onSearch }) {
   const [cardType, setCardType] = useState("");
   const [atkType, setAtkType] = useState("");
   const [playOrder, setPlayOrder] = useState("");
+  const [deckCardNumber, setDeckCardNumber] = useState("");
 
   // Competitor stats
   const [power, setPower] = useState("");
@@ -14,6 +15,12 @@ export default function SearchBar({ onSearch }) {
   const [grapple, setGrapple] = useState("");
   const [technique, setTechnique] = useState("");
 
+  const isMainDeck = cardType === "MainDeckCard";
+  const isCompetitor =
+    cardType === "SingleCompetitorCard" ||
+    cardType === "TornadoCompetitorCard" ||
+    cardType === "TrioCompetitorCard";
+
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch({
@@ -21,34 +28,31 @@ export default function SearchBar({ onSearch }) {
       cardType,
       atkType,
       playOrder,
+      deckCardNumber, // Home.jsx will only include when MainDeck
       power,
       agility,
       strike,
       submission,
       grapple,
-      technique,
+      technique,      // Home.jsx already guards to send only valid numbers
     });
   };
-
-  const isMainDeck = cardType === "MainDeckCard";
-  const isCompetitor =
-    cardType === "SingleCompetitorCard" ||
-    cardType === "TornadoCompetitorCard" ||
-    cardType === "TrioCompetitorCard";
 
   return (
     <form
       onSubmit={handleSubmit}
       className="flex flex-wrap items-center gap-4 bg-neutral-900 p-4 rounded shadow-md"
     >
+      {/* Text search */}
       <input
         type="text"
         placeholder="Search name or rules..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="flex-1 bg-gray-900 text-white border border-gray-600 rounded px-3 py-2"
+        className="flex-1 min-w-[220px] bg-gray-900 text-white border border-gray-600 rounded px-3 py-2"
       />
 
+      {/* Card type */}
       <select
         value={cardType}
         onChange={(e) => setCardType(e.target.value)}
@@ -64,12 +68,13 @@ export default function SearchBar({ onSearch }) {
         <option value="CrowdMeterCard">Crowd Meter</option>
       </select>
 
+      {/* Attack type (Main Deck only) */}
       <select
         value={atkType}
         onChange={(e) => setAtkType(e.target.value)}
         disabled={!isMainDeck}
-        className={`bg-gray-900 text-white border rounded px-3 py-2 ${
-          !isMainDeck ? "opacity-50 cursor-not-allowed" : "border-gray-600"
+        className={`bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
+          isMainDeck ? "border-gray-600" : "border-gray-700"
         }`}
       >
         <option value="">Attack Type</option>
@@ -78,12 +83,13 @@ export default function SearchBar({ onSearch }) {
         <option value="Submission">Submission</option>
       </select>
 
+      {/* Play order (Main Deck only) */}
       <select
         value={playOrder}
         onChange={(e) => setPlayOrder(e.target.value)}
         disabled={!isMainDeck}
-        className={`bg-gray-900 text-white border rounded px-3 py-2 ${
-          !isMainDeck ? "opacity-50 cursor-not-allowed" : "border-gray-600"
+        className={`bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
+          isMainDeck ? "border-gray-600" : "border-gray-700"
         }`}
       >
         <option value="">Play Order</option>
@@ -92,27 +98,42 @@ export default function SearchBar({ onSearch }) {
         <option value="Finish">Finish</option>
       </select>
 
-      {isCompetitor && (
-        <div className="flex flex-wrap gap-2">
-          {[
-            ["Power", power, setPower],
-            ["Agility", agility, setAgility],
-            ["Strike", strike, setStrike],
-            ["Submission", submission, setSubmission],
-            ["Grapple", grapple, setGrapple],
-            ["Technique", technique, setTechnique],
-          ].map(([label, value, setter]) => (
-            <input
-              key={label}
-              type="number"
-              placeholder={label}
-              value={value}
-              onChange={(e) => setter(e.target.value)}
-              className="w-24 bg-gray-900 text-white border border-gray-600 rounded px-2 py-1"
-            />
-          ))}
-        </div>
-      )}
+      {/* Card Number — always visible, disabled unless Main Deck */}
+      <input
+        type="number"
+        min="1"
+        placeholder="Card Number"
+        value={deckCardNumber}
+        onChange={(e) => setDeckCardNumber(e.target.value)}
+        disabled={!isMainDeck}
+        className={`w-36 bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
+          isMainDeck ? "border-gray-600" : "border-gray-700"
+        }`}
+      />
+
+      {/* Competitor stats — always visible, disabled unless competitor type */}
+      <div className="flex flex-wrap gap-2">
+        {[
+          ["Power", power, setPower],
+          ["Agility", agility, setAgility],
+          ["Strike", strike, setStrike],
+          ["Submission", submission, setSubmission],
+          ["Grapple", grapple, setGrapple],
+          ["Technique", technique, setTechnique],
+        ].map(([label, value, setter]) => (
+          <input
+            key={label}
+            type="number"
+            placeholder={label}
+            value={value}
+            onChange={(e) => setter(e.target.value)}
+            disabled={!isCompetitor}
+            className={`w-24 bg-gray-900 text-white border rounded px-2 py-1 disabled:opacity-50 disabled:cursor-not-allowed ${
+              isCompetitor ? "border-gray-600" : "border-gray-700"
+            }`}
+          />
+        ))}
+      </div>
 
       <button
         type="submit"

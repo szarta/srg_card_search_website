@@ -45,9 +45,9 @@
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
   related_finishes:
-     - 40419bfdf4a04147809995aa68a2586b
-     - b889fced61744419805a6ccf4cfae0c3
-     - c3d4ebd4f4104494a43bdfcce01d6cb4
+    - 40419bfdf4a04147809995aa68a2586b
+    - b889fced61744419805a6ccf4cfae0c3
+    - c3d4ebd4f4104494a43bdfcce01d6cb4
 - name: Burning Hammer
   deck_card_number: 28
   atk_type: Strike
@@ -100,9 +100,9 @@
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
-     - fd05369cc86241898b47a1846d2d13e7
-     - 813b7639865341f7bca992dbf6931f76
-     - a175f29cdf774861b4d762e749e093d9
+    - fd05369cc86241898b47a1846d2d13e7
+    - 813b7639865341f7bca992dbf6931f76
+    - a175f29cdf774861b4d762e749e093d9
   db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
 - name: The Sundown
   card_type: MainDeckCard
@@ -189,15 +189,15 @@
   srg_url: https://supershowthegame.com/product/aaron-dallas/
   db_uuid: ca03f4b01d5d409fbd3a75a8e58d83a1
   related_finishes:
-     - 31ab2f0496e64b75a349d1b43d503088
-     - f09f15c51c37454c88216673d381bd1e
-     - 20b4b457c0e948a7b2ee3de55ac525cc
-     - 98dc503d4fc440e1828186024e0db7d8
-     - 588e9300687e47219cd404235031d8d3
-     - 9a6b598359b74c3fab8ecb0056bf97f9
-     - 583ce65671864a5699baf0f730b974b4
-     - 3143d64b2c2e415b81f1b42b8c7f5786
-     - 12048b7630154f6a9f388e612d613e6c
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Southern State Stomps
   card_type: MainDeckCard
   atk_type: Strike
@@ -335,4 +335,724 @@
     cards in his hand.'
   srg_url: https://supershowthegame.com/product/amazing-red/
   db_uuid: 988a1e53a2124782a0f3addf54f5215b
-...
+- name: 12 Grapple Matt
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: Your Grapple skill is +2 during turn rolls.
+  db_uuid: 258cee74f15b452e85bc92754f82dd0e
+  related_finishes:
+    - 09e71cd6c68b4bf298d92c2ff239807f
+    - ad9bf71f6fbf4867ab715f1c1c289af6
+    - 405ed37a86044038851fc23caae39086
+- name: From Out of Nowhere
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If you have a card with "Trash Can" in the name in play, double these bonuses.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 09e71cd6c68b4bf298d92c2ff239807f
+- name: DDT It!
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    If you have card #14, #20, or #26 with "Trash Can" in the name in play, stop any
+    Finish Submission.'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: ad9bf71f6fbf4867ab715f1c1c289af6
+- name: Straight Trash
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Shuffle 1 card from your discard pile into your deck for each card you have in
+    play with "Trash" in the name.'
+  deck_card_number: 30
+  atk_type: Submission
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 405ed37a86044038851fc23caae39086
+- name: 4 Leaf Flynn (V1)
+  card_type: SingleCompetitorCard
+  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or add 1 card
+    from your discard pile to your hand.'
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  related_finishes:
+  - 0bf8b12f88e741c8a772eaa84907f5b9
+  - bc0996058a224c84b9ec922e3cdd7ccf
+  - d76b3a128b3c43a7b1929a4e27eff816
+  db_uuid: 5bf284e2d59b41168a6e94f33a195091
+- name: Kiss the Blarney
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If you have 0 cards in your deck, this card is also a Follow Up.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 0bf8b12f88e741c8a772eaa84907f5b9
+- name: Finnegan's Wake
+  rules_text: Your opponent's 1st breakout roll is -1 for each Lead you have in play.  Your
+    opponent's second breakout roll is -1 for each Follow Up you have in play.
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: bc0996058a224c84b9ec922e3cdd7ccf
+- name: The Lucky Clover
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    If stopped, put 3 cards from your discard pile on top of your deck.  If you had
+    0 cards in your deck put up to 6 cards instead.'
+  deck_card_number: 30
+  atk_type: Submission
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: d76b3a128b3c43a7b1929a4e27eff816
+- name: 4 Leaf Flynn (V2)
+  card_type: SingleCompetitorCard
+  rules_text: When you have 4 Follow Ups in play, your Agility is +4.
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  db_uuid: fee2912bede943978d3d1ab2401a6e38
+  related_finishes:
+  - 83c6e0940bda433fb7fb5890b347eb8c
+  - 940845533093491e80106116c45d4df8
+  - bcfd8647a932431bbbfd4af323ea5b01
+- name: Four Leaf Fury
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Strike skill is +1 for each Follow Up you have in play.
+
+    If you have 4 Follow Ups in play, your Technique and Agility is +1.'
+  db_uuid: 83c6e0940bda433fb7fb5890b347eb8c
+- name: Dublin Down
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power.
+
+    You may discard your hand to re-roll your finish roll.'
+  db_uuid: 940845533093491e80106116c45d4df8
+- name: The 4 Leaf Clover
+  deck_card_number: 30
+  atk_type: Submission
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Shuffle 4 Follow Ups from your discard pile into your deck.'
+  db_uuid: bcfd8647a932431bbbfd4af323ea5b01
+- name: Abigail Fairy in Training
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 5
+  grapple: 8
+  rules_text: When you and your opponent roll the same skill for your turn role, look
+    at the top 2 cards of your opponent's deck, bury 1, and discard the other.
+  db_uuid: c0bfb96bd9054080960a0ecbaeb13e64
+  related_finishes:
+  - b23b8827606b4a2c9e00f04c341a71e7
+  - 2a38028795434275a8abbfbfa7e26e53
+  - 603637774747410bbf03072fe705b474
+- name: Ride the Noonakorn
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    +2 to Strike'
+  db_uuid: b23b8827606b4a2c9e00f04c341a71e7
+- name: Cuddle Time
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you and your opponent roll the same
+    skill for your turn roll, put 1 other Finish card from your discard pile on top
+    of your deck.'
+  db_uuid: 2a38028795434275a8abbfbfa7e26e53
+- name: Bedtime Stories
+  deck_card_number: 30
+  atk_type: Submission
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    +4 to Submission
+
+    If stopped, you may put 1 Finish from your discard pile on top of your deck.'
+  db_uuid: 603637774747410bbf03072fe705b474
+- name: Abominable Big Shot
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: You may bury 3 cards in your hand to stop any Submission.
+  db_uuid: 2940ac1fddf54ee5a1245615bd109907
+  related_finishes:
+  - fbde02856d4c4b70a785ac5242932b26
+  - 2e90fdf49f4846dcab979a85aa2b3cab
+  - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+- name: The Big Shot
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force
+    them to re-roll.'
+  db_uuid: 34920b2f4af2455da98b228debb1e87f
+  related_finishes:
+  - fbde02856d4c4b70a785ac5242932b26
+  - 2e90fdf49f4846dcab979a85aa2b3cab
+  - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+- name: Lights Out!
+  rules_text: '+1 to Power
+
+    +4 to Agility
+
+    Your opponent buries 5 cards in their hand.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: fbde02856d4c4b70a785ac5242932b26
+- name: Shot Down!
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Take one card from your discard pile and add it to your hand.'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 2e90fdf49f4846dcab979a85aa2b3cab
+- name: The Last Word
+  rules_text: '+4 to Technique
+
+    +2 to Submission'
+  deck_card_number: 30
+  atk_type: Submission
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+- name: The Above Average Warrior
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: When you would roll 7 for your turn roll, your turn roll is instead
+    +1.
+  related_finishes:
+  - a09f74e867e347f18db66908165ba744
+  - 65378fd23cc2477fa53666f33d895ad0
+  - cb84282851514afd9bc6465c0d63ebf9
+  db_uuid: bb8f720590c44fe189ce68af24a73598
+- name: Cuddy Warrior
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: When your Cuddy Warrior Finish is stopped, draw 3 cards.
+  db_uuid: 51d5df82cf0c4be6bcf83bc723a524e8
+  related_finishes:
+  - a09f74e867e347f18db66908165ba744
+  - 65378fd23cc2477fa53666f33d895ad0
+  - cb84282851514afd9bc6465c0d63ebf9
+  - 5522669972ad41a0b943263d11e6645f
+  - a8ca9c9a0e664fbead8924cf46acb95a
+  - c9ffe2001ba0486a9c921193989c9176
+- name: Ultimate Destruction
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If stopped, each player buries 3 cards in their hand.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: a09f74e867e347f18db66908165ba744
+- name: Ultimate Annihilation
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Each player''s Gimmick is blanked until the end of the match.'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 65378fd23cc2477fa53666f33d895ad0
+- name: Ultimate Agony
+  rules_text: '+4 to Submission
+
+    When this card is in your discard pile and you stop a Finish, draw 1 card.'
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: cb84282851514afd9bc6465c0d63ebf9
+- name: Above Average Cuddy Splash
+  rules_text: '+2 to Agility
+
+    +3 to Submission
+
+    Un-blank your Gimmick and Finishes until the end of the match.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 5522669972ad41a0b943263d11e6645f
+- name: Above Average Cuddy Slam
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Draw 1 card.'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: a8ca9c9a0e664fbead8924cf46acb95a
+- name: Above Average Cuddy Crash
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    +2 to Submission'
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: c9ffe2001ba0486a9c921193989c9176
+- name: Inevitable Ace Austin
+  card_type: SingleCompetitorCard
+  rules_text: When you reveal any number of cards, you may switch one of them with
+    the bottom card of your deck.
+  power: 6
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
+  db_uuid: 9fd2c3aee2a04dc2b28c07e043be587c
+  related_finishes:
+  - 26d8904b89a44ed481131580376de702
+  - f9a5b8865ff44c9397aed40cc3b11b2a
+  - ebda093ef7284c7f9e10da5e35be90ae
+  - 4fcb3ec9e7144d628ae94a12855ca46e
+  - ba54a7d9874e48169b07969b52f171c6
+  - a38f21dfd9cf4924a668c3396a428844
+- name: Whole Lotta Lariat
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Once per turn: You may reveal 2 Submissions from your hand to re-roll your Finish
+    roll'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 26d8904b89a44ed481131580376de702
+- name: Crash Landing
+  rules_text: '+3 to Technique
+
+    +2 to Grapple'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
+- name: Fear of Diving
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    If the Crowd Meter is 4 or greater stop any Finish Strike.'
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: ebda093ef7284c7f9e10da5e35be90ae
+- name: The Paper Cut
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Once per turn: You may discard 1 Submission from your hand to force your opponent
+    to re-roll their Breakout Roll'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
+- name: Cactus Driver 97'
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Strike'
+  db_uuid: ba54a7d9874e48169b07969b52f171c6
+- name: The Ball Claw
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If the Crowd Meter is 5 or greater, this card cannot be stopped.'
+  db_uuid: a38f21dfd9cf4924a668c3396a428844
+- name: ACH
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: Once during any players turn, when your opponent draws any number of
+    cards you may draw 1 card.
+  db_uuid: ee611f569485400fa6312512db2ce31e
+  related_finishes:
+  - 5aa5e914c85849e583720d1b223106dc
+  - 2933cd72b4a546d2af5b6ae2ef4124f1
+  - 27fe7e0441f442c696059ced7ca7aca7
+- name: Midnight Star
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Draw 3 cards then bury 1 card in your hand.'
+  db_uuid: 5aa5e914c85849e583720d1b223106dc
+- name: Big Vic Driver
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Each player draws 1 card.
+
+    Look at your opponent''s hand
+
+    Choose 1 card and discard it.'
+  db_uuid: 2933cd72b4a546d2af5b6ae2ef4124f1
+- name: Muta-Lock
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Take 3 cards from your discard pile and shuffle them into your deck.'
+  db_uuid: 27fe7e0441f442c696059ced7ca7aca7
+- name: Adam Page
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: 'Once during your turn: You may discard 1 Submission from your hand
+    to add 1 Follow Up Strike with "Lariat" or "Clothesline" in the name from your
+    discard pile to your hand.'
+  db_uuid: 56608588327c405bb148ae2d2feafecc
+  related_finishes:
+  - 201afe1b89a94760b58e40faa52db6c2
+  - 503c3ebd43a940c181fa2bf187e1ad41
+  - 4a8ada07bd32499b964de543c6ac5099
+- name: Buckshot Lariat
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    When the Crowd Meter is 5 or greater this card is also a Follow Up'
+  db_uuid: 201afe1b89a94760b58e40faa52db6c2
+- name: Rite of Passage
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If your opponent breaks out the Crowd Meter is +2'
+  db_uuid: 503c3ebd43a940c181fa2bf187e1ad41
+- name: Half Nelson Suplex
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: +2 to Submission\n+1 to Grapple\nWhen this card is in your discard pile
+    and you hit "Half Nelson Hold" you may add it to your hand.
+  db_uuid: 4a8ada07bd32499b964de543c6ac5099
+- name: Adam Priest
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: 'When you roll Submission for your turn roll: Your cards with "Suplex"
+    in the name cannot be stopped'
+  db_uuid: c077293c5143451885069856ec9b01e9
+  related_finishes:
+  - 68f25c8d00de476fb5d349180706cc39
+  - 66e3b16cedb742cba0b484f063812459
+  - 53f2706a3ff849c3a47e4f8a5369db1b
+- name: Loaded Arm Deathlock
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If your opponent has a card in play with "Lock" in the name, double these bonuses.'
+  db_uuid: 68f25c8d00de476fb5d349180706cc39
+- name: Snap German
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    Your opponent randomly buries 1 card in their hand.'
+  db_uuid: 66e3b16cedb742cba0b484f063812459
+- name: Sharpshooter
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: If your Finish roll is 7 or less, it is +2
+  db_uuid: 53f2706a3ff849c3a47e4f8a5369db1b
+- name: Agatha Mai (V1)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 6
+  rules_text: 'Once per turn roll: When your opponent rolls Submission for their turn
+    roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
+  db_uuid: c55b4d45a80342fd985aae1570e1ab61
+  related_finishes:
+  - b4cd11de0d694343be8e3d6c54047fbf
+  - 1786be24bdf54c4fa509e787930bc12d
+  - ad2ec46d2e42432aa47ebc834a62b158
+- name: Sea-Trigger
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    Each player shuffles their discard pile into their deck.'
+  db_uuid: b4cd11de0d694343be8e3d6c54047fbf
+- name: High Tide
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: +3 to Strike\n+1 to Grapple\nStop "Derailed"
+  db_uuid: 1786be24bdf54c4fa509e787930bc12d
+- name: Heave-Ho
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Grapple
+
+    Flip up to 2 cards. Shuffle up to 10 cards from your discard pile into your deck.
+
+    Your opponent flips and shuffles the same number of cards.'
+  db_uuid: ad2ec46d2e42432aa47ebc834a62b158
+- name: Agatha Mai (V2)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 6
+  rules_text: 'Once per turn roll: When your target rolls Submission for their turn
+    roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
+  db_uuid: 08559cdcf0704b188fbe388192e2181e
+  related_finishes:
+  - 040232a9ce804e3eb4ea2a25283f6298
+  - 120a4a3ffc124a21be376a2d5f6df56d
+  - c17faf738dc9453097c7b4301baaafff
+  - 01d7642fbfae4817a4ff1c01f175e9e8
+  - c97d0ef041cd4e33824b7583bd7fc0a1
+  - cd01ac08134342bda5826e44a1ff1c9d
+- name: Quantum Quake
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Discard 1 card from your hand.
+
+    +1 to Agility
+
+    +4 to Strike'
+  db_uuid: 040232a9ce804e3eb4ea2a25283f6298
+- name: Shipwreck Menagerie
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: 120a4a3ffc124a21be376a2d5f6df56d
+- name: The Mystic Plunder
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Bury 3 cards in any player''s discard pile.'
+  db_uuid: c17faf738dc9453097c7b4301baaafff
+- name: Crocodile Chop
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Each playher discards 1 card from their hand.
+
+    Draw 1 card'
+  db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
+- name: Steel Chain Anchors Aweigh
+  deck_card_number: 29
+  atk_type: Grapple
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Draw 1 card for each Scallywag Symbol you have revealed on your entrance and competitor
+    cards.'
+  db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
+- name: Death is the Only Great Adventure You Have Left
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Stop any Finish Strike that is a Stop
+
+    '
+  db_uuid: cd01ac08134342bda5826e44a1ff1c9d

@@ -10,6 +10,12 @@ export default function Home() {
     cardType: "",
     atkType: "",
     playOrder: "",
+    power: "",
+    agility: "",
+    strike: "",
+    submission: "",
+    grapple: "",
+    technique: "",
   });
   const [page, setPage] = useState(1);
   const [totalCount, setTotalCount] = useState(0);
@@ -22,10 +28,22 @@ export default function Home() {
     if (f.cardType) params.append("card_type", f.cardType);
     if (f.atkType) params.append("atk_type", f.atkType);
     if (f.playOrder) params.append("play_order", f.playOrder);
+
+    // competitor stat filters (backend expects Optional[int])
+    ["power","agility","strike","submission","grapple","technique"].forEach((k) => {
+      const v = f?.[k];
+      if (v !== "" && v !== null && v !== undefined) {
+        const n = parseInt(v, 10);
+        if (!Number.isNaN(n)) params.append(k, String(n));
+      }
+    });
     params.append("limit", limit);
     params.append("offset", (pageNum - 1) * limit);
 
-    const res = await fetch(`/cards?${params.toString()}`);
+    const url = `/cards?${params.toString()}`;
+    console.log("GET", url); // debug in Network tab
+    const res = await fetch(url);
+
     const data = await res.json();
     setCards(data.items || []);
     setTotalCount(data.total || data.total_count || 0);

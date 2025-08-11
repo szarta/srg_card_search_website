@@ -344,6 +344,7 @@
   grapple: 10
   rules_text: Your Grapple skill is +2 during turn rolls.
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
+  srg_url: https://supershowthegame.com/product/12-grapple-matt/
   related_finishes:
   - 09e71cd6c68b4bf298d92c2ff239807f
   - ad9bf71f6fbf4867ab715f1c1c289af6
@@ -361,6 +362,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: 09e71cd6c68b4bf298d92c2ff239807f
+  srg_url: https://supershowthegame.com/product/12-grapple-matt/
 - name: DDT It!
   rules_text: '+1 to Power
 
@@ -373,6 +375,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: ad9bf71f6fbf4867ab715f1c1c289af6
+  srg_url: https://supershowthegame.com/product/12-grapple-matt/
 - name: Straight Trash
   rules_text: '+2 to Technique
 
@@ -385,6 +388,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: 405ed37a86044038851fc23caae39086
+  srg_url: https://supershowthegame.com/product/12-grapple-matt/
 - name: 4 Leaf Flynn (V1)
   card_type: SingleCompetitorCard
   rules_text: 'When you roll Agility for your turn roll: flip 2 cards or add 1 card
@@ -1059,22 +1063,26 @@
   card_type: EntranceCard
   rules_text: 'If this is a match with a stipulation: Before the start of the match,
     search your deck for card #2 and add it to your hand.'
+  srg_url: https://supershowthegame.com/product/2-for-the-supershow/
   db_uuid: cc6fbc06c4ac4d8480f3a5367a0120a0
 - name: 3 is a Crowd
   card_type: EntranceCard
   rules_text: 'If this is a Triple Threat Match: Before the start of the match, search
     your deck for card #3 and add it to your hand.'
   db_uuid: 85a3228bcb9d4d369e4dffe3f235acb2
+  srg_url: https://supershowthegame.com/product/3-is-a-crowd/
 - name: 4 Starts the Party
   card_type: EntranceCard
   rules_text: 'At the start of the match: If this match has 4 total players, search
     your deck for card #4 and add it to your hand.'
   db_uuid: d56f41fa9df04d2f92c2bae7cd6a7de3
+  srg_url: https://supershowthegame.com/product/entrance-4-starts-the-party/
 - name: 33 Preparations with Mark "The Ox" Fox
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, you
     may shuffle your deck, then flip 3 cards.'
   db_uuid: 5969a67978404642ad22de9189bebf51
+  srg_url: https://supershowthegame.com/product/entrance-33-preparations-with-mark-the-ox-fox/
 - name: A First Born Production with Taheim Bryan
   card_type: EntranceCard
   rules_text: 'Once per match: When you would re-roll your turn roll, that roll is
@@ -1539,6 +1547,7 @@
   db_uuid: df6a79018a5341e480d1c0e07f47628c
 - name: Agility Training With EDM
   card_type: EntranceCard
+  srg_url: https://supershowthegame.com/product/agility-training-with-edm/
   rules_text: 'If your deck contains:
 
     "Punch"
@@ -1587,3 +1596,10 @@
 
     When you hit one of those cards, your next turn roll is +1.'
   db_uuid: 5eff89aa197143f28380f10fad42fdb8
+- name: Valiant Teamwork
+  card_type: EntranceCard
+  srg_url: https://supershowthegame.com/product/00-valiant-team-work/
+  rules_text: 'Your opponent cannot prevent you from saving or double teaming with
+    your partner.  Once per match: When you win a turn roll, your tag team partner
+    may take the turn instead.'
+  db_uuid: 011e1cbf8ac74e8e8366692ccaf468d3

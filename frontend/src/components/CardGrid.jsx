@@ -6,7 +6,7 @@ export default function CardGrid({ cards }) {
   }
 
   const thumb = (uuid) => `/images/thumbnails/${uuid.slice(0, 2)}/${uuid}.webp`;
-  const full  = (uuid) => `/images/fullsize/${uuid.slice(0, 2)}/${uuid}.webp`;
+  const FALLBACK_THUMB = "/images/thumbnails/im/image_unavailable.webp";
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6">
@@ -22,8 +22,10 @@ export default function CardGrid({ cards }) {
             className="w-full rounded shadow-md"
             loading="lazy"
             onError={(e) => {
-              e.currentTarget.onerror = null;
-              e.currentTarget.src = full(card.db_uuid);
+               const img = e.currentTarget;
+               // failure: show thumbnail placeholder and stop
+               img.onerror = null;
+               img.src = FALLBACK_THUMB;
             }}
           />
           <p className="mt-1 text-sm text-center">{card.name}</p>

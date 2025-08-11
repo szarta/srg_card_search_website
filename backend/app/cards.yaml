@@ -744,7 +744,7 @@
     +1 to Grapple
 
     Once per turn: You may discard 1 Submission from your hand to force your opponent
-    to re-roll their Breakout Roll'
+    to re-roll their breakout roll'
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -1219,8 +1219,8 @@
   db_uuid: 3d311f960d8248c99ae0e86f7c46e167
 - name: Front Row Fan
   card_type: EntranceCard
-  rules_text: 'Once per match: When the Crowd Meter is 2 or greater, your first Breakout
-    Roll is +2.'
+  rules_text: 'Once per match: When the Crowd Meter is 2 or greater, your first breakout
+    roll is +2.'
   db_uuid: 2d1c137666844fd88930570dcc6ae538
 - name: Glitter Bombed by Felicia Rose
   card_type: EntranceCard
@@ -1247,7 +1247,343 @@
     If your opponent''s Finish roll is 9 (before adding the Crowd Meter) it is instead
     -3.'
   db_uuid: 3be747c6c292489698bff292bbb0618f
-- name: "I Don't Think So!  My Bar, My Rules"
+- name: I Don't Think So!  My Bar, My Rules
   card_type: EntranceCard
-  rules_text: "Once per match:\nIf you ended your turn without playing a card, your opponent flips 1 card, then you may bury 1 card in your opponent's discard pile."
+  rules_text: 'Once per match:
 
+    If you ended your turn without playing a card, your opponent flips 1 card, then
+    you may bury 1 card in your opponent''s discard pile.'
+  db_uuid: eb174014870e4b67ac253c8f7208c04a
+- name: Impact is Family (V1)
+  card_type: EntranceCard
+  rules_text: 'Your opponent''s Spotlight cards have blank text.
+
+    Once per match:  When your opponent ended their turn without playing a card and
+    they buried a Spotlight card, your next turn roll is +1 and this card is blanked.'
+  db_uuid: 37a75d37b70c40fc93e62b9290b3331c
+- name: Impact is Family (V2)
+  card_type: EntranceCard
+  rules_text: Your opponent's Spotlight Finishes have blank text.
+  db_uuid: 9ee10069af7146ab828991ff079a360b
+- name: Iron Sharpens Iron
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you or your Tag Team partner ended the last turn
+    without playing a card, you may re-roll this turn roll.'
+  db_uuid: afc0293eda114566b464f12b496798b0
+- name: It Ain't Easy Being Kheezy
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you would flip any number of cards, you may instead bury 1 of those cards.
+
+    If this is a Ring of Fire match, you may instead bury 3 of those cards.'
+  db_uuid: c90d457b30374110a5efe3ae5d286d40
+- name: The Italian Mombada
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you ended your turn without playing a card, you may reroll your next turn roll,
+    that roll is +1.'
+  db_uuid: 198eef940acb4294b34e89cc33903e0d
+- name: Jugglers Paradise
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, look
+    at the top 3 cards of your deck, randomly add 1 to your hand, put 1 in your discard
+    pile, and put the other on top of your deck.'
+  db_uuid: f324f3af18454eb6ae455971e9667e55
+- name: Jump the Bell
+  card_type: EntranceCard
+  rules_text: If you win the first turn roll of the game, your opponent's Entrance
+    card is blank.  If not, the first card your opponent plays cannot be stopped.
+  db_uuid: 95c1e43c19e04f9bbe992407d1da23fa
+- name: Let's Do the Time Warp Again With Dr. Dick
+  card_type: EntranceCard
+  rules_text: 'Twice per match: When you would bump, you may re-roll your turn roll.'
+  db_uuid: 2492b82d8f714dcc881b137bd785bb6e
+- name: Leverage Your Hand With the Unionverse
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, draw cards
+    equal to the Crowd Meter.'
+  db_uuid: ac0d9a06f00e42dfb4861963b34f397f
+- name: LFF's Most Wanted Sharpshooters
+  card_type: EntranceCard
+  rules_text: 'Once a match: If your opponent ended their turn without playing a card,
+    each player draws 1 card and your opponent''s next turn roll is -2.'
+  db_uuid: e39c767988754463bfb020aeffa3037d
+- name: Live Music by Bailo!
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, your next
+    turn roll is +2.'
+  db_uuid: 9124cb78bd0d4ac0a0d7ea2e5f3573c0
+- name: Live Performance by Nur-D and the Band
+  card_type: EntranceCard
+  rules_text: 'Once per match: If your opponent ended their last turn without playing
+    a card, you may add +2 to your turn roll.'
+  db_uuid: abb988696b424af4b805801f942f42cc
+- name: Mai Champion
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you ended your turn without playing a card, and you have 2 or fewer cards in
+    your hand:
+
+    Look at the top 3 cards of your deck, add 2 of those cards to your hand, bury
+    the other card.'
+  db_uuid: a9f75bfb843f43b880507528792644f7
+- name: Main Event Announcer Kirby
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, put
+    1 card with "Microphone" in the name from your discard pile on top of your deck.
+
+    If this is a Main Event match, add that card to your hand instead.'
+  db_uuid: caae1f66c3b7490ea8687c9050ae7879
+- name: Managed by Super Genie
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, put
+    1 card with "Dive" in the name from your discard pile on top of your deck.'
+  db_uuid: dce2ffa867f74675a65581cf9e1bab09
+- name: Movie Night with The Philosopher (V1)
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, your opponent may allow you to search your
+    deck for card #1 or #11 and put it on top of your shuffled deck.
+
+    If they do not, their first turn roll is -1.
+
+    Your "Finger Poke of Doom" has the added text: "Your next turn roll is +2."'
+  db_uuid: 2ce0a7e85f25468fb1ef96bb44ed0fd9
+- name: Movie Night with The Philosopher (V2)
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, your opponent may allow you to search your
+    deck for card #1 or #11 and put it on top of your shuffled deck.
+
+    If they do not, their first turn roll is -2.
+
+    Your "Finger Poke of Doom" has the added text: "Your next turn roll is +2."'
+  db_uuid: 12a54a6758104b0ca896511b907fbb1d
+- name: Never Ending Rivalry
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When your opponent would move any number of cards from their discard pile to another
+    location with a card or Gimmick, they must do so randomly.'
+  db_uuid: cc266004cf66430dab3e9693b8c5c302
+- name: Number 1 Contender
+  card_type: EntranceCard
+  rules_text: 'If this is a Title match:
+
+    Before the start of the match search your deck for card #1 and add it to your
+    hand.'
+  db_uuid: 23440a6a0aa24d4d88cac1ec832f9980
+- name: Opera Intro
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you roll Technique for your turn roll, your turn roll is +1.'
+  db_uuid: 156987b3d7d54ff8830d4036f867d4b9
+- name: Photobombed by Nemesis
+  card_type: EntranceCard
+  rules_text: 'Once a match: You may stop 1 non-Follow Up Finish that does not have
+    a competitor logo (even if it cannot be stopped), draw 1 card.'
+  db_uuid: 15b8f1c7d3b94adba5612b673334d039
+- name: Playin' With the Boys
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you roll Strike for your turn roll, your turn roll is +1.'
+  db_uuid: e83aeb194eb640a9b2f3353b9fbde88c
+- name: Pre-Show Interview with Positively Perry
+  card_type: EntranceCard
+  rules_text: 'Once per match: When the Crowd Meter is 1 or less, if you roll your
+    highest skill for a breakout roll, you breakout.'
+  db_uuid: 13b96c188bad4d72b47ffa7fbb952807
+- name: Private Security From The Alpaca Protection Agency
+  card_type: EntranceCard
+  rules_text: 'Once a match: You may ignore the "Cannot be stopped" text on a card,
+    and until the end of the turn, the match cannot end by Disqualification.'
+  db_uuid: fd089364aed14f0088824bbaec454820
+- name: Rap Battle with Yung Allergy
+  card_type: EntranceCard
+  rules_text: When the Crowd Meter is 1 or greater, your opponent's max handsize is
+    -1.
+  db_uuid: 4a19400a0d7b4d9583aa83b53e5c34e9
+- name: Resets the Timeline
+  card_type: EntranceCard
+  rules_text: 'Once a match: Replace an "If stopped" effect from a card with "Randomly
+    bury 2 cards in your hand"'
+  db_uuid: fcc58b638823447d93c9b29cdfad6cd9
+- name: Ring Announcer
+  card_type: EntranceCard
+  rules_text: 'Once a match:
+
+    If you ended your turn without playing a card, draw 1 card.'
+  db_uuid: 4334993267974c78b7b184445a7b9f04
+- name: Ring Introduction by Piglet
+  card_type: EntranceCard
+  rules_text: 'Twice per match:
+
+    When you would bump, you may force your opponent to re-roll their turn roll.'
+  db_uuid: 1cd1636cc29e4857b400b87a3fc91c93
+- name: Ringside Companion
+  card_type: EntranceCard
+  rules_text: 'Once a match: After a breakout, shuffle card #8 and #11 from your discard
+    pile into your deck.'
+  db_uuid: 88796d786e854902b017a9ce86378572
+- name: Ringside Hook Up From The Pack
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, search
+    your deck for 1 card with "Disqualification" in the text and put it on top of
+    your shuffled deck.'
+  db_uuid: a22f504e7f30469b8c9ce20896df4a79
+- name: Roaring at the Dark with Bug the Cub
+  card_type: EntranceCard
+  rules_text: Once per match, you may stop a card that cannot be stopped, your opponent
+    discards 1 random card from their hand.
+  db_uuid: c6b46d274ae44dab9631ce84b84be040
+- name: Rob's Rumble at the Rumble
+  card_type: EntranceCard
+  rules_text: 'Once per match: When the Crowd Meter is 2 or greater, your opponent''s
+    Finish roll is -1.'
+  db_uuid: d4b48c2fb3c341bcac27dfdf5473fb19
+- name: Rolling In With The Ring General
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    You get 1 additional breakout roll.'
+  db_uuid: 8973ba5dfd2a45908a147a32c150d324
+- name: Runway Walk-In With the Sweetz
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When your opponent re-rolls their turn roll, their roll is -2.'
+  db_uuid: b722a87efaea43e79f51bc15d7f2e867
+- name: Shoulda Been a 10!
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you roll Submission for your turn roll, your turn roll is +1.'
+  db_uuid: b33acf560b1f4417ae3087ad3f115f08
+- name: Spectacular Run-In With the Dread Pirate Crew
+  card_type: EntranceCard
+  rules_text: When you or your opponent reveals a Spectacle card, draw 1 card.
+  db_uuid: 4ae2b2d6e940402daeec3f88e9ec22ec
+- name: Strong Style Enforcers
+  card_type: EntranceCard
+  rules_text: 'Once per match: When you have a Follow Up in play and you hit a Finish,
+    your opponent discards 1 random card from their hand.'
+  db_uuid: b1c5ac779bd446d49df6bd703b7920e5
+- name: The House Always Wins
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    After you roll these printed skills for your turn roll:
+
+    5-5-5-7-7
+
+    Shuffle your hand into your deck, add the top 7 cards of your deck to your hand,
+    and your turn roll is +7.'
+  db_uuid: bed23789a7c042dc94ea9c4361ee28a4
+- name: Theatrics from Schitz and Giggles
+  card_type: EntranceCard
+  rules_text: 'One time per match: If you ended your turn without playing a card,
+    your opponent buries 1 card in their hand.'
+  db_uuid: 123352493389402282b9b0747677d5cc
+- name: They Say "Crime Doesn't Pay"
+  card_type: EntranceCard
+  rules_text: Finishes with "If Stopped" in the text instead have blank text.
+  db_uuid: 5601f8ac384c4423999417ee7ae6cf2f
+- name: This is Our Moment
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If your target ended their turn without playing a card and you have fewer cards
+    in hand than them, draw 2 cards.'
+  db_uuid: 5b8c0fe618e540258d514bd3b8604982
+- name: Tide Turner
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you lost 3 turn rolls in a row, your next turn roll is +3.'
+  db_uuid: 338525e19bc649f48fcdf9caf44fa1ff
+- name: Time Takeover with The Ultra Cosmic Crusaders
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you flip any number of cards,
+
+    your next turn roll is +1 for each card flipped.'
+  db_uuid: 4a9913a3bebb4365978549135b7b4418
+- name: Viscious Vendetta
+  card_type: EntranceCard
+  rules_text: 'Once per match: When you roll Power for your turn roll, your turn roll
+    is +1.'
+  db_uuid: 490fd12ec6b54bdcaf7593c4e82535ac
+- name: Who You Gonna Call?
+  card_type: EntranceCard
+  rules_text: 'Once per game: If you ended your turn without playing a card, search
+    your deck for 1 Lead or Follow Up with "Buster" in the name and put it on top
+    of your shuffled deck.'
+  db_uuid: b3771b808ba746be81435bbf610ebcfd
+- name: Wedding Trashers
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, your next
+    turn roll is +3 and your opponent draws a card.'
+  db_uuid: 8432fe3575204066bb9c706024b797bc
+- name: Y Wrestling Lowers the Steel Cage
+  card_type: EntranceCard
+  rules_text: 'During the first turn roll:
+
+    Shuffle all cards from all players'' discard piles into their deck.
+
+    Once per match: If you ended your turn without playing a card, you may bury 3
+    cards in your opponent''s discard pile.'
+  db_uuid: df6a79018a5341e480d1c0e07f47628c
+- name: Agility Training With EDM
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    "Punch"
+
+    "Kick"
+
+    "Forearm Shot"
+
+    "Headbutt"
+
+    "Kick Into the Corner"
+
+    "Shoulder Block"
+
+    "Elbow Strikes"
+
+    "Clothesline"
+
+    and "Dropkick":
+
+
+    During your turn when you hit one of those cards, draw 1 card.'
+  db_uuid: d096673eac8e460ebc788e21339ea808
+- name: Defensive Training With Gia de Los Muertos
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    "Punch"
+
+    "Lock Up"
+
+    "Headlock"
+
+    "Kick"
+
+    "Hip Toss"
+
+    "Armbar"
+
+    "Dropkick"
+
+    "Fallaway Slam"
+
+    and "Double Armbar":
+
+
+    When you hit one of those cards, your next turn roll is +1.'
+  db_uuid: 5eff89aa197143f28380f10fad42fdb8

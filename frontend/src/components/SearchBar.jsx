@@ -115,11 +115,11 @@ export default function SearchBar({ onSearch }) {
       <div className="flex flex-wrap gap-2">
         {[
           ["Power", power, setPower],
+          ["Technique", technique, setTechnique],
           ["Agility", agility, setAgility],
           ["Strike", strike, setStrike],
           ["Submission", submission, setSubmission],
           ["Grapple", grapple, setGrapple],
-          ["Technique", technique, setTechnique],
         ].map(([label, value, setter]) => (
           <input
             key={label}

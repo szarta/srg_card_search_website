@@ -1,4 +1,3 @@
----
 - name: American Double Punch
   srg_url: https://supershowthegame.com/product/01-american-double-punch/
   release_set: Unknown
@@ -45,9 +44,9 @@
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
   related_finishes:
-    - 40419bfdf4a04147809995aa68a2586b
-    - b889fced61744419805a6ccf4cfae0c3
-    - c3d4ebd4f4104494a43bdfcce01d6cb4
+  - 40419bfdf4a04147809995aa68a2586b
+  - b889fced61744419805a6ccf4cfae0c3
+  - c3d4ebd4f4104494a43bdfcce01d6cb4
 - name: Burning Hammer
   deck_card_number: 28
   atk_type: Strike
@@ -100,9 +99,9 @@
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
-    - fd05369cc86241898b47a1846d2d13e7
-    - 813b7639865341f7bca992dbf6931f76
-    - a175f29cdf774861b4d762e749e093d9
+  - fd05369cc86241898b47a1846d2d13e7
+  - 813b7639865341f7bca992dbf6931f76
+  - a175f29cdf774861b4d762e749e093d9
   db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
 - name: The Sundown
   card_type: MainDeckCard
@@ -189,15 +188,15 @@
   srg_url: https://supershowthegame.com/product/aaron-dallas/
   db_uuid: ca03f4b01d5d409fbd3a75a8e58d83a1
   related_finishes:
-    - 31ab2f0496e64b75a349d1b43d503088
-    - f09f15c51c37454c88216673d381bd1e
-    - 20b4b457c0e948a7b2ee3de55ac525cc
-    - 98dc503d4fc440e1828186024e0db7d8
-    - 588e9300687e47219cd404235031d8d3
-    - 9a6b598359b74c3fab8ecb0056bf97f9
-    - 583ce65671864a5699baf0f730b974b4
-    - 3143d64b2c2e415b81f1b42b8c7f5786
-    - 12048b7630154f6a9f388e612d613e6c
+  - 31ab2f0496e64b75a349d1b43d503088
+  - f09f15c51c37454c88216673d381bd1e
+  - 20b4b457c0e948a7b2ee3de55ac525cc
+  - 98dc503d4fc440e1828186024e0db7d8
+  - 588e9300687e47219cd404235031d8d3
+  - 9a6b598359b74c3fab8ecb0056bf97f9
+  - 583ce65671864a5699baf0f730b974b4
+  - 3143d64b2c2e415b81f1b42b8c7f5786
+  - 12048b7630154f6a9f388e612d613e6c
 - name: Southern State Stomps
   card_type: MainDeckCard
   atk_type: Strike
@@ -346,9 +345,9 @@
   rules_text: Your Grapple skill is +2 during turn rolls.
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
   related_finishes:
-    - 09e71cd6c68b4bf298d92c2ff239807f
-    - ad9bf71f6fbf4867ab715f1c1c289af6
-    - 405ed37a86044038851fc23caae39086
+  - 09e71cd6c68b4bf298d92c2ff239807f
+  - ad9bf71f6fbf4867ab715f1c1c289af6
+  - 405ed37a86044038851fc23caae39086
 - name: From Out of Nowhere
   rules_text: '+1 to Agility
 
@@ -1056,3 +1055,199 @@
 
     '
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
+- name: 2 for the Supershow
+  card_type: EntranceCard
+  rules_text: 'If this is a match with a stipulation: Before the start of the match,
+    search your deck for card #2 and add it to your hand.'
+  db_uuid: cc6fbc06c4ac4d8480f3a5367a0120a0
+- name: 3 is a Crowd
+  card_type: EntranceCard
+  rules_text: 'If this is a Triple Threat Match: Before the start of the match, search
+    your deck for card #3 and add it to your hand.'
+  db_uuid: 85a3228bcb9d4d369e4dffe3f235acb2
+- name: 4 Starts the Party
+  card_type: EntranceCard
+  rules_text: 'At the start of the match: If this match has 4 total players, search
+    your deck for card #4 and add it to your hand.'
+  db_uuid: d56f41fa9df04d2f92c2bae7cd6a7de3
+- name: 33 Preparations with Mark "The Ox" Fox
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, you
+    may shuffle your deck, then flip 3 cards.'
+  db_uuid: 5969a67978404642ad22de9189bebf51
+- name: A First Born Production with Taheim Bryan
+  card_type: EntranceCard
+  rules_text: 'Once per match: When you would re-roll your turn roll, that roll is
+    +2.'
+  db_uuid: c6a3f4775a974862aa8e74252207a6d8
+- name: A Higher Class of L.F.F. Pet
+  card_type: EntranceCard
+  rules_text: 'At the start of the match: Flip 1 card.  Your 1st turn roll is +1.'
+  db_uuid: 1044c4bb902043d9a028b539dc5abbb3
+- name: A Round of Scallywager at CaptainCon
+  card_type: EntranceCard
+  rules_text: When you or your opponent reveal a Spectacle card, your next turn roll
+    is +1.
+  errata_text: When you or your opponent reveal a Spectacle card, your next turn roll
+    is +2.
+  db_uuid: 5add9592fc6b4a7f8c0d39579b53daf8
+- name: Accompanied by the Combat Clan
+  rules_text: 'Once per match: If you ended your turn without playing a card, each
+    player draws 1 card and your opponent''s next turn roll is -2.'
+  card_type: EntranceCard
+  db_uuid: 0fc6754da2be4c1db781823d1726c4de
+- name: Aid From the SRG Mom
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, draw 2
+    cards and your opponent draws 1 card.'
+  db_uuid: ef378af553744b1b9806df84bde97204
+- name: App Battle on Supershow Go
+  card_type: EntranceCard
+  rules_text: 'At the start of the match: Flip 2 cards.'
+  db_uuid: 489408ceabe44fa1885574d523bda59e
+- name: Arm Wrestling Showdown
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, your opponent may allow you to search your
+    deck for #2 or #12; add that card to your hand and shuffle your deck.  If they
+    do not, their first turn roll is -2.  Your "Swift Arm Wrestling" has the added
+    text: "Draw 2 cards."'
+  db_uuid: aee7d8f999aa42d09ce6b40afa5e8386
+- name: Backed by the Grandmachine
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, shuffle
+    2 cards from your discard pile into your deck.'
+  db_uuid: 602fdd091bc647358ec5530ec4c8104e
+- name: Backed by The Grumpy Groupies
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    When you would bump, your opponent''s Turn Roll is instead -1.'
+  db_uuid: e36e342b06dd4893af23fd741fc16b24
+- name: Backed by The Rack
+  card_type: EntranceCard
+  rules_text: 'Once per match
+
+    When you would bump, your turn roll is instead +1.'
+  db_uuid: a7a4aa18020042398cfd6b0ac0da3809
+- name: Backstage Consultation
+  card_type: EntranceCard
+  rules_text: Your maximum handsize is +2.
+  db_uuid: b48ca540fc964eeea90bd2123fc2a575
+- name: Backstage Interview with The ACCW
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, look at
+    your opponent''s hand.'
+  db_uuid: c1fce9cb862b4448a0171ef3f6520e0e
+- name: Batting Practice with Aunt Cathy
+  card_type: EntranceCard
+  rules_text: 'Once a match: If you ended your turn without playing a card, put 1
+    card with "Swing" in the name from your discard pile on top of your deck.'
+  db_uuid: e975090e960c462da51bf0bac958750b
+- name: Behind the Scenes Interviewer
+  card_type: EntranceCard
+  rules_text: Once a match, if you ended your turn without playing a card, you may
+    look at your opponent's hand.
+  db_uuid: bbd28f5b4a664c8e872f7b110fbeafe8
+- name: Blindside Strategy
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, your opponent may allow you to search your
+    deck for card #3 or #10: add that card to your hand and shuffle your deck.  If
+    they do not, their first turn roll is -2.  Your "Handshake of Doom!" has the added
+    text: "Your opponent randomly buries 1 card in their hand."'
+  db_uuid: eacc87bd77264f06890f970da266ebda
+- name: Bribe the Ref
+  card_type: EntranceCard
+  rules_text: 'Once a match: You may ignore the "Cannot be stopped" text on a card,
+    and until the end of the turn, the match can end by Disqualification.'
+  db_uuid: 874500bfd497480fba669f870493f6c5
+- name: Champion of Kickstarter
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, draw 1 card, flip 1 card, and your first
+    turn roll is +1.  Once a match:  When you have no other cards in play, your next
+    card with "Kick" in the name cannot be sopped.'
+  db_uuid: 5f98ad5465634a84b243b437cfa63d20
+- name: The Code of Lucha Libre
+  card_type: EntranceCard
+  rules_text: 'Once per match: If your opponent would look at your hand, or force
+    you to reveal any cards from your hand, they do not.'
+  db_uuid: 0368412dc7454f70ae7acb5abe9d8673
+- name: Curse of Corruption on All Hallows' Eve
+  card_type: EntranceCard
+  rules_text: 'Once per match: If your opponent ended their turn without playing a
+    card, shuffle 2 cards from your discard pile into your deck.'
+  db_uuid: 828abae5274f4b39818d12a56e7e1d1d
+- name: Dragon Song for Abigail
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you ended your turn without playing a card, draw 1 card, flip 1 card, and bury
+    1 card in your hand.'
+  db_uuid: 93fa77a456d849abb1b1e9b8132bd5e3
+- name: Ramp Distraction From The New Wool Order
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If your opponent ended their turn without playing a card, look at the top 3 cards
+    of your deck.  Randomly add 1 to your hand, put 1 in your discard pile, and put
+    the other on top of your deck.'
+  db_uuid: 970aaa323555466d9ad05073af08bcc8
+- name: Fate Is On Your Side
+  card_type: EntranceCard
+  rules_text: 'If your opponent''s Entrance card does not have "L.F.F." in the name,
+    copy its text.
+
+    If your opponent revealed "Fate Is On Your Side", look at the top 3 cards of your
+    deck and put them on top in any order.'
+  db_uuid: b64f7fd1894e428db2140af016991c12
+- name: Fast-Rising Rivalry
+  card_type: EntranceCard
+  rules_text: 'Once per match: When your roll Agility for your turn roll, your turn
+    roll is +1'
+  db_uuid: 1febaf4eb764453eb8906335055d5bc0
+- name: Fig Hunt With the Major Wrestling Foundation (Major Bendies)
+  card_type: EntranceCard
+  rules_text: 'Once per match:  If you ended your turn without playing a card, search
+    your deck for card #1, #2, or #3 and add it to your hand.'
+  db_uuid: 6e28c84a53004b23bf191d3700824e3f
+- name: Fighting Champion's Spirit, End of an Era
+  card_type: EntranceCard
+  rules_text: 'At the start of the match: You may shuffle your hand into the deck
+    and take a new starting hand.  If your opponent has more cards in their hand than
+    you, draw 1 card.
+
+    If this match is not a Steel Cage or Birdcage, your first turn roll is -1.'
+  db_uuid: 3d311f960d8248c99ae0e86f7c46e167
+- name: Front Row Fan
+  card_type: EntranceCard
+  rules_text: 'Once per match: When the Crowd Meter is 2 or greater, your first Breakout
+    Roll is +2.'
+  db_uuid: 2d1c137666844fd88930570dcc6ae538
+- name: Glitter Bombed by Felicia Rose
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you have a Follow Up in play and you hit a Finish, draw 2 cards.'
+  db_uuid: 576084aee5524f649ac3ce722613ee3d
+- name: Guest Valet
+  card_type: EntranceCard
+  rules_text: Once per match, if you ended your turn without playing a card, shuffle
+    your hand into your deck and draw the same number of cards.
+  db_uuid: d39cfa64bdc94e6c9d6eddd15eafe3aa
+- name: Hardware Check
+  card_type: EntranceCard
+  rules_text: 'At the start of the match:
+
+    Search your deck for "Steel Chair", "Kendo Stick", or "Ring Steps" and put it
+    on top of your shuffled deck.'
+  db_uuid: 2a67a1cdff354e75bf51c9939cd8f647
+- name: Honorable Ref Steve Dumeng
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If your opponent''s Finish roll is 9 (before adding the Crowd Meter) it is instead
+    -3.'
+  db_uuid: 3be747c6c292489698bff292bbb0618f
+- name: "I Don't Think So!  My Bar, My Rules"
+  card_type: EntranceCard
+  rules_text: "Once per match:\nIf you ended your turn without playing a card, your opponent flips 1 card, then you may bury 1 card in your opponent's discard pile."
+

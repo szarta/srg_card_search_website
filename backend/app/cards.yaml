@@ -1643,3 +1643,63 @@
     your partner.  Once per match: When you win a turn roll, your tag team partner
     may take the turn instead.'
   db_uuid: 011e1cbf8ac74e8e8366692ccaf468d3
+- name: Stomp
+  deck_card_number: 7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  rules_text: Your opponent buries 1 card in their hand or your next turn roll is
+    +1.
+  srg_url: https://supershowthegame.com/product/07-stomp/
+  db_uuid: 46c5ed46ccdc4cd2984300175fcbbfdc
+- name: Snap Suplex
+  card_type: MainDeckCard
+  deck_card_number: 8
+  atk_type: Grapple
+  play_order: Lead
+  srg_url: https://supershowthegame.com/product/08-snap-suplex/
+  rules_text: Your opponent buries 1 card in their hand or your next turn roll is
+    +1.
+  db_uuid: b7cc629425f748c2a40d8d3fcd9d50e7
+- name: Head Crush
+  card_type: MainDeckCard
+  deck_card_number: 9
+  atk_type: Submission
+  play_order: Lead
+  srg_url: https://supershowthegame.com/product/09-head-crush/
+  rules_text: Your opponent buries 1 card in their hand, or your next turn roll is
+    +1.
+  db_uuid: 28a1382196f34df6a8a7fe881c707e86
+- name: Knee Lift
+  card_type: MainDeckCard
+  deck_card_number: 10
+  atk_type: Strike
+  play_order: Lead
+  srg_url: https://supershowthegame.com/product/10-knee-lift/
+  rules_text: If you have another Lead in play, draw 2 cards.
+  db_uuid: 977cd7fe10f1438d9388c07719615608
+- name: Japanese Arm Drag
+  card_type: MainDeckCard
+  deck_card_number: 11
+  atk_type: Grapple
+  play_order: Lead
+  srg_url: https://supershowthegame.com/product/11-japanese-arm-drag/
+  rules_text: If you have another Lead in play, draw 2 cards.
+  db_uuid: 5f1ea69b034041d1863e4a7af3c8a936
+- name: Arm Stomp
+  card_type: MainDeckCard
+  deck_card_number: 12
+  play_order: Lead
+  atk_type: Submission
+  rules_text: If you have another Lead in play, draw 2 cards.
+  srg_url: https://supershowthegame.com/product/12-arm-stomp/
+  db_uuid: 62cf9e40d92c4d0da09cb4185c8540f0
+- name: Kick Into The Corner
+  card_type: MainDeckCard
+  deck_card_number: 13
+  atk_type: Strike
+  play_order: Follow Up
+  srg_url: https://supershowthegame.com/product/13-kick-into-the-corner/
+  rules_text: If your Agility skill is greater than your opponent's Agility skill,
+    stop any Grapple.
+  db_uuid: 7fb5d6c7305d4e5792358063e2a88c1f

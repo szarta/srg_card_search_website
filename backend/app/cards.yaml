@@ -542,7 +542,7 @@
 
     If stopped, you may put 1 Finish from your discard pile on top of your deck.'
   db_uuid: 603637774747410bbf03072fe705b474
-- name: Abominable Big Shot
+- name: The Abominable Big Shot
   card_type: SingleCompetitorCard
   power: 9
   technique: 6

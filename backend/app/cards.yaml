@@ -622,6 +622,7 @@
   - cb84282851514afd9bc6465c0d63ebf9
   db_uuid: bb8f720590c44fe189ce68af24a73598
 - name: Cuddy Warrior
+  srg_url: "https://supershowthegame.com/product/cuddy-warrior/"
   card_type: SingleCompetitorCard
   power: 6
   technique: 10
@@ -639,6 +640,7 @@
   - a8ca9c9a0e664fbead8924cf46acb95a
   - c9ffe2001ba0486a9c921193989c9176
 - name: Ultimate Destruction
+  srg_url: "https://supershowthegame.com/product/cuddy-warrior/"
   rules_text: '+2 to Power
 
     +2 to Strike
@@ -650,6 +652,7 @@
   card_type: MainDeckCard
   db_uuid: a09f74e867e347f18db66908165ba744
 - name: Ultimate Annihilation
+  srg_url: "https://supershowthegame.com/product/cuddy-warrior/"
   rules_text: '+2 to Submission
 
     +1 to Grapple
@@ -661,6 +664,7 @@
   card_type: MainDeckCard
   db_uuid: 65378fd23cc2477fa53666f33d895ad0
 - name: Ultimate Agony
+  srg_url: "https://supershowthegame.com/product/cuddy-warrior/"
   rules_text: '+4 to Submission
 
     When this card is in your discard pile and you stop a Finish, draw 1 card.'
@@ -845,6 +849,7 @@
     Take 3 cards from your discard pile and shuffle them into your deck.'
   db_uuid: 27fe7e0441f442c696059ced7ca7aca7
 - name: Adam Page
+  srg_url: https://supershowthegame.com/product/adam-page/
   card_type: SingleCompetitorCard
   power: 7
   technique: 6
@@ -861,6 +866,7 @@
   - 503c3ebd43a940c181fa2bf187e1ad41
   - 4a8ada07bd32499b964de543c6ac5099
 - name: Buckshot Lariat
+  srg_url: https://supershowthegame.com/product/adam-page/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -872,6 +878,7 @@
     When the Crowd Meter is 5 or greater this card is also a Follow Up'
   db_uuid: 201afe1b89a94760b58e40faa52db6c2
 - name: Rite of Passage
+  srg_url: https://supershowthegame.com/product/adam-page/
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -883,6 +890,7 @@
     If your opponent breaks out the Crowd Meter is +2'
   db_uuid: 503c3ebd43a940c181fa2bf187e1ad41
 - name: Half Nelson Suplex
+  srg_url: https://supershowthegame.com/product/adam-page/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -891,6 +899,7 @@
     and you hit "Half Nelson Hold" you may add it to your hand.
   db_uuid: 4a8ada07bd32499b964de543c6ac5099
 - name: Adam Priest
+  srg_url: "https://supershowthegame.com/product/adam-priest/"
   card_type: SingleCompetitorCard
   power: 5
   technique: 9
@@ -906,6 +915,7 @@
   - 66e3b16cedb742cba0b484f063812459
   - 53f2706a3ff849c3a47e4f8a5369db1b
 - name: Loaded Arm Deathlock
+  srg_url: "https://supershowthegame.com/product/adam-priest/"
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -917,6 +927,7 @@
     If your opponent has a card in play with "Lock" in the name, double these bonuses.'
   db_uuid: 68f25c8d00de476fb5d349180706cc39
 - name: Snap German
+  srg_url: "https://supershowthegame.com/product/adam-priest/"
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -928,6 +939,7 @@
     Your opponent randomly buries 1 card in their hand.'
   db_uuid: 66e3b16cedb742cba0b484f063812459
 - name: Sharpshooter
+  srg_url: "https://supershowthegame.com/product/adam-priest/"
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -1168,6 +1180,7 @@
     card with "Swing" in the name from your discard pile on top of your deck.'
   db_uuid: e975090e960c462da51bf0bac958750b
 - name: Behind the Scenes Interviewer
+  srg_url: "https://supershowthegame.com/product/behind-the-scenes-interviewer/"
   card_type: EntranceCard
   rules_text: Once a match, if you ended your turn without playing a card, you may
     look at your opponent's hand.

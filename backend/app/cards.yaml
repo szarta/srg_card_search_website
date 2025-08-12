@@ -404,6 +404,7 @@
   - bc0996058a224c84b9ec922e3cdd7ccf
   - d76b3a128b3c43a7b1929a4e27eff816
   db_uuid: 5bf284e2d59b41168a6e94f33a195091
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn/
 - name: Kiss the Blarney
   rules_text: '+2 to Agility
 
@@ -415,6 +416,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: 0bf8b12f88e741c8a772eaa84907f5b9
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn/
 - name: Finnegan's Wake
   rules_text: Your opponent's 1st breakout roll is -1 for each Lead you have in play.  Your
     opponent's second breakout roll is -1 for each Follow Up you have in play.
@@ -423,6 +425,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: bc0996058a224c84b9ec922e3cdd7ccf
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn/
 - name: The Lucky Clover
   rules_text: '+1 to Power
 
@@ -435,6 +438,7 @@
   play_order: Finish
   card_type: MainDeckCard
   db_uuid: d76b3a128b3c43a7b1929a4e27eff816
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn/
 - name: 4 Leaf Flynn (V2)
   card_type: SingleCompetitorCard
   rules_text: When you have 4 Follow Ups in play, your Agility is +4.
@@ -445,6 +449,7 @@
   submission: 7
   grapple: 10
   db_uuid: fee2912bede943978d3d1ab2401a6e38
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
   related_finishes:
   - 83c6e0940bda433fb7fb5890b347eb8c
   - 940845533093491e80106116c45d4df8
@@ -458,6 +463,7 @@
 
     If you have 4 Follow Ups in play, your Technique and Agility is +1.'
   db_uuid: 83c6e0940bda433fb7fb5890b347eb8c
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
 - name: Dublin Down
   deck_card_number: 29
   atk_type: Grapple
@@ -467,6 +473,7 @@
 
     You may discard your hand to re-roll your finish roll.'
   db_uuid: 940845533093491e80106116c45d4df8
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
 - name: The 4 Leaf Clover
   deck_card_number: 30
   atk_type: Submission
@@ -480,7 +487,9 @@
 
     Shuffle 4 Follow Ups from your discard pile into your deck.'
   db_uuid: bcfd8647a932431bbbfd4af323ea5b01
+  srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
 - name: Abigail Fairy in Training
+  srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   card_type: SingleCompetitorCard
   power: 7
   technique: 10
@@ -496,6 +505,7 @@
   - 2a38028795434275a8abbfbfa7e26e53
   - 603637774747410bbf03072fe705b474
 - name: Ride the Noonakorn
+  srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -507,6 +517,7 @@
     +2 to Strike'
   db_uuid: b23b8827606b4a2c9e00f04c341a71e7
 - name: Cuddle Time
+  srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -520,6 +531,7 @@
     of your deck.'
   db_uuid: 2a38028795434275a8abbfbfa7e26e53
 - name: Bedtime Stories
+  srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   deck_card_number: 30
   atk_type: Submission
   play_order: Finish
@@ -555,11 +567,13 @@
   rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force
     them to re-roll.'
   db_uuid: 34920b2f4af2455da98b228debb1e87f
+  srg_url: https://supershowthegame.com/product/the-big-shot/
   related_finishes:
   - fbde02856d4c4b70a785ac5242932b26
   - 2e90fdf49f4846dcab979a85aa2b3cab
   - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
 - name: Lights Out!
+  srg_url: https://supershowthegame.com/product/the-big-shot/
   rules_text: '+1 to Power
 
     +4 to Agility
@@ -571,6 +585,7 @@
   card_type: MainDeckCard
   db_uuid: fbde02856d4c4b70a785ac5242932b26
 - name: Shot Down!
+  srg_url: https://supershowthegame.com/product/the-big-shot/
   rules_text: '+1 to Power
 
     +2 to Grapple
@@ -582,6 +597,7 @@
   card_type: MainDeckCard
   db_uuid: 2e90fdf49f4846dcab979a85aa2b3cab
 - name: The Last Word
+  srg_url: https://supershowthegame.com/product/the-big-shot/
   rules_text: '+4 to Technique
 
     +2 to Submission'

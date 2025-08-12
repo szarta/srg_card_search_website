@@ -1156,6 +1156,7 @@
   db_uuid: 489408ceabe44fa1885574d523bda59e
   srg_url: https://supershowthegame.com/product/entrance-app-battle-on-supershow-go/
 - name: Arm Wrestling Showdown
+  srg_url: https://supershowthegame.com/product/entrance-arm-wrestling-showdown/
   card_type: EntranceCard
   rules_text: 'At the start of the match, your opponent may allow you to search your
     deck for #2 or #12; add that card to your hand and shuffle your deck.  If they
@@ -1175,6 +1176,7 @@
     When you would bump, your opponent''s Turn Roll is instead -1.'
   db_uuid: e36e342b06dd4893af23fd741fc16b24
 - name: Backed by The Rack
+  srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
   card_type: EntranceCard
   rules_text: 'Once per match
 
@@ -1204,6 +1206,7 @@
     look at your opponent's hand.
   db_uuid: bbd28f5b4a664c8e872f7b110fbeafe8
 - name: Blindside Strategy
+  srg_url: https://supershowthegame.com/product/entrance-blindside-strategy/
   card_type: EntranceCard
   rules_text: 'At the start of the match, your opponent may allow you to search your
     deck for card #3 or #10: add that card to your hand and shuffle your deck.  If
@@ -1797,3 +1800,51 @@
   card_type: EntranceCard
   rules_text: You are considered your own tag team partner for your card effects.
   db_uuid: 09e9f95633ef418a8c8b286a9bddf56c
+- name: Candy MaM (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 10
+  srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
+  rules_text: 'Once per turn roll: When you roll Strike, Submission, or Grapple, reveal
+    the top card of your deck.  If the move type matches the rolled skill, add it
+    to your hand.  If not, you may flip it.'
+  db_uuid: e1e8ae66adc2457a8d87a4a1d9820442
+  related_finishes:
+  - e22393623b474346a39e93dae92f620d
+  - af7fb58dea1c4a499ed16767c916ec08
+  - 23306b5fe097480bae0f94cd1ddc8a02
+- name: Sowah Powah
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +1 to Submission'
+  srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
+  db_uuid: e22393623b474346a39e93dae92f620d
+- name: Super Candylicious
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
+  rules_text: '+2 to Submission
+
+    If stopped, shuffle this card into your deck.'
+  db_uuid: af7fb58dea1c4a499ed16767c916ec08
+- name: Sweet Cheeks
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
+  rules_text: "+2 to Power\n+3 to Strike\nShuffle 2 cards from your discard pile into\
+    \ your deck.\n  Draw 1 card."
+  db_uuid: 23306b5fe097480bae0f94cd1ddc8a02

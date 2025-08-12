@@ -1130,7 +1130,8 @@
   card_type: EntranceCard
   rules_text: 'At the start of the match: Flip 1 card.  Your 1st turn roll is +1.'
   db_uuid: 1044c4bb902043d9a028b539dc5abbb3
-- name: A Round of Scallywager at CaptainCon
+- name: A Round of Scallywager at Captain Con
+  srg_url: https://supershowthegame.com/product/entrance-a-round-of-scallywager-at-captaincon/
   card_type: EntranceCard
   rules_text: When you or your opponent reveal a Spectacle card, your next turn roll
     is +1.
@@ -1144,6 +1145,7 @@
   card_type: EntranceCard
   db_uuid: 0fc6754da2be4c1db781823d1726c4de
 - name: Aid From the SRG Mom
+  srg_url: https://supershowthegame.com/product/aid-from-the-srg-mom/
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, draw 2
     cards and your opponent draws 1 card.'
@@ -1152,6 +1154,7 @@
   card_type: EntranceCard
   rules_text: 'At the start of the match: Flip 2 cards.'
   db_uuid: 489408ceabe44fa1885574d523bda59e
+  srg_url: https://supershowthegame.com/product/entrance-app-battle-on-supershow-go/
 - name: Arm Wrestling Showdown
   card_type: EntranceCard
   rules_text: 'At the start of the match, your opponent may allow you to search your
@@ -1165,6 +1168,7 @@
     2 cards from your discard pile into your deck.'
   db_uuid: 602fdd091bc647358ec5530ec4c8104e
 - name: Backed by The Grumpy Groupies
+  srg_url: https://supershowthegame.com/product/entrance-backed-by-grumpy-groupies/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1177,15 +1181,18 @@
     When you would bump, your turn roll is instead +1.'
   db_uuid: a7a4aa18020042398cfd6b0ac0da3809
 - name: Backstage Consultation
+  srg_url: https://supershowthegame.com/product/backstage-consultation/
   card_type: EntranceCard
   rules_text: Your maximum handsize is +2.
   db_uuid: b48ca540fc964eeea90bd2123fc2a575
 - name: Backstage Interview with The ACCW
+  srg_url: https://supershowthegame.com/product/entrance-backstage-interview-with-accw/
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, look at
     your opponent''s hand.'
   db_uuid: c1fce9cb862b4448a0171ef3f6520e0e
 - name: Batting Practice with Aunt Cathy
+  srg_url: https://supershowthegame.com/product/batting-practice-with-aunt-cathy-bundle/
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, put 1
     card with "Swing" in the name from your discard pile on top of your deck.'
@@ -1204,6 +1211,7 @@
     text: "Your opponent randomly buries 1 card in their hand."'
   db_uuid: eacc87bd77264f06890f970da266ebda
 - name: Bribe the Ref
+  srg_url: https://supershowthegame.com/product/entrance-bribe-the-ref/
   card_type: EntranceCard
   rules_text: 'Once a match: You may ignore the "Cannot be stopped" text on a card,
     and until the end of the turn, the match can end by Disqualification.'
@@ -1221,6 +1229,7 @@
     you to reveal any cards from your hand, they do not.'
   db_uuid: 0368412dc7454f70ae7acb5abe9d8673
 - name: Curse of Corruption on All Hallows' Eve
+  srg_url: https://supershowthegame.com/product/entrance-curse-of-corruption-on-all-hallows-eve/
   card_type: EntranceCard
   rules_text: 'Once per match: If your opponent ended their turn without playing a
     card, shuffle 2 cards from your discard pile into your deck.'
@@ -1705,3 +1714,42 @@
   rules_text: If your Agility skill is greater than your opponent's Agility skill,
     stop any Grapple.
   db_uuid: 7fb5d6c7305d4e5792358063e2a88c1f
+- name: Circling Up with The Real Beaters
+  card_type: EntranceCard
+  rules_text: Your opponent's cards cannot reduce your breakout rolls and your number
+    of breakout rolls.
+  srg_url: https://supershowthegame.com/product/circling-up-with-the-real-beaters/
+  db_uuid: c5b127a934604c208d50e693526a238a
+- name: Damn, That's Hateful
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, you
+    and your target bury half the cards in your hand (rounded down).'
+  srg_url: https://supershowthegame.com/product/damn-thats-hateful/
+  db_uuid: d7d1fd2825fe43538ce9c25b5ce0da73
+- name: An Undisputed Tag Victory with The Animal Kingdom
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, choose
+    1 card your opponent has in play and discard it.'
+  srg_url: https://supershowthegame.com/product/entrance-an-undisputed-tag-victory-with-the-animal-kingdom/
+  db_uuid: 6e482c28a188452f94b2fc5a3c7dbb46
+- name: Giant Swing
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +4 to Grapple
+  srg_url: https://supershowthegame.com/product/batting-practice-with-aunt-cathy-bundle/
+  db_uuid: 1567aeb20b0248478fb9844cc5a0d41c
+- name: Chip's Stable Leveling Up
+  card_type: EntranceCard
+  srg_url: https://supershowthegame.com/product/entrance-chips-stable-leveling-up/
+  rules_text: 'Once per match: When you roll the same skill as your target for your
+    turn roll, your turn roll is +3.'
+  db_uuid: 07125f93c19f46db867e15900ce0ef88
+- name: Cursed by The Void
+  card_type: EntranceCard
+  srg_url: https://supershowthegame.com/product/entrance-cursed-by-the-void/
+  rules_text: 'Once per match: If you ended your turn without playing a card, you
+    may reveal #28, #29, and #30 from your discard pile.  Randomly add 1 of them to
+    your hand.'
+  db_uuid: cfa8f405ed9c49f1b7987238a285f5b4

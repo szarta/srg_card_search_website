@@ -1924,3 +1924,9 @@
   rules_text: Replace "Three times per match" with "Five times per match" in your
     Gimmick.
   db_uuid: 6549c36c76134ad0b00663f7d6f0d471
+- name: Having the Higher Ground
+  card_type: EntranceCard
+  rules_text: 'Twice per match: When you reveal the top card of your deck, and it
+    does not have "Bat" in the name, you may shuffle your deck and reveal another
+    card instead.'
+  db_uuid: ce333acee07b48e0a3ea941dd889c48e

@@ -797,6 +797,7 @@
     If the Crowd Meter is 5 or greater, this card cannot be stopped.'
   db_uuid: a38f21dfd9cf4924a668c3396a428844
 - name: ACH
+  srg_url: https://supershowthegame.com/product/ach/
   card_type: SingleCompetitorCard
   power: 6
   technique: 7
@@ -812,6 +813,7 @@
   - 2933cd72b4a546d2af5b6ae2ef4124f1
   - 27fe7e0441f442c696059ced7ca7aca7
 - name: Midnight Star
+  srg_url: https://supershowthegame.com/product/ach/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -823,6 +825,7 @@
     Draw 3 cards then bury 1 card in your hand.'
   db_uuid: 5aa5e914c85849e583720d1b223106dc
 - name: Big Vic Driver
+  srg_url: https://supershowthegame.com/product/ach/
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -838,6 +841,7 @@
     Choose 1 card and discard it.'
   db_uuid: 2933cd72b4a546d2af5b6ae2ef4124f1
 - name: Muta-Lock
+  srg_url: https://supershowthegame.com/product/ach/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -947,6 +951,7 @@
   rules_text: If your Finish roll is 7 or less, it is +2
   db_uuid: 53f2706a3ff849c3a47e4f8a5369db1b
 - name: Agatha Mai (V1)
+  srg_url: https://supershowthegame.com/product/agatha-mai/
   card_type: SingleCompetitorCard
   power: 8
   technique: 9
@@ -962,6 +967,7 @@
   - 1786be24bdf54c4fa509e787930bc12d
   - ad2ec46d2e42432aa47ebc834a62b158
 - name: Sea-Trigger
+  srg_url: https://supershowthegame.com/product/agatha-mai/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -973,6 +979,7 @@
     Each player shuffles their discard pile into their deck.'
   db_uuid: b4cd11de0d694343be8e3d6c54047fbf
 - name: High Tide
+  srg_url: https://supershowthegame.com/product/agatha-mai/
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -980,6 +987,7 @@
   rules_text: +3 to Strike\n+1 to Grapple\nStop "Derailed"
   db_uuid: 1786be24bdf54c4fa509e787930bc12d
 - name: Heave-Ho
+  srg_url: https://supershowthegame.com/product/agatha-mai/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -1112,11 +1120,13 @@
   db_uuid: 5969a67978404642ad22de9189bebf51
   srg_url: https://supershowthegame.com/product/entrance-33-preparations-with-mark-the-ox-fox/
 - name: A First Born Production with Taheim Bryan
+  srg_url: https://supershowthegame.com/product/entrance-a-first-born-production-with-taheim-bryan/
   card_type: EntranceCard
   rules_text: 'Once per match: When you would re-roll your turn roll, that roll is
     +2.'
   db_uuid: c6a3f4775a974862aa8e74252207a6d8
 - name: A Higher Class of L.F.F. Pet
+  srg_url: https://supershowthegame.com/product/entrance-a-higher-class-of-l-f-f-pet/
   card_type: EntranceCard
   rules_text: 'At the start of the match: Flip 1 card.  Your 1st turn roll is +1.'
   db_uuid: 1044c4bb902043d9a028b539dc5abbb3
@@ -1128,6 +1138,7 @@
     is +2.
   db_uuid: 5add9592fc6b4a7f8c0d39579b53daf8
 - name: Accompanied by the Combat Clan
+  srg_url: https://supershowthegame.com/product/accompanied-by-the-combat-clan/
   rules_text: 'Once per match: If you ended your turn without playing a card, each
     player draws 1 card and your opponent''s next turn roll is -2.'
   card_type: EntranceCard

@@ -28,7 +28,7 @@ class AttackSubtype(enum.Enum):
 
 class PlayOrderSubtype(enum.Enum):
     Lead = "Lead"
-    Followup = "Follow Up"
+    Followup = "Followup"
     Finish = "Finish"
 
 

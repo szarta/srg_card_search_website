@@ -24,7 +24,7 @@
   deck_card_number: 15
   tags: skill stop
   atk_type: Submission
-  play_order: Follow Up
+  play_order: Followup
   db_uuid: 9c522e6e0b2a4254b7b72aa3da805c72
   card_type: MainDeckCard
 - name: Alex Hammerstone
@@ -1209,6 +1209,7 @@
     and until the end of the turn, the match can end by Disqualification.'
   db_uuid: 874500bfd497480fba669f870493f6c5
 - name: Champion of Kickstarter
+  srg_url: https://supershowthegame.com/product/champion-of-kickstarter/
   card_type: EntranceCard
   rules_text: 'At the start of the match, draw 1 card, flip 1 card, and your first
     turn roll is +1.  Once a match:  When you have no other cards in play, your next
@@ -1612,6 +1613,7 @@
     During your turn when you hit one of those cards, draw 1 card.'
   db_uuid: d096673eac8e460ebc788e21339ea808
 - name: Defensive Training With Gia de Los Muertos
+  srg_url: https://supershowthegame.com/product/defensive-training-with-gia/
   card_type: EntranceCard
   rules_text: 'If your deck contains:
 
@@ -1698,7 +1700,7 @@
   card_type: MainDeckCard
   deck_card_number: 13
   atk_type: Strike
-  play_order: Follow Up
+  play_order: Followup
   srg_url: https://supershowthegame.com/product/13-kick-into-the-corner/
   rules_text: If your Agility skill is greater than your opponent's Agility skill,
     stop any Grapple.

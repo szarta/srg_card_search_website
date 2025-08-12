@@ -94,7 +94,7 @@ export default function SearchBar({ onSearch }) {
       >
         <option value="">Play Order</option>
         <option value="Lead">Lead</option>
-        <option value="Follow Up">Follow Up</option>
+        <option value="Followup">Follow Up</option>
         <option value="Finish">Finish</option>
       </select>
 

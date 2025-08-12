@@ -1227,6 +1227,7 @@
     card with "Kick" in the name cannot be sopped.'
   db_uuid: 5f98ad5465634a84b243b437cfa63d20
 - name: The Code of Lucha Libre
+  srg_url: https://supershowthegame.com/product/entrance-the-code-of-lucha-libre/
   card_type: EntranceCard
   rules_text: 'Once per match: If your opponent would look at your hand, or force
     you to reveal any cards from your hand, they do not.'
@@ -1255,6 +1256,7 @@
     the other on top of your deck.'
   db_uuid: 970aaa323555466d9ad05073af08bcc8
 - name: Fate Is On Your Side
+  srg_url: https://supershowthegame.com/product/entrance-fate-is-on-your-side/
   card_type: EntranceCard
   rules_text: 'If your opponent''s Entrance card does not have "L.F.F." in the name,
     copy its text.
@@ -1400,6 +1402,7 @@
     equal to the Crowd Meter.'
   db_uuid: ac0d9a06f00e42dfb4861963b34f397f
 - name: LFF's Most Wanted Sharpshooters
+  srg_url: https://supershowthegame.com/product/entrance-lffs-most-wanted-sharpshooters/
   card_type: EntranceCard
   rules_text: 'Once a match: If your opponent ended their turn without playing a card,
     each player draws 1 card and your opponent''s next turn roll is -2.'
@@ -1428,6 +1431,7 @@
     the other card.'
   db_uuid: a9f75bfb843f43b880507528792644f7
 - name: Main Event Announcer Kirby
+  srg_url: https://supershowthegame.com/product/entrance-main-event-announcer-kirby/
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, put
     1 card with "Microphone" in the name from your discard pile on top of your deck.
@@ -1435,6 +1439,7 @@
     If this is a Main Event match, add that card to your hand instead.'
   db_uuid: caae1f66c3b7490ea8687c9050ae7879
 - name: Managed by Super Genie
+  srg_url: https://supershowthegame.com/product/entrance-managed-by-super-genie/
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, put
     1 card with "Dive" in the name from your discard pile on top of your deck.'
@@ -1474,7 +1479,8 @@
     Before the start of the match search your deck for card #1 and add it to your
     hand.'
   db_uuid: 23440a6a0aa24d4d88cac1ec832f9980
-- name: Opera Intro
+- name: Opera Intro by Primalotta
+  srg_url: https://supershowthegame.com/product/entrance-opera-intro-by-primalotta/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1518,6 +1524,7 @@
     bury 2 cards in your hand"'
   db_uuid: fcc58b638823447d93c9b29cdfad6cd9
 - name: Ring Announcer
+  srg_url: https://supershowthegame.com/product/ring-announcer/
   card_type: EntranceCard
   rules_text: 'Once a match:
 
@@ -1562,6 +1569,7 @@
     Finish roll is -1.'
   db_uuid: d4b48c2fb3c341bcac27dfdf5473fb19
 - name: Rolling In With The Ring General
+  srg_url: https://supershowthegame.com/product/entrance-rolling-in-with-the-ring-general/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1605,6 +1613,7 @@
     and your turn roll is +7.'
   db_uuid: bed23789a7c042dc94ea9c4361ee28a4
 - name: Theatrics from Schitz and Giggles
+  srg_url: https://supershowthegame.com/product/entrance-theatrics-from-schitz-and-giggles/
   card_type: EntranceCard
   rules_text: 'One time per match: If you ended your turn without playing a card,
     your opponent buries 1 card in their hand.'
@@ -1651,6 +1660,7 @@
     of your shuffled deck.'
   db_uuid: b3771b808ba746be81435bbf610ebcfd
 - name: Wedding Trashers
+  srg_url: https://supershowthegame.com/product/entrance-wedding-thrashers/
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, your next
     turn roll is +3 and your opponent draws a card.'

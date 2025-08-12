@@ -1638,7 +1638,7 @@
 
     your next turn roll is +1 for each card flipped.'
   db_uuid: 4a9913a3bebb4365978549135b7b4418
-- name: Viscious Vendetta
+- name: Vicious Vendetta
   srg_url: https://supershowthegame.com/product/entrance-viciousvendetta/
   card_type: EntranceCard
   rules_text: 'Once per match: When you roll Power for your turn roll, your turn roll

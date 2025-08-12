@@ -1235,13 +1235,15 @@
     card, shuffle 2 cards from your discard pile into your deck.'
   db_uuid: 828abae5274f4b39818d12a56e7e1d1d
 - name: Dragon Song for Abigail
+  srg_url: https://supershowthegame.com/product/entrance-dragon-song-for-abigail/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
     If you ended your turn without playing a card, draw 1 card, flip 1 card, and bury
     1 card in your hand.'
   db_uuid: 93fa77a456d849abb1b1e9b8132bd5e3
-- name: Ramp Distraction From The New Wool Order
+- name: Entrance Ramp Distraction From The New Wool Order
+  srg_url: https://supershowthegame.com/product/entrance-entrance-ramp-distraction-from-the-new-wool-order-2/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1258,6 +1260,7 @@
     deck and put them on top in any order.'
   db_uuid: b64f7fd1894e428db2140af016991c12
 - name: Fast-Rising Rivalry
+  srg_url: https://supershowthegame.com/product/entrance-fast-rising-rivarly/
   card_type: EntranceCard
   rules_text: 'Once per match: When your roll Agility for your turn roll, your turn
     roll is +1'
@@ -1268,6 +1271,7 @@
     your deck for card #1, #2, or #3 and add it to your hand.'
   db_uuid: 6e28c84a53004b23bf191d3700824e3f
 - name: Fighting Champion's Spirit, End of an Era
+  srg_url: https://supershowthegame.com/product/entrance-fighting-champion-spirit-end-of-an-era/
   card_type: EntranceCard
   rules_text: 'At the start of the match: You may shuffle your hand into the deck
     and take a new starting hand.  If your opponent has more cards in their hand than
@@ -1276,22 +1280,26 @@
     If this match is not a Steel Cage or Birdcage, your first turn roll is -1.'
   db_uuid: 3d311f960d8248c99ae0e86f7c46e167
 - name: Front Row Fan
+  srg_url: https://supershowthegame.com/product/front-row-fan/
   card_type: EntranceCard
   rules_text: 'Once per match: When the Crowd Meter is 2 or greater, your first breakout
     roll is +2.'
   db_uuid: 2d1c137666844fd88930570dcc6ae538
 - name: Glitter Bombed by Felicia Rose
+  srg_url: https://supershowthegame.com/product/entrance-glitter-bombed-by-felicia-rose/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
     If you have a Follow Up in play and you hit a Finish, draw 2 cards.'
   db_uuid: 576084aee5524f649ac3ce722613ee3d
 - name: Guest Valet
+  srg_url: https://supershowthegame.com/product/guest-valet/
   card_type: EntranceCard
   rules_text: Once per match, if you ended your turn without playing a card, shuffle
     your hand into your deck and draw the same number of cards.
   db_uuid: d39cfa64bdc94e6c9d6eddd15eafe3aa
 - name: Hardware Check
+  srg_url: https://supershowthegame.com/product/entrance-hardware-check/
   card_type: EntranceCard
   rules_text: 'At the start of the match:
 
@@ -1299,6 +1307,7 @@
     on top of your shuffled deck.'
   db_uuid: 2a67a1cdff354e75bf51c9939cd8f647
 - name: Honorable Ref Steve Dumeng
+  srg_url: https://supershowthegame.com/product/entrance-honorable-ref-steven-dumeng/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1306,6 +1315,7 @@
     -3.'
   db_uuid: 3be747c6c292489698bff292bbb0618f
 - name: I Don't Think So!  My Bar, My Rules
+  srg_url: https://supershowthegame.com/product/entrance-i-dont-think-so-my-bar-my-rules/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1313,6 +1323,7 @@
     you may bury 1 card in your opponent''s discard pile.'
   db_uuid: eb174014870e4b67ac253c8f7208c04a
 - name: Impact is Family (V1)
+  srg_url: https://supershowthegame.com/product/entrance-impact-is-family/
   card_type: EntranceCard
   rules_text: 'Your opponent''s Spotlight cards have blank text.
 
@@ -1320,15 +1331,18 @@
     they buried a Spotlight card, your next turn roll is +1 and this card is blanked.'
   db_uuid: 37a75d37b70c40fc93e62b9290b3331c
 - name: Impact is Family (V2)
+  srg_url: https://supershowthegame.com/product/entrance-impact-is-family-alt/
   card_type: EntranceCard
   rules_text: Your opponent's Spotlight Finishes have blank text.
   db_uuid: 9ee10069af7146ab828991ff079a360b
 - name: Iron Sharpens Iron
+  srg_url: https://supershowthegame.com/product/entrance-iron-sharpens-iron/
   card_type: EntranceCard
   rules_text: 'Once per match: If you or your Tag Team partner ended the last turn
     without playing a card, you may re-roll this turn roll.'
   db_uuid: afc0293eda114566b464f12b496798b0
 - name: It Ain't Easy Being Kheezy
+  srg_url: https://supershowthegame.com/product/entrance-it-aint-easy-being-kheezy/
   card_type: EntranceCard
   rules_text: 'Once per match:
 
@@ -1343,18 +1357,35 @@
     If you ended your turn without playing a card, you may reroll your next turn roll,
     that roll is +1.'
   db_uuid: 198eef940acb4294b34e89cc33903e0d
-- name: Jugglers Paradise
+- name: Juggler's Paradise (V1)
+  srg_url: https://supershowthegame.com/product/entrance-jugglers-paradise-world-champion-edition/
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, look
     at the top 3 cards of your deck, randomly add 1 to your hand, put 1 in your discard
     pile, and put the other on top of your deck.'
   db_uuid: f324f3af18454eb6ae455971e9667e55
+- name: Juggler's Paradise (V2)
+  srg_url: https://supershowthegame.com/product/entrance-jugglers-paradise/
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, look
+    at the top 3 cards of your deck, randomly add 1 to your hand, put 1 in your discard
+    pile, and put the other on top of your deck.'
+  db_uuid: 16c240453b524c74830c1d4dbc32225d
+- name: Juggler's Paradise (V3)
+  srg_url: https://supershowthegame.com/product/entrance-jugglers-paradise/
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card, look
+    at the top 3 cards of your deck, randomly add 1 to your hand, put 1 in your discard
+    pile, and put the other on top of your deck.'
+  db_uuid: aeea6b965164490d847b2144912d4160
 - name: Jump the Bell
+  srg_url: https://supershowthegame.com/product/entrance-jump-the-bell/
   card_type: EntranceCard
   rules_text: If you win the first turn roll of the game, your opponent's Entrance
     card is blank.  If not, the first card your opponent plays cannot be stopped.
   db_uuid: 95c1e43c19e04f9bbe992407d1da23fa
 - name: Let's Do the Time Warp Again With Dr. Dick
+  srg_url: https://supershowthegame.com/product/entrance-lets-do-the-time-warp-again-with-dr-dick/
   card_type: EntranceCard
   rules_text: 'Twice per match: When you would bump, you may re-roll your turn roll.'
   db_uuid: 2492b82d8f714dcc881b137bd785bb6e
@@ -1753,3 +1784,16 @@
     may reveal #28, #29, and #30 from your discard pile.  Randomly add 1 of them to
     your hand.'
   db_uuid: cfa8f405ed9c49f1b7987238a285f5b4
+- name: Enough With All The Ruckus
+  card_type: EntranceCard
+  rules_text: '2 times per match:
+
+    When you would bump, you may instead make your turn roll -1 and shuffle 1 card
+    from your discard pile into your deck.'
+  srg_url: https://supershowthegame.com/product/entrance-enough-with-all-the-ruckus/
+  db_uuid: d8495fb15a7b4f23a437d11f93758c17
+- name: Just Married with Wolf Guardian + Horatio
+  srg_url: https://supershowthegame.com/product/entrance-just-married-with-wolf-guardian-horatio/
+  card_type: EntranceCard
+  rules_text: You are considered your own tag team partner for your card effects.
+  db_uuid: 09e9f95633ef418a8c8b286a9bddf56c

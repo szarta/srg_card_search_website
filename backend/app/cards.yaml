@@ -2878,7 +2878,7 @@
   related_finishes:
   - da8b7c809226422ba2a4c0b03b0f546a
   - 8a2c698512ed4874aa6f19f38e182e21
-  - 35d0b197c9a44d699f9670a17871488e
+  - 6bcb9ae282594a7e918a8a5c45622e3a
 - name: Pirate Bay Torrent
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   deck_card_number: 28
@@ -2901,8 +2901,21 @@
 
     If you used your Gimmick this turn, this card is also a Lead.'
   db_uuid: 8a2c698512ed4874aa6f19f38e182e21
-- name: Walk the Plank
+- name: Davy Jones' Bit Locker
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    When this card is in your discard pile:
+
+    After you switch a card in your hand with a card in your discard pile, your opponent
+    randomly adds a card from their discard pile to their hand, and then randomly
+    discards a card from their hand.'
+  db_uuid: 6bcb9ae282594a7e918a8a5c45622e3a
+- name: Walk the Plank
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2925,6 +2938,10 @@
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent
     buries 1 card in their hand.
   db_uuid: 37f9036514b94c4b82fefbb482b5a1a9
+  related_finishes:
+  - b214d29577824b9c84898f40e414bba4
+  - 186adcdd95b049e597d79fd92ef31a15
+  - 2b71751340fa42899d966bda24299eb5
 - name: Pucker Up
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
   deck_card_number: 28

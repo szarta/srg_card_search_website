@@ -2963,3 +2963,14 @@
 
     Your opponent''s maximum handsize is -6.'
   db_uuid: 2b71751340fa42899d966bda24299eb5
+- name: Armageddon
+  srg_url: https://supershowthegame.com/product/17-armageddon/
+  deck_card_number: 17
+  atk_type: Grapple
+  play_order: Followup
+  card_type: MainDeckCard
+  rules_text: 'Your Power skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Ring of Fire match, this card
+    is also a Finish.'
+  db_uuid: f367e0909b42409fa03fc3eb66df8c63

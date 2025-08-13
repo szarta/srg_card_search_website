@@ -1930,3 +1930,327 @@
     does not have "Bat" in the name, you may shuffle your deck and reveal another
     card instead.'
   db_uuid: ce333acee07b48e0a3ea941dd889c48e
+- name: El Super Hombre
+  card_type: SingleCompetitorCard
+  rules_text: Your cards with "Super" in the name have the added text "Your opponent
+    buries 2 cards in their hand." Your 3rd breakout roll each turn is +2.
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  srg_url: https://supershowthegame.com/product/el-super-hombre/
+  db_uuid: 59a06bccbea64d1bb1d6301449190e81
+  related_finishes:
+  - ac693f80214649c9a71bf99186efb3eb
+  - 63034684664a4ac9ba689abb6cc2aa97
+  - 015aecb201074dbb929a9c9cd8b0ea46
+- name: El Super Smash (V1)
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  srg_url: https://supershowthegame.com/product/el-super-hombre/
+  rules_text: '+4 to Agility
+
+    +1 to Strike'
+  db_uuid: ac693f80214649c9a71bf99186efb3eb
+- name: El Super Smash (V2)
+  card_type: MainDeckCard
+  play_order: Finish
+  atk_type: Grapple
+  deck_card_number: 29
+  srg_url: https://supershowthegame.com/product/el-super-hombre/
+  rules_text: '+4 to Technique
+
+    +1 to Grapple'
+  db_uuid: 63034684664a4ac9ba689abb6cc2aa97
+- name: El Superhold
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  srg_url: https://supershowthegame.com/product/el-super-hombre/
+  atk_type: Submission
+  rules_text: '+3 to Technique
+
+    +3 to Submission'
+  db_uuid: 015aecb201074dbb929a9c9cd8b0ea46
+- name: Freedom Belle - Iku Zo
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 7
+  srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
+  rules_text: 'When you roll Strike for your turn roll: Flip 2 cards or add 1 finish
+    from your discard pile to your hand.'
+  db_uuid: 13d73960938c418f9f0cecc7145ac830
+  related_finishes:
+  - 10fdb45a5bcf47e3922800f021549fd2
+  - 29c395cc4903452997b8b353ce770a85
+  - be15b772d9654017844a855005ed01a3
+- name: Freedom Rings
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
+  rules_text: '+4 to Submission
+
+    Your next turn roll is +1.'
+  db_uuid: 10fdb45a5bcf47e3922800f021549fd2
+- name: The Belle Hammer
+  card_type: MainDeckCard
+  play_order: Finish
+  atk_type: Grapple
+  deck_card_number: 29
+  srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    If flipped during your turn roll, add this card to your hand.'
+  db_uuid: 29c395cc4903452997b8b353ce770a85
+- name: Belle Ringer
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
+  atk_type: Submission
+  rules_text: "+2 to Submission\n+1 to Grapple\nYour opponent buries 1 card in their\
+    \ hand.\nIf you have more cards in your hand than your opponent,\n+4 to Submission\
+    \ and\n +2 to Grapple instead."
+  db_uuid: be15b772d9654017844a855005ed01a3
+- name: Flying Super Snap Face Punch
+  srg_url: https://supershowthegame.com/product/01-flying-super-snap-face-punch/
+  rules_text: If this is the first turn of the game, this card cannot be stopped.
+  deck_card_number: 1
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  db_uuid: 02d0c29e92174921b1cc6ee2f2b88d7d
+- name: Half Boston Crab
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  card_type: MainDeckCard
+  rules_text: 'Search your deck for a Finish and add it to your hand.
+
+    Shuffle your deck.
+
+    Your maximum handsize is +1.'
+  srg_url: https://supershowthegame.com/product/24-half-boston-crab/
+  db_uuid: 35860c66fb2a43049146f5b1553404b0
+- name: Whirlwind Whip
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/05-whirlwind-whip/
+  rules_text: 'Stop any Follow Up Submission.
+
+    Each play discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
+  db_uuid: 6d140c86e57549ee8c2083e5a150c2b6
+- name: Dangerous Heat Slam
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/11-dangerous-heat-slam/
+  rules_text: 'If you have another Grapple in play, shuffle 2 cards from your discard
+    pile into your deck.
+
+    If this is a Ring of Fire match, choose a player; their next turn roll is +1.'
+  db_uuid: 6676460b278141379580cfd92b03bf35
+- name: Strength in Numbers
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/09-strength-in-numbers/
+  rules_text: You may play 1 extra card this turn, or if you have less cards in your
+    hand than your opponent draw 2 cards.
+  db_uuid: bd478dc1d8d94eaeb45e9fd6bda6222c
+- name: Spinning Heel Kick
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/13-spinning-heel-kick/
+  rules_text: Your opponent flips 2 cards. You may bury 2 cards in your opponent's
+    discard pile.
+  db_uuid: 83b46be5fe38481e9cbbee07353c5861
+- name: Overheat
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/03-overheat/
+  rules_text: 'Stop any Lead Strike.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad amtch, you may add those cards to each player''s hand.'
+  db_uuid: 0d9a4e918bae464a902b27736e0961e5
+- name: Sheepish Running Knee to the Skull
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/22-sheepish-running-knee/
+  rules_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.'
+  db_uuid: 6c2a798ae96140fa933e1257f229036c
+- name: Field of Fire
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  card_type: MainDeckCard
+  rules_text: 'Your opponent discards 1 card from their hand for each strike you have
+    in play.
+
+    Your next turn roll is +1 for each strike you have in play.'
+  srg_url: https://supershowthegame.com/product/16-field-of-fire/
+  db_uuid: afb62adff6df452bb855c1307f1d85d8
+- name: 'Restoration Potion #8'
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/08-restoration-potion-8/
+  rules_text: 'Draw 1 card.
+
+    When this card is discarded from play for a breakout, shuffle 3 other cards from
+    your discard pile into your deck.'
+  db_uuid: d0c314cb65a94de78da5b21a9286b3d5
+- name: Armenian Power Punch
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/22-armenian-power-punch/
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Strike and 1 Submission from your discard pile to your hand, or draw 1 card.'
+  db_uuid: 57f66614167f44bb9085e15b14d9268d
+- name: Lightning Stifle
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/21-lightning-stifle/
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
+  db_uuid: f43f561c54844405b1c60f5e55619c68
+- name: American Dragon Drop
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/17-american-dragon-drop/
+  rules_text: 'If you have another Grapple in play, put 1 card from your discard pile
+    on top of your deck.
+
+    If this is a Steel Cage match, flip 3 cards.'
+  db_uuid: da4ed6a0dc0b4430a9455df55e55f33a
+- name: Russian Leg Sweep
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/11-russian-leg-sweep/
+  rules_text: Your next turn roll is +1 for each Grapple you have in play.
+  db_uuid: 7d29239a748b406b9882b80a474f4535
+- name: Reflective Parry
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_type: MainDeckCard
+  rules_text: 'Flip 3 cards.
+
+    Add 2 Strikes from your discard pile to your hand or your next turn roll is +1.'
+  db_uuid: 7b6bc01e61d847cc85a33cb82842034b
+- name: Cold Snap
+  deck_card_number: 1
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  rules_text: 'Stop any Lead Grapple
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
+  srg_url: https://supershowthegame.com/product/01-cold-snap/
+  db_uuid: a82a43f981a247b8b69a79b169e18891
+- name: Super Side Kick
+  deck_card_number: 7
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/07-super-side-kick/
+  rules_text: 'Bury 1 Strike in any player''s discard pile.
+
+    Your opponent cannot double team, save, or protect until the end of their next
+    turn.'
+  db_uuid: f253733568ab4089b08fbac2762e7692
+- name: Drawin' Dimes
+  deck_card_number: 7
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/07-drawin-dimes/
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    If your next turn roll is 10, it is +1.'
+  db_uuid: 3985ce9c65644441becdde562788868a
+- name: Hype the Crowd
+  srg_url: https://supershowthegame.com/product/09-hype-the-crowd/
+  atk_type: Submission
+  play_order: Lead
+  card_type: MainDeckCard
+  deck_card_number: 9
+  rules_text: 'Flip 3 cards.
+
+    Choose 3 cards in your discard pile, your opponent puts one in your hand, buries
+    another, and the last stays in your discard pile.'
+  db_uuid: d49c7aed65a44b8d93e9be0bc0167691
+- name: Can You Afford This?
+  srg_url: https://supershowthegame.com/product/10-can-you-afford-this/
+  deck_card_number: 10
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  rules_text: 'If you have another Strike in play, put 1 Strike from your discard
+    pile on top of your deck.
+
+    If this is a Steel Cage match and this card is flipped, flip 1 card.'
+  db_uuid: a74d29fd1f9143d08bdd9a83fd4a1982
+- name: Soul Burn
+  deck_card_number: 15
+  atk_type: Submission
+  play_order: Followup
+  card_type: MainDeckCard
+  rules_text: If you have a Grapple in play, add 1 card from your discard pile to
+    your hand.
+  db_uuid: 3ae31d64263c410d90b0c0ffb11d6b04
+- name: Marvelous Recruits
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  rules_text: 'Add 1 Lead from your discard pile to your hand.
+
+    When your opponent forces you to burn any number of cards from your hand, draw
+    1 card.'
+  srg_url: https://supershowthegame.com/product/08-marvelous-recruits/
+  db_uuid: c855f79a7e8a42e6b29841f4991d0035

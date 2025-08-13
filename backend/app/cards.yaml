@@ -2327,7 +2327,7 @@
     Put 1 card from your discard pile on top of your deck.'
   db_uuid: 9a58dadddf4d496386cdb4887febeae8
 - name: Boulder Smash
-  deck_card_number: 14
+  deck_card_number: 19
   atk_type: Strike
   play_order: Followup
   card_type: MainDeckCard
@@ -2338,3 +2338,22 @@
 
     Is this is a Triad match, you may add those cards to each player''s hand.'
   db_uuid: 99f1a008a4fb4a05873aa4117052418a
+- name: Derailed
+  deck_card_number: 6
+  atk_type: Submission
+  play_order: Lead
+  card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Strike.
+
+    Each player shuffles their hand into their deck, then adds the top 4 cards of
+    their deck to their hand.'
+  srg_url: https://supershowthegame.com/product/06-derailed/
+  db_uuid: 8734e9fde50c47b7a2e51cbc1adbc6de
+- name: Elbow Strikes
+  srg_url: https://supershowthegame.com/product/19-elbow-strikes/
+  deck_card_number: 19
+  atk_type: Strike
+  play_order: Followup
+  card_type: MainDeckCard
+  rules_text: If your opponent has another Grapple in play, stop any Grapple.
+  db_uuid: bae14053965e4d2e84352bcda2e3ed61

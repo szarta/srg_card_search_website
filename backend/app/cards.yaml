@@ -2360,7 +2360,7 @@
   card_type: MainDeckCard
   rules_text: If your opponent has another Grapple in play, stop any Grapple.
   db_uuid: bae14053965e4d2e84352bcda2e3ed61
-- name: Art of the Seal
+- name: Art the Seal
   power: 10
   technique: 9
   agility: 7
@@ -2368,6 +2368,7 @@
   submission: 6
   grapple: 5
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: 'When you hit a card with "Seal" or "Taunt" in the name: Your opponent
     flips 1 card, then you may bury 1 card in any player''s discard pile.'
   db_uuid: abec1bc1bede476cb22839213ccb31b9
@@ -2376,6 +2377,7 @@
   - 5cff784c580d42cf93f34c57fb88a9bf
   - e9db919e62d6440db8d6fe7dc0384cc7
 - name: The Art Attack
+  srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: '+2 to Agility
 
     +3 to Grapple
@@ -2388,6 +2390,7 @@
   card_type: MainDeckCard
   db_uuid: b6987823bf204fe8b1e170840d0d277d
 - name: Chonkin' and Bonkin'
+  srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: '+1 to Strike
 
     +2 to Grapple
@@ -2401,6 +2404,7 @@
   card_type: MainDeckCard
   db_uuid: 5cff784c580d42cf93f34c57fb88a9bf
 - name: Seal of Disapproval
+  srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: '+1 to Agility
 
     +2 to Submission
@@ -2413,6 +2417,7 @@
   card_type: MainDeckCard
   db_uuid: e9db919e62d6440db8d6fe7dc0384cc7
 - name: Big Jim Bias
+  srg_url: https://supershowthegame.com/product/big-jim-bias/
   power: 10
   technique: 6
   agility: 5
@@ -2429,6 +2434,7 @@
   - bff76f74503844ff81368b0433524aa7
   - 87b3df9b0aa64db1afa655d61706f68a
 - name: Killing Them With Kindness
+  srg_url: https://supershowthegame.com/product/big-jim-bias/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2440,6 +2446,7 @@
     Draw the bottom 2 cards of your deck.'
   db_uuid: 0e0ea6a0c199460dbd2f3e99fc38cf04
 - name: Keeping It Hardcore
+  srg_url: https://supershowthegame.com/product/big-jim-bias/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2452,6 +2459,7 @@
     than your opponent''s, you may add this card to your hand.'
   db_uuid: bff76f74503844ff81368b0433524aa7
 - name: The Gun Rack
+  srg_url: https://supershowthegame.com/product/big-jim-bias/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2464,6 +2472,7 @@
     card is also a Follow Up.'
   db_uuid: 87b3df9b0aa64db1afa655d61706f68a
 - name: Blackstar
+  srg_url: https://supershowthegame.com/product/blackstar/
   power: 10
   technique: 5
   agility: 6
@@ -2479,6 +2488,7 @@
   - c2d54dfb0e9d4a80a21542da101dce54
   - b0e0b2696d984a10b6569efedd98c612
 - name: Escape Velocity
+  srg_url: https://supershowthegame.com/product/blackstar/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2491,6 +2501,7 @@
     you may bury it and your opponent''s turn roll is -2.'
   db_uuid: 81d0941adf774cf19415e8c044aefce9
 - name: Event Horizon
+  srg_url: https://supershowthegame.com/product/blackstar/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2505,6 +2516,7 @@
     discards 1 random card from their hand.'
   db_uuid: c2d54dfb0e9d4a80a21542da101dce54
 - name: Gravitational Collapse
+  srg_url: https://supershowthegame.com/product/blackstar/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2516,6 +2528,7 @@
     Draw 2 cards, randomly bury 2 cards in your discard pile.'
   db_uuid: b0e0b2696d984a10b6569efedd98c612
 - name: Brutus Bison
+  srg_url: https://supershowthegame.com/product/brutus-bison-2/
   power: 10
   technique: 5
   agility: 6
@@ -2532,6 +2545,7 @@
   - 6ecbb9ba694a498f87ac987a630a1a5c
   - 3e16a0f8d1244ecfb22fdb632cb65a56
 - name: Brutal Beatdown
+  srg_url: https://supershowthegame.com/product/brutus-bison-2/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2544,6 +2558,7 @@
     with "Suplex" in the name.'
   db_uuid: 74eb93d4eb7f4500986b1074fea219a4
 - name: Cyclone Suplex
+  srg_url: https://supershowthegame.com/product/brutus-bison-2/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2555,6 +2570,7 @@
     +1 to Grapple'
   db_uuid: 6ecbb9ba694a498f87ac987a630a1a5c
 - name: Abomination Arm Lock
+  srg_url: https://supershowthegame.com/product/brutus-bison-2/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2567,6 +2583,7 @@
     Add 1 card from your discard pile or from in play to your hand.'
   db_uuid: 3e16a0f8d1244ecfb22fdb632cb65a56
 - name: Alana Antoinnette
+  srg_url: https://supershowthegame.com/product/alana-antoinnette/
   power: 8
   technique: 10
   agility: 5
@@ -2583,6 +2600,7 @@
   - a62244a047184f01b497149d25827b2a
   - 1a6c7ef85ca54ac991d99363f5fa8597
 - name: "Libert\xE9, \xC9galit\xE9, Fraternit\xE9!"
+  srg_url: https://supershowthegame.com/product/alana-antoinnette/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2596,6 +2614,7 @@
     Each player discards 1 card from their hand. Each player draws 1 card.'
   db_uuid: 75a5d7c95e20425d8c1d685cfd27a16f
 - name: Let Them Eat Cake
+  srg_url: https://supershowthegame.com/product/alana-antoinnette/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2608,6 +2627,7 @@
     deck and put them on top in any order.'
   db_uuid: a62244a047184f01b497149d25827b2a
 - name: The Reign of Terror
+  srg_url: https://supershowthegame.com/product/alana-antoinnette/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2638,6 +2658,7 @@
   - cd01ac08134342bda5826e44a1ff1c9d
   db_uuid: a01036ebb5bf49e382f6c9668fd04cc7
 - name: Chibi
+  srg_url: https://supershowthegame.com/product/chibi/
   power: 7
   technique: 10
   agility: 6
@@ -2652,6 +2673,7 @@
   - 733c5928ab74495da54cae4f1fe9c465
   - 76956640cfc7469da14708c95b2d5f13
 - name: Regicide
+  srg_url: https://supershowthegame.com/product/chibi/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2661,6 +2683,7 @@
     +3 to Strike'
   db_uuid: b16c653185804b05b732fc6a4f496d43
 - name: Succession
+  srg_url: https://supershowthegame.com/product/chibi/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2672,6 +2695,7 @@
     When your opponent''s turn roll is 5, this card is a Follow Up.'
   db_uuid: 733c5928ab74495da54cae4f1fe9c465
 - name: Seat of Power
+  srg_url: https://supershowthegame.com/product/chibi/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2681,6 +2705,7 @@
     If your opponent rolls a 5 for their breakout roll, your opponent cannot breakout.'
   db_uuid: 76956640cfc7469da14708c95b2d5f13
 - name: Citizen X
+  srg_url: https://supershowthegame.com/product/citizen-x/
   power: 8
   technique: 10
   agility: 7
@@ -2696,6 +2721,7 @@
   - 042c99db0a8544ceb6221185468668fd
   - 31651dd912a748a49f6efa29cdd26cf0
 - name: Pebkac
+  srg_url: https://supershowthegame.com/product/citizen-x/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2707,6 +2733,7 @@
     Your opponent draws 4 cards, then randomly buries 5 cards in their hand.'
   db_uuid: 3086fca7a74c4ea2a72ef2dec4e72314
 - name: Crash Override
+  srg_url: https://supershowthegame.com/product/citizen-x/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2718,6 +2745,7 @@
     Look at your opponent''s hand, they discard all Grapples.'
   db_uuid: 042c99db0a8544ceb6221185468668fd
 - name: The LoTEK
+  srg_url: https://supershowthegame.com/product/citizen-x/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2728,6 +2756,7 @@
     you may add this card to your hand.'
   db_uuid: 31651dd912a748a49f6efa29cdd26cf0
 - name: Colby W Cram
+  srg_url: https://supershowthegame.com/product/colby-w-cram/
   power: 7
   technique: 10
   agility: 6
@@ -2743,6 +2772,7 @@
   - 9daa2734506640ab812e375d4fb8b6c3
   - f0fbbefd3069497b82f1ddb7e268306b
 - name: Bull Run!
+  srg_url: https://supershowthegame.com/product/colby-w-cram/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2756,6 +2786,7 @@
     Your next turn roll is +1.'
   db_uuid: 553dbee36a1e4bf3aad855ae12fca346
 - name: Insider Trading
+  srg_url: https://supershowthegame.com/product/colby-w-cram/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2767,6 +2798,7 @@
     Stop any Submission that cannot be stopped.'
   db_uuid: 9daa2734506640ab812e375d4fb8b6c3
 - name: Blue Chip Sleeper Hold
+  srg_url: https://supershowthegame.com/product/colby-w-cram/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2776,6 +2808,7 @@
     If you have more Submissions in play that your opponent, your Finish roll is +1.'
   db_uuid: f0fbbefd3069497b82f1ddb7e268306b
 - name: Combat Chris
+  srg_url: https://supershowthegame.com/product/combat-chris/
   power: 8
   technique: 10
   agility: 9
@@ -2791,6 +2824,7 @@
   - 8fc1219bf0e140d98260dbcd8472db05
   - 1cbcbebb2e7942b7aeddf53e9f008489
 - name: Touch of a Lesser God
+  srg_url: https://supershowthegame.com/product/combat-chris/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2802,6 +2836,7 @@
     If stopped, you may play another card this turn.'
   db_uuid: 1f850d62a7654ca087604065017d9d3c
 - name: Heaven and Earth
+  srg_url: https://supershowthegame.com/product/combat-chris/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2813,6 +2848,7 @@
     If stopped, add 1 other card from your discard to your hand.'
   db_uuid: 8fc1219bf0e140d98260dbcd8472db05
 - name: Old Master's Favorite
+  srg_url: https://supershowthegame.com/product/combat-chris/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2825,6 +2861,7 @@
     to your breakout roll.'
   db_uuid: 1cbcbebb2e7942b7aeddf53e9f008489
 - name: Dread Pirate Tech Support
+  srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   power: 5
   technique: 10
   agility: 6
@@ -2843,6 +2880,7 @@
   - 8a2c698512ed4874aa6f19f38e182e21
   - 35d0b197c9a44d699f9670a17871488e
 - name: Pirate Bay Torrent
+  srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -2852,6 +2890,7 @@
     roll, you may choose a card in your discard pile instead.'
   db_uuid: da8b7c809226422ba2a4c0b03b0f546a
 - name: The Pirate Code
+  srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -2863,6 +2902,7 @@
     If you used your Gimmick this turn, this card is also a Lead.'
   db_uuid: 8a2c698512ed4874aa6f19f38e182e21
 - name: Walk the Plank
+  srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2874,6 +2914,7 @@
     Their 3rd brekaout roll is -2.'
   db_uuid: 35d0b197c9a44d699f9670a17871488e
 - name: Ariel Lipstick
+  srg_url: https://supershowthegame.com/product/ariel-lipstick/
   power: 5
   technique: 6
   agility: 9
@@ -2884,3 +2925,41 @@
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent
     buries 1 card in their hand.
   db_uuid: 37f9036514b94c4b82fefbb482b5a1a9
+- name: Pucker Up
+  srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +4 to Power
+
+    Draw 1 card or your opponent buries 2 cards in their hand.'
+  db_uuid: b214d29577824b9c84898f40e414bba4
+- name: Matte Finish
+  srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    +2 to Submission
+
+    Draw 3 cards.
+
+    Each player buries 1 card in their hand.'
+  db_uuid: 186adcdd95b049e597d79fd92ef31a15
+- name: The Makeover
+  srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +3 to Power
+
+    Your opponent''s maximum handsize is -6.'
+  db_uuid: 2b71751340fa42899d966bda24299eb5

@@ -1054,6 +1054,7 @@
     Bury 3 cards in any player''s discard pile.'
   db_uuid: c17faf738dc9453097c7b4301baaafff
 - name: Crocodile Chop
+  srg_url: https://supershowthegame.com/product/bartholomew-hooke/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -1067,6 +1068,7 @@
     Draw 1 card'
   db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
 - name: Steel Chain Anchors Aweigh
+  srg_url: https://supershowthegame.com/product/bartholomew-hooke/
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish
@@ -1077,10 +1079,11 @@
 
     +1 to Grapple
 
-    Draw 1 card for each Scallywag Symbol you have revealed on your entrance and competitor
+    Draw 1 card for each Scallywag Symbol you have revealed on your Entrance and Competitor
     cards.'
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
 - name: Death is the Only Great Adventure You Have Left
+  srg_url: https://supershowthegame.com/product/bartholomew-hooke/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -2357,3 +2360,527 @@
   card_type: MainDeckCard
   rules_text: If your opponent has another Grapple in play, stop any Grapple.
   db_uuid: bae14053965e4d2e84352bcda2e3ed61
+- name: Art of the Seal
+  power: 10
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 6
+  grapple: 5
+  card_type: SingleCompetitorCard
+  rules_text: 'When you hit a card with "Seal" or "Taunt" in the name: Your opponent
+    flips 1 card, then you may bury 1 card in any player''s discard pile.'
+  db_uuid: abec1bc1bede476cb22839213ccb31b9
+  related_finishes:
+  - b6987823bf204fe8b1e170840d0d277d
+  - 5cff784c580d42cf93f34c57fb88a9bf
+  - e9db919e62d6440db8d6fe7dc0384cc7
+- name: The Art Attack
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    When this card is in your discard pile and you stop a card, the stopped card has
+    blank text until the end of the turn.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: b6987823bf204fe8b1e170840d0d277d
+- name: Chonkin' and Bonkin'
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, chose 1 card and bury it.
+
+    Your opponent randomly discards 1 card from their hand.'
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: 5cff784c580d42cf93f34c57fb88a9bf
+- name: Seal of Disapproval
+  rules_text: '+1 to Agility
+
+    +2 to Submission
+
+    If your opponent has a Spectacle revealed, this card is also a Follow Up.  If
+    that Spectacle has "Taunt" in the name, double these bonuses.'
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: e9db919e62d6440db8d6fe7dc0384cc7
+- name: Big Jim Bias
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 8
+  card_type: SingleCompetitorCard
+  rules_text: 'When your turn roll is at least 3 greater than your opponent''s: Look
+    at the bottom 3 cards of your deck, put 1 on top of your deck and randomly bury
+    the others.'
+  db_uuid: 9af9c9c9ba454cbc8ea6bd87eb0adc9a
+  related_finishes:
+  - 0e0ea6a0c199460dbd2f3e99fc38cf04
+  - bff76f74503844ff81368b0433524aa7
+  - 87b3df9b0aa64db1afa655d61706f68a
+- name: Killing Them With Kindness
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Draw the bottom 2 cards of your deck.'
+  db_uuid: 0e0ea6a0c199460dbd2f3e99fc38cf04
+- name: Keeping It Hardcore
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    When this card is in your discard pile and your turn roll is at least 5 greater
+    than your opponent''s, you may add this card to your hand.'
+  db_uuid: bff76f74503844ff81368b0433524aa7
+- name: The Gun Rack
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If your turn roll was at least 3 greater than your opponent''s turn roll, this
+    card is also a Follow Up.'
+  db_uuid: 87b3df9b0aa64db1afa655d61706f68a
+- name: Blackstar
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 9
+  grapple: 7
+  card_type: SingleCompetitorCard
+  rules_text: When you roll Power for your turn roll, choose 1 card your opponent
+    has in play and discard it.
+  db_uuid: 5f5d6354e8b8416e9185cfcc6f425c8e
+  related_finishes:
+  - 81d0941adf774cf19415e8c044aefce9
+  - c2d54dfb0e9d4a80a21542da101dce54
+  - b0e0b2696d984a10b6569efedd98c612
+- name: Escape Velocity
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile and you roll Technique for your turn roll,
+    you may bury it and your opponent''s turn roll is -2.'
+  db_uuid: 81d0941adf774cf19415e8c044aefce9
+- name: Event Horizon
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Shuffle 1 card from your discard pile into your deck, draw 1 card and your opponent
+    discards 1 random card from their hand.'
+  db_uuid: c2d54dfb0e9d4a80a21542da101dce54
+- name: Gravitational Collapse
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Draw 2 cards, randomly bury 2 cards in your discard pile.'
+  db_uuid: b0e0b2696d984a10b6569efedd98c612
+- name: Brutus Bison
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 9
+  card_type: SingleCompetitorCard
+  rules_text: 'During your turn: When you hit a card with "Suplex" in the name, you
+    may play an additional card this turn. "German Suplex" is also card #02, #05,
+    and #11'
+  db_uuid: df665aceb6fb4424ad89d1368b983b6c
+  related_finishes:
+  - 74eb93d4eb7f4500986b1074fea219a4
+  - 6ecbb9ba694a498f87ac987a630a1a5c
+  - 3e16a0f8d1244ecfb22fdb632cb65a56
+- name: Brutal Beatdown
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Your opponent randomly buries 1 card in their hand for each card you have in play
+    with "Suplex" in the name.'
+  db_uuid: 74eb93d4eb7f4500986b1074fea219a4
+- name: Cyclone Suplex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +2 to Agility
+
+    +1 to Grapple'
+  db_uuid: 6ecbb9ba694a498f87ac987a630a1a5c
+- name: Abomination Arm Lock
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique for each card you have in play with "German Suplex"
+    in the name.
+
+    +2 to to Submission
+
+    Add 1 card from your discard pile or from in play to your hand.'
+  db_uuid: 3e16a0f8d1244ecfb22fdb632cb65a56
+- name: Alana Antoinnette
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 7
+  submission: 9
+  grapple: 6
+  card_type: SingleCompetitorCard
+  rules_text: 'When you roll Grapple or Power for your turn roll: Reveal the top card
+    of your opponent''s deck.  If it is a Finish, you may flip it; if it is not, you
+    may bury it.'
+  db_uuid: c4732bb7130f49d5830a881f78b0d6a6
+  related_finishes:
+  - 75a5d7c95e20425d8c1d685cfd27a16f
+  - a62244a047184f01b497149d25827b2a
+  - 1a6c7ef85ca54ac991d99363f5fa8597
+- name: "Libert\xE9, \xC9galit\xE9, Fraternit\xE9!"
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile, unblank your Gimmick.
+
+    Each player discards 1 card from their hand. Each player draws 1 card.'
+  db_uuid: 75a5d7c95e20425d8c1d685cfd27a16f
+- name: Let Them Eat Cake
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    Bury 2 cards in any player''s discard pile. Look at the top 4 cards of your opponent''s
+    deck and put them on top in any order.'
+  db_uuid: a62244a047184f01b497149d25827b2a
+- name: The Reign of Terror
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    If your opponent flipped a card for your gimmick, this card is also a Lead until
+    the end of your turn.
+
+    Your opponent randomly discards 1 card from their hand.'
+  db_uuid: 1a6c7ef85ca54ac991d99363f5fa8597
+- name: Bartholomew Hooke
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  card_type: SingleCompetitorCard
+  rules_text: 'When you hit a card, your opponent randomly reveals a card in their
+    hand: if it is a stop, draw 2 cards.'
+  srg_url: https://supershowthegame.com/product/bartholomew-hooke/
+  related_finishes:
+  - 01d7642fbfae4817a4ff1c01f175e9e8
+  - c97d0ef041cd4e33824b7583bd7fc0a1
+  - cd01ac08134342bda5826e44a1ff1c9d
+  db_uuid: a01036ebb5bf49e382f6c9668fd04cc7
+- name: Chibi
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 9
+  card_type: SingleCompetitorCard
+  rules_text: Your opponent's printed 6 skill is -1 during turn rolls.
+  db_uuid: a9015fd930594327831767247044e2fa
+  related_finishes:
+  - b16c653185804b05b732fc6a4f496d43
+  - 733c5928ab74495da54cae4f1fe9c465
+  - 76956640cfc7469da14708c95b2d5f13
+- name: Regicide
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +3 to Strike'
+  db_uuid: b16c653185804b05b732fc6a4f496d43
+- name: Succession
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    When your opponent''s turn roll is 5, this card is a Follow Up.'
+  db_uuid: 733c5928ab74495da54cae4f1fe9c465
+- name: Seat of Power
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    If your opponent rolls a 5 for their breakout roll, your opponent cannot breakout.'
+  db_uuid: 76956640cfc7469da14708c95b2d5f13
+- name: Citizen X
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 5
+  card_type: SingleCompetitorCard
+  rules_text: When your opponent draws any number of cards for a Gimmick or card effect,
+    they bury 1 card in their hand.
+  db_uuid: 00e44c96da69423b95a40b5d756354b4
+  related_finishes:
+  - 3086fca7a74c4ea2a72ef2dec4e72314
+  - 042c99db0a8544ceb6221185468668fd
+  - 31651dd912a748a49f6efa29cdd26cf0
+- name: Pebkac
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Your opponent draws 4 cards, then randomly buries 5 cards in their hand.'
+  db_uuid: 3086fca7a74c4ea2a72ef2dec4e72314
+- name: Crash Override
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, they discard all Grapples.'
+  db_uuid: 042c99db0a8544ceb6221185468668fd
+- name: The LoTEK
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Grapple
+
+    When this card is in your discard pile and your opponent stops "Cyber Attack",
+    you may add this card to your hand.'
+  db_uuid: 31651dd912a748a49f6efa29cdd26cf0
+- name: Colby W Cram
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 8
+  card_type: SingleCompetitorCard
+  rules_text: When your opponent hits a Submission, draw 1 card and your next turn
+    roll is +1.
+  db_uuid: 2b5d9774058b458c94d7a88322d0114d
+  related_finishes:
+  - 553dbee36a1e4bf3aad855ae12fca346
+  - 9daa2734506640ab812e375d4fb8b6c3
+  - f0fbbefd3069497b82f1ddb7e268306b
+- name: Bull Run!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Draw 1 card.
+
+    Your next turn roll is +1.'
+  db_uuid: 553dbee36a1e4bf3aad855ae12fca346
+- name: Insider Trading
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    For the rest of the match, this match cannot end via disqualification.
+
+    Stop any Submission that cannot be stopped.'
+  db_uuid: 9daa2734506640ab812e375d4fb8b6c3
+- name: Blue Chip Sleeper Hold
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    If you have more Submissions in play that your opponent, your Finish roll is +1.'
+  db_uuid: f0fbbefd3069497b82f1ddb7e268306b
+- name: Combat Chris
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 5
+  card_type: SingleCompetitorCard
+  rules_text: When your turn roll is at least 4 greater than your opponent's, draw
+    1 card.  When it is at least 4 less than your opponent's, draw 2 cards.
+  db_uuid: a18b389d56994508909ca56f333cc7a2
+  related_finishes:
+  - 1f850d62a7654ca087604065017d9d3c
+  - 8fc1219bf0e140d98260dbcd8472db05
+  - 1cbcbebb2e7942b7aeddf53e9f008489
+- name: Touch of a Lesser God
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +2 to Submission
+
+    If stopped, you may play another card this turn.'
+  db_uuid: 1f850d62a7654ca087604065017d9d3c
+- name: Heaven and Earth
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    If stopped, add 1 other card from your discard to your hand.'
+  db_uuid: 8fc1219bf0e140d98260dbcd8472db05
+- name: Old Master's Favorite
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    During your opponent''s turn you may discard this card from your hand to add +1
+    to your breakout roll.'
+  db_uuid: 1cbcbebb2e7942b7aeddf53e9f008489
+- name: Dread Pirate Tech Support
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 7
+  card_type: SingleCompetitorCard
+  rules_text: 'At the start of the match, choose Technique or Agility.
+
+    Once per turn, when you rolled the chosen skill for your turn roll: You may switch
+    1 card in your hand with 1 card in your discard pile of the same card type (Lead,
+    Follow up, Finish).'
+  db_uuid: d2b10108b44646b4b6527e2d8b8f6de5
+  related_finishes:
+  - da8b7c809226422ba2a4c0b03b0f546a
+  - 8a2c698512ed4874aa6f19f38e182e21
+  - 35d0b197c9a44d699f9670a17871488e
+- name: Pirate Bay Torrent
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Choose 1 card in your opponent''s discard pile: This card copies its
+    text until the end of the turn.  If you rolled Technique or Agility for your turn
+    roll, you may choose a card in your discard pile instead.'
+  db_uuid: da8b7c809226422ba2a4c0b03b0f546a
+- name: The Pirate Code
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    If you used your Gimmick this turn, this card is also a Lead.'
+  db_uuid: 8a2c698512ed4874aa6f19f38e182e21
+- name: Walk the Plank
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: 'Your opponent discards 1 card from their hand.
+
+    Your opponent''s 2nd breakout roll is -1.
+
+    Their 3rd brekaout roll is -2.'
+  db_uuid: 35d0b197c9a44d699f9670a17871488e
+- name: Ariel Lipstick
+  power: 5
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
+  card_type: SingleCompetitorCard
+  rules_text: When you roll Power for your turn roll, draw 1 card and your opponent
+    buries 1 card in their hand.
+  db_uuid: 37f9036514b94c4b82fefbb482b5a1a9

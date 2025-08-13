@@ -2245,6 +2245,7 @@
     your hand.
   db_uuid: 3ae31d64263c410d90b0c0ffb11d6b04
 - name: Marvelous Recruits
+  deck_card_number: 8
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -2254,3 +2255,86 @@
     1 card.'
   srg_url: https://supershowthegame.com/product/08-marvelous-recruits/
   db_uuid: c855f79a7e8a42e6b29841f4991d0035
+- name: Snap Kick
+  deck_card_number: 10
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Each player draws 1 card.'
+  srg_url: https://supershowthegame.com/product/04-snap-kick/
+  db_uuid: fd8b036af949412eaacb21be73676450
+- name: Armenian Supershow
+  deck_card_number: 23
+  atk_type: Grapple
+  play_order: Followup
+  card_type: MainDeckCard
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Grapple and 1 Strike from your discard pile to your hand, or draw 1 card.'
+  srg_url: https://supershowthegame.com/product/23-armenian-supershow/
+  db_uuid: c9aabd80eb24472398f6f2dc7134e599
+- name: Cat Scratch
+  deck_card_number: 18
+  atk_type: Submission
+  play_order: Followup
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/18-cat-scratch/
+  rules_text: 'If you have another Submission in play, put 1 card from your discard
+    pile on top of your deck.
+
+    If this is a Steel Cage match, flip 3 cards.'
+  db_uuid: e8d2328e6e114b2ead86a2e97a6b4abc
+- name: Drive Into the Planet
+  srg_url: https://supershowthegame.com/product/20-drive-into-the-planet/
+  atk_type: Grapple
+  play_order: Followup
+  card_type: MainDeckCard
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
+  db_uuid: d3c51fc0c20c4fb8b709b1fafbd001f2
+- name: Side Chin Lock
+  deck_card_number: 12
+  atk_type: Submission
+  play_order: Lead
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/12-side-chin-lock/
+  rules_text: Your next turn roll is +1 for each Submission you have in play.
+  db_uuid: e93b7670656a48f6beaf9980d0e30109
+- name: Elevated Ankle Breaker
+  deck_card_number: 24
+  atk_type: Submission
+  play_order: Followup
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/24-elevated-ankle-breaker/
+  rules_text: 'Your opponent discards 1 random card from their hand.
+
+    Bury 2 cards in any player''s discard pile.'
+  db_uuid: 9bc22d747f884500a389bcb4fdbe4915
+- name: The Seven Seals
+  deck_card_number: 14
+  atk_type: Grapple
+  play_order: Followup
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/14-the-seven-seals/
+  rules_text: 'If your Power is greater than your opponent''s Power, stop any Submission.
+
+    Put 1 card from your discard pile on top of your deck.'
+  db_uuid: 9a58dadddf4d496386cdb4887febeae8
+- name: Boulder Smash
+  deck_card_number: 14
+  atk_type: Strike
+  play_order: Followup
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/19-boulder-smash/
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player discards the bottom card of their deck.
+
+    Is this is a Triad match, you may add those cards to each player''s hand.'
+  db_uuid: 99f1a008a4fb4a05873aa4117052418a

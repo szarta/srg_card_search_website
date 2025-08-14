@@ -707,6 +707,7 @@
   card_type: MainDeckCard
   db_uuid: c9ffe2001ba0486a9c921193989c9176
 - name: Inevitable Ace Austin
+  srg_url: "https://supershowthegame.com/product/ace-austin/"
   card_type: SingleCompetitorCard
   rules_text: When you reveal any number of cards, you may switch one of them with
     the bottom card of your deck.
@@ -725,6 +726,7 @@
   - ba54a7d9874e48169b07969b52f171c6
   - a38f21dfd9cf4924a668c3396a428844
 - name: Whole Lotta Lariat
+  srg_url: "https://supershowthegame.com/product/crash-jaxon/"
   rules_text: '+1 to Power
 
     +1 to Agility
@@ -739,6 +741,7 @@
   card_type: MainDeckCard
   db_uuid: 26d8904b89a44ed481131580376de702
 - name: Crash Landing
+  srg_url: "https://supershowthegame.com/product/crash-jaxon/"
   rules_text: '+3 to Technique
 
     +2 to Grapple'
@@ -748,6 +751,7 @@
   card_type: MainDeckCard
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
 - name: Fear of Diving
+  srg_url: "https://supershowthegame.com/product/crash-jaxon/"
   rules_text: '+1 to Technique
 
     +1 to Agility
@@ -775,6 +779,7 @@
   card_type: MainDeckCard
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
 - name: Cactus Driver 97'
+  srg_url: "https://supershowthegame.com/product/death-machine-sami-callihan/"
   deck_card_number: 29
   atk_type: Grapple
   play_order: Finish

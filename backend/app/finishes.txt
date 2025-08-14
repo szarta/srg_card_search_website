@@ -1,0 +1,25 @@
+- name: ""
+  srg_url: ""
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: ""
+
+- name: ""
+  srg_url: ""
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: ""
+
+- name: ""
+  srg_url: ""
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: ""
+
+

@@ -3469,12 +3469,6 @@
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: e1bc9d83651e4ae293322a7f46976e98
-- name: Springboard
-  play_order: Lead
-  atk_type: Strike
-  card_type: MainDeckCard
-  deck_card_number: 1
-  db_uuid: 8e9d5a63ab034fcfaaf4d6063bf6cde0
 - name: Trip Up
   play_order: Lead
   atk_type: Strike
@@ -7579,3 +7573,453 @@
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: b4d1d9bc02934c3b96ae58c4ad89e387
+- name: Al13n Boot Drop
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: fe6c2777a7e249438a2842f9c888d685
+- name: Alvin the Cat's Lucky Day
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 2fa0d8c8f2ae42e293857461e2a93785
+- name: Atomic Drop (V1)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 90bf8b8280304b5680ad2d1b6119a70e
+- name: Atomic Drop (V2)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 7c393550cead4d068797223807e2795c
+- name: Back Body Drop (V1)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 6ecacd4579324ccd8a20bdedd6c6eeec
+- name: Back Body Drop (V2)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 22b2cb6c22eb4e18a8cac46620f64593
+- name: Back in the Saddle
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 1dff164b85c54cdba8366cdf85d5bdea
+- name: Bulldog Buster
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8a8b06a8c2934804880c2c7b64e9c618
+- name: Catch And Slam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 2972c56539d14f16b64c03b2f2d99b9b
+- name: Catch the Guitar
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8a675981d5b04d71831a8f0e9568d87b
+- name: Catch the Ropes
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 3aebaea664064346b166bff127e16ffc
+- name: Cheat to Win
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 5c567ab9e4f44743a792e3c92220e31b
+- name: Chickenwing Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 175dbd0a37ae488ba3de1b1076b975c5
+- name: Colossal Smash
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 481837b6748045d6a46e524d24c2824a
+- name: Corner Snake Eyes
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 353c577e950b40e48cde04d6198a46a3
+- name: Cradle Driver
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 4c6eee36007542309403aed4065a3518
+- name: Cradle Piledriver
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 31e86ec0e98148338f29c623d3d4415d
+- name: Dangerous Slam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: aae536d617944eb8aff4133f0bcc5e47
+- name: Dangerous Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: b5001c5af3ca4df39a38f6914b068d7e
+- name: DDT
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 226b283843d6423cabe6fa55cfa038ae
+- name: Delayed Atomic Drop
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: bc0fd01e83ca4e4a9116a5b7e17e29ee
+- name: Deranger
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: df08d68cf0d141f199fffd6ade89ae5b
+- name: Diamond Dust
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 7ee57f08f2954f8fb03d1cfbafd45015
+- name: Elevated Backbreaker
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 6919e619862d4a9aa42ed1af1447e32f
+- name: "En Garde Touch\xE9"
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: d6b4211ddc104b0fac312ab4ca802c6a
+- name: Faceplant Piledriver
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 3ce9b52b3b2a405db8ea055d11afc6d2
+- name: Falling Powerslam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 22ce4c4eb4f14b6cae463afced6d8b32
+- name: Fisherman Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 1fcdaa5ac7814c0a97dcb2288e2e385b
+- name: Flapjack
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: a476aa4ac98a4100a617b1cb847d6502
+- name: Flipping Powerslam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 78e15b690a4243fbacafd2c9f5e6bf4c
+- name: Guitar Takeover
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: ff5660b17ba04df5b9a0ee15defb04dd
+- name: Head Scissor Takedown
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 80f1be665cd44eb28b47fc7306fe5911
+- name: Heel Sweep
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 490e65a4366e45c3aa27395ffe5dc2f6
+- name: High On Fire
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 1bd61b910dab4bae91470dd7478edddf
+- name: Inside Cradle (V1)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: cf6935579ba4415e82abc18da238f1c4
+- name: Inside Cradle (V2)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: c5b83c3486c24817a9f3b774c2a25156
+- name: Leaping Slices
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8fe4b7ce901847aca62919eb365637ac
+- name: Leg Scissor Sweep
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 387c5596a8294dc698020cd8460a2602
+- name: Legendary Acknowledgement
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 2696dc834d5e42daa19d96942fbbdd12
+- name: Level Up Apron Driver
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 91c66b827c774fb2b1cfcc68c430b723
+- name: Limit Break
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 5b460bf5513a4c1a8f41d94a5dce5f79
+- name: Lower Lumbar Buster
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 3a097daa7f88462d9dba04f46c112486
+- name: Lumbar Breaker
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: feeaf7eaf73f47618bd94f8549cff5ae
+- name: Melee Attack
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 76186c6796854d6295e388440ce50a87
+- name: Oklahoma Stampede (V1)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: d45705f3ea974566b7a5f1b853184e38
+- name: Oklahoma Stampede (V2)
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 640e8c055a764df0829c2efc7308ff59
+- name: Overhead Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8b0c213505e84300820787965d4f7b36
+- name: Power Breaker
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 9d914e3bfff2443abd5597980cf8c503
+- name: Pull Down the Ropes
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 30bf8aad2264401fb07376bc982dab12
+- name: Radical Bomb
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: d9e11573cc9443d1ac7f112d829d70cb
+- name: Rib Breaker
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8f00165679c04a4c8580099701c7f978
+- name: Running Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 26cfd0d44eb74f748d7af6c624505cbe
+- name: Samoan Driver
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 17e2e79d0be0418aa3e23b341dd70bd3
+- name: Sidewalk Slam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: fecbc4e795b64f4fa2dfede88382b4cd
+- name: Slingshot Slam
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 7f9b6122e52a47f2aaf8e39f200694a3
+- name: Smashing Takedown
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 9e865c9e649c49a38c943decf020613f
+- name: Snap Back Drop
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 61d610a69c7b44c7a8764f0812219451
+- name: Soaring Suplex
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 0cf018349d3b4391b7dcc4bd20b62446
+- name: Spike Powerbomb
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 47621b3eb87e4e4bb07b8099e148629d
+- name: Spine Into the Ring Apron
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 42b8683049b04585af942d7a2fa61d5d
+- name: Springboard Cutter
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 2d99a58207ac44b29a2285b740a65169
+- name: Springboard Stunner
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: f3c251dc6ed4452a8786cc4f5289b262
+- name: Surprise Cutter
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: f1ad724d2fc547ddb9ba0371556143ee
+- name: Takeover With the Steel Chair
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 2be35a3f9b4c44b89dd396bdde9c1811
+- name: Takeover With the Table
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 9a34fb22e17a48eaa428df3a474f332a
+- name: Takeover With the Trash Can
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 0860276881ab4f3f8e6ad8de1c329f40
+- name: Thicker Than Water
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 34ab2a1bed974bfb80e3d14bca70d2ef
+- name: Throw Over the Tables
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 33701e1852ab4c30a09f2085881ddde5
+- name: Toss Your Dad Over the Top
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 6d46cbc369c949a680d16031bd1b9b2a
+- name: Turn Up the Tables
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 03b3a9a5c23e40bab4ddb4f4c9812f8f
+- name: Twistable Toss
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: f7c21878b31f4256b2c5aaef74313457
+- name: Unstable Upheaval
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 25678aec8d344a2398df457266b9184e
+- name: Wave-Breaking Kendo Stick
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 9b60d08fe9914e6990c6f10d86c11d96
+- name: Sub-Atomic Drop
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 73d3cba0ab4f4dd987fadc17f9909c3a
+- name: Soup'r Potion
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 8f0249aded5b43c89dbe5290970ef4a6

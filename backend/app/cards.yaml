@@ -6037,3 +6037,1545 @@
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 69294cf1fc414d418efdb6dedf54251b
+- name: Air Drop
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: c925bfe817994286ae9b47e650483840
+- name: All American Block
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: a739099170b74aafbfa3fd71527c91bb
+- name: Back Kick (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: c677611441614e6fa41b3a4d6beed12a
+- name: Back Kick (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 32583c186f2d481ba2c977a98fad1184
+- name: Blazing Fist of Fury
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 1b4010c4237a47e28afdb892b1005601
+- name: Boot Lace
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 90ef7b3b4e164f86aed548e14fb80307
+- name: Bow to None (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: d2487aa241f340abb6c9a51551e30574
+- name: Bow to None (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: c3aaadb614e3476592b3d497d897c0fe
+- name: Brawling and Punching
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 39672cf20bdd44629686934a9368f4e4
+- name: Bulldog Lariat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: ae50643d032f4e5a9694836e67906c0b
+- name: Butt Bump
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 2073c5f04bcc4c26bbb05ed6975e4734
+- name: Cannonball
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: de612a11e6eb47c3b4c2b32796f258f0
+- name: Charged Shot
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: a63beea506d34bf884baa8f3b0e0c35d
+- name: Charging Headbutt
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: cc596e665baf4cbc82ac2ab2d1f19d42
+- name: Chop to the Chest
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 7512f3831bdc407a8662a438a8959aec
+- name: Chug From a Trash Can
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 27ca3fa5407c455c9fae6ef0e8820218
+- name: Cosmic Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: e51ed10e1a3c448cbe4e4be77a73fbc6
+- name: Diving Headbutt
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: fab5b0a227a24993bf7a420017ceb9f6
+- name: Diving European Uppercut
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: c1ed6cb52cc44ccb92a937a01ce3e6af
+- name: Elbow to the Back
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 5dbfd3f1837a4a59ba5d512932ed0a79
+- name: Enjoy Everything
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: b3966e9db8ec46b3abd0921f281b77c0
+- name: European Uppercut (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: cd87f228581e4571a364b6d7c5af72cf
+- name: European Uppercut (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 5fd61e50899a474b9cda0aff0b56eb82
+- name: Exchange Blows
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: a3ef520ed54f4cbdbb04e11a6e5ed45d
+- name: Face Me and Fight
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 082263ca544e4daa8ddfdd36547c1d37
+- name: Face Slap
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: f5e55db0c2344b07994ac99972a926d6
+- name: Flying Buckeye Beatdown
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 270a60ef3e9f4c24a6e21a2211af5af1
+- name: Gathering the Kendo Stick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: e665fba28393434d826769cd0bd208d5
+- name: Gathering the Ladder
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: bf3d3d5573d64b3e9c6196f8b6ce8d31
+- name: Gathering the Pineapple
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 15ce98d81c7c40c8821f44e56eac11f2
+- name: Gut Shot (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 9d53927d6209468eaf707ae62060f7fe
+- name: Gut Shot (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 12ea2c998ee040fcacde363ade3316c6
+- name: Hangover Smash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 1c8b612af30a4c31a4fef3971648d115
+- name: Head Hunting
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: ba267798fd6041a684979f543fa6106e
+- name: Head Punch (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: b93275d33af0428e874a5d2dc2b768ac
+- name: Head Punch (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: b1641587039b4d69a595f4c63599ea16
+- name: Headbutt
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: ecd85079be3e478d89175a842bc4a29f
+- name: High Impact Shots
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: fb7395e4717648b2b1b7983306edd8eb
+- name: Jumping Leg Lariat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 6174e1100cea4b3380dc2f4143868de4
+- name: Kickback
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 13d3f206beec4be2b0b3f48427afbc3e
+- name: Kickin' It Old School
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 2b10a34b3659458eb1859c39c172b9a9
+- name: Kicks to the Back
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: c9e399eea11c4e91b2de7b994249278d
+- name: Knee Strike
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: d7ac2650d39e45c5b1d71144d285fc14
+- name: Lucky Cat and Bird Greeting
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 3411f9d46b89481681d37d54ae1bf9c8
+- name: Lucky Shot
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 5316e089e8094f5cab905a30691ae201
+- name: The Ole' Ball N Chain
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 6060c6fcd7194f4c9c633c8a36df634e
+- name: Pier Six Brawl
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: bb44853b06124e68a147fe86652b9562
+- name: Rabbit Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 73515b66459f401e80bc33fc605e9612
+- name: Rising Knee
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: be4530f031e8407c888c555877803d1f
+- name: Slap
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: fe5e38698525485ea10e79fa1ec4f091
+- name: Spear Into the Final Dungeon
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: ae8a03b94db5428f8ccf9be1c1c8b248
+- name: Stiff Left Hand
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 4661b819043343df9145e4e1b19876bc
+- name: Steel Chain Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 3838803665c74184aa4b3e8abf3b6fb9
+- name: Stomp
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: bb3afdf7bc3148b9a182a7784a569017
+- name: Sucker Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 7b3feabbf1274a3cb65d7c03341f7fdb
+- name: Surprise Attack
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 9318fbd151b341d4a2cbec9c920a07cf
+- name: Surprise Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 282284f7d59442e0b8f7c668a4656b78
+- name: Three-Four Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 4e400ee317a3490b8fa817d2dda4c2d4
+- name: Thunderous Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 8954f299844a4518929d83bf16810ae5
+- name: Unamerican Elbow Smash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 09edf17fc41849f0b0fec783384e8339
+- name: 2 Handed Slam
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 70770f5964b544a5bd324530ad563868
+- name: All American Drop
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: dafb9a0ce2b441498b95ceae1a9dea60
+- name: All American Takedown
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 6add76bdfc5545d68acd0dfff6d85e06
+- name: Arm Drag
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 16c4aee31a2d4d9ca80555320d75f161
+- name: Back and Forth Action
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: d5f5958eafa04eb1a818af0c00cb813e
+- name: Backflip Out of the Corner
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 5bf264206e0740e4ad699aeea2dda878
+- name: Barrel of Monkeys
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: b39135f34a1148e4a4b3e7dbe2b280e0
+- name: Barrel Slice
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 17a34d6d13bc44d593ab65bf17798341
+- name: Belly to the Back Suplex (V1)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: b0dd780f72e3471185b257d65a60d0d5
+- name: Belly to the Back Suplex (V2)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: a649e67225714811871aeb2d6d0a91c3
+- name: Boop!
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: e661937b0b72445db066c87d672c2777
+- name: Boss Around
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: be6ed076834c4502a9c9748f5a555875
+- name: Celestial Armenian Breaker
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: a76a56dfc3ee44da89c57681509ff3fb
+- name: Charging Takedown
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 90a6bd79922e4d6980fafe8e226e237c
+- name: Double Drop
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 0326e8db34a648c6854982e6590ac6b3
+- name: Double Throw
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 99a46111b1a94182b1aa132ba02a7076
+- name: Double Wrist Twist
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: ef2967fc07044d958f64372afacbb95e
+- name: Drop Toe Hold
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 40f4e926000c4790b8cf6d830d0a4ce7
+- name: Evening Up the Odds
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: c0828ae2627a46bdb10824f36fbb1dc3
+- name: Exploder Suplex
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 7c9d5b40bf654857a9bf1b3a853a58f4
+- name: Fisherman Buster
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 7324de4b18f348e9a7767c6eef279227
+- name: Gathering the Guitar
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 38c2d7bb526143dc95312006851ee36a
+- name: Gathering the Steel Chair
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 8d60c3fca47b4f5895e150b4548c906c
+- name: Gathering the Table
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: c71fe122381f44fa9c135a78e31e0b46
+- name: Gathering the Trash Can
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: bb5e863815e841249ce5d7547bc3330f
+- name: Getting Over
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 41a1efe5f30e4aba87d3c192c7f24a6b
+- name: Hammer Into the Post
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 85406109a97d4dc286c35291a39fb230
+- name: Hanging Neckbreaker
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: a3366bde9ae048bbad1627515bc81ac0
+- name: Hello There
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
+- name: Judo Takedown
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 1c3e1ff206644e4b8902815f8fe09217
+- name: Jumping Backbreaker
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: b599e227c2c4432794681c7d5fa26a03
+- name: Leg Sweep Facebuster
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 1a5e73be675d42088394ef577bc6b402
+- name: Legendary Looney Larping
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: d9a355ebe9d74dd3a708206d0e14d46f
+- name: Lungblower
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: a7f37e635e2a4d81ae821f6c16b2f1e0
+- name: Pouring It On
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: ba7c9b81d71c4d819b1af6f0b0ec68e5
+- name: Put Some Respect On It!
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 506a434f50d743d6bec704fa4eeb561f
+- name: Reverse Backbreaker (V1)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 8071e90b495940fba187893f9ca46cc9
+- name: Reverse Backbreaker (V2)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 8f318687e0a24f6dbcb06819c4bce84f
+- name: Ring Post Bumper
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 289c5c736a37420ea437b534507d96ff
+- name: Rolling Senton Bomb
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: a34f6b19ac164b07882014824fc511fc
+- name: Rubber Baby Bumper
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 971a06eae37a4b1cad82d574d1eff87f
+- name: Samoan Drop
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: fa39297bc81a4fac8672f3f509a29263
+- name: Skull Drop
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 11429421e68e4b6f9af81b196986d6ca
+- name: Slam Into the Mat
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 03e674faf5d9499a8f7ea7f1510dd758
+- name: Slithering Tackle
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 644281525c44477783e51b9e7972be99
+- name: Sky-High Throw
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 8f4d814a3e1d439e999255320acbe8b8
+- name: Snap Cutter (V1)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: d04c19748120430caddc950043bb7517
+- name: Snap Cutter (V2)
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 4d5950a0cebb4a488be58045fc1dbdce
+- name: Snap Mare
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 0335932d4d2b490a9b7ff959d332f619
+- name: Stalking My Prey
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: ab7b9b46c8d94f8f9ca6e63e7133d28c
+- name: Steel Chain Irish Whip
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 49efb8c59798439db4cdd5fd780d5beb
+- name: Suplex Into the Ropes
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 81a9c83cf2e84c47b377d0ca15bf4583
+- name: Sweeping Takedown
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: d92606db5d5943bd836c5dcd67c08565
+- name: Swinging Takedown
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 3db3846e013d4101bd813794a179c021
+- name: Taunting Sheep
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 13ad5cd7377f4f588167ce87088fddf6
+- name: The Crowd is Marking Out
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 5ab3c57283cb4dbab989abef4161f44e
+- name: Toss Into the Turnbuckle
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 0f099cc5e40e4981b45caa89c7acf8de
+- name: Turn the Tables
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: 8695ceb259c84733ac70c26406194f57
+- name: Ushigoroshi
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 11
+  db_uuid: fd0fac2845af48a8b8c30b98a2b3eace
+- name: 1/4 Twist
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: d6781e7652ab42209c37c72b5d781040
+- name: Abdominal Twist
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 654c1610495f402782bd662bd3c08109
+- name: All You Can Eat Ribs and Pork Chops
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: c112eebe9d0b4c9d96ee72dabaf3aa1d
+- name: Arm Breaker (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 9bf01f85fd744ec8bc12f21d8603b947
+- name: Arm Breaker (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 40d6c9cd940b43e58788babe09ec0098
+- name: Arm Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: a0a74232065241c6898ff307d1a23b18
+- name: Arm Triangle (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 294b3521294e40998b86855213fd9473
+- name: Arm Triangle (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: d866ee6ccc19478499ab0254e2a29789
+- name: Blind Opponent
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 9dd492e107174d04838e520444500459
+- name: Blood in the Water
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 27cf72035c654bb599fc4eab3d0d8a78
+- name: Bite Opponent
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: f000e057a5af46c194921198c3854dc4
+- name: Bridging Sleeper
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: cffe50688f19420cba39f4801edd76c8
+- name: Chicken Wing Crunch
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 90449e1418524da39dbce76f0947b2b8
+- name: Chill Out
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 80ab108d896a4576884192fd647db0d0
+- name: Chin Choke
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: ee631afe2aae470c92d921ec6e03f4f5
+- name: Control the Wrist
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 6d1c2041238244a3ba452e33cd4d622c
+- name: Dragon Screw
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 44db037fe3a8426ab2acba8b27933317
+- name: Elevated Boston Crab
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 5a2bf48f205e47f1921b5352c260e4a1
+- name: Figure 4 Headlock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 68bc0868f9ed4ec084574076fcd62bd8
+- name: Finger Breaker
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 887d72fb909f4687bdb7638dd6acdef6
+- name: Finger Lock Smash
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: fc3f3f94d5584d7690ddc6412c062acb
+- name: Gathering the Microphone
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 239ba46a452c41fbbd7eb0b552bc08f2
+- name: Gathering the Ring Steps
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: fc28af76c28f49a78ffe60466ec364c2
+- name: Gathering the Sheep
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 15d3cc099c9a413ab3bdc9818072f3fb
+- name: Gathering the Sledgehammer
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 2e71ea7abb184e6cba90d56f9173dec6
+- name: Gathering the Steel Chain
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 466e1e01b9544df2832fcce78d12894d
+- name: Grind it Out
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: a589027e6f084424a94de065ef741053
+- name: Hammer Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 64a4200c7a124ea09a1c625e0d66552c
+- name: Handful of Hair
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 4c1236188115466c8d5fbe998b562dad
+- name: Hand Bite
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: f5300367fcdf429a8d189fc4415149fa
+- name: High Impact Choke
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: e9d09554bd49443c93d040dfbb6b02f0
+- name: Hold It Right There!
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 9e47cdcd8d8a4defb2d862e0116abd9e
+- name: Intuition
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: a415d4e08d564d03b0deb8b57909b029
+- name: Jaw Jammer (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: f05987fedf384037b8ce603d9a40a565
+- name: Jaw Jammer (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 9539c2b18310459bb1bda7d30832939f
+- name: King's Counter
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: e3cb70985bd94a2f8514fc0c5229973d
+- name: Leg Scissor Sleeper Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 5b0baa8c59d74ecba2df6c47fca43ff2
+- name: Leg Trap
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 7f32927489324bb1855f5ba1db37dd01
+- name: Melody of Menace
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: db49f4a0c76341a69e4d560c29954897
+- name: Nowhere to Run
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: e1f1d98908474de08cd14fe7702575ae
+- name: Pin Into the Corner
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: e35bf919cff34d86aef1808708a32d9a
+- name: Raise the Dead
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 6f992635e10e4478838254efbc1d4526
+- name: Ready to Rumble
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 09f77610a2ec48f5ac653ffbd8c8fbc2
+- name: Rear Chin Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: b4693e7de5634e718db8b1269f98057c
+- name: Reverse Full Nelson Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 776b3c1db3534852a5414d2a66ebb564
+- name: Reverse Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 22ad5403134a4975a1ef446e5b89e1df
+- name: Rolling Forearm Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 16c6ece1c89d4ca68b5542346f5059c3
+- name: Shaking In My Boots
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 46a5efcf068644cebe98091da7ffeeb8
+- name: Show of Force
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 8e60104ce3404f8497cdd48d5476d2e0
+- name: Sibling Rivalry
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 026a6fefad924e7abfea94eb162cc784
+- name: Skull Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 5f6c05558a7440a8a35402df20879b99
+- name: Skull Squeeze
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 0e7303b1b0434d2e98d85b2b352b6bfb
+- name: Standing Cloverleaf
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 6384e09e43dc474d9fa6e559263b2a52
+- name: Sundown Clutch
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
+- name: Taunt From the Top Rope
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: c6f33fc78a3b41d29a2dd40f0b773f59
+- name: That's my Kheezy
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 51bd99f46b87479cbeb93791338a9404
+- name: The Buck Stops Here
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 6aa5ecac1a654b318251f565d0a6382b
+- name: The Numbers Game
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 40ba8751e355479ab41a9e30ac793c00
+- name: Waist Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 24429fc184d54e268dbff6821e8d8dc1
+- name: Wreaking Havok
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: f450fbc81dc849899050a4a75dddf919
+- name: Wrench Free
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: 57e2c43774f74cd9b49e3c46ee9d5461
+- name: You Can't Cage Me
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 12
+  db_uuid: b00da4f1238b41b8aece8e4d6c59f894
+- name: Ain't That a Kick in the Head
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 2ba96c4023104e3c937e37156fae66a4
+- name: Al13N Invasion
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 9e901f9a7d654524b28debe00a753ba4
+- name: American Air Assault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 495df9f58c564dc889ef0815853a4a78
+- name: Artillery Assault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 6812dbae1bca43208c58ba558866700e
+- name: Basement Dropkick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 2c1156270a824e5dbd35326200abbe20
+- name: Boot to the Head
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: b8175340989a4f8e9d9ba17deddfc0c7
+- name: Break the Seal
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 0501c8fc842843438d921f6a4e6e4633
+- name: Cannon Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 19d7f570a8c94f4899b7dc10e153af6a
+- name: Chained Elbow Slam
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: e7399975fe9f45aeb5119f6478fac7db
+- name: Charging Spear
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 12f9cb40b0f9400281f9ca96ab56b638
+- name: Cold Cocked Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 6eaf5c5b34b04687b22d44b3e6bc7492
+- name: Corner Dropkick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 4142a5f54c474bcfb0b747c62ef88857
+- name: Corner Slingshot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 2faf498a93224155b250b76c5fdaaf6a
+- name: Cosmic Sheep Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: b6ccd22bb6c849b8a97eb06439da3c8d
+- name: Don't Touch My Drumsticks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: c4077b42b36643e8aaff7eafa0d84ae7
+- name: Drumstick Takeover
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: ff8b564832954c228ea4301432a9dbee
+- name: Duck 1 Take 1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: d69fcd5666884f83a2d6d88210c737b1
+- name: Enzuigiri (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 1ce5dc9c3d9749db80cdbc265e5876a8
+- name: Enzuigiri (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 3c33b1bed6d341339ef0ef5e1302692c
+- name: Evasive Manuever
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 7ff25aa5dbd4499e88baf421265b613c
+- name: Flying Body Press (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 350c43e697de4f799d0e277874198773
+- name: Flying Body Press (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 26ff9e71d8714374a79e7b00ebd3f838
+- name: Flying Cross Body
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 43e9fcde32504cdb90d3ffe4773ba6ba
+- name: Flying Shoulder Tackle
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 08aecedc5c734163a502af5ae354569e
+- name: Give Me Five
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 1b3b02f8a29f4a5ca04a4aae4b967610
+- name: Grab the Tights (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 1674857198894d4ebf8d94e4bbb2db38
+- name: Grab the Tights (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 006eed06ecf84ac39403702c132c8c4b
+- name: Gut Stomp
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 3d1ecd7d2e7949b890f781f74f4fcbce
+- name: Hedonist
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 938e767fa57645fcad954c65175536f3
+- name: High Flying Dive
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 54f8659b3e8c4be89cf361a12e288011
+- name: High Impact Knee Chop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: ba63df8e2ef842928c6007da934a2b9a
+- name: Hip Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: d23769f1ca924e87ba378713f14734ec
+- name: Hurricane Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: d887fe719c074e93a36ff717a5b7e920
+- name: Kick in the Ropes
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 095264251cae480981abcfcd179702da
+- name: Kick Out of the Corner
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 456d0f5bfded45c283176adac4d7df91
+- name: Kidney Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 4a8fb2f9c2bb4b94b145db24ac69a0de
+- name: Kitchen Sink
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 20ae1442442d44dfb9745df870971181
+- name: Lion Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 37e65838ad8648ac99f4883bf5801169
+- name: Lucky Guitar Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: cbb41e7818004485a0f4caa2c1307469
+- name: Kingpin Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 86a57fb38ed541fa9718b2e0d23d5e79
+- name: Knee to the Gut
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: ba08e60996c74824bb2e60cb0a7068c8
+- name: Machine Gun Kicks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: f6ed9704d51a443e9642b127d444d960
+- name: Marching Stomps
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: d7eaa5acbb25487c9e9b95c1c912e278
+- name: Meteora
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 53a86bd2557144f185278a2e9407d319
+- name: Mudhole Stomp
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: f342f41e3c03433d96f40c7c4d9d2cdf
+- name: Nekrum Luna Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 139f62ab3ce544698c9f3f0992c3e9d8
+- name: Overwhelming Fire
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 2bba515d92104439be44007e6072cebd
+- name: Pixel Palace Plancha
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 4b238050a99a4a1d9b010df3edba9bac
+- name: Rapid Fire Bladder Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 383f1e2aa4bb4a1694380119d55a1774
+- name: Rocket Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 8654b1e29d304283ae7d57025f416bdf
+- name: Roundhouse Rib Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 08053f6b0683406984c556e450e57280
+- name: Running Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: f5099f8524d64d489c051948fa912626
+- name: Schoolyard Beatdown
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 3a7a9ec83e884aab93012969d93d868f
+- name: Skull Busting Boot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 312ba6695676491aa20a5f7db70f53aa
+- name: Shove Off the Ladder
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 8c4c9ed034334899989abbefa2c131fc
+- name: Slingshot Stomp
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 15c2381d802d46bb8bea9562313fb44a
+- name: Spinning Crossbody
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 7bc470809ecf416cb804fee581fb230f
+- name: Spinning Leg Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 3afe98c09ca64da58a244f3967ce0152
+- name: Splash (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 03d50027282f43efab49dc4ad1619f93
+- name: Splash (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 58679a3c33e5454391f4d7d5a81e2dea
+- name: Springboard Lion Splash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 608ad20396494e9d98260a5a242f69d8
+- name: Steel Chain Spin
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: f40febdff67946279c449f9b8a10e19d
+- name: Swingin' and Dingin'
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: e00516395e404fe3afb541c8422e26ae
+- name: Swinging Kicks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: ca4a1948d379433584f3e9d061032d91
+- name: Takeover with the Kendo Stick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 85ca3029225048888debcb1681bc1400
+- name: Takeover with the Ladder
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 536c92cd6b6c435c8254b37874f8e820
+- name: Takeover with the Pineapple
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 38f5ab67df404b56a7381f60561d314c
+- name: Tandem Chin Kicks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: fe9c7dd4d9ec487e9733c405bee321a2
+- name: The Great Escape
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: e5ef133a320147f5b64a81f780f7da18
+- name: Thunderous Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 8cac3885ef024186a6d302fe5d1614e8
+- name: Toss Your Son Over the Top
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: b9351484b0634660a16dca60f8a975aa
+- name: Trick or Treat?
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: e22e66d4da9a4e1e94efb2e8b7a88936
+- name: Turn Up the Ladders
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 43c44b12c48b40b9a070ce5bafff05d3
+- name: Ultimate Corner Crush
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: a45c40686bba4f958a7f86b5ff5fc9aa
+- name: Unreal Rope Balance
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 69023ec550614c05a8fa91ffa451e2e0
+- name: Ura-zuki
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: b4d1d9bc02934c3b96ae58c4ad89e387

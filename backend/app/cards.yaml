@@ -3662,6 +3662,8 @@
   deck_card_number: 2
   db_uuid: 944bb58082004021bbba7bf1c8657ffb
 - name: The Ref Takes Charge
+  srg_url: https://supershowthegame.com/product/02-the-ref-takes-charge/
+  rules_text: Stop any Submission with "Disqualification" in the text.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3722,6 +3724,8 @@
   deck_card_number: 2
   db_uuid: d0486e2793654aaf8edcd3d801022e14
 - name: Swift Arm Wrestling
+  srg_url: https://supershowthegame.com/product/02-swift-arm-wrestling/
+  rules_text: If this is the first turn of the game, this card is also a finish.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3806,6 +3810,8 @@
   deck_card_number: 3
   db_uuid: 68112ee716a947f4b37b4847e0c1d2f9
 - name: Break It Up
+  srg_url: https://supershowthegame.com/product/03-break-it-up/
+  rules_text: Stop any Strike with "Disqualification" in the text.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -3974,6 +3980,9 @@
   deck_card_number: 3
   db_uuid: 8c2d6970015c4c458c5eaa390f9a7704
 - name: Side Sleeper Hold
+  srg_url: https://supershowthegame.com/product/03-side-sleeper-hold/
+  rules_text: Stop any Strike with a Spotlight.  You may bury 1 Spotlight in your
+    opponent's discard pile
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

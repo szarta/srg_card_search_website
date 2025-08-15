@@ -4646,6 +4646,10 @@
   deck_card_number: 5
   db_uuid: 88613f2127bf414e9ec7b96dadf0d9da
 - name: A Welcomed Distraction
+  srg_url: https://supershowthegame.com/product/06-a-welcomed-distraction/
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Follow Up Strike.
+
+    This match has no disqualifications.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4694,6 +4698,9 @@
   deck_card_number: 6
   db_uuid: 30a1a508143640d0bae1ebaa3e108ad9
 - name: Cat's Claws (V1)
+  srg_url: https://supershowthegame.com/product/06-cat-claws/
+  rules_text: Stop any Follow Up Strike or each player buries 1 card in their discard
+    pile.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4730,6 +4737,10 @@
   deck_card_number: 6
   db_uuid: 9d1ec574f3ee4daba7493c48f6a9de47
 - name: Cosmic Trap
+  srg_url: https://supershowthegame.com/product/06-cosmic-trap/
+  rules_text: 'Bury 2 cards in either player''s discard pile.
+
+    If stopped, add 1 Lead from your discard pile to your hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4754,6 +4765,9 @@
   deck_card_number: 6
   db_uuid: 40b65529fcf04470a834b3c146da6ff4
 - name: Expose the Opponent
+  srg_url: https://supershowthegame.com/product/06-expose-the-opponent-2/
+  rules_text: Reveal cards from the top of your deck until you reveal a Finish.  Add
+    that card to your hand and randomly bury the others.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4862,6 +4876,10 @@
   deck_card_number: 6
   db_uuid: e7805a9f323b460682549f8a3af405f5
 - name: Sleeper Bomb
+  srg_url: https://supershowthegame.com/product/06-sleeper-bomb/
+  rules_text: 'Stop any Follow Up Strike.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -5024,6 +5042,9 @@
   deck_card_number: 7
   db_uuid: 3f8141333cb7453aadfb0feed8f83ef4
 - name: Exposed Turnbuckle
+  srg_url: https://supershowthegame.com/product/07-exposed-turnbuckle/
+  rules_text: Shuffle your deck and draw 1 card or add 2 cards with "Disqualification"
+    in the text from your discard pile to your hand.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard

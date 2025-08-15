@@ -4115,6 +4115,10 @@
   deck_card_number: 4
   db_uuid: 170aac17593046698c9e57979b7cbf78
 - name: Faceplant
+  srg_url: https://supershowthegame.com/product/04-faceplant/
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Follow Up Grapple.
+
+    This match has no disqualifications.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -4169,6 +4173,10 @@
   deck_card_number: 4
   db_uuid: b63e5896de194b20b676cfa5afc3b1f6
 - name: Jaw Jacking
+  srg_url: https://supershowthegame.com/product/04-jaw-jacking/
+  rules_text: 'Bury 2 cards in either player''s discard pile.
+
+    If stopped, add 1 Lead from your discard pile to your hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -4199,6 +4207,10 @@
   deck_card_number: 4
   db_uuid: a80323c57af7429999f35b162d42ce73
 - name: Moon Drop
+  srg_url: https://supershowthegame.com/product/04-moon-drop/
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -4217,6 +4229,9 @@
   deck_card_number: 4
   db_uuid: fe9458e285ac4322a3e646931880758e
 - name: PAX a Punch
+  srg_url: https://supershowthegame.com/product/04-pax-a-punch/
+  rules_text: Reveal cards from the top of your deck until you reveal a Finish.  Add
+    that card to your hand and randomly bury the others.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -4241,6 +4256,10 @@
   deck_card_number: 4
   db_uuid: f27ee6a27e334bb194dc7e4d504d2f7c
 - name: Shotgun Clothesline
+  srg_url: https://supershowthegame.com/product/04-shotgun-clothesline/
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Flip cards until you flip a Submission, add that Submission to your hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard

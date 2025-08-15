@@ -4404,6 +4404,10 @@
   deck_card_number: 5
   db_uuid: 9cf5d2447313491398342bd1735e5585
 - name: Crunching Chain Assault
+  srg_url: https://supershowthegame.com/product/05-crunching-steel-chain-assault/
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Submission.
+
+    Draw 1 card, your opponent randomly buries 1 card in their hand.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4482,6 +4486,9 @@
   deck_card_number: 5
   db_uuid: df4692cbb5c84a5e9b76ffd49afbbbcc
 - name: Head Drop
+  srg_url: https://supershowthegame.com/product/05-head-drop/
+  rules_text: If the Crowd Meter is 1 or greater, stop any Follow Up Submission.  This
+    match has no disqualifications.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4500,6 +4507,9 @@
   deck_card_number: 5
   db_uuid: a9bdb0af14884bf384e0b6a94f23912c
 - name: Legendary Lockdown
+  srg_url: https://supershowthegame.com/product/05-legendary-lockdown/
+  rules_text: Stop any Follow Up Submission.  Flip cards until you flip a Submission,
+    add that Submission to your hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4548,6 +4558,9 @@
   deck_card_number: 5
   db_uuid: 459b9e774de7443ea9532b03ab9d9b79
 - name: Roll, Twist, Chug!
+  srg_url: https://supershowthegame.com/product/05-roll-twist-chugg/
+  rules_text: Stop any Follow Up Submission or each player buries 1 card in their
+    hand and if this is a Ring of Fire match, your opponent flips 1 card.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4560,6 +4573,9 @@
   deck_card_number: 5
   db_uuid: 94e36792fe3b48108302e1ef24d32084
 - name: Sidewind Wonder-Plex
+  srg_url: https://supershowthegame.com/product/05-sidewind-wonder-plex/
+  rules_text: Stop any Follow Up Submission.  Each player buries 1 card in their opponent's
+    discard pile.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4578,6 +4594,10 @@
   deck_card_number: 5
   db_uuid: 57c344b84d304441b3111293444ba30d
 - name: Surfboard Slam
+  srg_url: https://supershowthegame.com/product/05-surfboard-slam/
+  rules_text: 'Bury 2 cards in either player''s discard pile.
+
+    If stopped, add 1 Lead from your discard pile to your hand.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard

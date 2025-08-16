@@ -9846,3 +9846,441 @@
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 0f132037dfb64adb874783e107cae723
+- name: All American Baattering Ram
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 8c735afc21ea420f8b41543267be7950
+- name: Backfist
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: e21f8097022c4c808385e7bcbad49eae
+- name: Blindside Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 150a02faff9842b1b5862dc74e737650
+- name: Blindside Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 6ff9ea12ebc84264b9a6e3ccc31c6f2a
+- name: Boot Over the Top
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 43d69424ea814e75b35e6237d6bac8f8
+- name: Cosmic Steel Chain Whip
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: b9cd5a40c2004d829cca4225a340ee07
+- name: Cosmic Uppercut
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 42a31bb5bfe04eed926240cf30393c6d
+- name: Counter Punching
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: fa47c664aa2f4c7eb750d8176bbfd4e7
+- name: Death Defying Elbow Drop (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 0c0a3d3523af430595a897fa757e9c43
+- name: Death Defying Elbow Drop (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 742787b312ff4b79a8da45c24aff58cd
+- name: Dirty Boxing
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 3666c65f83f847cd9794c716a2ae6c81
+- name: Dive Through the Ropes
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 99eb23bde24f420a81e87f8e817bdc72
+- name: Diving Headbutt
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: aedf3e9b40f443a4a03b27a6a3b4f4fc
+- name: Double Clothesline
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 6706f07a6a3c463aa2566cfdbc362b94
+- name: Dragon Gate Crash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: b687f6ae6f354444a7f4a1a08cad5537
+- name: Drumstick Knockdown
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 745503fbb1f5497a98fda0207590e1a7
+- name: Finger Stomp
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 45d3fecd7df942d1a18f22b96844391c
+- name: Gut Punch V1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: dae48dd8ce904fb19efdb35efe07d933
+- name: Gut Punch V2
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 0331aec0751a45a5a12d90fa519def03
+- name: Head Over Yeet
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 5f8e48c7f7bf4871a1ec9cb9f812f205
+- name: High Flying Flip
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a4fb74ed0b1b449cb58b1540c1a884a1
+- name: High Knee
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: c0e4b819f0ea416cbdf844ab92f7e3ff
+- name: Hold the Kendo Stick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 61e5da341dd64a3887cd8237a5e59f28
+- name: Hold the Pineapple
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 0fdc7f47bb1c4531b6484c95be92cbed
+- name: Isolate and Attack
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 0fc3b4ee34244f48a7bd75e4d38c351b
+- name: Jumping Back Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 8b242d5690af4b3097e7746579b842e0
+- name: Kick to the Head
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 98e8f4755d09437789683e66d554df7b
+- name: Knee in the Corner
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 2a902331e5a8474a89f0ecc68ad53289
+- name: Knee Out of the Ring
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: e8c5c3f8d59841238bf9cf54e2843422
+- name: Knee Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 9559041d70564e4db1856ab2f61baff3
+- name: Knockdown the Kendo Stick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 88e4063c97cc4f2bba73c972ceff6e77
+- name: Knockdown the Ladder
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: fbb77ed95adc4564ae62b844fd31e073
+- name: Knockdown the Pineapple
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 8c321e03580a460e8b8ba123d8f5d5fa
+- name: Leaping Knee to the Face
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: b6df8b8a5b904f0cad7578afcb6fdb91
+- name: Leg Launch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 179d678166314b27b0c688c98a8c4ce4
+- name: Legendary Dive
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 156186f8e395454c982f8be2d9b6986e
+- name: Lou Thez Press Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a7906a78bdfb46fcb59bd34e5b569419
+- name: Madness Unsealed
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a401fc3b6fb6462ab85aff0b21de370d
+- name: Missile Drop Kick V1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 804ce043b2974ba4a945c158973a5ef4
+- name: Missile Drop Kick V2
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 60370aa92efc42139f03ed2fcff64492
+- name: Missile Drop Kick V3
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a49071f501174cadaf71ff83c7a58c84
+- name: Mounted Ground Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 55c68d8f55634765aad05f1cdaba4c03
+- name: Outsider Distraction
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 9fc7d84e32f345d38278fd2a5a86a848
+- name: Pineapple Crush
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 5d916bd2abec4b0fae7b478ac54839a6
+- name: Poison Stars
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: d3fc42e3a9c145749b4b2216e410dfa3
+- name: Power Punching
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 518c88dc8f0e4902b9342cb3b40280e7
+- name: Pump Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 0d983b55b1ed4dd3a350e217f0572cdf
+- name: Punch into the Turnbuckle
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: d2ffe1617c734e8fb50e0c0d98396a44
+- name: Rain Down
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 3bf913cbb85f4a8ebdee84b5426d1745
+- name: Raja Ripcord Chop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: b2b01a74dee648a19862290022473b7e
+- name: Repeated Superkicks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: e48ba3b7926a4b3680cfcaaefc2bdaa5
+- name: Save the Bacon!
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 83ad66c9de7345ebbf62cb3cb742793d
+- name: Series of Kicks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 816eedf545494030bf30fb5e4b6e6a8f
+- name: Series of Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 8d37926f77774339805dbc5db6e75bf0
+- name: Shove Out of the Ring
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 4d6ec43c806e48f2982643641551f465
+- name: Skull Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 8d73406a2f5b4e079ae5804dce8f6934
+- name: 'Skullduggery Potion #19'
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a1491c05bad44f23928914333d76bd34
+- name: Somersault Senton
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 9645c367bb6f4bca8c9da5c138411180
+- name: Spear
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 08f93887b1b94730956eec9d5f585935
+- name: Spinning Clothesline
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 6d10cf457eb345f5b0592b2732479587
+- name: Standing Side Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 7e192364f85a4abd9041acd81ffddd26
+- name: Steel Chin Buster
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 93190ce889d8453ba10a69868b924ae4
+- name: Suppressive Fire
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 624c3632df9c4cb7823ec2b771a8e012
+- name: That's a Paddlin'
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: aae4ad8b102040c39acb1f7c3f3f2762
+- name: The 718 (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: e2015f24413a4dd68fc7ae78fba3d78a
+- name: The 718 (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: d0b0c27841854f7ca8ed6b64fa01c7d4
+- name: The Chop Heard Round the World
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 289081bf2bb14c029cf391203cb5f077
+- name: The Hat Trick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 6c4269cddbd5419780da4c90fdf28e28
+- name: The Seven Bells of the Belfry (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 6e681e5458d14ce8b1150b969647a730
+- name: The Seven Bells of the Belfry (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: d6fc3fd4471249aa82e07e73104547d6
+- name: Tope Suicida
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 13406717ee1e4506b5f55b81f919f9b3
+- name: Trash-Bash-Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 18ace5401c9341dbb1d2c7d4af2db6de
+- name: Trust Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 096182e3070b4b0391976ca44aebddf4

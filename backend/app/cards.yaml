@@ -8118,3 +8118,441 @@
   rules_text: When your opponent hits a Stop card, your next turn roll is +2.
   tags: United States Division
   db_uuid: 79530781720d409fbf50d7d5224a988d
+- name: Alligator Roll
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 1e42a277d67e4f62a7739d0ab346616a
+- name: All American Headlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 11e103e86aae4fcca8acfd598b210dfa
+- name: All American Sheep Army
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: d08e2853ed164700804d99964331d4c6
+- name: Apply Leverage
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 9a06109feeea495188ec5d966dbc623c
+- name: Armbar In the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 5e646fe20e8745f88dd0a88ee9751ede
+- name: Arm Bender
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: c95a604d99814c37814ef7d87383c067
+- name: Armenian Choke Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 094a1bc0ebcb46ed8aa10cae1447f13c
+- name: Bear Hug V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: c4bd29230d1248f9bc042434bf614b96
+- name: Bear Hug V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 5d5511ee63f249e2bf52e98a3539500f
+- name: Beat Into Submission
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 0c0a9263ad26410b9ab403a0c0521fec
+- name: Beg for Mercy
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: c7c10be660374a0caa38dfab98aa0241
+- name: Bend Around the Ring Post
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 5bf2cc2df56c4fe6b862cefce44f9196
+- name: Bladder Breaking
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 49df4b8409184428a293dfc193a362be
+- name: Bear Hug
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: a82ef8de814a45ea98360fa601f0d068
+- name: Body Breaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: aa5aa53d68384d918f59f6819dd78e7f
+- name: Boot to the Neck
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 6757972234594f0a9ff9375b0d8d2e70
+- name: Bootlegger
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 9f35fd3588694a779d0ba201b00ef334
+- name: Bow and Arrow
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 67827b4543d74a2fab5f5d48b3f4eddb
+- name: Capture Sleeper Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 052248bcf06740aeb41439fec8491033
+- name: Crackin' Down
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: b8ab8d1d5b3f4b6fa193c3b0df67cd9b
+- name: Crushing Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 9ff20d6402f049e8bd6f6198cbc8acc5
+- name: The Cobra Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 6b980bd4791a4bb3b2728cf00bc38296
+- name: Cosmic Knee in the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 870644c7092d42e5811abd1fa92de821
+- name: Crossarm Chickenwing V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 450354ee23574441a02b3125e0d5eb71
+- name: Crossarm Chickenwing V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: c583520d1c4e4faf91ac3407095f2727
+- name: Double Arm Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 070685fedcd5456b9423f37f6b5a9e68
+- name: Face Squeeze
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 72a6e04e7a364169be4b1a9034f378f9
+- name: 'Fire Potion #15'
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 877fa99a64a64f2693f91aa88731b6c1
+- name: Frak the Firing Squad
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: cf587985af9545a3a3d100719305562e
+- name: Front Face Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: b53371e5435b472eb1109d7d7961a6b5
+- name: Full Nelson - Lariat
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 3c5b58beafcf454692ff93881e93f7ef
+- name: Heel Hook
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 2d69c21537a94fbdb66f426588787bce
+- name: Hold Your Nose
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: dbde70132f0c43a197270d7a1c7216c5
+- name: Hurricane Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 7e88c8529c9245248f35f91fce7fddc8
+- name: Hyper Extend
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: a88a796383af4700be999de0d818844d
+- name: Illusion Cast
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 3267911b310e4d43920be8848aa01b53
+- name: Inverted Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: fcfe13c9b4b64720832cbf0d10635c50
+- name: King Sized Grab
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 632e2017c9594e4caf4d439c389650fd
+- name: Knee Breaker V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 157fc46bb444429a9c5d7aeff8fa41bf
+- name: Knee Breaker V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 130d79640b8f4a4db60e607ea74f7011
+- name: Knee Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 8291d8958df94482ac6ba9dd382de7ef
+- name: Llama Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: b9690e28433a4d1bac0a4ff67b53af98
+- name: Leg Lasso
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 0988eb5370534ef295a3d431b9c2f285
+- name: Microphone Takeover
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 905a960788be418da4ea139eb5c40544
+- name: Mind Warp
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: dacb1bc83a214ed884494e1422793c71
+- name: Patella Buster
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 6d75ae044d4a47b29dc492c1916249e5
+- name: Reaching for the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 7b5c243c3a7944539e8dbd67d8d052e9
+- name: Rib Crush
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 23f9d3fda7d94c0894828c70b0100591
+- name: Romero Special
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: fc79c6c805b84e6698d4e41643133110
+- name: Rope Break V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 6c66c8d3e2914481bfd9f713ad147732
+- name: Rope Break V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 910aab0a7e374b969d2d698e92dafdac
+- name: Run the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 843766b1914d4b3698795d4968d7c145
+- name: Single Leg Crab
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 9f115bf53e384d3a90dce3b58d6b8f90
+- name: Single Leg Torture Rack
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: b20d03161a09413295974431d453682d
+- name: Skull Shake
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 8219dd4eec8b47378860d9904da2bbf7
+- name: Sledgehammer the Opposition
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 84ce1ae8352b4a33ad4ab6e8367e4094
+- name: Slingshot Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 0a42936503ce4b02a0021c9509653591
+- name: Spinning Hammer Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 2e971c0eeca447d897226524cfe3d29f
+- name: Split Finger Breaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 8a617622df424db3b5ebe96398b0ffed
+- name: Steel Chained
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: b85299a1cd8e44d8b0c9d01b6b8e6bcf
+- name: Super Over the Top Love
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: e586059e862d4941a41505b99ce4ad57
+- name: Swinging Single Leg Crab
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 420fe0f893e741b49d068f992912e6c2
+- name: Takeover With the Ring Steps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: a176d7c027f7451f9747987c3c7a4959
+- name: Takeover With the Sledgehammer
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 11264dcdf90249ad88b24abde6063a02
+- name: Takeover With the Steel Chain
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: dde8e160e0d8458dbbad8b2b630b2992
+- name: Trap in the Corner
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: fb2cc43b283849cfb83e19e2ef798b78
+- name: Triangle Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 8307e0e7b25f48e699d247036717f87d
+- name: Turn Up the Steel Chains
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: a26f2b3d2cf64d1ca736cafe85e33110
+- name: Tussle Over the Microphone
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 5bb536fc204a4e3f804583142887c8c4
+- name: Veteran Maneuver
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 68cef7f90216452782ae68420a32428c
+- name: Wall of Fire
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 559dbe43e2e94ed69a2ae89dc322274d
+- name: Witchy Whirlybird High-Jinks
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 8a77452e1104430980e1052e29068448
+- name: Wrap in the Steel Chains
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 15
+  db_uuid: 1364f1a69c944b70aec6f1dd43f8237e

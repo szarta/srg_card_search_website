@@ -96,6 +96,7 @@
   strike: 8
   submission: 10
   grapple: 6
+  tags: Underworld Division
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
@@ -564,6 +565,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  tags: United States Division
   rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force
     them to re-roll.'
   db_uuid: 34920b2f4af2455da98b228debb1e87f
@@ -5098,7 +5100,7 @@
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: d383bb3c29fc4f8c9a6f24a74a314523
-- name: Ladding Uprising
+- name: Ladder Uprising
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -8092,3 +8094,15 @@
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 8f0249aded5b43c89dbe5290970ef4a6
+- name: Poppa Wheelie (V1)
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 7
+  comments: Gimmick does not apply for offensive use. Intent is when opponent stops
+    your card, your next turn roll is +2
+  rules_text: When your opponent hits a Stop card, your next turn roll is +2.
+  tags: United States Division
+  db_uuid: 79530781720d409fbf50d7d5224a988d

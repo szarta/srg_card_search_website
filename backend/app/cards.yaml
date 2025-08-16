@@ -9408,3 +9408,441 @@
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 14f5311fc26e4e58bc210bb7026a8afb
+- name: Abdominal Stretch (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 731363a81ad9432ebcdd36cc63cde50c
+- name: Abdominal Stretch (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 85b9920889a04f368bb1057b48cd8404
+- name: Ambush With the Ring Steps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 5f54740ddfd740549edcfed0c90aa29e
+- name: Ambush With the Sledgehammer
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: cff980d722a1413cb5d120435b693eeb
+- name: Ambush With the Steel Chain
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 836ce42e15a44974a82d9731dfa2950e
+- name: American Arm Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 735186ddfc59430fa27c34c1558162f1
+- name: Ambush with the Microphone
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 71ed55fc614247c18180a00e4d899600
+- name: Back Bender
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 5166d51c90274d9d8ed02dcf0c70a92b
+- name: Behind-the-Back Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9ce1ebeb67c04dacb3b976d0514d3a42
+- name: Berserker Dragon Rack
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 70d0fcda73894f7ebc517ef911523c48
+- name: Blind Tag
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: be5533b00b8742ac97bac23f20edd19a
+- name: Body Crush
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 6096704f4338401c8652a3746505155a
+- name: Board, Pillage, Plunder!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 393d3ddb280749519027c181bfcbb4d3
+- name: Body Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 70a3f3159eaa469fb5801bd4c7c45195
+- name: Cat Scratch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: b84fb147aaab436694f29a00da87b4de
+- name: Choke Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9731cdb78db74098a21fde5f6041bab1
+- name: Clutching Stomps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: e617633b735f4395a9f05f4ed61fe3c2
+- name: Cravate
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: ab7a4ce2470645e1878bb70d3dc34d71
+- name: Dragon Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: c3804dbe611b43a0b85c7c5a7694857e
+- name: Feeling Dangerous
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 70bc7806864a424fa99a21177c8d5b06
+- name: Figure-4 Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: db40d60bfeb44e4aa95b7c1725197097
+- name: Finger Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: faee5d7df96249cfacccc246d0b37e4a
+- name: Fish Hook
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: f82a79cf664e45d9986a2a45d936789f
+- name: Flock of Florida Friends
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 580a25c690bd4ef48b696b9d3a5d25af
+- name: Flying Head Scissors
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: ee70e768f539477eb5af803fcd28d8b6
+- name: Fog Breaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: e4ac685647b3430a825f97deea9c7457
+- name: Half Nelson Headlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: a35050be02f74b8d88cae4d650cd0067
+- name: Hanging Headlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 2ac63c6211324b24947736cdfad2005a
+- name: Head Crunch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 4bdf6a555cf548f2a62dc2aaf16dc404
+- name: High Impact Face-Off
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 18eac3ff8b8a41d888e4112df04b4999
+- name: Imperial Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 35aec9fdee7147bc806067d9e14b5d1d
+- name: Inner Fire
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: b69706f41a28432d8390607d1fa70516
+- name: Kaboomarang
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 3a487aa1494f465ab48b6cf9229538bf
+- name: King's Wrench
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 0df1a55f54e54ba9a9e5005a7caafcd5
+- name: Legendary Triangle
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9583e4cd3d7c41dabb2feec49c999293
+- name: Mind Games
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9aa6c291b28245a09e248eea3c602a60
+- name: Mirror of Desire
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 3b0df0810baa453b9825917e129168b6
+- name: Mop Twist Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 526e5935f2ef4d9aa25cbeb8c57c4547
+- name: Neck Burner
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 508c6aeeb79d4bcb9b029f2b52b6418f
+- name: Over the Top Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: df15a1077d714fdc93f2c89cb1b9aa46
+- name: Pasture Bedtime
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: c0ae3aadac0d484faa56658714b65491
+- name: Peg Leg Shanghai
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 4742bc528df74d14902420fc4b8a1c1c
+- name: Pretzel Knot
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: ae58fc2975ff4361aae77532ea0b5225
+- name: Repeating Stomps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 329f74c3a88b44298ef4ff45955f0873
+- name: Raid, Pillage, Plunder!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9af181175e344f1cbf7547ba901db706
+- name: Rest Hold (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 974603edacbe44ad9c3091022849fd08
+- name: Rest Hold (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 0ccedd94e240407b8abba007d34e70f3
+- name: Ride the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 41d2afd6ed894674a4fab0b3301b17f2
+- name: Rolling Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 6b7f064321d64e158e9c1802579ea102
+- name: Rope Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: ee379d4a00a049d5afe366eea5d593c2
+- name: Royal Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 74cf731917f34a36b95f73234dd5c4cc
+- name: Sheep and Cat Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: fe541f43f10f4bf69efb2493c163be07
+- name: Sleeper Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 7e232d4350c44522a1a28c211b5e2903
+- name: Soaring Surfing Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: b31218ee2ad3439d9b760f3b3f586bcb
+- name: Soup'r Angled Crab
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: f42eb6454c7e41b089ba563fdd333ab5
+- name: Spinning Head Twist
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: deca348de3fc4b69b8e80de86c708ce8
+- name: Straddle Over the Top Rope
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 786000894c2b469dbd7f04148a6a7e5d
+- name: Stretch Over the Knee
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 64c0f490689342bead9ba2c592a9d9cb
+- name: Strong Island Tabletop Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 9677ed825ce8429ba9ee4d2f48cbc06b
+- name: Surfboard Kick
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 638513ebcbc24b1aa663cca7185f01c2
+- name: Surfboard Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 15ad488671a040729c857ff349606e66
+- name: Swinging Full Nelson
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 93bebf246f1d403dad1ed4db2c6a38e7
+- name: The Final Dungeon Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 7813b9372f5f48b6ba725303efa36013
+- name: Throwing My Weight Around!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: b7b9179dc35d493d8023b20ccbdc8505
+- name: Torture Rack Backbreaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: f745e63f7ce24c788cfefaf128db3abc
+- name: Trap in the Trash Can
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: dd564b05c934403aa1bef4e293343267
+- name: Trap in the Turnbuckle
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 778bbbddf05e451ea54eeba0b8900581
+- name: Trap With the Cage Door
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: d2ee7f06ecb5438381bd019c3638ecc6
+- name: Tree of Woe
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 247289d34ac84cffa3eaff7dcaaae616
+- name: Work the Leg
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: f07e65b8ff3c4dbb86eebe0419ef192b
+- name: Work, Trashman, Work
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: c4ed84178c9e4266871eede4d18174b1
+- name: Working On the Knee (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 034ffd96fca043c9b52b5438c6614091
+- name: Working On the Knee (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 0f132037dfb64adb874783e107cae723

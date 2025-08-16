@@ -10704,3 +10704,429 @@
   card_type: MainDeckCard
   deck_card_number: 20
   db_uuid: 91438f2ff2774c16803e6ddbac3b22ba
+- name: A Powerful Hand Buster
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: fc5de0a5e2b84c16b13e3cf24c0fb490
+- name: American Dragon Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: faf3fe2bde514cfba2fdde807d730da0
+- name: Ankle Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: a006a77d4d8941f68e7089b1fa4e0a6d
+- name: Ankle Torching
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: a93ebcce6f6848fab2a0ba0f7910f2a3
+- name: Armbar Over the Top
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: bc5249d8841a415d8007cfb7bb9c4167
+- name: Back Rake
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 568c81dabb4a46f3a0dc656f66911517
+- name: Barrel It Up
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 31b41aab40f24de4ae214833dc02a967
+- name: Beatdown in the Corner
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 4837d69512cd48d39c6817286a2e31d8
+- name: Big-Brain Plays
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: c59caf7b6c804c43b0d8ab615e3e2269
+- name: Big Flex
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 4970e092dd1b46a785edc3647fe187ae
+- name: Body Scissors
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: f3adda24ff3c43e1900b08f6aecf8d9b
+- name: Body Tangle
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 190d5544bfbf4d9fb7b5614a439e970f
+- name: Boss Beatdown
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 6f871ce26019410aaebd627f0c28eae6
+- name: Boss-Arm Breaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: bfbc586d973b4a879bee887a8cdf826a
+- name: Chicken Wing Toe Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: b0418c86360e442ba00471d22c557ee9
+- name: Crash and Burn
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: add514740fb54a0d99ea217c70e5e95c
+- name: Dark Dealings
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 5f0177f46531409d9ee61ca16292a7bd
+- name: Duck the Leg
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1b027fe8d28e43ea8e747d0667d95fbd
+- name: Elbow Buster
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 3243db183881488e86786d9c383d0d7b
+- name: European Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: d7d860fe0f0946f99f63cb20f9c92238
+- name: Feeling Catty
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 84cb8d36c8654781955f06e4b8de2104
+- name: Flying Headlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: b228c9ab4ae2449d853e1c8e11de7c39
+- name: Full Nelson (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 0e6380f5281947439c1c62b75e9934f1
+- name: Full Nelson (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 7f8f679347c3493183871867fa8cf65f
+- name: Hammer and Anvil Elbows
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 441c0616412b40618d9f8668434a6bf9
+- name: Head and Arm Vice V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 6c091a30f945425f985df86c8533572b
+- name: Head and Arm Vice V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 43c67faf69064a6a9efb4e183c0acae2
+- name: Head Scissors
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 982a5a794aa74faa8d74e8e3026e6f3b
+- name: Head Twist
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 553dd8b1f03d4c109300c865436e79f7
+- name: Hold Back the Tears
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: fabe7724cec04952b747b0bba8fc848b
+- name: Hold the Ring Steps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 3820a2c26471428684ec69ecdab4bfb4
+- name: Hold the Sledgehammer
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: bad763d66e314400ba74cf517e0ade6e
+- name: Hold the Steel Chain
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 0f023daa9abf45b182c093d37f151ede
+- name: Judo Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: d5967af4d9374e7fbda1fc595d704d97
+- name: Karma-Karma-Karma-Karma-Karma-Camel-Eleon Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: d3c8a55b606846608c184bbc29ab74ec
+- name: Kissing Booth
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 67b6e4bf89c34aebb78c2d5cc0a17b81
+- name: Knee Buster
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 5921a82c8dbe42bab90b18b7b461f9fb
+- name: Knockdown the Ring Steps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 26fd8a1bab09431e885d4238221c6580
+- name: Knockdown the Steel Chain
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: b5f3821913f14a9ea4b45eb95aa3959b
+- name: Knockdown the Sledgehammer
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 9c4b4ac7c098452d828e2330b8c54114
+- name: Leg Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 630b12050d8843d0b7810e0acab11bad
+- name: Leg Scissors
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1bdf3a83e0784c0d97854daa2557392f
+- name: Let it Ride, Baybay!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: d8a997a6ecf44fe29db95ce826151c11
+- name: Level Up Ankle Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1014b4c20e0241759adec1a2105eea56
+- name: Microphone Knockdown
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 431011a6d73e471da3dd506ec11258eb
+- name: Mind Grab
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1d9e7778d82c4e8680fabde4565ccee3
+- name: Neck Crank (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 70d11eaa8f5448889a4fcb84fb47fc32
+- name: Neck Crank (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 8652ab0a3c454af48c68aed2b15ef2d9
+- name: Neck Twist
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: dfb2ad7a466e45fcb76ee539c31c2f16
+- name: Neck Wrenching
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: cec37f2e8ded4b42a0583f51f2a22a58
+- name: Nope! Miss a Dive, Eat the Mat
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: b9c38e29ccc8425aa2bfa0d7f014d7c4
+- name: Octopus Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 6d189703d2024aefb48a1b1b72984806
+- name: Pineapple Squeeze
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: e7e0b88b0b5d4e70ae5a84f608fd2bff
+- name: Power Rack
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 32084fc017cb4d79a2a2b0f271401f2a
+- name: Reverse the Pressure
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: ff72e21de1a143d88e1c8b24b06e99f5
+- name: Roar to the Crowd
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 7a716dd2176848cfbf2e0ade32dd25ba
+- name: Rocking Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: ec6c86da558c401b92a848eacc9da406
+- name: Roll Out of the Way
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 0e77f9dc38394f09a1445d4f1780dd6d
+- name: Shoulder Assault
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 40c6341d71314bcdba7fe3199634be0f
+- name: Shoulder Claw
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 42e3b14087d54b4aa33ff3e0d03f98d9
+- name: Snap Arm Breaker
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 05bf211e2fc74ec7be5d37bef023ecda
+- name: Spinning Arm Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 3f2c4a2371e740448cf1b24a23fe646f
+- name: Squash
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1947f9d3c7d341c0bc914d30eebc16e2
+- name: 'Stone Skin Potion #21 (V1)'
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 0c31c2726f1d406b871a4912d2aa5c99
+- name: 'Stone Skin Potion #21 (V2)'
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: a6b8f85e93e048d2a370f53a37160019
+- name: Stretching Neck Crank
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 71d3a4f9fdbb4e95bc42f670dffcd419
+- name: Swing and a Miss
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: b0bdea97a0b241e28a3674d6e03b5f06
+- name: The Madness Spreads
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 37bd5a41ed97461cb33e713e9a13571d
+- name: Trap and Control
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 6a138190c6ca4535a6596b2b5150de36
+- name: Twisted Rope Burn
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: 1dc0e864fceb44abbdde058730520a19
+- name: Well Scouted
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  db_uuid: ce0cbde55f4246cfb9650d4264ba8b71

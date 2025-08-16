@@ -8556,3 +8556,441 @@
   card_type: MainDeckCard
   deck_card_number: 15
   db_uuid: 1364f1a69c944b70aec6f1dd43f8237e
+- name: A Powerful Impact
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: add3a3df0dfc4f31a300804f64faaf77
+- name: All Star Falling Star Assault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 45933eedc14a46e2b0c881980450208e
+- name: Ambush With the Drumsticks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: fff0816a2267421b9ebef17b5f84a5b1
+- name: Ambush With the Kendo Stick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 838149742d0741de8526fca045aebfdf
+- name: Ambush With the Ladder
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 307bdef9aae242978b7159e0ceb5ee84
+- name: Ambush With the Pineapple
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 908b73252093428082c760ea9dc88473
+- name: Big Boot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 79896f24ec054d17af40008cebf456ae
+- name: Blindside Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 0313d0b654fb4f2ebd271621049574d7
+- name: Bronco Buster
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 9826a66b76c141dc9ed8652fe139e664
+- name: Charged Cat Paws
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 3754793328c04efcb6e463ee20d65705
+- name: Chop Block
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: a41e0599763c4d5cb61f7febf23f3207
+- name: Clubbing Blows
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 522335e488264d3ab0e581198734fc26
+- name: Cosmic Dragon Knee
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 7f95a0203e0744ea9ad4c79d51fda577
+- name: Cosmic Headbutt
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: bc7e3e2f16ef430b81fe07e5c12b6ede
+- name: Crane Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 8cdeed7d9cfe44f780f6b0c38eeee2f8
+- name: Dangerous Knee Assault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 463e0cf2dab9445da824d6eb92089721
+- name: Discus Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 91daad4f3d464d30ac0d5703ad8f072e
+- name: Diving Fist Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 0c6338c085ca47609bad6c1b54bc6a89
+- name: Dogged Determination
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 2096dc76526c4fd682c484e9d8d3416c
+- name: Double Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 183405017a9a49ed89bd21e0efc76242
+- name: Double Shoulder Block
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: cbe90e1d669d4e36acff396a2309b838
+- name: Dropkick Over the Top
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 2c94867c69f8442ba5b69398cb20c1cc
+- name: Eternal Contact
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 9869a833106f4aaeb9026289125363e3
+- name: Face Danger Head On
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 8a38951e1c00481481cde8af5f912e18
+- name: Falling Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 35f2b48e70d44dbc9951f5e7a43b3c1b
+- name: Fiery Fist Fajita
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 222aa0c78b4347ee994ccb78b0c0b7a3
+- name: Flying Back Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 72f63a6d60f44404991e4a3f8bf68a3d
+- name: Flying Coast to Coast
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: cea70654cccb4cd5be8e127a5bf6090e
+- name: Flying Elbow Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: ccecba165ace4ce0b44187f6191fea11
+- name: Flying Forearm Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: ab5ab9c1b9aa4fb1818e3eb5fa4d435c
+- name: Flying Hip Attack
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 1bedc289d2744b62a574d23202ccf5e4
+- name: Flying Lariat V1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 703acc4adba641c0b750a20072d761c0
+- name: Flying Lariat V2
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 96797cb11abb43bdb04884f752154149
+- name: Ground and Pound
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 10f9eb34ba4d4dc0a92abb2225a8c03f
+- name: Ground Split
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: e19e19f7fbb64002bee014aa9a8ec49d
+- name: Guitar Swing
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 38911402005942149aba77e2c73ee2e6
+- name: Head Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 1b050c63a9a2448eba53b144acf1e3b9
+- name: Head to Head
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: b69a09da5ee646ce89e79a525ca3ca0b
+- name: Hot Tag
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: ec729dc076714e64b2da549972f5d682
+- name: Inverted Body Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: cb0e7001062743658e974eca984cc1c0
+- name: Jaw-Breaking Uppercut
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 9e28046bf3dc4dda9ae80f93584dded0
+- name: Knee to the Chin
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: aa55db4eb5134aa8be120f3f8fe80041
+- name: Knee to the Face
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 554620805db643a5b3b915474b9e34c2
+- name: Knock Out of the Ring
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: ebefc803670c4633bb6f11404e0f8648
+- name: Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: e3000cc6089743d0a9145052ae281e36
+- name: Legendary Sheep Goats for the Throat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 913ebc78c3e04d2aa77d2cce47235357
+- name: Mounted Slaps
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: cb097d8334ba461ab99f90e0a333c615
+- name: Mounted Turnbuckle Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 75a3f70f94d74169a46dd4da0c7e087a
+- name: Shoulder Block
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 0f155a4dda1242de8d45dc5a019f0ca0
+- name: Revolutionary Claim
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 20f20306fe5d4377ab3484d44b05053e
+- name: Ripcord Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: e1bf80c3a57d463b8036538774307267
+- name: Roll, Flip, Squat!
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: f0576b96ca954161b0f7bb25215dac7b
+- name: Rolling Llama Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: eeca40b4d5b34a3cba751024b0da54cb
+- name: Roundhouse Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 0de74c7e9cf6478b903f5647d9cf097f
+- name: Rebound Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 59372b4d484f4bfc8903a74504114733
+- name: Shoulder Stomp V1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 5ed6257116e246ebb1db769e3dd1acf6
+- name: Shoulder Stomp V2
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 956c20b3d84048d6802741ffafbeb887
+- name: Shovel Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 67bff643d998444aa9846bb22d95701f
+- name: Skull Busting Swing
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 7bd09f3b89194c4c9cae7d5b8b0eae2f
+- name: Sky-High Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 00da933daa9b4ff896b53a4dfa1bfa29
+- name: Sledgehammer The Quad
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 38486c45ba484e51b751ef84465fb519
+- name: Soaring Forearm Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 700dec7a1a6342e7bfef94d39674373c
+- name: Steel City Showdown
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 7be109984dfc40b8865e275cbeda56ed
+- name: Strike Down
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: c79e1faa8e23439692c2acd8c31d586d
+- name: Strike Dumb
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: e4b2cef898b147e6ab5a1fd0f325395b
+- name: Strike Fear in the Heart
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 71e57afe84974edfb2abd9e0acd73cbb
+- name: Super Chin Punches
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: e36245758b0f47cd82b9dfd027ba0465
+- name: Super King Swing
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 9b2f47fa2d804645ba822887b3a1e1b7
+- name: Superkick V1
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: c719f058056948a281bec8d4d6a77e7f
+- name: Superkick V2
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 3b8eb85b987b418cac7eb8d3684f2d32
+- name: Top Rope Press
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 454585f3cf564e5b86ca064c30880dab
+- name: Whip Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 092f88dade334f8ea91300ef949edd44
+- name: You Just Got Slapped!
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: 3547b55a0e7f458d8d1ada22527c45a4

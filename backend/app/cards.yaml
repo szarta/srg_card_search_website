@@ -1755,6 +1755,14 @@
     +1.
   srg_url: https://supershowthegame.com/product/07-stomp/
   db_uuid: 46c5ed46ccdc4cd2984300175fcbbfdc
+- name: You've Been Naughty (V2)
+  rules_text: Your opponent randomly buries 1 card in their hand.
+  srg_url: https://supershowthegame.com/product/08-youve-been-naughty/
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 8
+  db_uuid: dff1d730397f4a4a9c21eaedac01670e
 - name: Snap Suplex
   card_type: MainDeckCard
   deck_card_number: 8
@@ -5316,7 +5324,9 @@
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: 0d08fcd610e74828ba6e418179b2aa46
-- name: You've Been Naughty
+- name: You've Been Naughty (V1)
+  rules_text: Your opponent randomly buries 1 card in their hand.
+  srg_url: https://supershowthegame.com/product/07-youve-been-naughty/
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -6096,7 +6106,9 @@
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 2b4690070e294c3498eb99486fd02634
-- name: You've Been Naughty
+- name: You've Been Naughty (V3)
+  rules_text: Your opponent randomly buries 1 card in their hand.
+  srg_url: https://supershowthegame.com/product/09-youve-been-naughty/
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

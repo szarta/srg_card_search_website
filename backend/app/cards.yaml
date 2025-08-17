@@ -3669,16 +3669,26 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Stop any Lead Submission or each player buries 1 card in their hand
+    and if this is a Ring of Fire match, your opponent flips 1 card.
   deck_card_number: 2
   db_uuid: 594ce59beca0489eb9601faac8d308d9
 - name: Burn Down
   play_order: Lead
   atk_type: Grapple
+  rules_text: 'Stop any Lead Submission.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 142c3451fb6d49d6a3093d029c67acaa
 - name: Chain Wrestling
   play_order: Lead
+  rules_text: '+1 to Technique during turn rolls.
+
+    If your next turn roll is Technique, it is +2.'
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
@@ -3686,6 +3696,7 @@
 - name: Charge Into the Corner
   play_order: Lead
   atk_type: Grapple
+  rules_text: Your opponent buries 1 card in their hand.
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 1d4ba5e0f640428aa7f0d0912083733b

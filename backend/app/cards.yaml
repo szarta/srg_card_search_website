@@ -3259,6 +3259,8 @@
   deck_card_number: 1
   db_uuid: 1f4205bbde14495397bb432fcfd59efc
 - name: Boot Off the Apron
+  rules_text: Stop any Grapple with "Double Team" in the text and end the current
+    turn. "Making Waves" and "Unreal Teamwork" have blank text.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3274,6 +3276,8 @@
   deck_card_number: 1
   db_uuid: 185e66d76a9f482f97b32408c26477a3
 - name: Chain-wrapped Fist
+  rules_text: If you roll Submission for your finish roll, it is +1.  If this is a
+    Steel Chain match, you may shuffle 2 cards from your discard pile into your deck.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3304,6 +3308,8 @@
   deck_card_number: 1
   db_uuid: 3a3c1a15ce0d476ebd185d731f5edc52
 - name: Chortling Low Blow
+  rules_text: Put 1 card from your opponent's discard pile on top of their deck.  If
+    stopped, you lose the match via disqualification.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3319,6 +3325,8 @@
   deck_card_number: 1
   db_uuid: dd76436607bb492ca550d4d96d077cfa
 - name: Deflect
+  rules_text: Flip 1 card. If it is a Submission, add it to your hand and your next
+    turn roll is +2.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3333,12 +3341,14 @@
   deck_card_number: 1
   db_uuid: 75a99f6b8daf4203a16bc9e672a8e34d
 - name: Eye Poke
+  rules_text: Bury 2 cards in your opponent's discard pile.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: fde614e178a24892be0a7776c924eb73
 - name: Felt That
+  rules_text: Stop any Grapple with a skill requirement.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3352,18 +3362,23 @@
   deck_card_number: 1
   db_uuid: fa4bfc0754fc48b085da6318ec4ca3d1
 - name: Gunfire
+  rules_text: 'Stop any Lead Grapple.
+
+    Each player reveals 1 card in their hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: be21795317e2470b896b8915651a8cf0
 - name: Hold Back
+  rules_text: Stop any Grapple with "Disqualification" in the text.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 75f72c9c925a49d4b093f0d88e7f47c1
 - name: Kendo Stick
+  rules_text: If you roll Technique for your finish roll, your roll is +1.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3372,16 +3387,23 @@
 - name: Knuckle Sandwich
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Your next turn roll is +1.
+
+    If the Crowd Meter is 2 or greater stop any Lead Grapple.'
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 6685aa34bcca4023ac467f534c6f6572
 - name: Knock It Off
   play_order: Lead
+  rules_text: Stop any Grapple with "Over the Top" in the name.
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: c7b8e24e891647f683a333619a09196c
 - name: Knuckle Up
+  rules_text: 'When your opponent rolls Strike for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Strike, draw 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3395,6 +3417,9 @@
   deck_card_number: 1
   db_uuid: 5142c0badc96442aa242eb91668da4d7
 - name: Leap Frog
+  rules_text: '+1 to Agility during turn rolls.
+
+    If your next turn roll is Agility, it is +2.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3403,12 +3428,17 @@
 - name: Legendary Punch
   play_order: Lead
   atk_type: Strike
+  rules_text: 'When your opponent rolls Strike for their turn roll, their roll is
+    -1.
+
+    If your opponent''s next turn roll is Strike, their roll is -2.'
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 0b90c34a72d44946a888d4e0ad5dccd7
 - name: Lift the Boot
   play_order: Lead
   atk_type: Strike
+  rules_text: Shuffle 1 card from your discard pile into your deck.
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: e9c36ae1400047c2a4cbd7862030c34a
@@ -3416,15 +3446,22 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Flip 1 card.
+
+    If it is a Strike, add it to your hand and your next turn roll is +2.'
   deck_card_number: 1
   db_uuid: 3ac051b4993f44649b66258041a41ae7
 - name: Machine Gun Chops
+  rules_text: 'Your maximum handsize is +1.
+
+    Your opponent''s maximum handsize is -1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: bdd8608725bb44e8a7d019bab502019a
 - name: Mule Kick
+  rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3438,6 +3475,9 @@
   deck_card_number: 1
   db_uuid: 5b921f7c79994f3cbaeb750e385a8ae4
 - name: Overshot
+  rules_text: 'When your opponent rolls Agility for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Agility, draw 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3445,12 +3485,15 @@
   db_uuid: b2f1edf7aadb4b9a9fffd806d6fc574f
 - name: Palm Strike
   play_order: Lead
+  rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead
+    Grapple. Draw 1 card, then bury 1 card in your hand.
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: abe43fac16b2499c88a06f7b10767c57
 - name: Pineapple
   play_order: Lead
+  rules_text: +1 to Strike during your breakout rolls.
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
@@ -3458,6 +3501,8 @@
 - name: Rib Jab
   play_order: Lead
   atk_type: Strike
+  rules_text: Stop any Lead Grapple or each player buries 1 card in their discard
+    pile.
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 4203911218f6497c84825c9ab234a596
@@ -3471,6 +3516,7 @@
   db_uuid: 0870773b955340b998a08b7948e70974
 - name: Sheepish Collection
   play_order: Lead
+  rules_text: Each player shuffles their deck or stop any Lead Grapple.
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
@@ -3478,11 +3524,17 @@
 - name: Smack in the Head (V1)
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Your opponent''s next turn roll is -1.
+
+    If this is a Steel Cage or Liger''s Den match, your maximum handsize is +2.'
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: b9bf9f0faa3941358081c3e1d1e79dec
 - name: Smack in the Head (V2)
   play_order: Lead
+  rules_text: 'Your opponent''s next turn roll is -1. Your maximum handsize is +2.
+
+    If this is a Steel Cage or Liger''s Den match, this card cannot be stopped.'
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
@@ -3499,22 +3551,29 @@
 - name: Snap Punch
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Stop any Lead Grapple.
+
+    Each player draws 1 card.'
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 5c28c4f4405a4f16832912352e947194
 - name: Splash off the Apron
   play_order: Lead
   atk_type: Strike
+  rules_text: Stop any Grapple with a Spotlight. You may bury 1 Spotlight in your
+    opponent's discard pile.
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 6c58b85d2d2b49dba62dde6e07830877
 - name: Stiff Right Hand
+  rules_text: Your opponent's gimmick is blank until their next turn.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 00e5871d67104a1cb08ea7c1ab3bf1a0
 - name: Tackle
+  rules_text: Flip 2 cards.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3523,10 +3582,13 @@
 - name: Thunderbolt & Lightning Very Very Frightening!
   play_order: Lead
   atk_type: Strike
+  rules_text: Choose 1 card your opponent has in play and discard it.
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: e1bc9d83651e4ae293322a7f46976e98
 - name: Trip Up
+  rules_text: If your opponent rolls Agility for their turn roll, their turn roll
+    is -1.  If your opponent's next turn roll is Agility, their turn roll is -2.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3535,10 +3597,14 @@
 - name: Volley of Strikes
   play_order: Lead
   atk_type: Strike
+  rules_text: +1 to Strike during turn rolls. If your next turn roll is Strike it
+    is +2.
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: b9e4bb79d75949e28f842480a0af0e1e
 - name: Wind Up
+  rules_text: When you roll Strike for your turn roll, draw 1 card. If your next turn
+    roll is Strike, draw 1 card.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3546,6 +3612,8 @@
   db_uuid: 66ddd578606049c1bd3f3c2e0ea12c1c
 - name: Yellow Card
   play_order: Lead
+  rules_text: Stop any Lead Grapple or each player buries 1 card in their hand and
+    if this a Ring of Fire match, your opponent flips 1 card.
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
@@ -3559,6 +3627,7 @@
   db_uuid: 5fa232c20b704bd79d0a2f7ec2adedf5
 - name: Alabama Slam
   play_order: Lead
+  rules_text: Your maximum handsize is +1. Your opponent's maximum handsize is -1.
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
@@ -3575,15 +3644,22 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Stop any Lead Submission.
+
+    Each player draws 1 card.'
   deck_card_number: 2
   db_uuid: 322a539c731b4b0f863172da80f7f89c
 - name: Backcracker
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Flip 1 card.
+
+    If it is a Grapple, add it to your hand and your next turn roll is +2.'
   deck_card_number: 2
   db_uuid: 6c0b68dc952a49e38014074f7803fe08
 - name: Brain Games
+  rules_text: Each player shuffles their deck or stop any Lead Submission.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard

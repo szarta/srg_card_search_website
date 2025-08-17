@@ -37,6 +37,7 @@ function App() {
                 <li><a className="hover:text-srgPurple" href="https://www.srgpc.net/">SRGPC Card Database</a></li>
                 <li><a className="hover:text-srgPurple" href="https://www.facebook.com/groups/824706107919586/">Supershow Facebook Group</a></li>
                 <li><a className="hover:text-srgPurple" href="https://www.facebook.com/groups/1022514771216225">Card Trading Group</a></li>
+                <li><a className="hover:text-srgPurple" href="https://docs.google.com/spreadsheets/d/1xW0nvIHkUgeV8N9_p7nDjHCqDzw7OpLo3ggf4M7kPvA/htmlview">Project Spider (Competitor Division Spreadsheet)</a></li>
             </ul>
             </div>
             <div>

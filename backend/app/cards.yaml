@@ -12780,3 +12780,403 @@
   card_type: MainDeckCard
   deck_card_number: 25
   db_uuid: 44a040dabb9140d9a292395a98142894
+
+- name: "Alpaca Slam"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Atomic Slam"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Attack of the Lucha-Bots!"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Back Drop"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Backlash With the Guitar"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Backlash With the Steel Chair"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Backlash With the Table"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Backlash With the Trash Can"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Backslide"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Blue Thunder Bomb"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Boss Toss"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Break Out"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Broken in Half"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Burning Blade"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Butterfly Suplex"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Counter Spear"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Death Stomps"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Demolition Suplex"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Devious Drop"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Dirty Tactics"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Dodge"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Dog Collar Throw"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Double Arm Facebuster"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Double Leg Bridge"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Double Slam"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Double Underhook Back Buster"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Dragon Control"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Dragon-Conrana"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Drastic Times"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Ember's Chicken Wing"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Fallaway Slam"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Finishing Off The Buddy Building"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Float Over DDT (V1)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Float Over DDT (V2)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Get That Outta Here!"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Grab Hold of the Ropes"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Hyper Skull Knee Drop"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Make It Rain"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Mean Muggin'"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Reverse Piledriver"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Roll Through"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "School Boy"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Side Effect"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Single Leg Slam"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Slam Into the Ring Post"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Snap DDT"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Spinning Side Slam (V1)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Spinning Side Slam (V2)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Stretch for the Ropes"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Stunner"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Sunset Flip"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Sunset Flip Powerbomb"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Sweeping Slam (V1)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Sweeping Slam (V2)"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Tabletop Monkey Flip"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Taunting Impact Suplex"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+
+- name: "Wreckless Throw"
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+
+

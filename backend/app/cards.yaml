@@ -3233,7 +3233,26 @@
   db_uuid: 89e7a0350c994ec48801877675193d93
   related_cards:
   - 6e28c84a53004b23bf191d3700824e3f
+- name: Baseball Bat
+  rules_text: 'Stop any Lead Grapple.  Reveal the top card of your deck: if it has
+    "Baseball Bat" in the name, add that card to your hand, and you may re-roll your
+    next turn roll.'
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 1
+  db_uuid: db85062c5b2a4f78bcc98bb6238da171
+- name: Heading Out
+  rules_text: Stop any Lead Grapple.  The player with the fewest cards in hand draws
+    1 card.
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 1
+  db_uuid: dcfc1125c118453084b1e13f8faf2643
 - name: Body Punches
+  rules_text: Look at your opponent's hand.
+  srg_url: https://supershowthegame.com/product/01-body-punches/
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3246,6 +3265,9 @@
   deck_card_number: 1
   db_uuid: 9a5483b7c7f042118bfe3723a3005681
 - name: Boss-rate Boot
+  rules_text: Stop any Finish Grapple that cannot be stopped or any Grapple that is
+    not the first card played this turn.
+  srg_url: https://supershowthegame.com/product/01-boss-rate-boot/
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3258,18 +3280,24 @@
   deck_card_number: 1
   db_uuid: fabffab584f04e87869665b87d361478
 - name: Cheap Shot
+  rules_text: Your opponent buries 1 card in their hand.
+  srg_url: https://supershowthegame.com/product/1-cheap-shot/
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 29dd4a3038eb447ebe4c04bcd497f5df
 - name: Chop Down
+  srg_url: https://supershowthegame.com/product/01-chop-down/
+  rules_text: Each player flips 1 card or stop any Lead Grapple.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: 8639a08886224895ab9d8163ddc8a674
 - name: Chop in the Corner
+  rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead
+    Grapple.  Look at the top card of your opponent's deck, you may flip it.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3282,6 +3310,9 @@
   deck_card_number: 1
   db_uuid: 4df82af2be2c487e8d07878c5234f3ad
 - name: Cosmic Smash
+  rules_text: Stop any Lead Grapple.  Each player reveals the top card of their deck
+    and adds it to their hand.  If this is a Steel Cage or Liger's Den match, you
+    may flip both cards instead.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3294,6 +3325,8 @@
   deck_card_number: 1
   db_uuid: 4c0e7e46060846bd8feaeb87af15f5a0
 - name: Drumstick Solo
+  rules_text: 'Stop any Lead Grapple. Randomly reveal 1 card in your hand: If that
+    card has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3312,6 +3345,7 @@
   deck_card_number: 1
   db_uuid: cb37553491664c5da3badae179b35c2d
 - name: Finger Poke of Doom
+  rules_text: If this is the first turn of the game, this card is also a Finish.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3396,6 +3430,7 @@
   deck_card_number: 1
   db_uuid: f9f3672839fe429c9b08ae8d9ef9363e
 - name: One-Two Punch
+  rules_text: Draw 1 card.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard

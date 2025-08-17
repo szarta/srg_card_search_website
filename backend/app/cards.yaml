@@ -12474,3 +12474,309 @@
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: 4c52f1f4c1ff44cf98493fcac37e7008
+- name: A Rabbit Out of a Hat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 56c451a5edc74d2caec72363e28fe1df
+- name: Ax Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 85acf559e7aa4924b82acd6028837015
+- name: Back Splash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 0cf2fff11e27442394e16a17e83fb30d
+- name: Backlash With the Drumsticks
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: e3cf7a89aacd45269a2473e80f7e04d0
+- name: Backlash With the Kendo Stick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: dc03b771bf9841cdbde79d4b44d583ab
+- name: Backlash With the Ladder
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: c74ab0024bfb41c2b0708763d2f382a4
+- name: Backlash With the Pineapple
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: a0d28bbe23ef46e9bbf6e54cba50ee35
+- name: Boss Beats
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: a584ef6f4006424f896fd794e9041625
+- name: Burning Spear
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: ec9867cfb1a3479e9b208d37706091de
+- name: Butt Stomp
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 8d76d18c377342ac8004c88679ea87f4
+- name: Choke On a Chicken Wing
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 41df5e8d0d9f42f0a3d37a086fb7fe32
+- name: Dodging Dash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 244c2d6ec4354f21b8a2d348bd730728
+- name: Double Ax Handle
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 33a3c902db094726b7fa706684831a8c
+- name: Double Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 93d23387cb9244a494310c617790054e
+- name: Double Heel Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: df924e5962fc402088ee34a8e498c622
+- name: Dragon Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 45b8ed9716ed4dbebe85185b4fbfb52d
+- name: Dragon Lariat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 6a3a4081f02e441cadea3676e362ab96
+- name: Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 1541769e71fa45da97417b60a5d207c3
+- name: Elbow to the Face
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 8d55705bf5c9439f90a199405c5c3875
+- name: Gamengiri
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 098b843196b3432a84a4c4b184df905e
+- name: Head Stomp (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 1b911719eecb49e7ae10343b3ab1c913
+- name: Head Stomp (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 3c1c9f7c51b740039ac7d76e7a32693c
+- name: Leg Lariat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: ce07a294014844098cf4481ef341d651
+- name: Lightning Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 0cdae6f6c84d4799913c57feeda9a721
+- name: Lightning Lariat
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 2c077ae88e5a4c69abeb0683c764036c
+- name: Low Blow
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: c1f4280f169e4862b166f6f47d4acd2e
+- name: Lunge Punch
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: c4eafe4f020a4014be35ac77d34a14f1
+- name: Mayhem Maul
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: d908d9173f934beb844d9540b1f0087b
+- name: Mid-Air Collision
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 9242ea4bd0dd438291ff564490912bec
+- name: On Deck
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: aaeb5a4b70824b87bce940cdacb6ba0e
+- name: Pele Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 6634fece29dd453b8c3355a821fc9a36
+- name: Pop Up Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 704880b404a34f208c3c0f487a8bf0cf
+- name: Roaring Elbow
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 9c30906a4adc4c9db0c20ac56095c486
+- name: Running Knee Strikes
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 0092eefa61d14fc0ae3038f9ff2b84eb
+- name: Shotgun Kick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 7b9a65cc871e43da941d8a30f01113cb
+- name: Skull-Crushing Knee
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 7d13b92f22de49d197e2687e7c704ea8
+- name: Spinning Elbow
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: a0880cf81bac4707b2a75c56890d2d1a
+- name: Springboard Moonsault
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: b6bfc307fe29475aa561ba8c7094ffa4
+- name: Stalling Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 61563cf784844717bb8b6941eb2403aa
+- name: Strike a Pose, Snap a Selfie
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 829c591a0f1d4b358521ebcb9ae79c24
+- name: Superman Punch (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: aa9ca01f85b44c1eaf854840880763c4
+- name: Superman Punch (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: f57515122ed34b24a37096de183e1822
+- name: Supersonic Slap
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 3eeadbda73264d15badba997eda3dadc
+- name: Swinging Double Axe Handle
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 2779b1cb80af4936be3dd155a5281329
+- name: Tethered Knee Strike
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 33da147912be49ce85b59348b5d110d2
+- name: Throat Chop
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 206f86d6c2d142e38ee895ea3235d383
+- name: Tope Con Hilo
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 47c04c1e63d2481b88b7217ca4056972
+- name: Twisting Splash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 6e6edd20744b4e9fbd9224c6dfe22486
+- name: Universal Dropkick (V1)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: c58b5c6d4561479c8c6ce8cf63344414
+- name: Universal Dropkick (V2)
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 702d7d214a094197b193d34e4af7850c
+- name: The Weight of Justice
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 44a040dabb9140d9a292395a98142894

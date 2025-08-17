@@ -12036,3 +12036,441 @@
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: afe6d6c3c2da41a9a8fed92c33f2f899
+- name: A Wolf in Sheep's Clothing
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c0c080c6aef243c18c6415af69470150
+- name: Any Last Words?
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 7913ac3b6b57426daaea79deb775c2c0
+- name: Armenian Steel Boot Shots
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 67c0575ea18e408db9bbb066fe632fdd
+- name: BCW Rolling Leg Cutter
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 0f6c9a28381d4ee0b649e9acaeb0a4cf
+- name: Blindside Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c1c591d79fef46a1bf0352b1754e4527
+- name: Boot Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 0f1dd7b111ed4283ac3ff23f43d71f6d
+- name: Boot in the Corner
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: db010079c2204938b75f531e3c07e5c3
+- name: Bulldog Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: ec17bac0447d4848a0cb90a96a502ef9
+- name: Choke On the Smoke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: bf90f9be796e4bcbaac117a13ff2d5fa
+- name: Chowchi Says, "Go To Sheep"
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: b7f5fab757e2458e82ebac0025b50838
+- name: Cobra Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: f8e8ac886683490dbd7d5c180e5d5388
+- name: Cosmic Power Potion
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 17939f4da7524f719c9ed92b27c4099c
+- name: Cosmic Skull Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: cd1a6ea7d6234381800571a5b768f6ab
+- name: Crossbow V1
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: a6ad070352174e75b7def01cded6224e
+- name: Crossbow V2
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 1520cc8877ce469cad7b69f8de85484f
+- name: Cyber Attack
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 1c111ffc74784973bdfad552420bc1cd
+- name: Destiny's Call
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 3d74224802234efb8e29a336db6ed590
+- name: Divergence Singularity
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: d094ff94a70449e98ccffec708559c21
+- name: Earthquake Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 03d03e3c11d742769858418f29d5546d
+- name: Eternal Conditioning
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 256c6844127c4ec88f7ee3ae6071eb0c
+- name: Eternal Constriction
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 6858474253ab420ba6ac00cc976b36e1
+- name: Finger Snap
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 97d109ed440744a597d7b1d52849b124
+- name: Flipping Armbar
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: bcf42a8ec06841ac9a77866d59f3b20d
+- name: Flying Fly Trap
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 9f1a114cac8142c8becd277019c49208
+- name: Grin Without a Cat
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 02c1becf0b58432db32667ac1f763c34
+- name: Half Nelson Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 9a41814be5b642b484de0ff7bf1b8866
+- name: Hanging Leg Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c07ea816632c46e982bf473442000032
+- name: Headlock - Kick
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: dfe1519be25a44a7b9b1ca08666e0a80
+- name: Heel Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 88298a1c4c7c460d92a39ef63f325791
+- name: Hold 'Em And Hog Tie 'Em
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: ceb9bdd8d57c49f49a129d1904ddf274
+- name: I've Got This, Boss!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 7fa59cc9400741258ef9488f9b6d64c5
+- name: Indian Deathlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c5f20a53021b43a5a07cdc97e3330688
+- name: Inferno Claw
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 4765d5e76f784e2c9cf0ff4fa5aa0439
+- name: Inverted Anaconda Vice
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: db882aebe8594a5d9b37d61dc0e31856
+- name: Inverted Face Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: b8380863ff7e47848dd7ef9d263384a1
+- name: Kicker Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: f1f51b663bcb4da4b714b5f301f33d0f
+- name: Knee Stomps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 442b57f6865747769ec372c192e3ad88
+- name: La Magica Mystifca
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 2f51b6e9e93948bcaefc324c7d55f079
+- name: Lariat Knot
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 62681cc40c3043d5b850c7ec64b3be67
+- name: Leave It to Fate
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: fa30c969deb044e7bb7f05715569d7ac
+- name: Leg Lariat Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: f32b15997ca74300bf0770d5029a0459
+- name: Lockdown Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 50759870abbb43bf972d5b1845086128
+- name: Multiversal Stomps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: f00894dd8cfd479c8c865f1bcd0bd1aa
+- name: Neck Vise
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: e22c784373b5495bb95d5b19ff8c9a9e
+- name: Nerve Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 4522a5ce67cb4c2c945f494cdf53b8e4
+- name: Over the Top Headlock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: aa640ffe35a54a518767951f10c41d91
+- name: Pin to the Wall
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: da0099e73b9344f9a3197a13652623ec
+- name: Pineapple Express
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 9e348c71219044758bf484517893ab3b
+- name: Psychic Grasp
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c5481ded41f949d0911870a417c25e67
+- name: Reckless Rack-a-Roo
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 2742d6fe1ce643f89d7acc254664c74d
+- name: Rib Buster (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 37cc523263374d499d887390afdb170d
+- name: Rib Buster (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: aaa577c1fbdb497cbd0a4cfec0a904d8
+- name: Robo-Rampage
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 2d8b62557d214ecb800b070b78e53706
+- name: Set Up the Microphone
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 41dcfd20af254329a0acc934215f1a28
+- name: Set Up the Ring Steps
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 90d6d175f3bf4886a3e92c7c1b055292
+- name: Set Up the Sledgehammer
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: cdbeada3ef80478a944efeec72abf70c
+- name: Set Up the Steel Chain
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: a74f326ba3b345478d07af9a7ad52178
+- name: Split Shoulder Scissors
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 3529a319778c4dc18eccf73fa376a755
+- name: Standing Ankle Lock
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: b2d7a7debd6f41b89a9ef7d99eae5049
+- name: Straightjacket Choke
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 110cfb4efaef4e02a5ea49ccb920d415
+- name: Strangle Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 124a1a8b34ba43c69b79c5868bbaf0cc
+- name: Super Dragon Leg Twist
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 5f1b5cb33c2c4ecd8915002f5a69961e
+- name: Surfboard Sleeper Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: c6fdf041e57f429d9f66b95473b4cb7f
+- name: Surfboard Stomp
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: f53085daaeb34884aa5328d309a56e16
+- name: Texas Cloverleaf Hold
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 4d097b48a48b42bdb760f44c68cc0a1a
+- name: The Main Attraction
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 80cef7c6b0c04524b2ecfb05ed67afb5
+- name: The Switcheroo
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: defc9758cdd14386839a69745466c309
+- name: Torso Twister
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 3a96906f1eda4cf88c9f28a1c59ab5ed
+- name: Ultra Cosmic Death Clutch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 0133ef5b708342bea9d7a11aa4e03ba1
+- name: Vicious Triple Suplex (V1)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 481499e3d3144456b2646c9ae482f30d
+- name: Vicious Triple Suplex (V2)
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: ebc3c67e099e4521819c9e58528fc0f0
+- name: Wooly in the Ropes
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 17dc5561ae764be689ef394d69922829
+- name: You've Been Warned!
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 4c52f1f4c1ff44cf98493fcac37e7008

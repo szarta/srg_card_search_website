@@ -13122,3 +13122,321 @@
   card_type: MainDeckCard
   deck_card_number: 26
   db_uuid: 51226d0467274f92ab71a3f2618dec91
+- name: A Small Fortune
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: b235c776b425411e9d3e355d84718782
+- name: Avert Your Eyes
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: cafb4b1d5b8443a18a1c42f69e9bb630
+- name: Backlash With the Microphone
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: f24397a15ca747e597302cf8e2a63d85
+- name: Backlash With the Ring Steps
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: d04ee5b9ee8d4c65a168cf191c5d011e
+- name: Backlash With the Steel Chain
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 1b1d4906d3144e00a5c3c64b3e5757f8
+- name: Backlash With the Sledgehammer
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: b86367853be34213bab45fce8d654b0d
+- name: Blatant Chokehold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: b5dcb780c89240679d217257a4ebdc78
+- name: Boston Crab
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 7c0c16f90aa14db5a4bb88fa9e584219
+- name: Chicken Wing (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 4dd6e0a7ece74564844f4b230cce4a69
+- name: Chicken Wing (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 08f7eae79be345439e9bc890cbe05ba5
+- name: Choke Out (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 6d182040e8414f419777a13f6a1ec838
+- name: Choke Out (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: b0f0783591054650a0ede833d0d714a7
+- name: Devious Choke
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 8f675445df204825b65a3a89a68df001
+- name: Diving Choke
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: bea521ab20944c69a87ac4fab183e259
+- name: Double Armbar
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 24da2f850f4d43289999418be2c29f73
+- name: Double Body Bender
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: e280c041b6464f53967d65b3c7c17217
+- name: Double Finger Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: b5c090e5392f4389ab838b7184516a5e
+- name: Double Hand Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 65cd09f2bd0e47369851d39f744cebbf
+- name: Double Leg Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: a600eac814e249e0bc3cc3dc5fb520fd
+- name: Dragon Arm Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: bc6753ed2ecc48fcab76f5411434cf83
+- name: Dragon Sleeper
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: ac7330f10cc34a6493189963a19edb5d
+- name: Eternal Conjure
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 3f82d43ec850456e8dea10508612236e
+- name: Five Star Shackle
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: c81839658763465c9e2890c1138c4873
+- name: Foot On the Ropes
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: ac8543a1a5ed426e8940764602e79b36
+- name: Force Shield
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: a43c8205073b4178a332566040a443ee
+- name: Freeze! Don't Move
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 2ca6da31309b42a8a1e578e4970f5626
+- name: Hair Pull
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: a1d6e00814d84d99a47615177934cb2c
+- name: Half Crab
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: f4fe389d460246ee9ec552559af31d03
+- name: It's the Size of the Fight in the Dog
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: bca32c36897e4dd89b408c4158758bc3
+- name: Kaiser's Chicken Wing
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 101ef882ac4e4542908bb5882bcf39f3
+- name: Kimura Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: d5f9ec0aefb8492aa81b0da55b68daa8
+- name: King's Clutch
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: a38160d99d954d29abbe9a256793f2bf
+- name: Leg Arm Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 855eabc5b6634eb4bea1f43ccdd4d6ed
+- name: Leg Nelson
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 86aa9955463e47758af704d649a1cfcc
+- name: Muta Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 6cb81c46205e4e3eb23ace6e02fd3ad4
+- name: Rolling Armbar
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: ee907792472a4d3d8e690fd399ae04f7
+- name: Seated Armbar
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 4c3a28a7ea4641aba101283ddbf51153
+- name: Seated Finger Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 2932124c95c948779a001341b71945d6
+- name: Sheep Trick
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: e17e01c54ed54f89ba9e91a2a6ed0ba3
+- name: Shoulder Lock
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: f320f033ea784a92a5f1fd924a366622
+- name: Shoulder Snap
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: c41384ddc3db490faaad46b32c3af3e4
+- name: Slammin' Beards
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 57e7d065942e4ce0a27e7288392504b7
+- name: Skull Twist
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 28c499973f9f4713a97f3f88e95f0213
+- name: Sky-High Choke
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 8fd26f46682d4d6d82cf46c3296e3566
+- name: Smush into the Turnbuckle
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 37e307cb41c54764b432fcab6803a339
+- name: STF
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 892e566c192c40b2bc7d733a5e55ccdc
+- name: Swing and a Schmidt
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 0f2b94b038994ff09537744674255dc8
+- name: Tame and Constrain
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: e6d52800742b4d55b0717efe72481749
+- name: The Fix Is In
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: af08b3726fcb4f5da30ff524c882c3e2
+- name: Umbrella Hold (V1)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 9bb051d3d8624a46beff63e7e421fd1a
+- name: Umbrella Hold (V2)
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: c353c415d5aa42a594c801d22a99b0aa
+- name: Wrap in the Ropes
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: d1f7c5ef29fc4e7b81eb7035e6b0ac73
+- name: Wrenching Wrench of Retching
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 03fdd76adc4f465fb417652d8914efce

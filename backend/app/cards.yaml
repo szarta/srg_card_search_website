@@ -11130,3 +11130,465 @@
   card_type: MainDeckCard
   deck_card_number: 21
   db_uuid: ce0cbde55f4246cfb9650d4264ba8b71
+- name: 360 Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: a811ce990f59487da29a7de21f7b389c
+- name: A Shot in the Dark
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: be2e4f2c9f1746ce9bbb1f08111748d1
+- name: Atomic Knee Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: c1a201f39d384355bcc4c8f589be75cb
+- name: Bank-Breaking Knee
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: e385e063bb5a449990ecbcc2957cf29d
+- name: Beat Down
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: f90d30a72e35458c945e192c3a5497f7
+- name: Blast Into the Light Tubes
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 8e67ea9758d341508c7051a8d70a6823
+- name: Booty Drop Chop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: c09f41ad04af40429b15946cb58aa674
+- name: Brass Knuckle Punch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 7c8bd5a5fb2b4498b01d054f25b548ec
+- name: Buckshot Driver
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 9058fa1a557c467a8b005bd41dd3b7a2
+- name: Bulldozer of Demolotion
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 7e71d03cf200438a80e28126a4143258
+- name: Callous Elbow Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: fa199326c50b4067ac90038219314b9f
+- name: Catch, Twist, Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 82dbb30da1e84bfb8aad957b572da0aa
+- name: Chair Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 9fa7bdeaa4c84ef198d3fdbde50c381c
+- name: Chop the Back of the Knee
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 3a1a9e87d4754655811889d1694b4aba
+- name: Clothesline
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: ce1e31c662184b4bb36fa90f5f389496
+- name: Clothesline Over the Top Rope
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: e7673ba0474049f38229a78f4495d455
+- name: Corner Clothesline
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 5716c2579d2e40ffa768a14b42df323c
+- name: Cosmic Charging Splash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 622cefcd937542a898e672605e962f1b
+- name: Daredevil Dive
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 311503316e1c4cf6a67f5b792b801503
+- name: Discus Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: a7ef5df2b6fd421984806994e84949d7
+- name: Dive Off the Top Rope
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 95f7dd31526f479b8fb1d069f267b853
+- name: Diving Knee Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 6119d008eaaa4f57b9a9087178909feb
+- name: Double Dose
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: cb3e10c55c854a97b41a83065bea8cce
+- name: Double Foot Stomp
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: a1004107f2644ca9b7b9a9971bda2e25
+- name: Double Jump Knee Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 50229c75e12049f19aa6f2425d12c47d
+- name: Double Jump Moonsault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 67b1e87d32024767a8a7ec9554e734bc
+- name: Double Knee - Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 9402b85185124620bc47e329d4cfa28c
+- name: Double Knee Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: bca1bde690854f0aad1826b70ee0edb8
+- name: Eternal Conk
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 3e71a541162e41d6b9e5a8e196310108
+- name: Fire One Across the Bow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: a5b3a331d4c942a7a22a5d309b2ab7f1
+- name: Flying Knee Strike (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 2981c172ae3e44d8a46a585edc49b718
+- name: Flying Knee Strike (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 1cb9b3465c5f4ec68cbf5a9da4d1e6b9
+- name: High Impact Forearm Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 2d982259fe324a51a5b55eeb8de4f736
+- name: High Strike
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 8163db04d5e4463ca439a1c225b02017
+- name: Karate Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 8d53c96216fb4065b38868c5a51e93dc
+- name: Lariat Over the Top
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 8c49f061d6d7462daa29e1dfe8592c44
+- name: Leaping Lariat (V1)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: b98b23173f7f48bd9b6bae9defc4b374
+- name: Leaping Lariat (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 052216d0c69a45f28a0543c87646f8dc
+- name: Let's Roll
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 10bd8a1e9f1b43ffb26a149bcf1cb726
+- name: Level Up Spear
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: b97547650b6e44368f9234d8e01369ad
+- name: Lightning Strikes
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: da799d6709664d6a8145dcb5e617e0a8
+- name: Lucky Dragon Jawbreaker
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 156a35701ea54b6eabad337ff513b105
+- name: Mist in the Face
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: b283fe8806214cbfb67576c246730aa2
+- name: Muay Thai Strikes
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 7fe08b677c684e6990c0a5b9ac7033c4
+- name: Multiversal Headbutt
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: e61030e566e547b0aae4799f61efce95
+- name: Old School Knockdown
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: eca33c5df09a441f873fbb1112c36b31
+- name: The Opening Act
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: be03498d58ad418f9ac634f5e4f03cf3
+- name: Reckless Assault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: a1288af8daed45e5bd4fb6b4d443ad6c
+- name: Red Splash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 2aa42464af8341aca8a1ec311cf52e18
+- name: Rolling Tire Fire of Obliteration
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 704fef20c27c4443be99c63e88552f98
+- name: Runaway Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: c7cd90ecc0c6451d8f2ee807be3d36af
+- name: Running Face Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 31b0cbc5069749919ba976f2ec37fe52
+- name: Scratch
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 25824f9b22234a6b884ca37fbdb8917b
+- name: Set Up the Drumsticks
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 5f8048a149044ea4b996d0c319cacf36
+- name: Set Up the Kendo Stick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: d35f7c01c3594459b381bdf47a9c3791
+- name: Set Up the Ladder
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: f47b548b4fe34d99acd62e2127060c69
+- name: Set Up the Pineapple
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 62c61ec9024840ae983874fa9019893b
+- name: Send It Home
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 7bf9bbc9966043fbbb12162a8d043130
+- name: Short Arm Lariat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 05733d622542445dbaa94b9ef04d1bb7
+- name: Show Boat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: fa512c6ee7d14e4b9cb6690147fa4e70
+- name: Sky-High Knee Drop
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: d7d8149656db4acb86cef99cbbc0942d
+- name: Smash Into the Corner
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 6fe4fc047e1a4c09a38f65eea4e3bf0c
+- name: Snap Headbutt
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 8ab52bee3fdc47a3a4a8077cbfef78ad
+- name: Soaring Skateboard Smash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 226d7a4c82d94598927d4e0a3e12530f
+- name: Splash in the Corner
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: e2a3a781bcfa4a39a89a60bf769404e2
+- name: Standing Moonsault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 38a52829bcaa4022ad19a7cb2351ba07
+- name: Stinging Splash
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 9641927c81c948d69090b74068a0b03d
+- name: Taking Candy From a Man!
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 3f53ab0fef934963b1c29d880378b6f0
+- name: Thunderous Face Kick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: de2f43b996f5441fb3209ff29eb595a3
+- name: Time Jump
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: b03a0747851e4660818c5b8b541f0b0b
+- name: Title Belt Shot
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 6575c1e280ad4e45bd3082e9854ed085
+- name: Top Rope Dropkick
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 3ebeb72da8794cd4bf6ab19360db9895
+- name: Top Rope Moonsault
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 5a3354266b2e46188fa39aaf12e3009a
+- name: Triple Swing and an Elbow
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 5c7f43a26b1c4f6083bf487ce9f0d306
+- name: Turnip the Heat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: d4e06c5905094f80bf5db470fcc36b57
+- name: Twisting Backflip
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: d10aa4ba87844b32adaec99d7f1fda6d
+- name: Ultra Cosmic Titanic Slam
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: c1010ed33620451c9e0a0b4b68730fb3

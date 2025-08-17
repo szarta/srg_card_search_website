@@ -3863,6 +3863,7 @@
   deck_card_number: 2
   db_uuid: 013ed92f2e3144c78d111babe65b0943
 - name: 3/4 Wrist Lock
+  rules_text: Draw 1 card.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -3901,6 +3902,7 @@
   deck_card_number: 3
   db_uuid: adea822c5602422fa83ee1c81ae9ae17
 - name: Chin Lock
+  rules_text: Look at your opponent's hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

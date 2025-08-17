@@ -3388,6 +3388,7 @@
   deck_card_number: 1
   db_uuid: 59898401c0c14b109c6434cabdf761bc
 - name: Ladder
+  rules_text: If you roll Strike for your Finish roll, your roll is +1.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3461,6 +3462,8 @@
   deck_card_number: 1
   db_uuid: 4203911218f6497c84825c9ab234a596
 - name: Punch
+  srg_url: https://supershowthegame.com/product/01-punch/
+  rules_text: Stop any Lead Grapple.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -3484,6 +3487,15 @@
   card_type: MainDeckCard
   deck_card_number: 1
   db_uuid: f281f07aebc64f63a32af62d506ee1a4
+- name: Springboard
+  srg_url: https://supershowthegame.com/product/01-springboard/
+  rules_text: When you roll Agility for your turn roll, draw 1 card.  If your next
+    turn roll is Agility, draw 1 card.
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 1
+  db_uuid: 33946b3825dd4843a4b3057c2da11bf6
 - name: Snap Punch
   play_order: Lead
   atk_type: Strike

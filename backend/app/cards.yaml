@@ -3551,6 +3551,7 @@
   deck_card_number: 1
   db_uuid: 595709f863764df1a4596fcbc52eabad
 - name: 2 Handed Toss
+  rules_text: Draw 1 card.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3563,6 +3564,8 @@
   deck_card_number: 2
   db_uuid: 063ff3f0244a45c2b282dbae54fe858c
 - name: All American Stomps
+  rules_text: Stop any Finish Submission that cannot be stopped or any Submission
+    that is not the first card played this turn.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3795,11 +3798,28 @@
   deck_card_number: 2
   db_uuid: 78904f1062b749679474bace02ae4b07
 - name: Table
+  rules_text: If you roll Grapple for your finish roll, your roll is +1.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 0fc1f69e20c1409993eb7b9e0e1e9505
+- name: Walk Through Fire
+  rules_text: Stop any Lead Submission. Each player buries 1 card in their opponent's
+    discard pile.
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 2
+  db_uuid: e005bae3477845d9b798ee01412a06ed
+- name: Running Takedown
+  rules_text: Stop any Lead Submission. The player with fewest cards in hand draws
+    1 card.
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 2
+  db_uuid: 807ba3563fbb4a31a37cc82a2213e898
 - name: Take You for a Ride
   play_order: Lead
   atk_type: Grapple

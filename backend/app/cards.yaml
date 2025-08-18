@@ -3956,6 +3956,16 @@
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 57fbd847539246dbbf33796821d05821
+- name: I'm Always the Hammer
+  play_order: Lead
+  rules_text: 'Flip 1 card.
+
+    Add 1 other card of the same card or move type as the flipped card from your discard
+    pile to your hand.'
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 3
+  db_uuid: 691be4e2a3694817a1e3c81ec0438d96
 - name: A Room Full of Rocking Chairs
   play_order: Lead
   atk_type: Submission

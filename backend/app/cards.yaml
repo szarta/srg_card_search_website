@@ -3021,7 +3021,9 @@
   rules_text: 'Your Power skill is +2 during Finish rolls.
 
     If you have another Follow Up in play and this is a Ring of Fire match, this card
-    is also a Finish.\nSkill Requirement: Grapple 8+'
+    is also a Finish.
+
+    Skill Requirement: Grapple 8+'
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
 - name: Big Bad Bobby D (V1)
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
@@ -11898,8 +11900,9 @@
     Add 1 to your hand, put 1 on the top of your deck, and bury or put the other in
     your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.\nSkill Requirement:
-    Power 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.
+
+    Skill Requirement: Power 8+'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

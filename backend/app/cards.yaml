@@ -4242,6 +4242,16 @@
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: b20ea0ad5bc144fdac9d9e985017e960
+- name: Going Over the Baseball Bat
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 4
+  db_uuid: 395b41d64e274618824156cd67b8bfcd
 - name: A Boss Photobomb
   play_order: Lead
   atk_type: Strike

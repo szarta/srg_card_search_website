@@ -4252,6 +4252,22 @@
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 395b41d64e274618824156cd67b8bfcd
+- name: Taking You To School
+  rules_text: Stop any Follow Up Grapple. The player with fewest cards in hand draws
+    1 card.
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 4
+  db_uuid: c9587149b6cb43a8ac36ac3c7228e345
+- name: I Said, "Get Up"
+  rules_text: Stop any Follow Up Grapple or each player shuffles 1 Strike from their
+    discard pile into their deck.
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 4
+  db_uuid: 9c2645c6f9f042c3b7c052b45fd6d059
 - name: A Boss Photobomb
   play_order: Lead
   atk_type: Strike

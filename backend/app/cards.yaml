@@ -3701,6 +3701,8 @@
   deck_card_number: 2
   db_uuid: 1d4ba5e0f640428aa7f0d0912083733b
 - name: Clean Break
+  rules_text: If your opponent does not have a Lead Submission in play, stop any Lead
+    Submission. Draw 1 card then bury 1 card in your hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6667,6 +6669,8 @@
   deck_card_number: 10
   db_uuid: 09edf17fc41849f0b0fec783384e8339
 - name: 2 Handed Slam
+  rules_text: 'If you have "2 Handed Toss" in play: your Grapple skill is +1 and this
+    card is also a Follow Up.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7021,12 +7025,16 @@
   deck_card_number: 11
   db_uuid: fd0fac2845af48a8b8c30b98a2b3eace
 - name: 1/4 Twist
+  rules_text: 'If you have "3/4 Wirst Lock" in play: Your Submission skill is +1 and
+    this card is also a Follow Up.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
   db_uuid: d6781e7652ab42209c37c72b5d781040
 - name: Abdominal Twist
+  rules_text: Shuffle 1 card from your discard pile into your deck for each other
+    Lead you have in play.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -9601,12 +9609,15 @@
   deck_card_number: 17
   db_uuid: 14f5311fc26e4e58bc210bb7026a8afb
 - name: Abdominal Stretch (V1)
+  rules_text: Flip 2 cards for each other Follow Up you have in play.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 731363a81ad9432ebcdd36cc63cde50c
 - name: Abdominal Stretch (V2)
+  rules_text: If you have another Follow Up in play, put 1 card from your discard
+    pile on top of your deck.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -11323,6 +11334,10 @@
   deck_card_number: 21
   db_uuid: ce0cbde55f4246cfb9650d4264ba8b71
 - name: 360 Lariat
+  rules_text: 'Flip 1 card.
+
+    Take 2 cards from your discard pile, shuffle them into your deck, then draw 2
+    cards.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11785,6 +11800,12 @@
   deck_card_number: 22
   db_uuid: c1010ed33620451c9e0a0b4b68730fb3
 - name: 2 Birds, 1 Stone
+  rules_text: 'Search your dekc or discard pile for 3 Grapples:
+
+    Add 1 to your hand, put 1 on the top of your deck, and bury or put the other in
+    your discard pile.
+
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13632,3 +13653,235 @@
   card_type: MainDeckCard
   deck_card_number: 27
   db_uuid: 03fdd76adc4f465fb417652d8914efce
+- name: AJ Styles
+  power: 6
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: +1 Agility on turn rolls.
+  card_type: SingleCompetitorCard
+  db_uuid: b5a305c0f693405f8cb43b4e5864e559
+  related_finishes:
+  - 336fecf3b6564bd88b0cdd2f1b92b354
+  - 14bcf3aca242404cb309594e2bbb2d7b
+  - 852c30d11d9d46b39c2bdf94fbfbba38
+  - dd1c2eff4a86409e81ca6e9d129234e9
+- name: Spiral Tap
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Technique
+
+    Take any number of Lead cards from your discard pile and shuffle them into your
+    deck, then draw the same number of cards.'
+  db_uuid: 336fecf3b6564bd88b0cdd2f1b92b354
+- name: Styles Cash
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: Look at your opponent's hand, they bury all Lead cards.
+  db_uuid: 14bcf3aca242404cb309594e2bbb2d7b
+- name: Calf Cutter
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Submission
+
+    Take 2 Lead cards from your discard pile and add them to your hand.'
+  db_uuid: 852c30d11d9d46b39c2bdf94fbfbba38
+- name: Calf Killer
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Submission
+
+    Take 2 Lead cards from your discard pile and add them to your hand.'
+  db_uuid: dd1c2eff4a86409e81ca6e9d129234e9
+- name: Akira Takeda
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: 'FRONT: When your opponent buries any number of cards, you may add 1
+    card from your disacrd pile to your hand and turn this card over.
+
+    BACK: Once per turn: When your opponent stops your card, you may discard 1 stop
+    card from your hand to play an additional card this turn.'
+  card_type: SingleCompetitorCard
+  db_uuid: cedb63b1a108434b91062c9a0bf36d03
+  related_finishes:
+  - fbad53249e304ddf9149d283f909d42b
+  - b4d2966ffba7402198f6ebeada63ae3e
+  - dcf191a8d82e47448d33c6b7e2587dcc
+  - ccd4132dd5fe4388bc4cc5eb4c853f59
+  - 0ddab80167b1434e83bdda12fba1fbf8
+  - ebe693d8782848b7a90ab30ba7adcfaa
+- name: Eregantona Shi (V1)
+  rules_text: '+2 to Strike
+
+    Draw 1 card.
+
+    If the Crowd Meter is 3 or greater this card is also a Follow Up.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: fbad53249e304ddf9149d283f909d42b
+- name: Aki No Sora (V1)
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Bury 4 cards in your opponent''s discard pile.'
+  db_uuid: b4d2966ffba7402198f6ebeada63ae3e
+- name: Kowareta Yume (V1)
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Add 2 stop cards from your discard pile to your hand.'
+  db_uuid: dcf191a8d82e47448d33c6b7e2587dcc
+- name: Eregantona Shi (V2)
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Add 2 stop cards from your discard pile to your hand.'
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: ccd4132dd5fe4388bc4cc5eb4c853f59
+- name: Aki No Sora (V2)
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    Draw 1 card.
+
+    If the Crowd Meter is 3 or greater this card is also a Follow Up.'
+  db_uuid: 0ddab80167b1434e83bdda12fba1fbf8
+- name: Kowareta Yume (V2)
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Bury 4 cards in your opponent''s discard pile.'
+  db_uuid: ebe693d8782848b7a90ab30ba7adcfaa
+- name: Al13n Invader (V1)
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: 'When you breakout: you may play a Finish from your hand as if it were
+    a Lead. (It can be stopped as normal).'
+  card_type: SingleCompetitorCard
+  db_uuid: 4e0abf2265bf451dac5e99e1a0d6fbd8
+  related_finishes:
+  - 253e1ed8fd794043b5912bad65234e1e
+  - 91db923bc32149539a544f86c5375c38
+  - 3a0cdad345814d5680e7c552e48197a0
+  - b6ed97893cf74321a7b47c5cb39156a6
+  - 11d2807d16b840f09b6438700aceb983
+  - 9cbd447b98ce4787bded7620df4517b9
+  - dd3dae2839c7402d8cbb1745a5d41d05
+- name: Al13n Interference
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  errata_text: 'Card #13 must be discarded from your hand.'
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    You may discard card #13 to add this card from your discard pile to your hand.'
+  db_uuid: 253e1ed8fd794043b5912bad65234e1e
+- name: Unidentified Flying Elbow
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    Your opponent buries 1 random card in their hand.
+
+    Add card #13 from your discard pile to your hand.'
+  db_uuid: 91db923bc32149539a544f86c5375c38
+- name: Al13n Abduction
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Look at your opponent''s hand, choose 2 cards and bury them.'
+  db_uuid: 3a0cdad345814d5680e7c552e48197a0
+- name: Al13n Probe
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    If you have a card #13 in play your skills are +1.'
+  db_uuid: b6ed97893cf74321a7b47c5cb39156a6
+- name: Beam Me Down!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    Once per turn: if you have a Submission in play with "Cosmic" in the name: You
+    may re-roll your Finish roll.'
+  db_uuid: 11d2807d16b840f09b6438700aceb983
+- name: Cosmic Crush
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Add 1 card with "Cosmic" in the name from your discard pile to your hand.'
+  db_uuid: 9cbd447b98ce4787bded7620df4517b9
+- name: Cosmic Wormhole
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile and either player breaks out, you may discard
+    1 card in your hand with "Cosmic" in the name to add this card to your hand.'
+  db_uuid: dd3dae2839c7402d8cbb1745a5d41d05

@@ -41,6 +41,7 @@
   strike: 7
   submission: 6
   grapple: 9
+  tags: "Global"
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
   related_finishes:
@@ -96,7 +97,7 @@
   strike: 8
   submission: 10
   grapple: 6
-  tags: Underworld Division
+  tags: Underworld
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
@@ -184,6 +185,7 @@
   strike: 10
   submission: 5
   grapple: 9
+  tags: "Global"
   rules_text: 'When you roll Power for your turn roll: Your opponent randomly reveals
     1 card in their hand; if it is a stop, they discard it.'
   srg_url: https://supershowthegame.com/product/aaron-dallas/
@@ -343,6 +345,7 @@
   strike: 6
   submission: 7
   grapple: 10
+  tags: "Hardcore"
   rules_text: Your Grapple skill is +2 during turn rolls.
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
@@ -449,6 +452,7 @@
   strike: 6
   submission: 7
   grapple: 10
+  tags: "Hardcore"
   db_uuid: fee2912bede943978d3d1ab2401a6e38
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
   related_finishes:
@@ -498,6 +502,7 @@
   strike: 6
   submission: 5
   grapple: 8
+  tags: "Underworld"
   rules_text: When you and your opponent roll the same skill for your turn role, look
     at the top 2 cards of your opponent's deck, bury 1, and discard the other.
   db_uuid: c0bfb96bd9054080960a0ecbaeb13e64
@@ -551,6 +556,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  tags: "Intergalactic"
   rules_text: You may bury 3 cards in your hand to stop any Submission.
   db_uuid: 2940ac1fddf54ee5a1245615bd109907
   related_finishes:
@@ -565,7 +571,7 @@
   strike: 10
   submission: 7
   grapple: 8
-  tags: United States Division
+  tags: United States
   rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force
     them to re-roll.'
   db_uuid: 34920b2f4af2455da98b228debb1e87f
@@ -616,6 +622,7 @@
   strike: 8
   submission: 5
   grapple: 10
+  tags: "Old School"
   rules_text: When you would roll 7 for your turn roll, your turn roll is instead
     +1.
   related_finishes:
@@ -719,6 +726,7 @@
   strike: 9
   submission: 5
   grapple: 7
+  tags: "Global"
   db_uuid: 9fd2c3aee2a04dc2b28c07e043be587c
   related_finishes:
   - 26d8904b89a44ed481131580376de702
@@ -812,6 +820,7 @@
   strike: 8
   submission: 5
   grapple: 9
+  tags: "Global"
   rules_text: Once during any players turn, when your opponent draws any number of
     cards you may draw 1 card.
   db_uuid: ee611f569485400fa6312512db2ce31e
@@ -868,6 +877,7 @@
   strike: 10
   submission: 5
   grapple: 8
+  tags: "Global"
   rules_text: 'Once during your turn: You may discard 1 Submission from your hand
     to add 1 Follow Up Strike with "Lariat" or "Clothesline" in the name from your
     discard pile to your hand.'
@@ -918,6 +928,7 @@
   strike: 7
   submission: 10
   grapple: 8
+  tags: "Global"
   rules_text: 'When you roll Submission for your turn roll: Your cards with "Suplex"
     in the name cannot be stopped'
   db_uuid: c077293c5143451885069856ec9b01e9
@@ -2384,6 +2395,7 @@
   strike: 8
   submission: 6
   grapple: 5
+  tags: "Intergalactic"
   card_type: SingleCompetitorCard
   srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: 'When you hit a card with "Seal" or "Taunt" in the name: Your opponent
@@ -2608,6 +2620,7 @@
   submission: 9
   grapple: 6
   card_type: SingleCompetitorCard
+  tags: "Hardcore"
   rules_text: 'When you roll Grapple or Power for your turn roll: Reveal the top card
     of your opponent''s deck.  If it is a Finish, you may flip it; if it is not, you
     may bury it.'
@@ -2952,6 +2965,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  tags: "World Championship"
   card_type: SingleCompetitorCard
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent
     buries 1 card in their hand.
@@ -3007,7 +3021,7 @@
   rules_text: 'Your Power skill is +2 during Finish rolls.
 
     If you have another Follow Up in play and this is a Ring of Fire match, this card
-    is also a Finish.'
+    is also a Finish.\nSkill Requirement: Grapple 8+'
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
 - name: Big Bad Bobby D (V1)
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
@@ -3969,18 +3983,21 @@
   deck_card_number: 3
   db_uuid: 691be4e2a3694817a1e3c81ec0438d96
 - name: A Room Full of Rocking Chairs
+  rules_text: "Choose 1 card your opponent has in play and discard it."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 87980cb6e69b4bf9815190c4c34ff975
 - name: America Fires Back
+  rules_text: "Stop any Lead Strike or each player buries 1 card in their hand and if this is a Ring of Fire match, your opponent flips 1 card."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 28edc6efa42544b6bd71bd5412abee41
 - name: Anaconda Vice
+  rules_text: "Your maximum handsize is +1.  Your opponent's maximum handsize is -1."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -3995,6 +4012,7 @@
   deck_card_number: 3
   db_uuid: 948330f098e745f480d19d51274da063
 - name: Capture Headlock
+  rules_text: "Stop any Strike with \"Double Team\" in the text and end the current turn.\n\"Super Side Kick\" and \"Legendary Dive\" have blank text."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4008,54 +4026,63 @@
   deck_card_number: 3
   db_uuid: 3746ab50c3b54c998eb149067be16881
 - name: Closed Mind
+  rules_text: "Flip 1 card.\nIf it is a Grapple, add it to your hand and your next turn roll is +2."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: d86a3311b75147eaa0c6c197bea26b46
 - name: Clutch Onto Opponent
+  rules_text: "+1 to Submission during turn rolls.\nIf your next turn roll is Submission it is +2."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 0e3860769f7749d998cc99ad10c205ad
 - name: Double Headlock
+  rules_text: "Each player flips 1 card or stop any Lead Strike."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 270f8415997947569504d6bb11ebc23d
 - name: Eye Gouge
+  rules_text: "Shuffle 1 card from your discard pile into your deck."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 1871568baeab440487a8e45e175b5dc4
 - name: Face Rake
+  rules_text: "Your opponent buries 1 card in their hand."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 61faab93fa90472fa9daba3ead932705
 - name: Face Twist
+  rules_text: "Flip 2 cards."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 053684b6253a42868b0a21014188206e
 - name: Friends and Rivals
+  rules_text: "Stop any Lead Strike.\nEach player reveals the top card of their deck and adds it to their hand.\nIf this is a Steel Cage or Liger's Den match, you may flip both cards instead."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 97686f5a7da147ae8a3238fd157be3ce
 - name: 'Frog Slime Potion #3'
+  rules_text: "Stop any Strike with a skill requirement."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: c517592d7bf245bcb9c8864913ec9bbf
 - name: Get the Higher Ground
+  rules_text: "When your opponent rolls Submission for their turn roll, their roll is -1.\nIf your opponent's next turn roll is Submission, their roll is -2."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4065,6 +4092,7 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: "When you roll Submission for your turn roll; draw 1 card.\nIf your next turn roll is Submission, draw 1 card."
   deck_card_number: 3
   db_uuid: 0979792b0a3c44a8a15ef544a8e57023
 - name: Handshake of Doom!
@@ -4271,6 +4299,9 @@
   deck_card_number: 4
   db_uuid: 9c2645c6f9f042c3b7c052b45fd6d059
 - name: A Boss Photobomb
+  rules_text: 'Stop any Follow Up Grapple or "Rejected".
+
+    Your opponent reveals the top card of their deck, they may flip it.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -7867,6 +7898,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: "Add 1 card from your discard pile to your hand.\nYour next turn roll is +2.\nSkill Requirement: Grapple 8+"
   db_uuid: 2fa0d8c8f2ae42e293857461e2a93785
 - name: Atomic Drop (V1)
   play_order: Followup
@@ -8316,7 +8348,7 @@
   comments: Gimmick does not apply for offensive use. Intent is when opponent stops
     your card, your next turn roll is +2
   rules_text: When your opponent hits a Stop card, your next turn roll is +2.
-  tags: United States Division
+  tags: United States
   db_uuid: 79530781720d409fbf50d7d5224a988d
 - name: Alligator Roll
   play_order: Followup
@@ -8355,6 +8387,7 @@
   deck_card_number: 15
   db_uuid: c95a604d99814c37814ef7d87383c067
 - name: Armenian Choke Hold
+  rules_text: "If your Submission skill is greater than your opponent's Submission skill, stop any Strike.\nDraw 2 cards.\nSkill Requirement: Technique 8+"
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -11350,6 +11383,7 @@
   deck_card_number: 22
   db_uuid: be2e4f2c9f1746ce9bbb1f08111748d1
 - name: Atomic Knee Smash
+  rules_text: "Stop any Finish Submission.\nYour Finish rolls are +1.\nSkill Requirement: Grapple 8+"
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11800,12 +11834,12 @@
   deck_card_number: 22
   db_uuid: c1010ed33620451c9e0a0b4b68730fb3
 - name: 2 Birds, 1 Stone
-  rules_text: 'Search your dekc or discard pile for 3 Grapples:
+  rules_text: 'Search your deck or discard pile for 3 Grapples:
 
     Add 1 to your hand, put 1 on the top of your deck, and bury or put the other in
     your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.'
+    If this is a Ring of Fire match, your opponent flips 3 cards.\nSkill Requirement: Power 8+'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13660,6 +13694,7 @@
   strike: 10
   submission: 5
   grapple: 7
+  tags: Underworld
   rules_text: +1 Agility on turn rolls.
   card_type: SingleCompetitorCard
   db_uuid: b5a305c0f693405f8cb43b4e5864e559
@@ -13712,6 +13747,7 @@
   strike: 8
   submission: 6
   grapple: 7
+  tags: Hardcore
   rules_text: 'FRONT: When your opponent buries any number of cards, you may add 1
     card from your disacrd pile to your hand and turn this card over.
 
@@ -13795,6 +13831,7 @@
   strike: 7
   submission: 9
   grapple: 8
+  tags: "Intergalactic"
   rules_text: 'When you breakout: you may play a Finish from your hand as if it were
     a Lead. (It can be stopped as normal).'
   card_type: SingleCompetitorCard
@@ -13819,6 +13856,76 @@
 
     You may discard card #13 to add this card from your discard pile to your hand.'
   db_uuid: 253e1ed8fd794043b5912bad65234e1e
+- name: Al13n Invader (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: 'During your turn: When you hit a Submission with "Cosmic" in the name,
+    add 1 card from your discard pile to your hand.'
+  related_finishes:
+  - a73250c875834f86b0c45f02622e246b
+  - 5c5cdd1b02824536a0c79896fb7560ec
+  - 9bd1b410d4bc443eae2f2e2bc7526108
+  - 253e1ed8fd794043b5912bad65234e1e
+  - 91db923bc32149539a544f86c5375c38
+  - 3a0cdad345814d5680e7c552e48197a0
+  - b6ed97893cf74321a7b47c5cb39156a6
+  - 11d2807d16b840f09b6438700aceb983
+  - 9cbd447b98ce4787bded7620df4517b9
+  - dd3dae2839c7402d8cbb1745a5d41d05
+  db_uuid: ad37a60fc4184a49bc0cbdc7a693e909
+- name: Al13n Invader (V3)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  tags: "Intergalactic"
+  rules_text: '3 times per match: When you roll Agility, put 1 card from your discard
+    pile on top of your deck.'
+  db_uuid: ed3de20d902c45da89fcb3dae4445739
+  related_finishes:
+  - a73250c875834f86b0c45f02622e246b
+  - 5c5cdd1b02824536a0c79896fb7560ec
+  - 9bd1b410d4bc443eae2f2e2bc7526108
+- name: Orbital Extinction
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Strike'
+  db_uuid: a73250c875834f86b0c45f02622e246b
+- name: '"Weather Balloon"'
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
+  db_uuid: 5c5cdd1b02824536a0c79896fb7560ec
+- name: Al13n Infestation
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile: Your opponent cannot increase their skills
+    with their Gimmick.'
+  db_uuid: 9bd1b410d4bc443eae2f2e2bc7526108
 - name: Unidentified Flying Elbow
   deck_card_number: 28
   atk_type: Strike
@@ -13885,3 +13992,4 @@
     When this card is in your discard pile and either player breaks out, you may discard
     1 card in your hand with "Cosmic" in the name to add this card to your hand.'
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
+

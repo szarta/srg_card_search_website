@@ -298,7 +298,7 @@
   grapple: 7
   srg_url: https://supershowthegame.com/product/amazing-red/
   rules_text: When you roll Power for your turn roll draw 2 cards.
-  tag: world_championship
+  tag: World Championship
   db_uuid: 2507369b706f4dec83b61e8da40b80c0
 - name: Infrared
   card_type: MainDeckCard
@@ -14070,3 +14070,87 @@
     When this card is in your discard pile and either player breaks out, you may discard
     1 card in your hand with "Cosmic" in the name to add this card to your hand.'
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
+- name: 64 Bit Casey
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: f4a9e71c2fb446c192037af4278e7311
+- name: 8 Bit Eric
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: 9e8a66929b544b1a9adc98c002360ac7
+- name: Admiral Grumpy Danny Thunder
+  tags: Underworld
+  card_type: SingleCompetitorCard
+  db_uuid: 899418d2d50c4082a5a5c99455d8de0b
+- name: Alexander Slamilton
+  tags: Hardcore
+  card_type: SingleCompetitorCard
+  db_uuid: fae93ed792e548029db624a4eb65c08d
+- name: Alton Black
+  tags: Global
+  card_type: SingleCompetitorCard
+  db_uuid: 93f5a9e64bdb493bb0a59222a489272b
+- name: Amber Nova
+  tags: Global
+  card_type: SingleCompetitorCard
+  db_uuid: 49d86a1b4f724377adf532d4575ab885
+- name: Amelia Breckenwith
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: d7a4d360d24545809a143d0cf1e69663
+- name: Anastasia Morningstar
+  tags: Global
+  card_type: SingleCompetitorCard
+  db_uuid: 7542616eb8064027b33b2d0651a77d9e
+- name: Andreas Fiesta
+  tags: United States
+  card_type: SingleCompetitorCard
+  db_uuid: 47ab42f483b34d89bedc5b96374ab707
+- name: Angler
+  tags: United States
+  card_type: SingleCompetitorCard
+  db_uuid: c069f0402fb949bc8133703f98f1e328
+- name: Anika
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: 16b331c7c2df463bad441c6166f0e15f
+- name: AR Fox
+  tags: Global
+  card_type: SingleCompetitorCard
+  db_uuid: 7c5473bf1e6243cdb12cc2d83f366ac8
+- name: Arcade Addict Aaron
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: 51aff101c37346fba003d6e1f21105b1
+- name: Asia
+  tags: Old School
+  card_type: SingleCompetitorCard
+  db_uuid: 41cf829b50b649a2bbfcd56484afb428
+- name: Baanominal One
+  tags: United States
+  card_type: SingleCompetitorCard
+  db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
+- name: Baby Brick
+  tags: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: 0e8eca6185214b268fa7ffddb4bdf57b
+- name: Backpack Man
+  tags: United States
+  card_type: SingleCompetitorCard
+  db_uuid: cf6406b30a9644b7b96c432df9a26887
+- name: Bad Billy Bagpipes
+  tags: Old School
+  card_type: SingleCompetitorCard
+  db_uuid: 5202f9e0a26e4839a84797552a2979b9
+- name: Bad Boy Joey Janela
+  tags: Underworld
+  card_type: SingleCompetitorCard
+  db_uuid: ad44636cda7a4a82bb63a06c9f78db7b
+- name: Bak Hurten
+  tags: United States
+  card_type: SingleCompetitorCard
+  db_uuid: a1f365ab29b64887b81535a3aaaf80b8
+- name: Bandersnatch
+  tags: Hardcore
+  card_type: SingleCompetitorCard
+  db_uuid: 5a60042042b64aa1add8fcc29685242e

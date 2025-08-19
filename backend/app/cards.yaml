@@ -13860,7 +13860,7 @@
   grapple: 7
   tags: Hardcore
   rules_text: 'FRONT: When your opponent buries any number of cards, you may add 1
-    card from your disacrd pile to your hand and turn this card over.
+    card from your discard pile to your hand and turn this card over.
 
     BACK: Once per turn: When your opponent stops your card, you may discard 1 stop
     card from your hand to play an additional card this turn.'
@@ -13905,6 +13905,7 @@
     Add 2 stop cards from your discard pile to your hand.'
   db_uuid: dcf191a8d82e47448d33c6b7e2587dcc
 - name: Eregantona Shi (V2)
+  srg_url: https://supershowthegame.com/product/akira-takeda/
   rules_text: '+2 to Power
 
     +2 to Submission
@@ -13916,6 +13917,7 @@
   card_type: MainDeckCard
   db_uuid: ccd4132dd5fe4388bc4cc5eb4c853f59
 - name: Aki No Sora (V2)
+  srg_url: https://supershowthegame.com/product/akira-takeda/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -13927,6 +13929,7 @@
     If the Crowd Meter is 3 or greater this card is also a Follow Up.'
   db_uuid: 0ddab80167b1434e83bdda12fba1fbf8
 - name: Kowareta Yume (V2)
+  srg_url: https://supershowthegame.com/product/akira-takeda/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -14483,3 +14486,160 @@
     If you roll Strike, Grapple, or Submission for your finish roll, you may add 1
     card you have in play to your hand.'
   db_uuid: 5f99939bc7da4c9baf47c0040056636c
+- name: Long Balls Larry
+  card_type: SingleCompetitorCard
+  tags: United States
+  power: 10
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: 'When you hit a card with "Run", "Swing", "Hit", or "Stretch" in the
+    name: Draw 1 card or bury 1 card in your opponent''s discard pile.'
+  db_uuid: 1a63c5024be045dfb7f6be8b22c050b9
+- name: DJ Outlaw
+  card_type: SingleCompetitorCard
+  tags: Hardcore
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 5
+  submission: 7
+  grapple: 9
+  rules_text: When you roll Strike, Submission, or Grapple for your turn roll, your
+    opponent randomly reveals 1 card in their hand; if the move type of the card revealed
+    is the same as you rolled, the card is buried.
+  db_uuid: f8a15098e9e04c5e948f78558974f233
+- name: Crypto Currency
+  card_type: TornadoCompetitorCard
+  power: 10
+  technique: 20
+  agility: 16
+  strike: 12
+  submission: 18
+  grapple: 14
+  rules_text: 'When your opponent rolls their highest skill for their turn roll: Flip
+    2 cards and add 1 card from your discard pile to your hand.'
+  db_uuid: 1f7d71aab9e64848b155b9857dc56d3d
+- name: Duff Martin
+  card_type: SingleCompetitorCard
+  tags: Hardcore
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'Once during your opponent''s turn;
+
+    If they have more cards in their hand than you, you may draw 1 card.'
+  db_uuid: 3adafe5c67f745d891f6efe9697db0c7
+- name: Devil's Reject G.P.S.
+  card_type: SingleCompetitorCard
+  tags: Hardcore
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 10
+  rules_text: 'Once a turn roll: when your roll is exactly 1 less than your opponent''s
+    turn roll, draw 2 cards then discard 1 card from your hand.'
+  db_uuid: bda6621e1c4841e9935454a5a54de480
+- name: Maria Marinara
+  card_type: SingleCompetitorCard
+  tags: United States
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: When you roll Technique for your turn roll; you may put the bottom card
+    of your deck or your opponent's deck on top of their deck.
+  db_uuid: f31810c01f1d43acac29a2fc067a1b41
+- name: Medieval Prankster
+  card_type: SingleCompetitorCard
+  tags: Intergalactic
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: When your card is stopped, you may switch it with a card in your hand
+    of the same card and move type, that card is stopped instead.
+  db_uuid: e755c2ad5f77435e81fd8ab9e8d8607a
+- name: Style-O
+  card_type: SingleCompetitorCard
+  tags: Intergalactic
+  power: 9
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: If your opponent ends their turn without playing a card, your next turn
+    roll is +3.
+  db_uuid: 3a339cbb71034a018931acc6c0779192
+- name: Kaily Sweet Pea Perre
+  tags: United States
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 5
+  rules_text: When you roll Agility for your turn roll, your opponent's next turn
+    roll is -2.
+  db_uuid: a000e409a8cf4a9fa77d73bb9787ef3f
+- name: The Xecutioner (V1)
+  tags: Old School
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: After you flip 2 or more cards, bury 1 of the flipped cards or draw
+    2 cards and bury 1 card in your hand.
+  db_uuid: bda15f5890984f34b63f0f32193ac0cc
+- name: The Xecutioner (V2)
+  tags: Old School
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: When you hit a card with "Hang", "Head", or "Rope" in the name, your
+    opponent's maximum handsize is -4 until the end of the turn.
+  db_uuid: ebf4fa6ed095448b8fcbab78ea0423c9
+- name: Velvet Assassin (V1)
+  tags: Hardcore
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: When you bump, choose 1 card your opponent has in play and discard it
+    or bury 1 card in their discard pile
+  db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
+- name: Velvet Assassin (V2)
+  tags: United States
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: 'When you bump: Choose 1 card your opponent has in play and discard
+    it, or your next turn roll is +1.'
+  db_uuid: c652098659ee4aae959ed55e4842cc74

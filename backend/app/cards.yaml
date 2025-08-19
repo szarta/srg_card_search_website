@@ -14120,6 +14120,13 @@
   card_type: SingleCompetitorCard
   db_uuid: f4a9e71c2fb446c192037af4278e7311
 - name: 8 Bit Eric
+  srg_url: https://supershowthegame.com/product/8-bit-eric/
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 9e8a66929b544b1a9adc98c002360ac7
@@ -14128,9 +14135,87 @@
   card_type: SingleCompetitorCard
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
 - name: Alexander Slamilton
+  srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  power: 8
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 10
   tags: Hardcore
   card_type: SingleCompetitorCard
+  rules_text: When your opponent stops your card with "Slam" or "America" in the name,
+    they randomly discard 1 card from their hand, then bury 1 card in their discard
+    pile.
   db_uuid: fae93ed792e548029db624a4eb65c08d
+  related_finishes:
+  - e0315d342ec74a68ba39135d700161ed
+  - 48efacee1c4e474e81f7c1319b23c040
+  - 1bf740c7c45f49059e36109374b6553f
+- name: Right Hand Man
+  srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Power is +1 for each card you have in play with "America" in the
+    name (Max +4).
+
+    Your Agility is +1 for each card you have in play with "Slam" in the name (Max
+    +4).'
+  db_uuid: e0315d342ec74a68ba39135d700161ed
+- name: Dueling Choke Slam
+  srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    Each player flips 1 card and compares the card #. If you have the higher card
+    #, your opponent gets 1 breakout roll this turn. If your opponent has the higher
+    card #, their breakout rolls are +1.'
+  db_uuid: 48efacee1c4e474e81f7c1319b23c040
+- name: America, Rise Up!
+  srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    Once per turn: if you roll Submission for your finish roll, you may discard 1
+    card with "America" or "Slam" in the name from your hand to re-roll your finish
+    roll.'
+  db_uuid: 1bf740c7c45f49059e36109374b6553f
+- name: Alexander Slamilton Hardercore
+  power: 8
+  technique: 9
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  card_type: SingleCompetitorCard
+  rules_text: 'Chose 1: "Kendo Stick", "Ring Step", or "Sledgehammer".
+
+    When you hit a card with that in the name, draw 2 cards.  This match has No Disqualifications.'
+  srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
+  related_finishes:
+  - 8901dab61fdd4731b31527f2a7da8620
+  - 48efacee1c4e474e81f7c1319b23c040
+  - 1bf740c7c45f49059e36109374b6553f
+  db_uuid: 716732d07b1e4881b1f908405391b4a0
+- name: Sledge of Allegiance
+  srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: +1 to Submission or If your Strike skill is greater than your opponent's
+    Strike skill, stop any Finish Grapple.
+  db_uuid: 8901dab61fdd4731b31527f2a7da8620
 - name: Alton Black
   tags: Global
   card_type: SingleCompetitorCard

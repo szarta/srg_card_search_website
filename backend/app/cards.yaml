@@ -14115,6 +14115,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  rules_text: 'Once per turn roll: if you roll Grapple, draw a card.'
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 9e8a66929b544b1a9adc98c002360ac7

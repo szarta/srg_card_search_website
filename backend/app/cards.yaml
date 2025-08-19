@@ -5046,6 +5046,24 @@
   card_type: MainDeckCard
   deck_card_number: 6
   db_uuid: cf9ee5344a544f4c8cafb618f98a9ba8
+- name: Figure-4 Skull Hold
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 6
+  db_uuid: f9cf3162354b4ca189ebf86b7ecf0a56
+- name: Full Nelson Chicken Wing
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 6
+  db_uuid: 12e89e07b2b742bab2e4cc2416634a25
+- name: Repeated Dragon Leg Drops
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 6
+  db_uuid: 7c74835eee73495798ff1f389f0090ed
 - name: Fujiwara Armbar
   play_order: Lead
   atk_type: Submission

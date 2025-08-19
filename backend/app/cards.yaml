@@ -4627,6 +4627,16 @@
   card_type: MainDeckCard
   deck_card_number: 5
   db_uuid: e47598df708c4a638070213b9d5816a3
+- name: Barricade Buster
+  rules_text: 'Stop any Follow Up Submission.
+
+    The player with fewest cards in hand draws 1 card.'
+  srg_url: https://supershowthegame.com/product/05-barricade-buster/
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 5
+  db_uuid: 979a771877f94e7c81e9cb8b1b77d230
 - name: Bash
   play_order: Lead
   atk_type: Grapple

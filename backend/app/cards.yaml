@@ -14284,3 +14284,100 @@
   tags: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 5a60042042b64aa1add8fcc29685242e
+- name: Poppa Wheelie (V1)
+  card_type: SingleCompetitorCard
+  rules_text: When your opponent hits a stop card, your next turn roll is +2.
+  errata_text: When your opponent stops your card, your next turn roll is +2.
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 7
+  db_uuid: 874d321b095b401987c710035115583f
+  related_finishes:
+  - 3c44b8f4d32645e2bf05778bc7f816eb
+  - 722a705060a8454ba390b784f7410952
+  - 442f3cb5b68b40f098462208eee54aae
+  - ee54c3bbea7d41709358265d28247498
+  - 2f4f54b34ce94701ae287532b7acaa3b
+  - 9c62d7eaaf544f14ae0f069b9a9f71d0
+- name: Poppa Wheelie (V2)
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 6
+  card_type: SingleCompetitorCard
+  rules_text: When you hit a Strike, your next turn roll is +1.
+  db_uuid: 2796d89fd2a84687860c89695df92001
+  related_finishes:
+  - 3c44b8f4d32645e2bf05778bc7f816eb
+  - 722a705060a8454ba390b784f7410952
+  - 442f3cb5b68b40f098462208eee54aae
+  - ee54c3bbea7d41709358265d28247498
+  - 2f4f54b34ce94701ae287532b7acaa3b
+  - 9c62d7eaaf544f14ae0f069b9a9f71d0
+- name: Pedal to the Metal
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Draw 1 card for each Strike you have in play.
+
+    Your Technique and Agility skill are +1 for each Strike you have in play. (Max
+    +3)'
+  db_uuid: 3c44b8f4d32645e2bf05778bc7f816eb
+- name: Hammer Throw
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Draw 1 card or add 1 card from your discard pile to your hand.
+
+    If you hit a Strike last turn, double these bonuses.'
+  db_uuid: 722a705060a8454ba390b784f7410952
+- name: The Engine Block
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your Technique and Grapple skills are +1 for each Stop your opponent has in play
+    (Max +3).'
+  db_uuid: 442f3cb5b68b40f098462208eee54aae
+- name: The Slab
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    Your opponent randomly buries 2 cards in their hand.'
+  db_uuid: ee54c3bbea7d41709358265d28247498
+- name: Hammer Down
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    For each card in your opponent''s hand, draw 1 card.'
+  db_uuid: 2f4f54b34ce94701ae287532b7acaa3b
+- name: Broken Wings
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    +3 to Technique'
+  db_uuid: 9c62d7eaaf544f14ae0f069b9a9f71d0

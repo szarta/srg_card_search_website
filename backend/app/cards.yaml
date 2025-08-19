@@ -5242,6 +5242,20 @@
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: 82e3194e67ee41b78c75f5aa099877c4
+- name: Baseball Bat Uprising
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 7
+  rules_text: 'Put 1 card with "Bat" in the name from your discard pile on top of
+    your deck.
+
+    Your next turn roll is +1.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
+  srg_url: https://supershowthegame.com/product/07-baseball-bat-uprising/
+  db_uuid: 89dfe3a02e9e4e68822867eba7413091
 - name: Blinding Potion No. 7
   play_order: Lead
   atk_type: Strike

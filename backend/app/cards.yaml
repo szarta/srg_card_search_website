@@ -3250,6 +3250,7 @@
   related_cards:
   - 6e28c84a53004b23bf191d3700824e3f
 - name: Baseball Bat
+  srg_url: https://supershowthegame.com/product/01-baseball-bat/
   rules_text: 'Stop any Lead Grapple.  Reveal the top card of your deck: if it has
     "Baseball Bat" in the name, add that card to your hand, and you may re-roll your
     next turn roll.'
@@ -5305,6 +5306,8 @@
   deck_card_number: 7
   db_uuid: 36c7c0d50aaa49928de7d6dc651ee640
 - name: Doomsday Lariat
+  rules_text: 'When you have "Flying Super Snap Face Punch" in play, this card is
+    also a finish.  Skill Requirement: Strike 8+'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -5482,12 +5485,19 @@
   deck_card_number: 7
   db_uuid: dd0ff543ee0647259c947c9fd15aff15
 - name: Rolling Forearm (V1)
+  rules_text: You may play 1 extra card this turn or if you have less cards in your
+    hand than your opponent, draw 2 cards.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: 6ad4619cdb2c4c50b6853cd3ee9e0d37
 - name: Rolling Forearm (V2)
+  rules_text: 'Draw 3 cards.
+
+    If the crowd meter is 3 or greater, draw 5 cards instead.
+
+    Skill Requirement: Technique 8+'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -5589,9 +5599,11 @@
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: aa623cae60bb4b24a79fd696241539a9
-- name: Took it on the Chin!
+- name: Took it on the Chin! (#7)
   play_order: Lead
   atk_type: Strike
+  rules_text: Reveal your hand to your opponent, they choose and bury 1 card.  Draw
+    3 cards.
   card_type: MainDeckCard
   deck_card_number: 7
   db_uuid: 3cca1f55a44b48d6b3aac0d9b3af6863
@@ -6359,7 +6371,7 @@
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 0019c17e27b9436baafdeca848905dc3
-- name: Took it on the Chin!
+- name: Took it on the Chin! (#9)
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -13799,6 +13811,7 @@
   deck_card_number: 27
   db_uuid: 03fdd76adc4f465fb417652d8914efce
 - name: AJ Styles
+  srg_url: https://supershowthegame.com/product/aj-styles/
   power: 6
   technique: 8
   agility: 9
@@ -14643,3 +14656,16 @@
   rules_text: 'When you bump: Choose 1 card your opponent has in play and discard
     it, or your next turn roll is +1.'
   db_uuid: c652098659ee4aae959ed55e4842cc74
+- name: Dickie Finesse
+  tags: Old School
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 8
+  submission: 10
+  grapple: 7
+  srg_url: https://supershowthegame.com/product/dickie-finesse-os/
+  rules_text: When you roll Agility for your turn roll, add 1 Follow Up Submission
+    or 1 card with "Chop" in the name from your discard pile to your hand.
+  db_uuid: 1b4cca9a54f346c2af1ffc58ca1b5d0c

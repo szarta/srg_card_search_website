@@ -4293,6 +4293,7 @@
   deck_card_number: 3
   db_uuid: b20ea0ad5bc144fdac9d9e985017e960
 - name: Going Over the Baseball Bat
+  srg_url: https://supershowthegame.com/product/04-going-over-the-baseball-bat/
   rules_text: 'Stop any Follow Up Grapple.
 
     Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that

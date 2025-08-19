@@ -14373,3 +14373,112 @@
 
     +3 to Technique'
   db_uuid: 9c62d7eaaf544f14ae0f069b9a9f71d0
+- name: The Wreck (V1)
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 9
+  card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/the-wreck/
+  rules_text: When your opponent hits a Strike, draw 1 card and your next turn roll
+    is +1.
+  db_uuid: 9f936d7e3c5f41f18eda93e9644d6726
+  related_finishes:
+  - 723c6503149340a98c2b10681f90b0df
+  - 6fc051a1d93345f8b8698b3eb1fcaee8
+  - 15b5b7e6d81e4810a3d31c903cfe3dd0
+  - de6f4a8efec94dc392740c1b81724584
+  - 9f1816444c0b449494183c28c0548c2e
+  - 5f99939bc7da4c9baf47c0040056636c
+- name: The Wreck (V2)
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 9
+  card_type: SingleCompetitorCard
+  rules_text: When any number of cards you have in play are moved to another location,
+    discard 1 card your opponent has in play or draw 1 card.
+  db_uuid: 7a8377ee227f42819a017bb69ad3e181
+  related_finishes:
+  - 723c6503149340a98c2b10681f90b0df
+  - 6fc051a1d93345f8b8698b3eb1fcaee8
+  - 15b5b7e6d81e4810a3d31c903cfe3dd0
+  - de6f4a8efec94dc392740c1b81724584
+  - 9f1816444c0b449494183c28c0548c2e
+  - 5f99939bc7da4c9baf47c0040056636c
+- name: Concussion Fist
+  srg_url: https://supershowthegame.com/product/the-wreck/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Technique and Power are +1 for each Strike your opponent has in
+    play.
+
+    If your opponent hit a Follow Up Strike last turn this card is also a Lead.'
+  db_uuid: 723c6503149340a98c2b10681f90b0df
+- name: The Head-On Collision
+  srg_url: https://supershowthegame.com/product/the-wreck/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    +1 to Grapple
+
+    Draw 2 cards.'
+  db_uuid: 6fc051a1d93345f8b8698b3eb1fcaee8
+- name: The ICU
+  srg_url: https://supershowthegame.com/product/the-wreck/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    When this card is in your discard pile, if your opponent hits a Grapple you may
+    shuffle it into your deck.'
+  errata_text: This is a Spotlight card.
+  db_uuid: 15b5b7e6d81e4810a3d31c903cfe3dd0
+- name: Total Wreckage
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: Discard any other Strikes that you have in play and any number of Strikes
+    in your hand and your opponent may discard the same number of Grapples/Submissions
+    from their hand; If they do not, your finish roll is +2.
+  db_uuid: de6f4a8efec94dc392740c1b81724584
+- name: Demolition Driver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    +1 to Agility
+
+    If stopped, you may put 1 Strike from your opponent''s discard pile into play
+    or discard 1 card you have in play.'
+  db_uuid: 9f1816444c0b449494183c28c0548c2e
+- name: Crash Test
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    If you roll Strike, Grapple, or Submission for your finish roll, you may add 1
+    card you have in play to your hand.'
+  db_uuid: 5f99939bc7da4c9baf47c0040056636c

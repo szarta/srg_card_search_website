@@ -1,9 +1,57 @@
 import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import SearchBar from "../components/SearchBar";
 import CardGrid from "../components/CardGrid";
 import Footer from "../components/Footer";
 
 export default function Home() {
+
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Helper: read filters/page from URL
+  const readFromURL = () => {
+    const obj = Object.fromEntries(searchParams.entries());
+    return {
+      filters: {
+        query: obj.query || "",
+        cardType: obj.cardType || "",
+        atkType: obj.atkType || "",
+        playOrder: obj.playOrder || "",
+        deckCardNumber: obj.deckCardNumber || "",
+        power: obj.power || "",
+        agility: obj.agility || "",
+        strike: obj.strike || "",
+        submission: obj.submission || "",
+        grapple: obj.grapple || "",
+        technique: obj.technique || "",
+      },
+      page: parseInt(obj.page || "1", 10),
+      limit: parseInt(obj.limit || "50", 10),
+    };
+  };
+
+  const writeToURL = (filtersObj, pageVal, limitVal) => {
+    const sp = new URLSearchParams();
+    const f = filtersObj || filters;
+    const pageNum = pageVal ?? page;
+    const limitNum = limitVal ?? limit;
+
+    Object.entries(f).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && String(v).trim() !== "") {
+        sp.set(k, String(v));
+      }
+    });
+  const handleSearch = (nextFilters) => {
+    setFilters(nextFilters);
+    setPage(1);
+    writeToURL(nextFilters, 1, limit);
+  };
+
+    if (pageNum && pageNum !== 1) sp.set("page", String(pageNum));
+    if (limitNum && limitNum !== 50) sp.set("limit", String(limitNum));
+    setSearchParams(sp, { replace: false });
+  };
+
   const [cards, setCards] = useState([]);
   const [filters, setFilters] = useState({
     query: "",
@@ -18,6 +66,15 @@ export default function Home() {
     grapple: "",
     technique: "",
   });
+  /* URL -> state sync */
+  useEffect(() => {
+    const { filters: f, page: p, limit: l } = readFromURL();
+    setFilters((prev) => ({ ...prev, ...f }));
+    if (!Number.isNaN(p)) setPage(p);
+    if (!Number.isNaN(l)) setLimit(l);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // run once
+
   const [page, setPage] = useState(1);
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -90,12 +147,20 @@ export default function Home() {
     if (page * limit < totalCount) fetchCards(filters, page + 1);
   };
 
-  return (
+
+  // React to URL changes (back/forward)
+  useEffect(() => {
+    const { filters: f, page: p, limit: l } = readFromURL();
+    setFilters((prev) => ({ ...prev, ...f }));
+    if (!Number.isNaN(p)) setPage(p);
+    if (!Number.isNaN(l)) setLimit(l);
+  }, [searchParams]);
+return (
     <div className="min-h-screen flex flex-col text-white">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center mb-6">SRG Card Search</h1>
 
-        <SearchBar onSearch={handleSearch} />
+        <SearchBar onSearch={handleSearch} defaultValues={filters} onSearch={handleSearch} />
 
         <div className="mt-4 text-sm text-center text-gray-300">
           {loading ? "Loading…" : `Showing ${cards.length} of ${totalCount} results`}

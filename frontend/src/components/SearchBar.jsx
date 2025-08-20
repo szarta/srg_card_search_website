@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function SearchBar({ onSearch }) {
+export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [query, setQuery] = useState("");
   const [cardType, setCardType] = useState("");
   const [atkType, setAtkType] = useState("");
@@ -14,6 +14,22 @@ export default function SearchBar({ onSearch }) {
   const [submission, setSubmission] = useState("");
   const [grapple, setGrapple] = useState("");
   const [technique, setTechnique] = useState("");
+  // Sync from URL-provided defaults (e.g., when returning via back button)
+  React.useEffect(() => {
+    if (!defaultValues) return;
+    if (defaultValues.query !== undefined) setQuery(defaultValues.query || "");
+    if (defaultValues.cardType !== undefined) setCardType(defaultValues.cardType || "");
+    if (defaultValues.atkType !== undefined) setAtkType(defaultValues.atkType || "");
+    if (defaultValues.playOrder !== undefined) setPlayOrder(defaultValues.playOrder || "");
+    if (defaultValues.deckCardNumber !== undefined) setDeckCardNumber(defaultValues.deckCardNumber || "");
+    if (defaultValues.power !== undefined) setPower(defaultValues.power || "");
+    if (defaultValues.agility !== undefined) setAgility(defaultValues.agility || "");
+    if (defaultValues.strike !== undefined) setStrike(defaultValues.strike || "");
+    if (defaultValues.submission !== undefined) setSubmission(defaultValues.submission || "");
+    if (defaultValues.grapple !== undefined) setGrapple(defaultValues.grapple || "");
+    if (defaultValues.technique !== undefined) setTechnique(defaultValues.technique || "");
+  }, [defaultValues]);
+
 
   const isMainDeck = cardType === "MainDeckCard";
   const isCompetitor =

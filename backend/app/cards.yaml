@@ -13959,6 +13959,7 @@
   strike: 7
   submission: 9
   grapple: 8
+  srg_url: https://supershowthegame.com/product/8-bit-al13n-invader-2/
   tags: Intergalactic
   rules_text: 'When you breakout: you may play a Finish from your hand as if it were
     a Lead. (It can be stopped as normal).'
@@ -14224,8 +14225,57 @@
   db_uuid: 8901dab61fdd4731b31527f2a7da8620
 - name: Alton Black
   tags: Global
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: Your Grapple cards with "Drop", "Slam", "Buster", or "Breaker" in the
+    name have the added text "Your opponent buries 1 random card in their hand.
+  srg_url: https://supershowthegame.com/product/alton-black/
   card_type: SingleCompetitorCard
   db_uuid: 93f5a9e64bdb493bb0a59222a489272b
+  related_finishes:
+  - 9c60e82691594ab796e638efe656e3eb
+  - e157a2159a514656a4b00df7fcc57a70
+  - 69870b8e30a84704a829ad62667c5256
+- name: B.F.B.
+  srg_url: https://supershowthegame.com/product/alton-black/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    When you have more cards in your hand than your opponent, this card is also a
+    Follow Up.
+
+    Draw 1 card for each other Strike you have in play.'
+  db_uuid: 9c60e82691594ab796e638efe656e3eb
+- name: Total Anarchy
+  srg_url: https://supershowthegame.com/product/alton-black/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power, Agility, and Technique for each Grapple card you have
+    in play with "Slam", "Drop", or "Breaker" in the name.
+
+    Each time your opponent rolls they bury 1 random card in their hand.'
+  db_uuid: e157a2159a514656a4b00df7fcc57a70
+- name: The Blackout
+  srg_url: https://supershowthegame.com/product/alton-black/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +2 to Technique
+
+    Your opponent buries 2 cards in their hand.'
+  db_uuid: 69870b8e30a84704a829ad62667c5256
 - name: Amber Nova
   tags: Global
   card_type: SingleCompetitorCard

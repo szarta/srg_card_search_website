@@ -9945,7 +9945,7 @@
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 9583e4cd3d7c41dabb2feec49c999293
-- name: Mind Games
+- name: Mind Games (#18)
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -14277,50 +14277,235 @@
     Your opponent buries 2 cards in their hand.'
   db_uuid: 69870b8e30a84704a829ad62667c5256
 - name: Amber Nova
+  power: 7
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 5
   tags: Global
   card_type: SingleCompetitorCard
   db_uuid: 49d86a1b4f724377adf532d4575ab885
+  related_finishes:
+  - 022a90319b034c3896ed9318ea5eed1f
+  - 50187b39981d44f399ba5ca371c52ed2
+  - 6fb0d05d97134a74a85f41af342ed1c8
+- name: Nova-Strike
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 022a90319b034c3896ed9318ea5eed1f
+- name: Nova-Plex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: 50187b39981d44f399ba5ca371c52ed2
+- name: Nova-Wrench
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 6fb0d05d97134a74a85f41af342ed1c8
 - name: Amelia Breckenwith
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: d7a4d360d24545809a143d0cf1e69663
-- name: Anastasia Morningstar
+  related_finishes:
+  - 040232a9ce804e3eb4ea2a25283f6298
+  - 120a4a3ffc124a21be376a2d5f6df56d
+  - c17faf738dc9453097c7b4301baaafff
+  - 01d7642fbfae4817a4ff1c01f175e9e8
+  - c97d0ef041cd4e33824b7583bd7fc0a1
+  - cd01ac08134342bda5826e44a1ff1c9d
+- name: Anastasia Morningstar (V1)
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 5
   tags: Global
   card_type: SingleCompetitorCard
   db_uuid: 7542616eb8064027b33b2d0651a77d9e
+  related_finishes:
+  - 06312b15461345f2beb41c51a78b88bd
+  - b7c0bef7462540209be3c1bf99b62fb3
+  - 6175526eefc9482e84f4da74fa05ec49
+- name: The Witchmark
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 06312b15461345f2beb41c51a78b88bd
+- name: The Dark Bomb
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: b7c0bef7462540209be3c1bf99b62fb3
+- name: The Noctifer
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 6175526eefc9482e84f4da74fa05ec49
 - name: Andreas Fiesta
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 9
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
-- name: Angler
+  related_finishes:
+  - 8a28c56d2def48f3a5cce9174c5023cd
+  - 44c4ff6684d1410fad27c125885521d1
+  - ee74a7038b1f495ba9376826ae60e7ec
+- name: Party Time!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 8a28c56d2def48f3a5cce9174c5023cd
+- name: The Party Foul
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: 44c4ff6684d1410fad27c125885521d1
+- name: Mind Games (#30)
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: ee74a7038b1f495ba9376826ae60e7ec
+- name: The Angler
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 6
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: c069f0402fb949bc8133703f98f1e328
-- name: Anika
+  related_finishes:
+  - 6311008b202a4f64bc8b8a528ace8b1d
+  - fee9f96b62a744ca96541aa1d25748a5
+  - 76d4e3bd5bb3475c88297a195c170de5
+- name: Fly Fisting
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 6311008b202a4f64bc8b8a528ace8b1d
+- name: The Angler Slam
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: fee9f96b62a744ca96541aa1d25748a5
+- name: The Big Catch
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 76d4e3bd5bb3475c88297a195c170de5
+- name: Anika al'Namira
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 6
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 16b331c7c2df463bad441c6166f0e15f
+  related_finishes:
+  - 4ff19d841bf6486b8f2114d44dbc7df3
+  - f1d3aeb4dbc040d594e421703b657bac
+  - 8d5a540e09f4463bb9be312e0d69f0e9
+- name: If God Wills It
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 4ff19d841bf6486b8f2114d44dbc7df3
+- name: Desert Lotus
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: f1d3aeb4dbc040d594e421703b657bac
+- name: Call to Hectate
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 8d5a540e09f4463bb9be312e0d69f0e9
 - name: AR Fox
   tags: Global
   card_type: SingleCompetitorCard
   db_uuid: 7c5473bf1e6243cdb12cc2d83f366ac8
 - name: Arcade Addict Aaron
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 51aff101c37346fba003d6e1f21105b1
 - name: Asia
   tags: Old School
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: When you hit a Follow Up, your next turn roll is +1.
   card_type: SingleCompetitorCard
   db_uuid: 41cf829b50b649a2bbfcd56484afb428
 - name: Baanominal One
+  power: 6
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
 - name: Baby Brick
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: When you stop a card, your next turn roll is +1.
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 0e8eca6185214b268fa7ffddb4bdf57b
 - name: Backpack Man
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: cf6406b30a9644b7b96c432df9a26887
@@ -14720,3 +14905,96 @@
   rules_text: When you roll Agility for your turn roll, add 1 Follow Up Submission
     or 1 card with "Chop" in the name from your discard pile to your hand.
   db_uuid: 1b4cca9a54f346c2af1ffc58ca1b5d0c
+  related_finishes:
+  - 4daa3bd7a7b34d81be876c573cae97ea
+  - 0ce11aaa2de9428e92fdfbe7fc6e4993
+  - 7464384727b942af9c51d2e5b61ce0f0
+- name: Choppin' At the Bits
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: 4daa3bd7a7b34d81be876c573cae97ea
+- name: The Knee Replacement
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: 0ce11aaa2de9428e92fdfbe7fc6e4993
+- name: Figure-80 Leg Lock
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 7464384727b942af9c51d2e5b61ce0f0
+- name: Amos the Iron Worker (V1)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 10
+  db_uuid: 8e86da7670a84f1898ab2e1e570aebca
+  related_finishes:
+  - bc8f5dfdd9b3406a9078459fa065f6f2
+  - 94690264163e431dbfcf6941e06ba837
+  - 4e68b0da643743aca4c32b23225d48c8
+- name: Punch the Clock
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  db_uuid: bc8f5dfdd9b3406a9078459fa065f6f2
+- name: Burning on Both Ends
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  db_uuid: 94690264163e431dbfcf6941e06ba837
+- name: American Iron Arm Wrench
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  db_uuid: 4e68b0da643743aca4c32b23225d48c8
+- name: ANTagonist (V1)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 7
+  submission: 10
+  grapple: 6
+  db_uuid: ce6ad6df80c0437194a6957fdbc70712
+- name: Anthony Gangone (V1)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 7
+  comments: This version is referenced as "The One Above All"
+  db_uuid: 47e01d6194cb412fb771cbeb999305be
+- name: Anthony Gangone (V2)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 7
+  comments: This version is referenced as "The Rogue"
+  db_uuid: f31f5385413946c78db19561ea68045f
+- name: AR Fox
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'During your turn: When your Turn Roll is Agility, your Grapple cards
+    are also Leads.'
+  db_uuid: 23174a8ec9fd420d93b19331b116a6b1

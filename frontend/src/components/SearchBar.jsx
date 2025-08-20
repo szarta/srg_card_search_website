@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-export default function SearchBar({ onSearch }) {
+export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [query, setQuery] = useState("");
   const [cardType, setCardType] = useState("");
   const [atkType, setAtkType] = useState("");
@@ -15,27 +15,55 @@ export default function SearchBar({ onSearch }) {
   const [grapple, setGrapple] = useState("");
   const [technique, setTechnique] = useState("");
 
-  const isMainDeck = cardType === "MainDeckCard";
-  const isCompetitor =
-    cardType === "SingleCompetitorCard" ||
-    cardType === "TornadoCompetitorCard" ||
-    cardType === "TrioCompetitorCard";
+  // Page size (lives in URL via Home; controlled here for UI)
+  const [pageSize, setPageSize] = useState(20);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // Hydrate inputs when URL-provided defaults change
+  useEffect(() => {
+    setQuery(defaultValues.query ?? "");
+    setCardType(defaultValues.cardType ?? "");
+    setAtkType(defaultValues.atkType ?? "");
+    setPlayOrder(defaultValues.playOrder ?? "");
+    setDeckCardNumber(defaultValues.deckCardNumber ?? "");
+    setPower(defaultValues.power ?? "");
+    setAgility(defaultValues.agility ?? "");
+    setStrike(defaultValues.strike ?? "");
+    setSubmission(defaultValues.submission ?? "");
+    setGrapple(defaultValues.grapple ?? "");
+    setTechnique(defaultValues.technique ?? "");
+    setPageSize(parseInt(defaultValues.limit ?? 20, 10) || 20);
+  }, [defaultValues]);
+
+  const submitWith = (extra = {}) => {
     onSearch({
       query,
       cardType,
       atkType,
       playOrder,
-      deckCardNumber, // Home.jsx will only include when MainDeck
+      deckCardNumber,
       power,
       agility,
       strike,
       submission,
       grapple,
-      technique,      // Home.jsx already guards to send only valid numbers
+      technique,
+      limit: pageSize,
+      ...extra, // allow overrides
     });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    submitWith();
+  };
+
+  const handlePageSizeChange = (e) => {
+    const newSize = parseInt(e.target.value, 10);
+    if (!Number.isNaN(newSize) && newSize > 0) {
+      setPageSize(newSize);
+      // Trigger a new search immediately, reset to page 1 (handled in Home)
+      submitWith({ limit: newSize });
+    }
   };
 
   return (
@@ -49,16 +77,33 @@ export default function SearchBar({ onSearch }) {
         placeholder="Search name or rules..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="flex-1 min-w-[220px] bg-gray-900 text-white border border-gray-600 rounded px-3 py-2"
+        className="flex-1 min-w-[220px] bg-gray-900 text-white border border-gray-700 rounded p-2"
       />
 
-      {/* Card type */}
+      {/* Card Type (full set) */}
       <select
         value={cardType}
-        onChange={(e) => setCardType(e.target.value)}
-        className="bg-gray-900 text-white border border-gray-600 rounded px-3 py-2"
+        onChange={(e) => {
+          const v = e.target.value;
+          setCardType(v);
+          // Clear fields that don't apply when switching card types
+          if (v !== "MainDeckCard") {
+            setDeckCardNumber("");
+            setAtkType("");
+            setPlayOrder("");
+          }
+          if (!["SingleCompetitorCard", "TornadoCompetitorCard", "TrioCompetitorCard"].includes(v)) {
+            setPower("");
+            setAgility("");
+            setStrike("");
+            setSubmission("");
+            setGrapple("");
+            setTechnique("");
+          }
+        }}
+        className="bg-gray-900 text-white border border-gray-700 rounded p-2"
       >
-        <option value="">All Card Types</option>
+        <option value="">All Types</option>
         <option value="MainDeckCard">Main Deck</option>
         <option value="SingleCompetitorCard">Single Competitor</option>
         <option value="TornadoCompetitorCard">Tornado Competitor</option>
@@ -68,71 +113,88 @@ export default function SearchBar({ onSearch }) {
         <option value="CrowdMeterCard">Crowd Meter</option>
       </select>
 
-      {/* Attack type (Main Deck only) */}
+      {/* Attack Type — only relevant to Main Deck */}
       <select
         value={atkType}
         onChange={(e) => setAtkType(e.target.value)}
-        disabled={!isMainDeck}
-        className={`bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
-          isMainDeck ? "border-gray-600" : "border-gray-700"
+        className={`bg-gray-900 text-white border border-gray-700 rounded p-2 ${
+          cardType === "MainDeckCard" ? "" : "opacity-50"
         }`}
+        disabled={cardType !== "MainDeckCard"}
       >
-        <option value="">Attack Type</option>
+        <option value="">All Attack Types</option>
         <option value="Strike">Strike</option>
         <option value="Grapple">Grapple</option>
         <option value="Submission">Submission</option>
       </select>
 
-      {/* Play order (Main Deck only) */}
+      {/* Play Order — only relevant to Main Deck */}
       <select
         value={playOrder}
         onChange={(e) => setPlayOrder(e.target.value)}
-        disabled={!isMainDeck}
-        className={`bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
-          isMainDeck ? "border-gray-600" : "border-gray-700"
+        className={`bg-gray-900 text-white border border-gray-700 rounded p-2 ${
+          cardType === "MainDeckCard" ? "" : "opacity-50"
         }`}
+        disabled={cardType !== "MainDeckCard"}
       >
-        <option value="">Play Order</option>
+        <option value="">Any Play Order</option>
         <option value="Lead">Lead</option>
         <option value="Followup">Follow Up</option>
         <option value="Finish">Finish</option>
       </select>
 
-      {/* Card Number — always visible, disabled unless Main Deck */}
+      {/* Deck Card Number — only relevant to Main Deck */}
       <input
         type="number"
-        min="1"
-        placeholder="Card Number"
+        inputMode="numeric"
+        placeholder="Deck #"
         value={deckCardNumber}
         onChange={(e) => setDeckCardNumber(e.target.value)}
-        disabled={!isMainDeck}
-        className={`w-36 bg-gray-900 text-white border rounded px-3 py-2 disabled:opacity-50 disabled:cursor-not-allowed ${
-          isMainDeck ? "border-gray-600" : "border-gray-700"
+        disabled={cardType !== "MainDeckCard"}
+        className={`w-24 bg-gray-900 text-white border border-gray-700 rounded p-2 ${
+          cardType === "MainDeckCard" ? "" : "opacity-50"
         }`}
       />
 
-      {/* Competitor stats — always visible, disabled unless competitor type */}
-      <div className="flex flex-wrap gap-2">
-        {[
-          ["Power", power, setPower],
-          ["Technique", technique, setTechnique],
-          ["Agility", agility, setAgility],
-          ["Strike", strike, setStrike],
-          ["Submission", submission, setSubmission],
-          ["Grapple", grapple, setGrapple],
-        ].map(([label, value, setter]) => (
-          <input
-            key={label}
-            type="number"
-            placeholder={label}
-            value={value}
-            onChange={(e) => setter(e.target.value)}
-            disabled={!isCompetitor}
-            className={`w-24 bg-gray-900 text-white border rounded px-2 py-1 disabled:opacity-50 disabled:cursor-not-allowed ${
-              isCompetitor ? "border-gray-600" : "border-gray-700"
-            }`}
-          />
-        ))}
+      {/* Competitor stats — shown for competitor types */}
+      {["SingleCompetitorCard", "TornadoCompetitorCard", "TrioCompetitorCard"].includes(cardType) && (
+        <div className="flex gap-2 flex-wrap">
+          {[
+            ["power", power, setPower],
+            ["agility", agility, setAgility],
+            ["strike", strike, setStrike],
+            ["submission", submission, setSubmission],
+            ["grapple", grapple, setGrapple],
+            ["technique", technique, setTechnique],
+          ].map(([label, value, setter]) => (
+            <input
+              key={label}
+              type="number"
+              inputMode="numeric"
+              placeholder={label}
+              value={value}
+              onChange={(e) => setter(e.target.value)}
+              className="w-24 bg-gray-900 text-white border border-gray-700 rounded p-2"
+            />
+          ))}
+        </div>
+      )}
+
+      {/* Page size selector (inside Search UI) */}
+      <div className="flex items-center gap-2">
+        <label htmlFor="pageSize" className="text-sm text-gray-300">
+          Page size:
+        </label>
+        <select
+          id="pageSize"
+          value={pageSize}
+          onChange={handlePageSizeChange}
+          className="bg-gray-900 text-white border border-gray-700 rounded p-2"
+        >
+          <option value={20}>20</option>
+          <option value={50}>50</option>
+          <option value={100}>100</option>
+        </select>
       </div>
 
       <button

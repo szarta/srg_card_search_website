@@ -1,9 +1,28 @@
 import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import SearchBar from "../components/SearchBar";
 import CardGrid from "../components/CardGrid";
 import Footer from "../components/Footer";
 
+const FILTER_KEYS = [
+  "query",
+  "cardType",
+  "atkType",
+  "playOrder",
+  "deckCardNumber",
+  "power",
+  "agility",
+  "strike",
+  "submission",
+  "grapple",
+  "technique",
+];
+
+const DEFAULT_LIMIT = 20;
+
 export default function Home() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [cards, setCards] = useState([]);
   const [filters, setFilters] = useState({
     query: "",
@@ -18,53 +37,79 @@ export default function Home() {
     grapple: "",
     technique: "",
   });
+
   const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(DEFAULT_LIMIT);
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(false);
-  const limit = 20;
 
-  const fetchCards = async (f, pageNum = 1) => {
+  const readFromURL = () => {
+    const obj = Object.fromEntries(searchParams.entries());
+    const f = { ...filters };
+    FILTER_KEYS.forEach((k) => {
+      if (obj[k] !== undefined) f[k] = obj[k];
+    });
+    const p = parseInt(obj.page || "1", 10);
+    const l = parseInt(obj.limit || String(DEFAULT_LIMIT), 10);
+    return { f, p: Number.isNaN(p) ? 1 : p, l: Number.isNaN(l) ? DEFAULT_LIMIT : l };
+  };
+
+  const writeToURL = (f, p, l) => {
+    const sp = new URLSearchParams();
+    const fObj = f ?? filters;
+
+    FILTER_KEYS.forEach((k) => {
+      const v = fObj[k];
+      if (v !== undefined && v !== null && String(v).trim() !== "") {
+        sp.set(k, String(v));
+      }
+    });
+
+    const pageVal = p ?? page;
+    const limitVal = l ?? limit;
+    if (pageVal && pageVal !== 1) sp.set("page", String(pageVal));
+    if (limitVal && limitVal !== DEFAULT_LIMIT) sp.set("limit", String(limitVal));
+    setSearchParams(sp, { replace: false });
+  };
+
+  const fetchCards = async (f, pNum = 1, lNum = limit) => {
     setLoading(true);
     setCards([]);
     setTotalCount(0);
 
-    const params = new URLSearchParams();
+    try {
+      const params = new URLSearchParams();
 
-    if (f.query) params.append("q", f.query);
-    if (f.cardType) params.append("card_type", f.cardType);
-    if (f.atkType) params.append("atk_type", f.atkType);
-    if (f.playOrder) params.append("play_order", f.playOrder);
+      if (f.query) params.append("q", f.query);
+      if (f.cardType) params.append("card_type", f.cardType);
+      if (f.atkType) params.append("atk_type", f.atkType);
+      if (f.playOrder) params.append("play_order", f.playOrder);
 
-    // Main Deck: deck_card_number
-    if (f.cardType === "MainDeckCard" && f.deckCardNumber !== "") {
-      const n = parseInt(f.deckCardNumber, 10);
-      if (!Number.isNaN(n)) params.append("deck_card_number", String(n));
-    }
+      if (f.cardType === "MainDeckCard" && f.deckCardNumber !== "") {
+        const n = parseInt(f.deckCardNumber, 10);
+        if (!Number.isNaN(n)) params.append("deck_card_number", String(n));
+      }
 
-    // competitor stat filters (backend expects Optional[int])
-    ["power", "agility", "strike", "submission", "grapple", "technique"].forEach(
-      (k) => {
+      ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {
         const v = f?.[k];
         if (v !== "" && v !== null && v !== undefined) {
           const n = parseInt(v, 10);
           if (!Number.isNaN(n)) params.append(k, String(n));
         }
-      }
-    );
+      });
 
-    params.append("limit", limit);
-    params.append("offset", (pageNum - 1) * limit);
+      params.append("limit", String(lNum));
+      params.append("offset", String((pNum - 1) * lNum));
 
-    const url = `/cards?${params.toString()}`;
-    console.log("GET", url);
-
-    try {
-      const res = await fetch(url);
+      const res = await fetch(`/cards?${params.toString()}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      setCards(Array.isArray(data.items) ? data.items : []);
-      setTotalCount(data.total_count ?? data.total ?? 0);
-      setPage(pageNum);
+
+      setCards(Array.isArray(data?.items) ? data.items : []);
+      setTotalCount(Number.isFinite(data?.total_count) ? data.total_count : 0);
+      setPage(pNum);
+      setLimit(lNum);
+      setFilters(f);
     } catch (e) {
       console.error("Search failed:", e);
     } finally {
@@ -72,35 +117,41 @@ export default function Home() {
     }
   };
 
+  // Hydrate from URL & refetch on Back/Forward
   useEffect(() => {
-    fetchCards(filters, page);
+    const { f, p, l } = readFromURL();
+    setFilters(f);
+    setPage(p);
+    setLimit(l);
+    fetchCards(f, p, l);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [searchParams]);
 
-  const handleSearch = (newFilters) => {
-    setFilters(newFilters);
-    fetchCards(newFilters, 1);
+  // Accept limit coming from SearchBar
+  const handleSearch = (nextFilters) => {
+    const newLimit = parseInt(nextFilters?.limit ?? limit, 10);
+    writeToURL(nextFilters, 1, Number.isNaN(newLimit) ? limit : newLimit);
   };
 
   const handlePrev = () => {
-    if (page > 1) fetchCards(filters, page - 1);
+    if (page > 1) writeToURL(filters, page - 1, limit);
   };
 
   const handleNext = () => {
-    if (page * limit < totalCount) fetchCards(filters, page + 1);
+    if (page * limit < totalCount) writeToURL(filters, page + 1, limit);
   };
+
+  const totalPages = Math.max(1, Math.ceil(totalCount / limit));
 
   return (
     <div className="min-h-screen flex flex-col text-white">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center mb-6">SRG Card Search</h1>
 
-        <SearchBar onSearch={handleSearch} />
+        {/* pass limit via defaultValues so the SearchBar selector initializes correctly */}
+        <SearchBar onSearch={handleSearch} defaultValues={{ ...filters, limit }} />
 
-        <div className="mt-4 text-sm text-center text-gray-300">
-          {loading ? "Loading…" : `Showing ${cards.length} of ${totalCount} results`}
-        </div>
-
+        {/* Results */}
         <div className="mt-6">
           {loading ? (
             <p className="text-center text-gray-400">Loading…</p>
@@ -111,7 +162,8 @@ export default function Home() {
           )}
         </div>
 
-        <div className="flex justify-center items-center mt-6 space-x-4">
+        {/* Pagination */}
+        <div className="flex items-center justify-center gap-4 mt-6">
           <button
             onClick={handlePrev}
             disabled={loading || page === 1}
@@ -119,7 +171,9 @@ export default function Home() {
           >
             Previous
           </button>
-          <span>Page {page}</span>
+          <span>
+            Page {page} of {totalPages}
+          </span>
           <button
             onClick={handleNext}
             disabled={loading || page * limit >= totalCount}

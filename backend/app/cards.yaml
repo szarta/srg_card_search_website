@@ -14518,6 +14518,12 @@
   card_type: SingleCompetitorCard
   db_uuid: ad44636cda7a4a82bb63a06c9f78db7b
 - name: Bak Hurten
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 8
+  grapple: 10
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: a1f365ab29b64887b81535a3aaaf80b8

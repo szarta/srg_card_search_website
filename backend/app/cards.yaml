@@ -14491,7 +14491,17 @@
   grapple: 7
   tags: United States
   card_type: SingleCompetitorCard
+  rules_text: Your Technique is +1 during turn rolls.
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
+- name: Baanomenal Son Nikola Mai
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 10
+  db_uuid: 492abcc803d447eeb36a4406bc46bc3b
 - name: Baby Brick
   power: 5
   technique: 8
@@ -14511,6 +14521,8 @@
   submission: 6
   grapple: 7
   tags: United States
+  rules_text: When you roll Agility for your turn roll, look at your opponent's hand,
+    choose 1 stop and bury it.
   card_type: SingleCompetitorCard
   db_uuid: cf6406b30a9644b7b96c432df9a26887
 - name: Bad Billy Bagpipes
@@ -14528,10 +14540,20 @@
   strike: 5
   submission: 8
   grapple: 10
+  rules_text: 'When you or your opponent hits a card with "Back" in the name: you
+    draw 2 cards and your next turn roll is -2.'
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: a1f365ab29b64887b81535a3aaaf80b8
 - name: Bandersnatch
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When you hit a card with "Chain" or "Jaw" in the name: Reveal the top
+    3 cards of your deck, add 1 Grapple to your hand and flip the others.'
   tags: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 5a60042042b64aa1add8fcc29685242e
@@ -15008,3 +15030,101 @@
   rules_text: 'During your turn: When your Turn Roll is Agility, your Grapple cards
     are also Leads.'
   db_uuid: 23174a8ec9fd420d93b19331b116a6b1
+- name: The Base God Gringo Loco
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 5
+  submission: 6
+  grapple: 9
+  rules_text: 'When you roll Grapple for your turn roll: Shuffle 1 card that is not
+    a stop from your discard pile into your deck.'
+  db_uuid: ab2ce049ab6b49ce96d50089b770b14c
+- name: Bath Time Booker
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: When you have 7 or more cards in your hand, your Submission skill is
+    +2.
+  db_uuid: 75537925f3e5419eabfa2191870a6c7a
+- name: The Beast Michael Kerr
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When you roll Power, you may look at the top 3 cards of your deck. Flip
+    1, Bury 1, and put the other back on top.
+  db_uuid: d3459a63366446c2bcae03c9ba3132ac
+- name: Beatstick Brandon
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: 'Your cards with "Beat" or "Stick" in the name have the added text:
+    "Your opponent buries 1 card in their hand and your next turn roll is +1".'
+  db_uuid: 98eb1b96fced4564a2792083660d3709
+- name: Belinda
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 7
+  rules_text: When you stop a card, your opponent's next turn roll is -1.
+  db_uuid: e38223a08984404b83bd34e9a7f17025
+- name: Beverly Hills Booker
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: 'During your turn: When you hit a card with an even card number, draw
+    1 card.'
+  db_uuid: 85616c84da2a41b7b65448a08eb7a4ed
+- name: Big Bad Boughter
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 7
+  rules_text: 'During your turn: If you have 9 or more cards in play, your Leads and
+    Follow Ups are also finishes.'
+  db_uuid: c532848bb45141a5814f044a590a80f8
+- name: Big Game Leroy
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 7
+  rules_text: Your breakout rolls are +1.
+  db_uuid: b9d9ab11e1104c798637faebafd14825
+- name: The Big Guy
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: 'When a Lead or Follow Up with "Kendo Stick" in the name would be discarded
+    from your hand, flipped, or buried, you may instead add 1 of those cards to your
+    hand. Your card "Kendo Stick" is also card #02 and #03'
+  db_uuid: d2d8b06199b34b018a2b957e89f21b35

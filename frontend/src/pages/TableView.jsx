@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 
-const SAFE_CHUNK = 100;
+const SAFE_CHUNK = 100; // stay within backend validators
+
 const COMPETITOR_TYPES = new Set([
   "SingleCompetitorCard",
   "TornadoCompetitorCard",
@@ -38,14 +39,17 @@ export default function TableView() {
     if (filters.query) q.append("q", filters.query);
     if (filters.cardType) q.append("card_type", filters.cardType);
     if (filters.atkType) q.append("atk_type", filters.atkType);
+
     if (filters.playOrder) {
       const po = filters.playOrder === "Follow Up" ? "Followup" : filters.playOrder;
       q.append("play_order", po);
     }
+
     if (filters.cardType === "MainDeckCard" && filters.deckCardNumber !== "") {
       const n = parseInt(filters.deckCardNumber, 10);
       if (!Number.isNaN(n)) q.append("deck_card_number", String(n));
     }
+
     ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {
       const v = filters[k];
       if (v !== "" && v !== null && v !== undefined) {
@@ -53,6 +57,7 @@ export default function TableView() {
         if (!Number.isNaN(n)) q.append(k, String(n));
       }
     });
+
     q.append("limit", String(limit));
     q.append("offset", String(offset));
     return q;
@@ -60,33 +65,45 @@ export default function TableView() {
 
   useEffect(() => {
     let cancelled = false;
-    const run = async () => {
+
+    const fetchAll = async () => {
       setLoading(true);
       setError("");
       setRows([]);
       setTotalCount(0);
+
       try {
         let limit = SAFE_CHUNK;
         let offset = 0;
-        const first = await fetch(`/cards?${buildQuery(limit, offset).toString()}`);
-        if (!first.ok) throw new Error(`HTTP ${first.status}`);
-        const firstData = await first.json();
+
+        // first call to get total_count
+        let firstResp = await fetch(`/cards?${buildQuery(limit, offset).toString()}`);
+        if (!firstResp.ok) throw new Error(`HTTP ${firstResp.status}`);
+        const firstData = await firstResp.json();
         if (cancelled) return;
+
         const total = Number.isFinite(firstData?.total_count) ? firstData.total_count : 0;
         const acc = Array.isArray(firstData?.items) ? firstData.items.slice() : [];
-        const reqs = [];
+
+        // remaining chunks
+        const requests = [];
         for (offset = acc.length; offset < total; offset += limit) {
           const q = buildQuery(limit, offset);
-          reqs.push(fetch(`/cards?${q.toString()}`).then(r => {
-            if (!r.ok) throw new Error(`HTTP ${r.status}`);
-            return r.json();
-          }));
+          requests.push(
+            fetch(`/cards?${q.toString()}`).then((r) => {
+              if (!r.ok) throw new Error(`HTTP ${r.status}`);
+              return r.json();
+            })
+          );
         }
-        const chunks = reqs.length ? await Promise.all(reqs) : [];
+
+        const chunks = requests.length ? await Promise.all(requests) : [];
         if (cancelled) return;
+
         for (const d of chunks) {
           if (Array.isArray(d?.items)) acc.push(...d.items);
         }
+
         setRows(acc);
         setTotalCount(total);
       } catch (e) {
@@ -96,14 +113,19 @@ export default function TableView() {
         if (!cancelled) setLoading(false);
       }
     };
-    run();
-    return () => { cancelled = true; };
+
+    fetchAll();
+    return () => {
+      cancelled = true;
+    };
   }, [filters]);
 
+  // Columns: union of keys minus hidden (with per-type visibility)
   const columns = useMemo(() => {
     const keys = new Set();
     rows.forEach((r) => Object.keys(r || {}).forEach((k) => keys.add(k)));
 
+    // Always hide for all cards
     const hiddenAlways = new Set([
       "db_uuid",
       "is_banned",
@@ -111,6 +133,7 @@ export default function TableView() {
       "related_cards",
       "related_finishes",
       "comments",
+      "comment",
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
@@ -136,29 +159,16 @@ export default function TableView() {
     return [...preferred, ...Array.from(keys).sort()];
   }, [rows]);
 
+  const escapeCSV = (val) => {
+    if (val === null || val === undefined) return "";
+    let s = Array.isArray(val) || typeof val === "object" ? JSON.stringify(val) : String(val);
+    if (/[",\n]/.test(s)) s = `"${s.replace(/"/g, '""')}"`;
+    return s;
+  };
+
   const toCSV = () => {
-    const escape = (val) => {
-      if (val === null || val === undefined) return "";
-      let s = Array.isArray(val) || typeof val === "object" ? JSON.stringify(val) : String(val);
-      if (/[",\n]/.test(s)) s = `"${s.replace(/"/g, '""')}"`;
-      return s;
-    };
-    const header = columns.map(escape).join(",");
-    const body = rows.map((r) => columns.map((c) => {
-      let v = r?.[c];
-      if (v === undefined || v === null) {
-        if (COMPETITOR_TYPES.has(r?.card_type)) {
-          // Fallbacks for competitor stats if nested or capitalized
-          const alt =
-            r?.stats?.[c] ??
-            r?.attributes?.[c] ??
-            r?.[c?.toUpperCase?.()] ??
-            r?.[c ? c.charAt(0).toUpperCase() + c.slice(1) : c];
-          v = alt;
-        }
-      }
-      return escape(v);
-    }).join(",")).join("\n");
+    const header = columns.map(escapeCSV).join(",");
+    const body = rows.map((r) => columns.map((c) => escapeCSV(r?.[c])).join(",")).join("\n");
     return `${header}\n${body}`;
   };
 
@@ -177,24 +187,21 @@ export default function TableView() {
 
   const renderCell = (r, c) => {
     let v = r?.[c];
-    if ((v === undefined || v === null) && COMPETITOR_TYPES.has(r?.card_type)) {
-      const alt =
-        r?.stats?.[c] ??
-        r?.attributes?.[c] ??
-        r?.[c?.toUpperCase?.()] ??
-        r?.[c ? c.charAt(0).toUpperCase() + c.slice(1) : c];
-      v = alt;
-    }
+    if (v === null || v === undefined) v = "";
+
+    // Name links to card detail
     if (c === "name" && r?.db_uuid) {
       return (
-        <td key={c} className="px-3 py-2 border-b border-gray-800 break-all min-w-64">
+        <td key={c} className="px-3 py-2 border-b border-gray-800 break-all">
           <Link className="text-srgPurple hover:underline" to={`/card/${r.db_uuid}`}>
-            {String(v ?? "")}
+            {String(v)}
           </Link>
         </td>
       );
     }
-    if (c === "srg_url" && typeof v === "string" && /^https?:\/\//i.test(v)) {
+
+    // Make srg_url clickable
+    if (c === "srg_url" && typeof v === "string" && v) {
       return (
         <td key={c} className="px-3 py-2 border-b border-gray-800 break-all">
           <a href={v} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
@@ -203,19 +210,25 @@ export default function TableView() {
         </td>
       );
     }
-    if (Array.isArray(v) || (v && typeof v === "object")) {
-      try { v = JSON.stringify(v); } catch { v = String(v); }
+
+    if (Array.isArray(v) || typeof v === "object") {
+      try {
+        v = JSON.stringify(v);
+      } catch {
+        v = String(v);
+      }
     }
+
     return (
       <td key={c} className="px-3 py-2 border-b border-gray-800 break-all">
-        {String(v ?? "")}
+        {String(v)}
       </td>
     );
   };
 
   return (
     <div className="min-h-screen flex flex-col text-white">
-      <div className="container mx-auto px-4 py-8 overflow-x-auto">
+      <div className="w-full px-4 py-8">
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-3xl font-bold">Results Table</h1>
           <div className="flex items-center gap-2">
@@ -245,30 +258,39 @@ export default function TableView() {
             <p className="text-gray-300 mb-2">
               Showing {rows.length.toLocaleString()} of {totalCount.toLocaleString()} matches
             </p>
-            <table className="min-w-full border border-gray-700">
-              <thead className="bg-gray-900">
-                <tr>
-                  {columns.map((c) => (
-                    <th
-                      key={c}
-                      className={`text-left px-3 py-2 border-b border-gray-700 ${c === "name" ? "min-w-64" : ""}`}
-                    >
-                      {c}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((r, idx) => (
-                  <tr key={r?.db_uuid || `${idx}`} className={idx % 2 ? "bg-gray-900" : "bg-gray-950"}>
-                    {columns.map((c) => renderCell(r, c))}
+
+            <div className="overflow-x-auto overflow-y-auto max-h-[75vh] border border-gray-700 rounded">
+              <table className="w-full">
+                <thead className="bg-gray-900 sticky top-0 z-10 shadow">
+                  <tr>
+                    {columns.map((c) => (
+                      <th
+                        key={c}
+                        className={`text-left px-3 py-2 border-b border-gray-700 ${
+                          c === "name" ? "min-w-64" : ""
+                        }`}
+                      >
+                        {c}
+                      </th>
+                    ))}
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {rows.map((r, idx) => (
+                    <tr
+                      key={r?.db_uuid || `${idx}`}
+                      className={idx % 2 ? "bg-gray-900" : "bg-gray-950"}
+                    >
+                      {columns.map((c) => renderCell(r, c))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </>
         )}
       </div>
     </div>
   );
 }
+

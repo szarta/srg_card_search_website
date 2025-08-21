@@ -5689,12 +5689,14 @@
   deck_card_number: 8
   db_uuid: 7d7dab07f309491da632d114636f1b30
 - name: Call to the Crowd (V1)
+  srg_url: https://supershowthegame.com/product/08-call-to-the-crowd/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: 8f5cc32925ee425b9087a086a10b6d21
 - name: Call to the Crowd (V2)
+  srg_url: https://supershowthegame.com/product/08-call-to-the-crowd-agility/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard

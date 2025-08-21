@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function SearchBar({ onSearch, defaultValues = {} }) {
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [cardType, setCardType] = useState("");
   const [atkType, setAtkType] = useState("");
@@ -55,6 +57,29 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     submitWith();
+  };
+
+
+  const handleViewTable = () => {
+    // Build URLSearchParams with current filters (use same keys Home/Table expect)
+    const sp = new URLSearchParams();
+    const add = (k, v) => {
+      if (v !== undefined && v !== null && String(v).trim() !== "") sp.set(k, String(v));
+    };
+    add("query", query);
+    add("cardType", cardType);
+    add("atkType", atkType);
+    add("playOrder", playOrder);
+    add("deckCardNumber", deckCardNumber);
+    add("power", power);
+    add("agility", agility);
+    add("strike", strike);
+    add("submission", submission);
+    add("grapple", grapple);
+    add("technique", technique);
+    // Keep current page size as a courtesy; TableView ignores pagination but might want to reflect "limit" in URL.
+    add("limit", pageSize);
+    navigate(`/table?${sp.toString()}`);
   };
 
   const handlePageSizeChange = (e) => {
@@ -203,6 +228,15 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       >
         Search
       </button>
+
+    <button
+           type="button"
+           onClick={handleViewTable}
+           className="bg-indigo-700 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
+           title="Open full results as a table (no pagination)"
+         >
+           View Table
+         </button>
     </form>
   );
 }

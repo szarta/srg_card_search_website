@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
 import DeckList    from "./pages/DeckList";
 import ArticlePage from "./pages/ArticlePage";
+import TableView from "./pages/TableView";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/card/:idOrSlug" element={<CardDetail />} />
+            <Route path="/table" element={<TableView />} />
             <Route path="/decks" element={<DeckList />} />
             <Route path="/decks/:slug" element={<ArticlePage />} />
           </Routes>

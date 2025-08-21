@@ -232,7 +232,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     <button
            type="button"
            onClick={handleViewTable}
-           className="bg-indigo-700 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
+           className="hidden md:inline-block bg-indigo-700 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
            title="Open full results as a table (no pagination)"
          >
            View Table

@@ -11,7 +11,7 @@ function App() {
       <div className="min-h-screen flex flex-col font-sans text-gray-100">
 
         {/* Main */}
-        <main className="flex-grow px-4 py-6 max-w-7xl mx-auto w-full">
+        <main className="flex-grow w-full px-4 py-6">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/card/:idOrSlug" element={<CardDetail />} />
@@ -23,7 +23,7 @@ function App() {
 
         {/* Footer */}
         <footer className="bg-srgGray text-gray-400 py-10 mt-10">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+        <div className="w-full px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
             <div>
             <h3 className="text-white font-bold mb-2">Cards</h3>
             <ul className="space-y-1">

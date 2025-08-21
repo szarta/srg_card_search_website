@@ -145,7 +145,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col text-white">
-      <div className="container mx-auto px-4 py-8">
+      <div className="w-full px-4 py-8">
         <h1 className="text-4xl font-bold text-center mb-6">SRG Card Search</h1>
 
         {/* pass limit via defaultValues so the SearchBar selector initializes correctly */}

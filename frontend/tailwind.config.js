@@ -10,6 +10,19 @@ export default {
         srgGray: "#1e1e2f",
       },
     },
+    container: {
+      center: false,          // don't center, let it be full width
+      padding: {
+        DEFAULT: "0",         // no automatic side padding
+      },
+      screens: {
+        sm: "100%",
+        md: "100%",
+        lg: "100%",
+        xl: "100%",
+        "2xl": "100%",
+      },
+    },
   },
   plugins: [],
 };

@@ -6027,6 +6027,14 @@
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: d710136ca0f04dca85f4ff2a68d09e38
+- name: 2 Handed Grab
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 9
+  rules_text: Discard 2 cards from your hand.  Add 2 Submissions from your discard
+    pile to your hand.
+  db_uuid: 6e278d01a7cc4b8f8ff155be9e747cff
 - name: A Puncher's Chance
   play_order: Lead
   atk_type: Submission
@@ -6064,6 +6072,9 @@
   deck_card_number: 9
   db_uuid: 5b1951fddca84ba89c8eaadf26a0c2f4
 - name: Armoured Aggression
+  srg_url: https://supershowthegame.com/product/09-armoured-aggression/
+  rules_text: Reveal 2 cards in your hand.  Add 1 Submission from your discard pile
+    to your hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -6100,18 +6111,30 @@
   deck_card_number: 9
   db_uuid: 8c5e9405027444abba10eb876065ab76
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V1)
+  rules_text: 'Draw 3 cards.
+
+    If the Crowd Meter is 3 or greater, draw 5 cards instead. Skill Requirement: Submission
+    8+'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: f7c98b41634a4272be29f4bf8a37bc9f
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V2)
+  srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug-agility/
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your
+    hand instead.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: f275dfe7304d4014852c712b5bdd60b4
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V3)
+  srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug/
+  rules_text: Add 1 Finish from your discard pile to your hand.  If your next turn
+    roll is a 10, it is +1.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

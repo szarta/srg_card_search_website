@@ -1,14 +1,10 @@
 """
-@copyright Copyright 2025, Brandon Arrendondo
-See LICENSE.txt for details.
+Cards router
 """
 
-from fastapi import APIRouter, Depends, Query
-from fastapi import HTTPException
-from sqlalchemy.orm import Session
-from sqlalchemy import asc, desc
-from typing import Optional
-from sqlalchemy.orm import with_polymorphic, joinedload
+from fastapi import APIRouter, Depends, Query, HTTPException
+from sqlalchemy.orm import Session, joinedload
+from typing import Optional, List
 import re
 
 from models.base import (
@@ -21,7 +17,6 @@ from models.base import (
 )
 from database import SessionLocal
 from schemas.card_schema import Card as CardSchema, PaginatedCardResponse
-
 
 router = APIRouter()
 
@@ -58,88 +53,102 @@ def list_cards(
     grapple: Optional[int] = Query(None),
     technique: Optional[int] = Query(None),
 ):
-    # Ensure card_poly is always defined
-    # Always select with polymorphic so subclass columns are present in results
-    card_poly = None
-    if card_type == CardType.main_deck.value:
-        card_poly = with_polymorphic(Card, [MainDeckCard])
-        query = db.query(card_poly)
-    elif card_type in [
+    """
+    Robust list endpoint:
+      - Query concrete mappers directly (CompetitorCard, MainDeckCard) so subclass columns hydrate.
+      - Query base Card for other types (EntranceCard, SpectacleCard, CrowdMeterCard).
+      - Merge, sort in Python, then paginate.
+    Scale is fine (≈2k rows).
+    """
+
+    def apply_common_filters(qry, cls):
+        if q:
+            qry = qry.filter(
+                (cls.name.ilike(f"%{q}%")) | (cls.rules_text.ilike(f"%{q}%"))
+            )
+        if is_banned is not None:
+            qry = qry.filter(cls.is_banned == is_banned)
+        if release_set:
+            qry = qry.filter(cls.release_set == release_set)
+        return qry
+
+    items: List[Card] = []
+
+    # If caller specified a type, only hit that mapper; else include all.
+    competitor_types = {
         CardType.single_competitor.value,
         CardType.tornado_competitor.value,
         CardType.trio_competitor.value,
-    ]:
-        card_poly = with_polymorphic(Card, [CompetitorCard])
-        query = db.query(card_poly)
-    else:
-        # No card_type filter: include both MainDeckCard and CompetitorCard so their fields are populated
-        card_poly = with_polymorphic(Card, [MainDeckCard, CompetitorCard])
-        query = db.query(card_poly)
+    }
 
-    # Common filters on Card
-    if card_type in [e.value for e in CardType]:
-        query = query.filter(Card.card_type == card_type)
+    # ---- Competitors ----
+    if card_type is None or card_type in competitor_types:
+        cq = db.query(CompetitorCard)
+        cq = apply_common_filters(cq, CompetitorCard)
+        if card_type in competitor_types:
+            cq = cq.filter(CompetitorCard.card_type == card_type)
 
-    if card_type == CardType.main_deck.value:
-        if atk_type in [e.value for e in AttackSubtype]:
-            query = query.filter(card_poly.MainDeckCard.atk_type == atk_type)
-        if play_order in [e.value for e in PlayOrderSubtype]:
-            query = query.filter(card_poly.MainDeckCard.play_order == play_order)
-
-    if (
-        card_type
-        in [
-            CardType.single_competitor.value,
-            CardType.tornado_competitor.value,
-            CardType.trio_competitor.value,
-        ]
-        and card_poly
-    ):
+        # Stat filters (only meaningful for competitors)
         if power is not None:
-            query = query.filter(card_poly.CompetitorCard.power == power)
+            cq = cq.filter(CompetitorCard.power == power)
         if agility is not None:
-            query = query.filter(card_poly.CompetitorCard.agility == agility)
+            cq = cq.filter(CompetitorCard.agility == agility)
         if strike is not None:
-            query = query.filter(card_poly.CompetitorCard.strike == strike)
+            cq = cq.filter(CompetitorCard.strike == strike)
         if submission is not None:
-            query = query.filter(card_poly.CompetitorCard.submission == submission)
+            cq = cq.filter(CompetitorCard.submission == submission)
         if grapple is not None:
-            query = query.filter(card_poly.CompetitorCard.grapple == grapple)
+            cq = cq.filter(CompetitorCard.grapple == grapple)
         if technique is not None:
-            query = query.filter(card_poly.CompetitorCard.technique == technique)
+            cq = cq.filter(CompetitorCard.technique == technique)
 
-    if deck_card_number is not None and card_type == CardType.main_deck.value:
-        query = query.filter(
-            card_poly.MainDeckCard.deck_card_number == deck_card_number
-        )
+        items += cq.all()
 
-    if q:
-        # Always search Card.name/rules_text regardless of card type
-        query = query.filter(
-            (Card.name.ilike(f"%{q}%")) | (Card.rules_text.ilike(f"%{q}%"))
-        )
+    # ---- Main Deck ----
+    if card_type is None or card_type == CardType.main_deck.value:
+        mq = db.query(MainDeckCard)
+        mq = apply_common_filters(mq, MainDeckCard)
+        if atk_type in [e.value for e in AttackSubtype]:
+            mq = mq.filter(MainDeckCard.atk_type == atk_type)
+        if play_order in [e.value for e in PlayOrderSubtype]:
+            mq = mq.filter(MainDeckCard.play_order == play_order)
+        if deck_card_number is not None:
+            mq = mq.filter(MainDeckCard.deck_card_number == deck_card_number)
 
-    if is_banned is not None:
-        query = query.filter(Card.is_banned == is_banned)
+        items += mq.all()
 
-    if release_set:
-        query = query.filter(Card.release_set == release_set)
+    # ---- Other base-only types (Entrance, Spectacle, Crowd Meter, etc.) ----
+    other_types = {
+        CardType.entrance.value,
+        CardType.spectacle.value,
+        CardType.crowd_meter.value,
+    }
+    if card_type is None or card_type in other_types:
+        oq = db.query(Card)
+        oq = apply_common_filters(oq, Card)
+        if card_type in other_types:
+            oq = oq.filter(Card.card_type == card_type)
+        else:
+            # When unspecified, only include the "other" set here
+            oq = oq.filter(Card.card_type.in_(list(other_types)))
+        items += oq.all()
 
-    total_count = query.count()
+    # ---- Merge + sort + paginate ----
+    reverse = sort_order == "desc"
+    items.sort(key=lambda c: (c.name or "").lower(), reverse=reverse)
 
-    query = query.order_by(asc(Card.name) if sort_order == "asc" else desc(Card.name))
-    results = query.offset(offset).limit(limit).all()
+    total_count = len(items)
+    paged = items[offset : offset + limit]
 
     return {
         "total_count": total_count,
-        "items": [CardSchema.model_validate(row).model_dump() for row in results],
+        "items": [CardSchema.model_validate(row).model_dump() for row in paged],
     }
 
 
 @router.get("/cards/slug/{slug}", response_model=CardSchema)
 def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
-    # Broad filter by words to keep DB work reasonable,
-    # then exact-match via Python slugify
+    # Broad filter by words to keep DB work reasonable, then exact-match via Python slugify
     words = [w for w in slug.split("-") if w]
     q = db.query(Card)
     for w in words:
@@ -150,7 +159,7 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
 
-    # Fetch the fully-mapped row exactly like /cards/{db_uuid}
+    # Fetch fully-mapped row exactly like /cards/{db_uuid}
     ctype = card.card_type
     if ctype in {
         CardType.single_competitor.value,
@@ -164,6 +173,13 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
                 joinedload(CompetitorCard.related_finishes),
             )
             .filter(CompetitorCard.db_uuid == card.db_uuid)
+            .first()
+        )
+    elif ctype == CardType.main_deck.value:
+        card = (
+            db.query(MainDeckCard)
+            .options(joinedload(MainDeckCard.related_cards))
+            .filter(MainDeckCard.db_uuid == card.db_uuid)
             .first()
         )
     else:
@@ -182,8 +198,7 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
     # 1) first fetch just the type
     ctype = db.query(Card.card_type).filter(Card.db_uuid == db_uuid).scalar()
 
-    # 2) If this is a competitor, query that subclass directly so
-    #    its related_finishes relationship is on the mapper.
+    # 2) query the correct mapper so relationships/columns hydrate
     if ctype in {
         CardType.single_competitor.value,
         CardType.tornado_competitor.value,
@@ -198,8 +213,14 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
             .filter(CompetitorCard.db_uuid == db_uuid)
             .first()
         )
+    elif ctype == CardType.main_deck.value:
+        card = (
+            db.query(MainDeckCard)
+            .options(joinedload(MainDeckCard.related_cards))
+            .filter(MainDeckCard.db_uuid == db_uuid)
+            .first()
+        )
     else:
-        # Non-competitors only have related_cards
         card = (
             db.query(Card)
             .options(joinedload(Card.related_cards))
@@ -210,5 +231,4 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
 
-    # explicitly dump to dict so nested lists show up
     return CardSchema.model_validate(card).model_dump()

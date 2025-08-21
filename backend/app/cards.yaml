@@ -14126,6 +14126,13 @@
     1 card in your hand with "Cosmic" in the name to add this card to your hand.'
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
 - name: 64 Bit Casey
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: When you roll Grapple for your turn roll, draw 1 card.
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: f4a9e71c2fb446c192037af4278e7311
@@ -14141,7 +14148,13 @@
   tags: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 9e8a66929b544b1a9adc98c002360ac7
-- name: Admiral Grumpy Danny Thunder
+- name: Ring Admiral Grumpy Thunder
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
   tags: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
@@ -14337,8 +14350,26 @@
   submission: 7
   grapple: 5
   tags: Global
+  rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is
+    -2.
   card_type: SingleCompetitorCard
   db_uuid: 7542616eb8064027b33b2d0651a77d9e
+  related_finishes:
+  - 06312b15461345f2beb41c51a78b88bd
+  - b7c0bef7462540209be3c1bf99b62fb3
+  - 6175526eefc9482e84f4da74fa05ec49
+- name: Anastasia Morningstar (V2)
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 8
+  tags: Global
+  rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is
+    -2.
+  card_type: SingleCompetitorCard
+  db_uuid: 02d84608c0b249eda70fdbcb9c2225b9
   related_finishes:
   - 06312b15461345f2beb41c51a78b88bd
   - b7c0bef7462540209be3c1bf99b62fb3
@@ -14368,6 +14399,8 @@
   strike: 5
   submission: 10
   grapple: 9
+  rules_text: When your turn roll is at least 3 greater than your opponent's turn
+    roll, draw 1 card.
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
@@ -14400,6 +14433,8 @@
   strike: 10
   submission: 7
   grapple: 6
+  rules_text: At the start of the match, search your deck for a Lead Strike and put
+    it into play.
   tags: United States
   card_type: SingleCompetitorCard
   db_uuid: c069f0402fb949bc8133703f98f1e328
@@ -14433,6 +14468,8 @@
   submission: 10
   grapple: 6
   tags: Intergalactic
+  rules_text: When your opponent stops your Submission, they cannot draw cards until
+    the start of the next turn.
   card_type: SingleCompetitorCard
   db_uuid: 16b331c7c2df463bad441c6166f0e15f
   related_finishes:
@@ -14457,7 +14494,15 @@
   deck_card_number: 30
   card_type: MainDeckCard
   db_uuid: 8d5a540e09f4463bb9be312e0d69f0e9
-- name: AR Fox
+- name: ARFox
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'During your turn: When your turn roll is Agility, your Grapple cards
+    are also Leads.'
   tags: Global
   card_type: SingleCompetitorCard
   db_uuid: 7c5473bf1e6243cdb12cc2d83f366ac8
@@ -14501,6 +14546,8 @@
   strike: 8
   submission: 6
   grapple: 10
+  rules_text: When you roll Agility or Submission for your turn roll, you may draw
+    1 card then bury 1 card in your hand.
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
 - name: Baby Brick
   power: 5
@@ -14526,10 +14573,24 @@
   card_type: SingleCompetitorCard
   db_uuid: cf6406b30a9644b7b96c432df9a26887
 - name: Bad Billy Bagpipes
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 8
   tags: Old School
   card_type: SingleCompetitorCard
   db_uuid: 5202f9e0a26e4839a84797552a2979b9
-- name: Bad Boy Joey Janela
+- name: Joey Janela
+  power: 7
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'Once a turn roll: If your opponent''s roll is 10, add 1 card from your
+    discard pile to your hand.'
   tags: Underworld
   card_type: SingleCompetitorCard
   db_uuid: ad44636cda7a4a82bb63a06c9f78db7b
@@ -14998,7 +15059,33 @@
   strike: 7
   submission: 10
   grapple: 6
+  rules_text: 'Once per match: When you roll Power for your turn roll: You may bury
+    1 card in your opponent''s discard pile and your opponent shuffles their hand
+    into their deck and adds the top 3 cards of their deck to their hand.'
   db_uuid: ce6ad6df80c0437194a6957fdbc70712
+- name: ANTagonist (V2)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 7
+  submission: 10
+  grapple: 6
+  rules_text: 'During your turn: When you hit a card with "Microphone" in the name,
+    your opponent shuffles 1 card from their hand into their deck.'
+  db_uuid: 34bbf6706bbe426fbf13d2a73ad04b0a
+- name: ANTagonist (V3)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 7
+  submission: 10
+  grapple: 6
+  rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in
+    your opponent''s discard pile, your opponent shuffles their hand into their deck
+    and adds the top 6 cards of their deck to their hand.'
+  db_uuid: 1ead422993764b97a58f7ea4661c5057
 - name: Anthony Gangone (V1)
   card_type: SingleCompetitorCard
   power: 6
@@ -15007,6 +15094,7 @@
   strike: 9
   submission: 8
   grapple: 7
+  rules_text: Your finish rolls are +1.
   comments: This version is referenced as "The One Above All"
   db_uuid: 47e01d6194cb412fb771cbeb999305be
 - name: Anthony Gangone (V2)
@@ -15017,6 +15105,10 @@
   strike: 9
   submission: 8
   grapple: 7
+  rules_text: 'When the Crowd Meter is 1 or greater your Finish Cards are also Follow
+    Ups.
+
+    When the Crowd Meter is 2 or greater your Finish Cards are also Leads.'
   comments: This version is referenced as "The Rogue"
   db_uuid: f31f5385413946c78db19561ea68045f
 - name: AR Fox

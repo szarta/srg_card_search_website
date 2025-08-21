@@ -59,6 +59,7 @@ def list_cards(
     technique: Optional[int] = Query(None),
 ):
     # Ensure card_poly is always defined
+    # Always select with polymorphic so subclass columns are present in results
     card_poly = None
     if card_type == CardType.main_deck.value:
         card_poly = with_polymorphic(Card, [MainDeckCard])
@@ -71,8 +72,9 @@ def list_cards(
         card_poly = with_polymorphic(Card, [CompetitorCard])
         query = db.query(card_poly)
     else:
-        query = db.query(Card)
-        # For filtering on MainDeckCard fields, we skip when not main deck
+        # No card_type filter: include both MainDeckCard and CompetitorCard so their fields are populated
+        card_poly = with_polymorphic(Card, [MainDeckCard, CompetitorCard])
+        query = db.query(card_poly)
 
     # Common filters on Card
     if card_type in [e.value for e in CardType]:
@@ -148,17 +150,29 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
 
-    # Join related_* exactly like your /cards/{db_uuid} endpoint
+    # Fetch the fully-mapped row exactly like /cards/{db_uuid}
     ctype = card.card_type
-    opts = [joinedload(Card.related_cards)]
     if ctype in {
         CardType.single_competitor.value,
         CardType.tornado_competitor.value,
         CardType.trio_competitor.value,
     }:
-        opts.append(joinedload(CompetitorCard.related_finishes))
-
-    card = db.query(Card).options(*opts).filter(Card.db_uuid == card.db_uuid).first()
+        card = (
+            db.query(CompetitorCard)
+            .options(
+                joinedload(CompetitorCard.related_cards),
+                joinedload(CompetitorCard.related_finishes),
+            )
+            .filter(CompetitorCard.db_uuid == card.db_uuid)
+            .first()
+        )
+    else:
+        card = (
+            db.query(Card)
+            .options(joinedload(Card.related_cards))
+            .filter(Card.db_uuid == card.db_uuid)
+            .first()
+        )
 
     return CardSchema.model_validate(card).model_dump()
 

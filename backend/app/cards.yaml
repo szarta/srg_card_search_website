@@ -5703,6 +5703,7 @@
   deck_card_number: 8
   db_uuid: 3adee904e4614f00ad56f51e1db731e1
 - name: Check Under the Ring
+  srg_url: https://supershowthegame.com/product/08-check-under-the-ring/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10614,6 +10615,7 @@
   deck_card_number: 19
   db_uuid: 096182e3070b4b0391976ca44aebddf4
 - name: Airplane Slam
+  srg_url: https://supershowthegame.com/product/08-airplane-spin/
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

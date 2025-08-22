@@ -15661,3 +15661,109 @@
   rules_text: When you would bump, you may isntead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: 838f2619cdb24dd6be831ec1612b3051
+- name: Terror Skull (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: 'Once per turn roll:
+
+    When your opponent rolls Technique for their turn roll, you may force them to
+    re-roll.'
+  db_uuid: 2bf53422f8854fad970f8184079c9cc8
+- name: Terror Skull (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: Your Grapple skill is +1 for each card in play with "Chain" or "Terror"
+    in the name (Max +4).
+  db_uuid: b83c210cc53b47149809da23f9374071
+- name: Leader of the Postal Nation
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 8
+  grapple: 10
+  rules_text: After you shuffle your deck, add the bottom card of your deck to your
+    hand.
+  db_uuid: 417d1d704f49439c8c8e4f3bd703a880
+- name: Mighty Marcel
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 6
+  submission: 8
+  grapple: 9
+  rules_text: When you roll 10 for your first turn roll, your opponent's turn roll
+    is -1.
+  db_uuid: 7b2f88b0914c49d996c823ddd1be50ac
+- name: Fashion Philes
+  card_type: TornadoCompetitorCard
+  power: 12
+  technique: 18
+  agility: 20
+  strike: 16
+  submission: 10
+  grapple: 14
+  rules_text: When you hit a card with "Face" in the name, add 1 card from your discard
+    pile to your hand.  When you shuffle your deck, your next turn roll is +1.
+  db_uuid: e362c7871e8149699281d25ae76e7ef1
+- name: Sugar Plum
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 6
+  rules_text: 'When you roll Agility:
+
+    Reveal the top 2 cards of your deck, randomly add 1 to your hand and bury the
+    other.'
+  db_uuid: 62051250500340faa65458bd603c6806
+- name: Shaggy Shark
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: When you hit a card with "Dive", "Fin" or "Surf" in the name, draw 1
+    card.
+  db_uuid: 3fbecda1ffc64b9fa731e5b06f260e33
+- name: Doctor Dick Thunderlips
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 5
+  rules_text: 'Once per turn:
+
+    You may force your opponent to re-roll their Finish roll.'
+  db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
+- name: Candice LeRae
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 8
+  rules_text: 'At the start of the match when your opponent is a Male Competitor choose
+    1.  Your Strike, Grapple, or Submission skill is +1.
+
+    When it is not, during your turn when you hit a Follow Up, draw 1 card.'
+  db_uuid: 748132a3c93642228eb708ad10f1f1ac

@@ -6035,6 +6035,18 @@
   rules_text: Discard 2 cards from your hand.  Add 2 Submissions from your discard
     pile to your hand.
   db_uuid: 6e278d01a7cc4b8f8ff155be9e747cff
+- name: The King's Gambit
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/09-the-kings-gambit/
+  deck_card_number: 9
+  rules_text: 'Randomly choose 2 cards in your discard pile.  Add 1 of those to your
+    hand.
+
+    When this card is discarded from play for a breakout, your opponent randomly discards
+    1 card from their hand.'
+  db_uuid: 652f58d1a6304da1892f117cede1834f
 - name: A Puncher's Chance
   play_order: Lead
   atk_type: Submission
@@ -6423,12 +6435,17 @@
   deck_card_number: 9
   db_uuid: 7b6cf36ec3224d3fa0a57d13443547a0
 - name: Wrist Lock (V1)
+  srg_url: https://supershowthegame.com/product/09-wrist-lock/
+  rules_text: Bury 2 cards in any player's discard pile or look at your opponent's
+    hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 7b85fc98888f4c2fb9e61e6f9e79897a
 - name: Wrist Lock (V2)
+  rules_text: Your opponent buries 1 card in their hand or your next turn roll is
+    +1.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

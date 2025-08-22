@@ -15573,3 +15573,91 @@
   rules_text: 'At the start of the match: Look at the top 5 cards of your deck, add
     2 cards from your hand and flip the others.'
   db_uuid: 7410d8ae52d44e32aa6dc474105ed663
+- name: GoGo
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When you roll Power, shuffle 2 cards with "Chain" in the name from your
+    discard pile into your deck
+  db_uuid: e610a36ba3564bef9254adb86d298d99
+- name: Grim Librarian (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll
+    their turn roll.'
+  db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
+- name: Grim Librarian (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'Once per turn roll, when you roll Technique: You may choose any player
+    to re-roll their turn roll.'
+  db_uuid: b95f873118b944b0b07a8af9c8731752
+- name: Grim Librarian (V3)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'When you or your opponent roll Technique: you may draw 1 card then
+    bury 1 card in your hand.'
+  db_uuid: d5edc30f9dc04838bc821938c31f0312
+- name: Gropar the Great and Powerful
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When you roll Power, look at the top 3 cards of any player's deck and
+    put them back in any order.
+  db_uuid: 92712ad7966a404ebfb48b4482912594
+- name: The Grump
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 9
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 6
+  rules_text: When your opponent rolls 8 or 9 for their turn roll, their next turn
+    roll is -1.
+  db_uuid: ed9f1e55e6094478bf87e93f209347a4
+- name: Hamish MacDeath (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When you would bump, you may isntead put 2 cards from your discard pile
+    into your hand and your turn roll is -1.
+  db_uuid: aa604e7ca9b047619e658e3c8ba5301e
+- name: Hamish MacDeath (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When you would bump, you may isntead put 2 cards from your discard pile
+    into your hand and your turn roll is -1.
+  db_uuid: 838f2619cdb24dd6be831ec1612b3051

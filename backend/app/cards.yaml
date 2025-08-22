@@ -6475,6 +6475,12 @@
   card_type: MainDeckCard
   deck_card_number: 10
   db_uuid: c925bfe817994286ae9b47e650483840
+- name: Out of Control
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 5ea9591d4cdc400abb5bff758641badc
 - name: All American Block
   play_order: Lead
   atk_type: Strike

@@ -2256,7 +2256,7 @@
     Choose 3 cards in your discard pile, your opponent puts one in your hand, buries
     another, and the last stays in your discard pile.'
   db_uuid: d49c7aed65a44b8d93e9be0bc0167691
-- name: Can You Afford This?
+- name: Can You Afford This? (V1)
   srg_url: https://supershowthegame.com/product/10-can-you-afford-this/
   deck_card_number: 10
   atk_type: Strike
@@ -2267,6 +2267,16 @@
 
     If this is a Steel Cage match and this card is flipped, flip 1 card.'
   db_uuid: a74d29fd1f9143d08bdd9a83fd4a1982
+- name: Can You Afford This? (V2)
+  deck_card_number: 10
+  atk_type: Strike
+  play_order: Lead
+  card_type: MainDeckCard
+  rules_text: 'If you have another Strike in play, put 1 Strike from your discard
+    pile on top of your deck.
+
+    If this is a Liger''s Den Match, draw the bottom card of your deck.'
+  db_uuid: 956096d4f16b43a8b5567be1f74c52cb
 - name: Soul Burn
   deck_card_number: 15
   atk_type: Submission
@@ -6664,12 +6674,18 @@
   deck_card_number: 10
   db_uuid: ba267798fd6041a684979f543fa6106e
 - name: Head Punch (V1)
+  rules_text: Flip 2 cards for each other Strike you have in play.
+  srg_url: https://supershowthegame.com/product/10-head-punch/
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
   db_uuid: b93275d33af0428e874a5d2dc2b768ac
 - name: Head Punch (V2)
+  errata_text: Flip 2 cards for each Strike you have in play.  If this is a Triad
+    Match, your opponent's next turn roll is -2.
+  rules_text: Flip 2 cards for each Strike you have in play.  If this is a Triad Match,
+    your opponent's turn roll is -2.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard

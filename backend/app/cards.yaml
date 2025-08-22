@@ -15312,3 +15312,264 @@
     from your hand, flipped, or buried, you may instead add 1 of those cards to your
     hand. Your card "Kendo Stick" is also card #02 and #03'
   db_uuid: d2d8b06199b34b018a2b957e89f21b35
+- name: Bobby Ohio
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: 'When you hit a card with "Eat" in the name, draw 1 card.
+
+    When you hit a card with "Slam" in the name, your next turn roll is +1.'
+  db_uuid: 411a3ec208cf4d5794932bb99b35800c
+- name: Boy Howdy (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 5
+  submission: 8
+  grapple: 9
+  rules_text: At the start of the match add +1 to the Crowd Meter.  If the skill rolled
+    for your 1st or 2nd breakout roll matches your opponent's Finish roll, your roll
+    is +1.
+  db_uuid: 3e7a00225c2e4053b731e165c3f66450
+- name: Boy Howdy (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 5
+  submission: 8
+  grapple: 9
+  rules_text: The Crowd Meter is considered +1 for your card effects.
+  db_uuid: a499fe2c435c496eafc19442a044ec23
+- name: Brian Cage (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: When you roll Power for your turn roll, your next turn roll is +2.
+  db_uuid: 40d3462c0a884cbaa0cc484870dabb2c
+- name: Brian Cage (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll, choose 1 opponent: their next
+    turn roll is -2.'
+  db_uuid: 12d4949f97d344238c8b1c7cdc719a63
+- name: Charlie Tiger
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: When your turn roll is at least 5 greater than your opponent's turn
+    roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
+  db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
+- name: Chronus
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'Once per match: When your opponent hits a Finish and you do not breakout:
+    Add the Finish back to your opponent''s hand.
+
+    Your opponent''s turn ends and the match continues.'
+  db_uuid: 7a02f61a23a6463da190bdd8624d93fa
+- name: Colossal Mike Law
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 7
+  strike: 6
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll: Your opponent flips 2 cards
+    and you bury up to 2 cards in your opponent''s discard pile.'
+  db_uuid: 9e917043501e4163bf34be7ba7b6212f
+- name: Dangerous Dillon Bias
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: Once per turn roll, when your turn roll is 3 or greater than your opponent's,
+    look at the top 3 cards of either player's deck, bury 1 card and put the other
+    2 back in any order.
+  db_uuid: fad605db94d44d3bb3fb2fc88e96a53d
+- name: Dizzy Derailed
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Agility for your turn roll: flip 2 cards, then add 1
+    stop from your discard pile to your hand.'
+  db_uuid: 48da9bdffa8744b0af0d37f59d56ba2e
+- name: Dough Nation (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 7
+  rules_text: At the start of your turn, search your deck for the card "Kick" and
+    put it into play.
+  db_uuid: 4727798038a94d549fa5267837d5aa09
+- name: Dough Nation (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: When you roll Agility for your turn roll, you may discard 2 cards and
+    draw 2 cards.
+  db_uuid: 8cc441c7425945b9830ffc49680e1987
+- name: Dump Sanders
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When your opponent hits a Grapple, you may discard 1 card to blank its
+    text.
+  db_uuid: b2b48a849731415fadfedd06451a6085
+- name: EC3 (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: At the start of the match draw 3 cards.  Your first turn roll is +3.
+  db_uuid: d9db7a7d43b84ebd9f88690827d1327b
+- name: EC3 (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: When your opponent has 3 or fewer cards in their hand, your Power, Technique,
+    and Agility are +1.
+  db_uuid: bdfad56ca01a4a3e80a02b84a27ba5d2
+- name: El Campeon de las Llamas (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 5
+  grapple: 6
+  rules_text: 'Once per turn: When your card with "Rolling" or "Kick" in the name
+    is stopped, you may play 1 additional Strike this turn.'
+  db_uuid: 437b04b0decd4d3f93a90914be435d67
+- name: El Campeon de las Llamas (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 6
+  rules_text: 'Once per turn: When your Strike is stopped, you may play 1 additional
+    card with "Rolling" or "Kick" in the name.'
+  db_uuid: ac35ccf29d134fda8ad7448adad2de52
+- name: El Hombre Cybernetico
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll: You may discard 1 card you
+    have in play to draw 1 card or add +1 to your turn roll.'
+  db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
+- name: El Pollo Enmascarada (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 9
+  rules_text: 'After you or your opponent stop a Follow Up: Add 1 stop from your discard
+    pile to your hand, then look at your opponent''s hand.'
+  db_uuid: 05e30bc628624cbf97a563e9e41f3319
+- name: El Pollo Enmascarada (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 9
+  rules_text: When your opponent rolls 5 or less for their turn roll, look at their
+    hand or the top card of their deck.
+  db_uuid: 22eac8821a944ccdaf473a001a000be1
+- name: The Face
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 9
+  submission: 8
+  grapple: 5
+  rules_text: 'Once during your turn:
+
+    When you hit a Strike or Submission, you may search your deck for a card of the
+    same move type, put it on top of your shuffled deck.
+
+    When your Strike or Submission is stopped, bury 2 cards from your hand.'
+  db_uuid: 12a6be5c333544c7851c3f419b9d1bbd
+- name: General Lee Wong (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  rules_text: 'Choose 1 opponent:
+
+    When your opponent hits a card with a stop, they bury 1 card in their hand for
+    each other stop they have in play (Max 2)'
+  db_uuid: 1f64e258e37241f49e0661e85a1f56c7
+- name: Ginn the Heavy
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 6
+  grapple: 8
+  rules_text: 'At the start of the match: Look at the top 5 cards of your deck, add
+    2 cards from your hand and flip the others.'
+  db_uuid: 7410d8ae52d44e32aa6dc474105ed663

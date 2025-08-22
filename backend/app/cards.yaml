@@ -6631,6 +6631,18 @@
   card_type: MainDeckCard
   deck_card_number: 10
   db_uuid: 270a60ef3e9f4c24a6e21a2211af5af1
+- name: Gathering the Baseball Bat
+  srg_url: https://supershowthegame.com/product/10-gathering-the-baseball-bat/
+  rules_text: 'Shuffle 1 card with "Bat" in the name from your discard pile into your
+    deck for each Lead you have in play.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 10
+  db_uuid: 25c97adf986c4f90a842ae582c322d21
 - name: Gathering the Kendo Stick
   play_order: Lead
   atk_type: Strike

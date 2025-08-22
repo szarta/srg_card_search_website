@@ -15767,3 +15767,132 @@
 
     When it is not, during your turn when you hit a Follow Up, draw 1 card.'
   db_uuid: 748132a3c93642228eb708ad10f1f1ac
+- name: El Scorpio
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When you roll Submission, put the bottom card of your deck into your
+    hand.
+  db_uuid: 8b00ea8e2268466d98265ebb62cc0c64
+- name: Fox Assassin
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: When you roll Technique for your turn roll; choose 1 card any player
+    has in play and add it to their hand.
+  db_uuid: f54e8cac51c34f5b88b0b5fee2c87ce7
+- name: D3 (V1)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: Your opponent needs 3 cards in play to hit you with a Finish.
+  db_uuid: 91c51b9ed3e14a0582f050716596dbd6
+- name: D3 (V2)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: When your turn roll is at least 3 greater than your opponent's turn
+    roll, your opponent's Gimmick is blank until the end of the next turn.
+  db_uuid: 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Kenpo Kenny
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 6
+  rules_text: 'Once on your turn: When you hit a card with "Stomp", "Strike", or "Elbow"
+    in the name, you may play an additional card this turn or your next turn roll
+    is +1.'
+  db_uuid: e528c01c4ef1460ca9ab29abf8c95795
+- name: "Hurac\xE1n Gonzalez"
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: After you flip any number of cards, add a Lead or Follow Up with "Table",
+    "Ladder", or "Steel Chain" in the name from your discard pile to your hand.
+  db_uuid: 725f7ba41a2549e99dcb1270b463180c
+- name: Jesxe
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: If your turn roll is exactly 1 less than your opponent's turn roll,
+    your next turn roll is +2.
+  db_uuid: 20059df60d9f40ccae5f9c892aa17c4a
+- name: D1 (V1)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a Submission draw 1 card.
+  db_uuid: 51537506696946a2ad10662229ccd96f
+- name: D1 (V2)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: At the start of the match, sesarch your deck for a Lead Submission and
+    put it into play.
+  db_uuid: baf61519310348b9898c5ace20a8843f
+- name: Lady Baa Baa (V1)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 10
+  rules_text: When you hit a Grapple, draw 1 card.
+  db_uuid: 9f7dc2e4f7ac49e882a24a302edf11cf
+- name: Lady Baa Baa (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: When you flip 2 or more cards your opponent buries 1 card in their hand.
+  db_uuid: 4dc9406afb1d4653ad5f425c11f08895
+- name: Pauly 'The Pidgeon' Piccone
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 9
+  grapple: 5
+  rules_text: When you roll Strike for your turn roll, search your deck for 1 card
+    with "Punch" in the name and add it to your hand, shuffle your deck.
+  db_uuid: b67cbc591a314259b7d96010d8c2fe26

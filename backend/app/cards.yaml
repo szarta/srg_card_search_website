@@ -15896,3 +15896,70 @@
   rules_text: When you roll Strike for your turn roll, search your deck for 1 card
     with "Punch" in the name and add it to your hand, shuffle your deck.
   db_uuid: b67cbc591a314259b7d96010d8c2fe26
+- name: Matthaias Son of Zeus (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When you roll Power or Strike for your turn roll: Reveal the top card
+    of your deck.  If it is a Finish, add it to your hand.  If not, you may bury it.'
+  db_uuid: 7ac80714f1ab41098576a251ee693064
+- name: Matthaias Son of Zeus (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When your roll Power: flip 2 cards or add 1 card with "Lightning" or
+    "Thunder" in the name from your discard pile to your hand.'
+  db_uuid: 0fb5de690e334ce8be4937834aefd0df
+- name: D2 (V1)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 9
+  grapple: 7
+  rules_text: When your turn roll is exactly 2 less than your opponet's turn roll,
+    draw 2 cards or add 1 card with "Hammer" in the name from your discard pile to
+    your hand.
+  db_uuid: bd04b23708fe49728541a20e689cae61
+- name: D2 (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: '3 times per match: When your turn roll is exactly 2 less than your
+    opponent''s, you may bump.'
+  db_uuid: bf1ee5c00125450da300bb9f3762511f
+- name: Lorenzo Manicotti (V1)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: Once a turn, after your shuffle your deck for any reason, your opponent
+    buries 1 card in their hand.
+  db_uuid: 4bf2907638d84683be82637d1ac34c52
+- name: Lorenzo Manicotti (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: After you shuffle your deck, your opponent shuffles 1 card from their
+    hand into their deck.
+  db_uuid: f08974e57d3b4c2493b417fcbd49acb6

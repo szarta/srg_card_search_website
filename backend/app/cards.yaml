@@ -6903,13 +6903,13 @@
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: 17a34d6d13bc44d593ab65bf17798341
-- name: Belly to the Back Suplex (V1)
+- name: Belly to Back Suplex (V1)
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: b0dd780f72e3471185b257d65a60d0d5
-- name: Belly to the Back Suplex (V2)
+- name: Belly to Back Suplex (V2)
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7608,6 +7608,18 @@
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: 9e901f9a7d654524b28debe00a753ba4
+- name: Baseball Bat Takeover
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 7f1e6865feaa4b7da354a562f0ef394b
+- name: Catch the Baseball Bat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: b2f1ac1ff5f74af08c8c023e13254d90
 - name: American Air Assault
   play_order: Followup
   atk_type: Strike
@@ -7812,7 +7824,7 @@
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: 4a8fb2f9c2bb4b94b145db24ac69a0de
-- name: Kitchen Sink
+- name: Kitchen Sink (#13)
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -7992,12 +8004,18 @@
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: 536c92cd6b6c435c8254b37874f8e820
-- name: Takeover with the Pineapple
+- name: Takeover with the Pineapple (V1)
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: 38f5ab67df404b56a7381f60561d314c
+- name: Takeover with the Pineapple (V2)
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 13
+  db_uuid: 232304ed765845d1926508ee15e9232b
 - name: Tandem Chin Kicks
   play_order: Followup
   atk_type: Strike
@@ -12246,7 +12264,7 @@
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: 4612d2e8dcfe4f508145ef4098c2e3eb
-- name: Kitchen Sink
+- name: Kitchen Sink (#23)
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

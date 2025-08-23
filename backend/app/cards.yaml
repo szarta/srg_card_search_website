@@ -13039,6 +13039,13 @@
   card_type: MainDeckCard
   deck_card_number: 25
   db_uuid: 56c451a5edc74d2caec72363e28fe1df
+- name: Armoured Contact
+  srg_url: https://supershowthegame.com/product/25-armoured-contact/
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: ebb19eca227d48889bf575a057a75dd6
 - name: Ax Kick
   play_order: Lead
   atk_type: Strike
@@ -13051,7 +13058,19 @@
   card_type: MainDeckCard
   deck_card_number: 25
   db_uuid: 0cf2fff11e27442394e16a17e83fb30d
-- name: Backlash With the Drumsticks
+- name: Baseball Bat Backlash
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 1152f836c1a047e791b38ec94f79ca59
+- name: Bash in the Corner
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  db_uuid: 42b81bfb4b6e408ba32e79dd3c09ad96
+- name: Backlash With the Drumstick
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard

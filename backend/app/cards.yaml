@@ -10097,6 +10097,12 @@
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 9583e4cd3d7c41dabb2feec49c999293
+- name: Leveling Back Up
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  db_uuid: 3b09e27af2014de3b3007a8610655999
 - name: Mind Games (#18)
   play_order: Followup
   atk_type: Submission

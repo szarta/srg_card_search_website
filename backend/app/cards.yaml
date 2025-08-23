@@ -8111,6 +8111,27 @@
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 22b2cb6c22eb4e18a8cac46620f64593
+- name: Sheep, Kneel Before My Big American Sledgehammer
+  srg_url: https://supershowthegame.com/product/14-sheep-kneel-before-my-big-american-sledgehammer/
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill,
+    stop any Follow Up Submission or Finish Submission.
+
+    When you stop a card, the stopped card has blank text until the end of the turn.'
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: dfc0ec76bf344acf9cde547f1c36c04b
+- name: Throw Into the Turnbuckle
+  srg_url: https://supershowthegame.com/product/14-throw-into-the-turnbuckle-dojo-unlocked-from-gp2/
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    You can stop cards that cannot be stopped.'
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 14
+  db_uuid: 62f6c71adda247b2bd554b946f704932
 - name: Back in the Saddle
   play_order: Followup
   atk_type: Grapple
@@ -8124,6 +8145,9 @@
   deck_card_number: 14
   db_uuid: 8a8b06a8c2934804880c2c7b64e9c618
 - name: Catch And Slam
+  srg_url: https://supershowthegame.com/product/14-catc-hand-slam/
+  rules_text: If you have another Grapple in play, add 1 card from your discard pile
+    to your hand.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

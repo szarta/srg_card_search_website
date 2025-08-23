@@ -13425,6 +13425,7 @@
   deck_card_number: 26
   db_uuid: ee4ad97e515c41c3896bbef266d6634f
 - name: Backslide
+  srg_url: https://supershowthegame.com/product/26-backslide/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13466,6 +13467,12 @@
   card_type: MainDeckCard
   deck_card_number: 26
   db_uuid: 1517fa38945d40749a4a3ccc1de79749
+- name: Catch Cutter
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+  db_uuid: f82c584a7fe24c748908e736c99ae4b1
 - name: Counter Spear
   play_order: Lead
   atk_type: Grapple

@@ -16111,3 +16111,247 @@
   rules_text: After you shuffle your deck, your opponent shuffles 1 card from their
     hand into their deck.
   db_uuid: f08974e57d3b4c2493b417fcbd49acb6
+- name: Patient Zero Shawn Grubaugh
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 7
+  rules_text: At the start of the match, choose an opponent, their Power is -1 during
+    their turn, turn rolls, and 1st and 2nd breakout rolls.
+  db_uuid: 9c2616f1fc8c48aaa65cc468f99ff45d
+- name: The Next Supreme
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: 'When you roll Power: Randomly choose 2 cards in your discard pile,
+    add 1 to your hand and bury the other.'
+  db_uuid: f45bbd93c4b14c91bb85df10e4a82c31
+- name: Italian Bombada
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 8
+  rules_text: When your opponent's turn roll is Submission, sesarch your deck for
+    1 Lead or Follow Up Submission, reveal it, and add it to your hand.
+  db_uuid: a7aba02de8f84413b3ff42bc12d2f320
+- name: The Gold Standard (V1)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 8
+  rules_text: 'When you hit a Submission, flip 1 card.
+
+    When you roll Technique, take 1 card from your discard pile and add it to your
+    hand.'
+  db_uuid: bc4f9ccb992748adaedee6795da1720d
+- name: The Gold Standard (V2)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 8
+  rules_text: '3 times per match:
+
+    When you roll Technique for your turn roll, add 1 card from your discard pile
+    to your hand.'
+  db_uuid: 29b3e5e107ca46fc9e766b37fa0cf857
+- name: Varius
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When your opponent stops your Follow Up or Finish, choose 1 card they
+    have in play and discard it.
+  db_uuid: 5097d05f3632489d910adf649a49738c
+- name: The Salty Sailor
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: When you roll Grapple, flip 3 cards or add 1 Grapple from your discard
+    pile to your hand.
+  db_uuid: afec53cb2d714571bc02e2b8fb06ffd8
+- name: Mad Custodian
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: When your opponent stops a card with "Table", "Ladder", "Sweep" or "Trash"
+    in the name, shuffle 1 other card from your discard pile into your deck and draw
+    1 card.
+  db_uuid: a72fb5b1c70b439c97b87350954fd003
+- name: The High Roller (V1)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 8
+  rules_text: When you roll Agility for your turn roll, look at the top 4 cards of
+    your deck, add 1 to your hand and randomly put the others back on top of your
+    deck.
+  db_uuid: 3eb9d2113255470eba5bf14fc16036cb
+- name: The High Roller (V2)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 8
+  rules_text: When your turn roll is 11 or greater, draw 1 card.
+  db_uuid: 7ea7597e056c450c9803bcaae977845a
+- name: Miss Fury
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 7
+  rules_text: When you hit a Grapple, flip cards until you flip a Submission, add
+    that Submission to your hand.
+  db_uuid: bf2ee4518b64409cac022a79d7412d54
+- name: Leader of the Armenian Army
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: When you hit a card with "Punch" or "Armenian" in the name, your opponent
+    buries 1 card in their hand.
+  db_uuid: 5a74b42a67f04dc49ab389fa85990732
+- name: Kaiser Wolf
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: When you look at your opponent's hand, your next turn roll is +2.
+  db_uuid: d06978f5f81f477bb9dd27d0287c0008
+- name: Eddy Fury (V1)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: Your Power is + the Crowd Meter during your turn and turn rolls.
+  db_uuid: 8c96f132507449afa563c6735c9c8bd3
+- name: Eddy Fury (V2)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: Your Power is + the Crowd Meter.
+  db_uuid: b3980be255534765ae5208f788838e40
+- name: Eddy Fury (V3)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: 'FRONT: Your first breakout roll each turn is +1.
+
+    After a breakout, turn this card over.
+
+    BACK: Your Power is + the Crowd Meter.'
+  db_uuid: 894eccb4c2544059906d26ee3fc10ad1
+- name: King Hyena
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: When you add to your turn roll, your turn roll is +1.
+  db_uuid: d1f6203619c34913b98ebd9cc559c9a4
+- name: Man From Tomorrow
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: 'When you roll Strike for your turn roll: look at the top 3 cards of
+    your deck, bury 1 and put the others back on top of your deck in any order.'
+  db_uuid: 4fc0e0b35e794efbb3c6ee6cba33821b
+- name: Whippo Whip
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 5
+  rules_text: When you roll Strike for your turn roll, draw 1 card.
+  db_uuid: 166ea57a5a424cf7a39a182734f15632
+- name: Rainbow Girl
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 7
+  rules_text: When your opponent rolls Power for their turn roll, draw 1 card.
+  db_uuid: a7da12c2bc874900b264623582ebfaeb
+- name: Venus
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 7
+  rules_text: 'When you roll Agility for your turn roll: Your cards with "Flying"
+    in the name cannot be stopped.'
+  db_uuid: 77fe6f7ba5eb4399bcbbe80d9d889767
+- name: Rob Graves
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 9
+  rules_text: When you hit a Strike, flip cards until you flip a Grapple, add that
+    Grapple to your hand.
+  db_uuid: 0249f279219841f193bbe597ef7a3c02

@@ -10343,6 +10343,12 @@
   card_type: MainDeckCard
   deck_card_number: 19
   db_uuid: e21f8097022c4c808385e7bcbad49eae
+- name: Baseball Bat Knockdown
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: a45e9e87f4fd45b1a724094ae5864092
 - name: Blindside Kick
   play_order: Followup
   atk_type: Strike
@@ -10655,6 +10661,12 @@
   card_type: MainDeckCard
   deck_card_number: 19
   db_uuid: 8d37926f77774339805dbc5db6e75bf0
+- name: Shock the Crowd
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  db_uuid: 846df2a57ddd402896de81c692b3a386
 - name: Shove Out of the Ring
   play_order: Followup
   atk_type: Strike

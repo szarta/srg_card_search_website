@@ -13717,6 +13717,12 @@
   card_type: MainDeckCard
   deck_card_number: 27
   db_uuid: cafb4b1d5b8443a18a1c42f69e9bb630
+- name: Bankrolling a Championship
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 7df436fad0ef45949c1e61fde3bc1761
 - name: Backlash With the Microphone
   play_order: Lead
   atk_type: Submission
@@ -13843,6 +13849,12 @@
   card_type: MainDeckCard
   deck_card_number: 27
   db_uuid: c81839658763465c9e2890c1138c4873
+- name: Flip Out of the Ring
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 27
+  db_uuid: 1f5f8e9c5fe24125bca5d5c67f7aed69
 - name: Foot On the Ropes
   play_order: Lead
   atk_type: Submission
@@ -13897,7 +13909,7 @@
   card_type: MainDeckCard
   deck_card_number: 27
   db_uuid: a38160d99d954d29abbe9a256793f2bf
-- name: Leg Arm Lock
+- name: Leg & Arm Lock
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

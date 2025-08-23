@@ -9506,6 +9506,12 @@
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 46f3d7685cb6497c95099231476edf21
+- name: Back Bump
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 17
+  db_uuid: f10f39158a444fdeb93862eabd41d634
 - name: Capture Suplex
   play_order: Followup
   atk_type: Grapple
@@ -9644,13 +9650,13 @@
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 64508f44a169466daa265a0779bfd300
-- name: Hello There Boss, Welcome to the School of Rock V1
+- name: Hello There Boss, Welcome to the School of Rock (V1)
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 100797b2646e40329a2e9441c2bc3471
-- name: Hello There Boss, Welcome to the School of Rock V2
+- name: Hello There Boss, Welcome to the School of Rock (V2)
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

@@ -12602,6 +12602,7 @@
   deck_card_number: 24
   db_uuid: c0c080c6aef243c18c6415af69470150
 - name: Any Last Words?
+  srg_url: https://supershowthegame.com/product/24-any-last-words/
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -12619,6 +12620,12 @@
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: 0f6c9a28381d4ee0b649e9acaeb0a4cf
+- name: Blindside Bombing
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: e25f63e0e895462d9bd668e8b6e81c32
 - name: Blindside Choke
   play_order: Followup
   atk_type: Submission
@@ -12739,6 +12746,12 @@
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: 9f1a114cac8142c8becd277019c49208
+- name: Getting Extreme Heat
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  db_uuid: 467282f70bfe4d4cbc0c170904217910
 - name: Grin Without a Cat
   play_order: Followup
   atk_type: Submission

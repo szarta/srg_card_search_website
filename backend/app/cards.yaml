@@ -8604,6 +8604,9 @@
   deck_card_number: 15
   db_uuid: c4bd29230d1248f9bc042434bf614b96
 - name: Bear Hug V2
+  srg_url: https://supershowthegame.com/product/15-bear-hug/
+  rules_text: Each player flips 1 card.  You may bury 1 card in each player's discard
+    pile.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -8616,6 +8619,13 @@
   deck_card_number: 15
   db_uuid: 0c0a9263ad26410b9ab403a0c0521fec
 - name: Beg for Mercy
+  srg_url: https://supershowthegame.com/product/15-beg-for-mercy/
+  rules_text: 'If your Technique is greater than your opponent''s Technique, stop
+    any Strike.
+
+    Put 1 card from your discard pile on top of your deck.
+
+    Skill Requirement: Grapple 8+'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -9029,6 +9039,23 @@
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: 307bdef9aae242978b7159e0ceb5ee84
+- name: Ambush with a Baseball Bat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  db_uuid: aa5303536f70414c9d0a128af12c3973
+- name: It's Chaos & Pandemonium
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 16
+  srg_url: https://supershowthegame.com/product/16-chaos-and-pandemonium/
+  rules_text: 'If you have another Strike in play, shuffle 1 Strike from your discard
+    pile into your deck and draw 1 card.
+
+    If you have "Pier Six Brawl" in play, your finish rolls are +1.'
+  db_uuid: 8f05c5341bff4e8291ae13ab2e6f2998
 - name: Ambush With the Pineapple
   play_order: Followup
   atk_type: Strike

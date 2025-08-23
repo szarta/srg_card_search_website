@@ -11689,6 +11689,10 @@
   deck_card_number: 22
   db_uuid: c09f41ad04af40429b15946cb58aa674
 - name: Brass Knuckle Punch
+  srg_url: https://supershowthegame.com/product/22-brass-knuckle-punch/
+  rules_text: 'If stopped, you lose the match via disqualification.
+
+    If the Crowd Meter is 2 or greater, this card is also a Finish.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11856,6 +11860,12 @@
   card_type: MainDeckCard
   deck_card_number: 22
   db_uuid: 8d53c96216fb4065b38868c5a51e93dc
+- name: Hurricane Clothesline
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 1d8e6b9b9c734036a9599055ac1996a3
 - name: Lariat Over the Top
   play_order: Followup
   atk_type: Strike
@@ -11964,6 +11974,12 @@
   card_type: MainDeckCard
   deck_card_number: 22
   db_uuid: 25824f9b22234a6b884ca37fbdb8917b
+- name: Set Up the Baseball Bat
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: 473cc62434d34d7da3e297321de6d7a9
 - name: Set Up the Drumsticks
   play_order: Followup
   atk_type: Strike
@@ -11976,6 +11992,12 @@
   card_type: MainDeckCard
   deck_card_number: 22
   db_uuid: d35f7c01c3594459b381bdf47a9c3791
+- name: Targeted Aggression
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  db_uuid: be1eba150a6b41a39e438c52283fc1e6
 - name: Set Up the Ladder
   play_order: Followup
   atk_type: Strike

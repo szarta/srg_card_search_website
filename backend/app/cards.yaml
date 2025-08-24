@@ -16724,3 +16724,154 @@
 
     Flip cards equal to your Finish roll.'
   db_uuid: 79847e06777b4d4f876f30cc82dc2ebf
+- name: Advise from the Sidelines
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match: During your opponent''s turn when you have at least 3
+    fewer cards in your hand than your opponent, you may reveal this card.  Choose
+    Strike, Grapple, or Submission.  Your opponent cannot play cards of the chosen
+    type until the end of the turn.'
+  db_uuid: 517f5ae98ae542a9b8281727589b80f6
+- name: Calls for the Bell
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'If you stopped an unstoppable Finish this turn: You win the match by
+    Pinfall.'
+  db_uuid: daf84834f807436e9bc123750628e3d7
+- name: Did It Better!
+  tags: Valiant
+  srg_url: https://supershowthegame.com/product/spectacle-did-it-better/
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When your opponent hits card #28, #29, or #30 without a skill or competitor logo,
+    their Finish rolls are -1 this turn.  If you have "Photobombed by Nemesis" revealed,
+    they are -3 instead.'
+  db_uuid: 9552190b65db47fd8ff4c0c7666b6348
+- name: Does the Impossible
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When your opponent has more cards in their hand than you, you may ignore the "cannot
+    be stopped" text on a card.'
+  db_uuid: 561137c7de34471a97ae46f84d73ed79
+- name: Enters From the Crowd!
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your turn, when your opponent has 7 or more cards in their hand than you, add
+    1 card from your discard pile to your hand.'
+  srg_url: https://supershowthegame.com/product/spectacle-enters-from-the-crowd/
+  db_uuid: d48c387b61e44823967fb6a4c36b379e
+- name: Gets Things Rolling
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn roll; When you have no cards in play and at lesat 2 fewer cards
+    in play than your opponent your turn roll is +3.'
+  db_uuid: f23d79da8e4544549f7d64c9c5eaa51f
+- name: Got My Back!
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn, when your opponent has 6 or more cards in their hand
+    than you, you may search your deck for 1 card, add it to your hand and shuffle
+    your deck.'
+  db_uuid: af6b2b33cdda435b86cf278a4f961f3d
+- name: Helps You Regroup
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn when you have 1 or fewer cards in your hand you may reveal this
+    card to draw 3 cards, end your turn.'
+  db_uuid: 188aa9a5a45e48f68b23c949d53b6a0e
+- name: Is Always Ready
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once per match:
+
+    Until the end of the turn, the match can not end by Disqualification.'
+  db_uuid: 2765eed424d84468ba11f0efd6d8fec1
+- name: Pops the Crowd
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    If you have at least 2 fewer cards in your hand than your opponent, you may reveal
+    this card to flip 2 cards.'
+  db_uuid: df01bc416957449eacbfe39f5e9d504f
+- name: Rallies the Crowd
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn, when your opponent has 4 or more cards in their hand than you,
+    you may reveal this card to draw 1 card.'
+  srg_url: https://supershowthegame.com/product/spectacle-rallies-the-crowd/
+  db_uuid: 5b3b71b7631a41bc82036fbeedbec968
+- name: Ringside Hype From
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    If your opponent forced you to bury or discard 2 or more cards from  your hand
+    this turn and / or turn roll, draw 2 cards.'
+  srg_url: https://supershowthegame.com/product/ring-side-hype-from/
+  db_uuid: 635d37d8982a4af592063f720ee55c6e
+- name: Ringside Pep Talk With
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn when you have 2 or fewer cards in your hand: If you have not
+    played a card you may reveal this card to draw 3 cards, end your turn.'
+  srg_url: https://supershowthegame.com/product/spectacle-ringside-pep-talk-with/
+  db_uuid: eefbe9d04cff4d828cae50cb3314af81
+- name: Steals the Spotlight
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When the Crowd Meter is 1 or greater:
+
+    During your opponent''s turn or turn roll, you may reveal this card to blank the
+    text on a Spotlight until the end of the next turn roll.'
+  db_uuid: d89aa2dddf6c4ea6b308674dd86da6a0
+- name: Thunderous Support From
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn, if you have fewer cards in play than your opponent:
+    copy the text of a card hit this turn if it is not the first card hit.  The card
+    is copied until the end of the turn.'
+  db_uuid: f135dc91ac8142c9b01d82f068540279
+- name: Throws Candy From the Crowd!
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once per match:
+
+    When your opponent has more cards in their hand than you, your opponent flips
+    1 card, then bury 1 card in your opponent''s discard pile.'
+  db_uuid: f5debb5c983347debc98181a5703689d
+- name: To the Rescue!
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn, if your opponent has 5 or more cards in their hand than
+    you, draw 2 cards.'
+  db_uuid: 809de806453d497fa3b19c744bd79f2e
+- name: Tosses a Pretzel!
+  tags: Valiant
+  card_type: SpectacleCard
+  rules_text: 'Once per match:
+
+    When your opponent has more cards in their hand than you, your opponent flips
+    2 cards.'
+  db_uuid: 6d2087bbc06445c3b1330014a9016898

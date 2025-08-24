@@ -16355,3 +16355,162 @@
   rules_text: When you hit a Strike, flip cards until you flip a Grapple, add that
     Grapple to your hand.
   db_uuid: 0249f279219841f193bbe597ef7a3c02
+- name: Harrietta the Bearded Diva
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 9
+  grapple: 5
+  rules_text: Whenever your opponent buries or discards any number of cards from their
+    hand, draw 1 card.
+  db_uuid: a29880e47a3640f28bc85a86bed15519
+- name: Katy Kitty
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When you roll Agility, flip 3 cards or add 1 Strike from your discard
+    pile to your hand.
+  db_uuid: 0fc731c613e04c7481649b43cf72d7ae
+- name: Damien
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 5
+  rules_text: When you have 0 cards in play and your opponent has 1 card in play,
+    your turn rolls are +1.  If they have 2 or more cards in play, your turn rolls
+    are +2.
+  db_uuid: 03bfb9ac23074c849c4060a007636218
+- name: King Grumpy Thunder Jr.
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 6
+  rules_text: When you roll Power for your turn roll, search your deck for 1 King
+    Grumpy Thunder Jr. card and add it to your hand.
+  db_uuid: f5850a95a27f4062a89db7c0e2c2a543
+- name: Real American Hero
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 10
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 5
+  rules_text: When you hit a card with "America" or "Boot" in the name, draw 1 card.
+  db_uuid: 368ad45ddb934241ae50758867e8c8f3
+- name: Black Lipstick
+  card_type: TornadoCompetitorCard
+  power: 14
+  technique: 10
+  agility: 18
+  strike: 20
+  submission: 12
+  grapple: 16
+  rules_text: 'When you roll Power: Add 1 card from your discard pile to your hand
+    and your opponent buries 1 card in their hand.'
+  db_uuid: ee1179b3778240f09d9cd167420d9e1f
+- name: Freak Show (V1)
+  card_type: TrioCompetitorCard
+  power: 24
+  technique: 15
+  agility: 18
+  strike: 21
+  submission: 30
+  grapple: 27
+  rules_text: 'When you beat your opponent''s turn roll by 10 or more, draw up to
+    3 cards.
+
+    Your Submissions with "Hold" in the name have the added text "Your opponent''s
+    next roll is -3."'
+  db_uuid: 43d7ce2d37734096a657e5133cf614c1
+- name: Freak Show (V2)
+  card_type: TrioCompetitorCard
+  power: 24
+  technique: 15
+  agility: 18
+  strike: 21
+  submission: 30
+  grapple: 27
+  rules_text: 'When your turn roll is at least 10 greater than your opponent''s turn
+    roll, draw 3 cards.
+
+    Your Submissions with "Hold" in the name have the added text "Your opponent''s
+    next roll is -3"'
+  db_uuid: e71495473c384a3d9c61ad1b753b3184
+- name: Joey Ryan
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: At the start of the match if your opponent is a Female, draw 4 cards.  If
+    it is not, choose Power, Technique, or Agility.  Your opponent's skill of the
+    chosen type is -1 turning their turn and turn rolls.
+  db_uuid: ff880ca42bb946a5945d9407b31ee671
+- name: Zack Sabre Jr. (V1)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your
+    discard pile to your hand.'
+  db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
+- name: Smiley
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 7
+  rules_text: 'FRONT: Once a turn roll: You may flip this card over.\nBACK (errata):
+    You may 3 times per match:\nWhen you roll Agility for your turn roll; you may
+    search your deck or discard pile for 1 card with \"Flying\" or \"Top Rope\" in
+    the name.  Put that card on top of your deck.\n'
+  db_uuid: 54f7aabe1c6346e2811aeed599d8055b
+- name: Smiley (Back Stats)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  db_uuid: 791665e646e2401cbcd86f01a35c1522
+- name: The Wall of Text
+  card_type: TrioCompetitorCard
+  power: 15
+  technique: 27
+  agility: 21
+  strike: 18
+  submission: 30
+  grapple: 24
+  rules_text: 'When you roll Strike, Grapple, or Submission for your turn roll:
+
+    Flip 1 card.  If that card has:
+
+    1 line of text, bury 1 card in your hand.
+
+    2 lines of text, draw 1 card.
+
+    3 lines of text, your turn roll is +2.
+
+    4 or more lines of text, shuffle 2 cards from your discard pile into your deck.'
+  db_uuid: 77774b264ba34ecbb589cc298394d739

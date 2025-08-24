@@ -296,6 +296,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  tags: World Championship
   srg_url: https://supershowthegame.com/product/amazing-red/
   rules_text: When you roll Power for your turn roll draw 2 cards.
   tag: World Championship
@@ -395,8 +396,9 @@
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
 - name: 4 Leaf Flynn (V1)
   card_type: SingleCompetitorCard
-  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or add 1 card
-    from your discard pile to your hand.'
+  tags: United States
+  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or 3 times per
+    match: Add 1 card from your discard pile to your hand.'
   power: 8
   technique: 9
   agility: 5
@@ -639,6 +641,7 @@
   strike: 8
   submission: 5
   grapple: 9
+  tags: United States
   rules_text: When your Cuddy Warrior Finish is stopped, draw 3 cards.
   db_uuid: 51d5df82cf0c4be6bcf83bc723a524e8
   related_finishes:
@@ -980,6 +983,7 @@
   rules_text: 'Once per turn roll: When your opponent rolls Submission for their turn
     roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
   db_uuid: c55b4d45a80342fd985aae1570e1ab61
+  tags: Hardcore
   related_finishes:
   - b4cd11de0d694343be8e3d6c54047fbf
   - 1786be24bdf54c4fa509e787930bc12d
@@ -1027,6 +1031,7 @@
   rules_text: 'Once per turn roll: When your target rolls Submission for their turn
     roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
   db_uuid: 08559cdcf0704b188fbe388192e2181e
+  tags: Intergalactic
   related_finishes:
   - 040232a9ce804e3eb4ea2a25283f6298
   - 120a4a3ffc124a21be376a2d5f6df56d
@@ -1886,6 +1891,7 @@
   submission: 7
   grapple: 10
   srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
+  tags: World Championship
   rules_text: 'Once per turn roll: When you roll Strike, Submission, or Grapple, reveal
     the top card of your deck.  If the move type matches the rolled skill, add it
     to your hand.  If not, you may flip it.'
@@ -2463,6 +2469,7 @@
   strike: 9
   submission: 7
   grapple: 8
+  tags: Hardcore
   card_type: SingleCompetitorCard
   rules_text: 'When your turn roll is at least 3 greater than your opponent''s: Look
     at the bottom 3 cards of your deck, put 1 on top of your deck and randomly bury
@@ -2518,6 +2525,7 @@
   strike: 8
   submission: 9
   grapple: 7
+  tags: Intergalactic
   card_type: SingleCompetitorCard
   rules_text: When you roll Power for your turn roll, choose 1 card your opponent
     has in play and discard it.
@@ -2579,6 +2587,7 @@
     may play an additional card this turn. "German Suplex" is also card #02, #05,
     and #11'
   db_uuid: df665aceb6fb4424ad89d1368b983b6c
+  tags: United States
   related_finishes:
   - 74eb93d4eb7f4500986b1074fea219a4
   - 6ecbb9ba694a498f87ac987a630a1a5c
@@ -2692,6 +2701,7 @@
   rules_text: 'When you hit a card, your opponent randomly reveals a card in their
     hand: if it is a stop, draw 2 cards.'
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
+  tags: Intergalactic
   related_finishes:
   - 01d7642fbfae4817a4ff1c01f175e9e8
   - c97d0ef041cd4e33824b7583bd7fc0a1
@@ -2706,6 +2716,7 @@
   submission: 8
   grapple: 9
   card_type: SingleCompetitorCard
+  tags: Intergalactic
   rules_text: Your opponent's printed 6 skill is -1 during turn rolls.
   db_uuid: a9015fd930594327831767247044e2fa
   related_finishes:
@@ -2752,6 +2763,7 @@
   strike: 6
   submission: 9
   grapple: 5
+  tags: Intergalactic
   card_type: SingleCompetitorCard
   rules_text: When your opponent draws any number of cards for a Gimmick or card effect,
     they bury 1 card in their hand.
@@ -2804,6 +2816,7 @@
   submission: 5
   grapple: 8
   card_type: SingleCompetitorCard
+  tags: United States
   rules_text: When your opponent hits a Submission, draw 1 card and your next turn
     roll is +1.
   db_uuid: 2b5d9774058b458c94d7a88322d0114d
@@ -2855,6 +2868,7 @@
   strike: 7
   submission: 6
   grapple: 5
+  tags: Hardcore
   card_type: SingleCompetitorCard
   rules_text: When your turn roll is at least 4 greater than your opponent's, draw
     1 card.  When it is at least 4 less than your opponent's, draw 2 cards.
@@ -3044,6 +3058,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  tags: World Championship
   rules-text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater
     than your turn roll, your next turn roll is +2.'
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
@@ -3093,6 +3108,7 @@
   strike: 6
   submission: 8
   grapple: 7
+  tags: World Championship
   rules_text: When you roll Submission for your turn roll, shuffle 1 card from your
     discard pile into your deck and draw 1 card.
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
@@ -14239,6 +14255,7 @@
   grapple: 8
   rules_text: 'During your turn: When you hit a Submission with "Cosmic" in the name,
     add 1 card from your discard pile to your hand.'
+  tags: Intergalactic
   related_finishes:
   - a73250c875834f86b0c45f02622e246b
   - 5c5cdd1b02824536a0c79896fb7560ec
@@ -14395,6 +14412,8 @@
   strike: 9
   submission: 10
   grapple: 6
+  rules_text: Your Grapple skill is +1 for each card you have in your discard pile
+    with "Buster" or "Call" in the name (Max +2).
   tags: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
@@ -14786,6 +14805,7 @@
   strike: 8
   submission: 6
   grapple: 10
+  tags: Underworld
   rules_text: When you roll Agility or Submission for your turn roll, you may draw
     1 card then bury 1 card in your hand.
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
@@ -14821,6 +14841,8 @@
   grapple: 8
   tags: Old School
   card_type: SingleCompetitorCard
+  rules_text: When you hit a card, if that card is the only card you have in play,
+    your opponent randomly discards 1 card from their hand.
   db_uuid: 5202f9e0a26e4839a84797552a2979b9
 - name: Joey Janela
   power: 7
@@ -15269,10 +15291,27 @@
   submission: 8
   grapple: 10
   db_uuid: 8e86da7670a84f1898ab2e1e570aebca
+  tags: United States
+  rules_text: 'When your Finish is stopped:
+
+    Shuffle 6 cards from your discard pile into your deck.'
   related_finishes:
   - bc8f5dfdd9b3406a9078459fa065f6f2
   - 94690264163e431dbfcf6941e06ba837
   - 4e68b0da643743aca4c32b23225d48c8
+- name: Amos the Iron Worker (V2)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 10
+  rules_text: When your opponent stops a card with "Steel", "Wrench", "Burn", or "Fire"
+    in the name, shuffle 1 other card from your discard pile into your deck and draw
+    1 card.
+  tags: United States
+  db_uuid: 3f262cc919a84d6b8d1d371695c1ce8f
 - name: Punch the Clock
   deck_card_number: 28
   atk_type: Strike
@@ -15299,6 +15338,7 @@
   strike: 7
   submission: 10
   grapple: 6
+  tags: Intergalactic
   rules_text: 'Once per match: When you roll Power for your turn roll: You may bury
     1 card in your opponent''s discard pile and your opponent shuffles their hand
     into their deck and adds the top 3 cards of their deck to their hand.'
@@ -15311,6 +15351,7 @@
   strike: 7
   submission: 10
   grapple: 6
+  tags: Hardcore
   rules_text: 'During your turn: When you hit a card with "Microphone" in the name,
     your opponent shuffles 1 card from their hand into their deck.'
   db_uuid: 34bbf6706bbe426fbf13d2a73ad04b0a
@@ -15322,6 +15363,7 @@
   strike: 7
   submission: 10
   grapple: 6
+  tags: Intergalactic
   rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in
     your opponent''s discard pile, your opponent shuffles their hand into their deck
     and adds the top 6 cards of their deck to their hand.'
@@ -15359,6 +15401,7 @@
   strike: 8
   submission: 5
   grapple: 9
+  tags: Global
   rules_text: 'During your turn: When your Turn Roll is Agility, your Grapple cards
     are also Leads.'
   db_uuid: 23174a8ec9fd420d93b19331b116a6b1
@@ -15381,6 +15424,7 @@
   strike: 10
   submission: 5
   grapple: 7
+  tags: United States
   rules_text: When you have 7 or more cards in your hand, your Submission skill is
     +2.
   db_uuid: 75537925f3e5419eabfa2191870a6c7a
@@ -15403,6 +15447,7 @@
   strike: 9
   submission: 5
   grapple: 6
+  tags: Hardcore
   rules_text: 'Your cards with "Beat" or "Stick" in the name have the added text:
     "Your opponent buries 1 card in their hand and your next turn roll is +1".'
   db_uuid: 98eb1b96fced4564a2792083660d3709
@@ -15414,6 +15459,7 @@
   strike: 5
   submission: 10
   grapple: 7
+  tags: United States
   rules_text: When you stop a card, your opponent's next turn roll is -1.
   db_uuid: e38223a08984404b83bd34e9a7f17025
 - name: Beverly Hills Booker
@@ -15424,10 +15470,11 @@
   strike: 10
   submission: 5
   grapple: 7
+  tags: United States
   rules_text: 'During your turn: When you hit a card with an even card number, draw
     1 card.'
   db_uuid: 85616c84da2a41b7b65448a08eb7a4ed
-- name: Big Bad Boughter
+- name: Big Daddy Boughter (V1)
   card_type: SingleCompetitorCard
   power: 8
   technique: 6
@@ -15435,9 +15482,22 @@
   strike: 5
   submission: 10
   grapple: 7
+  tags: Hardcore
   rules_text: 'During your turn: If you have 9 or more cards in play, your Leads and
     Follow Ups are also finishes.'
   db_uuid: c532848bb45141a5814f044a590a80f8
+- name: Big Daddy Boughter (V2)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 7
+  tags: Hardcore
+  rules_text: 'During your turn: If you rolled Agility or Submission for your turn
+    roll, choose 1 stop your opponent has in play and discard it.'
+  db_uuid: fb9bb0244bed4be9b393fdd17778a2cb
 - name: Big Game Leroy
   card_type: SingleCompetitorCard
   power: 6
@@ -15446,6 +15506,7 @@
   strike: 8
   submission: 5
   grapple: 7
+  tags: Global
   rules_text: Your breakout rolls are +1.
   db_uuid: b9d9ab11e1104c798637faebafd14825
 - name: The Big Guy
@@ -15468,6 +15529,7 @@
   strike: 7
   submission: 8
   grapple: 9
+  tags: Hardcore
   rules_text: 'When you hit a card with "Eat" in the name, draw 1 card.
 
     When you hit a card with "Slam" in the name, your next turn roll is +1.'
@@ -15480,6 +15542,7 @@
   strike: 5
   submission: 8
   grapple: 9
+  tags: Old School
   rules_text: At the start of the match add +1 to the Crowd Meter.  If the skill rolled
     for your 1st or 2nd breakout roll matches your opponent's Finish roll, your roll
     is +1.
@@ -15492,6 +15555,7 @@
   strike: 5
   submission: 8
   grapple: 9
+  tags: Old School
   rules_text: The Crowd Meter is considered +1 for your card effects.
   db_uuid: a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
@@ -15502,6 +15566,7 @@
   strike: 7
   submission: 5
   grapple: 9
+  tags: Global
   rules_text: When you roll Power for your turn roll, your next turn roll is +2.
   db_uuid: 40d3462c0a884cbaa0cc484870dabb2c
 - name: Brian Cage (V2)
@@ -15512,6 +15577,7 @@
   strike: 7
   submission: 5
   grapple: 9
+  tags: Global
   rules_text: 'When you roll Power for your turn roll, choose 1 opponent: their next
     turn roll is -2.'
   db_uuid: 12d4949f97d344238c8b1c7cdc719a63
@@ -15523,6 +15589,7 @@
   strike: 8
   submission: 5
   grapple: 9
+  tags: Global
   rules_text: When your turn roll is at least 5 greater than your opponent's turn
     roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
@@ -15534,6 +15601,7 @@
   strike: 7
   submission: 5
   grapple: 9
+  tags: Intergalactic
   rules_text: 'Once per match: When your opponent hits a Finish and you do not breakout:
     Add the Finish back to your opponent''s hand.
 
@@ -15547,6 +15615,7 @@
   strike: 6
   submission: 5
   grapple: 9
+  tags: Global
   rules_text: 'When you roll Power for your turn roll: Your opponent flips 2 cards
     and you bury up to 2 cards in your opponent''s discard pile.'
   db_uuid: 9e917043501e4163bf34be7ba7b6212f
@@ -15558,6 +15627,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  tags: Hardcore
   rules_text: Once per turn roll, when your turn roll is 3 or greater than your opponent's,
     look at the top 3 cards of either player's deck, bury 1 card and put the other
     2 back in any order.
@@ -15570,6 +15640,7 @@
   strike: 9
   submission: 7
   grapple: 8
+  tags: United States
   rules_text: 'When you roll Agility for your turn roll: flip 2 cards, then add 1
     stop from your discard pile to your hand.'
   db_uuid: 48da9bdffa8744b0af0d37f59d56ba2e
@@ -15581,6 +15652,7 @@
   strike: 9
   submission: 8
   grapple: 7
+  tags: Underworld
   rules_text: At the start of your turn, search your deck for the card "Kick" and
     put it into play.
   db_uuid: 4727798038a94d549fa5267837d5aa09
@@ -15592,6 +15664,7 @@
   strike: 9
   submission: 8
   grapple: 6
+  tags: United States
   rules_text: When you roll Agility for your turn roll, you may discard 2 cards and
     draw 2 cards.
   db_uuid: 8cc441c7425945b9830ffc49680e1987
@@ -15603,6 +15676,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  tags: Global
   rules_text: When your opponent hits a Grapple, you may discard 1 card to blank its
     text.
   db_uuid: b2b48a849731415fadfedd06451a6085
@@ -15614,6 +15688,7 @@
   strike: 8
   submission: 7
   grapple: 5
+  tags: Underworld
   rules_text: At the start of the match draw 3 cards.  Your first turn roll is +3.
   db_uuid: d9db7a7d43b84ebd9f88690827d1327b
 - name: EC3 (V2)
@@ -15624,6 +15699,7 @@
   strike: 8
   submission: 7
   grapple: 5
+  tags: Global
   rules_text: When your opponent has 3 or fewer cards in their hand, your Power, Technique,
     and Agility are +1.
   db_uuid: bdfad56ca01a4a3e80a02b84a27ba5d2
@@ -15635,6 +15711,7 @@
   strike: 7
   submission: 5
   grapple: 6
+  tags: Hardcore
   rules_text: 'Once per turn: When your card with "Rolling" or "Kick" in the name
     is stopped, you may play 1 additional Strike this turn.'
   db_uuid: 437b04b0decd4d3f93a90914be435d67
@@ -15646,6 +15723,7 @@
   strike: 8
   submission: 5
   grapple: 6
+  tags: Hardcore
   rules_text: 'Once per turn: When your Strike is stopped, you may play 1 additional
     card with "Rolling" or "Kick" in the name.'
   db_uuid: ac35ccf29d134fda8ad7448adad2de52
@@ -15657,6 +15735,7 @@
   strike: 8
   submission: 6
   grapple: 9
+  tags: Intergalactic
   rules_text: 'When you roll Power for your turn roll: You may discard 1 card you
     have in play to draw 1 card or add +1 to your turn roll.'
   db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
@@ -15898,6 +15977,7 @@
   strike: 8
   submission: 10
   grapple: 5
+  tags: United States
   rules_text: 'Once per turn:
 
     You may force your opponent to re-roll their Finish roll.'
@@ -15910,6 +15990,7 @@
   strike: 7
   submission: 6
   grapple: 8
+  tags: Global
   rules_text: 'At the start of the match when your opponent is a Male Competitor choose
     1.  Your Strike, Grapple, or Submission skill is +1.
 
@@ -15945,6 +16026,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  tags: Hardcore
   rules_text: Your opponent needs 3 cards in play to hit you with a Finish.
   db_uuid: 91c51b9ed3e14a0582f050716596dbd6
 - name: D3 (V2)
@@ -15955,6 +16037,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  tags: Hardcore
   rules_text: When your turn roll is at least 3 greater than your opponent's turn
     roll, your opponent's Gimmick is blank until the end of the next turn.
   db_uuid: 6f4af6fa97ce442c84d1e4a689647bb7
@@ -16000,6 +16083,7 @@
   strike: 6
   submission: 10
   grapple: 5
+  tags: United States
   rules_text: When you hit a Submission draw 1 card.
   db_uuid: 51537506696946a2ad10662229ccd96f
 - name: D1 (V2)
@@ -16010,6 +16094,7 @@
   strike: 6
   submission: 10
   grapple: 5
+  tags: United States
   rules_text: At the start of the match, sesarch your deck for a Lead Submission and
     put it into play.
   db_uuid: baf61519310348b9898c5ace20a8843f
@@ -16077,6 +16162,7 @@
   rules_text: When your turn roll is exactly 2 less than your opponet's turn roll,
     draw 2 cards or add 1 card with "Hammer" in the name from your discard pile to
     your hand.
+  tags: Underworld
   db_uuid: bd04b23708fe49728541a20e689cae61
 - name: D2 (V2)
   card_type: SingleCompetitorCard
@@ -16086,6 +16172,7 @@
   strike: 9
   submission: 5
   grapple: 10
+  tags: Hardcore
   rules_text: '3 times per match: When your turn roll is exactly 2 less than your
     opponent''s, you may bump.'
   db_uuid: bf1ee5c00125450da300bb9f3762511f
@@ -16266,6 +16353,7 @@
   strike: 8
   submission: 9
   grapple: 10
+  tags: Hardcore
   rules_text: Your Power is + the Crowd Meter during your turn and turn rolls.
   db_uuid: 8c96f132507449afa563c6735c9c8bd3
 - name: Eddy Fury (V2)
@@ -16276,6 +16364,7 @@
   strike: 8
   submission: 9
   grapple: 10
+  tags: Hardcore
   rules_text: Your Power is + the Crowd Meter.
   db_uuid: b3980be255534765ae5208f788838e40
 - name: Eddy Fury (V3)
@@ -16286,6 +16375,7 @@
   strike: 8
   submission: 9
   grapple: 10
+  tags: Hardcore
   rules_text: 'FRONT: Your first breakout roll each turn is +1.
 
     After a breakout, turn this card over.
@@ -16385,6 +16475,7 @@
   strike: 10
   submission: 8
   grapple: 5
+  tags: Hardcore
   rules_text: When you have 0 cards in play and your opponent has 1 card in play,
     your turn rolls are +1.  If they have 2 or more cards in play, your turn rolls
     are +2.
@@ -16514,3 +16605,33 @@
 
     4 or more lines of text, shuffle 2 cards from your discard pile into your deck.'
   db_uuid: 77774b264ba34ecbb589cc298394d739
+- name: Anarchy's Son (V1)
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  tags: Hardcore
+  rules_text: 'Your "Smack With a Shovel" is also card #22.
+
+    Your "Smack With a Trash Can" is also card #25.
+
+    When you would lose the match via Disqualification you may ignore that effect
+    and the match continues.'
+  db_uuid: 77ebbb073d5d453c8a1d3c5fc552897e
+- name: Anarchy's Son (V2)
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 10
+  tags: United States
+  rules_text: 'When a card or Gimmick causes you to discard any number of cards, your
+    opponent buries the same number of cards in their hand.
+
+    This match has no Disqualifications.'
+  db_uuid: 183c91a3aa75493fb106835743668d78

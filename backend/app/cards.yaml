@@ -16607,6 +16607,7 @@
   db_uuid: 77774b264ba34ecbb589cc298394d739
 - name: Anarchy's Son (V1)
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/anarchys-son/
   power: 9
   technique: 8
   agility: 6
@@ -16621,7 +16622,15 @@
     When you would lose the match via Disqualification you may ignore that effect
     and the match continues.'
   db_uuid: 77ebbb073d5d453c8a1d3c5fc552897e
+  related_finishes:
+  - 12812fac9b5042c99da9cb3f85421e3b
+  - ddbbc94d627240bcb702bc4a137d9c08
+  - 36da459381de4934a044f8c88ce58237
+  - eb6f73c0770e4aa2a8a4ce5b42100ca6
+  - 4783476fdbe44b0f9d14ebebf4bff645
+  - 79847e06777b4d4f876f30cc82dc2ebf
 - name: Anarchy's Son (V2)
+  srg_url: https://supershowthegame.com/product/anarchys-son/
   card_type: SingleCompetitorCard
   power: 9
   technique: 8
@@ -16635,3 +16644,83 @@
 
     This match has no Disqualifications.'
   db_uuid: 183c91a3aa75493fb106835743668d78
+  related_finishes:
+  - 36da459381de4934a044f8c88ce58237
+  - eb6f73c0770e4aa2a8a4ce5b42100ca6
+  - 4783476fdbe44b0f9d14ebebf4bff645
+  - 79847e06777b4d4f876f30cc82dc2ebf
+- name: Smack With a Shovel
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When this card is flipped, add it to your hand.
+
+    If this card is stopped you lose the match via Disqualification.'
+  srg_url: https://supershowthegame.com/product/28-smack-with-a-shovel/
+  db_uuid: 12812fac9b5042c99da9cb3f85421e3b
+- name: Smash With A Trash Can
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    If this card is stopped you lose the match via Disqualification.'
+  srg_url: https://supershowthegame.com/product/28-smash-with-a-trash-can/
+  db_uuid: ddbbc94d627240bcb702bc4a137d9c08
+- name: Take a Seat
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile and your roll Strike you may discard 1
+    card.  If stopped you lose the match via Disqualification.'
+  deck_card_number: 28
+  db_uuid: 36da459381de4934a044f8c88ce58237
+- name: Anarchy's Shovel
+  srg_url: https://supershowthegame.com/product/anarchys-son/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If stopped, discard 1 card from your hand and bury this card or lose the match
+    via Disqualification.'
+  deck_card_number: 28
+  db_uuid: eb6f73c0770e4aa2a8a4ce5b42100ca6
+- name: The King's Gambit
+  srg_url: https://supershowthegame.com/product/anarchys-son/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    +2 to Submission
+
+    Discard up to 4 cards, flip the same number of cards.'
+  db_uuid: 4783476fdbe44b0f9d14ebebf4bff645
+- name: Terminate
+  srg_url: https://supershowthegame.com/product/anarchys-son/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    Flip cards equal to your Finish roll.'
+  db_uuid: 79847e06777b4d4f876f30cc82dc2ebf

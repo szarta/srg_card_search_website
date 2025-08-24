@@ -16875,3 +16875,12 @@
     When your opponent has more cards in their hand than you, your opponent flips
     2 cards.'
   db_uuid: 6d2087bbc06445c3b1330014a9016898
+- name: Bum Rushes the Opponent
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn roll, when you have no cards in play and at least 2 fewer cards
+    in play than your opponent, your opponent''s turn roll is -3.'
+  srg_url: https://supershowthegame.com/product/spectacle-bum-rushes-opponent/
+  db_uuid: 6b9690194ac14f69ab0a73743611fccc

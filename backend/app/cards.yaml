@@ -579,6 +579,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  gender: Male
   division: UnitedStates
   rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force
     them to re-roll.'
@@ -830,6 +831,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: Once during any players turn, when your opponent draws any number of
     cards you may draw 1 card.
   db_uuid: ee611f569485400fa6312512db2ce31e
@@ -887,6 +889,7 @@
   submission: 5
   grapple: 8
   division: Global
+  gender: Male
   rules_text: 'Once during your turn: You may discard 1 Submission from your hand
     to add 1 Follow Up Strike with "Lariat" or "Clothesline" in the name from your
     discard pile to your hand.'
@@ -938,6 +941,7 @@
   submission: 10
   grapple: 8
   division: Global
+  gender: Male
   rules_text: 'When you roll Submission for your turn roll: Your cards with "Suplex"
     in the name cannot be stopped'
   db_uuid: c077293c5143451885069856ec9b01e9
@@ -1889,6 +1893,7 @@
   rules_text: You are considered your own tag team partner for your card effects.
   db_uuid: 09e9f95633ef418a8c8b286a9bddf56c
 - name: Candy MaM (V2)
+  gender: Female
   card_type: SingleCompetitorCard
   power: 6
   technique: 9
@@ -2020,6 +2025,7 @@
     +3 to Submission'
   db_uuid: 015aecb201074dbb929a9c9cd8b0ea46
 - name: Freedom Belle - Iku Zo
+  gender: Female
   card_type: SingleCompetitorCard
   power: 8
   technique: 6
@@ -2418,6 +2424,7 @@
   submission: 6
   grapple: 5
   division: Intergalactic
+  gender: Ambiguous
   card_type: SingleCompetitorCard
   srg_url: https://supershowthegame.com/product/art-the-seal/
   rules_text: 'When you hit a card with "Seal" or "Taunt" in the name: Your opponent
@@ -2477,6 +2484,7 @@
   grapple: 8
   division: Hardcore
   card_type: SingleCompetitorCard
+  gender: Male
   rules_text: 'When your turn roll is at least 3 greater than your opponent''s: Look
     at the bottom 3 cards of your deck, put 1 on top of your deck and randomly bury
     the others.'
@@ -3067,6 +3075,7 @@
   submission: 6
   grapple: 8
   division: World Championship
+  gender: Male
   rules-text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater
     than your turn roll, your next turn roll is +2.'
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
@@ -14088,6 +14097,7 @@
   submission: 5
   grapple: 7
   division: Underworld
+  gender: Male
   rules_text: +1 Agility on turn rolls.
   card_type: SingleCompetitorCard
   db_uuid: b5a305c0f693405f8cb43b4e5864e559
@@ -14141,6 +14151,7 @@
   submission: 6
   grapple: 7
   division: Hardcore
+  gender: Male
   rules_text: 'FRONT: When your opponent buries any number of cards, you may add 1
     card from your discard pile to your hand and turn this card over.
 
@@ -14229,6 +14240,7 @@
   grapple: 8
   srg_url: https://supershowthegame.com/product/8-bit-al13n-invader-2/
   division: Intergalactic
+  gender: Male
   rules_text: 'When you breakout: you may play a Finish from your hand as if it were
     a Lead. (It can be stopped as normal).'
   card_type: SingleCompetitorCard
@@ -14264,6 +14276,7 @@
   rules_text: 'During your turn: When you hit a Submission with "Cosmic" in the name,
     add 1 card from your discard pile to your hand.'
   division: Intergalactic
+  gender: Male
   related_finishes:
   - a73250c875834f86b0c45f02622e246b
   - 5c5cdd1b02824536a0c79896fb7560ec
@@ -14285,6 +14298,7 @@
   submission: 9
   grapple: 8
   division: Intergalactic
+  gender: Male
   rules_text: '3 times per match: When you roll Agility, put 1 card from your discard
     pile on top of your deck.'
   db_uuid: ed3de20d902c45da89fcb3dae4445739
@@ -14435,6 +14449,7 @@
   grapple: 10
   division: Hardcore
   card_type: SingleCompetitorCard
+  gender: Male
   rules_text: When your opponent stops your card with "Slam" or "America" in the name,
     they randomly discard 1 card from their hand, then bury 1 card in their discard
     pile.
@@ -14515,6 +14530,7 @@
   strike: 9
   submission: 7
   grapple: 10
+  gender: Male
   rules_text: Your Grapple cards with "Drop", "Slam", "Buster", or "Breaker" in the
     name have the added text "Your opponent buries 1 random card in their hand.
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -14618,6 +14634,7 @@
   submission: 7
   grapple: 5
   division: Global
+  gender: Ambiguous
   rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is
     -2.
   card_type: SingleCompetitorCard
@@ -14634,6 +14651,7 @@
   submission: 10
   grapple: 8
   division: Global
+  gender: Ambiguous
   rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is
     -2.
   card_type: SingleCompetitorCard
@@ -14704,6 +14722,7 @@
   rules_text: At the start of the match, search your deck for a Lead Strike and put
     it into play.
   division: UnitedStates
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: c069f0402fb949bc8133703f98f1e328
   related_finishes:
@@ -14803,6 +14822,7 @@
   submission: 5
   grapple: 7
   division: UnitedStates
+  gender: Male
   card_type: SingleCompetitorCard
   rules_text: Your Technique is +1 during turn rolls.
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
@@ -14837,6 +14857,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  gender: Male
   division: UnitedStates
   rules_text: When you roll Agility for your turn roll, look at your opponent's hand,
     choose 1 stop and bury it.
@@ -14873,6 +14894,7 @@
   strike: 5
   submission: 8
   grapple: 10
+  gender: Male
   rules_text: 'When you or your opponent hits a card with "Back" in the name: you
     draw 2 cards and your next turn roll is -2.'
   division: UnitedStates
@@ -14885,6 +14907,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  gender: Male
   rules_text: 'When you hit a card with "Chain" or "Jaw" in the name: Reveal the top
     3 cards of your deck, add 1 Grapple to your hand and flip the others.'
   division: Hardcore
@@ -15302,6 +15325,7 @@
   grapple: 10
   db_uuid: 8e86da7670a84f1898ab2e1e570aebca
   division: UnitedStates
+  gender: Male
   rules_text: 'When your Finish is stopped:
 
     Shuffle 6 cards from your discard pile into your deck.'
@@ -15317,6 +15341,7 @@
   strike: 9
   submission: 8
   grapple: 10
+  gender: Male
   rules_text: When your opponent stops a card with "Steel", "Wrench", "Burn", or "Fire"
     in the name, shuffle 1 other card from your discard pile into your deck and draw
     1 card.
@@ -15349,6 +15374,7 @@
   submission: 10
   grapple: 6
   division: Intergalactic
+  gender: Male
   rules_text: 'Once per match: When you roll Power for your turn roll: You may bury
     1 card in your opponent''s discard pile and your opponent shuffles their hand
     into their deck and adds the top 3 cards of their deck to their hand.'
@@ -15362,6 +15388,7 @@
   submission: 10
   grapple: 6
   division: Hardcore
+  gender: Male
   rules_text: 'During your turn: When you hit a card with "Microphone" in the name,
     your opponent shuffles 1 card from their hand into their deck.'
   db_uuid: 34bbf6706bbe426fbf13d2a73ad04b0a
@@ -15374,6 +15401,7 @@
   submission: 10
   grapple: 6
   division: Intergalactic
+  gender: Male
   rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in
     your opponent''s discard pile, your opponent shuffles their hand into their deck
     and adds the top 6 cards of their deck to their hand.'
@@ -15387,6 +15415,7 @@
   submission: 8
   grapple: 7
   rules_text: Your finish rolls are +1.
+  gender: Male
   comments: This version is referenced as "The One Above All"
   db_uuid: 47e01d6194cb412fb771cbeb999305be
 - name: Anthony Gangone (V2)
@@ -15402,6 +15431,7 @@
 
     When the Crowd Meter is 2 or greater your Finish Cards are also Leads.'
   comments: This version is referenced as "The Rogue"
+  gender: Male
   db_uuid: f31f5385413946c78db19561ea68045f
 - name: AR Fox
   card_type: SingleCompetitorCard
@@ -15412,6 +15442,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: 'During your turn: When your Turn Roll is Agility, your Grapple cards
     are also Leads.'
   db_uuid: 23174a8ec9fd420d93b19331b116a6b1
@@ -15446,6 +15477,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  gender: Male
   rules_text: When you roll Power, you may look at the top 3 cards of your deck. Flip
     1, Bury 1, and put the other back on top.
   db_uuid: d3459a63366446c2bcae03c9ba3132ac
@@ -15457,6 +15489,7 @@
   strike: 9
   submission: 5
   grapple: 6
+  gender: Male
   division: Hardcore
   rules_text: 'Your cards with "Beat" or "Stick" in the name have the added text:
     "Your opponent buries 1 card in their hand and your next turn roll is +1".'
@@ -15494,6 +15527,7 @@
   submission: 10
   grapple: 7
   division: Hardcore
+  gender: Male
   rules_text: 'During your turn: If you have 9 or more cards in play, your Leads and
     Follow Ups are also finishes.'
   db_uuid: c532848bb45141a5814f044a590a80f8
@@ -15506,6 +15540,7 @@
   submission: 10
   grapple: 7
   division: Hardcore
+  gender: Male
   rules_text: 'During your turn: If you rolled Agility or Submission for your turn
     roll, choose 1 stop your opponent has in play and discard it.'
   db_uuid: fb9bb0244bed4be9b393fdd17778a2cb
@@ -15518,6 +15553,7 @@
   submission: 5
   grapple: 7
   division: Global
+  gender: Male
   rules_text: Your breakout rolls are +1.
   db_uuid: b9d9ab11e1104c798637faebafd14825
 - name: The Big Guy
@@ -15528,6 +15564,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  gender: Male
   rules_text: 'When a Lead or Follow Up with "Kendo Stick" in the name would be discarded
     from your hand, flipped, or buried, you may instead add 1 of those cards to your
     hand. Your card "Kendo Stick" is also card #02 and #03'
@@ -15808,6 +15845,7 @@
   strike: 5
   submission: 6
   grapple: 8
+  gender: Ambiguous
   rules_text: 'At the start of the match: Look at the top 5 cards of your deck, add
     2 cards from your hand and flip the others.'
   db_uuid: 7410d8ae52d44e32aa6dc474105ed663
@@ -15819,6 +15857,7 @@
   strike: 8
   submission: 7
   grapple: 6
+  gender: Male
   rules_text: When you roll Power, shuffle 2 cards with "Chain" in the name from your
     discard pile into your deck
   db_uuid: e610a36ba3564bef9254adb86d298d99
@@ -15830,6 +15869,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  gender: Male
   rules_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll
     their turn roll.'
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
@@ -15841,6 +15881,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  gender: Male
   rules_text: 'Once per turn roll, when you roll Technique: You may choose any player
     to re-roll their turn roll.'
   db_uuid: b95f873118b944b0b07a8af9c8731752
@@ -15852,6 +15893,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  gender: Male
   rules_text: 'When you or your opponent roll Technique: you may draw 1 card then
     bury 1 card in your hand.'
   db_uuid: d5edc30f9dc04838bc821938c31f0312
@@ -15863,6 +15905,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  gender: Male
   rules_text: When you roll Power, look at the top 3 cards of any player's deck and
     put them back in any order.
   db_uuid: 92712ad7966a404ebfb48b4482912594
@@ -15994,6 +16037,7 @@
     You may force your opponent to re-roll their Finish roll.'
   db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
 - name: Candice LeRae
+  gender: Female
   card_type: SingleCompetitorCard
   power: 5
   technique: 9
@@ -16626,6 +16670,7 @@
   submission: 5
   grapple: 7
   division: Hardcore
+  gender: Male
   rules_text: 'Your "Smack With a Shovel" is also card #22.
 
     Your "Smack With a Trash Can" is also card #25.
@@ -16650,6 +16695,7 @@
   submission: 5
   grapple: 10
   division: UnitedStates
+  gender: Male
   rules_text: 'When a card or Gimmick causes you to discard any number of cards, your
     opponent buries the same number of cards in their hand.
 

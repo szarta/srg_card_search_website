@@ -1716,6 +1716,30 @@
     Once per match: If you ended your turn without playing a card, you may bury 3
     cards in your opponent''s discard pile.'
   db_uuid: df6a79018a5341e480d1c0e07f47628c
+- name: Technique Training with Harrietta
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    "Headlock"
+
+    "Armbar"
+
+    "Face Stretch"
+
+    "Rear Chin Lock"
+
+    "Single Leg Crab"
+
+    "Sleeper Hold"
+
+    "Leg Lock"
+
+    "Strangle Hold"
+
+    and "Double Armbar"
+
+    During your turn when you hit one of those cards, draw 1 card.'
+  db_uuid: 9972981b93014568b8693bfcb169e3d5
 - name: Agility Training With EDM
   card_type: EntranceCard
   srg_url: https://supershowthegame.com/product/agility-training-with-edm/
@@ -1991,6 +2015,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  gender: Male
   srg_url: https://supershowthegame.com/product/el-super-hombre/
   db_uuid: 59a06bccbea64d1bb1d6301449190e81
   related_finishes:
@@ -5412,6 +5437,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 7
+  rules_text: Draw 1 card or take 4 cards from your discard pile and shuffle them
+    into your deck.
   db_uuid: 223b9ba299c044ed88fb92525bed1e43
 - name: I Came In Like a Wrecking Ball
   play_order: Lead
@@ -6253,6 +6280,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Draw 1 card or take 4 cards from your discard pile and shuffle them
+    into your deck.
   db_uuid: 47cc8051aa3143d1b878aebb2c832e24
 - name: Face Wash
   play_order: Lead
@@ -6751,6 +6780,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each other Lead you have in play.
   deck_card_number: 10
   db_uuid: ecd85079be3e478d89175a842bc4a29f
 - name: High Impact Shots
@@ -7520,6 +7550,7 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each other Lead you have in play.
   deck_card_number: 12
   db_uuid: b4693e7de5634e718db8b1269f98057c
 - name: Reverse Full Nelson Hold
@@ -8922,6 +8953,8 @@
   deck_card_number: 15
   db_uuid: 843766b1914d4b3698795d4968d7c145
 - name: Single Leg Crab
+  rules_text: If your Technique skill is greater than your opponent's Technique skill,
+    stop any Strike.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -9082,6 +9115,12 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'If you have another card in play with "Baseball Bat" in the name, look
+    at the top 3 cards of your deck.  Add 1 to your hand, put the others on the top
+    of bottom of your deck in any order.
+
+    Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that
+    card to your hand and you may re-roll your next turn roll.'
   db_uuid: aa5303536f70414c9d0a128af12c3973
 - name: It's Chaos & Pandemonium
   play_order: Followup
@@ -10247,6 +10286,7 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each other Follow Up you have in play.
   deck_card_number: 18
   db_uuid: 7e232d4350c44522a1a28c211b5e2903
 - name: Soaring Surfing Hold
@@ -11494,6 +11534,7 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: If your opponent has another Strike card in play, stop any Strike.
   deck_card_number: 21
   db_uuid: 630b12050d8843d0b7810e0acab11bad
 - name: Leg Scissors
@@ -13010,6 +13051,8 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to
+    your hand.
   deck_card_number: 24
   db_uuid: 124a1a8b34ba43c69b79c5868bbaf0cc
 - name: Super Dragon Leg Twist
@@ -13857,6 +13900,7 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Stop any Strike card.
   deck_card_number: 27
   db_uuid: 24da2f850f4d43289999418be2c29f73
 - name: Double Body Bender
@@ -15145,6 +15189,7 @@
   strike: 8
   submission: 6
   grapple: 5
+  gender: Male
   rules_text: 'When you hit a card with "Run", "Swing", "Hit", or "Stretch" in the
     name: Draw 1 card or bury 1 card in your opponent''s discard pile.'
   db_uuid: 1a63c5024be045dfb7f6be8b22c050b9
@@ -15658,6 +15703,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: When your turn roll is at least 5 greater than your opponent's turn
     roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
@@ -15698,6 +15744,7 @@
   submission: 6
   grapple: 8
   division: Hardcore
+  gender: Male
   rules_text: Once per turn roll, when your turn roll is 3 or greater than your opponent's,
     look at the top 3 cards of either player's deck, bury 1 card and put the other
     2 back in any order.
@@ -15711,6 +15758,7 @@
   submission: 7
   grapple: 8
   division: UnitedStates
+  gender: Female
   rules_text: 'When you roll Agility for your turn roll: flip 2 cards, then add 1
     stop from your discard pile to your hand.'
   db_uuid: 48da9bdffa8744b0af0d37f59d56ba2e
@@ -15723,6 +15771,7 @@
   submission: 8
   grapple: 7
   division: Underworld
+  gender: Male
   rules_text: At the start of your turn, search your deck for the card "Kick" and
     put it into play.
   db_uuid: 4727798038a94d549fa5267837d5aa09
@@ -15735,6 +15784,7 @@
   submission: 8
   grapple: 6
   division: UnitedStates
+  gender: Male
   rules_text: When you roll Agility for your turn roll, you may discard 2 cards and
     draw 2 cards.
   db_uuid: 8cc441c7425945b9830ffc49680e1987
@@ -15747,6 +15797,7 @@
   submission: 6
   grapple: 8
   division: Global
+  gender: Male
   rules_text: When your opponent hits a Grapple, you may discard 1 card to blank its
     text.
   db_uuid: b2b48a849731415fadfedd06451a6085
@@ -15758,6 +15809,7 @@
   strike: 8
   submission: 7
   grapple: 5
+  gender: Male
   division: Underworld
   rules_text: At the start of the match draw 3 cards.  Your first turn roll is +3.
   db_uuid: d9db7a7d43b84ebd9f88690827d1327b
@@ -15769,6 +15821,7 @@
   strike: 8
   submission: 7
   grapple: 5
+  gender: Male
   division: Global
   rules_text: When your opponent has 3 or fewer cards in their hand, your Power, Technique,
     and Agility are +1.
@@ -15782,6 +15835,7 @@
   submission: 5
   grapple: 6
   division: Hardcore
+  gender: Male
   rules_text: 'Once per turn: When your card with "Rolling" or "Kick" in the name
     is stopped, you may play 1 additional Strike this turn.'
   db_uuid: 437b04b0decd4d3f93a90914be435d67
@@ -15794,6 +15848,7 @@
   submission: 5
   grapple: 6
   division: Hardcore
+  gender: Male
   rules_text: 'Once per turn: When your Strike is stopped, you may play 1 additional
     card with "Rolling" or "Kick" in the name.'
   db_uuid: ac35ccf29d134fda8ad7448adad2de52
@@ -15806,6 +15861,7 @@
   submission: 6
   grapple: 9
   division: Intergalactic
+  gender: Male
   rules_text: 'When you roll Power for your turn roll: You may discard 1 card you
     have in play to draw 1 card or add +1 to your turn roll.'
   db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
@@ -15817,6 +15873,7 @@
   strike: 7
   submission: 6
   grapple: 9
+  gender: Male
   rules_text: 'After you or your opponent stop a Follow Up: Add 1 stop from your discard
     pile to your hand, then look at your opponent''s hand.'
   db_uuid: 05e30bc628624cbf97a563e9e41f3319
@@ -15828,6 +15885,7 @@
   strike: 7
   submission: 6
   grapple: 9
+  gender: Male
   rules_text: When your opponent rolls 5 or less for their turn roll, look at their
     hand or the top card of their deck.
   db_uuid: 22eac8821a944ccdaf473a001a000be1
@@ -15839,6 +15897,7 @@
   strike: 9
   submission: 8
   grapple: 5
+  gender: Male
   rules_text: 'Once during your turn:
 
     When you hit a Strike or Submission, you may search your deck for a card of the
@@ -15854,6 +15913,7 @@
   strike: 8
   submission: 9
   grapple: 7
+  gender: Male
   rules_text: 'Choose 1 opponent:
 
     When your opponent hits a card with a stop, they bury 1 card in their hand for
@@ -15939,6 +15999,7 @@
   strike: 5
   submission: 7
   grapple: 6
+  gender: Male
   rules_text: When your opponent rolls 8 or 9 for their turn roll, their next turn
     roll is -1.
   db_uuid: ed9f1e55e6094478bf87e93f209347a4
@@ -15950,6 +16011,7 @@
   strike: 9
   submission: 7
   grapple: 8
+  gender: Male
   rules_text: When you would bump, you may isntead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
@@ -15961,6 +16023,7 @@
   strike: 9
   submission: 7
   grapple: 8
+  gender: Male
   rules_text: When you would bump, you may isntead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: 838f2619cdb24dd6be831ec1612b3051
@@ -16149,6 +16212,7 @@
   strike: 9
   submission: 6
   grapple: 7
+  gender: Male
   rules_text: If your turn roll is exactly 1 less than your opponent's turn roll,
     your next turn roll is +2.
   db_uuid: 20059df60d9f40ccae5f9c892aa17c4a
@@ -16409,6 +16473,7 @@
   strike: 8
   submission: 7
   grapple: 5
+  gender: Male
   rules_text: When you hit a card with "Punch" or "Armenian" in the name, your opponent
     buries 1 card in their hand.
   db_uuid: 5a74b42a67f04dc49ab389fa85990732
@@ -16467,6 +16532,7 @@
   strike: 9
   submission: 7
   grapple: 5
+  gender: Male
   rules_text: When you add to your turn roll, your turn roll is +1.
   db_uuid: d1f6203619c34913b98ebd9cc559c9a4
 - name: Man From Tomorrow
@@ -16963,3 +17029,326 @@
     in play than your opponent, your opponent''s turn roll is -3.'
   srg_url: https://supershowthegame.com/product/spectacle-bum-rushes-opponent/
   db_uuid: 6b9690194ac14f69ab0a73743611fccc
+- name: Bumps the Ref
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When you have fewer cards in your hand than your opponent, until the end of the
+    turn the match cannot end by Disqualification.'
+  db_uuid: 1810bc0c00de4cd2b9852b0be1fbb329
+- name: Comes From Under the Ring
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn, when your opponent has 7 or more cards in their hand
+    than you, add 1 card from your discard pile to your hand.'
+  db_uuid: a5f1c5580197438385e8900fbaafdc7c
+- name: Distracts the Ref!
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your opponent''s turn, when they have six or more cards in their hand than
+    you, you may look at their hand, choose 1 card and they shuffle it into their
+    deck.'
+  db_uuid: be6686feeeb947a18ef698de4f119a5d
+- name: Interferes!
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn, if your opponent has 5 or more cards in their hand than
+    you, they randomly bury 2 cards in their hand.'
+  db_uuid: 6e8dec144a1c4028afb6cc463ab5017a
+- name: Jumps on the Apron
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    You may ignore the "cannot be stopped" effect on a Finish played by your opponent.'
+  db_uuid: ae0f9259f83f4154860658a07d7f8774
+- name: Ringside Assault By
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn when you have 2 or fewer cards in your hand: If you have not
+    played a card this turn, you may reveal this card and your opponent''s maximum
+    handsize is 3 until the end of the turn. End your turn.'
+  db_uuid: 1a4c2f56a72f45e5ac51c908eb9d34c5
+- name: Ringside Assist From
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your turn, when you have 1 or fewer cards in your hand: If you have not
+    played a card, you may reveal this card and your opponent buries 3 cards in their
+    hand. End your turn.'
+  db_uuid: 8b445e6fe18f424d86d698ce436981ef
+- name: Taunts Opponent
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    During your opponent''s turn, when your opponent has 4 or more cards in their
+    hand than you, you may reveal this card to end their turn.'
+  db_uuid: 8e3f7d5af82448d99d412d847fe0c6f0
+- name: Throws in the Towel
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'If you stopped an unstoppable Finish this turn: you win the match by
+    Pinfall.'
+  db_uuid: 69721de32a4446f6a395f89b9536ee15
+- name: Throws Cornbread from the Crowd
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When your opponent has at least 2 more cards in their hand than you, bury 3 cards
+    in your opponent''s discard pile.'
+  db_uuid: 061aed4fdc7f4eb1863ab5c7804a834b
+- name: Traps Them In the Bathroom
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match, when the Crowd Meter is 1 or greater: During your opponent''s
+    turn, you may reveal this card and your opponent cannot reveal a Spectacle Card
+    until the end of the turn.'
+  db_uuid: a9e4be4551054dde9ce2fb7314b070ef
+- name: Trips You Up
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    On your opponent''s turn: If you have fewer cards in play than your opponent:
+    blank the text of a card hit this turn if it is not the first card hit. The card
+    is blank until the end of the turn.'
+  db_uuid: 54ccc2a227f44c84b6f5be4215b8aa86
+- name: Undermines the Operation
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When your opponent hits ard #28, #29, or #30 without a skill or competitor logo,
+    your Breakout rolls are +1 this turn.  If you have "Photobombed by Nemesis" revealed,
+    they are instead +3.'
+  db_uuid: 58c533cfc1ac41a4b41fb8e138d66860
+- name: Unfortunate Twist
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    You may use a Gimmick that says "3 times per match" an additional time this match.'
+  db_uuid: 0022fa3dd8544f288766235c16bff0f2
+- name: Whips the Chain
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    When your opponent has at least 3 or more cards in their hand than you, they discard
+    1 card from their hand and flip 1 card.'
+  db_uuid: bc1d29c97ced4b4d9c091c21c195fa00
+- name: Haultain The Paladin
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 6
+  gender: Male
+  rules_text: Once a turn, you may re-roll your Breakout roll, your new roll is +1.
+  db_uuid: 61234f2548d14c9dafb688a8e2bdd4a8
+- name: Hobzilla
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: 'Once per turn: When your opponent stops a card with "Roll", "Spin",
+    or "Smash" in the name, you may play an additional Lead or Follow Up with "Roll",
+    "Spin", or "Smash" in the name.'
+  db_uuid: 31b4dedbc96a438a946d76a2368b6f2d
+- name: Hollywood (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 7
+  rules_text: At the start of the match look at the top 10 cards of your deck, put
+    any number of them on top of your deck in any order and randomly bury the others.
+  gender: Male
+  db_uuid: a7d09cf208d745fdb390e894a653a627
+- name: Hollywood (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 7
+  rules_text: Your opponent cannot play cards during their 1st 2 turns.
+  gender: Male
+  db_uuid: 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: Invisible Man (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: When you roll Agility for your turn roll; your opponent may discard
+    1 stop from their hand. If that do not, add 1 stop from your discard pile to your
+    hand.
+  gender: Male
+  db_uuid: 83aa8315ce3f4a70b5a28fdd5a357c30
+- name: The Iron Sultan
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  gender: Male
+  rules_text: 'When you roll Submission for your turn roll: Draw 1 card or your opponent
+    buries 1 card in their hand.'
+  db_uuid: 82bf4e462d294a03a1220d12ce0eb848
+- name: J Train (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 5
+  gender: Male
+  rules_text: When you flip 2 or more cards, your next turn roll is +2.
+  db_uuid: 028f508517bf4270a4b8aaab4834796d
+- name: Jerk of Cirque (V1)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: After your opponent moves any number of cards from their discard pile
+    to their hand, randomly add 1 card from your discard pile to your hand.  If your
+    opponent's Gimmick moved the cards, you choose the card instead of choosing randomly.
+  db_uuid: 031f54737d3b44a791e52796563e64fb
+- name: Jerk of Cirque (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: After your opponent moves any number of cards from their discard pile
+    to their hand, add 1 card fro myour discard pile to your hand.
+  db_uuid: 37ea70405f104388ac144a15b604e36b
+- name: Jessica Havok
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  gender: Female
+  rules_text: 'When your opponent stops your card: Reveal the top card of your opponent''s
+    deck.  If it is a stop, you may discard it.  If not, you may bury it.'
+  db_uuid: 2eef1e4ccbf4488b9c3967144b1bac84
+- name: Jinni
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 7
+  rules_text: 'When you roll Power for your turn roll:  Look at the top 4 cards of
+    your deck. You may reveal 1 Grapple and add it to your hand, shuffle the others
+    into your deck.'
+  gender: Male
+  db_uuid: 1c18904ccacf43ab856c9c603373f7d2
+- name: King Bjorn
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When your opponent stops a carrd, their stop has blank text.
+  gender: Male
+  db_uuid: 1ea91ed2c91747f7806571a25debc498
+- name: King Pink
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: You may bury 3 cards in your hand to stop any Grapple.
+  gender: Male
+  db_uuid: 71989d2b62a44dafb3f0ad94537395c7
+- name: Krampus
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'Once per match: Your opponent may discard their hand, if that do not,
+    add 2 cards from your discard pile to your hand.'
+  db_uuid: 9aea25a1ebc64c38bcae52df7777e63e
+- name: Krule
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 8
+  gender: Male
+  rules_text: When you hit a card with "Steel Chain" in the name, your opponent randomly
+    buries 1 card in their hand. If "Blast Into the Light Tubes" is stopped, the match
+    does not end via Disqualification.
+  db_uuid: 6405174e3a3f4c77acbffedf7f0c932c
+- name: Le Guillotine
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
+  rules_text: When you roll Technique, flip 1 card and add 1 card with "Head", "Neck",
+    or "Cut" in the name from your discard pile to your hand.
+  db_uuid: 13913c745b87446ba38dc4ae17349f25
+- name: Luna Hallows
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  gender: Female
+  rules_text: Once during each of your turns, you may discard 1 Lead you have in play
+    to draw 1 card.
+  db_uuid: 2484608eb1014b2a8ba2b96948539452

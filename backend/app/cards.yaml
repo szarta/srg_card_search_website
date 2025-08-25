@@ -1717,6 +1717,7 @@
     cards in your opponent''s discard pile.'
   db_uuid: df6a79018a5341e480d1c0e07f47628c
 - name: Technique Training with Harrietta
+  srg_url: https://supershowthegame.com/product/technique-training-with-harrieta/
   card_type: EntranceCard
   rules_text: 'If your deck contains:
 
@@ -2016,6 +2017,7 @@
   submission: 7
   grapple: 9
   gender: Male
+  division: World Championship
   srg_url: https://supershowthegame.com/product/el-super-hombre/
   db_uuid: 59a06bccbea64d1bb1d6301449190e81
   related_finishes:
@@ -2061,6 +2063,7 @@
   strike: 10
   submission: 5
   grapple: 7
+  division: World Championship
   srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
   rules_text: 'When you roll Strike for your turn roll: Flip 2 cards or add 1 finish
     from your discard pile to your hand.'
@@ -14559,6 +14562,7 @@
 
     When you hit a card with that in the name, draw 2 cards.  This match has No Disqualifications.'
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
+  gender: Male
   related_finishes:
   - 8901dab61fdd4731b31527f2a7da8620
   - 48efacee1c4e474e81f7c1319b23c040
@@ -15474,6 +15478,7 @@
   grapple: 7
   rules_text: Your finish rolls are +1.
   gender: Male
+  division: Global
   comments: This version is referenced as "The One Above All"
   db_uuid: 47e01d6194cb412fb771cbeb999305be
 - name: Anthony Gangone (V2)
@@ -15488,6 +15493,7 @@
     Ups.
 
     When the Crowd Meter is 2 or greater your Finish Cards are also Leads.'
+  division: Global
   comments: This version is referenced as "The Rogue"
   gender: Male
   db_uuid: f31f5385413946c78db19561ea68045f
@@ -15874,6 +15880,7 @@
   submission: 6
   grapple: 9
   gender: Male
+  division: Old School
   rules_text: 'After you or your opponent stop a Follow Up: Add 1 stop from your discard
     pile to your hand, then look at your opponent''s hand.'
   db_uuid: 05e30bc628624cbf97a563e9e41f3319
@@ -15886,6 +15893,7 @@
   submission: 6
   grapple: 9
   gender: Male
+  division: Old School
   rules_text: When your opponent rolls 5 or less for their turn roll, look at their
     hand or the top card of their deck.
   db_uuid: 22eac8821a944ccdaf473a001a000be1
@@ -15927,6 +15935,7 @@
   strike: 5
   submission: 6
   grapple: 8
+  division: Intergalactic
   gender: Ambiguous
   rules_text: 'At the start of the match: Look at the top 5 cards of your deck, add
     2 cards from your hand and flip the others.'
@@ -15939,6 +15948,7 @@
   strike: 8
   submission: 7
   grapple: 6
+  division: Hardcore
   gender: Male
   rules_text: When you roll Power, shuffle 2 cards with "Chain" in the name from your
     discard pile into your deck
@@ -15952,6 +15962,7 @@
   submission: 6
   grapple: 7
   gender: Male
+  division: United States
   rules_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll
     their turn roll.'
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
@@ -15964,6 +15975,7 @@
   submission: 6
   grapple: 7
   gender: Male
+  division: United States
   rules_text: 'Once per turn roll, when you roll Technique: You may choose any player
     to re-roll their turn roll.'
   db_uuid: b95f873118b944b0b07a8af9c8731752
@@ -15976,6 +15988,7 @@
   submission: 6
   grapple: 7
   gender: Male
+  division: United States
   rules_text: 'When you or your opponent roll Technique: you may draw 1 card then
     bury 1 card in your hand.'
   db_uuid: d5edc30f9dc04838bc821938c31f0312
@@ -15988,6 +16001,7 @@
   submission: 6
   grapple: 8
   gender: Male
+  division: United States
   rules_text: When you roll Power, look at the top 3 cards of any player's deck and
     put them back in any order.
   db_uuid: 92712ad7966a404ebfb48b4482912594
@@ -16000,6 +16014,7 @@
   submission: 7
   grapple: 6
   gender: Male
+  division: Underworld
   rules_text: When your opponent rolls 8 or 9 for their turn roll, their next turn
     roll is -1.
   db_uuid: ed9f1e55e6094478bf87e93f209347a4
@@ -16012,6 +16027,7 @@
   submission: 7
   grapple: 8
   gender: Male
+  division: Underworld
   rules_text: When you would bump, you may isntead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
@@ -16024,6 +16040,7 @@
   submission: 7
   grapple: 8
   gender: Male
+  division: Underworld
   rules_text: When you would bump, you may isntead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: 838f2619cdb24dd6be831ec1612b3051
@@ -16035,6 +16052,7 @@
   strike: 9
   submission: 7
   grapple: 5
+  division: United States
   rules_text: 'Once per turn roll:
 
     When your opponent rolls Technique for their turn roll, you may force them to
@@ -16048,6 +16066,7 @@
   strike: 9
   submission: 7
   grapple: 5
+  division: Hardcore
   rules_text: Your Grapple skill is +1 for each card in play with "Chain" or "Terror"
     in the name (Max +4).
   db_uuid: b83c210cc53b47149809da23f9374071
@@ -16059,6 +16078,7 @@
   strike: 5
   submission: 8
   grapple: 10
+  division: United States
   rules_text: After you shuffle your deck, add the bottom card of your deck to your
     hand.
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
@@ -16144,6 +16164,8 @@
   strike: 9
   submission: 7
   grapple: 8
+  division: United States
+  gender: Male
   rules_text: When you roll Submission, put the bottom card of your deck into your
     hand.
   db_uuid: 8b00ea8e2268466d98265ebb62cc0c64
@@ -16155,6 +16177,7 @@
   strike: 7
   submission: 9
   grapple: 8
+  division: Intergalactic
   rules_text: When you roll Technique for your turn roll; choose 1 card any player
     has in play and add it to their hand.
   db_uuid: f54e8cac51c34f5b88b0b5fee2c87ce7

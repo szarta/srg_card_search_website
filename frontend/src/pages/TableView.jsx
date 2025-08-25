@@ -172,8 +172,18 @@ export default function TableView() {
   };
 
   const toCSV = () => {
-    const header = columns.map(escapeCSV).join(",");
-    const body = rows.map((r) => columns.map((c) => escapeCSV(r?.[c])).join(",")).join("\n");
+    // Build CSV columns from visible columns, but include certain hidden fields too.
+    // We keep 'gender' hidden in the UI, but include it in CSV if present in data.
+    const csvColumns = (() => {
+      const cols = [...columns];
+      if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "gender")) && !cols.includes("gender")) {
+        cols.push("gender");
+      }
+      return cols;
+    })();
+
+    const header = csvColumns.map(escapeCSV).join(",");
+    const body = rows.map((r) => csvColumns.map((c) => escapeCSV(r?.[c])).join(",")).join("\n");
     return `${header}\n${body}`;
   };
 

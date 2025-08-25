@@ -16875,7 +16875,7 @@
     When your opponent has more cards in their hand than you, your opponent flips
     2 cards.'
   db_uuid: 6d2087bbc06445c3b1330014a9016898
-- name: Bum Rushes the Opponent
+- name: Bum Rushes Opponent
   tags: Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:

@@ -349,6 +349,7 @@
   strike: 6
   submission: 7
   grapple: 10
+  gender: Male
   division: Hardcore
   rules_text: Your Grapple skill is +2 during turn rolls.
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
@@ -990,6 +991,7 @@
   strike: 5
   submission: 10
   grapple: 6
+  gender: Female
   rules_text: 'Once per turn roll: When your opponent rolls Submission for their turn
     roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
   db_uuid: c55b4d45a80342fd985aae1570e1ab61
@@ -1038,6 +1040,7 @@
   strike: 5
   submission: 10
   grapple: 6
+  gender: Female
   rules_text: 'Once per turn roll: When your target rolls Submission for their turn
     roll: Flip 1 card, then add 1 Submission from your discard pile to your hand.'
   db_uuid: 08559cdcf0704b188fbe388192e2181e
@@ -2539,6 +2542,7 @@
   strike: 8
   submission: 9
   grapple: 7
+  gender: Male
   division: Intergalactic
   card_type: SingleCompetitorCard
   rules_text: When you roll Power for your turn roll, choose 1 card your opponent
@@ -2712,6 +2716,7 @@
   strike: 7
   submission: 8
   grapple: 9
+  gender: Male
   card_type: SingleCompetitorCard
   rules_text: 'When you hit a card, your opponent randomly reveals a card in their
     hand: if it is a stop, draw 2 cards.'
@@ -14412,6 +14417,7 @@
   submission: 7
   grapple: 8
   rules_text: When you roll Grapple for your turn roll, draw 1 card.
+  gender: Male
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: f4a9e71c2fb446c192037af4278e7311
@@ -14424,6 +14430,7 @@
   submission: 7
   grapple: 8
   rules_text: 'Once per turn roll: if you roll Grapple, draw a card.'
+  gender: Male
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 9e8a66929b544b1a9adc98c002360ac7
@@ -14616,6 +14623,7 @@
   strike: 10
   submission: 5
   grapple: 6
+  gender: Female
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: d7a4d360d24545809a143d0cf1e69663
@@ -14688,6 +14696,7 @@
   rules_text: When your turn roll is at least 3 greater than your opponent's turn
     roll, draw 1 card.
   division: UnitedStates
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
   related_finishes:
@@ -14754,6 +14763,7 @@
   strike: 5
   submission: 10
   grapple: 6
+  gender: Female
   division: Intergalactic
   rules_text: When your opponent stops your Submission, they cannot draw cards until
     the start of the next turn.
@@ -14800,6 +14810,7 @@
   strike: 10
   submission: 5
   grapple: 8
+  gender: Male
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 51aff101c37346fba003d6e1f21105b1
@@ -14811,6 +14822,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  gender: Female
   rules_text: When you hit a Follow Up, your next turn roll is +1.
   card_type: SingleCompetitorCard
   db_uuid: 41cf829b50b649a2bbfcd56484afb428
@@ -14834,6 +14846,7 @@
   strike: 8
   submission: 6
   grapple: 10
+  gender: Male
   division: Underworld
   rules_text: When you roll Agility or Submission for your turn roll, you may draw
     1 card then bury 1 card in your hand.
@@ -15466,6 +15479,7 @@
   submission: 5
   grapple: 7
   division: UnitedStates
+  gender: Male
   rules_text: When you have 7 or more cards in your hand, your Submission skill is
     +2.
   db_uuid: 75537925f3e5419eabfa2191870a6c7a
@@ -15514,6 +15528,7 @@
   strike: 10
   submission: 5
   grapple: 7
+  gender: Male
   division: UnitedStates
   rules_text: 'During your turn: When you hit a card with an even card number, draw
     1 card.'
@@ -15578,6 +15593,7 @@
   submission: 8
   grapple: 9
   division: Hardcore
+  gender: Male
   rules_text: 'When you hit a card with "Eat" in the name, draw 1 card.
 
     When you hit a card with "Slam" in the name, your next turn roll is +1.'
@@ -15591,6 +15607,7 @@
   submission: 8
   grapple: 9
   division: Old School
+  gender: Male
   rules_text: At the start of the match add +1 to the Crowd Meter.  If the skill rolled
     for your 1st or 2nd breakout roll matches your opponent's Finish roll, your roll
     is +1.
@@ -15604,6 +15621,7 @@
   submission: 8
   grapple: 9
   division: Old School
+  gender: Male
   rules_text: The Crowd Meter is considered +1 for your card effects.
   db_uuid: a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
@@ -15615,6 +15633,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: When you roll Power for your turn roll, your next turn roll is +2.
   db_uuid: 40d3462c0a884cbaa0cc484870dabb2c
 - name: Brian Cage (V2)
@@ -15626,6 +15645,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: 'When you roll Power for your turn roll, choose 1 opponent: their next
     turn roll is -2.'
   db_uuid: 12d4949f97d344238c8b1c7cdc719a63
@@ -15650,6 +15670,7 @@
   submission: 5
   grapple: 9
   division: Intergalactic
+  gender: Male
   rules_text: 'Once per match: When your opponent hits a Finish and you do not breakout:
     Add the Finish back to your opponent''s hand.
 
@@ -15664,6 +15685,7 @@
   submission: 5
   grapple: 9
   division: Global
+  gender: Male
   rules_text: 'When you roll Power for your turn roll: Your opponent flips 2 cards
     and you bury up to 2 cards in your opponent''s discard pile.'
   db_uuid: 9e917043501e4163bf34be7ba7b6212f

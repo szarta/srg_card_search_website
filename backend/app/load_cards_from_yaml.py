@@ -22,7 +22,7 @@ from models.base import (
     CrowdMeterCard,
     AttackSubtype,
     PlayOrderSubtype,
-    Gender
+    Gender,
 )
 
 # Map CardType.value -> model class
@@ -106,7 +106,9 @@ def _build_kwargs(entry: dict) -> dict:
         "rules_text": entry.get("rules_text"),
         "errata_text": entry.get("errata_text"),
         "comments": entry.get("comments"),
-        "tags": ",".join(entry["tags"]) if isinstance(entry.get("tags"), list) else entry.get("tags"),
+        "tags": ",".join(entry["tags"])
+        if isinstance(entry.get("tags"), list)
+        else entry.get("tags"),
         "card_type": entry.get("card_type"),
     }
     cls = MODEL_MAP.get(entry.get("card_type"))
@@ -146,7 +148,9 @@ def _build_kwargs(entry: dict) -> dict:
             if g_key in mapping:
                 kw["gender"] = mapping[g_key]
             else:
-                print(f"⚠️  Skipping unknown gender {g!r} for '{entry.get('name')}' (expected Male/Female/Ambiguous)")
+                print(
+                    f"⚠️  Skipping unknown gender {g!r} for '{entry.get('name')}' (expected Male/Female/Ambiguous)"
+                )
     return kw
 
 

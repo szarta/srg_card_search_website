@@ -98,7 +98,8 @@
   strike: 8
   submission: 10
   grapple: 6
-  tags: Underworld
+  division: Underworld
+  gender: Male
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
   related_finishes:
@@ -186,7 +187,8 @@
   strike: 10
   submission: 5
   grapple: 9
-  tags: Global
+  gender: Male
+  division: Global
   rules_text: 'When you roll Power for your turn roll: Your opponent randomly reveals
     1 card in their hand; if it is a stop, they discard it.'
   srg_url: https://supershowthegame.com/product/aaron-dallas/
@@ -300,7 +302,8 @@
   tags: World Championship
   srg_url: https://supershowthegame.com/product/amazing-red/
   rules_text: When you roll Power for your turn roll draw 2 cards.
-  tag: World Championship
+  gender: Male
+  division: World Championship
   db_uuid: 2507369b706f4dec83b61e8da40b80c0
 - name: Infrared
   card_type: MainDeckCard
@@ -397,7 +400,8 @@
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
 - name: 4 Leaf Flynn (V1)
   card_type: SingleCompetitorCard
-  tags: United States
+  gender: Male
+  division: United States
   rules_text: 'When you roll Agility for your turn roll: flip 2 cards or 3 times per
     match: Add 1 card from your discard pile to your hand.'
   power: 8
@@ -447,6 +451,8 @@
   db_uuid: d76b3a128b3c43a7b1929a4e27eff816
   srg_url: https://supershowthegame.com/product/4-leaf-flynn/
 - name: 4 Leaf Flynn (V2)
+  gender: Male
+  division: Hardcore
   card_type: SingleCompetitorCard
   rules_text: When you have 4 Follow Ups in play, your Agility is +4.
   power: 8
@@ -455,7 +461,6 @@
   strike: 6
   submission: 7
   grapple: 10
-  tags: Hardcore
   db_uuid: fee2912bede943978d3d1ab2401a6e38
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
   related_finishes:
@@ -497,6 +502,7 @@
   db_uuid: bcfd8647a932431bbbfd4af323ea5b01
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
 - name: Abigail Fairy in Training
+  gender: Female
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   card_type: SingleCompetitorCard
   power: 7
@@ -505,7 +511,7 @@
   strike: 6
   submission: 5
   grapple: 8
-  tags: Underworld
+  division: Underworld
   rules_text: When you and your opponent roll the same skill for your turn role, look
     at the top 2 cards of your opponent's deck, bury 1, and discard the other.
   db_uuid: c0bfb96bd9054080960a0ecbaeb13e64

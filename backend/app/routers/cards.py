@@ -15,7 +15,7 @@ from models.base import (
     CardType,
     AttackSubtype,
     PlayOrderSubtype,
-    Gender
+    Gender,
 )
 from database import SessionLocal
 from schemas.card_schema import Card as CardSchema, PaginatedCardResponse
@@ -94,7 +94,9 @@ def list_cards(
         sq = apply_common_filters(sq, SingleCompetitorCard)
         # Optional: scope by type if explicitly requested (harmless if None)
         if card_type == CardType.single_competitor.value:
-            sq = sq.filter(SingleCompetitorCard.card_type == CardType.single_competitor.value)
+            sq = sq.filter(
+                SingleCompetitorCard.card_type == CardType.single_competitor.value
+            )
         if division:
             sq = sq.filter(SingleCompetitorCard.division.ilike(f"%{division}%"))
         if gender is not None:
@@ -176,7 +178,7 @@ def list_cards(
     items.sort(key=lambda c: (c.name or "").lower(), reverse=reverse)
 
     total_count = len(items)
-    paged = items[offset: offset + limit]
+    paged = items[offset : offset + limit]
 
     return {
         "total_count": total_count,

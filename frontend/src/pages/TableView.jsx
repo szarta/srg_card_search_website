@@ -24,6 +24,8 @@ export default function TableView() {
       atkType: obj.atkType || "",
       playOrder: obj.playOrder || "",
       deckCardNumber: obj.deckCardNumber || "",
+      division: obj.division || "",
+      gender: obj.gender || "",
       power: obj.power || "",
       agility: obj.agility || "",
       strike: obj.strike || "",
@@ -39,6 +41,8 @@ export default function TableView() {
     if (filters.query) q.append("q", filters.query);
     if (filters.cardType) q.append("card_type", filters.cardType);
     if (filters.atkType) q.append("atk_type", filters.atkType);
+    if (filters.division) q.append("division", filters.division);
+    if (filters.gender) q.append("gender", filters.gender); // only applies to Singles; harmless otherwise
 
     if (filters.playOrder) {
       const po = filters.playOrder === "Follow Up" ? "Followup" : filters.playOrder;
@@ -134,6 +138,7 @@ export default function TableView() {
       "related_finishes",
       "comments",
       "comment",
+      "gender"
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");

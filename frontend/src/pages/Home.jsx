@@ -16,6 +16,8 @@ const FILTER_KEYS = [
   "submission",
   "grapple",
   "technique",
+  "division",     // NEW
+  "gender",       // NEW
 ];
 
 const DEFAULT_LIMIT = 20;
@@ -36,6 +38,8 @@ export default function Home() {
     submission: "",
     grapple: "",
     technique: "",
+    division: "",   // NEW
+    gender: "",     // NEW
   });
 
   const [page, setPage] = useState(1);
@@ -45,7 +49,9 @@ export default function Home() {
 
   const readFromURL = () => {
     const obj = Object.fromEntries(searchParams.entries());
-    const f = { ...filters };
+    // start from empty values so missing params reset correctly
+    const empty = FILTER_KEYS.reduce((acc, k) => ((acc[k] = ""), acc), {});
+    const f = { ...empty };
     FILTER_KEYS.forEach((k) => {
       if (obj[k] !== undefined) f[k] = obj[k];
     });
@@ -97,6 +103,10 @@ export default function Home() {
           if (!Number.isNaN(n)) params.append(k, String(n));
         }
       });
+
+      // NEW: forward division & gender to backend
+      if (f.division) params.append("division", f.division);
+      if (f.gender)   params.append("gender", f.gender); // Male | Female | Ambiguous
 
       params.append("limit", String(lNum));
       params.append("offset", String((pNum - 1) * lNum));

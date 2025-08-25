@@ -8,6 +8,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [atkType, setAtkType] = useState("");
   const [playOrder, setPlayOrder] = useState("");
   const [deckCardNumber, setDeckCardNumber] = useState("");
+  const [division, setDivision] = useState("");
+  const [gender, setGender] = useState(""); // "", "Male", "Female", "Ambiguous"
 
   // Competitor stats
   const [power, setPower] = useState("");
@@ -34,6 +36,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     setGrapple(defaultValues.grapple ?? "");
     setTechnique(defaultValues.technique ?? "");
     setPageSize(parseInt(defaultValues.limit ?? 20, 10) || 20);
+    setDivision(defaultValues.division ?? "");
+    setGender(defaultValues.gender ?? "");
   }, [defaultValues]);
 
   const submitWith = (extra = {}) => {
@@ -49,6 +53,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       submission,
       grapple,
       technique,
+      division,
+      gender,
       limit: pageSize,
       ...extra, // allow overrides
     });
@@ -77,6 +83,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     add("submission", submission);
     add("grapple", grapple);
     add("technique", technique);
+    add("division", division);
+    add("gender", gender);
     // Keep current page size as a courtesy; TableView ignores pagination but might want to reflect "limit" in URL.
     add("limit", pageSize);
     navigate(`/table?${sp.toString()}`);
@@ -99,7 +107,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       {/* Text search */}
       <input
         type="text"
-        placeholder="Search name or rules..."
+        placeholder="Search name, rules, or tags..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="flex-1 min-w-[220px] bg-gray-900 text-white border border-gray-700 rounded p-2"
@@ -124,6 +132,10 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
             setSubmission("");
             setGrapple("");
             setTechnique("");
+            setDivision("");
+          }
+          if (v !== "SingleCompetitorCard") {
+            setGender("");
           }
         }}
         className="bg-gray-900 text-white border border-gray-700 rounded p-2"
@@ -204,6 +216,37 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
           ))}
         </div>
       )}
+
+        {/* Division: any Competitor card */}
+        {["SingleCompetitorCard","TornadoCompetitorCard","TrioCompetitorCard"].includes(cardType) && (
+        <div className="flex flex-col">
+            <label className="text-sm font-medium">Division</label>
+            <input
+            className="bg-gray-900 text-white border border-gray-700 rounded p-2"
+            value={division}
+            onChange={(e) => setDivision(e.target.value)}
+            placeholder="e.g., United States"
+            />
+        </div>
+        )}
+
+        {/* Gender: SingleCompetitor only */}
+        {cardType === "SingleCompetitorCard" && (
+        <div className="flex flex-col">
+            <label className="text-sm font-medium">Gender</label>
+            <select
+            className="bg-gray-900 text-white border border-gray-700 rounded p-2"
+            value={gender}
+            onChange={(e) => setGender(e.target.value)}
+            >
+            <option value="">Any</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Ambiguous">Ambiguous</option>
+            </select>
+        </div>
+        )}
+
 
       {/* Page size selector (inside Search UI) */}
       <div className="flex items-center gap-2">

@@ -10,6 +10,12 @@ import enum
 Base = declarative_base()
 
 
+class Gender(str, enum.Enum):
+    male = "Male"
+    female = "Female"
+    ambiguous = "Ambiguous"
+
+
 class CardType(str, enum.Enum):
     main_deck = "MainDeckCard"
     single_competitor = "SingleCompetitorCard"
@@ -96,6 +102,7 @@ class CompetitorCard(Card):
     submission = Column(Integer)
     grapple = Column(Integer)
     technique = Column(Integer)
+    division = Column(String, nullable=True)
 
     related_finishes = relationship(
         "MainDeckCard", secondary=related_finishes_table, backref="finishers_for"
@@ -105,6 +112,7 @@ class CompetitorCard(Card):
 class SingleCompetitorCard(CompetitorCard):
     __tablename__ = "single_competitor_cards"
     db_uuid = Column(String, ForeignKey("competitor_cards.db_uuid"), primary_key=True)
+    gender = Column(Enum(Gender, name="gender_enum"), nullable=True)
 
 
 class TornadoCompetitorCard(CompetitorCard):

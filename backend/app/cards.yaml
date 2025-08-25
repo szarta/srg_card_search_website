@@ -41,7 +41,8 @@
   strike: 7
   submission: 6
   grapple: 9
-  tags: Global
+  division: Global
+  gender: Male
   db_uuid: eb68a4f3acd74fb592885308366529f2
   card_type: SingleCompetitorCard
   related_finishes:

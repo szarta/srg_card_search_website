@@ -106,6 +106,18 @@ export default function CardDetail() {
                   <td>Yes</td>
                 </tr>
               )}
+              {card.division && (
+                <tr>
+                  <td className="font-semibold py-1">Division</td>
+                  <td>{card.division}</td>
+               </tr>
+              )}
+              {card.gender && (
+                <tr>
+                  <td className="font-semibold py-1">Gender</td>
+                  <td>{card.gender}</td>
+                </tr>
+              )}
               {card.rules_text && (
                 <tr>
                   <td className="font-semibold py-4 align-top">Rules</td>

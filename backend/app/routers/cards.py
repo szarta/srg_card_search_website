@@ -63,8 +63,11 @@ def list_cards(
 
     def apply_common_filters(qry, cls):
         if q:
+            # Match name, rules text, OR tags across all card types
             qry = qry.filter(
-                (cls.name.ilike(f"%{q}%")) | (cls.rules_text.ilike(f"%{q}%"))
+                (cls.name.ilike(f"%{q}%"))
+                | (cls.rules_text.ilike(f"%{q}%"))
+                | (cls.tags.ilike(f"%{q}%"))
             )
         if is_banned is not None:
             qry = qry.filter(cls.is_banned == is_banned)

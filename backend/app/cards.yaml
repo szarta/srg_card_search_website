@@ -3201,8 +3201,9 @@
   submission: 5
   grapple: 6
   gender: Male
-  rules_text: "When a card or Gimmick causes you to bury any number of cards, shuffle your deck then draw 1 card."
-
+  rules_text: When a card or Gimmick causes you to bury any number of cards, shuffle
+    your deck then draw 1 card.
+  db_uuid: 014bc171e93a4ed9a4d26d6d7fab3039
 - name: The Cyclone (V2)
   card_type: SingleCompetitorCard
   srg_url: https://supershowthegame.com/product/cyclone-os/
@@ -17478,8 +17479,9 @@
   submission: 6
   grapple: 10
   gender: Male
-  rules_text: "When you hit a \"Strike\" with \"Block\", \"Clothesline\" or \"Tackle\" in the name, draw 1 card and your next turn roll is +2."
-
+  rules_text: When you hit a "Strike" with "Block", "Clothesline" or "Tackle" in the
+    name, draw 1 card and your next turn roll is +2.
+  db_uuid: 4212b765cda246c2a70bb6b346588e5b
 - name: Dive Bar Bard
   card_type: SingleCompetitorCard
   power: 6
@@ -17489,8 +17491,9 @@
   submission: 5
   grapple: 8
   gender: Male
-  rules_text: "At the start of the match, search your deck for 2 cards with \"Sing\" or \"Guitar\" in the name and add them to your hand."
-
+  rules_text: At the start of the match, search your deck for 2 cards with "Sing"
+    or "Guitar" in the name and add them to your hand.
+  db_uuid: 076a91a4326049abb39d86bdc9187ceb
 - name: The Heartbreaker
   card_type: SingleCompetitorCard
   power: 6
@@ -17500,7 +17503,6 @@
   submission: 9
   grapple: 8
   gender: Male
-  rules_text: "When any number of cards your opponent has in play moves to another location, discard 1 card your opponent has in play."
-
-
-
+  rules_text: When any number of cards your opponent has in play moves to another
+    location, discard 1 card your opponent has in play.
+  db_uuid: 9d772bb04b9d462ba46019b2a6922d8d

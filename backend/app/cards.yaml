@@ -4319,6 +4319,7 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Stop any Lead Strike.  Each player draws 1 card.
   deck_card_number: 3
   db_uuid: 8fea0c80200f497c920d95c56af5a51b
 - name: Steel Chain (V1)
@@ -4421,6 +4422,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Discard all cards in play.'
   deck_card_number: 4
   db_uuid: c8f2b59005a54db7aa26bacd590fdf31
 - name: Blast
@@ -4949,6 +4953,9 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Submission.
+
+    Each player draws 1 card.'
   deck_card_number: 5
   db_uuid: 57c344b84d304441b3111293444ba30d
 - name: Surfboard Slam
@@ -5219,6 +5226,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Your cards cannot be stopped by cards with skill requirements.
+
+    If your Technique skill is greater than your opponent''s Technique skill, this
+    card cannot be stopped.'
   deck_card_number: 6
   db_uuid: b14038b10078470084fa4f97930f7f3d
 - name: Philly Cheese Grater
@@ -5704,6 +5715,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 7
+  rules_text: 'The next time you roll Strike for your turn roll, it is +2.
+
+    When your opponent''s Gimmick would move cards in their discard pile to any location,
+    bury the cards instead.'
   db_uuid: 72e8bc2d2ddb40f68d50be7f62568f25
 - name: Unacceptable Impact
   play_order: Lead
@@ -5735,6 +5750,10 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'The next time you roll Grapple for your turn roll, it is +2.
+
+    When your opponent''s Gimmick would move cards in their discard pile to any location,
+    bury the cards instead.'
   deck_card_number: 8
   db_uuid: f60c818851f6456c9da8bf4389827808
 - name: Airplane Spin
@@ -6148,6 +6167,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Search your deck for 1 Submission and put it into your discard pile,
+    then shuffle your deck, or shuffle 2 Submissions from your discard pile into your
+    deck.
   deck_card_number: 9
   db_uuid: a652df7beeb643d788dd143654f3af9f
 - name: An Iconic Performance
@@ -12791,6 +12813,9 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Look at your opponent''s hand, choose 1 card and discard it.
+
+    Your opponent''s next turn roll is -2.'
   deck_card_number: 24
   db_uuid: 1c111ffc74784973bdfad552420bc1cd
 - name: Destiny's Call
@@ -17515,3 +17540,139 @@
   rules_text: When any number of cards your opponent has in play moves to another
     location, discard 1 card your opponent has in play.
   db_uuid: 9d772bb04b9d462ba46019b2a6922d8d
+- name: EDM
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 10
+  strike: 5
+  submission: 8
+  grapple: 7
+  rules_text: When your opponent's turn roll is 10 you may draw 1 card.
+  db_uuid: a9b14669549e4cae8ac0f5ceb1b63aef
+  related_finishes:
+  - 37e09229ff264057aa229e88053cc49d
+  - d851688448d743b887504d08fb4d843b
+  - 29a0cf0aa2c6461293cb11049dc5fbff
+- name: The Dub Step
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+5 to Strike
+
+    Your opponent buries 1 random card in their hand.'
+  db_uuid: 37e09229ff264057aa229e88053cc49d
+- name: The Beat Drop
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    Draw 1 card.'
+  db_uuid: d851688448d743b887504d08fb4d843b
+- name: Tearin' Up the 1's & 2's
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    If your opponent breaks out, add this card to your hand.'
+  db_uuid: 29a0cf0aa2c6461293cb11049dc5fbff
+- name: Dr. Jake Hill
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: After a breakout, put a card with "Potion" in the name from your discard
+    pile into play.
+  db_uuid: ed3ee94858c249e69bd462512b65c825
+  related_finishes:
+  - 6069f8d118324728a4d8a741dda84d8c
+  - ef525bfc0b664c8498c6978d3f1333f6
+  - 349601cfd009410da846a1e860aa6856
+- name: Superkick Over the Top
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: When the Crowd Meter is 4 or greater, this card is also a Follow Up.
+  db_uuid: 6069f8d118324728a4d8a741dda84d8c
+- name: Top Rope Superplex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'Each player buries 4 cards in their hand.
+
+    +1 to all your skills.'
+  db_uuid: ef525bfc0b664c8498c6978d3f1333f6
+- name: Replication Potion No. 30
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    When this card is discarded from play for a breakout, put 1 Lead with "Potion"
+    in the name from your discard pile into play.'
+  db_uuid: 349601cfd009410da846a1e860aa6856
+- name: Rambo Apocalypse
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: If you rolled Power for your turn roll, you may discard 3 cards from
+    your hand to stop a card.
+  db_uuid: 80b626dbcde047a595f325056eaa6907
+  related_finishes:
+  - 1e8bf5f2b4f44300b8f4da682117f964
+  - 98a849628df54d039b2257380fadae1d
+  - 68083df0d3624138be5234518cc0d640
+- name: "The Star Uppercut\u2122"
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    +1 to Grapple
+
+    If you stopped a card with your Gimmick last turn, double these bonuses.'
+  db_uuid: 1e8bf5f2b4f44300b8f4da682117f964
+- name: Lights! Camera! Stomp!
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    When this card is in your discard pile: If the Crowd Meter is 2 or greater:
+
+    Your Power and Strike are +1 during turn rolls.'
+  db_uuid: 98a849628df54d039b2257380fadae1d
+- name: Denouement
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    Discard all cards your opponent has in play.
+
+    Your finish roll is +1 for each skill requirement card discarded.'
+  db_uuid: 68083df0d3624138be5234518cc0d640

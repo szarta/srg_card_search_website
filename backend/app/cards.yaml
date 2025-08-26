@@ -14853,18 +14853,6 @@
   deck_card_number: 30
   card_type: MainDeckCard
   db_uuid: 8d5a540e09f4463bb9be312e0d69f0e9
-- name: ARFox
-  power: 6
-  technique: 7
-  agility: 10
-  strike: 8
-  submission: 5
-  grapple: 9
-  rules_text: 'During your turn: When your turn roll is Agility, your Grapple cards
-    are also Leads.'
-  division: Global
-  card_type: SingleCompetitorCard
-  db_uuid: 7c5473bf1e6243cdb12cc2d83f366ac8
 - name: Arcade Addict Aaron
   power: 6
   technique: 7

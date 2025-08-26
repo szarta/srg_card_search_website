@@ -181,6 +181,65 @@ export default function TableView(props) {
     return [...preferred, ...Array.from(keys).sort()];
   }, [rows]);
 
+const buildExportColumns = () => {
+  const cols = [...columns];
+  if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "gender")) && !cols.includes("gender")) {
+    cols.push("gender");
+  }
+  if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) && !cols.includes("deck_card_number")) {
+    cols.push("deck_card_number");
+  }
+  return cols;
+};
+
+const htmlEscape = (v) => {
+  if (v === null || v === undefined) return "";
+  return String(v)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+};
+
+const toHTMLNoCSS = (title = "SRG Card List") => {
+  const cols = buildExportColumns();
+  const thead = `<tr>${cols.map(c => `<th>${htmlEscape(c)}</th>`).join("")}</tr>`;
+  const tbody = rows.map(r =>
+    `<tr>${cols.map(c => {
+      let val = r?.[c];
+      if (Array.isArray(val) || typeof val === "object") {
+        try { val = JSON.stringify(val); } catch { /* ignore */ }
+      }
+      return `<td>${htmlEscape(val ?? "")}</td>`;
+    }).join("")}</tr>`
+  ).join("");
+
+  // No CSS, just a minimal HTML document with a table
+  return `<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>${htmlEscape(title)}</title>
+<table>
+  <thead>${thead}</thead>
+  <tbody>${tbody}</tbody>
+</table>
+</html>`;
+};
+
+const downloadHTMLNoCSS = (filenameBase = "srg_cards") => {
+  const html = toHTMLNoCSS("SRG Card List");
+  const blob = new Blob([html], { type: "text/html;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filenameBase.replace(/\.csv$/i, "").replace(/\.html$/i, "") + ".html";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+};
+
+
   const escapeCSV = (val) => {
     if (val === null || val === undefined) return "";
     let s = Array.isArray(val) || typeof val === "object" ? JSON.stringify(val) : String(val);
@@ -271,14 +330,23 @@ export default function TableView(props) {
           <h1 className="text-3xl font-bold">Results Table</h1>
           <div className="flex items-center gap-2">
             {enableExport && (
-              <button
+            <>
+                <button
                 onClick={handleDownloadCSV}
                 className="px-3 py-2 bg-emerald-700 rounded hover:bg-emerald-600"
                 disabled={loading || rows.length === 0}
                 title="Download all rows as CSV"
-              >
+                >
                 Download CSV
-              </button>
+                </button>
+                <button
+                onClick={() => downloadHTMLNoCSS(exportFileName)}
+                className="px-3 py-2 bg-indigo-700 rounded hover:bg-indigo-600"
+                disabled={loading || rows.length === 0}
+                >
+                Download HTML (no CSS)
+                </button>
+            </>
             )}
             <Link
               to={`/?${searchParams.toString()}`}

@@ -15675,7 +15675,7 @@
   grapple: 9
   division: Old School
   gender: Male
-  srg_url: "https://supershowthegame.com/product/boy-howdy-os/"
+  srg_url: https://supershowthegame.com/product/boy-howdy-os/
   rules_text: The Crowd Meter is considered +1 for your card effects.
   db_uuid: a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
@@ -15724,8 +15724,9 @@
   strike: 8
   submission: 5
   grapple: 9
-  rules_text: "When you roll Power for your turn roll, your cards with \"Armenian\" in the name cannot be stopped."
-
+  rules_text: When you roll Power for your turn roll, your cards with "Armenian" in
+    the name cannot be stopped.
+  db_uuid: baf608e1f3564c1686dc33531b4d7e92
 - name: Chronus
   card_type: SingleCompetitorCard
   power: 10

@@ -17124,6 +17124,14 @@
     played a card, you may reveal this card and your opponent buries 3 cards in their
     hand. End your turn.'
   db_uuid: 8b445e6fe18f424d86d698ce436981ef
+- name: Ringside Receipt From
+  tags: Newman
+  card_type: SpectacleCard
+  rules_text: 'Once a match
+
+    If your opponent forced you to bury or disard 2 or more cards from your hand this
+    turn and / or turn roll, they randomly bury 2 cards in their hand.'
+  db_uuid: 3bb645b5762d4eda9987cae2a6bfa842
 - name: Taunts Opponent
   tags: Newman
   card_type: SpectacleCard

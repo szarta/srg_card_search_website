@@ -9,7 +9,13 @@ const COMPETITOR_TYPES = new Set([
   "TrioCompetitorCard",
 ]);
 
-export default function TableView() {
+export default function TableView(props) {
+  const {
+    rowsOverride = null,
+    enableExport = true,
+    exportFileName = "srg_cards_results.csv",
+  } = props;
+
   const [searchParams] = useSearchParams();
   const [rows, setRows] = useState([]);
   const [totalCount, setTotalCount] = useState(0);
@@ -70,6 +76,17 @@ export default function TableView() {
   useEffect(() => {
     let cancelled = false;
 
+    // If rowsOverride is provided, bypass fetching entirely.
+    if (Array.isArray(rowsOverride)) {
+      setLoading(false);
+      setError("");
+      setRows(rowsOverride);
+      setTotalCount(rowsOverride.length);
+      return () => {
+        cancelled = true;
+      };
+    }
+
     const fetchAll = async () => {
       setLoading(true);
       setError("");
@@ -122,7 +139,7 @@ export default function TableView() {
     return () => {
       cancelled = true;
     };
-  }, [filters]);
+  }, [filters, rowsOverride]);
 
   // Columns: union of keys minus hidden (with per-type visibility)
   const columns = useMemo(() => {
@@ -138,7 +155,7 @@ export default function TableView() {
       "related_finishes",
       "comments",
       "comment",
-      "gender"
+      "gender", // keep hidden in UI, include in CSV if present
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
@@ -172,12 +189,16 @@ export default function TableView() {
   };
 
   const toCSV = () => {
-    // Build CSV columns from visible columns, but include certain hidden fields too.
-    // We keep 'gender' hidden in the UI, but include it in CSV if present in data.
+    // CSV columns = visible columns + include hidden-but-useful fields when present
     const csvColumns = (() => {
       const cols = [...columns];
+      // include gender if present anywhere
       if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "gender")) && !cols.includes("gender")) {
         cols.push("gender");
+      }
+      // ensure deck_card_number is exported when present, even if not visible
+      if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) && !cols.includes("deck_card_number")) {
+        cols.push("deck_card_number");
       }
       return cols;
     })();
@@ -193,7 +214,7 @@ export default function TableView() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "srg_cards_results.csv";
+    a.download = exportFileName;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -241,20 +262,24 @@ export default function TableView() {
     );
   };
 
+  const hasOverride = Array.isArray(rowsOverride);
+
   return (
     <div className="min-h-screen flex flex-col text-white">
       <div className="w-full px-4 py-8">
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-3xl font-bold">Results Table</h1>
           <div className="flex items-center gap-2">
-            <button
-              onClick={handleDownloadCSV}
-              className="px-3 py-2 bg-emerald-700 rounded hover:bg-emerald-600"
-              disabled={loading || rows.length === 0}
-              title="Download all rows as CSV"
-            >
-              Download CSV
-            </button>
+            {enableExport && (
+              <button
+                onClick={handleDownloadCSV}
+                className="px-3 py-2 bg-emerald-700 rounded hover:bg-emerald-600"
+                disabled={loading || rows.length === 0}
+                title="Download all rows as CSV"
+              >
+                Download CSV
+              </button>
+            )}
             <Link
               to={`/?${searchParams.toString()}`}
               className="px-3 py-2 bg-gray-800 rounded hover:bg-gray-700"
@@ -271,7 +296,9 @@ export default function TableView() {
         ) : (
           <>
             <p className="text-gray-300 mb-2">
-              Showing {rows.length.toLocaleString()} of {totalCount.toLocaleString()} matches
+              {hasOverride
+                ? `Showing ${rows.length.toLocaleString()} items`
+                : `Showing ${rows.length.toLocaleString()} of ${totalCount.toLocaleString()} matches`}
             </p>
 
             <div className="overflow-x-auto overflow-y-auto max-h-[75vh] border border-gray-700 rounded">

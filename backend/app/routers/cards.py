@@ -6,6 +6,8 @@ from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session, joinedload
 from typing import Optional, List
 import re
+from pydantic import BaseModel
+from sqlalchemy import func
 
 from models.base import (
     Card,
@@ -80,13 +82,6 @@ def list_cards(
         return qry
 
     items: List[Card] = []
-
-    # If caller specified a type, only hit that mapper; else include all.
-    competitor_types = {
-        CardType.single_competitor.value,
-        CardType.tornado_competitor.value,
-        CardType.trio_competitor.value,
-    }
 
     # ---- Single Competitors (can filter gender) ----
     if card_type is None or card_type == CardType.single_competitor.value:
@@ -272,3 +267,119 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Card not found")
 
     return CardSchema.model_validate(card).model_dump()
+
+
+class NamesRequest(BaseModel):
+    names: list[str]
+    quantities: list[int] | None = None  # accepted but ignored for now (unique cards)
+
+
+@router.post("/cards/by-names")
+def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
+    """
+    Resolve a list of card names to full card rows, preserving the order of the input.
+    Exact, case-insensitive name match. Returns any unmatched names for the UI to display.
+    """
+    if not payload.names:
+        return {"rows": [], "unmatched": []}
+
+    # 1) normalize inputs and preserve original order
+    ordered = []
+    seen_positions = {}
+    for i, raw in enumerate(payload.names):
+        name = (raw or "").strip()
+        if not name:
+            continue
+        ordered.append(name)
+        # remember first position for stable ordering of duplicates
+        seen_positions.setdefault(name.lower(), i)
+
+    if not ordered:
+        return {"rows": [], "unmatched": []}
+
+    lname_set = {n.lower() for n in ordered}
+
+    # 2) find candidate base rows by exact (case-insensitive) name
+    base_rows: list[Card] = (
+        db.query(Card).filter(func.lower(Card.name).in_(lname_set)).all()
+    )
+
+    # Map name(lower) -> list of db_uuids (just in case of duplicate names across types)
+    by_lname = {}
+    for c in base_rows:
+        by_lname.setdefault(c.name.lower(), []).append(c)
+
+    # 3) batch-hydrate by type so subclass columns (e.g. deck_card_number, stats) are present
+    singles, tornado_trio, maindeck, others = [], [], [], []
+    for c in base_rows:
+        if c.card_type == CardType.single_competitor.value:
+            singles.append(c.db_uuid)
+        elif c.card_type in {
+            CardType.tornado_competitor.value,
+            CardType.trio_competitor.value,
+        }:
+            tornado_trio.append(c.db_uuid)
+        elif c.card_type == CardType.main_deck.value:
+            maindeck.append(c.db_uuid)
+        else:
+            others.append(c.db_uuid)
+
+    # query each mapper
+    hydrated: dict[str, Card] = {}
+
+    if singles:
+        for row in (
+            db.query(SingleCompetitorCard)
+            .options(
+                joinedload(SingleCompetitorCard.related_cards),
+                joinedload(SingleCompetitorCard.related_finishes),
+            )
+            .filter(SingleCompetitorCard.db_uuid.in_(singles))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if tornado_trio:
+        for row in (
+            db.query(CompetitorCard)
+            .options(
+                joinedload(CompetitorCard.related_cards),
+                joinedload(CompetitorCard.related_finishes),
+            )
+            .filter(CompetitorCard.db_uuid.in_(tornado_trio))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if maindeck:
+        for row in (
+            db.query(MainDeckCard)
+            .options(joinedload(MainDeckCard.related_cards))
+            .filter(MainDeckCard.db_uuid.in_(maindeck))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row  # includes deck_card_number
+
+    if others:
+        for row in (
+            db.query(Card)
+            .options(joinedload(Card.related_cards))
+            .filter(Card.db_uuid.in_(others))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    # 4) build output in the order of the input names
+    rows_out = []
+    unmatched = []
+    for name in ordered:
+        candidates = by_lname.get(name.lower())
+        if not candidates:
+            unmatched.append(name)
+            continue
+        # If multiple rows share the same name, include them all
+        for c in candidates:
+            obj = hydrated.get(c.db_uuid, c)
+            rows_out.append(CardSchema.model_validate(obj).model_dump())
+
+    return {"rows": rows_out, "unmatched": unmatched}

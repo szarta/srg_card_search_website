@@ -17375,3 +17375,85 @@
   rules_text: Once during each of your turns, you may discard 1 Lead you have in play
     to draw 1 card.
   db_uuid: 2484608eb1014b2a8ba2b96948539452
+- name: El Blanco Diablo (V1)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  gender: Male
+  rules_text: When you hit a Strike card, flip 2 cards then take 1 stop card in your
+    discard pile and add it to your hand.
+  db_uuid: fbc6b406877442389762487515cd1b5d
+- name: El Blanco Diablo (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 5
+  gender: Male
+  rules_text: Your opponent's maximum handsize is -1 for each stop they have in play
+    (Max -5).
+  db_uuid: 3c782c62e1c346ad9265dfc82d3131ca
+- name: Bronzeberg
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: You may bury 3 cards in your hand to stop a Strike.
+  db_uuid: f3f1d79c227847a584755e0b23843fc9
+- name: Brumeister (V1)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 9
+  gender: Male
+  rules_text: When your Follow Up Submission or Grapple is stopped, reveal the top
+    card of your deck and play it.  If you cannot play it put it in your discard pile.
+  db_uuid: dbc76881ba8246e99a4550c490f4ecfa
+- name: Brumeister (V2)
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: When your opponent moves any number of cards from their discard pile
+    with their card effect or Gimmick, discard 1 card they have in play.
+  db_uuid: b83fd4886d314b15b249a4fc97512e25
+- name: Cactus Sac (V1)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 9
+  grapple: 7
+  gender: Male
+  rules_text: At the start of your turn if you have fewer than 5 cards in your hand;
+    draw until you have 5 cards in hand.
+  db_uuid: c7119d9f0e1d443299252fe35743ae08
+- name: Cactus Sac (V2)
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 9
+  grapple: 7
+  rules_text: When you stop a Finish, draw 2 cards.
+  gender: Male
+  db_uuid: b220c64e3825487883e0396b0707082d

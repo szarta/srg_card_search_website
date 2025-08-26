@@ -15675,6 +15675,7 @@
   grapple: 9
   division: Old School
   gender: Male
+  srg_url: "https://supershowthegame.com/product/boy-howdy-os/"
   rules_text: The Crowd Meter is considered +1 for your card effects.
   db_uuid: a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
@@ -15702,7 +15703,7 @@
   rules_text: 'When you roll Power for your turn roll, choose 1 opponent: their next
     turn roll is -2.'
   db_uuid: 12d4949f97d344238c8b1c7cdc719a63
-- name: Charlie Tiger
+- name: Charlie Tiger (V1)
   card_type: SingleCompetitorCard
   power: 10
   technique: 6
@@ -15715,6 +15716,16 @@
   rules_text: When your turn roll is at least 5 greater than your opponent's turn
     roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
+- name: Charlie Tiger  (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: "When you roll Power for your turn roll, your cards with \"Armenian\" in the name cannot be stopped."
+
 - name: Chronus
   card_type: SingleCompetitorCard
   power: 10
@@ -17150,7 +17161,7 @@
     blank the text of a card hit this turn if it is not the first card hit. The card
     is blank until the end of the turn.'
   db_uuid: 54ccc2a227f44c84b6f5be4215b8aa86
-- name: Undermines the Operation
+- name: Undermines the Opposition
   tags: Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:

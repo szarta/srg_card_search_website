@@ -14959,6 +14959,8 @@
   submission: 10
   grapple: 8
   division: Old School
+  srg_url: https://supershowthegame.com/product/bad-billy-bagpipes/
+  gender: Male
   card_type: SingleCompetitorCard
   rules_text: When you hit a card, if that card is the only card you have in play,
     your opponent randomly discards 1 card from their hand.
@@ -15464,6 +15466,7 @@
   grapple: 6
   division: Intergalactic
   gender: Male
+  srg_url: https://supershowthegame.com/product/antagonist-aprilfools/
   rules_text: 'Once per match: When you roll Power for your turn roll: You may bury
     1 card in your opponent''s discard pile and your opponent shuffles their hand
     into their deck and adds the top 3 cards of their deck to their hand.'
@@ -15478,6 +15481,7 @@
   grapple: 6
   division: Hardcore
   gender: Male
+  srg_url: https://supershowthegame.com/product/antagonist-new/
   rules_text: 'During your turn: When you hit a card with "Microphone" in the name,
     your opponent shuffles 1 card from their hand into their deck.'
   db_uuid: 34bbf6706bbe426fbf13d2a73ad04b0a
@@ -15491,6 +15495,7 @@
   grapple: 6
   division: Intergalactic
   gender: Male
+  srg_url: https://supershowthegame.com/product/antagonist/
   rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in
     your opponent''s discard pile, your opponent shuffles their hand into their deck
     and adds the top 6 cards of their deck to their hand.'

@@ -17676,7 +17676,6 @@
 
     Your finish roll is +1 for each skill requirement card discarded.'
   db_uuid: 68083df0d3624138be5234518cc0d640
-
 - name: Big Match Pete
   card_type: SingleCompetitorCard
   power: 6
@@ -17685,9 +17684,10 @@
   strike: 9
   submission: 7
   grapple: 10
-  rules_text: "At the start of the match: Draw 3 cards, and your 1st turn roll is +3."
+  rules_text: 'At the start of the match: Draw 3 cards, and your 1st turn roll is
+    +3.'
   gender: Male
-
+  db_uuid: 9df6a6d4fdfa4b0f95cb8c64737fa4aa
 - name: Bjorn The Norseman
   card_type: SingleCompetitorCard
   power: 8
@@ -17698,7 +17698,7 @@
   grapple: 10
   rules_text: After you flip any number of cards, draw the bottom card of your deck.
   gender: Male
-
+  db_uuid: da6ce3bf4d2f4f36840d958baf646f69
 - name: Black Scorpion X
   card_type: SingleCompetitorCard
   power: 9
@@ -17707,9 +17707,10 @@
   strike: 7
   submission: 10
   grapple: 8
-  rules_text: When you hit a Submission: Your opponent flips 1 card, and you may bury 1 card in your opponent's discard pile.
+  rules_text: 'When you hit a Submission: Your opponent flips 1 card, and you may
+    bury 1 card in your opponent''s discard pile.'
   gender: Male
-
+  db_uuid: 079d19f7ea604b82a6af4a9ae7f9f453
 - name: Blossom Tyne
   card_type: SingleCompetitorCard
   power: 6
@@ -17718,9 +17719,10 @@
   strike: 5
   submission: 10
   grapple: 9
-  rules_text: Once during your turn roll: if you have at least 2 fewer cards in your hand than your opponent, draw 1 card.
+  rules_text: 'Once during your turn roll: if you have at least 2 fewer cards in your
+    hand than your opponent, draw 1 card.'
   gender: Female
-
+  db_uuid: f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: Blue Line Beast
   card_type: SingleCompetitorCard
   power: 8
@@ -17729,9 +17731,10 @@
   strike: 7
   submission: 9
   grapple: 10
-  rules_text: When you hit a Grapple, look at the top 3 cards of your opponent's deck, flip 1, bury 1, and put the other back on top of their deck.
+  rules_text: When you hit a Grapple, look at the top 3 cards of your opponent's deck,
+    flip 1, bury 1, and put the other back on top of their deck.
   gender: Male
-
+  db_uuid: 9932fcbfe7ac4e61b445a809154529ba
 - name: The Boatswain's Mate Spencer Vance
   card_type: SingleCompetitorCard
   power: 7
@@ -17740,9 +17743,12 @@
   strike: 9
   submission: 10
   grapple: 8
-  rules_text: "When you hit a card with \"Drop\" in the name your opponent buries 1 card in their hand.\nWhen you have 3 cards in play with \"Drop\" in the name, this match has no disqualification."
-  gender: Male
+  rules_text: 'When you hit a card with "Drop" in the name your opponent buries 1
+    card in their hand.
 
+    When you have 3 cards in play with "Drop" in the name, this match has no disqualification.'
+  gender: Male
+  db_uuid: e38cced416cc45e0a9e1367935fd590a
 - name: Bookermania
   card_type: SingleCompetitorCard
   power: 9
@@ -17751,9 +17757,10 @@
   strike: 10
   submission: 5
   grapple: 7
-  rules_text: "When your opponent increases their turn roll, increase your turn roll the same amount.  If that increase came from a card, your roll is +1 additional."
+  rules_text: When your opponent increases their turn roll, increase your turn roll
+    the same amount.  If that increase came from a card, your roll is +1 additional.
   gender: Male
-
+  db_uuid: 01998721b8344b9e955ec78fb3151bbc
 - name: The Brain Still Standing
   card_type: SingleCompetitorCard
   power: 7
@@ -17762,9 +17769,9 @@
   strike: 5
   submission: 6
   grapple: 10
-  rules_text: "When your card is stopped, you may re-rooll your next turn roll."
+  rules_text: When your card is stopped, you may re-rooll your next turn roll.
   gender: Male
-
+  db_uuid: 7007c64893994620aaa816d370d66df3
 - name: Brett the Metal Head
   card_type: SingleCompetitorCard
   power: 8
@@ -17773,9 +17780,10 @@
   strike: 9
   submission: 6
   grapple: 7
-  rules_text: "Your cards with \"Crowd\", \"Elbow\", or \"Slam\" in the name have the added text: \"Your next turn roll is +1."
+  rules_text: 'Your cards with "Crowd", "Elbow", or "Slam" in the name have the added
+    text: "Your next turn roll is +1.'
   gender: Male
-
+  db_uuid: 7349f9255a09467696401a2869c7fa29
 - name: Brian Wait_4_It Schmidt
   card_type: SingleCompetitorCard
   power: 7
@@ -17784,10 +17792,10 @@
   strike: 6
   submission: 10
   grapple: 5
-  rules_text: "Your opponent cannot play a Follow Up or Finish without a Lead in play."
+  rules_text: Your opponent cannot play a Follow Up or Finish without a Lead in play.
   gender: Male
-
-- name: "Brimstone"
+  db_uuid: 71b6b581c7a249958c2e512d3d89afaa
+- name: Brimstone
   card_type: SingleCompetitorCard
   power: 10
   technique: 9
@@ -17795,10 +17803,11 @@
   strike: 8
   submission: 7
   grapple: 6
-  rules_text: "During your turn: If you rolled Power or Technique for your turn roll, choose 1 stop your opponent has in play and discard it."
+  rules_text: 'During your turn: If you rolled Power or Technique for your turn roll,
+    choose 1 stop your opponent has in play and discard it.'
   gender: Male
-
-- name: "Brock Smith (V1)"
+  db_uuid: 2ae23d6498254dec98147137a5c3f197
+- name: Brock Smith (V1)
   card_type: SingleCompetitorCard
   power: 6
   technique: 10
@@ -17806,10 +17815,13 @@
   strike: 5
   submission: 9
   grapple: 7
-  rules_text: "At the start of the match:\nChoose an opponent, when you and that opponent roll the same skill and they would win the turn roll, bump instead."
-  gender: Male
+  rules_text: 'At the start of the match:
 
-- name: "Brock Smith (V2)"
+    Choose an opponent, when you and that opponent roll the same skill and they would
+    win the turn roll, bump instead.'
+  gender: Male
+  db_uuid: 0640ec286ebd4c409d6b0fa17ab5711e
+- name: Brock Smith (V2)
   card_type: SingleCompetitorCard
   power: 5
   technique: 7
@@ -17817,11 +17829,13 @@
   strike: 6
   submission: 9
   grapple: 8
-  comment: "The GOAT"
+  comment: The GOAT
   gender: Male
-  rules_text: "Once per turn roll:\nWhen you roll Strike, you may re-roll."
+  rules_text: 'Once per turn roll:
 
-- name: "Brother Dan"
+    When you roll Strike, you may re-roll.'
+  db_uuid: 8b89fe0295184f92a159339ac164756b
+- name: Brother Dan
   card_type: SingleCompetitorCard
   power: 7
   technique: 6
@@ -17830,9 +17844,9 @@
   submission: 8
   grapple: 5
   gender: Male
-  rules_text: "When you increase your turn roll, your opponent's turn roll is -1."
-
-- name: "Cabana Man Dan"
+  rules_text: When you increase your turn roll, your opponent's turn roll is -1.
+  db_uuid: 73cf2f31cea34d14afdff694aae099e5
+- name: Cabana Man Dan
   card_type: SingleCompetitorCard
   power: 5
   technique: 6
@@ -17840,9 +17854,11 @@
   strike: 7
   submission: 8
   grapple: 9
-  rules_text: "Your Power is +1 (Max +3) for each card you have in play with \"Coconut\", \"Chop\", or \"Surf\" in the name."
-
-- name: "Caleb Konley"
+  rules_text: Your Power is +1 (Max +3) for each card you have in play with "Coconut",
+    "Chop", or "Surf" in the name.
+  gender: Male
+  db_uuid: 6812bd4569e741bf811f9e6eaca8f7a2
+- name: Caleb Konley
   card_type: SingleCompetitorCard
   power: 6
   technique: 9
@@ -17850,4 +17866,7 @@
   strike: 8
   submission: 5
   grapple: 10
-    #  rules_text: "Once a turn: when
+  rules_text: 'Once a turn: When your opponent buries any number of cards, put 1 card
+    from your discard pile on top of your deck.'
+  gender: Male
+  db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63

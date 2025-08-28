@@ -18122,3 +18122,54 @@
 
     +2 to Grapple'
   db_uuid: 597e7fa12e79443d94b6121b5d4bf4ee
+- name: Candyman Dan
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  rules_text: 'Once during your turn:
+
+    You may discard 1 card you have in play:
+
+    Coose 1 card of the same card type (Lead, Follow Up, or Finish) that your opponent
+    has in play and discard it.'
+  gender: Male
+  db_uuid: f8dad17fa6a940b89d0466691d98b7fc
+- name: The Cannoli
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: You get 1 additional breakout roll on all breakouts.
+  gender: Male
+  db_uuid: 95cf443904d84b21bd323b1bf97fd926
+- name: Captain Connie
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 8
+  rules_text: When your opponent's turn roll is 10, shuffle 2 cards from your discard
+    pile into your deck.
+  gender: Female
+  db_uuid: 9cf747fb137c4f36a025d5194af5705c
+- name: Captain El Shoes
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Submission for your turn roll:  add 1 Lead from your
+    discard pile to your hand.'
+  gender: Male
+  db_uuid: 1d055bd6b3664fa987d0f23da3cf3fd1

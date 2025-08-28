@@ -18281,3 +18281,26 @@
 
     Add 1 card from your discard pile to your hand.'
   db_uuid: 53ed3f4392b14fa9b31ccb3f8bd2be9b
+- name: Theo the Greek (V1)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: Once during your turn when you hit a card with "Lock" in the name; draw
+    1 card or you may play 1 additional card this turn.
+  gender: Male
+  db_uuid: 831eb73c2ab9435794db4413c7e2521b
+- name: Theo the Greek (V2)
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: You are considered to have fewer cards in your hand than your opponent.
+  gender: Male
+  db_uuid: 2751c0c3d26947fdb910924c50726fcd

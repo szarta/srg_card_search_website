@@ -8723,6 +8723,10 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'If you have a Strike in play, add 1 card from your discard pile to
+    your hand.
+
+    If this is a Steel Cage match, draw 2 cards.'
   deck_card_number: 15
   db_uuid: 0c0a9263ad26410b9ab403a0c0521fec
 - name: Beg for Mercy
@@ -10721,6 +10725,9 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Your opponent''s Gimmick is blank.'
   deck_card_number: 19
   db_uuid: d3fc42e3a9c145749b4b2216e410dfa3
 - name: Power Punching
@@ -17820,6 +17827,7 @@
   strike: 5
   submission: 9
   grapple: 7
+  comment: The GOAT
   rules_text: 'At the start of the match:
 
     Choose an opponent, when you and that opponent roll the same skill and they would
@@ -17875,3 +17883,242 @@
     from your discard pile on top of your deck.'
   gender: Male
   db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63
+- name: Hunk Homeland
+  srg_url: https://supershowthegame.com/product/hunk-homeland/
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 8
+  gender: Male
+  rules_text: When your opponent hits a card, your Power is +2 until the end of the
+    next turn roll.
+  db_uuid: e8b36bd067ce45d2a31bbacc24728ada
+- name: Homelanding Leg Drop!
+  srg_url: https://supershowthegame.com/product/hunk-homeland/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Finish roll is +1.
+
+    If your turn roll was 10 or greater, your Finish roll is +2 instead.'
+  db_uuid: a42d06a42cbe49d2b9bd9b646d5642b9
+- name: Thunder in Paradise
+  srg_url: https://supershowthegame.com/product/hunk-homeland/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Grapple'
+  db_uuid: bd1f0be117454e37a12f2cf12469c99f
+- name: Unreal American Boot Choke
+  srg_url: https://supershowthegame.com/product/hunk-homeland/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Submission
+
+    Your opponent buries half the cards in their hand (Rounded Up).'
+  db_uuid: 1654b7e0d2db4f1ead531d2e40eab18f
+- name: Jean Dre The Gigantic Grenoble
+  srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 10
+  strike: 6
+  submission: 8
+  grapple: 7
+  gender: Male
+  rules_text: You may reveal 6 cards in your hand and randomly bury them to stop any
+    card played against you.
+  db_uuid: d0813d6556f143158538ab7ed48e978e
+  related_finishes:
+  - 9a1a53eaec6244aaa7f6073137b19344
+  - 256d671f7e4e4cc885841fa0e26d7b0e
+  - 94b211962c7645ef931076c719992b21
+- name: Do you want a peanut?
+  srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Strike
+
+    +2 to Grapple
+
+    Randomly add 2 cards from your discard pile to your hand.'
+  db_uuid: 9a1a53eaec6244aaa7f6073137b19344
+- name: Size is a Gift
+  srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    +1 to Grapple
+
+    When this card would be revealed for your Gimmick, it counts as 3 cards.'
+  db_uuid: 256d671f7e4e4cc885841fa0e26d7b0e
+- name: Strength is Earned
+  srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Draw 2 cards for each card type you have in play (Lead, Follow Up, Finish).'
+  db_uuid: 94b211962c7645ef931076c719992b21
+- name: The Nacho Guy
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 6
+  gender: Male
+  rules_text: Your Submissions are also Strikes for your effects.
+  db_uuid: 18a4a1afc5494c2586b84c7120c45dd9
+  related_finishes:
+  - 2abe3b0f558c40d38a45623071dce113
+  - 667a5ff6d8694e2dabd48f1f723c680a
+  - ada8753e20014e0eaaf4cc9e52dffe55
+- name: That's Nacho Elbow Drop
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    If you roll Agility or Strike for your Finish roll, your opponent gets 1 breakout
+    roll this turn.'
+  db_uuid: 2abe3b0f558c40d38a45623071dce113
+- name: That's Nacho Piledriver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Draw 1 card for each Strike you have in play.'
+  db_uuid: 667a5ff6d8694e2dabd48f1f723c680a
+- name: Snap Into It
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: Your Submission and Technique skills are +1 for each Strike you have
+    in play (Max +3).
+  db_uuid: ada8753e20014e0eaaf4cc9e52dffe55
+- name: Sticky "the Salamander" Sailboat
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: 'During your turn:
+
+    When you hit a Lead, draw 1 card for each other Lead you have in play (Max 3).'
+  gender: Male
+  db_uuid: 304260416f464f6ca6b6af362f945a21
+  related_finishes:
+  - 7a13c265702c4021857a92d851032903
+  - 4765363a0aea4b049354ee4cf680201e
+  - 0754bbd4adc44ad09413421b105a7944
+- name: Flight of the Salamander!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile: When you have 3 Leads in play and you
+    hit a Lead, you may shuffle this card into your deck.'
+  db_uuid: 7a13c265702c4021857a92d851032903
+- name: Legendary Arm Drag
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    You may re-roll your Finish roll for each card you have in play with "Arm Drag"
+    in the name.'
+  db_uuid: 4765363a0aea4b049354ee4cf680201e
+- name: Salamander Sleeper
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Submission
+
+    +1 to Grapple
+
+    Draw 1 card for each Lead you have in play.'
+  db_uuid: 0754bbd4adc44ad09413421b105a7944
+- name: Noah the Boa
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 9
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: 'Your stop cards with "DDT" in the name have the added text: "Stop any
+    Finish Submission".'
+  db_uuid: b34f7beab430461182c377100b12c213
+  related_finishes:
+  - ccacfddded574bdcae3248b1c6c4c245
+  - 9da2a54f40a74f0ba000e5a42d9df87b
+  - 597e7fa12e79443d94b6121b5d4bf4ee
+- name: Boa!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    Draw 1 card.'
+  db_uuid: ccacfddded574bdcae3248b1c6c4c245
+- name: Boa Bite DDT
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: "Stop any Follow Up Submission or \n+1 to Agility\n+1 to Submission"
+  db_uuid: 9da2a54f40a74f0ba000e5a42d9df87b
+- name: Noah Way Out!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    +2 to Grapple'
+  db_uuid: 597e7fa12e79443d94b6121b5d4bf4ee

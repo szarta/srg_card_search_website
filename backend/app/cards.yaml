@@ -18214,3 +18214,70 @@
     discard pile to your hand.'
   gender: Male
   db_uuid: 1d055bd6b3664fa987d0f23da3cf3fd1
+- name: Steel Wool
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 6
+  rules_text: 'When you roll Submission: Shuffle 1 card with "Steel", "Kick", or "Sheep"
+    in the name from your discard pile into your deck and draw 1.'
+  gender: Male
+  srg_url: https://supershowthegame.com/product/steel-wool/
+  db_uuid: b339f906c69c4183b699037dffd6cfa1
+  related_finishes:
+  - 595b7bc4492643deaa2b16239d8d7cb8
+  - ee807116e6ae4c17bc709dad8712029a
+  - 95dce62414c34823a4c2577c2d771e18
+  - 53ed3f4392b14fa9b31ccb3f8bd2be9b
+- name: Steel Wool's Superkick
+  srg_url: https://supershowthegame.com/product/steel-wool/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your opponent''s first breakout roll is -1 for each card you have in
+    play with "Steel" in the name.
+
+    Your opponent''s second breakout roll is -1 for each card you have in play with
+    "Kick" in the name.'
+  db_uuid: 595b7bc4492643deaa2b16239d8d7cb8
+- name: All Steel, No Wool
+  srg_url: https://supershowthegame.com/product/steel-wool/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Once per turn, you may re-roll your Finish roll and your opponent draws 4 cards.'
+  db_uuid: ee807116e6ae4c17bc709dad8712029a
+- name: I Dun Told Yah
+  srg_url: https://supershowthegame.com/product/steel-wool/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 To Technique
+
+    If your opponent breaks out, add this card to your hand and your opponent draws
+    1 card.'
+  db_uuid: 95dce62414c34823a4c2577c2d771e18
+- name: Sheepshooter
+  srg_url: https://supershowthegame.com/product/steel-wool/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +3 to your lowest skill
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: 53ed3f4392b14fa9b31ccb3f8bd2be9b

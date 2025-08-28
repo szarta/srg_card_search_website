@@ -17540,6 +17540,47 @@
   rules_text: At the start of the match, search your deck for 2 cards with "Sing"
     or "Guitar" in the name and add them to your hand.
   db_uuid: 076a91a4326049abb39d86bdc9187ceb
+  related_finishes:
+  - 06e4ef562cbe4f1cb84246f46a723ebb
+  - 05a96747f98d418f98b2551c9637334f
+  - 0be4d2117f314c2aaacc6a7e6cfded18
+- name: Lute Shot
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +3 to Agility
+
+    +2 to Strike
+
+    If stopped, you lose the match via Disqualification.'
+  db_uuid: 06e4ef562cbe4f1cb84246f46a723ebb
+- name: Pulling Strings On My Guitar
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    You may play this card as a Lead instead of a Finish: When this card is in play,
+    your opponent cannot add cards from their discard pile to their hand.'
+  db_uuid: 05a96747f98d418f98b2551c9637334f
+- name: Rattle, Shake, and Roll!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    If you have a card with "Guitar" in the name in play, you may re-roll your Finish
+    roll.'
+  db_uuid: 0be4d2117f314c2aaacc6a7e6cfded18
 - name: The Heartbreaker
   card_type: SingleCompetitorCard
   power: 6

@@ -72,7 +72,9 @@ bury cards).
 | 1   | [[Citizen X]] |
 
 ### Entrance
-[[Aid From the SRG Mom]]
+| #   | Card Name          |
+| --- | -----------------  |
+| -   | [[Aid From the SRG Mom]] |
 
 ### Finishers
 

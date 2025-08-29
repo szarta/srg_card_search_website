@@ -140,12 +140,12 @@
   rules_text: Your opponent gets 1 breakout roll this turn.
   db_uuid: a175f29cdf774861b4d762e749e093d9
 - name: Lock Up
+  rules_text: Stop any Lead Submission.
   card_type: MainDeckCard
   deck_card_number: 2
   srg_url: https://supershowthegame.com/product/02-lock-up/
   atk_type: Grapple
   play_order: Lead
-  rules_text: Stop any Lead Submission.
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
 - name: Headlock
   card_type: MainDeckCard
@@ -3899,6 +3899,7 @@
   deck_card_number: 2
   db_uuid: 3f65ab7bac514eb2aff68fb181ff350b
 - name: Low Bridge
+  rules_text: Your opponent's Gimmick is blank until their next turn.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4052,12 +4053,16 @@
   deck_card_number: 2
   db_uuid: 30f39acaf3774ef48a6eb1e8886c1f25
 - name: Tornado DDT
+  rules_text: 'If your opponent does not have a Lead in play, stop any Lead Submission.
+
+    Look at the top card of your opponent''s deck, you may flip it.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: c5a737732c3f4bcb9dc79a42c22ddf02
 - name: Toss From The Turnbuckle
+  rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -20162,3 +20167,110 @@
     and bury 1 card in your hand.
   card_type: SingleCompetitorCard
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
+- name: The Centipede
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 7
+  gender: Male
+  rules_text: When your opponent draws a card from a card that was hit or Gimmick,
+    your next turn roll is +1.
+  srg_url: https://supershowthegame.com/product/the-centipede/
+  db_uuid: 66505c423e1743d1a463ecf873c5c426
+  related_finishes:
+  - 1a29aa22e0c341a6a2894d03bc92cbff
+  - eaf8f693c4524ebd9b1de45ad2527a9a
+  - 6d010b57eb004ba4945ed04a1bfa31d2
+- name: Mach Punch
+  srg_url: https://supershowthegame.com/product/the-centipede/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If your turn roll was 11 or greater, this card is also a Lead.'
+  db_uuid: 1a29aa22e0c341a6a2894d03bc92cbff
+- name: Facebuster DDT
+  srg_url: https://supershowthegame.com/product/the-centipede/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    When your opponent hits a Grapple, you may discard this card from your hand to
+    blank its text.'
+  db_uuid: eaf8f693c4524ebd9b1de45ad2527a9a
+- name: 100 Leg Lock
+  srg_url: https://supershowthegame.com/product/the-centipede/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    If your opponent breaks out, put 1 non-Finish Lead from your hand into play.'
+  db_uuid: 6d010b57eb004ba4945ed04a1bfa31d2
+- name: Big Rig Daddy Dig
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 10
+  gender: Male
+  rules_text: When you hit a Follow Up Strike or Follow Up Grapple, discard 1 card
+    your opponent has in play.
+  srg_url: https://supershowthegame.com/product/big-rig-daddy-dig/
+  db_uuid: e0cbf404d2494892a95d1f8fd58dfaa3
+  related_finishes:
+  - df2b13d3ccfc4fd59ac9b7f8e05a9fe9
+  - ad009b274bcf4380818c22e985e68580
+  - d9df223fc7384551965cc9bad5250f25
+- name: The Truck Stop
+  srg_url: https://supershowthegame.com/product/big-rig-daddy-dig/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +2 to Strike
+
+    Discard 1 card from your hand.
+
+    Discard 1 card your opponent has in play.'
+  db_uuid: df2b13d3ccfc4fd59ac9b7f8e05a9fe9
+- name: Truck Driver
+  srg_url: https://supershowthegame.com/product/big-rig-daddy-dig/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    Your Finish roll is +1 for each Follow Up Strike or Follow Up Grapple your have
+    in play (Max +2)'
+  db_uuid: ad009b274bcf4380818c22e985e68580
+- name: The Rollover
+  srg_url: https://supershowthegame.com/product/big-rig-daddy-dig/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    Each time your opponent rolls for a breakout, they bury 1 card in their hand,
+    then flip 1 card.'
+  db_uuid: d9df223fc7384551965cc9bad5250f25

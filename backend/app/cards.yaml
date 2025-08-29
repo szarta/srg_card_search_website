@@ -19763,12 +19763,20 @@
   submission: 6
   grapple: 7
   gender: Male
+  srg_url: https://supershowthegame.com/product/vanilla-gorilla/
   rules_text: 'When you roll Agility for your turn roll:
 
     Look at the top 4 cards of your deck, you may reveal 1 Strike and add it to your
     hand, shuffle the others back into your deck.'
   card_type: SingleCompetitorCard
   db_uuid: 6e44f203e2074096b2f799a345663474
+  related_finishes:
+  - d30d1ac481954768a9edde8a12586221
+  - fb414568f1764d9999bf4d104d2d0682
+  - 5e6fb2d0ea24411c9ca647f175276813
+  - 1f9056945c8848d58e196b21f1646d14
+  - 50492533e70b42cf86755fb91b3f28c3
+  - c127492da6e641dd86a96b5dc8d99987
 - name: Vanilla Gorilla (V2)
   power: 7
   technique: 5
@@ -19781,6 +19789,79 @@
     top 3 cards of your deck: Add 1 Strike to your hand and flip the others.'
   card_type: SingleCompetitorCard
   db_uuid: e268db5bda514a2da9b8dae7b037c4b9
+  related_finishes:
+  - d30d1ac481954768a9edde8a12586221
+  - fb414568f1764d9999bf4d104d2d0682
+  - 5e6fb2d0ea24411c9ca647f175276813
+  - 1f9056945c8848d58e196b21f1646d14
+  - 50492533e70b42cf86755fb91b3f28c3
+  - c127492da6e641dd86a96b5dc8d99987
+- name: Gorilla Warfare
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If this card is reveal for your Gimmick, you may shuffle all Strike cards from
+    your discard pile into your deck.'
+  db_uuid: d30d1ac481954768a9edde8a12586221
+- name: Jungle Boogie
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    +3 to Power
+
+    Shuffle 6 cards from your discard pile into your deck.'
+  db_uuid: fb414568f1764d9999bf4d104d2d0682
+- name: Gorilla Grab
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  db_uuid: 5e6fb2d0ea24411c9ca647f175276813
+- name: Jungle Juice
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you reveal cards for your Gimmick,
+    shuffle 1 card from your discard pile into your deck.'
+  db_uuid: 1f9056945c8848d58e196b21f1646d14
+- name: Gorilla Press
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Add 1 Grapple from your discard pile to your hand.'
+  db_uuid: 50492533e70b42cf86755fb91b3f28c3
+- name: Jungle Swing
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    Draw 1 card.'
+  db_uuid: c127492da6e641dd86a96b5dc8d99987
 - name: Vick the Brick
   card_type: SingleCompetitorCard
   db_uuid: 81fa1f8c73a04f7e8010d951be00e4c0

@@ -201,21 +201,29 @@ const htmlEscape = (v) => {
     .replaceAll('"', "&quot;");
 };
 
-const toHTMLNoCSS = (title = "SRG Card List") => {
-  const cols = buildExportColumns();
-  const thead = `<tr>${cols.map(c => `<th>${htmlEscape(c)}</th>`).join("")}</tr>`;
-  const tbody = rows.map(r =>
-    `<tr>${cols.map(c => {
-      let val = r?.[c];
-      if (Array.isArray(val) || typeof val === "object") {
-        try { val = JSON.stringify(val); } catch { /* ignore */ }
-      }
-      return `<td>${htmlEscape(val ?? "")}</td>`;
-    }).join("")}</tr>`
-  ).join("");
 
-  // No CSS, just a minimal HTML document with a table
-  return `<!doctype html>
+const toHTMLNoCSS = (title = "SRG Card List") => {
+    const cols = buildExportColumns();
+    const thead = `<tr>${cols.map(c => `<th>${htmlEscape(c)}</th>`).join("")}</tr>`;
+    const tbody = rows.map(r => {
+      const tds = cols.map(c => {
+        let val = r?.[c];
+        // treat null/undefined as empty BEFORE stringify so we never print "null"
+        if (val === null || val === undefined) {
+          val = "";
+        } else if (Array.isArray(val) || typeof val === "object") {
+          try {
+            val = JSON.stringify(val);
+          } catch {
+            val = String(val ?? "");
+          }
+        }
+        return `<td>${htmlEscape(val)}</td>`;
+      }).join("");
+      return `<tr>${tds}</tr>`;
+    }).join("");
+
+    return `<!doctype html>
 <html lang="en">
 <meta charset="utf-8">
 <title>${htmlEscape(title)}</title>

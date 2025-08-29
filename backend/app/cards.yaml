@@ -19755,9 +19755,32 @@
 - name: Vampyr Sehkmet (V2)
   card_type: SingleCompetitorCard
   db_uuid: d8612a432fb34af1a9af56350f3af247
-- name: Vanilla Gorilla
+- name: Vanilla Gorilla (V1)
+  power: 8
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 7
+  gender: Male
+  rules_text: 'When you roll Agility for your turn roll:
+
+    Look at the top 4 cards of your deck, you may reveal 1 Strike and add it to your
+    hand, shuffle the others back into your deck.'
   card_type: SingleCompetitorCard
   db_uuid: 6e44f203e2074096b2f799a345663474
+- name: Vanilla Gorilla (V2)
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: 'When you hit a card with "Jump" or "Swing" in the name, reveal the
+    top 3 cards of your deck: Add 1 Strike to your hand and flip the others.'
+  card_type: SingleCompetitorCard
+  db_uuid: e268db5bda514a2da9b8dae7b037c4b9
 - name: Vick the Brick
   card_type: SingleCompetitorCard
   db_uuid: 81fa1f8c73a04f7e8010d951be00e4c0
@@ -19855,3 +19878,6 @@
 - name: The Zookeeper
   card_type: SingleCompetitorCard
   db_uuid: 008a69befa074a0f99556e773fdc4315
+- name: Mr. Sunday Night
+  card_type: SingleCompetitorCard
+  db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad

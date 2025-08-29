@@ -17893,20 +17893,6 @@
   atk_type: Strike
   play_order: Finish
   card_type: MainDeckCard
-  rules_text: '+2 to Power
-
-    +2 to Strike
-
-    +1 to Grapple
-
-    If you stopped a card with your Gimmick last turn, double these bonuses.'
-  db_uuid: 1e8bf5f2b4f44300b8f4da682117f964
-- name: Lights! Camera! Stomp!
-  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  card_type: MainDeckCard
   rules_text: '+1 to Power
 
     +1 to Strike
@@ -17914,6 +17900,20 @@
     When this card is in your discard pile: If the Crowd Meter is 2 or greater:
 
     Your Power and Strike are +1 during turn rolls.'
+  db_uuid: 1e8bf5f2b4f44300b8f4da682117f964
+- name: Lights! Camera! Stomp!
+  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    +1 to Grapple
+
+    If you stopped a card with your Gimmick last turn, double these bonuses.'
   db_uuid: 98a849628df54d039b2257380fadae1d
 - name: Denouement
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/

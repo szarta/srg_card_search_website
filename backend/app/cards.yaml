@@ -18740,11 +18740,121 @@
   card_type: SingleCompetitorCard
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
 - name: The Devil's Advocate (V1)
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
+  srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  rules_text: 'You may 3 times per match:
+
+    When you would bump, your opponent draws 1 card and your Turn Roll is +1.'
   card_type: SingleCompetitorCard
   db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
+  related_finishes:
+  - 3a7b5d2016a44915ad63b6bb9415bb02
+  - d531713293534f309d3619a2aa5ffa38
+  - dbc465008a264ab2a46d73742f164ca9
+  - a8e17c72a2864939a66e2596330a5307
+  - b25709afc4c04a3d87d3d3eaddd736fa
+  - 8342a426d98c451aa81e2f2883bf3f5d
 - name: The Devil's Advocate (V2)
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
+  rules_text: 'When your turn roll is exactly 1 greater than your opponent''s turn
+    roll: their next turn roll is -1.'
   card_type: SingleCompetitorCard
   db_uuid: 4683a1e9b5604a58b42b90904e40734e
+  related_finishes:
+  - 3a7b5d2016a44915ad63b6bb9415bb02
+  - d531713293534f309d3619a2aa5ffa38
+  - dbc465008a264ab2a46d73742f164ca9
+  - a8e17c72a2864939a66e2596330a5307
+  - b25709afc4c04a3d87d3d3eaddd736fa
+  - 8342a426d98c451aa81e2f2883bf3f5d
+- name: The Hung Jury
+  srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    If you rolled Power for your turn roll, this card cannot be stopped.'
+  db_uuid: 3a7b5d2016a44915ad63b6bb9415bb02
+- name: The Split Decision
+  srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Your opponent randomly buries half the number of cards in their hand (rounded
+    up).'
+  db_uuid: d531713293534f309d3619a2aa5ffa38
+- name: The Final Verdict
+  srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission.
+
+    Flip 2 cards.
+
+    Bury 2 cards in your hand.
+
+    Take 2 cards from your discard pile and add them to your hand.'
+  db_uuid: dbc465008a264ab2a46d73742f164ca9
+- name: Objection!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Your next turn roll is +1. If your turn roll was exactly 1 greater than your opponent''s,
+    this card is also a Follow Up.'
+  db_uuid: a8e17c72a2864939a66e2596330a5307
+- name: The Judgement Hammer
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If your turn roll was exactly 1 greater than your opponent''s, double these bonuses.'
+  db_uuid: b25709afc4c04a3d87d3d3eaddd736fa
+- name: Cross-Examination
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Name a card: Your opponent reveals their hand and if that card is in their hand,
+    they discard it and get 1 fewer breakout roll this turn.'
+  db_uuid: 8342a426d98c451aa81e2f2883bf3f5d
 - name: Diabolik
   card_type: SingleCompetitorCard
   db_uuid: ebc7f25eaba1461aa7d083ff0807f003

@@ -16274,6 +16274,7 @@
     in the name (Max +4).
   db_uuid: b83c210cc53b47149809da23f9374071
 - name: Leader of the Postal Nation
+  srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
   card_type: SingleCompetitorCard
   power: 7
   technique: 6
@@ -16285,6 +16286,49 @@
   rules_text: After you shuffle your deck, add the bottom card of your deck to your
     hand.
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
+  related_finishes:
+  - 3793c4df355e47258a89ce1e4af6f251
+  - a052f3ebfe08410c8c784a9f7d9b7cff
+  - 001400440b844d76bacc6907b50710e5
+- name: The Mailman Always Delivers
+  srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    When your opponent hits a Finish: You may reveal this card from your hand and
+    shuffle it into your deck to add +1 to your breakout rolls until the end of the
+    turn.'
+  db_uuid: 3793c4df355e47258a89ce1e4af6f251
+- name: Express Delivery
+  srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Strike for each card you have in play with "Shuffle" in the text (Max +4)
+
+    Shuffle 1 card from your discard pile into your deck.'
+  db_uuid: a052f3ebfe08410c8c784a9f7d9b7cff
+- name: Return to Sender
+  srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    When your opponent rolls their 1st or 2nd breakout roll, shuffle 1 card from your
+    discard pile into your deck.'
+  db_uuid: 001400440b844d76bacc6907b50710e5
 - name: Mighty Marcel
   card_type: SingleCompetitorCard
   power: 7

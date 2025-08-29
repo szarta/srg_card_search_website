@@ -148,12 +148,12 @@
   play_order: Lead
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
 - name: Headlock
+  rules_text: Stop any Lead Strike.
   card_type: MainDeckCard
   deck_card_number: 3
   srg_url: https://supershowthegame.com/product/03-headlock-os/
   atk_type: Submission
   play_order: Lead
-  rules_text: Stop any Lead Strike.
   db_uuid: 685b2201f4994f9785f6f966cd4030c7
 - name: Kick (V1)
   card_type: MainDeckCard
@@ -4253,18 +4253,26 @@
   deck_card_number: 3
   db_uuid: 299efc52318f4b91b8d8d2ff4a1ae7a5
 - name: Joint Manipulation
+  rules_text: 'If your opponent does not have a Lead in play, stop any Lead Strike.
+
+    Look at the top card of your opponent''s deck, you may flip it.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 911213df78074a68b904337b9f5039ab
 - name: Knee to the Back
+  rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 67431b96dc0744689bea566532fbafb3
 - name: Koji Clutch
+  rules_text: 'If your opponent does not have a Lead Strike in play, stop any Lead
+    Strike.
+
+    Draw 1 card, then bury 1 card in your hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4382,6 +4390,7 @@
   deck_card_number: 3
   db_uuid: a924ae141d374d11aa6700a9af12573d
 - name: Taunt From the Apron
+  rules_text: Your opponent's Gimmick is blank until their next turn.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4400,6 +4409,8 @@
   deck_card_number: 3
   db_uuid: 4a79c2512645422c839734f6364da829
 - name: Twisting Wrist Lock
+  rules_text: Flip 1 card, if it's a Submission, add it to your hand and your next
+    turn roll is +2.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4561,6 +4572,8 @@
   deck_card_number: 4
   db_uuid: 6325e3456dbd4658b2ad53039b6ed469
 - name: Kawada Kicks
+  rules_text: If your opponent does not have a Follow Up Grapple in play, stop any
+    Follow Up Grapple. Draw 1 card, then bury 1 card in your hand.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -4601,6 +4614,8 @@
   deck_card_number: 4
   db_uuid: 5f965adf98384e7cb8933e585fd2828e
 - name: Old School
+  rules_text: Reveal cards from the top of your deck until you reveal a Stop, add
+    that card to your hand and shuffle the others into your deck.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -15379,15 +15394,58 @@
 - name: Maria Marinara
   card_type: SingleCompetitorCard
   division: UnitedStates
+  srg_url: https://supershowthegame.com/product/maria-marinara/
   power: 7
   technique: 10
   agility: 6
   strike: 8
   submission: 9
   grapple: 5
+  gender: Female
   rules_text: When you roll Technique for your turn roll; you may put the bottom card
     of your deck or your opponent's deck on top of their deck.
   db_uuid: f31810c01f1d43acac29a2fc067a1b41
+  related_finishes:
+  - 3501377ce9c24102971ca7578fac1cb0
+  - ce3ba53d4d474310ad25276bbcd86bd8
+  - ff491e2bfc05414eab5c9d75165ca5cf
+- name: The Bottom Deal
+  srg_url: https://supershowthegame.com/product/maria-marinara/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Draw the bottom card of your deck.'
+  db_uuid: 3501377ce9c24102971ca7578fac1cb0
+- name: The House Edge
+  srg_url: https://supershowthegame.com/product/maria-marinara/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    When this card is in your discard pile and your opponent adds any number of cards
+    from their discard pile to their hand, your next turn roll is +2.'
+  db_uuid: ce3ba53d4d474310ad25276bbcd86bd8
+- name: Sleeping With The 7 Fishes
+  srg_url: https://supershowthegame.com/product/maria-marinara/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Bury 3 cards in any player''s discard pile.'
+  db_uuid: ff491e2bfc05414eab5c9d75165ca5cf
 - name: Medieval Prankster
   card_type: SingleCompetitorCard
   division: Intergalactic

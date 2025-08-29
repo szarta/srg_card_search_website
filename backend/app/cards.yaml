@@ -4271,6 +4271,11 @@
 - name: Microphone Swing
   play_order: Lead
   atk_type: Submission
+  srg_url: https://supershowthegame.com/product/03-microphone-swing/
+  rules_text: 'Stop any Lead Strike.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 9fa7dd6a34564c79bfcef45456652739
@@ -4770,6 +4775,11 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Submission.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   deck_card_number: 5
   db_uuid: a61e57cc2b2c44c1bb4b008ec21ad1a9
 - name: Colossal Clash
@@ -6416,6 +6426,11 @@
   deck_card_number: 9
   db_uuid: 5627f5f8aa8042788689f1eb8bf17e8f
 - name: Microphone Uprising
+  rules_text: 'Draw 1 card or shuffle 3 cards from your discard pile into your deck.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
+  srg_url: https://supershowthegame.com/product/09-microphone-uprising/
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8960,6 +8975,12 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission
+    skill, stop any Strike.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
+  srg_url: https://supershowthegame.com/product/15-microphone-take-over/
   deck_card_number: 15
   db_uuid: 905a960788be418da4ea139eb5c40544
 - name: Mind Warp
@@ -10059,6 +10080,12 @@
   deck_card_number: 18
   db_uuid: 735186ddfc59430fa27c34c1558162f1
 - name: Ambush with the Microphone
+  rules_text: 'If you have another card in play with "Microphone" in the name, draw
+    2 cards.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
+  srg_url: https://supershowthegame.com/product/18-ambush-with-the-microphone/
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -10467,6 +10494,17 @@
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 0f132037dfb64adb874783e107cae723
+- name: You're Not Ready
+  rules_text: 'Search your deck or discard pile for "Ready to Rumble" and add it to
+    your hand.  You may play that card as an additional card this turn.
+
+    If you have "Ready to Rumble" in play, your opponent''s Gimmick is blank.'
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 18
+  srg_url: https://supershowthegame.com/product/18-youre-not-ready/
+  db_uuid: 0100a2f0cb604367864f8e3a40bef90f
 - name: All American Baattering Ram
   play_order: Followup
   atk_type: Strike
@@ -12571,6 +12609,11 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.
+
+    Skill Requirement: Power 8+'
   deck_card_number: 23
   db_uuid: 73d02e53f7f745a0aba77497b5898f5d
 - name: Pump Handle Slam
@@ -13256,6 +13299,11 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple or Finish Grapple.
+
+    When you stop your opponent''s card, the stopped card has blank text until the
+    end of the turn.'
+  srg_url: https://supershowthegame.com/product/25-boss-beats/
   deck_card_number: 25
   db_uuid: a584ef6f4006424f896fd794e9041625
 - name: Burning Spear
@@ -19797,6 +19845,7 @@
   - 50492533e70b42cf86755fb91b3f28c3
   - c127492da6e641dd86a96b5dc8d99987
 - name: Gorilla Warfare
+  srg_url: https://supershowthegame.com/product/vanilla-gorilla/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -19809,6 +19858,7 @@
     your discard pile into your deck.'
   db_uuid: d30d1ac481954768a9edde8a12586221
 - name: Jungle Boogie
+  srg_url: https://supershowthegame.com/product/vanilla-gorilla/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -19820,6 +19870,7 @@
     Shuffle 6 cards from your discard pile into your deck.'
   db_uuid: fb414568f1764d9999bf4d104d2d0682
 - name: Gorilla Grab
+  srg_url: https://supershowthegame.com/product/vanilla-gorilla/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -19960,5 +20011,14 @@
   card_type: SingleCompetitorCard
   db_uuid: 008a69befa074a0f99556e773fdc4315
 - name: Mr. Sunday Night
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 7
+  gender: Male
+  rules_text: When you hit a card with "Microphone" in the name, you may draw 1 card
+    and bury 1 card in your hand.
   card_type: SingleCompetitorCard
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad

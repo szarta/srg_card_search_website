@@ -3819,11 +3819,17 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
+  rules_text: 'Stop any Lead Submission.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: 52f8867bea8e4a89ab6b5abf43fdbe34
 - name: Divert
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'When your opponent rolls Grapple for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Grapple, draw 1 card.'
   deck_card_number: 2
   db_uuid: 89b7bc383f744777af47a5800ee8ac7d
 - name: Dog Collar Face-Off
@@ -3831,6 +3837,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
+  rules_text: 'If you roll Submission for your Finish roll, it is +1.
+
+    If this is a Steel Chain match, you may shuffle 2 cards from your discard pile
+    into your deck.'
   db_uuid: 16f439429b1049cc820d0f07c55bb834
 - name: Double Underhook Brainbuster
   play_order: Lead
@@ -3928,24 +3938,30 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Flip 1 card.
+
+    If it is a Strike, add it to your hand and your next turn roll is +2.'
   deck_card_number: 2
   db_uuid: 90b68e76e7734d859fb94ec7a5c0bfd8
 - name: Sealed You In
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Stop any Submission with "Over the Top" in the name.
   deck_card_number: 2
   db_uuid: 0803953e416e471799b9e5bf1b14c30b
 - name: Shake Down
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Bury 2 cards in your opponent's discard pile.
   deck_card_number: 2
   db_uuid: 3bd20b48d0ba44b7b669b365602757b5
 - name: Slam Down
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Look at your opponent's hand.
   deck_card_number: 2
   db_uuid: 131811a330674ff6b99d576856934eec
 - name: Slam Suplex Head Breaker Drop
@@ -13631,17 +13647,24 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: Stop any Submission or each player buries 1 card in their discard pile.
   db_uuid: 88ccf0b256634675ad22a37b06070cc8
 - name: Dodge
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Shuffle 2 Strikes from your discard pile into your deck.'
   db_uuid: 1664f355451f402d8235a0717a9bb80e
 - name: Dog Collar Throw
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Submission.
+
+    Draw 2 cards. Your opponent randomly buries 1 card in their hand.'
   deck_card_number: 26
   db_uuid: d38a736cf41d466eb51fe10f68b33b95
 - name: Double Arm Facebuster
@@ -13655,6 +13678,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission or Finish Submission.
+
+    Cards in your opponent''s discard pile have blank text.'
   db_uuid: d2c9a0eae0d84598b25f957477f16755
 - name: Double Slam
   play_order: Lead
@@ -16220,7 +16246,7 @@
   rules_text: When you roll Submission, put the bottom card of your deck into your
     hand.
   db_uuid: 8b00ea8e2268466d98265ebb62cc0c64
-- name: Fox Assassin
+- name: Fox Assassin (V1)
   card_type: SingleCompetitorCard
   power: 5
   technique: 6
@@ -16673,7 +16699,7 @@
   rules_text: Whenever your opponent buries or discards any number of cards from their
     hand, draw 1 card.
   db_uuid: a29880e47a3640f28bc85a86bed15519
-- name: Katy Kitty
+- name: Katy Kitty (V1)
   card_type: SingleCompetitorCard
   power: 5
   technique: 7
@@ -18304,3 +18330,717 @@
   rules_text: You are considered to have fewer cards in your hand than your opponent.
   gender: Male
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
+- name: Captain Rustbelt
+  card_type: SingleCompetitorCard
+  db_uuid: d7de64cba4dd40589bfe221b0a7d65e4
+- name: Caveman (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: f2d49aea3af44e0c90c7947680a6e89b
+- name: Caveman (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 23c31720ac384b888ba04b4e47cf6649
+- name: Chair Extraordinaire Shawn Spears
+  card_type: SingleCompetitorCard
+  db_uuid: 1cea3fa2e2ae4fe7bd34ab3fe624d296
+- name: Chamomile T
+  card_type: SingleCompetitorCard
+  db_uuid: 309e9641dda648c09f80a98fa92efc16
+- name: Cheetah
+  card_type: SingleCompetitorCard
+  db_uuid: 8e7340565e01403d99eb2026d2d49765
+- name: Cherie Von Danish
+  card_type: SingleCompetitorCard
+  db_uuid: ee000b1dc146472c8ad39a71ad5616ae
+- name: Cherry Glamazon
+  card_type: SingleCompetitorCard
+  db_uuid: c94f753c62f5406cae60f664dfc182e6
+- name: Cheshire
+  card_type: SingleCompetitorCard
+  db_uuid: 7b92ca8e078b45ecb8efdea750aa6a9d
+- name: Chester the Jester
+  card_type: SingleCompetitorCard
+  db_uuid: 9ef0e6cb61584512900eb71b7aa274a1
+- name: Chip Day
+  card_type: SingleCompetitorCard
+  db_uuid: 75d2cf5b748242309bab0d36c57360f9
+- name: Chugganomics
+  card_type: SingleCompetitorCard
+  db_uuid: d9498c9ce72b440cbb5158e4b492114d
+- name: CLV
+  card_type: SingleCompetitorCard
+  db_uuid: b4f043464fa64700b5dcfcfc57069e62
+- name: Colby Corino
+  card_type: SingleCompetitorCard
+  db_uuid: 98ccdf9d3677429a87a65cc40119a6a3
+- name: The Collector Shawn Loeb
+  card_type: SingleCompetitorCard
+  db_uuid: 5a8e9421d61c484da2bf0feb5106dec7
+- name: Collin the Chrononaut
+  card_type: SingleCompetitorCard
+  db_uuid: 8054b1c0587a4d949e9a73b9bdd144ed
+- name: Colt Cabana (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
+- name: Colt Cabana (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: ee6c96e6131446909a2014075f80f2f7
+- name: The Consigilere
+  card_type: SingleCompetitorCard
+  db_uuid: 8abad8aab1c3448688681884ea4a8eb3
+- name: Copy Kat
+  card_type: SingleCompetitorCard
+  db_uuid: 941ba12c956546f4b9abf28336f9d92a
+- name: Corporate Collector
+  card_type: SingleCompetitorCard
+  db_uuid: a581eb463bac433395ccc06f78c365c1
+- name: Corrugated Cardboard Villain
+  card_type: SingleCompetitorCard
+  db_uuid: ed1c696106ab4fb4ba80ab10e893e1ad
+- name: Daisy Rider
+  card_type: SingleCompetitorCard
+  db_uuid: 8be0afa58eb049048feb204eac5b48d2
+- name: The Dangerous Flower
+  card_type: SingleCompetitorCard
+  db_uuid: 34c5ce20f09847719ef1e45862a5efdb
+- name: Danhausen
+  card_type: SingleCompetitorCard
+  db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
+- name: Danny Briggs
+  card_type: SingleCompetitorCard
+  db_uuid: 8bc44c4b3faf4c49b45234f68dfeae29
+- name: Danny Limelight
+  card_type: SingleCompetitorCard
+  db_uuid: ade41d5ac0b6435f978ed5505e67ec18
+- name: Darius Carter
+  card_type: SingleCompetitorCard
+  db_uuid: e072664507f64381bf3c7bf0971a5039
+- name: Dastardly Dick Thunderlips
+  card_type: SingleCompetitorCard
+  db_uuid: f95778408dbf46dca6c1450f3d8b7967
+- name: Davey Richards
+  card_type: SingleCompetitorCard
+  db_uuid: e9e692f8a8c248d6aceb81e6232b53db
+- name: David Starr (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
+- name: David Starr (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: cd5a1c194e9b486aac4caac7cea6638d
+- name: Danya Might
+  card_type: SingleCompetitorCard
+  db_uuid: 01fa3c112412460b9999cb45f076fe73
+- name: Deerfield Bullgizer
+  card_type: SingleCompetitorCard
+  db_uuid: 221d8474bf084404ac43c826c2491184
+- name: Deputy Dango
+  card_type: SingleCompetitorCard
+  db_uuid: 38a5391801c4447da6ea182bd53eb6f0
+- name: Deranged Monarch
+  card_type: SingleCompetitorCard
+  db_uuid: 308de2fea17c4d1a8581fdd591951fef
+- name: Derek Neal
+  card_type: SingleCompetitorCard
+  db_uuid: 77fdc45f8ebe46c9a0304eb24e8a9498
+- name: Des the Destroyer
+  card_type: SingleCompetitorCard
+  db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
+- name: The Devil's Advocate (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
+- name: The Devil's Advocate (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 4683a1e9b5604a58b42b90904e40734e
+- name: Diabolik
+  card_type: SingleCompetitorCard
+  db_uuid: ebc7f25eaba1461aa7d083ff0807f003
+- name: Diamond Danny G
+  card_type: SingleCompetitorCard
+  db_uuid: 251d99d79e864af58762a6926801d0e9
+- name: Dick Thunderlips
+  card_type: SingleCompetitorCard
+  db_uuid: 323e4ac05b4a4492b4530097511d113f
+- name: The Director of Operations
+  card_type: SingleCompetitorCard
+  db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
+- name: Dirty Eddy
+  card_type: SingleCompetitorCard
+  db_uuid: e11da46d6f07469b8bb42e3fff7800b7
+- name: Dosmody the Snowman
+  card_type: SingleCompetitorCard
+  db_uuid: 426cb6e5acba479d81211a14c08f4fda
+- name: Downriver Drew
+  card_type: SingleCompetitorCard
+  db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
+- name: Dr. Emily Booker
+  card_type: SingleCompetitorCard
+  db_uuid: 836b424a74fd4d6d89eab215f184615e
+- name: Drunken Master
+  card_type: SingleCompetitorCard
+  db_uuid: 89a3e95dd0044141836048a654029ee7
+- name: Duke
+  card_type: SingleCompetitorCard
+  db_uuid: 1b4a21878c13419a9e643ce6359bae8a
+- name: Duncan Avecilla
+  card_type: SingleCompetitorCard
+  db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0
+- name: The Dweeb
+  card_type: SingleCompetitorCard
+  db_uuid: 5855a5840bde47f69a596df2703401ad
+- name: Effy
+  card_type: SingleCompetitorCard
+  db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
+- name: El Gato Sombrio
+  card_type: SingleCompetitorCard
+  db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
+- name: E.L.F.
+  card_type: SingleCompetitorCard
+  db_uuid: 4546e97dd60b4490a4d69f62c2bdaea5
+- name: El Llama Enmascarada Senior
+  card_type: SingleCompetitorCard
+  db_uuid: 65dcddf9188847138f8777529436efb9
+- name: El Phantasmo
+  card_type: SingleCompetitorCard
+  db_uuid: c8788ae573734217b3a4ee2563d998b7
+- name: El Super Santa
+  card_type: SingleCompetitorCard
+  db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
+- name: Ellis Taylor
+  card_type: SingleCompetitorCard
+  db_uuid: 2e85f004baa34c31bf8da5098a24f796
+- name: Ember Wolf (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: a038bb0a150f472cb9acd8a3f7be1778
+- name: Ember Wolf (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 70b7bc008c124456b49e4112b209c5db
+- name: Emo Mam
+  card_type: SingleCompetitorCard
+  db_uuid: 621336854c0d4f8d8d02ea15e46fa711
+- name: The End
+  card_type: SingleCompetitorCard
+  db_uuid: d12bb5eef1d7482fa310367b3bb07602
+- name: The Enforcer
+  card_type: SingleCompetitorCard
+  db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
+- name: Eric Jayden
+  card_type: SingleCompetitorCard
+  db_uuid: aa89168b8bb54d60af3e2aa396622bdf
+- name: Eva FireCat
+  card_type: SingleCompetitorCard
+  db_uuid: 961b4051a9df4a1b8cb802f66c4e6f67
+- name: Evee Laveaux
+  card_type: SingleCompetitorCard
+  db_uuid: cc42c7a9d4834a03836944558edd39cc
+- name: Everybuddy
+  card_type: SingleCompetitorCard
+  db_uuid: 7a641f25d38c4438896303135d4e9d56
+- name: Everyone's Enemy
+  card_type: SingleCompetitorCard
+  db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
+- name: Evil Ed the Cheesehead
+  card_type: SingleCompetitorCard
+  db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
+- name: Fast Hands Cam
+  card_type: SingleCompetitorCard
+  db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
+- name: Father Light
+  card_type: SingleCompetitorCard
+  db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
+- name: Fauxtista (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 1c3f399dee664720851eb4481be8ebdb
+- name: Fauxtista (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 4356f9b884184358a9bb01e9c8b012be
+- name: Finland
+  card_type: SingleCompetitorCard
+  db_uuid: ff124a60d2f94fe4ab9fd04b21ddda50
+- name: Fire Flash
+  card_type: SingleCompetitorCard
+  db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
+- name: Fireball
+  card_type: SingleCompetitorCard
+  db_uuid: f602d739628746ee8620999d09310727
+- name: The Firestarter Jake Crist
+  card_type: SingleCompetitorCard
+  db_uuid: 12518693612b42238adbe4e7f1562d3c
+- name: Flame Fighter
+  card_type: SingleCompetitorCard
+  db_uuid: ae2b1fde64e343da8848984231aa5c83
+- name: Flip Gordon
+  card_type: SingleCompetitorCard
+  db_uuid: 23cd4515a4a14ddc9af09390a3a0865c
+- name: Flora Mother of Llamas
+  card_type: SingleCompetitorCard
+  db_uuid: 3999aa59d7a6467ea1187669d086576b
+- name: Flyboy
+  card_type: SingleCompetitorCard
+  db_uuid: 7a27b8f53e2b41a093fb2e619ab364a9
+- name: Fortress
+  card_type: SingleCompetitorCard
+  db_uuid: 30db51ec9a66447eb781f3663d2b70a5
+- name: Fox Assasin (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 483f70a0f19841288d1d8ea046225744
+- name: Foxworthy
+  card_type: SingleCompetitorCard
+  db_uuid: 518058d6535f46c692afbbfcbb8cc115
+- name: Franklin "Turtle" Clark
+  card_type: SingleCompetitorCard
+  db_uuid: d89414c9e0e943d2844fcdeec92be5e5
+- name: The Frequent Flyer
+  card_type: SingleCompetitorCard
+  db_uuid: 8f4d6cf02cf04c15bcb6908883bc5fd0
+- name: Fuhgeddaboutit!
+  card_type: SingleCompetitorCard
+  db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
+- name: Funtime Bob (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: b7b746a51bf5436da9c4ba172c7ff504
+- name: Funtime Bob (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 667bc6434cfc4080870f6224e76e01fc
+- name: Gabby Ortiz
+  card_type: SingleCompetitorCard
+  db_uuid: 0f15d434bd974b2a906aa62268028efb
+- name: GDD
+  card_type: SingleCompetitorCard
+  db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
+- name: General Manager John Calace
+  card_type: SingleCompetitorCard
+  db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
+- name: GGP
+  card_type: SingleCompetitorCard
+  db_uuid: 6ac028b8730a4e77a303e04ddd9efc8a
+- name: Gia de los Muertos
+  card_type: SingleCompetitorCard
+  db_uuid: a4b61c579c2d4ca59b5001ea5503fdef
+- name: Gideon Guts (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: b0d290415e4e4ab685ecf41d06d6f167
+- name: Gideon Guts (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: d02f496c8aef43e7953af2ce6fe81f22
+- name: Grande Gallo
+  card_type: SingleCompetitorCard
+  db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
+- name: Great Oniman
+  card_type: SingleCompetitorCard
+  db_uuid: 2a085c1413b3407fb33e8737e43b732e
+- name: The Great Outdoors
+  card_type: SingleCompetitorCard
+  db_uuid: eedfad784cc74ef18b85af6ba1df2055
+- name: Grinch Pitt
+  card_type: SingleCompetitorCard
+  db_uuid: 18ec1811ed0f4626b8ff2009207e9e7c
+- name: Hailey Stevens
+  card_type: SingleCompetitorCard
+  db_uuid: 139bab0bee214ab18d8150337869667e
+- name: Hallow King
+  card_type: SingleCompetitorCard
+  db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
+- name: The Harlequin Queen
+  card_type: SingleCompetitorCard
+  db_uuid: 5319a7d9980845fb8a17e35df92f1068
+- name: Harvey Luster
+  card_type: SingleCompetitorCard
+  db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
+- name: Heartache Kid Mr. L.F.F.
+  card_type: SingleCompetitorCard
+  db_uuid: 8d1c80c7bbf34977ae298f810ac15af8
+- name: Helen
+  card_type: SingleCompetitorCard
+  db_uuid: cf0fe079e09c452da001e572c73cf568
+- name: High Water
+  card_type: SingleCompetitorCard
+  db_uuid: c12b5c9b4a194269876839cba3a256cf
+- name: Hiroshi Tanahashi
+  card_type: SingleCompetitorCard
+  db_uuid: 818d5a2501ce481ca42886e95e7d0943
+- name: History Making Matt Pineapple
+  card_type: SingleCompetitorCard
+  db_uuid: 70ec50606f764d35bbbbaf40618177da
+- name: Hobbzilla
+  card_type: SingleCompetitorCard
+  db_uuid: 563f8d603ca043fcbb01e473215d055a
+- name: Hold the Line Harry
+  card_type: SingleCompetitorCard
+  db_uuid: ad19decd21624f22b678048ab0b463db
+- name: Homicide
+  card_type: SingleCompetitorCard
+  db_uuid: 8cb3b634e7d94e4eb9d14084aaee6047
+- name: Hornet
+  card_type: SingleCompetitorCard
+  db_uuid: 514afe8b058d42a69b1870ba236be431
+- name: The Huntress Angel Lynn
+  card_type: SingleCompetitorCard
+  db_uuid: 947eaf142185488ca4a44d377af47b72
+- name: Hypnotist Hanz Mesmer
+  card_type: SingleCompetitorCard
+  db_uuid: 8d99533f1c7d4a1a9ac20cd0854eb757
+- name: The Immortal Warrior
+  card_type: SingleCompetitorCard
+  db_uuid: 89174df957434c11b42ee945d9626972
+- name: Invisible Man (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 534355d64b334f64b7598bbb93785bcb
+- name: Ivelisse "La Sicaria"
+  card_type: SingleCompetitorCard
+  db_uuid: c30f8ab941e046cdb7dea5772f96019b
+- name: J Train (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: d47d439957d54e528b89ef8d584e4371
+- name: Jacob Fatu
+  card_type: SingleCompetitorCard
+  db_uuid: c8f9abd1a3cf4e089549384fd52d0bce
+- name: Jacque EE
+  card_type: SingleCompetitorCard
+  db_uuid: 7333bd77424b441891340c35244b2b11
+- name: Jamie Senegal
+  card_type: SingleCompetitorCard
+  db_uuid: d7d82141547a44308408d2470732bb64
+- name: Jay Lyon
+  card_type: SingleCompetitorCard
+  db_uuid: 10a05e4e55ff46d5acd1f60c60b297dd
+- name: Jay White
+  card_type: SingleCompetitorCard
+  db_uuid: 68d8df0c31a04446bb8734cbe82be583
+- name: John Constance
+  card_type: SingleCompetitorCard
+  db_uuid: e7f4079b9154426e94cbc0bf90a6aa18
+- name: Jebediah The Amish Assassin
+  card_type: SingleCompetitorCard
+  db_uuid: bcfd31f67b454a1e9d41d981fb265e5d
+- name: Jessica Siren
+  card_type: SingleCompetitorCard
+  db_uuid: 1aeb79fc58f445b8ab7fe8bc2aebfcec
+- name: J-Flash
+  card_type: SingleCompetitorCard
+  db_uuid: c838aa6d65bd440689ed07eed9e1b94b
+- name: Jigsaw
+  card_type: SingleCompetitorCard
+  db_uuid: 44a277528d754a41bbb5f404cd32f2bd
+- name: Joe Black
+  card_type: SingleCompetitorCard
+  db_uuid: 8660f7591692453d871422bfec5a7f52
+- name: Johan Sibelius
+  card_type: SingleCompetitorCard
+  db_uuid: cfa3283cdd9f40d18785633df6626070
+- name: Johnny El Dorado
+  card_type: SingleCompetitorCard
+  db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
+- name: Johnny Gargano
+  card_type: SingleCompetitorCard
+  db_uuid: 17371174d48f48d59a01492841a75416
+- name: Johnny Korea
+  card_type: SingleCompetitorCard
+  db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
+- name: Johnny Supershow
+  card_type: SingleCompetitorCard
+  db_uuid: 659e5cb61628456f971e60e2b70760b3
+- name: Johnny T
+  card_type: SingleCompetitorCard
+  db_uuid: c79de6acd1954441970f9b1901a55e01
+- name: Jokerfish
+  card_type: SingleCompetitorCard
+  db_uuid: 52ba551f1c3c40269d6a8ead69693cc3
+- name: Joulupukki
+  card_type: SingleCompetitorCard
+  db_uuid: c00569ab32544866b8eb51008e821d17
+- name: Jordan Oliver (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: ce62c04bdaf54cc1b72280f22e89589a
+- name: Jordan Oliver (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 24a750cd651b4ed0952e5d933524a9f0
+- name: Joseph Ritchie
+  card_type: SingleCompetitorCard
+  db_uuid: e5093ca247334348986ed94e04c5bb76
+- name: JP Warhorse
+  card_type: SingleCompetitorCard
+  db_uuid: 5798171c5d814f3c9f2926be67a2b347
+- name: JPL
+  card_type: SingleCompetitorCard
+  db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
+- name: JT Dunn
+  card_type: SingleCompetitorCard
+  db_uuid: b41d30281182409c8d64717d314ab4bc
+- name: Jupiter
+  card_type: SingleCompetitorCard
+  db_uuid: 75d2a722d7674b46958451b843d04078
+- name: K7 Sniper
+  card_type: SingleCompetitorCard
+  db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
+- name: Kaleb With a K
+  card_type: SingleCompetitorCard
+  db_uuid: 58f826bfd837442ba47de9fdacf90df5
+- name: Kameha Kahn
+  card_type: SingleCompetitorCard
+  db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
+- name: Katy Kitty (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 9acd6c2f43f649aea388f5fa72c04570
+- name: KayJay Impala
+  card_type: SingleCompetitorCard
+  db_uuid: 376f821b06c94e4688ebf91d872b7d6e
+- name: Kazuchika Okada
+  card_type: SingleCompetitorCard
+  db_uuid: ef3da0aa20f646bc8d33957331a170da
+- name: Ken Broadway
+  card_type: SingleCompetitorCard
+  db_uuid: 8ee42abf6c0449f499a32a3422df0725
+- name: Kenny Omega
+  card_type: SingleCompetitorCard
+  db_uuid: a65f29782caf41678005bafaf83802cc
+- name: Kenta
+  card_type: SingleCompetitorCard
+  db_uuid: c5956ba466a341ad8e89c6a23ed5a839
+- name: The Kenway
+  card_type: SingleCompetitorCard
+  db_uuid: cc1f76c2186a4f5eb3ba93baf87df3d3
+- name: Kenzie Page
+  card_type: SingleCompetitorCard
+  db_uuid: 84b60d0aecfa4ddd80a546a12ad8317d
+- name: Khloe Mai
+  card_type: SingleCompetitorCard
+  db_uuid: 3c8273a9252a46feb337348e29c30ad3
+- name: Kid Fresh
+  card_type: SingleCompetitorCard
+  db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
+- name: Kid Thunder
+  card_type: SingleCompetitorCard
+  db_uuid: 223b53a8b2c34a37ac87a18cf0b1bdae
+- name: King Brian Page
+  card_type: SingleCompetitorCard
+  db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
+- name: King Carcosa
+  card_type: SingleCompetitorCard
+  db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
+- name: King of Cosplay Mikal Mosley
+  card_type: SingleCompetitorCard
+  db_uuid: fb1e57613abe48419157410bb5bce677
+- name: King Greatness
+  card_type: SingleCompetitorCard
+  db_uuid: 7e5c8dfeecc041958080980601611097
+- name: King Kold
+  card_type: SingleCompetitorCard
+  db_uuid: 8e4c95768fd74c74a55c02d182690cbe
+- name: King Kong Dundy
+  card_type: SingleCompetitorCard
+  db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
+- name: King of New York
+  card_type: SingleCompetitorCard
+  db_uuid: 43ac7d0570b24608a28f525f00156ffe
+- name: The King of Strings
+  card_type: SingleCompetitorCard
+  db_uuid: cc2319413d394caa9da0a045a4141797
+- name: Koby the Kid
+  card_type: SingleCompetitorCard
+  db_uuid: bf301e6c594b4946a34618e4e43af90b
+- name: Kota Ibushi
+  card_type: SingleCompetitorCard
+  db_uuid: ccfe5910ae174623b2a7f5b0f96e24d2
+- name: Kung Fu Donnie Janela
+  card_type: SingleCompetitorCard
+  db_uuid: eb966f76d489467491d6db0fa58ba0bf
+- name: L.A. Park
+  card_type: SingleCompetitorCard
+  db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
+- name: L.E.D. (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: 8ef681256e174839a3a0249b8aa564fb
+- name: L.E.D. (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: d854a32accd5403b9a4be851ff31a292
+- name: L.E.O. the Law
+  card_type: SingleCompetitorCard
+  db_uuid: d972645ab8854914be96f3bf114ac119
+- name: La Fenix
+  card_type: SingleCompetitorCard
+  db_uuid: 92d9e53180de40039d33b076e18b9127
+- name: Lauren Santiago
+  card_type: SingleCompetitorCard
+  db_uuid: 7c74c7826eeb4f44b91805c51d1c7ac4
+- name: Lawman Nick
+  card_type: SingleCompetitorCard
+  db_uuid: 2a686043f4ae434ab26a14adaf168625
+- name: Le Penguin
+  card_type: SingleCompetitorCard
+  db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
+- name: Leader of the Black Sheep
+  card_type: SingleCompetitorCard
+  db_uuid: 52492d03968e461d8a3e1e860491db9a
+- name: Leader of the Unit JT Dunn
+  card_type: SingleCompetitorCard
+  db_uuid: 0fe383c8e4fe4083bb11149f4564a081
+- name: Lemmy Adam
+  card_type: SingleCompetitorCard
+  db_uuid: 6d4c99c63ee748328862a9281bff7fe2
+- name: Lexi the Punk Rock Pixie
+  card_type: SingleCompetitorCard
+  db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
+- name: Liger
+  card_type: SingleCompetitorCard
+  db_uuid: 109e75661c724f3793fd139706a5b8b5
+- name: Lily Mai
+  card_type: SingleCompetitorCard
+  db_uuid: b0f985ab713b4bc29df222f797d3c13e
+- name: Lio Rush
+  card_type: SingleCompetitorCard
+  db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f
+- name: Lissa Langnatt
+  card_type: SingleCompetitorCard
+  db_uuid: 088fca386b3e47fcb5b1087f3b7def31
+- name: Little Guido
+  card_type: SingleCompetitorCard
+  db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
+- name: The Living Weapon Michael Deans
+  card_type: SingleCompetitorCard
+  db_uuid: 6bde88ab22814abbbac458954e8e2e38
+- name: Lobo Suicida
+  card_type: SingleCompetitorCard
+  db_uuid: cf93b1f8e4794f98b4282c71d2e29234
+- name: Lone Bear and His Cub
+  card_type: SingleCompetitorCard
+  db_uuid: 4acf043a506344ebbf95aa8c006b1dde
+- name: Lonestar
+  card_type: SingleCompetitorCard
+  db_uuid: b9371784bd32450993c3b7574677c3c7
+- name: Lord Garruth
+  card_type: SingleCompetitorCard
+  db_uuid: 411450337c044fafaa3188e60e721a92
+- name: Lord of the Dance
+  card_type: SingleCompetitorCard
+  db_uuid: 7959be929d324ad897255b94a99a57b1
+- name: Lord Thompson
+  card_type: SingleCompetitorCard
+  db_uuid: f63d587175404c10a36bdcd1e89338af
+- name: Lorenzo Manicotti
+  card_type: SingleCompetitorCard
+  db_uuid: b120edb9a0524b4683303dbd2ac6b32a
+- name: Loudmouth Leo Larynx
+  card_type: SingleCompetitorCard
+  db_uuid: def74dd5530540ce8a9e903bc10fd620
+- name: Luchamaniacal Uberstar
+  card_type: SingleCompetitorCard
+  db_uuid: 72b5e77d43f04fa698236a65d51bde24
+- name: Lucky Cat Neko
+  card_type: SingleCompetitorCard
+  db_uuid: ae3cdcd74b344ff18c243ef4db74de12
+- name: Lukewarm Stephen Houston
+  card_type: SingleCompetitorCard
+  db_uuid: 137e8a7f1895445690ad418e1c097ca3
+- name: Lunatic Ginge
+  card_type: SingleCompetitorCard
+  db_uuid: 989286521bff469094dffc72fdfba974
+- name: Lycan
+  card_type: SingleCompetitorCard
+  db_uuid: 6610ac46791b4527b45006f551fe028e
+- name: Macho Manny
+  card_type: SingleCompetitorCard
+  db_uuid: a09bc1774f984c6287207df2a01a4eee
+- name: Mack-a-Tack
+  card_type: SingleCompetitorCard
+  db_uuid: 202418b1360d433daf406ee61bfd8e2f
+- name: The Mad One
+  card_type: SingleCompetitorCard
+  db_uuid: c1a5f166e8d5469c9b64db175c6287df
+- name: Madman Fulton
+  card_type: SingleCompetitorCard
+  db_uuid: 1d26487afa2949a1926a43da578ce8ab
+- name: Maestro
+  card_type: SingleCompetitorCard
+  db_uuid: da079db2b3084e20af107b64d23149a0
+- name: The Magnificient Mr. Rey
+  card_type: SingleCompetitorCard
+  db_uuid: dba1b354303a48338e6e3362cdd62083
+- name: Main Event Brett
+  card_type: SingleCompetitorCard
+  db_uuid: b6c2698fbe9c461daeb2837c99cf9b8e
+- name: Mallory the Destroyer
+  card_type: SingleCompetitorCard
+  db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
+- name: The Man from I.T.
+  card_type: SingleCompetitorCard
+  db_uuid: 49295df8c3bb48778a446b6eeba6982f
+- name: Mangia
+  card_type: SingleCompetitorCard
+  db_uuid: 1cbeaf22cad640c99590010e989c8a43
+- name: Marcus Samuel Selmore
+  card_type: SingleCompetitorCard
+  db_uuid: 749f53f3b17942139d09aa4a05ca90a9
+- name: Mark F'n Perre
+  card_type: SingleCompetitorCard
+  db_uuid: 1f53f0225dc8495aa98d9e344a618bd1
+- name: The Mark Geoff Bravo
+  card_type: SingleCompetitorCard
+  db_uuid: 9a231499dca740c1ac1674b80f8234fd
+- name: Mark the Shark (V1)
+  card_type: SingleCompetitorCard
+  db_uuid: f9ad1426f01248fa90316c0410fd524b
+- name: Mark the Shark (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: a65cebf0b6ce40158c7d786af90a5e1d
+- name: Mars
+  card_type: SingleCompetitorCard
+  db_uuid: c487866114d74ebd9ca474bf13f38fb3
+- name: Marty Scurll
+  card_type: SingleCompetitorCard
+  db_uuid: dba1d61db20b496486642845a978d752
+- name: Masked Beetle
+  card_type: SingleCompetitorCard
+  db_uuid: 652f4cdb84a5453b852723eaa0ddc994
+- name: The Masked Llama
+  card_type: SingleCompetitorCard
+  db_uuid: c7b112a959164f1ab5a4018303136e61
+- name: The Master Chef L.M.P.
+  card_type: SingleCompetitorCard
+  db_uuid: 4392e41a99c04747a5f80e5078ffddc4
+- name: Master Dosmodious
+  card_type: SingleCompetitorCard
+  db_uuid: 0a2b9d6fc8f74186a5088cad2858e64a
+- name: Mastermind
+  card_type: SingleCompetitorCard
+  db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
+- name: Matt Nelan
+  card_type: SingleCompetitorCard
+  db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
+- name: Matt Riddle
+  card_type: SingleCompetitorCard
+  db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
+- name: Matt Stevens
+  card_type: SingleCompetitorCard
+  db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
+- name: Matt Travis
+  card_type: SingleCompetitorCard
+  db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
+- name: Matty Bar1
+  card_type: SingleCompetitorCard
+  db_uuid: 041f88464da84d039c316094b81a3273
+- name: Maul
+  card_type: SingleCompetitorCard
+  db_uuid: d7de2a59d5f04f41968fca33387c4304
+- name: Maverick Jones
+  card_type: SingleCompetitorCard
+  db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
+- name: Mayhem
+  card_type: SingleCompetitorCard
+  db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
+- name: Meeple's Champion
+  card_type: SingleCompetitorCard
+  db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
+- name: The Meeple's Unholy Union
+  card_type: SingleCompetitorCard
+  db_uuid: 44630c22a56448b9a0f6af124078364d
+- name: Memes Dealer
+  card_type: SingleCompetitorCard
+  db_uuid: 2812975b494f480eb69153836f76e68a
+- name: The Mercenary Flip Gordon
+  card_type: SingleCompetitorCard
+  db_uuid: e06405a7f9a54dfe8d429828e3c52b01
+- name: The Mercinator
+  card_type: SingleCompetitorCard
+  db_uuid: dde6c34e818d4973a031d0d6373ee395
+- name: Mercury
+  card_type: SingleCompetitorCard
+  db_uuid: 0a5c355b041a4cf6bd2b78d9549d162f

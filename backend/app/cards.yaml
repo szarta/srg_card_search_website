@@ -19459,29 +19459,167 @@
   card_type: SingleCompetitorCard
   db_uuid: 788f9c483d6a4aeda29a5b340fe9b329
 - name: Silent J
+  power: 5
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: 59b9a77484b74fb59ce7b65439490d5e
 - name: Silva
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
+  gender: Ambiguous
+  rules_text: 'Three times per match, during your turn roll: Your Strike skill is
+    +1 until the end of your next turn.'
   card_type: SingleCompetitorCard
   db_uuid: 3b7977fd175c49e98d6bd21be5cd529a
 - name: The Silver Marvel
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 7
   card_type: SingleCompetitorCard
+  rules_text: 'FRONT: Once during your turn when you draw 1 or more cards, draw 1
+    card then discard 1 card.
+
+    When you bury a card in your hand, you may turn this card over.
+
+    BACKWhen you bury any number of cards in your hand; your opponent buries 1 card
+    in their hand.'
   db_uuid: 8532ee54d4504d4196342d3fc7f0d0c1
+- name: The Silver Marvel (Back Stats)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 10
+  submission: 8
+  grapple: 7
+  db_uuid: 9601fc057af74102ab22d084c8797510
 - name: Sire
+  power: 8
+  technique: 7
+  agility: 9
+  strike: 6
+  submission: 10
+  grapple: 5
+  gender: Male
+  rules_text: If you ended your turn without playing a card, flip1 card.  If it is
+    a non-Finish, play it.
   card_type: SingleCompetitorCard
   db_uuid: 82e001f5073e4abcba395b3f4864f497
 - name: Slash Gordon
   card_type: SingleCompetitorCard
   db_uuid: 01545d3e725d4e83a1c8ec0f2db5cec1
 - name: Slime Girl
+  power: 6
+  technique: 9
+  agility: 8
+  strike: 7
+  submission: 10
+  grapple: 5
+  gender: Female
   card_type: SingleCompetitorCard
+  rules_text: When you roll Agility for your turn roll, draw 1 card and your next
+    turn roll is +1.
   db_uuid: e03d8c8283804088a9ff5bac13d02c99
-- name: Snake Pitt
+- name: Snake Pitt (V1)
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
   card_type: SingleCompetitorCard
+  rules_text: When you have fewer cards in your hand than your opponent, your Power,
+    Agility, and Technique are +1.
   db_uuid: 8ae46f2366614e28ac5d20571c09d455
-- name: '"Sofa King" Eddy Fury'
+- name: Snake Pitt (V2)
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: 'When your opponent has a Strike, Submission, and Grapple in play: Your
+    Strike, Submission, and Grapple skills are +1.'
+  card_type: SingleCompetitorCard
+  db_uuid: 23399bbbb04044748fda782de8e3169c
+- name: Snake Pitt (V3)
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: 'When your target has more:
+
+    Strikes in play, +1 to Agility
+
+    Grapples in play, +1 to Power
+
+    Submissions in play, +1 to Technique.'
+  card_type: SingleCompetitorCard
+  db_uuid: 2089cbfc2a414f49843cf15b434ea359
+- name: Sofa King Eddy Fury
+  power: 5
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 7
+  gender: Male
+  rules_text: 'If you didn''t end the previous turn without playing a card: When either
+    player ends their turn without playing a card, your next turn roll is +1.'
   card_type: SingleCompetitorCard
   db_uuid: 066f269d111b4003ad7c426b77cdea5e
+- name: Sofa King Powerful Punch
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Your opponent randomly buries 1 card in their hand.  If either player ended their
+    last turn without playing a card, double these bonuses.'
+  db_uuid: 22326f0cc1374ab2b36329d12fb2eb90
+- name: Arise Chicken, Chicken Arise
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    If your opponent ended their last turn without playing a card, this card is also
+    a Lead.'
+  db_uuid: ef13552e5f8f480486920e2ab161937f
+- name: Sofa King Painful Hold
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Your opponent cannot play Leads on their next turn.'
+  db_uuid: c04d9761d5594463917b59c328b66582
 - name: Soratonin
   card_type: SingleCompetitorCard
   db_uuid: cd283aee6aec4624870ed56c983f9951
@@ -19693,9 +19831,25 @@
   card_type: SingleCompetitorCard
   db_uuid: 9e7ee531fc2248aa8fa530e82d62e06c
 - name: Zombie
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: 'Once a turn roll, when your turn roll is at least 3 less than your
+    opponent''s: add 1 non-Finish card from your discard pile to your hand.'
   card_type: SingleCompetitorCard
   db_uuid: 64468c0e28f249d6b26708f00570c064
 - name: Zonda
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 5
+  submission: 7
+  grapple: 8
+  gender: Ambiguous
   card_type: SingleCompetitorCard
   db_uuid: c3fe9806c9c14f4f844a8c904c2969ab
 - name: The Zookeeper

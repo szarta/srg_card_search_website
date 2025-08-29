@@ -18394,42 +18394,167 @@
   gender: Male
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
 - name: Captain Rustbelt
+  power: 5
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 7
+  gender: Male
+  rules_text: When you and your opponent roll the same skill for your turn roll, your
+    opponet's turn roll is -2.
   card_type: SingleCompetitorCard
   db_uuid: d7de64cba4dd40589bfe221b0a7d65e4
 - name: Caveman (V1)
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  gender: Male
+  rules_text: 'During your turn, choose another single competitor in play and add
+    their Gimmick to yours until the start of your next turn.
+
+    Your opponent''s Headbutt cards are blank when played against you.'
   card_type: SingleCompetitorCard
   db_uuid: f2d49aea3af44e0c90c7947680a6e89b
 - name: Caveman (V2)
+  power: 8
+  technique: 5
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: When you have 2 cards in play with "Stick" and 1 card with "Fire" in
+    the name, your opponent's Gimmick is copied and then blanked.
   card_type: SingleCompetitorCard
   db_uuid: 23c31720ac384b888ba04b4e47cf6649
 - name: Chair Extraordinaire Shawn Spears
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: When you roll 10 for your turn roll, add 1 card with "Chair" in the
+    name from your discard pile to your hand.
   card_type: SingleCompetitorCard
   db_uuid: 1cea3fa2e2ae4fe7bd34ab3fe624d296
 - name: Chamomile T
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  gender: Female
+  rules_text: When you roll Agility, you may draw 1 card and then bury 1 card in your
+    hand.
   card_type: SingleCompetitorCard
   db_uuid: 309e9641dda648c09f80a98fa92efc16
 - name: Cheetah
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 9
+  gender: Male
+  rules_text: 'When your Agility is equal to your opponent''s Agility, your Agility
+    is +1.
+
+    Your first turn roll is + the difference between you and one opponent''s Agility.'
   card_type: SingleCompetitorCard
   db_uuid: 8e7340565e01403d99eb2026d2d49765
 - name: Cherie Von Danish
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 7
+  gender: Female
+  rules_text: 'When your opponent rolls Technique for their turn roll: Search your
+    deck for 1 Lead or Follow Up with "Roll", "Chop", or "Cut" in the name, and add
+    it to your hand.  Shuffle your deck.'
   card_type: SingleCompetitorCard
   db_uuid: ee000b1dc146472c8ad39a71ad5616ae
 - name: Cherry Glamazon
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 5
+  gender: Female
+  rules_text: 'If you lost the previous turn roll: When you roll Power or Agility
+    for your turn roll, choose 1 card in play and discard it, or bury 1 card in any
+    player''s discard pile.'
   card_type: SingleCompetitorCard
   db_uuid: c94f753c62f5406cae60f664dfc182e6
 - name: Cheshire
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
+  gender: Male
+  rules_text: When your opponent moves any number of cards from their discard pile
+    to any other location, their next turn roll is -1.
   card_type: SingleCompetitorCard
   db_uuid: 7b92ca8e078b45ecb8efdea750aa6a9d
 - name: Chester the Jester
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 10
+  gender: Male
+  rules_text: When your opponent stops your card they bury 1 card in their hand.
   card_type: SingleCompetitorCard
   db_uuid: 9ef0e6cb61584512900eb71b7aa274a1
 - name: Chip Day
   card_type: SingleCompetitorCard
   db_uuid: 75d2cf5b748242309bab0d36c57360f9
-- name: Chugganomics
+- name: Chugganomics (V1)
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 6
   card_type: SingleCompetitorCard
+  gender: Male
+  rules_text: You and your opponent both play with the top card of your deck revealed.
   db_uuid: d9498c9ce72b440cbb5158e4b492114d
+- name: Chugganomics (V2)
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 6
+  gender: Male
+  rules_text: 'You and your opponent both play with the top card of your deck revealed.
+
+    Those cards may be played as if they were in your hands.'
+  card_type: SingleCompetitorCard
+  db_uuid: 0205f2be185343c18bf0098ff3edbb64
 - name: CLV
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: When you roll Agility for your turn roll, bury 1 card in any player's
+    discard pile.
+  gender: Female
   card_type: SingleCompetitorCard
   db_uuid: b4f043464fa64700b5dcfcfc57069e62
 - name: Colby Corino

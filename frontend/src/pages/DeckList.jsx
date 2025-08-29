@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 const articles = [
-  { slug: "the-rising-sun-example",        title: "Rising Sun Example Deck" },
+  { slug: "citizen-x",        title: "Citizen X" },
   // { slug: "another-deck",      title: "Another Deck Article" },
 ];
 

@@ -7541,6 +7541,7 @@
   deck_card_number: 12
   db_uuid: 466e1e01b9544df2832fcce78d12894d
 - name: Grind it Out
+  rules_text: If you have another Lead in play, you may re-roll your next turn roll.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8040,6 +8041,7 @@
   deck_card_number: 13
   db_uuid: 53a86bd2557144f185278a2e9407d319
 - name: Mudhole Stomp
+  rules_text: Your opponent's Agility is -1 during their turn and turn rolls.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9645,6 +9647,8 @@
   deck_card_number: 16
   db_uuid: 092f88dade334f8ea91300ef949edd44
 - name: You Just Got Slapped!
+  rules_text: Cannot be stopped by "Derailed".  If you have another Follow Up in play,
+    draw 1 card.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9705,6 +9709,8 @@
   deck_card_number: 17
   db_uuid: 38950a79b69547ee9c9b8e813a6d31dc
 - name: Chicken Wing Wonderplex
+  rules_text: Cannot be stopped by "Apocalypse".  If you have another Follow Up in
+    play, draw 1 card.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10308,6 +10314,8 @@
   deck_card_number: 18
   db_uuid: 3b0df0810baa453b9825917e129168b6
 - name: Mop Twist Clutch
+  rules_text: If your opponent has a Stop in play, put 1 card from your discard pile
+    on top of your deck.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -10560,6 +10568,9 @@
   deck_card_number: 19
   db_uuid: 150a02faff9842b1b5862dc74e737650
 - name: Blindside Smash
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player draws 1 card.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11224,6 +11235,9 @@
   deck_card_number: 20
   db_uuid: 5f4475182857499db105c8c3c6661d23
 - name: Panic Slam
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player draws 1 card.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -11445,6 +11459,9 @@
   deck_card_number: 21
   db_uuid: bc5249d8841a415d8007cfb7bb9c4167
 - name: Back Rake
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player draws 1 card.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -12200,6 +12217,9 @@
   deck_card_number: 22
   db_uuid: 5f8048a149044ea4b996d0c319cacf36
 - name: Set Up the Kendo Stick
+  rules_text: Search your deck or discard pile for 1 Strike and put it on top of your
+    shuffled deck.  If either play rolls Technique for thier turn roll, their roll
+    is +1.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12863,6 +12883,9 @@
   deck_card_number: 24
   db_uuid: db010079c2204938b75f531e3c07e5c3
 - name: Bulldog Choke
+  rules_text: 'Draw 1 card.
+
+    This card cannot be stopped by Follow Ups.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13510,6 +13533,9 @@
   deck_card_number: 25
   db_uuid: 7d13b92f22de49d197e2687e7c704ea8
 - name: Spinning Elbow
+  rules_text: 'Stop any Grapple.
+
+    Each player draws 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -13699,6 +13725,9 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Stop any Submission.
+
+    The player with fewest cards in hand draws 1 card.'
   deck_card_number: 26
   db_uuid: f82c584a7fe24c748908e736c99ae4b1
 - name: Counter Spear
@@ -13979,6 +14008,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Stop any Strike.
+
+    The player with fewest cards in hand draws 1 card.'
   deck_card_number: 27
   db_uuid: 7df436fad0ef45949c1e61fde3bc1761
 - name: Backlash With the Microphone

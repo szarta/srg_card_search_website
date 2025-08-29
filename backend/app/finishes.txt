@@ -1,5 +1,4 @@
 - name: ""
-  srg_url: ""
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -7,7 +6,6 @@
   rules_text: ""
 
 - name: ""
-  srg_url: ""
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -15,7 +13,6 @@
   rules_text: ""
 
 - name: ""
-  srg_url: ""
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

@@ -17872,6 +17872,7 @@
     in the name from your discard pile into play.'
   db_uuid: 349601cfd009410da846a1e860aa6856
 - name: Rambo Apocalypse
+  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
   card_type: SingleCompetitorCard
   power: 5
   technique: 9
@@ -17887,6 +17888,7 @@
   - 98a849628df54d039b2257380fadae1d
   - 68083df0d3624138be5234518cc0d640
 - name: "The Star Uppercut\u2122"
+  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -17900,6 +17902,7 @@
     If you stopped a card with your Gimmick last turn, double these bonuses.'
   db_uuid: 1e8bf5f2b4f44300b8f4da682117f964
 - name: Lights! Camera! Stomp!
+  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -17913,6 +17916,7 @@
     Your Power and Strike are +1 during turn rolls.'
   db_uuid: 98a849628df54d039b2257380fadae1d
 - name: Denouement
+  srg_url: https://supershowthegame.com/product/rambo-apocalypse/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -18748,6 +18752,7 @@
   grapple: 7
   gender: Male
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  division: United States
   rules_text: 'You may 3 times per match:
 
     When you would bump, your opponent draws 1 card and your Turn Roll is +1.'
@@ -18768,6 +18773,7 @@
   submission: 9
   grapple: 7
   gender: Male
+  division: Hardcore
   rules_text: 'When your turn roll is exactly 1 greater than your opponent''s turn
     roll: their next turn roll is -1.'
   card_type: SingleCompetitorCard
@@ -19090,8 +19096,54 @@
   card_type: SingleCompetitorCard
   db_uuid: 534355d64b334f64b7598bbb93785bcb
 - name: Ivelisse "La Sicaria"
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 9
+  gender: Female
+  srg_url: https://supershowthegame.com/product/ivelisse-la-sicaria/
+  rules_text: 'When you have at least 2 Grapples in play, your Submission is +1.
+
+    When you have at least 3 Submissions in play, your Technique is +2.'
   card_type: SingleCompetitorCard
   db_uuid: c30f8ab941e046cdb7dea5772f96019b
+  related_finishes:
+  - 1c6ea7a1319540f1bb89a024e5a676f2
+  - b9e20805145e4b31b6e5e557f0e6281e
+  - 5131d28e012f4e3fabfe5452fbcb1fef
+- name: The Ride Along
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Draw 1 card for each Strike you have in play.
+
+    Your Finish roll is +1 for every 3 Strikes you have in play.'
+  db_uuid: 1c6ea7a1319540f1bb89a024e5a676f2
+- name: Desert Eagle
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'If you have at least 2 Grapples in play, +3 to Agility.
+
+    If you have at least 3 Submissions in play, +4 to Power.'
+  db_uuid: b9e20805145e4b31b6e5e557f0e6281e
+- name: Disdain
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  db_uuid: 5131d28e012f4e3fabfe5452fbcb1fef
 - name: J Train (V1)
   card_type: SingleCompetitorCard
   db_uuid: d47d439957d54e528b89ef8d584e4371

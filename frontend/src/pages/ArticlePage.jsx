@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import CardLink from "../components/CardLink";
 import CardImage from "../components/CardImage";
+import DeckGridFromNames from "../components/DeckGridFromNames"; // <-- NEW
 
 export default function ArticlePage() {
   const { slug } = useParams();
@@ -55,6 +56,33 @@ export default function ArticlePage() {
     return parts;
   };
 
+  // NEW: renderer for ```deck blocks
+  const CodeBlock = ({ inline, className, children, ...props }) => {
+    if (inline) {
+      return <code className={className} {...props}>{children}</code>;
+    }
+    const lang = (className || "").replace(/^language-/, "");
+    if (lang !== "deck") {
+      return <pre className={className} {...props}><code>{children}</code></pre>;
+    }
+
+    // Parse one card name per line (ignore empties & bullets)
+    const raw = String(children || "");
+    const names = raw
+      .split(/\r?\n/)
+      .map(s => s.trim().replace(/^[-*]\s+/, "")) // allow "- Name" too
+      .filter(Boolean);
+
+    // Optional: allow "title: Something" first line
+    let title = "Deck";
+    if (/^title\s*:/i.test(names[0] || "")) {
+      const first = names.shift();
+      title = first.split(":").slice(1).join(":").trim() || "Deck";
+    }
+
+    return <DeckGridFromNames names={names} title={title} pageSize={40} />;
+  };
+
   return (
     <article className="prose prose-invert lg:prose-xl mx-auto p-6 text-white">
       {/* Header */}
@@ -96,45 +124,32 @@ export default function ArticlePage() {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
-          // Heading & anchor styling
-          h1: ({ node, ...props }) => (
-            <h1 className="text-4xl font-bold mt-8 mb-4" {...props} />
-          ),
-          h2: ({ node, ...props }) => (
-            <h2 className="text-3xl mt-6 mb-3" {...props} />
-          ),
-          h3: ({ node, ...props }) => (
-            <h3 className="text-2xl mt-5 mb-2" {...props} />
-          ),
-          a: ({ node, ...props }) => (
-            <a className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline" {...props} />
-          ),
+          // Headings & anchors
+          h1: ({ node, ...props }) => <h1 className="text-4xl font-bold mt-8 mb-4" {...props} />,
+          h2: ({ node, ...props }) => <h2 className="text-3xl mt-6 mb-3" {...props} />,
+          h3: ({ node, ...props }) => <h3 className="text-2xl mt-5 mb-2" {...props} />,
+          a:  ({ node, ...props }) => <a className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline" {...props} />,
 
-          // Paragraph override: parse bracket tokens within text nodes
+          // Parse [[ ]] / [[[ ]]] inside paragraphs and table cells
           p: ({ node, children, ...props }) => {
             const out = [];
             React.Children.forEach(children, (child, idx) => {
-              if (typeof child === "string") {
-                out.push(...renderBracketInline(child, `p${idx}`));
-              } else {
-                out.push(child);
-              }
+              if (typeof child === "string") out.push(...renderBracketInline(child, `p${idx}`));
+              else out.push(child);
             });
             return <p {...props}>{out}</p>;
           },
-
-          // Table cell override: same parsing inside <td>
           td: ({ node, children, ...props }) => {
             const out = [];
             React.Children.forEach(children, (child, idx) => {
-              if (typeof child === "string") {
-                out.push(...renderBracketInline(child, `td${idx}`));
-              } else {
-                out.push(child);
-              }
+              if (typeof child === "string") out.push(...renderBracketInline(child, `td${idx}`));
+              else out.push(child);
             });
             return <td {...props}>{out}</td>;
           },
+
+          // NEW: code block hook for ```deck
+          code: CodeBlock,
         }}
       >
         {content}

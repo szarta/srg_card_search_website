@@ -2814,6 +2814,7 @@
   submission: 9
   grapple: 5
   division: Intergalactic
+  gender: Male
   card_type: SingleCompetitorCard
   rules_text: When your opponent draws any number of cards for a Gimmick or card effect,
     they bury 1 card in their hand.

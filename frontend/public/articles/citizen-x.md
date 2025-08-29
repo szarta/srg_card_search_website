@@ -67,52 +67,36 @@ bury cards).
 ## Decklist
 
 ### Competitor
-| #   | Card Name          |
-| --- | -----------------  |
-| 1   | [[Citizen X]] |
-
-### Entrance
-| #   | Card Name          |
-| --- | -----------------  |
-| -   | [[Aid From the SRG Mom]] |
-
-### Finishers
-
-| #   | Card Name             |
-| --- | -----------------     |
-| 28  | [[Pebkac]]       |
-| 29  | [[Crash Override]] |
-| 30  | [[The LoTek]] |
-
-### Main Deck
-
-| #   | Card Name                       |
-| --- | ------------------------------- |
-| 1   | [[Snap Punch]]                  |
-| 2   | [[Arm & Collar Tie Up]]         |
-| 3   | [[Snap Headlock]]               |
-| 4   | [[Apocalypse]]                  |
-| 5   | [[Super Hip Toss]]              |
-| 6   | [[Knee Bar]]                    |
-| 7   | [[Tornillo]]                    |
-| 8   | [[Air Raid Crash]]              |
-| 9   | [[All American Hold]]           |
-| 10  | [[Air Drop]]                    |
-| 11  | [[Russian Leg Sweep]]           |
-| 12  | [[Grind It Out]]                |
-| 13  | [[Mudhole Stomp]]               |
-| 14  | [[Throw Into the Turnbuckle]]   |
-| 15  | [[Beg for Mercy]]               |
-| 16  | [[You Just Got Slapped!]]       |
-| 17  | [[Chicken Wing Wonderplex]]     |
-| 18  | [[Mop Twist Clutch]]            |
-| 19  | [[Blindside Smash]]             |
-| 20  | [[Panic Slam]]                  |
-| 21  | [[Back Rake]]                   |
-| 22  | [[Set Up The Kendo Stick]]      |
-| 23  | [[Powerbomb]]                   |
-| 24  | [[Bulldog Choke]]               |
-| 25  | [[Spinning Elbow]]              |
-| 26  | [[Catch Cutter]]                |
-| 27  | [[Bankrolling a Championship]]  |
-
+```deck
+Citizen X
+Aid From the SRG Mom
+Pebkac
+Crash Override
+The LoTek
+Snap Punch
+Arm & Collar Tie Up
+Snap Headlock
+Apocalypse
+Super Hip Toss
+Knee Bar
+Tornillo
+Air Raid Crash
+All American Hold
+Air Drop
+Russian Leg Sweep
+Grind It Out
+Mudhole Stomp
+Throw Into the Turnbuckle
+Beg for Mercy
+You Just Got Slapped!
+Chicken Wing Wonderplex
+Mop Twist Clutch
+Blindside Smash
+Panic Slam
+Back Rake
+Set Up The Kendo Stick
+Powerbomb
+Bulldog Choke
+Spinning Elbow
+Catch Cutter
+Bankrolling a Championship

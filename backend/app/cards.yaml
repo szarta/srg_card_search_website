@@ -20168,6 +20168,7 @@
   card_type: SingleCompetitorCard
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
 - name: The Centipede
+  card_type: SingleCompetitorCard
   power: 9
   technique: 5
   agility: 6
@@ -20221,6 +20222,7 @@
     If your opponent breaks out, put 1 non-Finish Lead from your hand into play.'
   db_uuid: 6d010b57eb004ba4945ed04a1bfa31d2
 - name: Big Rig Daddy Dig
+  card_type: SingleCompetitorCard
   power: 9
   technique: 6
   agility: 5

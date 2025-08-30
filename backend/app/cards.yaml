@@ -20624,3 +20624,59 @@
     Each time your opponent rolls for a breakout, they bury 1 card in their hand,
     then flip 1 card.'
   db_uuid: d9df223fc7384551965cc9bad5250f25
+- name: Mrs. Apocalypse
+  srg_url: https://supershowthegame.com/product/mrs-apocalypse/
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 5
+  gender: Female
+  card_type: SingleCompetitorCard
+  rules_text: 'During the turn roll: When your opponent''s turn roll is 7 or less,
+    their Gimmick is immediately blank.  If it is 9 or greater, if you would bump
+    on the next turn roll, your opponent''s roll is -1 instead.'
+  db_uuid: dfa3e0991ea3426197f4ded552575d61
+  related_finishes:
+  - 3f79afa6b169470aba9946f249f732b9
+  - 7a94c4d447f1463c9b16c2440c916476
+  - 244bf79f6adc48a28c553e55aa16df6b
+- name: Watch for the Shoe!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    +3 to Submission
+
+    If stopped, you lose the match via disqualification.'
+  db_uuid: 3f79afa6b169470aba9946f249f732b9
+- name: Death of Glamour
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    If you have a card in play with "Table" in the name, you may re-roll your Finish
+    roll.'
+  db_uuid: 7a94c4d447f1463c9b16c2440c916476
+- name: "The Hollywood Ending\u2122"
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    Your Finish roll is +1.
+
+    Each player draws 3 cards.
+
+    Your opponent''s next 2 turn rolls are -2.'
+  db_uuid: 244bf79f6adc48a28c553e55aa16df6b

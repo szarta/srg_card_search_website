@@ -84,7 +84,9 @@ export default function ArticlePage() {
   };
 
   return (
-    <article className="prose prose-invert max-w-none w-full mx-auto px-4 sm:px-6 py-6 text-white overflow-x-hidden">
+
+ <div className="min-h-screen w-[100svw] overflow-x-clip bg-purple-800">
+      <article className="prose prose-invert max-w-none w-full mx-auto px-4 sm:px-6 py-6 text-white overflow-x-hidden">
 
 
       {/* Header */}
@@ -157,6 +159,7 @@ export default function ArticlePage() {
         {content}
       </ReactMarkdown>
     </article>
+    </div>
   );
 }
 

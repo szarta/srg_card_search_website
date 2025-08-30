@@ -9,13 +9,13 @@ export default function CardGrid({ cards }) {
   const FALLBACK_THUMB = "/images/thumbnails/im/image_unavailable.webp";
 
   return (
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6 max-w-full overflow-x-hidden">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6 max-w-full overflow-x-hidden box-border">
 
       {cards.map((card) => (
         <Link
           to={`/card/${card.db_uuid}`}
           key={card.db_uuid}
-          className="block transition-transform overflow-hidden md:hover:scale-105 md:focus:scale-105"
+          className="block w-full transition-transform overflow-hidden md:hover:scale-105 md:focus:scale-105"
         >
           <img
             src={thumb(card.db_uuid)}

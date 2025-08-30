@@ -18809,9 +18809,56 @@
 - name: David Starr (V2)
   card_type: SingleCompetitorCard
   db_uuid: cd5a1c194e9b486aac4caac7cea6638d
-- name: Danya Might
+- name: Dayna Might
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  gender: Female
+  division: United States
+  srg_url: https://supershowthegame.com/product/dayna-might/
+  rules_text: Once during your turn, when your opponent stops a card, flip 1. If the
+    flipped card is the same move type as the stopped card (Strike, Grapple, Submission),
+    you may play it as an extra card this turn.
   card_type: SingleCompetitorCard
   db_uuid: 01fa3c112412460b9999cb45f076fe73
+  related_finishes:
+  - b55032e0ea3a474385d35a2f3b71000c
+  - 1ab3036539354fefa75a4c60850860c9
+  - ffd4a3d89fff455295906b980ca7ed30
+- name: The Butt-A-Boom!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +4 to Technique
+
+    Choose 1: Your opponent buries 2 cards in their hand, or buries 1 card in their
+    hand at random.'
+  db_uuid: b55032e0ea3a474385d35a2f3b71000c
+- name: TNT
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: If stopped, you may put this card on top of your deck.
+  db_uuid: 1ab3036539354fefa75a4c60850860c9
+- name: The Short Fuse
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    +2 to Submission
+
+    If stopped, shuffle up to 3 Submission cards from your discard pile into your
+    deck.'
+  db_uuid: ffd4a3d89fff455295906b980ca7ed30
 - name: Deerfield Bullgizer
   card_type: SingleCompetitorCard
   db_uuid: 221d8474bf084404ac43c826c2491184
@@ -19003,11 +19050,72 @@
   card_type: SingleCompetitorCard
   db_uuid: 2e85f004baa34c31bf8da5098a24f796
 - name: Ember Wolf (V1)
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  gender: Female
+  rules_text: 'During your turn:
+
+    Your Submissions have the added text "Flip 2 cards, then add 1 Strike from your
+    discard pile to your hand.'
+  srg_url: https://supershowthegame.com/product/ember-wolf/
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
+  related_finishes:
+  - b9eda449f3ec4f3f8ec6ca01d74590a4
+  - 81f74f91eadb4eff9cd4a7b9634c5211
+  - fc3e3574cfaf4e6eb225379bf90bbb11
+- name: Dream Catcher
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    When you have a card with "Chicken Wing" in the name in play, your opponent gets
+    2 breakout rolls this turn.'
+  db_uuid: b9eda449f3ec4f3f8ec6ca01d74590a4
+- name: Stardust Fall
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    Shuffle 6 cards from your discard pile into your deck and draw 2 cards.'
+  db_uuid: 81f74f91eadb4eff9cd4a7b9634c5211
+- name: Rebel Heart
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Flip 2 cards, then add 1 Strike from your discard pile to your hand.'
+  db_uuid: fc3e3574cfaf4e6eb225379bf90bbb11
 - name: Ember Wolf (V2)
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  gender: Female
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 70b7bc008c124456b49e4112b209c5db
+  rules_text: 'When you hit a Submission: Add 1 Strike that is not a Stop, Finish,
+    or Skill Requirement from your discard pile to your hand.'
+  related_finishes:
+  - b9eda449f3ec4f3f8ec6ca01d74590a4
+  - 81f74f91eadb4eff9cd4a7b9634c5211
+  - fc3e3574cfaf4e6eb225379bf90bbb11
 - name: Emo Mam
   card_type: SingleCompetitorCard
   db_uuid: 621336854c0d4f8d8d02ea15e46fa711

@@ -17864,6 +17864,7 @@
     If your opponent breaks out, add this card to your hand.'
   db_uuid: 29a0cf0aa2c6461293cb11049dc5fbff
 - name: Dr. Jake Hill
+  srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
   card_type: SingleCompetitorCard
   power: 5
   technique: 10
@@ -17871,6 +17872,8 @@
   strike: 6
   submission: 7
   grapple: 8
+  gender: Male
+  division: Intergalactic
   rules_text: After a breakout, put a card with "Potion" in the name from your discard
     pile into play.
   db_uuid: ed3ee94858c249e69bd462512b65c825
@@ -17881,6 +17884,7 @@
   - f8be0c80d3d24c4ea05c36d0ff7a3ba4
   - e1169ad0af8f47e6a145428470fd1601
 - name: Speed Potion No. 2
+  srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -17892,6 +17896,7 @@
     If stopped discard 1 card to shuffle this card into your deck.'
   db_uuid: 9642481fde484687bdd6b33a2ba3914d
 - name: Meet Mr. Hyde Potion No. 5
+  srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -17928,6 +17933,7 @@
     +1 to all your skills.'
   db_uuid: ef525bfc0b664c8498c6978d3f1333f6
 - name: Replication Potion No. 30
+  srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -17938,6 +17944,7 @@
     in the name from your discard pile into play.'
   db_uuid: 349601cfd009410da846a1e860aa6856
 - name: Love Potion No. 9
+  srg_url: https://supershowthegame.com/product/dr-jake-hill/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

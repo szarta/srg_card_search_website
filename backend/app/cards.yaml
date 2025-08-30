@@ -3894,7 +3894,8 @@
   deck_card_number: 2
   db_uuid: b9b122f7023049b2bcf64d563f415c84
 - name: Look for an Opening
-  rules_text: "Stop any Lead Submission or each player buries 1 card in their discard pile."
+  rules_text: Stop any Lead Submission or each player buries 1 card in their discard
+    pile.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4884,7 +4885,10 @@
   deck_card_number: 5
   db_uuid: 9997bb6bbe5b44e1880af04476f66a60
 - name: Going Over the Trash Can
-  rules_text: "If you have a card in play with \"Trash Can\" in the name, stop any Follow Up Submission.\nDraw 1 card. Shuffle 1 card from your discard pile into your deck."
+  rules_text: 'If you have a card in play with "Trash Can" in the name, stop any Follow
+    Up Submission.
+
+    Draw 1 card. Shuffle 1 card from your discard pile into your deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -5468,7 +5472,8 @@
   deck_card_number: 7
   db_uuid: 35ca2bdfe72b4553aaa134122d58685a
 - name: Dragon Punch
-  rules_text: "Reveal the top 2 cards of your deck, add 1 to your hand and shuffle the other back into your deck."
+  rules_text: Reveal the top 2 cards of your deck, add 1 to your hand and shuffle
+    the other back into your deck.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -5795,7 +5800,10 @@
   deck_card_number: 7
   db_uuid: cbf175624b4343869e2522451282979b
 - name: A Head of Steam
-  rules_text: "Draw the bottom card of your deck.\nIf your opponent forces you to discard any number of cards from your hand, shuffle up to 3 cards from your discard pile into your deck."
+  rules_text: 'Draw the bottom card of your deck.
+
+    If your opponent forces you to discard any number of cards from your hand, shuffle
+    up to 3 cards from your discard pile into your deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6734,7 +6742,10 @@
   deck_card_number: 10
   db_uuid: 7512f3831bdc407a8662a438a8959aec
 - name: Chug From a Trash Can
-  rules_text: "If you have another Strike in play, shuffle 2 cards from your discard pile into your deck.\nIf this is a Ring of Fire match, choose a player: their next turn roll is +1."
+  rules_text: 'If you have another Strike in play, shuffle 2 cards from your discard
+    pile into your deck.
+
+    If this is a Ring of Fire match, choose a player: their next turn roll is +1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -7177,7 +7188,8 @@
   deck_card_number: 11
   db_uuid: c71fe122381f44fa9c135a78e31e0b46
 - name: Gathering the Trash Can
-  rules_text: "Shuffle 1 Grapple from your discard pile into your deck for each card you have in play with \"Trash Can\" in the name."
+  rules_text: Shuffle 1 Grapple from your discard pile into your deck for each card
+    you have in play with "Trash Can" in the name.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7660,7 +7672,8 @@
   deck_card_number: 12
   db_uuid: b4693e7de5634e718db8b1269f98057c
 - name: Reverse Full Nelson Hold
-  rules_text: "If you have another Lead in play, shuffle 1 Submission from your discard pile into your deck and draw 1 card."
+  rules_text: If you have another Lead in play, shuffle 1 Submission from your discard
+    pile into your deck and draw 1 card.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8068,7 +8081,9 @@
   deck_card_number: 13
   db_uuid: 2bba515d92104439be44007e6072cebd
 - name: Pixel Palace Plancha
-  rules_text: "Shuffle 2 cards from your discard pile into your deck.\nYou can stop cards that cannot be stopped."
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    You can stop cards that cannot be stopped.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8734,7 +8749,12 @@
   deck_card_number: 15
   db_uuid: 1e42a277d67e4f62a7739d0ab346616a
 - name: All American Headlock
-  rules_text: "If your Submission skill is greater than your opponent's Submission skill, stop any Strike.\nShuffle 2 cards from your discard pile into your deck.\nSkill requirement: Grapple 8+"
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission
+    skill, stop any Strike.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Skill requirement: Grapple 8+'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -9591,7 +9611,8 @@
   deck_card_number: 16
   db_uuid: 38486c45ba484e51b751ef84465fb519
 - name: Soaring Forearm Strike
-  rules_text: "If you have another Follow Up in play, shuffle 1 Strike from your discard pile into your deck and draw 1 card."
+  rules_text: If you have another Follow Up in play, shuffle 1 Strike from your discard
+    pile into your deck and draw 1 card.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9696,7 +9717,8 @@
   deck_card_number: 17
   db_uuid: d8bfc1b3254e41b38d3f1d054f565aa7
 - name: Ambush With the Trash Can
-  rules_text: "Draw 1 card for each card you have in play with \"Trash Can\" in the name, then bury 1 card in your hand."
+  rules_text: Draw 1 card for each card you have in play with "Trash Can" in the name,
+    then bury 1 card in your hand.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10308,7 +10330,8 @@
   deck_card_number: 18
   db_uuid: 9583e4cd3d7c41dabb2feec49c999293
 - name: Leveling Back Up
-  rules_text: "Shuffle 1 card from your discard pile into your deck for each Stop your opponent has in play."
+  rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your
+    opponent has in play.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -11001,7 +11024,9 @@
   deck_card_number: 19
   db_uuid: 13406717ee1e4506b5f55b81f919f9b3
 - name: Trash-Bash-Smash
-  rules_text: "If your opponent has another Grapple in play, stop any Grapple.\nEach player buries 1 card in their hand."
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player buries 1 card in their hand.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11183,7 +11208,10 @@
   deck_card_number: 20
   db_uuid: cc6b18ddd1f04dd6aabdf531f9debaef
 - name: Hold the Trash Can
-  rules_text: "If you have a card in play with \"Trash Can\" in the name and your opponent has another Submission in play, stop any Submission.\nShuffle 1 card from your discard pile into your deck."
+  rules_text: 'If you have a card in play with "Trash Can" in the name and your opponent
+    has another Submission in play, stop any Submission.
+
+    Shuffle 1 card from your discard pile into your deck.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard

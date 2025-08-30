@@ -3850,7 +3850,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
-  rules_text: "Each player flips 1 card or stop any Submission."
+  rules_text: Each player flips 1 card or stop any Submission.
   db_uuid: 935232b7447c44beb785ce61f7ed2d2a
 - name: Flying Diving Corner Steel Chair Leg Sault
   play_order: Lead
@@ -4079,7 +4079,7 @@
   deck_card_number: 2
   db_uuid: 6edea4576aaf4d348653a69616f7180b
 - name: Wheelbarrow Slam
-  rules_text: "Flip 2 cards."
+  rules_text: Flip 2 cards.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4310,7 +4310,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
-  rules_text: "If your opponent rolls Power for their turn roll, their turn roll is -1.\nIf your opponent's next turn roll is Power, their turn roll is -2."
+  rules_text: 'If your opponent rolls Power for their turn roll, their turn roll is
+    -1.
+
+    If your opponent''s next turn roll is Power, their turn roll is -2.'
   deck_card_number: 3
   db_uuid: 9f1c1e103d0549d783f6bd9c671c4136
 - name: Psychic Ability
@@ -5928,7 +5931,8 @@
   deck_card_number: 8
   db_uuid: 031a74bc46154859a766988ac55e6ee3
 - name: Fireman's Carry
-  rules_text: "Choose 1 card your opponent has in play and put it into their discard pile, or bury your hand and draw the same number of cards."
+  rules_text: Choose 1 card your opponent has in play and put it into their discard
+    pile, or bury your hand and draw the same number of cards.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6162,7 +6166,10 @@
 - name: Thunderous Goozle
   play_order: Lead
   atk_type: Grapple
-  rules_text: "Search your deck for 1 Finish, discard it, and shuffle your deck or add 1 Stop from your discard pile to your hand.\nIf this match is a Triad match, you may choose both options."
+  rules_text: 'Search your deck for 1 Finish, discard it, and shuffle your deck or
+    add 1 Stop from your discard pile to your hand.
+
+    If this match is a Triad match, you may choose both options.'
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: 10d9a03cf6444876adf157d4705c43b8
@@ -7013,7 +7020,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Your opponent's next turn roll is -1 for each Strike you have in play."
+  rules_text: Your opponent's next turn roll is -1 for each Strike you have in play.
   deck_card_number: 10
   db_uuid: 9318fbd151b341d4a2cbec9c920a07cf
 - name: Surprise Dropkick
@@ -7091,14 +7098,14 @@
   deck_card_number: 11
   db_uuid: 17a34d6d13bc44d593ab65bf17798341
 - name: Belly to Back Suplex (V1)
-  rules_text: "Flip 2 cards for each other Lead you have in play."
+  rules_text: Flip 2 cards for each other Lead you have in play.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: b0dd780f72e3471185b257d65a60d0d5
 - name: Belly to Back Suplex (V2)
-  rules_text: "Flip 2 cards for each Lead you have in play."
+  rules_text: Flip 2 cards for each Lead you have in play.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7788,7 +7795,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
-  rules_text: "If you have another Submission in play, put 1 Submission from your discard pile on top of your deck.\nIf this is a Steel Cage match and this card is flipped, flip 1 card."
+  rules_text: 'If you have another Submission in play, put 1 Submission from your
+    discard pile on top of your deck.
+
+    If this is a Steel Cage match and this card is flipped, flip 1 card.'
   db_uuid: b00da4f1238b41b8aece8e4d6c59f894
 - name: Ain't That a Kick in the Head
   play_order: Followup
@@ -7931,7 +7941,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
-  rules_text: "Each play flips 1 card.\nYou may bury 1 card in each other player's discard pile."
+  rules_text: 'Each play flips 1 card.
+
+    You may bury 1 card in each other player''s discard pile.'
   db_uuid: 350c43e697de4f799d0e277874198773
 - name: Flying Body Press (V2)
   play_order: Followup
@@ -8021,7 +8033,7 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Choose 1 card your opponent has in play and discard it."
+  rules_text: Choose 1 card your opponent has in play and discard it.
   deck_card_number: 13
   db_uuid: 4a8fb2f9c2bb4b94b145db24ac69a0de
 - name: Kitchen Sink (#13)
@@ -8676,7 +8688,10 @@
   deck_card_number: 14
   db_uuid: f3c251dc6ed4452a8786cc4f5289b262
 - name: Surprise Cutter
-  rules_text: "If any player played a Stop card last turn this card is also a Lead.\nWhen this card is in your discard pile and your opponent stops a Grapple, add this card to your hand."
+  rules_text: 'If any player played a Stop card last turn this card is also a Lead.
+
+    When this card is in your discard pile and your opponent stops a Grapple, add
+    this card to your hand.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -8691,7 +8706,7 @@
 - name: Takeover With the Table
   play_order: Followup
   atk_type: Grapple
-  rules_text: "Take 3 cards from your discard pile and shuffle them into your deck."
+  rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 9a34fb22e17a48eaa428df3a474f332a
@@ -9214,7 +9229,8 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
-  rules_text: "Each player flips 1 card or if your Technique skill is greater than your opponent's Technique skill, stop any Strike."
+  rules_text: Each player flips 1 card or if your Technique skill is greater than
+    your opponent's Technique skill, stop any Strike.
   deck_card_number: 15
   db_uuid: 68cef7f90216452782ae68420a32428c
 - name: Wall of Fire
@@ -9239,7 +9255,11 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Your opponent's next turn roll is -1 for each other Follow Up you have in play.\nWhen this card is in your discard pile and you have 2 or fewer cards in your hand, you may add it to your hand."
+  rules_text: 'Your opponent''s next turn roll is -1 for each other Follow Up you
+    have in play.
+
+    When this card is in your discard pile and you have 2 or fewer cards in your hand,
+    you may add it to your hand.'
   deck_card_number: 16
   db_uuid: add3a3df0dfc4f31a300804f64faaf77
 - name: All Star Falling Star Assault
@@ -10040,7 +10060,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
-  rules_text: "If you have another Grapple in play, look at the top 3 cards of your deck.\nAdd 1 to your hand and put the others back on the top or bottom of your deck in any order."
+  rules_text: 'If you have another Grapple in play, look at the top 3 cards of your
+    deck.
+
+    Add 1 to your hand and put the others back on the top or bottom of your deck in
+    any order.'
   db_uuid: d6a3b8e3aac84f1f855e20335cfddc39
 - name: Spanish Fly
   play_order: Followup
@@ -10076,7 +10100,8 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
-  rules_text: "If you have another Grapple in play, add 1 Finish from your discard pile to your hand."
+  rules_text: If you have another Grapple in play, add 1 Finish from your discard
+    pile to your hand.
   deck_card_number: 17
   db_uuid: e4f6b42b80c14e09890be122efa44c50
 - name: Take the Shot
@@ -10612,7 +10637,10 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "If your opponent has another Grapple in play, stop any Grapple.\nReveal the top card of your deck: If it has \"Baseball Bat\" in the name, add that card to your hand, and you may re-roll your next turn roll."
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
   deck_card_number: 19
   db_uuid: a45e9e87f4fd45b1a724094ae5864092
 - name: Blindside Kick
@@ -11202,7 +11230,9 @@
   deck_card_number: 20
   db_uuid: f084224ebc0d4b3689fecb291351e9ff
 - name: Full Nelson Slam
-  rules_text: "Shuffle 1 card from your discard pile into your deck.\nIf you have less cards in play than your opponent this card is also a Lead."
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    If you have less cards in play than your opponent this card is also a Lead.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -11422,7 +11452,11 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
-  rules_text: "If your opponent has 2 other Submissions in play, stop any Submission.\n+2 to Power\nSkill Requirement: Power 8+"
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    +2 to Power
+
+    Skill Requirement: Power 8+'
   deck_card_number: 20
   db_uuid: 2ecb0737e9244d04807b32f573cdfeb9
 - name: Super Shoulder Breaker
@@ -12274,7 +12308,13 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 22
-  rules_text: "Search your deck for 1 card with \"Bat\" in the name: add it to your hand.\nAll Finish Strikes have the added text: \"Your opponent's breakout rolls are -1\".\nReveal the top card of your deck: If it has \"Baseball Bat\" in the name, add that card to your hand, and you may re-roll your next turn roll."
+  rules_text: 'Search your deck for 1 card with "Bat" in the name: add it to your
+    hand.
+
+    All Finish Strikes have the added text: "Your opponent''s breakout rolls are -1".
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
   db_uuid: 473cc62434d34d7da3e297321de6d7a9
 - name: Set Up the Drumsticks
   play_order: Followup
@@ -12384,7 +12424,7 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Your Finish rolls are +1."
+  rules_text: Your Finish rolls are +1.
   deck_card_number: 22
   db_uuid: 3f53ab0fef934963b1c29d880378b6f0
 - name: Thunderous Face Kick
@@ -12505,7 +12545,8 @@
     Skill Requirement: Grapple 8+'
   db_uuid: 4e266f93eb034d498cde022b81363fd0
 - name: Brain Buster
-  rules_text: "Your opponent randomly reveals 3 cards in their hand.  Choose 1 of those cards and bury it."
+  rules_text: Your opponent randomly reveals 3 cards in their hand.  Choose 1 of those
+    cards and bury it.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -12791,7 +12832,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 23
-  rules_text: "Flip 4 cards.  Add 1 Grapple from your discard pile to your hand.\nAll Finish Grapples have the added text \"Your Finish rolls are +1\"."
+  rules_text: 'Flip 4 cards.  Add 1 Grapple from your discard pile to your hand.
+
+    All Finish Grapples have the added text "Your Finish rolls are +1".'
   db_uuid: dd1cdbf9a8e44ffcace7d828a13966aa
 - name: Set Up the Trash Can
   rules_text: 'Shuffle 2 cards from your discard pile into your deck.
@@ -13238,7 +13281,9 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
-  rules_text: "Your opponent's next turn roll is -2.\nWhen this card is in play the match has no disqualifications."
+  rules_text: 'Your opponent''s next turn roll is -2.
+
+    When this card is in play the match has no disqualifications.'
   deck_card_number: 24
   db_uuid: 2742d6fe1ce643f89d7acc254664c74d
 - name: Rib Buster (V1)
@@ -13413,7 +13458,10 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Stop any Grapple.\nReveal the top card of your deck: If it has \"Baseball Bat\" in the name, add that card to your hand, and you may re-roll your next turn roll."
+  rules_text: 'Stop any Grapple.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
   deck_card_number: 25
   db_uuid: 1152f836c1a047e791b38ec94f79ca59
 - name: Bash in the Corner
@@ -13527,7 +13575,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: "Stop any Lead Grapple or Finish Grapple.\nYou may re-roll your next turn roll."
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    You may re-roll your next turn roll.'
   deck_card_number: 25
   db_uuid: 098b843196b3432a84a4c4b184df905e
 - name: Head Stomp (V1)
@@ -14046,7 +14096,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
-  rules_text: "Stop any Lead Submission or Finish Submission.\nYou may re-roll your next turn roll."
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    You may re-roll your next turn roll.'
   db_uuid: a866da539394433f89da01547f18007c
 - name: Sunset Flip
   play_order: Lead
@@ -14270,7 +14322,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 27
-  rules_text: "Stop any Lead Strike or Finish Strike.\nYour opponent's next turn roll is -1."
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Your opponent''s next turn roll is -1.'
   db_uuid: a1d6e00814d84d99a47615177934cb2c
 - name: Half Crab
   play_order: Lead

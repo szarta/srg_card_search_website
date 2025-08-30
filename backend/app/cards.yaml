@@ -17876,26 +17876,40 @@
   db_uuid: ed3ee94858c249e69bd462512b65c825
   related_finishes:
   - 349601cfd009410da846a1e860aa6856
+  - 9642481fde484687bdd6b33a2ba3914d
+  - 0604e53d335e4e43a1957b553f2d6d67
+  - f8be0c80d3d24c4ea05c36d0ff7a3ba4
+  - e1169ad0af8f47e6a145428470fd1601
 - name: Speed Potion No. 2
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
   card_type: MainDeckCard
-  rules_text: ''
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If stopped discard 1 card to shuffle this card into your deck.'
   db_uuid: 9642481fde484687bdd6b33a2ba3914d
 - name: Meet Mr. Hyde Potion No. 5
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   card_type: MainDeckCard
-  rules_text: ''
+  rules_text: '+5 to Power
+
+    -1 to Technique
+
+    If this card is flipped you may add it to your hand.'
   db_uuid: 0604e53d335e4e43a1957b553f2d6d67
 - name: 'Rage Potion #29'
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   card_type: MainDeckCard
-  rules_text: ''
+  rules_text: '+2 to Grapple
+
+    Draw 1 card for each card you have in play with "Potion" in the name.'
   db_uuid: f8be0c80d3d24c4ea05c36d0ff7a3ba4
 - name: Superkick Over the Top
   deck_card_number: 28
@@ -17923,6 +17937,17 @@
     When this card is discarded from play for a breakout, put 1 Lead with "Potion"
     in the name from your discard pile into play.'
   db_uuid: 349601cfd009410da846a1e860aa6856
+- name: Love Potion No. 9
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '-1 to Technique
+
+    +3 to Submission
+
+    If your opponent breaks out, draw cards equal to the Crowd Meter.'
+  db_uuid: e1169ad0af8f47e6a145428470fd1601
 - name: Rambo Apocalypse
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/
   card_type: SingleCompetitorCard

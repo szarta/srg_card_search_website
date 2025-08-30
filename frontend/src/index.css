@@ -18,36 +18,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+a { font-weight: 500; text-decoration: inherit; }
+a:hover { color: #535bf2; }
 
+/* Page background & sizing */
 body {
   @apply min-h-screen bg-gradient-to-b from-purple-900 via-purple-800 to-black;
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* IMPORTANT: do not center the whole app with flex — this can cause odd overflow */
+  display: block;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Clamp horizontal overflow globally (kills the 1–2px white gutter on some mobiles) */
+@supports (overflow-x: clip) {
+  html, body, #root { overflow-x: clip; }
+}
+@supports not (overflow-x: clip) {
+  html, body, #root { overflow-x: hidden; }
 }
 
+/* Optional: make sure all elements size within the viewport box */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Markdown / article tweaks */
+h1 { font-size: 3.2em; line-height: 1.1; }
+
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
+  :root { color: #213547; background-color: #ffffff; }
+  a:hover { color: #747bff; }
 }
 
 article h1       { border-bottom: 2px solid #444; padding-bottom: .5em; }
@@ -56,8 +56,9 @@ article ul, ol   { margin-left: 1.5em; }
 article table    { width: 100%; border-collapse: collapse; }
 article table th,
 article table td { border: 1px solid #555; padding: .5em; }
-.article-blockquote { /* if you use blockquotes for callouts */ }
+.article-blockquote { /* reserved for callouts */ }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

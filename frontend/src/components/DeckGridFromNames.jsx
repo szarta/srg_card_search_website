@@ -6,30 +6,46 @@ import { slugify } from "../lib/slug";
 
 export default function DeckGridFromNames({
   names = [],
-  pageSize = 40, // show up to 40 on page 1; typical decks are ≤ 35
+  rowsOverride = null,        // <-- NEW: pass pre-fetched rows to skip fetching
+  pageSize = 40,              // show up to 40 on page 1; typical decks are ≤ 35
   title = "Deck",
   enableExport = true,
-  exportFileName, // optional; defaults to slugified title
+  exportFileName,             // optional; defaults to slugified title
 }) {
   const [cards, setCards] = useState([]);
   const [notFound, setNotFound] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // pagination (still works if you ever exceed 40)
-  const [page, setPage] = useState(1);
-  const totalPages = Math.max(1, Math.ceil(names.length / pageSize));
+  // If we’re given rowsOverride (array of card rows), we use that.
+  const effectiveRows = Array.isArray(rowsOverride) ? rowsOverride : cards;
 
-  const pageNames = useMemo(() => {
+  // pagination (still works if you ever exceed 40)
+  const baseCount = Array.isArray(rowsOverride) ? rowsOverride.length : names.length;
+  const [page, setPage] = useState(1);
+  const totalPages = Math.max(1, Math.ceil(baseCount / pageSize));
+
+  const pageSlice = useMemo(() => {
     const start = (page - 1) * pageSize;
     const end = start + pageSize;
-    return names.slice(start, end);
-  }, [names, page, pageSize]);
+    if (Array.isArray(rowsOverride)) {
+      return effectiveRows.slice(start, end);
+    }
+    // names -> fetch path uses `cards`, which already correspond to pageNames
+    return effectiveRows;
+  }, [effectiveRows, page, pageSize, rowsOverride]);
 
   useEffect(() => {
     setPage(1);
-  }, [names, pageSize]);
+  }, [names, pageSize, rowsOverride]);
 
+  // Skip fetching entirely if rowsOverride is provided
   useEffect(() => {
+    if (Array.isArray(rowsOverride)) {
+      setLoading(false);
+      setNotFound([]);
+      return;
+    }
+
     let cancelled = false;
 
     const fetchPage = async () => {
@@ -38,7 +54,12 @@ export default function DeckGridFromNames({
         const fetched = [];
         const missing = [];
 
-        // 1) Batch endpoint first (same as CreateList) – preserves order and includes gender
+        // Build current page’s names
+        const start = (page - 1) * pageSize;
+        const end = start + pageSize;
+        const pageNames = names.slice(start, end);
+
+        // 1) Batch by-names first (includes gender)
         let batchRows = [];
         try {
           const resp = await fetch("/cards/by-names", {
@@ -50,11 +71,8 @@ export default function DeckGridFromNames({
             const data = await resp.json();
             batchRows = Array.isArray(data?.rows) ? data.rows : [];
           }
-        } catch {
-          // ignore; we’ll fall back below
-        }
+        } catch {}
 
-        // Build lookup maps from batch
         const bySlug = new Map();
         const byNameLower = new Map();
         for (const r of batchRows) {
@@ -64,12 +82,11 @@ export default function DeckGridFromNames({
           }
         }
 
-        // 2) Preserve original list order; fill from batch or fallbacks
+        // 2) Preserve order; fill from batch or fallbacks
         for (const n of pageNames) {
           const s = slugify(n);
           let row = bySlug.get(s) || byNameLower.get(n.toLowerCase());
 
-          // Fallbacks for any misses: slug endpoint → query search
           if (!row) {
             try {
               const r = await fetch(`/cards/slug/${s}`);
@@ -97,7 +114,7 @@ export default function DeckGridFromNames({
           }
         }
 
-        // 3) Enrich pass: ensure competitor rows carry `gender` like CreateList/TableView
+        // 3) Enrich competitor rows with gender if missing
         const COMP_TYPES = new Set([
           "SingleCompetitorCard",
           "TornadoCompetitorCard",
@@ -140,9 +157,7 @@ export default function DeckGridFromNames({
                 }
               }
             }
-          } catch {
-            // ignore; partial enrich is fine
-          }
+          } catch {}
         }
 
         if (!cancelled) {
@@ -158,7 +173,7 @@ export default function DeckGridFromNames({
     return () => {
       cancelled = true;
     };
-  }, [pageNames]);
+  }, [names, page, pageSize, rowsOverride]);
 
   // -------------------------
   // Export helpers (aligned with CreateList/TableView)
@@ -166,9 +181,8 @@ export default function DeckGridFromNames({
   const defaultExportName =
     (exportFileName && exportFileName.trim()) || `${slugify(title || "deck")}.csv`;
 
-  // columns visible/ordered similarly to TableView; append useful hidden fields if present
   const columns = useMemo(() => {
-    const rows = cards;
+    const rows = effectiveRows;
     const keys = new Set();
     rows.forEach((r) => Object.keys(r || {}).forEach((k) => keys.add(k)));
 
@@ -216,13 +230,12 @@ export default function DeckGridFromNames({
     hiddenAlways.forEach((k) => keys.delete(k));
 
     return [...preferred, ...Array.from(keys).sort()];
-  }, [cards]);
+  }, [effectiveRows]);
 
   const buildExportColumns = () => {
-    const rows = cards;
+    const rows = effectiveRows;
     const cols = [...columns];
 
-    // Include gender if present anywhere OR if any Competitor rows exist (to match CreateList intent)
     const COMP_TYPES = new Set([
       "SingleCompetitorCard",
       "TornadoCompetitorCard",
@@ -236,7 +249,6 @@ export default function DeckGridFromNames({
       cols.push("gender");
     }
 
-    // Ensure deck_card_number is exported when present, even if not visible
     if (
       rows.some((r) => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) &&
       !cols.includes("deck_card_number")
@@ -263,7 +275,7 @@ export default function DeckGridFromNames({
   };
 
   const toCSV = () => {
-    const rows = cards;
+    const rows = effectiveRows;
     const csvColumns = buildExportColumns();
     const header = csvColumns.map(escapeCSV).join(",");
     const body = rows
@@ -273,7 +285,7 @@ export default function DeckGridFromNames({
   };
 
   const toHTMLNoCSS = (titleStr = "SRG Card List") => {
-    const rows = cards;
+    const rows = effectiveRows;
     const cols = buildExportColumns();
     const thead = `<tr>${cols.map((c) => `<th>${htmlEscape(c)}</th>`).join("")}</tr>`;
     const tbody = rows
@@ -281,7 +293,6 @@ export default function DeckGridFromNames({
         const tds = cols
           .map((c) => {
             let val = r?.[c];
-            // IMPORTANT: treat null/undefined as empty BEFORE any stringify, so we never print "null"
             if (val === null || val === undefined) {
               val = "";
             } else if (Array.isArray(val) || typeof val === "object") {
@@ -337,7 +348,7 @@ export default function DeckGridFromNames({
         <div>
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="text-sm text-gray-400">
-            {names.length.toLocaleString()} item{names.length === 1 ? "" : "s"}
+            {baseCount.toLocaleString()} item{baseCount === 1 ? "" : "s"}
           </p>
         </div>
         {enableExport && (
@@ -345,7 +356,7 @@ export default function DeckGridFromNames({
             <button
               className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
               onClick={handleExportCsv}
-              disabled={loading || cards.length === 0}
+              disabled={loading || effectiveRows.length === 0}
               title="Download visible deck as CSV"
             >
               Download CSV
@@ -353,7 +364,7 @@ export default function DeckGridFromNames({
             <button
               className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
               onClick={handleExportHtml}
-              disabled={loading || cards.length === 0}
+              disabled={loading || effectiveRows.length === 0}
               title="Download visible deck as HTML (no CSS)"
             >
               Download HTML (no CSS)
@@ -364,13 +375,13 @@ export default function DeckGridFromNames({
 
       {loading ? (
         <p className="text-gray-400 mt-4">Loading…</p>
-      ) : cards.length === 0 ? (
-        <p className="text-gray-400 mt-4">No cards found on this page.</p>
+      ) : effectiveRows.length === 0 ? (
+        <p className="text-gray-400 mt-4">No cards found.</p>
       ) : (
-        <CardGrid cards={cards} />
+        <CardGrid cards={pageSlice} />
       )}
 
-      {notFound.length > 0 && (
+      {notFound.length > 0 && !rowsOverride && (
         <p className="mt-3 text-xs text-amber-300">
           Couldn’t find: {notFound.join(", ")}
         </p>

@@ -1,26 +1,22 @@
+// src/pages/CreateList.jsx
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import TableView from "./TableView.jsx";
+import DeckGridFromNames from "../components/DeckGridFromNames.jsx";   // <-- swap in the grid
 
 function useQuery() {
   const { search } = useLocation();
   return useMemo(() => new URLSearchParams(search), [search]);
 }
 
-// Parse one card name per non-empty, non-comment line.
-// Supports quoted names; ignores lines starting with '#'.
+// Parse one card name per non-empty, non-comment line. Supports quoted names; ignores '#'.
 function parseNames(text) {
   const lines = text.split(/\r?\n/);
   const names = [];
   for (let raw of lines) {
     let line = raw.trim();
     if (!line || line.startsWith("#")) continue;
-
-    // If quoted, extract inside quotes; else take the line as-is.
     const m = line.match(/^\s*"([^"]+)"\s*$/);
-    if (m) {
-      line = m[1].trim();
-    }
+    if (m) line = m[1].trim();
     if (line) names.push(line);
   }
   return names;
@@ -59,7 +55,6 @@ export default function CreateList() {
         }
       } catch {}
     }
-
     loadSaved();
   }, [query]);
 
@@ -99,6 +94,8 @@ export default function CreateList() {
     if (query.get("list")) navigate("/create-list", { replace: true });
   };
 
+  const exportFileName = query.get("list") ? `${query.get("list")}.csv` : "custom-list.csv";
+
   return (
     <div className="max-w-5xl mx-auto p-4">
       <h1 className="text-2xl font-bold mb-3">Create List</h1>
@@ -123,7 +120,7 @@ export default function CreateList() {
             onClick={handleBuild}
             disabled={loading}
           >
-            {loading ? "Building…" : "Build Table"}
+            {loading ? "Building…" : "Build Grid"}
           </button>
           <button
             className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
@@ -140,10 +137,13 @@ export default function CreateList() {
         </div>
       )}
 
-      <TableView
+      {/* Grid preview with the SAME CSV/HTML export buttons & format */}
+      <DeckGridFromNames
         rowsOverride={rows}
+        pageSize={40}
+        title="Preview"
         enableExport
-        exportFileName={query.get("list") ? `${query.get("list")}.csv` : "custom-list.csv"}
+        exportFileName={exportFileName}
       />
     </div>
   );

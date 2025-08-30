@@ -18338,7 +18338,44 @@
   grapple: 5
   gender: Male
   rules_text: When you increase your turn roll, your opponent's turn roll is -1.
+  srg_url: https://supershowthegame.com/product/brother-dan/
   db_uuid: 73cf2f31cea34d14afdff694aae099e5
+  related_finishes:
+  - 8a0691828f404b959819d3180337a48f
+  - 0f0c103f4f8543f38263ce3aa82c20c1
+  - 73c399f5209147499003b4b6e7718cea
+- name: En-Light-Ened
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Technique and Grapple skills are +1 for each card you have in
+    play with "Your next turn roll is +" in the text (Max +3)
+
+    If your opponent breaks out, you may bury this card.'
+  db_uuid: 8a0691828f404b959819d3180337a48f
+- name: Have You Heard the Good Word
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    If stopped, your opponent''s next turn rolls are -1.'
+  db_uuid: 0f0c103f4f8543f38263ce3aa82c20c1
+- name: The Sub-Mission
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Strike'
+  db_uuid: 73c399f5209147499003b4b6e7718cea
 - name: Cabana Man Dan
   card_type: SingleCompetitorCard
   power: 5
@@ -18908,8 +18945,58 @@
   card_type: SingleCompetitorCard
   db_uuid: b4f043464fa64700b5dcfcfc57069e62
 - name: Colby Corino
+  power: 8
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 10
+  grapple: 7
+  gender: Male
+  division: Global
+  rules_text: When you re-roll your turn roll, your roll is +2.
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/colby-corino/
   db_uuid: 98ccdf9d3677429a87a65cc40119a6a3
+  related_finishes:
+  - 7c32bf16bc934d4ca37143ce2a9793e5
+  - c8c706edade646e29cbf0e17b5c75661
+  - e212af892c7d44a58fe034b03743191d
+- name: Double Stomp
+  srg_url: https://supershowthegame.com/product/colby-corino/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand.
+
+    If you re-rolled your turn roll, double these bonuses.'
+  db_uuid: 7c32bf16bc934d4ca37143ce2a9793e5
+- name: Sonsetter
+  srg_url: https://supershowthegame.com/product/colby-corino/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    If you re-rolled your turn roll, this card is also a Lead.'
+  db_uuid: c8c706edade646e29cbf0e17b5c75661
+- name: Side Headlock
+  srg_url: https://supershowthegame.com/product/colby-corino/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    If stopped, you may re-roll your next turn roll.'
+  db_uuid: e212af892c7d44a58fe034b03743191d
 - name: The Collector Shawn Loeb
   card_type: SingleCompetitorCard
   db_uuid: 5a8e9421d61c484da2bf0feb5106dec7

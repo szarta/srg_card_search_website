@@ -17875,9 +17875,28 @@
     pile into play.
   db_uuid: ed3ee94858c249e69bd462512b65c825
   related_finishes:
-  - 6069f8d118324728a4d8a741dda84d8c
-  - ef525bfc0b664c8498c6978d3f1333f6
   - 349601cfd009410da846a1e860aa6856
+- name: Speed Potion No. 2
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: ''
+  db_uuid: 9642481fde484687bdd6b33a2ba3914d
+- name: Meet Mr. Hyde Potion No. 5
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: ''
+  db_uuid: 0604e53d335e4e43a1957b553f2d6d67
+- name: 'Rage Potion #29'
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: ''
+  db_uuid: f8be0c80d3d24c4ea05c36d0ff7a3ba4
 - name: Superkick Over the Top
   deck_card_number: 28
   atk_type: Strike

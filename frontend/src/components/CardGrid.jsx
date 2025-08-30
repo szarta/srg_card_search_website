@@ -15,7 +15,7 @@ export default function CardGrid({ cards }) {
         <Link
           to={`/card/${card.db_uuid}`}
           key={card.db_uuid}
-          className="block hover:scale-105 transition-transform"
+          className="block transition-transform overflow-hidden md:hover:scale-105 md:focus:scale-105"
         >
           <img
             src={thumb(card.db_uuid)}
@@ -29,7 +29,7 @@ export default function CardGrid({ cards }) {
                img.src = FALLBACK_THUMB;
             }}
           />
-          <p className="mt-1 text-sm text-center truncate">{card.name}</p>
+          <p className="mt-1 text-sm text-center break-words">{card.name}</p>
 
         </Link>
       ))}

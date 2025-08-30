@@ -84,7 +84,9 @@ export default function ArticlePage() {
   };
 
   return (
-    <article className="prose prose-invert lg:prose-xl mx-auto p-6 text-white">
+    <article className="prose prose-invert max-w-none w-full mx-auto px-4 sm:px-6 py-6 text-white overflow-x-hidden">
+
+
       {/* Header */}
       <header className="mb-8">
         <h1 className="text-4xl font-bold">{meta.title}</h1>

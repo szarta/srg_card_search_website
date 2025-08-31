@@ -14945,6 +14945,43 @@
   division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
+  related_finishes:
+  - db514f39965c4affa3127cd9eb032e07
+  - 2295359c44694120b2708595f6c91168
+  - cf262ea5be394c2387e3b66f38889264
+- name: Sledgie's Blind Justice
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +4 to Strike
+
+    Your opponent buries 4 cards in their hand.
+
+    If stopped, unless you have 10 or more cards in hand, you lose the match via disqualification.'
+  db_uuid: db514f39965c4affa3127cd9eb032e07
+- name: 'Absolute Justice: Buster Call'
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Once per turn: If this match has no disqualifications, you may re-roll your Finish
+    roll.'
+  db_uuid: 2295359c44694120b2708595f6c91168
+- name: 'Domain Expansion: Grumpsville'
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    If your opponent rolls their lowest printed skill and they did not breakout, they
+    cannot breakout this turn.'
+  db_uuid: cf262ea5be394c2387e3b66f38889264
 - name: Alexander Slamilton
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
   power: 8

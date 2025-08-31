@@ -20234,9 +20234,91 @@
 - name: Over Giver
   card_type: SingleCompetitorCard
   db_uuid: ed197a8258854b84b89b11a3b0790896
-- name: Overdog
+- name: Overdog (V1)
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 9
+  submission: 10
+  grapple: 8
+  rules_text: 'At the start of the match: Look at your opponent''s hand then search
+    your deck for 1 Lead and add it to your hand.
+
+    Your maximum handsize is +10'
+  gender: Male
   card_type: SingleCompetitorCard
+  division: Underworld
   db_uuid: 5f78183903ba49eabae4c4ec9f0ffd11
+  related_finishes:
+  - b7ece444b6654a57987afbb35a165553
+  - e360c9e99301481faa45ad5ab6d9158b
+  - 3b8f43c5ee604b46bed7aca4393cbb9d
+- name: Overdog (V2)
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 10
+  gender: Male
+  division: Underworld
+  rules_text: 'At the start of the match: Look at your opponent''s hand then search
+    your deck for 1 Lead and add it to your hand.
+
+    Your maximum handsize is +10'
+  card_type: SingleCompetitorCard
+  db_uuid: 64639328a1d9437d8af22c5d648f4b70
+  related_finishes:
+  - b7ece444b6654a57987afbb35a165553
+  - e360c9e99301481faa45ad5ab6d9158b
+  - 3b8f43c5ee604b46bed7aca4393cbb9d
+- name: Overdog (V3)
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 10
+  gender: Male
+  srg_url: https://supershowthegame.com/product/overdog/
+  division: United States
+  rules_text: When you have fewer cards in your hand than your opponent and you roll
+    Power or Agility draw 2 cards.
+  card_type: SingleCompetitorCard
+  db_uuid: 0004458c7d0c4525a667c4280cd54d97
+  related_finishes:
+  - b7ece444b6654a57987afbb35a165553
+  - e360c9e99301481faa45ad5ab6d9158b
+  - 3b8f43c5ee604b46bed7aca4393cbb9d
+- name: The Over/Under
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Technique
+
+    For each card your opponent has in play choose 1: Draw 1 card or your opponent
+    buries 1 card in their hand.'
+  db_uuid: b7ece444b6654a57987afbb35a165553
+- name: Destiny Drop
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+5 to Power
+
+    Or you may discard your hand.'
+  db_uuid: e360c9e99301481faa45ad5ab6d9158b
+- name: Every Dog Has Its Day
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: Look at your opponent's hand or discard pile, choose 1 Finish card,
+    this card copies its text until the end of the turn.
+  db_uuid: 3b8f43c5ee604b46bed7aca4393cbb9d
 - name: Paiger Rager
   card_type: SingleCompetitorCard
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a

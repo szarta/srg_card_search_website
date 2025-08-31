@@ -19520,7 +19520,7 @@
 - name: The Huntress Angel Lynn
   card_type: SingleCompetitorCard
   db_uuid: 947eaf142185488ca4a44d377af47b72
-- name: Hypnotist Hanz Mesmer
+- name: The Hypnotist Hanz Mesmer
   power: 7
   technique: 9
   agility: 5

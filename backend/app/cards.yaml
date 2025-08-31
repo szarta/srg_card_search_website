@@ -16446,7 +16446,62 @@
   gender: Male
   rules_text: 'When you roll Power for your turn roll: You may discard 1 card you
     have in play to draw 1 card or add +1 to your turn roll.'
+  srg_url: https://supershowthegame.com/product/el-hombre-cybernetico/
   db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
+  related_finishes:
+  - b00f773aebf342d4b9cd4256e24227f3
+  - 17adab7233a54de98f3c544557a263a5
+  - b2d132ea835f4e2f96e24221468e6cd8
+  - 98ebf0f2d1324b9ea107ad50e28f0611
+- name: Termination
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +3 to Strike
+
+    Look at your opponent''s hand, choose 1:
+
+    Your opponent discards all Finishes, your opponent''s Gimmick is blank, or shuffle
+    2 cards from your discard pile into your deck.'
+  db_uuid: b00f773aebf342d4b9cd4256e24227f3
+- name: The Fall of Humanity
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    You may discard any other cards you have in play, your Agility is +1 for each
+    card discarded until the end of the turn.'
+  db_uuid: 17adab7233a54de98f3c544557a263a5
+- name: Judgment Day
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Once per match when this card is in your discard pile: When you roll Power, discard
+    all cards in play and add this card to your hand.'
+  db_uuid: b2d132ea835f4e2f96e24221468e6cd8
+- name: Terminate the Masses
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If your opponent breaks out, you may add this card to your hand.'
+  db_uuid: 98ebf0f2d1324b9ea107ad50e28f0611
 - name: El Pollo Enmascarada (V1)
   card_type: SingleCompetitorCard
   power: 10

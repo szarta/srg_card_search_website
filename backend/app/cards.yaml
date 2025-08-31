@@ -19705,8 +19705,22 @@
   card_type: SingleCompetitorCard
   db_uuid: c8788ae573734217b3a4ee2563d998b7
 - name: El Super Santa
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: 'Your cards with "Super" in the name have the added text: "Draw 2 cards".'
+  comments: Christmas version of El Super Hombre
   card_type: SingleCompetitorCard
+  division: Underworld
   db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
+  related_finishes:
+  - ac693f80214649c9a71bf99186efb3eb
+  - 63034684664a4ac9ba689abb6cc2aa97
+  - 015aecb201074dbb929a9c9cd8b0ea46
 - name: Ellis Taylor
   card_type: SingleCompetitorCard
   db_uuid: 2e85f004baa34c31bf8da5098a24f796

@@ -18567,7 +18567,9 @@
   strike: 5
   submission: 9
   grapple: 7
-  comment: The GOAT
+  comment: Also known as G.O.A.T. Brock Smith
+  srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
+  division: Hardcore
   rules_text: 'At the start of the match:
 
     Choose an opponent, when you and that opponent roll the same skill and they would
@@ -18582,12 +18584,68 @@
   strike: 6
   submission: 9
   grapple: 8
-  comment: The GOAT
+  srg_url: https://supershowthegame.com/product/brock-smith/
+  comment: 'Also known as #1 GOAT Brock Smith'
+  division: Underworld
   gender: Male
   rules_text: 'Once per turn roll:
 
     When you roll Strike, you may re-roll.'
   db_uuid: 8b89fe0295184f92a159339ac164756b
+  related_finishes:
+  - 83ffdb669a5a43fab2ac836ec50aa947
+  - d4d377c0fb1749449bf2437424b7b977
+  - 52344a7efe4e4de4a783e860e384a546
+  - d9691f0c50c94186abfffb99b59d4211
+- name: Death by Brock-oli
+  srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    If you and your opponent rolled the same skill for your turn roll, this card cannot
+    be stopped.'
+  db_uuid: 83ffdb669a5a43fab2ac836ec50aa947
+- name: Brock Bottom
+  srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    If you and your opponent rolled the same skill for your turn roll, this card is
+    also a Lead.'
+  db_uuid: d4d377c0fb1749449bf2437424b7b977
+- name: GOAT's Dive Bomb Superkick
+  srg_url: https://supershowthegame.com/product/brock-smith/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'Draw 2 cards.
+
+    Your Power and Strike cards are +1 for every 4 cards in your hand.'
+  db_uuid: 52344a7efe4e4de4a783e860e384a546
+- name: Gizmo's Revenge
+  srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you roll the same skill as an opponent,
+    you may shuffle it into your deck.'
+  db_uuid: d9691f0c50c94186abfffb99b59d4211
 - name: Brother Dan
   card_type: SingleCompetitorCard
   power: 7

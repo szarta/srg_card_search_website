@@ -19521,8 +19521,59 @@
   card_type: SingleCompetitorCard
   db_uuid: 947eaf142185488ca4a44d377af47b72
 - name: Hypnotist Hanz Mesmer
+  power: 7
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 8
+  gender: Male
+  srg_url: https://supershowthegame.com/product/the-hypnotist-hanz-mesmer/
+  rules_text: 'During your opponent''s turn:
+
+    When you rolled Agility for your turn roll; Choose Strike, Submission, or Grapple,
+    your opponent cannot play cards of the chosen type this turn.'
   card_type: SingleCompetitorCard
+  division: Intergalactic
   db_uuid: 8d99533f1c7d4a1a9ac20cd0854eb757
+  related_finishes:
+  - 355dc0cdbcd44136b3c47d770af3a6d1
+  - d806f7c4bb15400e8234fb9a4282492e
+  - 9cccb5e282c649078f4e1cd748b5951c
+- name: Animal Magnetism
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    WHen this card is in your discard pile and you bump, you may bury it.'
+  db_uuid: 355dc0cdbcd44136b3c47d770af3a6d1
+- name: The Effects that Planets Have on the Human Body
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Your opponent draws 2 cards.'
+  db_uuid: d806f7c4bb15400e8234fb9a4282492e
+- name: Mesmerize
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    Choose Strike, Submission, or Grapple.  Look at your opponent''s hand, they bury
+    all cards of the chosen type.'
+  db_uuid: 9cccb5e282c649078f4e1cd748b5951c
 - name: The Immortal Warrior
   card_type: SingleCompetitorCard
   db_uuid: 89174df957434c11b42ee945d9626972

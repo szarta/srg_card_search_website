@@ -4598,6 +4598,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Each player flips 1 card or stop any Follow Up Grapple.
   deck_card_number: 4
   db_uuid: e6fb4cd801174c2b93fe9e9418c0e8ac
 - name: Meditate
@@ -5299,6 +5300,11 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Strike.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   deck_card_number: 6
   db_uuid: 733b1c9814ec4d23810076342f130635
 - name: Pretzel Twist
@@ -5554,6 +5560,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: '+2 to Technique, Agility, and Strike during your next turn roll.
+
+    Cards in your opponet''s discard pile have blank text.'
   deck_card_number: 7
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
 - name: Kendo Stick Uprising
@@ -5873,12 +5882,20 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 8
+  rules_text: You may play 1 extra card this turn, or if you have less cards in your
+    hand than your opponent draw 2 cards.
   db_uuid: 8f5cc32925ee425b9087a086a10b6d21
 - name: Call to the Crowd (V2)
   srg_url: https://supershowthegame.com/product/08-call-to-the-crowd-agility/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your
+    hand instead.
+
+    Skill Requirement: Agility 8+'
   deck_card_number: 8
   db_uuid: 3adee904e4614f00ad56f51e1db731e1
 - name: Check Under the Ring
@@ -6445,6 +6462,8 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Draw 1 card or shuffle up to 3 cards from your discard pile into your
+    deck.
   deck_card_number: 9
   db_uuid: 5435de8327e444a18766400c061855e8
 - name: Headlock Punch
@@ -6924,6 +6943,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If your opponent has a Stop in play, draw 2 cards.
   deck_card_number: 10
   db_uuid: 13d3f206beec4be2b0b3f48427afbc3e
 - name: Kickin' It Old School
@@ -7716,6 +7736,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'If you have fewer cards in your hand than your opponent, draw 1 card.
+
+    Your maximum handsize is +1 for each Lead you have in play.'
   deck_card_number: 12
   db_uuid: 8e60104ce3404f8497cdd48d5476d2e0
 - name: Sibling Rivalry
@@ -7961,6 +7984,9 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Flip 2 cards.
+
+    Put 1 card from your discard pile on top of your deck.'
   deck_card_number: 13
   db_uuid: 08aecedc5c734163a502af5ae354569e
 - name: Give Me Five
@@ -8095,6 +8121,10 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If you have a Grapple in play, add 1 card from your discard pile to
+    your hand.
+
+    If this is a Steel Cage match, draw 2 cards.'
   deck_card_number: 13
   db_uuid: 139f62ab3ce544698c9f3f0992c3e9d8
 - name: Overwhelming Fire
@@ -8667,6 +8697,10 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill,
+    stop any Submission.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   deck_card_number: 14
   db_uuid: 47621b3eb87e4e4bb07b8099e148629d
 - name: Spine Into the Ring Apron
@@ -9663,6 +9697,7 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If you have another Strike in play, draw 2 cards.
   deck_card_number: 16
   db_uuid: c79e1faa8e23439692c2acd8c31d586d
 - name: Strike Dumb
@@ -9987,6 +10022,7 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: If you have another Grapple in play your next turn roll is +2.
   deck_card_number: 17
   db_uuid: feba792a1a0e45d181e4471a1d438d25
 - name: Rolling German Suplex
@@ -10245,12 +10281,6 @@
   card_type: MainDeckCard
   deck_card_number: 18
   db_uuid: 70a3f3159eaa469fb5801bd4c7c45195
-- name: Cat Scratch
-  play_order: Followup
-  atk_type: Submission
-  card_type: MainDeckCard
-  deck_card_number: 18
-  db_uuid: b84fb147aaab436694f29a00da87b4de
 - name: Choke Hold
   play_order: Followup
   atk_type: Submission
@@ -10722,6 +10752,11 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   deck_card_number: 19
   db_uuid: b687f6ae6f354444a7f4a1a08cad5537
 - name: Drumstick Knockdown
@@ -11677,12 +11712,20 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 21
+  rules_text: 'Draw 2 cards.
+
+    Your next turn roll is +2.'
   db_uuid: 0e6380f5281947439c1c62b75e9934f1
 - name: Full Nelson (V2)
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 21
+  rules_text: 'Look at your opponent''s hand, they bury all Strike cards.
+
+    Your next turn roll is +3.
+
+    Skill Requirement: Technique 8+'
   db_uuid: 7f8f679347c3493183871867fa8cf65f
 - name: Hammer and Anvil Elbows
   play_order: Followup
@@ -12061,6 +12104,8 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Bury 3 cards in your discard pile.  Draw the top and the bottom card
+    of your deck.
   deck_card_number: 22
   db_uuid: 3a1a9e87d4754655811889d1694b4aba
 - name: Clothesline
@@ -12353,6 +12398,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 22
+  rules_text: 'Flip 4 cards.  Add 1 Strike from your discard pile to your hand.
+
+    All Finish Strikes have the added text "Your Finish rolls are +1".'
   db_uuid: f47b548b4fe34d99acd62e2127060c69
 - name: Set Up the Pineapple
   play_order: Followup
@@ -12730,6 +12778,10 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Flip 1 card.
+
+    Take 2 cards from your discard pile, shuffle them into your deck, then draw 2
+    cards.'
   deck_card_number: 23
   db_uuid: 3b7c8036416c4ab9aa9f8dc1a0100f86
 - name: Legendary American Sheep Union Break
@@ -13054,12 +13106,15 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 24
+  rules_text: Search your deck or discard pile for 1 Submission, put it on top of
+    your shuffled deck.
   db_uuid: a6ad070352174e75b7def01cded6224e
 - name: Crossbow V2
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 24
+  rules_text: Search your deck for 1 Submission, put it on top of your shuffled deck.
   db_uuid: 1520cc8877ce469cad7b69f8de85484f
 - name: Cyber Attack
   play_order: Followup
@@ -13390,6 +13445,16 @@
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: defc9758cdd14386839a69745466c309
+- name: Triangle Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  rules_text: 'Your opponent randomly reveals 3 cards in their hand and discards all
+    revealed Stops.
+
+    If either player rolls Technique for their Finish roll, their roll is +1.'
+  db_uuid: 3892b3c002eb49938f0055d16fbc2fee
 - name: Torso Twister
   play_order: Followup
   atk_type: Submission
@@ -13431,7 +13496,22 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 25
+  rules_text: 'Stop any Grapple.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   db_uuid: 56c451a5edc74d2caec72363e28fe1df
+- name: Face It, You're Barking Up the Wrong Tree!
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  srg_url: https://supershowthegame.com/product/25-face-it-youre-barking-up-the-wrong-tree/
+  rules_text: 'Stop any Follow Up Grapple or Finish Grapple.
+
+    Bury 1 card in your discard pile.'
+  db_uuid: 7912e1dede4c49f78920faddfe6ddfa3
 - name: Armoured Contact
   srg_url: https://supershowthegame.com/product/25-armoured-contact/
   play_order: Lead
@@ -13522,6 +13602,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 25
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Look at your opponent''s hand.'
   db_uuid: 41df5e8d0d9f42f0a3d37a086fb7fe32
 - name: Dodging Dash
   play_order: Lead
@@ -13914,6 +13997,15 @@
 
     Shuffle 2 Strikes from your discard pile into your deck.'
   db_uuid: 1664f355451f402d8235a0717a9bb80e
+- name: It's Not the Size of the Fight in the Dog
+  play_order: Lead
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission or Finish Submission.
+
+    Bury 1 card in your discard pile.'
+  db_uuid: c083aaa9e96c47ef9dfc25cf6429a35e
 - name: Dog Collar Throw
   play_order: Lead
   atk_type: Grapple
@@ -13973,6 +14065,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Look at your opponent''s hand.'
   db_uuid: 5a7c8eb6dcd74cf390539892511bf91e
 - name: Fallaway Slam
   play_order: Lead
@@ -14021,6 +14116,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If This is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   db_uuid: 9404f75d867340f697198594c39d87b9
 - name: Mean Muggin'
   rules_text: 'Stop any Lead Submission or Finish Submission.
@@ -14135,6 +14235,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission or Finish Submission.
+
+    When you stop your opponent''s card, the stopped card has blank text until the
+    end of the turn.'
   db_uuid: 049d8d86b4ea476da0f5e7409d23005b
 - name: Wreckless Throw
   play_order: Lead
@@ -14336,12 +14440,18 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Strike or Finish Strike.
+
+    Bury 1 card in your discard pile.'
   deck_card_number: 27
   db_uuid: bca32c36897e4dd89b408c4158758bc3
 - name: Kaiser's Chicken Wing
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Look at your opponent''s hand.'
   deck_card_number: 27
   db_uuid: 101ef882ac4e4542908bb5882bcf39f3
 - name: Kimura Lock

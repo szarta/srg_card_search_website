@@ -2024,7 +2024,7 @@
   - ac693f80214649c9a71bf99186efb3eb
   - 63034684664a4ac9ba689abb6cc2aa97
   - 015aecb201074dbb929a9c9cd8b0ea46
-- name: El Super Smash (V1)
+- name: El Super Smash (#28)
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -2034,7 +2034,7 @@
 
     +1 to Strike'
   db_uuid: ac693f80214649c9a71bf99186efb3eb
-- name: El Super Smash (V2)
+- name: El Super Smash (#29)
   card_type: MainDeckCard
   play_order: Finish
   atk_type: Grapple
@@ -19804,8 +19804,55 @@
   card_type: SingleCompetitorCard
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
 - name: Eva FireCat
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 5
+  submission: 6
+  grapple: 10
+  gender: Female
+  rules_text: 'When you roll Strike for your turn roll: Look at the top 2 cards of
+    your deck, add 1 to your hand and flip the other.'
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 961b4051a9df4a1b8cb802f66c4e6f67
+  related_finishes:
+  - a91e4a805d4e4439bd1a48295c27cfa2
+  - 88eab7aa5e1c49dba359cb70d9a8dc88
+  - 4fec27ebd1af4449bc8d2159286ad70d
+- name: Firestarter
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +4 to Strike
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: a91e4a805d4e4439bd1a48295c27cfa2
+- name: Firecracker
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +3 to Strike
+
+    Your opponent randomly discards 1 card from their hand.'
+  db_uuid: 88eab7aa5e1c49dba359cb70d9a8dc88
+- name: Firestorm
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    Draw 3 cards.'
+  db_uuid: 4fec27ebd1af4449bc8d2159286ad70d
 - name: Evee Laveaux
   card_type: SingleCompetitorCard
   db_uuid: cc42c7a9d4834a03836944558edd39cc

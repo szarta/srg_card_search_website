@@ -15386,11 +15386,47 @@
   strike: 9
   submission: 5
   grapple: 10
+  srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
+  comments: Also shows up as Bad Boy Joey Janela
   rules_text: 'Once a turn roll: If your opponent''s roll is 10, add 1 card from your
     discard pile to your hand.'
   division: Underworld
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: ad44636cda7a4a82bb63a06c9f78db7b
+  related_finishes:
+  - e1de76163340415888166edab5b04f91
+  - 8cbe22e90ad54f26aefaf0ca72dad0b5
+  - dd51f419336348cc86358608c3f2f6b1
+- name: South Beach Stomp
+  srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Discard 2 cards from your hand.'
+  db_uuid: e1de76163340415888166edab5b04f91
+- name: Party Package
+  srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: Your Power and Agility are +1 for every 4 cards in your hand.  Draw
+    2 cards.
+  db_uuid: 8cbe22e90ad54f26aefaf0ca72dad0b5
+- name: South Beach Crab
+  srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: Your Technique and Submission are + double the Crowd Meter.
+  db_uuid: dd51f419336348cc86358608c3f2f6b1
 - name: Bak Hurten
   power: 7
   technique: 6
@@ -16532,8 +16568,13 @@
   rules_text: When you would bump, you may instead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
+  related_finishes:
+  - e070f51ba68249d8b63fd303689d349c
+  - 5f2efddce40e43afafed7ca11564987c
+  - 6e2476a74e814079975d356a62adb55e
 - name: Hamish MacDeath (V2)
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/hamish-macdeath-alt-art/
   power: 10
   technique: 5
   agility: 6
@@ -16545,6 +16586,39 @@
   rules_text: When you would bump, you may instead put 2 cards from your discard pile
     into your hand and your turn roll is -1.
   db_uuid: 838f2619cdb24dd6be831ec1612b3051
+  related_finishes:
+  - e070f51ba68249d8b63fd303689d349c
+  - 5f2efddce40e43afafed7ca11564987c
+  - 6e2476a74e814079975d356a62adb55e
+- name: The Horns of Falstaff
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    Flip 3 cards.'
+  db_uuid: e070f51ba68249d8b63fd303689d349c
+- name: The Scottish Move
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    Flip 6 cards.'
+  db_uuid: 5f2efddce40e43afafed7ca11564987c
+- name: Exit, Hugged by a Bear
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    Each time your opponent rolls for a breakout roll, flip 5 cards.'
+  db_uuid: 6e2476a74e814079975d356a62adb55e
 - name: Terror Skull (V1)
   card_type: SingleCompetitorCard
   power: 10

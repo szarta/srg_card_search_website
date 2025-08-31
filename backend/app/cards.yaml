@@ -19324,8 +19324,56 @@
   card_type: SingleCompetitorCard
   db_uuid: 5a8e9421d61c484da2bf0feb5106dec7
 - name: Collin the Chrononaut
+  srg_url: https://supershowthegame.com/product/collin-the-chrononaut/
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 9
+  gender: Male
+  division: Underworld
+  rules_text: 'Once during any player''s turn:
+
+    When your opponents roll their printed 8 skill for their turn roll, you may switch
+    1 card in your hand with 1 card in your discard pile.'
   card_type: SingleCompetitorCard
   db_uuid: 8054b1c0587a4d949e9a73b9bdd144ed
+  related_finishes:
+  - 284a8a1a4eb046c6be6657b48433bfc2
+  - 5e12c423b6454817a6bdcc9073305041
+  - 6f67b3c45eb14949b7461374daa05cef
+- name: Temporal Paradox
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: Look at your opponent's hand or discard pile and choose 1 card.  This
+    card copies its text until the end of the turn.
+  db_uuid: 284a8a1a4eb046c6be6657b48433bfc2
+- name: Flux Capacitor
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Your opponent discards 2 cards from their hand.  Put 2 cards from your opponent''s
+    discard pile on top of their deck.'
+  db_uuid: 5e12c423b6454817a6bdcc9073305041
+- name: The Time Warp
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    If your opponent breaks out, you may shuffle this card into your deck.'
+  db_uuid: 6f67b3c45eb14949b7461374daa05cef
 - name: Colt Cabana (V1)
   card_type: SingleCompetitorCard
   db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
@@ -19443,6 +19491,7 @@
   - 41e8cb91055d4ecbb08c9abd85f47294
   - 3a66fb8a3b1647d490d53b1ec7a746a2
 - name: Kick Flip
+  srg_url: https://supershowthegame.com/product/chris-bey/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -19451,6 +19500,7 @@
     \ you may play it."
   db_uuid: c9812aa789bd49dab032bd78ad2eb792
 - name: Ultimate Finesse
+  srg_url: https://supershowthegame.com/product/chris-bey/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -19461,6 +19511,7 @@
     Up.'
   db_uuid: 41e8cb91055d4ecbb08c9abd85f47294
 - name: The Top Floor
+  srg_url: https://supershowthegame.com/product/chris-bey/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

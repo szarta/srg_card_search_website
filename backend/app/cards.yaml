@@ -18576,6 +18576,11 @@
     win the turn roll, bump instead.'
   gender: Male
   db_uuid: 0640ec286ebd4c409d6b0fa17ab5711e
+  related_finishes:
+  - 83ffdb669a5a43fab2ac836ec50aa947
+  - d4d377c0fb1749449bf2437424b7b977
+  - 52344a7efe4e4de4a783e860e384a546
+  - d9691f0c50c94186abfffb99b59d4211
 - name: Brock Smith (V2)
   card_type: SingleCompetitorCard
   power: 5

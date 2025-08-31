@@ -3291,6 +3291,8 @@
   strike: 10
   submission: 5
   grapple: 9
+  gender: Male
+  division: Global
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
   rules_text: 'When you roll Strike for your turn roll: Add 1 Lead from your discard
     pile to your hand.'
@@ -20578,8 +20580,71 @@
   card_type: SingleCompetitorCard
   db_uuid: 18c894fdf2ff4833a9f557629568e1b6
 - name: Ninja Hummingbird
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 9
+  gender: Female
+  division: United States
+  rules_text: 'When played:
+
+    Your Ninja Hummingbird cards copy the text of a non-Spotlight card in play until
+    the end of the turn.'
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
+  related_finishes:
+  - cfa9f497695e4d4d88524aa911d47562
+  - 82fe3b41c9c8440bbb10cab07d0a8d28
+  - 8d7fa73a6dc64a919641015f4a471fcc
+  - 6639064ed8d64eb5b866d2267f6dab6d
+- name: Dance of the Hummingbird
+  srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If stopped, add 1 stop from your discard pile to your hand.'
+  db_uuid: cfa9f497695e4d4d88524aa911d47562
+- name: Twisted Fate
+  srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Add 1 other card you have in play to your hand.'
+  db_uuid: 82fe3b41c9c8440bbb10cab07d0a8d28
+- name: Pulling the Petals
+  srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission'
+  db_uuid: 8d7fa73a6dc64a919641015f4a471fcc
+- name: Hummingbird Effect
+  srg_url: https://supershowthegame.com/product/ninja-hummingbird/
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    When this card is in your discard pile and you roll Technique for your turn roll:
+    You may bury your hand then add this card to your hand.'
+  db_uuid: 6639064ed8d64eb5b866d2267f6dab6d
 - name: Numer01
   card_type: SingleCompetitorCard
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e

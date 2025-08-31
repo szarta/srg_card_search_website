@@ -19424,6 +19424,51 @@
     If stopped, shuffle up to 3 Submission cards from your discard pile into your
     deck.'
   db_uuid: ffd4a3d89fff455295906b980ca7ed30
+- name: Chris Bey
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
+  gender: Male
+  division: Underworld
+  srg_url: https://supershowthegame.com/product/chris-bey/
+  rules_text: 'When you roll Agility for your turn roll: You may flip 2 cards then
+    put 1 Follow Up from your discard pile on top of your deck.'
+  card_type: SingleCompetitorCard
+  db_uuid: 74487f754b23449a8c30288b39a1782f
+  related_finishes:
+  - c9812aa789bd49dab032bd78ad2eb792
+  - 41e8cb91055d4ecbb08c9abd85f47294
+  - 3a66fb8a3b1647d490d53b1ec7a746a2
+- name: Kick Flip
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: "+3 to Technique\nDuring your turn roll:\n If this card is flipped,\
+    \ you may play it."
+  db_uuid: c9812aa789bd49dab032bd78ad2eb792
+- name: Ultimate Finesse
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Your Skills
+
+    If your opponent has 2 or fewer cards in their hand, this card is also a Follow
+    Up.'
+  db_uuid: 41e8cb91055d4ecbb08c9abd85f47294
+- name: The Top Floor
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Submission'
+  db_uuid: 3a66fb8a3b1647d490d53b1ec7a746a2
 - name: Deerfield Bullgizer
   card_type: SingleCompetitorCard
   db_uuid: 221d8474bf084404ac43c826c2491184

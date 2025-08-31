@@ -18496,7 +18496,46 @@
   rules_text: 'Your cards with "Crowd", "Elbow", or "Slam" in the name have the added
     text: "Your next turn roll is +1.'
   gender: Male
+  division: Underworld
   db_uuid: 7349f9255a09467696401a2869c7fa29
+  related_finishes:
+  - e7f190b908f841e48a2761b3c1de8ff0
+  - 44eefcdcf69f4bd89eb0801064532bad
+  - 8c71b37310a746e99ccc3ba8477da89e
+- name: The Soundcheck
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If you have "Call to the Crowd" in play, your opponent gets 1 fewer breakout roll.'
+  db_uuid: e7f190b908f841e48a2761b3c1de8ff0
+- name: Slammed Into Nowhere
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your opponent randomly buries a card in their hand until they bury a Strike.'
+  db_uuid: 44eefcdcf69f4bd89eb0801064532bad
+- name: The Hurtshooter
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    When your opponent rolls for a breakout roll: Add a card with "Crowd", "Elbow",
+    or "Slam" in the name from your discard pile to your hand.'
+  db_uuid: 8c71b37310a746e99ccc3ba8477da89e
 - name: Brian Wait_4_It Schmidt
   card_type: SingleCompetitorCard
   power: 7

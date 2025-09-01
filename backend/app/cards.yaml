@@ -9987,6 +9987,14 @@
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 1ec1cdf068e74eb6aabe6e6f166618f1
+- name: Legendary Teabag of Cringe
+  rules_text: Draw 1 card for each stop your opponent has in play.
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/17-legendary-teabag-of-cringe/
+  deck_card_number: 17
+  db_uuid: f40f121f20294884964417de25716a78
 - name: Legendary Dragon Flex
   play_order: Followup
   atk_type: Grapple

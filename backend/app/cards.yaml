@@ -15106,6 +15106,59 @@
   rules_text: +1 to Submission or If your Strike skill is greater than your opponent's
     Strike skill, stop any Finish Grapple.
   db_uuid: 8901dab61fdd4731b31527f2a7da8620
+- name: Alex Kane
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 8
+  card_type: SingleCompetitorCard
+  gender: Male
+  srg_url: https://supershowthegame.com/product/alex-kane/
+  rules_text: When you hit a card with "Suplex" in the name, your opponent randomly
+    reveals cards in their hand equal to the number of other cards you have in play
+    with "Suplex" in the name; choose 1 of those revealed cards and bury it.
+  db_uuid: 34172f8d50054d639928f3736621afd3
+  related_finishes:
+  - a11de26094be4e019f8bc3b08d20266f 
+  - e22c647f005640efb5ef2f962d148dcc
+  - 9ebd7bf9187840fe893227160cc19077
+- name: Bomaye Splash!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    When this card is in your discard pile, you are considered to have a card in play
+    with "Suplex" in the name.'
+  db_uuid: a11de26094be4e019f8bc3b08d20266f
+- name: The Mark of Kane Suplex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Draw 1 card.
+
+    If you stopped a card last turn, double these bonuses.'
+  db_uuid: e22c647f005640efb5ef2f962d148dcc
+- name: Fade 2 Black
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    If you have 5 cards in play with "Suplex" in the name, your opponent cannot break
+    out.'
+  db_uuid: 9ebd7bf9187840fe893227160cc19077
 - name: Alton Black
   division: Global
   power: 8

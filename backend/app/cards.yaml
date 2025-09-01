@@ -19557,6 +19557,7 @@
   grapple: 5
   gender: Female
   card_type: SingleCompetitorCard
+  division: United States
   comment: This is the Eddy Fury version.
   rules_text: "FRONT: Your opponent\u2019s highest skill is -1 during their turn and\
     \ turn rolls.\nAfter a breakout, turn this card over.\nBACK: During your opponent\u2019\
@@ -19586,9 +19587,33 @@
 - name: Darius Carter
   card_type: SingleCompetitorCard
   db_uuid: e072664507f64381bf3c7bf0971a5039
-- name: Dastardly Dick Thunderlips
+- name: Dastardly Dick Thunderlips (V1)
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  gender: Male
+  srg_url: https://supershowthegame.com/product/dastardly-dick-thunderlips/
+  rules_text: When you have 7 or more cards in your hand, your Submission skill is
+    +2.
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: f95778408dbf46dca6c1450f3d8b7967
+- name: Dastardly Dick Thunderlips (V2)
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 7
+  gender: Male
+  srg_url: https://supershowthegame.com/product/dastardly-dick-2-0/
+  rules_text: Your opponent cannot increase or decrease turn rolls.
+  division: Hardcore
+  card_type: SingleCompetitorCard
+  db_uuid: f30a1db266744fc0b201dbf7d2fd3f90
 - name: Davey Richards
   card_type: SingleCompetitorCard
   db_uuid: e9e692f8a8c248d6aceb81e6232b53db

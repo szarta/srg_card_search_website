@@ -17001,6 +17001,7 @@
   submission: 9
   grapple: 8
   division: Intergalactic
+  gender: Female
   rules_text: When you roll Technique for your turn roll; choose 1 card any player
     has in play and add it to their hand.
   db_uuid: f54e8cac51c34f5b88b0b5fee2c87ce7
@@ -20211,9 +20212,33 @@
 - name: Everyone's Enemy
   card_type: SingleCompetitorCard
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
-- name: Evil Ed the Cheesehead
+- name: Evil Ed the Cheesehead (V1)
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  gender: Male
   card_type: SingleCompetitorCard
+  rules_text: 'If this is a Single or Tag Team Match:
+
+    When you have 4 cards in play with "Ring", "Fire", or "Cheese" in the name, the
+    Crowd Meter is a "Ring of Fire" match instead.'
+  division: Hardcore
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
+- name: Evil Ed the Cheesehead (V2)
+  power: 6
+  technique: 10
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  gender: Male
+  division: United States
+  rules_text: It is considered a Ring of Fire match for your card effects.
+  card_type: SingleCompetitorCard
+  db_uuid: 62e48ff740964254a8e73f3af363ac0f
 - name: Fast Hands Cam
   card_type: SingleCompetitorCard
   db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
@@ -20368,12 +20393,47 @@
 - name: Fortress
   card_type: SingleCompetitorCard
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
-- name: Fox Assasin (V2)
+- name: Fox Assassin (V2)
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 7
+  gender: Female
+  division: World Championship
+  rules_text: 'When you roll Submission: Add 1 card any player has in play to their
+    hand.'
   card_type: SingleCompetitorCard
   db_uuid: 483f70a0f19841288d1d8ea046225744
-- name: Foxworthy
+- name: Foxworthy (V1)
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  gender: Male
+  division: United States
+  rules_text: 'Once per turn:
+
+    After you shuffle your deck, flip 3 cards.'
+  srg_url: https://supershowthegame.com/product/foxworthy/
   card_type: SingleCompetitorCard
   db_uuid: 518058d6535f46c692afbbfcbb8cc115
+- name: Foxworthy (V2)
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  gender: Male
+  division: Hardcore
+  rules_text: "When you hit a card with \u201CDisqualification\u201D in the text:\n\
+    Flip 2 cards, then shuffle 2 cards from your discard pile into the deck."
+  card_type: SingleCompetitorCard
+  db_uuid: 5c8af70c7d64490aa5ba2bef6a2da540
 - name: Franklin "Turtle" Clark
   card_type: SingleCompetitorCard
   db_uuid: d89414c9e0e943d2844fcdeec92be5e5

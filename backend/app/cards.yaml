@@ -15125,6 +15125,7 @@
   - e22c647f005640efb5ef2f962d148dcc
   - 9ebd7bf9187840fe893227160cc19077
 - name: Bomaye Splash!
+  srg_url: https://supershowthegame.com/product/alex-kane/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -15135,6 +15136,7 @@
     with "Suplex" in the name.'
   db_uuid: a11de26094be4e019f8bc3b08d20266f
 - name: The Mark of Kane Suplex
+  srg_url: https://supershowthegame.com/product/alex-kane/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -15150,6 +15152,7 @@
     If you stopped a card last turn, double these bonuses.'
   db_uuid: e22c647f005640efb5ef2f962d148dcc
 - name: Fade 2 Black
+  srg_url: https://supershowthegame.com/product/alex-kane/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

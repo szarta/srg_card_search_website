@@ -20491,8 +20491,22 @@
   card_type: SingleCompetitorCard
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
 - name: Grinch Pitt
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  division: Underworld
+  rules_text: When your opponent has a Strike, Submission, and Grapple in play, your
+    Power, Technique, and Agility skills are +1.
   card_type: SingleCompetitorCard
   db_uuid: 18ec1811ed0f4626b8ff2009207e9e7c
+  related_finishes:
+  - ceb7539d7d62404dbfedfcd5afbce48b
+  - 171fb89bc21b4c47bac16ccb8ad12c88
+  - 0f2a78e5a39e42c19da24a3ec34a096d
 - name: Hailey Stevens
   card_type: SingleCompetitorCard
   db_uuid: 139bab0bee214ab18d8150337869667e
@@ -21751,6 +21765,10 @@
   rules_text: When you have fewer cards in your hand than your opponent, your Power,
     Agility, and Technique are +1.
   db_uuid: 8ae46f2366614e28ac5d20571c09d455
+  related_finishes:
+  - ceb7539d7d62404dbfedfcd5afbce48b
+  - 171fb89bc21b4c47bac16ccb8ad12c88
+  - 0f2a78e5a39e42c19da24a3ec34a096d
 - name: Snake Pitt (V2)
   power: 6
   technique: 8
@@ -21763,6 +21781,10 @@
     Strike, Submission, and Grapple skills are +1.'
   card_type: SingleCompetitorCard
   db_uuid: 23399bbbb04044748fda782de8e3169c
+  related_finishes:
+  - ceb7539d7d62404dbfedfcd5afbce48b
+  - 171fb89bc21b4c47bac16ccb8ad12c88
+  - 0f2a78e5a39e42c19da24a3ec34a096d
 - name: Snake Pitt (V3)
   power: 6
   technique: 8
@@ -21780,6 +21802,41 @@
     Submissions in play, +1 to Technique.'
   card_type: SingleCompetitorCard
   db_uuid: 2089cbfc2a414f49843cf15b434ea359
+  related_finishes:
+  - ceb7539d7d62404dbfedfcd5afbce48b
+  - 171fb89bc21b4c47bac16ccb8ad12c88
+  - 0f2a78e5a39e42c19da24a3ec34a096d
+- name: The Snake Bite
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    When your opponent has 7 or more cards in their hand, this card is also a Lead.'
+  db_uuid: ceb7539d7d62404dbfedfcd5afbce48b
+- name: Jumping Piledriver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +2 to Agility'
+  db_uuid: 171fb89bc21b4c47bac16ccb8ad12c88
+- name: The Constriction
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +4 to Submission'
+  db_uuid: 0f2a78e5a39e42c19da24a3ec34a096d
 - name: Sofa King Eddy Fury
   power: 5
   technique: 6

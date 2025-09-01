@@ -16647,11 +16647,27 @@
   submission: 9
   grapple: 7
   gender: Male
+  tags: Hardcore
+  srg_url: https://supershowthegame.com/product/general-lee-wong/
   rules_text: 'Choose 1 opponent:
 
-    When your opponent hits a card with a stop, they bury 1 card in their hand for
-    each other stop they have in play (Max 2)'
+    When your opponent hits a card with a Stop, they bury 1 card in their hand for
+    each other Stop they have in play (Max 2)'
   db_uuid: 1f64e258e37241f49e0661e85a1f56c7
+- name: General Lee Wong (V2)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
+  tags: Underworld
+  rules_text: 'Each time you roll Power, Agility, and Technique for your turn rolls:
+
+    Draw 3 cards and your next turn roll is +2.'
+  db_uuid: ef5f0e0716a54929bba3f278d7f4b354
 - name: Ginn the Heavy
   card_type: SingleCompetitorCard
   power: 10
@@ -20379,15 +20395,86 @@
 - name: GDD
   card_type: SingleCompetitorCard
   db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
-- name: General Manager John Calace
+- name: General Manager John Calace (V1)
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 5
+  gender: Male
   card_type: SingleCompetitorCard
+  rules_text: 'At the start of a Single or a Tag Team match:
+
+    You may replace all Crowd Meter cards with either: Steel Cage, Psycho Circus,
+    Lumberjack, No DQ, or Submission Match Crowd Meters.'
   db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
+- name: General Manager John Calace (V2)
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: "Your cards with \"Bar\", \"Shot\", or \"Bender\" in the name have the\
+    \ added text: \"Your opponent buries 1 random card in their hand.\" When you have\
+    \ 5 cards with \"Bar\", \"Shot\", or \"Bender\" in the name in play, your opponent\u2019\
+    s Gimmick is blank."
+  gender: Male
+  card_type: SingleCompetitorCard
+  db_uuid: c4a11e2c1cc1428c82d6c46a4f1f3646
 - name: GGP
   card_type: SingleCompetitorCard
   db_uuid: 6ac028b8730a4e77a303e04ddd9efc8a
 - name: Gia de los Muertos
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  gender: Female
+  division: Underworld
+  rules_text: When you Stop a card draw 1 card.
   card_type: SingleCompetitorCard
   db_uuid: a4b61c579c2d4ca59b5001ea5503fdef
+  related_finishes:
+  - d63a8570cfc249ba80ecb9bcd700c040
+  - 941e4585235a4778a8f11791502d94fc
+  - cfe3370977a54fd1a722b7a2829cccce
+- name: Swan Song
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card for each Stop you have in play.'
+  db_uuid: d63a8570cfc249ba80ecb9bcd700c040
+- name: Pan de Muerta
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    When this card is in your discard pile and your opponent wins a turn roll, your
+    next turn roll is +1.'
+  db_uuid: 941e4585235a4778a8f11791502d94fc
+- name: Muerta Lock
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: 'Your Power and Submission are +1 for each card you have with "Hold"
+    or "Lock" in the name.
+
+    Add 1 stop from your discard pile to your hand.'
+  db_uuid: cfe3370977a54fd1a722b7a2829cccce
 - name: Gideon Guts (V1)
   card_type: SingleCompetitorCard
   db_uuid: b0d290415e4e4ab685ecf41d06d6f167

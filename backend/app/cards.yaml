@@ -5195,6 +5195,15 @@
   card_type: MainDeckCard
   deck_card_number: 6
   db_uuid: 40b65529fcf04470a834b3c146da6ff4
+- name: Embrace the Cringe
+  rules_text: 'Stop any Follow Up Strike.
+
+    The player with the fewest cards in hand draws 1 card.'
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 6
+  db_uuid: 938ca75d43e142b1888c5b961da26c61
 - name: Expose the Opponent
   srg_url: https://supershowthegame.com/product/06-expose-the-opponent-2/
   rules_text: Reveal cards from the top of your deck until you reveal a Finish.  Add

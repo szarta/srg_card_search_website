@@ -15121,7 +15121,7 @@
     with "Suplex" in the name; choose 1 of those revealed cards and bury it.
   db_uuid: 34172f8d50054d639928f3736621afd3
   related_finishes:
-  - a11de26094be4e019f8bc3b08d20266f 
+  - a11de26094be4e019f8bc3b08d20266f
   - e22c647f005640efb5ef2f962d148dcc
   - 9ebd7bf9187840fe893227160cc19077
 - name: Bomaye Splash!
@@ -20082,8 +20082,63 @@
   card_type: SingleCompetitorCard
   db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
 - name: Fauxtista (V1)
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 10
+  grapple: 9
+  gender: Male
+  division: Underworld
+  rules_text: "When you roll Agility for your turn roll: Look at your opponent\u2019\
+    s hand, choose 1 card, and put it on top of their deck."
   card_type: SingleCompetitorCard
   db_uuid: 1c3f399dee664720851eb4481be8ebdb
+  related_finishes:
+  - dbc7b6210a004525acd013fcc293d872
+  - 150f2eea8e714e99b703b9092151e8f3
+  - d4d8751ce83a4930aae1c1e1de3c1d5e
+- name: Kamaria's Revenge
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand.
+
+    Your opponent randomly discards 1 card from their hand.'
+  db_uuid: dbc7b6210a004525acd013fcc293d872
+- name: Mephisto's Reach
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and you look at your opponent''s hand,
+    your next turn roll is +1.'
+  db_uuid: 150f2eea8e714e99b703b9092151e8f3
+- name: Kylosian Fury
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If stopped, discard 1 card from your hand and you may switch your turn roll to
+    Agility.'
+  db_uuid: d4d8751ce83a4930aae1c1e1de3c1d5e
 - name: Fauxtista (V2)
   card_type: SingleCompetitorCard
   db_uuid: 4356f9b884184358a9bb01e9c8b012be

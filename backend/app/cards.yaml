@@ -18358,6 +18358,8 @@
   submission: 8
   grapple: 7
   rules_text: When your opponent's turn roll is 10 you may draw 1 card.
+  division: Intergalactic
+  srg_url: https://supershowthegame.com/product/edm/
   db_uuid: a9b14669549e4cae8ac0f5ceb1b63aef
   related_finishes:
   - 37e09229ff264057aa229e88053cc49d
@@ -19951,9 +19953,33 @@
 - name: Effy
   card_type: SingleCompetitorCard
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
-- name: El Gato Sombrio
+- name: El Gato Sombrio (V1)
+  power: 5
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 10
+  division: Old School
+  rules_text: "FRONT: During your opponent\u2019s turn you may flip this card over\
+    \ to blank the text of any card played.\nBACK: When you roll Power for your Breakout\
+    \ Roll, you may switch it to Agility."
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
+- name: El Gato Sombrio (V2)
+  power: 5
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 10
+  gender: Male
+  division: Global
+  rules_text: When you roll Power for your turn roll, your opponents cards played
+    have blank text until your next turn or next bump.
+  card_type: SingleCompetitorCard
+  db_uuid: 9ea4b8e23ad8424b9b606c5b752cace9
 - name: E.L.F.
   card_type: SingleCompetitorCard
   db_uuid: 4546e97dd60b4490a4d69f62c2bdaea5
@@ -20256,7 +20282,7 @@
 - name: Fire Flash
   card_type: SingleCompetitorCard
   db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
-- name: Fireball
+- name: The Fireball
   card_type: SingleCompetitorCard
   db_uuid: f602d739628746ee8620999d09310727
 - name: The Firestarter Jake Crist

@@ -19899,15 +19899,49 @@
 - name: Downriver Drew
   card_type: SingleCompetitorCard
   db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
-- name: Dr. Emily Booker
+- name: Dr. Emily Booker (V1)
+  rules_text: "When you roll Submission for your turn roll: Look at your opponent\u2019\
+    s hand and you may switch 1 non-Stop card in their hand with 1 card in their discard\
+    \ pile."
   card_type: SingleCompetitorCard
   db_uuid: 836b424a74fd4d6d89eab215f184615e
+- name: Dr. Emily Booker (V2)
+  rules_text: 'During your turn:
+
+    When you hit a card with an odd card number, draw 1 card.'
+  card_type: SingleCompetitorCard
+  db_uuid: 79c2cee5dffb4d51ac5a70f7f124cada
 - name: Drunken Master
   card_type: SingleCompetitorCard
   db_uuid: 89a3e95dd0044141836048a654029ee7
-- name: Duke
+- name: The Duke (V1)
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  division: United States
+  srg_url: https://supershowthegame.com/product/duke/
+  rules_text: When you and another player roll the same skill; you may have both players
+    shuffle their hand into their deck and draw 4 cards.
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: 1b4a21878c13419a9e643ce6359bae8a
+- name: The Duke (V2)
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  rules_text: 'Ignore "Once a Match" on your "Backed by the Grandmachine" Entrance.
+
+    You may reveal 1 additional Entrance with "L.F.F." in the name.'
+  gender: Male
+  division: United States
+  card_type: SingleCompetitorCard
+  db_uuid: 80cde7c7b2a640c58bb9294beb87d0d3
 - name: Duncan Avecilla
   card_type: SingleCompetitorCard
   db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0

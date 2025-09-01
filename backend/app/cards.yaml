@@ -3933,6 +3933,11 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Stop any Lead Submission.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   deck_card_number: 2
   db_uuid: 944bb58082004021bbba7bf1c8657ffb
 - name: The Ref Takes Charge
@@ -4127,6 +4132,7 @@
   deck_card_number: 3
   db_uuid: 68112ee716a947f4b37b4847e0c1d2f9
 - name: Bob & Weave
+  srg_url: https://supershowthegame.com/product/02-bob-weave/
   rules_text: 'Stop any Lead Strike.
 
     The player with the fewest cards in hand draws 1 card.'
@@ -19937,8 +19943,56 @@
     Draw 3 cards.'
   db_uuid: 4fec27ebd1af4449bc8d2159286ad70d
 - name: Evee Laveaux
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 5
+  gender: Female
+  division: Underworld
+  rules_text: When you flip exactly 3 cards or shuffle exactly 3 cards into your deck,
+    draw 2 cards.
   card_type: SingleCompetitorCard
   db_uuid: cc42c7a9d4834a03836944558edd39cc
+  related_finishes:
+  - af0927e5632942ee8bfb374c2f3cf5aa
+  - 8ab4b05785224380b81ce1dfe104e713
+  - 4662ce13d4994da689e9a694cf190401
+- name: Mississippi Valley Voodoo
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If stopped, flip 3 cards or shuffle 3 cards from your discard pile into your deck.'
+  db_uuid: af0927e5632942ee8bfb374c2f3cf5aa
+- name: Spell Breaker
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'Your Technique and Grapple are +1 for each card you have in play with
+    "Breaker" in the name.
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  db_uuid: 8ab4b05785224380b81ce1dfe104e713
+- name: Li Grand Zombi
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Submission
+
+    Flip 3 cards.'
+  db_uuid: 4662ce13d4994da689e9a694cf190401
 - name: Everybuddy
   card_type: SingleCompetitorCard
   db_uuid: 7a641f25d38c4438896303135d4e9d56
@@ -19952,6 +20006,17 @@
   card_type: SingleCompetitorCard
   db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
 - name: Father Light
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 9
+  gender: Male
+  rules_text: "When you roll Agility for your turn roll, during your opponent\u2019\
+    s next turn, they randomly reveal a card in their hand until they reveal a playable\
+    \ card; they must play that card."
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
 - name: Fauxtista (V1)
@@ -20495,9 +20560,63 @@
 - name: Masked Beetle
   card_type: SingleCompetitorCard
   db_uuid: 652f4cdb84a5453b852723eaa0ddc994
-- name: The Masked Llama
+- name: The Masked Llama (V1)
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 9
+  gender: Male
+  srg_url: https://supershowthegame.com/product/masked-llama-sd/
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c7b112a959164f1ab5a4018303136e61
+- name: The Masked Llama (V1)
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  gender: Male
+  division: United States
+  card_type: SingleCompetitorCard
+  db_uuid: e50493d2f25143e3ada268231a196148
+  related_finishes:
+  - 50b05f057ff1441a9618c6f7e1b7354b
+  - fca77d98c237423d88b380e01b45d49a
+  - 6371c23c781846bcb9146ba355bf97fd
+- name: 360 Reverse Diving Hoof Tackle
+  deck_card_number: 28
+  srg_url: https://supershowthegame.com/product/masked-llama-sd/
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to your skills for each Strike card you have in play.
+
+    If your opponent played a Stop this turn, this card is also a Lead.'
+  db_uuid: 50b05f057ff1441a9618c6f7e1b7354b
+- name: Alpaca Driver
+  srg_url: https://supershowthegame.com/product/masked-llama-sd/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to your skills for each other Grapple card you have in play.
+
+    Draw 2 cards.'
+  db_uuid: fca77d98c237423d88b380e01b45d49a
+- name: Goat Monkey Grip
+  srg_url: https://supershowthegame.com/product/masked-llama-sd/
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to your skills for each other Submission card you have in play.
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  db_uuid: 6371c23c781846bcb9146ba355bf97fd
 - name: The Master Chef L.M.P.
   card_type: SingleCompetitorCard
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4

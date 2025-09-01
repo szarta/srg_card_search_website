@@ -19866,9 +19866,33 @@
 - name: The Director of Operations
   card_type: SingleCompetitorCard
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
-- name: Dirty Eddy
+- name: Dirty Eddy (V1)
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  gender: Male
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e11da46d6f07469b8bb42e3fff7800b7
+  rules_text: 'Once during each of your turns: You may reveal 1 card in your hand,
+    shuffle it into your deck and draw 1 card.'
+- name: Dirty Eddy (V2)
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  gender: Male
+  division: Hardcore
+  card_type: SingleCompetitorCard
+  rules_text: "At the start of the match: If your opponent is a Female, draw 4 cards.\
+    \  If they are not, choose Power, Technique, or Agility. Your opponent\u2019s\
+    \ skill of the chosen type is -1 during their turn and turn rolls."
+  db_uuid: f36eb754adea41d9a79b1bb5630ba01c
 - name: Dosmody the Snowman
   card_type: SingleCompetitorCard
   db_uuid: 426cb6e5acba479d81211a14c08f4fda

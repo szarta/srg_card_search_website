@@ -9113,6 +9113,12 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'If your Technique skill is greater than your Submission skill, stop
+    any Strike.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Submission 8+'
   deck_card_number: 15
   db_uuid: b9690e28433a4d1bac0a4ff67b53af98
 - name: Leg Lasso
@@ -21439,8 +21445,56 @@
   card_type: SingleCompetitorCard
   db_uuid: a2895b52164743edbdd083272279e147
 - name: Terra
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 5
+  submission: 8
+  grapple: 10
+  gender: Female
+  rules_text: "When you hit a Grapple, bury 2 cards in any player\u2019s discard pile."
   card_type: SingleCompetitorCard
+  division: Intergalactic
   db_uuid: 90b0c96882754a4dbd175e313f4991b2
+  related_finishes:
+  - a08df47fc88948f7b391e1b5f64b00da
+  - 39966367676f445d86af6e9a1e63fbaa
+  - 22c005afb8d944d4a55b8efdeb89eae7
+- name: Terra Pericolosa
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    Draw cards equal to the Crowd Meter +1.'
+  db_uuid: a08df47fc88948f7b391e1b5f64b00da
+- name: Terra Incognita
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    Your opponent buries 1 card in their hand for each Grapple you have in play.'
+  db_uuid: 39966367676f445d86af6e9a1e63fbaa
+- name: Terraform
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Submission
+
+    Add 3 Grapples from your discard pile to your hand.'
+  db_uuid: 22c005afb8d944d4a55b8efdeb89eae7
 - name: Tetsuya Naito
   card_type: SingleCompetitorCard
   db_uuid: ef4b285b0236403a9be1a821b7e5bda5

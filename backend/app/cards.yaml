@@ -19534,9 +19534,34 @@
 - name: The Consigilere
   card_type: SingleCompetitorCard
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
-- name: Copy Kat
+- name: Copy Kat (V1)
   card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 5
+  gender: Female
+  division: Intergalactic
+  comment: This is the Danhausen Cosplay version.
+  rules_text: 'When you roll Submission for your turn roll: Each player draws 1 card,
+    then your opponent randomly discards 1 card from their hand.'
   db_uuid: 941ba12c956546f4b9abf28336f9d92a
+- name: Copy Kat (V2)
+  power: 9
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 5
+  gender: Female
+  card_type: SingleCompetitorCard
+  comment: This is the Eddy Fury version.
+  rules_text: "FRONT: Your opponent\u2019s highest skill is -1 during their turn and\
+    \ turn rolls.\nAfter a breakout, turn this card over.\nBACK: During your opponent\u2019\
+    s turn and turn rolls: Your Grapple skill is + the Crowd Meter (Max +5)."
+  db_uuid: 9e57cd60fb34451bbf7426fb315033ca
 - name: Corporate Collector
   card_type: SingleCompetitorCard
   db_uuid: a581eb463bac433395ccc06f78c365c1
@@ -21430,7 +21455,7 @@
 
     When you bury a card in your hand, you may turn this card over.
 
-    BACKWhen you bury any number of cards in your hand; your opponent buries 1 card
+    BACK: When you bury any number of cards in your hand; your opponent buries 1 card
     in their hand.'
   db_uuid: 8532ee54d4504d4196342d3fc7f0d0c1
 - name: The Silver Marvel (Back Stats)

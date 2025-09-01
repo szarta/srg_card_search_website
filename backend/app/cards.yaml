@@ -20289,8 +20289,57 @@
   card_type: SingleCompetitorCard
   db_uuid: 12518693612b42238adbe4e7f1562d3c
 - name: Flame Fighter
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 6
+  gender: Male
+  division: Underworld
+  rules_text: 'Once per turn roll: When you roll Strike, Submission, or Grapple, your
+    opponent reveals the top card of their deck. If the move type matches the rolled
+    skill, flip it. If not, you may bury it. '
   card_type: SingleCompetitorCard
   db_uuid: ae2b1fde64e343da8848984231aa5c83
+  related_finishes:
+  - 9baa5dfc2f134125be5a18e4695c4d37
+  - 11f144af513c446d901413f6d6c5576a
+  - 04a5edcddd224619ba79547528df0460
+- name: Hose Line Attack
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Strike
+
+    +1 to Grapple
+
+    If stopped, shuffle 3 cards from your discard pile into your deck.'
+  db_uuid: 9baa5dfc2f134125be5a18e4695c4d37
+- name: Firefighter Driver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Your opponent flips 1 card.
+
+    Your opponent discards 1 card from their hand. Bury 1 card in your discard pile.
+    When you have another Grapple with "Fire" in the name in play, triple these bonuses.'
+  db_uuid: 11f144af513c446d901413f6d6c5576a
+- name: Confined Space Entrapment
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    Each time your opponent rolls for a breakout roll, they flip 3 cards.'
+  db_uuid: 04a5edcddd224619ba79547528df0460
 - name: Flip Gordon
   card_type: SingleCompetitorCard
   db_uuid: 23cd4515a4a14ddc9af09390a3a0865c

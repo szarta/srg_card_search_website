@@ -20444,8 +20444,55 @@
   card_type: SingleCompetitorCard
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
 - name: Leader of the Black Sheep
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 5
+  rules_text: 'When you roll Strike for your turn roll: Shuffle 1 card with "Sheep",
+    "Flock", or "Stun" in the name from your discard pile into your deck and draw
+    1 card.'
+  gender: Male
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 52492d03968e461d8a3e1e860491db9a
+  related_finishes:
+  - 04b507534c4a4b0393bb92fb25f53c2d
+  - 8b6fca7ac4f2489d9d469377d6a37184
+  - 18d210f50add4f8c9d59f9ff61d961f0
+- name: With a Cheerful Heart
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Stop any Finish Grapple that is also a Lead.'
+  db_uuid: 04b507534c4a4b0393bb92fb25f53c2d
+- name: A Flock for All
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Grapple'
+  db_uuid: 8b6fca7ac4f2489d9d469377d6a37184
+- name: Sheep Stretch
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    If your opponent''s 2nd breakout roll is less than their 1st breakout roll, they
+    cannot break out.'
+  db_uuid: 18d210f50add4f8c9d59f9ff61d961f0
 - name: Leader of the Unit JT Dunn
   card_type: SingleCompetitorCard
   db_uuid: 0fe383c8e4fe4083bb11149f4564a081

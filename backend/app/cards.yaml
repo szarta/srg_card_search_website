@@ -4126,6 +4126,15 @@
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 68112ee716a947f4b37b4847e0c1d2f9
+- name: Bob & Weave
+  rules_text: 'Stop any Lead Strike.
+
+    The player with the fewest cards in hand draws 1 card.'
+  play_order: Lead
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 3
+  db_uuid: 9c89a299c9f9413fbe3329704698f977
 - name: Break It Up
   srg_url: https://supershowthegame.com/product/03-break-it-up/
   rules_text: Stop any Strike with "Disqualification" in the text.

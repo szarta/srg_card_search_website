@@ -6460,10 +6460,12 @@
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 0bbaac4c54de40f7ac3f9130002f7a1e
-- name: Fuhgeddaboutit!
+- name: Fuhgeddaboutit! (#9)
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Bury 3 cards in your hand, draw 4 cards.
+  srg_url: https://supershowthegame.com/product/09-fuhgeddaboutit/
   deck_card_number: 9
   db_uuid: 54db55e6280c4c4fbf3c84f79b8feaed
 - name: Funtime Hold
@@ -20452,9 +20454,30 @@
 - name: Gabby Ortiz
   card_type: SingleCompetitorCard
   db_uuid: 0f15d434bd974b2a906aa62268028efb
-- name: GDD
+- name: GDD (V1)
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: When your opponent's turn roll is at least 3 greater than yours, they
+    bury 1 card in their hand, and you may bury 1 card in their discard pile.
   card_type: SingleCompetitorCard
   db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
+- name: GDD (V2)
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: When you roll Grapple for your turn roll, search your deck for 1 card
+    with "Drive" in the name and add it to your hand.
+  card_type: SingleCompetitorCard
+  db_uuid: ff1eff85cd864a54a5d66711c475655b
 - name: General Manager John Calace (V1)
   power: 9
   technique: 7
@@ -20544,7 +20567,7 @@
 - name: Grande Gallo
   card_type: SingleCompetitorCard
   db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
-- name: Great Oniman
+- name: The Great Oniman
   card_type: SingleCompetitorCard
   db_uuid: 2a085c1413b3407fb33e8737e43b732e
 - name: The Great Outdoors

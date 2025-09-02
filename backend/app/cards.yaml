@@ -18098,6 +18098,7 @@
   submission: 6
   grapple: 8
   gender: Male
+  srg_url: https://supershowthegame.com/product/jerk-of-cirque/
   rules_text: After your opponent moves any number of cards from their discard pile
     to their hand, randomly add 1 card from your discard pile to your hand.  If your
     opponent's Gimmick moved the cards, you choose the card instead of choosing randomly.
@@ -20643,9 +20644,32 @@
 - name: Homicide
   card_type: SingleCompetitorCard
   db_uuid: 8cb3b634e7d94e4eb9d14084aaee6047
-- name: Hornet
+- name: Hornet (V1)
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 10
+  gender: Male
+  rules_text: 'When you and your opponent roll the same skill for your turn roll each
+    player discards 1 random card, then you bury 1 card in your discard pile.
+
+    If you discarded a Strike for your Gimmick draw 1 card.'
   card_type: SingleCompetitorCard
   db_uuid: 514afe8b058d42a69b1870ba236be431
+- name: Hornet (V2)
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 10
+  gender: Male
+  rules_text: When you bump, you and your opponent draw 1 card, then your opponent
+    randomly discards 1 card from their hand.
+  card_type: SingleCompetitorCard
+  db_uuid: 12f38397dce648ecbe5364e7204d77d3
 - name: The Huntress Angel Lynn
   card_type: SingleCompetitorCard
   db_uuid: 947eaf142185488ca4a44d377af47b72
@@ -20776,7 +20800,8 @@
 - name: Jay White
   card_type: SingleCompetitorCard
   db_uuid: 68d8df0c31a04446bb8734cbe82be583
-- name: John Constance
+- name: Jean Constance
+  srg_url: https://supershowthegame.com/product/jean-constance/
   card_type: SingleCompetitorCard
   db_uuid: e7f4079b9154426e94cbc0bf90a6aa18
 - name: Jebediah The Amish Assassin
@@ -20806,9 +20831,18 @@
 - name: Johnny Korea
   card_type: SingleCompetitorCard
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
-- name: Johnny Supershow
+- name: Johnny Supershow (V1)
+  is_banned: true
   card_type: SingleCompetitorCard
+  gender: Male
+  rules_text: "Once during your turn when you hit a card with \"Slam\" in the name; draw 2 cards or you may play 1 additional card this turn."
   db_uuid: 659e5cb61628456f971e60e2b70760b3
+
+- name: Johnny Supershow (V2)
+  card_type: SingleCompetitorCard
+  gender: Male
+  rules_text: "Once during your turn when you hit a card with \"Slam\" in the name: Draw 1 card or you may play 1 additional card this turn."
+
 - name: Johnny T
   card_type: SingleCompetitorCard
   db_uuid: c79de6acd1954441970f9b1901a55e01

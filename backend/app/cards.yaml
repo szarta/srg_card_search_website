@@ -18017,7 +18017,7 @@
   gender: Male
   rules_text: Once a turn, you may re-roll your Breakout roll, your new roll is +1.
   db_uuid: 61234f2548d14c9dafb688a8e2bdd4a8
-- name: Hobzilla
+- name: Hobbzilla
   card_type: SingleCompetitorCard
   power: 10
   technique: 8
@@ -20593,9 +20593,29 @@
 - name: Hailey Stevens
   card_type: SingleCompetitorCard
   db_uuid: 139bab0bee214ab18d8150337869667e
-- name: Hallow King
+- name: Hallow King (V1)
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 5
+  gender: Male
+  rules_text: When you hit a card with "Head", "Arm", or "Back" in the name, your
+    opponent's next turn roll is -1.
   card_type: SingleCompetitorCard
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
+- name: Hallow King (V2)
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 9
+  submission: 6
+  grapple: 5
+  gender: Male
+  rules_text: Your target's power is -1 the Crowd Meter.
+  card_type: SingleCompetitorCard
+  db_uuid: ed653f444d954936987aec59d4c5e4dd
 - name: The Harlequin Queen
   card_type: SingleCompetitorCard
   db_uuid: 5319a7d9980845fb8a17e35df92f1068
@@ -20617,9 +20637,6 @@
 - name: History Making Matt Pineapple
   card_type: SingleCompetitorCard
   db_uuid: 70ec50606f764d35bbbbaf40618177da
-- name: Hobbzilla
-  card_type: SingleCompetitorCard
-  db_uuid: 563f8d603ca043fcbb01e473215d055a
 - name: Hold the Line Harry
   card_type: SingleCompetitorCard
   db_uuid: ad19decd21624f22b678048ab0b463db

@@ -5387,6 +5387,9 @@
   deck_card_number: 6
   db_uuid: af2524259cc141ab84d459099f10e925
 - name: Going Over the Steel Chain
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Strike.
+
+    Draw 1 card, your opponent randomly buries 1 card in their hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -6734,6 +6737,8 @@
   deck_card_number: 9
   db_uuid: f09fbf28f99c433ea44a384fbabdcac1
 - name: Steel Chain Uprising
+  rules_text: Search your deck for 1 card with "Steel Chain" in the name, add it to
+    your hand and shuffle your deck or each player buries 1 card in their hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7161,6 +7166,8 @@
   deck_card_number: 10
   db_uuid: 4661b819043343df9145e4e1b19876bc
 - name: Steel Chain Punch
+  rules_text: Your next turn roll is +1 for each card you have in play with "Steel
+    Chain" in the name.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -7527,6 +7534,8 @@
   deck_card_number: 11
   db_uuid: ab7b9b46c8d94f8f9ca6e63e7133d28c
 - name: Steel Chain Irish Whip
+  rules_text: Your next turn roll is +1 for each card you have in play with "Steel
+    Chain" in the name.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7711,6 +7720,11 @@
   deck_card_number: 12
   db_uuid: fc3f3f94d5584d7690ddc6412c062acb
 - name: Gathering the Microphone
+  rules_text: 'Draw 1 card for each other card you have in play with "Microphone"
+    in the name.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7735,6 +7749,8 @@
   deck_card_number: 12
   db_uuid: 2e71ea7abb184e6cba90d56f9173dec6
 - name: Gathering the Steel Chain
+  rules_text: Your next turn roll is +1 for each card you have in play with "Steel
+    Chain" in the name.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8367,6 +8383,11 @@
   deck_card_number: 13
   db_uuid: 608ad20396494e9d98260a5a242f69d8
 - name: Steel Chain Spin
+  rules_text: 'Stop any Finish Grapple that is also a Lead or Follow Up.
+
+    If played as a Stop, this card is also a Finish.
+
+    Put 1 Strike from your discard pile on top of your deck.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9352,6 +9373,9 @@
   deck_card_number: 15
   db_uuid: 8a617622df424db3b5ebe96398b0ffed
 - name: Steel Chained
+  rules_text: 'Flip 2 cards for each opponent in the match.
+
+    Add 1 Finish from your discard pile to your hand.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -9382,6 +9406,7 @@
   deck_card_number: 15
   db_uuid: 11264dcdf90249ad88b24abde6063a02
 - name: Takeover With the Steel Chain
+  rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -9400,38 +9425,53 @@
   deck_card_number: 15
   db_uuid: 8307e0e7b25f48e699d247036717f87d
 - name: Turn Up the Steel Chains
+  rules_text: Your "Knockdown the Table" and "Knockdown the Steel Chain" are Finishes
+    instead. If you have "Knockdown the Steel Chain" in play, this card is a Finish
+    instead.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
   db_uuid: a26f2b3d2cf64d1ca736cafe85e33110
 - name: Tussle Over the Microphone
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique
+    skill, stop any Strike.  Randomly reveal 1 card in your hand: If it has "Microphone"
+    in the name, your next turn roll is +1.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
   db_uuid: 5bb536fc204a4e3f804583142887c8c4
 - name: Veteran Maneuver
+  rules_text: Each player flips 1 card or if your Technique skill is greater than
+    your opponent's Technique skill, stop any Strike.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
-  rules_text: Each player flips 1 card or if your Technique skill is greater than
-    your opponent's Technique skill, stop any Strike.
   deck_card_number: 15
   db_uuid: 68cef7f90216452782ae68420a32428c
 - name: Wall of Fire
+  rules_text: 'Choose 2 cards in your discard pile:
+
+    randomly put 1 on top of your deck and bury the other.
+
+    If this is a Ring of Fire match, your opponent flips 2 cads.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
   db_uuid: 559dbe43e2e94ed69a2ae89dc322274d
 - name: Witchy Whirlybird High-Jinks
+  rules_text: Each player flips 1 card or if your Submission skill is greater than
+    your opponent's Submission skill, stop any Strike.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
   db_uuid: 8a77452e1104430980e1052e29068448
 - name: Wrap in the Steel Chains
+  rules_text: If your Submission skill is at least 4 greater than your opponent's
+    Submission skill, or this match has "Chain" in the name, stop any Strike.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -10283,6 +10323,9 @@
   deck_card_number: 17
   db_uuid: 26ada6097e3f4210bf1c9e4ec9fecfa4
 - name: Steel Chain-Assisted Headlock Takedown
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10378,6 +10421,9 @@
   deck_card_number: 18
   db_uuid: cff980d722a1413cb5d120435b693eeb
 - name: Ambush With the Steel Chain
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -10857,6 +10903,9 @@
   deck_card_number: 19
   db_uuid: 43d69424ea814e75b35e6237d6bac8f8
 - name: Cosmic Steel Chain Whip
+  rules_text: 'The Crowd Meter is +1.
+
+    If this card is flipped by "Set Up the Steel Chain", add it to your hand.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11319,6 +11368,9 @@
   deck_card_number: 20
   db_uuid: 155031198ab3412f8168b991190b0425
 - name: Big Steel Chain Throw
+  rules_text: 'The Crowd Meter is +1.
+
+    If this card is flipped by "Set Up the Steel Chain", add it to your hand.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -11938,6 +11990,8 @@
   deck_card_number: 21
   db_uuid: bad763d66e314400ba74cf517e0ade6e
 - name: Hold the Steel Chain
+  rules_text: If you have a card with "Chain" in the name in play and your opponent
+    has another Strike in play, stop any Strike.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -11974,6 +12028,9 @@
   deck_card_number: 21
   db_uuid: 26fd8a1bab09431e885d4238221c6580
 - name: Knockdown the Steel Chain
+  rules_text: 'The Crowd Meter is +1.
+
+    If this card is flipped by "Set Up the Steel Chain" add it to your hand.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13477,6 +13534,9 @@
   deck_card_number: 24
   db_uuid: aa640ffe35a54a518767951f10c41d91
 - name: Pin to the Wall
+  rules_text: 'Choose a skill: your opponent''s skill of that type is -1.
+
+    The next time you roll that skill, draw 1 card.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13522,6 +13582,9 @@
   deck_card_number: 24
   db_uuid: 2d8b62557d214ecb800b070b78e53706
 - name: Set Up the Microphone
+  rules_text: "Flip 5 cards.  Add 2 cards with \"Microphone\" in the name from your\
+    \ discard pile to your hand. \nRandomly reveal 1 card in your hand: If it has\
+    \ \"Microphone\" in the name, your next turn roll is +1."
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13540,6 +13603,9 @@
   deck_card_number: 24
   db_uuid: cdbeada3ef80478a944efeec72abf70c
 - name: Set Up the Steel Chain
+  rules_text: 'Flip 4 cards, add 1 Submission from your discard pile to your hand.
+
+    All Finish Submissions have the added text "Your Finish rolls are +1.".'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -14444,6 +14510,10 @@
   deck_card_number: 27
   db_uuid: 7df436fad0ef45949c1e61fde3bc1761
 - name: Backlash With the Microphone
+  rules_text: 'Stop any Strike.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -14456,6 +14526,9 @@
   deck_card_number: 27
   db_uuid: d04ee5b9ee8d4c65a168cf191c5d011e
 - name: Backlash With the Steel Chain
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Strike.
+
+    Draw 2 cards.  Your opponent buries 1 random card in their hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -14754,12 +14827,18 @@
   deck_card_number: 27
   db_uuid: c353c415d5aa42a594c801d22a99b0aa
 - name: Wrap in the Ropes
+  rules_text: 'Stop any lead Strike or any Finish Strike.
+
+    Your opponent buries 1 card in their hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 27
   db_uuid: d1f7c5ef29fc4e7b81eb7035e6b0ac73
 - name: Wrenching Wrench of Retching
+  rules_text: 'Stop any Follow Up Strike or Finish Strike.
+
+    Draw 1 card.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -21828,6 +21907,7 @@
   grapple: 8
   gender: Male
   rules_text: When your opponent's turn roll is 10 or greater, your turn roll is +1.
+  card_type: SingleCompetitorCard
   db_uuid: bc7ef38f40c64f6ba76491cd05e55695
 - name: Jack of All Trades
   power: 9
@@ -21839,6 +21919,7 @@
   gender: Male
   rules_text: 'When you hit a Grapple: Flip 2 cards, add 1 Stop from your discard
     pile to your hand.'
+  card_type: SingleCompetitorCard
   db_uuid: b8a01bfe1df7408ba4204b9d0e397796
 - name: Player of the Era
   card_type: SingleCompetitorCard

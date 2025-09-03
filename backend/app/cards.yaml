@@ -21358,9 +21358,33 @@
 - name: Liger
   card_type: SingleCompetitorCard
   db_uuid: 109e75661c724f3793fd139706a5b8b5
-- name: Lily Mai
+- name: Lily Mai (V1)
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 7
+  gender: Female
+  rules_text: 'When you have fewer stops in play than your opponent your Power, Technique
+    and Agility are +1.
+
+    Your cards named "Back Kick" are also considered #11 and #12.'
   card_type: SingleCompetitorCard
   db_uuid: b0f985ab713b4bc29df222f797d3c13e
+- name: Lily Mai (V2)
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 7
+  gender: Female
+  rules_text: "When you hit a card with \"Kick\" or \"Dragon\" in the name, your opponent\
+    \ randomly reveals one card in their hand: if it\u2019s a stop, draw 1 card, if\
+    \ not, they discard it."
+  card_type: SingleCompetitorCard
+  db_uuid: e2bac1fd8d714ca8a1864b32dc79cb04
 - name: Lio Rush
   card_type: SingleCompetitorCard
   db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f

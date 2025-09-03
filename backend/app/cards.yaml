@@ -21442,12 +21442,6 @@
 - name: Lord Thompson
   card_type: SingleCompetitorCard
   db_uuid: f63d587175404c10a36bdcd1e89338af
-- name: Lorenzo Manicotti (V1)
-  card_type: SingleCompetitorCard
-  db_uuid: b120edb9a0524b4683303dbd2ac6b32a
-- name: Lorenzo Manicotti (V2)
-  card_type: SingleCompetitorCard
-  db_uuid: 6cb341f5fb1b4bc4a7ed1f91e740a4ae
 - name: Loudmouth Leo Larynx
   card_type: SingleCompetitorCard
   db_uuid: def74dd5530540ce8a9e903bc10fd620

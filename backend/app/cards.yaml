@@ -21241,9 +21241,29 @@
   card_type: SingleCompetitorCard
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
 - name: L.E.D. (V1)
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 6
+  grapple: 8
+  gender: Female
+  rules_text: 'Once per turn roll, when your opponent rolls Technique, flip 1 card:
+    If that card is a Follow Up you may play it immediately as if it were also a Lead
+    (it can be stopped as normal). If it is not a Follow Up, add it to your hand and
+    then bury 1 card in your hand.'
   card_type: SingleCompetitorCard
   db_uuid: 8ef681256e174839a3a0249b8aa564fb
 - name: L.E.D. (V2)
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 6
+  gender: Female
+  rules_text: 'When your opponent rolls Technique for their turn roll: Their Gimmick
+    is blank until the end of their next turn.'
   card_type: SingleCompetitorCard
   db_uuid: d854a32accd5403b9a4be851ff31a292
 - name: L.E.O. the Law
@@ -21327,9 +21347,14 @@
 - name: Lemmy Adam
   card_type: SingleCompetitorCard
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
-- name: Lexi the Punk Rock Pixie
+- name: Lexi the Punk Rock Pixie (V1)
+  gender: Female
   card_type: SingleCompetitorCard
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
+- name: Lexi the Punk Rock Pixie (V2)
+  gender: Female
+  card_type: SingleCompetitorCard
+  db_uuid: 6923749ac3f344d683b1f4a896475fa1
 - name: Liger
   card_type: SingleCompetitorCard
   db_uuid: 109e75661c724f3793fd139706a5b8b5

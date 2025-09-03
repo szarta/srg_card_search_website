@@ -4251,12 +4251,18 @@
   deck_card_number: 3
   db_uuid: 0979792b0a3c44a8a15ef544a8e57023
 - name: Handshake of Doom!
+  rules_text: 'If this is the first turn of the game, this card is also a Finish.
+
+    Skill Requirement: Power 8+'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: b85f7a12240c4bb8a0fbe2a6666c310d
 - name: Hog Tie
+  rules_text: 'When you roll Power for your turn roll, draw 1 card.
+
+    If your next turn roll is Power, draw 1 card.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4264,6 +4270,9 @@
   db_uuid: 29631d4588004c22836fc964b4e574c3
 - name: Hold Over
   play_order: Lead
+  rules_text: 'When your opponent rolls Technique for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Tecnique, draw 1 card.'
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
@@ -4271,6 +4280,7 @@
 - name: Hyper Forearm Kicker Hold Choke
   play_order: Lead
   atk_type: Submission
+  rules_text: If this is the first turn of the game, this card cannot be stopped.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 299efc52318f4b91b8d8d2ff4a1ae7a5
@@ -4303,6 +4313,8 @@
 - name: Lockjaw
   play_order: Lead
   atk_type: Submission
+  rules_text: Each player adds the bottom card of their deck to their hand or stop
+    any Lead Strike.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 30249467b3ff48dcb6b971e9b5d7182f
@@ -4319,6 +4331,7 @@
   db_uuid: 9fa7dd6a34564c79bfcef45456652739
 - name: Money Talks
   play_order: Lead
+  rules_text: Each player shuffles their deck or Stop any Lead Strike.
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
@@ -4336,6 +4349,9 @@
 - name: Psychic Ability
   play_order: Lead
   atk_type: Submission
+  rules_text: 'Stop any Lead Strike.
+
+    Each player reveals 1 card in their hand.'
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: d8e647c975f24d41959d10e5cfdd06ea
@@ -4343,15 +4359,24 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: If you roll Power for your Finish roll, your roll is +1.
   deck_card_number: 3
   db_uuid: 7c74c58542b64ffbbaa79c39bb6d165a
 - name: Short Squeeze Hold (V1)
+  rules_text: 'Your opponent''s next turn roll is -1.
+
+    If this is a Steel Cage or Liger''s Den match your maximum handsize is +2.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 1e905dc8f8b7416ab7f6dc314452fa94
 - name: Short Squeeze Hold (V2)
+  rules_text: 'Your opponent''s next turn roll is -1.
+
+    Your maximum handsize is +2.
+
+    If this is a Steel Cage or Liger''s Den match, this card cannot be stopped.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -4370,12 +4395,16 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: +1 to Submission during your breakout rolls.
   deck_card_number: 3
   db_uuid: b1810ef2c8924de5ad8b22bd637af991
 - name: Smother
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Your next turn roll is +1.
+
+    If the Crowd Meter is 2 or greater stop any Lead Strike.'
   deck_card_number: 3
   db_uuid: 1007d21cef2f4a3c9b1e8a4bf6de553e
 - name: Snap Headlock
@@ -4388,24 +4417,31 @@
 - name: Steel Chain (V1)
   play_order: Lead
   atk_type: Submission
+  rules_text: If you roll Submission for your Finish roll, it is +1.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: f493591909244f95aa83793e93180045
 - name: Steel Chain (V2)
   play_order: Lead
   atk_type: Submission
+  rules_text: 'If you roll Submission for your Finish roll, it is +1.
+
+    If this is a Steel Chain match, you may shuffle 2 cards from your discard pile
+    into your deck.'
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 9ecc4dcff1bc40779cdd748eeda8471b
 - name: Stomp You Out
   play_order: Lead
   atk_type: Submission
+  rules_text: Stop any Strike with "Over the Top" in the name.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 95c40de419114cf1abb200830792e722
 - name: Swinging Headlock
   play_order: Lead
   atk_type: Submission
+  rules_text: Stop any Lead Strike or each player buries 1 card in their discard pile.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: 1947547588ee4358804575a807de5bd1
@@ -4413,6 +4449,8 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Stop any Finish Strike that cannot be stopped or any Strike that is
+    not the first card played this turn.
   deck_card_number: 3
   db_uuid: a924ae141d374d11aa6700a9af12573d
 - name: Taunt From the Apron
@@ -4424,6 +4462,9 @@
   db_uuid: d0150ac09e5b4da19335b066deb73ce7
 - name: Test of Strength
   play_order: Lead
+  rules_text: '+1 to Power during turn rolls.
+
+    If your next turn roll is Power, it is +2.'
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 3
@@ -4432,6 +4473,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'When your opponent rolls Submission for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Submission, draw 1 card.'
   deck_card_number: 3
   db_uuid: 4a79c2512645422c839734f6364da829
 - name: Twisting Wrist Lock
@@ -4445,6 +4489,7 @@
 - name: Wear Down
   play_order: Lead
   atk_type: Submission
+  rules_text: Bury 2 cards in your opponent's discard pile.
   card_type: MainDeckCard
   deck_card_number: 3
   db_uuid: b20ea0ad5bc144fdac9d9e985017e960
@@ -4495,6 +4540,9 @@
   db_uuid: c8f2b59005a54db7aa26bacd590fdf31
 - name: Blast
   play_order: Lead
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Each player reveals 1 card in their hand.'
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
@@ -4502,6 +4550,10 @@
 - name: Body Shot
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Your next turn roll is +1.
+
+    If your Agility skill is greater than your opponent''s Agility skill, your next
+    turn roll is +2 instead.'
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 21ee77a5ac6c46e79423be56b57242b5
@@ -4509,11 +4561,16 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Each player shuffles their deck or stop any Follow Up Grapple.
   deck_card_number: 4
   db_uuid: 183b17fa96ea49b986ecffbb5cb49ba4
 - name: Capoeira Kick
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    If your Agility skill is greater than your opponent''s Agility skill, put that
+    card on top of your deck instead.'
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: d898f79793e14c3b9c408978c774bed8
@@ -4521,6 +4578,11 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   deck_card_number: 4
   db_uuid: 83839c46df5d402a8e4346cc33a06ad6
 - name: Double Chop
@@ -4543,6 +4605,11 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
   deck_card_number: 4
   db_uuid: 0b1ac44c246648778c12b325702c50d5
 - name: Flip Kick
@@ -4550,23 +4617,35 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
+  rules_text: Each player adds the bottom card of their deck to their hand or stop
+    any Follow Up Grapple.
   db_uuid: 293ff77d792d4b8ea4c0f1c48386c8f9
 - name: Going Over the Drumstick
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Randomly reveal 1 card in your hand: If that card has "Drumstick" in the name,
+    bury 1 card in any player''s discard pile.'
   deck_card_number: 4
   db_uuid: 0f7e1e633d4d41ac8c6d5d3e5fd646b1
 - name: Going Over the Kendo Stick
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If the Crowd Meter is 1 or less, stop any Follow Up Grapple.
+
+    Draw 1 card or choose 1 card your opponent has in play and discard it.'
   deck_card_number: 4
   db_uuid: 60fb564aae5148d9818222d749c32576
 - name: Going Over the Ladder
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.
+
+    Draw 1 card, choose 1 card your opponent has in play and discard it.'
   deck_card_number: 4
   db_uuid: a75811e7ff374a4db6aaac1548b7fe37
 - name: Going Over the Pineapple
@@ -4574,17 +4653,26 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
+  rules_text: 'If you have a card in play with "Pineapple" in the name, stop any Follow
+    Up Grapple.
+
+    Draw 1 card. Discard 1 card your opponent has in play.'
   db_uuid: 9176cbad938743ccbe40826618d523ed
 - name: Haymaker Punch
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Draw 1 card.
+
+    If your Strike skill is greater than your opponent''s Strike skill, draw 2 cards
+    instead.'
   deck_card_number: 4
   db_uuid: 52bee32fa1d04c2087aee6235b5b22c9
 - name: Irish Whip
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Flip cards until you flip a Strike, add that Strike to your hand.
   deck_card_number: 4
   db_uuid: b63e5896de194b20b676cfa5afc3b1f6
 - name: Jaw Jacking
@@ -4609,6 +4697,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: '+1 to Strike.
+
+    Skill Requirement: Strike 8+'
   deck_card_number: 4
   db_uuid: aeda5fdd8c814f599ea38889c81ef3b1
 - name: Kicks to the Gut
@@ -4622,6 +4713,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Flip cards until you flip a Submission, add that Submission to your
+    hand.
   deck_card_number: 4
   db_uuid: a80323c57af7429999f35b162d42ce73
 - name: Moon Drop
@@ -4638,6 +4731,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Follow Up Grapple.
+
+    Shuffle 1 card with "Table" in the name from your discard pile into your deck.'
   deck_card_number: 4
   db_uuid: 5f965adf98384e7cb8933e585fd2828e
 - name: Old School
@@ -4661,12 +4757,15 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If stopped, choose 1 card your opponent has in play and discard it.
   deck_card_number: 4
   db_uuid: c3a0b945c6e844d993f6229d7ad84312
 - name: Rivalry Heating Up
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Stop any Follow Up Grapple or each player buries 1 card in their hand
+    and if this is a Ring of Fire match, your opponent flips 1 card.
   deck_card_number: 4
   db_uuid: 95c404df2dd54db8b8c1061edd284e75
 - name: Running Elbow Smash
@@ -4674,6 +4773,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    If your Strike skill is greater than your opponent''s Strike skill, put that card
+    on top of your deck instead.'
   db_uuid: f27ee6a27e334bb194dc7e4d504d2f7c
 - name: Shotgun Clothesline
   srg_url: https://supershowthegame.com/product/04-shotgun-clothesline/
@@ -4689,6 +4792,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: You may play 1 additional Strike this turn; if your Agility skill is
+    greater than your opponent's Agility skill, you may play any additional card this
+    turn instead.
   deck_card_number: 4
   db_uuid: 20476507ef1c40c084d529bd54768995
 - name: Skull Smash
@@ -5262,6 +5368,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Stop any Follow Up Strike.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your
+    next turn roll is +1.'
   deck_card_number: 6
   db_uuid: a6b9d090256a4c5095fadee8fe99084f
 - name: Going Over the Ring Steps
@@ -5746,6 +5856,10 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Draw 1 card then bury 1 card in your hand.
+
+    When this card is in your discard pile and you roll Strike for your turn roll,
+    you may add it to your hand.'
   deck_card_number: 7
   db_uuid: c97ea70d1df749f9873f3a85bad5af5a
 - name: Stomp in the Ropes
@@ -7075,6 +7189,10 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Shuffle 1 card from your discard pile into your deck for each other
+    Strike you have in play.
+
+    If this is a Steel Cage match, your opponent''s next turn roll is -2.'
   deck_card_number: 10
   db_uuid: 282284f7d59442e0b8f7c668a4656b78
 - name: Three-Four Punch
@@ -9474,6 +9592,8 @@
   deck_card_number: 16
   db_uuid: cbe90e1d669d4e36acff396a2309b838
 - name: Dropkick Over the Top
+  rules_text: If you have another Strike in play, your opponent discards 1 card from
+    their hand.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -13637,6 +13757,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Lead Grapple or any Finish Grapple.
+
+    Your opponent buries 1 card in their hand.'
   deck_card_number: 25
   db_uuid: 8d76d18c377342ac8004c88679ea87f4
 - name: Choke On a Chicken Wing
@@ -13688,6 +13811,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Stop any Grapple card.
   deck_card_number: 25
   db_uuid: 1541769e71fa45da97417b60a5d207c3
 - name: Elbow to the Face
@@ -13820,6 +13944,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Grapple.
+
+    Each player''s maximum handsize is +1.'
   deck_card_number: 25
   db_uuid: 61563cf784844717bb8b6941eb2403aa
 - name: Strike a Pose, Snap a Selfie
@@ -13880,6 +14007,10 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any printed Finish Grapple.
+
+    If the stopped card did not have a Competitor Logo or Skill Requirement, this
+    card is also a Finish.'
   deck_card_number: 25
   db_uuid: c58b5c6d4561479c8c6ce8cf63344414
 - name: Universal Dropkick (V2)
@@ -19750,6 +19881,18 @@
   card_type: SingleCompetitorCard
   db_uuid: 38a5391801c4447da6ea182bd53eb6f0
 - name: Deranged Monarch
+  power: 7
+  technique: 5
+  agility: 9
+  strike: 10
+  submission: 8
+  grapple: 6
+  gender: Male
+  rules_text: 'FRONT: When you could stop a card, you may instead discard that Stop
+    from your hand to turn this card over (your opponent''s card hits).
+
+    BACK: When you hit a card with "King" in the name, your opponent''s next turn
+    roll is -2.'
   card_type: SingleCompetitorCard
   db_uuid: 308de2fea17c4d1a8581fdd591951fef
 - name: Derek Neal
@@ -20835,14 +20978,15 @@
   is_banned: true
   card_type: SingleCompetitorCard
   gender: Male
-  rules_text: "Once during your turn when you hit a card with \"Slam\" in the name; draw 2 cards or you may play 1 additional card this turn."
+  rules_text: Once during your turn when you hit a card with "Slam" in the name; draw
+    2 cards or you may play 1 additional card this turn.
   db_uuid: 659e5cb61628456f971e60e2b70760b3
-
 - name: Johnny Supershow (V2)
   card_type: SingleCompetitorCard
   gender: Male
-  rules_text: "Once during your turn when you hit a card with \"Slam\" in the name: Draw 1 card or you may play 1 additional card this turn."
-
+  rules_text: 'Once during your turn when you hit a card with "Slam" in the name:
+    Draw 1 card or you may play 1 additional card this turn.'
+  db_uuid: 4ca508f3c6b44cd88defa9aafb4aefbb
 - name: Johnny T
   card_type: SingleCompetitorCard
   db_uuid: c79de6acd1954441970f9b1901a55e01
@@ -20895,6 +21039,16 @@
   card_type: SingleCompetitorCard
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
 - name: Kenny Omega
+  power: 5
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 10
+  gender: Male
+  division: Underworld
+  rules_text: 'When you roll Grapple: Choose 1 card your opponent has in play and
+    put it in their discard pile.'
   card_type: SingleCompetitorCard
   db_uuid: a65f29782caf41678005bafaf83802cc
 - name: Kenta
@@ -20931,6 +21085,18 @@
   card_type: SingleCompetitorCard
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
 - name: King Kong Dundy
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 8
+  rules_text: 'When you roll Power for your turn roll:
+
+    Flip a card, then shuffle a card of the same type (Strike, Submission, Grapple)
+    into your deck and draw 1 card.'
+  gender: Male
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
 - name: King of New York
@@ -20964,6 +21130,16 @@
   card_type: SingleCompetitorCard
   db_uuid: 92d9e53180de40039d33b076e18b9127
 - name: Lauren Santiago
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Power for your turn roll: Your opponent randomly discards
+    1 card from their hand.'
+  gender: Female
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 7c74c7826eeb4f44b91805c51d1c7ac4
 - name: Lawman Nick
@@ -21092,6 +21268,18 @@
   card_type: SingleCompetitorCard
   db_uuid: a09bc1774f984c6287207df2a01a4eee
 - name: Mack-a-Tack
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 5
+  gender: Female
+  division: Underworld
+  rules_text: 'When you bump, your opponent discards 1 card instead of drawing.
+
+    Once a turn roll: If you would bump, and you bumped on the last turn roll, choose
+    a player to re-roll.'
   card_type: SingleCompetitorCard
   db_uuid: 202418b1360d433daf406ee61bfd8e2f
 - name: The Mad One
@@ -21113,6 +21301,16 @@
   card_type: SingleCompetitorCard
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
 - name: The Man from I.T.
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 7
+  gender: Male
+  division: Underworld
+  rules_text: When you roll Technique for your turn or Finish roll, look at your opponent's
+    hand, choose 1 Follow Up or Finish and bury it.
   card_type: SingleCompetitorCard
   db_uuid: 49295df8c3bb48778a446b6eeba6982f
 - name: Mangia
@@ -21243,6 +21441,16 @@
   card_type: SingleCompetitorCard
   db_uuid: 44630c22a56448b9a0f6af124078364d
 - name: Memes Dealer
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 6
+  division: Underworld
+  gender: Male
+  rules_text: 'Once during your opponent''s turn: You may reveal 1 card in your hand,
+    shuffle it into your deck, and draw 1 card.'
   card_type: SingleCompetitorCard
   db_uuid: 2812975b494f480eb69153836f76e68a
 - name: The Mercenary Flip Gordon
@@ -21285,6 +21493,16 @@
   card_type: SingleCompetitorCard
   db_uuid: 60081196caac41bb82fb1735e16268f6
 - name: Mimic
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  division: Underworld
+  gender: Male
+  rules_text: When your opponent increases their skills, your skills are also increased
+    the same amount.
   card_type: SingleCompetitorCard
   db_uuid: 924e81a6d29b4983bf9be0918a459760
 - name: Miss Fury
@@ -21576,9 +21794,42 @@
 - name: Pixel
   card_type: SingleCompetitorCard
   db_uuid: c60c1ad29cb0440481fc29ae1c863a37
-- name: PLant Based Bruiser and Songs
+- name: Plant Based Bruiser
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 8
+  gender: Male
+  rules_text: 'After you or your opponent breaks out, you may put 1 Lead from your
+    discard pile into play or reveal Hank the Tank or Jack of All Trades and add their
+    Gimmick to yours.
+
+    When your opponent hits a Finish, they may hide one of your other revealed Competitors.'
   card_type: SingleCompetitorCard
   db_uuid: a9a384dd112246d58b8c359460d56ddc
+- name: Hank the Tank
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 8
+  gender: Male
+  rules_text: When your opponent's turn roll is 10 or greater, your turn roll is +1.
+  db_uuid: bc7ef38f40c64f6ba76491cd05e55695
+- name: Jack of All Trades
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 8
+  gender: Male
+  rules_text: 'When you hit a Grapple: Flip 2 cards, add 1 Stop from your discard
+    pile to your hand.'
+  db_uuid: b8a01bfe1df7408ba4204b9d0e397796
 - name: Player of the Era
   card_type: SingleCompetitorCard
   db_uuid: 2a1ae85ae5c84ea0a72d5cc44553199c
@@ -22585,3 +22836,16 @@
 
     Your opponent''s next 2 turn rolls are -2.'
   db_uuid: 244bf79f6adc48a28c553e55aa16df6b
+- name: The Master Strategist
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  gender: Male
+  division: Underworld
+  card_type: SingleCompetitorCard
+  rules_text: 'If you rolled Agility for your turn roll, choose one: You may play
+    an additional card this turn, or your next turn roll is +1.'
+  db_uuid: 1e018f4597504d1cb3f3f2711ee1326a

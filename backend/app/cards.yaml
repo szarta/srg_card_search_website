@@ -21115,6 +21115,16 @@
   card_type: SingleCompetitorCard
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
 - name: L.A. Park
+  power: 7
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 9
+  gender: Male
+  rules_text: 'During your turn: Double the numbers in your cards with "Chair" in
+    the name.'
+  srg_url: https://supershowthegame.com/product/la-park/
   card_type: SingleCompetitorCard
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
 - name: L.E.D. (V1)
@@ -21996,6 +22006,15 @@
   card_type: SingleCompetitorCard
   db_uuid: a378da2c21714848b68236126756ca50
 - name: Sam LeMule
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 7
+  gender: Male
+  rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw
+    2 cards, and your opponent buries 1 card from their hand.
   card_type: SingleCompetitorCard
   db_uuid: 65d69cb7f158408d94b44b307d969cde
 - name: Sami Callihan "Death Machine" (V1)

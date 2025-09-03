@@ -21397,9 +21397,36 @@
 - name: The Living Weapon Michael Deans
   card_type: SingleCompetitorCard
   db_uuid: 6bde88ab22814abbbac458954e8e2e38
-- name: Lobo Suicida
+- name: Lobo Suicida (V1)
+  power: 9
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 6
+  gender: Male
+  rules_text: 'When you roll Agility for your turn roll:
+
+    you may discard 1 Stop from your hand; then your opponent may discard 1 Stopfrom
+    their hand, if they do not, put 1 non-Stop from your discard pile on top of your
+    deck.'
   card_type: SingleCompetitorCard
   db_uuid: cf93b1f8e4794f98b4282c71d2e29234
+- name: Lobo Suicida (V2)
+  power: 9
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 6
+  gender: Male
+  rules_text: 'When you roll Agility for your turn roll:
+
+    You may discard 1 Stop from your hand.
+
+    If you do, put 1 non-Stop from your discard pile on top of your deck.'
+  card_type: SingleCompetitorCard
+  db_uuid: a3dc1cd621024041800ecfc693c48b89
 - name: Lone Bear and His Cub
   card_type: SingleCompetitorCard
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
@@ -21415,9 +21442,12 @@
 - name: Lord Thompson
   card_type: SingleCompetitorCard
   db_uuid: f63d587175404c10a36bdcd1e89338af
-- name: Lorenzo Manicotti
+- name: Lorenzo Manicotti (V1)
   card_type: SingleCompetitorCard
   db_uuid: b120edb9a0524b4683303dbd2ac6b32a
+- name: Lorenzo Manicotti (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 6cb341f5fb1b4bc4a7ed1f91e740a4ae
 - name: Loudmouth Leo Larynx
   card_type: SingleCompetitorCard
   db_uuid: def74dd5530540ce8a9e903bc10fd620

@@ -21069,9 +21069,43 @@
 - name: Johnny T
   card_type: SingleCompetitorCard
   db_uuid: c79de6acd1954441970f9b1901a55e01
-- name: Jokerfish
+- name: Jokerfish (V1)
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: "When you roll Power, Agility, or Submission: Your opponent flips 1\
+    \ card, then you may bury 1 card in your opponent\u2019s discard pile."
   card_type: SingleCompetitorCard
   db_uuid: 52ba551f1c3c40269d6a8ead69693cc3
+- name: Jokerfish (V2)
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: "Your opponent\u2019s Finishes are also Follow Ups for your Stop cards.\n\
+    Your cards #19-21 cannot stop cards."
+  card_type: SingleCompetitorCard
+  db_uuid: d9e5097bbec7440c997cfff511cf0f39
+- name: Jokerfish (V3)
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: 'Your cards #1, #2, #2, #25, #26, #27 cannot be stopped.
+
+    Your "Backslide" and "School Boy" have blank text.'
+  card_type: SingleCompetitorCard
+  db_uuid: a97d8d2421e84165b130869e43af2695
 - name: Joulupukki
   card_type: SingleCompetitorCard
   db_uuid: c00569ab32544866b8eb51008e821d17

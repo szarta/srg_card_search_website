@@ -21676,9 +21676,12 @@
 - name: Meta
   card_type: SingleCompetitorCard
   db_uuid: bcf674a4d8bf422e8f844a7639345553
-- name: Mic Riot
+- name: Mic Riot (V1)
   card_type: SingleCompetitorCard
   db_uuid: abbb1208d83947d88e086a4a1018e037
+- name: Mic Riot (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 80305a3d87ee41b08bbe8af899fe9e32
 - name: Midas Black
   card_type: SingleCompetitorCard
   db_uuid: 3a7af7898ff3456badabb9e31736478f
@@ -21713,9 +21716,6 @@
     the same amount.
   card_type: SingleCompetitorCard
   db_uuid: 924e81a6d29b4983bf9be0918a459760
-- name: Miss Fury
-  card_type: SingleCompetitorCard
-  db_uuid: ea5de767113943aea31713997aa67cd4
 - name: Miss Super Nova
   card_type: SingleCompetitorCard
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd

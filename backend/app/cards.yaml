@@ -22157,9 +22157,15 @@
 - name: Robbie G
   card_type: SingleCompetitorCard
   db_uuid: b23c0ed39537449a884675e3fd2e3fbb
-- name: Robert 'The Brain' Dunn
+- name: Robert 'The Brain' Dunn (V1)
   card_type: SingleCompetitorCard
   db_uuid: 5c61b09db55549b6a957926b3ae14a4b
+- name: Robert 'The Brain' Dunn (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: caf514310b2a453cbd9fbe7a3affc12d
+- name: Robert 'The Brain' Dunn (V3)
+  card_type: SingleCompetitorCard
+  db_uuid: b1c536d936c143d7b31a0ce0490f8bd9
 - name: Rock Newman
   card_type: SingleCompetitorCard
   db_uuid: 330b2b0143044d47b08f54881ff6d293

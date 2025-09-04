@@ -21685,9 +21685,6 @@
 - name: Midas Black
   card_type: SingleCompetitorCard
   db_uuid: 3a7af7898ff3456badabb9e31736478f
-- name: Might Marcel
-  card_type: SingleCompetitorCard
-  db_uuid: 63ff19c3155f4e758b57c65cdfe5851a
 - name: Mike D
   card_type: SingleCompetitorCard
   db_uuid: eccdc6e7d1004c1a85ca2cb4a69d0ccb

@@ -17615,7 +17615,7 @@
   grapple: 5
   rules_text: When you roll Strike for your turn roll, draw 1 card.
   db_uuid: 166ea57a5a424cf7a39a182734f15632
-- name: Rainbow Girl
+- name: Rainbow Girl (V1)
   card_type: SingleCompetitorCard
   power: 6
   technique: 10
@@ -22100,7 +22100,7 @@
 - name: Quadruple H
   card_type: SingleCompetitorCard
   db_uuid: 50446df532b14eb784abe67b262181cd
-- name: Queen of Cheer Adrianna Dee
+- name: The Queen of Cheer Adrianna Dee
   card_type: SingleCompetitorCard
   db_uuid: 7b1af704863e498b8b473e44c8d42ed4
 - name: Queen of Cupcakes Penelope Mai

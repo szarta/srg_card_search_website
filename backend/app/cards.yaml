@@ -21454,9 +21454,12 @@
 - name: Lukewarm Stephen Houston
   card_type: SingleCompetitorCard
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
-- name: Lunatic Ginge
+- name: Lunatic Ginge (V1)
   card_type: SingleCompetitorCard
   db_uuid: 989286521bff469094dffc72fdfba974
+- name: Lunatic Ginge (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
 - name: Lycan
   card_type: SingleCompetitorCard
   db_uuid: 6610ac46791b4527b45006f551fe028e
@@ -21606,15 +21609,21 @@
 - name: Mastermind
   card_type: SingleCompetitorCard
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
-- name: Matt Nelan
+- name: Matt Nelan (V1)
   card_type: SingleCompetitorCard
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
+- name: Matt Nelan (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 8d6ddda991594deaac7ce826cbda5787
 - name: Matt Riddle
   card_type: SingleCompetitorCard
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
-- name: Matt Stevens
+- name: Matt Stevens (V1)
   card_type: SingleCompetitorCard
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
+- name: Matt Stevens (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 79d6196f1e334e54beba5be194847bc5
 - name: Matt Travis
   card_type: SingleCompetitorCard
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
@@ -21630,9 +21639,12 @@
 - name: Mayhem
   card_type: SingleCompetitorCard
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
-- name: Meeple's Champion
+- name: Meeple's Champion (V1)
   card_type: SingleCompetitorCard
   db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
+- name: Meeple's Champion (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: fe65f8f490b14ffdaca7c80756e652f6
 - name: The Meeple's Unholy Union
   card_type: SingleCompetitorCard
   db_uuid: 44630c22a56448b9a0f6af124078364d

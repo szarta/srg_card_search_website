@@ -22142,15 +22142,21 @@
 - name: Ricky Riot
   card_type: SingleCompetitorCard
   db_uuid: 5cf0d256efd841b3b5c220e2487db443
-- name: Riggs Simmons
+- name: Riggs Simmons (V1)
   card_type: SingleCompetitorCard
   db_uuid: d408bb1c9cb94a4882b1beb250beae75
+- name: Riggs Simmons (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: d2ffdea36f394990b9c1d68695118e24
 - name: Ring Leader
   card_type: SingleCompetitorCard
   db_uuid: f67082e53b084aefbc07e3df08801f6f
-- name: RJ Bombshell
+- name: RJ Bombshell (V1)
   card_type: SingleCompetitorCard
   db_uuid: 8fa5113d9e0243899f7ad586a3b7c323
+- name: RJ Bombshell (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: e3aae3be45f045b4892fbe79e96b5153
 - name: The Roach Noel Torres Jr.
   card_type: SingleCompetitorCard
   db_uuid: 8c8c7428500647cfb95b2fc4e7dec82c
@@ -22187,9 +22193,12 @@
 - name: Ruby Renegade
   card_type: SingleCompetitorCard
   db_uuid: 7d75b496431a49a88896c8b79066646d
-- name: Runtime Terror
+- name: Runtime Terror (V1)
   card_type: SingleCompetitorCard
   db_uuid: be895fbbb37448009c28ff251d72b650
+- name: Runtime Terror (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 80b6384e29ae4f66bfd3659bc59fbee5
 - name: RVD
   card_type: SingleCompetitorCard
   db_uuid: 276fb52f04234fa9bb6adebf98aa91e6

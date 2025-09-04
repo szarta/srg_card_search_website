@@ -22040,7 +22040,7 @@
 - name: Player of the Era
   card_type: SingleCompetitorCard
   db_uuid: 2a1ae85ae5c84ea0a72d5cc44553199c
-- name: Pluton
+- name: Pluto
   card_type: SingleCompetitorCard
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
 - name: Poco Loco
@@ -22052,7 +22052,7 @@
 - name: The Polverizer
   card_type: SingleCompetitorCard
   db_uuid: 3734dc0ab3994d058db9bee9d9923277
-- name: PPLZ Casual
+- name: The PPLZ Casual
   card_type: SingleCompetitorCard
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
 - name: Practisite
@@ -22064,9 +22064,12 @@
 - name: 'Press #1 P (V2)'
   card_type: SingleCompetitorCard
   db_uuid: 2f9a9734734748849dc7f70b07e38c47
-- name: Pretty Hair Piercer
+- name: Pretty Hair Piercer (V1)
   card_type: SingleCompetitorCard
   db_uuid: 3ca21530f41f4a43b0063316172dba00
+- name: Pretty Hair Piercer (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: 692d5eaef3004346b5458de99691e24c
 - name: Pretzel Wizard
   card_type: SingleCompetitorCard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211

@@ -3,12 +3,25 @@ import { useMemo, useEffect, useState } from "react";
 import Pagination from "../components/Pagination";
 import { slugify } from "../lib/slug";
 import SEO from "../components/SEO";
+import JsonLd from "../components/JsonLd";
 
-const competitorTypes = [
+/* ----- constants outside the component (no eslint deps warnings) ----- */
+const COMPETITOR_TYPES = [
   "SingleCompetitorCard",
   "TornadoCompetitorCard",
   "TrioCompetitorCard",
 ];
+
+const STAT_KEYS = ["power", "technique", "agility", "strike", "submission", "grapple"];
+
+const prettyType = (t) => (t ? t.replace(/([a-z])([A-Z])/g, "$1 $2") : "Card");
+
+const firstSentence = (txt) => {
+  if (!txt) return "";
+  const s = String(txt).trim();
+  const m = s.match(/.+?(?:[.!?](?=\s|$)|$)/);
+  return (m ? m[0] : s).trim();
+};
 
 export default function CardDetail() {
   const { idOrSlug } = useParams();
@@ -17,17 +30,8 @@ export default function CardDetail() {
   const [relFinPage, setRelFinPage] = useState(1);
   const itemsPerPage = 5;
   const [copied, setCopied] = useState(false);
-  const slug = useMemo(() => (card?.name ? slugify(card.name) : ""), [card]);
 
-  const copySlugUrl = () => {
-    if (!slug) return;
-    const url = `${window.location.origin}/card/${slug}`;
-    navigator.clipboard.writeText(url).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1500);
-    });
-  };
-
+  // Fetch card by uuid or slug
   useEffect(() => {
     const isUuid = /^[0-9a-f]{32}$/i.test(idOrSlug);
     const url = isUuid ? `/cards/${idOrSlug}` : `/cards/slug/${idOrSlug}`;
@@ -41,91 +45,133 @@ export default function CardDetail() {
       .catch(console.error);
   }, [idOrSlug]);
 
-  const truncate = (str, n = 155) => {
-    if (!str) return "";
-    if (str.length <= n) return str;
-    const sliced = str.slice(0, n);
-    const lastSpace = sliced.lastIndexOf(" ");
-    return (lastSpace > 0 ? sliced.slice(0, lastSpace) : sliced).trimEnd() + "…";
+  const slug = useMemo(() => (card?.name ? slugify(card.name) : ""), [card]);
+
+  const copySlugUrl = () => {
+    if (!slug) return;
+    const url = `${window.location.origin}/card/${slug}`;
+    navigator.clipboard.writeText(url).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    });
   };
 
-  const isCompetitor = card && competitorTypes.includes(card.card_type);
-
-  // Build SEO fields once card is loaded
+  // Build SEO fields once card is loaded (respecting only name, card_type, rules_text)
   const { seoTitle, seoDescription, canonicalUrl } = useMemo(() => {
-    if (!card) return { seoTitle: "Loading… | get-diced.com", seoDescription: "", canonicalUrl: "" };
-
-    const baseTitle = `${card.name} | SRG Supershow Card Search`;
+    if (!card) {
+      return {
+        seoTitle: "Loading… | get-diced.com",
+        seoDescription: "",
+        canonicalUrl: "",
+      };
+    }
+    const title = `${card.name} | SRG Supershow Card Search`;
     const canonical = `https://get-diced.com/card/${slug || card.db_uuid}`;
 
-    const statKeys = ["power", "technique", "agility", "strike", "submission", "grapple"];
-    const availableStats = statKeys
-      .filter((k) => card[k] != null)
-      .map((k) => `${k[0].toUpperCase()}${k.slice(1)} ${card[k]}`)
-      .join(", ");
+    const corePieces = [
+      card.name ? `${card.name}:` : null,
+      card.card_type ? prettyType(card.card_type) : null,
+      firstSentence(card.rules_text) ? `Rules: ${firstSentence(card.rules_text)}` : null,
+    ].filter(Boolean);
 
-    let ruleSnippet = "";
-    if (card.rules_text) {
-      const firstSentence = String(card.rules_text).split(/(?<=[.!?])\s/)[0];
-      ruleSnippet = firstSentence;
-    }
-
-    let desc = "";
-    if (competitorTypes.includes(card.card_type)) {
-      const parts = [
-        "SRG Supershow competitor",
-        availableStats ? availableStats : null,
-        ruleSnippet ? `Rules: ${ruleSnippet}` : null,
-      ].filter(Boolean);
-      desc = `${card.name}: ` + parts.join(". ");
-    } else {
-      const details = [
-        card.play_order ? `Play Order: ${card.play_order}` : null,
-        card.atk_type ? `Attack Type: ${card.atk_type}` : null,
-        card.deck_card_number != null ? `Deck #${card.deck_card_number}` : null,
-      ]
-        .filter(Boolean)
-        .join(", ");
-
-      const parts = [
-        `${card.card_type?.replace(/([a-z])([A-Z])/g, "$1 $2") || "Card"}`,
-        details ? details : null,
-        ruleSnippet ? `Rules: ${ruleSnippet}` : null,
-      ].filter(Boolean);
-      desc = `${card.name}: ` + parts.join(". ");
-    }
+    const description = corePieces.join(" ").trim();
 
     return {
-      seoTitle: baseTitle,
-      seoDescription: truncate(desc, 155),
+      seoTitle: title,
+      seoDescription: description,
       canonicalUrl: canonical,
     };
   }, [card, slug]);
 
+  // Build JSON-LD strictly to your spec — MUST be called every render
+  const jsonLd = useMemo(() => {
+    if (!card) return null;
+
+    const origin =
+      typeof window !== "undefined" && window.location?.origin
+        ? window.location.origin
+        : "https://get-diced.com";
+
+    const imageUrl = card?.db_uuid
+      ? `${origin}/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`
+      : undefined;
+
+    const base = {
+      "@context": "https://schema.org",
+      "@type": "Game",
+      name: card.name,
+      url: canonicalUrl || `${origin}/card/${slug || card.db_uuid}`,
+      image: imageUrl,
+      description: seoDescription || `${card.name}: ${prettyType(card.card_type)}`,
+      identifier: card.db_uuid,
+      additionalProperty: [],
+    };
+
+    // Competitors: include the 6 stats (only those that exist)
+    if (COMPETITOR_TYPES.includes(card.card_type)) {
+      STAT_KEYS.forEach((k) => {
+        if (card[k] != null) {
+          base.additionalProperty.push({
+            "@type": "PropertyValue",
+            name: k.charAt(0).toUpperCase() + k.slice(1),
+            value: String(card[k]),
+          });
+        }
+      });
+    }
+
+    // MainDeckCard: include deck_card_number if present
+    if (card.card_type === "MainDeckCard" && card.deck_card_number != null) {
+      base.additionalProperty.push({
+        "@type": "PropertyValue",
+        name: "Deck Card #",
+        value: String(card.deck_card_number),
+      });
+    }
+
+    if (base.additionalProperty.length === 0) {
+      delete base.additionalProperty;
+    }
+
+    return base;
+  }, [card, canonicalUrl, seoDescription, slug]);
+
+  // ✅ Hooks are all above; now it's safe to early-return
   if (!card) return <div className="p-4 text-center text-gray-400">Loading...</div>;
 
-  const stats = ["power", "technique", "agility", "strike", "submission", "grapple"];
+  const isCompetitor = COMPETITOR_TYPES.includes(card.card_type);
 
-  // Related cards pagination
+  const stats = STAT_KEYS;
+
+  // Related/paginated sections
   const relatedCards = card.related_cards || [];
-  const relCardsTotalPages = Math.ceil(relatedCards.length / itemsPerPage);
+  const relCardsTotalPages = Math.ceil(relatedCards.length / itemsPerPage) || 1;
   const displayedRelatedCards = relatedCards.slice(
     (relCardsPage - 1) * itemsPerPage,
     relCardsPage * itemsPerPage
   );
 
-  // Related finishes pagination
   const relatedFinishes = card.related_finishes || [];
-  const relFinTotalPages = Math.ceil(relatedFinishes.length / itemsPerPage);
+  const relFinTotalPages = Math.ceil(relatedFinishes.length / itemsPerPage) || 1;
   const displayedRelatedFinishes = relatedFinishes.slice(
     (relFinPage - 1) * itemsPerPage,
     relFinPage * itemsPerPage
   );
 
+  const origin =
+    typeof window !== "undefined" && window.location?.origin
+      ? window.location.origin
+      : "https://get-diced.com";
+  const imageUrl = card?.db_uuid
+    ? `${origin}/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`
+    : undefined;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white p-6">
-      {/* SEO for this card */}
-      <SEO title={seoTitle} description={seoDescription} canonical={canonicalUrl} />
+      {/* SEO + Social previews */}
+      <SEO title={seoTitle} description={seoDescription} canonical={canonicalUrl} image={imageUrl} />
+      {/* Structured data */}
+      <JsonLd data={jsonLd} />
 
       <div className="max-w-4xl mx-auto bg-neutral-900 bg-opacity-80 p-6 rounded-lg shadow-lg flex flex-col md:flex-row gap-6">
         {/* Left: Card Image */}
@@ -146,7 +192,10 @@ export default function CardDetail() {
               <Link
                 to={`/card/${slug}`}
                 className="text-cyan-300 hover:text-cyan-200 underline underline-offset-2"
-                onClick={(e) => { e.preventDefault(); copySlugUrl(); }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  copySlugUrl();
+                }}
                 title="Copy canonical link"
               >
                 {window.location.origin}/card/{slug}
@@ -198,7 +247,9 @@ export default function CardDetail() {
                 {card.rules_text && (
                   <tr>
                     <td className="font-semibold py-4 align-top">Rules</td>
-                    <td className="whitespace-pre-wrap text-sm pt-4 pb-2 pl-6">{card.rules_text}</td>
+                    <td className="whitespace-pre-wrap text-sm pt-4 pb-2 pl-6">
+                      {card.rules_text}
+                    </td>
                   </tr>
                 )}
                 {isCompetitor &&
@@ -221,7 +272,9 @@ export default function CardDetail() {
                 {card.errata_text && card.errata_text.trim() !== "" && (
                   <tr>
                     <td className="font-semibold py-1">Errata</td>
-                    <td className="text-rose-300 whitespace-pre-wrap">{card.errata_text}</td>
+                    <td className="text-rose-300 whitespace-pre-wrap">
+                      {card.errata_text}
+                    </td>
                   </tr>
                 )}
                 {card.tags && card.tags.length > 0 && (

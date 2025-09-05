@@ -23495,9 +23495,42 @@
 - name: The Witch's Apprentice
   card_type: SingleCompetitorCard
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
-- name: Wooly Bully
+- name: Wooly Bully (V1)
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 9
+  grapple: 10
+  gender: Male
+  rules_text: When your opponent stops your Grapple, look at the top 3 cards of your
+    deck, add 1 to your hand, flip 1, and bury the other.
   card_type: SingleCompetitorCard
   db_uuid: 5d762e9b0091476e82e97ea73034fefa
+- name: Wooly Bully (V2)
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 9
+  grapple: 10
+  gender: Male
+  rules_text: When your opponent stops a Grapple, reveal the top 3 cards of your deck,
+    add 2 to your hand and bury the other.
+  card_type: SingleCompetitorCard
+  db_uuid: 01d7da804407400684e6243d0bc5774a
+- name: Wooly Bully (V3)
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 7
+  gender: Male
+  rules_text: When you roll Technique, you may look at the top 3 cards of your deck,
+    flip 1, bury 1, and put the other back on top.
+  card_type: SingleCompetitorCard
+  db_uuid: 3e393847dd0940018f4921d4b6dd9c3a
 - name: Wrench Monkey
   card_type: SingleCompetitorCard
   db_uuid: e2f4f5e7315442059b7057b0333e0e23

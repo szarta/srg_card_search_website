@@ -210,90 +210,88 @@ export default function CardDetail() {
             </div>
           )}
 
-          {/* Basic Info Table */}
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-separate border-spacing-y-1">
-              <tbody className="text-sm">
-                {card.card_type && (
-                  <tr>
-                    <td className="font-semibold py-1">Type</td>
-                    <td>{card.card_type}</td>
-                  </tr>
-                )}
-                {card.atk_type && (
-                  <tr>
-                    <td className="font-semibold py-1">Attack Type</td>
-                    <td>{card.atk_type}</td>
-                  </tr>
-                )}
-                {card.play_order && (
-                  <tr>
-                    <td className="font-semibold py-1">Play Order</td>
-                    <td>{card.play_order}</td>
-                  </tr>
-                )}
-                {card.division && (
-                  <tr>
-                    <td className="font-semibold py-1">Division</td>
-                    <td>{card.division}</td>
-                  </tr>
-                )}
-                {card.gender && (
-                  <tr>
-                    <td className="font-semibold py-1">Gender</td>
-                    <td>{card.gender}</td>
-                  </tr>
-                )}
-                {card.rules_text && (
-                  <tr>
-                    <td className="font-semibold py-4 align-top">Rules</td>
-                    <td className="whitespace-pre-wrap text-sm pt-4 pb-2 pl-6">
-                      {card.rules_text}
-                    </td>
-                  </tr>
-                )}
-                {isCompetitor &&
-                  stats.map((stat) =>
-                    card[stat] != null ? (
-                      <tr key={stat}>
-                        <td className="font-semibold py-1">
-                          {stat.charAt(0).toUpperCase() + stat.slice(1)}
-                        </td>
-                        <td>{card[stat]}</td>
-                      </tr>
-                    ) : null
-                  )}
-                {card.deck_card_number != null && (
-                  <tr>
-                    <td className="font-semibold py-1">Deck Card #</td>
-                    <td>{card.deck_card_number}</td>
-                  </tr>
-                )}
-                {card.errata_text && card.errata_text.trim() !== "" && (
-                  <tr>
-                    <td className="font-semibold py-1">Errata</td>
-                    <td className="text-rose-300 whitespace-pre-wrap">
-                      {card.errata_text}
-                    </td>
-                  </tr>
-                )}
-                {card.tags && card.tags.length > 0 && (
-                  <tr>
-                    <td className="font-semibold py-1 align-top">Tags</td>
-                    <td>
-                      <div className="flex flex-wrap gap-2">
-                        {card.tags.map((t) => (
-                          <span key={t} className="bg-purple-800 rounded px-2 py-0.5 text-xs">
-                            {t}
-                          </span>
-                        ))}
-                      </div>
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
-          </div>
+{/* Basic Info Table */}
+<div className="overflow-x-auto">
+  <table className="w-full table-fixed border-collapse">
+    <tbody className="text-sm align-top">
+      {card.card_type && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Type</td>
+          <td className="py-2">{card.card_type}</td>
+        </tr>
+      )}
+      {card.atk_type && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Attack Type</td>
+          <td className="py-2">{card.atk_type}</td>
+        </tr>
+      )}
+      {card.play_order && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Play Order</td>
+          <td className="py-2">{card.play_order}</td>
+        </tr>
+      )}
+      {card.division && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Division</td>
+          <td className="py-2">{card.division}</td>
+        </tr>
+      )}
+      {card.gender && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Gender</td>
+          <td className="py-2">{card.gender}</td>
+        </tr>
+      )}
+      {card.rules_text && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>
+          <td className="whitespace-pre-wrap text-sm py-2">{card.rules_text}</td>
+        </tr>
+      )}
+      {isCompetitor &&
+        stats.map((stat) =>
+          card[stat] != null ? (
+            <tr key={stat}>
+              <td className="w-32 pr-4 py-2 font-semibold text-right">
+                {stat.charAt(0).toUpperCase() + stat.slice(1)}
+              </td>
+              <td className="py-2">{card[stat]}</td>
+            </tr>
+          ) : null
+        )}
+      {card.deck_card_number != null && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Deck Card #</td>
+          <td className="py-2">{card.deck_card_number}</td>
+        </tr>
+      )}
+      {card.errata_text && card.errata_text.trim() !== "" && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Errata</td>
+          <td className="text-rose-300 whitespace-pre-wrap py-2">{card.errata_text}</td>
+        </tr>
+      )}
+      {card.tags && card.tags.length > 0 && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Tags</td>
+          <td className="py-2">
+            <div className="flex flex-wrap gap-2">
+              {card.tags.map((t) => (
+                <span key={t} className="bg-purple-800 rounded px-2 py-0.5 text-xs">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </td>
+        </tr>
+      )}
+    </tbody>
+  </table>
+</div>
+
+
 
           {/* Comments */}
           {card.comments && card.comments.trim() !== "" && (

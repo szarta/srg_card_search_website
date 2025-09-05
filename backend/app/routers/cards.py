@@ -73,8 +73,9 @@ def list_cards(
             qry = qry.filter(
                 (cls.name.ilike(f"%{q}%"))
                 | (cls.rules_text.ilike(f"%{q}%"))
-                | (cls.tags.ilike(f"%{q}%"))
+                | (func.array_to_string(cls.tags, " ").ilike(f"%{q}%"))
             )
+
         if is_banned is not None:
             qry = qry.filter(cls.is_banned == is_banned)
         if release_set:

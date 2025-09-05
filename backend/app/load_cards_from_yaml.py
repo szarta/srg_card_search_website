@@ -3,6 +3,7 @@
 Refactored two-pass loader for SRG Supershow cards:
  - Break load_cards into smaller functions to reduce complexity
  - Ensure UUIDs, insert base cards, link finishes, and dump YAML
+ - **Normalize tags to always be a list of strings**
 """
 
 import sys
@@ -51,6 +52,38 @@ def ensure_uuids(data: list[dict]):
             new_uuid = uuid.uuid4().hex
             entry["db_uuid"] = new_uuid
             print(f"🆕 Generated UUID {new_uuid} for '{entry.get('name')}'")
+
+
+def _normalize_tags_value(v) -> list[str]:
+    """Coerce tags into a clean list of strings.
+
+    Accepts:
+      - None -> []
+      - list[str|int|...] -> [stripped strings], drops empties
+      - single string -> [string] or split by commas if comma-separated
+    """
+    if v is None:
+        return []
+    if isinstance(v, list):
+        out = []
+        for x in v:
+            s = str(x).strip()
+            if s:
+                out.append(s)
+        return out
+    if isinstance(v, str):
+        # allow either a single tag or comma-separated tags provided as one string
+        parts = [p.strip() for p in v.split(",")]
+        return [p for p in parts if p]
+    # any other type -> best effort string
+    s = str(v).strip()
+    return [s] if s else []
+
+
+def normalize_entries(data: list[dict]):
+    """Apply in-place normalization passes over raw YAML entries."""
+    for e in data:
+        e["tags"] = _normalize_tags_value(e.get("tags"))
 
 
 def split_entries(data: list[dict]):
@@ -106,12 +139,13 @@ def _build_kwargs(entry: dict) -> dict:
         "rules_text": entry.get("rules_text"),
         "errata_text": entry.get("errata_text"),
         "comments": entry.get("comments"),
-        "tags": ",".join(entry["tags"])
-        if isinstance(entry.get("tags"), list)
-        else entry.get("tags"),
+        # IMPORTANT: tags are now always a list (ARRAY in Postgres)
+        "tags": _normalize_tags_value(entry.get("tags")),
         "card_type": entry.get("card_type"),
     }
+
     cls = MODEL_MAP.get(entry.get("card_type"))
+
     if cls is MainDeckCard:
         if entry.get("deck_card_number") is not None:
             kw["deck_card_number"] = entry["deck_card_number"]
@@ -119,6 +153,7 @@ def _build_kwargs(entry: dict) -> dict:
             kw["atk_type"] = AttackSubtype(entry["atk_type"])
         if entry.get("play_order"):
             kw["play_order"] = PlayOrderSubtype(entry["play_order"])
+
     elif issubclass(cls or type(None), CompetitorCard):
         for stat in [
             "power",
@@ -131,11 +166,11 @@ def _build_kwargs(entry: dict) -> dict:
             if entry.get(stat) is not None:
                 kw[stat] = entry[stat]
 
-        # NEW: division for all competitor variants
+        # division for all competitor variants
         if entry.get("division"):
             kw["division"] = entry["division"]
 
-        # NEW: gender for SingleCompetitor only
+        # gender for SingleCompetitor only
         if cls is SingleCompetitorCard and entry.get("gender") is not None:
             g = str(entry["gender"]).strip()
             # Accept case-insensitive enum labels
@@ -151,6 +186,7 @@ def _build_kwargs(entry: dict) -> dict:
                 print(
                     f"⚠️  Skipping unknown gender {g!r} for '{entry.get('name')}' (expected Male/Female/Ambiguous)"
                 )
+
     return kw
 
 
@@ -169,6 +205,10 @@ def write_yaml(data: list[dict], path: str):
 def load_cards(input_path: str, output_path: str):
     data = read_yaml(input_path)
     ensure_uuids(data)
+
+    # Normalize tags (and any future in-place normalizations) before DB insert and YAML write
+    normalize_entries(data)
+
     no_refs, with_refs = split_entries(data)
 
     session = SessionLocal()

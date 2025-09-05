@@ -19,7 +19,7 @@ class Card(BaseModel):
     is_banned: bool
     rules_text: Optional[str]
     errata_text: Optional[str]
-    tags: Optional[str] = None
+    tags: Optional[List[str]] = []
     comments: Optional[str]
     srg_url: Optional[str]
     release_set: Optional[str]

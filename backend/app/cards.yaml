@@ -23581,3 +23581,57 @@
   rules_text: 'If you rolled Agility for your turn roll, choose one: You may play
     an additional card this turn, or your next turn roll is +1.'
   db_uuid: 1e018f4597504d1cb3f3f2711ee1326a
+- name: The Latin Lover Swindle Heat
+  srg_url: https://supershowthegame.com/product/the-latin-lover-swindle-heat/
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  gender: Male
+  rules_text: '3 Times Per Match:
+
+    When your opponent would play a Finish against you, your opponent cannot play
+    a Finish against you this turn instead.'
+  db_uuid: 66129944904b4d68a3e33c57d11f9914
+  related_finishes:
+  - 361704afcd9e4ba6bc204db30252de31
+  - 90917cc937924e419d9f2ef214bccaf2
+  - 0835297397a64f5e9c791baadcdefce4
+- name: Las Ranas Besos!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    +3 to Strike
+
+    Look at your opponent''s hand, discard all their Finishes.'
+  db_uuid: 361704afcd9e4ba6bc204db30252de31
+- name: Danza De Tres
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    You may use your Gimmick 1 additional time this match.
+
+    Each time your opponent rolls for a breakout, draw 1 card.'
+  db_uuid: 90917cc937924e419d9f2ef214bccaf2
+- name: Amor Triangulo
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power and Submission for each time you used your Gimmick this
+    match (Min +1).
+
+    If this is a multiplayer match, triple these bonuses.'
+  db_uuid: 0835297397a64f5e9c791baadcdefce4

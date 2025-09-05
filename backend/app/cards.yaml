@@ -23543,9 +23543,12 @@
 - name: YamatoHama
   card_type: SingleCompetitorCard
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
-- name: Yaz Mean
+- name: Yaz Mean (V1)
   card_type: SingleCompetitorCard
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
+- name: Yaz Mean (V2)
+  card_type: SingleCompetitorCard
+  db_uuid: e2d658ce8758400e9560e80b11528fa5
 - name: Yeva Lionheart
   card_type: SingleCompetitorCard
   db_uuid: 7ed49e996f284cc8a973dd9118ad4c90

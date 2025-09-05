@@ -22506,9 +22506,27 @@
   card_type: SingleCompetitorCard
   db_uuid: 2f9a9734734748849dc7f70b07e38c47
 - name: Pretty Hair Piercer (V1)
+  power: 8
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 6
+  gender: Male
+  rules_text: "When you roll Technique or Submission for your turn roll, your opponent\u2019\
+    s next turn roll is -1."
   card_type: SingleCompetitorCard
   db_uuid: 3ca21530f41f4a43b0063316172dba00
 - name: Pretty Hair Piercer (V2)
+  power: 8
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 6
+  gender: Male
+  rules_text: If your turn roll was the same skill as your previous turn roll, it
+    is +2.
   card_type: SingleCompetitorCard
   db_uuid: 692d5eaef3004346b5458de99691e24c
 - name: Pretzel Wizard
@@ -22584,18 +22602,57 @@
   card_type: SingleCompetitorCard
   db_uuid: 5cf0d256efd841b3b5c220e2487db443
 - name: Riggs Simmons (V1)
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: 'Once during each of your turns:
+
+    If you played a Follow Up, you may discard 1 Follow Up from your hand to play
+    an extra card this turn (that card must be a Follow Up).'
   card_type: SingleCompetitorCard
   db_uuid: d408bb1c9cb94a4882b1beb250beae75
 - name: Riggs Simmons (V2)
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: 'When you roll Technique for your turn roll: Shuffle 2 cards with "Table"
+    in the name from your discard pile into your deck, and your next turn roll is
+    +1.'
   card_type: SingleCompetitorCard
   db_uuid: d2ffdea36f394990b9c1d68695118e24
 - name: Ring Leader
   card_type: SingleCompetitorCard
   db_uuid: f67082e53b084aefbc07e3df08801f6f
 - name: RJ Bombshell (V1)
+  srg_url: https://supershowthegame.com/product/rj-bombshell/
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  gender: Male
+  rules_text: When your opponent hits a Strike they bury 1 card in their hand.
   card_type: SingleCompetitorCard
   db_uuid: 8fa5113d9e0243899f7ad586a3b7c323
 - name: RJ Bombshell (V2)
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  gender: Male
+  rules_text: When you hit a card with "Atomic", "Bomb", or "Explode" in the name,
+    the next time your opponent would draw any number of cards, they do not draw.
   card_type: SingleCompetitorCard
   db_uuid: e3aae3be45f045b4892fbe79e96b5153
 - name: The Roach Noel Torres Jr.

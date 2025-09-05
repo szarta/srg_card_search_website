@@ -210,6 +210,7 @@ export default function CardDetail() {
             </div>
           )}
 
+
 {/* Basic Info Table */}
 <div className="overflow-x-auto">
   <table className="w-full table-fixed border-collapse">
@@ -230,6 +231,27 @@ export default function CardDetail() {
         <tr>
           <td className="w-32 pr-4 py-2 font-semibold text-right">Play Order</td>
           <td className="py-2">{card.play_order}</td>
+        </tr>
+      )}
+      {card.srg_url && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
+          <td className="py-2">
+            <a
+              href={card.srg_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-300 hover:underline"
+            >
+              Official SRG Page
+            </a>
+          </td>
+        </tr>
+      )}
+      {card.is_banned && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Banned</td>
+          <td className="py-2">Yes</td>
         </tr>
       )}
       {card.division && (

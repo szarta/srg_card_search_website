@@ -22014,12 +22014,39 @@
   card_type: SingleCompetitorCard
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
 - name: Meeple's Champion (V1)
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: 'During your turn: When you hit a card with "Drop" in the name, discard
+    1 other card in play.'
   card_type: SingleCompetitorCard
   db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
 - name: Meeple's Champion (V2)
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: When you hit a card with "Board" or "Game" in the name, you may put
+    1 Lead or Follow Up from your discard pile into play.
   card_type: SingleCompetitorCard
   db_uuid: fe65f8f490b14ffdaca7c80756e652f6
 - name: The Meeple's Unholy Union
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: When your opponent uses their Gimmick from a roll, hitting a card, or
+    added text, copy that effect.
+  gender: Ambiguous
   card_type: SingleCompetitorCard
   db_uuid: 44630c22a56448b9a0f6af124078364d
 - name: Memes Dealer

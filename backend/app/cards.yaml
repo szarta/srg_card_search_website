@@ -2346,7 +2346,7 @@
   srg_url: https://supershowthegame.com/product/08-marvelous-recruits/
   db_uuid: c855f79a7e8a42e6b29841f4991d0035
 - name: Snap Kick
-  deck_card_number: 10
+  deck_card_number: 4
   atk_type: Strike
   play_order: Lead
   card_type: MainDeckCard
@@ -3855,6 +3855,7 @@
   rules_text: Each player flips 1 card or stop any Submission.
   db_uuid: 935232b7447c44beb785ce61f7ed2d2a
 - name: Flying Diving Corner Steel Chair Leg Sault
+  rules_text: If the Crowd Meter is 2 or greater, this card cannot be stopped.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3879,6 +3880,9 @@
   deck_card_number: 2
   db_uuid: 5e98f22d8ade433e9d2f1fab0492d3ed
 - name: Head Toss
+  rules-text: 'Your next turn roll is +1.
+
+    If the Crowd Meter is 2 or greater stop any Lead Submission.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4798,84 +4802,121 @@
   deck_card_number: 4
   db_uuid: 20476507ef1c40c084d529bd54768995
 - name: Skull Smash
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    If your Strike skill is greater than your opponent''s Strike skill, the card is
+    randomly buried.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 108ffb6dd61945788d07145250d4653d
 - name: Slash Into a Trash Can
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.
+
+    Put 1 card with "Trash Can" in the name from your discard pile on top of your
+    deck.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 4e1fb95d2d7d4d34b1082ff7de75234e
-- name: Snap Kick
-  play_order: Lead
-  atk_type: Strike
-  card_type: MainDeckCard
-  deck_card_number: 4
-  db_uuid: 326f8ec57f2e4bd187777e4cf6b225b9
 - name: Spin Kick
+  rules_text: Your opponent randomly reveals 2 cards in their hand; they choose 1
+    of those cards and bury it.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: e1f168ab92c8495594ecde2ea5b737c4
 - name: Spinning Thrust Kick
+  rules_text: 'Your cards cannot be stopped by cards with Skill Requirements.
+
+    If your Strike skill is greater than your opponent''s Strike skill, this card
+    cannot be stopped.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 40162b81318e4c0ab8ad15cdd920c5dd
 - name: Standing Senton
+  rules_text: 'Your cards cannot be stopped by cards with Skill Requirements.
+
+    If your Agility skill is greater than your opponent''s Agility skill, this card
+    cannot be stopped.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 714aa64211834a5f832859c9886c23e4
 - name: Steel-Tipped Boot (V1)
+  rules_text: 'Your opponent''s maximum handsize is -1.
+
+    If this is a Steel Cage or Liger''s Den match, your opponent''s next turn roll
+    is -1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: ddc034caeb6e401ba27c871da492c4fc
 - name: Steel-Tipped Boot (V2)
+  rules_text: 'Your opponent''s maximum handsize is -2.
+
+    Your opponent''s next turn roll is -1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 4d54d63e2c464d89ae6f2459772b93dd
 - name: Swift Kick
+  rules_text: 'Flip cards until you flip a Follow Up.
+
+    Add that Follow Up to your hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 1be86865aa974ea09695b647486e6e62
 - name: Swinging Elbow
+  rules_text: Stop any Follow Up Grapple or each player buries 1 card in their discard
+    pile.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 32f37321978341e8ae714b9946a68d36
 - name: Thigh Kick
+  rules_text: 'You may play 1 additional Strike this turn: if your Strike skill is
+    greater than your opponent''s Strike skill, you may play any additional card this
+    turn instead.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: d6cc154d296c4d649a564d270810a15b
 - name: Thumb to the Eye
+  rules_text: 'Draw 1 card.
+
+    If your Agility skill is greater than your opponent''s Agility skill, draw 2 cards
+    instead.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: 89f8067473014d94a009ea8b77b5f8b8
 - name: Toothbrush Smash of Shinyness
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.
+
+    Draw 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 4
   db_uuid: f4720c74e12f45928e12e1eccdfd055f
 - name: Tornado Kick
+  rules_text: 'Your next turn roll is +1.
+
+    If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -5116,6 +5157,7 @@
   deck_card_number: 5
   db_uuid: 14afb978c1c74de4994952b62b2ec115
 - name: Series of Hip Tosses
+  rules_text: Each player flips 1 card or stop any Follow Up Submission.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -5162,6 +5204,8 @@
   deck_card_number: 5
   db_uuid: 6127c0ae74bf429d900351000eaf4726
 - name: Swinging Cutter
+  rules_text: If your opponent does not have a Follow Up Submission in play, stop
+    any Follow Up Submission. Draw 1 card, then bury 1 card in your hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -5465,6 +5509,9 @@
   deck_card_number: 6
   db_uuid: e22bf860d2794d1398902aa9e8c63f4c
 - name: Sky Dive
+  rules_text: 'If the Crowd Meter is 1 or Greater, stop any Follow Up Strike.
+
+    Shuffle 1 card with "Ladder" in the name from your discard pile into your deck.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -5717,6 +5764,8 @@
   deck_card_number: 7
   db_uuid: d383bb3c29fc4f8c9a6f24a74a314523
 - name: Ladder Uprising
+  rules_text: Search your deck for 1 card with "Ladder" in the name, add it to your
+    hand and shuffle your deck or each player buries 1 card in their hand.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -6105,6 +6154,10 @@
   deck_card_number: 8
   db_uuid: 4afd884cfead4277857fd81ade9bc725
 - name: Flying Slam
+  rules_text: 'Draw 1 card.
+
+    The next time your opponent''s Gimmick would make you bury or discard any number
+    of cards from your hand, draw 2 cards instead.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6234,6 +6287,7 @@
   deck_card_number: 8
   db_uuid: 8c618067926a4b0383dfffa6fadb09db
 - name: Slash
+  rules_text: Your opponent buries 1 card in their hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6340,12 +6394,19 @@
   deck_card_number: 8
   db_uuid: 3d42009219a94529aac40e95cc3dfe28
 - name: Tornado Chin Takedown
+  rules_text: 'When you have "Slam Suplex Head Breaker Drop" in play, this card is
+    also a Finish.
+
+    Skill Requirement: Grapple 8+'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: 3c568a5653024a46ac9c591d15ba39f2
 - name: Toss Out of the Ring
+  rules_text: Each player shuffles their hand into their deck and adds the top 5 cards
+    of their deck to their hand or add 2 Skill Requirement cards from your discard
+    pile into your hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -6462,6 +6523,7 @@
   deck_card_number: 9
   db_uuid: cbcf33b4c4ec4f219e653eef4a7d6fb9
 - name: Chicken Wing Cutter
+  rules_text: Your opponent's Gimmick is blank until the end of their next turn.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -6993,6 +7055,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If your opponent has a Stop in play, you may re-roll your next turn
+    roll.
   deck_card_number: 10
   db_uuid: 270a60ef3e9f4c24a6e21a2211af5af1
 - name: Gathering the Baseball Bat
@@ -7014,6 +7078,8 @@
   deck_card_number: 10
   db_uuid: e665fba28393434d826769cd0bd208d5
 - name: Gathering the Ladder
+  rules_text: Your next turn roll is +1 for each card you have in play with "Ladder"
+    in the name.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -7510,12 +7576,16 @@
   deck_card_number: 11
   db_uuid: 8f4d814a3e1d439e999255320acbe8b8
 - name: Snap Cutter (V1)
+  rules_text: If you have another Grapple in play, your next turn roll is +2.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: d04c19748120430caddc950043bb7517
 - name: Snap Cutter (V2)
+  rules_text: 'If you have another Grapple in play, your next turn roll is +2.
+
+    If this match has No Disqualifications, your next turn roll is +1.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7572,6 +7642,8 @@
   deck_card_number: 11
   db_uuid: 5ab3c57283cb4dbab989abef4161f44e
 - name: Toss Into the Turnbuckle
+  rules_text: Bury 2 cards in your opponent's discard pile for each other Lead you
+    have in play.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -8125,18 +8197,26 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
-  deck_card_number: 13
-  rules_text: 'Each play flips 1 card.
+  rules_text: 'Your opponent flips 1 card.
 
-    You may bury 1 card in each other player''s discard pile.'
+    You may bury 1 card in your opponent''s discard pile.'
+  deck_card_number: 13
   db_uuid: 350c43e697de4f799d0e277874198773
 - name: Flying Body Press (V2)
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Each player flips 1 card.
+
+    You may bury 1 card in each player''s discard pile.'
   deck_card_number: 13
   db_uuid: 26ff9e71d8714374a79e7b00ebd3f838
 - name: Flying Cross Body
+  rules_text: 'Draw 1 card.
+
+    Un-blank your Gimmick.
+
+    When the Crowd Meter is 5 or greater, this card is also a Finish.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8182,6 +8262,7 @@
   deck_card_number: 13
   db_uuid: 938e767fa57645fcad954c65175536f3
 - name: High Flying Dive
+  rules_text: Add 1 Strike from your discard pile to your hand.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8341,6 +8422,8 @@
   deck_card_number: 13
   db_uuid: 312ba6695676491aa20a5f7db70f53aa
 - name: Shove Off the Ladder
+  rules_text: If your Strike skill is at least 4 greater than your opponent's Strike
+    skill, or this match has "Ladder" in the name, stop any Grapple.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8412,6 +8495,7 @@
   deck_card_number: 13
   db_uuid: 85ca3029225048888debcb1681bc1400
 - name: Takeover with the Ladder
+  rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8448,24 +8532,35 @@
   deck_card_number: 13
   db_uuid: 8cac3885ef024186a6d302fe5d1614e8
 - name: Toss Your Son Over the Top
+  rules_text: 'Randomly choose 1, 2, or 3.
+
+    Each player buries the chosen amount of cards from their hand.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: b9351484b0634660a16dca60f8a975aa
 - name: Trick or Treat?
+  rules_text: Your Agility skill is +1 during your turn and turn rolls.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: e22e66d4da9a4e1e94efb2e8b7a88936
 - name: Turn Up the Ladders
+  rules_text: Your "Knockdown the Ladder" and "Knockdown the Steel Chain" are Finishes
+    instead. If you have "Knockdown the Ladder" in play, this card is a Finish instead.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
   db_uuid: 43c44b12c48b40b9a070ce5bafff05d3
 - name: Ultimate Corner Crush
+  rules_text: 'If your Strike is greater than your Agility skill, stop any Grapple.
+
+    Your opponent''s next turn roll is +2.
+
+    Skill Requirement: Agility 8+'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -8877,6 +8972,7 @@
   deck_card_number: 14
   db_uuid: 42b8683049b04585af942d7a2fa61d5d
 - name: Springboard Cutter
+  rules_text: Add 1 Stop from your discard pile to your hand.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -8930,6 +9026,9 @@
   deck_card_number: 14
   db_uuid: 33701e1852ab4c30a09f2085881ddde5
 - name: Toss Your Dad Over the Top
+  rules_text: 'Randomly choose 1, 2 or 3.
+
+    Each player draws the chosen amount.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -8942,6 +9041,11 @@
   deck_card_number: 14
   db_uuid: 03b3a9a5c23e40bab4ddb4f4c9812f8f
 - name: Twistable Toss
+  rules_text: 'Stop any Finish Submission that is also a Lead or Follow Up.
+
+    If played as a stop this card is also a Finish.
+
+    Put 1 Grapple from your discard pile on top of your deck.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -9507,6 +9611,9 @@
   deck_card_number: 16
   db_uuid: 838149742d0741de8526fca045aebfdf
 - name: Ambush With the Ladder
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Ladder" in the name from your discard pile to your hand.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9578,6 +9685,8 @@
   deck_card_number: 16
   db_uuid: 522335e488264d3ab0e581198734fc26
 - name: Cosmic Dragon Knee
+  rules_text: If you have another Follow Up or Finish Strike in play, your Power skill
+    is +1.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9640,6 +9749,8 @@
   deck_card_number: 16
   db_uuid: 2c94867c69f8442ba5b69398cb20c1cc
 - name: Eternal Contact
+  rules_text: If your opponent has a Stop in play, put 1 card from your discard pile
+    on top of your deck.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -9664,42 +9775,55 @@
   deck_card_number: 16
   db_uuid: 222aa0c78b4347ee994ccb78b0c0b7a3
 - name: Flying Back Elbow
+  rules_text: Your next turn roll is +1 for each other Strike you have in play.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: 72f63a6d60f44404991e4a3f8bf68a3d
 - name: Flying Coast to Coast
+  rules_text: If you have another Follow Up or Finish Strike in play, your Agility
+    skill is +1.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: cea70654cccb4cd5be8e127a5bf6090e
 - name: Flying Elbow Drop
+  rules_text: If you have another Follow Up in play, draw 2 cards.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: ccecba165ace4ce0b44187f6191fea11
 - name: Flying Forearm Shot
+  rules_text: "Stop \"Press Slam\".\n Draw 1 card for each Follow Up you have in play.\n\
+    Skill Requirement: Strike 8+"
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: ab5ab9c1b9aa4fb1818e3eb5fa4d435c
 - name: Flying Hip Attack
+  rules_text: If you have another Strike in play, look at the top 3 cards of your
+    opponent's deck. You may flip any number of them.  Put the others back on top
+    in any order.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: 1bedc289d2744b62a574d23202ccf5e4
 - name: Flying Lariat V1
+  rules_text: Flip 2 cards for each other Strike you have in play.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
   db_uuid: 703acc4adba641c0b750a20072d761c0
 - name: Flying Lariat V2
+  rules_text: 'Flip 2 cards for each Strike you have in play.
+
+    If this is a Triad match, your opponent''s turn roll is -2.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -10111,6 +10235,8 @@
   deck_card_number: 17
   db_uuid: c6843e67e94049309f75f0c8aabc462c
 - name: Flying Bulldog
+  rules_text: Draw 1 card for each Follow Up you have in play, then bury 1 card in
+    your hand.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10358,24 +10484,35 @@
   deck_card_number: 17
   db_uuid: e3eb18f01ec64bc88ae88e43076da9ed
 - name: Tilt-a-Whirl Backbreaker
+  rules_text: 'Stop "Full Nelson".
+
+    Draw 1 card for each Follow Up you have in play.
+
+    Skill Requirement: Grapple 8+'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 32587b073c0141c8bd8d970529306a18
 - name: Tornado Slam
+  rules_text: If you have another Follow Up in play, you may re-roll your next turn
+    roll.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: 2f4581469c9f415289f55fe9ce10db2a
 - name: Toss Over the Top
+  rules_text: Shuffle 1 card from your discard pile into your deck for each other
+    Follow Up you have in play.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
   db_uuid: abc373d8067440b7938e73daf15152e6
 - name: Uranage
+  rules_text: If you have another Grapple in play, choose 1 card your opponent has
+    in play and discard it.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -10544,6 +10681,12 @@
   deck_card_number: 18
   db_uuid: 580a25c690bd4ef48b696b9d3a5d25af
 - name: Flying Head Scissors
+  rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in
+    your hand.
+
+    When the Crowd Meter is 2 or greater this card is also a Lead.
+
+    Skill Requirement: Agility 8+'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -11001,6 +11144,7 @@
   deck_card_number: 19
   db_uuid: 5f8e48c7f7bf4871a1ec9cb9f812f205
 - name: High Flying Flip
+  rules_text: During your opponent's turn, your Agility is +2.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -11473,6 +11617,8 @@
   deck_card_number: 20
   db_uuid: ed5cf4ca0e894ade85a603607a9b0693
 - name: Flipping Face Buster
+  rules_text: 'Choose 1 of your skills: that skill is +1 during your turn and turn
+    rolls.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -11916,6 +12062,7 @@
   deck_card_number: 21
   db_uuid: 84cb8d36c8654781955f06e4b8de2104
 - name: Flying Headlock
+  rules_text: +1 to Agility
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -12256,6 +12403,11 @@
   deck_card_number: 22
   db_uuid: c1a201f39d384355bcc4c8f589be75cb
 - name: Bank-Breaking Knee
+  rules_text: 'Flip 4 cards.
+
+    Add 1 Strike from your discard pile to your hand.
+
+    All Finish Submissions have the added text: "Your Finish rolls are +1".'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12412,6 +12564,9 @@
   deck_card_number: 22
   db_uuid: bca1bde690854f0aad1826b70ee0edb8
 - name: Eternal Conk
+  rules_text: 'Your opponent discards all Stops from play.
+
+    Your next turn roll is +2.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12424,12 +12579,15 @@
   deck_card_number: 22
   db_uuid: a5b3a331d4c942a7a22a5d309b2ab7f1
 - name: Flying Knee Strike (V1)
+  rules_text: Search your deck for 1 Strike, put it on top of your shuffled deck.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 22
   db_uuid: 2981c172ae3e44d8a46a585edc49b718
 - name: Flying Knee Strike (V2)
+  rules_text: Search your deck or discard pile for 1 Strike, put it on top of your
+    shuffled deck.
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12880,18 +13038,25 @@
   deck_card_number: 23
   db_uuid: 37101e87902140d68983dce03f1fbb23
 - name: Eternal-Conrana
+  rules_text: 'Your opponent discards all Stops from play.
+
+    Your next turn roll is +2.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: dd103aa2ba6b4c258d862948f880b00b
 - name: Flipping Flapjacks of Fury!
+  rules_text: Add 1 card from your discard pile to your hand or look at the top 3
+    cards of your deck, put 2 cards in your hand and bury the other.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: 26339b0e3aad42b696ef156f744a572c
 - name: Flying Cutter
+  rules_text: Take 2 cards from your discard pile and shuffle them into your deck,
+    then draw 2 cards.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -12904,6 +13069,11 @@
   deck_card_number: 23
   db_uuid: 0e9e4b1f0a30469da19aefb44bcce4cd
 - name: Flying Sling Blade
+  rules_text: 'Flip 3 cards.
+
+    Take 2 cards from your discard pile and shuffle them into your deck.
+
+    Draw 1 card.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -12964,6 +13134,9 @@
   deck_card_number: 23
   db_uuid: 6129d603147d431f86fa35efa97eb50b
 - name: Inferno Wool Cutter
+  rules_text: Shuffle up to 4 cards from your discard pile into your deck. Your opponent
+    discards 1 card from their hand. If this is a Ring of Fire or Lumberjack match,
+    double these numbers.
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13040,6 +13213,12 @@
   deck_card_number: 23
   db_uuid: 49a53caf0d7145ad8d38f2ab386065ee
 - name: Pizza Toss
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Power for your turn roll,
+    you may add it to your hand.
+
+    Skill Requirement: Power 8+'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13215,6 +13394,12 @@
   deck_card_number: 23
   db_uuid: c823f9e0084b4e3cbd478b736f943487
 - name: Ultra Cosmic Spin
+  rules_text: 'Bury 2 cards in your discard pile.
+
+    Look at the top 3 cards of your deck, add 2 cards to your hand and put the other
+    back on top.
+
+    If this is a Triad match, you may shuffle your deck.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -13225,14 +13410,22 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 23
+  rules_text: 'Look at the top 4 cards of your deck, add 2 to your hand and flip the
+    others.
+
+    If this is a Steel Cage match, discard 1 card from your hand.'
   db_uuid: fc5a201678cb40d998409fd7289af6cd
 - name: Wheelbarrow Cutter
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your tag team partner adds 1 card from their discard pile to their hand.'
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: afe6d6c3c2da41a9a8fed92c33f2f899
 - name: A Wolf in Sheep's Clothing
+  rules_text: If the Crowd Meter is 2 or greater, your opponent's Gimmick is blank.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13252,6 +13445,9 @@
   deck_card_number: 24
   db_uuid: 67c0575ea18e408db9bbb066fe632fdd
 - name: BCW Rolling Leg Cutter
+  rules_text: 'Your opponent discards all Stops from play.
+
+    Your next turn roll is +2.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13363,12 +13559,14 @@
   deck_card_number: 24
   db_uuid: 03d03e3c11d742769858418f29d5546d
 - name: Eternal Conditioning
+  rules_text: If the Crowd Meter is 2 or greater, blank your opponent's Gimmick.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: 256c6844127c4ec88f7ee3ae6071eb0c
 - name: Eternal Constriction
+  rules_text: If your opponent has 2 Stops in play, their Gimmick is blank.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13381,12 +13579,23 @@
   deck_card_number: 24
   db_uuid: 97d109ed440744a597d7b1d52849b124
 - name: Flipping Armbar
+  rules_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.
+
+    Skill Requirement: Technique 8+'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: bcf42a8ec06841ac9a77866d59f3b20d
 - name: Flying Fly Trap
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Agility for your turn roll,
+    you may add it to your hand.
+
+    Skill Requirement: Submission 8+'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -13791,6 +14000,9 @@
   deck_card_number: 25
   db_uuid: dc03b771bf9841cdbde79d4b44d583ab
 - name: Backlash With the Ladder
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Grapple.
+
+    Draw 2 cards, discard 1 card your opponent has in play.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -14158,6 +14370,9 @@
   deck_card_number: 26
   db_uuid: 1964a861b3a642ce9517377a722d72db
 - name: Boss Toss
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Your opponent''s next turn roll is -1.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -14632,6 +14847,9 @@
   deck_card_number: 27
   db_uuid: ac7330f10cc34a6493189963a19edb5d
 - name: Eternal Conjure
+  rules_text: 'Search your deck for 1 card and add it to your hand.
+
+    You may play 1 additional card this turn.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -21976,9 +22194,27 @@
   card_type: SingleCompetitorCard
   db_uuid: 582f1c66d042475088de05345806d255
 - name: Peppermint T
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  gender: Female
+  rules_text: When you roll Agility for your turn roll, draw 1 card and discard 1
+    card from your hand.
   card_type: SingleCompetitorCard
   db_uuid: 8b779087745046389e96016a9622e1f8
 - name: The Perfect Assistant
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 5
+  grapple: 6
+  gender: Female
+  rules_text: 'When your opponent stops your card: Reveal the top 2 cards of your
+    deck, add 1 to your hand and bury the other.'
   card_type: SingleCompetitorCard
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
 - name: Perfect10n Shawn Spears

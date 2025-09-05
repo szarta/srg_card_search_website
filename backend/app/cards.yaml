@@ -6692,12 +6692,17 @@
   deck_card_number: 9
   db_uuid: 54db55e6280c4c4fbf3c84f79b8feaed
 - name: Funtime Hold
+  rules_text: If you have fewer cards in your hand than your opponent, draw 3 cards.
+    If this is a Steel Cage match, flip 1 card.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
   db_uuid: 528b9e85accc46998b61d05d6437bbe7
 - name: Gory Special
+  rules_text: 'Flip 3 cards.
+
+    Shuffle 2 cards from your discard pile into your deck.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -21327,8 +21332,47 @@
   card_type: SingleCompetitorCard
   db_uuid: c838aa6d65bd440689ed07eed9e1b94b
 - name: Jigsaw
+  power: 5
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: Whenever your opponent buries or discards card from their hand they
+    must do so randomly.
   card_type: SingleCompetitorCard
   db_uuid: 44a277528d754a41bbb5f404cd32f2bd
+- name: Double Stomp (Jigsaw)
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Strike and Power
+
+    Your opponent buries 2 cards in their hand.'
+  db_uuid: 6257bda9e722488fb9b295296ac38808
+- name: Jig and Tonic
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+5 to Power
+
+    Bury up to 6 cards in your hand, your opponent buries the same number of cards
+    from their hand.'
+  db_uuid: d6ea9e0c0c6e4448b1354bd8da791074
+- name: Gory Special (Jigsaw)
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Draw up to 6 cards and your opponent draws the same number of cards.'
+  db_uuid: 0851c100e5764abdb474bfaa92870b88
 - name: Joe Black
   card_type: SingleCompetitorCard
   db_uuid: 8660f7591692453d871422bfec5a7f52

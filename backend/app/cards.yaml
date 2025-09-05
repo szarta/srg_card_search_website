@@ -3862,18 +3862,27 @@
   deck_card_number: 2
   db_uuid: 56c4a43ea5424288b7cb0de425e9c514
 - name: Grapple for Position
+  rules_text: '+1 to Grapple during turn rolls.
+
+    If your next turn roll is Grapple it is +2.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: e83b908bab4c4de0aa9beeb24c5938c6
 - name: Guitar Riff
+  rules_text: 'Stop any Lead Submission.
+
+    Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: b11a7e7978884c6ba2cbc2f2e94e66fe
 - name: Head Grab
+  rules_text: 'When you roll Grapple for your next turn roll; draw 1 card.
+
+    If your next turn roll is Grapple, draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3889,12 +3898,15 @@
   deck_card_number: 2
   db_uuid: 2208d78c3a2441b8a9e81b9e37f2953c
 - name: Impact Drop
+  rules_text: Each player adds the bottom card of their deck to their hand or stop
+    any Lead Submission.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: b4d18381213546d099172a4aa75736a6
 - name: Kitty-Cat-A-Pult
+  rules_text: Choose 1 card your opponent has in play an discard it.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3916,18 +3928,29 @@
   deck_card_number: 2
   db_uuid: 49fdb91c23a34698800430a5d76f0f68
 - name: Momentum Swing
+  rules_text: 'If your opponent rolls Technique for their turn roll, their turn roll
+    is -1.
+
+    If your opponent''s next turn roll is Technique, their turn roll is -2.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 655c5f7ae5bc47b596d6cb7dcbde9cb0
 - name: Overpowered
+  rules_text: 'When your opponent rolls Power for their turn roll, draw 1 card.
+
+    If your opponent''s next turn roll is Power, draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: a317728fdf2b4a22a21b3f20eb545251
 - name: 'Peg Leg Potion #2'
+  rules_text: 'When your opponent rolls Grapple for their turn roll, their roll is
+    -1.
+
+    If your opponent''s next turn roll is Grapple, their roll is -2.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -3983,30 +4006,41 @@
   deck_card_number: 2
   db_uuid: 131811a330674ff6b99d576856934eec
 - name: Slam Suplex Head Breaker Drop
+  rules_text: If this is the first turn of the game, this card cannot be stopped.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 3a09ee18f90541d2bdd80ec344e08639
 - name: Smash Into the Cage (V1)
+  rules_text: 'Your opponent''s next turn roll is -1.
+
+    If this is a Steel Cage or Liger''s Den match, your maximum handsize is +2'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: d3004bbe179b4d8a8c45f3cccf31cd8b
 - name: Smash Into the Cage (V2)
+  rules_text: 'Your opponent''s next turn roll is -1.
+
+    Your maximum handsize is +2.
+
+    If this is a Steel Cage or Liger''s Den match, this card cannot be stopped.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 713f5c8942b847bca268abac73197350
 - name: Standoff
+  rules_text: Shuffle 1 card from your discard pile into your deck.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: ff323ab04dfc4458a689e862cd07898f
 - name: Steel Chair
+  rules_text: Bury 3 cards in your opponent's discard pile.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4021,6 +4055,7 @@
   deck_card_number: 2
   db_uuid: d9ea3f4ffdfd430ba4a8e3e721bad716
 - name: Swing and a Hit
+  rules_text: Stop any Submission with a Skill Requireement.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4050,18 +4085,26 @@
   deck_card_number: 2
   db_uuid: 807ba3563fbb4a31a37cc82a2213e898
 - name: Take You for a Ride
+  rules_text: 'Stop any Submission with "Double Team" in the text and end the current
+    turn.
+
+    "Headlock Punch" and "Let it Ride, Baybay!" have blank text.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: ab1c4b0f6b7842c6b54bff16399312d7
 - name: Taking Control
+  rules_text: 'When you roll Technique for your turn roll, draw 1 card.
+
+    If your next turn roll is Technique, draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 2
   db_uuid: 0836cd39eb404af1aaeea23a0d77aca7
 - name: Tandem Takedown
+  rules_text: Each player flips 1 card or Stop any Lead Submission.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -4084,6 +4127,7 @@
   deck_card_number: 2
   db_uuid: 2c230f5b46df476cacf45605d3c893ab
 - name: Trash Can
+  rules_text: +1 to Grapple during your breakout rolls.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -8514,6 +8558,10 @@
   deck_card_number: 13
   db_uuid: 232304ed765845d1926508ee15e9232b
 - name: Tandem Chin Kicks
+  rules_text: 'If your Strike skill is at least 3 greater than your opponent''s Strike
+    skill, Stop any Grapple.
+
+    Look at your opponent''s hand.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12798,6 +12846,9 @@
   deck_card_number: 22
   db_uuid: 05733d622542445dbaa94b9ef04d1bb7
 - name: Show Boat
+  rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
+
+    Shuffle your deck.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
@@ -12810,6 +12861,9 @@
   deck_card_number: 22
   db_uuid: d7d8149656db4acb86cef99cbbc0942d
 - name: Smash Into the Corner
+  rules_text: 'Your opponent discards 1 random card from their hand.
+
+    Bury 2 cards in any player''s discard pile.'
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard

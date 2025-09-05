@@ -7,7 +7,6 @@
   errata_text: ''
   comments: ''
   deck_card_number: 1
-  tags: stop lead
   atk_type: Strike
   play_order: Lead
   db_uuid: d9f6e890e1c846e79d4c11b649aa3683
@@ -22,7 +21,6 @@
   errata_text: ''
   comments: ''
   deck_card_number: 15
-  tags: skill stop
   atk_type: Submission
   play_order: Followup
   db_uuid: 9c522e6e0b2a4254b7b72aa3da805c72
@@ -57,7 +55,6 @@
   is_banned: false
   errata_text: ''
   comments: ''
-  tags: ''
   srg_url: https://supershowthegame.com/product/hammerstone/
   rules_text: '+3 to Agility
 
@@ -17148,7 +17145,7 @@
   submission: 9
   grapple: 7
   gender: Male
-  tags: Hardcore
+  division: Hardcore
   srg_url: https://supershowthegame.com/product/general-lee-wong/
   rules_text: 'Choose 1 opponent:
 
@@ -17164,7 +17161,7 @@
   submission: 9
   grapple: 7
   gender: Male
-  tags: Underworld
+  division: Underworld
   rules_text: 'Each time you roll Power, Agility, and Technique for your turn rolls:
 
     Draw 3 cards and your next turn roll is +2.'
@@ -18218,7 +18215,8 @@
     Flip cards equal to your Finish roll.'
   db_uuid: 79847e06777b4d4f876f30cc82dc2ebf
 - name: Advise from the Sidelines
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match: During your opponent''s turn when you have at least 3
     fewer cards in your hand than your opponent, you may reveal this card.  Choose
@@ -18226,13 +18224,15 @@
     type until the end of the turn.'
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
 - name: Calls for the Bell
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'If you stopped an unstoppable Finish this turn: You win the match by
     Pinfall.'
   db_uuid: daf84834f807436e9bc123750628e3d7
 - name: Did It Better!
-  tags: Valiant
+  tags:
+  - Valiant
   srg_url: https://supershowthegame.com/product/spectacle-did-it-better/
   card_type: SpectacleCard
   rules_text: 'Once a match:
@@ -18242,7 +18242,8 @@
     they are -3 instead.'
   db_uuid: 9552190b65db47fd8ff4c0c7666b6348
 - name: Does the Impossible
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18250,7 +18251,8 @@
     be stopped" text on a card.'
   db_uuid: 561137c7de34471a97ae46f84d73ed79
 - name: Enters From the Crowd!
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18259,7 +18261,8 @@
   srg_url: https://supershowthegame.com/product/spectacle-enters-from-the-crowd/
   db_uuid: d48c387b61e44823967fb6a4c36b379e
 - name: Gets Things Rolling
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18267,7 +18270,8 @@
     in play than your opponent your turn roll is +3.'
   db_uuid: f23d79da8e4544549f7d64c9c5eaa51f
 - name: Got My Back!
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18276,7 +18280,8 @@
     your deck.'
   db_uuid: af6b2b33cdda435b86cf278a4f961f3d
 - name: Helps You Regroup
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18284,14 +18289,16 @@
     card to draw 3 cards, end your turn.'
   db_uuid: 188aa9a5a45e48f68b23c949d53b6a0e
 - name: Is Always Ready
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once per match:
 
     Until the end of the turn, the match can not end by Disqualification.'
   db_uuid: 2765eed424d84468ba11f0efd6d8fec1
 - name: Pops the Crowd
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18299,7 +18306,8 @@
     this card to flip 2 cards.'
   db_uuid: df01bc416957449eacbfe39f5e9d504f
 - name: Rallies the Crowd
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18308,7 +18316,8 @@
   srg_url: https://supershowthegame.com/product/spectacle-rallies-the-crowd/
   db_uuid: 5b3b71b7631a41bc82036fbeedbec968
 - name: Ringside Hype From
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18317,7 +18326,8 @@
   srg_url: https://supershowthegame.com/product/ring-side-hype-from/
   db_uuid: 635d37d8982a4af592063f720ee55c6e
 - name: Ringside Pep Talk With
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18326,7 +18336,8 @@
   srg_url: https://supershowthegame.com/product/spectacle-ringside-pep-talk-with/
   db_uuid: eefbe9d04cff4d828cae50cb3314af81
 - name: Steals the Spotlight
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18336,7 +18347,8 @@
     text on a Spotlight until the end of the next turn roll.'
   db_uuid: d89aa2dddf6c4ea6b308674dd86da6a0
 - name: Thunderous Support From
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18345,7 +18357,8 @@
     is copied until the end of the turn.'
   db_uuid: f135dc91ac8142c9b01d82f068540279
 - name: Throws Candy From the Crowd!
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once per match:
 
@@ -18353,7 +18366,8 @@
     1 card, then bury 1 card in your opponent''s discard pile.'
   db_uuid: f5debb5c983347debc98181a5703689d
 - name: To the Rescue!
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18361,7 +18375,8 @@
     you, draw 2 cards.'
   db_uuid: 809de806453d497fa3b19c744bd79f2e
 - name: Tosses a Pretzel!
-  tags: Valiant
+  tags:
+  - Valiant
   card_type: SpectacleCard
   rules_text: 'Once per match:
 
@@ -18369,7 +18384,8 @@
     2 cards.'
   db_uuid: 6d2087bbc06445c3b1330014a9016898
 - name: Bum Rushes Opponent
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18378,7 +18394,8 @@
   srg_url: https://supershowthegame.com/product/spectacle-bum-rushes-opponent/
   db_uuid: 6b9690194ac14f69ab0a73743611fccc
 - name: Bumps the Ref
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18386,7 +18403,8 @@
     turn the match cannot end by Disqualification.'
   db_uuid: 1810bc0c00de4cd2b9852b0be1fbb329
 - name: Comes From Under the Ring
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18394,7 +18412,8 @@
     than you, add 1 card from your discard pile to your hand.'
   db_uuid: a5f1c5580197438385e8900fbaafdc7c
 - name: Distracts the Ref!
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18403,7 +18422,8 @@
     deck.'
   db_uuid: be6686feeeb947a18ef698de4f119a5d
 - name: Interferes!
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18411,14 +18431,16 @@
     you, they randomly bury 2 cards in their hand.'
   db_uuid: 6e8dec144a1c4028afb6cc463ab5017a
 - name: Jumps on the Apron
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
     You may ignore the "cannot be stopped" effect on a Finish played by your opponent.'
   db_uuid: ae0f9259f83f4154860658a07d7f8774
 - name: Ringside Assault By
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18427,7 +18449,8 @@
     handsize is 3 until the end of the turn. End your turn.'
   db_uuid: 1a4c2f56a72f45e5ac51c908eb9d34c5
 - name: Ringside Assist From
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18436,7 +18459,8 @@
     hand. End your turn.'
   db_uuid: 8b445e6fe18f424d86d698ce436981ef
 - name: Ringside Receipt From
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match
 
@@ -18444,7 +18468,8 @@
     turn and / or turn roll, they randomly bury 2 cards in their hand.'
   db_uuid: 3bb645b5762d4eda9987cae2a6bfa842
 - name: Taunts Opponent
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18452,13 +18477,15 @@
     hand than you, you may reveal this card to end their turn.'
   db_uuid: 8e3f7d5af82448d99d412d847fe0c6f0
 - name: Throws in the Towel
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'If you stopped an unstoppable Finish this turn: you win the match by
     Pinfall.'
   db_uuid: 69721de32a4446f6a395f89b9536ee15
 - name: Throws Cornbread from the Crowd
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18466,14 +18493,16 @@
     in your opponent''s discard pile.'
   db_uuid: 061aed4fdc7f4eb1863ab5c7804a834b
 - name: Traps Them In the Bathroom
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match, when the Crowd Meter is 1 or greater: During your opponent''s
     turn, you may reveal this card and your opponent cannot reveal a Spectacle Card
     until the end of the turn.'
   db_uuid: a9e4be4551054dde9ce2fb7314b070ef
 - name: Trips You Up
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18482,7 +18511,8 @@
     is blank until the end of the turn.'
   db_uuid: 54ccc2a227f44c84b6f5be4215b8aa86
 - name: Undermines the Opposition
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -18491,14 +18521,16 @@
     they are instead +3.'
   db_uuid: 58c533cfc1ac41a4b41fb8e138d66860
 - name: Unfortunate Twist
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
     You may use a Gimmick that says "3 times per match" an additional time this match.'
   db_uuid: 0022fa3dd8544f288766235c16bff0f2
 - name: Whips the Chain
-  tags: Newman
+  tags:
+  - Newman
   card_type: SpectacleCard
   rules_text: 'Once a match:
 

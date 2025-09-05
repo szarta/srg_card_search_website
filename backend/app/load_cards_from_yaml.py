@@ -8,6 +8,7 @@ Refactored two-pass loader for SRG Supershow cards:
 import sys
 import yaml
 import uuid
+import re
 from sqlalchemy.exc import IntegrityError
 from database import SessionLocal
 from models.base import (
@@ -38,6 +39,13 @@ MODEL_MAP = {
 
 
 # --- Helper functions ---
+def normalize_tags(v):
+    if isinstance(v, list):
+        return [str(t).strip() for t in v if str(t).strip()]
+    if isinstance(v, str):
+        # split on commas OR whitespace
+        return [t for t in re.split(r"[,\s]+", v) if t]
+    return []
 
 
 def read_yaml(path: str):
@@ -106,9 +114,7 @@ def _build_kwargs(entry: dict) -> dict:
         "rules_text": entry.get("rules_text"),
         "errata_text": entry.get("errata_text"),
         "comments": entry.get("comments"),
-        "tags": ",".join(entry["tags"])
-        if isinstance(entry.get("tags"), list)
-        else entry.get("tags"),
+        "tags": normalize_tags(entry.get("tags")),
         "card_type": entry.get("card_type"),
     }
     cls = MODEL_MAP.get(entry.get("card_type"))

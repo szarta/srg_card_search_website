@@ -5,6 +5,7 @@ See LICENSE.txt for details.
 
 from sqlalchemy import Column, String, Boolean, Enum, Integer, ForeignKey, Table
 from sqlalchemy.orm import relationship, declarative_base
+from sqlalchemy.dialects.postgresql import JSONB
 import enum
 
 Base = declarative_base()
@@ -73,7 +74,7 @@ class Card(Base):
     rules_text = Column(String)
     errata_text = Column(String)
     comments = Column(String)
-    tags = Column(String)
+    tags = Column(JSONB)
     card_type = Column(String)
 
     related_cards = relationship(

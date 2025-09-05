@@ -22403,7 +22403,29 @@
 - name: Perfect10n Shawn Spears
   card_type: SingleCompetitorCard
   db_uuid: b322c969168d4d7d9c3762bbc844d358
-- name: Peter Lionheart
+- name: Peter Lionheart (V1)
+  srg_url: https://supershowthegame.com/product/peter-lionheart/
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 5
+  rules_text: At the start of the match, choose an opponent and blank the text of
+    their Finish cards.
+  gender: Male
+  card_type: SingleCompetitorCard
+  db_uuid: 73701ef7f615485d82c628fa90f4ce68
+- name: Peter Lionheart (V2)
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 5
+  rules_text: When the Crowd Meter is 1 or less your opponents Finish cards have blank
+    text.
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: 72ca0ec381b44e6cafbb6992e89eb2ba
 - name: The Phantasm

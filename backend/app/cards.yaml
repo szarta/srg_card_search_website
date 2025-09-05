@@ -23594,6 +23594,7 @@
 
     When your opponent would play a Finish against you, your opponent cannot play
     a Finish against you this turn instead.'
+  card_type: SingleCompetitorCard
   db_uuid: 66129944904b4d68a3e33c57d11f9914
   related_finishes:
   - 361704afcd9e4ba6bc204db30252de31

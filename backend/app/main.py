@@ -8,6 +8,7 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from routers import cards
 from routers import images
+from routers import sitemap
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
@@ -15,6 +16,7 @@ __version__ = "%(prog)s 1.0.0 (Rel: 07 Aug 2025)"
 default_log_format = "%(filename)s:%(levelname)s:%(asctime)s] %(message)s"
 
 IMAGES_ROOT = "/path/to/images"
+# IMAGES_ROOT = "/home/brandon/data/srg_card_search_website/images"
 
 app = FastAPI()
 
@@ -46,3 +48,4 @@ def favicon():
 
 app.include_router(cards.router)
 app.include_router(images.router)
+app.include_router(sitemap.router)

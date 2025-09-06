@@ -26955,7 +26955,7 @@
     Add 1 card from your discard pile to your hand.'
   db_uuid: 4b9d7155db4b467394de380e64845213
   tags: []
-- name: Wrath on Ron
+- name: Wrath of Ron
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

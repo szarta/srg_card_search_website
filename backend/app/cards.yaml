@@ -1219,6 +1219,35 @@
     '
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
   tags: []
+- name: Never Settle for Less Than Elle Diablo
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your turn without playing a card: Search
+    your deck for up to 2 cards and put them into your discard pile; shuffle your
+    deck.'
+  srg_url: https://supershowthegame.com/product/entrance-never-settle-for-less-than-elle-diablo/
+  db_uuid: 3106fc788f5e4d86b4103d05a5e9d760
+  tags: []
+- name: You Got to Fight Your Way Out
+  srg_url: https://supershowthegame.com/product/entrance-you-got-to-fight-your-way-out/
+  card_type: EntranceCard
+  rules_text: 'Each player''s printed skills of 8 or less are considered equal to
+    their opponent''s skills for their Stop effects and Gimmick.
+
+    Once per match, during your turn:
+
+    When you hit a Follow Up with a Stop, draw 1 card.'
+  db_uuid: 80b047d7124f43519618666a4a4ad08d
+  tags: []
+- name: The Event Horizon
+  srg_url: https://supershowthegame.com/product/entrance-the-event-horizon/
+  card_type: EntranceCard
+  rules_text: 'Two times per match:  After you roll these skills for your turn roll:
+
+    Power-Technique-Agility-Strike-Submission-Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  db_uuid: 9818eded118844d5b2b2675a793c04bb
+  tags: []
 - name: 2 for the Supershow
   card_type: EntranceCard
   rules_text: 'If this is a match with a stipulation: Before the start of the match,
@@ -11440,6 +11469,16 @@
   deck_card_number: 17
   db_uuid: 43c341612d154be58d7ceeb607118799
   tags: []
+- name: Dragon Fire Slam!
+  srg_url: https://supershowthegame.com/product/17-dragon-fire-slam/
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 17
+  rules_text: If you have another Follow Up in play, look at the top 4 cards of your
+    deck; put 1 in your hand, and flip the others.
+  db_uuid: 6b3677c971274ac4b45fc57cf62c019c
+  tags: []
 - name: All American Suplex
   play_order: Followup
   atk_type: Grapple
@@ -11592,6 +11631,8 @@
   db_uuid: 3eaee8dab65f4116a061eedfc81e3e97
   tags: []
 - name: Dragon Suplex
+  rules_text: Your next turn roll is +1 for each other Grapple you have in play.
+  srg_url: https://supershowthegame.com/product/17-dragon-suplex/
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
@@ -12092,6 +12133,9 @@
   db_uuid: ab7a4ce2470645e1878bb70d3dc34d71
   tags: []
 - name: Dragon Leg Lock
+  rules_text: If you ahve another Follow Up in play, your opponent buries 1 card in
+    their hand.
+  srg_url: https://supershowthegame.com/product/18-dragon-leg-lock/
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -12554,6 +12598,16 @@
   card_type: MainDeckCard
   deck_card_number: 19
   db_uuid: 43d69424ea814e75b35e6237d6bac8f8
+  tags: []
+- name: Blockbuster Deal
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    This card counts as 2 Follow Up Strikes in play.'
+  db_uuid: 1332788ccd024f46bc355bf9bbc9f362
   tags: []
 - name: Cosmic Steel Chain Whip
   rules_text: 'The Crowd Meter is +1.
@@ -14107,6 +14161,17 @@
   deck_card_number: 22
   db_uuid: a811ce990f59487da29a7de21f7b389c
   tags: []
+- name: Highland Headbutt
+  play_order: Followup
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 22
+  rules_text: 'Draw the bottom 2 cards of your deck.
+
+    If either play rolls Strike for their turn roll, their turn roll is -1.'
+  srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
+  db_uuid: b878bf46b71c4003bd18d87d58473fae
+  tags: []
 - name: A Shot in the Dark
   play_order: Followup
   atk_type: Strike
@@ -14668,6 +14733,9 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Your opponent buries 3 cards in their hand.
+
+    If stopped, you lose the match via disqualification.'
   deck_card_number: 22
   db_uuid: 6575c1e280ad4e45bd3082e9854ed085
   tags: []
@@ -14727,6 +14795,17 @@
   card_type: MainDeckCard
   deck_card_number: 23
   db_uuid: baf307a1efc84f9aba8400c7a71494f8
+  tags: []
+- name: Spinning Arm Drag
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 23
+  rules_text: 'Draw the bottom 2 cards of your deck.
+
+    If either play rolls Grapple for their turn roll, their turn roll is -1.'
+  srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
+  db_uuid: 51dfc92224b94a3f8a988a69554d58b8
   tags: []
 - name: Ace Crusher
   play_order: Followup
@@ -15312,6 +15391,17 @@
   card_type: MainDeckCard
   deck_card_number: 24
   db_uuid: c0c080c6aef243c18c6415af69470150
+  tags: []
+- name: Sunset Sleeper Hold
+  rules_text: 'Draw the bottom 2 cards of your deck.
+
+    If either play rolls Submission for their turn roll, their turn roll is -1.'
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 24
+  srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
+  db_uuid: 967e451db96f4973978c4c464984c244
   tags: []
 - name: Any Last Words?
   srg_url: https://supershowthegame.com/product/24-any-last-words/
@@ -25504,6 +25594,16 @@
   db_uuid: 925317f7c28841d181df7d38d363b0ff
   tags: []
 - name: The Psychiatrist Luna Bellatrix
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 9
+  gender: Female
+  srg_url: https://supershowthegame.com/product/luna-bellatrix-new/
+  rules_text: When your turn roll is 1 less than your opponent's turn roll, your target
+    buries 1 random card in their hand.
   card_type: SingleCompetitorCard
   db_uuid: b9ba2975954f4804b291b5bb36cef3f0
   tags: []
@@ -27017,4 +27117,62 @@
 
     +2 to Submission'
   db_uuid: 7dbc002153f8415db6512ff14b49168a
+  tags: []
+- name: Bael
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 9
+  grapple: 7
+  gender: Male
+  rules_text: When you hit a card with "Burn", "Choke", "Fire", or "Slam" in the name,
+    your opponent's next turn roll is -1.
+  srg_url: https://supershowthegame.com/product/bael/
+  db_uuid: 3e85e823fd544ea7acd81acb9b3e627f
+  tags: []
+  related_finishes:
+  - b41de21b2cd148979317d7e3c9d15d36
+  - 7d5f66a1cce24326b31774d4a90db47a
+  - 4081ddba01be4c4d89ef1e41ee6eca24
+- name: Blessed by the Burn
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    The next time your opponent''s turn roll would be 10 or greater, it is instead
+    -3.'
+  srg_url: https://supershowthegame.com/product/bael/
+  db_uuid: b41de21b2cd148979317d7e3c9d15d36
+  tags: []
+- name: Hell 95 Chokeslam
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If stopped, shuffle 2 cards with "Burn", "Choke", "Fire", or "Slam" in the name
+    from your discard pile into your deck.'
+  srg_url: https://supershowthegame.com/product/bael/
+  db_uuid: 7d5f66a1cce24326b31774d4a90db47a
+  tags: []
+- name: The Lesser Key of Madness
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple'
+  srg_url: https://supershowthegame.com/product/bael/
+  db_uuid: 4081ddba01be4c4d89ef1e41ee6eca24
   tags: []

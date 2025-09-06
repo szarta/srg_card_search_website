@@ -26623,7 +26623,7 @@
   card_type: SingleCompetitorCard
   db_uuid: 008a69befa074a0f99556e773fdc4315
   tags: []
-- name: Mr. Sunday Night
+- name: Mr. Sunday Night Ron Rumble
   power: 10
   technique: 6
   agility: 5
@@ -26631,11 +26631,18 @@
   submission: 8
   grapple: 7
   gender: Male
-  rules_text: When you hit a card with "Microphone" in the name, you may draw 1 card
-    and bury 1 card in your hand.
+  rules_text: When you hit a card with "Mic" in the name, you may draw 1 card and
+    bury 1 card in your hand.
   card_type: SingleCompetitorCard
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
   tags: []
+  related_finishes:
+  - d10fa6bb768c4f528ba8d9446e5d272e
+  - 4b9d7155db4b467394de380e64845213
+  - 0e47793f06b44dd691e13d7b1d67285b
+  - 3f78feea50be406f816e6c57857b74fa
+  - e466fe26c2174300ad966f2f222ebc39
+  - 7dbc002153f8415db6512ff14b49168a
 - name: The Centipede
   card_type: SingleCompetitorCard
   power: 9
@@ -26900,4 +26907,114 @@
 
     BACK: When your opponent''s Power is 10 or greater, your Power is +1.'
   db_uuid: 8deec12ca2ec43a0b0979fc5576e004f
+  tags: []
+- name: Mr. Rumble
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 8
+  gender: Male
+  rules_text: 'When you roll Submission for your turn roll: your next turn roll is
+    +1 for each Lead your opponent has in play (Max +3).'
+  db_uuid: 20f71ac49c4b4f29998ebc7e69657087
+  related_finishes:
+  - d10fa6bb768c4f528ba8d9446e5d272e
+  - 4b9d7155db4b467394de380e64845213
+  - 0e47793f06b44dd691e13d7b1d67285b
+  - 3f78feea50be406f816e6c57857b74fa
+  - e466fe26c2174300ad966f2f222ebc39
+  - 7dbc002153f8415db6512ff14b49168a
+  tags: []
+- name: 9th Ward Knockout
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +4 to Agility
+
+    Flip 1 card.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
+  db_uuid: d10fa6bb768c4f528ba8d9446e5d272e
+  tags: []
+- name: Brickyard Buster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: 4b9d7155db4b467394de380e64845213
+  tags: []
+- name: Wrath on Ron
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    Your opponent gets 1 fewer breakout roll this turn.'
+  db_uuid: 0e47793f06b44dd691e13d7b1d67285b
+  tags: []
+- name: Mr. Rumble Unleashed
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 8
+  gender: Male
+  rules_text: 'During your turn: It is considered a Steel Chain match for your card
+    effects.'
+  db_uuid: cf70eb630fbd4f35b55ca9df52b8c5c0
+  tags: []
+  related_finishes:
+  - d10fa6bb768c4f528ba8d9446e5d272e
+  - 4b9d7155db4b467394de380e64845213
+  - 0e47793f06b44dd691e13d7b1d67285b
+  - 3f78feea50be406f816e6c57857b74fa
+  - e466fe26c2174300ad966f2f222ebc39
+  - 7dbc002153f8415db6512ff14b49168a
+- name: Nola Nightmare Slam
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    You may reveal this card in your hand and bury it along with 2 other cards from
+    your hand to stop any Submission.'
+  db_uuid: 3f78feea50be406f816e6c57857b74fa
+  tags: []
+- name: Readiest Moonsault Ever
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+5 to Agility
+
+    Your opponent randomly reveals 3 cards in their hand and discards all revealed
+    Stops.'
+  db_uuid: e466fe26c2174300ad966f2f222ebc39
+  tags: []
+- name: Big Daddy Microphone Choke
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    +2 to Submission'
+  db_uuid: 7dbc002153f8415db6512ff14b49168a
   tags: []

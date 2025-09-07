@@ -25430,8 +25430,62 @@
   db_uuid: 7463c878455c4e76987b260d57741135
   tags: []
 - name: Officer Breezus
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'Once during your turn roll:
+
+    When you and your opponent roll the same skill, you may force them to re-roll
+    and that roll is -1.'
+  gender: Male
   card_type: SingleCompetitorCard
   db_uuid: b8dfb42ba0ec49889c7c8b44b4132f4f
+  tags: []
+  related_finishes:
+  - f40e2d3134604cc7bb71b9de326f0766
+  - 2ee319d937d74b53bad1a7016c3e78aa
+  - 0b5818f8983045689264a87daabaa318
+- name: Supermodel Kick
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If either player re-rolled their previous turn roll, this card is also a Lead.'
+  db_uuid: f40e2d3134604cc7bb71b9de326f0766
+  tags: []
+- name: Down the Runway
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Add 1 card from your discard pile to your hand.
+
+    If either player re-rolled their turn roll, double these bonuses.'
+  db_uuid: 2ee319d937d74b53bad1a7016c3e78aa
+  tags: []
+- name: The Lookbook
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Submission
+
+    Choose Strike, Grapple, or Submission and look at your opponent''s hand.  Draw
+    cards equal to the number of cards in their hand of the chosen type.'
+  db_uuid: 0b5818f8983045689264a87daabaa318
   tags: []
 - name: The Ol' Skull and Bones
   card_type: SingleCompetitorCard
@@ -27478,4 +27532,62 @@
 
     Your Finish roll is +1 for each other Submission you have in play (Max +2).'
   db_uuid: 5e89f56e57824e83b29a50e2a7279134
+  tags: []
+- name: Fashion PoPos
+  card_type: TornadoCompetitorCard
+  power: 12
+  technique: 18
+  agility: 20
+  strike: 16
+  submission: 10
+  grapple: 14
+  rules_text: When you would bump, you may choose a player to re-roll. If you re-rolled,
+    your roll is +3. If your opponent re-rolled, their roll is -3.
+  db_uuid: 8a5bb447801944cdb9ce84edfad6f82e
+  tags: []
+  related_finishes:
+  - 2cd8688ee9cb47e1a92272eeed710029
+  - 0d0e1a6acb9a4d04ac377df0b23bd0ca
+  - 1a39abc3630d4cbabbe772013250d916
+  - b6ca86387d4d48eb8b1205fbef362a6e
+  - 28568f2882f84f6cb10c4f9ca33a7b89
+  - 32f220dcec55470da21b540b5104dbdd
+  - f40e2d3134604cc7bb71b9de326f0766
+  - 2ee319d937d74b53bad1a7016c3e78aa
+  - 0b5818f8983045689264a87daabaa318
+- name: Busted!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +4 to Strike'
+  db_uuid: 2cd8688ee9cb47e1a92272eeed710029
+  tags: []
+- name: The Hot Ticket
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+8 to Submission
+
+    +4 to Grapple
+
+    Put 1 card from your discard pile on top of your deck.'
+  db_uuid: 0d0e1a6acb9a4d04ac377df0b23bd0ca
+  tags: []
+- name: The Look of the Week
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    +6 to Submission
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  db_uuid: 1a39abc3630d4cbabbe772013250d916
   tags: []

@@ -20462,6 +20462,44 @@
     and your opponent buries 1 card in their hand.'
   db_uuid: ee1179b3778240f09d9cd167420d9e1f
   tags: []
+  related_finishes:
+  - e849401a3fe94a65a9274026945d685e
+  - ab5cf2d554db451bbcad087c8b811432
+  - fb3cc3a484af4231bcf5f0b8b30cc22e
+- name: Double Trouble, Cauldron Bubble
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    Add 1 card from your discard pile to your hand or look at your opponent''s hand,
+    choose 1 card and bury it.'
+  db_uuid: e849401a3fe94a65a9274026945d685e
+  tags: []
+- name: The Black Eye-Liner
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    If you rolled Power for your turn roll, this card is also a Follow Up.'
+  db_uuid: ab5cf2d554db451bbcad087c8b811432
+  tags: []
+- name: The 14 Wonders
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: Your Submission and Technique are +2 for each Submission and Strike
+    you have in play.
+  db_uuid: fb3cc3a484af4231bcf5f0b8b30cc22e
+  tags: []
 - name: Freak Show (V1)
   card_type: TrioCompetitorCard
   power: 24
@@ -27238,4 +27276,54 @@
     +1 to Grapple'
   srg_url: https://supershowthegame.com/product/bael/
   db_uuid: 4081ddba01be4c4d89ef1e41ee6eca24
+  tags: []
+- name: Pretty Boy Snow
+  card_type: TornadoCompetitorCard
+  power: 20
+  technique: 18
+  agility: 16
+  strike: 10
+  submission: 12
+  grapple: 14
+  rules_text: When you roll Strike for your turn roll, draw 1 card or your next turn
+    roll is +2.
+  db_uuid: bd6838e089ab42e381bd58b0e0eb8af7
+  tags: []
+  related_finishes:
+  - c011391c36af415bb2f314f7da0ade1e
+  - 794a3111445e4b53b1bfdff7e5d216dc
+  - 5e89f56e57824e83b29a50e2a7279134
+- name: P.K. Drop
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +4 to Strike'
+  db_uuid: c011391c36af415bb2f314f7da0ade1e
+  tags: []
+- name: Bada Boom, Prettiest Guy in the Room
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If your opponent hit a Stop last turn, you may re-roll your Finish roll.'
+  db_uuid: 794a3111445e4b53b1bfdff7e5d216dc
+  tags: []
+- name: Irresistible Charm
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    Your Finish roll is +1 for each other Submission you have in play (Max +2).'
+  db_uuid: 5e89f56e57824e83b29a50e2a7279134
   tags: []

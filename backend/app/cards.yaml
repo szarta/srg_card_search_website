@@ -18644,6 +18644,47 @@
     2 cards and add 1 card from your discard pile to your hand.'
   db_uuid: 1f7d71aab9e64848b155b9857dc56d3d
   tags: []
+  related_finishes:
+  - 99a9ca258ebb421296308c19804e4847
+  - e38c3f95fa034f908fba3b3f5715dee1
+  - 337b33a40b6e438aa40f509f2340b650
+- name: The Gold Rush
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    +1 to Grapple'
+  db_uuid: 99a9ca258ebb421296308c19804e4847
+  tags: []
+- name: Decentralizer
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    +4 to Grapple
+
+    Draw 2 cards or your opponent buries 2 cards in their hand.'
+  db_uuid: e38c3f95fa034f908fba3b3f5715dee1
+  tags: []
+- name: The 49er Arm Overriders
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+5 to Power
+
+    +1 to Submission
+
+    If your opponent rolled their highest skill for their turn roll, double these
+    bonuses.'
+  db_uuid: 337b33a40b6e438aa40f509f2340b650
+  tags: []
 - name: Duff Martin
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -19837,6 +19878,13 @@
     pile to your hand.  When you shuffle your deck, your next turn roll is +1.
   db_uuid: e362c7871e8149699281d25ae76e7ef1
   tags: []
+  related_finishes:
+  - b6ca86387d4d48eb8b1205fbef362a6e
+  - 28568f2882f84f6cb10c4f9ca33a7b89
+  - 32f220dcec55470da21b540b5104dbdd
+  - cdadd459469a472193cbbb83e912621b
+  - a5ba07e9346e4414bebe1b8e4d50dab2
+  - 7c409dfbe5b441b9acdc10ce29e480d1
 - name: Sugar Plum
   card_type: SingleCompetitorCard
   power: 7
@@ -22946,8 +22994,57 @@
   db_uuid: 221d8474bf084404ac43c826c2491184
   tags: []
 - name: Deputy Dango
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
+  gender: Male
   card_type: SingleCompetitorCard
+  rules_text: When you shuffle your deck, your next Turn Roll is +1.
   db_uuid: 38a5391801c4447da6ea182bd53eb6f0
+  tags: []
+  related_finishes:
+  - b6ca86387d4d48eb8b1205fbef362a6e
+  - 28568f2882f84f6cb10c4f9ca33a7b89
+  - 32f220dcec55470da21b540b5104dbdd
+- name: The Last Dance
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your Finish rolls are +1.
+
+    Shuffle your deck.
+
+    Shuffle your deck.'
+  db_uuid: b6ca86387d4d48eb8b1205fbef362a6e
+  tags: []
+- name: The Falcon Arrow
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    If stopped, shuffle your deck.'
+  db_uuid: 28568f2882f84f6cb10c4f9ca33a7b89
+  tags: []
+- name: The Tap Dance
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Each time your opponent rolls for a breakout roll, shuffle 1 card from your discard
+    pile into your deck.'
+  db_uuid: 32f220dcec55470da21b540b5104dbdd
   tags: []
 - name: Deranged Monarch
   power: 7
@@ -25675,8 +25772,63 @@
   db_uuid: 11090ca47d7b45ba98292af07e58f428
   tags: []
 - name: The Prince of Fashion
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  gender: Male
+  is_banned: true
+  srg_url: https://supershowthegame.com/product/the-prince-of-fashion/
+  rules_text: Your cards with "Face" in the name have the added text "Add 1 card from
+    your discard pile to your hand."
+  errata_text: 'During your Turn: Your Strikes with "Face" in the name have the added
+    text "Add 1 card from your discard pile to your hand."'
   card_type: SingleCompetitorCard
   db_uuid: 9f81d2d70a2a404b9058967f1c452e2b
+  tags: []
+  related_finishes:
+  - cdadd459469a472193cbbb83e912621b
+  - a5ba07e9346e4414bebe1b8e4d50dab2
+  - 7c409dfbe5b441b9acdc10ce29e480d1
+- name: The Beauty Shot
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    When you have 4 cards in play with "Face" in the name, this card can''t be stopped.'
+  db_uuid: cdadd459469a472193cbbb83e912621b
+  tags: []
+- name: Unprettier
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    Look at your opponent''s hand choose 2 cards. Your opponent buries 1 card and
+    discards the other.'
+  db_uuid: a5ba07e9346e4414bebe1b8e4d50dab2
+  tags: []
+- name: The Ugly Truth
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    When this card is in your discard pile your opponent''s with "Face" in the name
+    have blank text.'
+  db_uuid: 7c409dfbe5b441b9acdc10ce29e480d1
   tags: []
 - name: Prince of GTS
   card_type: SingleCompetitorCard

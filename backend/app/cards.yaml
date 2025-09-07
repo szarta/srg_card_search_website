@@ -7956,6 +7956,8 @@
   db_uuid: a3ef520ed54f4cbdbb04e11a6e5ed45d
   tags: []
 - name: Face Me and Fight
+  rules_text: If your opponent has a Stop in play, put 1 Strike from your discard
+    pile on top of your deck.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -8804,6 +8806,8 @@
   db_uuid: 5a2bf48f205e47f1921b5352c260e4a1
   tags: []
 - name: Figure 4 Headlock
+  rules_text: If you have another Submission in play, add 1 Finish Submission from
+    your discard pile to your hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -12150,6 +12154,7 @@
   db_uuid: 70bc7806864a424fa99a21177c8d5b06
   tags: []
 - name: Figure-4 Leg Lock
+  rules_text: Your next turn roll is +1 for each Lead your opponentn has in play.
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -16578,7 +16583,8 @@
     Shuffle 2 Strikes from your discard pile into your deck.'
   db_uuid: 1664f355451f402d8235a0717a9bb80e
   tags: []
-- name: It's Not the Size of the Fight in the Dog
+- name: It's Not the Size of the Dog in the Fight
+  srg_url: https://supershowthegame.com/product/26-its-not-the-size-of-the-dog-in-the-fight/
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -17095,6 +17101,7 @@
   db_uuid: f4fe389d460246ee9ec552559af31d03
   tags: []
 - name: It's the Size of the Fight in the Dog
+  srg_url: https://supershowthegame.com/product/27-its-the-size-of-the-fight-in-the-dog/
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

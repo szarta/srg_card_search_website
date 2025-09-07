@@ -17635,6 +17635,69 @@
   card_type: SingleCompetitorCard
   db_uuid: f4a9e71c2fb446c192037af4278e7311
   tags: []
+  related_finishes:
+  - 03acc4a0e93f43c3b5d369f04e82c37d
+  - b2bc1ad632d24960b567bae43f9843e5
+  - c2512e91a35e4283baf01fbbd2358d30
+- name: Gotta Go Fast!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'Your opponent''s Power is -6.
+
+    Your opponent''s Grapple is -4.
+
+    If this is the 1st or 2nd turn of the game, this card is also a Lead.'
+  errata_text: 'Your opponent''s Power is -3.
+
+    Your opponent''s Grapple is -2.
+
+    If this is the 1st or 2nd turn of the game, this card is also a Lead.'
+  db_uuid: 03acc4a0e93f43c3b5d369f04e82c37d
+  tags: []
+- name: 64-Bit Swing
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Three Times:
+
+    Your opponent randomly reveals 1 card in their hand; Your opponent gets 1 fewer
+    breakout roll for each Stop revealed.'
+  errata_text: '+1 to Power
+
+    +1 to Grapple
+
+    Two Times:
+
+    Your opponent randomly reveals 1 card in their hand; Your opponent gets 1 fewer
+    breakout roll for each Stop revealed.'
+  db_uuid: b2bc1ad632d24960b567bae43f9843e5
+  tags: []
+- name: Timely Ocarina
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    The next turn of the game is considered the first turn of the game for your effects
+    and you may use your Entrance Card 1 additional time.'
+  errata_text: '+3 to Technique
+
+    +1 to Submission
+
+    The next turn of the game is considered the first turn of the game for your effects
+    and you may use "Tactical Retreat" Entrance Card 1 additional time.'
+  db_uuid: c2512e91a35e4283baf01fbbd2358d30
+  tags: []
 - name: 8 Bit Eric
   srg_url: https://supershowthegame.com/product/8-bit-eric/
   power: 9

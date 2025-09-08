@@ -20420,6 +20420,85 @@
   rules_text: When your opponent rolls Power for their turn roll, draw 1 card.
   db_uuid: a7da12c2bc874900b264623582ebfaeb
   tags: []
+  related_finishes:
+  - 1c50bfdb7dac401ca01f1381d9ad2401
+  - 9a8bea38ffdb4678bc74a822dac6b790
+  - bdea0c9787ea43f4af11271728a688dc
+  - 5a46915f590f4608ac30cc07394ffa02
+  - 75592c97d2d2410cb0cdc659dc0cebd7
+  - 730bf56875514479be01337e294cf934
+- name: Rainbow Road
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    +1 to Grapple'
+  db_uuid: 1c50bfdb7dac401ca01f1381d9ad2401
+  tags: []
+- name: Bubble Blaster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Draw 2 cards.'
+  db_uuid: 9a8bea38ffdb4678bc74a822dac6b790
+  tags: []
+- name: Unicorn Ride
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +3 to Power'
+  db_uuid: bdea0c9787ea43f4af11271728a688dc
+  tags: []
+- name: Rainbow Cookie
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Draw 1 card.
+
+    If your opponent rolled Power for their turn roll, triple these bonuses.'
+  db_uuid: 5a46915f590f4608ac30cc07394ffa02
+  tags: []
+- name: Arc of the Rainbow
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    When this card is in your discard pile, choose a skill: When your opponent rolls
+    that skill, draw 1 card.'
+  db_uuid: 75592c97d2d2410cb0cdc659dc0cebd7
+  tags: []
+- name: Rainbow Run
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    Your opponent''s 1st and 2nd breakout rolls are -1 for each different move type
+    you have in play.'
+  db_uuid: 730bf56875514479be01337e294cf934
+  tags: []
 - name: Venus
   card_type: SingleCompetitorCard
   power: 6
@@ -24788,14 +24867,116 @@
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
   tags: []
 - name: Lexi the Punk Rock Pixie (V1)
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: 'During your turn: When your opponent stops a Strike, draw 2 cards.'
   gender: Female
   card_type: SingleCompetitorCard
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
   tags: []
+  related_finishes:
+  - c93fe52c4b404c52ba779758257db6af
+  - d4033a44cc6943b79d649ca65a998732
+  - bce760d630234faa92c6eb64cac11920
+  - bc4a91c9f29f44bb997849eb036429c3
+  - 2254fc6d087a4d07ba55b0d91a3afc99
+  - 4871ba4a724847959f6c55d2c4353658
 - name: Lexi the Punk Rock Pixie (V2)
+  power: 7
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 5
   gender: Female
+  rules_text: When your opponent stops a Strike, reveal the top 3 cards of your deck;
+    add 2 to your hand and bury the other.
   card_type: SingleCompetitorCard
   db_uuid: 6923749ac3f344d683b1f4a896475fa1
+  tags: []
+  related_finishes:
+  - c93fe52c4b404c52ba779758257db6af
+  - d4033a44cc6943b79d649ca65a998732
+  - bce760d630234faa92c6eb64cac11920
+  - bc4a91c9f29f44bb997849eb036429c3
+  - 2254fc6d087a4d07ba55b0d91a3afc99
+  - 4871ba4a724847959f6c55d2c4353658
+- name: Bang Bang on the Kick Drum
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    Your opponent buries 2 cards in their hand.'
+  db_uuid: c93fe52c4b404c52ba779758257db6af
+  tags: []
+- name: Slam Session
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +4 to Submission'
+  db_uuid: d4033a44cc6943b79d649ca65a998732
+  tags: []
+- name: Pixie Poison
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    When this card is in your discard pile, your opponent''s Spotlight cards have
+    blank text.'
+  db_uuid: bce760d630234faa92c6eb64cac11920
+  tags: []
+- name: Slam Dance
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    +1 to Technique
+
+    Draw 4 cards.'
+  db_uuid: bc4a91c9f29f44bb997849eb036429c3
+  tags: []
+- name: Pixie Magic
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    +3 to Power
+
+    Shuffle 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  db_uuid: 2254fc6d087a4d07ba55b0d91a3afc99
+  tags: []
+- name: Peace, Love & Pixie Dust
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    If stopped, shuffle 3 other cards from your discard pile into your deck.'
+  db_uuid: 4871ba4a724847959f6c55d2c4353658
   tags: []
 - name: Liger
   card_type: SingleCompetitorCard
@@ -27647,4 +27828,35 @@
 
     Look at your opponent''s hand, choose 1 card and bury it.'
   db_uuid: 1a39abc3630d4cbabbe772013250d916
+  tags: []
+- name: Rainbows & Butterflies
+  power: 12
+  technique: 20
+  agility: 18
+  strike: 16
+  submission: 10
+  grapple: 14
+  card_type: TornadoCompetitorCard
+  rules_text: 'Once per turn roll:
+
+    When you or your opponent roll Power, draw 1 card.
+
+    When your Strikes are stopped, add the bottom card of your deck to your hand.'
+  related_cards:
+  - a0fe35c7bf294c0f8a0c6a6aeb2a67c4
+  - a7da12c2bc874900b264623582ebfaeb
+  related_finishes:
+  - c93fe52c4b404c52ba779758257db6af
+  - d4033a44cc6943b79d649ca65a998732
+  - bce760d630234faa92c6eb64cac11920
+  - bc4a91c9f29f44bb997849eb036429c3
+  - 2254fc6d087a4d07ba55b0d91a3afc99
+  - 4871ba4a724847959f6c55d2c4353658
+  - 1c50bfdb7dac401ca01f1381d9ad2401
+  - 9a8bea38ffdb4678bc74a822dac6b790
+  - bdea0c9787ea43f4af11271728a688dc
+  - 5a46915f590f4608ac30cc07394ffa02
+  - 75592c97d2d2410cb0cdc659dc0cebd7
+  - 730bf56875514479be01337e294cf934
+  db_uuid: a7a5c4afdd1a47c78581587e6bdb5ce0
   tags: []

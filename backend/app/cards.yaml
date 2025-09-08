@@ -16022,6 +16022,9 @@
   db_uuid: 85acf559e7aa4924b82acd6028837015
   tags: []
 - name: Back Splash
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Add 1 card from your discard pile to your hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16050,6 +16053,10 @@
   db_uuid: 42b81bfb4b6e408ba32e79dd3c09ad96
   tags: []
 - name: Backlash With the Drumstick
+  rules_text: 'Stop any Grapple.
+
+    Randomly reveal 1 card in your hand; If that card has "Drumstick" in the name,
+    bury 1 card in any player''s discard pile.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16057,6 +16064,9 @@
   db_uuid: e3cf7a89aacd45269a2473e80f7e04d0
   tags: []
 - name: Backlash With the Kendo Stick
+  rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Grapple or Finish Grapple.
+
+    Draw 2 cards or discard 1 card your opponent has in play.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16074,6 +16084,9 @@
   db_uuid: c74ab0024bfb41c2b0708763d2f382a4
   tags: []
 - name: Backlash With the Pineapple
+  rules_text: 'If you have a card in play with "Pineapple" in the name, stop any Grapple.
+
+    Draw 2 cards, discard 1 card your opponent has in play.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16093,6 +16106,11 @@
   db_uuid: a584ef6f4006424f896fd794e9041625
   tags: []
 - name: Burning Spear
+  rules_text: 'Stop any Grapple.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16120,6 +16138,9 @@
   db_uuid: 41df5e8d0d9f42f0a3d37a086fb7fe32
   tags: []
 - name: Dodging Dash
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Shuffle 2 Submissions from your discard pile into your deck.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16127,6 +16148,9 @@
   db_uuid: 244c2d6ec4354f21b8a2d348bd730728
   tags: []
 - name: Double Ax Handle
+  rules_text: 'Draw 1 card.
+
+    If you are a Tag Team or a Trio, stop any Grapple.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16134,6 +16158,7 @@
   db_uuid: 33a3c902db094726b7fa706684831a8c
   tags: []
 - name: Double Dropkick
+  rules_text: Each player flips 1 card or stop any Grapple.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16141,6 +16166,7 @@
   db_uuid: 93d23387cb9244a494310c617790054e
   tags: []
 - name: Double Heel Kick
+  rules_text: Stop any Finish Grapple even if it cannot be stopped.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16148,6 +16174,7 @@
   db_uuid: df924e5962fc402088ee34a8e498c622
   tags: []
 - name: Dragon Kick
+  rules_text: +1 to Technique
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16155,6 +16182,7 @@
   db_uuid: 45b8ed9716ed4dbebe85185b4fbfb52d
   tags: []
 - name: Dragon Lariat
+  rules_text: +1 to Strike
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16162,14 +16190,17 @@
   db_uuid: 6a3a4081f02e441cadea3676e362ab96
   tags: []
 - name: Dropkick
+  rules_text: Stop any Grapple card.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
-  rules_text: Stop any Grapple card.
   deck_card_number: 25
   db_uuid: 1541769e71fa45da97417b60a5d207c3
   tags: []
 - name: Elbow to the Face
+  rules_text: 'Loko at your opponent''s hand, choose 1 card and bury it.
+
+    Your next turn roll is +1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16187,6 +16218,7 @@
   db_uuid: 098b843196b3432a84a4c4b184df905e
   tags: []
 - name: Head Stomp (V1)
+  rules_text: Draw 3 cards.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16194,6 +16226,9 @@
   db_uuid: 1b911719eecb49e7ae10343b3ab1c913
   tags: []
 - name: Head Stomp (V2)
+  rules_text: 'Stop any Grapple.
+
+    Draw 3 cards.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16201,6 +16236,11 @@
   db_uuid: 3c1c9f7c51b740039ac7d76e7a32693c
   tags: []
 - name: Leg Lariat
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Draw 1 card.
+
+    Your next turn roll is +2'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16208,6 +16248,9 @@
   db_uuid: ce07a294014844098cf4481ef341d651
   tags: []
 - name: Lightning Kick
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Your opponent''s next turn roll is -1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16215,6 +16258,9 @@
   db_uuid: 0cdae6f6c84d4799913c57feeda9a721
   tags: []
 - name: Lightning Lariat
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Your opponent''s maximum handsize is -1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16222,6 +16268,7 @@
   db_uuid: 2c077ae88e5a4c69abeb0683c764036c
   tags: []
 - name: Low Blow
+  rules_text: Each opponent's Gimmick is blank.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16229,6 +16276,9 @@
   db_uuid: c1f4280f169e4862b166f6f47d4acd2e
   tags: []
 - name: Lunge Punch
+  rules_text: 'If this is a Tag Team match, stop any Grapple.
+
+    Your Tag Team partner draws 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16236,6 +16286,10 @@
   db_uuid: c4eafe4f020a4014be35ac77d34a14f1
   tags: []
 - name: Mayhem Maul
+  rules_text: '+1 to your breakout rolls.
+
+    If the Crowd Meter is 2 or greater or this is a Steel Cage match, stop any Finish
+    Grapple.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16243,6 +16297,9 @@
   db_uuid: d908d9173f934beb844d9540b1f0087b
   tags: []
 - name: Mid-Air Collision
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Discard 2 cards your opponent has in play.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16250,6 +16307,11 @@
   db_uuid: 9242ea4bd0dd438291ff564490912bec
   tags: []
 - name: On Deck
+  rules_text: 'Stop any Finish Grapple.
+
+    When this card is in play, the match has no disqualifications.
+
+    Your maximum handsize is +2.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16257,6 +16319,9 @@
   db_uuid: aaeb5a4b70824b87bce940cdacb6ba0e
   tags: []
 - name: Pele Kick
+  rules_text: 'Stop any Lead Grapple or any Finish Grapple.
+
+    Draw 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16264,6 +16329,8 @@
   db_uuid: 6634fece29dd453b8c3355a821fc9a36
   tags: []
 - name: Pop Up Dropkick
+  rules_text: Each player adds the bottom card of their deck to their hand or stop
+    any Grapple.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16271,6 +16338,9 @@
   db_uuid: 704880b404a34f208c3c0f487a8bf0cf
   tags: []
 - name: Roaring Elbow
+  rules_text: 'Stop any Follow Up Grapple or Finish Grapple.
+
+    Cards in your opponent''s discard pile have blank text.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16278,6 +16348,9 @@
   db_uuid: 9c30906a4adc4c9db0c20ac56095c486
   tags: []
 - name: Running Knee Strikes
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Your opponent randomly buries 2 cards in their hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16285,6 +16358,9 @@
   db_uuid: 0092eefa61d14fc0ae3038f9ff2b84eb
   tags: []
 - name: Shotgun Kick
+  rules_text: 'Stop any Finish Grapple.
+
+    Put 1 Strike from your discard pile on top of your deck.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16292,6 +16368,8 @@
   db_uuid: 7b9a65cc871e43da941d8a30f01113cb
   tags: []
 - name: Skull-Crushing Knee
+  rules_text: Stop any Finish Grapple or each player buries 1 card in their hand and
+    if this is a Ring of Fire match, your opponent flips 1 card.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16309,6 +16387,9 @@
   db_uuid: a0880cf81bac4707b2a75c56890d2d1a
   tags: []
 - name: Springboard Moonsault
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Shuffle 2 Strikes from your discard pile into your deck.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16326,6 +16407,9 @@
   db_uuid: 61563cf784844717bb8b6941eb2403aa
   tags: []
 - name: Strike a Pose, Snap a Selfie
+  rules_text: 'Stop any Lead Grapple or any Finish Grapple.
+
+    If you stopped a Finish, the Crowd Meter is +1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16333,6 +16417,9 @@
   db_uuid: 829c591a0f1d4b358521ebcb9ae79c24
   tags: []
 - name: Superman Punch (V1)
+  rules_text: 'Stop any Finish Grapple.
+
+    Your next turn roll is +1.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16340,6 +16427,9 @@
   db_uuid: aa9ca01f85b44c1eaf854840880763c4
   tags: []
 - name: Superman Punch (V2)
+  rules_text: 'Stop any Finish Grapple.
+
+    Your next turn roll is +2.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16347,6 +16437,11 @@
   db_uuid: f57515122ed34b24a37096de183e1822
   tags: []
 - name: Supersonic Slap
+  rules_text: 'Stop any Finish Grapple.
+
+    Your Finish rolls are +1.
+
+    Skill Requirement: Strike 8+'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16354,6 +16449,9 @@
   db_uuid: 3eeadbda73264d15badba997eda3dadc
   tags: []
 - name: Swinging Double Axe Handle
+  rules_text: 'Stop any Finish Grapple.
+
+    Search your deck for 1 Strike and put it on top of your shuffled deck.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16361,6 +16459,9 @@
   db_uuid: 2779b1cb80af4936be3dd155a5281329
   tags: []
 - name: Tethered Knee Strike
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Grapple.
+
+    Draw 2 cards. Your opponent randomly buries 1 card in their hand.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16368,6 +16469,7 @@
   db_uuid: 33da147912be49ce85b59348b5d110d2
   tags: []
 - name: Throat Chop
+  rules_text: Stop any Grapple or each player buries 1 card in their discard pile.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16375,6 +16477,9 @@
   db_uuid: 206f86d6c2d142e38ee895ea3235d383
   tags: []
 - name: Tope Con Hilo
+  rules_text: 'Stop any Grapple.
+
+    Each player''s maximum handsize is +3.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16382,6 +16487,9 @@
   db_uuid: 47c04c1e63d2481b88b7217ca4056972
   tags: []
 - name: Twisting Splash
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    You may force your opponent to re-roll their next turn roll.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16400,6 +16508,10 @@
   db_uuid: c58b5c6d4561479c8c6ce8cf63344414
   tags: []
 - name: Universal Dropkick (V2)
+  rules_text: 'Stop any Finish Grapple.
+
+    If the stopped card did not have a Competitor Logo or Skill Requirement, the Crowd
+    Meter is +1 and this card is also a Finish.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16407,6 +16519,9 @@
   db_uuid: 702d7d214a094197b193d34e4af7850c
   tags: []
 - name: The Weight of Justice
+  rules_text: 'Stop any Follow Up Grapple or Finish Grapple.
+
+    Draw 1 card.'
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -16414,6 +16529,9 @@
   db_uuid: 44a040dabb9140d9a292395a98142894
   tags: []
 - name: Alpaca Slam
+  rules_text: 'Stop any Finish Submission.
+
+    Search your deck for 1 Grapple and put it on top of your shuffled deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard

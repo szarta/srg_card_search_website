@@ -26109,8 +26109,58 @@
   db_uuid: f89a0c5862fd4971a8fbb2a29565c026
   tags: []
 - name: Sabu
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  gender: Male
+  rules_text: Your cards with "Death", "Dive", or "Chair" in the name have the added
+    text "Draw 2 cards."
   card_type: SingleCompetitorCard
   db_uuid: bb3bee34d3df4e1384ba7c77b2a826f3
+  tags: []
+  related_finishes:
+  - 6ce2528d7e164b64be745bc7922bb564
+  - 8fcb804d0aed4d0fa0180724ccd82a92
+  - 3f7b071f969647bab710d8811763d78b
+- name: Triple Jump Moonsault
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +4 to Technique
+
+    +1 to Strike'
+  db_uuid: 6ce2528d7e164b64be745bc7922bb564
+  tags: []
+- name: Arabian Face Buster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    When this card is in your discard pile, your Follow Ups with "Death" or "Dive"
+    in the name are also Leads.'
+  db_uuid: 8fcb804d0aed4d0fa0180724ccd82a92
+  tags: []
+- name: Arabian Death Clutch
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: 3f7b071f969647bab710d8811763d78b
   tags: []
 - name: Sage The Christmas Witch
   power: 10

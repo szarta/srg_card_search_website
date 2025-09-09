@@ -22080,6 +22080,7 @@
   submission: 9
   grapple: 7
   gender: Male
+  division: Old School
   rules_text: At the start of your turn if you have fewer than 5 cards in your hand;
     draw until you have 5 cards in hand.
   db_uuid: c7119d9f0e1d443299252fe35743ae08
@@ -22092,6 +22093,7 @@
   strike: 10
   submission: 9
   grapple: 7
+  division: Old School
   rules_text: When you stop a Finish, draw 2 cards.
   gender: Male
   db_uuid: b220c64e3825487883e0396b0707082d
@@ -25285,6 +25287,16 @@
   db_uuid: 58f826bfd837442ba47de9fdacf90df5
   tags: []
 - name: Kameha Kahn
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 10
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: 'Ignore the word "Finish" in the text of your "Superman Punch". Those
+    cards are also #13 and #19. "Superman Punch" is also a Follow Up if you have another
+    "Superman Punch" in play.'
   division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
@@ -25898,6 +25910,14 @@
   db_uuid: ae3cdcd74b344ff18c243ef4db74de12
   tags: []
 - name: Lukewarm Stephen Houston
+  power: 7
+  technique: 9
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: If you rolled Strike for your turn roll, your Finish rolls are +2.
   division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
@@ -28954,8 +28974,30 @@
   card_type: TrioCompetitorCard
   db_uuid: a14e23bd862b4d4dacf331650e937063
   tags: []
-- name: 3 Kings
+- name: 3 Kings (V1)
+  power: 27
+  technique: 30
+  agility: 15
+  strike: 24
+  submission: 18
+  grapple: 21
   card_type: TrioCompetitorCard
+  rules_text: 'Triple the bonuses on your Finish cards.
+
+    When you have "King''s Welcome" in play, your turn roll are +3.'
+  db_uuid: ecffea75651e437f83990a613663b785
+  tags: []
+- name: 3 Kings (V2)
+  power: 27
+  technique: 30
+  agility: 15
+  strike: 24
+  submission: 18
+  grapple: 21
+  card_type: TrioCompetitorCard
+  rules_text: 'Triple the bonuses on your Finish cards.
+
+    When you have a card in play with "King" in the name, your turn rolls are +3.'
   db_uuid: f85c823ba32e460da89ff2052079e53d
   tags: []
 - name: AC Underlords
@@ -29271,6 +29313,15 @@
   db_uuid: ace62433009947bba25f3f954910f1e6
   tags: []
 - name: Goldlust
+  srg_url: https://supershowthegame.com/product/goldlust/
+  power: 9
+  technique: 7
+  agility: 6
+  strike: 8
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: When your skils are increased, your opponent's gimmick is blanked.
   card_type: SingleCompetitorCard
   division: Old School
   db_uuid: 3e9abd47231c419981518fc2ab84a2cc
@@ -29503,11 +29554,30 @@
   db_uuid: a165b1a7bd3e43958eee8a319ef94074
   tags: []
 - name: Rey Zerblade
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: 'Once per turn roll: When you would bump, you may discard 1 Lead you
+    have in play to add +1 to your turn roll instead.'
+  srg_url: https://supershowthegame.com/product/ray-zerblade/
   card_type: SingleCompetitorCard
   division: Old School
   db_uuid: 3e6ec7e5fe33421d83a699ac956a6858
   tags: []
 - name: Stung
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 5
+  gender: Male
+  rules_text: When your opponent hits a Strike, you may put 1 Strike from your discard
+    pile on top of your deck.
   card_type: SingleCompetitorCard
   division: Old School
   db_uuid: 4fca7d06fac844ef810d022629b265ff

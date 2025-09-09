@@ -20437,6 +20437,7 @@
   strike: 8
   submission: 5
   grapple: 6
+  division: Intergalactic
   rules_text: 'When you roll Agility:
 
     Reveal the top 2 cards of your deck, randomly add 1 to your hand and bury the
@@ -20451,6 +20452,7 @@
   strike: 8
   submission: 7
   grapple: 10
+  division: Intergalactic
   rules_text: When you hit a card with "Dive", "Fin" or "Surf" in the name, draw 1
     card.
   db_uuid: 3fbecda1ffc64b9fa731e5b06f260e33
@@ -20648,6 +20650,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  division: Intergalactic
   rules_text: 'When you roll Power or Strike for your turn roll: Reveal the top card
     of your deck.  If it is a Finish, add it to your hand.  If not, you may bury it.'
   db_uuid: 7ac80714f1ab41098576a251ee693064
@@ -20739,6 +20742,7 @@
   strike: 6
   submission: 10
   grapple: 5
+  division: Intergalactic
   rules_text: 'When you roll Power: Randomly choose 2 cards in your discard pile,
     add 1 to your hand and bury the other.'
   db_uuid: f45bbd93c4b14c91bb85df10e4a82c31
@@ -20951,6 +20955,7 @@
   strike: 10
   submission: 8
   grapple: 9
+  division: Intergalactic
   rules_text: 'When you roll Strike for your turn roll: look at the top 3 cards of
     your deck, bury 1 and put the others back on top of your deck in any order.'
   db_uuid: 4fc0e0b35e794efbb3c6ee6cba33821b
@@ -20974,6 +20979,7 @@
   strike: 8
   submission: 5
   grapple: 7
+  division: Intergalactic
   rules_text: When your opponent rolls Power for their turn roll, draw 1 card.
   db_uuid: a7da12c2bc874900b264623582ebfaeb
   tags: []
@@ -21064,6 +21070,7 @@
   strike: 9
   submission: 8
   grapple: 7
+  division: Intergalactic
   rules_text: 'When you roll Agility for your turn roll: Your cards with "Flying"
     in the name cannot be stopped.'
   db_uuid: 77fe6f7ba5eb4399bcbbe80d9d889767
@@ -23481,6 +23488,7 @@
   db_uuid: ee6c96e6131446909a2014075f80f2f7
   tags: []
 - name: The Consigilere
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
   tags: []
@@ -25911,6 +25919,7 @@
   db_uuid: 202418b1360d433daf406ee61bfd8e2f
   tags: []
 - name: The Mad One
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: c1a5f166e8d5469c9b64db175c6287df
   tags: []
@@ -25920,6 +25929,7 @@
   db_uuid: 1d26487afa2949a1926a43da578ce8ab
   tags: []
 - name: Maestro
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: da079db2b3084e20af107b64d23149a0
   tags: []
@@ -25956,6 +25966,7 @@
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
   tags: []
 - name: Marcus Samuel Selmore
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
   tags: []
@@ -25977,6 +25988,7 @@
   db_uuid: a65cebf0b6ce40158c7d786af90a5e1d
   tags: []
 - name: Mars
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: c487866114d74ebd9ca474bf13f38fb3
   tags: []
@@ -25985,6 +25997,7 @@
   db_uuid: dba1d61db20b496486642845a978d752
   tags: []
 - name: Masked Beetle
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 652f4cdb84a5453b852723eaa0ddc994
   tags: []
@@ -26064,6 +26077,7 @@
   db_uuid: 0a2b9d6fc8f74186a5088cad2858e64a
   tags: []
 - name: Mastermind
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
   tags: []
@@ -26104,6 +26118,7 @@
   db_uuid: d7de2a59d5f04f41968fca33387c4304
   tags: []
 - name: Maverick Jones
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
   tags: []
@@ -26146,6 +26161,7 @@
   strike: 8
   submission: 5
   grapple: 10
+  division: Intergalactic
   rules_text: When your opponent uses their Gimmick from a roll, hitting a card, or
     added text, copy that effect.
   gender: Ambiguous
@@ -26176,6 +26192,7 @@
   db_uuid: dde6c34e818d4973a031d0d6373ee395
   tags: []
 - name: Mercury
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 0a5c355b041a4cf6bd2b78d9549d162f
   tags: []
@@ -26241,6 +26258,7 @@
   db_uuid: 924e81a6d29b4983bf9be0918a459760
   tags: []
 - name: Miss Super Nova
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd
   tags: []
@@ -26253,12 +26271,18 @@
   card_type: SingleCompetitorCard
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
   tags: []
-- name: The Mortician
+- name: The Mortician (V1)
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: cfc8e0da7777443d9f5530324b665a90
   tags: []
+- name: The Mortician (V2)
+  division: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: 94098185bbab40a193461c89ab56ddce
+  tags: []
 - name: Moth Man
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 952b0cc79573451cbabdfb3a8297bea4
   tags: []
@@ -26322,6 +26346,7 @@
   db_uuid: f21af76d53d64bc48ad430cb5ebae5bf
   tags: []
 - name: Neptune
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: c42a2ced9d3541b9a257556fe7233471
   tags: []
@@ -26340,6 +26365,7 @@
   db_uuid: 3ff32d2089504028b07d301071f12f2f
   tags: []
 - name: Nightmare King
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 18c894fdf2ff4833a9f557629568e1b6
   tags: []
@@ -26603,6 +26629,7 @@
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
   tags: []
 - name: Pang
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 67774251b6ed4a2a89c50ff7c5a0e129
   tags: []
@@ -26619,6 +26646,7 @@
   submission: 9
   grapple: 5
   gender: Female
+  division: Intergalactic
   rules_text: When you roll Agility for your turn roll, draw 1 card and discard 1
     card from your hand.
   card_type: SingleCompetitorCard
@@ -26670,6 +26698,7 @@
   db_uuid: 72ca0ec381b44e6cafbb6992e89eb2ba
   tags: []
 - name: The Phantasm
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: b893411fa9304bc1a3c34615e6c3c10d
   tags: []
@@ -26729,10 +26758,12 @@
   db_uuid: b8a01bfe1df7408ba4204b9d0e397796
   tags: []
 - name: Player of the Era
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 2a1ae85ae5c84ea0a72d5cc44553199c
   tags: []
 - name: Pluto
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
   tags: []
@@ -26947,6 +26978,7 @@
   db_uuid: e1b8cc42d0774c118785d02b296909f3
   tags: []
 - name: Random Guy
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
   tags: []
@@ -26959,6 +26991,7 @@
   db_uuid: 6e915bbeb0b148a4a578992b50c63bbe
   tags: []
 - name: Ray'gr Dragon God
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 6f0c54f9e3074538baff7a1171fa4fb2
   tags: []
@@ -27078,6 +27111,7 @@
   db_uuid: 09d06a9ded0f4fcd8c197946ec4f2424
   tags: []
 - name: Romeo 3000
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: b5dab595d5cc4b4fa0692a3a5903d639
   tags: []
@@ -27103,6 +27137,7 @@
   db_uuid: be895fbbb37448009c28ff251d72b650
   tags: []
 - name: Runtime Terror (V2)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 80b6384e29ae4f66bfd3659bc59fbee5
   tags: []
@@ -27116,6 +27151,7 @@
   db_uuid: fc43a93f413d4560993cb36a1128f06b
   tags: []
 - name: Ryton
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: f89a0c5862fd4971a8fbb2a29565c026
   tags: []
@@ -27181,6 +27217,7 @@
   submission: 6
   grapple: 8
   gender: Female
+  division: Intergalactic
   rules_text: '3 times per match:
 
     When you roll Power for your Turn Roll, add 1 card from your discard pile to your
@@ -27196,6 +27233,7 @@
   submission: 6
   grapple: 8
   gender: Female
+  division: Intergalactic
   rules_text: 'When you roll Power: Flip 3 cards, then shuffle 2 cards from your discard
     pile into your deck.'
   card_type: SingleCompetitorCard
@@ -27208,6 +27246,7 @@
   strike: 7
   submission: 8
   grapple: 9
+  division: Intergalactic
   rules_text: '3 times per match:
 
     When you roll Power:
@@ -27225,6 +27264,7 @@
   submission: 5
   grapple: 7
   gender: Male
+  division: Intergalactic
   rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw
     2 cards, and your opponent buries 1 card from their hand.
   card_type: SingleCompetitorCard
@@ -27245,10 +27285,12 @@
   db_uuid: 20c146c8c0854329807a89143269a8fb
   tags: []
 - name: Santa's Little Helper
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 1ff9513294ec45d9b52189d8c6f7005c
   tags: []
 - name: Santa's Little Llama
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 9c53d33649a64c25bbef794fb6c24f29
   tags: []
@@ -27277,10 +27319,16 @@
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
   tags: []
 - name: Shade
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 54590750c88a4c3aaa4f2a98cbb6207e
   tags: []
-- name: Shadow Phoenix
+- name: Shadow Phoenix (V1)
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: b6a34c56cfb041e7839acfaf3e0a0eab
+  tags: []
+- name: Shadow Phoenix (V2)
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 84910742683d4cd2af7a57cd571c74cf
@@ -27314,6 +27362,7 @@
   db_uuid: d83034fb8a4048fd89625212f4aa6d1f
   tags: []
 - name: Shieldmaiden
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 69b89fd47e764b3e80717925ac407b40
   tags: []
@@ -27323,6 +27372,7 @@
   tags: []
 - name: Shui
   card_type: SingleCompetitorCard
+  division: Intergalactic
   db_uuid: 788f9c483d6a4aeda29a5b340fe9b329
   tags: []
 - name: Silent J
@@ -27344,6 +27394,7 @@
   submission: 5
   grapple: 6
   gender: Ambiguous
+  division: Intergalactic
   rules_text: 'Three times per match, during your turn roll: Your Strike skill is
     +1 until the end of your next turn.'
   card_type: SingleCompetitorCard
@@ -27384,6 +27435,7 @@
   submission: 10
   grapple: 5
   gender: Male
+  division: Intergalactic
   rules_text: If you ended your turn without playing a card, flip1 card.  If it is
     a non-Finish, play it.
   card_type: SingleCompetitorCard
@@ -27427,6 +27479,7 @@
   submission: 10
   grapple: 5
   gender: Female
+  division: Intergalactic
   card_type: SingleCompetitorCard
   rules_text: When you roll Agility for your turn roll, draw 1 card and your next
     turn roll is +1.
@@ -27578,6 +27631,7 @@
   db_uuid: cd283aee6aec4624870ed56c983f9951
   tags: []
 - name: Spite
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: a1b507c0d9c243eaa9b9dbf8777f6db9
   tags: []
@@ -27590,6 +27644,7 @@
   db_uuid: 449d43de669140c5aacc34b0a7dcfb7e
   tags: []
 - name: The SRG Boss (V1)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 5bb1291d12d94245872efd166cdd72fc
   tags: []
@@ -27786,6 +27841,7 @@
   db_uuid: 6868fc4520954fd4a3ca756d11b59d18
   tags: []
 - name: Ultimate Grump
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 26cdda7245744396ae988697babdef2f
   tags: []
@@ -27811,6 +27867,7 @@
   db_uuid: 0beebc490ed0447f9a1323c470f94454
   tags: []
 - name: The Underhoss
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 80d48aba45684fb29c71c0095125c481
   tags: []
@@ -27823,6 +27880,7 @@
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   tags: []
 - name: Uranus
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 60f3433ddd5745c9905583b60466a734
   tags: []
@@ -27832,14 +27890,17 @@
   db_uuid: 58b34930fa664d1ebf89b1058b14a48a
   tags: []
 - name: Vampyr Bastet
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 0e97a0fb8d70423182a7daf7b484f8f8
   tags: []
 - name: Vampyr Sehkmet (V1)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 18c9a0e41d4a4315a4e453bdb39d2be5
   tags: []
 - name: Vampyr Sehkmet (V2)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: d8612a432fb34af1a9af56350f3af247
   tags: []
@@ -27966,18 +28027,22 @@
   db_uuid: 81fa1f8c73a04f7e8010d951be00e4c0
   tags: []
 - name: Viral
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: a35ca200648749e5be284b5904b94523
   tags: []
 - name: Void (V1)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 32bc1449683540558a8f0606922e3885
   tags: []
 - name: Void (V2)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 30112e84fc814802a4d4ec817e143e69
   tags: []
 - name: Wait for It Chopper
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: ebc3e1b4fbf942f5b11c1d60f57185e5
   tags: []
@@ -28015,6 +28080,7 @@
   db_uuid: f4d37bc8209e4db5b7eb75f4bdf8aaaf
   tags: []
 - name: Witch Hunter General
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
   tags: []
@@ -28102,6 +28168,7 @@
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   tags: []
 - name: Zero Win Champion
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   tags: []
@@ -28118,6 +28185,7 @@
   submission: 5
   grapple: 10
   gender: Male
+  division: Intergalactic
   rules_text: 'Once a turn roll, when your turn roll is at least 3 less than your
     opponent''s: add 1 non-Finish card from your discard pile to your hand.'
   card_type: SingleCompetitorCard
@@ -28132,6 +28200,7 @@
   grapple: 8
   gender: Ambiguous
   card_type: SingleCompetitorCard
+  division: Intergalactic
   db_uuid: c3fe9806c9c14f4f844a8c904c2969ab
   tags: []
 - name: The Zookeeper
@@ -28167,6 +28236,7 @@
   submission: 10
   grapple: 7
   gender: Male
+  division: Intergalactic
   rules_text: When your opponent draws a card from a card that was hit or Gimmick,
     your next turn roll is +1.
   srg_url: https://supershowthegame.com/product/the-centipede/
@@ -29224,7 +29294,12 @@
   division: Hardcore
   db_uuid: 832a2522203547d99ceef3c759d18c0f
   tags: []
-- name: Nirab Woken Dragon God
+- name: Nirab Woken Dragon God (V1)
+  division: Intergalactic
+  card_type: SingleCompetitorCard
+  db_uuid: d1e4395c81ca492b8f180aaf5b6431b8
+  tags: []
+- name: Nirab Woken Dragon God (V2)
   card_type: SingleCompetitorCard
   division: Hardcore
   db_uuid: bfefc5f5bee84743a9cfa9f191e36874
@@ -29238,4 +29313,54 @@
   card_type: SingleCompetitorCard
   division: Hardcore
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
+  tags: []
+- name: Mad Hatter
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: e8cc1344fd0740a7a6b6695753fac43d
+  tags: []
+- name: Master Cringe
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: d35236745f0a4554b20205b440660315
+  tags: []
+- name: Moonstar
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: d300d0adc8fa40e6920db70814656422
+  tags: []
+- name: Mr. Hyde
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: ceb9126b162c4be69b9291c088d3fe5b
+  tags: []
+- name: Phoenix Reborn
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: d77ce9c2b17a4083ad3f8b6a1f28a647
+  tags: []
+- name: Ranger Dangerfield
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: cc37ceca4d674cb2ac35e22f4f712b25
+  tags: []
+- name: Sage
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: 44440e26ba144e41809ba12efc0f6c48
+  tags: []
+- name: Santa Calace
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: ec4a5153f73e4145ae00e17b1124a3ed
+  tags: []
+- name: Scrappers
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: d159fc362f2c49e2b730c3806319e5f5
+  tags: []
+- name: Soto the Goato
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: a165b1a7bd3e43958eee8a319ef94074
   tags: []

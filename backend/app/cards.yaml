@@ -19718,6 +19718,7 @@
   submission: 6
   grapple: 8
   gender: Male
+  division: Hardcore
   rules_text: When "Kendo Stick" would be discarded from your hand, flipped, or buried,
     you may instead add it to your hand.
   card_type: SingleCompetitorCard
@@ -19732,6 +19733,7 @@
   submission: 6
   grapple: 8
   gender: Male
+  division: Hardcore
   rules_text: 'When a Lead or Follow Up with "Kendo Stick" in the name would be discarded
     from your hand, flipped, or buried, you may instead add 1 of those cards to your
     hand. Your card "Kendo Stick" is also card #02 and #03'
@@ -20547,6 +20549,7 @@
   rules_text: 'Once on your turn: When you hit a card with "Stomp", "Strike", or "Elbow"
     in the name, you may play an additional card this turn or your next turn roll
     is +1.'
+  division: Hardcore
   db_uuid: e528c01c4ef1460ca9ab29abf8c95795
   tags: []
 - name: "Hurac\xE1n Gonzalez"
@@ -20610,6 +20613,7 @@
   submission: 9
   grapple: 10
   rules_text: When you hit a Grapple, draw 1 card.
+  division: United States
   db_uuid: 9f7dc2e4f7ac49e882a24a302edf11cf
   tags: []
 - name: Lady Baa Baa (V2)
@@ -20620,6 +20624,7 @@
   strike: 8
   submission: 9
   grapple: 10
+  division: United States
   rules_text: When you flip 2 or more cards your opponent buries 1 card in their hand.
   db_uuid: 4dc9406afb1d4653ad5f425c11f08895
   tags: []
@@ -20655,6 +20660,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  division: Hardcore
   rules_text: 'When your roll Power: flip 2 cards or add 1 card with "Lightning" or
     "Thunder" in the name from your discard pile to your hand.'
   db_uuid: 0fb5de690e334ce8be4937834aefd0df
@@ -20694,6 +20700,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  division: Hardcore
   rules_text: Once a turn, after your shuffle your deck for any reason, your opponent
     buries 1 card in their hand.
   db_uuid: 4bf2907638d84683be82637d1ac34c52
@@ -20706,6 +20713,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  division: Hardcore
   rules_text: After you shuffle your deck, your opponent shuffles 1 card from their
     hand into their deck.
   db_uuid: f08974e57d3b4c2493b417fcbd49acb6
@@ -20718,6 +20726,7 @@
   strike: 8
   submission: 10
   grapple: 7
+  division: Hardcore
   rules_text: At the start of the match, choose an opponent, their Power is -1 during
     their turn, turn rolls, and 1st and 2nd breakout rolls.
   db_uuid: 9c2616f1fc8c48aaa65cc468f99ff45d
@@ -20785,6 +20794,7 @@
   strike: 9
   submission: 7
   grapple: 8
+  division: Hardcore
   rules_text: When your opponent stops your Follow Up or Finish, choose 1 card they
     have in play and discard it.
   db_uuid: 5097d05f3632489d910adf649a49738c
@@ -20809,6 +20819,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  division: Hardcore
   rules_text: When your opponent stops a card with "Table", "Ladder", "Sweep" or "Trash"
     in the name, shuffle 1 other card from your discard pile into your deck and draw
     1 card.
@@ -20841,6 +20852,7 @@
   db_uuid: 7ea7597e056c450c9803bcaae977845a
   tags: []
 - name: Miss Fury
+  division: Hardcore
   card_type: SingleCompetitorCard
   power: 5
   technique: 10
@@ -20861,6 +20873,7 @@
   submission: 7
   grapple: 5
   gender: Male
+  division: United States
   rules_text: When you hit a card with "Punch" or "Armenian" in the name, your opponent
     buries 1 card in their hand.
   db_uuid: 5a74b42a67f04dc49ab389fa85990732
@@ -20875,6 +20888,7 @@
   grapple: 6
   rules_text: When you look at your opponent's hand, your next turn roll is +2.
   db_uuid: d06978f5f81f477bb9dd27d0287c0008
+  division: Hardcore
   tags: []
 - name: Eddy Fury (V1)
   card_type: SingleCompetitorCard
@@ -20917,6 +20931,7 @@
   db_uuid: 894eccb4c2544059906d26ee3fc10ad1
   tags: []
 - name: King Hyena
+  division: Global
   card_type: SingleCompetitorCard
   power: 10
   technique: 6
@@ -21061,6 +21076,7 @@
   strike: 10
   submission: 7
   grapple: 9
+  division: Hardcore
   rules_text: When you hit a Strike, flip cards until you flip a Grapple, add that
     Grapple to your hand.
   db_uuid: 0249f279219841f193bbe597ef7a3c02
@@ -21086,6 +21102,7 @@
   strike: 9
   submission: 6
   grapple: 8
+  division: United States
   rules_text: When you roll Agility, flip 3 cards or add 1 Strike from your discard
     pile to your hand.
   db_uuid: 0fc731c613e04c7481649b43cf72d7ae
@@ -21105,6 +21122,7 @@
   db_uuid: 03bfb9ac23074c849c4060a007636218
   tags: []
 - name: King Grumpy Thunder Jr.
+  division: United States
   card_type: SingleCompetitorCard
   power: 5
   technique: 7
@@ -21240,6 +21258,7 @@
   strike: 6
   submission: 10
   grapple: 7
+  division: Global
   rules_text: 'FRONT: Once a turn roll: You may flip this card over.\nBACK (errata):
     You may 3 times per match:\nWhen you roll Agility for your turn roll; you may
     search your deck or discard pile for 1 card with \"Flying\" or \"Top Rope\" in
@@ -21254,6 +21273,7 @@
   strike: 8
   submission: 5
   grapple: 9
+  division: Global
   db_uuid: 791665e646e2401cbcd86f01a35c1522
   tags: []
 - name: The Wall of Text
@@ -21894,6 +21914,7 @@
   grapple: 8
   rules_text: When your opponent stops a carrd, their stop has blank text.
   gender: Male
+  division: Intergalactic
   db_uuid: 1ea91ed2c91747f7806571a25debc498
   tags: []
 - name: King Pink
@@ -21906,6 +21927,7 @@
   grapple: 6
   rules_text: You may bury 3 cards in your hand to stop any Grapple.
   gender: Male
+  division: United States
   db_uuid: 71989d2b62a44dafb3f0ad94537395c7
   tags: []
 - name: Krampus
@@ -21916,6 +21938,7 @@
   strike: 8
   submission: 6
   grapple: 9
+  division: Intergalactic
   rules_text: 'Once per match: Your opponent may discard their hand, if that do not,
     add 2 cards from your discard pile to your hand.'
   db_uuid: 9aea25a1ebc64c38bcae52df7777e63e
@@ -21929,6 +21952,7 @@
   submission: 8
   grapple: 8
   gender: Male
+  division: Global
   rules_text: When you hit a card with "Steel Chain" in the name, your opponent randomly
     buries 1 card in their hand. If "Blast Into the Light Tubes" is stopped, the match
     does not end via Disqualification.
@@ -21943,6 +21967,7 @@
   submission: 9
   grapple: 7
   gender: Male
+  division: United States
   rules_text: When you roll Technique, flip 1 card and add 1 card with "Head", "Neck",
     or "Cut" in the name from your discard pile to your hand.
   db_uuid: 13913c745b87446ba38dc4ae17349f25
@@ -21956,6 +21981,7 @@
   submission: 6
   grapple: 7
   gender: Female
+  division: Intergalactic
   rules_text: Once during each of your turns, you may discard 1 Lead you have in play
     to draw 1 card.
   db_uuid: 2484608eb1014b2a8ba2b96948539452
@@ -24814,6 +24840,7 @@
   db_uuid: 818d5a2501ce481ca42886e95e7d0943
   tags: []
 - name: History Making Matt Pineapple
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 70ec50606f764d35bbbbaf40618177da
   tags: []
@@ -25102,11 +25129,17 @@
   db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
   tags: []
 - name: Johnny Gargano
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 17371174d48f48d59a01492841a75416
   tags: []
-- name: Johnny Korea
+- name: Johnathan N Korea
+  card_type: SingleCompetitorCard
   division: Hardcore
+  db_uuid: 6fee88b1e0494bec9e0181ab6735a50b
+  tags: []
+- name: Johnny Korea
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
   tags: []
@@ -25121,12 +25154,14 @@
 - name: Johnny Supershow (V2)
   card_type: SingleCompetitorCard
   gender: Male
+  division: Global
   rules_text: 'Once during your turn when you hit a card with "Slam" in the name:
     Draw 1 card or you may play 1 additional card this turn.'
   db_uuid: 4ca508f3c6b44cd88defa9aafb4aefbb
   tags: []
 - name: Johnny T
   card_type: SingleCompetitorCard
+  division: World Championship
   db_uuid: c79de6acd1954441970f9b1901a55e01
   tags: []
 - name: Jokerfish (V1)
@@ -25137,8 +25172,9 @@
   submission: 7
   grapple: 6
   gender: Male
-  rules_text: "When you roll Power, Agility, or Submission: Your opponent flips 1\
-    \ card, then you may bury 1 card in your opponent\u2019s discard pile."
+  division: Hardcore
+  rules_text: 'When you roll Power, Agility, or Submission: Your opponent flips 1
+    card, then you may bury 1 card in your opponent''s discard pile.'
   card_type: SingleCompetitorCard
   db_uuid: 52ba551f1c3c40269d6a8ead69693cc3
   tags: []
@@ -25150,8 +25186,10 @@
   submission: 7
   grapple: 6
   gender: Male
-  rules_text: "Your opponent\u2019s Finishes are also Follow Ups for your Stop cards.\n\
-    Your cards #19-21 cannot stop cards."
+  division: Underworld
+  rules_text: 'Your opponent''s Finishes are also Follow Ups for your Stop cards.
+
+    Your cards #19-21 cannot stop cards.'
   card_type: SingleCompetitorCard
   db_uuid: d9e5097bbec7440c997cfff511cf0f39
   tags: []
@@ -25163,6 +25201,7 @@
   submission: 7
   grapple: 6
   gender: Male
+  division: Intergalactic
   rules_text: 'Your cards #1, #2, #2, #25, #26, #27 cannot be stopped.
 
     Your "Backslide" and "School Boy" have blank text.'
@@ -25170,66 +25209,82 @@
   db_uuid: a97d8d2421e84165b130869e43af2695
   tags: []
 - name: Joulupukki
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: c00569ab32544866b8eb51008e821d17
   tags: []
 - name: Jordan Oliver (V1)
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ce62c04bdaf54cc1b72280f22e89589a
   tags: []
 - name: Jordan Oliver (V2)
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 24a750cd651b4ed0952e5d933524a9f0
   tags: []
 - name: Joseph Ritchie
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: e5093ca247334348986ed94e04c5bb76
   tags: []
 - name: JP Warhorse
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 5798171c5d814f3c9f2926be67a2b347
   tags: []
 - name: JPL
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
   tags: []
 - name: JT Dunn
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: b41d30281182409c8d64717d314ab4bc
   tags: []
 - name: Jupiter
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 75d2a722d7674b46958451b843d04078
   tags: []
 - name: K7 Sniper
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
   tags: []
 - name: Kaleb With a K
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 58f826bfd837442ba47de9fdacf90df5
   tags: []
 - name: Kameha Kahn
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
   tags: []
 - name: Katy Kitty (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 9acd6c2f43f649aea388f5fa72c04570
   tags: []
 - name: KayJay Impala
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 376f821b06c94e4688ebf91d872b7d6e
   tags: []
 - name: Kazuchika Okada
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ef3da0aa20f646bc8d33957331a170da
   tags: []
 - name: Ken Broadway
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
   tags: []
 - name: Kenny Omega
+  division: Underworld
   power: 5
   technique: 8
   agility: 9
@@ -25237,33 +25292,38 @@
   submission: 6
   grapple: 10
   gender: Male
-  division: Underworld
   rules_text: 'When you roll Grapple: Choose 1 card your opponent has in play and
     put it in their discard pile.'
   card_type: SingleCompetitorCard
   db_uuid: a65f29782caf41678005bafaf83802cc
   tags: []
 - name: Kenta
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: c5956ba466a341ad8e89c6a23ed5a839
   tags: []
 - name: The Kenway
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: cc1f76c2186a4f5eb3ba93baf87df3d3
   tags: []
 - name: Kenzie Page
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 84b60d0aecfa4ddd80a546a12ad8317d
   tags: []
 - name: Khloe Mai
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 3c8273a9252a46feb337348e29c30ad3
   tags: []
 - name: Kid Fresh
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
   tags: []
 - name: Kid Thunder
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 223b53a8b2c34a37ac87a18cf0b1bdae
   tags: []
@@ -25272,6 +25332,7 @@
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
   tags: []
 - name: King Carcosa
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
   tags: []
@@ -25288,6 +25349,7 @@
 
     Choose 1 and add its Gimmick to yours.'
   card_type: SingleCompetitorCard
+  division: Global
   db_uuid: fb1e57613abe48419157410bb5bce677
   tags: []
 - name: The King of Cosplay Mikal Mosley (V2)
@@ -25299,6 +25361,7 @@
   grapple: 8
   gender: Male
   card_type: SingleCompetitorCard
+  division: Global
   rules_text: When your opponent rolls Power for their turn roll, they discard 1 card
     from their hand.
   db_uuid: b16922b7a21042738523cac808b2f8ea
@@ -25312,6 +25375,7 @@
   grapple: 8
   gender: Male
   card_type: SingleCompetitorCard
+  division: Global
   rules_text: When your opponent rolls Agility for their turn roll, they flip 1 card
     and you draw 1 card.
   db_uuid: 28da6b168039468b89f78710aaec5d00
@@ -25325,6 +25389,7 @@
   grapple: 8
   gender: Male
   card_type: SingleCompetitorCard
+  division: Global
   rules_text: When your opponent rolls Strike for their turn roll, your next turn
     roll is +1.
   db_uuid: 345f7d47cf234eb3a981772c526c907d
@@ -25338,6 +25403,7 @@
   grapple: 8
   gender: Male
   card_type: SingleCompetitorCard
+  division: Global
   rules_text: When your opponent rolls Submission for their turn roll, their roll
     is -1.
   db_uuid: 3124ae029b5b4f198da1205746f0e8a9
@@ -25353,6 +25419,7 @@
   rules_text: When your opponent rolls Grapple for their turn roll, their Gimmick
     is immediately blanked until the end of the turn roll.
   card_type: SingleCompetitorCard
+  division: Global
   db_uuid: 69230ad7b2ad47338be6f6f01306fcf9
   tags: []
 - name: The King of Cosplay Mikal Mosley (V7)
@@ -25366,13 +25433,16 @@
   rules_text: When your opponent rolls Technique for their turn roll, you may discard
     1 card from your hand to randomly add 1 card from your discard pile to your hand.
   card_type: SingleCompetitorCard
+  division: Global
   db_uuid: 30bff9a4cd32426c85ef7d851eda5f2e
   tags: []
 - name: King Greatness
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 7e5c8dfeecc041958080980601611097
   tags: []
 - name: King Kold
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
   tags: []
@@ -25393,22 +25463,27 @@
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
   tags: []
 - name: King of New York
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 43ac7d0570b24608a28f525f00156ffe
   tags: []
 - name: The King of Strings
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: cc2319413d394caa9da0a045a4141797
   tags: []
 - name: Koby the Kid
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: bf301e6c594b4946a34618e4e43af90b
   tags: []
 - name: Kota Ibushi
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ccfe5910ae174623b2a7f5b0f96e24d2
   tags: []
 - name: Kung Fu Donnie Janela
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
   tags: []
@@ -25420,6 +25495,7 @@
   submission: 5
   grapple: 9
   gender: Male
+  division: Global
   rules_text: 'During your turn: Double the numbers in your cards with "Chair" in
     the name.'
   srg_url: https://supershowthegame.com/product/la-park/
@@ -25433,6 +25509,7 @@
   strike: 5
   submission: 6
   grapple: 8
+  division: Intergalactic
   gender: Female
   rules_text: 'Once per turn roll, when your opponent rolls Technique, flip 1 card:
     If that card is a Follow Up you may play it immediately as if it were also a Lead
@@ -25449,16 +25526,19 @@
   submission: 9
   grapple: 6
   gender: Female
+  division: Intergalactic
   rules_text: 'When your opponent rolls Technique for their turn roll: Their Gimmick
     is blank until the end of their next turn.'
   card_type: SingleCompetitorCard
   db_uuid: d854a32accd5403b9a4be851ff31a292
   tags: []
 - name: L.E.O. the Law
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: d972645ab8854914be96f3bf114ac119
   tags: []
-- name: La Fenix
+- name: La Fenix (V1)
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 92d9e53180de40039d33b076e18b9127
   tags: []
@@ -25477,10 +25557,12 @@
   db_uuid: 7c74c7826eeb4f44b91805c51d1c7ac4
   tags: []
 - name: Lawman Nick
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2a686043f4ae434ab26a14adaf168625
   tags: []
 - name: Le Penguin
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
   tags: []
@@ -25495,7 +25577,7 @@
     "Flock", or "Stun" in the name from your discard pile into your deck and draw
     1 card.'
   gender: Male
-  division: Underworld
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 52492d03968e461d8a3e1e860491db9a
   related_finishes:
@@ -25543,6 +25625,7 @@
   db_uuid: 0fe383c8e4fe4083bb11149f4564a081
   tags: []
 - name: Lemmy Adam
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
   tags: []
@@ -25554,6 +25637,7 @@
   submission: 6
   grapple: 7
   rules_text: 'During your turn: When your opponent stops a Strike, draw 2 cards.'
+  division: Hardcore
   gender: Female
   card_type: SingleCompetitorCard
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
@@ -25577,6 +25661,7 @@
     add 2 to your hand and bury the other.
   card_type: SingleCompetitorCard
   db_uuid: 6923749ac3f344d683b1f4a896475fa1
+  division: Hardcore
   tags: []
   related_finishes:
   - c93fe52c4b404c52ba779758257db6af
@@ -25659,6 +25744,7 @@
   db_uuid: 4871ba4a724847959f6c55d2c4353658
   tags: []
 - name: Liger
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 109e75661c724f3793fd139706a5b8b5
   tags: []
@@ -25670,6 +25756,7 @@
   submission: 10
   grapple: 7
   gender: Female
+  division: Hardcore
   rules_text: 'When you have fewer stops in play than your opponent your Power, Technique
     and Agility are +1.
 
@@ -25692,14 +25779,17 @@
   db_uuid: e2bac1fd8d714ca8a1864b32dc79cb04
   tags: []
 - name: Lio Rush
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f
   tags: []
 - name: Lissa Langnatt
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 088fca386b3e47fcb5b1087f3b7def31
   tags: []
 - name: Little Guido
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
   tags: []
@@ -25715,6 +25805,7 @@
   submission: 8
   grapple: 6
   gender: Male
+  division: United States
   rules_text: 'When you roll Agility for your turn roll:
 
     you may discard 1 Stop from your hand; then your opponent may discard 1 Stopfrom
@@ -25731,6 +25822,7 @@
   submission: 8
   grapple: 6
   gender: Male
+  division: United States
   rules_text: 'When you roll Agility for your turn roll:
 
     You may discard 1 Stop from your hand.
@@ -25740,38 +25832,47 @@
   db_uuid: a3dc1cd621024041800ecfc693c48b89
   tags: []
 - name: Lone Bear and His Cub
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
   tags: []
 - name: Lonestar
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: b9371784bd32450993c3b7574677c3c7
   tags: []
 - name: Lord Garruth
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 411450337c044fafaa3188e60e721a92
   tags: []
 - name: Lord of the Dance
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 7959be929d324ad897255b94a99a57b1
   tags: []
 - name: Lord Thompson
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: f63d587175404c10a36bdcd1e89338af
   tags: []
 - name: Loudmouth Leo Larynx
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: def74dd5530540ce8a9e903bc10fd620
   tags: []
 - name: Luchamaniacal Uberstar
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 72b5e77d43f04fa698236a65d51bde24
   tags: []
 - name: Lucky Cat Neko
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: ae3cdcd74b344ff18c243ef4db74de12
   tags: []
 - name: Lukewarm Stephen Houston
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
   tags: []
@@ -25784,10 +25885,12 @@
   db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
   tags: []
 - name: Lycan
+  division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 6610ac46791b4527b45006f551fe028e
   tags: []
 - name: Macho Manny
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: a09bc1774f984c6287207df2a01a4eee
   tags: []
@@ -25812,6 +25915,7 @@
   db_uuid: c1a5f166e8d5469c9b64db175c6287df
   tags: []
 - name: Madman Fulton
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 1d26487afa2949a1926a43da578ce8ab
   tags: []
@@ -25824,10 +25928,12 @@
   db_uuid: dba1b354303a48338e6e3362cdd62083
   tags: []
 - name: Main Event Brett
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: b6c2698fbe9c461daeb2837c99cf9b8e
   tags: []
 - name: Mallory the Destroyer
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
   tags: []
@@ -25854,6 +25960,7 @@
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
   tags: []
 - name: Mark F'n Perre
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 1f53f0225dc8495aa98d9e344a618bd1
   tags: []
@@ -25952,6 +26059,7 @@
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4
   tags: []
 - name: Master Dosmodious
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 0a2b9d6fc8f74186a5088cad2858e64a
   tags: []
@@ -25968,6 +26076,7 @@
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
   tags: []
 - name: Matt Riddle
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   tags: []
@@ -25976,10 +26085,13 @@
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
   tags: []
 - name: Matt Stevens (V2)
+  rules_text: When you have a Strike in play, your Strike skill is +1.
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 79d6196f1e334e54beba5be194847bc5
   tags: []
 - name: Matt Travis
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
   tags: []
@@ -25996,6 +26108,7 @@
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
   tags: []
 - name: Mayhem
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
   tags: []
@@ -26020,6 +26133,7 @@
   submission: 6
   grapple: 10
   gender: Male
+  division: Hardcore
   rules_text: When you hit a card with "Board" or "Game" in the name, you may put
     1 Lead or Follow Up from your discard pile into play.
   card_type: SingleCompetitorCard
@@ -26053,6 +26167,7 @@
   db_uuid: 2812975b494f480eb69153836f76e68a
   tags: []
 - name: The Mercenary Flip Gordon
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: e06405a7f9a54dfe8d429828e3c52b01
   tags: []
@@ -26069,6 +26184,7 @@
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
   tags: []
 - name: Meta
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   tags: []
@@ -26081,18 +26197,22 @@
   db_uuid: 80305a3d87ee41b08bbe8af899fe9e32
   tags: []
 - name: Midas Black
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 3a7af7898ff3456badabb9e31736478f
   tags: []
 - name: Mike D
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: eccdc6e7d1004c1a85ca2cb4a69d0ccb
   tags: []
 - name: Mike Verna (V1)
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ef7590095e2b41abae70c4f60eb06bc5
   tags: []
 - name: Mike Verna (V2)
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ac55fc415cfd407cb44b82c5e74797ea
   tags: []
@@ -26125,6 +26245,7 @@
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd
   tags: []
 - name: Mistress of Mayhem J.K. Brawling
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 325738205e8248dcba7efb484c0c37ef
   tags: []
@@ -26133,6 +26254,7 @@
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
   tags: []
 - name: The Mortician
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: cfc8e0da7777443d9f5530324b665a90
   tags: []
@@ -26177,6 +26299,7 @@
   db_uuid: 9d5555e50931457794b0ac555adde8b6
   tags: []
 - name: Ms. Southern Belle
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 28baaa86f61a4ccf9080632f07c0401f
   tags: []
@@ -26189,10 +26312,12 @@
   db_uuid: b724c6a2db604a95971f30f7a424d2de
   tags: []
 - name: Nadja Mai
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: c65b7a1aee3e4237a00987baa88b2a28
   tags: []
 - name: Nanouk
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: f21af76d53d64bc48ad430cb5ebae5bf
   tags: []
@@ -26201,10 +26326,12 @@
   db_uuid: c42a2ced9d3541b9a257556fe7233471
   tags: []
 - name: New Face of Chaos
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 7d54ebad1e594e788f676f9d1634aa85
   tags: []
 - name: New Jack
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 26929d68478c48fab8b5c6be88ad8e96
   tags: []
@@ -26312,6 +26439,7 @@
     When you and your opponent roll the same skill, you may force them to re-roll
     and that roll is -1.'
   gender: Male
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: b8dfb42ba0ec49889c7c8b44b4132f4f
   tags: []
@@ -26470,6 +26598,7 @@
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
   tags: []
 - name: The Pain Artist DaVinci Wade
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
   tags: []
@@ -26478,6 +26607,7 @@
   db_uuid: 67774251b6ed4a2a89c50ff7c5a0e129
   tags: []
 - name: Pat the Thinker
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 582f1c66d042475088de05345806d255
   tags: []
@@ -26508,6 +26638,7 @@
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
   tags: []
 - name: Perfect10n Shawn Spears
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: b322c969168d4d7d9c3762bbc844d358
   tags: []
@@ -26645,6 +26776,7 @@
   db_uuid: 9494b4b5640b4b6083c40fe69c8ae2cb
   tags: []
 - name: The PPLZ Casual
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
   tags: []
@@ -26657,6 +26789,7 @@
   db_uuid: 62eb204d6221414d9c816b81d6067761
   tags: []
 - name: 'Press #1 P (V2)'
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 2f9a9734734748849dc7f70b07e38c47
   tags: []
@@ -26668,8 +26801,8 @@
   submission: 9
   grapple: 6
   gender: Male
-  rules_text: "When you roll Technique or Submission for your turn roll, your opponent\u2019\
-    s next turn roll is -1."
+  rules_text: When you roll Technique or Submission for your turn roll, your opponent's
+    next turn roll is -1.
   card_type: SingleCompetitorCard
   db_uuid: 3ca21530f41f4a43b0063316172dba00
   tags: []
@@ -26681,12 +26814,14 @@
   submission: 9
   grapple: 6
   gender: Male
+  division: Hardcore
   rules_text: If your turn roll was the same skill as your previous turn roll, it
     is +2.
   card_type: SingleCompetitorCard
   db_uuid: 692d5eaef3004346b5458de99691e24c
   tags: []
 - name: Pretzel Wizard
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
   tags: []
@@ -26706,7 +26841,7 @@
   submission: 7
   grapple: 6
   gender: Male
-  is_banned: true
+  division: Global
   srg_url: https://supershowthegame.com/product/the-prince-of-fashion/
   rules_text: Your cards with "Face" in the name have the added text "Add 1 card from
     your discard pile to your hand."
@@ -26762,6 +26897,7 @@
   db_uuid: dec8fd598a5a46d484d879e0fb268e4b
   tags: []
 - name: The Prizefighter
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e31ae16acabb4eac8370b65e6305d9a0
   tags: []
@@ -26770,6 +26906,7 @@
   db_uuid: 19c81a08844f41168571930dd9142b4d
   tags: []
 - name: The Professor Matthew Smith
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 925317f7c28841d181df7d38d363b0ff
   tags: []
@@ -26781,6 +26918,7 @@
   submission: 6
   grapple: 9
   gender: Female
+  division: Hardcore
   srg_url: https://supershowthegame.com/product/luna-bellatrix-new/
   rules_text: When your turn roll is 1 less than your opponent's turn roll, your target
     buries 1 random card in their hand.
@@ -26800,6 +26938,7 @@
   db_uuid: f3191d334cc544f7a70a6206e3c20c12
   tags: []
 - name: Rage
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 3f06685328d74f4fa8c64f77a0add3df
   tags: []
@@ -26824,6 +26963,7 @@
   db_uuid: 6f0c54f9e3074538baff7a1171fa4fb2
   tags: []
 - name: Rekt
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
   tags: []
@@ -26836,6 +26976,7 @@
   db_uuid: 0f6248453f894d958438cdcfeffd1047
   tags: []
 - name: Rhino
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 98dd6f69389340bbadb5b192792ea1f6
   tags: []
@@ -26870,6 +27011,7 @@
   submission: 7
   grapple: 9
   gender: Male
+  division: Hardcore
   rules_text: 'When you roll Technique for your turn roll: Shuffle 2 cards with "Table"
     in the name from your discard pile into your deck, and your next turn roll is
     +1.'
@@ -26889,6 +27031,7 @@
   submission: 8
   grapple: 9
   gender: Male
+  division: Hardcore
   rules_text: When your opponent hits a Strike they bury 1 card in their hand.
   card_type: SingleCompetitorCard
   db_uuid: 8fa5113d9e0243899f7ad586a3b7c323
@@ -26939,6 +27082,7 @@
   db_uuid: b5dab595d5cc4b4fa0692a3a5903d639
   tags: []
 - name: The Ronin Kira Himura
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e37635c90e384afe9f4b6d30b15b40be
   tags: []
@@ -26967,6 +27111,7 @@
   db_uuid: 276fb52f04234fa9bb6adebf98aa91e6
   tags: []
 - name: Ryan
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: fc43a93f413d4560993cb36a1128f06b
   tags: []
@@ -27136,10 +27281,12 @@
   db_uuid: 54590750c88a4c3aaa4f2a98cbb6207e
   tags: []
 - name: Shadow Phoenix
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 84910742683d4cd2af7a57cd571c74cf
   tags: []
 - name: Shane 'Hurricane' Helms
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 81a31f579ad848c496f6ba2059f196ca
   tags: []
@@ -27148,10 +27295,12 @@
   db_uuid: 5e7ddda9089049ffaa3d37aa6e33c4dc
   tags: []
 - name: Shane Strickland
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 17aed6b36bb347bf8eae88195831bf8b
   tags: []
 - name: Shea McCoy
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
   tags: []
@@ -27160,6 +27309,7 @@
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
   tags: []
 - name: Sheep of the Era
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: d83034fb8a4048fd89625212f4aa6d1f
   tags: []
@@ -27247,6 +27397,7 @@
   submission: 10
   grapple: 5
   gender: Male
+  division: Hardcore
   rules_text: 'When your opponent stops a Submission:
 
     They bury 1 card in their hand, then look at the top card of their deck, you may
@@ -27263,6 +27414,7 @@
   submission: 10
   grapple: 5
   gender: Male
+  division: Hardcore
   rules_text: When you hit a Submission, choose 1 card your opponent has in play and
     bury it.
   db_uuid: 663e4007f7934425aff807769fd734b1
@@ -27442,14 +27594,17 @@
   db_uuid: 5bb1291d12d94245872efd166cdd72fc
   tags: []
 - name: The SRG Boss (V2)
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 40ab70187ff14a7f8989d2b248d63b94
   tags: []
 - name: Steve Gibki
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 8dbd7a4a04414c9ba2fe1604567c8acc
   tags: []
 - name: Steve Slambrose
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: a1c585eca71546a3820f4410e925a8fe
   tags: []
@@ -27458,6 +27613,7 @@
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
   tags: []
 - name: Swaggy D
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 294600d7a6514933a4fcb4b35e8815c4
   tags: []
@@ -27492,10 +27648,12 @@
   db_uuid: cb728bc586644251946eaba29b9d3698
   tags: []
 - name: Swoggle
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 3076e579ea384f008e9bc0db1b62dd57
   tags: []
 - name: Syn
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 12e3aa0191fb4becb84c789055ae81f1
   tags: []
@@ -27559,6 +27717,7 @@
   db_uuid: 22c005afb8d944d4a55b8efdeb89eae7
   tags: []
 - name: Tetsuya Naito
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: ef4b285b0236403a9be1a821b7e5bda5
   tags: []
@@ -27575,14 +27734,17 @@
   db_uuid: 0a4ae4fdea654848ac7a8467bc9f74f2
   tags: []
 - name: Titan of the Northeast
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 0e42a47bc46d470a9c8db554bb0edf6b
   tags: []
 - name: TJ Marconi
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: e14019134fab4819bfd60e35943ce375
   tags: []
 - name: 'TJ Marconi Public Enemy #1'
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 8f726675283f40eabe2c99539ef6e394
   tags: []
@@ -27591,10 +27753,12 @@
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
   tags: []
 - name: Trashman
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: cd74ed7f79184db582a82ecd92058c28
   tags: []
 - name: Trent?
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 902a282a6c6f4317b4cf87e0a4eed30d
   tags: []
@@ -27603,6 +27767,7 @@
   db_uuid: 6d08f346a2584887a329443b00b9f02f
   tags: []
 - name: The True Survivor
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 07f8e7d0b2d341a08c7fa0df4aae777b
   tags: []
@@ -27611,10 +27776,12 @@
   db_uuid: 191fdd8ac35641ba930ccdfcea5e94fd
   tags: []
 - name: Tyler Chaos
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 6d522aa7ac7840d88a5790a5c7c7e5e0
   tags: []
 - name: Tytan
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 6868fc4520954fd4a3ca756d11b59d18
   tags: []
@@ -27639,6 +27806,7 @@
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   tags: []
 - name: The Uncaged Beast
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 0beebc490ed0447f9a1323c470f94454
   tags: []
@@ -27659,6 +27827,7 @@
   db_uuid: 60f3433ddd5745c9905583b60466a734
   tags: []
 - name: Vampire Hunter Foreman
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 58b34930fa664d1ebf89b1058b14a48a
   tags: []
@@ -27826,6 +27995,7 @@
   db_uuid: e1baa91d10a94e23816b04e7809eb08d
   tags: []
 - name: White Lily (V2)
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 4ed75f5f784c4491ba68876e871aead4
   tags: []
@@ -27835,10 +28005,12 @@
   db_uuid: 33f14ac0cc504bad9a2b0b465163e6d6
   tags: []
 - name: Wiser Wizard
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 92aad45d0fa046448ec91a4c4d4cd869
   tags: []
 - name: Will Ospreay
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: f4d37bc8209e4db5b7eb75f4bdf8aaaf
   tags: []
@@ -27858,6 +28030,7 @@
   submission: 9
   grapple: 10
   gender: Male
+  division: Hardcore
   rules_text: When your opponent stops your Grapple, look at the top 3 cards of your
     deck, add 1 to your hand, flip 1, and bury the other.
   card_type: SingleCompetitorCard
@@ -27871,6 +28044,7 @@
   submission: 9
   grapple: 10
   gender: Male
+  division: Hardcore
   rules_text: When your opponent stops a Grapple, reveal the top 3 cards of your deck,
     add 2 to your hand and bury the other.
   card_type: SingleCompetitorCard
@@ -27884,20 +28058,24 @@
   submission: 5
   grapple: 7
   gender: Male
+  division: Hardcore
   rules_text: When you roll Technique, you may look at the top 3 cards of your deck,
     flip 1, bury 1, and put the other back on top.
   card_type: SingleCompetitorCard
   db_uuid: 3e393847dd0940018f4921d4b6dd9c3a
   tags: []
 - name: Wrench Monkey
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e2f4f5e7315442059b7057b0333e0e23
   tags: []
 - name: xROYCE (V1)
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 8ce90a57c8a3456c87e0407099515e87
   tags: []
 - name: xROYCE (V2)
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 1d95016390584633a75af97a73f0e46e
   tags: []
@@ -27910,10 +28088,12 @@
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
   tags: []
 - name: Yaz Mean (V2)
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e2d658ce8758400e9560e80b11528fa5
   tags: []
 - name: Yeva Lionheart
+  division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 7ed49e996f284cc8a973dd9118ad4c90
   tags: []
@@ -27926,6 +28106,7 @@
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   tags: []
 - name: Zoey Skye
+  division: Global
   card_type: SingleCompetitorCard
   db_uuid: 9e7ee531fc2248aa8fa530e82d62e06c
   tags: []
@@ -28309,6 +28490,7 @@
   submission: 7
   grapple: 8
   gender: Male
+  division: Hardcore
   rules_text: 'During your turn: It is considered a Steel Chain match for your card
     effects.'
   db_uuid: cf70eb630fbd4f35b55ca9df52b8c5c0
@@ -28952,4 +29134,108 @@
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
+  tags: []
+- name: Kabuki Kabloow
+  card_type: TornadoCompetitorCard
+  db_uuid: 711c8f31d1f448a2afba2bfc60f227ed
+  tags: []
+- name: King of Strikes
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  db_uuid: a2d8b8302a564a068f18f2d00239f1b8
+  tags: []
+- name: Kings of Crime
+  card_type: TornadoCompetitorCard
+  db_uuid: 7485c8e2dbb5471c8deb31d50fc42f56
+  tags: []
+- name: Kitty Corn
+  card_type: TornadoCompetitorCard
+  db_uuid: c81420517af242c78e431d4daa0cd7ca
+  tags: []
+- name: KO Princess
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: 6b713d264ee6403481e104781ecab700
+  tags: []
+- name: La Fenix (V2)
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  db_uuid: 80ae186a6d6a43ee8402b85c112964c1
+  tags: []
+- name: Lady Outlaw
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 7bc2886de7e34870819b0dd6536cdf8b
+  tags: []
+- name: Law & Paw Connection
+  card_type: TornadoCompetitorCard
+  db_uuid: 6060f5b0056140c9a39e3128cdebae7f
+  tags: []
+- name: League of Extraordinary Grapplers
+  card_type: TrioCompetitorCard
+  db_uuid: 1314440f282c473dbb9499d5a4b48601
+  tags: []
+- name: Lil' G
+  division: United States
+  card_type: SingleCompetitorCard
+  db_uuid: 496ad29ce2d1416396e74a12026172b2
+  tags: []
+- name: Living Legends
+  card_type: TornadoCompetitorCard
+  db_uuid: 027a8e6e5826403fa92ea3a76a1985b5
+  tags: []
+- name: Lord Graves
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  db_uuid: 6ded6a7076cc4621bd998aaee548b55e
+  tags: []
+- name: Mike Santana
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
+  tags: []
+- name: Ref Dave
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: 1d9b3cf7c70a4e2884608942d3901999
+  tags: []
+- name: Rockstar Joey Sins
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: d2d94474f54c430197061e0c2531012c
+  tags: []
+- name: The Boricua Badass Jeremy Rodriguez
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: 09afe21c91b44543b97072e1d1894dab
+  tags: []
+- name: The Phenomenal Beast Chris Angels
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: 3d7652ac29af4c77842e419996e11278
+  tags: []
+- name: Bruiser Beans
+  card_type: SingleCompetitorCard
+  division: Global
+  db_uuid: c7cc2a824fab4b5dad84a3f863605373
+  tags: []
+- name: Moxie
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  db_uuid: 832a2522203547d99ceef3c759d18c0f
+  tags: []
+- name: Nirab Woken Dragon God
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  db_uuid: bfefc5f5bee84743a9cfa9f191e36874
+  tags: []
+- name: The Franchise
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  db_uuid: 5b6cc3273f03415cbe6635d2a0796f03
+  tags: []
+- name: The Freak
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  db_uuid: 21f1118c05574e1eac13c96c7f808f5a
   tags: []

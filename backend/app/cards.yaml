@@ -101,7 +101,7 @@
   strike: 8
   submission: 10
   grapple: 6
-  division: Underworld
+  division: World Championship
   gender: Male
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   rules_text: Whenever you roll Technique, draw 1 card.
@@ -19035,6 +19035,7 @@
   grapple: 9
   card_type: SingleCompetitorCard
   srg_url: https://supershowthegame.com/product/the-wreck/
+  division: United States
   rules_text: When your opponent hits a Strike, draw 1 card and your next turn roll
     is +1.
   db_uuid: 9f936d7e3c5f41f18eda93e9644d6726
@@ -19054,6 +19055,7 @@
   submission: 10
   grapple: 9
   card_type: SingleCompetitorCard
+  division: United States
   rules_text: When any number of cards you have in play are moved to another location,
     discard 1 card your opponent has in play or draw 1 card.
   db_uuid: 7a8377ee227f42819a017bb69ad3e181
@@ -20103,6 +20105,7 @@
   submission: 8
   grapple: 5
   gender: Male
+  division: United States
   rules_text: 'Once during your turn:
 
     When you hit a Strike or Submission, you may search your deck for a card of the
@@ -20406,6 +20409,7 @@
   strike: 6
   submission: 8
   grapple: 9
+  division: United States
   rules_text: When you roll 10 for your first turn roll, your opponent's turn roll
     is -1.
   db_uuid: 7b2f88b0914c49d996c823ddd1be50ac
@@ -20638,6 +20642,7 @@
   strike: 10
   submission: 9
   grapple: 5
+  division: United States
   rules_text: When you roll Strike for your turn roll, search your deck for 1 card
     with "Punch" in the name and add it to your hand, shuffle your deck.
   db_uuid: b67cbc591a314259b7d96010d8c2fe26
@@ -20811,6 +20816,7 @@
   strike: 6
   submission: 8
   grapple: 10
+  division: Underworld
   rules_text: When you roll Grapple, flip 3 cards or add 1 Grapple from your discard
     pile to your hand.
   db_uuid: afec53cb2d714571bc02e2b8fb06ffd8
@@ -20968,6 +20974,7 @@
   strike: 9
   submission: 8
   grapple: 5
+  division: United States
   rules_text: When you roll Strike for your turn roll, draw 1 card.
   db_uuid: 166ea57a5a424cf7a39a182734f15632
   tags: []
@@ -21149,6 +21156,7 @@
   strike: 7
   submission: 6
   grapple: 5
+  division: United States
   rules_text: When you hit a card with "America" or "Boot" in the name, draw 1 card.
   db_uuid: 368ad45ddb934241ae50758867e8c8f3
   tags: []
@@ -21253,6 +21261,7 @@
   strike: 6
   submission: 9
   grapple: 7
+  division: World Championship
   rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your
     discard pile to your hand.'
   db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
@@ -22329,6 +22338,7 @@
   strike: 6
   submission: 7
   grapple: 8
+  division: United States
   rules_text: If you rolled Power for your turn roll, you may discard 3 cards from
     your hand to stop a card.
   db_uuid: 80b626dbcde047a595f325056eaa6907
@@ -22459,6 +22469,7 @@
   strike: 9
   submission: 10
   grapple: 8
+  division: World Championship
   rules_text: 'When you hit a card with "Drop" in the name your opponent buries 1
     card in their hand.
 
@@ -22868,6 +22879,7 @@
   submission: 5
   grapple: 6
   gender: Male
+  division: Old School
   rules_text: Your Submissions are also Strikes for your effects.
   db_uuid: 18a4a1afc5494c2586b84c7120c45dd9
   related_finishes:
@@ -22915,6 +22927,7 @@
   strike: 8
   submission: 6
   grapple: 7
+  division: World Championship
   rules_text: 'During your turn:
 
     When you hit a Lead, draw 1 card for each other Lead you have in play (Max 3).'
@@ -22972,6 +22985,7 @@
   submission: 6
   grapple: 10
   gender: Male
+  division: Old School
   rules_text: 'Your stop cards with "DDT" in the name have the added text: "Stop any
     Finish Submission".'
   db_uuid: b34f7beab430461182c377100b12c213
@@ -23079,6 +23093,7 @@
   strike: 10
   submission: 7
   grapple: 6
+  division: Underworld
   rules_text: 'When you roll Submission: Shuffle 1 card with "Steel", "Kick", or "Sheep"
     in the name from your discard pile into your deck and draw 1.'
   gender: Male
@@ -23151,6 +23166,7 @@
   strike: 6
   submission: 8
   grapple: 10
+  division: World Championship
   rules_text: Once during your turn when you hit a card with "Lock" in the name; draw
     1 card or you may play 1 additional card this turn.
   gender: Male
@@ -23164,6 +23180,7 @@
   strike: 6
   submission: 8
   grapple: 10
+  division: World Championship
   rules_text: You are considered to have fewer cards in your hand than your opponent.
   gender: Male
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
@@ -24189,6 +24206,7 @@
   db_uuid: 621336854c0d4f8d8d02ea15e46fa711
   tags: []
 - name: The End
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: d12bb5eef1d7482fa310367b3bb07602
   tags: []
@@ -25910,7 +25928,7 @@
   submission: 8
   grapple: 5
   gender: Female
-  division: Underworld
+  division: World Championship
   rules_text: 'When you bump, your opponent discards 1 card instead of drawing.
 
     Once a turn roll: If you would bump, and you bumped on the last turn roll, choose
@@ -25934,6 +25952,7 @@
   db_uuid: da079db2b3084e20af107b64d23149a0
   tags: []
 - name: The Magnificient Mr. Rey
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: dba1b354303a48338e6e3362cdd62083
   tags: []
@@ -25955,13 +25974,14 @@
   submission: 8
   grapple: 7
   gender: Male
-  division: Underworld
+  division: World Championship
   rules_text: When you roll Technique for your turn or Finish roll, look at your opponent's
     hand, choose 1 Follow Up or Finish and bury it.
   card_type: SingleCompetitorCard
   db_uuid: 49295df8c3bb48778a446b6eeba6982f
   tags: []
 - name: Mangia
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
   tags: []
@@ -25980,10 +26000,12 @@
   db_uuid: 9a231499dca740c1ac1674b80f8234fd
   tags: []
 - name: Mark the Shark (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: f9ad1426f01248fa90316c0410fd524b
   tags: []
 - name: Mark the Shark (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: a65cebf0b6ce40158c7d786af90a5e1d
   tags: []
@@ -26009,8 +26031,8 @@
   submission: 5
   grapple: 9
   gender: Male
-  srg_url: https://supershowthegame.com/product/masked-llama-sd/
   division: United States
+  srg_url: https://supershowthegame.com/product/masked-llama-sd/
   card_type: SingleCompetitorCard
   db_uuid: c7b112a959164f1ab5a4018303136e61
   related_finishes:
@@ -26068,6 +26090,7 @@
   db_uuid: 6371c23c781846bcb9146ba355bf97fd
   tags: []
 - name: The Master Chef L.M.P.
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4
   tags: []
@@ -26082,10 +26105,12 @@
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
   tags: []
 - name: Matt Nelan (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
   tags: []
 - name: Matt Nelan (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
   tags: []
@@ -26095,6 +26120,7 @@
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   tags: []
 - name: Matt Stevens (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
   tags: []
@@ -26110,10 +26136,12 @@
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
   tags: []
 - name: Matty Bar1
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 041f88464da84d039c316094b81a3273
   tags: []
 - name: Maul
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: d7de2a59d5f04f41968fca33387c4304
   tags: []
@@ -26135,6 +26163,7 @@
   submission: 6
   grapple: 10
   gender: Male
+  division: United States
   rules_text: 'During your turn: When you hit a card with "Drop" in the name, discard
     1 other card in play.'
   card_type: SingleCompetitorCard
@@ -26188,6 +26217,7 @@
   db_uuid: e06405a7f9a54dfe8d429828e3c52b01
   tags: []
 - name: The Mercinator
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: dde6c34e818d4973a031d0d6373ee395
   tags: []
@@ -26197,6 +26227,7 @@
   db_uuid: 0a5c355b041a4cf6bd2b78d9549d162f
   tags: []
 - name: Merlin von Berlin
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
   tags: []
@@ -26206,10 +26237,12 @@
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   tags: []
 - name: Mic Riot (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: abbb1208d83947d88e086a4a1018e037
   tags: []
 - name: Mic Riot (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 80305a3d87ee41b08bbe8af899fe9e32
   tags: []
@@ -26250,7 +26283,7 @@
   strike: 6
   submission: 9
   grapple: 7
-  division: Underworld
+  division: World Championship
   gender: Male
   rules_text: When your opponent increases their skills, your skills are also increased
     the same amount.
@@ -26268,6 +26301,7 @@
   db_uuid: 325738205e8248dcba7efb484c0c37ef
   tags: []
 - name: Mombada
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
   tags: []
@@ -26287,34 +26321,42 @@
   db_uuid: 952b0cc79573451cbabdfb3a8297bea4
   tags: []
 - name: The Mouth of Southeast Michigan
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: d9c95f93770747aea1e2bc2daa4e826f
   tags: []
 - name: Mr. A1derful
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: ab2e17c9e2ef4e97a6816fb625f0311e
   tags: []
 - name: Mr. C
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
   tags: []
 - name: Mr. Poppintwist
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 7c61c4f8ca78491ba66c77a6a2778888
   tags: []
 - name: Mr. Match of the Year
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 6b9d7c1228594225b3f26e68ec5c2fc6
   tags: []
 - name: Mr Snap (V1)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad
   tags: []
 - name: Mr Snap (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 65f7d712267548c2a549636af572dfcb
   tags: []
 - name: Mrs. Bum, Lovely Mone
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: a546704b5fb04a0398cd2e0e54c8210c
   tags: []
@@ -26328,10 +26370,12 @@
   db_uuid: 28baaa86f61a4ccf9080632f07c0401f
   tags: []
 - name: Ms. Tierious
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: fbad14e83e1043c1949a671a30cd2323
   tags: []
 - name: MVP (Most Valuable Polverino)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: b724c6a2db604a95971f30f7a424d2de
   tags: []
@@ -26441,6 +26485,7 @@
   db_uuid: 6639064ed8d64eb5b866d2267f6dab6d
   tags: []
 - name: Numer01
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e
   tags: []
@@ -26513,10 +26558,12 @@
   db_uuid: 0b5818f8983045689264a87daabaa318
   tags: []
 - name: The Ol' Skull and Bones
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 8d0a3ebd5ed54e0e9144958d689ac395
   tags: []
 - name: The Oracle
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: c4a7dc18e187401ba7632cc682b14879
   tags: []
@@ -26525,6 +26572,7 @@
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
   tags: []
 - name: Over Giver
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: ed197a8258854b84b89b11a3b0790896
   tags: []
@@ -26620,6 +26668,7 @@
   db_uuid: 3b8f43c5ee604b46bed7aca4393cbb9d
   tags: []
 - name: Paiger Rager
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
   tags: []
@@ -26660,6 +26709,7 @@
   submission: 5
   grapple: 6
   gender: Female
+  division: Underworld
   rules_text: 'When your opponent stops your card: Reveal the top 2 cards of your
     deck, add 1 to your hand and bury the other.'
   card_type: SingleCompetitorCard
@@ -26678,6 +26728,7 @@
   strike: 7
   submission: 6
   grapple: 5
+  division: United States
   rules_text: At the start of the match, choose an opponent and blank the text of
     their Finish cards.
   gender: Male
@@ -26691,6 +26742,7 @@
   strike: 7
   submission: 6
   grapple: 5
+  division: United States
   rules_text: When the Crowd Meter is 1 or less your opponents Finish cards have blank
     text.
   gender: Male
@@ -26703,14 +26755,17 @@
   db_uuid: b893411fa9304bc1a3c34615e6c3c10d
   tags: []
 - name: The Phoenix EV Fresh
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 5384da96ce6740ce9081b60773b99873
   tags: []
 - name: Piglet
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 1069a54e1c674abeb90ce4bb07a37404
   tags: []
 - name: Pixel
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c60c1ad29cb0440481fc29ae1c863a37
   tags: []
@@ -26722,6 +26777,7 @@
   submission: 5
   grapple: 8
   gender: Male
+  division: United States
   rules_text: 'After you or your opponent breaks out, you may put 1 Lead from your
     discard pile into play or reveal Hank the Tank or Jack of All Trades and add their
     Gimmick to yours.
@@ -26768,10 +26824,12 @@
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
   tags: []
 - name: Poco Loco
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
   tags: []
 - name: Poland's Prince
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: eaa66b2581dd44f0980eaebc34dbfbf5
   tags: []
@@ -26783,6 +26841,7 @@
   submission: 5
   grapple: 9
   gender: Male
+  division: United States
   srg_url: https://supershowthegame.com/product/the-polverizer/
   rules_text: 'When your opponent would hit a Finish:
 
@@ -26800,6 +26859,7 @@
   submission: 5
   grapple: 9
   gender: Male
+  division: United States
   rules_text: 'During your 1st breakout Roll: You may discard 3 cards from your hand
     and your breakout roll is +3. If you discarded any cards with "Suplex" in the
     name, your breakout roll is +1 more.'
@@ -26812,10 +26872,12 @@
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
   tags: []
 - name: Practisite
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: d3e0aa69a169437081fc6fa67a0979a2
   tags: []
 - name: 'Press #1 P (V1)'
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 62eb204d6221414d9c816b81d6067761
   tags: []
@@ -26832,6 +26894,7 @@
   submission: 9
   grapple: 6
   gender: Male
+  division: United States
   rules_text: When you roll Technique or Submission for your turn roll, your opponent's
     next turn roll is -1.
   card_type: SingleCompetitorCard
@@ -26857,10 +26920,12 @@
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
   tags: []
 - name: Pride
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 09df8a22bc694a29b7465cd9a80ee9f5
   tags: []
 - name: Primalotta
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 11090ca47d7b45ba98292af07e58f428
   tags: []
@@ -26924,6 +26989,7 @@
   db_uuid: 7c409dfbe5b441b9acdc10ce29e480d1
   tags: []
 - name: Prince of GTS
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: dec8fd598a5a46d484d879e0fb268e4b
   tags: []
@@ -26933,6 +26999,7 @@
   db_uuid: e31ae16acabb4eac8370b65e6305d9a0
   tags: []
 - name: Prof Leonardo Magette
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 19c81a08844f41168571930dd9142b4d
   tags: []
@@ -26957,14 +27024,17 @@
   db_uuid: b9ba2975954f4804b291b5bb36cef3f0
   tags: []
 - name: Quadruple H
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 50446df532b14eb784abe67b262181cd
   tags: []
 - name: The Queen of Cheer Adrianna Dee
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 7b1af704863e498b8b473e44c8d42ed4
   tags: []
 - name: Queen of Cupcakes Penelope Mai
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: f3191d334cc544f7a70a6206e3c20c12
   tags: []
@@ -26974,6 +27044,7 @@
   db_uuid: 3f06685328d74f4fa8c64f77a0add3df
   tags: []
 - name: Rahz El Dazzel
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: e1b8cc42d0774c118785d02b296909f3
   tags: []
@@ -26983,10 +27054,12 @@
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
   tags: []
 - name: RaRa Perre
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: c138c28b4b8b48bbb5272e9ceaede716
   tags: []
 - name: Raven
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 6e915bbeb0b148a4a578992b50c63bbe
   tags: []
@@ -27001,6 +27074,7 @@
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
   tags: []
 - name: Reverend Good Brain
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 289c8f5092744a71a376e27dd231bd04
   tags: []
@@ -27014,10 +27088,12 @@
   db_uuid: 98dd6f69389340bbadb5b192792ea1f6
   tags: []
 - name: Ricochet
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: be4591ac738748c29cf9fef3179e6c94
   tags: []
 - name: Ricky Riot
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 5cf0d256efd841b3b5c220e2487db443
   tags: []
@@ -27029,6 +27105,7 @@
   submission: 7
   grapple: 9
   gender: Male
+  division: United States
   rules_text: 'Once during each of your turns:
 
     If you played a Follow Up, you may discard 1 Follow Up from your hand to play
@@ -27053,6 +27130,7 @@
   tags: []
 - name: Ring Leader
   card_type: SingleCompetitorCard
+  division: United States
   db_uuid: f67082e53b084aefbc07e3df08801f6f
   tags: []
 - name: RJ Bombshell (V1)
@@ -27077,36 +27155,44 @@
   submission: 8
   grapple: 9
   gender: Male
+  division: United States
   rules_text: When you hit a card with "Atomic", "Bomb", or "Explode" in the name,
     the next time your opponent would draw any number of cards, they do not draw.
   card_type: SingleCompetitorCard
   db_uuid: e3aae3be45f045b4892fbe79e96b5153
   tags: []
 - name: The Roach Noel Torres Jr.
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 8c8c7428500647cfb95b2fc4e7dec82c
   tags: []
 - name: Robbie G
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: b23c0ed39537449a884675e3fd2e3fbb
   tags: []
 - name: Robert 'The Brain' Dunn (V1)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 5c61b09db55549b6a957926b3ae14a4b
   tags: []
 - name: Robert 'The Brain' Dunn (V2)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: caf514310b2a453cbd9fbe7a3affc12d
   tags: []
 - name: Robert 'The Brain' Dunn (V3)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: b1c536d936c143d7b31a0ce0490f8bd9
   tags: []
 - name: Rock Newman
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 330b2b0143044d47b08f54881ff6d293
   tags: []
 - name: Rolling Outlaw
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 09d06a9ded0f4fcd8c197946ec4f2424
   tags: []
@@ -27121,18 +27207,22 @@
   db_uuid: e37635c90e384afe9f4b6d30b15b40be
   tags: []
 - name: Root Beer Guy
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 858138a8b87c4de4b420fcfefd1d2363
   tags: []
 - name: Rowdy Ron
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 76844541603c4065993d0c45c0de838b
   tags: []
 - name: Ruby Renegade
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 7d75b496431a49a88896c8b79066646d
   tags: []
 - name: Runtime Terror (V1)
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: be895fbbb37448009c28ff251d72b650
   tags: []
@@ -27142,6 +27232,7 @@
   db_uuid: 80b6384e29ae4f66bfd3659bc59fbee5
   tags: []
 - name: RVD
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 276fb52f04234fa9bb6adebf98aa91e6
   tags: []
@@ -27163,6 +27254,7 @@
   submission: 8
   grapple: 6
   gender: Male
+  division: World Championship
   rules_text: Your cards with "Death", "Dive", or "Chair" in the name have the added
     text "Draw 2 cards."
   card_type: SingleCompetitorCard
@@ -27281,6 +27373,7 @@
   db_uuid: c38c2c3ef1154d008cb129120a95bdb6
   tags: []
 - name: Sami "The Draw" Callihan
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 20c146c8c0854329807a89143269a8fb
   tags: []
@@ -27295,26 +27388,32 @@
   db_uuid: 9c53d33649a64c25bbef794fb6c24f29
   tags: []
 - name: Scarlett Graves (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: bbad60422a9c403b97980cc9efab48c1
   tags: []
 - name: Scarlett Graves (V2)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2f1fdc7ea8ff448f902d7ba425e2f167
   tags: []
 - name: Scott Prime
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 504e8e4759024076b094608d6b8172a6
   tags: []
 - name: Scrapyard Cat
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: b0fcea9832944b0890b8d622271fea68
   tags: []
 - name: The Screaming Danshee
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2d3873502620427d979c152bb1d53f3c
   tags: []
 - name: Sgt. Yoga
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
   tags: []
@@ -27339,6 +27438,7 @@
   db_uuid: 81a31f579ad848c496f6ba2059f196ca
   tags: []
 - name: Shane Tilton
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 5e7ddda9089049ffaa3d37aa6e33c4dc
   tags: []
@@ -27353,6 +27453,7 @@
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
   tags: []
 - name: Sheeple's Champion
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
   tags: []
@@ -27367,6 +27468,7 @@
   db_uuid: 69b89fd47e764b3e80717925ac407b40
   tags: []
 - name: The Shogun
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2cbcea00301a48aea4c7689af7bba7d6
   tags: []
@@ -27383,6 +27485,7 @@
   submission: 9
   grapple: 7
   gender: Male
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 59b9a77484b74fb59ce7b65439490d5e
   tags: []
@@ -27493,6 +27596,7 @@
   submission: 5
   grapple: 10
   gender: Male
+  division: World Championship
   card_type: SingleCompetitorCard
   rules_text: When you have fewer cards in your hand than your opponent, your Power,
     Agility, and Technique are +1.
@@ -27510,6 +27614,7 @@
   submission: 5
   grapple: 10
   gender: Male
+  division: World Championship
   rules_text: 'When your opponent has a Strike, Submission, and Grapple in play: Your
     Strike, Submission, and Grapple skills are +1.'
   card_type: SingleCompetitorCard
@@ -27527,6 +27632,7 @@
   submission: 5
   grapple: 10
   gender: Male
+  division: World Championship
   rules_text: 'When your target has more:
 
     Strikes in play, +1 to Agility
@@ -27583,6 +27689,7 @@
   submission: 8
   grapple: 7
   gender: Male
+  division: United States
   rules_text: 'If you didn''t end the previous turn without playing a card: When either
     player ends their turn without playing a card, your next turn roll is +1.'
   card_type: SingleCompetitorCard
@@ -27636,10 +27743,12 @@
   db_uuid: a1b507c0d9c243eaa9b9dbf8777f6db9
   tags: []
 - name: Split (V1)
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 3f3f8b5b536443bb8552f182a2bf9fa0
   tags: []
 - name: Split (V2)
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 449d43de669140c5aacc34b0a7dcfb7e
   tags: []
@@ -27664,6 +27773,7 @@
   db_uuid: a1c585eca71546a3820f4410e925a8fe
   tags: []
 - name: The Stone
+  division: Old School
   card_type: SingleCompetitorCard
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
   tags: []
@@ -27679,6 +27789,7 @@
   strike: 9
   submission: 10
   grapple: 5
+  division: United States
   gender: Female
   rules_text: When your opponent stops your Submission, they bury 1 card in their
     hand. Look at the top card of their deck, you may bury it.
@@ -27693,12 +27804,14 @@
   submission: 10
   grapple: 5
   gender: Female
+  division: United States
   rules_text: When you hit a Submission, choose 1 card your opponent has in play and
     bury it.
   card_type: SingleCompetitorCard
   db_uuid: 316050b8250c44e3b09fda9cd5c1bc56
   tags: []
 - name: Swim 4 It
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: cb728bc586644251946eaba29b9d3698
   tags: []
@@ -27713,6 +27826,7 @@
   db_uuid: 12e3aa0191fb4becb84c789055ae81f1
   tags: []
 - name: The Tartan Terror
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: a2895b52164743edbdd083272279e147
   tags: []
@@ -27777,14 +27891,17 @@
   db_uuid: ef4b285b0236403a9be1a821b7e5bda5
   tags: []
 - name: Texas Juggernaut
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: c0881aba76014c88b5f720f463f48d64
   tags: []
 - name: THE Phil Birch
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2ac859ee5b724848b5d34e70740c4f50
   tags: []
 - name: Titan
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 0a4ae4fdea654848ac7a8467bc9f74f2
   tags: []
@@ -27804,6 +27921,7 @@
   db_uuid: 8f726675283f40eabe2c99539ef6e394
   tags: []
 - name: Tommy Stillwell
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
   tags: []
@@ -27818,6 +27936,7 @@
   db_uuid: 902a282a6c6f4317b4cf87e0a4eed30d
   tags: []
 - name: True American Guy Gregory Patrick Scott
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 6d08f346a2584887a329443b00b9f02f
   tags: []
@@ -27827,6 +27946,7 @@
   db_uuid: 07f8e7d0b2d341a08c7fa0df4aae777b
   tags: []
 - name: TVA Commissioner Drew Madsen
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 191fdd8ac35641ba930ccdfcea5e94fd
   tags: []
@@ -27846,18 +27966,22 @@
   db_uuid: 26cdda7245744396ae988697babdef2f
   tags: []
 - name: The Ultimate Phighter
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 30a3349b5bfa4d608ac989f90a253dc5
   tags: []
 - name: Uncle Awesome (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 4e2a4a8022b0485e8449750cb411d793
   tags: []
 - name: Uncle Awesome (V2)
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 1886db488a2540c18d7fc450b201f9b0
   tags: []
 - name: Uncle Bradley
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   tags: []
@@ -27872,6 +27996,7 @@
   db_uuid: 80d48aba45684fb29c71c0095125c481
   tags: []
 - name: Unicorn Princess
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 834c8775accf428380910277cbe27413
   tags: []
@@ -27912,6 +28037,7 @@
   submission: 6
   grapple: 7
   gender: Male
+  division: Old School
   srg_url: https://supershowthegame.com/product/vanilla-gorilla/
   rules_text: 'When you roll Agility for your turn roll:
 
@@ -27935,6 +28061,7 @@
   submission: 6
   grapple: 8
   gender: Male
+  division: Old School
   rules_text: 'When you hit a card with "Jump" or "Swing" in the name, reveal the
     top 3 cards of your deck: Add 1 Strike to your hand and flip the others.'
   card_type: SingleCompetitorCard
@@ -28023,6 +28150,7 @@
   db_uuid: c127492da6e641dd86a96b5dc8d99987
   tags: []
 - name: Vick the Brick
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 81fa1f8c73a04f7e8010d951be00e4c0
   tags: []
@@ -28052,10 +28180,12 @@
   db_uuid: 7990e5586c24480db646fede33f5a9fe
   tags: []
 - name: Warehouse
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: ef91936ee02e4388ad2a6d37fc105340
   tags: []
 - name: White Lily (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: e1baa91d10a94e23816b04e7809eb08d
   tags: []
@@ -28085,6 +28215,7 @@
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
   tags: []
 - name: The Witch's Apprentice
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
   tags: []
@@ -28146,10 +28277,12 @@
   db_uuid: 1d95016390584633a75af97a73f0e46e
   tags: []
 - name: YamatoHama
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   tags: []
 - name: Yaz Mean (V1)
+  division: United States
   card_type: SingleCompetitorCard
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
   tags: []
@@ -28164,6 +28297,7 @@
   db_uuid: 7ed49e996f284cc8a973dd9118ad4c90
   tags: []
 - name: Zack Sabre Jr. (V2)
+  division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   tags: []
@@ -28215,6 +28349,7 @@
   submission: 8
   grapple: 7
   gender: Male
+  division: United States
   rules_text: When you hit a card with "Mic" in the name, you may draw 1 card and
     bury 1 card in your hand.
   card_type: SingleCompetitorCard
@@ -28356,6 +28491,7 @@
   grapple: 5
   gender: Female
   card_type: SingleCompetitorCard
+  division: United States
   rules_text: 'During the turn roll: When your opponent''s turn roll is 7 or less,
     their Gimmick is immediately blank.  If it is 9 or greater, if you would bump
     on the next turn roll, your opponent''s roll is -1 instead.'
@@ -28429,6 +28565,7 @@
   submission: 7
   grapple: 8
   gender: Male
+  division: Old School
   rules_text: '3 Times Per Match:
 
     When your opponent would play a Finish against you, your opponent cannot play
@@ -28503,6 +28640,7 @@
   submission: 7
   grapple: 8
   gender: Male
+  division: United States
   rules_text: 'When you roll Submission for your turn roll: your next turn roll is
     +1 for each Lead your opponent has in play (Max +3).'
   db_uuid: 20f71ac49c4b4f29998ebc7e69657087
@@ -29363,4 +29501,104 @@
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: a165b1a7bd3e43958eee8a319ef94074
+  tags: []
+- name: Rey Zerblade
+  card_type: SingleCompetitorCard
+  division: Old School
+  db_uuid: 3e6ec7e5fe33421d83a699ac956a6858
+  tags: []
+- name: Stung
+  card_type: SingleCompetitorCard
+  division: Old School
+  db_uuid: 4fca7d06fac844ef810d022629b265ff
+  tags: []
+- name: Mofa
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  db_uuid: f70d6561116e416694e7a41f0194d756
+  tags: []
+- name: Mr. Soleil
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  db_uuid: 074d9ca5764847d19d8f3158a4b87552
+  tags: []
+- name: Mrs. Marigold
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  db_uuid: 7f196339ee714dacab9e0bfac43fbe30
+  tags: []
+- name: Wendigo
+  card_type: SingleCompetitorCard
+  division: Underworld
+  db_uuid: caae00fadebe4d0fb4d0cbc4ae35c06b
+  tags: []
+- name: Nick Nemesis
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 3913fe4166ac45be8219d7241b663d19
+  tags: []
+- name: Ollie
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 0c1b1853cc114d119cd55a50f04386f5
+  tags: []
+- name: Pedro Valiant
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: ef8dfa451af8437f813ffece624bad4f
+  tags: []
+- name: Phenomenal Wiseman JB
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: f2c76632b46d4789a0b79720f3a392a9
+  tags: []
+- name: Real Beater
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 54fccd40ee2e498cbef07530b49a0762
+  tags: []
+- name: Shattered Split
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 627444f08925427b973a23be26369043
+  tags: []
+- name: Sora Tonin
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 8e91063f3d584089a7218223a02d0574
+  tags: []
+- name: SRG Mom
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 6a32e401cff74db8937a966a156ae2c3
+  tags: []
+- name: Syzygy
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 84cabdff220742dfae1717f690ae850a
+  tags: []
+- name: Empress
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 0918f14ad10747579672a1976e96a3ae
+  tags: []
+- name: The Greatest American Who Ever Lived
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
+  tags: []
+- name: The Starbreaker
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: e9f8f5ac87b046d787401602e5730749
+  tags: []
+- name: Vacation Commissioner
+  card_type: SingleCompetitorCard
+  division: United States
+  db_uuid: 287077390a6f4cf5a7d056e252a2469c
+  tags: []
+- name: The Winning Ticket
+  card_type: SingleCompetitorCard
+  division: World Championship
+  db_uuid: f4a3aea48e544fac9e4edf24b5d07235
   tags: []

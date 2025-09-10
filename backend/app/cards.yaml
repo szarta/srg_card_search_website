@@ -6555,6 +6555,8 @@
   db_uuid: b80e9039cbe743f19ec0f1412397a57d
   tags: []
 - name: Calling for Backup
+  rules_text: During their turn, your opponent cannot play Finishes without a Follow
+    Up in play. Your opponent's next turn roll is -2.
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
@@ -7186,6 +7188,9 @@
   tags: []
 - name: Big Dimes Potion
   play_order: Lead
+  rules_text: 'Randomly add a Finish from your discard pile to your hand.
+
+    When this card is discarded from play for a breakout, draw 1 card.'
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 8
@@ -7380,6 +7385,9 @@
   db_uuid: b867f891bb1e45c1ae0af0235c796bc9
   tags: []
 - name: Half-and-Half Suplex
+  rules_text: 'Draw 1 card.
+
+    Your opponent reveals 1 card in their hand and buries it.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7389,11 +7397,17 @@
 - name: Jumping Suplex
   play_order: Lead
   atk_type: Grapple
+  rules_text: The next time you roll Power for your turn roll, it is +2. When your
+    opponent's Gimmick would move any number of cards from their discard pile to any
+    location, they are instead buried.
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: 6e50946143724e42a569e6d551a00f4a
   tags: []
 - name: Kabloow
+  rules_text: '+2 to Power, Submission, and Grapple during your next turn roll.
+
+    Cards in your opponent''s discard pile have blank text.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7401,6 +7415,7 @@
   db_uuid: 4f5b73c6a84b465e89503efd000bfb11
   tags: []
 - name: King's Welcome
+  rules_text: Bury 3 cards in your hand, draw 4 cards.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7408,6 +7423,8 @@
   db_uuid: 241cd51903f442b2b92e8b9fd659ebc9
   tags: []
 - name: Lucha, Rinse, Repeat!
+  rules_text: Draw 1 card or take 4 cards from your discard pile and randomly put
+    them on top of your deck.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7415,6 +7432,10 @@
   db_uuid: b590c40c1cca4aa4890c0a2846d95924
   tags: []
 - name: Making Waves
+  rules_text: 'Bury 1 Grapple in any player''s discard pile.
+
+    Your opponent cannot Double Team, Save, or Protect until the end of their next
+    turn.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7422,6 +7443,11 @@
   db_uuid: 6f24daf8cef340cf8b88d53e0f60c067
   tags: []
 - name: Money to Burn
+  rules_text: 'Look at the top 3 cards of your opponent''s deck, choose 2 cards and
+    discard them.
+
+    If this is a Ring of Fire or Lumberjack match and this card is stopped, shuffle
+    2 cards from your discard pile into your deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7429,6 +7455,9 @@
   db_uuid: c0e30d75b81a459c94166d7ad732fec5
   tags: []
 - name: Northern Lights Suplex
+  rules_text: 'Flip 3 cards.
+
+    Shuffle 2 cards from your discard pile into your deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard

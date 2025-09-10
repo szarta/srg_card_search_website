@@ -11939,6 +11939,20 @@
   deck_card_number: 17
   db_uuid: 46f3d7685cb6497c95099231476edf21
   tags: []
+- name: Steel Chained Spinebuster
+  srg_url: https://supershowthegame.com/product/17-steel-chained-spinebuster/
+  play_order: Followup
+  atk_type: Grapple
+  card_type: MainDeckCard
+  deck_card_number: 17
+  rules_text: 'Your Submission skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Steel Chain match, this card
+    is also a Finish.
+
+    Skill Requirement: Power 8+'
+  db_uuid: c55078d305bd4b4982cea8fbe56e12a1
+  tags: []
 - name: Back Bump
   play_order: Followup
   atk_type: Grapple

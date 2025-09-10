@@ -29075,6 +29075,15 @@
   db_uuid: 7784adb1e56e4e3e87654a09a6bafa90
   tags: []
 - name: Boss Lady Bella
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 10
+  grapple: 7
+  rules_text: 'If you rolled Submission for your turn roll: You may play 1 additional
+    card this turn.'
+  gender: Female
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: 5b632c3955d94e508776747ae99737a0
@@ -29088,6 +29097,16 @@
   db_uuid: cb0720bf4a1d4f98b9c6421beb0bae5b
   tags: []
 - name: Brimelight
+  power: 8
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 9
+  rules_text: '3 times per match:
+
+    You may change your target''s turn roll to 9.'
+  gender: Male
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: 2185fb6d71e54ad19fa567ff04464047
@@ -29115,6 +29134,15 @@
   db_uuid: 66154148618e431ba0dd2c28c08e95d9
   tags: []
 - name: Cassandra
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 6
+  submission: 8
+  grapple: 9
+  rules_text: Change "+" to "-" and "-" to "+" on your target's Gimmick and "Champion
+    of Kickstarter" card.
+  gender: Female
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: 98f3f8c2a9624054b696f59bc8d89dd9
@@ -29480,6 +29508,7 @@
   strike: 10
   submission: 8
   grapple: 7
+  gender: Female
   rules_text: 'When you hit a card with "Barricade", "Beatdown", or "Blindside" in
     the name: Discard 2 cards from your hand and add 1 card from your discard pile
     to your hand.'

@@ -7468,6 +7468,9 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Reveal 2 cards in your hand to your opponent.
+
+    Add 1 Grapple from your discard pile to your hand.'
   deck_card_number: 8
   db_uuid: 89cd851ecd554ff9947dc12e66e241f4
   tags: []
@@ -7475,10 +7478,14 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Discard 2 cards from your hand.
+
+    Add 1 card from your discard pile to your hand.'
   deck_card_number: 8
   db_uuid: 67fd3364a1944796a1bf9967b7a562e5
   tags: []
 - name: Pump Up the Crowd (V1)
+  rules_text: Your next turn roll is +2.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7486,6 +7493,9 @@
   db_uuid: 053f0da1807f499680072ff1e73f339a
   tags: []
 - name: Pump Up the Crowd (V2)
+  rules_text: 'Your next turn roll is +2.
+
+    If the Crowd Meter is 1 or greater, it is +3 instead.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7493,6 +7503,8 @@
   db_uuid: e24477f0abee455fa370b1fd69d1c229
   tags: []
 - name: Reverse Scoop Slam
+  rules_text: Draw 1 card or shuffle up to 3 cards from your discard pile into your
+    deck.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7510,6 +7522,9 @@
   db_uuid: 447cb460131e4da390511a59641fe257
   tags: []
 - name: Seal Uprising
+  rules_text: 'Add 1 card with "Seal" in the name from your discard pile to your hand.
+
+    Your opponent cannot move this card from in play.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7520,6 +7535,8 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: You may re-roll your next turn roll or your tag team partner draws 1
+    card.
   deck_card_number: 8
   db_uuid: 8c618067926a4b0383dfffa6fadb09db
   tags: []
@@ -7532,6 +7549,10 @@
   db_uuid: f246a36b6c1a47669c4793e8d15af71e
   tags: []
 - name: Steel Chair Uprising
+  rules_text: 'If stopped, search your deck for 1 card with "Steel Chair" in the name
+    and put it on top of your shuffled deck.
+
+    When your opponent increases their turn roll, draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7539,6 +7560,7 @@
   db_uuid: 821ed2394cd84ef39280b2486bf2218f
   tags: []
 - name: Stunning Suplex
+  rules_text: Your opponent's Gimmick is blank until the end of their next turn.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7548,11 +7570,15 @@
 - name: Sunset Spin
   play_order: Lead
   atk_type: Grapple
+  rules_text: If stopped, draw 2 cards.
   card_type: MainDeckCard
   deck_card_number: 8
   db_uuid: dbeb5f9a4f7a43a3abcbed3a72197494
   tags: []
 - name: Surfboard Buster
+  rules_text: 'If stopped, your opponent buries 1 card in their hand.
+
+    If this is a Steel Cage match, draw 2 cards.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7581,6 +7607,10 @@
   db_uuid: 67ee5fd4625042778926e81052173083
   tags: []
 - name: Swing Around the Ring
+  rules_text: 'During their turn, your opponent cannot play Finishes without a Follow
+    Up in play.
+
+    Your opponent''s next turn roll is -2.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7588,6 +7618,9 @@
   db_uuid: e2dc29143f57497aa9372b2943791a0a
   tags: []
 - name: Swinging Neckbreaker
+  rules_text: 'If you have fewer cards in your hand than your opponent, draw 3 cards.
+
+    If this is a Steel Cage match, flip 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7595,6 +7628,8 @@
   db_uuid: e8701bcd29b34d3d8a75edf09392c90b
   tags: []
 - name: Table Uprising
+  rules_text: Search your deck for 1 card with "Table" in the name, add it to your
+    hand and shuffle your deck or each player buries 1 card in their hand.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7602,6 +7637,7 @@
   db_uuid: f38632d5c22e4af0a937e18a3e3ed383
   tags: []
 - name: Takedown
+  rules_text: Draw 2 cards.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7609,6 +7645,10 @@
   db_uuid: 9d0fecd8355749659b71c83b001e69de
   tags: []
 - name: Taunt
+  rules_text: 'Flip 3 cards.
+
+    Choose 3 cards in your discard pile, your opponent puts one in your hand, buries
+    another, and the last stays in your discard pile.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7616,6 +7656,8 @@
   db_uuid: 12f71a2a6e6b4be2a14f44b87802670d
   tags: []
 - name: Taunting Takedown (V1)
+  rules_text: Reveal the top 2 cards of your deck, add 1 to your hand and shuffle
+    the other back into your deck.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7623,6 +7665,8 @@
   db_uuid: 0a5efb37f09b49b0b680f12858c2bfb9
   tags: []
 - name: Taunting Takedown (V2)
+  rules_text: Reveal the top 3 cards of your deck, add 1 to your hand and shuffle
+    the others back into your deck.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7641,6 +7685,10 @@
   db_uuid: 10d9a03cf6444876adf157d4705c43b8
   tags: []
 - name: Tiger Suplex
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    When this card is in your discard pile: When you roll Power for your turn roll,
+    you may put this card on top of your deck.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7669,6 +7717,10 @@
   db_uuid: 3fe1f12b8df2431fa8337921dcde3b87
   tags: []
 - name: Trash Can Uprising
+  rules_text: 'Add 1 card with "Trash Can" in the name from your discard pile to your
+    hand.
+
+    Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7676,6 +7728,9 @@
   db_uuid: e182c5784db04a73b36c231617c73d0e
   tags: []
 - name: Turbo Top Spin
+  rules_text: 'Your next turn roll is +1.
+
+    Draw 1 card.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7683,6 +7738,9 @@
   db_uuid: 435be60f10634c9cacc4c1f1e15e26fb
   tags: []
 - name: Work the Crowd
+  rules_text: 'Reveal your hand to your opponent, they choose and bury 1 card.
+
+    Draw 3 cards.'
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7690,6 +7748,8 @@
   db_uuid: 1077de64aefd40e0b26bc093a7bf36da
   tags: []
 - name: What Will Break First?
+  rules_text: Seach your deck or discard pile for "Backbreaker" and add it to your
+    hand, or you may force your opponent to re-roll their next turn roll.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
@@ -7736,6 +7796,7 @@
   db_uuid: a652df7beeb643d788dd143654f3af9f
   tags: []
 - name: An Iconic Performance
+  rules_text: "Add 1 Lead from your discard pile to your hand.\nWhen your opponent forces you to bury any number of cards from your hand, draw 1 card."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7743,6 +7804,7 @@
   db_uuid: 77dff7f6cedd4f498acb13676570c4d2
   tags: []
 - name: Apply Pressure
+  rules_text: "Draw 2 cards."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7750,6 +7812,7 @@
   db_uuid: e51caa2e9db64eb9bf0f2fc2b2e124cd
   tags: []
 - name: Arm Buster
+  rules_text: "Draw 1 card then bury 1 card in your hand.\nWhen this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7757,6 +7820,7 @@
   db_uuid: 60016e6dbe27473f90cdf28cd9a63579
   tags: []
 - name: Arm Wringer
+  rules_text: "Randomly add 1 card from your discard pile to your hand or each player draws 1 card."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7774,6 +7838,7 @@
   db_uuid: 3b5759d1c8034824b9a06502f7840a21
   tags: []
 - name: Atomic Chicken Wing
+  rules_text: "When you have \"Hyper Forearm Kicker Hold Choke\" in play, this card is also a Finish.\nSkill Requirement: Submission 8+"
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7781,6 +7846,7 @@
   db_uuid: e17735b32e0c49eb80e8fe142130d920
   tags: []
 - name: Brainwashed
+  rules_text: "Each player shuffles their hand into their dekc and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile to your hand."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7788,6 +7854,7 @@
   db_uuid: 28e5071b77104535936cc2f0adfa2af8
   tags: []
 - name: Cauldron Boil
+  rules_text: "Draw 1 card or put 1 Grapple from your discard pile on top of your deck."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7803,6 +7870,7 @@
   db_uuid: c7fe80e54d7e400cbbb15d933ad678ad
   tags: []
 - name: Chin Wrenching
+  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Technique for your turn roll, you may put this card on top of your deck."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7843,6 +7911,7 @@
   db_uuid: 8a1299aa5d354566a8686984becacc19
   tags: []
 - name: Cosmic Clutch
+  rules_text: "If stopped, draw 2 cards."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7851,6 +7920,7 @@
   tags: []
 - name: Desperate Times
   play_order: Lead
+  rules_text: "Search your deck or discard pile for \"Strangle Hold\" and add it to your hand, or you may force your opponent to re-roll their next turn roll."
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
@@ -7860,10 +7930,12 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: "Your opponent discards 1 card from their hand or your opponent flips 4 cards."
   deck_card_number: 9
   db_uuid: 7d535e18c31044109c26c411dd1eb248
   tags: []
 - name: Epic Stare Down
+  rules_text: "Reveal your hand to your opponent.\nThey choose and bury 1 card.\nDraw 3 cards."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7871,6 +7943,7 @@
   db_uuid: d6eaaa3aee034420ac002429caa57b5b
   tags: []
 - name: 'Escape Potion #9'
+  rules_text: "Bury 1 card in your discard pile.\nWhen this card is discarded from play for a breakout, search your deck for up to 3 cards and put them into your discard pile.\nShuffle your deck."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7878,6 +7951,7 @@
   db_uuid: a695ccc133714ed6aaa1caaefa61705f
   tags: []
 - name: Embossed Steel Surfboard
+  rules_text: "If you have fewer cards in your hand than your opponent, add 1 card from your discard pile to your hand.\nIf this is a Steel Cage match, flip 1 card."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7885,6 +7959,7 @@
   db_uuid: 4bc64c5f6d124047b23ace96346ebd49
   tags: []
 - name: Eye Rake
+  rules_text: "Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Submission from your discard pile on top of your deck."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7892,6 +7967,7 @@
   db_uuid: e9a79ab3491c43918784474d50dbd2be
   tags: []
 - name: Face Lift
+  rules_text: "Your opponent's next turn roll is -1 or if you have fewer cards in your hand than your opponent, they discard 1 random card from their hand."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

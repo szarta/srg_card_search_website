@@ -29474,6 +29474,15 @@
   db_uuid: 3d7652ac29af4c77842e419996e11278
   tags: []
 - name: Bruiser Beans
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  rules_text: 'When you hit a card with "Barricade", "Beatdown", or "Blindside" in
+    the name: Discard 2 cards from your hand and add 1 card from your discard pile
+    to your hand.'
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: c7cc2a824fab4b5dad84a3f863605373

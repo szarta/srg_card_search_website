@@ -7846,7 +7846,7 @@
   db_uuid: e17735b32e0c49eb80e8fe142130d920
   tags: []
 - name: Brainwashed
-  rules_text: "Each player shuffles their hand into their dekc and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile to your hand."
+  rules_text: "Each player shuffles their hand into their deck and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile to your hand."
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard

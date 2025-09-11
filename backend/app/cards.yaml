@@ -7796,7 +7796,10 @@
   db_uuid: a652df7beeb643d788dd143654f3af9f
   tags: []
 - name: An Iconic Performance
-  rules_text: "Add 1 Lead from your discard pile to your hand.\nWhen your opponent forces you to bury any number of cards from your hand, draw 1 card."
+  rules_text: 'Add 1 Lead from your discard pile to your hand.
+
+    When your opponent forces you to bury any number of cards from your hand, draw
+    1 card.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7804,7 +7807,7 @@
   db_uuid: 77dff7f6cedd4f498acb13676570c4d2
   tags: []
 - name: Apply Pressure
-  rules_text: "Draw 2 cards."
+  rules_text: Draw 2 cards.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7812,7 +7815,10 @@
   db_uuid: e51caa2e9db64eb9bf0f2fc2b2e124cd
   tags: []
 - name: Arm Buster
-  rules_text: "Draw 1 card then bury 1 card in your hand.\nWhen this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand."
+  rules_text: 'Draw 1 card then bury 1 card in your hand.
+
+    When this card is in your discard pile and you roll Submission for your turn roll,
+    you may add it to your hand.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7820,7 +7826,8 @@
   db_uuid: 60016e6dbe27473f90cdf28cd9a63579
   tags: []
 - name: Arm Wringer
-  rules_text: "Randomly add 1 card from your discard pile to your hand or each player draws 1 card."
+  rules_text: Randomly add 1 card from your discard pile to your hand or each player
+    draws 1 card.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7838,7 +7845,10 @@
   db_uuid: 3b5759d1c8034824b9a06502f7840a21
   tags: []
 - name: Atomic Chicken Wing
-  rules_text: "When you have \"Hyper Forearm Kicker Hold Choke\" in play, this card is also a Finish.\nSkill Requirement: Submission 8+"
+  rules_text: 'When you have "Hyper Forearm Kicker Hold Choke" in play, this card
+    is also a Finish.
+
+    Skill Requirement: Submission 8+'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7846,7 +7856,9 @@
   db_uuid: e17735b32e0c49eb80e8fe142130d920
   tags: []
 - name: Brainwashed
-  rules_text: "Each player shuffles their hand into their deck and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile to your hand."
+  rules_text: Each player shuffles their hand into their deck and adds the top 5 cards
+    of their deck to their hand or add 2 Skill Requirement cards from your discard
+    pile to your hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7854,7 +7866,7 @@
   db_uuid: 28e5071b77104535936cc2f0adfa2af8
   tags: []
 - name: Cauldron Boil
-  rules_text: "Draw 1 card or put 1 Grapple from your discard pile on top of your deck."
+  rules_text: Draw 1 card or put 1 Grapple from your discard pile on top of your deck.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7870,7 +7882,10 @@
   db_uuid: c7fe80e54d7e400cbbb15d933ad678ad
   tags: []
 - name: Chin Wrenching
-  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Technique for your turn roll, you may put this card on top of your deck."
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    When this card is in your discard pile: When you roll Technique for your turn
+    roll, you may put this card on top of your deck.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7911,7 +7926,7 @@
   db_uuid: 8a1299aa5d354566a8686984becacc19
   tags: []
 - name: Cosmic Clutch
-  rules_text: "If stopped, draw 2 cards."
+  rules_text: If stopped, draw 2 cards.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7920,7 +7935,8 @@
   tags: []
 - name: Desperate Times
   play_order: Lead
-  rules_text: "Search your deck or discard pile for \"Strangle Hold\" and add it to your hand, or you may force your opponent to re-roll their next turn roll."
+  rules_text: Search your deck or discard pile for "Strangle Hold" and add it to your
+    hand, or you may force your opponent to re-roll their next turn roll.
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
@@ -7930,12 +7946,17 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
-  rules_text: "Your opponent discards 1 card from their hand or your opponent flips 4 cards."
+  rules_text: Your opponent discards 1 card from their hand or your opponent flips
+    4 cards.
   deck_card_number: 9
   db_uuid: 7d535e18c31044109c26c411dd1eb248
   tags: []
 - name: Epic Stare Down
-  rules_text: "Reveal your hand to your opponent.\nThey choose and bury 1 card.\nDraw 3 cards."
+  rules_text: 'Reveal your hand to your opponent.
+
+    They choose and bury 1 card.
+
+    Draw 3 cards.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7943,7 +7964,12 @@
   db_uuid: d6eaaa3aee034420ac002429caa57b5b
   tags: []
 - name: 'Escape Potion #9'
-  rules_text: "Bury 1 card in your discard pile.\nWhen this card is discarded from play for a breakout, search your deck for up to 3 cards and put them into your discard pile.\nShuffle your deck."
+  rules_text: 'Bury 1 card in your discard pile.
+
+    When this card is discarded from play for a breakout, search your deck for up
+    to 3 cards and put them into your discard pile.
+
+    Shuffle your deck.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7951,7 +7977,10 @@
   db_uuid: a695ccc133714ed6aaa1caaefa61705f
   tags: []
 - name: Embossed Steel Surfboard
-  rules_text: "If you have fewer cards in your hand than your opponent, add 1 card from your discard pile to your hand.\nIf this is a Steel Cage match, flip 1 card."
+  rules_text: 'If you have fewer cards in your hand than your opponent, add 1 card
+    from your discard pile to your hand.
+
+    If this is a Steel Cage match, flip 1 card.'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7959,7 +7988,8 @@
   db_uuid: 4bc64c5f6d124047b23ace96346ebd49
   tags: []
 - name: Eye Rake
-  rules_text: "Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Submission from your discard pile on top of your deck."
+  rules_text: Look at the top 3 cards of your deck and put them back on top in any
+    order, or put 1 Submission from your discard pile on top of your deck.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -7967,7 +7997,8 @@
   db_uuid: e9a79ab3491c43918784474d50dbd2be
   tags: []
 - name: Face Lift
-  rules_text: "Your opponent's next turn roll is -1 or if you have fewer cards in your hand than your opponent, they discard 1 random card from their hand."
+  rules_text: Your opponent's next turn roll is -1 or if you have fewer cards in your
+    hand than your opponent, they discard 1 random card from their hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -24751,14 +24782,114 @@
   db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
   tags: []
 - name: Funtime Bob (V1)
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  gender: Male
+  rules_text: When you roll Technique or Grapple for your turn roll, your next turn
+    roll is +1.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: b7b746a51bf5436da9c4ba172c7ff504
   tags: []
 - name: Funtime Bob (V2)
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  gender: Male
+  rules_text: If your opponent won the last 3 turn rolls, your next roll is +3.
   division: United States
   card_type: SingleCompetitorCard
   db_uuid: 667bc6434cfc4080870f6224e76e01fc
+  tags: []
+- name: Funtime Bob (V3)
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  gender: Male
+  rules_text: If your opponent won the last 3 turn rolls, your next roll is +4 and
+    add 1 card with "Chug" in the name from your discard pile to your hand.
+  comment: Needs to be verified.
+  db_uuid: cce5191cbedd4793a072ff1059417331
+  tags: []
+- name: Now Say Goodnight
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If you have "Chugga-Chugga Chugga-Chugga Chugga-Chugga, Chug!" in play, the Crowd
+    Meter is +1.'
+  db_uuid: 862dfcea091a497d9196c79e1f23c6d4
+  tags: []
+- name: Funtime Drop
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you bumped last turn and the Crowd Meter is 2 or greater, this card cannot
+    be stopped.'
+  db_uuid: 88529c7c0327402baea3a3a300eb076c
+  tags: []
+- name: Funtime is Over
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    Your opponent''s breakout rolls are -1.'
+  db_uuid: de72a044d0954bf898b585f17eed8f73
+  tags: []
+- name: Chugga Lugga Lariat
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    Add 1 card with "Chug" in the name from your discard pile to your hand. You may
+    play 1 additional card with "Chug" or "Funtime" in the name this turn.'
+  db_uuid: 05b615c9b8d04c27bd885554930bbbd1
+  tags: []
+- name: Funtime Driver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    If your turn roll was +3, this card is also a Lead.'
+  db_uuid: 513410876cee4349b7958ea10442a644
+  tags: []
+- name: Bean Bag Chair
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: Your Finish roll is +1 for each card you have in play with "Chug" in
+    the name (Max +2).
+  db_uuid: 83c20a0096834cce9a0ce4890323cee2
   tags: []
 - name: Gabby Ortiz
   card_type: SingleCompetitorCard
@@ -24967,9 +25098,57 @@
   db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
   tags: []
 - name: Heartache Kid Mr. L.F.F.
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  gender: Male
+  rules_text: When you roll Technique for your turn roll, you may search your deck
+    for a Strike and put it on top of your shuffled deck.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 8d1c80c7bbf34977ae298f810ac15af8
+  tags: []
+- name: Breakup Music
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    If the Crowd Meter is 2 or greater, this card is also a Lead.'
+  db_uuid: ae5b98d6e83f4c1dbbb7b60c3c01bc96
+  tags: []
+- name: Tear Drop Drop
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Shuffle 1 card from your discard pile into your deck.  If your opponent breaks
+    out, you may increase the Crowd Meter by 1.'
+  db_uuid: a12f870c170d43bd8f68f456083b0163
+  tags: []
+- name: The Heartstrings
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    Shuffle up to 3 Strikes from your discard pile into your deck.'
+  db_uuid: f436303959024c4ba9e99d5c84207ba6
   tags: []
 - name: Helen
   division: Intergalactic
@@ -26280,9 +26459,51 @@
   db_uuid: 041f88464da84d039c316094b81a3273
   tags: []
 - name: Maul
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 7
+  gender: Male
   division: Old School
+  rules_text: When your opponent stops a card, they randomly reveal 1 card in their
+    hand; if it is a Stop, they discard it.
   card_type: SingleCompetitorCard
   db_uuid: d7de2a59d5f04f41968fca33387c4304
+  tags: []
+- name: Maul Splash
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    If you rolled Agility for your turn roll, this card is also a Follow Up.'
+  db_uuid: 989987059da54195be1f9dd7c83bed4b
+  tags: []
+- name: Maul Bomb
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Grapple'
+  db_uuid: bc4ff3de664e48b58889f70bb1298218
+  tags: []
+- name: It's Time, It's Time, It's Maul Time!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Submission
+
+    Discard up to 3 cards in your hand. Your opponent randomly discards the same number
+    of cards.'
+  db_uuid: fef93b1498324a0f959d6fb4718b117c
   tags: []
 - name: Maverick Jones
   division: Intergalactic
@@ -26711,9 +26932,52 @@
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
   tags: []
 - name: Over Giver
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: Your opponent's Finish rolls are -1.
+  gender: Male
   division: Old School
   card_type: SingleCompetitorCard
   db_uuid: ed197a8258854b84b89b11a3b0790896
+  tags: []
+- name: New School Clothesline
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If you rolled Technique for your turn roll, you may reveal this card from your
+    hand or discard pile and your opponent''s Finish roll is -2.'
+  db_uuid: 46d24b823b5e4d3c9a253b2ecf17bcd4
+  tags: []
+- name: Headstone Piledriver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Grapple
+
+    Your Finish rolls are + the Crowd Meter (Max +2)'
+  db_uuid: 508eee53b35543b7b773b2d80d0e329e
+  tags: []
+- name: The Gates of Hell
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If either player broke out last turn, this card is also a Lead.'
+  db_uuid: 4d36d212f8404e96b308d2b3724659c2
   tags: []
 - name: Overdog (V1)
   power: 5
@@ -27163,9 +27427,62 @@
   db_uuid: b9ba2975954f4804b291b5bb36cef3f0
   tags: []
 - name: Quadruple H
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 6
+  gender: Male
+  rules_text: 'At the start of the match, draw 2 additional cards.
+
+    Your minimum and maximum handsize are +2.'
   division: Old School
   card_type: SingleCompetitorCard
   db_uuid: 50446df532b14eb784abe67b262181cd
+  tags: []
+- name: Sledgie the Sledgehammer
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +4 to Strike
+
+    Your opponent buries 4 cards in their hand.
+
+    If stopped, unless you have 10 or more cards in your hand, you lose the match
+    via Disqualification.'
+  db_uuid: 57be72d7161943daa8ffd4fac4c3d4b6
+  tags: []
+- name: Line of Descent
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If you have 2 or more cards in your hand than your opponent, double these bonuses.'
+  db_uuid: b9b1403495274baaae7158bd7e16c871
+  tags: []
+- name: Quadruple Tear
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Submission
+
+    Your opponent''s Agility is -4.
+
+    Bury 4 cards in your opponent''s discard pile.
+
+    Draw 4 cards.'
+  db_uuid: aeef6ce9c66b414da6ba623de419df17
   tags: []
 - name: The Queen of Cheer Adrianna Dee
   division: World Championship
@@ -27542,9 +27859,49 @@
   db_uuid: 504e8e4759024076b094608d6b8172a6
   tags: []
 - name: Scrapyard Cat
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 10
+  grapple: 9
   division: Old School
+  rules_text: When you hit a card with "Cat" or "Tiger" in the name, add 1 Grapple
+    from your discard pile to your hand or your next turn roll is +1.
   card_type: SingleCompetitorCard
   db_uuid: b0fcea9832944b0890b8d622271fea68
+  tags: []
+- name: Catch Headbutts
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Strike'
+  db_uuid: ccf4372da41e4476a3fab042e325aebb
+  tags: []
+- name: The Bump
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Grapple'
+  db_uuid: 0594926c6a18466ba9145d843f9ee27f
+  tags: []
+- name: The Cat Nap
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    Your opponent''s Gimmick is blank.'
+  db_uuid: 02d1569e09e8455491f2a99987f3c19d
   tags: []
 - name: The Screaming Danshee
   division: United States
@@ -27912,9 +28269,55 @@
   db_uuid: a1c585eca71546a3820f4410e925a8fe
   tags: []
 - name: The Stone
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: When you hit a Strike or Grapple, bury 1 card in any player's discard
+    pile.
   division: Old School
   card_type: SingleCompetitorCard
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
+  tags: []
+- name: The Pebble's Elbow
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If you have a Grapple with "Spine" in the name in play, your Finish roll is +1.'
+  db_uuid: 794f0114197c495c9d15c12156de29f6
+  tags: []
+- name: The Boulder Bottom
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If your opponent''s Breakout roll is 5 or less, their next Breakout roll is -2.'
+  db_uuid: 5301501fe19545d8b11a5cfb42bc081c
+  tags: []
+- name: The Pebble's Sharpshooter
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Each time your opponent rolls for a Breakout roll, shuffle 1 card from your discard
+    pile into your deck.'
+  db_uuid: 4315fb52be8a4118833a77ae87f81e3b
   tags: []
 - name: Swaggy D
   division: Hardcore

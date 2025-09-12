@@ -24408,9 +24408,58 @@
   db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
   tags: []
 - name: Eric Jayden
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  rules_text: Your opponent cannot force you to bury or discard cards from your hand.
+  gender: Male
   division: Global
   card_type: SingleCompetitorCard
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
+  tags: []
+- name: Authority & Sex-Knee-Ness
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    Your opponent''s maximum handsize is 3.'
+  db_uuid: 34a62eb025f3450b86870445ad59af0e
+  tags: []
+- name: Go to Sleep
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Draw 3 cards.
+
+    If the Crowd Meter is 3 or greater, add 3 cards you have in play to your hand.'
+  db_uuid: 425fed1a7c7b4138a54168e8793b8370
+  tags: []
+- name: Sexy Dreams
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    You may discard this card from your hand and your first breakout roll this turn
+    is + the Crowd Meter.'
+  db_uuid: 1eead2f8f91b4d2d89a81ad55c275aaa
   tags: []
 - name: Eva FireCat
   power: 9
@@ -27914,13 +27963,105 @@
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
   tags: []
 - name: Reverend Good Brain
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 5
+  gender: Male
+  rules_text: 'Once per turn roll: When you roll Agility or Grapple, you may force
+    your opponent to re-roll their turn roll.'
   division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 289c8f5092744a71a376e27dd231bd04
   tags: []
+- name: Strike Down the Wicked
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If your opponent re-rolled their turn roll, this card is also a Lead.'
+  db_uuid: d856d3905f1744be9ac933082dc122f0
+  tags: []
+- name: Bear the Cross
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Grapple
+
+    When this card is in your discard pile and your opponent re-rolls their turn roll,
+    their turn roll is -1.'
+  db_uuid: a169d4193f754869800b7470e68645bf
+  tags: []
+- name: Speaking in Tongues
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to power
+
+    +3 to Submission'
+  db_uuid: 08323b0a745a425081dc5d5753656f0b
+  tags: []
 - name: Reverend Robert Torn
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  gender: Male
+  rules_text: Your opponent cannot force you to bury or discard cards from your hand.
   card_type: SingleCompetitorCard
+  comment: Due to some controversy, Eric Jayden is a preferred alternative.
   db_uuid: 0f6248453f894d958438cdcfeffd1047
+  tags: []
+- name: The Good Book, 3 Kings Ed.
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    Your opponent''s maximum handsize is 3.'
+  db_uuid: 22f087899c1140f59956e80a8c73f37d
+  tags: []
+- name: Scriptures of the Trinity, Newman 3:16
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Draw 3 cards.
+
+    If the Crowd Meter is 3 or greater, add 3 cards you have in play to your hand.'
+  db_uuid: 2764d03f5fd448eeb67ca7bfb00a622f
+  tags: []
+- name: Hand of the Trinity, Torn 4:69
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    You may discard this card from your hand and your first breakout roll is + the
+    Crowd Meter.'
+  db_uuid: 61aed6acb1254880b58a606e6b194b4e
   tags: []
 - name: Rhino
   division: Global

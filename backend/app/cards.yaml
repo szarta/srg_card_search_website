@@ -21168,6 +21168,27 @@
   rules_text: When you roll Strike for your turn roll, draw 1 card.
   db_uuid: 166ea57a5a424cf7a39a182734f15632
   tags: []
+- name: Rainbow Girl (V2)
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 7
+  rules_text: When your target rolls Power for their turn roll, your turn roll is
+    +2.
+  division: Underworld
+  gender: Female
+  related_finishes:
+  - 1c50bfdb7dac401ca01f1381d9ad2401
+  - 9a8bea38ffdb4678bc74a822dac6b790
+  - bdea0c9787ea43f4af11271728a688dc
+  - 5a46915f590f4608ac30cc07394ffa02
+  - 75592c97d2d2410cb0cdc659dc0cebd7
+  - 730bf56875514479be01337e294cf934
+  db_uuid: 9abc29f439ee4b68a288d6c24555ceb0
+  tags: []
 - name: Rainbow Girl (V1)
   card_type: SingleCompetitorCard
   power: 6
@@ -21176,6 +21197,7 @@
   strike: 8
   submission: 5
   grapple: 7
+  gender: Female
   division: Intergalactic
   rules_text: When your opponent rolls Power for their turn roll, draw 1 card.
   db_uuid: a7da12c2bc874900b264623582ebfaeb
@@ -28775,6 +28797,10 @@
   card_type: SingleCompetitorCard
   db_uuid: 066f269d111b4003ad7c426b77cdea5e
   tags: []
+  related_finishes:
+  - 22326f0cc1374ab2b36329d12fb2eb90
+  - ef13552e5f8f480486920e2ab161937f
+  - c04d9761d5594463917b59c328b66582
 - name: Sofa King Powerful Punch
   deck_card_number: 28
   atk_type: Strike

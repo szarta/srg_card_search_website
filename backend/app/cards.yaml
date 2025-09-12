@@ -30175,7 +30175,7 @@
   db_uuid: 6908d1b5831b40d7840875f5558a1f84
   tags: []
 - name: Byrd
-  srg_url: "https://supershowthegame.com/product/byrd/"
+  srg_url: https://supershowthegame.com/product/byrd/
   power: 8
   technique: 7
   agility: 5
@@ -30255,7 +30255,7 @@
   tags: []
   related_finishes:
   - 16b2e28f400241c3ac94413245a9d3e2
-  - 429d0adbe8294e30b367a482db86527c 
+  - 429d0adbe8294e30b367a482db86527c
   - 1aac4d93a70f4f0aa1d5b610b16d4682
 - name: Crash! - Kiddo's Devious Plan
   deck_card_number: 28
@@ -30313,6 +30313,15 @@
   db_uuid: b151d330471547a1ae1c1e81882a96ce
   tags: []
 - name: Chief Coffey
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: When you hit a card with "Chop" in the name, add 1 card with "Chop"
+    in the name from your discard pile to your hand.
+  gender: Male
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: 67985c3af162453ebe643a0edd3c11ef
@@ -30362,6 +30371,16 @@
   db_uuid: 90fca0d1abbc483c9c9d3c83b7d5c939
   tags: []
 - name: Dr. Pauliwood
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 8
+  gender: Male
+  comments: 'AKA: The Back'
+  rules_text: When you hit a card with "Crack", "Neck", or "Spine" in the name draw
+    1 card or add 1 Grapple from your discard pile to your hand.
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: d9e9083f2327491e84012142f1b5b414
@@ -30991,4 +31010,17 @@
     Your opponent randomly reveals 5 cards in their hand: choose two Stops and discard
     them.'
   db_uuid: 41018171070549a3a2fe292762dd39ec
+  tags: []
+- name: The Back Stretch
+  card_type: TornadoCompetitorCard
+  power: 18
+  technique: 16
+  agility: 10
+  strike: 14
+  submission: 20
+  grapple: 12
+  rules_text: 'When your opponent rolls Submission for their turn roll: they randomly
+    bury 1 card in their hand, and you may bury 2 cards in your opponent''s discard
+    pile.'
+  db_uuid: 8e191d075f8b421eb6fbdfc63a2d1d4d
   tags: []

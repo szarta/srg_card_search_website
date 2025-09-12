@@ -74,13 +74,50 @@ async def on_message(message: discord.Message):
             url = f"{API_BASE}/card/{slug}"
 
             if data:
-                # build a compact embed (Discord will also auto-unfurl links if posted)
+                # Title + first sentence of rules
                 title = data.get("name") or name
                 rules = (data.get("rules_text") or "").strip()
-                desc = ""
+                rule_snip = ""
                 if rules:
                     m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules)
-                    desc = m.group(0) if m else rules
+                    rule_snip = m.group(0) if m else rules
+
+                # Build compact stats line for competitor cards
+                stats_keys = [
+                    "power",
+                    "technique",
+                    "agility",
+                    "strike",
+                    "submission",
+                    "grapple",
+                ]
+                stat_parts = []
+                if data.get("card_type") in (
+                    "SingleCompetitorCard",
+                    "TornadoCompetitorCard",
+                    "TrioCompetitorCard",
+                ):
+                    for k in stats_keys:
+                        v = data.get(k)
+                        if v is not None:
+                            stat_parts.append(f"{k.capitalize()} {v}")
+
+                # Include deck_card_number for MainDeckCard if present
+                if (
+                    data.get("card_type") == "MainDeckCard"
+                    and data.get("deck_card_number") is not None
+                ):
+                    stat_parts.append(f"Deck #{data.get('deck_card_number')}")
+
+                stat_line = " · ".join(stat_parts)  # e.g. "Power 8 · Technique 6"
+
+                # Build description: stats (if any) + blank line + rules snippet
+                desc_chunks = []
+                if stat_line:
+                    desc_chunks.append(stat_line)
+                if rule_snip:
+                    desc_chunks.append(rule_snip)
+                desc = "\n\n".join(desc_chunks) if desc_chunks else None
 
                 embed = discord.Embed(title=title, url=url, description=desc)
                 uuid = data.get("db_uuid")
@@ -123,10 +160,35 @@ async def slash_card(interaction: discord.Interaction, name: str):
 
     title = data.get("name") or name
     rules = (data.get("rules_text") or "").strip()
-    desc = ""
+    rule_snip = ""
     if rules:
         m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules)
-        desc = m.group(0) if m else rules
+        rule_snip = m.group(0) if m else rules
+
+    stats_keys = ["power", "technique", "agility", "strike", "submission", "grapple"]
+    stat_parts = []
+    if data.get("card_type") in (
+        "SingleCompetitorCard",
+        "TornadoCompetitorCard",
+        "TrioCompetitorCard",
+    ):
+        for k in stats_keys:
+            v = data.get(k)
+            if v is not None:
+                stat_parts.append(f"{k.capitalize()} {v}")
+    if (
+        data.get("card_type") == "MainDeckCard"
+        and data.get("deck_card_number") is not None
+    ):
+        stat_parts.append(f"Deck #{data.get('deck_card_number')}")
+    stat_line = " · ".join(stat_parts)
+
+    desc_chunks = []
+    if stat_line:
+        desc_chunks.append(stat_line)
+    if rule_snip:
+        desc_chunks.append(rule_snip)
+    desc = "\n\n".join(desc_chunks) if desc_chunks else None
 
     embed = discord.Embed(title=title, url=url, description=desc)
     uuid = data.get("db_uuid")

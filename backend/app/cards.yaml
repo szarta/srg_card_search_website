@@ -23548,7 +23548,51 @@
     it to your hand.  Shuffle your deck.'
   division: World Championship
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/cherry-von-danish/
   db_uuid: ee000b1dc146472c8ad39a71ad5616ae
+  tags: []
+  related_finishes:
+  - 5f9ddc7babd2483faa4519694b33d001
+  - 56100fd216824f7f85e2a5525deec5a5
+  - 8cc9b5fd3bf74c6a98d6808a0000ea4a
+- name: The Recipe for Success
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    Shuffle 5 cards with "Roll", "Chop" or "Cut" in the name from your discard pile
+    into your deck.'
+  db_uuid: 5f9ddc7babd2483faa4519694b33d001
+  tags: []
+- name: The Rolling Pin
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    During your turn: if your opponent rolled Technique for their turn roll, this
+    card is also a Lead.'
+  db_uuid: 56100fd216824f7f85e2a5525deec5a5
+  tags: []
+- name: The Sweet Spot
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If you have 5 cards in play with "Roll", "Chop", or "Cut" in the name, double
+    these bonuses.'
+  db_uuid: 8cc9b5fd3bf74c6a98d6808a0000ea4a
   tags: []
 - name: Cherry Glamazon
   power: 9

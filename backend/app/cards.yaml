@@ -27976,6 +27976,10 @@
   card_type: SingleCompetitorCard
   db_uuid: 289c8f5092744a71a376e27dd231bd04
   tags: []
+  related_finishes:
+  - d856d3905f1744be9ac933082dc122f0
+  - a169d4193f754869800b7470e68645bf
+  - 08323b0a745a425081dc5d5753656f0b
 - name: Strike Down the Wicked
   deck_card_number: 28
   atk_type: Strike
@@ -28022,6 +28026,10 @@
   comment: Due to some controversy, Eric Jayden is a preferred alternative.
   db_uuid: 0f6248453f894d958438cdcfeffd1047
   tags: []
+  related_finishes:
+  - 22f087899c1140f59956e80a8c73f37d
+  - 2764d03f5fd448eeb67ca7bfb00a622f
+  - 61aed6acb1254880b58a606e6b194b4e
 - name: The Good Book, 3 Kings Ed.
   deck_card_number: 28
   atk_type: Strike

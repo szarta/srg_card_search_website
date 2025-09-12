@@ -25363,9 +25363,56 @@
   db_uuid: 10a05e4e55ff46d5acd1f60c60b297dd
   tags: []
 - name: Jay White
+  power: 6
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  gender: Male
+  rules_text: 'Once a turn roll: When your opponent rolls 9 or 10 for their turn roll,
+    you may re-roll your turn roll.'
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 68d8df0c31a04446bb8734cbe82be583
+  tags: []
+- name: Blade Runner
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If you re-rolled your turn roll, this card is also a Lead.'
+  db_uuid: 5564f531c57d4525b2cb04bc7238e398
+  tags: []
+- name: Snap Saito Suplex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    Look at your opponent''s hand, choose 1 card and bury it.
+
+    Add 1 Strike or Submission Finish from your discard pile to your hand.'
+  db_uuid: de2d41184d594ddcb92e9915f762ee12
+  tags: []
+- name: TTO
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Your opponent randomly discards 1 card from their hand.
+
+    Draw 1 card.'
+  db_uuid: 8b0342d4678147b2841d26f8252a8938
   tags: []
 - name: Jean Constance
   division: United States
@@ -25486,9 +25533,54 @@
   db_uuid: 4ca508f3c6b44cd88defa9aafb4aefbb
   tags: []
 - name: Johnny T
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 5
+  gender: Male
+  rules_text: When your opponent has 8 or more cards in their hand, your Strike and
+    Submission skills are +1.
   card_type: SingleCompetitorCard
   division: World Championship
   db_uuid: c79de6acd1954441970f9b1901a55e01
+  tags: []
+- name: You're Mad
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    When this card is in your discard pile: Replace "8" with "6" in your Gimmick.'
+  db_uuid: 201540e5c73d45a19d64f8ef3f513b2d
+  tags: []
+- name: Jam Ham!
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    +1 to Submission
+
+    Each player draws 3 cards.
+
+    Look at your opponent''s hand, choose 1 card and discard it.'
+  db_uuid: 56f01ffe3a0d4a8b88ef262be77aea75
+  tags: []
+- name: I Said, Jam Ham!!!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Add up to 4 cards from your opponent''s discard pile to their hand.'
+  db_uuid: 6dab213c9df54b6996af68c511f2e81e
   tags: []
 - name: Jokerfish (V1)
   power: 5
@@ -26080,9 +26172,50 @@
   db_uuid: 4871ba4a724847959f6c55d2c4353658
   tags: []
 - name: Liger
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: Your Power, Agility, and Technique skills are +1 when you have a card
+    with "Lariat" or "Clothesline" in play.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 109e75661c724f3793fd139706a5b8b5
+  tags: []
+- name: Donkey Lariat
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    Flip 4 cards, then add 2 cards with "Lariat" or "Clothesline" in the name from
+    your discard pile to your hand.'
+  db_uuid: 06cab7e5eca242a380398f9bf6e56720
+  tags: []
+- name: Cape Killer
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    Take 1 card with "Lariat" in the name from in play and add it to your hand.'
+  db_uuid: 2fefc7e8c86546099219e5a545a97d52
+  tags: []
+- name: Liger Tamer
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    If your opponent rolls their lowest skill, their next breakout roll is -3.'
+  db_uuid: 9553321e03a44aafa61f78bf9fd9a92b
   tags: []
 - name: Lily Mai (V1)
   power: 6
@@ -26125,9 +26258,52 @@
   db_uuid: 088fca386b3e47fcb5b1087f3b7def31
   tags: []
 - name: Little Guido
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  gender: Male
+  rules_text: 'When you roll Power for your turn roll: Draw 1 card or your opponent''s
+    next turn roll is -2.'
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
+  tags: []
+- name: The Sicilian Slice
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    +1 to Agility'
+  db_uuid: cbf3ea938044479385c63d5f33a1e85f
+  tags: []
+- name: The Arrivederci
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    If you rolled Agility for your turn roll, this card is also a Follow Up.'
+  db_uuid: ef0dcbcfe62c4f2a8de1a843d3944a67
+  tags: []
+- name: Sicilian Crab
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Your Finish rolls are +1 for each other Submission you have in play (Max +2).'
+  db_uuid: a0b36657448f46b882a2ad8919e72ec0
   tags: []
 - name: The Living Weapon Michael Deans
   card_type: SingleCompetitorCard
@@ -26193,9 +26369,84 @@
   db_uuid: f63d587175404c10a36bdcd1e89338af
   tags: []
 - name: Loudmouth Leo Larynx
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 8
+  grapple: 5
+  gender: Male
+  rules_text: When you roll 10 for your turn roll add 1 Loudmouth Leo Larynx Finish
+    from your discard pile to your hand or your next turn roll is +1.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: def74dd5530540ce8a9e903bc10fd620
+  tags: []
+- name: The Party Trick
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Draw 1 card for each card you have in play with "Hype", "Crowd", or "Taunt" in
+    the name.'
+  db_uuid: 4b0dc5b5789a4fb596424de22e1ee3a1
+  tags: []
+- name: The Sky Fall
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and either player breaks out, you may shuffle
+    it into your deck.'
+  db_uuid: 861f6ccd96d04377a4bcac8e6d4fd83d
+  tags: []
+- name: 2:10 to Albany
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Shuffle 1 card from your discard pile into your deck.
+
+    If you have "Chugga-Chugga Chugga-Chugga Chugga-Chugga, Chug!" in play, double
+    these bonuses.'
+  db_uuid: 3995bf9b97ce4a3f84d525094f36dfbb
+  tags: []
+- name: 2:10 to NYC
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If you have a card with "Taunt" in the name in play, your opponent gets 1 less
+    breakout roll this turn.'
+  db_uuid: fe782bffac044ac3852154a6c55c01db
+  tags: []
+- name: I Scream, You Scream!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +4 to Grapple
+
+    If you didn''t yell "THAT''S RIGHT BABY", this card has blank text.'
+  db_uuid: 07ed20d2f1534c058dc7542838a3d89a
   tags: []
 - name: Luchamaniacal Uberstar
   division: Intergalactic
@@ -26234,9 +26485,57 @@
   db_uuid: 6610ac46791b4527b45006f551fe028e
   tags: []
 - name: Macho Manny
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 6
+  submission: 8
+  grapple: 9
+  gender: Male
+  rules_text: Once a turn roll, if your opponent won the last turn roll, you may have
+    your opponent re-roll their turn roll.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: a09bc1774f984c6287207df2a01a4eee
+  tags: []
+- name: Macho Manny Elbow Drop
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Strike
+
+    Double these bonuses if your opponent re-rolled their last turn roll.'
+  db_uuid: a091ae67a3f04efc91322bd1170d0279
+  tags: []
+- name: Nap Time!
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent re-rolled their last turn roll, this card is also a Follow Up.'
+  db_uuid: ff0ac97f72cf46b4a4861e37f540e231
+  tags: []
+- name: The Sasketchewan Spinning Nerve Hold
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent re-rolls their turn roll,
+    their turn roll is -1.'
+  db_uuid: f51220f40c7248d7bb50d2a67bc67728
   tags: []
 - name: Mack-a-Tack
   power: 7
@@ -26270,9 +26569,48 @@
   db_uuid: da079db2b3084e20af107b64d23149a0
   tags: []
 - name: The Magnificient Mr. Rey
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 10
+  gender: Male
+  rules_text: 'When you roll Technique for your turn roll: Once on the next turn,
+    you may switch 1 card in your hand with 1 card in your discard pile.'
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: dba1b354303a48338e6e3362cdd62083
+  tags: []
+- name: Sleight of Hand
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    If you rolled Technique for your turn roll, this card is also a Follow Up.'
+  db_uuid: d2bf11d0f32a423883e30fc61ca6c3a1
+  tags: []
+- name: Abra-Kada-Breaker
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'Draw 1 card.
+
+    Look at your opponent''s hand, choose 3 cards and bury them.'
+  db_uuid: fcf26e1eb9b34a6985a28a0ce7ff813f
+  tags: []
+- name: The Grand Finale
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: ''
+  db_uuid: a7419d88985a4a568e40084a796e00cf
   tags: []
 - name: Main Event Brett
   division: Hardcore
@@ -30218,9 +30556,60 @@
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   tags: []
 - name: The Starbreaker
+  power: 9
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: When you roll Submission for your turn roll, shuffle your deck and draw
+    1 card or your next turn roll is +1.
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: e9f8f5ac87b046d787401602e5730749
+  tags: []
+- name: Can You See This!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +2 to Strike
+
+    If stopped, you may shuffle your deck, then bury or discard any number of cards
+    in your hand to draw the same number of cards.'
+  db_uuid: 71028a4e4fc7461db50750c7f80e06dd
+  tags: []
+- name: Hair Buster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +2 to Submission
+
+    Shuffle your deck.
+
+    Draw 2 cards.'
+  db_uuid: c5b4928e6c1849f281ca9f79c9823dac
+  tags: []
+- name: Philly's Not Special
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If you rolled Submission for your turn roll, triple these bonuses.'
+  db_uuid: 4419b6b2b0cb45d8b265f10c5bcd2d64
   tags: []
 - name: Vacation Commissioner
   card_type: SingleCompetitorCard
@@ -30228,7 +30617,60 @@
   db_uuid: 287077390a6f4cf5a7d056e252a2469c
   tags: []
 - name: The Winning Ticket
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 6
+  gender: Male
+  rules_text: When you roll Strike, Submission, or Grapple for your turn roll, your
+    opponent randomly reveals 1 card in their hand; if the move type of the card revealed
+    is the same as the skill you rolled, draw 1 card.
   card_type: SingleCompetitorCard
   division: World Championship
   db_uuid: f4a3aea48e544fac9e4edf24b5d07235
+  tags: []
+- name: The Jackpot
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Once per turn:
+
+    If you rolled Submission for your Finish roll, you may re-roll and double these
+    bonuses.'
+  db_uuid: 3d328b373687407ebd2fa02e9bd86886
+  tags: []
+- name: The Winnerooni
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Shuffle up to 5 cards from your discard pile into your deck. Draw the top card
+    and bottom card of your deck.'
+  db_uuid: ab6c1a8baf994a7a9ca4f5344e8bbd39
+  tags: []
+- name: The Lucky Break
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    Your opponent randomly reveals 5 cards in their hand: choose two Stops and discard
+    them.'
+  db_uuid: 41018171070549a3a2fe292762dd39ec
   tags: []

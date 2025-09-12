@@ -30847,6 +30847,51 @@
   division: Global
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999
   tags: []
+  related_finishes:
+  - 935b0b797580455a8a142e7b39705b11
+  - daa51d55022f47d6952ea739978e5517
+  - 5161f54c17674788a7f23b3effb7a897
+- name: Bell Ringer
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Draw 1 card for each card your opponent has in play with "Disqualification" in
+    the text.'
+  db_uuid: 935b0b797580455a8a142e7b39705b11
+  tags: []
+- name: IPW Driver
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If your opponent does not have a card with "Disqualification" in the name in play,
+    double these bonuses.'
+  db_uuid: daa51d55022f47d6952ea739978e5517
+  tags: []
+- name: Candyshop Lock
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    If stopped and your opponent has a card with "Disqualification" in the text in
+    their discard pile, add this card to your hand.
+
+    If your opponent breaks out, add this card to your hand.'
+  db_uuid: 5161f54c17674788a7f23b3effb7a897
+  tags: []
 - name: Rockstar Joey Sins
   card_type: SingleCompetitorCard
   division: Global

@@ -27938,9 +27938,56 @@
   db_uuid: e1b8cc42d0774c118785d02b296909f3
   tags: []
 - name: Random Guy
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  gender: Male
   division: Intergalactic
+  rules_text: When you and your opponent roll the same skill for a turn roll, flip
+    1 card and your roll is +1.
   card_type: SingleCompetitorCard
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
+  tags: []
+  related_finishes:
+  - 001d51e12a9448bb8c0106bb546ffe66
+  - 088301c747aa48d194685b1169bd1d9b
+  - 5bad0cfc16c940c0be55320895dda1c8
+- name: Flailing Slaps
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: 'If your Finish roll is 6 or less, it is +2.
+
+    If your opponent breaks out or when this card is flipped, you may shuffle it into
+    your deck.'
+  db_uuid: 001d51e12a9448bb8c0106bb546ffe66
+  tags: []
+- name: Is This How You Do That?
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: 'Your opponent flips 1 card, choose 1 card in your opponent''s discard
+    pile; this card gains its text until the end of the turn.
+
+    If this card is flipped for your Gimmick your turn roll is +1.'
+  db_uuid: 088301c747aa48d194685b1169bd1d9b
+  tags: []
+- name: Surprise Grab
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +1 to Submission
+
+    If this card is flipped for your Gimmick, you may play it.'
+  db_uuid: 5bad0cfc16c940c0be55320895dda1c8
   tags: []
 - name: RaRa Perre
   division: World Championship

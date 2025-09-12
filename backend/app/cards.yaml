@@ -23134,6 +23134,7 @@
   db_uuid: ada8753e20014e0eaaf4cc9e52dffe55
   tags: []
 - name: Sticky "the Salamander" Sailboat
+  srg_url: https://supershowthegame.com/product/sticky-the-salamander/
   card_type: SingleCompetitorCard
   power: 5
   technique: 10
@@ -23153,6 +23154,7 @@
   - 0754bbd4adc44ad09413421b105a7944
   tags: []
 - name: Flight of the Salamander!
+  srg_url: https://supershowthegame.com/product/sticky-the-salamander/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -23166,6 +23168,7 @@
   db_uuid: 7a13c265702c4021857a92d851032903
   tags: []
 - name: Legendary Arm Drag
+  srg_url: https://supershowthegame.com/product/sticky-the-salamander/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -23179,6 +23182,7 @@
   db_uuid: 4765363a0aea4b049354ee4cf680201e
   tags: []
 - name: Salamander Sleeper
+  srg_url: https://supershowthegame.com/product/sticky-the-salamander/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
@@ -31042,9 +31046,60 @@
   db_uuid: 7f196339ee714dacab9e0bfac43fbe30
   tags: []
 - name: Wendigo
+  srg_url: https://supershowthegame.com/product/wendigo/
+  power: 9
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 6
+  rules_text: 'Once during any player''s turn: When your opponent adds any number
+    of cards to their hand, draw 1 card.'
   card_type: SingleCompetitorCard
   division: Underworld
   db_uuid: caae00fadebe4d0fb4d0cbc4ae35c06b
+  tags: []
+  related_finishes:
+  - deee3ddf48a344adb90d1cea84281c8a
+  - 49555c8a04b9488782e57fbef7d34fd1
+  - 3a8daf76044b4245a24c1daa267a3d0c
+- name: Haunting Howl
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    Put 1 card from your discard pile into play.'
+  db_uuid: deee3ddf48a344adb90d1cea84281c8a
+  tags: []
+- name: Arctic Avalanche
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    Your opponent adds 1 card from their discard pile to their hand.
+
+    Once per turn: you may re-roll your Finish roll.'
+  db_uuid: 49555c8a04b9488782e57fbef7d34fd1
+  tags: []
+- name: Frostbite
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Each player adds the top card of their deck to their hand.
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  db_uuid: 3a8daf76044b4245a24c1daa267a3d0c
   tags: []
 - name: Nick Nemesis
   card_type: SingleCompetitorCard

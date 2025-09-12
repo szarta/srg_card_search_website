@@ -30834,6 +30834,15 @@
   db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
   tags: []
 - name: Ref Dave
+  power: 7
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 5
+  gender: Male
+  rules_text: You may discard 1 card in your hand to stop any card with "Disqualification"
+    in the text; that card has blank text until the end of the turn.
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999

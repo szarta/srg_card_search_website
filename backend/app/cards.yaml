@@ -30542,9 +30542,59 @@
   db_uuid: 8c3167cde90842a5973d7cc7e001452b
   tags: []
 - name: Fae Dragon
+  power: 10
+  technique: 7
+  agility: 6
+  strike: 8
+  submission: 9
+  grapple: 5
+  gender: Male
+  srg_url: https://supershowthegame.com/product/fae-dragon/
+  rules_text: The player with the lowest turn roll wins the turn roll.
   division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: c37902890fa44033ad8ca1412ba9ae3d
+  tags: []
+  related_finishes:
+  - e905d8879ba742d8bdea6a0acb0d9d72
+  - 34cfd3e1a40545f6bd8985ba82774234
+  - b01e49a0967d4506bb09fe6f559c8f40
+- name: 9th Rule of Villainy!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    Look at the top 6 cards of your opponent''s deck; discard 3, bury 2, and put the
+    last 1 on top.'
+  db_uuid: e905d8879ba742d8bdea6a0acb0d9d72
+  tags: []
+- name: The Thorn Forest
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +4 to Grapple
+
+    If stopped, draw 1 card for each stop your opponent has in play (Max 2).'
+  db_uuid: 34cfd3e1a40545f6bd8985ba82774234
+  tags: []
+- name: Curse To Sleep
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Grapple
+
+    If either player rolled Grapple for their turn roll, this card is also a Lead.
+
+    Your next turn roll is -1.'
+  db_uuid: b01e49a0967d4506bb09fe6f559c8f40
   tags: []
 - name: Final Form Dick Thunderlips
   card_type: TornadoCompetitorCard

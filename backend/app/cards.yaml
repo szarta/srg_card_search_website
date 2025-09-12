@@ -30175,9 +30175,63 @@
   db_uuid: 6908d1b5831b40d7840875f5558a1f84
   tags: []
 - name: Byrd
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 9
   card_type: SingleCompetitorCard
+  rules_text: When your target rolls Strike for their turn roll, search your deck
+    for 1 Lead or Follow Up with "Bird", "Fly", or "Soar" in the name and add it to
+    your hand.
   division: United States
   db_uuid: 4174c483ab924b72b21343b1b37be712
+  tags: []
+  related_finishes:
+  - e27b1484ae444a2796c14ee1efc0dea6
+  - 03e0523ac5ab49d2a2bebe564d7709bf
+  - f242afc5c30445d0b9b03192c7556715
+- name: Soaring Pecker Drop
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    During your turn:
+
+    If your opponent rolled Strike for their turn roll, this card is also a Lead.'
+  db_uuid: e27b1484ae444a2796c14ee1efc0dea6
+  tags: []
+- name: The Bird Brain
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Flip up to 4 cards.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  db_uuid: 03e0523ac5ab49d2a2bebe564d7709bf
+  tags: []
+- name: Snap the Wing
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +2 to Submission
+
+    For each card you have in play with "Fly", "Bird", "Soar", or "Wing" in the name,
+    draw 1 card or bury 1 card in any players discard pile.'
+  db_uuid: f242afc5c30445d0b9b03192c7556715
   tags: []
 - name: CaLLAMAty
   card_type: TornadoCompetitorCard

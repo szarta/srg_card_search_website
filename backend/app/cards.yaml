@@ -3655,6 +3655,9 @@
   - 96925c47a74240b3b5d628e72c7668df
   - 96cb6e7c88a34b43ac8d9de699f50b69
   - 760f078624e44cec97bfb09ee5eb1a13
+  - 29ed797dff6b4dc6a8c11110977a2a50
+  - 1445fd12fa94416ea8a1032f5b5b9bb0
+  - 9d27d70756e846be9eb40a150889693f
   tags: []
 - name: Re-boot
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
@@ -3692,6 +3695,43 @@
 
     If this match has no disqualifications, your Finish roll is +1.'
   db_uuid: 760f078624e44cec97bfb09ee5eb1a13
+  tags: []
+- name: Flaming Re-Boot
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    When your opponent has 3 Finishes in their discard pile, this is also a Lead.
+    If stopped, you lose the match via Disqualification.'
+  db_uuid: 29ed797dff6b4dc6a8c11110977a2a50
+  tags: []
+- name: Radio Silence Through a Light Tube Table
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    For the rest of the match, this match now has no disqualifications.'
+  db_uuid: 1445fd12fa94416ea8a1032f5b5b9bb0
+  tags: []
+- name: F-U on Action Figures
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Draw 1 card for each card you have in play with "Disqualification" in the text.'
+  db_uuid: 9d27d70756e846be9eb40a150889693f
   tags: []
 - name: Major Bendies
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
@@ -26382,6 +26422,12 @@
   card_type: SingleCompetitorCard
   db_uuid: def74dd5530540ce8a9e903bc10fd620
   tags: []
+  related_finishes:
+  - 4b0dc5b5789a4fb596424de22e1ee3a1
+  - 861f6ccd96d04377a4bcac8e6d4fd83d
+  - 3995bf9b97ce4a3f84d525094f36dfbb
+  - fe782bffac044ac3852154a6c55c01db
+  - 07ed20d2f1534c058dc7542838a3d89a
 - name: The Party Trick
   deck_card_number: 28
   atk_type: Strike
@@ -30076,10 +30122,27 @@
   db_uuid: e161ad4f6b464065a78c1519b7da5da9
   tags: []
 - name: Deathmatch King Matt Cardona
+  power: 8
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 9
+  gender: Male
+  rules_text: 'You cannot be disqualified.
+
+    When you hit a card with "Disqualification" in the text, draw 2 cards.'
   card_type: SingleCompetitorCard
   division: World Championship
   db_uuid: b3c837b732a54281aa9169ab1d46d42f
   tags: []
+  related_finishes:
+  - 96925c47a74240b3b5d628e72c7668df
+  - 96cb6e7c88a34b43ac8d9de699f50b69
+  - 760f078624e44cec97bfb09ee5eb1a13
+  - 29ed797dff6b4dc6a8c11110977a2a50
+  - 1445fd12fa94416ea8a1032f5b5b9bb0
+  - 9d27d70756e846be9eb40a150889693f
 - name: Defector
   card_type: SingleCompetitorCard
   division: Intergalactic

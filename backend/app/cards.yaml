@@ -3448,7 +3448,7 @@
   grapple: 8
   division: World Championship
   gender: Male
-  rules-text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater
+  rules_text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater
     than your turn roll, your next turn roll is +2.'
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
   related_finishes:
@@ -23245,6 +23245,7 @@
   db_uuid: 597e7fa12e79443d94b6121b5d4bf4ee
   tags: []
 - name: Candyman Dan
+  srg_url: https://supershowthegame.com/product/candyman-dan/
   card_type: SingleCompetitorCard
   power: 6
   technique: 10
@@ -23256,11 +23257,54 @@
 
     You may discard 1 card you have in play:
 
-    Coose 1 card of the same card type (Lead, Follow Up, or Finish) that your opponent
+    Choose 1 card of the same card type (Lead, Follow Up, or Finish) that your opponent
     has in play and discard it.'
   gender: Male
   division: World Championship
   db_uuid: f8dad17fa6a940b89d0466691d98b7fc
+  tags: []
+  related_finishes:
+  - 798b4c8f36984b02885885d9bce17010
+  - e560c02fb4c3424b88e9666bfa8a7bf6
+  - f37b4ad7e8e74e7e85ca1c88359372ff
+- name: Arm Candy
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    If you discarded a Follow up from play this turn for your Gimmick, this card is
+    also a Follow Up.'
+  db_uuid: 798b4c8f36984b02885885d9bce17010
+  tags: []
+- name: Caramel Drop
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    When this card is in your discard pile and your opponent would discard any number
+    of cards from play, you may have them bury them instead.'
+  db_uuid: e560c02fb4c3424b88e9666bfa8a7bf6
+  tags: []
+- name: Taking Candy From a Baby
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Copy the text of a Lead in your discard pile or add a Follow Up from your discard
+    pile to your hand.'
+  db_uuid: f37b4ad7e8e74e7e85ca1c88359372ff
   tags: []
 - name: The Cannoli
   card_type: SingleCompetitorCard
@@ -31064,6 +31108,7 @@
   - 49555c8a04b9488782e57fbef7d34fd1
   - 3a8daf76044b4245a24c1daa267a3d0c
 - name: Haunting Howl
+  srg_url: https://supershowthegame.com/product/wendigo/
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
@@ -31074,6 +31119,7 @@
   db_uuid: deee3ddf48a344adb90d1cea84281c8a
   tags: []
 - name: Arctic Avalanche
+  srg_url: https://supershowthegame.com/product/wendigo/
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
@@ -31086,6 +31132,7 @@
   db_uuid: 49555c8a04b9488782e57fbef7d34fd1
   tags: []
 - name: Frostbite
+  srg_url: https://supershowthegame.com/product/wendigo/
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30

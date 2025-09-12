@@ -26677,6 +26677,10 @@
   card_type: SingleCompetitorCard
   db_uuid: dba1b354303a48338e6e3362cdd62083
   tags: []
+  related_finishes:
+  - d2bf11d0f32a423883e30fc61ca6c3a1
+  - fcf26e1eb9b34a6985a28a0ce7ff813f
+  - a7419d88985a4a568e40084a796e00cf
 - name: Sleight of Hand
   deck_card_number: 28
   atk_type: Strike
@@ -30103,14 +30107,42 @@
   db_uuid: f85c823ba32e460da89ff2052079e53d
   tags: []
 - name: AC Underlords
+  power: 16
+  technique: 14
+  agility: 18
+  strike: 20
+  submission: 10
+  grapple: 12
+  rules_text: When you hit a card with "Kick", "Taunt", "Break", "Steel", or "Trash"
+    in the name, your opponent's next turn roll is -2.
   card_type: TornadoCompetitorCard
   db_uuid: 8465c8ff96d54d8ba7730dc39430e511
   tags: []
 - name: Alpaca Protection Agency
+  power: 16
+  technique: 14
+  agility: 12
+  strike: 18
+  submission: 10
+  grapple: 20
+  rules_text: 'Your cards with "Smack with a Shovel" are also #22, #25, and #30.
+
+    Double the numbers in the text of your Strike cards.'
   card_type: TornadoCompetitorCard
   db_uuid: f6b76009bcb4461994a9d8bd57dd9ac4
   tags: []
 - name: Apex
+  power: 18
+  technique: 30
+  agility: 27
+  strike: 21
+  submission: 15
+  grapple: 24
+  rules_text: 'When your opponent rolls Technique for their turn roll, they reveal
+    their hand to you.
+
+    When your opponent stops your card, you may discard 2 cards from your hand to
+    place the stopped card on top of your deck.'
   card_type: TrioCompetitorCard
   db_uuid: a1392165fbfe4f15af9e8fb62deccbbb
   tags: []

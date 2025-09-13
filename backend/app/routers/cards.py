@@ -205,7 +205,7 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
         card = (
             db.query(CompetitorCard)
             .options(
-                joinedload(CompetitorCard.related_cards),
+                joinedload(Card.related_cards),
                 joinedload(CompetitorCard.related_finishes),
             )
             .filter(CompetitorCard.db_uuid == card.db_uuid)
@@ -214,7 +214,7 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
     elif ctype == CardType.main_deck.value:
         card = (
             db.query(MainDeckCard)
-            .options(joinedload(MainDeckCard.related_cards))
+            .options(joinedload(Card.related_cards))
             .filter(MainDeckCard.db_uuid == card.db_uuid)
             .first()
         )
@@ -243,7 +243,7 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
         card = (
             db.query(CompetitorCard)
             .options(
-                joinedload(CompetitorCard.related_cards),
+                joinedload(Card.related_cards),  # <- Use Card.related_cards, not CompetitorCard.related_cards
                 joinedload(CompetitorCard.related_finishes),
             )
             .filter(CompetitorCard.db_uuid == db_uuid)
@@ -252,7 +252,7 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
     elif ctype == CardType.main_deck.value:
         card = (
             db.query(MainDeckCard)
-            .options(joinedload(MainDeckCard.related_cards))
+            .options(joinedload(Card.related_cards))  # <- Use Card.related_cards
             .filter(MainDeckCard.db_uuid == db_uuid)
             .first()
         )

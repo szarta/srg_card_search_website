@@ -88,10 +88,12 @@ def normalize_entries(data: list[dict]):
 
 
 def split_entries(data: list[dict]):
+    """Split entries into those without references and those with references."""
     no_refs = []
     with_refs = []
     for e in data:
-        (with_refs if e.get("related_finishes") else no_refs).append(e)
+        has_refs = e.get("related_finishes") or e.get("related_cards")
+        (with_refs if has_refs else no_refs).append(e)
     return no_refs, with_refs
 
 
@@ -130,21 +132,35 @@ def link_finishes(session, entries: list[dict], inserted: dict[str, object]):
 
 
 def link_related_cards(session, entries: list[dict], inserted: dict[str, object]):
+    """Link related_cards relationships for all entries that have them."""
     for entry in entries:
+        # Skip if no related_cards defined
+        if not entry.get("related_cards"):
+            continue
+
         card = inserted.get(entry["db_uuid"])
         if not card:
+            print(f"⚠️ Card {entry['db_uuid']} not found in inserted cards for related_cards linking")
             continue
+
+        related_count = 0
         for rid in entry.get("related_cards", []):
+            # Try to find the related card in multiple tables
             related = (
-                inserted.get(rid)
-                or session.query(MainDeckCard).filter_by(db_uuid=rid).one_or_none()
-                or session.query(CompetitorCard).filter_by(db_uuid=rid).one_or_none()
-                or session.query(Card).filter_by(db_uuid=rid).one_or_none()
+                inserted.get(rid) or
+                session.query(Card).filter_by(db_uuid=rid).first()
             )
+
             if related:
                 card.related_cards.append(related)
-        session.flush()
-        print(f"🔗 Linked related_cards for '{card.name}'")
+                related_count += 1
+            else:
+                print(f"⚠️ Related card {rid} not found for '{card.name}'")
+
+        if related_count > 0:
+            session.flush()
+            print(f"🔗 Linked {related_count} related_cards for '{card.name}'")
+
 
 def _build_kwargs(entry: dict) -> dict:
     # Common fields
@@ -238,7 +254,7 @@ def load_cards(input_path: str, output_path: str):
     print("🚀 Phase 2 - Reference linking...")
     insert_entries(session, with_refs, inserted)
     link_finishes(session, with_refs, inserted)
-
+    link_related_cards(session, with_refs, inserted)
     session.commit()
     session.close()
     print("🎉 DB load complete.")

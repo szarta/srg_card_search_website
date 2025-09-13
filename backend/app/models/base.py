@@ -77,6 +77,13 @@ class Card(Base):
     tags = Column(ARRAY(TEXT), nullable=True)
     card_type = Column(String)
 
+    # Configure polymorphic mapping
+    __mapper_args__ = {
+        "polymorphic_identity": "Card",
+        "polymorphic_on": card_type,
+        "with_polymorphic": "*",
+    }
+
     related_cards = relationship(
         "Card",
         secondary=related_cards_table,
@@ -93,6 +100,10 @@ class MainDeckCard(Card):
     play_order = Column(Enum(PlayOrderSubtype))
     rules = Column(String)
 
+    __mapper_args__ = {
+        "polymorphic_identity": "MainDeckCard",
+    }
+
 
 class CompetitorCard(Card):
     __tablename__ = "competitor_cards"
@@ -105,6 +116,10 @@ class CompetitorCard(Card):
     technique = Column(Integer)
     division = Column(String, nullable=True)
 
+    __mapper_args__ = {
+        "polymorphic_identity": "CompetitorCard",
+    }
+
     related_finishes = relationship(
         "MainDeckCard", secondary=related_finishes_table, backref="finishers_for"
     )
@@ -115,27 +130,51 @@ class SingleCompetitorCard(CompetitorCard):
     db_uuid = Column(String, ForeignKey("competitor_cards.db_uuid"), primary_key=True)
     gender = Column(Enum(Gender, name="gender_enum"), nullable=True)
 
+    __mapper_args__ = {
+        "polymorphic_identity": "SingleCompetitorCard",
+    }
+
 
 class TornadoCompetitorCard(CompetitorCard):
     __tablename__ = "tornado_competitor_cards"
     db_uuid = Column(String, ForeignKey("competitor_cards.db_uuid"), primary_key=True)
+
+    __mapper_args__ = {
+        "polymorphic_identity": "TornadoCompetitorCard",
+    }
 
 
 class TrioCompetitorCard(CompetitorCard):
     __tablename__ = "trio_competitor_cards"
     db_uuid = Column(String, ForeignKey("competitor_cards.db_uuid"), primary_key=True)
 
+    __mapper_args__ = {
+        "polymorphic_identity": "TrioCompetitorCard",
+    }
+
 
 class EntranceCard(Card):
     __tablename__ = "entrance_cards"
     db_uuid = Column(String, ForeignKey("cards.db_uuid"), primary_key=True)
+
+    __mapper_args__ = {
+        "polymorphic_identity": "EntranceCard",
+    }
 
 
 class SpectacleCard(Card):
     __tablename__ = "spectacle_cards"
     db_uuid = Column(String, ForeignKey("cards.db_uuid"), primary_key=True)
 
+    __mapper_args__ = {
+        "polymorphic_identity": "SpectacleCard",
+    }
+
 
 class CrowdMeterCard(Card):
     __tablename__ = "crowd_meter_cards"
     db_uuid = Column(String, ForeignKey("cards.db_uuid"), primary_key=True)
+
+    __mapper_args__ = {
+        "polymorphic_identity": "CrowdMeterCard",
+    }

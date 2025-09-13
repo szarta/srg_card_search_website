@@ -26936,6 +26936,15 @@
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
   tags: []
 - name: Marcus Samuel Selmore
+  srg_url: https://supershowthegame.com/product/marcus-samuel-selmore/
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 8
+  rules_text: 'When your opponent rolls 9 or 10 for their turn roll: draw 1 card then
+    bury 1 card in your hand.'
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
@@ -27328,6 +27337,14 @@
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
   tags: []
 - name: Mr. Poppintwist
+  power: 6
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 8
+  gender: Male
+  rules_text: When you have 6 or more cards in your hand; your Grapple skill is +2.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 7c61c4f8ca78491ba66c77a6a2778888
@@ -27419,6 +27436,15 @@
   db_uuid: fbad14e83e1043c1949a671a30cd2323
   tags: []
 - name: MVP (Most Valuable Polverino)
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 8
+  gender: Male
+  rules_text: 'When you roll 6 for your turn roll: Add 1 "MVP" Finish from your discard
+    pile to your hand or your opponent''s next turn roll is -1.'
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: b724c6a2db604a95971f30f7a424d2de
@@ -27529,6 +27555,14 @@
   db_uuid: 6639064ed8d64eb5b866d2267f6dab6d
   tags: []
 - name: Numer01
+  power: 6
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 5
+  gender: Male
+  rules_text: When your opponent's turn roll is 10 your turn roll is +2.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e
@@ -28086,6 +28120,16 @@
   db_uuid: e31ae16acabb4eac8370b65e6305d9a0
   tags: []
 - name: Prof Leonardo Magette
+  srg_url: https://supershowthegame.com/product/prof-leonardo-magette/
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 5
+  rules_text: 'When you roll Technique for your turn roll: Your opponent randomly
+    reveals a card in their hand; if it is a Stop, they discard it.'
+  gender: Male
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 19c81a08844f41168571930dd9142b4d
@@ -30666,6 +30710,17 @@
   db_uuid: 1dcda13fa9d445f1a8347d6f2e54bdae
   tags: []
 - name: Commodore Terror Skull
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: 'At the start of the match: You may reveal ad additional Scallywag Entrance
+    Ship, or if your opponent has a Scallywag Entrance revealed, copy and blank that
+    card.'
+  srg_url: https://supershowthegame.com/product/commodore-terror-skull/
+  gender: Male
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: f9a79090f8954ced812232f2c4d6b2af

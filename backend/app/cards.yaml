@@ -20074,6 +20074,42 @@
     2 back in any order.
   db_uuid: fad605db94d44d3bb3fb2fc88e96a53d
   tags: []
+  related_finishes:
+  - 702283553e6f42d6a6f74a496b818ae6
+  - 0e7dd5fd09fe45d79e988c8d42a893a2
+  - 5b42aee101034aa3a6f1e6a8d41c3503
+- name: Dillon Cutter
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    If your turn roll was at least 5 greater than your opponent''s, this card is also
+    a Lead.'
+  db_uuid: 702283553e6f42d6a6f74a496b818ae6
+  tags: []
+- name: 419 Slam
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    +2 to Technique'
+  db_uuid: 0e7dd5fd09fe45d79e988c8d42a893a2
+  tags: []
+- name: I Don't Want to Talk About It
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Submission
+
+    When this card is in your discard pile, the Crowd Meter is 1 or greater, and your
+    opponent wins the turn roll, their next turn roll is -1.'
+  db_uuid: 5b42aee101034aa3a6f1e6a8d41c3503
+  tags: []
 - name: Dizzy Derailed
   card_type: SingleCompetitorCard
   power: 10

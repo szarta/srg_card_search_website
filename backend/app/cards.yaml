@@ -27338,9 +27338,61 @@
   db_uuid: 6b9d7c1228594225b3f26e68ec5c2fc6
   tags: []
 - name: Mr Snap (V1)
+  power: 5
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  gender: Male
+  rules_text: Your cards with "Snap" or "Finger Lock" in the name have the added text,
+    "Your opponent buries 1 random card in their hand." When you have 4 of those cards
+    in play; your opponent's Gimmick is blank.
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad
+  tags: []
+  related_finishes:
+  - cb02d0b68eaa4c329b468a34c3c9a536
+  - f679e1b1ae774ea194954fcb8f3075a9
+  - 7756fa0c42e24affb904183365aab5df
+- name: The Malefactor
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    +2 to Strike
+
+    Shuffle 1 card from your discard pile into your deck.'
+  db_uuid: cb02d0b68eaa4c329b468a34c3c9a536
+  tags: []
+- name: Severus Snap
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    When this card is in yoru discard pile and your opponent flips any number of cards;
+    add it to your hand.'
+  db_uuid: f679e1b1ae774ea194954fcb8f3075a9
+  tags: []
+- name: Mr. Snap's Devious Plan
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    If your Submission skill is greater than your opponent''s Submission skill: Stop
+    any Finish strike.'
+  db_uuid: 7756fa0c42e24affb904183365aab5df
   tags: []
 - name: Mr Snap (V2)
   division: United States

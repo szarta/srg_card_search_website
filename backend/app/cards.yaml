@@ -23572,6 +23572,50 @@
   division: Intergalactic
   db_uuid: 8e7340565e01403d99eb2026d2d49765
   tags: []
+  related_finishes:
+  - 966629d870a045f4890de383d8b27957
+  - b90f24cc0eb34610a6b78bf653a922e5
+  - 1dd44fcb5df141a8bf5a30c78207e87d
+- name: Shining Cheetah
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Strike
+
+    During your turn, when this card is in your discard pile and your Agility is 11
+    or greater, you may shuffle it into your deck.'
+  db_uuid: 966629d870a045f4890de383d8b27957
+  tags: []
+- name: Burning Savannah
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Or if this is the first turn of the game, this card is also a Lead. If stopped,
+    draw 3 cards.'
+  db_uuid: b90f24cc0eb34610a6b78bf653a922e5
+  tags: []
+- name: Maul and Mangle
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    If your opponent''s Agility is 9 or less, +3 to Power and +3 to Submission instead.'
+  db_uuid: 1dd44fcb5df141a8bf5a30c78207e87d
+  tags: []
 - name: Cherie Von Danish
   power: 6
   technique: 10

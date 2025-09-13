@@ -30831,9 +30831,59 @@
   db_uuid: dfc77bfe1e8c4a8089d3e3a1b54d4b5e
   tags: []
 - name: Hot Rod
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
+  gender: Male
+  srg_url: https://supershowthegame.com/product/hot-rod/
+  rules_text: When you roll Strike for your turn roll, you may swap 1 Lead you have
+    in play with 1 Lead in your discard pile.
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: 003693336f2e48878c7fc6ad9c18b6db
+  tags: []
+  related_finishes:
+  - 07c48969575f4d6fad3d46441a18a551
+  - 3469c9a707c84f9d96782ea71828545d
+  - 30580cdc9ef94f43a9d2ae1e6c452189
+- name: Off the Hook
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Your Finish roll is +1 for each other card you have in play with "Kick" or "Hook"
+    in the name (Max +2).'
+  db_uuid: 07c48969575f4d6fad3d46441a18a551
+  tags: []
+- name: The Goodnight
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    Put 2 Leads from your discard pile into play.
+
+    Your lowest skill is +1 for each Lead you have in play.'
+  db_uuid: 3469c9a707c84f9d96782ea71828545d
+  tags: []
+- name: Alabammy Eye Jammy
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: 'Your opponent''s Technique and 1st breakout roll each turn are -1.
+
+    When this card is in your discard pile and you rolled Strike for your turn roll,
+    this card is also a Lead.'
+  db_uuid: 30580cdc9ef94f43a9d2ae1e6c452189
   tags: []
 - name: HR
   card_type: SingleCompetitorCard

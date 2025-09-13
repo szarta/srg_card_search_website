@@ -8369,12 +8369,16 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, shuffle 1 Strike from your discard
+    pile into your deck and draw 1 card.
   db_uuid: c925bfe817994286ae9b47e650483840
   tags: []
 - name: Out of Control
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your
+    opponent has in play.
   deck_card_number: 10
   db_uuid: 5ea9591d4cdc400abb5bff758641badc
   tags: []
@@ -8382,6 +8386,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If you have another Strike in play, add 1 Finish Strike from your discard
+    pile to your hand.
   deck_card_number: 10
   db_uuid: a739099170b74aafbfa3fd71527c91bb
   tags: []
@@ -8389,6 +8395,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Bury 2 in your opponent's discard pile for each other Lead card you
+    have in play.
   deck_card_number: 10
   db_uuid: c677611441614e6fa41b3a4d6beed12a
   tags: []
@@ -8396,6 +8404,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Your next turn roll is +1 for each other Lead you have in play.
   deck_card_number: 10
   db_uuid: 32583c186f2d481ba2c977a98fad1184
   tags: []
@@ -8403,6 +8412,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each Stop you have in play.
   deck_card_number: 10
   db_uuid: 1b4010c4237a47e28afdb892b1005601
   tags: []
@@ -8410,12 +8420,18 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If you have another Lead in play your next turn roll is +2.
   deck_card_number: 10
   db_uuid: 90ef7b3b4e164f86aed548e14fb80307
   tags: []
 - name: Bow to None (V1)
   play_order: Lead
   atk_type: Strike
+  rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
+
+    Your opponent''s next turn roll is -2 for each Lead you have in play.
+
+    Skill Requirement: Strike 8+'
   card_type: MainDeckCard
   deck_card_number: 10
   db_uuid: d2487aa241f340abb6c9a51551e30574
@@ -8424,6 +8440,11 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
+
+    Your opponent''s next turn roll is -2 for each Lead you have in play.
+
+    Skill Requirement: Grapple 8+'
   deck_card_number: 10
   db_uuid: c3aaadb614e3476592b3d497d897c0fe
   tags: []
@@ -8431,6 +8452,9 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    If you have another Strike in play, draw 2 card and your next turn roll is +1.'
   deck_card_number: 10
   db_uuid: 39672cf20bdd44629686934a9368f4e4
   tags: []
@@ -8438,6 +8462,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Shuffle 1 card from your discard pile into your deck for each other
+    Lead you have in play.
   deck_card_number: 10
   db_uuid: ae50643d032f4e5a9694836e67906c0b
   tags: []
@@ -8445,6 +8471,8 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If you have another Lead in play, your opponent discards 1 card from
+    their hand.
   deck_card_number: 10
   db_uuid: 2073c5f04bcc4c26bbb05ed6975e4734
   tags: []
@@ -24447,6 +24475,14 @@
   db_uuid: 80cde7c7b2a640c58bb9294beb87d0d3
   tags: []
 - name: Duncan Avecilla
+  power: 7
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  rules_text: When you hit a card with "Sweep" or "Choke" in the name, your opponent's
+    next turn roll is -1.
   division: Global
   card_type: SingleCompetitorCard
   db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0
@@ -30487,7 +30523,9 @@
   strike: 20
   submission: 10
   grapple: 12
-  rules_text: "After you flip any number of cards, add 1 card with \"Kendo Stick\" from your discard pile to your hand, and your opponent randomly buries 1 card in their hand."
+  rules_text: After you flip any number of cards, add 1 card with "Kendo Stick" from
+    your discard pile to your hand, and your opponent randomly buries 1 card in their
+    hand.
   card_type: TornadoCompetitorCard
   db_uuid: 180073d7502e46bd957a7379a99afe54
   tags: []

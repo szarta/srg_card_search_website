@@ -14364,10 +14364,22 @@
   deck_card_number: 21
   db_uuid: 5f0177f46531409d9ee61ca16292a7bd
   tags: []
+- name: Dog Off the Chain
+  srg_url: https://supershowthegame.com/product/21-dog-of-the-chain/
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    The Crowd Meter is considered +1 for all Stop text.'
+  deck_card_number: 21
+  db_uuid: 524d595f09cc4fb1b55103b521614334
+  tags: []
 - name: Duck the Leg
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Choose 2 cards your opponent has in play and discard them.
   deck_card_number: 21
   db_uuid: 1b027fe8d28e43ea8e747d0667d95fbd
   tags: []

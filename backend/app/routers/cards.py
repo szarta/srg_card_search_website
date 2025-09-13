@@ -37,6 +37,73 @@ def _slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+def safe_serialize_card(card, include_relationships=True, max_depth=2, current_depth=0):
+    """
+    Safely serialize a card object to dict, handling circular references.
+
+    Args:
+        card: SQLAlchemy card object
+        include_relationships: Whether to include related_cards and related_finishes
+        max_depth: Maximum depth to serialize relationships (prevents infinite recursion)
+        current_depth: Current recursion depth (internal use)
+    """
+    if current_depth > max_depth:
+        # Return minimal representation to break recursion
+        return {
+            "db_uuid": card.db_uuid,
+            "name": card.name,
+            "card_type": card.card_type,
+        }
+
+    result = {
+        "db_uuid": card.db_uuid,
+        "name": card.name,
+        "card_type": card.card_type,
+        "atk_type": getattr(card, 'atk_type', None),
+        "play_order": getattr(card, 'play_order', None),
+        "deck_card_number": getattr(card, 'deck_card_number', None),
+        "is_banned": card.is_banned,
+        "rules_text": card.rules_text,
+        "errata_text": card.errata_text,
+        "tags": card.tags or [],
+        "comments": card.comments,
+        "srg_url": card.srg_url,
+        "release_set": card.release_set,
+        "power": getattr(card, 'power', None),
+        "agility": getattr(card, 'agility', None),
+        "strike": getattr(card, 'strike', None),
+        "submission": getattr(card, 'submission', None),
+        "grapple": getattr(card, 'grapple', None),
+        "technique": getattr(card, 'technique', None),
+        "division": getattr(card, 'division', None),
+        "gender": getattr(card, 'gender', None),
+    }
+
+    if include_relationships:
+        # Handle related_cards
+        related_cards = []
+        if hasattr(card, 'related_cards') and card.related_cards:
+            for related_card in card.related_cards[:10]:  # Limit to prevent huge responses
+                related_cards.append(
+                    safe_serialize_card(related_card, include_relationships=False, max_depth=max_depth, current_depth=current_depth + 1)
+                )
+        result["related_cards"] = related_cards
+
+        # Handle related_finishes
+        related_finishes = []
+        if hasattr(card, 'related_finishes') and card.related_finishes:
+            for finish_card in card.related_finishes[:20]:  # Limit to prevent huge responses
+                related_finishes.append(
+                    safe_serialize_card(finish_card, include_relationships=False, max_depth=max_depth, current_depth=current_depth + 1)
+                )
+        result["related_finishes"] = related_finishes
+    else:
+        result["related_cards"] = []
+        result["related_finishes"] = []
+
+    return result
+
+
 @router.get("/cards", response_model=PaginatedCardResponse)
 def list_cards(
     db: Session = Depends(get_db),
@@ -178,7 +245,7 @@ def list_cards(
 
     return {
         "total_count": total_count,
-        "items": [CardSchema.model_validate(row).model_dump() for row in paged],
+        "items": [safe_serialize_card(row, include_relationships=False) for row in paged],
     }
 
 
@@ -222,11 +289,11 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
         card = (
             db.query(Card)
             .options(joinedload(Card.related_cards))
-            .filter(Card.db_uuid == card.db_uuid)
+            .filter(Card.db_uuid == db_uuid)
             .first()
         )
 
-    return CardSchema.model_validate(card).model_dump()
+    return safe_serialize_card(card)
 
 
 @router.get("/cards/{db_uuid}", response_model=CardSchema)
@@ -267,7 +334,7 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
 
-    return CardSchema.model_validate(card).model_dump()
+    return safe_serialize_card(card)
 
 
 class NamesRequest(BaseModel):
@@ -332,7 +399,7 @@ def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
         for row in (
             db.query(SingleCompetitorCard)
             .options(
-                joinedload(SingleCompetitorCard.related_cards),
+                joinedload(Card.related_cards),
                 joinedload(SingleCompetitorCard.related_finishes),
             )
             .filter(SingleCompetitorCard.db_uuid.in_(singles))
@@ -344,7 +411,7 @@ def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
         for row in (
             db.query(CompetitorCard)
             .options(
-                joinedload(CompetitorCard.related_cards),
+                joinedload(Card.related_cards),
                 joinedload(CompetitorCard.related_finishes),
             )
             .filter(CompetitorCard.db_uuid.in_(tornado_trio))
@@ -355,7 +422,7 @@ def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
     if maindeck:
         for row in (
             db.query(MainDeckCard)
-            .options(joinedload(MainDeckCard.related_cards))
+            .options(joinedload(Card.related_cards))
             .filter(MainDeckCard.db_uuid.in_(maindeck))
             .all()
         ):
@@ -381,6 +448,6 @@ def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
         # If multiple rows share the same name, include them all
         for c in candidates:
             obj = hydrated.get(c.db_uuid, c)
-            rows_out.append(CardSchema.model_validate(obj).model_dump())
+            rows_out.append(safe_serialize_card(obj))
 
     return {"rows": rows_out, "unmatched": unmatched}

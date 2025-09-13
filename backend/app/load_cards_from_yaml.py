@@ -12,6 +12,7 @@ import uuid
 from sqlalchemy.exc import IntegrityError
 from database import SessionLocal
 from models.base import (
+    Card,
     CardType,
     MainDeckCard,
     CompetitorCard,
@@ -127,6 +128,23 @@ def link_finishes(session, entries: list[dict], inserted: dict[str, object]):
         session.flush()
         print(f"🔗 Linked finishes for '{card.name}'")
 
+
+def link_related_cards(session, entries: list[dict], inserted: dict[str, object]):
+    for entry in entries:
+        card = inserted.get(entry["db_uuid"])
+        if not card:
+            continue
+        for rid in entry.get("related_cards", []):
+            related = (
+                inserted.get(rid)
+                or session.query(MainDeckCard).filter_by(db_uuid=rid).one_or_none()
+                or session.query(CompetitorCard).filter_by(db_uuid=rid).one_or_none()
+                or session.query(Card).filter_by(db_uuid=rid).one_or_none()
+            )
+            if related:
+                card.related_cards.append(related)
+        session.flush()
+        print(f"🔗 Linked related_cards for '{card.name}'")
 
 def _build_kwargs(entry: dict) -> dict:
     # Common fields

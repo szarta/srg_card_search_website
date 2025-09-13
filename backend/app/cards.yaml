@@ -25115,6 +25115,7 @@
   rules_text: If your opponent won the last 3 turn rolls, your next roll is +4 and
     add 1 card with "Chug" in the name from your discard pile to your hand.
   comment: Needs to be verified.
+  card_type: SingleCompetitorCard
   db_uuid: cce5191cbedd4793a072ff1059417331
   tags: []
 - name: Now Say Goodnight
@@ -30058,6 +30059,7 @@
   grapple: 8
   gender: Male
   division: Hardcore
+  card_type: SingleCompetitorCard
   rules_text: 'FRONT: Your "Powerbomb" is also a Finish.
 
     After you flip 2 or more cards, turn this card over.
@@ -30074,6 +30076,7 @@
   grapple: 8
   gender: Male
   division: United States
+  card_type: SingleCompetitorCard
   rules_text: 'When you roll Submission for your turn roll: your next turn roll is
     +1 for each Lead your opponent has in play (Max +3).'
   db_uuid: 20f71ac49c4b4f29998ebc7e69657087
@@ -30132,6 +30135,7 @@
   grapple: 8
   gender: Male
   division: Hardcore
+  card_type: SingleCompetitorCard
   rules_text: 'During your turn: It is considered a Steel Chain match for your card
     effects.'
   db_uuid: cf70eb630fbd4f35b55ca9df52b8c5c0
@@ -30186,6 +30190,7 @@
   grapple: 7
   gender: Male
   division: Intergalactic
+  card_type: SingleCompetitorCard
   rules_text: When you hit a card with "Burn", "Choke", "Fire", or "Slam" in the name,
     your opponent's next turn roll is -1.
   srg_url: https://supershowthegame.com/product/bael/
@@ -30476,6 +30481,13 @@
   db_uuid: 3f63303ebd4f48baabadfe23090cf066
   tags: []
 - name: Beauty and the Beatstick
+  power: 18
+  technique: 16
+  agility: 14
+  strike: 20
+  submission: 10
+  grapple: 12
+  rules_text: "After you flip any number of cards, add 1 card with \"Kendo Stick\" from your discard pile to your hand, and your opponent randomly buries 1 card in their hand."
   card_type: TornadoCompetitorCard
   db_uuid: 180073d7502e46bd957a7379a99afe54
   tags: []

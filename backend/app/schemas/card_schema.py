@@ -23,8 +23,8 @@ class Card(BaseModel):
     comments: Optional[str]
     srg_url: Optional[str]
     release_set: Optional[str]
-    related_cards: Optional[List[Card]] = []
-    related_finishes: Optional[List[Card]] = []
+    related_cards: Optional[List[Card]] = None
+    related_finishes: Optional[List[Card]] = None
     power: Optional[int] = None
     agility: Optional[int] = None
     strike: Optional[int] = None
@@ -39,7 +39,7 @@ class Card(BaseModel):
         from_attributes = True
 
 
-Card.update_forward_refs()
+Card.model_rebuild()
 
 
 class PaginatedCardResponse(BaseModel):

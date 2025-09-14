@@ -30487,7 +30487,9 @@
   strike: 20
   submission: 10
   grapple: 12
-  rules_text: "After you flip any number of cards, add 1 card with \"Kendo Stick\" from your discard pile to your hand, and your opponent randomly buries 1 card in their hand."
+  rules_text: After you flip any number of cards, add 1 card with "Kendo Stick" from
+    your discard pile to your hand, and your opponent randomly buries 1 card in their
+    hand.
   card_type: TornadoCompetitorCard
   db_uuid: 180073d7502e46bd957a7379a99afe54
   tags: []
@@ -30542,10 +30544,12 @@
   db_uuid: 5b632c3955d94e508776747ae99737a0
   tags: []
 - name: Brain Power
+  srg_url: https://supershowthegame.com/product/brain-power/
   card_type: TornadoCompetitorCard
   db_uuid: e52b1c1ed7b041d5958da830cd3a1a1f
   tags: []
 - name: Brain Trust
+  srg_url: https://supershowthegame.com/product/brain-trust/
   card_type: TrioCompetitorCard
   db_uuid: cb0720bf4a1d4f98b9c6421beb0bae5b
   tags: []
@@ -31724,4 +31728,9 @@
     with "Bender" in the name. Their 2nd breakout roll is -1 for each card you have
     in play with "Shot" in the name.
   db_uuid: 661dbb27619b4c26b84d4dc020f50d1a
+  tags: []
+- name: Thinky and The Brain
+  srg_url: https://supershowthegame.com/product/thinky-and-the-brain/
+  card_type: TornadoCompetitorCard
+  db_uuid: dd9c19e211af423fb22f621910a75393
   tags: []

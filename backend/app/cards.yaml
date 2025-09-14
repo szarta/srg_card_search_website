@@ -12806,6 +12806,11 @@
   db_uuid: f82a79cf664e45d9986a2a45d936789f
   tags: []
 - name: Flock of Florida Friends
+  srg_url: https://supershowthegame.com/product/18-flock-of-florida-friends/
+  rules_text: 'If you have another Submission in play your opponent''s next turn roll
+    is -2.
+
+    If you are a Tag Team or Trio, your next turn roll is +2.'
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
@@ -30817,11 +30822,6 @@
 - name: Dangerous Alliance
   card_type: TornadoCompetitorCard
   db_uuid: b6419b038a244358a61a32d3d7d41cc4
-  tags: []
-- name: Dosmo the Snowman
-  card_type: SingleCompetitorCard
-  division: Intergalactic
-  db_uuid: 8262d8d1bb43468abc4ee2e875f757e6
   tags: []
 - name: Double the Fun
   card_type: TornadoCompetitorCard

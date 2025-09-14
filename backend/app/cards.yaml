@@ -30828,6 +30828,7 @@
   db_uuid: 0b1899f6a9654f5fb5fecdc5592adb9a
   tags: []
 - name: Double Vision
+  srg_url: https://supershowthegame.com/product/double-vision/
   card_type: TornadoCompetitorCard
   db_uuid: 90fca0d1abbc483c9c9d3c83b7d5c939
   tags: []
@@ -31153,10 +31154,36 @@
   division: United States
   db_uuid: b64f5ecb347847ec9f6d6c3ee6704b6e
   tags: []
-- name: Immortal Brick Brothers
+- name: Immortal Brick Brothers (V1)
+  power: 18
+  technique: 20
+  agility: 16
+  strike: 14
+  submission: 12
+  grapple: 10
   card_type: TornadoCompetitorCard
+  rules_text: 'Once during your turn: You may reveal and bury a Follow Up from your
+    hand to draw 2 cards.
+
+    When you roll Agility: You may add 1 card from your discard  pile to your hand
+    and your opponent draws 2 cards.'
   db_uuid: 70775bc9b92d426384939fcde17c2883
   tags: []
+- name: Immortal Brick Brothers (V2)
+  power: 20
+  technique: 18
+  agility: 16
+  strike: 12
+  submission: 14
+  grapple: 10
+  card_type: TornadoCompetitorCard
+  rules_text: 'Once during your turn: You may reveal and bury a Follow Up from your
+    hand and your opponent randomly buries 1 card in their hand.
+
+    When you roll Agility: You may bury 2 cards in your hand to add 1 card from your
+    discard pile to your hand.'
+  tags: []
+  db_uuid: 2de6760a624f4802aebb40c4c235c706
 - name: Impact
   card_type: TrioCompetitorCard
   division: Intergalactic

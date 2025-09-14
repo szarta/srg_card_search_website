@@ -31828,7 +31828,57 @@
   db_uuid: 661dbb27619b4c26b84d4dc020f50d1a
   tags: []
 - name: Thinky and The Brain
+  power: 12
+  technique: 20
+  agility: 14
+  strike: 10
+  submission: 16
+  grapple: 18
+  rules_text: When you reveal any number of cards, you may switch 1 of the revealed
+    cards with 1 non-Finish card in your discard pile.
   srg_url: https://supershowthegame.com/product/thinky-and-the-brain/
   card_type: TornadoCompetitorCard
   db_uuid: dd9c19e211af423fb22f621910a75393
+  tags: []
+  related_finishes:
+  - f1cfca41c66f4211b42fdd975985ac91
+  - 0147e2da59ca40d3892481b5d51d02e0
+  - ed7aa7aeedd7489fbe8b7b3dc0ad6ae1
+- name: Try to Take Over the World!
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +5 to Strike
+
+    Draw 1 card, or reveal 1 card in your hand.
+
+    If this is a Trios match, double these bonuses.'
+  db_uuid: f1cfca41c66f4211b42fdd975985ac91
+  tags: []
+- name: Are You Pondering What I'm Pondering?
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+5 to Power
+
+    Each player reveals 1 card in their hand; if both players reveal a card of the
+    same move type, your skill of that move type is +4.'
+  db_uuid: 0147e2da59ca40d3892481b5d51d02e0
+  tags: []
+- name: What Are We Going to Do Tonight?
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+4 to Power
+
+    +3 to Submission
+
+    If stopped or hit, search your deck or discard pile for "Try to Take Over the
+    World!" and add it to your hand.'
+  db_uuid: ed7aa7aeedd7489fbe8b7b3dc0ad6ae1
   tags: []

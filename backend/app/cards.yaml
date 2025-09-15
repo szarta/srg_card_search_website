@@ -31149,7 +31149,16 @@
     this card is also a Lead.'
   db_uuid: 30580cdc9ef94f43a9d2ae1e6c452189
   tags: []
-- name: HR
+- name: Human Resources
+  power: 8
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 6
+  gender: Female
+  rules_text: 'When you roll Power for your turn roll: Your opponent buries 1 card
+    in their hand or your opponent''s next turn roll is -1.'
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: b64f5ecb347847ec9f6d6c3ee6704b6e

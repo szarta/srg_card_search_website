@@ -31528,6 +31528,16 @@
   db_uuid: d159fc362f2c49e2b730c3806319e5f5
   tags: []
 - name: Soto the Goato
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  gender: Male
+  rules_text: When you have more Grapples in play than your target, your Technique,
+    Agility, and Submission skills are +1 during your turn and turn rolls.
+  srg_url: https://supershowthegame.com/product/soto-the-goato/
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: a165b1a7bd3e43958eee8a319ef94074

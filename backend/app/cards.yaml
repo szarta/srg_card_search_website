@@ -29174,10 +29174,6 @@
     Your opponent cannot play Leads on their next turn.'
   db_uuid: c04d9761d5594463917b59c328b66582
   tags: []
-- name: Soratonin
-  card_type: SingleCompetitorCard
-  db_uuid: cd283aee6aec4624870ed56c983f9951
-  tags: []
 - name: Spite
   division: Intergalactic
   card_type: SingleCompetitorCard

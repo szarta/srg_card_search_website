@@ -31440,6 +31440,15 @@
   db_uuid: 832a2522203547d99ceef3c759d18c0f
   tags: []
 - name: Nirab Woken Dragon God (V1)
+  power: 7
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: When your opponent hits a card with a Stop, draw 1 card for each other
+    Stop they have in play (Max 2).
+  gender: Male
   division: Intergalactic
   card_type: SingleCompetitorCard
   db_uuid: d1e4395c81ca492b8f180aaf5b6431b8

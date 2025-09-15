@@ -31199,6 +31199,17 @@
   db_uuid: 52b85a8fd80843099a633da09f475cd8
   tags: []
 - name: Isaac
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: 'Once per turn:
+
+    If your opponent stops your Follow Up or Finish, roll your die: if the die matches
+    the move type of the stopped card, play that card as an additional card this turn.'
+  gender: Male
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: e5d58cd478394fe0882ce3e1b410041e
@@ -31213,6 +31224,15 @@
   db_uuid: d829449703064ba38d7e0953102e3de9
   tags: []
 - name: Joe Hendry
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  gender: Male
+  rules_text: 'When you roll Power for your turn roll: Search your deck for 1 Joe
+    Hendry card and add it to your hand; shuffle your deck.'
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
@@ -31222,6 +31242,15 @@
   db_uuid: 711c8f31d1f448a2afba2bfc60f227ed
   tags: []
 - name: King of Strikes
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 7
+  gender: Male
+  rules_text: When you hit a card with "Strike", "Spin", or "Split" in the name, +1
+    to Agility, +1 to Strike, +1 to Submission during your next turn roll.
   card_type: SingleCompetitorCard
   division: Hardcore
   db_uuid: a2d8b8302a564a068f18f2d00239f1b8
@@ -31245,6 +31274,7 @@
   db_uuid: 80ae186a6d6a43ee8402b85c112964c1
   tags: []
 - name: Lady Outlaw
+  srg_url: https://supershowthegame.com/product/lady-outlaw/
   card_type: SingleCompetitorCard
   division: United States
   db_uuid: 7bc2886de7e34870819b0dd6536cdf8b
@@ -31272,6 +31302,7 @@
   db_uuid: 6ded6a7076cc4621bd998aaee548b55e
   tags: []
 - name: Mike Santana
+  srg_url: https://supershowthegame.com/product/00-mike-santana-competitor-set-slammiversary-edition/
   card_type: SingleCompetitorCard
   division: Global
   db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
@@ -31401,6 +31432,7 @@
   db_uuid: c7cc2a824fab4b5dad84a3f863605373
   tags: []
 - name: Moxie
+  srg_url: https://supershowthegame.com/product/moxie/
   card_type: SingleCompetitorCard
   division: Hardcore
   db_uuid: 832a2522203547d99ceef3c759d18c0f

@@ -32466,7 +32466,7 @@
   card_type: TornadoCompetitorCard
   db_uuid: 9cc63c837d2a41338981b66cc52ed3d9
   tags: []
-- name: Protectors of Light
+- name: Protectors of the Light
   srg_url: https://supershowthegame.com/product/protectors-of-the-light/
   card_type: TornadoCompetitorCard
   db_uuid: fa0211f0ce5542198f9bac23f3e017b7
@@ -32563,4 +32563,17 @@
 - name: Mai Girls (Trio)
   card_type: TrioCompetitorCard
   db_uuid: 822e8008287c4ac5828d8505e3f9f930
+  tags: []
+- name: Mila Mai & Cupcake
+  srg_url: https://supershowthegame.com/product/mila-mai-cupcake/
+  card_type: TornadoCompetitorCard
+  db_uuid: 62b8b084f1e148a2987cf990e0644848
+  tags: []
+- name: Monster Asylum
+  card_type: TornadoCompetitorCard
+  db_uuid: cacdc3a017954906ba8afdae95f823cf
+  tags: []
+- name: Naval Academy
+  card_type: TornadoCompetitorCard
+  db_uuid: 098d8224cc37415c8b4becea6a4227f4
   tags: []

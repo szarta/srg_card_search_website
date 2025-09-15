@@ -32577,9 +32577,17 @@
   card_type: TornadoCompetitorCard
   db_uuid: 098d8224cc37415c8b4becea6a4227f4
   tags: []
-- name: New Wool Order
+- name: New Wool Order (Tag V1)
   card_type: TornadoCompetitorCard
   db_uuid: cf3c4cd74b744e8e956b7425bd0b8e7c
+  tags: []
+- name: New Wool Order (Tag V2)
+  card_type: TornadoCompetitorCard
+  db_uuid: f471e5cfe73b42c1824744df15eccfd4
+  tags: []
+- name: New Wool Order (Trio)
+  card_type: TrioCompetitorCard
+  db_uuid: 3802b52979fd4fb68a5b900d00189a42
   tags: []
 - name: Ninja Firebirds
   card_type: TornadoCompetitorCard

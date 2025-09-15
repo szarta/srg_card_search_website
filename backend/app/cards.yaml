@@ -32577,3 +32577,23 @@
   card_type: TornadoCompetitorCard
   db_uuid: 098d8224cc37415c8b4becea6a4227f4
   tags: []
+- name: New Wool Order
+  card_type: TornadoCompetitorCard
+  db_uuid: cf3c4cd74b744e8e956b7425bd0b8e7c
+  tags: []
+- name: Ninja Firebirds
+  card_type: TornadoCompetitorCard
+  db_uuid: 4f05f98ff74b4be49e53e2092c28a90a
+  tags: []
+- name: Oracle and the Beast
+  card_type: TornadoCompetitorCard
+  db_uuid: 144d166fb1cc4b9f9d9f053b66c28d3f
+  tags: []
+- name: Pang & Shui
+  card_type: TornadoCompetitorCard
+  db_uuid: e9b4ece447124afc9484f175f72073a4
+  tags: []
+- name: Pluto & Uranus
+  card_type: TornadoCompetitorCard
+  db_uuid: 60e0134eb28d4d5f9f2df99aa0b123bd
+  tags: []

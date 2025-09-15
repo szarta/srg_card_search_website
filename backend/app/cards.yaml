@@ -400,6 +400,8 @@
   db_uuid: 09e71cd6c68b4bf298d92c2ff239807f
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
   tags: []
+  related_cards:
+  - 258cee74f15b452e85bc92754f82dd0e
 - name: DDT It!
   rules_text: '+1 to Power
 
@@ -413,6 +415,8 @@
   card_type: MainDeckCard
   db_uuid: ad9bf71f6fbf4867ab715f1c1c289af6
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
+  related_cards:
+  - 258cee74f15b452e85bc92754f82dd0e
   tags: []
 - name: Straight Trash
   rules_text: '+2 to Technique
@@ -428,6 +432,8 @@
   db_uuid: 405ed37a86044038851fc23caae39086
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
   tags: []
+  related_cards:
+  - 258cee74f15b452e85bc92754f82dd0e
 - name: 4 Leaf Flynn (V1)
   card_type: SingleCompetitorCard
   gender: Male
@@ -7819,6 +7825,8 @@
   db_uuid: 652f58d1a6304da1892f117cede1834f
   tags: []
 - name: A Puncher's Chance
+  rules_text: Shuffle your deck and draw 1 card or add 2 cards with "Disqualification"
+    in the text from your discard pile to your hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8058,6 +8066,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Draw 1 card.
+
+    Your opponent reveals 1 card in their hand and buries it.'
   deck_card_number: 9
   db_uuid: 59b26ebd2474414c9ee828eae7e49366
   tags: []
@@ -8066,12 +8077,17 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Draw the bottom card of your deck. If your opponent forces you to discard
+    any number of cards from your hand, shuffle up to 3 cards from your discard pile
+    into your deck.
   db_uuid: d928a2ccf4684c40a29a84a071a4361b
   tags: []
 - name: Front Chancery
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Choose 1 card your opponent has in play and put it into their discard
+    pile, or bury your hand and draw the same number of cards.
   deck_card_number: 9
   db_uuid: 0bbaac4c54de40f7ac3f9130002f7a1e
   tags: []
@@ -8104,6 +8120,8 @@
   db_uuid: 8733b466902d47989b8efd3f987443dd
   tags: []
 - name: Head Crush (V2)
+  rules_text: Bury 2 cards in any players discard pile, or look at your opponent's
+    hand.
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8123,6 +8141,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Bury 1 Submission in any player''s discard pile.
+
+    Your opponent cannot Double Team, Save or Protect until the end of their next
+    turn.'
   deck_card_number: 9
   db_uuid: 062cb708a6264889a02ee9442285a965
   tags: []
@@ -8130,6 +8152,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'During their turn, your opponent cannot play Finishes without a Follow
+    Up in play.
+
+    Your opponent''s next turn roll is -2.'
   deck_card_number: 9
   db_uuid: 77205186f54d4e46baea16a7d79352fd
   tags: []
@@ -8137,6 +8163,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Your next turn roll is +1.
+
+    Draw 1 card.'
   deck_card_number: 9
   db_uuid: 82b2e7f07460497a9a0c87a8792de2f9
   tags: []
@@ -8144,6 +8173,10 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: '+3 to Technique, Strike, and Submission during your next turn roll.
+
+    When you stop a card, the stopped card has blank text until the end of the turn,
+    and you may bury it.'
   deck_card_number: 9
   db_uuid: 0ab6ce462a724703909497420b6700b0
   tags: []
@@ -8151,6 +8184,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Discard 2 cards from your hand.
+
+    Add 1 card from your discard pile to your hand.'
   deck_card_number: 9
   db_uuid: 5627f5f8aa8042788689f1eb8bf17e8f
   tags: []
@@ -8167,6 +8203,10 @@
   db_uuid: 049e834436de44d0baad9dc64f1e63f1
   tags: []
 - name: Norwegian Scapegoat Slam
+  rules_text: 'Each player flips 3 cards.
+
+    If you have fewer cards in play than your opponent, you may play 1 additional
+    card this turn. (After you hit another card this turn, your turn ends.)'
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
@@ -8178,12 +8218,20 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'The next time you roll Submission for your turn roll, it is +2.
+
+    When your opponent''s Gimmick would move cards in their discard pile to any location,
+    bury the cards instead.'
   db_uuid: f655cee6c8a74860aae14830cdd5ecdb
   tags: []
 - name: Restoration Hand Shake
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Draw 1 card.
+
+    When this card is discarded from play for a breakout, shuffle 3 other cards from
+    your discard pile into your deck.'
   deck_card_number: 9
   db_uuid: ed6069fb980543e99c81de6e935d39e1
   tags: []
@@ -8191,6 +8239,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: '+2 to Technique, Strike, and Submission during your next turn roll.
+
+    Cards in your opponent''s discard pile have blank text.'
   deck_card_number: 9
   db_uuid: 0de665b84ce14f99ab7b31b376793793
   tags: []
@@ -8199,6 +8250,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'If stopped, search your deck for 1 card with "Ring Steps" in the name
+    and put it on top of your shuffled deck.
+
+    When your opponent increases their turn roll, draw 1 card.'
   db_uuid: a16ae04068a54523aa0d868abfe9b8d7
   tags: []
 - name: Rolling Headlock
@@ -8206,6 +8261,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Draw 1 card then bury 1 card in your hand.
+
+    When this card is in your discard pile and you roll Technique for your turn roll,
+    you may add it to your hand.'
   db_uuid: 0d8a3553822c4eab9b3ff8a52022a152
   tags: []
 - name: Second Wind (V1)
@@ -8213,6 +8272,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Your next turn roll is +2.
   db_uuid: 70a21e643efe41ffbf9bf52ce9ad50af
   tags: []
 - name: Second Wind (V2)
@@ -8220,12 +8280,18 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Your next turn roll is +2.
+
+    If the Crowd Meter is 1 or greater, it is +3 instead.'
   db_uuid: 07d8d55a0796445a8287cdf3b28c054c
   tags: []
 - name: Sheep Uprising
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Your cards cannot be stopped by printed Finishes.
+
+    Add 1 card with "Sheep" in the name from your discard pile to your hand.'
   deck_card_number: 9
   db_uuid: 5d643b7d2d454745b013bc219645d36f
   tags: []
@@ -8234,6 +8300,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Add 1 card with "Sledgehammer" in the name from your discard pile to
+    your hand.
+
+    Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   db_uuid: 149c47939a5d4cfdb06c89f233503e7f
   tags: []
 - name: Spit Fire Chariot
@@ -8241,6 +8311,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Draw 1 card or take 4 cards from your discard pile and randomly put
+    them on top of your deck.
   db_uuid: 0be595fb7e6e4f96a766d8bbdbb28f10
   tags: []
 - name: Split Finger Gouge
@@ -8248,6 +8320,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: You may re-roll your next turn roll or your tag team partner draws 1
+    card.
   db_uuid: 2c58faca0e2849c4b66c27d3ad1e23d8
   tags: []
 - name: Split Finger Lock
@@ -8255,6 +8329,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Flip 2 cards or take 1 Follow Up from your discard pile and add it to
+    your hand.
   db_uuid: f97411cc94ec4df58f62c88cf22f774e
   tags: []
 - name: Stare Down
@@ -8262,6 +8338,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Your opponent randomly buries 1 card in their hand.
   db_uuid: f09fbf28f99c433ea44a384fbabdcac1
   tags: []
 - name: Steel Chain Uprising
@@ -8277,6 +8354,8 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Your may play 1 extra card this turn, or if you have less cards in your
+    hand than your opponent draw 2 cards.
   deck_card_number: 9
   db_uuid: 419e8097b8c043ca936ce18a77fefe23
   tags: []
@@ -8284,6 +8363,9 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: The next time you roll Technique for your turn roll, it is +2. When
+    your opponent's Gimmick would move any number of cards from their discard pile
+    to any location, they are instead buried.
   deck_card_number: 9
   db_uuid: 8e0956d66b7540a4ba9e00b72bcd322c
   tags: []
@@ -8292,6 +8374,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Search your deck for 1 Finish, discard it, and shuffle your deck or
+    add 1 Stop from your discard pile to your hand.
+
+    If this match is a Triad match, you may choose both options.'
   db_uuid: 89b7a3de1c354c20b2732998a1a7afd2
   tags: []
 - name: Taunting Choke Hold (V1)
@@ -8299,6 +8385,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Reveal the top 2 cards of your deck, put 1 in your hand, flip the other.
   db_uuid: b4e6aeef7f544376a817f0f80a9d9578
   tags: []
 - name: Taunting Choke Hold (V2)
@@ -8306,6 +8393,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: Reveal the top 3 cards of your deck, put 1 in your hand, flip the others.
   db_uuid: 0019c17e27b9436baafdeca848905dc3
   tags: []
 - name: Took it on the Chin! (#9)
@@ -8313,6 +8401,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Reveal your hand to your opponent, they choose and bury 1 card.
+
+    Draw 3 cards.'
   db_uuid: dcb477d7149d4651b1483463c46357d5
   tags: []
 - name: Twisting Wrist Burn
@@ -8320,6 +8411,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Draw 1 card.
+
+    The next time your opponent''s Gimmick would make your bury or discard any number
+    of cards from your hand, draw 2 cards instead.'
   db_uuid: e19bdf66f7af46c88c6560760815bfea
   tags: []
 - name: Two-Handed Choke
@@ -8327,12 +8422,21 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 9
+  rules_text: 'Look at the top 3 cards of your opponent''s deck, choose 2 cards and
+    discard them.
+
+    If this is a Ring of Fire or Lumberjack match and this card is stopped, shuffle
+    2 cards from your discard pile into your deck.'
   db_uuid: 15c337c9832945589a3a51c3725a8e98
   tags: []
 - name: Vice Grip
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Look at the top 3 cards of your deck, add 1 to your hand, put the others
+    on the top or bottom of your deck in any order.
+
+    Your maximum handsize is +1.'
   deck_card_number: 9
   db_uuid: 7b6cf36ec3224d3fa0a57d13443547a0
   tags: []
@@ -8481,12 +8585,15 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, choose 1 card your opponent has in
+    play and discard it.
   db_uuid: de612a11e6eb47c3b4c2b32796f258f0
   tags: []
 - name: Charged Shot
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each Submission you have in play.
   deck_card_number: 10
   db_uuid: a63beea506d34bf884baa8f3b0e0c35d
   tags: []
@@ -8495,6 +8602,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Your next turn roll is +1 for each Strike you have in play.
   db_uuid: cc596e665baf4cbc82ac2ab2d1f19d42
   tags: []
 - name: Chop to the Chest
@@ -8502,6 +8610,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Draw 1 card for each other Strike you have in play.
   db_uuid: 7512f3831bdc407a8662a438a8959aec
   tags: []
 - name: Chug From a Trash Can
@@ -8520,6 +8629,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Bury 1 card in your opponent's discard pile for each Strike you have
+    in play.
   db_uuid: e51ed10e1a3c448cbe4e4be77a73fbc6
   tags: []
 - name: Diving Headbutt
@@ -8527,6 +8638,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Put 1 card from your hand on top of your deck. Look at your opponent's
+    hand, choose 1 card and discard it.
   db_uuid: fab5b0a227a24993bf7a420017ceb9f6
   tags: []
 - name: Diving European Uppercut
@@ -8534,6 +8647,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   db_uuid: c1ed6cb52cc44ccb92a937a01ce3e6af
   tags: []
 - name: Elbow to the Back
@@ -8541,12 +8655,17 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'If you have another Lead in play, look at the top 3 cards of your deck.
+
+    Add 1 card to your hand, put the others back on the top or bottom of your deck
+    in any order.'
   db_uuid: 5dbfd3f1837a4a59ba5d512932ed0a79
   tags: []
 - name: Enjoy Everything
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Your next turn roll is +1 for each Lead your opponent has in play.
   deck_card_number: 10
   db_uuid: b3966e9db8ec46b3abd0921f281b77c0
   tags: []
@@ -8554,6 +8673,7 @@
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Flip 2 cards for each other Lead you have in play.
   deck_card_number: 10
   db_uuid: cd87f228581e4571a364b6d7c5af72cf
   tags: []
@@ -8562,12 +8682,14 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Flip 2 cards for each Lead you have in play.
   db_uuid: 5fd61e50899a474b9cda0aff0b56eb82
   tags: []
 - name: Exchange Blows
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: If you have another Lead in play, you may re-roll your next turn roll.
   deck_card_number: 10
   db_uuid: a3ef520ed54f4cbdbb04e11a6e5ed45d
   tags: []
@@ -8585,6 +8707,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, your opponent buries 1 card in their
+    hand.
   db_uuid: f5e55db0c2344b07994ac99972a926d6
   tags: []
 - name: Flying Buckeye Beatdown
@@ -8614,6 +8738,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Your opponent's next turn roll is -1 for each card you have in play
+    with "Kendo Stick" in the name.
   db_uuid: e665fba28393434d826769cd0bd208d5
   tags: []
 - name: Gathering the Ladder
@@ -8630,6 +8756,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Shuffle 1 Strike from your discard pile into your deck for each card
+    you have in play with "Pineapple" in the name.
   db_uuid: 15ce98d81c7c40c8821f44e56eac11f2
   tags: []
 - name: Gut Shot (V1)
@@ -8637,6 +8765,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play your next turn roll is +2.
   db_uuid: 9d53927d6209468eaf707ae62060f7fe
   tags: []
 - name: Gut Shot (V2)
@@ -8645,12 +8774,18 @@
   card_type: MainDeckCard
   deck_card_number: 10
   db_uuid: 12ea2c998ee040fcacde363ade3316c6
+  rules_text: 'If you have another Strike in play, your next turn roll is +2.
+
+    If this match has No Disqualifications, your next turn roll is +1.'
   tags: []
 - name: Hangover Smash
   play_order: Lead
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'If you have "Cheap Shot" in play:
+
+    Your Agility skill is +1 and this card is also a Follow Up.'
   db_uuid: 1c8b612af30a4c31a4fef3971648d115
   tags: []
 - name: Head Hunting
@@ -8658,6 +8793,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play, your opponent discards 1 card from
+    their hand.
   db_uuid: ba267798fd6041a684979f543fa6106e
   tags: []
 - name: Head Punch (V1)
@@ -8693,6 +8830,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play, your opponent's next turn roll is
+    -2.
   db_uuid: fb7395e4717648b2b1b7983306edd8eb
   tags: []
 - name: Jumping Leg Lariat
@@ -8700,6 +8839,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'If you have another Lead in play, look at the top 3 cards of your opponent''s
+    deck.
+
+    You may flip any number of them, put the rest back on top in any order.'
   db_uuid: 6174e1100cea4b3380dc2f4143868de4
   tags: []
 - name: Kickback
@@ -8715,6 +8858,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play, draw 2 cards.
   db_uuid: 2b10a34b3659458eb1859c39c172b9a9
   tags: []
 - name: Kicks to the Back
@@ -8722,6 +8866,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play, your opponent buries 1 card in their
+    hand.
   db_uuid: c9e399eea11c4e91b2de7b994249278d
   tags: []
 - name: Knee Strike
@@ -8729,6 +8875,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If your opponent has a Stop in play, your next turn roll is +2.
   db_uuid: d7ac2650d39e45c5b1d71144d285fc14
   tags: []
 - name: Lucky Cat and Bird Greeting
@@ -8736,6 +8883,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Draw 1 card for each Lead your opponent has in play.
   db_uuid: 3411f9d46b89481681d37d54ae1bf9c8
   tags: []
 - name: Lucky Shot
@@ -8743,6 +8891,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'If you have fewer cards in your hand than your opponent, draw 1 card.
+
+    Your maximum handsize is +1 for each Lead you have in play.'
   db_uuid: 5316e089e8094f5cab905a30691ae201
   tags: []
 - name: The Ole' Ball N Chain
@@ -8750,6 +8901,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Your next turn roll is +1 for each Stop in play.
   db_uuid: 6060c6fcd7194f4c9c633c8a36df634e
   tags: []
 - name: Pier Six Brawl
@@ -8757,6 +8909,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Your next turn roll is +1 for each Strike your opponent has in play.
   db_uuid: bb44853b06124e68a147fe86652b9562
   tags: []
 - name: Rabbit Punch
@@ -8764,6 +8917,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, draw 1 card and your tag team partner
+    draws 1 card.
   db_uuid: 73515b66459f401e80bc33fc605e9612
   tags: []
 - name: Rising Knee
@@ -8771,6 +8926,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, shuffle 2 cards from your discard
+    pile into your deck.
   db_uuid: be4530f031e8407c888c555877803d1f
   tags: []
 - name: Slap
@@ -8778,6 +8935,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, your opponent buries 1 card in their
+    hand.
   db_uuid: fe5e38698525485ea10e79fa1ec4f091
   tags: []
 - name: Spear Into the Final Dungeon
@@ -8785,6 +8944,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If your opponent has a Stop in play, choose 1 card your opponent has
+    in play and discard it.
   db_uuid: ae8a03b94db5428f8ccf9be1c1c8b248
   tags: []
 - name: Stiff Left Hand
@@ -8792,6 +8953,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, put 1 Finish Strike from your discard
+    pile on top of your deck.
   db_uuid: 4661b819043343df9145e4e1b19876bc
   tags: []
 - name: Steel Chain Punch
@@ -8808,6 +8971,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: Draw 3 cards.
   db_uuid: bb3afdf7bc3148b9a182a7784a569017
   tags: []
 - name: Sucker Punch
@@ -8815,6 +8979,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'Stop "Call to the Crowd".
+
+    Draw 1 card for each Lead you have in play.
+
+    Skill Requirement: Strike 8+'
   db_uuid: 7b3feabbf1274a3cb65d7c03341f7fdb
   tags: []
 - name: Surprise Attack
@@ -8841,6 +9010,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: 'If you have "One-Two Punch" in play: Your Strike skill is +1 and this
+    card is also a Follow Up.'
   db_uuid: 4e400ee317a3490b8fa817d2dda4c2d4
   tags: []
 - name: Thunderous Punch
@@ -8848,6 +9019,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Strike in play, search your deck for 1 Strike and
+    put it on top of your shuffled deck.
   db_uuid: 8954f299844a4518929d83bf16810ae5
   tags: []
 - name: Unamerican Elbow Smash
@@ -8855,6 +9028,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 10
+  rules_text: If you have another Lead in play, draw the bottom card of your deck.
   db_uuid: 09edf17fc41849f0b0fec783384e8339
   tags: []
 - name: 2 Handed Slam
@@ -8871,6 +9045,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Bury 1 card in your opponent's discard pile for each Grapple you have
+    in play.
   db_uuid: dafb9a0ce2b441498b95ceae1a9dea60
   tags: []
 - name: All American Takedown
@@ -8878,6 +9054,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If your opponent has a Stop in play, you may re-roll your next turn
+    roll.
   db_uuid: 6add76bdfc5545d68acd0dfff6d85e06
   tags: []
 - name: Arm Drag
@@ -8885,6 +9063,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Draw 1 card for each other Lead you have in play.
   db_uuid: 16c4aee31a2d4d9ca80555320d75f161
   tags: []
 - name: Back and Forth Action
@@ -8892,6 +9071,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, you may re-roll your next turn roll.
   db_uuid: d5f5958eafa04eb1a818af0c00cb813e
   tags: []
 - name: Backflip Out of the Corner
@@ -8899,6 +9079,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, put 1 Finish Grapple from your discard
+    pile on top of your deck.
   db_uuid: 5bf264206e0740e4ad699aeea2dda878
   tags: []
 - name: Barrel of Monkeys
@@ -8906,12 +9088,14 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Draw 1 card for each Stop you have in play.
   db_uuid: b39135f34a1148e4a4b3e7dbe2b280e0
   tags: []
 - name: Barrel Slice
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each Strike you have in play.
   deck_card_number: 11
   db_uuid: 17a34d6d13bc44d593ab65bf17798341
   tags: []
@@ -8950,6 +9134,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, draw 2 cards.
   db_uuid: be6ed076834c4502a9c9748f5a555875
   tags: []
 - name: Celestial Armenian Breaker
@@ -8957,6 +9142,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, your opponent's next turn roll
+    is -2.
   db_uuid: a76a56dfc3ee44da89c57681509ff3fb
   tags: []
 - name: Charging Takedown
@@ -8964,6 +9151,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, draw 1 card and your tag team partner
+    draws 1 card.
   db_uuid: 90a6bd79922e4d6980fafe8e226e237c
   tags: []
 - name: Double Drop
@@ -8971,6 +9160,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, your opponent buries 1 card in
+    their hand.
   db_uuid: 0326e8db34a648c6854982e6590ac6b3
   tags: []
 - name: Double Throw
@@ -8978,6 +9169,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, search your deck for 1 Grapple
+    and put it on top of your shuffled deck.
   db_uuid: 99a46111b1a94182b1aa132ba02a7076
   tags: []
 - name: Double Wrist Twist
@@ -8985,6 +9178,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    If you have another Grapple in play, draw 1 card and your next turn roll is +1.'
   db_uuid: ef2967fc07044d958f64372afacbb95e
   tags: []
 - name: Drop Toe Hold
@@ -8992,6 +9188,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Draw 1 card for each other Grapple you have in play.
   db_uuid: 40f4e926000c4790b8cf6d830d0a4ce7
   tags: []
 - name: Evening Up the Odds
@@ -8999,6 +9196,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Stop "Strength in Numbers".
+
+    Draw 1 card for each Lead you have in play.
+
+    Skill Requirement: Grapple 8+'
   db_uuid: c0828ae2627a46bdb10824f36fbb1dc3
   tags: []
 - name: Exploder Suplex
@@ -9007,12 +9209,17 @@
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: 7c9d5b40bf654857a9bf1b3a853a58f4
+  rules_text: 'If you have another Lead in play, look at the top 3 cards of your deck.
+
+    Add 1 card to your hand, put the others back on the top or bottom in any order.'
   tags: []
 - name: Fisherman Buster
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, look at the top 3 cards of your opponent's
+    deck. You may flip any number of them. Put the rest back on top in any order.
   db_uuid: 7324de4b18f348e9a7767c6eef279227
   tags: []
 - name: Gathering the Guitar
@@ -9020,6 +9227,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Draw 1 card for each other card you have in play with "Guitar" in the
+    name.
+
+    Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   db_uuid: 38c2d7bb526143dc95312006851ee36a
   tags: []
 - name: Gathering the Steel Chair
@@ -9028,12 +9239,16 @@
   card_type: MainDeckCard
   deck_card_number: 11
   db_uuid: 8d60c3fca47b4f5895e150b4548c906c
+  rules_text: Your opponent's next turn roll is -1 for each card you have in play
+    with "Steel Chair" in the name.
   tags: []
 - name: Gathering the Table
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your next turn roll is +1 for each card you have in play with "Table"
+    in the name.
   db_uuid: c71fe122381f44fa9c135a78e31e0b46
   tags: []
 - name: Gathering the Trash Can
@@ -9050,12 +9265,15 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your next turn roll is +1 for each Lead your opponent has in play.
   db_uuid: 41a1efe5f30e4aba87d3c192c7f24a6b
   tags: []
 - name: Hammer Into the Post
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'If you have "Charge Into the Corner" in play: Your Power skill is +1
+    and this card is also a Follow Up.'
   deck_card_number: 11
   db_uuid: 85406109a97d4dc286c35291a39fb230
   tags: []
@@ -9064,6 +9282,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your opponent's next turn roll is -1 for each other Lead you have in
+    play.
   db_uuid: a3366bde9ae048bbad1627515bc81ac0
   tags: []
 - name: Hello There
@@ -9071,6 +9291,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'If you have another Grapple in play, put 1 Grapple from your discard
+    pile on top of your deck.
+
+    If this is a Steel Cage match and this card is flipped, flip 1 card.'
   db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
   tags: []
 - name: Judo Takedown
@@ -9078,6 +9302,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, your opponent buries 1 card in their
+    hand.
   db_uuid: 1c3e1ff206644e4b8902815f8fe09217
   tags: []
 - name: Jumping Backbreaker
@@ -9085,12 +9311,16 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, your opponent discards 1 card from
+    their hand.
   db_uuid: b599e227c2c4432794681c7d5fa26a03
   tags: []
 - name: Leg Sweep Facebuster
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: If you have another Lead in play, shuffle 2 cards from your discard
+    pile into your deck.
   deck_card_number: 11
   db_uuid: 1a5e73be675d42088394ef577bc6b402
   tags: []
@@ -9098,6 +9328,7 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Draw 1 card for each Lead your opponent has in play.
   deck_card_number: 11
   db_uuid: d9a355ebe9d74dd3a708206d0e14d46f
   tags: []
@@ -9106,6 +9337,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Draw 1 card for each Grapple you have in play, then bury 1 card in your
+    hand.
   db_uuid: a7f37e635e2a4d81ae821f6c16b2f1e0
   tags: []
 - name: Pouring It On
@@ -9113,12 +9346,24 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Stop "Chugga-Chugga Chugga-Chugga Chugga-Chugga, Chug!".
+
+    Your next turn roll is +2 for each Lead you have in play.
+
+    Skill Requirement: Technique 8+'
   db_uuid: ba7c9b81d71c4d819b1af6f0b0ec68e5
   tags: []
 - name: Put Some Respect On It!
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Cannot be stopped by "Al13n Invasion".
+
+    "Rejected!" has blank text.
+
+    Your opponent''s next turn roll is -2 for each Lead you have in play.
+
+    Skill Requirement: Grapple 8+'
   deck_card_number: 11
   db_uuid: 506a434f50d743d6bec704fa4eeb561f
   tags: []
@@ -9127,6 +9372,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Flip 2 cards for each other Grapple you have in play.
   db_uuid: 8071e90b495940fba187893f9ca46cc9
   tags: []
 - name: Reverse Backbreaker (V2)
@@ -9134,6 +9380,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Flip 2 cards for each Grapple you have in play.
+
+    If this is a Triad match, your opponent''s next roll is -2.'
   db_uuid: 8f318687e0a24f6dbcb06819c4bce84f
   tags: []
 - name: Ring Post Bumper
@@ -9141,6 +9390,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If your opponent has a Stop in play, draw 2 cards.
   db_uuid: 289c5c736a37420ea437b534507d96ff
   tags: []
 - name: Rolling Senton Bomb
@@ -9148,6 +9398,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If your opponent has a Stop in play, choose 1 card your opponent has
+    in play and discard it.
   db_uuid: a34f6b19ac164b07882014824fc511fc
   tags: []
 - name: Rubber Baby Bumper
@@ -9155,6 +9407,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your next turn roll is +1 for each Stop in play.
   db_uuid: 971a06eae37a4b1cad82d574d1eff87f
   tags: []
 - name: Samoan Drop
@@ -9162,6 +9415,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your next turn roll is +1 for each other Lead you have in play.
   db_uuid: fa39297bc81a4fac8672f3f509a29263
   tags: []
 - name: Skull Drop
@@ -9169,6 +9423,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, your opponent discards 1 card in
+    their hand.
   db_uuid: 11429421e68e4b6f9af81b196986d6ca
   tags: []
 - name: Slam Into the Mat
@@ -9176,6 +9432,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'If you have fewer cards in your hand than your opponent, draw 1 card.
+
+    Your maximum handsize is +1 for each Lead you have in play.'
   db_uuid: 03e674faf5d9499a8f7ea7f1510dd758
   tags: []
 - name: Slithering Tackle
@@ -9183,6 +9442,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Grapple in play, add 1 Finish Grapple from your
+    discard pile to your hand.
   db_uuid: 644281525c44477783e51b9e7972be99
   tags: []
 - name: Sky-High Throw
@@ -9190,6 +9451,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, shuffle 1 Grapple from your discard
+    pile into your deck and draw 1 card.
   db_uuid: 8f4d814a3e1d439e999255320acbe8b8
   tags: []
 - name: Snap Cutter (V1)
@@ -9214,6 +9477,8 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Shuffle 1 card from your discard pile into your deck for each other
+    Lead you have in play.
   deck_card_number: 11
   db_uuid: 0335932d4d2b490a9b7ff959d332f619
   tags: []
@@ -9222,6 +9487,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If your opponent has a Stop in play, put 1 Grapple from your discard
+    pile on top of your deck.
   db_uuid: ab7b9b46c8d94f8f9ca6e63e7133d28c
   tags: []
 - name: Steel Chain Irish Whip
@@ -9238,6 +9505,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: 'Shuffle 1 card from your discard pile into your deck for each other
+    Grapple you have in play.
+
+    If this is a Steel Chain match, your opponent''s next turn roll is -2.'
   db_uuid: 81a9c83cf2e84c47b377d0ca15bf4583
   tags: []
 - name: Sweeping Takedown
@@ -9245,6 +9516,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play your next turn roll is +2.
   db_uuid: d92606db5d5943bd836c5dcd67c08565
   tags: []
 - name: Swinging Takedown
@@ -9252,6 +9524,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If your opponent has a Stop in play, your next turn roll is +2.
   db_uuid: 3db3846e013d4101bd813794a179c021
   tags: []
 - name: Taunting Sheep
@@ -9259,6 +9532,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: Your opponent's next turn roll is -1 for each Grapple you have in play.
   db_uuid: 13ad5cd7377f4f588167ce87088fddf6
   tags: []
 - name: The Crowd is Marking Out
@@ -9266,6 +9540,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, draw the bottom card of your deck.
   db_uuid: 5ab3c57283cb4dbab989abef4161f44e
   tags: []
 - name: Toss Into the Turnbuckle
@@ -9281,6 +9556,7 @@
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: Your next turn roll is +1 for each Grapple your opponent has in play.
   deck_card_number: 11
   db_uuid: 8695ceb259c84733ac70c26406194f57
   tags: []
@@ -9289,6 +9565,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 11
+  rules_text: If you have another Lead in play, choose 1 card your opponent has in
+    play and discard it.
   db_uuid: fd0fac2845af48a8b8c30b98a2b3eace
   tags: []
 - name: 1/4 Twist
@@ -9314,6 +9592,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Lead in play, draw the bottom card of your deck.
   db_uuid: c112eebe9d0b4c9d96ee72dabaf3aa1d
   tags: []
 - name: Arm Breaker (V1)
@@ -9321,6 +9600,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Flip 2 cards for each other Lead you have in play.
   db_uuid: 9bf01f85fd744ec8bc12f21d8603b947
   tags: []
 - name: Arm Breaker (V2)
@@ -9328,6 +9608,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Flip 2 cards for each Lead you have in play.
   db_uuid: 40d6c9cd940b43e58788babe09ec0098
   tags: []
 - name: Arm Lock
@@ -9335,6 +9616,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Draw 1 card for each other Submission you have in play.
   db_uuid: a0a74232065241c6898ff307d1a23b18
   tags: []
 - name: Arm Triangle (V1)
@@ -9342,12 +9624,16 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Flip 2 cards for each other Submission you have in play.
   db_uuid: 294b3521294e40998b86855213fd9473
   tags: []
 - name: Arm Triangle (V2)
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Flip 2 cards for each Submission you have in play.
+
+    If this is a Triad match your opponent''s turn roll is -2.'
   deck_card_number: 12
   db_uuid: d866ee6ccc19478499ab0254e2a29789
   tags: []
@@ -9356,6 +9642,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'If you have "Face Rake" in play: Your Technique skill is +1 and this
+    card is also a Follow Up.'
   db_uuid: 9dd492e107174d04838e520444500459
   tags: []
 - name: Blood in the Water
@@ -11410,6 +11698,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Randomly choose 1, 2, or 3.
+
+    Each player flips the chosen amount.'
   db_uuid: e586059e862d4941a41505b99ce4ad57
   tags: []
 - name: Swinging Single Leg Crab
@@ -12422,6 +12713,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 17
+  rules_text: If you have a Follow Up in play, add 1 Stop from your discard pile to
+    your hand.
   db_uuid: a0705766ae324430878872825e2508bd
   tags: []
 - name: Reverse Head Drop
@@ -12944,6 +13237,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, choose 1 card your opponent has
+    in play and discard it.
   db_uuid: df15a1077d714fdc93f2c89cb1b9aa46
   tags: []
 - name: Pasture Bedtime
@@ -13064,6 +13359,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 18
+  rules_text: 'Your opponent flips 2 cards for each other Follow Up you have in play.
+
+    Bury 2 cards in your opponent''s discard pile for each other Follow Up you have
+    in play.'
   db_uuid: 786000894c2b469dbd7f04148a6a7e5d
   tags: []
 - name: Stretch Over the Knee
@@ -13237,6 +13536,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 19
+  rules_text: Your opponent cannot move cards from their discard pile to their hand.
   db_uuid: 43d69424ea814e75b35e6237d6bac8f8
   tags: []
 - name: Blockbuster Deal
@@ -13774,6 +14074,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 20
+  rules_text: Your opponent cannot increase their turn roll.
   db_uuid: 82a343ae8b9e49298e2a6492d37ea825
   tags: []
 - name: Backbuster
@@ -13875,6 +14176,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 20
+  rules_text: Your opponent cannot draw cards except for winning turn rolls.
   db_uuid: 1731e66b4e444f71a896cec4fce3f60b
   tags: []
 - name: Electric Chair Drop
@@ -14296,6 +14598,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 21
+  rules_text: If this match has No Disqualifications, and the Crowd Meter is 3 or
+    greater, this card is also a Finish.
   db_uuid: bc5249d8841a415d8007cfb7bb9c4167
   tags: []
 - name: Back Rake
@@ -14942,6 +15246,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 22
+  rules_text: 'Your opponent flips 5 cards.
+
+    Put up to 4 cards from your opponent''s discard pile on top of their deck.'
   db_uuid: e7673ba0474049f38229a78f4495d455
   tags: []
 - name: Corner Clothesline
@@ -15095,6 +15402,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 22
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Look at the top 4 cards of your deck, add 1 to your hand then put the others on
+    the top of your deck in any order.'
   db_uuid: 8c49f061d6d7462daa29e1dfe8592c44
   tags: []
 - name: Leaping Lariat (V1)
@@ -15576,6 +15887,9 @@
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
+  rules_text: 'Randomly choose 1, 2, or 3.
+
+    Each player flips the chosen amount.'
   deck_card_number: 23
   db_uuid: c0d955c4fcca435e86d7b345f9a1dfe7
   tags: []
@@ -16411,6 +16725,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 24
+  rules_text: Draw the bottom 2 cards of your deck.
   db_uuid: aa640ffe35a54a518767951f10c41d91
   tags: []
 - name: Pin to the Wall
@@ -28103,9 +28418,52 @@
   db_uuid: 692d5eaef3004346b5458de99691e24c
   tags: []
 - name: Pretzel Wizard
+  power: 10
+  technique: 8
+  agility: 7
+  strike: 5
+  submission: 9
+  grapple: 6
+  gender: Male
   division: Hardcore
+  rules_text: When you hit a card with "Twist" or "Shake" in the name, draw 1 card
+    or add 1 Submission from your discard pile to your hand.
   card_type: SingleCompetitorCard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
+  tags: []
+- name: Das Shake Out
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +4 to Strike'
+  db_uuid: 9014a0be07c842ba920f6e3aae9e5712
+  tags: []
+- name: Brezel Bomb
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Once per turn:
+
+    If stopped, you may play 2 additional cards this turn.'
+  db_uuid: fe9ddea24e7544adb7e0e45e6627529f
+  tags: []
+- name: Tod Ersticken
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Submission
+
+    When the Crowd Meter is 3 or greater, your opponent cannot breakout.'
+  db_uuid: 3fe3c72a858347ceaac98b22b1ec9db1
   tags: []
 - name: Pride
   division: United States
@@ -30431,11 +30789,30 @@
   db_uuid: a7a5c4afdd1a47c78581587e6bdb5ce0
   tags: []
 - name: 2 Cats 2 Purrious
+  power: 10
+  technique: 14
+  agility: 20
+  strike: 16
+  submission: 12
+  grapple: 18
+  rules_text: 'When your opponent stops a card:
+
+    Add 1 Strike from your discard pile to your hand and your next turn roll is +2.'
   srg_url: https://supershowthegame.com/product/2-cats-2-purrious/
   card_type: TornadoCompetitorCard
   db_uuid: e11f25b8d9f941d4b12898e591c4a0d1
   tags: []
 - name: 3 Best Friends
+  power: 21
+  technique: 30
+  agility: 27
+  strike: 18
+  submission: 15
+  grapple: 24
+  rules_text: 'At the start of the match: Search your deck for card #3 and add it
+    to your hand.
+
+    Your opponent''s maximum handsize is equal to the number of cards in your hand.'
   card_type: TrioCompetitorCard
   db_uuid: 8e3678bb4935499dae171ac41c0aabea
   tags: []

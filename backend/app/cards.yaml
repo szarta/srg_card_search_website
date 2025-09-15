@@ -21467,6 +21467,7 @@
   db_uuid: 368ad45ddb934241ae50758867e8c8f3
   tags: []
 - name: Black Lipstick
+  srg_url: https://supershowthegame.com/product/black-lipstick/
   card_type: TornadoCompetitorCard
   power: 14
   technique: 10
@@ -30430,6 +30431,7 @@
   db_uuid: a7a5c4afdd1a47c78581587e6bdb5ce0
   tags: []
 - name: 2 Cats 2 Purrious
+  srg_url: https://supershowthegame.com/product/2-cats-2-purrious/
   card_type: TornadoCompetitorCard
   db_uuid: e11f25b8d9f941d4b12898e591c4a0d1
   tags: []
@@ -30530,6 +30532,7 @@
   db_uuid: 3f63303ebd4f48baabadfe23090cf066
   tags: []
 - name: Beauty and the Beatstick
+  srg_url: https://supershowthegame.com/product/beauty-and-the-beatstick/
   power: 18
   technique: 16
   agility: 14
@@ -30543,6 +30546,16 @@
   db_uuid: 180073d7502e46bd957a7379a99afe54
   tags: []
 - name: Belinda & Nemesis
+  srg_url: https://supershowthegame.com/product/belinda-and-nemesis/
+  power: 16
+  technique: 12
+  agility: 18
+  strike: 10
+  submission: 20
+  grapple: 14
+  rules_text: 'When you stop a card with a Lead, your next turn roll is +2.
+
+    When you stop a card with a Follow Up, your next turn roll is +1.'
   card_type: TornadoCompetitorCard
   db_uuid: 1aec57ec927945748d95c7c874392841
   tags: []
@@ -30551,6 +30564,7 @@
   db_uuid: c939efe58c554a1f90457e25df23c36e
   tags: []
 - name: Big Money
+  srg_url: https://supershowthegame.com/product/big-money/
   card_type: TornadoCompetitorCard
   db_uuid: 8fa7c780ce484084b9eaf58d5d343f0c
   tags: []
@@ -30559,10 +30573,12 @@
   db_uuid: bb68774ff47d4d2493d1a13cea5061f1
   tags: []
 - name: Birdbada
+  srg_url: https://supershowthegame.com/product/birdbada-competitor-only/
   card_type: TornadoCompetitorCard
   db_uuid: aa9340f3542f4f82a2dd1264ccacd75d
   tags: []
-- name: Blue-Eyed Fiends
+- name: Blue Eyed Fiends
+  srg_url: https://supershowthegame.com/product/blue-eyed-fiends/
   card_type: TornadoCompetitorCard
   db_uuid: 9f75a5cd8a224aa6a5a7b4c3bfaed380
   tags: []
@@ -30575,6 +30591,7 @@
   db_uuid: e46f5f9924ec4c83a0054c7c71b32e6b
   tags: []
 - name: Boss Babies
+  srg_url: https://supershowthegame.com/product/boss-babies/
   card_type: TornadoCompetitorCard
   db_uuid: 7784adb1e56e4e3e87654a09a6bafa90
   tags: []
@@ -30686,6 +30703,7 @@
   db_uuid: f242afc5c30445d0b9b03192c7556715
   tags: []
 - name: CaLLAMAty
+  srg_url: https://supershowthegame.com/product/calamity/
   card_type: TornadoCompetitorCard
   db_uuid: 1fa9419aea3344768c35252433357797
   tags: []
@@ -30783,6 +30801,7 @@
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
   tags: []
 - name: Cock-a-Doodle Dick Thunderlips
+  srg_url: https://supershowthegame.com/product/cock-a-doodle-dick-thunderlips/
   card_type: TornadoCompetitorCard
   db_uuid: 1dcda13fa9d445f1a8347d6f2e54bdae
   tags: []
@@ -30816,10 +30835,12 @@
   db_uuid: 9f02b39088284f38a15781a4bafacce7
   tags: []
 - name: Dangerous Alliance
+  srg_url: https://supershowthegame.com/product/dangerous-alliance/
   card_type: TornadoCompetitorCard
   db_uuid: b6419b038a244358a61a32d3d7d41cc4
   tags: []
 - name: Double the Fun
+  srg_url: https://supershowthegame.com/product/double-the-fun/
   card_type: TornadoCompetitorCard
   db_uuid: 0b1899f6a9654f5fb5fecdc5592adb9a
   tags: []
@@ -30894,6 +30915,7 @@
   db_uuid: b977d5c8af7e479c938661bacbc52fa4
   tags: []
 - name: Duo Decimal System
+  srg_url: https://supershowthegame.com/product/duo-decimal-system/
   card_type: TornadoCompetitorCard
   db_uuid: fcf6365c9f444981bdfff76f7cf8385b
   tags: []
@@ -30946,10 +30968,12 @@
   db_uuid: 2c7b85ebf006415fbf53f3f465eeb7f5
   tags: []
 - name: F'n Impact
+  srg_url: https://supershowthegame.com/product/fn-impact/
   card_type: TornadoCompetitorCard
   db_uuid: 3e11a5e3695f46c6a9c8d8faa3bf7572
   tags: []
 - name: Ferda Boys
+  srg_url: https://supershowthegame.com/product/ferda-boys/
   card_type: TornadoCompetitorCard
   db_uuid: 8c3167cde90842a5973d7cc7e001452b
   tags: []
@@ -31009,6 +31033,7 @@
   db_uuid: b01e49a0967d4506bb09fe6f559c8f40
   tags: []
 - name: Final Form Dick Thunderlips
+  srg_url: https://supershowthegame.com/product/final-form-dick-thunderlips/
   card_type: TornadoCompetitorCard
   db_uuid: f513e6e02c9446ceac133ea9783fca21
   tags: []
@@ -31021,10 +31046,12 @@
   db_uuid: 5a1916022d9146cd91bcfe7cfe675be3
   tags: []
 - name: Five Star Mayhem
+  srg_url: https://supershowthegame.com/product/five-star-mayhem/
   card_type: TornadoCompetitorCard
   db_uuid: 4eecca4ae9e949e5a6f7c251f028b712
   tags: []
 - name: Flippin' Machines
+  srg_url: https://supershowthegame.com/product/flippin-machines/
   card_type: TornadoCompetitorCard
   db_uuid: bb327fc13b4641ecbacc3ced2e7a1559
   tags: []
@@ -31065,10 +31092,12 @@
   db_uuid: d20bfcca68964c50986f2cc3e30f7243
   tags: []
 - name: Grey Matter
+  srg_url: https://supershowthegame.com/product/grey-matter/
   card_type: TornadoCompetitorCard
   db_uuid: b9ec8855c7b44d36aa73fca91e1bcac4
   tags: []
 - name: Guardians of the Gates
+  srg_url: https://supershowthegame.com/product/guardians-of-the-gates/
   card_type: TornadoCompetitorCard
   db_uuid: 3ffe41b91241483c9e802696b3e5ae30
   tags: []
@@ -31160,6 +31189,7 @@
   db_uuid: b64f5ecb347847ec9f6d6c3ee6704b6e
   tags: []
 - name: Immortal Brick Brothers (V1)
+  srg_url: https://supershowthegame.com/product/immortal-brick-brothers/
   power: 18
   technique: 20
   agility: 16
@@ -31256,6 +31286,7 @@
   db_uuid: 7485c8e2dbb5471c8deb31d50fc42f56
   tags: []
 - name: Kitty Corn
+  srg_url: https://supershowthegame.com/product/kitty-corn-2/
   card_type: TornadoCompetitorCard
   db_uuid: c81420517af242c78e431d4daa0cd7ca
   tags: []
@@ -31290,6 +31321,7 @@
   db_uuid: 496ad29ce2d1416396e74a12026172b2
   tags: []
 - name: Living Legends
+  srg_url: https://supershowthegame.com/product/living-legends/
   card_type: TornadoCompetitorCard
   db_uuid: 027a8e6e5826403fa92ea3a76a1985b5
   tags: []
@@ -31841,6 +31873,7 @@
   db_uuid: 41018171070549a3a2fe292762dd39ec
   tags: []
 - name: The Back Stretch
+  srg_url: https://supershowthegame.com/product/the-back-stretch/
   card_type: TornadoCompetitorCard
   power: 18
   technique: 16
@@ -31990,4 +32023,159 @@
     If stopped or hit, search your deck or discard pile for "Try to Take Over the
     World!" and add it to your hand.'
   db_uuid: ed7aa7aeedd7489fbe8b7b3dc0ad6ae1
+  tags: []
+- name: Aegis & Augury
+  srg_url: https://supershowthegame.com/product/aegis-augury/
+  card_type: TornadoCompetitorCard
+  db_uuid: e497746359bc43f7b455e20233eaa6d1
+  tags: []
+- name: Boss & Fauxtista
+  srg_url: https://supershowthegame.com/product/boss-and-fauxtista-halloween/
+  card_type: TornadoCompetitorCard
+  db_uuid: b11f4afc1d924ecbb63a978a156b8d7d
+  tags: []
+- name: Cage and Verna
+  srg_url: https://supershowthegame.com/product/cage-and-verna/
+  card_type: TornadoCompetitorCard
+  db_uuid: 4a7e9d221c5143149ba9b86c65fcb7c0
+  tags: []
+- name: Filthadelphia
+  srg_url: https://supershowthegame.com/product/filthadelphia/
+  card_type: TornadoCompetitorCard
+  db_uuid: 5f19defcd3c748128aeda00aa30b087b
+  tags: []
+- name: Maidens of the Storm
+  srg_url: https://supershowthegame.com/product/maidens-of-the-storm/
+  card_type: TornadoCompetitorCard
+  db_uuid: 4d0b8f6efea8405a8af21eb7c39df825
+  tags: []
+- name: Manicotti Marinara
+  srg_url: https://supershowthegame.com/product/manicotti-marinara-competitor-only-2/
+  card_type: TornadoCompetitorCard
+  db_uuid: 822f5546471347c6b67d0d3367caf406
+  tags: []
+- name: Mars & Mercury
+  srg_url: https://supershowthegame.com/product/pre-order-exclusive-mars-mercury-tornado-tag/
+  card_type: TornadoCompetitorCard
+  db_uuid: ac8e03027fca44cab49802ea47ec5799
+  tags: []
+- name: Masters of Mystery
+  srg_url: https://supershowthegame.com/product/masters-of-mystery/
+  card_type: TornadoCompetitorCard
+  db_uuid: 36b101395bf942bfa8976585fc590c4b
+  tags: []
+- name: McPeak Inc
+  srg_url: https://supershowthegame.com/product/mcpeak-inc/
+  card_type: TornadoCompetitorCard
+  db_uuid: 5f0edc20765d4a3d9dc4ed76236e6935
+  tags: []
+- name: Neptune & Jupiter
+  srg_url: https://supershowthegame.com/product/pre-order-exclusive-neptune-jupiter-tornado-tag/
+  card_type: TornadoCompetitorCard
+  db_uuid: d76c884dbf444e21868a3f5e502c7226
+  tags: []
+- name: Nowhere Generation
+  srg_url: https://supershowthegame.com/product/nowhere-generation/
+  card_type: TornadoCompetitorCard
+  db_uuid: d8531d49575b4f23b4fb93c1cd60ac9a
+  tags: []
+- name: Obi Law and Princess Belle
+  srg_url: https://supershowthegame.com/product/obi-law-and-princess-belle/
+  card_type: TornadoCompetitorCard
+  db_uuid: b5074eb22b6543a99924ea7157365933
+  tags: []
+- name: Polkadot Tea Party
+  srg_url: https://supershowthegame.com/product/polka-dot-tea-party/
+  card_type: TornadoCompetitorCard
+  db_uuid: 9cc63c837d2a41338981b66cc52ed3d9
+  tags: []
+- name: Protectors of Light
+  srg_url: https://supershowthegame.com/product/protectors-of-the-light/
+  card_type: TornadoCompetitorCard
+  db_uuid: fa0211f0ce5542198f9bac23f3e017b7
+  tags: []
+- name: Red Wire Judgement
+  srg_url: https://supershowthegame.com/product/red-wire-judgment/
+  card_type: TornadoCompetitorCard
+  db_uuid: 74be2c3c017e4fd595e98ebffe15114a
+  tags: []
+- name: Revolution
+  srg_url: https://supershowthegame.com/product/revolution/
+  card_type: TornadoCompetitorCard
+  db_uuid: e750df4ee6c74bc8813b669282ec4939
+  tags: []
+- name: Ri Ry's
+  srg_url: https://supershowthegame.com/product/ry-rys/
+  card_type: TornadoCompetitorCard
+  db_uuid: c6eeabec32fa4541bbe732341a4f9426
+  tags: []
+- name: Sawyer Brothers
+  srg_url: https://supershowthegame.com/product/sawyer-brothers/
+  card_type: TornadoCompetitorCard
+  db_uuid: 0ba954f018f54023915c05f20eebb494
+  tags: []
+- name: Sheep Fighters
+  srg_url: https://supershowthegame.com/product/sheep-fighters/
+  card_type: TornadoCompetitorCard
+  db_uuid: e5583de66810401599271447ca1559e9
+  tags: []
+- name: Sheep Shooters
+  srg_url: https://supershowthegame.com/product/sheep-shooters/
+  card_type: TornadoCompetitorCard
+  db_uuid: e6f92092bf264401a8cb0e075afddb9f
+  tags: []
+- name: Sovereignty
+  srg_url: https://supershowthegame.com/product/sovereignty/
+  card_type: TornadoCompetitorCard
+  db_uuid: 8c765b7ff3a74128ba913acf84a616f9
+  tags: []
+- name: Street Cleaners
+  srg_url: https://supershowthegame.com/product/street-cleaners-competitor-only/
+  card_type: TornadoCompetitorCard
+  db_uuid: 20df40b0fc0840fcb0732c4335920230
+  tags: []
+- name: Sweet Innuendos
+  srg_url: https://supershowthegame.com/product/sweet-innuendos-full-set/
+  card_type: TornadoCompetitorCard
+  db_uuid: b3d8e9b2e4344e28b02bd7c2303ebbc0
+  tags: []
+- name: Tassa & Tuossa
+  srg_url: https://supershowthegame.com/product/tessa-tuossa/
+  card_type: TornadoCompetitorCard
+  db_uuid: 288faa0fcb6f4c46b1fcb50e4abecf13
+  tags: []
+- name: Venus & Terra
+  srg_url: https://supershowthegame.com/product/pre-order-exclusive-terra-venus-tornado-tag/
+  card_type: TornadoCompetitorCard
+  db_uuid: 3e4eb8fcccbd4b418c2166e7d101301f
+  tags: []
+- name: The Betrayal
+  srg_url: https://supershowthegame.com/product/the-betrayal/
+  card_type: TornadoCompetitorCard
+  db_uuid: 31ad8ed1ff964097bda6a1707333cb74
+  tags: []
+- name: The Boss's Favorite Tag Team
+  srg_url: https://supershowthegame.com/product/the-bosss-favorite-tag-team/
+  card_type: TornadoCompetitorCard
+  db_uuid: b4776c966fa84854a6af85a7178db968
+  tags: []
+- name: The Corner Office
+  srg_url: https://supershowthegame.com/product/the-corner-office/
+  card_type: TornadoCompetitorCard
+  db_uuid: e74c88478e7e4cd8bac37bfbf046abab
+  tags: []
+- name: The Good Shepherds
+  srg_url: https://supershowthegame.com/product/the-good-shepards/
+  card_type: TornadoCompetitorCard
+  db_uuid: 96606b2cae624bfea648f97c972932ed
+  tags: []
+- name: The Money Makers
+  srg_url: https://supershowthegame.com/product/the-money-makers/
+  card_type: TornadoCompetitorCard
+  db_uuid: d70874fdf31049e7a996f0464698c8ce
+  tags: []
+- name: The Paddock
+  srg_url: https://supershowthegame.com/product/the-paddock/
+  card_type: TornadoCompetitorCard
+  db_uuid: b4842c45d6e24964bced1e7e2216debb
   tags: []

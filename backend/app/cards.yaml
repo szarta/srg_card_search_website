@@ -31288,6 +31288,7 @@
   db_uuid: 1314440f282c473dbb9499d5a4b48601
   tags: []
 - name: Lil' G
+  srg_url: https://supershowthegame.com/product/lil-g/
   division: United States
   card_type: SingleCompetitorCard
   db_uuid: 496ad29ce2d1416396e74a12026172b2
@@ -31297,6 +31298,7 @@
   db_uuid: 027a8e6e5826403fa92ea3a76a1985b5
   tags: []
 - name: Lord Graves
+  srg_url: https://supershowthegame.com/product/lord-graves-master-of-the-frozen-shadows-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: 6ded6a7076cc4621bd998aaee548b55e

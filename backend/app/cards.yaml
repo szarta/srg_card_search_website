@@ -31457,12 +31457,26 @@
   division: Hardcore
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
   tags: []
-- name: Mad Hatter
+- name: The Mad Hatter
+  srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 9
+  gender: Male
+  rules_text: 'When you hit a card with "Mad" or "Hat" in the name:
+
+    Reveal the bottom card of your deck: If the card is odd-numbered, your target
+    randomly discards a card from their hand, and you add the revealed card to your
+    hand; If not, you may put that card on top of your deck.'
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: e8cc1344fd0740a7a6b6695753fac43d
   tags: []
 - name: Master Cringe
+  srg_url: https://supershowthegame.com/product/master-cringe-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Intergalactic
   db_uuid: d35236745f0a4554b20205b440660315

@@ -32556,3 +32556,11 @@
   card_type: TornadoCompetitorCard
   db_uuid: b4842c45d6e24964bced1e7e2216debb
   tags: []
+- name: Mai Girls (Tag)
+  card_type: TornadoCompetitorCard
+  db_uuid: b25eb5160c88425cb1a8e36cb04dc9db
+  tags: []
+- name: Mai Girls (Trio)
+  card_type: TrioCompetitorCard
+  db_uuid: 822e8008287c4ac5828d8505e3f9f930
+  tags: []

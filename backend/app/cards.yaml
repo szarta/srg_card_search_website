@@ -21074,6 +21074,7 @@
   db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
   tags: []
 - name: Candice LeRae
+  srg_url: https://supershowthegame.com/product/candice-lerae/
   gender: Female
   card_type: SingleCompetitorCard
   power: 5
@@ -29877,6 +29878,7 @@
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   tags: []
 - name: The Uncaged Beast
+  srg_url: https://supershowthegame.com/product/uncaged-beast/
   power: 10
   technique: 5
   agility: 6

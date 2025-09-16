@@ -32751,3 +32751,7 @@
   card_type: TornadoCompetitorCard
   db_uuid: b45ca74d3fd04937b5c01617c505fa4e
   tags: []
+- name: The Gold Standard (Tag)
+  card_type: TornadoCompetitorCard
+  db_uuid: 5135a9227c71449b935a0590408dcc27
+  tags: []

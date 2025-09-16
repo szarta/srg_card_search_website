@@ -9651,6 +9651,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Submission in play, search your deck for 1 Submission
+    and put it on top of your shuffled deck.
   db_uuid: 27cf72035c654bb599fc4eab3d0d8a78
   tags: []
 - name: Bite Opponent
@@ -9658,6 +9660,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Lead in play, choose 1 card your opponent has in
+    play and discard it.
   db_uuid: f000e057a5af46c194921198c3854dc4
   tags: []
 - name: Bridging Sleeper
@@ -9665,6 +9669,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Draw 1 card for each Submission you have in play, then bury 1 card in
+    your hand.
   db_uuid: cffe50688f19420cba39f4801edd76c8
   tags: []
 - name: Chicken Wing Crunch
@@ -9672,6 +9678,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Submission in play, your opponent discards 1 card
+    from their hand.
   db_uuid: 90449e1418524da39dbce76f0947b2b8
   tags: []
 - name: Chill Out
@@ -9679,6 +9687,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each Stop in play.
   db_uuid: 80ab108d896a4576884192fd647db0d0
   tags: []
 - name: Chin Choke
@@ -9686,6 +9695,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Submission in play, draw 2 cards.
   db_uuid: ee631afe2aae470c92d921ec6e03f4f5
   tags: []
 - name: Control the Wrist
@@ -9693,6 +9703,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'If you have another Lead in play, look at the top 3 cards of your deck.
+
+    Add 1 card to your hand, put the others back on top or bottom of your deck in
+    any order.'
   db_uuid: 6d1c2041238244a3ba452e33cd4d622c
   tags: []
 - name: Dragon Screw
@@ -9700,6 +9714,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If your opponent has a Stop in play, your next turn roll is +2.
   db_uuid: 44db037fe3a8426ab2acba8b27933317
   tags: []
 - name: Elevated Boston Crab
@@ -9707,6 +9722,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Lead in play, look at the top 3 cards of your opponent's
+    deck.  You may flip any number of them, put the rest back on top in any order.
   db_uuid: 5a2bf48f205e47f1921b5352c260e4a1
   tags: []
 - name: Figure 4 Headlock
@@ -9722,6 +9739,8 @@
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: If you have another Lead in play, put 1 Finish Submission from your
+    discard pile on top of your deck.
   deck_card_number: 12
   db_uuid: 887d72fb909f4687bdb7638dd6acdef6
   tags: []
@@ -9730,6 +9749,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Submission in play, your opponent buries 1 card
+    in their hand.
   db_uuid: fc3f3f94d5584d7690ddc6412c062acb
   tags: []
 - name: Gathering the Microphone
@@ -9749,6 +9770,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Your opponent's next turn roll is -1 for each card you have in play
+    with "Ring Step" in the name.
   db_uuid: fc28af76c28f49a78ffe60466ec364c2
   tags: []
 - name: Gathering the Sheep
@@ -9756,12 +9779,16 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Shuffle 1 Submission from your discard pile into your deck for each
+    card you have in play with "Sheep" in the name.
   db_uuid: 15d3cc099c9a413ab3bdc9818072f3fb
   tags: []
 - name: Gathering the Sledgehammer
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Shuffle 1 Submission from your discard pile into your deck for each
+    card you have in play with "Sledgehammer" in the name.
   deck_card_number: 12
   db_uuid: 2e71ea7abb184e6cba90d56f9173dec6
   tags: []
@@ -9794,6 +9821,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    If you have another Submission in play, draw 1 card.'
   db_uuid: 4c1236188115466c8d5fbe998b562dad
   tags: []
 - name: Hand Bite
@@ -9801,6 +9831,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   db_uuid: f5300367fcdf429a8d189fc4415149fa
   tags: []
 - name: High Impact Choke
@@ -9808,6 +9839,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Bury 2 cards in your opponent's discard pile for each other Lead you
+    have in play.
   db_uuid: e9d09554bd49443c93d040dfbb6b02f0
   tags: []
 - name: Hold It Right There!
@@ -9815,6 +9848,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    If you have another Submission in play, draw 1 card and your next turn roll is
+    +1.'
   db_uuid: 9e47cdcd8d8a4defb2d862e0116abd9e
   tags: []
 - name: Intuition
@@ -9822,12 +9859,14 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Draw 1 card for each Grapple you have in play.
   db_uuid: a415d4e08d564d03b0deb8b57909b029
   tags: []
 - name: Jaw Jammer (V1)
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: If you have another Submission in play your next turn roll is +2.
   deck_card_number: 12
   db_uuid: f05987fedf384037b8ce603d9a40a565
   tags: []
@@ -9836,6 +9875,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'If you have another Submission in play, your next turn roll is +2.
+
+    If this match has no disqualifications, your next turn roll is +1.'
   db_uuid: 9539c2b18310459bb1bda7d30832939f
   tags: []
 - name: King's Counter
@@ -9843,6 +9885,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If your opponent has a Stop in play, you may re-roll your next turn
+    roll.
   db_uuid: e3cb70985bd94a2f8514fc0c5229973d
   tags: []
 - name: Leg Scissor Sleeper Hold

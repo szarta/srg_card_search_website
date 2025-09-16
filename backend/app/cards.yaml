@@ -32716,6 +32716,7 @@
   db_uuid: 7cd009b1562e402ca7b089a02c58bef5
   tags: []
 - name: The Sheeple's Champions
+  srg_url: https://supershowthegame.com/product/sheeples-champions-competitor-only/
   card_type: TornadoCompetitorCard
   db_uuid: 4770295279d8477583d6aca000622131
   tags: []
@@ -32764,10 +32765,12 @@
   db_uuid: 0c8095b995654ff5bbb531c30489c44a
   tags: []
 - name: The Philly Cheese Cannolis
+  srg_url: https://supershowthegame.com/product/the-philly-cheese-cannolis/
   card_type: TornadoCompetitorCard
   db_uuid: 9fc086238afd47b88bfddcd7f6ba2d88
   tags: []
 - name: The Soulesweavers
+  srg_url: https://supershowthegame.com/product/the-soulesweavers/
   card_type: TornadoCompetitorCard
   db_uuid: ed4fefe3bc48470abca295e19ca61100
   tags: []
@@ -32780,6 +32783,7 @@
   db_uuid: 56b7735967e4401a9c7953e6b8e20c9a
   tags: []
 - name: The Wait 4 Its
+  srg_url: https://supershowthegame.com/product/the-wait-for-it-files/
   card_type: TornadoCompetitorCard
   db_uuid: 171a595136014934b7b7a69990cb9e5f
   tags: []
@@ -32796,6 +32800,7 @@
   db_uuid: 8c57d96fbf76423384286e0604c7aff7
   tags: []
 - name: Transatlantic Express
+  srg_url: https://supershowthegame.com/product/transatlantic-express/
   card_type: TornadoCompetitorCard
   db_uuid: 290a487c9b5942918a22b35fbdd5c691
   tags: []
@@ -32803,7 +32808,9 @@
   card_type: TornadoCompetitorCard
   db_uuid: 4bec5b03e06b4edcb2e38a185d4542db
   tags: []
-- name: Two Dudes with Baatitude
+- name: Two Dudes with Baattitude
+  srg_url: https://supershowthegame.com/product/two-dudes-with-baattitude/
+  card_type: TornadoCompetitorCard
   db_uuid: c43b670b486e40c09954b5ab6760cf51
   tags: []
 - name: Union Safety Reps
@@ -32811,18 +32818,25 @@
   db_uuid: 56d2caa296fc4cf1bf3aa14ddfe3bc31
   tags: []
 - name: Vegas Invaders
+  srg_url: https://supershowthegame.com/product/vegas-invaders/
   card_type: TornadoCompetitorCard
   db_uuid: ff886063363b4e9495163aac12552d20
   tags: []
 - name: Welcome to Wonderland
+  srg_url: https://supershowthegame.com/product/welcome-to-wonderland/
   card_type: TornadoCompetitorCard
   db_uuid: 44c958d3b8e740c8b9e58530de84673e
   tags: []
 - name: X Kittens
+  srg_url: https://supershowthegame.com/product/x-kittens/
   card_type: TornadoCompetitorCard
   db_uuid: bc241b85fa3b4b86a7e5aec17ab685c4
   tags: []
 - name: Young Bucks
   card_type: TornadoCompetitorCard
   db_uuid: df327e182b1e45e68befa76d52371699
+  tags: []
+- name: Twisted Aggression
+  card_type: TornadoCompetitorCard
+  db_uuid: 76d756e117e84bf283cd98a70b7a2098
   tags: []

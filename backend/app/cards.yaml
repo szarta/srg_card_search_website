@@ -29877,10 +29877,65 @@
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   tags: []
 - name: The Uncaged Beast
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 7
+  gender: Male
+  rules_text: 'During your turn: When you hit a card with "Table" in the name, your
+    next turn roll is +2.'
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 0beebc490ed0447f9a1323c470f94454
   tags: []
+  related_finishes:
+  - b260fe4c61ba4fb5825acb70b881e3f2
+  - 926dc07eb2044b6e9875b5f30e3a4ef2
+  - b521171538b145e0b52dc4b2351e0950
+- name: Desolation Row
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    When your opponent hits a Finish Grapple, you may discard this card from your
+    hand to blank its text.'
+  db_uuid: b260fe4c61ba4fb5825acb70b881e3f2
+  related_cards:
+  - 0beebc490ed0447f9a1323c470f94454
+  tags: []
+- name: Cemetery Drive
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +2 to Grapple'
+  db_uuid: 926dc07eb2044b6e9875b5f30e3a4ef2
+  tags: []
+  related_cards:
+  - 0beebc490ed0447f9a1323c470f94454
+- name: Famous Last Words
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Your opponent''s 1st and 2nd breakout rolls are -1 for each card you have in play
+    with "Table" in the name.'
+  db_uuid: b521171538b145e0b52dc4b2351e0950
+  tags: []
+  related_cards:
+  - 0beebc490ed0447f9a1323c470f94454
 - name: The Underhoss
   division: Intergalactic
   card_type: SingleCompetitorCard

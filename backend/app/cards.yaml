@@ -32755,3 +32755,39 @@
   card_type: TornadoCompetitorCard
   db_uuid: 5135a9227c71449b935a0590408dcc27
   tags: []
+- name: The Mad One Snapped
+  card_type: TornadoCompetitorCard
+  db_uuid: c345375a4028447e96775aa4e9ddfe6c
+  tags: []
+- name: The Mane Event
+  card_type: TornadoCompetitorCard
+  db_uuid: 0c8095b995654ff5bbb531c30489c44a
+  tags: []
+- name: The Philly Cheese Cannolis
+  card_type: TornadoCompetitorCard
+  db_uuid: 9fc086238afd47b88bfddcd7f6ba2d88
+  tags: []
+- name: The Soulesweavers
+  card_type: TornadoCompetitorCard
+  db_uuid: ed4fefe3bc48470abca295e19ca61100
+  tags: []
+- name: The Ugly Ducklings
+  card_type: TornadoCompetitorCard
+  db_uuid: 28f356657fcb49e1989be54606518982
+  tags: []
+- name: The Unseelie
+  card_type: TornadoCompetitorCard
+  db_uuid: 56b7735967e4401a9c7953e6b8e20c9a
+  tags: []
+- name: The Wait 4 Its
+  card_type: TornadoCompetitorCard
+  db_uuid: 171a595136014934b7b7a69990cb9e5f
+  tags: []
+- name: The Weapons
+  card_type: TornadoCompetitorCard
+  db_uuid: 30a00ffc9f644b08ae1f0fceea017a61
+  tags: []
+- name: Tiki Twins
+  card_type: TornadoCompetitorCard
+  db_uuid: 48eb92f2a252455b8891e2b77900dab9
+  tags: []

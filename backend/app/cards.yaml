@@ -32896,9 +32896,13 @@
   card_type: TrioCompetitorCard
   db_uuid: 3cc05805288f4e449952b5d86889671f
   tags: []
-- name: The Higher Class
+- name: The Higher Class (V1)
   card_type: TrioCompetitorCard
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
+  tags: []
+- name: The Higher Class (V2)
+  card_type: TrioCompetitorCard
+  db_uuid: e18ebfba1579417aaea354b0c4168969
   tags: []
 - name: The Line
   card_type: TrioCompetitorCard

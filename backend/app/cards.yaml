@@ -32743,3 +32743,11 @@
   card_type: TornadoCompetitorCard
   db_uuid: 8a9bef4a979a4d31b05a7f15411c0055
   tags: []
+- name: Swaggy D (Tag)
+  card_type: TornadoCompetitorCard
+  db_uuid: 6f93006e9cc84aa3a493c002f31fc2e3
+  tags: []
+- name: The Battaglias
+  card_type: TornadoCompetitorCard
+  db_uuid: b45ca74d3fd04937b5c01617c505fa4e
+  tags: []

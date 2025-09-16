@@ -21089,6 +21089,55 @@
     When it is not, during your turn when you hit a Follow Up, draw 1 card.'
   db_uuid: 748132a3c93642228eb708ad10f1f1ac
   tags: []
+  related_finishes:
+  - d924c3b72a6c41c38d8a8677bc063867
+  - 44c1662054c845faa37c96f13da62c0f
+  - f39afe7cc2eb42558aeac7b6df6506f9
+- name: Top Rope Dive DDT
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    +2 to Strike
+
+    Take 3 cards from your discard pile and shuffle them into your deck.
+
+    Draw 3 cards. When your opponent is a Female they bury 3 cards in their hand.'
+  db_uuid: d924c3b72a6c41c38d8a8677bc063867
+  tags: []
+  related_cards:
+  - 748132a3c93642228eb708ad10f1f1ac
+- name: LeRae-Plex
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Power
+
+    When your opponent is a Male Competitor their Power is -2 and their Gimmick is
+    blank.
+
+    When they are not this card is also a Follow Up.'
+  db_uuid: 44c1662054c845faa37c96f13da62c0f
+  tags: []
+  related_cards:
+  - 748132a3c93642228eb708ad10f1f1ac
+- name: The Octopus Hold
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    Flip 1 card. Your opponent buries 1 card in their hand. Shuffle 1 card from your
+    discard pile into your deck. Draw 1 card. When your opponent is a Female Competitor,
+    quadruple these bonuses.'
+  db_uuid: f39afe7cc2eb42558aeac7b6df6506f9
+  tags: []
+  related_cards:
+  - 748132a3c93642228eb708ad10f1f1ac
 - name: El Scorpio
   card_type: SingleCompetitorCard
   power: 5

@@ -28481,6 +28481,10 @@
   card_type: SingleCompetitorCard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
   tags: []
+  related_finishes:
+  - 9014a0be07c842ba920f6e3aae9e5712
+  - fe9ddea24e7544adb7e0e45e6627529f
+  - 3fe3c72a858347ceaac98b22b1ec9db1
 - name: Das Shake Out
   deck_card_number: 28
   atk_type: Strike

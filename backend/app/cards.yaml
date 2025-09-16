@@ -30927,6 +30927,7 @@
   db_uuid: a14e23bd862b4d4dacf331650e937063
   tags: []
 - name: 3 Kings (V1)
+  srg_url: https://supershowthegame.com/product/3-kings/
   power: 27
   technique: 30
   agility: 15
@@ -31003,10 +31004,12 @@
   db_uuid: 96c844fa0345492a992acefb247872a1
   tags: []
 - name: Band of Brothers
+  srg_url: https://supershowthegame.com/product/band-of-brothers-w-pineapple-smash/
   card_type: TrioCompetitorCard
   db_uuid: 5d5c4a1aff434ebb9359be5625da0fb8
   tags: []
 - name: Barnyard Mafia
+  srg_url: https://supershowthegame.com/product/barnyard-mafia/
   card_type: TrioCompetitorCard
   db_uuid: 8bb9434ee8d94f09b0cbfe92418dce82
   tags: []
@@ -31043,6 +31046,7 @@
   db_uuid: 1aec57ec927945748d95c7c874392841
   tags: []
 - name: Big Ballerz
+  srg_url: https://supershowthegame.com/product/big-baallerz/
   card_type: TrioCompetitorCard
   db_uuid: c939efe58c554a1f90457e25df23c36e
   tags: []
@@ -31066,6 +31070,7 @@
   db_uuid: 9f75a5cd8a224aa6a5a7b4c3bfaed380
   tags: []
 - name: Bootleggers Club
+  srg_url: https://supershowthegame.com/product/boot-leggers/
   card_type: TrioCompetitorCard
   db_uuid: 1f47228fa7374a83a9b3c28df42acc87
   tags: []
@@ -31118,6 +31123,7 @@
   db_uuid: 2185fb6d71e54ad19fa567ff04464047
   tags: []
 - name: Brony Coven
+  srg_url: https://supershowthegame.com/product/brony-coven/
   card_type: TrioCompetitorCard
   db_uuid: 1dae36dc92644db29c58fb55ac773690
   tags: []
@@ -31394,6 +31400,7 @@
   db_uuid: 1759b84ecbf34e998e68524d3d3a0862
   tags: []
 - name: Dirty Jerz
+  srg_url: https://supershowthegame.com/product/dirty-jerz/
   card_type: TrioCompetitorCard
   db_uuid: b977d5c8af7e479c938661bacbc52fa4
   tags: []
@@ -31521,6 +31528,7 @@
   db_uuid: f513e6e02c9446ceac133ea9783fca21
   tags: []
 - name: Firing Squad
+  srg_url: https://supershowthegame.com/product/firing-squad/
   card_type: TrioCompetitorCard
   db_uuid: 3d7de5897b71403f9fc33d89d0c20a2c
   tags: []
@@ -31703,8 +31711,8 @@
   tags: []
   db_uuid: 2de6760a624f4802aebb40c4c235c706
 - name: Impact
+  srg_url: https://supershowthegame.com/product/impact/
   card_type: TrioCompetitorCard
-  division: Intergalactic
   db_uuid: 52b85a8fd80843099a633da09f475cd8
   tags: []
 - name: Isaac
@@ -31794,6 +31802,7 @@
   db_uuid: 6060f5b0056140c9a39e3128cdebae7f
   tags: []
 - name: League of Extraordinary Grapplers
+  srg_url: https://supershowthegame.com/product/league-of-extraordinary-grapplers/
   card_type: TrioCompetitorCard
   db_uuid: 1314440f282c473dbb9499d5a4b48601
   tags: []
@@ -32692,6 +32701,7 @@
   db_uuid: f471e5cfe73b42c1824744df15eccfd4
   tags: []
 - name: New Wool Order (Trio)
+  srg_url: https://supershowthegame.com/product/new-wool-order-trio/
   card_type: TrioCompetitorCard
   db_uuid: 3802b52979fd4fb68a5b900d00189a42
   tags: []
@@ -32845,6 +32855,7 @@
   db_uuid: e9069d90b6094a44b2e831a0baea6133
   tags: []
 - name: MWO
+  srg_url: https://supershowthegame.com/product/mwo/
   card_type: TrioCompetitorCard
   db_uuid: 68695487535e43dc838285123f1b120c
   tags: []
@@ -32853,30 +32864,37 @@
   db_uuid: 666536238d51453381fc0f4394b29e34
   tags: []
 - name: Proving Ground
+  srg_url: https://supershowthegame.com/product/proving-ground/
   card_type: TrioCompetitorCard
   db_uuid: d565085ca1b04cebbc9aa18e6d9840c6
   tags: []
 - name: Shovel Club
+  srg_url: https://supershowthegame.com/product/shovel-club/
   card_type: TrioCompetitorCard
   db_uuid: 9e6ce3f2e2af4005a7b9f246f32b310c
   tags: []
 - name: Southern Hospitality
+  srg_url: https://supershowthegame.com/product/southern-hospitality/
   card_type: TrioCompetitorCard
   db_uuid: 723f21b13472491898c22de91325ca8e
   tags: []
 - name: SRG Universe
+  srg_url: https://supershowthegame.com/product/srg-universe/
   card_type: TrioCompetitorCard
   db_uuid: e6db65933cde485eaa9c848bc29140ba
   tags: []
 - name: Star Spangled Slammers
+  srg_url: https://supershowthegame.com/product/star-spangled-slammers/
   card_type: TrioCompetitorCard
   db_uuid: f8d5d3497f7f4c7b91cc6672ab5a78b0
   tags: []
 - name: Team Valiant
+  srg_url: https://supershowthegame.com/product/team-valiant-new/
   card_type: TrioCompetitorCard
   db_uuid: 142e85dc05264c7d9e0e9be3d8cdd523
   tags: []
 - name: The Coven
+  srg_url: https://supershowthegame.com/product/coven-trio/
   card_type: TrioCompetitorCard
   db_uuid: eb5da999d11a4098b4b432f124c53067
   tags: []
@@ -32885,30 +32903,37 @@
   db_uuid: eb0bfdfa24d74cd6b9ff1267ede82460
   tags: []
 - name: The Family
+  srg_url: https://supershowthegame.com/product/the-family-face-card-only/
   card_type: TrioCompetitorCard
   db_uuid: cc5b7ec583cd42d099a84abf9d2cbdfd
   tags: []
 - name: The First Triumvirate
+  srg_url: https://supershowthegame.com/product/first-triumvrate/
   card_type: TrioCompetitorCard
   db_uuid: d16073414ba74786afc2653391d61667
   tags: []
 - name: The Good The Bad and The Whiskey
+  srg_url: https://supershowthegame.com/product/the-good-the-bad-and-the-whiskey/
   card_type: TrioCompetitorCard
   db_uuid: 3cc05805288f4e449952b5d86889671f
   tags: []
 - name: The Higher Class (V1)
+  srg_url: https://supershowthegame.com/product/the-higher-class-v1/
   card_type: TrioCompetitorCard
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
   tags: []
 - name: The Higher Class (V2)
+  srg_url: https://supershowthegame.com/product/the-higher-class-v2/
   card_type: TrioCompetitorCard
   db_uuid: e18ebfba1579417aaea354b0c4168969
   tags: []
 - name: The Line
+  srg_url: https://supershowthegame.com/product/the-line/
   card_type: TrioCompetitorCard
   db_uuid: 766bda5233b642a3aa2714637e68de62
   tags: []
 - name: The Low Rollers
+  srg_url: https://supershowthegame.com/product/the-low-rollers/
   card_type: TrioCompetitorCard
   db_uuid: d04c3aed8aea4fc6a34812eba6a33d6c
   tags: []
@@ -32917,10 +32942,12 @@
   db_uuid: 70ddbc429bef42f1ba9fe1aebb85975e
   tags: []
 - name: The Refinery
+  srg_url: https://supershowthegame.com/product/the-refinery/
   card_type: TrioCompetitorCard
   db_uuid: 9d702f23e40940ddb50ba58f995a6cd8
   tags: []
 - name: The Sheepish Inquisition
+  srg_url: https://supershowthegame.com/product/the-sheepish-inquisition/
   card_type: TrioCompetitorCard
   db_uuid: f65df52d4a1c487d964cfff2ffccd179
   tags: []
@@ -32929,6 +32956,7 @@
   db_uuid: f48240eef9e4433489c6bdd307c494ee
   tags: []
 - name: Think Tank
+  srg_url: https://supershowthegame.com/product/think-tank/
   card_type: TrioCompetitorCard
   db_uuid: b43b392972bb4474853849d4a01c6a4b
   tags: []
@@ -32941,6 +32969,12 @@
   db_uuid: e8769aea5b0c46d1868cd483fb8181a1
   tags: []
 - name: Warlords of the Sea
+  srg_url: https://supershowthegame.com/product/warlords-of-the-sea/
   card_type: TrioCompetitorCard
   db_uuid: cabf020eb091401fa5e705bcd00feadf
+  tags: []
+- name: Just Business
+  srg_url: https://supershowthegame.com/product/just-business/
+  card_type: TrioCompetitorCard
+  db_uuid: 2d3a5ba6dec64071a6881680c832569b
   tags: []

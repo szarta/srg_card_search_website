@@ -32840,3 +32840,103 @@
   card_type: TornadoCompetitorCard
   db_uuid: 76d756e117e84bf283cd98a70b7a2098
   tags: []
+- name: Morada de Las Llamas
+  card_type: TrioCompetitorCard
+  db_uuid: e9069d90b6094a44b2e831a0baea6133
+  tags: []
+- name: MWO
+  card_type: TrioCompetitorCard
+  db_uuid: 68695487535e43dc838285123f1b120c
+  tags: []
+- name: Newman's Henchmen
+  card_type: TrioCompetitorCard
+  db_uuid: 666536238d51453381fc0f4394b29e34
+  tags: []
+- name: Proving Ground
+  card_type: TrioCompetitorCard
+  db_uuid: d565085ca1b04cebbc9aa18e6d9840c6
+  tags: []
+- name: Shovel Club
+  card_type: TrioCompetitorCard
+  db_uuid: 9e6ce3f2e2af4005a7b9f246f32b310c
+  tags: []
+- name: Southern Hospitality
+  card_type: TrioCompetitorCard
+  db_uuid: 723f21b13472491898c22de91325ca8e
+  tags: []
+- name: SRG Universe
+  card_type: TrioCompetitorCard
+  db_uuid: e6db65933cde485eaa9c848bc29140ba
+  tags: []
+- name: Star Spangled Slammers
+  card_type: TrioCompetitorCard
+  db_uuid: f8d5d3497f7f4c7b91cc6672ab5a78b0
+  tags: []
+- name: Team Valiant
+  card_type: TrioCompetitorCard
+  db_uuid: 142e85dc05264c7d9e0e9be3d8cdd523
+  tags: []
+- name: The Coven
+  card_type: TrioCompetitorCard
+  db_uuid: eb5da999d11a4098b4b432f124c53067
+  tags: []
+- name: The Elite
+  card_type: TrioCompetitorCard
+  db_uuid: eb0bfdfa24d74cd6b9ff1267ede82460
+  tags: []
+- name: The Family
+  card_type: TrioCompetitorCard
+  db_uuid: cc5b7ec583cd42d099a84abf9d2cbdfd
+  tags: []
+- name: The First Triumvirate
+  card_type: TrioCompetitorCard
+  db_uuid: d16073414ba74786afc2653391d61667
+  tags: []
+- name: The Good The Bad and The Whiskey
+  card_type: TrioCompetitorCard
+  db_uuid: 3cc05805288f4e449952b5d86889671f
+  tags: []
+- name: The Higher Cross
+  card_type: TrioCompetitorCard
+  db_uuid: 1d9dad26329f45f9927bc4137f903f82
+  tags: []
+- name: The Line
+  card_type: TrioCompetitorCard
+  db_uuid: 766bda5233b642a3aa2714637e68de62
+  tags: []
+- name: The Low Rollers
+  card_type: TrioCompetitorCard
+  db_uuid: d04c3aed8aea4fc6a34812eba6a33d6c
+  tags: []
+- name: The Pride
+  card_type: TrioCompetitorCard
+  db_uuid: 70ddbc429bef42f1ba9fe1aebb85975e
+  tags: []
+- name: The Refinery
+  card_type: TrioCompetitorCard
+  db_uuid: 9d702f23e40940ddb50ba58f995a6cd8
+  tags: []
+- name: The Sheepish Inquisition
+  card_type: TrioCompetitorCard
+  db_uuid: f65df52d4a1c487d964cfff2ffccd179
+  tags: []
+- name: The Ultra Cosmic Crusaders
+  card_type: TrioCompetitorCard
+  db_uuid: f48240eef9e4433489c6bdd307c494ee
+  tags: []
+- name: Think Tank
+  card_type: TrioCompetitorCard
+  db_uuid: b43b392972bb4474853849d4a01c6a4b
+  tags: []
+- name: Thinky and the Brains
+  card_type: TrioCompetitorCard
+  db_uuid: aa44eea7934c4711ab2cdaadd0f795d9
+  tags: []
+- name: Ursus the Wrestling Bear
+  card_type: TrioCompetitorCard
+  db_uuid: e8769aea5b0c46d1868cd483fb8181a1
+  tags: []
+- name: Warlords of the Sea
+  card_type: TrioCompetitorCard
+  db_uuid: cabf020eb091401fa5e705bcd00feadf
+  tags: []

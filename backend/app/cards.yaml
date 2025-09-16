@@ -32791,3 +32791,38 @@
   card_type: TornadoCompetitorCard
   db_uuid: 48eb92f2a252455b8891e2b77900dab9
   tags: []
+- name: Time Travel Extraordinaires
+  card_type: TornadoCompetitorCard
+  db_uuid: 8c57d96fbf76423384286e0604c7aff7
+  tags: []
+- name: Transatlantic Express
+  card_type: TornadoCompetitorCard
+  db_uuid: 290a487c9b5942918a22b35fbdd5c691
+  tags: []
+- name: Treaty of Friendship
+  card_type: TornadoCompetitorCard
+  db_uuid: 4bec5b03e06b4edcb2e38a185d4542db
+  tags: []
+- name: Two Dudes with Baatitude
+  db_uuid: c43b670b486e40c09954b5ab6760cf51
+  tags: []
+- name: Union Safety Reps
+  card_type: TornadoCompetitorCard
+  db_uuid: 56d2caa296fc4cf1bf3aa14ddfe3bc31
+  tags: []
+- name: Vegas Invaders
+  card_type: TornadoCompetitorCard
+  db_uuid: ff886063363b4e9495163aac12552d20
+  tags: []
+- name: Welcome to Wonderland
+  card_type: TornadoCompetitorCard
+  db_uuid: 44c958d3b8e740c8b9e58530de84673e
+  tags: []
+- name: X Kittens
+  card_type: TornadoCompetitorCard
+  db_uuid: bc241b85fa3b4b86a7e5aec17ab685c4
+  tags: []
+- name: Young Bucks
+  card_type: TornadoCompetitorCard
+  db_uuid: df327e182b1e45e68befa76d52371699
+  tags: []

@@ -9962,6 +9962,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each Submission your opponent has in play.
   db_uuid: 22ad5403134a4975a1ef446e5b89e1df
   tags: []
 - name: Rolling Forearm Lock
@@ -9969,6 +9970,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'Stop "Rolling Forearm". Draw 1 card for each Lead you have in play.
+
+    Skill Requirement: Submission 8+'
   db_uuid: 16c6ece1c89d4ca68b5542346f5059c3
   tags: []
 - name: Shaking In My Boots
@@ -9976,6 +9980,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: Bury 1 card in your opponent's discard pile for each Submission you
+    have in play.
   db_uuid: 46a5efcf068644cebe98091da7ffeeb8
   tags: []
 - name: Show of Force
@@ -9993,6 +9999,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: 'If you have another Submission in play, shuffle 2 cards from your discard
+    pile into your deck.
+
+    If this is a Ring of Fire match, choose a player; their next turn roll is +1.'
   db_uuid: 026a6fefad924e7abfea94eb162cc784
   tags: []
 - name: Skull Hold
@@ -10000,6 +10010,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If your opponent has a Stop in play, your next turn roll is +2.
   db_uuid: 5f6c05558a7440a8a35402df20879b99
   tags: []
 - name: Skull Squeeze
@@ -10007,6 +10018,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Submission in play, your opponent's next turn roll
+    is -2.
   db_uuid: 0e7303b1b0434d2e98d85b2b352b6bfb
   tags: []
 - name: Standing Cloverleaf
@@ -10014,6 +10027,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Lead in play, shuffle 2 cards from your discard
+    pile into your deck.
   db_uuid: 6384e09e43dc474d9fa6e559263b2a52
   tags: []
 - name: Sundown Clutch
@@ -10021,6 +10036,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: If you have another Lead in play, your opponent discards 1 card from
+    their hand.
   db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
   tags: []
 - name: Taunt From the Top Rope
@@ -24322,6 +24339,8 @@
   rules_text: Look at your opponent's hand or discard pile and choose 1 card.  This
     card copies its text until the end of the turn.
   db_uuid: 284a8a1a4eb046c6be6657b48433bfc2
+  related_cards:
+  - 8054b1c0587a4d949e9a73b9bdd144ed
   tags: []
 - name: Flux Capacitor
   atk_type: Grapple
@@ -24335,6 +24354,8 @@
     Your opponent discards 2 cards from their hand.  Put 2 cards from your opponent''s
     discard pile on top of their deck.'
   db_uuid: 5e12c423b6454817a6bdcc9073305041
+  related_cards:
+  - 8054b1c0587a4d949e9a73b9bdd144ed
   tags: []
 - name: The Time Warp
   atk_type: Submission
@@ -24347,6 +24368,8 @@
 
     If your opponent breaks out, you may shuffle this card into your deck.'
   db_uuid: 6f67b3c45eb14949b7461374daa05cef
+  related_cards:
+  - 8054b1c0587a4d949e9a73b9bdd144ed
   tags: []
 - name: Colt Cabana (V1)
   division: Global
@@ -30196,10 +30219,84 @@
   db_uuid: 33f14ac0cc504bad9a2b0b465163e6d6
   tags: []
 - name: Wiser Wizard
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  gender: Male
+  rules_text: 'Once during each of your turns:
+
+    When you would lose the match by Disqualification, you may instead play 1 additional
+    card this turn.'
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 92aad45d0fa046448ec91a4c4d4cd869
   tags: []
+  related_finishes:
+  - d1a18c687bf844ab8cc5617c736c720d
+  - 704ec1756b8b4a8e89de27f3e19065cd
+  - 7e29fd6031954c108ef8ecd285a6c554
+  - 66712bc072734b408ca9bec852cff3eb
+- name: The Wisest Weapon
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    If stopped, you lose the match via Disqualifications.'
+  db_uuid: d1a18c687bf844ab8cc5617c736c720d
+  tags: []
+  related_cards:
+  - 92aad45d0fa046448ec91a4c4d4cd869
+- name: Bring In Another Ref!
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    When this card is in your discard pile, this match has Disqualifications.'
+  db_uuid: 704ec1756b8b4a8e89de27f3e19065cd
+  related_cards:
+  - 92aad45d0fa046448ec91a4c4d4cd869
+  tags: []
+- name: Brain Booster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Grapple
+
+    Add 3 cards with "If Stopped" in the text from your discard pile to your hand.'
+  db_uuid: 7e29fd6031954c108ef8ecd285a6c554
+  related_cards:
+  - 92aad45d0fa046448ec91a4c4d4cd869
+  tags: []
+- name: Levitating Sleeper Hold
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your opponent gets 2 breakout rolls this turn.
+
+    If stopped, you lose the match via Disqualification.'
+  db_uuid: 66712bc072734b408ca9bec852cff3eb
+  tags: []
+  related_cards:
+  - 92aad45d0fa046448ec91a4c4d4cd869
 - name: Will Ospreay
   division: Global
   card_type: SingleCompetitorCard

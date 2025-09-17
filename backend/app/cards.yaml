@@ -10045,13 +10045,15 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "Your opponent's next turn roll is -1 for each Submission you have in play."
   db_uuid: c6f33fc78a3b41d29a2dd40f0b773f59
   tags: []
-- name: That's my Kheezy
+- name: That's My Kheezy
   play_order: Lead
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "Draw 1 card for each Lead your opponent has in play."
   db_uuid: 51bd99f46b87479cbeb93791338a9404
   tags: []
 - name: The Buck Stops Here
@@ -10059,6 +10061,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "Stop \"Drawin' Dimes\". Your next turn roll is +2 for each Lead you have in play.\nSkill Requirement: Power 8+"
   db_uuid: 6aa5ecac1a654b318251f565d0a6382b
   tags: []
 - name: The Numbers Game
@@ -10066,6 +10069,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "If you have another Lead in play, draw 1 card and your Tag Team partner draws 1 card."
   db_uuid: 40ba8751e355479ab41a9e30ac793c00
   tags: []
 - name: Waist Lock
@@ -10073,6 +10077,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "If you have another Lead in play, your opponent buries 1 card in their hand."
   db_uuid: 24429fc184d54e268dbff6821e8d8dc1
   tags: []
 - name: Wreaking Havok
@@ -10080,6 +10085,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "Cannot be stopped by \"The Seven Seals\".\n\"Derailed\" has blank text.\nYour opponent's next turn roll is -2 for each Lead you have in play."
   db_uuid: f450fbc81dc849899050a4a75dddf919
   tags: []
 - name: Wrench Free
@@ -10087,6 +10093,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 12
+  rules_text: "If your opponent has a Stop in play, choose 1 card your opponent has in play and discard it."
   db_uuid: 57e2c43774f74cd9b49e3c46ee9d5461
   tags: []
 - name: You Can't Cage Me

@@ -30393,15 +30393,84 @@
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   tags: []
 - name: Yaz Mean (V1)
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 5
+  rules_text: When your card is stopped, you may shuffle 2 other cards from your discard
+    pile into your deck.
   division: United States
   card_type: SingleCompetitorCard
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
   tags: []
+  related_finishes:
+  - 5ba491a17dcb408d97b60efbce7dc41a
+  - 6fe34f3ae57e4e9bbf754943478861c7
+  - 9cff8c4c10444a07bff08dded78873fb
 - name: Yaz Mean (V2)
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 5
+  rules_text: 'When you roll Strike during your turn roll:
+
+    Shuffle 1 card with "Strike", "Dive", "Goal", or "Run" in the name from your discard
+    pile into your deck and draw 1 card.'
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e2d658ce8758400e9560e80b11528fa5
   tags: []
+  related_finishes:
+  - 5ba491a17dcb408d97b60efbce7dc41a
+  - 6fe34f3ae57e4e9bbf754943478861c7
+  - 9cff8c4c10444a07bff08dded78873fb
+- name: Goal Kick
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Strike
+
+    Draw 2 cards.'
+  db_uuid: 5ba491a17dcb408d97b60efbce7dc41a
+  tags: []
+  related_cards:
+  - e2d658ce8758400e9560e80b11528fa5
+  - f20eefad1a8c46cca1268ee559d4cc8b
+- name: Offsides
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Your opponent randomly discards 1 card from their hand.'
+  db_uuid: 6fe34f3ae57e4e9bbf754943478861c7
+  tags: []
+  related_cards:
+  - e2d658ce8758400e9560e80b11528fa5
+  - f20eefad1a8c46cca1268ee559d4cc8b
+- name: Stoppage Time
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +2 to Grapple'
+  db_uuid: 9cff8c4c10444a07bff08dded78873fb
+  tags: []
+  related_cards:
+  - e2d658ce8758400e9560e80b11528fa5
+  - f20eefad1a8c46cca1268ee559d4cc8b
 - name: Yeva Lionheart
   division: Hardcore
   card_type: SingleCompetitorCard

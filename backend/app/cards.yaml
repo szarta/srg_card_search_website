@@ -10140,6 +10140,11 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
   deck_card_number: 13
   db_uuid: 7f1e6865feaa4b7da354a562f0ef394b
   tags: []
@@ -10147,6 +10152,11 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill,
+    stop any Grapple.
+
+    Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that
+    card to your hand, and you may re-roll your next turn roll.'
   deck_card_number: 13
   db_uuid: b2f1ac1ff5f74af08c8c023e13254d90
   tags: []
@@ -10155,6 +10165,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Add 1 Grapple from your discard pile to your hand.
   db_uuid: 495df9f58c564dc889ef0815853a4a78
   tags: []
 - name: Artillery Assault
@@ -10162,6 +10173,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: 6812dbae1bca43208c58ba558866700e
   tags: []
 - name: Basement Dropkick
@@ -10169,6 +10184,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Strike skill
+    is greater than your opponent's Strike skill, stop any Grapple.
   db_uuid: 2c1156270a824e5dbd35326200abbe20
   tags: []
 - name: Boot to the Head
@@ -10176,6 +10193,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   db_uuid: b8175340989a4f8e9d9ba17deddfc0c7
   tags: []
 - name: Break the Seal
@@ -10183,6 +10204,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Strike 8+'
   db_uuid: 0501c8fc842843438d921f6a4e6e4633
   tags: []
 - name: Cannon Kick
@@ -10190,6 +10216,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Each player flips 1 card or if your Strike skill is greater than your
+    opponent's Strike skill, stop any Grapple.
   db_uuid: 19d7f570a8c94f4899b7dc10e153af6a
   tags: []
 - name: Chained Elbow Slam
@@ -10197,6 +10225,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If your Strike skill is at least 4 greater than your opponent's Strike
+    skill or this match has "Chain" in the name, stop any Grapple.
   db_uuid: e7399975fe9f45aeb5119f6478fac7db
   tags: []
 - name: Charging Spear
@@ -30326,6 +30356,15 @@
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
   tags: []
 - name: The Witch's Apprentice
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 6
+  rules_text: When you hit a card with "Power" or "Choke" in the name, your opponent
+    buries 1 random card in their hand.
+  gender: Female
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
@@ -30373,21 +30412,61 @@
   db_uuid: 3e393847dd0940018f4921d4b6dd9c3a
   tags: []
 - name: Wrench Monkey
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 7
+  rules_text: 'When you roll Submission for your turn roll: Look at the bottom 3 cards
+    of your deck. You may reveal 1 Submission and add it to your hand, randomly bury
+    the others.'
+  gender: Male
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e2f4f5e7315442059b7057b0333e0e23
   tags: []
 - name: xROYCE (V1)
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 5
+  submission: 6
+  grapple: 9
+  rules_text: '3 Times Per Match:
+
+    If your turn roll is at least 3 less than your opponent''s, look at the top 3
+    cards of your deck, draw 1 of those cards, bury 1 and flip the other.'
+  gender: Male
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 8ce90a57c8a3456c87e0407099515e87
   tags: []
 - name: xROYCE (V2)
+  power: 7
+  technique: 8
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 9
+  rules_text: 'When you hit a Strike with "Knee" in the name, look at the top 3 cards
+    of your deck.
+
+    Draw 1, bury 1 and flip the other.'
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: 1d95016390584633a75af97a73f0e46e
   tags: []
 - name: YamatoHama
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: When your turn roll is at least 3 greater than your opponent's turn
+    roll, bury 3 cards in your opponent's discard pile.
+  gender: Male
   division: United States
   card_type: SingleCompetitorCard
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
@@ -30402,6 +30481,7 @@
   rules_text: When your card is stopped, you may shuffle 2 other cards from your discard
     pile into your deck.
   division: United States
+  gender: Female
   card_type: SingleCompetitorCard
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
   tags: []
@@ -30420,6 +30500,7 @@
 
     Shuffle 1 card with "Strike", "Dive", "Goal", or "Run" in the name from your discard
     pile into your deck and draw 1 card.'
+  gender: Female
   division: Hardcore
   card_type: SingleCompetitorCard
   db_uuid: e2d658ce8758400e9560e80b11528fa5

@@ -10233,6 +10233,12 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill,
+    stop any Grapple.
+
+    Choose 1 card your opponent has in play and discard it.
+
+    Skill Requirement: Strike 8+'
   deck_card_number: 13
   db_uuid: 12f9cb40b0f9400281f9ca96ab56b638
   tags: []
@@ -10241,6 +10247,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Your opponent's Strike is -1 during their turn and turn rolls.
   db_uuid: 6eaf5c5b34b04687b22d44b3e6bc7492
   tags: []
 - name: Corner Dropkick
@@ -10248,6 +10255,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Agility skill is higher than your opponent''s Agility skill,
+    stop any Follow Up Grapple.
+
+    Draw 1 card then bury 1 card in your hand.'
   db_uuid: 4142a5f54c474bcfb0b747c62ef88857
   tags: []
 - name: Corner Slingshot
@@ -10255,6 +10266,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'You may add 1 other card you have in play to your hand.
+
+    Skill Requirement: Agility 8+'
   db_uuid: 2faf498a93224155b250b76c5fdaaf6a
   tags: []
 - name: Cosmic Sheep Elbow
@@ -10262,6 +10276,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill,
+    stop any Grapple.
+
+    Each player draws 1 card.'
   db_uuid: b6ccd22bb6c849b8a97eb06439da3c8d
   tags: []
 - name: Don't Touch My Drumsticks
@@ -10269,6 +10287,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If your Agility skill is greater than your opponent's Agility skill,
+    stop any Grapple. Rnadomly reveal 1 card in your hand; if it has "Drumstick" in
+    the name, bury 1 card in any player's discard pile.
   db_uuid: c4077b42b36643e8aaff7eafa0d84ae7
   tags: []
 - name: Drumstick Takeover
@@ -10276,6 +10297,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If your Strike skill is greater than your opponent's Strike skill, stop
+    any Grapple. Randomly reveal 1 card in your hand; if it has "Drumstick" in the
+    name, bury 1 card in any player's discard pile.
   db_uuid: ff8b564832954c228ea4301432a9dbee
   tags: []
 - name: Duck 1 Take 1
@@ -10283,6 +10307,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If any player played a Stop card last turn this card is also a Lead.
+
+    When this card is in your discard pile, if your opponent stops a Strike, you may
+    add it to your hand.'
   db_uuid: d69fcd5666884f83a2d6d88210c737b1
   tags: []
 - name: Enzuigiri (V1)
@@ -10290,6 +10318,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Your opponent buries 2 cards in their hand.
+
+    +2 to your next turn roll.
+
+    Skill Requirement: Strike 8+'
   db_uuid: 1ce5dc9c3d9749db80cdbc265e5876a8
   tags: []
 - name: Enzuigiri (V2)
@@ -10297,6 +10330,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Your opponent buries 2 cards in their hand.
+
+    +2 to your next turn roll.
+
+    Skill Requirement: Agility 8+'
   db_uuid: 3c33b1bed6d341339ef0ef5e1302692c
   tags: []
 - name: Evasive Manuever

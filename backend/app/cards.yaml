@@ -4530,10 +4530,11 @@
   db_uuid: ff323ab04dfc4458a689e862cd07898f
   tags: []
 - name: Steel Chair
-  rules_text: Bury 3 cards in your opponent's discard pile.
+  rules_text: If you roll Agility for your finish roll, it is +1.
   play_order: Lead
   atk_type: Grapple
   card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/02-steel-chair/
   deck_card_number: 2
   db_uuid: d0486e2793654aaf8edcd3d801022e14
   tags: []
@@ -33380,4 +33381,97 @@
   srg_url: https://supershowthegame.com/product/just-business/
   card_type: TrioCompetitorCard
   db_uuid: 2d3a5ba6dec64071a6881680c832569b
+  tags: []
+- name: 'Sheep Shearing Potion #91'
+  rules_text: If your Agility skill is greater than your opponent's Agility skill,
+    stop any Follow Up or Finish Grapple, even if it cannot be stopped.
+  srg_url: https://supershowthegame.com/product/13-sheep-shearing-potion-91/
+  card_type: MainDeckCard
+  deck_card_number: 13
+  atk_type: Strike
+  play_order: Followup
+  db_uuid: a7a0c8a923e54cf39cde4b30c5f817b1
+  tags: []
+- name: Crowd Pleaser
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/17-crowd-pleaser/
+  rules_text: 'Search your deck or discard pile for "Getting Over" and add it to your
+    hand.
+
+    You may play an additional card this turn. If you have "Getting Over" in play,
+    your opponent''s Gimmick is blank.'
+  db_uuid: 9454f68580e642c2984909ddccc1f74e
+  tags: []
+- name: Top Rope Skull Hold
+  srg_url: https://supershowthegame.com/product/15-top-rope-skull-hold/
+  deck_card_number: 15
+  atk_type: Submission
+  play_order: Followup
+  card_type: MainDeckCard
+  rules_text: If your Technique skill is greater than your opponent's Technique skill,
+    stop any Follow Up Strike or Finish Strike even if it cannot be stopped.
+  db_uuid: be13d39a093c469db02cb7be2bef9203
+  tags: []
+- name: Bird's Eye View Kick
+  deck_card_number: 7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  rules_text: 'Put up to 3 Finishes from your discard pile on top of your deck.
+
+    If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
+  db_uuid: 0b72959b72734b81be7bc8b86967869c
+  tags: []
+- name: Simple Dropkick
+  play_order: Lead
+  atk_type: Strike
+  card_type: MainDeckCard
+  deck_card_number: 25
+  rules_text: 'Stop any Grapple.
+
+    This card counts as 2 Lead Strikes in play.'
+  db_uuid: a206df7a223846d59bcfeb1c1ebc4eac
+  tags: []
+- name: Chug-Chug-Chug!
+  card_type: MainDeckCard
+  deck_card_number: 8
+  atk_type: Grapple
+  play_order: Lead
+  rules_text: 'Put up to 3 Finishes from your discard pile on top of your deck.
+
+    If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
+  db_uuid: 93766c996abf4f4c94d3479e78232e3b
+  tags: []
+- name: Rise to the Occasion
+  card_type: MainDeckCard
+  deck_card_number: 11
+  atk_type: Grapple
+  play_order: Lead
+  rules_text: 'Your next turn roll is +1 for each other Grapple you have in play.
+
+    The next time your opponent''s Gimmick would draw them any number of cards, you
+    draw 2 cards instead.'
+  db_uuid: e79a29233e1c49db8648b3f18c0c181b
+  tags: []
+- name: Death Riding DDT
+  atk_type: Grapple
+  play_order: Followup
+  card_type: MainDeckCard
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player randomly discards 1 card from their hand.'
+  db_uuid: 85f73f91fe9549649baf47a5bafbaaf6
+  tags: []
+- name: Cosmic Revolution
+  card_type: MainDeckCard
+  deck_card_number: 12
+  play_order: Lead
+  atk_type: Submission
+  rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your
+    opponent has in play.
+  db_uuid: 365916d3df4a41a28daff7e514519067
   tags: []

@@ -26933,7 +26933,7 @@
   card_type: SingleCompetitorCard
   db_uuid: 2a686043f4ae434ab26a14adaf168625
   tags: []
-- name: Le Penguin
+- name: Le Penguin (V1)
   power: 6
   technique: 5
   agility: 7
@@ -26941,6 +26941,7 @@
   submission: 9
   grapple: 8
   gender: Male
+  srg_url: https://supershowthegame.com/product/le-penguin/
   rules_text: Your opponent cannot move cards in play to any other location.
   division: United States
   card_type: SingleCompetitorCard
@@ -26950,11 +26951,46 @@
   - 8bdeea11ec03410c9bac08475db23b0e
   - 6f316aa121d64db2809864a1b87f0b74
   - b7fbfcc1b9a045519ccb3e1fb12bc76a
+  - d062833f781a4091b6d03f9791d4653f
+- name: Le Penguin (V2)
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 9
+  grapple: 8
+  gender: Male
+  srg_url: https://supershowthegame.com/product/le-penguin-face-of-justice/
+  rules_text: Your Le Penguin Finish cards and your Gimmick cannot be blanked by your
+    opponent.
+  comment: Face of Justice
+  db_uuid: 3082d7f6edfc4caea30323be09014bd1
+  tags: []
+  related_finishes:
+  - d062833f781a4091b6d03f9791d4653f
+  - 8bdeea11ec03410c9bac08475db23b0e
+  - 6f316aa121d64db2809864a1b87f0b74
+  - b7fbfcc1b9a045519ccb3e1fb12bc76a
+- name: Birds of a Feather Flock Together
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/le-penguin-face-of-justice/
+  rules_text: '+3 to Strike
+
+    +2 to Grapple
+
+    If you have 10 or more cards with "Bird", "Face", or "Flying" in the name in your
+    discard pile, your opponent gets one breakout roll this turn.'
+  db_uuid: d062833f781a4091b6d03f9791d4653f
+  tags: []
 - name: Flying Penguin Press
   deck_card_number: 28
   atk_type: Strike
   play_order: Finish
   card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/le-penguin/
   rules_text: '+3 to Agility
 
     When this card is in your discard pile and you roll Agility for your turn roll,
@@ -26968,6 +27004,7 @@
   play_order: Finish
   deck_card_number: 29
   card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/le-penguin/
   rules_text: '+3 to Technique
 
     +1 to Agility
@@ -26984,6 +27021,7 @@
   play_order: Finish
   deck_card_number: 30
   card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/le-penguin/
   rules_text: '+2 to Power
 
     +2 to Technique

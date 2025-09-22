@@ -10341,6 +10341,10 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill,
+    stop any Grapple.
+
+    Each player reveals 1 card in their hand.'
   deck_card_number: 13
   db_uuid: 7ff25aa5dbd4499e88baf421265b613c
   tags: []
@@ -10390,6 +10394,10 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Choose 2 cards in your discard pile: Randomly put 1 on top of your
+    deck and bury the other.
+
+    If this is a Ring of Fire match, your opponent flips 2 cards.'
   deck_card_number: 13
   db_uuid: 1b3b02f8a29f4a5ca04a4aae4b967610
   tags: []
@@ -10397,6 +10405,11 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop "School Boy" or "Backslide".
+
+    Shuffle 1 card from your discard pile into your deck.
+
+    If played as a Stop, this card is also a Finish.'
   deck_card_number: 13
   db_uuid: 1674857198894d4ebf8d94e4bbb2db38
   tags: []
@@ -10405,6 +10418,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Stop "School Boy" or "Backslide".
+
+    Shuffle 1 card from your discard pile into your deck, draw 1 card.
+
+    If played as a Stop, the Crowd Meter is +2 and this is also a Finish.'
   db_uuid: 006eed06ecf84ac39403702c132c8c4b
   tags: []
 - name: Gut Stomp
@@ -10412,12 +10430,20 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is at least 2 greater than your opponent''s Strike
+    skill, stop any Grapple.
+
+    Your next turn roll is +1.'
   db_uuid: 3d1ecd7d2e7949b890f781f74f4fcbce
   tags: []
 - name: Hedonist
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: 'Stop any Grapple with "via Disqualification" in the text.
+
+    Shuffle 1 card from your discard pile into your deck. If played as a Stop, this
+    card is also a Finish.'
   deck_card_number: 13
   db_uuid: 938e767fa57645fcad954c65175536f3
   tags: []
@@ -10434,6 +10460,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill
+    stop any Grapple.
+
+    Each player draws 1 card.'
   db_uuid: ba63df8e2ef842928c6007da934a2b9a
   tags: []
 - name: Hip Smash
@@ -10441,6 +10471,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If you have another Strike in play, add 1 card from your discard pile
+    to your hand.
   db_uuid: d23769f1ca924e87ba378713f14734ec
   tags: []
 - name: Hurricane Kick
@@ -10448,6 +10480,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Draw 2 cards.'
   db_uuid: d887fe719c074e93a36ff717a5b7e920
   tags: []
 - name: Kick in the Ropes
@@ -10455,6 +10491,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Add 1 Stop from your discard pile to your hand.
   db_uuid: 095264251cae480981abcfcd179702da
   tags: []
 - name: Kick Out of the Corner
@@ -10462,6 +10499,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Draw 1 card.
+
+    If the Crowd Meter is 1 or greater and your Agility skill is greater than your
+    opponents Agility skill, stop any Grapple.'
   db_uuid: 456d0f5bfded45c283176adac4d7df91
   tags: []
 - name: Kidney Punch
@@ -10477,6 +10518,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Search your deck for 1 Strike and put it on top of your shuffled deck.
   db_uuid: 20ae1442442d44dfb9745df870971181
   tags: []
 - name: Lion Punch
@@ -10484,6 +10526,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If you have a Stop in play add 1 card from your discard pile to your
+    hand.
   db_uuid: 37e65838ad8648ac99f4883bf5801169
   tags: []
 - name: Lucky Guitar Strike
@@ -10491,6 +10535,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your next turn roll is +2.'
   db_uuid: cbb41e7818004485a0f4caa2c1307469
   tags: []
 - name: Kingpin Punch
@@ -10498,6 +10545,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Your Strike skill is +1 during your turn and turn rolls.
   db_uuid: 86a57fb38ed541fa9718b2e0d23d5e79
   tags: []
 - name: Knee to the Gut
@@ -10505,6 +10553,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Look at the top 3 cards of your deck. Add 1 to your hand and bury the
+    others.
   db_uuid: ba08e60996c74824bb2e60cb0a7068c8
   tags: []
 - name: Machine Gun Kicks
@@ -10512,6 +10562,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Look at your opponents hand, choose 1 Grapple and put it on top of their
+    deck.
   db_uuid: f6ed9704d51a443e9642b127d444d960
   tags: []
 - name: Marching Stomps

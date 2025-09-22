@@ -25712,6 +25712,7 @@
   gender: Male
   rules_text: When you roll Technique or Grapple for your turn roll, your next turn
     roll is +1.
+  srg_url: https://supershowthegame.com/product/funtime-bob/
   division: World Championship
   card_type: SingleCompetitorCard
   db_uuid: b7b746a51bf5436da9c4ba172c7ff504
@@ -26933,10 +26934,67 @@
   db_uuid: 2a686043f4ae434ab26a14adaf168625
   tags: []
 - name: Le Penguin
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 9
+  grapple: 8
+  gender: Male
+  rules_text: Your opponent cannot move cards in play to any other location.
   division: United States
   card_type: SingleCompetitorCard
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
   tags: []
+  related_finishes:
+  - 8bdeea11ec03410c9bac08475db23b0e
+  - 6f316aa121d64db2809864a1b87f0b74
+  - b7fbfcc1b9a045519ccb3e1fb12bc76a
+- name: Flying Penguin Press
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    When this card is in your discard pile and you roll Agility for your turn roll,
+    you may shuffle it into your deck and draw 1 card.'
+  db_uuid: 8bdeea11ec03410c9bac08475db23b0e
+  tags: []
+  related_cards:
+  - 9cbb880d1b93435f9db7624ad7eb90c9
+- name: Le Codebreaker
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    If stopped your opponent''s maximum handsize is 3 until the end of the turn.'
+  db_uuid: 6f316aa121d64db2809864a1b87f0b74
+  tags: []
+  related_cards:
+  - 9cbb880d1b93435f9db7624ad7eb90c9
+- name: Surfing Bird
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: b7fbfcc1b9a045519ccb3e1fb12bc76a
+  tags: []
+  related_cards:
+  - 9cbb880d1b93435f9db7624ad7eb90c9
 - name: Leader of the Black Sheep
   power: 8
   technique: 10

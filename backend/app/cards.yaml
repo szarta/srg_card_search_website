@@ -26964,6 +26964,7 @@
   rules_text: Your Le Penguin Finish cards and your Gimmick cannot be blanked by your
     opponent.
   comment: Face of Justice
+  card_type: SingleCompetitorCard
   db_uuid: 3082d7f6edfc4caea30323be09014bd1
   tags: []
   related_finishes:

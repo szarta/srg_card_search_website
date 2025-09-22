@@ -23975,10 +23975,78 @@
   submission: 7
   grapple: 10
   rules_text: You get 1 additional breakout roll on all breakouts.
+  srg_url: https://supershowthegame.com/product/cannoli/
   gender: Male
   division: United States
   db_uuid: 95cf443904d84b21bd323b1bf97fd926
   tags: []
+  related_finishes:
+  - fcb7f5d37fd14e1883a530fbf1b6e295
+  - 4c01fb72a0a0428596b3dae885e0380c
+  - 3a5aa93ca5eb48e882a6312688a47753
+  - 4046fe0b66cb4079a9f7e0a627755f81
+- name: The Cinquedea
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/cannoli/
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If stopped, you may shuffle this card into your deck.'
+  db_uuid: fcb7f5d37fd14e1883a530fbf1b6e295
+  tags: []
+  related_cards:
+  - 95cf443904d84b21bd323b1bf97fd926
+- name: Holy Cannoli!!! (V1)
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/cannoli/
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    When this card is in your discard pile and the Crowd Meter is 2 or greater, your
+    breakout rolls are +1.'
+  db_uuid: 4c01fb72a0a0428596b3dae885e0380c
+  related_cards:
+  - 95cf443904d84b21bd323b1bf97fd926
+  tags: []
+- name: Holy Cannoli!!! (V2)
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    When this card is in your discard pile and the Crowd Meter is 1 or greater, your
+    breakout rolls are +1.'
+  db_uuid: 3a5aa93ca5eb48e882a6312688a47753
+  tags: []
+  comments: Found in certain foil versions of the card.
+  related_cards:
+  - 95cf443904d84b21bd323b1bf97fd926
+- name: Cannoli Clutch
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  db_uuid: 4046fe0b66cb4079a9f7e0a627755f81
+  srg_url: https://supershowthegame.com/product/cannoli/
+  tags: []
+  related_cards:
+  - 95cf443904d84b21bd323b1bf97fd926
 - name: Captain Connie
   card_type: SingleCompetitorCard
   power: 7

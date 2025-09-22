@@ -25716,6 +25716,13 @@
   card_type: SingleCompetitorCard
   db_uuid: b7b746a51bf5436da9c4ba172c7ff504
   tags: []
+  related_finishes:
+  - 862dfcea091a497d9196c79e1f23c6d4
+  - 88529c7c0327402baea3a3a300eb076c
+  - de72a044d0954bf898b585f17eed8f73
+  - 05b615c9b8d04c27bd885554930bbbd1
+  - 513410876cee4349b7958ea10442a644
+  - 83c20a0096834cce9a0ce4890323cee2
 - name: Funtime Bob (V2)
   power: 8
   technique: 7
@@ -25729,6 +25736,13 @@
   card_type: SingleCompetitorCard
   db_uuid: 667bc6434cfc4080870f6224e76e01fc
   tags: []
+  related_finishes:
+  - 862dfcea091a497d9196c79e1f23c6d4
+  - 88529c7c0327402baea3a3a300eb076c
+  - de72a044d0954bf898b585f17eed8f73
+  - 05b615c9b8d04c27bd885554930bbbd1
+  - 513410876cee4349b7958ea10442a644
+  - 83c20a0096834cce9a0ce4890323cee2
 - name: Funtime Bob (V3)
   power: 8
   technique: 7
@@ -25743,6 +25757,13 @@
   card_type: SingleCompetitorCard
   db_uuid: cce5191cbedd4793a072ff1059417331
   tags: []
+  related_finishes:
+  - 862dfcea091a497d9196c79e1f23c6d4
+  - 88529c7c0327402baea3a3a300eb076c
+  - de72a044d0954bf898b585f17eed8f73
+  - 05b615c9b8d04c27bd885554930bbbd1
+  - 513410876cee4349b7958ea10442a644
+  - 83c20a0096834cce9a0ce4890323cee2
 - name: Now Say Goodnight
   deck_card_number: 28
   atk_type: Strike

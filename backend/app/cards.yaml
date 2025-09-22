@@ -33242,10 +33242,72 @@
   db_uuid: b4776c966fa84854a6af85a7178db968
   tags: []
 - name: The Corner Office
+  power: 20
+  technique: 10
+  agility: 12
+  strike: 16
+  submission: 18
+  grapple: 14
   srg_url: https://supershowthegame.com/product/the-corner-office/
+  rules_text: 'Once per turn: When your opponent won the last turn roll, or rolled
+    their highest skill, you may re-roll your turn roll.'
   card_type: TornadoCompetitorCard
   db_uuid: e74c88478e7e4cd8bac37bfbf046abab
   tags: []
+  related_finishes:
+  - 51c22b78e7704474803607338d0729b4
+  - bd7abd75fc574ce3983c939ad4a316ee
+  - 159cc8d8d6ba4305958c22b334f31393
+  related_cards:
+  - b64f5ecb347847ec9f6d6c3ee6704b6e
+  - 5c61b09db55549b6a957926b3ae14a4b
+  - caf514310b2a453cbd9fbe7a3affc12d
+  - b1c536d936c143d7b31a0ce0490f8bd9
+- name: You Didn't See a Thing
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/the-corner-office/
+  rules_text: '+4 to Submission
+
+    +4 to Grapple
+
+    If you re-rolled your turn roll, this card is also a Follow Up.'
+  db_uuid: 51c22b78e7704474803607338d0729b4
+  tags: []
+  related_cards:
+  - e74c88478e7e4cd8bac37bfbf046abab
+- name: Top-Rated Brainbuster
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+4 to Agility
+
+    +4 to Grapple
+
+    If you re-rolled your turn roll, double these bonuses.'
+  db_uuid: bd7abd75fc574ce3983c939ad4a316ee
+  tags: []
+  related_cards:
+  - e74c88478e7e4cd8bac37bfbf046abab
+- name: Mandatory Sensitivity Training
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+5 to Technique
+
+    +3 to Agility
+
+    +3 to Grapple
+
+    For the rest of the match, your "Back in Business" is a Finish instead.'
+  db_uuid: 159cc8d8d6ba4305958c22b334f31393
+  tags: []
+  related_cards:
+  - e74c88478e7e4cd8bac37bfbf046abab
 - name: The Good Shepherds
   srg_url: https://supershowthegame.com/product/the-good-shepards/
   card_type: TornadoCompetitorCard
@@ -33660,4 +33722,16 @@
   rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your
     opponent has in play.
   db_uuid: 365916d3df4a41a28daff7e514519067
+  tags: []
+- name: Young Meeple
+  power: 8
+  technique: 6
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'When you roll Power, Technique, or Agility for your turn roll: bury
+    1 card in your hand and draw 1 card.'
+  card_type: SingleCompetitorCard
+  db_uuid: 79b3b861f1eb4a9ab11fdf5742841708
   tags: []

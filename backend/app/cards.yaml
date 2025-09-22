@@ -26953,12 +26953,12 @@
   - b7fbfcc1b9a045519ccb3e1fb12bc76a
   - d062833f781a4091b6d03f9791d4653f
 - name: Le Penguin (V2)
-  power: 6
-  technique: 5
-  agility: 7
-  strike: 10
+  power: 8
+  technique: 7
+  agility: 10
+  strike: 5
   submission: 9
-  grapple: 8
+  grapple: 6
   gender: Male
   srg_url: https://supershowthegame.com/product/le-penguin-face-of-justice/
   rules_text: Your Le Penguin Finish cards and your Gimmick cannot be blanked by your

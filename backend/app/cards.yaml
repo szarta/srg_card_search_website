@@ -3307,7 +3307,7 @@
   strike: 9
   submission: 8
   grapple: 7
-  comment: This is the Scallywag version
+  comments: This is the Scallywag version
   division: Intergalactic
   gender: Male
   rules_text: 'At the start of the match, choose Technique or Agility.
@@ -23468,7 +23468,7 @@
   strike: 5
   submission: 9
   grapple: 7
-  comment: Also known as G.O.A.T. Brock Smith
+  comments: Also known as G.O.A.T. Brock Smith
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
   division: Hardcore
   rules_text: 'At the start of the match:
@@ -23492,7 +23492,7 @@
   submission: 9
   grapple: 8
   srg_url: https://supershowthegame.com/product/brock-smith/
-  comment: 'Also known as #1 GOAT Brock Smith'
+  comments: 'Also known as #1 GOAT Brock Smith'
   division: Underworld
   gender: Male
   rules_text: 'Once per turn roll:
@@ -24535,7 +24535,7 @@
   grapple: 5
   gender: Female
   division: Intergalactic
-  comment: This is the Danhausen Cosplay version.
+  comments: This is the Danhausen Cosplay version.
   rules_text: 'When you roll Submission for your turn roll: Each player draws 1 card,
     then your opponent randomly discards 1 card from their hand.'
   db_uuid: 941ba12c956546f4b9abf28336f9d92a
@@ -24550,7 +24550,7 @@
   gender: Female
   card_type: SingleCompetitorCard
   division: United States
-  comment: This is the Eddy Fury version.
+  comments: This is the Eddy Fury version.
   rules_text: "FRONT: Your opponent\u2019s highest skill is -1 during their turn and\
     \ turn rolls.\nAfter a breakout, turn this card over.\nBACK: During your opponent\u2019\
     s turn and turn rolls: Your Grapple skill is + the Crowd Meter (Max +5)."
@@ -25754,7 +25754,7 @@
   gender: Male
   rules_text: If your opponent won the last 3 turn rolls, your next roll is +4 and
     add 1 card with "Chug" in the name from your discard pile to your hand.
-  comment: Needs to be verified.
+  comments: Needs to be verified.
   card_type: SingleCompetitorCard
   db_uuid: cce5191cbedd4793a072ff1059417331
   tags: []
@@ -26963,7 +26963,7 @@
   srg_url: https://supershowthegame.com/product/le-penguin-face-of-justice/
   rules_text: Your Le Penguin Finish cards and your Gimmick cannot be blanked by your
     opponent.
-  comment: Face of Justice
+  comments: Face of Justice
   card_type: SingleCompetitorCard
   db_uuid: 3082d7f6edfc4caea30323be09014bd1
   tags: []
@@ -29168,7 +29168,7 @@
   gender: Male
   rules_text: Your opponent cannot force you to bury or discard cards from your hand.
   card_type: SingleCompetitorCard
-  comment: Due to some controversy, Eric Jayden is a preferred alternative.
+  comments: Due to some controversy, Eric Jayden is a preferred alternative.
   db_uuid: 0f6248453f894d958438cdcfeffd1047
   tags: []
   related_finishes:

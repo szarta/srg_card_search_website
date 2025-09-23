@@ -30059,14 +30059,178 @@
   db_uuid: 449d43de669140c5aacc34b0a7dcfb7e
   tags: []
 - name: The SRG Boss (V1)
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
   division: Intergalactic
+  gender: Male
+  srg_url: https://supershowthegame.com/product/the-srg-boss/
   card_type: SingleCompetitorCard
+  rules_text: At the start of the match you may reveal 2 different additional Entrance
+    cards.
   db_uuid: 5bb1291d12d94245872efd166cdd72fc
   tags: []
+  related_finishes:
+  - dc2ccd83babb45c1b44616489c3fe841
+  - 8eaa9062ab254dc3a982d360be505977
+  - 67c80af7d2654cb5bf744cefee698736
+  - 8beed0a833584e6ab17b96eb46542464
+  - 87eb2fbedaa44301af37164059438f5a
+  - 052f3107fc894070bd6cbdab7d52549f
+  - cc97ddd2f6964da9be0038fee59d6132
 - name: The SRG Boss (V2)
-  division: Hardcore
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  gender: Male
+  division: Underworld
   card_type: SingleCompetitorCard
   db_uuid: 40ab70187ff14a7f8989d2b248d63b94
+  rules_text: When you roll Strike or Submission for your turn roll, your next turn
+    roll is +1.
+  srg_url: https://supershowthegame.com/product/the-srg-boss/
+  tags: []
+  related_finishes:
+  - dc2ccd83babb45c1b44616489c3fe841
+  - 8eaa9062ab254dc3a982d360be505977
+  - 67c80af7d2654cb5bf744cefee698736
+  - 8beed0a833584e6ab17b96eb46542464
+  - 87eb2fbedaa44301af37164059438f5a
+  - 052f3107fc894070bd6cbdab7d52549f
+  - cc97ddd2f6964da9be0038fee59d6132
+- name: The SRG Boss (V3)
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  gender: Male
+  division: Hardcore
+  card_type: SingleCompetitorCard
+  rules_text: Your Power is +1 during your Finish rolls and breakout rolls.
+  db_uuid: 99cde573585c4f14a5f96ba210488578
+  tags: []
+  related_finishes:
+  - dc2ccd83babb45c1b44616489c3fe841
+  - 8eaa9062ab254dc3a982d360be505977
+  - 67c80af7d2654cb5bf744cefee698736
+  - 8beed0a833584e6ab17b96eb46542464
+  - 87eb2fbedaa44301af37164059438f5a
+  - 052f3107fc894070bd6cbdab7d52549f
+  - cc97ddd2f6964da9be0038fee59d6132
+- name: The SRG Boss (V4)
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  gender: Male
+  rules_text: 'When you have a card in play with "Boss" and a card in play with "Chop"
+    in the name: +1 to Strike and +2 to Submission.'
+  division: United States
+  card_type: SingleCompetitorCard
+  db_uuid: 4e660d98fc8d4aadbe5ec367a0ef272e
+  tags: []
+  related_finishes:
+  - dc2ccd83babb45c1b44616489c3fe841
+  - 8eaa9062ab254dc3a982d360be505977
+  - 67c80af7d2654cb5bf744cefee698736
+  - 8beed0a833584e6ab17b96eb46542464
+  - 87eb2fbedaa44301af37164059438f5a
+  - 052f3107fc894070bd6cbdab7d52549f
+  - cc97ddd2f6964da9be0038fee59d6132
+- name: The Boss Hammer
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/the-srg-boss/
+  rules_text: '+3 to Agility
+
+    +1 to Power
+
+    If you ended the last turn without play a card, this card is also a Follow Up.'
+  db_uuid: dc2ccd83babb45c1b44616489c3fe841
+  tags: []
+- name: The Grand Grappling
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/the-srg-boss/
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If you ended the last turn without play a card, you may re-roll your Finish roll.'
+  db_uuid: 8eaa9062ab254dc3a982d360be505977
+  tags: []
+- name: Throw in the Towels
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/the-srg-boss/
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.
+
+    If you ended the last turn without playing a card, double these bonuses.'
+  db_uuid: 67c80af7d2654cb5bf744cefee698736
+  tags: []
+- name: The Golden Gun
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+4 to Technique
+
+    If you roll Strike for your Finish roll, your opponent cannot break out.'
+  db_uuid: 8beed0a833584e6ab17b96eb46542464
+  tags: []
+- name: Power-Mad Toss
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  srg_url: https://supershowthegame.com/product/founding-fathers/
+  rules_text: '+1 to Power
+
+    Your opponent flips 1 card.
+
+    Draw 1 card. Bury 1 card in your opponent''s discard pile. When you have "Gut
+    Wrench" in play, triple these bonuses.'
+  db_uuid: 87eb2fbedaa44301af37164059438f5a
+  tags: []
+- name: It's the Back Claw!
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  srg_url: https://supershowthegame.com/product/founding-fathers/
+  card_type: MainDeckCard
+  rules_text: For each Entrance you have revealed, you may re-roll your Finish roll.
+  db_uuid: 052f3107fc894070bd6cbdab7d52549f
+  tags: []
+- name: Sensei-tional Slam
+  srg_url: https://supershowthegame.com/product/founding-fathers/
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Grapple
+
+    Your Finish roll is +1.'
+  db_uuid: cc97ddd2f6964da9be0038fee59d6132
   tags: []
 - name: Steve Gibki
   division: Global

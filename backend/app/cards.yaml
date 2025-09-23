@@ -30160,6 +30160,11 @@
     If you ended the last turn without play a card, this card is also a Follow Up.'
   db_uuid: dc2ccd83babb45c1b44616489c3fe841
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: The Grand Grappling
   atk_type: Grapple
   play_order: Finish
@@ -30173,6 +30178,11 @@
     If you ended the last turn without play a card, you may re-roll your Finish roll.'
   db_uuid: 8eaa9062ab254dc3a982d360be505977
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: Throw in the Towels
   atk_type: Submission
   play_order: Finish
@@ -30188,6 +30198,11 @@
     If you ended the last turn without playing a card, double these bonuses.'
   db_uuid: 67c80af7d2654cb5bf744cefee698736
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: The Golden Gun
   deck_card_number: 28
   atk_type: Strike
@@ -30198,6 +30213,11 @@
     If you roll Strike for your Finish roll, your opponent cannot break out.'
   db_uuid: 8beed0a833584e6ab17b96eb46542464
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: Power-Mad Toss
   atk_type: Grapple
   play_order: Finish
@@ -30212,6 +30232,11 @@
     Wrench" in play, triple these bonuses.'
   db_uuid: 87eb2fbedaa44301af37164059438f5a
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: It's the Back Claw!
   atk_type: Submission
   play_order: Finish
@@ -30221,6 +30246,11 @@
   rules_text: For each Entrance you have revealed, you may re-roll your Finish roll.
   db_uuid: 052f3107fc894070bd6cbdab7d52549f
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: Sensei-tional Slam
   srg_url: https://supershowthegame.com/product/founding-fathers/
   atk_type: Grapple
@@ -30232,6 +30262,11 @@
     Your Finish roll is +1.'
   db_uuid: cc97ddd2f6964da9be0038fee59d6132
   tags: []
+  related_cards:
+  - 5bb1291d12d94245872efd166cdd72fc
+  - 40ab70187ff14a7f8989d2b248d63b94
+  - 99cde573585c4f14a5f96ba210488578
+  - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: Steve Gibki
   division: Global
   card_type: SingleCompetitorCard
@@ -32590,6 +32625,51 @@
   division: Hardcore
   db_uuid: a2d8b8302a564a068f18f2d00239f1b8
   tags: []
+  related_finishes:
+  - 44cadffe375742e8bfec2e194e4d590b
+  - 8fe3ccc40fc049269197762ded5a6382
+  - 1448dec87daa43dda048a50c348dd4f6
+- name: Gutter Ball Punch
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+1 to Strike
+
+    +2 to Submission
+
+    Your opponent''s Gimmick and Entrance are blank.'
+  db_uuid: 44cadffe375742e8bfec2e194e4d590b
+  tags: []
+  related_cards:
+  - a2d8b8302a564a068f18f2d00239f1b8
+- name: The UFO Spinner
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +2 to Grapple'
+  db_uuid: 8fe3ccc40fc049269197762ded5a6382
+  tags: []
+  related_cards:
+  - a2d8b8302a564a068f18f2d00239f1b8
+- name: The 7/10 Split
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: 'If you rolled 7 for your turn roll, this card cannot be stopped.
+
+    If you rolled 10 for your turn roll, your opponent gets 1 fewer breakout roll
+    this turn.'
+  db_uuid: 1448dec87daa43dda048a50c348dd4f6
+  tags: []
+  related_cards:
+  - a2d8b8302a564a068f18f2d00239f1b8
 - name: Kings of Crime
   card_type: TornadoCompetitorCard
   db_uuid: 7485c8e2dbb5471c8deb31d50fc42f56

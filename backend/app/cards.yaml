@@ -20503,6 +20503,59 @@
     hand. Your card "Kendo Stick" is also card #02 and #03'
   db_uuid: d2d8b06199b34b018a2b957e89f21b35
   tags: []
+- name: The Big Guy (V3)
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: Your Strikes with "Kendo Stick" in the name are considered "Kendo Stick".  Your
+    Grapples and Submissions are considered to have "Kendo Stick" in the name.
+  db_uuid: b6944de2e4c1406889adb81ea2f4a8be
+  tags: []
+  related_finishes:
+  - 5d55c58ae6d941649db2481e5af3ec63
+  - 6bb3bfe25727423a8d2997dde18e7e26
+  - 21aeef2b755d4262a2fb908bb3b53553
+- name: The Biggest Man in the Landing
+  deck_card_number: 28
+  atk_type: Strike
+  play_order: Finish
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Your opponent discards 1 card from their hand.
+
+    If you hit a card with "Kendo Stick" in the name last turn, double these bonuses.'
+  db_uuid: 5d55c58ae6d941649db2481e5af3ec63
+  tags: []
+- name: Then to 2025
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_type: MainDeckCard
+  rules_text: Your Finish roll is +1 for each other card you have in play with "Kendo
+    Stick" in the name (Max +2).
+  db_uuid: 6bb3bfe25727423a8d2997dde18e7e26
+  tags: []
+- name: The House of Gains
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_type: MainDeckCard
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    If your Gimmick is blank, your Finish roll is +1.
+
+    Add 1 card with "Kendo Stick" in the name from your discard pile to your hand.'
+  db_uuid: 21aeef2b755d4262a2fb908bb3b53553
+  tags: []
 - name: Bobby Ohio
   card_type: SingleCompetitorCard
   power: 10
@@ -28483,9 +28536,14 @@
   rules_text: Your opponent's Finish rolls are -1.
   gender: Male
   division: Old School
+  srg_url: https://supershowthegame.com/product/over-giver-os/
   card_type: SingleCompetitorCard
   db_uuid: ed197a8258854b84b89b11a3b0790896
   tags: []
+  related_finishes:
+  - 46d24b823b5e4d3c9a253b2ecf17bcd4
+  - 508eee53b35543b7b773b2d80d0e329e
+  - 4d36d212f8404e96b308d2b3724659c2
 - name: New School Clothesline
   deck_card_number: 28
   atk_type: Strike
@@ -28499,6 +28557,8 @@
     hand or discard pile and your opponent''s Finish roll is -2.'
   db_uuid: 46d24b823b5e4d3c9a253b2ecf17bcd4
   tags: []
+  related_cards:
+  - ed197a8258854b84b89b11a3b0790896
 - name: Headstone Piledriver
   atk_type: Grapple
   play_order: Finish
@@ -28509,6 +28569,8 @@
     Your Finish rolls are + the Crowd Meter (Max +2)'
   db_uuid: 508eee53b35543b7b773b2d80d0e329e
   tags: []
+  related_cards:
+  - ed197a8258854b84b89b11a3b0790896
 - name: The Gates of Hell
   atk_type: Submission
   play_order: Finish
@@ -28521,6 +28583,8 @@
     If either player broke out last turn, this card is also a Lead.'
   db_uuid: 4d36d212f8404e96b308d2b3724659c2
   tags: []
+  related_cards:
+  - ed197a8258854b84b89b11a3b0790896
 - name: Overdog (V1)
   power: 5
   technique: 7

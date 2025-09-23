@@ -27586,6 +27586,8 @@
     the name.'
   db_uuid: 4b0dc5b5789a4fb596424de22e1ee3a1
   tags: []
+  related_cards:
+  - def74dd5530540ce8a9e903bc10fd620
 - name: The Sky Fall
   deck_card_number: 28
   atk_type: Strike
@@ -27599,6 +27601,8 @@
     it into your deck.'
   db_uuid: 861f6ccd96d04377a4bcac8e6d4fd83d
   tags: []
+  related_cards:
+  - def74dd5530540ce8a9e903bc10fd620
 - name: 2:10 to Albany
   atk_type: Grapple
   play_order: Finish
@@ -27614,6 +27618,8 @@
     these bonuses.'
   db_uuid: 3995bf9b97ce4a3f84d525094f36dfbb
   tags: []
+  related_cards:
+  - def74dd5530540ce8a9e903bc10fd620
 - name: 2:10 to NYC
   atk_type: Grapple
   play_order: Finish
@@ -27627,6 +27633,8 @@
     breakout roll this turn.'
   db_uuid: fe782bffac044ac3852154a6c55c01db
   tags: []
+  related_cards:
+  - def74dd5530540ce8a9e903bc10fd620
 - name: I Scream, You Scream!
   atk_type: Submission
   play_order: Finish
@@ -27639,6 +27647,8 @@
     If you didn''t yell "THAT''S RIGHT BABY", this card has blank text.'
   db_uuid: 07ed20d2f1534c058dc7542838a3d89a
   tags: []
+  related_cards:
+  - def74dd5530540ce8a9e903bc10fd620
 - name: Luchamaniacal Uberstar
   division: Intergalactic
   card_type: SingleCompetitorCard

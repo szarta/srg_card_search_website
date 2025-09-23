@@ -34043,3 +34043,13 @@
   card_type: SingleCompetitorCard
   db_uuid: 79b3b861f1eb4a9ab11fdf5742841708
   tags: []
+- name: Catch Sleeper Stretch
+  play_order: Followup
+  atk_type: Submission
+  card_type: MainDeckCard
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    This card counts as 2 Follow Up Submissions in play.'
+  db_uuid: 6d5702935cc34524b20919b78cbc934e
+  tags: []

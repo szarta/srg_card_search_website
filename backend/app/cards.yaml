@@ -1040,6 +1040,8 @@
     If your opponent has a card in play with "Lock" in the name, double these bonuses.'
   db_uuid: 68f25c8d00de476fb5d349180706cc39
   tags: []
+  related_cards:
+  - c077293c5143451885069856ec9b01e9
 - name: Snap German
   srg_url: https://supershowthegame.com/product/adam-priest/
   deck_card_number: 29
@@ -1053,7 +1055,9 @@
     Your opponent randomly buries 1 card in their hand.'
   db_uuid: 66e3b16cedb742cba0b484f063812459
   tags: []
-- name: Sharpshooter
+  related_cards:
+  - c077293c5143451885069856ec9b01e9
+- name: Sharpshooter (Adam Priest)
   srg_url: https://supershowthegame.com/product/adam-priest/
   atk_type: Submission
   play_order: Finish
@@ -1062,6 +1066,8 @@
   rules_text: If your Finish roll is 7 or less, it is +2
   db_uuid: 53f2706a3ff849c3a47e4f8a5369db1b
   tags: []
+  related_cards:
+  - c077293c5143451885069856ec9b01e9
 - name: Agatha Mai (V1)
   srg_url: https://supershowthegame.com/product/agatha-mai/
   card_type: SingleCompetitorCard
@@ -11119,19 +11125,37 @@
   db_uuid: 1bd61b910dab4bae91470dd7478edddf
   tags: []
 - name: Inside Cradle (V1)
+  srg_url: https://supershowthegame.com/product/14-inside-cradle/
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: cf6935579ba4415e82abc18da238f1c4
+  rules_text: 'Stop "Sharpshooter".
+
+    Shuffle 1 card from your discard pile into your deck.
+
+    If played as a Stop, this card is also a Finish.'
   tags: []
+  related_cards:
+  - dbfcd2fc470046ae9c39666d91a7958a
 - name: Inside Cradle (V2)
+  srg_url: https://supershowthegame.com/product/14-inside-cradle-new/
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Stop "Sharpshooter" or "The Plot Twist". Shuffle 1 card from your discard
+    pile into your deck.
+
+    Draw 1 card.
+
+    If played as a Stop, the Crowd Meter is +2 and this is also a Finish.'
   db_uuid: c5b83c3486c24817a9f3b774c2a25156
   tags: []
+  related_cards:
+  - dbfcd2fc470046ae9c39666d91a7958a
+  - 3994f5c4852b46f48b7f9af1827ff4fa
 - name: Leaping Slices
   play_order: Followup
   atk_type: Grapple
@@ -11139,6 +11163,8 @@
   deck_card_number: 14
   db_uuid: 8fe4b7ce901847aca62919eb365637ac
   tags: []
+  related_cards:
+  - dbfcd2fc470046ae9c39666d91a7958a
 - name: Leg Scissor Sweep
   play_order: Followup
   atk_type: Grapple
@@ -34086,4 +34112,21 @@
 
     This card counts as 2 Follow Up Submissions in play.'
   db_uuid: 6d5702935cc34524b20919b78cbc934e
+  tags: []
+- name: Sharpshooter (#30)
+  srg_url: https://supershowthegame.com/product/30-sharpshooter/
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  atk_type: Submission
+  rules_text: If your Finish Roll is 7 or less it is +2.
+  db_uuid: dbfcd2fc470046ae9c39666d91a7958a
+  tags: []
+- name: The Plot Twist
+  card_type: MainDeckCard
+  play_order: Finish
+  deck_card_number: 30
+  atk_type: Submission
+  rules_text: Copy the text of a card in your opponent's discard pile.
+  db_uuid: 3994f5c4852b46f48b7f9af1827ff4fa
   tags: []

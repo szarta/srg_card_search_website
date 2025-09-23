@@ -10414,6 +10414,9 @@
   deck_card_number: 13
   db_uuid: 1674857198894d4ebf8d94e4bbb2db38
   tags: []
+  related_cards:
+  - abfe83415b9f439296c8000f2deda7b1
+  - 7549343d055948a489ed68e87f106550
 - name: Grab the Tights (V2)
   play_order: Followup
   atk_type: Strike
@@ -10426,6 +10429,9 @@
     If played as a Stop, the Crowd Meter is +2 and this is also a Finish.'
   db_uuid: 006eed06ecf84ac39403702c132c8c4b
   tags: []
+  related_cards:
+  - abfe83415b9f439296c8000f2deda7b1
+  - 7549343d055948a489ed68e87f106550
 - name: Gut Stomp
   play_order: Followup
   atk_type: Strike
@@ -17761,6 +17767,15 @@
   card_type: MainDeckCard
   deck_card_number: 26
   db_uuid: 7549343d055948a489ed68e87f106550
+  rules_text: 'This card is also a Finish.
+
+    Your opponent buries 1 random card in their hand.
+
+    Your Finish rolls are -3.
+
+    If this is a Tag Team Match, they are -6.
+
+    If it is a Trios match, they are -9.'
   tags: []
 - name: Blue Thunder Bomb
   play_order: Lead
@@ -18036,6 +18051,15 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 26
+  rules_text: 'This card is also a Finish.
+
+    Draw 2 cards.
+
+    Your Finish rolls are -3.
+
+    If this is a Tag Team match, they are -6.
+
+    If it is a Trios match, they are -9.'
   db_uuid: abfe83415b9f439296c8000f2deda7b1
   tags: []
 - name: Side Effect

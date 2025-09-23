@@ -30351,6 +30351,10 @@
   card_type: SingleCompetitorCard
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
   tags: []
+  related_finishes:
+  - 794f0114197c495c9d15c12156de29f6
+  - 5301501fe19545d8b11a5cfb42bc081c
+  - 4315fb52be8a4118833a77ae87f81e3b
 - name: The Pebble's Elbow
   deck_card_number: 28
   atk_type: Strike
@@ -30363,6 +30367,8 @@
     If you have a Grapple with "Spine" in the name in play, your Finish roll is +1.'
   db_uuid: 794f0114197c495c9d15c12156de29f6
   tags: []
+  related_cards:
+  - d4c9a7cc966c44feb7d2f09d6b8ccb04
 - name: The Boulder Bottom
   atk_type: Grapple
   play_order: Finish
@@ -30375,6 +30381,8 @@
     If your opponent''s Breakout roll is 5 or less, their next Breakout roll is -2.'
   db_uuid: 5301501fe19545d8b11a5cfb42bc081c
   tags: []
+  related_cards:
+  - d4c9a7cc966c44feb7d2f09d6b8ccb04
 - name: The Pebble's Sharpshooter
   atk_type: Submission
   play_order: Finish
@@ -30388,6 +30396,8 @@
     pile into your deck.'
   db_uuid: 4315fb52be8a4118833a77ae87f81e3b
   tags: []
+  related_cards:
+  - d4c9a7cc966c44feb7d2f09d6b8ccb04
 - name: Swaggy D
   division: Hardcore
   card_type: SingleCompetitorCard

@@ -11879,6 +11879,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Draw the bottom 2 cards of your deck, then bury 1 card in your hand.
   db_uuid: 6757972234594f0a9ff9375b0d8d2e70
   tags: []
 - name: Bootlegger
@@ -11886,6 +11887,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Stop any Strike with "Via Disqualification" in the text.
+
+    Shuffle 1 card from your discard pile into your deck.  If played as a Stop, this
+    card is also a Finish.'
   db_uuid: 9f35fd3588694a779d0ba201b00ef334
   tags: []
 - name: Bow and Arrow
@@ -11893,6 +11898,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: If your Submission skill is greater than your opponent's Submission
+    skill, stop any Strike.
   db_uuid: 67827b4543d74a2fab5f5d48b3f4eddb
   tags: []
 - name: Capture Sleeper Hold
@@ -11900,6 +11907,12 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your Technique skill, stop
+    any Strike.
+
+    Your opponent''s next turn roll is -2.
+
+    Skill Requirement: Technique 8+'
   db_uuid: 052248bcf06740aeb41439fec8491033
   tags: []
 - name: Crackin' Down
@@ -11907,6 +11920,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Stop any Finish Strike that cannot be stopped.
+
+    Your opponent''s maximum hand size is -1.'
   db_uuid: b8ab8d1d5b3f4b6fa193c3b0df67cd9b
   tags: []
 - name: Crushing Clutch
@@ -11914,6 +11930,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: If you have another Submission in play, add 1 card from your discard
+    pile to your hand.
   db_uuid: 9ff20d6402f049e8bd6f6198cbc8acc5
   tags: []
 - name: The Cobra Clutch
@@ -11928,6 +11946,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission
+    skill, stop any Strike.
+
+    Each player draws 1 card.'
   db_uuid: 870644c7092d42e5811abd1fa92de821
   tags: []
 - name: Crossarm Chickenwing V1
@@ -11935,6 +11957,11 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    +2 to your next turn roll.
+
+    Skill Requirement: Submission 8+'
   db_uuid: 450354ee23574441a02b3125e0d5eb71
   tags: []
 - name: Crossarm Chickenwing V2
@@ -11942,6 +11969,11 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Take 1 card from your discard pile and add it to your hand.
+
+    +2 to your next turn roll.
+
+    Skill Requirement: Agility 8+'
   db_uuid: c583520d1c4e4faf91ac3407095f2727
   tags: []
 - name: Double Arm Lock
@@ -11949,6 +11981,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Flip 2 cards.
+
+    Put 1 card from your discard pile on top of your deck.'
   db_uuid: 070685fedcd5456b9423f37f6b5a9e68
   tags: []
 - name: Face Squeeze
@@ -11956,6 +11991,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Look at your opponent's hand, choose 1 Strike and put it on top of their
+    deck.
   db_uuid: 72a6e04e7a364169be4b1a9034f378f9
   tags: []
 - name: 'Fire Potion #15'
@@ -11963,6 +12000,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Your Technique sklil is +1 during your turn and turn rolls.
   db_uuid: 877fa99a64a64f2693f91aa88731b6c1
   tags: []
 - name: Frak the Firing Squad
@@ -11970,6 +12008,11 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Look at the top 2 cards of your deck, add 1 to your hand and flip the
+    other.
+
+    If this is a Steel Cage or Liger''s Den match, your opponent''s Finish Strikes
+    have the added text: "Your Finish rolls are -1."'
   db_uuid: cf587985af9545a3a3d100719305562e
   tags: []
 - name: Front Face Lock
@@ -11977,12 +12020,18 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Look at the top 3 cards of your deck, add 1 to your hand and bury the
+    others.
   db_uuid: b53371e5435b472eb1109d7d7961a6b5
   tags: []
 - name: Full Nelson - Lariat
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'If your Submission skill is at least 3 greater than your opponent''s
+    Submission skill, stop any Strike.
+
+    Look at your opponent''s hand.'
   deck_card_number: 15
   db_uuid: 3c5b58beafcf454692ff93881e93f7ef
   tags: []
@@ -11990,6 +12039,8 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Your opponent flips 2 cards then you may bury 2 cards in your opponent's
+    discard pile.
   deck_card_number: 15
   db_uuid: 2d69c21537a94fbdb66f426588787bce
   tags: []
@@ -11998,6 +12049,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Each player flips 1 card or if your Submission skill is greater than
+    your opponent's Submission skill, stop any Strike.
   db_uuid: dbde70132f0c43a197270d7a1c7216c5
   tags: []
 - name: Hurricane Hold
@@ -12005,6 +12058,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Your opponent''s next roll is -2.
+
+    If this is a Steel Cage or Liger''s Den match and the Crowd Meter is 2 or greater,
+    this card is also a Finish.'
   db_uuid: 7e88c8529c9245248f35f91fce7fddc8
   tags: []
 - name: Hyper Extend
@@ -12012,6 +12069,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Add 1 Submission from your discard pile to your hand.
   db_uuid: a88a796383af4700be999de0d818844d
   tags: []
 - name: Illusion Cast
@@ -12019,6 +12077,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission
+    skill, stop any Strike.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: 3267911b310e4d43920be8848aa01b53
   tags: []
 - name: Inverted Leg Lock
@@ -12026,12 +12088,14 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Choose 1 card your opponent has in play and discard it.
   db_uuid: fcfe13c9b4b64720832cbf0d10635c50
   tags: []
 - name: King Sized Grab
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Add 1 Grapple from your discard pile to your hand.
   deck_card_number: 15
   db_uuid: 632e2017c9594e4caf4d439c389650fd
   tags: []
@@ -12039,6 +12103,7 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Your opponent buries 1 card in their hand.
   deck_card_number: 15
   db_uuid: 157fc46bb444429a9c5d7aeff8fa41bf
   tags: []
@@ -12046,6 +12111,11 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater, this card is also a Finish.'
   deck_card_number: 15
   db_uuid: 130d79640b8f4a4db60e607ea74f7011
   tags: []
@@ -12054,6 +12124,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Submission skill is at least 2 greater than your opponent''s
+    Submission skill, stop any Strike.
+
+    Your next turn roll is +1.'
   db_uuid: 8291d8958df94482ac6ba9dd382de7ef
   tags: []
 - name: Llama Lock
@@ -12074,6 +12148,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Discard 1 card from your hand.
+
+    Draw 2 cards.'
   db_uuid: 0988eb5370534ef295a3d431b9c2f285
   tags: []
 - name: Microphone Takeover
@@ -12094,6 +12171,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique
+    skill, stop any Strike.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: dacb1bc83a214ed884494e1422793c71
   tags: []
 - name: Patella Buster
@@ -12101,6 +12182,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Stop any Finish Strike with a Spotlight.
+
+    Bury 2 cards in your opponent''s discard pile.'
   db_uuid: 6d75ae044d4a47b29dc492c1916249e5
   tags: []
 - name: Reaching for the Ropes
@@ -12115,6 +12199,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Your opponent's Technique is -1 during their turn and turn rolls.
   db_uuid: 23f9d3fda7d94c0894828c70b0100591
   tags: []
 - name: Romero Special
@@ -12122,6 +12207,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Submission
+    skill is greater than your opponent's Submission skill, stop any Strike.
   db_uuid: fc79c6c805b84e6698d4e41643133110
   tags: []
 - name: Rope Break V1
@@ -12129,6 +12216,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'You may add 1 other card you have in play to your hand.
+
+    Skill Requirement: Power 8+'
   db_uuid: 6c66c8d3e2914481bfd9f713ad147732
   tags: []
 - name: Rope Break V2
@@ -12136,6 +12226,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Technique skill is higher than your opponent''s Technique skill,
+    stop any Follow Up Strike.
+
+    Draw 1 card then bury 1 card in your hand.'
   db_uuid: 910aab0a7e374b969d2d698e92dafdac
   tags: []
 - name: Run the Ropes
@@ -12143,6 +12237,9 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Stop any Strike if it is not the first card played this turn.
+
+    You may re-roll your next turn roll.'
   db_uuid: 843766b1914d4b3698795d4968d7c145
   tags: []
 - name: Single Leg Crab
@@ -12159,6 +12256,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Add 1 Stop from your discard pile to your hand.
   db_uuid: b20d03161a09413295974431d453682d
   tags: []
 - name: Skull Shake
@@ -12166,6 +12264,8 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Search your deck for 1 Submission and put it on top of your shuffled
+    deck.
   db_uuid: 8219dd4eec8b47378860d9904da2bbf7
   tags: []
 - name: Sledgehammer the Opposition
@@ -12173,6 +12273,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Your Submission skill is +1 during your turn and turn rolls.
   db_uuid: 84ce1ae8352b4a33ad4ab6e8367e4094
   tags: []
 - name: Slingshot Lock
@@ -12180,6 +12281,12 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique
+    skill, stop any Strike.
+
+    Choose 1 card your opponent has in play and discard it.
+
+    Skill Requirement: Submission 8+'
   db_uuid: 0a42936503ce4b02a0021c9509653591
   tags: []
 - name: Spinning Hammer Hold
@@ -12187,12 +12294,17 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission
+    skill, stop any Strike.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   db_uuid: 2e971c0eeca447d897226524cfe3d29f
   tags: []
 - name: Split Finger Breaker
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: Your opponent's Submission is -1 during their turn and turn rolls.
   deck_card_number: 15
   db_uuid: 8a617622df424db3b5ebe96398b0ffed
   tags: []
@@ -12220,6 +12332,10 @@
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
+  rules_text: 'Draw 1 card.
+
+    If the Crowd Meter is 1 or greater and your Technique sklil is greater than your
+    opponent''s Technique skill, stop any Strike.'
   deck_card_number: 15
   db_uuid: 420fe0f893e741b49d068f992912e6c2
   tags: []
@@ -12228,6 +12344,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Bury 3 cards in your opponent's discard pile.
   db_uuid: a176d7c027f7451f9747987c3c7a4959
   tags: []
 - name: Takeover With the Sledgehammer
@@ -12235,6 +12352,7 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: Flip 3 cards.
   db_uuid: 11264dcdf90249ad88b24abde6063a02
   tags: []
 - name: Takeover With the Steel Chain
@@ -12250,6 +12368,10 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Your next turn roll is +1.
+
+    If your Technique skill is at least 2 greater than your opponent''s Technique
+    skill, stop any Strike.'
   db_uuid: fb2cc43b283849cfb83e19e2ef798b78
   tags: []
 - name: Triangle Choke
@@ -12257,6 +12379,11 @@
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
+  rules_text: 'Draw 1 card.
+
+    Un-blank your Gimmick.
+
+    When the Crowd Meter is 5 or greater, this card is also a Finish.'
   db_uuid: 8307e0e7b25f48e699d247036717f87d
   tags: []
 - name: Turn Up the Steel Chains
@@ -12338,6 +12465,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Draw 1 card for each Stop you have in play.
   db_uuid: 45933eedc14a46e2b0c881980450208e
   tags: []
 - name: Ambush With the Drumsticks
@@ -12345,6 +12473,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'If you have another card in play with "Drumstick" in the name, draw
+    2 cards.
+
+    Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1
+    card in any player''s discard pile.'
   db_uuid: fff0816a2267421b9ebef17b5f84a5b1
   tags: []
 - name: Ambush With the Kendo Stick
@@ -12352,6 +12485,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Your opponent flips 2 cards for each card you have in play with "Kendo
+    Stick" in the name.
+
+    You may add 1 other card you have in play with "Kendo Stick" in the name to your
+    hand.'
   db_uuid: 838149742d0741de8526fca045aebfdf
   tags: []
 - name: Ambush With the Ladder
@@ -12394,6 +12532,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Draw 1 card for each card you have in play with "Pineapple" in the name,
+    then bury 1 card in your hand.
   db_uuid: 908b73252093428082c760ea9dc88473
   tags: []
 - name: Big Boot
@@ -12401,6 +12541,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Draw 1 card for each other Strike you have in play.
   db_uuid: 79896f24ec054d17af40008cebf456ae
   tags: []
 - name: Blindside Punch
@@ -12408,6 +12549,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up in play, draw 1 card and your Tag Team
+    partner draws 1 card.
   db_uuid: 0313d0b654fb4f2ebd271621049574d7
   tags: []
 - name: Bronco Buster
@@ -12415,6 +12558,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have 2 other Follow Ups in play, add 1 card from your discard
+    pile to your hand and your next turn roll is +1.
   db_uuid: 9826a66b76c141dc9ed8652fe139e664
   tags: []
 - name: Charged Cat Paws
@@ -12422,6 +12567,12 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Your Agility skill is +2 during Finish rolls.
+
+    If you have another Follow up in play and this is a Ring of Fire match, this card
+    is also a Finish.
+
+    Skill Requirement: Strike 8+'
   db_uuid: 3754793328c04efcb6e463ee20d65705
   tags: []
 - name: Chop Block

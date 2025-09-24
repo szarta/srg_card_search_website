@@ -10634,6 +10634,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Flip 2 cards for each opponent you have.
+
+    Add 1 Finish from your discard pile to your hand.'
   db_uuid: 383f1e2aa4bb4a1694380119d55a1774
   tags: []
 - name: Rocket Kick
@@ -10641,6 +10644,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Stop any Finish Grapple with a Spotlight.
+
+    Bury 2 cards in your opponent''s discard pile.'
   db_uuid: 8654b1e29d304283ae7d57025f416bdf
   tags: []
 - name: Roundhouse Rib Shot
@@ -10648,6 +10654,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Discard 1 card from your hand.
+
+    Draw 2 cards.'
   db_uuid: 08053f6b0683406984c556e450e57280
   tags: []
 - name: Running Lariat
@@ -10655,6 +10664,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: If your Strike skill is greater than your opponent's Strike skill, stop
+    any Grapple.
   db_uuid: f5099f8524d64d489c051948fa912626
   tags: []
 - name: Schoolyard Beatdown
@@ -10662,6 +10673,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Your opponent''s next roll is -2.
+
+    If this is a Steel Cage or Liger''s Den match and the Crowd Meter is 2 or greater,
+    this card is also a Finish.'
   db_uuid: 3a7a9ec83e884aab93012969d93d868f
   tags: []
 - name: Skull Busting Boot
@@ -10669,6 +10684,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Add 1 Submission from your discard pile to your hand.
   db_uuid: 312ba6695676491aa20a5f7db70f53aa
   tags: []
 - name: Shove Off the Ladder
@@ -10685,6 +10701,12 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Skill Requirement: Submission 8+'
   db_uuid: 15c2381d802d46bb8bea9562313fb44a
   tags: []
 - name: Spinning Crossbody
@@ -10692,6 +10714,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Draw cards equal to the Crowd Meter +1.
   db_uuid: 7bc470809ecf416cb804fee581fb230f
   tags: []
 - name: Spinning Leg Lariat
@@ -10699,6 +10722,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Randomly add 1 card from your discard pile to your hand.
+
+    The Crowd Meter is considered +1 for your effects.'
   db_uuid: 3afe98c09ca64da58a244f3967ce0152
   tags: []
 - name: Splash (V1)
@@ -10706,6 +10732,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Your opponent buries 1 card in their hand.
   db_uuid: 03d50027282f43efab49dc4ad1619f93
   tags: []
 - name: Splash (V2)
@@ -10713,6 +10740,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater this card is also a Finish.'
   db_uuid: 58679a3c33e5454391f4d7d5a81e2dea
   tags: []
 - name: Springboard Lion Splash
@@ -10720,6 +10752,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Agility skill is greater than your Strike skill, stop any Grapple.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Strike 8+'
   db_uuid: 608ad20396494e9d98260a5a242f69d8
   tags: []
 - name: Steel Chain Spin
@@ -10739,6 +10776,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Your next turn roll is +1.
+
+    If your Agility skill is at least 2 greater than your opponent''s Agility skill,
+    stop any Grapple.'
   db_uuid: e00516395e404fe3afb541c8422e26ae
   tags: []
 - name: Swinging Kicks
@@ -10746,6 +10787,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Agility skill is at least 3 greater than your opponent''s Agility
+    skill, stop any Grapple.
+
+    Look at your opponent''s hand.'
   db_uuid: ca4a1948d379433584f3e9d061032d91
   tags: []
 - name: Takeover with the Kendo Stick
@@ -10753,6 +10798,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Bury 3 cards in your opponent's discard pile.
   db_uuid: 85ca3029225048888debcb1681bc1400
   tags: []
 - name: Takeover with the Ladder
@@ -10767,6 +10813,7 @@
   play_order: Followup
   atk_type: Strike
   card_type: MainDeckCard
+  rules_text: Flip 3 cards.
   deck_card_number: 13
   db_uuid: 38f5ab67df404b56a7381f60561d314c
   tags: []
@@ -10775,6 +10822,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Flip 3 cards.
+
+    Add 1 card with "Pineapple" in the name from your discard pile to your hand.'
   db_uuid: 232304ed765845d1926508ee15e9232b
   tags: []
 - name: Tandem Chin Kicks
@@ -10793,6 +10843,13 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Look at the top 2 cards of your deck, add 1 to your hand and flip the
+    other.
+
+    If this is a Steel Cage or Liger''s Den match, your opponent''s Finish Grapples
+    have the added text:
+
+    "Your Finish rolls are -1."'
   db_uuid: e5ef133a320147f5b64a81f780f7da18
   tags: []
 - name: Thunderous Smash
@@ -10800,6 +10857,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'Stop any Grapple if it is not the first card played this turn.
+
+    You may re-roll your next turn roll.'
   db_uuid: 8cac3885ef024186a6d302fe5d1614e8
   tags: []
 - name: Toss Your Son Over the Top
@@ -10846,6 +10906,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: Each player flips 1 card or if your Agility skill is greater than your
+    opponent's Agility skill, stop any Grapple.
   db_uuid: 69023ec550614c05a8fa91ffa451e2e0
   tags: []
 - name: Ura-zuki
@@ -10853,6 +10915,11 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill,
+    stop any Grapple.
+
+    Your opponent discards 1 random card from their hand. Skill Requirement: Technique
+    8+'
   db_uuid: b4d1d9bc02934c3b96ae58c4ad89e387
   tags: []
 - name: Al13n Boot Drop
@@ -10860,6 +10927,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill,
+    stop any Submission.
+
+    Each player draws 1 card.'
   db_uuid: fe6c2777a7e249438a2842f9c888d685
   tags: []
 - name: Alvin the Cat's Lucky Day
@@ -10879,6 +10950,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Your opponent buries 1 card in their hand.
   db_uuid: 90bf8b8280304b5680ad2d1b6119a70e
   tags: []
 - name: Atomic Drop (V2)
@@ -10886,6 +10958,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater, this card is also a Finish.'
   db_uuid: 7c393550cead4d068797223807e2795c
   tags: []
 - name: Back Body Drop (V1)
@@ -10894,6 +10971,9 @@
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 6ecacd4579324ccd8a20bdedd6c6eeec
+  rules_text: 'Your opponent flips 1 card.
+
+    You may bury 1 card in your opponent''s discard pile.'
   tags: []
 - name: Back Body Drop (V2)
   play_order: Followup
@@ -10901,6 +10981,9 @@
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 22b2cb6c22eb4e18a8cac46620f64593
+  rules_text: 'Each player flips 1 card.
+
+    You may bury 1 card in each player''s discard pile.'
   tags: []
 - name: Sheep, Kneel Before My Big American Sledgehammer
   srg_url: https://supershowthegame.com/product/14-sheep-kneel-before-my-big-american-sledgehammer/
@@ -10930,6 +11013,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Stop any Finish Submission that cannot be stopped.
+
+    Your opponent''s maximum hand size is -1.'
   db_uuid: 1dff164b85c54cdba8366cdf85d5bdea
   tags: []
 - name: Bulldog Buster
@@ -10937,6 +11023,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Add 1 Grapple from your discard pile to your hand.
   db_uuid: 8a8b06a8c2934804880c2c7b64e9c618
   tags: []
 - name: Catch And Slam
@@ -10954,6 +11041,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop
+    any Submission.
+
+    Randomly reveal 1 card in your hand; if it has "Guitar" in the name, draw 1 card.'
   db_uuid: 8a675981d5b04d71831a8f0e9568d87b
   tags: []
 - name: Catch the Ropes
@@ -10961,6 +11052,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'You may add 1 other card you have in play to your hand.
+
+    Skill Requirement: Agility 8+'
   db_uuid: 3aebaea664064346b166bff127e16ffc
   tags: []
 - name: Cheat to Win
@@ -10968,6 +11062,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If you have a Submission in play, add 1 card from your discard pile
+    to your hand.
+
+    If this is a Steel Cage match, draw 2 cards.'
   db_uuid: 5c567ab9e4f44743a792e3c92220e31b
   tags: []
 - name: Chickenwing Suplex
@@ -10975,6 +11073,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: If you have a Stop in play, add 1 card from your discard pile to your
+    hand.
   db_uuid: 175dbd0a37ae488ba3de1b1076b975c5
   tags: []
 - name: Colossal Smash
@@ -10982,6 +11082,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is greater than or equal to your opponent''s Power
+    skill, stop any Submission.
+
+    Discard 2 cards your opponent has in play. Skill Requirement: Power 10, Grapple
+    9'
   db_uuid: 481837b6748045d6a46e524d24c2824a
   tags: []
 - name: Corner Snake Eyes
@@ -10989,6 +11094,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Add 1 Strike from your discard pile to your hand.
   db_uuid: 353c577e950b40e48cde04d6198a46a3
   tags: []
 - name: Cradle Driver
@@ -10996,6 +11102,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Look at the top 2 cards of your deck, add 1 to your hand and flip the
+    other.
+
+    If this is a Steel Cage or Liger''s Den match, your opponent''s Finish Submissions
+    have the added text: "Your Finish rolls are -1."'
   db_uuid: 4c6eee36007542309403aed4065a3518
   tags: []
 - name: Cradle Piledriver
@@ -11003,6 +11114,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Grapple skill
+    is greater than your opponent's Grapple skill, stop any Submission.
   db_uuid: 31e86ec0e98148338f29c623d3d4415d
   tags: []
 - name: Dangerous Slam
@@ -11010,6 +11123,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Your next turn roll is +1.
+
+    If your Power skill is at least 2 greater than your opponent''s Power skill, stop
+    any Submission.'
   db_uuid: aae536d617944eb8aff4133f0bcc5e47
   tags: []
 - name: Dangerous Suplex
@@ -11017,6 +11134,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is at least 3 greater than your opponent''s Power
+    skill, stop any Submission.
+
+    Look at your opponent''s hand.'
   db_uuid: b5001c5af3ca4df39a38f6914b068d7e
   tags: []
 - name: DDT
@@ -11024,6 +11145,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: If your Grapple skill is greater than your opponent's Grapple skill,
+    stop any Submission.
   db_uuid: 226b283843d6423cabe6fa55cfa038ae
   tags: []
 - name: Delayed Atomic Drop
@@ -11031,6 +11154,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Look at the top 3 cards of your deck, add 1 to your hand and bury the
+    others.
   db_uuid: bc0fd01e83ca4e4a9116a5b7e17e29ee
   tags: []
 - name: Deranger
@@ -11038,6 +11163,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Stop any Submission with "via disqualification" in the text.
+
+    Shuffle 1 card from your discard pile into your deck. If played as a stop, this
+    card is also a Finish.'
   db_uuid: df08d68cf0d141f199fffd6ade89ae5b
   tags: []
 - name: Diamond Dust
@@ -11045,6 +11174,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Draw cards equal to the Crowd Meter +1.
   db_uuid: 7ee57f08f2954f8fb03d1cfbafd45015
   tags: []
 - name: Elevated Backbreaker
@@ -11052,6 +11182,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Your opponent's Power is -1 during their turn and turn rolls.
   db_uuid: 6919e619862d4a9aa42ed1af1447e32f
   tags: []
 - name: "En Garde Touch\xE9"
@@ -11059,6 +11190,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Your Power skill is +1 during your turn and turn rolls.
   db_uuid: d6b4211ddc104b0fac312ab4ca802c6a
   tags: []
 - name: Faceplant Piledriver
@@ -11066,6 +11198,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your Power skill, stop any Submission.
+
+    Your opponent''s next turn roll is -2.
+
+    Skill Requirement: Power 8+'
   db_uuid: 3ce9b52b3b2a405db8ea055d11afc6d2
   tags: []
 - name: Falling Powerslam
@@ -11073,6 +11210,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: If your Power skill is greater than your opponent's Power skill, stop
+    any Submission.
   db_uuid: 22ce4c4eb4f14b6cae463afced6d8b32
   tags: []
 - name: Fisherman Suplex
@@ -11080,6 +11219,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Draw 1 card.
+
+    Un-blank your Gimmick.
+
+    When the Crowd Meter is 5 or greater, this card is also a Finish.'
   db_uuid: 1fcdaa5ac7814c0a97dcb2288e2e385b
   tags: []
 - name: Flapjack
@@ -11087,6 +11231,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is higher than your opponent''s Power skill, stop
+    any Follow Up Submission.
+
+    Draw 1 card then bury 1 card in your hand.'
   db_uuid: a476aa4ac98a4100a617b1cb847d6502
   tags: []
 - name: Flipping Powerslam
@@ -11094,6 +11242,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Randomly add 1 card from your discard pile to your hand.
+
+    The Crowd Meter is considered +1 for your effects.'
   db_uuid: 78e15b690a4243fbacafd2c9f5e6bf4c
   tags: []
 - name: Guitar Takeover
@@ -11101,6 +11252,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill,
+    stop any Submission.
+
+    Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   db_uuid: ff5660b17ba04df5b9a0ee15defb04dd
   tags: []
 - name: Head Scissor Takedown
@@ -11108,6 +11263,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: If your Grapple skill is at least 4 greater than your opponent's Grapple
+    skill or this match has "Chain" in the name, stop any Submission.
   db_uuid: 80f1be665cd44eb28b47fc7306fe5911
   tags: []
 - name: Heel Sweep
@@ -11115,6 +11272,8 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Your opponent flips 2 cards, then you may bury 2 cards in your opponent's
+    discard pile.
   db_uuid: 490e65a4366e45c3aa27395ffe5dc2f6
   tags: []
 - name: High On Fire
@@ -11122,6 +11281,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Choose 2 cards in your discard pile: randomly put 1 on top of your
+    deck and bury the other.
+
+    If this is a Ring of Fire match, your opponent flips 2 cards.'
   db_uuid: 1bd61b910dab4bae91470dd7478edddf
   tags: []
 - name: Inside Cradle (V1)
@@ -11162,14 +11325,16 @@
   card_type: MainDeckCard
   deck_card_number: 14
   db_uuid: 8fe4b7ce901847aca62919eb365637ac
+  rules_text: If you have a Strike in play, add 1 card fro myour discard pile to your
+    hand.
   tags: []
-  related_cards:
-  - dbfcd2fc470046ae9c39666d91a7958a
 - name: Leg Scissor Sweep
   play_order: Followup
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Look at your opponent's hand.  Choose 1 Submission and put it on top
+    of their deck.
   db_uuid: 387c5596a8294dc698020cd8460a2602
   tags: []
 - name: Legendary Acknowledgement
@@ -11177,6 +11342,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop
+    any Submission.
+
+    Each player draws 1 card.'
   db_uuid: 2696dc834d5e42daa19d96942fbbdd12
   tags: []
 - name: Level Up Apron Driver
@@ -11193,6 +11362,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop
+    any Submission.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: 5b460bf5513a4c1a8f41d94a5dce5f79
   tags: []
 - name: Lower Lumbar Buster
@@ -11200,6 +11373,7 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: Your opponent's Grapple is -1 during their turn and turn rolls.
   db_uuid: 3a097daa7f88462d9dba04f46c112486
   tags: []
 - name: Lumbar Breaker
@@ -11207,6 +11381,9 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Stop any Finish Submission with a Spotlight.
+
+    Bury 2 cards in your opponent''s discard pile.'
   db_uuid: feeaf7eaf73f47618bd94f8549cff5ae
   tags: []
 - name: Melee Attack
@@ -11214,6 +11391,10 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'If your Grapple sklil is greater than your opponent''s Grapple skill,
+    stop any Submission.
+
+    Each player reveals 1 card in their hand.'
   db_uuid: 76186c6796854d6295e388440ce50a87
   tags: []
 - name: Oklahoma Stampede (V1)
@@ -11221,6 +11402,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Draw 2 cards.
+
+    +2 to your next turn roll.
+
+    Skill requirement: Grapple 8+'
   db_uuid: d45705f3ea974566b7a5f1b853184e38
   tags: []
 - name: Oklahoma Stampede (V2)
@@ -11228,6 +11414,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 14
+  rules_text: 'Draw 2 cards.
+
+    +2 to your next turn roll.
+
+    Skill requirement: Power 8+'
   db_uuid: 640e8c055a764df0829c2efc7308ff59
   tags: []
 - name: Overhead Suplex

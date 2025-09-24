@@ -11849,14 +11849,14 @@
     Look at your opponent''s hand.'
   db_uuid: 5bf2cc2df56c4fe6b862cefce44f9196
   tags: []
-- name: Bladder Breaking Bear Hug
+- name: Bladder-Breaking Bear Hug
   play_order: Followup
   atk_type: Submission
   card_type: MainDeckCard
   deck_card_number: 15
   rules_text: 'Stop any Finish Strike that is also a Lead or a Follow Up.
 
-    If played as a stop, this card is also a Finish.
+    If played as a Stop, this card is also a Finish.
 
     Put 1 Submission from your discard pile on top of your deck.'
   db_uuid: 49df4b8409184428a293dfc193a362be

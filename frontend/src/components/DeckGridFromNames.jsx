@@ -194,6 +194,7 @@ export default function DeckGridFromNames({
       "related_finishes",
       "comments",
       "comment",
+      "srgpc_url",
       "gender", // hidden in UI; we add to export later
     ]);
 

@@ -155,6 +155,7 @@ export default function TableView(props) {
       "related_finishes",
       "comments",
       "comment",
+      "srgpc_url",
       "gender", // keep hidden in UI, include in CSV if present
     ]);
 

@@ -68,6 +68,7 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "tags": card.tags or [],
         "comments": card.comments,
         "srg_url": card.srg_url,
+        "srgpc_url": card.srgpc_url,
         "release_set": card.release_set,
         "power": getattr(card, 'power', None),
         "agility": getattr(card, 'agility', None),

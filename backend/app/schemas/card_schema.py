@@ -22,6 +22,7 @@ class Card(BaseModel):
     tags: Optional[List[str]] = []
     comments: Optional[str]
     srg_url: Optional[str]
+    srgpc_url: Optional[str]
     release_set: Optional[str]
     related_cards: Optional[List[Card]] = None
     related_finishes: Optional[List[Card]] = None

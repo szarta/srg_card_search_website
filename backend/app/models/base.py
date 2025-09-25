@@ -69,6 +69,7 @@ class Card(Base):
     db_uuid = Column(String, primary_key=True)
     name = Column(String, nullable=False)
     srg_url = Column(String)
+    srgpc_url = Column(String)
     release_set = Column(String)
     is_banned = Column(Boolean, default=False)
     rules_text = Column(String)

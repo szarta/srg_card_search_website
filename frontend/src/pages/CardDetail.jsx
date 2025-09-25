@@ -248,6 +248,21 @@ export default function CardDetail() {
           </td>
         </tr>
       )}
+      {card.srgpc_url && (
+        <tr>
+          <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
+          <td className="py-2">
+            <a
+              href={card.srgpc_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-300 hover:underline"
+            >
+              SRGPC Page
+            </a>
+          </td>
+        </tr>
+      )}
       {card.is_banned && (
         <tr>
           <td className="w-32 pr-4 py-2 font-semibold text-right">Banned</td>

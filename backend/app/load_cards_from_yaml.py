@@ -4,6 +4,7 @@ Refactored two-pass loader for SRG Supershow cards:
  - Break load_cards into smaller functions to reduce complexity
  - Ensure UUIDs, insert base cards, link finishes, and dump YAML
  - **Normalize tags to always be a list of strings**
+ - **Order keys for readability and proper YAML formatting**
 """
 
 import sys
@@ -38,6 +39,34 @@ MODEL_MAP = {
     CardType.crowd_meter.value: CrowdMeterCard,
 }
 
+# Define the desired key ordering
+KEY_ORDER = [
+    "name",
+    "db_uuid",
+    "is_banned",
+    "srg_url",
+    "srgpc_url",
+    "card_type",
+    "atk_type",
+    "play_order",
+    "deck_card_number",
+    "division",
+    "gender",
+    "power",
+    "technique",
+    "agility",
+    "strike",
+    "submission",
+    "grapple",
+    "rules_text",
+    "errata_text",
+    "comments",
+    "release_set",
+    "tags",
+    "related_cards",
+    "related_finishes",
+]
+
 
 # --- Helper functions ---
 
@@ -52,7 +81,7 @@ def ensure_uuids(data: list[dict]):
         if not entry.get("db_uuid"):
             new_uuid = uuid.uuid4().hex
             entry["db_uuid"] = new_uuid
-            print(f"🆕 Generated UUID {new_uuid} for '{entry.get('name')}'")
+            print(f"[NEW] Generated UUID {new_uuid} for '{entry.get('name')}'")
 
 
 def _normalize_tags_value(v) -> list[str]:
@@ -81,10 +110,29 @@ def _normalize_tags_value(v) -> list[str]:
     return [s] if s else []
 
 
+def reorder_dict_keys(d: dict) -> dict:
+    """Reorder dictionary keys according to KEY_ORDER, with remaining keys at the end."""
+    ordered = {}
+
+    # Add keys in the specified order if they exist
+    for key in KEY_ORDER:
+        if key in d:
+            ordered[key] = d[key]
+
+    # Add any remaining keys that weren't in KEY_ORDER
+    for key in d:
+        if key not in ordered:
+            ordered[key] = d[key]
+
+    return ordered
+
+
 def normalize_entries(data: list[dict]):
     """Apply in-place normalization passes over raw YAML entries."""
-    for e in data:
+    for i, e in enumerate(data):
         e["tags"] = _normalize_tags_value(e.get("tags"))
+        # Reorder keys for better readability
+        data[i] = reorder_dict_keys(e)
 
 
 def split_entries(data: list[dict]):
@@ -102,7 +150,7 @@ def insert_entries(session, entries: list[dict], inserted: dict[str, object]):
         ctype = entry.get("card_type")
         cls = MODEL_MAP.get(ctype)
         if not cls:
-            print(f"⚠️  Unknown card_type {ctype!r} for {entry.get('name')!r}")
+            print(f"[WARNING] Unknown card_type {ctype!r} for {entry.get('name')!r}")
             continue
         kwargs = _build_kwargs(entry)
         try:
@@ -110,10 +158,10 @@ def insert_entries(session, entries: list[dict], inserted: dict[str, object]):
             session.add(card)
             session.flush()
             inserted[entry["db_uuid"]] = card
-            print(f"✅ Inserted {cls.__name__} '{card.name}'")
+            print(f"[OK] Inserted {cls.__name__} '{card.name}'")
         except IntegrityError as err:
             session.rollback()
-            print(f"❌ Insert failed {entry.get('name')!r}: {err}")
+            print(f"[ERROR] Insert failed {entry.get('name')!r}: {err}")
 
 
 def link_finishes(session, entries: list[dict], inserted: dict[str, object]):
@@ -128,7 +176,7 @@ def link_finishes(session, entries: list[dict], inserted: dict[str, object]):
             )
             card.related_finishes.append(finish)
         session.flush()
-        print(f"🔗 Linked finishes for '{card.name}'")
+        print(f"[LINKED] Linked finishes for '{card.name}'")
 
 
 def link_related_cards(session, entries: list[dict], inserted: dict[str, object]):
@@ -140,26 +188,27 @@ def link_related_cards(session, entries: list[dict], inserted: dict[str, object]
 
         card = inserted.get(entry["db_uuid"])
         if not card:
-            print(f"⚠️ Card {entry['db_uuid']} not found in inserted cards for related_cards linking")
+            print(
+                f"[WARNING] Card {entry['db_uuid']} not found in inserted cards for related_cards linking"
+            )
             continue
 
         related_count = 0
         for rid in entry.get("related_cards", []):
             # Try to find the related card in multiple tables
             related = (
-                inserted.get(rid) or
-                session.query(Card).filter_by(db_uuid=rid).first()
+                inserted.get(rid) or session.query(Card).filter_by(db_uuid=rid).first()
             )
 
             if related:
                 card.related_cards.append(related)
                 related_count += 1
             else:
-                print(f"⚠️ Related card {rid} not found for '{card.name}'")
+                print(f"[WARNING] Related card {rid} not found for '{card.name}'")
 
         if related_count > 0:
             session.flush()
-            print(f"🔗 Linked {related_count} related_cards for '{card.name}'")
+            print(f"[LINKED] Linked {related_count} related_cards for '{card.name}'")
 
 
 def _build_kwargs(entry: dict) -> dict:
@@ -218,19 +267,51 @@ def _build_kwargs(entry: dict) -> dict:
                 kw["gender"] = mapping[g_key]
             else:
                 print(
-                    f"⚠️  Skipping unknown gender {g!r} for '{entry.get('name')}' (expected Male/Female/Ambiguous)"
+                    f"[WARNING] Skipping unknown gender {g!r} for '{entry.get('name')}' (expected Male/Female/Ambiguous)"
                 )
 
     return kw
 
 
+class YamlDumper(yaml.SafeDumper):
+    """Custom YAML dumper with proper formatting for lists."""
+
+    def write_line_break(self, data=None):
+        super().write_line_break(data)
+
+    def increase_indent(self, flow=False, indentless=False):
+        return super().increase_indent(flow, False)
+
+
+def represent_list(dumper, data):
+    """Custom list representation with proper spacing."""
+    if len(data) == 0:
+        return dumper.represent_list([])
+
+    # Use block style for non-empty lists to ensure proper spacing
+    return dumper.represent_list(data)
+
+
+# Add the custom list representer
+YamlDumper.add_representer(list, represent_list)
+
+
 def write_yaml(data: list[dict], path: str):
     try:
         with open(path, "w") as f:
-            yaml.safe_dump(data, f, sort_keys=False)
-        print(f"📦 Wrote augmented YAML to {path}")
+            yaml.dump(
+                data,
+                f,
+                Dumper=YamlDumper,
+                default_flow_style=False,
+                sort_keys=False,
+                allow_unicode=True,
+                width=1000,  # Prevent unwanted line wrapping
+                indent=2,
+            )
+        print(f"[SUCCESS] Wrote augmented YAML to {path}")
     except Exception as err:
-        print(f"❌ YAML write failed: {err}")
+        print(f"[ERROR] YAML write failed: {err}")
 
 
 # --- Main loader orchestration ---
@@ -248,16 +329,16 @@ def load_cards(input_path: str, output_path: str):
     session = SessionLocal()
     inserted: dict[str, object] = {}
 
-    print("🚀 Phase 1 - Base inserts...")
+    print("[STARTING] Phase 1 - Base inserts...")
     insert_entries(session, no_refs, inserted)
 
-    print("🚀 Phase 2 - Reference linking...")
+    print("[STARTING] Phase 2 - Reference linking...")
     insert_entries(session, with_refs, inserted)
     link_finishes(session, with_refs, inserted)
     link_related_cards(session, with_refs, inserted)
     session.commit()
     session.close()
-    print("🎉 DB load complete.")
+    print("[COMPLETE] DB load complete.")
 
     write_yaml(data, output_path)
 

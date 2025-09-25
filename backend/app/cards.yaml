@@ -12580,6 +12580,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Draw 1 card for each Follow Up you have in play, then bury 1 car din
+    your hand.
   db_uuid: a41e0599763c4d5cb61f7febf23f3207
   tags: []
 - name: Clubbing Blows
@@ -12587,6 +12589,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Strike in play, look at the top 3 cards of your
+    deck, add 1 to your hand and put the others back on top or bottom of your deck
+    in any order.
   db_uuid: 522335e488264d3ab0e581198734fc26
   tags: []
 - name: Cosmic Dragon Knee
@@ -12603,6 +12608,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up or Finish Strike in play, your Grapple
+    skill is +1.
   db_uuid: bc7e3e2f16ef430b81fe07e5c12b6ede
   tags: []
 - name: Crane Kick
@@ -12610,6 +12617,12 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in
+    your hand.
+
+    When the Crowd Meter is 2 or greater this card is also a Lead.
+
+    Skill Requirement: Technique 8+'
   db_uuid: 8cdeed7d9cfe44f780f6b0c38eeee2f8
   tags: []
 - name: Dangerous Knee Assault
@@ -12617,6 +12630,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up or Finish Strike in play, your Strike
+    skill is +1.
   db_uuid: 463e0cf2dab9445da824d6eb92089721
   tags: []
 - name: Discus Lariat
@@ -12624,6 +12639,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up in play your next turn roll is +2.
   db_uuid: 91daad4f3d464d30ac0d5703ad8f072e
   tags: []
 - name: Diving Fist Drop
@@ -12631,6 +12647,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up or Finish Strike in play, your Technique
+    skill is +1.
   db_uuid: 0c6338c085ca47609bad6c1b54bc6a89
   tags: []
 - name: Dogged Determination
@@ -12638,6 +12656,12 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Your Submission skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Ring of Fire match, this card
+    is also a Finish.
+
+    Skill Requirement: Grapple 8+'
   db_uuid: 2096dc76526c4fd682c484e9d8d3416c
   tags: []
 - name: Double Kick
@@ -12645,6 +12669,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Strike in play, your opponent buries 1 card in their
+    hand.
   db_uuid: 183405017a9a49ed89bd21e0efc76242
   tags: []
 - name: Double Shoulder Block
@@ -12652,6 +12678,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Stop any Grapple with "Double Team" in the text.
+
+    If you have another Follow Up in play, your Tag Team partner draws the bottom
+    card of their deck.'
   db_uuid: cbe90e1d669d4e36acff396a2309b838
   tags: []
 - name: Dropkick Over the Top
@@ -12677,6 +12707,10 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'If you have another Strike in play, shuffle 2 cards from your discard
+    pile into your deck.
+
+    If this is a Ring of Fire match, shuffle 4 cards instead.'
   db_uuid: 8a38951e1c00481481cde8af5f912e18
   tags: []
 - name: Falling Elbow
@@ -12684,8 +12718,13 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Stop "Press Slam". Bury 1 card in your hand for each Follow Up you have
+    in play.
   db_uuid: 35f2b48e70d44dbc9951f5e7a43b3c1b
   tags: []
+  related_cards:
+  - 1a5d9a8a26a24f2cb51ee4b26499286b
+  - 7c49b4a11b364873af1c67cd03273f64
 - name: Fiery Fist Fajita
   play_order: Followup
   atk_type: Strike
@@ -12727,6 +12766,9 @@
   deck_card_number: 16
   db_uuid: ab5ab9c1b9aa4fb1818e3eb5fa4d435c
   tags: []
+  related_cards:
+  - 1a5d9a8a26a24f2cb51ee4b26499286b
+  - 7c49b4a11b364873af1c67cd03273f64
 - name: Flying Hip Attack
   rules_text: If you have another Strike in play, look at the top 3 cards of your
     opponent's deck. You may flip any number of them.  Put the others back on top
@@ -12760,6 +12802,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Strike in play, choose 1 card your opponent has
+    in play and discard it.
   db_uuid: 10f9eb34ba4d4dc0a92abb2225a8c03f
   tags: []
 - name: Ground Split
@@ -12767,6 +12811,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Draw 1 card for each Submission you have in play.
   db_uuid: e19e19f7fbb64002bee014aa9a8ec49d
   tags: []
 - name: Guitar Swing
@@ -12774,6 +12819,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up in play, draw 1 card and you may play
+    1 additional card this turn.
   db_uuid: 38911402005942149aba77e2c73ee2e6
   tags: []
 - name: Head Shot
@@ -12781,6 +12828,7 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Strike in play your next turn roll is +2.
   db_uuid: 1b050c63a9a2448eba53b144acf1e3b9
   tags: []
 - name: Head to Head
@@ -12788,6 +12836,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you opponent has a Stop in play, choose 1 card your opponent has
+    in play and discard it.
   db_uuid: b69a09da5ee646ce89e79a525ca3ca0b
   tags: []
 - name: Hot Tag
@@ -12795,6 +12845,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: If you have another Follow Up in play, your Tag Team partner may play
+    a Lead or Follow Up this turn.
   db_uuid: ec729dc076714e64b2da549972f5d682
   tags: []
 - name: Inverted Body Drop
@@ -12802,6 +12854,8 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: Bury 1 card in your opponent's discard pile for each Strike you have
+    in play.
   db_uuid: cb0e7001062743658e974eca984cc1c0
   tags: []
 - name: Jaw-Breaking Uppercut
@@ -12809,6 +12863,9 @@
   atk_type: Strike
   card_type: MainDeckCard
   deck_card_number: 16
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   db_uuid: 9e28046bf3dc4dda9ae80f93584dded0
   tags: []
 - name: Knee to the Chin
@@ -15030,6 +15087,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 20
+  rules_text: 'Your opponent discards 2 cards from their hand.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Grapple 8+'
   db_uuid: 1a5d9a8a26a24f2cb51ee4b26499286b
   tags: []
 - name: Press Slam (V2)
@@ -15037,6 +15099,11 @@
   atk_type: Grapple
   card_type: MainDeckCard
   deck_card_number: 20
+  rules_text: 'Look at your opponent''s hand, they bury all Submission cards.
+
+    +3 to your next turn roll.
+
+    Skill Requirement: Power 8+'
   db_uuid: 7c49b4a11b364873af1c67cd03273f64
   tags: []
 - name: Release German Suplex (V1)

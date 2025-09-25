@@ -217,6 +217,7 @@ def _build_kwargs(entry: dict) -> dict:
         "db_uuid": entry["db_uuid"],
         "name": entry["name"],
         "srg_url": entry.get("srg_url"),
+        "srgpc_url": entry.get("srgpc_url"),
         "release_set": entry.get("release_set"),
         "is_banned": entry.get("is_banned", False),
         "rules_text": entry.get("rules_text"),

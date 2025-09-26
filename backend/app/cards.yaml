@@ -33479,29 +33479,31 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
+  rules_text: 'Flip 1 card.
+
+    Add 1 other card of the same card or move type as the flipped card from your discard pile to your hand.'
   tags: []
 - name: Try Again
   db_uuid: de4db64048ee467a8bae18686d674646
+  srg_url: https://supershowthegame.com/product/02-try-again/
   srgpc_url: https://www.srgpc.net/cards/2/try-again/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
-  tags: []
-- name: Turnbuckle Slams
-  db_uuid: 9be99564340f4ed8b8a725f9a97eeaa0
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Lead
-  deck_card_number: 2
+  rules_text: 'Stop any Submission with "If Stopped" in the text: That card has blank text until the end of the turn.'
   tags: []
 - name: Turnbuckle Slams
   db_uuid: bee346ecb3b1412b8772879f7efaf97e
+  srg_url: https://supershowthegame.com/product/02-turnbuckle-slams/
   srgpc_url: https://www.srgpc.net/cards/2/turnbuckle-slams/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
+  rules_text: 'Stop any Lead Submission.
+
+    This card counts as 2 Lead Grapples in play.'
   tags: []
 - name: Table V2
   db_uuid: 0098aee23059474692e870959ec75bb5
@@ -33509,4 +33511,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
+  rules_text: 'If you roll Grapple for your Finish roll, it is +1.
+
+    If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
   tags: []

@@ -36669,3 +36669,13 @@
 
     The Crowd Meter is considered -1 for all Stop text.'
   tags: []
+- name: Figure-4 Knee Cracker
+  db_uuid: 4ff683b4853e48eeaa21b33fa465d626
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Technique skill is greater than your opponent''s Submission skill, draw 3 cards.'
+  tags: []

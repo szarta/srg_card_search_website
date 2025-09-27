@@ -1965,6 +1965,7 @@
 - name: Arm Stomp
   db_uuid: 62cf9e40d92c4d0da09cb4185c8540f0
   srg_url: https://supershowthegame.com/product/12-arm-stomp/
+  srgpc_url: https://www.srgpc.net/cards/12/arm-stomp/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -2536,6 +2537,7 @@
 - name: Side Chin Lock
   db_uuid: e93b7670656a48f6beaf9980d0e30109
   srg_url: https://supershowthegame.com/product/12-side-chin-lock/
+  srgpc_url: https://www.srgpc.net/cards/12/side-chin-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9680,6 +9682,7 @@
   tags: []
 - name: 1/4 Twist
   db_uuid: d6781e7652ab42209c37c72b5d781040
+  srgpc_url: https://www.srgpc.net/cards/12/1-4-twist/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9688,6 +9691,7 @@
   tags: []
 - name: Abdominal Twist
   db_uuid: 654c1610495f402782bd662bd3c08109
+  srgpc_url: https://www.srgpc.net/cards/12/abdominal-twist/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9696,6 +9700,7 @@
   tags: []
 - name: All You Can Eat Ribs and Pork Chops
   db_uuid: c112eebe9d0b4c9d96ee72dabaf3aa1d
+  srgpc_url: https://www.srgpc.net/cards/12/all-you-can-eat-ribs-and-pork-chops/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9704,6 +9709,7 @@
   tags: []
 - name: Arm Breaker (V1)
   db_uuid: 9bf01f85fd744ec8bc12f21d8603b947
+  srgpc_url: https://www.srgpc.net/cards/12/arm-breaker-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9720,6 +9726,7 @@
   tags: []
 - name: Arm Lock
   db_uuid: a0a74232065241c6898ff307d1a23b18
+  srgpc_url: https://www.srgpc.net/cards/12/arm-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9728,6 +9735,7 @@
   tags: []
 - name: Arm Triangle (V1)
   db_uuid: 294b3521294e40998b86855213fd9473
+  srgpc_url: https://www.srgpc.net/cards/12/arm-triangle-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9746,6 +9754,7 @@
   tags: []
 - name: Blind Opponent
   db_uuid: 9dd492e107174d04838e520444500459
+  srgpc_url: https://www.srgpc.net/cards/12/bite-opponent/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9754,6 +9763,7 @@
   tags: []
 - name: Blood in the Water
   db_uuid: 27cf72035c654bb599fc4eab3d0d8a78
+  srgpc_url: https://www.srgpc.net/cards/12/blood-in-the-water/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9770,6 +9780,7 @@
   tags: []
 - name: Bridging Sleeper
   db_uuid: cffe50688f19420cba39f4801edd76c8
+  srgpc_url: https://www.srgpc.net/cards/12/bridging-sleeper/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9778,6 +9789,7 @@
   tags: []
 - name: Chicken Wing Crunch
   db_uuid: 90449e1418524da39dbce76f0947b2b8
+  srgpc_url: https://www.srgpc.net/cards/12/chicken-wing-crunch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9786,6 +9798,7 @@
   tags: []
 - name: Chill Out
   db_uuid: 80ab108d896a4576884192fd647db0d0
+  srgpc_url: https://www.srgpc.net/cards/12/chill-out/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9794,6 +9807,7 @@
   tags: []
 - name: Chin Choke
   db_uuid: ee631afe2aae470c92d921ec6e03f4f5
+  srgpc_url: https://www.srgpc.net/cards/12/chin-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9802,6 +9816,7 @@
   tags: []
 - name: Control the Wrist
   db_uuid: 6d1c2041238244a3ba452e33cd4d622c
+  srgpc_url: https://www.srgpc.net/cards/12/control-the-wrist/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9812,6 +9827,7 @@
   tags: []
 - name: Dragon Screw
   db_uuid: 44db037fe3a8426ab2acba8b27933317
+  srgpc_url: https://www.srgpc.net/cards/12/dragon-screw/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9820,6 +9836,7 @@
   tags: []
 - name: Elevated Boston Crab
   db_uuid: 5a2bf48f205e47f1921b5352c260e4a1
+  srgpc_url: https://www.srgpc.net/cards/12/elevated-boston-crab/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9828,6 +9845,7 @@
   tags: []
 - name: Figure 4 Headlock
   db_uuid: 68bc0868f9ed4ec084574076fcd62bd8
+  srgpc_url: https://www.srgpc.net/12-figure-4-headlock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9836,6 +9854,7 @@
   tags: []
 - name: Finger Breaker
   db_uuid: 887d72fb909f4687bdb7638dd6acdef6
+  srgpc_url: https://www.srgpc.net/cards/12/finger-breaker/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9844,6 +9863,7 @@
   tags: []
 - name: Finger Lock Smash
   db_uuid: fc3f3f94d5584d7690ddc6412c062acb
+  srgpc_url: https://www.srgpc.net/cards/12/finger-lock-smash/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9852,6 +9872,7 @@
   tags: []
 - name: Gathering the Microphone
   db_uuid: 239ba46a452c41fbbd7eb0b552bc08f2
+  srgpc_url: https://www.srgpc.net/cards/12/gathering-the-microphone/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9862,6 +9883,7 @@
   tags: []
 - name: Gathering the Ring Steps
   db_uuid: fc28af76c28f49a78ffe60466ec364c2
+  srgpc_url: https://www.srgpc.net/cards/12/gathering-the-ring-steps/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9870,6 +9892,7 @@
   tags: []
 - name: Gathering the Sheep
   db_uuid: 15d3cc099c9a413ab3bdc9818072f3fb
+  srgpc_url: https://www.srgpc.net/cards/12/gathering-the-sheep/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9878,6 +9901,7 @@
   tags: []
 - name: Gathering the Sledgehammer
   db_uuid: 2e71ea7abb184e6cba90d56f9173dec6
+  srgpc_url: https://www.srgpc.net/cards/12/gathering-the-sledgehammer/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9886,6 +9910,7 @@
   tags: []
 - name: Gathering the Steel Chain
   db_uuid: 466e1e01b9544df2832fcce78d12894d
+  srgpc_url: https://www.srgpc.net/cards/12/gathering-the-steel-chain/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9894,6 +9919,7 @@
   tags: []
 - name: Grind it Out
   db_uuid: a589027e6f084424a94de065ef741053
+  srgpc_url: https://www.srgpc.net/cards/12/grind-it-out/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9902,6 +9928,7 @@
   tags: []
 - name: Hammer Lock
   db_uuid: 64a4200c7a124ea09a1c625e0d66552c
+  srgpc_url: https://www.srgpc.net/cards/12/hammer-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9909,6 +9936,7 @@
   tags: []
 - name: Handful of Hair
   db_uuid: 4c1236188115466c8d5fbe998b562dad
+  srgpc_url: https://www.srgpc.net/cards/12/handful-of-hair/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9919,6 +9947,7 @@
   tags: []
 - name: Hand Bite
   db_uuid: f5300367fcdf429a8d189fc4415149fa
+  srgpc_url: https://www.srgpc.net/cards/12/hand-bite/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9927,6 +9956,7 @@
   tags: []
 - name: High Impact Choke
   db_uuid: e9d09554bd49443c93d040dfbb6b02f0
+  srgpc_url: https://www.srgpc.net/cards/12/high-impact-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9935,6 +9965,7 @@
   tags: []
 - name: Hold It Right There!
   db_uuid: 9e47cdcd8d8a4defb2d862e0116abd9e
+  srgpc_url: https://www.srgpc.net/cards/12/hold-it-right-there/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9945,6 +9976,7 @@
   tags: []
 - name: Intuition
   db_uuid: a415d4e08d564d03b0deb8b57909b029
+  srgpc_url: https://www.srgpc.net/cards/12/intuition/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9953,6 +9985,7 @@
   tags: []
 - name: Jaw Jammer (V1)
   db_uuid: f05987fedf384037b8ce603d9a40a565
+  srgpc_url: https://www.srgpc.net/cards/12/jaw-jammer-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9971,6 +10004,7 @@
   tags: []
 - name: King's Counter
   db_uuid: e3cb70985bd94a2f8514fc0c5229973d
+  srgpc_url: https://www.srgpc.net/cards/12/kings-counter/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9979,6 +10013,7 @@
   tags: []
 - name: Leg Scissor Sleeper Hold
   db_uuid: 5b0baa8c59d74ecba2df6c47fca43ff2
+  srgpc_url: https://www.srgpc.net/cards/12/leg-scissor-sleeper-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9986,6 +10021,7 @@
   tags: []
 - name: Leg Trap
   db_uuid: 7f32927489324bb1855f5ba1db37dd01
+  srgpc_url: https://www.srgpc.net/cards/12/leg-trap/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -9993,6 +10029,7 @@
   tags: []
 - name: Melody of Menace
   db_uuid: db49f4a0c76341a69e4d560c29954897
+  srgpc_url: https://www.srgpc.net/cards/12/melody-of-menace/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10000,6 +10037,7 @@
   tags: []
 - name: Nowhere to Run
   db_uuid: e1f1d98908474de08cd14fe7702575ae
+  srgpc_url: https://www.srgpc.net/cards/12/nowhere-to-run/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10007,6 +10045,7 @@
   tags: []
 - name: Pin Into the Corner
   db_uuid: e35bf919cff34d86aef1808708a32d9a
+  srgpc_url: https://www.srgpc.net/cards/12/pin-into-the-corner/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10014,6 +10053,7 @@
   tags: []
 - name: Raise the Dead
   db_uuid: 6f992635e10e4478838254efbc1d4526
+  srgpc_url: https://www.srgpc.net/cards/12/raise-the-dead/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10022,6 +10062,7 @@
 - name: Ready to Rumble
   db_uuid: 09f77610a2ec48f5ac653ffbd8c8fbc2
   srg_url: https://supershowthegame.com/product/12-ready-to-rumble/
+  srgpc_url: https://www.srgpc.net/cards/12/ready-to-rumble/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10030,6 +10071,7 @@
   tags: []
 - name: Rear Chin Lock
   db_uuid: b4693e7de5634e718db8b1269f98057c
+  srgpc_url: https://www.srgpc.net/cards/12/rear-chin-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10038,6 +10080,7 @@
   tags: []
 - name: Reverse Full Nelson Hold
   db_uuid: 776b3c1db3534852a5414d2a66ebb564
+  srgpc_url: https://www.srgpc.net/cards/12/reverse-full-nelson-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10046,6 +10089,7 @@
   tags: []
 - name: Reverse Hold
   db_uuid: 22ad5403134a4975a1ef446e5b89e1df
+  srgpc_url: https://www.srgpc.net/cards/12/reverse-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10054,6 +10098,7 @@
   tags: []
 - name: Rolling Forearm Lock
   db_uuid: 16c6ece1c89d4ca68b5542346f5059c3
+  srgpc_url: https://www.srgpc.net/cards/12/rolling-forearm-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10064,6 +10109,7 @@
   tags: []
 - name: Shaking In My Boots
   db_uuid: 46a5efcf068644cebe98091da7ffeeb8
+  srgpc_url: https://www.srgpc.net/cards/12/shaking-in-my-boots/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10072,6 +10118,7 @@
   tags: []
 - name: Show of Force
   db_uuid: 8e60104ce3404f8497cdd48d5476d2e0
+  srgpc_url: https://www.srgpc.net/cards/12/show-of-force/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10082,6 +10129,7 @@
   tags: []
 - name: Sibling Rivalry
   db_uuid: 026a6fefad924e7abfea94eb162cc784
+  srgpc_url: https://www.srgpc.net/cards/12/sibling-rivalry/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10092,6 +10140,7 @@
   tags: []
 - name: Skull Hold
   db_uuid: 5f6c05558a7440a8a35402df20879b99
+  srgpc_url: https://www.srgpc.net/cards/12/skull-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10100,6 +10149,7 @@
   tags: []
 - name: Skull Squeeze
   db_uuid: 0e7303b1b0434d2e98d85b2b352b6bfb
+  srgpc_url: https://www.srgpc.net/cards/12/skull-squeeze/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10108,6 +10158,7 @@
   tags: []
 - name: Standing Cloverleaf
   db_uuid: 6384e09e43dc474d9fa6e559263b2a52
+  srgpc_url: https://www.srgpc.net/cards/12/standing-cloverleaf/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10116,6 +10167,7 @@
   tags: []
 - name: Sundown Clutch
   db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
+  srgpc_url: https://www.srgpc.net/cards/12/sundown-clutch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10124,6 +10176,7 @@
   tags: []
 - name: Taunt From the Top Rope
   db_uuid: c6f33fc78a3b41d29a2dd40f0b773f59
+  srgpc_url: https://www.srgpc.net/cards/12/taunt-from-the-top-rope/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10132,6 +10185,7 @@
   tags: []
 - name: That's My Kheezy
   db_uuid: 51bd99f46b87479cbeb93791338a9404
+  srgpc_url: https://www.srgpc.net/cards/12/thats-my-kheezy/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10140,6 +10194,7 @@
   tags: []
 - name: The Buck Stops Here
   db_uuid: 6aa5ecac1a654b318251f565d0a6382b
+  srgpc_url: https://www.srgpc.net/cards/12/the-buck-stops-here/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10150,6 +10205,7 @@
   tags: []
 - name: The Numbers Game
   db_uuid: 40ba8751e355479ab41a9e30ac793c00
+  srgpc_url: https://www.srgpc.net/cards/12/the-numbers-game/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10158,6 +10214,7 @@
   tags: []
 - name: Waist Lock
   db_uuid: 24429fc184d54e268dbff6821e8d8dc1
+  srgpc_url: https://www.srgpc.net/cards/12/waist-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10166,6 +10223,7 @@
   tags: []
 - name: Wreaking Havok
   db_uuid: f450fbc81dc849899050a4a75dddf919
+  srgpc_url: https://www.srgpc.net/cards/12/wreaking-havok/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10181,6 +10239,7 @@
     - 9a58dadddf4d496386cdb4887febeae8
 - name: Wrench Free
   db_uuid: 57e2c43774f74cd9b49e3c46ee9d5461
+  srgpc_url: https://www.srgpc.net/cards/12/wrench-free/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10189,6 +10248,7 @@
   tags: []
 - name: You Can't Cage Me
   db_uuid: b00da4f1238b41b8aece8e4d6c59f894
+  srgpc_url: https://www.srgpc.net/cards/12/you-cant-cage-me/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -33926,6 +33986,7 @@
   tags: []
 - name: Cosmic Revolution
   db_uuid: 365916d3df4a41a28daff7e514519067
+  srgpc_url: https://www.srgpc.net/cards/12/cosmic-revolution/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -34469,4 +34530,44 @@
   play_order: Lead
   deck_card_number: 11
   rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your opponent has in play.
+  tags: []
+- name: Anointed
+  db_uuid: c638775034e248b8a4e34099963be10b
+  srgpc_url: https://www.srgpc.net/cards/12/anointed/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'If you have 3 other Leads in play your opponent''s Gimmick is blank.
+
+    Your minimum handsize is +1 for each Lead you have in play.'
+  tags: []
+- name: Lightning Fast Goozle
+  db_uuid: 7208eefe8417415f93caeeadc90be35d
+  srgpc_url: https://www.srgpc.net/cards/12/lightning-fast-goozle/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'Cannot be stopped by "The Seven Seals". "Derailed" has blank text.
+
+    Your next turn roll is -1 for each other Lead you have in play.'
+  tags: []
+- name: Scratching and Clawing
+  db_uuid: 02cd3e263ef4465098dfcb23407e2293
+  srgpc_url: https://www.srgpc.net/cards/12/scratching-and-clawing/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each other Submission you have in play. The next time your opponent's Gimmick would draw them any number of cards, you draw 2 cards instead.
+  tags: []
+- name: Table? FUHGETTABOUTIT!
+  db_uuid: 91dbacad559d43629b6c2866d0058722
+  srgpc_url: https://www.srgpc.net/cards/12/table-fuhgettaboutit/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each card you have in play with "Table" in the name.
   tags: []

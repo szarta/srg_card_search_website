@@ -19189,6 +19189,7 @@
   tags: []
 - name: Alpaca Slam
   db_uuid: 662a432d1fe84d3288ab055dff4f6021
+  srgpc_url: https://www.srgpc.net/cards/26/alpaca-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19199,6 +19200,7 @@
   tags: []
 - name: Atomic Slam
   db_uuid: b1dfbe3fbfa74d90bc704d3107172329
+  srgpc_url: https://www.srgpc.net/cards/26/atomic-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19211,6 +19213,7 @@
   tags: []
 - name: Attack of the Lucha-Bots!
   db_uuid: fe8f6547ea434a56a176db8839756a3c
+  srgpc_url: https://www.srgpc.net/cards/26/attack-of-the-lucha-bots/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19218,6 +19221,7 @@
   tags: []
 - name: Back Drop
   db_uuid: a9935a93aef04478995a5f815cb7bdba
+  srgpc_url: https://www.srgpc.net/cards/26/back-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19225,6 +19229,7 @@
   tags: []
 - name: Backlash With the Guitar
   db_uuid: c34133affb3944f494e4fca142af69fa
+  srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19232,6 +19237,7 @@
   tags: []
 - name: Backlash With the Steel Chair
   db_uuid: 017b1e1526544759ba955c29b3ae9fa3
+  srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-steel-chair-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19246,6 +19252,7 @@
   tags: []
 - name: Backlash With the Trash Can
   db_uuid: ee4ad97e515c41c3896bbef266d6634f
+  srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-trash-can/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19254,6 +19261,7 @@
 - name: Backslide
   db_uuid: 7549343d055948a489ed68e87f106550
   srg_url: https://supershowthegame.com/product/26-backslide/
+  srgpc_url: https://www.srgpc.net/cards/26/backslide/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19270,6 +19278,7 @@
   tags: []
 - name: Blue Thunder Bomb
   db_uuid: 1964a861b3a642ce9517377a722d72db
+  srgpc_url: https://www.srgpc.net/cards/26/blue-thunder-bomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19277,6 +19286,7 @@
   tags: []
 - name: Boss Toss
   db_uuid: a397c49383af4d25ae65f5403f9d4cb2
+  srgpc_url: https://www.srgpc.net/cards/26/boss-toss/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19287,6 +19297,7 @@
   tags: []
 - name: Break Out
   db_uuid: 2b3b7f1bfd0a431f93df5f4b3f032529
+  srgpc_url: https://www.srgpc.net/cards/26/break-out/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19294,6 +19305,7 @@
   tags: []
 - name: Broken in Half
   db_uuid: ba090aeaeca3476f8c0c1af376fe52f9
+  srgpc_url: https://www.srgpc.net/cards/26/broken-in-half/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19301,6 +19313,7 @@
   tags: []
 - name: Burning Blade
   db_uuid: 013dda2e7b1a419494a982ea6434d622
+  srgpc_url: https://www.srgpc.net/cards/26/burning-blade/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19308,6 +19321,7 @@
   tags: []
 - name: Butterfly Suplex
   db_uuid: 1517fa38945d40749a4a3ccc1de79749
+  srgpc_url: https://www.srgpc.net/cards/26/butterfly-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19315,6 +19329,7 @@
   tags: []
 - name: Catch Cutter
   db_uuid: f82c584a7fe24c748908e736c99ae4b1
+  srgpc_url: https://www.srgpc.net/cards/26/catch-cutter/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19325,6 +19340,7 @@
   tags: []
 - name: Counter Spear
   db_uuid: 8b3febe8f41f4e348931daaafe45dde1
+  srgpc_url: https://www.srgpc.net/cards/26/counter-spear/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19332,6 +19348,7 @@
   tags: []
 - name: Death Stomps
   db_uuid: 026360d7fbd040a6bbdc44fc5518ec17
+  srgpc_url: https://www.srgpc.net/cards/26/death-stomps/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19339,6 +19356,7 @@
   tags: []
 - name: Demolition Suplex
   db_uuid: dcd8d8002c9c48849e25b0cc2a63c591
+  srgpc_url: https://www.srgpc.net/cards/26/demolition-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19346,6 +19364,7 @@
   tags: []
 - name: Devious Drop
   db_uuid: c8e19c3016e6420e985ad7a94c8dd1f7
+  srgpc_url: https://www.srgpc.net/cards/26/devious-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19353,6 +19372,7 @@
   tags: []
 - name: Dirty Tactics
   db_uuid: 88ccf0b256634675ad22a37b06070cc8
+  srgpc_url: https://www.srgpc.net/cards/26/dirty-tactics/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19361,6 +19381,7 @@
   tags: []
 - name: Dodge
   db_uuid: 1664f355451f402d8235a0717a9bb80e
+  srgpc_url: https://www.srgpc.net/cards/26/dodge/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19372,6 +19393,7 @@
 - name: It's Not the Size of the Dog in the Fight
   db_uuid: c083aaa9e96c47ef9dfc25cf6429a35e
   srg_url: https://supershowthegame.com/product/26-its-not-the-size-of-the-dog-in-the-fight/
+  srgpc_url: https://www.srgpc.net/cards/26/its-not-the-size-of-the-dog-in-the-fight/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19382,6 +19404,7 @@
   tags: []
 - name: Dog Collar Throw
   db_uuid: d38a736cf41d466eb51fe10f68b33b95
+  srgpc_url: https://www.srgpc.net/cards/26/dog-collar-throw/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19392,6 +19415,7 @@
   tags: []
 - name: Double Arm Facebuster
   db_uuid: e3c472d899174869b7e0df26a6eb6023
+  srgpc_url: https://www.srgpc.net/cards/26/double-arm-facebuster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19399,6 +19423,7 @@
   tags: []
 - name: Double Leg Bridge
   db_uuid: d2c9a0eae0d84598b25f957477f16755
+  srgpc_url: https://www.srgpc.net/cards/26/double-leg-bridge/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19409,6 +19434,7 @@
   tags: []
 - name: Double Slam
   db_uuid: b36643bde347443a9e1eada19bc9c8d8
+  srgpc_url: https://www.srgpc.net/cards/26/double-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19416,6 +19442,7 @@
   tags: []
 - name: Double Underhook Back Buster
   db_uuid: b64cde3215014233a6ed42e1c882c1ea
+  srgpc_url: https://www.srgpc.net/cards/26/double-underhook-back-buster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19423,6 +19450,7 @@
   tags: []
 - name: Dragon Control
   db_uuid: e087a44c624f425f80cfeb2d3dda3925
+  srgpc_url: https://www.srgpc.net/cards/26/dragon-control/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19430,6 +19458,7 @@
   tags: []
 - name: Dragon-Conrana
   db_uuid: 2b005f024fd349dca5090cc2c0feb855
+  srgpc_url: https://www.srgpc.net/cards/26/dragon-conrana/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19437,6 +19466,7 @@
   tags: []
 - name: Drastic Times
   db_uuid: ac8af13b286c405ba1fb8e9460d3757b
+  srgpc_url: https://www.srgpc.net/cards/26/drastic-times/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19444,6 +19474,7 @@
   tags: []
 - name: Ember's Chicken Wing
   db_uuid: 5a7c8eb6dcd74cf390539892511bf91e
+  srgpc_url: https://www.srgpc.net/cards/26/embers-chicken-wing/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19454,6 +19485,7 @@
   tags: []
 - name: Fallaway Slam
   db_uuid: c26a19d620d54164b5d792f06a9e11c8
+  srgpc_url: https://www.srgpc.net/cards/26/fallaway-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19461,6 +19493,7 @@
   tags: []
 - name: Finishing Off The Buddy Building
   db_uuid: 479919d069a64fd18c98ba9ad2508a03
+  srgpc_url: https://www.srgpc.net/cards/26/finishing-off-the-buddy-building/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19468,6 +19501,7 @@
   tags: []
 - name: Float Over DDT (V1)
   db_uuid: 3c6788ea30704078a5def7008535db3d
+  srgpc_url: https://www.srgpc.net/cards/26/float-over-ddt-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19482,6 +19516,7 @@
   tags: []
 - name: Get That Outta Here!
   db_uuid: 577a2b895993469984ef8d1368770337
+  srgpc_url: https://www.srgpc.net/cards/26/get-that-outta-here/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19489,6 +19524,7 @@
   tags: []
 - name: Grab Hold of the Ropes
   db_uuid: 54beed9a437b488d8768075ce5ce487b
+  srgpc_url: https://www.srgpc.net/cards/26/grab-hold-of-the-ropes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19496,6 +19532,7 @@
   tags: []
 - name: Hyper Skull Knee Drop
   db_uuid: 2ae0611c188441f6b307506b0c1f9148
+  srgpc_url: https://www.srgpc.net/cards/26/hyper-skull-knee-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19503,6 +19540,7 @@
   tags: []
 - name: Make It Rain
   db_uuid: 9404f75d867340f697198594c39d87b9
+  srgpc_url: https://www.srgpc.net/cards/26/make-it-rain/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19515,6 +19553,7 @@
   tags: []
 - name: Mean Muggin'
   db_uuid: e480be814467402bacdefc1368e4eccc
+  srgpc_url: https://www.srgpc.net/cards/26/mean-muggin/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19525,6 +19564,7 @@
   tags: []
 - name: Reverse Piledriver
   db_uuid: bb7e0c037e6a48eda996f626eee702b6
+  srgpc_url: https://www.srgpc.net/cards/26/reverse-piledriver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19532,6 +19572,7 @@
   tags: []
 - name: Roll Through
   db_uuid: c46c1d9c3900428f91150a6aec763cf6
+  srgpc_url: https://www.srgpc.net/cards/26/roll-through/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19539,6 +19580,7 @@
   tags: []
 - name: School Boy
   db_uuid: abfe83415b9f439296c8000f2deda7b1
+  srgpc_url: https://www.srgpc.net/cards/26/school-boy/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19555,6 +19597,7 @@
   tags: []
 - name: Side Effect
   db_uuid: c45b28e6884148e18ae34af2ec3593f2
+  srgpc_url: https://www.srgpc.net/cards/26/side-effect/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19562,6 +19605,7 @@
   tags: []
 - name: Single Leg Slam
   db_uuid: 8c8a08b3e41245f082a2adcdf50d1194
+  srgpc_url: https://www.srgpc.net/cards/26/single-leg-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19569,6 +19613,7 @@
   tags: []
 - name: Slam Into the Ring Post
   db_uuid: 9baeb568fdf3436fb52d04381ab8b963
+  srgpc_url: https://www.srgpc.net/cards/26/slam-into-the-ring-post/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19576,6 +19621,7 @@
   tags: []
 - name: Snap DDT
   db_uuid: 555e5e9756ca4bf19d797bb8b469a0f1
+  srgpc_url: https://www.srgpc.net/cards/26/snap-ddt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19583,6 +19629,7 @@
   tags: []
 - name: Spinning Side Slam (V1)
   db_uuid: c4f12e457c4a4c599eddc5776f510ef0
+  srgpc_url: https://www.srgpc.net/cards/26/spinning-side-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19597,6 +19644,7 @@
   tags: []
 - name: Stretch for the Ropes
   db_uuid: 398866c2b351407e8190f1d40616b5fe
+  srgpc_url: https://www.srgpc.net/cards/26/stretch-for-the-ropes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19604,6 +19652,7 @@
   tags: []
 - name: Stunner
   db_uuid: a866da539394433f89da01547f18007c
+  srgpc_url: https://www.srgpc.net/cards/26/stunner/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19614,6 +19663,7 @@
   tags: []
 - name: Sunset Flip
   db_uuid: 3075cfddb10043ddabf973a8785af7c0
+  srgpc_url: https://www.srgpc.net/cards/26/sunset-flip/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19621,6 +19671,7 @@
   tags: []
 - name: Sunset Flip Powerbomb
   db_uuid: 1818b143f56646f1bab598b6fda08c20
+  srgpc_url: https://www.srgpc.net/cards/26/sunset-flip-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19628,6 +19679,7 @@
   tags: []
 - name: Sweeping Slam (V1)
   db_uuid: 1f3f990844c449979675a48f7b3bcf2f
+  srgpc_url: https://www.srgpc.net/cards/26/sweeping-slam-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19642,6 +19694,7 @@
   tags: []
 - name: Tabletop Monkey Flip
   db_uuid: 80b8e65c50604fb687c248a31f76a47b
+  srgpc_url: https://www.srgpc.net/cards/26/tabletop-monkey-flip/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19649,6 +19702,7 @@
   tags: []
 - name: Taunting Impact Suplex
   db_uuid: 049d8d86b4ea476da0f5e7409d23005b
+  srgpc_url: https://www.srgpc.net/cards/26/taunting-impact-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -19659,6 +19713,7 @@
   tags: []
 - name: Wreckless Throw
   db_uuid: 51226d0467274f92ab71a3f2618dec91
+  srgpc_url: https://www.srgpc.net/cards/26/wreckless-throw/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -36401,4 +36456,57 @@
   rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Grapple.
 
     Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Game-Time Drop
+  db_uuid: a9f9d35d59ec429fb161752b6de961b1
+  srgpc_url: https://www.srgpc.net/cards/26/game-time-drop/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player buries 1 card in their opponent''s discard pile.'
+  tags: []
+- name: Kangin' and Banging
+  db_uuid: 30535ce238334b1c86a91d28ccb09296
+  srgpc_url: https://www.srgpc.net/cards/26/kangin-and-banging/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: Stop any Submission or each player shuffles 1 Grapple from their discard pile into their deck.
+  tags: []
+- name: Steel Chain Pain
+  db_uuid: a5f608e477bb4e39b6c3f7484962e235
+  srgpc_url: https://www.srgpc.net/cards/26/steel-chain-pain/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Discard 1 card your opponent has in play.
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+- name: 'Stunning Potion #82'
+  db_uuid: b7e57f1516e3429d9d70269552233075
+  srgpc_url: https://www.srgpc.net/cards/26/stunning-potion-82/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    The Crowd Meter is considered -1 for all Stop text.'
+  tags: []
+- name: You Won't Boss Me Around
+  db_uuid: 273fc4fd2e9a405b8263274b66574ba0
+  srgpc_url: https://www.srgpc.net/cards/26/you-wont-boss-me-around/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Search your deck for 1 card and add it to your hand.
+
+    You may play 1 additional card this turn.'
   tags: []

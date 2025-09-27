@@ -164,6 +164,7 @@
 - name: Kick (V1)
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
   srg_url: https://supershowthegame.com/product/04-kick/
+  srgpc_url: https://www.srgpc.net/cards/4/kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -2471,6 +2472,7 @@
 - name: Snap Kick
   db_uuid: fd8b036af949412eaacb21be73676450
   srg_url: https://supershowthegame.com/product/04-snap-kick/
+  srgpc_url: https://www.srgpc.net/cards/4/snap-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5047,6 +5049,7 @@
   tags: []
 - name: Taking You To School
   db_uuid: c9587149b6cb43a8ac36ac3c7228e345
+  srgpc_url: https://www.srgpc.net/cards/4/taking-you-to-school/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5055,6 +5058,7 @@
   tags: []
 - name: I Said, "Get Up"
   db_uuid: 9c2645c6f9f042c3b7c052b45fd6d059
+  srgpc_url: https://www.srgpc.net/cards/4/i-said-get-up/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5063,6 +5067,7 @@
   tags: []
 - name: A Boss Photobomb
   db_uuid: ce167537544645cfb8afd41b488824d0
+  srgpc_url: https://www.srgpc.net/cards/4/a-boss-photobomb/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5073,6 +5078,7 @@
   tags: []
 - name: Apocalypse
   db_uuid: c8f2b59005a54db7aa26bacd590fdf31
+  srgpc_url: https://www.srgpc.net/cards/4/apocalypse/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5083,6 +5089,7 @@
   tags: []
 - name: Blast
   db_uuid: a29714e843af4e99a7f6ede717c2892d
+  srgpc_url: https://www.srgpc.net/cards/4/blast/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5093,6 +5100,7 @@
   tags: []
 - name: Body Shot
   db_uuid: 21ee77a5ac6c46e79423be56b57242b5
+  srgpc_url: https://www.srgpc.net/cards/4/body-shot
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5103,6 +5111,7 @@
   tags: []
 - name: Candy Crunch
   db_uuid: 183b17fa96ea49b986ecffbb5cb49ba4
+  srgpc_url: https://www.srgpc.net/cards/4/candy-crunch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5111,6 +5120,7 @@
   tags: []
 - name: Capoeira Kick
   db_uuid: d898f79793e14c3b9c408978c774bed8
+  srgpc_url: https://www.srgpc.net/cards/4/capoeira-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5121,6 +5131,7 @@
   tags: []
 - name: Cosmic Collection
   db_uuid: 83839c46df5d402a8e4346cc33a06ad6
+  srgpc_url: https://www.srgpc.net/cards/4/cosmic-collection/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5133,6 +5144,7 @@
   tags: []
 - name: Double Chop
   db_uuid: 170aac17593046698c9e57979b7cbf78
+  srgpc_url: https://www.srgpc.net/cards/4/double-chop
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5144,6 +5156,7 @@
 - name: Faceplant
   db_uuid: e6b7265842bb465f82fa99fea047c9ee
   srg_url: https://supershowthegame.com/product/04-faceplant/
+  srgpc_url: https://www.srgpc.net/cards/4/faceplant/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5154,6 +5167,7 @@
   tags: []
 - name: Flash Kick
   db_uuid: 0b1ac44c246648778c12b325702c50d5
+  srgpc_url: https://www.srgpc.net/cards/4/flash-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5166,6 +5180,7 @@
   tags: []
 - name: Flip Kick
   db_uuid: 293ff77d792d4b8ea4c0f1c48386c8f9
+  srgpc_url: https://www.srgpc.net/cards/4/flip-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5174,6 +5189,7 @@
   tags: []
 - name: Going Over the Drumstick
   db_uuid: 0f7e1e633d4d41ac8c6d5d3e5fd646b1
+  srgpc_url: https://www.srgpc.net/cards/4/going-over-the-drumstick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5184,6 +5200,7 @@
   tags: []
 - name: Going Over the Kendo Stick
   db_uuid: 60fb564aae5148d9818222d749c32576
+  srgpc_url: https://www.srgpc.net/cards/4/going-over-the-kendo-stick-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5194,6 +5211,7 @@
   tags: []
 - name: Going Over the Ladder
   db_uuid: a75811e7ff374a4db6aaac1548b7fe37
+  srgpc_url: https://www.srgpc.net/cards/4/going-over-the-ladder
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5204,6 +5222,7 @@
   tags: []
 - name: Going Over the Pineapple
   db_uuid: 9176cbad938743ccbe40826618d523ed
+  srgpc_url: https://www.srgpc.net/cards/4/going-over-the-pineapple/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5214,6 +5233,7 @@
   tags: []
 - name: Haymaker Punch
   db_uuid: 52bee32fa1d04c2087aee6235b5b22c9
+  srgpc_url: https://www.srgpc.net/cards/4/haymaker-punch
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5224,6 +5244,7 @@
   tags: []
 - name: Irish Whip
   db_uuid: b63e5896de194b20b676cfa5afc3b1f6
+  srgpc_url: https://www.srgpc.net/cards/4/irish-whip
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5233,6 +5254,7 @@
 - name: Jaw Jacking
   db_uuid: 6325e3456dbd4658b2ad53039b6ed469
   srg_url: https://supershowthegame.com/product/04-jaw-jacking/
+  srgpc_url: https://www.srgpc.net/cards/4/jaw-jacking/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5243,6 +5265,7 @@
   tags: []
 - name: Kawada Kicks
   db_uuid: 6d12ade6f8174adfab963f61d4467b39
+  srgpc_url: https://www.srgpc.net/cards/4/kawada-kicks
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5251,6 +5274,7 @@
   tags: []
 - name: Kick (V2)
   db_uuid: aeda5fdd8c814f599ea38889c81ef3b1
+  srgpc_url: https://www.srgpc.net/cards/4/kick-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5261,6 +5285,7 @@
   tags: []
 - name: Kicks to the Gut
   db_uuid: e6fb4cd801174c2b93fe9e9418c0e8ac
+  srgpc_url: https://www.srgpc.net/cards/4/kicks-to-the-gut
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5269,6 +5294,7 @@
   tags: []
 - name: Meditate
   db_uuid: a80323c57af7429999f35b162d42ce73
+  srgpc_url: https://www.srgpc.net/cards/4/meditate/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5278,6 +5304,7 @@
 - name: Moon Drop
   db_uuid: 6b7c7e6f7cbb4d4ea25789a7a4a4215f
   srg_url: https://supershowthegame.com/product/04-moon-drop/
+  srgpc_url: https://www.srgpc.net/cards/4/moon-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5288,6 +5315,7 @@
   tags: []
 - name: Not Today, Joka!
   db_uuid: 5f965adf98384e7cb8933e585fd2828e
+  srgpc_url: https://www.srgpc.net/cards/4/not-today-joka/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5298,6 +5326,7 @@
   tags: []
 - name: Old School
   db_uuid: fe9458e285ac4322a3e646931880758e
+  srgpc_url: https://www.srgpc.net/cards/4/old-school/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5307,6 +5336,7 @@
 - name: PAX a Punch
   db_uuid: ee229e09a660412ea40e8e11d5863d90
   srg_url: https://supershowthegame.com/product/04-pax-a-punch/
+  srgpc_url: https://www.srgpc.net/cards/4/pax-a-punch-fixed/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5315,6 +5345,7 @@
   tags: []
 - name: Pixel Palace Punch
   db_uuid: c3a0b945c6e844d993f6229d7ad84312
+  srgpc_url: https://www.srgpc.net/cards/4/pixel-palace-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5323,6 +5354,7 @@
   tags: []
 - name: Rivalry Heating Up
   db_uuid: 95c404df2dd54db8b8c1061edd284e75
+  srgpc_url: https://www.srgpc.net/cards/4/rivalry-heating-up/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5331,6 +5363,7 @@
   tags: []
 - name: Running Elbow Smash
   db_uuid: f27ee6a27e334bb194dc7e4d504d2f7c
+  srgpc_url: https://www.srgpc.net/cards/4/running-elbow-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5342,6 +5375,7 @@
 - name: Shotgun Clothesline
   db_uuid: e64cf05368a541a1a5eceddac6804a9a
   srg_url: https://supershowthegame.com/product/04-shotgun-clothesline/
+  srgpc_url: https://www.srgpc.net/cards/4/shotgun-clothesline/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5352,6 +5386,7 @@
   tags: []
 - name: Single Leg Dropkick
   db_uuid: 20476507ef1c40c084d529bd54768995
+  srgpc_url: https://www.srgpc.net/cards/4/single-leg-dropkick
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5360,6 +5395,7 @@
   tags: []
 - name: Skull Smash
   db_uuid: 108ffb6dd61945788d07145250d4653d
+  srgpc_url: https://www.srgpc.net/cards/4/skull-smash
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5370,6 +5406,7 @@
   tags: []
 - name: Slash Into a Trash Can
   db_uuid: 4e1fb95d2d7d4d34b1082ff7de75234e
+  srgpc_url: https://www.srgpc.net/cards/4/slash-into-a-trash-can/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5380,6 +5417,7 @@
   tags: []
 - name: Spin Kick
   db_uuid: e1f168ab92c8495594ecde2ea5b737c4
+  srgpc_url: https://www.srgpc.net/cards/4/spin-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5388,6 +5426,7 @@
   tags: []
 - name: Spinning Thrust Kick
   db_uuid: 40162b81318e4c0ab8ad15cdd920c5dd
+  srgpc_url: https://www.srgpc.net/cards/4/spinning-thrust-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5398,6 +5437,7 @@
   tags: []
 - name: Standing Senton
   db_uuid: 714aa64211834a5f832859c9886c23e4
+  srgpc_url: https://www.srgpc.net/cards/4/standing-senton/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5408,6 +5448,7 @@
   tags: []
 - name: Steel-Tipped Boot (V1)
   db_uuid: ddc034caeb6e401ba27c871da492c4fc
+  srgpc_url: https://www.srgpc.net/cards/4/steel-tipped-boot-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5428,6 +5469,7 @@
   tags: []
 - name: Swift Kick
   db_uuid: 1be86865aa974ea09695b647486e6e62
+  srgpc_url: https://www.srgpc.net/cards/4/swift-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5438,6 +5480,7 @@
   tags: []
 - name: Swinging Elbow
   db_uuid: 32f37321978341e8ae714b9946a68d36
+  srgpc_url: https://www.srgpc.net/cards/4/swinging-elbow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5446,6 +5489,7 @@
   tags: []
 - name: Thigh Kick
   db_uuid: d6cc154d296c4d649a564d270810a15b
+  srgpc_url: https://www.srgpc.net/cards/4/thigh-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5454,6 +5498,7 @@
   tags: []
 - name: Thumb to the Eye
   db_uuid: 89f8067473014d94a009ea8b77b5f8b8
+  srgpc_url: https://www.srgpc.net/cards/4/thumb-to-the-eye/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5464,6 +5509,7 @@
   tags: []
 - name: Toothbrush Smash of Shinyness
   db_uuid: f4720c74e12f45928e12e1eccdfd055f
+  srgpc_url: https://www.srgpc.net/cards/4/toothbrush-smash-of-shinyness/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5474,6 +5520,7 @@
   tags: []
 - name: Tornado Kick
   db_uuid: a9198188719949a68fa6cbcdc693e318
+  srgpc_url: https://www.srgpc.net/cards/4/tornado-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -5484,6 +5531,7 @@
   tags: []
 - name: Twisting Lash
   db_uuid: 448f1b0759cc4c4b8b816b80a7218be4
+  srgpc_url: https://www.srgpc.net/cards/4/twisting-lash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -33613,4 +33661,90 @@
   rules_text: 'If you roll Grapple for your Finish roll, it is +1.
 
     If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
+  tags: []
+- name: Chop The Back Of The Head
+  db_uuid: b5eae2db374c4b898d10241588b42307
+  srgpc_url: https://www.srgpc.net/cards/4/chop-the-back-of-the-head/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Cannot be stopped by Skill Requirement cards.
+
+    Look at your opponent''s hand, choose 1 Follow Up Grapple and discard it.'
+  tags: []
+- name: Dive To The Outside
+  db_uuid: 7705581120874fbda218552ab8172ff5
+  srgpc_url: https://www.srgpc.net/cards/4/dive-to-the-outside/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.
+
+    Shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Double Chin Music
+  db_uuid: 7b3784e7a56f4297b608a61b4eb89bcc
+  srgpc_url: https://www.srgpc.net/cards/4/double-chin-music/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Stop any Follow Up Grapple.
+
+    This card counts as 2 Lead Strikes in play.'
+  tags: []
+- name: Flash Of Lightning
+  db_uuid: 38404f85e1094dd2876ea74d4a53b88b
+  srgpc_url: https://www.srgpc.net/cards/4/flash-of-lightning/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Cannot be stopped by Skill Requirement cards.
+
+    Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
+  tags: []
+- name: Leg Lariat
+  db_uuid: 1677c8c12ec548fd8cdc4a69775d3014
+  srgpc_url: https://www.srgpc.net/cards/4/leg-lariat/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Stop any Follow Up Grapple. Draw 1 card.
+
+    Your next turn roll is +2.'
+  tags: []
+- name: Splitting Up-Bird Cut
+  db_uuid: 51d9f503d8b74162a1c3183fc76c97ba
+  srgpc_url: https://www.srgpc.net/cards/4/splitting-up-bird-cut/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Cannot be stopped by Skill Requirement cards.
+
+    Look at your opponent''s hand. Choose 1 Follow Up Submission and discard it.'
+  tags: []
+- name: The Time Is Now
+  db_uuid: 069fc1cb920242f1969650af76606415
+  srgpc_url: https://www.srgpc.net/cards/4/the-time-is-now/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: Search your deck or discard pile for a skill requirement card and add it to your hand.
+  tags: []
+- name: Wonderful Muggin'
+  db_uuid: 15f9445d98314f3b83d28e30d2a9bf56
+  srgpc_url: https://www.srgpc.net/card/4/wonderful-muggin/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Flip cards until you flip a Strike, add that Strike to your hand.'
   tags: []

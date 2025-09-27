@@ -36623,6 +36623,8 @@
 
     Your opponent''s breakout rolls are +1 for each Skill Requirement card they have in play.'
   tags: []
+  related_cards:
+    - 992dac94fa8944afab7d4ac757df2944
 - name: Dropple-Ganger
   db_uuid: 68d9d4bf73654a46a9da169e4f1676fb
   card_type: MainDeckCard
@@ -36637,6 +36639,8 @@
 
     Copy the text of a Skill Requirement card in your opponent''s discard pile until the end of the turn.'
   tags: []
+  related_cards:
+    - 992dac94fa8944afab7d4ac757df2944
 - name: Treasure Trap
   db_uuid: 9a78c09e97a34569bd49c08839171c8c
   card_type: MainDeckCard
@@ -36650,4 +36654,16 @@
     Your opponent gets 2 breakout rolls this turn.
 
     Your opponent gets 1 additional breakout roll for each Skill Requirement card they have in play.'
+  tags: []
+  related_cards:
+    - 992dac94fa8944afab7d4ac757df2944
+- name: Fire Hammer Slam
+  db_uuid: 94c2903feafa44089dc0a3af51d7569e
+  srg_url: https://supershowthegame.com/product/20-fire-hammer-slam/
+  srgpc_url: https://www.srgpc.net/cards/20/fire-hammer-slam/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: Your Agility is +2 during your turn.
   tags: []

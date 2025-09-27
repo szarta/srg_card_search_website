@@ -1935,6 +1935,7 @@
 - name: Head Crush (V1)
   db_uuid: 28a1382196f34df6a8a7fe881c707e86
   srg_url: https://supershowthegame.com/product/09-head-crush/
+  srgpc_url: https://www.srgpc.net/cards/9/head-crush-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -2271,6 +2272,7 @@
 - name: Strength in Numbers (V1)
   db_uuid: bd478dc1d8d94eaeb45e9fd6bda6222c
   srg_url: https://supershowthegame.com/product/09-strength-in-numbers/
+  srgpc_url: https://www.srgpc.net/cards/9/strength-in-numbers-power/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -2429,6 +2431,7 @@
 - name: Hype the Crowd
   db_uuid: d49c7aed65a44b8d93e9be0bc0167691
   srg_url: https://supershowthegame.com/product/09-hype-the-crowd/
+  srgpc_url: https://www.srgpc.net/cards/9/hype-the-crowd/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7846,6 +7849,7 @@
   tags: []
 - name: 2 Handed Grab
   db_uuid: 6e278d01a7cc4b8f8ff155be9e747cff
+  srgpc_url: https://www.srgpc.net/cards/9/a-punchers-chance/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7855,6 +7859,7 @@
 - name: The King's Gambit
   db_uuid: 652f58d1a6304da1892f117cede1834f
   srg_url: https://supershowthegame.com/product/09-the-kings-gambit/
+  srgpc_url: https://www.srgpc.net/cards/9/the-kings-gambit/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7873,6 +7878,7 @@
   tags: []
 - name: All American Hold
   db_uuid: a652df7beeb643d788dd143654f3af9f
+  srgpc_url: https://www.srgpc.net/cards/9/all-american-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7881,6 +7887,7 @@
   tags: []
 - name: An Iconic Performance
   db_uuid: 77dff7f6cedd4f498acb13676570c4d2
+  srgpc_url: https://www.srgpc.net/cards/9/an-iconic-performance/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7891,6 +7898,7 @@
   tags: []
 - name: Apply Pressure
   db_uuid: e51caa2e9db64eb9bf0f2fc2b2e124cd
+  srgpc_url: https://www.srgpc.net/cards/9/apply-pressure/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7899,6 +7907,7 @@
   tags: []
 - name: Arm Buster
   db_uuid: 60016e6dbe27473f90cdf28cd9a63579
+  srgpc_url: https://www.srgpc.net/cards/9/arm-buster/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7909,6 +7918,7 @@
   tags: []
 - name: Arm Wringer
   db_uuid: 5b1951fddca84ba89c8eaadf26a0c2f4
+  srgpc_url: https://www.srgpc.net/cards/9/arm-wringer/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7918,6 +7928,7 @@
 - name: Armoured Aggression
   db_uuid: 3b5759d1c8034824b9a06502f7840a21
   srg_url: https://supershowthegame.com/product/09-armoured-aggression/
+  srgpc_url: https://www.srgpc.net/cards/9/armoured-aggression/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7926,6 +7937,7 @@
   tags: []
 - name: Atomic Chicken Wing
   db_uuid: e17735b32e0c49eb80e8fe142130d920
+  srgpc_url: https://www.srgpc.net/cards/9/atomic-chicken-wing/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7936,6 +7948,7 @@
   tags: []
 - name: Brainwashed
   db_uuid: 28e5071b77104535936cc2f0adfa2af8
+  srgpc_url: https://www.srgpc.net/cards/9/brainwashed/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7944,6 +7957,7 @@
   tags: []
 - name: Cauldron Boil
   db_uuid: cbcf33b4c4ec4f219e653eef4a7d6fb9
+  srgpc_url: https://www.srgpc.net/cards/9/cauldron-boil/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7952,6 +7966,7 @@
   tags: []
 - name: Chicken Wing Cutter
   db_uuid: c7fe80e54d7e400cbbb15d933ad678ad
+  srgpc_url: https://www.srgpc.net/cards/9/chicken-wing-cutter/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7960,6 +7975,7 @@
   tags: []
 - name: Chin Wrenching
   db_uuid: 8c5e9405027444abba10eb876065ab76
+  srgpc_url: https://www.srgpc.net/cards/9/chin-wrenching/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -7970,6 +7986,7 @@
   tags: []
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V1)
   db_uuid: f7c98b41634a4272be29f4bf8a37bc9f
+  srgpc_url: https://www.srgpc.net/cards/9/chugga-chugga-chugga-chugga-chugga-chugga-chug-submission/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8000,6 +8017,7 @@
   tags: []
 - name: Cosmic Clutch
   db_uuid: 657f6abc1eaa48ac9f9d9abf048c8cff
+  srgpc_url: https://www.srgpc.net/cards/9/cosmic-clutch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8008,6 +8026,7 @@
   tags: []
 - name: Desperate Times
   db_uuid: 6b1e226730b34f5f9a1a8a109a357498
+  srgpc_url: https://www.srgpc.net/cards/9/desperate-times/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8016,6 +8035,7 @@
   tags: []
 - name: Duck the Clothesline
   db_uuid: 7d535e18c31044109c26c411dd1eb248
+  srgpc_url: https://www.srgpc.net/cards/9/duck-the-clothesline/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8024,6 +8044,7 @@
   tags: []
 - name: Epic Stare Down
   db_uuid: d6eaaa3aee034420ac002429caa57b5b
+  srgpc_url: https://www.srgpc.net/cards/9/epic-stare-down/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8036,6 +8057,7 @@
   tags: []
 - name: 'Escape Potion #9'
   db_uuid: a695ccc133714ed6aaa1caaefa61705f
+  srgpc_url: https://www.srgpc.net/cards/9/escape-potion-9-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8048,6 +8070,7 @@
   tags: []
 - name: Embossed Steel Surfboard
   db_uuid: 4bc64c5f6d124047b23ace96346ebd49
+  srgpc_url: https://www.srgpc.net/cards/9/embossed-steel-surfboard/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8058,6 +8081,7 @@
   tags: []
 - name: Eye Rake
   db_uuid: e9a79ab3491c43918784474d50dbd2be
+  srgpc_url: https://www.srgpc.net/cards/9/eye-rake/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8066,6 +8090,7 @@
   tags: []
 - name: Face Lift
   db_uuid: b78ef94a0e9a42a2baabc9a13cb28318
+  srgpc_url: https://www.srgpc.net/cards/9/face-lift/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8074,6 +8099,7 @@
   tags: []
 - name: Face Stretch
   db_uuid: 47cc8051aa3143d1b878aebb2c832e24
+  srgpc_url: https://www.srgpc.net/cards/9/face-stretch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8082,6 +8108,7 @@
   tags: []
 - name: Face Wash
   db_uuid: 59b26ebd2474414c9ee828eae7e49366
+  srgpc_url: https://www.srgpc.net/cards/9/face-wash/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8092,6 +8119,7 @@
   tags: []
 - name: Feeding Off the Crowd
   db_uuid: d928a2ccf4684c40a29a84a071a4361b
+  srgpc_url: https://www.srgpc.net/cards/9/feeding-off-the-crowd/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8100,6 +8128,7 @@
   tags: []
 - name: Front Chancery
   db_uuid: 0bbaac4c54de40f7ac3f9130002f7a1e
+  srgpc_url: https://www.srgpc.net/cards/9/front-chancery/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8109,6 +8138,7 @@
 - name: Fuhgeddaboutit! (#9)
   db_uuid: 54db55e6280c4c4fbf3c84f79b8feaed
   srg_url: https://supershowthegame.com/product/09-fuhgeddaboutit/
+  srgpc_url: https://www.srgpc.net/cards/9/fuhgeddaboutit/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8117,6 +8147,7 @@
   tags: []
 - name: Funtime Hold
   db_uuid: 528b9e85accc46998b61d05d6437bbe7
+  srgpc_url: https://www.srgpc.net/cards/9/funtime-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8125,6 +8156,7 @@
   tags: []
 - name: Gory Special
   db_uuid: 8733b466902d47989b8efd3f987443dd
+  srgpc_url: https://www.srgpc.net/cards/9/gory-special/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8143,6 +8175,7 @@
   tags: []
 - name: Head Scratch
   db_uuid: 5435de8327e444a18766400c061855e8
+  srgpc_url: https://www.srgpc.net/cards/9/head-scratch
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8151,6 +8184,7 @@
   tags: []
 - name: Headlock Punch
   db_uuid: 062cb708a6264889a02ee9442285a965
+  srgpc_url: https://www.srgpc.net/cards/9/headlock-punch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8161,6 +8195,7 @@
   tags: []
 - name: Heat from the Crowd
   db_uuid: 77205186f54d4e46baea16a7d79352fd
+  srgpc_url: https://www.srgpc.net/cards/9/heat-from-the-crowd/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8171,6 +8206,7 @@
   tags: []
 - name: Hoagie Sandwich
   db_uuid: 82b2e7f07460497a9a0c87a8792de2f9
+  srgpc_url: https://www.srgpc.net/cards/9/hoagie-sandwhich/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8181,6 +8217,7 @@
   tags: []
 - name: Land on Generic Building Blocks
   db_uuid: 0ab6ce462a724703909497420b6700b0
+  srgpc_url: https://www.srgpc.net/cards/9/land-on-generic-building-blocks/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8191,6 +8228,7 @@
   tags: []
 - name: Listen Up, Jack!
   db_uuid: 5627f5f8aa8042788689f1eb8bf17e8f
+  srgpc_url: https://www.srgpc.net/cards/9/listen-up-jack/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8202,6 +8240,7 @@
 - name: Microphone Uprising
   db_uuid: 049e834436de44d0baad9dc64f1e63f1
   srg_url: https://supershowthegame.com/product/09-microphone-uprising/
+  srgpc_url: https://www.srgpc.net/cards/9/microphone-uprising/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8212,6 +8251,7 @@
   tags: []
 - name: Norwegian Scapegoat Slam
   db_uuid: 3bc5207b590944acb9fa934e45c1084c
+  srgpc_url: https://www.srgpc.net/cards/9/norwegian-scapegoat-slam/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8222,6 +8262,7 @@
   tags: []
 - name: Pendulum Swing
   db_uuid: f655cee6c8a74860aae14830cdd5ecdb
+  srgpc_url: https://www.srgpc.net/cards/9/pendulum-swing/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8232,6 +8273,7 @@
   tags: []
 - name: Restoration Hand Shake
   db_uuid: ed6069fb980543e99c81de6e935d39e1
+  srgpc_url: https://www.srgpc.net/cards/9/restoration-hand-shake
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8242,6 +8284,7 @@
   tags: []
 - name: Ricotta
   db_uuid: 0de665b84ce14f99ab7b31b376793793
+  srgpc_url: https://www.srgpc.net/cards/9/ricotta/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8252,6 +8295,7 @@
   tags: []
 - name: Ring Step Uprising
   db_uuid: a16ae04068a54523aa0d868abfe9b8d7
+  srgpc_url: https://www.srgpc.net/cards/9/ring-step-uprising/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8262,6 +8306,7 @@
   tags: []
 - name: Rolling Headlock
   db_uuid: 0d8a3553822c4eab9b3ff8a52022a152
+  srgpc_url: https://www.srgpc.net/cards/9/rolling-headlock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8272,6 +8317,7 @@
   tags: []
 - name: Second Wind (V1)
   db_uuid: 70a21e643efe41ffbf9bf52ce9ad50af
+  srgpc_url: https://www.srgpc.net/cards/9/second-wind-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8290,6 +8336,7 @@
   tags: []
 - name: Sheep Uprising
   db_uuid: 5d643b7d2d454745b013bc219645d36f
+  srgpc_url: https://www.srgpc.net/cards/9/sheep-uprising/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8300,6 +8347,7 @@
   tags: []
 - name: Sledgehammer Uprising
   db_uuid: 149c47939a5d4cfdb06c89f233503e7f
+  srgpc_url: https://www.srgpc.net/cards/9/sledgehammer-uprising/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8310,6 +8358,7 @@
   tags: []
 - name: Spit Fire Chariot
   db_uuid: 0be595fb7e6e4f96a766d8bbdbb28f10
+  srgpc_url: https://www.srgpc.net/cards/9/spit-fire-chariot/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8318,6 +8367,7 @@
   tags: []
 - name: Split Finger Gouge
   db_uuid: 2c58faca0e2849c4b66c27d3ad1e23d8
+  srgpc_url: https://www.srgpc.net/cards/9/split-finger-gouge/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8326,6 +8376,7 @@
   tags: []
 - name: Split Finger Lock
   db_uuid: f97411cc94ec4df58f62c88cf22f774e
+  srgpc_url: https://www.srgpc.net/cards/9/split-finger-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8334,6 +8385,7 @@
   tags: []
 - name: Stare Down
   db_uuid: f09fbf28f99c433ea44a384fbabdcac1
+  srgpc_url: https://www.srgpc.net/cards/9/stare-down/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8342,6 +8394,7 @@
   tags: []
 - name: Steel Chain Uprising
   db_uuid: e5785a492a5e46309b67496fb208b206
+  srgpc_url: https://www.srgpc.net/cards/9/steel-chain-uprising/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8358,6 +8411,7 @@
   tags: []
 - name: Stretch Plum
   db_uuid: 8e0956d66b7540a4ba9e00b72bcd322c
+  srgpc_url: https://www.srgpc.net/cards/9/stretch-plum/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8366,6 +8420,7 @@
   tags: []
 - name: Submerge
   db_uuid: 89b7a3de1c354c20b2732998a1a7afd2
+  srgpc_url: https://www.srgpc.net/cards/9/submerge/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8376,6 +8431,7 @@
   tags: []
 - name: Taunting Choke Hold (V1)
   db_uuid: b4e6aeef7f544376a817f0f80a9d9578
+  srgpc_url: https://www.srgpc.net/cards/9/taunting-choke-hold-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8392,6 +8448,7 @@
   tags: []
 - name: Took it on the Chin! (#9)
   db_uuid: dcb477d7149d4651b1483463c46357d5
+  srgpc_url: https://www.srgpc.net/cards/9/took-it-on-the-chin/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8402,6 +8459,7 @@
   tags: []
 - name: Twisting Wrist Burn
   db_uuid: e19bdf66f7af46c88c6560760815bfea
+  srgpc_url: https://www.srgpc.net/cards/9/twisting-wrist-burn/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8412,6 +8470,7 @@
   tags: []
 - name: Two-Handed Choke
   db_uuid: 15c337c9832945589a3a51c3725a8e98
+  srgpc_url: https://www.srgpc.net/cards/9/two-handed-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8422,6 +8481,7 @@
   tags: []
 - name: Vice Grip
   db_uuid: 7b6cf36ec3224d3fa0a57d13443547a0
+  srgpc_url: https://www.srgpc.net/cards/9/vice-grip/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8433,6 +8493,7 @@
 - name: Wrist Lock (V1)
   db_uuid: 7b85fc98888f4c2fb9e61e6f9e79897a
   srg_url: https://supershowthegame.com/product/09-wrist-lock/
+  srgpc_url: https://www.srgpc.net/cards/9/wrist-lock-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -8450,6 +8511,7 @@
 - name: You've Been Naughty (V3)
   db_uuid: 69294cf1fc414d418efdb6dedf54251b
   srg_url: https://supershowthegame.com/product/09-youve-been-naughty/
+  srgpc_url: https://www.srgpc.net/cards/9/youve-been-naughty/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -34153,4 +34215,46 @@
   rules_text: 'Randomly choose 2 cards in your discard pile, add 1 of those to your hand.
 
     When this card is discarded from play for a Breakout, your opponent randomly discards 1 card from their hand.'
+  tags: []
+- name: Back Shots Off the Table
+  db_uuid: 72b0a6a2732b4fa18b97d8d87de93a49
+  srgpc_url: https://www.srgpc.net/cards/9/back-shots-off-the-table/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Search your deck for 1 card with "Table" in the name, add it to your hand or each player buries 1 card in their hand.
+  tags: []
+- name: Fin Uprising
+  db_uuid: e341d32db41249a1b70edb8cc8e60de2
+  srgpc_url: https://www.srgpc.net/cards/9/fin-uprising/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Add 1 card with "Fin" in the name from your discard pile to your hand.
+
+    Your opponent cannot move this card from in play.'
+  tags: []
+- name: I Hear Sheep Voices in My Head
+  db_uuid: d9854fb647f642ed89480d1fea9cb515
+  srgpc_url: https://www.srgpc.net/cards/9/i-hear-sheep-voices-in-my-head/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Randomly add a Finish from your discard pile to your hand.
+
+    When this card is discarded from play for a Breakout, draw 1 card.'
+  tags: []
+- name: Un-American Backstabbers
+  db_uuid: 46520c870bcc478a90ba45af68c548e3
+  srgpc_url: https://www.srgpc.net/cards/9/un-american-backstabbers/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Put up to 3 Finishes from your discard pile on top of your deck.
+
+    If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
   tags: []

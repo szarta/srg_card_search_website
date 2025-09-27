@@ -2560,6 +2560,7 @@
 - name: The Seven Seals
   db_uuid: 9a58dadddf4d496386cdb4887febeae8
   srg_url: https://supershowthegame.com/product/14-the-seven-seals/
+  srgpc_url: https://www.srgpc.net/cards/14/the-seven-seals/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11089,6 +11090,7 @@
   tags: []
 - name: Al13n Boot Drop
   db_uuid: fe6c2777a7e249438a2842f9c888d685
+  srgpc_url: https://www.srgpc.net/cards/14/al13n-boot-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11099,6 +11101,7 @@
   tags: []
 - name: Alvin the Cat's Lucky Day
   db_uuid: 2fa0d8c8f2ae42e293857461e2a93785
+  srgpc_url: https://www.srgpc.net/cards/14/alvin-the-cats-lucky-day/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11111,6 +11114,7 @@
   tags: []
 - name: Atomic Drop (V1)
   db_uuid: 90bf8b8280304b5680ad2d1b6119a70e
+  srgpc_url: https://www.srgpc.net/cards/14/atomic-drop-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11131,6 +11135,7 @@
   tags: []
 - name: Back Body Drop (V1)
   db_uuid: 6ecacd4579324ccd8a20bdedd6c6eeec
+  srgpc_url: https://www.srgpc.net/cards/14/back-body-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11152,6 +11157,7 @@
 - name: Sheep, Kneel Before My Big American Sledgehammer
   db_uuid: dfc0ec76bf344acf9cde547f1c36c04b
   srg_url: https://supershowthegame.com/product/14-sheep-kneel-before-my-big-american-sledgehammer/
+  srgpc_url: https://www.srgpc.net/card/14/sheep-kneel-before-my-big-american-sledgehammer/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11163,6 +11169,7 @@
 - name: Throw Into the Turnbuckle
   db_uuid: 62f6c71adda247b2bd554b946f704932
   srg_url: https://supershowthegame.com/product/14-throw-into-the-turnbuckle-dojo-unlocked-from-gp2/
+  srgpc_url: https://www.srgpc.net/cards/14/throw-into-the-turnbuckle/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11173,6 +11180,7 @@
   tags: []
 - name: Back in the Saddle
   db_uuid: 1dff164b85c54cdba8366cdf85d5bdea
+  srgpc_url: https://www.srgpc.net/cards/14/back-in-the-saddle/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11183,6 +11191,7 @@
   tags: []
 - name: Bulldog Buster
   db_uuid: 8a8b06a8c2934804880c2c7b64e9c618
+  srgpc_url: https://www.srgpc.net/cards/14/bulldog-buster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11192,6 +11201,7 @@
 - name: Catch And Slam
   db_uuid: 2972c56539d14f16b64c03b2f2d99b9b
   srg_url: https://supershowthegame.com/product/14-catc-hand-slam/
+  srgpc_url: https://www.srgpc.net/cards/14/catch-and-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11200,6 +11210,7 @@
   tags: []
 - name: Catch the Guitar
   db_uuid: 8a675981d5b04d71831a8f0e9568d87b
+  srgpc_url: https://www.srgpc.net/cards/14/catch-the-guitar/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11210,6 +11221,7 @@
   tags: []
 - name: Catch the Ropes
   db_uuid: 3aebaea664064346b166bff127e16ffc
+  srgpc_url: https://www.srgpc.net/cards/14/catch-the-ropes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11238,6 +11250,7 @@
   tags: []
 - name: Colossal Smash
   db_uuid: 481837b6748045d6a46e524d24c2824a
+  srgpc_url: https://www.srgpc.net/cards/14/colossal-smash/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11248,6 +11261,7 @@
   tags: []
 - name: Corner Snake Eyes
   db_uuid: 353c577e950b40e48cde04d6198a46a3
+  srgpc_url: https://www.srgpc.net/cards/14/corner-snake-eyes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11256,6 +11270,7 @@
   tags: []
 - name: Cradle Driver
   db_uuid: 4c6eee36007542309403aed4065a3518
+  srgpc_url: https://www.srgpc.net/cards/14/cradle-piledriver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11274,6 +11289,7 @@
   tags: []
 - name: Dangerous Slam
   db_uuid: aae536d617944eb8aff4133f0bcc5e47
+  srgpc_url: https://www.srgpc.net/cards/14/dangerous-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11284,6 +11300,7 @@
   tags: []
 - name: Dangerous Suplex
   db_uuid: b5001c5af3ca4df39a38f6914b068d7e
+  srgpc_url: https://www.srgpc.net/cards/14/dangerous-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11294,6 +11311,7 @@
   tags: []
 - name: DDT
   db_uuid: 226b283843d6423cabe6fa55cfa038ae
+  srgpc_url: https://www.srgpc.net/cards/14/ddt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11302,6 +11320,7 @@
   tags: []
 - name: Delayed Atomic Drop
   db_uuid: bc0fd01e83ca4e4a9116a5b7e17e29ee
+  srgpc_url: https://www.srgpc.net/cards/14/delayed-atomic-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11310,6 +11329,7 @@
   tags: []
 - name: Deranger
   db_uuid: df08d68cf0d141f199fffd6ade89ae5b
+  srgpc_url: https://www.srgpc.net/cards/14/deranger/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11320,6 +11340,7 @@
   tags: []
 - name: Diamond Dust
   db_uuid: 7ee57f08f2954f8fb03d1cfbafd45015
+  srgpc_url: https://www.srgpc.net/cards/14/diamond-dust/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11328,6 +11349,7 @@
   tags: []
 - name: Elevated Backbreaker
   db_uuid: 6919e619862d4a9aa42ed1af1447e32f
+  srgpc_url: https://www.srgpc.net/cards/14/elevated-backbreaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11336,6 +11358,7 @@
   tags: []
 - name: En Garde Touché
   db_uuid: d6b4211ddc104b0fac312ab4ca802c6a
+  srgpc_url: https://www.srgpc.net/cards/14/en-garde-touche/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11344,6 +11367,7 @@
   tags: []
 - name: Faceplant Piledriver
   db_uuid: 3ce9b52b3b2a405db8ea055d11afc6d2
+  srgpc_url: https://www.srgpc.net/cards/14/faceplant-piledriver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11356,6 +11380,7 @@
   tags: []
 - name: Falling Powerslam
   db_uuid: 22ce4c4eb4f14b6cae463afced6d8b32
+  srgpc_url: https://www.srgpc.net/cards/14/flipping-powerslam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11364,6 +11389,7 @@
   tags: []
 - name: Fisherman Suplex
   db_uuid: 1fcdaa5ac7814c0a97dcb2288e2e385b
+  srgpc_url: https://www.srgpc.net/cards/14/fisherman-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11376,6 +11402,7 @@
   tags: []
 - name: Flapjack
   db_uuid: a476aa4ac98a4100a617b1cb847d6502
+  srgpc_url: https://www.srgpc.net/cards/14/flapjack/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11396,6 +11423,7 @@
   tags: []
 - name: Guitar Takeover
   db_uuid: ff5660b17ba04df5b9a0ee15defb04dd
+  srgpc_url: https://www.srgpc.net/cards/14/guitar-takeover/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11406,6 +11434,7 @@
   tags: []
 - name: Head Scissor Takedown
   db_uuid: 80f1be665cd44eb28b47fc7306fe5911
+  srgpc_url: https://www.srgpc.net/cards/14/head-scissor-takedown/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11414,6 +11443,7 @@
   tags: []
 - name: Heel Sweep
   db_uuid: 490e65a4366e45c3aa27395ffe5dc2f6
+  srgpc_url: https://www.srgpc.net/cards/14/heel-sweep/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11422,6 +11452,7 @@
   tags: []
 - name: High On Fire
   db_uuid: 1bd61b910dab4bae91470dd7478edddf
+  srgpc_url: https://www.srgpc.net/cards/14/high-on-fire/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11433,6 +11464,7 @@
 - name: Inside Cradle (V1)
   db_uuid: cf6935579ba4415e82abc18da238f1c4
   srg_url: https://supershowthegame.com/product/14-inside-cradle/
+  srgpc_url: https://www.srgpc.net/cards/14/inside-cradle-2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11463,6 +11495,7 @@
     - 3994f5c4852b46f48b7f9af1827ff4fa
 - name: Leaping Slices
   db_uuid: 8fe4b7ce901847aca62919eb365637ac
+  srgpc_url: https://www.srgpc.net/cards/14/leaping-slices/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11471,6 +11504,7 @@
   tags: []
 - name: Leg Scissor Sweep
   db_uuid: 387c5596a8294dc698020cd8460a2602
+  srgpc_url: https://www.srgpc.net/cards/14/leg-scissor-sweep/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11479,6 +11513,7 @@
   tags: []
 - name: Legendary Acknowledgement
   db_uuid: 2696dc834d5e42daa19d96942fbbdd12
+  srgpc_url: https://www.srgpc.net/cards/14/legendary-acknowledgement/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11489,6 +11524,7 @@
   tags: []
 - name: Level Up Apron Driver
   db_uuid: 91c66b827c774fb2b1cfcc68c430b723
+  srgpc_url: https://www.srgpc.net/cards/14/level-up-apron-driver
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11497,6 +11533,7 @@
   tags: []
 - name: Limit Break
   db_uuid: 5b460bf5513a4c1a8f41d94a5dce5f79
+  srgpc_url: https://www.srgpc.net/cards/14/limit-break/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11507,6 +11544,7 @@
   tags: []
 - name: Lower Lumbar Buster
   db_uuid: 3a097daa7f88462d9dba04f46c112486
+  srgpc_url: https://www.srgpc.net/cards/14/lower-lumbar-buster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11515,6 +11553,7 @@
   tags: []
 - name: Lumbar Breaker
   db_uuid: feeaf7eaf73f47618bd94f8549cff5ae
+  srgpc_url: https://www.srgpc.net/cards/14/lumbar-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11525,6 +11564,7 @@
   tags: []
 - name: Melee Attack
   db_uuid: 76186c6796854d6295e388440ce50a87
+  srgpc_url: https://www.srgpc.net/cards/14/melee-attack/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11535,6 +11575,7 @@
   tags: []
 - name: Oklahoma Stampede (V1)
   db_uuid: d45705f3ea974566b7a5f1b853184e38
+  srgpc_url: https://www.srgpc.net/cards/14/oklahoma-stampede-power/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11559,6 +11600,7 @@
   tags: []
 - name: Overhead Suplex
   db_uuid: 8b0c213505e84300820787965d4f7b36
+  srgpc_url: https://www.srgpc.net/cards/14/overhead-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11569,6 +11611,7 @@
   tags: []
 - name: Power Breaker
   db_uuid: 9d914e3bfff2443abd5597980cf8c503
+  srgpc_url: https://www.srgpc.net/cards/14/power-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11579,6 +11622,7 @@
   tags: []
 - name: Pull Down the Ropes
   db_uuid: 30bf8aad2264401fb07376bc982dab12
+  srgpc_url: https://www.srgpc.net/cards/14/pull-down-the-ropes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11591,6 +11635,7 @@
   tags: []
 - name: Radical Bomb
   db_uuid: d9e11573cc9443d1ac7f112d829d70cb
+  srgpc_url: https://www.srgpc.net/cards/14/radical-bomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11601,6 +11646,7 @@
   tags: []
 - name: Rib Breaker
   db_uuid: 8f00165679c04a4c8580099701c7f978
+  srgpc_url: https://www.srgpc.net/cards/14/rib-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11611,6 +11657,7 @@
   tags: []
 - name: Running Suplex
   db_uuid: 26cfd0d44eb74f748d7af6c624505cbe
+  srgpc_url: https://www.srgpc.net/cards/14/running-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11623,6 +11670,7 @@
   tags: []
 - name: Samoan Driver
   db_uuid: 17e2e79d0be0418aa3e23b341dd70bd3
+  srgpc_url: https://www.srgpc.net/cards/14/samoan-driver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11631,6 +11679,7 @@
   tags: []
 - name: Sidewalk Slam
   db_uuid: fecbc4e795b64f4fa2dfede88382b4cd
+  srgpc_url: https://www.srgpc.net/cards/14/sidewalk-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11639,6 +11688,7 @@
   tags: []
 - name: Slingshot Slam
   db_uuid: 7f9b6122e52a47f2aaf8e39f200694a3
+  srgpc_url: https://www.srgpc.net/cards/14/slingshot-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11649,6 +11699,7 @@
   tags: []
 - name: Smashing Takedown
   db_uuid: 9e865c9e649c49a38c943decf020613f
+  srgpc_url: https://www.srgpc.net/cards/14/smashing-takedown/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11661,6 +11712,7 @@
   tags: []
 - name: Snap Back Drop
   db_uuid: 61d610a69c7b44c7a8764f0812219451
+  srgpc_url: https://www.srgpc.net/cards/14/snap-back-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11671,6 +11723,7 @@
   tags: []
 - name: Soaring Suplex
   db_uuid: 0cf018349d3b4391b7dcc4bd20b62446
+  srgpc_url: https://www.srgpc.net/cards/14/soaring-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11683,6 +11736,7 @@
   tags: []
 - name: Spike Powerbomb
   db_uuid: 47621b3eb87e4e4bb07b8099e148629d
+  srgpc_url: https://www.srgpc.net/cards/14/spike-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11693,6 +11747,7 @@
   tags: []
 - name: Spine Into the Ring Apron
   db_uuid: 42b8683049b04585af942d7a2fa61d5d
+  srgpc_url: https://www.srgpc.net/cards/14/spine-into-the-ring-apron/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11703,6 +11758,7 @@
   tags: []
 - name: Springboard Cutter
   db_uuid: 2d99a58207ac44b29a2285b740a65169
+  srgpc_url: https://www.srgpc.net/cards/14/springboard-stunner/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11723,6 +11779,7 @@
   tags: []
 - name: Surprise Cutter
   db_uuid: f1ad724d2fc547ddb9ba0371556143ee
+  srgpc_url: https://www.srgpc.net/cards/14/surprise-cutter/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11733,6 +11790,7 @@
   tags: []
 - name: Takeover With the Steel Chair
   db_uuid: 2be35a3f9b4c44b89dd396bdde9c1811
+  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-steel-chair-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11741,6 +11799,7 @@
   tags: []
 - name: Takeover With the Table
   db_uuid: 9a34fb22e17a48eaa428df3a474f332a
+  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11749,6 +11808,7 @@
   tags: []
 - name: Takeover With the Trash Can
   db_uuid: 0860276881ab4f3f8e6ad8de1c329f40
+  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can-2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11757,6 +11817,7 @@
   tags: []
 - name: Thicker Than Water
   db_uuid: 34ab2a1bed974bfb80e3d14bca70d2ef
+  srgpc_url: https://www.srgpc.net/cards/14/thicker-than-water/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11765,6 +11826,7 @@
   tags: []
 - name: Throw Over the Tables
   db_uuid: 33701e1852ab4c30a09f2085881ddde5
+  srgpc_url: https://www.srgpc.net/cards/14/throw-over-the-tables/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11773,6 +11835,7 @@
   tags: []
 - name: Toss Your Dad Over the Top
   db_uuid: 6d46cbc369c949a680d16031bd1b9b2a
+  srgpc_url: https://www.srgpc.net/cards/14/toss-your-dad-over-the-top/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11783,6 +11846,7 @@
   tags: []
 - name: Turn Up the Tables
   db_uuid: 03b3a9a5c23e40bab4ddb4f4c9812f8f
+  srgpc_url: https://www.srgpc.net/cards/14/turn-up-the-tables/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11794,6 +11858,7 @@
     - fbb77ed95adc4564ae62b844fd31e073
 - name: Twistable Toss
   db_uuid: f7c21878b31f4256b2c5aaef74313457
+  srgpc_url: https://www.srgpc.net/cards/14/twistable-toss/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11806,6 +11871,7 @@
   tags: []
 - name: Unstable Upheaval
   db_uuid: 25678aec8d344a2398df457266b9184e
+  srgpc_url: https://www.srgpc.net/cards/14/unstable-upheaval/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11816,6 +11882,7 @@
   tags: []
 - name: Wave-Breaking Kendo Stick
   db_uuid: 9b60d08fe9914e6990c6f10d86c11d96
+  srgpc_url: https://www.srgpc.net/cards/14/wave-breaking-kendo-stick/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11824,6 +11891,7 @@
   tags: []
 - name: Sub-Atomic Drop
   db_uuid: 73d3cba0ab4f4dd987fadc17f9909c3a
+  srgpc_url: https://www.srgpc.net/cards/14/sub-atomic-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -11832,6 +11900,7 @@
   tags: []
 - name: Soup'r Potion
   db_uuid: 8f0249aded5b43c89dbe5290970ef4a6
+  srgpc_url: https://www.srgpc.net/cards/14/soupr-potion/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -34733,4 +34802,85 @@
   rules_text: 'Search your deck for a Finish Strike and add it to your hand.
 
     Shuffle your deck.'
+  tags: []
+- name: A Wolf in Sheep's Holding
+  db_uuid: 99800450889847ecb650e50df3c1c99e
+  srg_url: https://supershowthegame.com/product/14-a-wolf-in-sheeps-holding/
+  srgpc_url: https://www.srgpc.net/card/14/a-wolf-in-sheeps-holding/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Power 8+'
+  tags: []
+- name: Chaos Undivided
+  db_uuid: e0a84dd1efc44ae285acaf774d094d64
+  srgpc_url: https://www.srgpc.net/cards/14/chaos-undivided/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Submission.
+
+    Each player buries 1 card in their opponent''s discard pile.'
+  tags: []
+- name: Cosmic Big Business
+  db_uuid: 1825d5a016d04dac9cd7304c37f13147
+  srgpc_url: https://www.srgpc.net/cards/14/cosmic-big-business/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: If your Grapple skill is greater than your opponent's Grapple skill, stop any Follow Up Submission or Finish Submission even if it cannot be stopped.
+  tags: []
+- name: Grab the Chair
+  db_uuid: 08245d9f6530498aa8fb166dadaba65a
+  srgpc_url: https://www.srgpc.net/cards/14/grab-the-chair/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: +1 to your next turn roll or add 1 Finish from your discard pile to your hand.
+  tags: []
+- name: Legendary Coaching
+  db_uuid: 0c12750e07144bb5a24349007a2b34e1
+  srgpc_url: https://www.srgpc.net/cards/14/legendary-coaching/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: If your Power skill is greater than your opponent's Power skill, stop any Follow Up Submission or Finish Submission even if it cannot be stopped.
+  tags: []
+- name: Lightning-Fast Whip
+  db_uuid: d4a5a5ae81804b1da2903bae84f0f920
+  srgpc_url: https://www.srgpc.net/cards/14/lightning-fast-whip/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: Search your deck for 1 Grapple and put it on top of your shuffled deck.
+  tags: []
+- name: Pixel Palace Plunge
+  db_uuid: 8f1187d602ae4ab880651f18982fa8f7
+  srgpc_url: https://www.srgpc.net/cards/14/pixel-palace-plunge/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Reveal the top 2 cards of your deck: Choose 1 and play it as an additional card this turn.'
+  tags: []
+- name: Rip N Ship Suplex
+  db_uuid: 82b215f6751c4cb198ec736d5e3999e6
+  srgpc_url: https://www.srgpc.net/cards/14/rip-n-ship-suplex/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Follow Up Submission or Finish Submission.
+
+    When you stop a card, the stopped card has blank text until the end of the turn.'
   tags: []

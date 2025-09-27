@@ -181,9 +181,10 @@
   deck_card_number: 5
   rules_text: Stop any Follow Up Submission.
   tags: []
-- name: Armbar
+- name: Armbar (V1)
   db_uuid: cda286cadae54ff0bbaa5aa168598f05
   srg_url: https://supershowthegame.com/product/06-armbar-os/
+  srgpc_url: https://www.srgpc.net/cards/6/armbar/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -2567,6 +2568,7 @@
 - name: Derailed
   db_uuid: 8734e9fde50c47b7a2e51cbc1adbc6de
   srg_url: https://supershowthegame.com/product/06-derailed/
+  srgpc_url: https://www.srgpc.net/cards/6/derailed/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6015,6 +6017,7 @@
 - name: A Welcomed Distraction
   db_uuid: 1b3e9ce9896645a6a0c35411a1295485
   srg_url: https://supershowthegame.com/product/06-a-welcomed-distraction/
+  srgpc_url: https://www.srgpc.net/cards/6/a-welcomed-distraction/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6025,6 +6028,7 @@
   tags: []
 - name: Ankle Trap
   db_uuid: d2186a790f7b4cd7ac6d496fb2f7657d
+  srgpc_url: https://www.srgpc.net/cards/6/ankle-trap/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6033,6 +6037,7 @@
   tags: []
 - name: Arm and Shoulder Stretch
   db_uuid: 44f92305a7e64e1ba2798d0d1fb2954e
+  srgpc_url: https://www.srgpc.net/cards/6/arm-and-shoulder-stretch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6041,6 +6046,7 @@
   tags: []
 - name: Arm Tangle
   db_uuid: 18a512f82c314c5886c35e896ce27741
+  srgpc_url: https://www.srgpc.net/cards/6/arm-tangle/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6051,6 +6057,7 @@
   tags: []
 - name: Arm Wrench
   db_uuid: 21fa7d02e6514819b4d1546776106875
+  srgpc_url: https://www.srgpc.net/cards/6/arm-wrench/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6059,6 +6066,7 @@
   tags: []
 - name: Armlock Over the Apron
   db_uuid: 98b751726e2349e687482b6c0813e1ed
+  srgpc_url: https://www.srgpc.net/cards/6/armlock-over-the-apron/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6067,6 +6075,7 @@
   tags: []
 - name: Blink
   db_uuid: 66a8fa9ceef141bdac634eb92b71beb3
+  srgpc_url: https://www.srgpc.net/cards/6/blink/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6077,6 +6086,7 @@
   tags: []
 - name: Big Body Block
   db_uuid: 30a1a508143640d0bae1ebaa3e108ad9
+  srgpc_url: https://www.srgpc.net/cards/6/big-body-block/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6090,6 +6100,7 @@
 - name: Cat's Claws (V1)
   db_uuid: 6106b65feead4e93a1d827fbbf697963
   srg_url: https://supershowthegame.com/product/06-cat-claws/
+  srgpc_url: https://www.srgpc.net/cards/6/cats-claws-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6105,6 +6116,7 @@
   tags: []
 - name: Charge That Puppy Up! (V1)
   db_uuid: 08b01e431fdf4536933009cbdbd9de6e
+  srgpc_url: https://www.srgpc.net/cards/6/charge-that-puppy-up-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6125,6 +6137,7 @@
   tags: []
 - name: Chicken Wing Choke
   db_uuid: 635307449e424ba29541f86affd37ac3
+  srgpc_url: https://www.srgpc.net/cards/6/chicken-wing-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6135,6 +6148,7 @@
   tags: []
 - name: Cosmic Arm Trap
   db_uuid: 9d1ec574f3ee4daba7493c48f6a9de47
+  srgpc_url: https://www.srgpc.net/cards/6/cosmic-trap/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6158,6 +6172,7 @@
   tags: []
 - name: Drag to the Center
   db_uuid: c96f9bb6d27b468d80e3022790baa4b0
+  srgpc_url: https://www.srgpc.net/cards/6/drag-to-the-center/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6166,6 +6181,7 @@
   tags: []
 - name: Elevated Arm Bar
   db_uuid: 58460808074247e0b2e221a1cafb6197
+  srgpc_url: https://www.srgpc.net/cards/6/elevated-arm-bar/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6176,6 +6192,7 @@
   tags: []
 - name: Elevated Sleeper Hold
   db_uuid: 40b65529fcf04470a834b3c146da6ff4
+  srgpc_url: https://www.srgpc.net/cards/6/elevated-sleeper-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6184,6 +6201,7 @@
   tags: []
 - name: Embrace the Cringe
   db_uuid: 938ca75d43e142b1888c5b961da26c61
+  srgpc_url: https://www.srgpc.net/cards/6/embrace-the-cringe/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6195,6 +6213,7 @@
 - name: Expose the Opponent
   db_uuid: 7d359d85cdfc4d8ba20d01aaf6409518
   srg_url: https://supershowthegame.com/product/06-expose-the-opponent-2/
+  srgpc_url: https://www.srgpc.net/cards/6/expose-the-opponent/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6203,6 +6222,7 @@
   tags: []
 - name: Finger Crush
   db_uuid: cf9ee5344a544f4c8cafb618f98a9ba8
+  srgpc_url: https://www.srgpc.net/cards/6/finger-crush/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6213,6 +6233,7 @@
   tags: []
 - name: Figure-4 Skull Hold
   db_uuid: f9cf3162354b4ca189ebf86b7ecf0a56
+  srgpc_url: https://www.srgpc.net/cards/6/figure-4-skull-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6221,6 +6242,7 @@
   tags: []
 - name: Full Nelson Chicken Wing
   db_uuid: 12e89e07b2b742bab2e4cc2416634a25
+  srgpc_url: https://www.srgpc.net/cards/6/full-nelson-chicken-wing/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6231,6 +6253,7 @@
   tags: []
 - name: Repeated Dragon Leg Drops
   db_uuid: 7c74835eee73495798ff1f389f0090ed
+  srgpc_url: https://www.srgpc.net/cards/6/repeated-dragon-leg-drops-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6243,6 +6266,7 @@
   tags: []
 - name: Fujiwara Armbar
   db_uuid: 0471327d448c4712819f4702f90137ed
+  srgpc_url: https://www.srgpc.net/cards/6/fujiwara-armbar/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6253,6 +6277,7 @@
   tags: []
 - name: Going Over the Microphone
   db_uuid: a6b9d090256a4c5095fadee8fe99084f
+  srgpc_url: https://www.srgpc.net/cards/6/going-over-the-microphone/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6263,6 +6288,7 @@
   tags: []
 - name: Going Over the Ring Steps
   db_uuid: 716d1055d99c4a1888764642aa7d6109
+  srgpc_url: https://www.srgpc.net/cards/6/going-over-the-ring-steps-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6273,6 +6299,7 @@
   tags: []
 - name: Going Over the Sledgehammer
   db_uuid: af2524259cc141ab84d459099f10e925
+  srgpc_url: https://www.srgpc.net/cards/6/going-over-the-sledgehammer/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6283,6 +6310,7 @@
   tags: []
 - name: Going Over the Steel Chain
   db_uuid: 957862a452f74b7ea02ff75562ef6461
+  srgpc_url: https://www.srgpc.net/cards/6/going-over-the-steel-chain/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6293,6 +6321,7 @@
   tags: []
 - name: Grab Hold
   db_uuid: fe23f43b45e04ae18ef7986c664a5138
+  srgpc_url: https://www.srgpc.net/cards/6/grab-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6301,6 +6330,7 @@
   tags: []
 - name: Irish Goodbye
   db_uuid: a2dc3fdb9af84095b0218f6a3643cc94
+  srgpc_url: https://www.srgpc.net/cards/6/irish-goodbye/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6313,6 +6343,7 @@
   tags: []
 - name: Jaw Wrench
   db_uuid: 9a2e8e84a9dd4b09b654df50ec5dc18e
+  srgpc_url: https://www.srgpc.net/cards/6/jaw-wrench/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6323,6 +6354,7 @@
   tags: []
 - name: Kicker Choke
   db_uuid: 5e95c1d5c3994d68944802252c799c7f
+  srgpc_url: https://www.srgpc.net/cards/6/kicker-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6333,6 +6365,7 @@
   tags: []
 - name: Knead the Dough
   db_uuid: 222e0d66fa5a4ee1acf23004c7ff51b8
+  srgpc_url: https://www.srgpc.net/cards/6/knead-the-dough/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6343,6 +6376,7 @@
   tags: []
 - name: Knee Bar
   db_uuid: b14038b10078470084fa4f97930f7f3d
+  srgpc_url: https://www.srgpc.net/cards/6/knee-bar/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6353,6 +6387,7 @@
   tags: []
 - name: Philly Cheese Grater
   db_uuid: 733b1c9814ec4d23810076342f130635
+  srgpc_url: https://www.srgpc.net/cards/6/philly-cheese-grater/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6365,6 +6400,7 @@
   tags: []
 - name: Pretzel Twist
   db_uuid: 6e44af311d8b4d3091a800c045f3d6f8
+  srgpc_url: https://www.srgpc.net/cards/6/pretzel-twist/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6373,6 +6409,7 @@
   tags: []
 - name: Scissor Me Handsome Pineapple
   db_uuid: 1dd43170465745e386e637e9a5d9faec
+  srgpc_url: https://www.srgpc.net/cards/6/scissor-me-handsome-pineapple/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6383,6 +6420,7 @@
   tags: []
 - name: Shoulder Buster
   db_uuid: e22bf860d2794d1398902aa9e8c63f4c
+  srgpc_url: https://www.srgpc.net/cards/6/shoulder-buster/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6393,6 +6431,7 @@
   tags: []
 - name: Sky Dive
   db_uuid: e7805a9f323b460682549f8a3af405f5
+  srgpc_url: https://www.srgpc.net/cards/6/sky-dive/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6404,6 +6443,7 @@
 - name: Sleeper Bomb
   db_uuid: 1185da00a9954f3690d25ea9b05f8506
   srg_url: https://supershowthegame.com/product/06-sleeper-bomb/
+  srgpc_url: https://www.srgpc.net/cards/6/sleeper-bomb/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6414,6 +6454,7 @@
   tags: []
 - name: Snap Grab
   db_uuid: 8a945f3b5d354391ab31063ce98403b3
+  srgpc_url: https://www.srgpc.net/cards/6/snap-grab/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6424,6 +6465,7 @@
   tags: []
 - name: Sword Draw
   db_uuid: af2af610098849fa832230e3c3313d51
+  srgpc_url: https://www.srgpc.net/cards/6/sword-draw/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6432,6 +6474,7 @@
   tags: []
 - name: The Boss Drops Off the Fire'Panadas
   db_uuid: 70f56b4d314047039e695f4fd9c4953b
+  srgpc_url: https://www.srgpc.net/cards/6/the-boss-drops-off-the-firepanadas/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6440,6 +6483,7 @@
   tags: []
 - name: Tug of War
   db_uuid: 158c4a2a776346e59d5f05af1754b72d
+  srgpc_url: https://www.srgpc.net/cards/6/tug-of-war/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6448,6 +6492,7 @@
   tags: []
 - name: Work Over
   db_uuid: 94d587d3610e4f72b4fd918cca53c5c8
+  srgpc_url: https://www.srgpc.net/cards/6/work-over/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6458,6 +6503,7 @@
   tags: []
 - name: Working the Arm
   db_uuid: be03400c7c7a4149931e3c809b388326
+  srgpc_url: https://www.srgpc.net/cards/6/working-the-arm/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6466,6 +6512,7 @@
   tags: []
 - name: Wrap Around Wrist Lock
   db_uuid: 1863c003eba044b382ffc46278dd96b5
+  srgpc_url: https://www.srgpc.net/cards/6/wrap-around-wrist-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6474,6 +6521,7 @@
   tags: []
 - name: Young Dumb, Young Dumb, Young Dumb, and Broke!
   db_uuid: f846de0a09244f2bb7e49e75ab94bc18
+  srgpc_url: https://www.srgpc.net/cards/6/young-dumb-young-dumb-young-dumb-and-broke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -33862,4 +33910,56 @@
   play_order: Lead
   deck_card_number: 5
   rules_text: Stop any Follow Up Submission.
+  tags: []
+- name: Game On
+  db_uuid: 08b9e1258770439a9d94dfb2190ff48e
+  srgpc_url: https://www.srgpc.net/cards/6/game-on/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: Search your deck or discard pile for a Skill Requirement card and add it to your hand.
+  tags: []
+- name: Knees to the Elbow
+  db_uuid: 049b55c24bb645feb96d7eed181c8f11
+  srgpc_url: https://www.srgpc.net/cards/6/knees-to-the-elbow/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Cannot be stopped by Skill Requirement cards.
+
+    Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
+  tags: []
+- name: Leg & Arm Lock
+  db_uuid: bb24276c105d412db101024b364fb084
+  srgpc_url: https://www.srgpc.net/cards/6/leg-arm-lock/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Stop any Follow Up Strike.
+
+    Draw 1 card.
+
+    Your next turn roll is +2.'
+  tags: []
+- name: Starstruck
+  db_uuid: dd081453551d4a6b9dc729a492bcf6d7
+  srgpc_url: https://www.srgpc.net/cards/6/starstruck/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Cannot be stopped by Skill Requirement cards.
+
+    Look at your opponent''s hand, choose 1 Follow Up Grapple and discard it.'
+  tags: []
+- name: Armbar (V2)
+  db_uuid: fe57de8edb9f48b1abd13a046b380cc9
+  srgpc_url: https://www.srgpc.net/card/6/armbar-submission/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
   tags: []

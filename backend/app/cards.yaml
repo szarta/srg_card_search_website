@@ -36593,3 +36593,61 @@
   deck_card_number: 27
   rules_text: Stop any Strike or each player shuffles 1 Submission from their dsicard pile into their deck.
   tags: []
+- name: Memic
+  db_uuid: 992dac94fa8944afab7d4ac757df2944
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: 'When your target hits a Skill Requirement card: Copy that card''s effect.'
+  tags: []
+  related_finishes:
+    - 24ec5d67706246339c11e414ce25f97c
+    - 68d9d4bf73654a46a9da169e4f1676fb
+    - 9a78c09e97a34569bd49c08839171c8c
+- name: Tooth and Nailed
+  db_uuid: 24ec5d67706246339c11e414ce25f97c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    +2 to Grapple
+
+    Your opponent''s breakout rolls are +1 for each Skill Requirement card they have in play.'
+  tags: []
+- name: Dropple-Ganger
+  db_uuid: 68d9d4bf73654a46a9da169e4f1676fb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +1 to Grapple
+
+    Look at your opponent''s hand, choose 1 Skill Requirement card and discard it.
+
+    Copy the text of a Skill Requirement card in your opponent''s discard pile until the end of the turn.'
+  tags: []
+- name: Treasure Trap
+  db_uuid: 9a78c09e97a34569bd49c08839171c8c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Your opponent gets 2 breakout rolls this turn.
+
+    Your opponent gets 1 additional breakout roll for each Skill Requirement card they have in play.'
+  tags: []

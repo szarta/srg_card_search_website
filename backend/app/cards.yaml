@@ -2531,6 +2531,7 @@
 - name: Drive Into the Planet
   db_uuid: d3c51fc0c20c4fb8b709b1fafbd001f2
   srg_url: https://supershowthegame.com/product/20-drive-into-the-planet/
+  srgpc_url: https://www.srgpc.net/cards/20/drive-into-the-planet/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -3434,6 +3435,7 @@
 - name: Hook the Top Rope
   db_uuid: e855d6b79b3c4ff5853098e1cac5538b
   srg_url: https://supershowthegame.com/product/20-hook-the-top-rope/
+  srgpc_url: https://www.srgpc.net/cards/20/hook-the-top-rope/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15332,6 +15334,7 @@
 - name: Airplane Slam
   db_uuid: 560ba7f5c61946f8828dcfde7cef7382
   srg_url: https://supershowthegame.com/product/08-airplane-spin/
+  srgpc_url: https://www.srgpc.net/cards/20/airplane-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15339,6 +15342,7 @@
   tags: []
 - name: All American Powerslam
   db_uuid: a381d6ff9a304956bd01758efb0855fa
+  srgpc_url: https://www.srgpc.net/cards/20/all-american-powerslam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15346,6 +15350,7 @@
   tags: []
 - name: Arrow Driver
   db_uuid: bcfd0683a3ae4481a5c3a3ec8ba001d8
+  srgpc_url: https://www.srgpc.net/cards/20/arrow-driver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15353,6 +15358,7 @@
   tags: []
 - name: Back Drop Over the Top
   db_uuid: 82a343ae8b9e49298e2a6492d37ea825
+  srgpc_url: https://www.srgpc.net/cards/20/back-drop-over-the-top/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15361,6 +15367,7 @@
   tags: []
 - name: Backbuster
   db_uuid: c758940d0c504f949600594d9710644e
+  srgpc_url: https://www.srgpc.net/cards/20/backbuster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15368,6 +15375,7 @@
   tags: []
 - name: Belly to Bear Belly Suplex
   db_uuid: 155031198ab3412f8168b991190b0425
+  srgpc_url: https://www.srgpc.net/cards/20/belly-to-bear-belly-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15375,6 +15383,7 @@
   tags: []
 - name: Big Steel Chain Throw
   db_uuid: 65d6c368c28c4773aab606168c98e225
+  srgpc_url: https://www.srgpc.net/cards/20/big-steel-chain-throw/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15385,6 +15394,7 @@
   tags: []
 - name: Boulder Breaker
   db_uuid: 1643167a263a419089f9fb14a35dbda1
+  srgpc_url: https://www.srgpc.net/cards/20/boulder-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15392,6 +15402,7 @@
   tags: []
 - name: Bridging Suplex
   db_uuid: 5671ce23f4d4456ba91c75c9c0f2e575
+  srgpc_url: https://www.srgpc.net/cards/20/bridging-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15399,6 +15410,7 @@
   tags: []
 - name: Bulldog Takedown
   db_uuid: e604d41855f84270b6fe678b655dc7be
+  srgpc_url: https://www.srgpc.net/cards/20/bulldog-takedown/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15406,6 +15418,7 @@
   tags: []
 - name: Catapult
   db_uuid: 611c1d0cc4374c3cb0b5574e68fc6cca
+  srgpc_url: https://www.srgpc.net/cards/20/catapult/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15413,6 +15426,7 @@
   tags: []
 - name: Cultural Downfall
   db_uuid: 5d788c2cadd7423a867f0f1f4190665e
+  srgpc_url: https://www.srgpc.net/cards/20/cultural-downfall/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15420,6 +15434,7 @@
   tags: []
 - name: Detroit Breaker Bomb
   db_uuid: 7e3b39ce46a24cdf8d7a84fba6cdaa2f
+  srgpc_url: https://www.srgpc.net/cards/20/detroit-breaker-bomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15427,6 +15442,7 @@
   tags: []
 - name: Dive Bomb
   db_uuid: aa2aef55adac4c56a903634f7e19e42c
+  srgpc_url: https://www.srgpc.net/cards/20/dive-bomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15434,6 +15450,7 @@
   tags: []
 - name: Divide and Conquer
   db_uuid: f1242a18cad2493695f51a06f62481a3
+  srgpc_url: https://www.srgpc.net/cards/20/divide-and-conquer/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15441,6 +15458,7 @@
   tags: []
 - name: Double Leg Powerbomb
   db_uuid: 9a51d798372e4ecaa2ac60b4c29cacb8
+  srgpc_url: https://www.srgpc.net/cards/20/double-leg-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15448,6 +15466,7 @@
   tags: []
 - name: Drop On The Floor
   db_uuid: 05492d7935bc49b9bc54febac62d051c
+  srgpc_url: https://www.srgpc.net/cards/20/drop-over-the-top/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15463,6 +15482,7 @@
   tags: []
 - name: Electric Chair Drop
   db_uuid: eeeb7233ec634e3fb0767f7462b9b62e
+  srgpc_url: https://www.srgpc.net/cards/20/electric-chair-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15470,6 +15490,7 @@
   tags: []
 - name: Embrace the Madness
   db_uuid: 56d648736c9348e4b8bd31f22867c8fa
+  srgpc_url: https://www.srgpc.net/cards/20/embrace-the-madness/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15477,6 +15498,7 @@
   tags: []
 - name: Face Buster Suplex
   db_uuid: 35e7345681dc4768b1b626b2988f0125
+  srgpc_url: https://www.srgpc.net/cards/20/face-buster-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15484,6 +15506,7 @@
   tags: []
 - name: Face Drop Suplex
   db_uuid: a2070591840142dc859fb2f6b70d5ebb
+  srgpc_url: https://www.srgpc.net/cards/20/face-drop-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15491,6 +15514,7 @@
   tags: []
 - name: Face Drop
   db_uuid: ed5cf4ca0e894ade85a603607a9b0693
+  srgpc_url: https://www.srgpc.net/cards/20/face-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15498,6 +15522,7 @@
   tags: []
 - name: Flipping Face Buster
   db_uuid: f084224ebc0d4b3689fecb291351e9ff
+  srgpc_url: https://www.srgpc.net/cards/20/flipping-face-buster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15506,6 +15531,7 @@
   tags: []
 - name: Full Nelson Slam
   db_uuid: 55c21d26ec0344dba65c1679e7176f50
+  srgpc_url: https://www.srgpc.net/cards/20/full-nelson-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15516,6 +15542,7 @@
   tags: []
 - name: Guitar Knockdown
   db_uuid: cdc723c58463478a86a7945a5c38ff67
+  srgpc_url: https://www.srgpc.net/cards/20/guitar-knockdown/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15523,6 +15550,7 @@
   tags: []
 - name: High Impact Back Drop
   db_uuid: cd5501e9ef644b63ba9ae92ee448157e
+  srgpc_url: https://www.srgpc.net/cards/20/high-impact-back-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15530,6 +15558,7 @@
   tags: []
 - name: Hold the Steel Chair
   db_uuid: cc6b18ddd1f04dd6aabdf531f9debaef
+  srgpc_url: https://www.srgpc.net/cards/20/hold-the-steel-chair/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15537,6 +15566,7 @@
   tags: []
 - name: Hold the Trash Can
   db_uuid: cd22f710c8234b8e9288c42439366ea0
+  srgpc_url: https://www.srgpc.net/cards/20/hold-the-trash-can/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15547,6 +15577,7 @@
   tags: []
 - name: Hurricanrana
   db_uuid: 3936e1072eb64e4ab600ba3f6107697a
+  srgpc_url: https://www.srgpc.net/cards/20/hurricanrana/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15554,6 +15585,7 @@
   tags: []
 - name: Inverted Suplex
   db_uuid: 5f87c106434d4ff8b7fc18f12f7f3b64
+  srgpc_url: https://www.srgpc.net/cards/20/inverted-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15561,6 +15593,7 @@
   tags: []
 - name: Irish Spinebreaker
   db_uuid: bfaea3fadce0443595b5c7b1e5ff32f6
+  srgpc_url: https://www.srgpc.net/cards/20/irish-spinebreaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15568,6 +15601,7 @@
   tags: []
 - name: Knockdown the Steel Chair
   db_uuid: 1413f591f7bf42e0bc8ad1b5ea29b21a
+  srgpc_url: https://www.srgpc.net/cards/20/knockdown-the-steel-chair/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15575,6 +15609,7 @@
   tags: []
 - name: Knockdown the Table
   db_uuid: 1c655f78aba24d4ab6470a51f372b80f
+  srgpc_url: https://www.srgpc.net/cards/20/knockdown-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15585,6 +15620,7 @@
   tags: []
 - name: Knockdown the Trash Can
   db_uuid: 94d9ad80cd5244dba58211f236a75669
+  srgpc_url: https://www.srgpc.net/cards/20/knockdown-the-trash-can/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15592,6 +15628,7 @@
   tags: []
 - name: Mind Shield
   db_uuid: 1bfae06a66b3452eac1c6aabca03adf7
+  srgpc_url: https://www.srgpc.net/cards/20/mind-shield/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15599,6 +15636,7 @@
   tags: []
 - name: Neckbreaker
   db_uuid: 636509a8a72d4e8fb340fafcf9b8e17d
+  srgpc_url: https://www.srgpc.net/cards/20/neckbreaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15613,6 +15651,7 @@
   tags: []
 - name: Pancake Slam
   db_uuid: 5f4475182857499db105c8c3c6661d23
+  srgpc_url: https://www.srgpc.net/cards/20/panic-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15630,6 +15669,7 @@
   tags: []
 - name: Piledriver
   db_uuid: 10ad3bb7498e453490934b32bf074b5e
+  srgpc_url: https://www.srgpc.net/cards/20/piledriver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15637,6 +15677,7 @@
   tags: []
 - name: Press Slam (V1)
   db_uuid: 1a5d9a8a26a24f2cb51ee4b26499286b
+  srgpc_url: https://www.srgpc.net/cards/20/press-slam-grapple/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15649,6 +15690,7 @@
   tags: []
 - name: Press Slam (V2)
   db_uuid: 7c49b4a11b364873af1c67cd03273f64
+  srgpc_url: https://www.srgpc.net/cards/20/press-slam-power/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15661,6 +15703,7 @@
   tags: []
 - name: Release German Suplex (V1)
   db_uuid: a69f7f4cd9074ac8a54b4cb6dd9e9bd5
+  srgpc_url: https://www.srgpc.net/cards/20/release-german-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15675,6 +15718,7 @@
   tags: []
 - name: Rolling Down the Street
   db_uuid: 4a502ef0b5c44941ab280beb808117b9
+  srgpc_url: https://www.srgpc.net/cards/20/rolling-down-the-street/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15682,6 +15726,7 @@
   tags: []
 - name: Rush of Adrenaline
   db_uuid: d3acf9ed6c514267861a19cd41f89a9d
+  srgpc_url: https://www.srgpc.net/cards/20/rush-of-adrenaline/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15690,6 +15735,7 @@
 - name: Sealed Away
   db_uuid: 0002786b87a541dbad94e1361034c181
   srg_url: https://supershowthegame.com/product/20-sealed-away/
+  srgpc_url: https://www.srgpc.net/cards/20/sealed-away/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15700,6 +15746,7 @@
   tags: []
 - name: Sheer Drop Brainbuster
   db_uuid: abfa57f79c954676b1b24839c3b25646
+  srgpc_url: https://www.srgpc.net/cards/20/sheer-drop-brainbuster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15707,6 +15754,7 @@
   tags: []
 - name: Sitout Powerbomb
   db_uuid: c1f5ba253d35472a959d3fbd6d69c8e1
+  srgpc_url: https://www.srgpc.net/cards/20/sitout-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15714,6 +15762,7 @@
   tags: []
 - name: Skull Slam
   db_uuid: ff8842b730e4447ebf679e3444bf4b46
+  srgpc_url: https://www.srgpc.net/cards/20/skull-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15721,6 +15770,7 @@
   tags: []
 - name: Slam Out of the Ring
   db_uuid: 81dc3e518aaa4998a1d2ece11c417b23
+  srgpc_url: https://www.srgpc.net/cards/20/slam-out-of-the-ring/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15728,6 +15778,7 @@
   tags: []
 - name: Slammin' and Jammin'
   db_uuid: 48d7fd9d041e4fbe92033f489d3736f3
+  srgpc_url: https://www.srgpc.net/cards/20/slammin-and-jammin/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15735,6 +15786,7 @@
   tags: []
 - name: Slithering Chin Slam
   db_uuid: 9898d3bbd2b64ea084c4a5ead8393ef6
+  srgpc_url: https://www.srgpc.net/cards/20/slithering-chin-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15742,6 +15794,7 @@
   tags: []
 - name: Spinebuster (V1)
   db_uuid: 9240659848784cf5bf5566ac0e8a79af
+  srgpc_url: https://www.srgpc.net/cards/20/spinebuster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15756,6 +15809,7 @@
   tags: []
 - name: STO Backbreaker
   db_uuid: 6bac102efff540539c5b90d1dfc982f4
+  srgpc_url: https://www.srgpc.net/cards/20/sto-backbreaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15763,6 +15817,7 @@
   tags: []
 - name: Sunshine Buster
   db_uuid: e994f5d689024f61a883a1d668438e0b
+  srgpc_url: https://www.srgpc.net/cards/20/sunshine-buster/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15770,6 +15825,7 @@
   tags: []
 - name: Super Powerbomb
   db_uuid: 2ecb0737e9244d04807b32f573cdfeb9
+  srgpc_url: https://www.srgpc.net/cards/20/super-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15782,6 +15838,7 @@
   tags: []
 - name: Super Shoulder Breaker
   db_uuid: 6d80f5514d134c35939ab2762f8f26d8
+  srgpc_url: https://www.srgpc.net/cards/20/super-shoulder-breaker-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15789,6 +15846,7 @@
   tags: []
 - name: Superkick Suplex
   db_uuid: fd6faadb23a647ecbde9ac36c84d7eee
+  srgpc_url: https://www.srgpc.net/cards/20/superkick-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15796,6 +15854,7 @@
   tags: []
 - name: Superplex Off the Ropes
   db_uuid: 25dc294232cc4ba280d03ce0bcdeb9ce
+  srgpc_url: https://www.srgpc.net/cards/20/superplex-off-the-ropes/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15803,6 +15862,7 @@
   tags: []
 - name: Suplex Out of the Ring (V1)
   db_uuid: 87eca3c27ff54bd3b4b66c935b13aae7
+  srgpc_url: https://www.srgpc.net/cards/20/suplex-out-of-the-ring-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15817,6 +15877,7 @@
   tags: []
 - name: T-Bone Suplex
   db_uuid: 3d1c7b4b1160469693521ec6fa073913
+  srgpc_url: https://www.srgpc.net/cards/20/t-bone-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15824,6 +15885,7 @@
   tags: []
 - name: Teaching From the Dark
   db_uuid: 8da7ef986bd24b6aafc65c8849a8f95a
+  srgpc_url: https://www.srgpc.net/cards/20/teaching-from-the-dark/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15831,6 +15893,7 @@
   tags: []
 - name: That Doesn't Work For Me, Brother!
   db_uuid: f6a2e224589e475a987fed9e8ea0601a
+  srgpc_url: https://www.srgpc.net/cards/20/that-doesnt-work-for-me-brother/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15838,6 +15901,7 @@
   tags: []
 - name: Thunderous Flex
   db_uuid: d66659b2f2c546fbbe3297116b753eb5
+  srgpc_url: https://www.srgpc.net/cards/20/thunderous-flex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15845,6 +15909,7 @@
   tags: []
 - name: Train Breaker
   db_uuid: 8be346379ab2414cb44f7c1840511b2f
+  srgpc_url: https://www.srgpc.net/cards/20/train-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -15852,6 +15917,7 @@
   tags: []
 - name: Unreal Teamwork
   db_uuid: 91438f2ff2774c16803e6ddbac3b22ba
+  srgpc_url: https://www.srgpc.net/cards/20/unreal-teamwork/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -34483,6 +34549,7 @@
   tags: []
 - name: Death Riding DDT
   db_uuid: 85f73f91fe9549649baf47a5bafbaaf6
+  srgpc_url: https://www.srgpc.net/cards/20/death-riding-ddt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -35531,4 +35598,70 @@
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
     The Crowd Meter is considered +1 for all Stop text.'
+  tags: []
+- name: Clear Off the Table
+  db_uuid: 6ff609b823944c6692aa77e250a9030c
+  srgpc_url: https://www.srgpc.net/cards/20/clear-off-the-table/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: If you have a card in play with "Table" in the name and your opponent has another Submission in play, stop any Submission.
+  tags: []
+- name: Old School Shoulder Slam
+  db_uuid: 871db6d07bf340b5b2e415f7c6419b91
+  srgpc_url: https://www.srgpc.net/cards/20/old-school-shoulder-breaker/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    This card counts as 2 Follow Up Grapples in play.'
+  tags: []
+- name: Sizing You Up
+  db_uuid: 0acae6bc97a04657952b738510883145
+  srgpc_url: https://www.srgpc.net/cards/20/sizing-you-up/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'Flip up to 3 cards.
+
+    Add 1 Grapple from your discard pile to your hand.'
+  tags: []
+- name: Tales of Terror
+  db_uuid: 2a8b47a2776f45ccb4fb88574f6265ff
+  srgpc_url: https://www.srgpc.net/cards/20/tales-of-terror/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    The Crowd Meter is considered +1 for all Stop text.'
+  tags: []
+- name: Wonderful Championship Mugs
+  db_uuid: 64775305ff9544eaa4cd87992504fb13
+  srgpc_url: https://www.srgpc.net/card/20/wonderful-championship-mugs/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    +2 to Power.
+
+    Skill Requirement: Grapple 8+'
+  tags: []
+- name: Over the Shoulder Slam
+  db_uuid: 7d8cb36169ed416297e003cc369a104f
+  srgpc_url: https://www.srgpc.net/cards/20/over-the-shoulder-slam/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    The player with the fewest cards in hand draws 1 card.'
   tags: []

@@ -16,6 +16,7 @@
   db_uuid: 9c522e6e0b2a4254b7b72aa3da805c72
   is_banned: false
   srg_url: https://supershowthegame.com/product/15-the-end-is-near/
+  srgpc_url: https://www.srgpc.net/cards/15/the-end-is-near/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -2471,6 +2472,7 @@
   tags: []
 - name: Soul Burn
   db_uuid: 3ae31d64263c410d90b0c0ffb11d6b04
+  srgpc_url: https://www.srgpc.net/cards/15/soul-burn/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11909,6 +11911,7 @@
   tags: []
 - name: Alligator Roll
   db_uuid: 1e42a277d67e4f62a7739d0ab346616a
+  srgpc_url: https://www.srgpc.net/cards/15/alligator-roll/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11917,6 +11920,7 @@
   tags: []
 - name: All American Headlock
   db_uuid: 11e103e86aae4fcca8acfd598b210dfa
+  srgpc_url: https://www.srgpc.net/cards/15/all-american-headlock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11929,6 +11933,7 @@
   tags: []
 - name: All American Sheep Army
   db_uuid: d08e2853ed164700804d99964331d4c6
+  srgpc_url: https://www.srgpc.net/cards/15/all-american-sheep-army/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11939,6 +11944,7 @@
   tags: []
 - name: Apply Leverage
   db_uuid: 9a06109feeea495188ec5d966dbc623c
+  srgpc_url: https://www.srgpc.net/cards/15/apply-leverage/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11949,6 +11955,7 @@
   tags: []
 - name: Armbar In the Ropes
   db_uuid: 5e646fe20e8745f88dd0a88ee9751ede
+  srgpc_url: https://www.srgpc.net/cards/15/armbar-in-the-ropes/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11959,6 +11966,7 @@
   tags: []
 - name: Arm Bender
   db_uuid: c95a604d99814c37814ef7d87383c067
+  srgpc_url: https://www.srgpc.net/cards/15/arm-bender/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11967,6 +11975,7 @@
   tags: []
 - name: Armenian Choke Hold
   db_uuid: 094a1bc0ebcb46ed8aa10cae1447f13c
+  srgpc_url: https://www.srgpc.net/cards/15/armenian-choke-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11979,6 +11988,7 @@
   tags: []
 - name: Bear Hug V1
   db_uuid: c4bd29230d1248f9bc042434bf614b96
+  srgpc_url: https://www.srgpc.net/cards/15/bear-hug/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -11999,6 +12009,7 @@
 - name: Beat Into Submission
   db_uuid: 0c0a9263ad26410b9ab403a0c0521fec
   srg_url: https://supershowthegame.com/product/15-beat-into-submission/
+  srgpc_url: https://www.srgpc.net/cards/15/beat-into-submission/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12010,6 +12021,7 @@
 - name: Beg for Mercy
   db_uuid: c7c10be660374a0caa38dfab98aa0241
   srg_url: https://supershowthegame.com/product/15-beg-for-mercy/
+  srgpc_url: https://www.srgpc.net/cards/15/beg-for-mercy/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12022,6 +12034,7 @@
   tags: []
 - name: Bend Around the Ring Post
   db_uuid: 5bf2cc2df56c4fe6b862cefce44f9196
+  srgpc_url: https://www.srgpc.net/cards/15/bend-around-the-ring-post/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12032,6 +12045,7 @@
   tags: []
 - name: Bladder-Breaking Bear Hug
   db_uuid: 49df4b8409184428a293dfc193a362be
+  srgpc_url: https://www.srgpc.net/cards/15/bladder-breaking-bear-hug/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12044,6 +12058,7 @@
   tags: []
 - name: Body Breaker
   db_uuid: aa5aa53d68384d918f59f6819dd78e7f
+  srgpc_url: https://www.srgpc.net/cards/15/body-breaker/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12056,6 +12071,7 @@
   tags: []
 - name: Boot to the Neck
   db_uuid: 6757972234594f0a9ff9375b0d8d2e70
+  srgpc_url: https://www.srgpc.net/cards/15/boot-to-the-neck/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12064,6 +12080,7 @@
   tags: []
 - name: Bootlegger
   db_uuid: 9f35fd3588694a779d0ba201b00ef334
+  srgpc_url: https://www.srgpc.net/cards/15/bootlegger/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12074,6 +12091,7 @@
   tags: []
 - name: Bow and Arrow
   db_uuid: 67827b4543d74a2fab5f5d48b3f4eddb
+  srgpc_url: https://www.srgpc.net/cards/15/bow-and-arrow/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12082,6 +12100,7 @@
   tags: []
 - name: Capture Sleeper Hold
   db_uuid: 052248bcf06740aeb41439fec8491033
+  srgpc_url: https://www.srgpc.net/cards/15/capture-sleeper-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12094,6 +12113,7 @@
   tags: []
 - name: Crackin' Down
   db_uuid: b8ab8d1d5b3f4b6fa193c3b0df67cd9b
+  srgpc_url: https://www.srgpc.net/cards/15/crackin-down/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12104,6 +12124,7 @@
   tags: []
 - name: Crushing Clutch
   db_uuid: 9ff20d6402f049e8bd6f6198cbc8acc5
+  srgpc_url: https://www.srgpc.net/cards/15/crushing-clutch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12119,6 +12140,7 @@
   tags: []
 - name: Cosmic Knee in the Ropes
   db_uuid: 870644c7092d42e5811abd1fa92de821
+  srgpc_url: https://www.srgpc.net/cards/15/cosmic-knee-in-the-ropes/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12129,6 +12151,7 @@
   tags: []
 - name: Crossarm Chickenwing V1
   db_uuid: 450354ee23574441a02b3125e0d5eb71
+  srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing-submission/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12141,6 +12164,7 @@
   tags: []
 - name: Crossarm Chickenwing V2
   db_uuid: c583520d1c4e4faf91ac3407095f2727
+  srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12153,6 +12177,7 @@
   tags: []
 - name: Double Arm Lock
   db_uuid: 070685fedcd5456b9423f37f6b5a9e68
+  srgpc_url: https://www.srgpc.net/cards/15/double-arm-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12163,6 +12188,7 @@
   tags: []
 - name: Face Squeeze
   db_uuid: 72a6e04e7a364169be4b1a9034f378f9
+  srgpc_url: https://www.srgpc.net/cards/15/face-squeeze/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12171,6 +12197,7 @@
   tags: []
 - name: 'Fire Potion #15'
   db_uuid: 877fa99a64a64f2693f91aa88731b6c1
+  srgpc_url: https://www.srgpc.net/cards/15/fire-potion-15/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12179,6 +12206,7 @@
   tags: []
 - name: Frak the Firing Squad
   db_uuid: cf587985af9545a3a3d100719305562e
+  srgpc_url: https://www.srgpc.net/cards/15/frak-the-firing-squad/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12189,6 +12217,7 @@
   tags: []
 - name: Front Face Lock
   db_uuid: b53371e5435b472eb1109d7d7961a6b5
+  srgpc_url: https://www.srgpc.net/cards/15/front-face-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12197,6 +12226,7 @@
   tags: []
 - name: Full Nelson - Lariat
   db_uuid: 3c5b58beafcf454692ff93881e93f7ef
+  srgpc_url: https://www.srgpc.net/cards/15/full-nelson-lariat/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12207,6 +12237,7 @@
   tags: []
 - name: Heel Hook
   db_uuid: 2d69c21537a94fbdb66f426588787bce
+  srgpc_url: https://www.srgpc.net/cards/15/heel-hook/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12215,6 +12246,7 @@
   tags: []
 - name: Hold Your Nose
   db_uuid: dbde70132f0c43a197270d7a1c7216c5
+  srgpc_url: https://www.srgpc.net/cards/15/hold-your-nose/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12223,6 +12255,7 @@
   tags: []
 - name: Hurricane Hold
   db_uuid: 7e88c8529c9245248f35f91fce7fddc8
+  srgpc_url: https://www.srgpc.net/cards/15/hurricane-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12233,6 +12266,7 @@
   tags: []
 - name: Hyper Extend
   db_uuid: a88a796383af4700be999de0d818844d
+  srgpc_url: https://www.srgpc.net/cards/15/hyper-extend/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12241,6 +12275,7 @@
   tags: []
 - name: Illusion Cast
   db_uuid: 3267911b310e4d43920be8848aa01b53
+  srgpc_url: https://www.srgpc.net/cards/15/illusion-cast/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12251,6 +12286,7 @@
   tags: []
 - name: Inverted Leg Lock
   db_uuid: fcfe13c9b4b64720832cbf0d10635c50
+  srgpc_url: https://www.srgpc.net/cards/15/inverted-leg-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12259,6 +12295,7 @@
   tags: []
 - name: King Sized Grab
   db_uuid: 632e2017c9594e4caf4d439c389650fd
+  srgpc_url: https://www.srgpc.net/cards/15/king-sized-grab/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12267,6 +12304,7 @@
   tags: []
 - name: Knee Breaker V1
   db_uuid: 157fc46bb444429a9c5d7aeff8fa41bf
+  srgpc_url: https://www.srgpc.net/cards/15/knee-breaker-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12287,6 +12325,7 @@
   tags: []
 - name: Knee Lock
   db_uuid: 8291d8958df94482ac6ba9dd382de7ef
+  srgpc_url: https://www.srgpc.net/cards/15/knee-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12297,6 +12336,7 @@
   tags: []
 - name: Llama Lock
   db_uuid: b9690e28433a4d1bac0a4ff67b53af98
+  srgpc_url: https://www.srgpc.net/cards/15/llama-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12309,6 +12349,7 @@
   tags: []
 - name: Leg Lasso
   db_uuid: 0988eb5370534ef295a3d431b9c2f285
+  srgpc_url: https://www.srgpc.net/cards/15/leg-lasso/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12320,6 +12361,7 @@
 - name: Microphone Takeover
   db_uuid: 905a960788be418da4ea139eb5c40544
   srg_url: https://supershowthegame.com/product/15-microphone-take-over/
+  srgpc_url: https://www.srgpc.net/cards/15/microphone-takeover/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12330,6 +12372,7 @@
   tags: []
 - name: Mind Warp
   db_uuid: dacb1bc83a214ed884494e1422793c71
+  srgpc_url: https://www.srgpc.net/cards/15/mind-warp/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12340,6 +12383,7 @@
   tags: []
 - name: Patella Buster
   db_uuid: 6d75ae044d4a47b29dc492c1916249e5
+  srgpc_url: https://www.srgpc.net/cards/15/patella-buster/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12350,6 +12394,7 @@
   tags: []
 - name: Reaching for the Ropes
   db_uuid: 7b5c243c3a7944539e8dbd67d8d052e9
+  srgpc_url: https://www.srgpc.net/cards/15/reaching-for-the-ropes/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12357,6 +12402,7 @@
   tags: []
 - name: Rib Crush
   db_uuid: 23f9d3fda7d94c0894828c70b0100591
+  srgpc_url: https://www.srgpc.net/cards/15/rib-crush/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12365,6 +12411,7 @@
   tags: []
 - name: Romero Special
   db_uuid: fc79c6c805b84e6698d4e41643133110
+  srgpc_url: https://www.srgpc.net/cards/15/romero-special/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12373,6 +12420,7 @@
   tags: []
 - name: Rope Break V1
   db_uuid: 6c66c8d3e2914481bfd9f713ad147732
+  srgpc_url: https://www.srgpc.net/cards/15/rope-break/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12383,6 +12431,7 @@
   tags: []
 - name: Rope Break V2
   db_uuid: 910aab0a7e374b969d2d698e92dafdac
+  srgpc_url: https://www.srgpc.net/cards/15/rope-break-njpw/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12393,6 +12442,7 @@
   tags: []
 - name: Run the Ropes
   db_uuid: 843766b1914d4b3698795d4968d7c145
+  srgpc_url: https://www.srgpc.net/cards/15/run-the-ropes/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12403,6 +12453,7 @@
   tags: []
 - name: Single Leg Crab
   db_uuid: 9f115bf53e384d3a90dce3b58d6b8f90
+  srgpc_url: https://www.srgpc.net/cards/15/single-leg-crab/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12411,6 +12462,7 @@
   tags: []
 - name: Single Leg Torture Rack
   db_uuid: b20d03161a09413295974431d453682d
+  srgpc_url: https://www.srgpc.net/cards/15/single-leg-torture-rack/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12419,6 +12471,7 @@
   tags: []
 - name: Skull Shake
   db_uuid: 8219dd4eec8b47378860d9904da2bbf7
+  srgpc_url: https://www.srgpc.net/cards/15/skull-shake/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12427,6 +12480,7 @@
   tags: []
 - name: Sledgehammer the Opposition
   db_uuid: 84ce1ae8352b4a33ad4ab6e8367e4094
+  srgpc_url: https://www.srgpc.net/cards/15/sledgehammer-the-opposition/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12435,6 +12489,7 @@
   tags: []
 - name: Slingshot Lock
   db_uuid: 0a42936503ce4b02a0021c9509653591
+  srgpc_url: https://www.srgpc.net/cards/15/slingshot-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12447,6 +12502,7 @@
   tags: []
 - name: Spinning Hammer Hold
   db_uuid: 2e971c0eeca447d897226524cfe3d29f
+  srgpc_url: https://www.srgpc.net/cards/15/spinning-hammer-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12457,6 +12513,7 @@
   tags: []
 - name: Split Finger Breaker
   db_uuid: 8a617622df424db3b5ebe96398b0ffed
+  srgpc_url: https://www.srgpc.net/cards/15/split-finger-breaker/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12465,6 +12522,7 @@
   tags: []
 - name: Steel Chained
   db_uuid: b85299a1cd8e44d8b0c9d01b6b8e6bcf
+  srgpc_url: https://www.srgpc.net/cards/15/steel-chained/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12475,6 +12533,7 @@
   tags: []
 - name: Super Over the Top Love
   db_uuid: e586059e862d4941a41505b99ce4ad57
+  srgpc_url: https://www.srgpc.net/cards/15/toss-your-date-over-the-top/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12485,6 +12544,7 @@
   tags: []
 - name: Swinging Single Leg Crab
   db_uuid: 420fe0f893e741b49d068f992912e6c2
+  srgpc_url: https://www.srgpc.net/cards/15/swinging-single-leg-crab/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12495,6 +12555,7 @@
   tags: []
 - name: Takeover With the Ring Steps
   db_uuid: a176d7c027f7451f9747987c3c7a4959
+  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-ring-steps-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12503,6 +12564,7 @@
   tags: []
 - name: Takeover With the Sledgehammer
   db_uuid: 11264dcdf90249ad88b24abde6063a02
+  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12511,6 +12573,7 @@
   tags: []
 - name: Takeover With the Steel Chain
   db_uuid: dde8e160e0d8458dbbad8b2b630b2992
+  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-steel-chain/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12519,6 +12582,7 @@
   tags: []
 - name: Trap in the Corner
   db_uuid: fb2cc43b283849cfb83e19e2ef798b78
+  srgpc_url: https://www.srgpc.net/cards/15/trap-in-the-corner/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12529,6 +12593,7 @@
   tags: []
 - name: Triangle Choke
   db_uuid: 8307e0e7b25f48e699d247036717f87d
+  srgpc_url: https://www.srgpc.net/cards/15/triangle-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12541,6 +12606,7 @@
   tags: []
 - name: Turn Up the Steel Chains
   db_uuid: a26f2b3d2cf64d1ca736cafe85e33110
+  srgpc_url: https://www.srgpc.net/cards/15/turn-up-the-steel-chains/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12552,6 +12618,7 @@
     - b5f3821913f14a9ea4b45eb95aa3959b
 - name: Tussle Over the Microphone
   db_uuid: 5bb536fc204a4e3f804583142887c8c4
+  srgpc_url: https://www.srgpc.net/cards/15/tussle-over-the-microphone/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12560,6 +12627,7 @@
   tags: []
 - name: Veteran Maneuver
   db_uuid: 68cef7f90216452782ae68420a32428c
+  srgpc_url: https://www.srgpc.net/cards/15/veteran-maneuver/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12568,6 +12636,7 @@
   tags: []
 - name: Wall of Fire
   db_uuid: 559dbe43e2e94ed69a2ae89dc322274d
+  srgpc_url: https://www.srgpc.net/cards/15/wall-of-fire/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12580,6 +12649,7 @@
   tags: []
 - name: Witchy Whirlybird High-Jinks
   db_uuid: 8a77452e1104430980e1052e29068448
+  srgpc_url: https://www.srgpc.net/cards/15/witchy-whirlybird-high-jinks/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -12588,6 +12658,7 @@
   tags: []
 - name: Wrap in the Steel Chains
   db_uuid: 1364f1a69c944b70aec6f1dd43f8237e
+  srgpc_url: https://www.srgpc.net/cards/15/wrap-in-the-steel-chains/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -34068,6 +34139,7 @@
 - name: Top Rope Skull Hold
   db_uuid: be13d39a093c469db02cb7be2bef9203
   srg_url: https://supershowthegame.com/product/15-top-rope-skull-hold/
+  srgpc_url: https://www.srgpc.net/cards/15/top-rope-skull-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -34883,4 +34955,102 @@
   rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Follow Up Submission or Finish Submission.
 
     When you stop a card, the stopped card has blank text until the end of the turn.'
+  tags: []
+- name: Attack in the Ropes
+  db_uuid: 90b8a20b5a034fc1b304e027806f1a7a
+  srgpc_url: https://www.srgpc.net/cards/15/attack-in-the-ropes/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: +1 to your next turn roll or add 1 Finish from your discard pile to your hand.
+  tags: []
+- name: Possum Posse Progeny
+  db_uuid: 9ccf885a4f8644918197121aff99bd42
+  srgpc_url: https://www.srgpc.net/cards/15/possum-posse-progeny/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: Search your deck for a Finish Submission and add it to your hand.
+  tags: []
+- name: 'Stunning Shining Potion #43'
+  db_uuid: b1f703cf0b384524a6ad64484585ff6c
+  srgpc_url: https://www.srgpc.net/cards/15/stunning-shining-potion-43/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: If your Technique skill is greater than your opponent's Technique skill, stop any Follow Up or Finish Strike, even if it cannot be stopped.
+  tags: []
+- name: 'Stunting Potion #51'
+  db_uuid: d06fa40b158946f4b74de295052654b9
+  srgpc_url: https://www.srgpc.net/cards/15/stunting-potion-51/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, stop any Follow Up Strike or Finish Strike.
+
+    When you stop a card, the stopped card has blank text until the end of the turn.'
+  tags: []
+- name: Taunt from the Table
+  db_uuid: 623e04e77164460d9594dbc95de258c4
+  srgpc_url: https://www.srgpc.net/cards/15/taunt-from-the-table/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: If your Technique skill is at least 4 greater than your opponent's Technique skill, or this match has "Table" in the name, stop any Strike.
+  tags: []
+- name: That's Cheesy Chinlock
+  db_uuid: 45c53e81d31746ef9fc933464c5f2104
+  srgpc_url: https://www.srgpc.net/cards/15/thats-cheesey-chinlock/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    You can stop cards that cannot be stopped.'
+  tags: []
+- name: That's Good Tech
+  db_uuid: 27df7c964ca949c0b5087f1f45dfd114
+  srgpc_url: https://www.srgpc.net/cards/15/thats-good-tech/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, stop any Strike.
+
+    Each player buries 1 card in their opponent''s discard pile.'
+  tags: []
+- name: The 4 Horsemen of the Apocalypse
+  db_uuid: b235ff73d46c478e839527303e053664
+  srgpc_url: https://www.srgpc.net/cards/15/the-4-horsemen-of-the-apocalypse/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: If your Submission skill is greater than your opponent's Submission skill, stop any Follow Up Strike or Finish Strike even if it cannot be stopped.
+  tags: []
+- name: The Most Magical Hold
+  db_uuid: 3b71288bbf584f9aadc08e68c6a90a83
+  srgpc_url: https://www.srgpc.net/cards/15/the-most-magical-hold/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Reveal the top 2 cards of your deck: Choose 1 and play it as an additional card this turn.'
+  tags: []
+- name: Vindication
+  db_uuid: cc00c8eea43f4893bc6ffb41174ae092
+  srgpc_url: https://www.srgpc.net/cards/15/vindication/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Draw 2 cards.
+
+    Your next turn roll is +2.'
   tags: []

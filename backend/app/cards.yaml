@@ -1906,6 +1906,7 @@
 - name: Stomp
   db_uuid: 46c5ed46ccdc4cd2984300175fcbbfdc
   srg_url: https://supershowthegame.com/product/07-stomp/
+  srgpc_url: https://www.srgpc.net/cards/7/stomp/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -2402,6 +2403,7 @@
 - name: Super Side Kick
   db_uuid: f253733568ab4089b08fbac2762e7692
   srg_url: https://supershowthegame.com/product/07-super-side-kick/
+  srgpc_url: https://www.srgpc.net/cards/7/super-side-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -2413,6 +2415,7 @@
 - name: Drawin' Dimes (V1)
   db_uuid: 3985ce9c65644441becdde562788868a
   srg_url: https://supershowthegame.com/product/07-drawin-dimes/
+  srgpc_url: https://www.srgpc.net/cards/7/drawin-dimes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -3442,6 +3445,7 @@
 - name: Elbow Shot
   db_uuid: e4809829f15e4232937e72b281f75edc
   srg_url: https://supershowthegame.com/product/07-elbow-shot/
+  srgpc_url: https://www.srgpc.net/cards/7/elbow-shot
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6532,6 +6536,7 @@
   tags: []
 - name: Back Elbow
   db_uuid: b7083110c10d42898b9d6622d35da1b3
+  srgpc_url: https://www.srgpc.net/cards/7/back-elbow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6540,6 +6545,7 @@
   tags: []
 - name: Back Smash
   db_uuid: 417773f219214b83bfc938bd8731a2ee
+  srgpc_url: https://www.srgpc.net/cards/7/back-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6548,6 +6554,7 @@
   tags: []
 - name: Barrel Burner
   db_uuid: 28547586ed1e4ee1a046944cb6d62ed1
+  srgpc_url: https://www.srgpc.net/cards/7/barrel-burner/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6556,6 +6563,7 @@
   tags: []
 - name: Baseball Slide
   db_uuid: 82e3194e67ee41b78c75f5aa099877c4
+  srgpc_url: https://www.srgpc.net/cards/7/baseball-slide/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6579,6 +6587,7 @@
   tags: []
 - name: Blinding Potion No. 7
   db_uuid: 5f0e6868fb3548a8b2edec12b58a65cb
+  srgpc_url: https://www.srgpc.net/cards/7/blinding-potion-no-7/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6589,6 +6598,7 @@
   tags: []
 - name: Boss-rate Chop
   db_uuid: b80e9039cbe743f19ec0f1412397a57d
+  srgpc_url: https://www.srgpc.net/cards/7/boss-rate-chop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6605,6 +6615,7 @@
   tags: []
 - name: Cat Uprising
   db_uuid: 184d0e7a6e674a01943827813aad9a39
+  srgpc_url: https://www.srgpc.net/cards/7/cat-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6615,6 +6626,7 @@
   tags: []
 - name: Charging Elbow
   db_uuid: 0954b5bfbd4748a792f8b52c93937ca6
+  srgpc_url: https://www.srgpc.net/cards/7/charging-elbow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6623,6 +6635,7 @@
   tags: []
 - name: Chest Slap
   db_uuid: 4bc26310639641e9a19329c27f1e163d
+  srgpc_url: https://www.srgpc.net/cards/7/chest-slap/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6631,6 +6644,7 @@
   tags: []
 - name: Choppa-Choppa, Choppa-Choppa, Choppa-Choppa, Chop!
   db_uuid: af16823870df449cb1737c33b8a32af3
+  srgpc_url: https://www.srgpc.net/cards/7/choppa-choppa-choppa-choppa-choppa-choppa-chop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6641,6 +6655,7 @@
   tags: []
 - name: Discus Punch
   db_uuid: 36c7c0d50aaa49928de7d6dc651ee640
+  srgpc_url: https://www.srgpc.net/cards/7/discus-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6649,6 +6664,7 @@
   tags: []
 - name: Doomsday Lariat
   db_uuid: 35ca2bdfe72b4553aaa134122d58685a
+  srgpc_url: https://www.srgpc.net/cards/7/doomsday-lariat/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6657,6 +6673,7 @@
   tags: []
 - name: Dragon Punch
   db_uuid: 7cda714d91bc443386071bdd3327985d
+  srgpc_url: https://www.srgpc.net/cards/7/dragon-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6665,16 +6682,20 @@
   tags: []
 - name: Drawin' Dimes (V2)
   db_uuid: b684f046dbca4e608eeef10581716eb1
+  srgpc_url: https://www.srgpc.net/cards/7/drawin-dimes-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
   deck_card_number: 7
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.'
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Drumstick Uprising
   db_uuid: 0c7c6c9d439b461499c8806be4f18a69
+  srgpc_url: https://www.srgpc.net/cards/7/drumstick-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6685,6 +6706,7 @@
   tags: []
 - name: Elbow Drop
   db_uuid: 3dcc8886aaf2402f82a98f13d5d26bd1
+  srgpc_url: https://www.srgpc.net/cards/7/elbow-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6693,6 +6715,7 @@
   tags: []
 - name: Elbow Smash
   db_uuid: 3f8141333cb7453aadfb0feed8f83ef4
+  srgpc_url: https://www.srgpc.net/cards/7/elbow-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6702,6 +6725,7 @@
 - name: Exposed Turnbuckle
   db_uuid: 5d7fc8e4c6bb45c793df54e9456f2a34
   srg_url: https://supershowthegame.com/product/07-exposed-turnbuckle/
+  srgpc_url: https://www.srgpc.net/cards/7/exposed-turnbuckle/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6710,6 +6734,7 @@
   tags: []
 - name: Face-Off
   db_uuid: 4d9d13cbb0c74d89bd1270e44015f91a
+  srgpc_url: https://www.srgpc.net/cards/7/face-off/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6718,6 +6743,7 @@
   tags: []
 - name: Forearm Shot
   db_uuid: 223b9ba299c044ed88fb92525bed1e43
+  srgpc_url: https://www.srgpc.net/cards/7/forearm-shot/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6726,6 +6752,7 @@
   tags: []
 - name: I Came In Like a Wrecking Ball
   db_uuid: 6972d05be47f4099b44120bbf1edbf8f
+  srgpc_url: https://www.srgpc.net/cards/7/i-came-in-like-a-wrecking-ball/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6734,6 +6761,7 @@
   tags: []
 - name: Jump Kick
   db_uuid: 0b95e98f3b4448ffaf94817ccc881285
+  srgpc_url: https://www.srgpc.net/cards/7/jump-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6744,6 +6772,7 @@
   tags: []
 - name: Jumping Stomp
   db_uuid: 89f32ba6499a426d9b731c62f68c70f7
+  srgpc_url: https://www.srgpc.net/cards/7/jumping-stomp/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6754,6 +6783,7 @@
   tags: []
 - name: Kabuki
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
+  srgpc_url: https://www.srgpc.net/cards/7/kabuki/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6764,6 +6794,7 @@
   tags: []
 - name: Kendo Stick Uprising
   db_uuid: 6f3e75fa3c22490980b75be621d4ecf3
+  srgpc_url: https://www.srgpc.net/cards/7/kendo-stick-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6774,6 +6805,7 @@
   tags: []
 - name: Knife Edge Chop
   db_uuid: d383bb3c29fc4f8c9a6f24a74a314523
+  srgpc_url: https://www.srgpc.net/cards/7/knife-edge-chop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6782,6 +6814,7 @@
   tags: []
 - name: Ladder Uprising
   db_uuid: 2af58ceb7d284d3ab73c4fc88864c04c
+  srgpc_url: https://www.srgpc.net/cards/7/ladder-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6790,6 +6823,7 @@
   tags: []
 - name: Long Boat Leap
   db_uuid: 101a0600c73c4e169bc66031f56fb92a
+  srgpc_url: https://www.srgpc.net/cards/7/long-boat-leap/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6800,6 +6834,7 @@
   tags: []
 - name: Low Blow with the Chain
   db_uuid: d3e0f4ae49c6443d8c3b2edd8ca20a2a
+  srgpc_url: https://www.srgpc.net/cards/7/low-blow-with-the-chain/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6808,6 +6843,7 @@
   tags: []
 - name: Making an Impact
   db_uuid: cee9c4abd2d2493397ba54997b27c888
+  srgpc_url: https://www.srgpc.net/cards/7/making-an-impact/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6818,6 +6854,7 @@
   tags: []
 - name: Muay Thai Knee
   db_uuid: a5fac40b35bf4b1c841b5ff764904061
+  srgpc_url: https://www.srgpc.net/cards/7/muay-thai-knee/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6828,6 +6865,7 @@
   tags: []
 - name: Off the Ropes
   db_uuid: 79c0a55cc3ee4a0ea43547ebe4dee90b
+  srgpc_url: https://www.srgpc.net/cards/7/off-the-ropes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6836,6 +6874,7 @@
   tags: []
 - name: Overrun
   db_uuid: 883f0e07eb9440a684591d82cfc9efab
+  srgpc_url: https://www.srgpc.net/cards/7/overrun/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6844,6 +6883,7 @@
   tags: []
 - name: Pineapple Uprising
   db_uuid: a5258b6158364ff995d60cda1c10684a
+  srgpc_url: https://www.srgpc.net/cards/7/pineapple-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6854,6 +6894,7 @@
   tags: []
 - name: Posing With the Crowd
   db_uuid: 50ce06f771d046f7b9e8de262598c018
+  srgpc_url: https://www.srgpc.net/cards/7/posing-with-the-crowd/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6866,6 +6907,7 @@
   tags: []
 - name: Potion Uprising
   db_uuid: 9b059306ce624967ad27124a4d864c6e
+  srgpc_url: https://www.srgpc.net/cards/7/potion-uprising/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6876,6 +6918,7 @@
   tags: []
 - name: Pulverizing Pinball
   db_uuid: f8723a55640a48a99c10d14dceaf6390
+  srgpc_url: https://www.srgpc.net/cards/7/pulverizing-pinball/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6886,6 +6929,7 @@
   tags: []
 - name: Rainbow Punch
   db_uuid: 14a171e84211442d9ead218029299e5d
+  srgpc_url: https://www.srgpc.net/cards/7/rainbow-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6894,6 +6938,7 @@
   tags: []
 - name: Razor Whip
   db_uuid: 9e65bf2574444dfab2b555debfdec34b
+  srgpc_url: https://www.srgpc.net/cards/7/razor-whip/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6904,6 +6949,7 @@
   tags: []
 - name: Ride the Wave
   db_uuid: dd0ff543ee0647259c947c9fd15aff15
+  srgpc_url: https://www.srgpc.net/cards/7/ride-the-wave/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6912,6 +6958,7 @@
   tags: []
 - name: Rolling Forearm (V1)
   db_uuid: 6ad4619cdb2c4c50b6853cd3ee9e0d37
+  srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6920,6 +6967,7 @@
   tags: []
 - name: Rolling Forearm (V2)
   db_uuid: ae508887f4354efa8263f4396da7c661
+  srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm-technique/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6932,6 +6980,7 @@
   tags: []
 - name: Run it Back
   db_uuid: 958d63b6e6bb4ec3800ef7eec3060c2f
+  srgpc_url: https://www.srgpc.net/cards/7/run-it-back/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6942,6 +6991,7 @@
   tags: []
 - name: Rainbow Kick
   db_uuid: b25ca3cc19584e428b3f2f582ff33d41
+  srgpc_url: https://www.srgpc.net/cards/7/rainbow-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6950,6 +7000,7 @@
   tags: []
 - name: Scissor Kick
   db_uuid: 82de40ce66744b89a2806840ca048525
+  srgpc_url: https://www.srgpc.net/cards/7/scissor-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6960,6 +7011,7 @@
   tags: []
 - name: Skull Punch
   db_uuid: 046871f823a645f6b514bfc4408c92a2
+  srgpc_url: https://www.srgpc.net/cards/7/skull-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6968,6 +7020,7 @@
   tags: []
 - name: Slithering Shot
   db_uuid: 147e378a324e44b78d38d653964c62d9
+  srgpc_url: https://www.srgpc.net/cards/7/slithering-shot/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6978,6 +7031,7 @@
   tags: []
 - name: Springboard Leg Drop
   db_uuid: e6dccf40aac542c5a50c59c71f5e9a33
+  srgpc_url: https://www.srgpc.net/cards/7/springboard-leg-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6988,6 +7042,7 @@
   tags: []
 - name: Standing Dropkick
   db_uuid: c97ea70d1df749f9873f3a85bad5af5a
+  srgpc_url: https://www.srgpc.net/cards/7/standing-dropkick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -6998,6 +7053,7 @@
   tags: []
 - name: Stomp in the Ropes
   db_uuid: 0a46f650115348f897ab665088cfabf5
+  srgpc_url: https://www.srgpc.net/cards/7/stomp-in-the-ropes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7008,6 +7064,7 @@
   tags: []
 - name: Surprise Hit (V1)
   db_uuid: 466176151ead41faab01e638ac550443
+  srgpc_url: https://www.srgpc.net/cards/7/surprise-hit-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7026,6 +7083,7 @@
   tags: []
 - name: Taunting Kick (V1)
   db_uuid: 5ee1c60c7bf9415cb4e10287062e6214
+  srgpc_url: https://www.srgpc.net/cards/7/taunting-kick-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7042,6 +7100,7 @@
   tags: []
 - name: This is Gonna Leave a Mark
   db_uuid: e580d19e0202468dad9c85274b32e83d
+  srgpc_url: https://www.srgpc.net/cards/7/this-is-gonna-leave-a-mark/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7052,6 +7111,7 @@
   tags: []
 - name: Thunderous Slap
   db_uuid: f56f15aaae7948d88cae3d3861faf240
+  srgpc_url: https://www.srgpc.net/cards/7/thunderous-stomp/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7072,6 +7132,7 @@
   tags: []
 - name: Too Sheep!
   db_uuid: aa623cae60bb4b24a79fd696241539a9
+  srgpc_url: https://www.srgpc.net/cards/7/too-sheep/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7082,6 +7143,7 @@
   tags: []
 - name: Took it on the Chin! (#7)
   db_uuid: 3cca1f55a44b48d6b3aac0d9b3af6863
+  srgpc_url: https://www.srgpc.net/cards/7/took-it-on-the-chin/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7090,6 +7152,7 @@
   tags: []
 - name: Tornillo
   db_uuid: 72e8bc2d2ddb40f68d50be7f62568f25
+  srgpc_url: https://www.srgpc.net/cards/7/tornillo/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7100,6 +7163,7 @@
   tags: []
 - name: Unacceptable Impact
   db_uuid: d25674b488a94ec7a5c4a6bb87623425
+  srgpc_url: https://www.srgpc.net/cards/7/unacceptable-impact/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7110,6 +7174,7 @@
   tags: []
 - name: Wrench Trip
   db_uuid: 0d08fcd610e74828ba6e418179b2aa46
+  srgpc_url: https://www.srgpc.net/cards/7/wrench-trip/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7121,6 +7186,7 @@
 - name: You've Been Naughty (V1)
   db_uuid: cbf175624b4343869e2522451282979b
   srg_url: https://supershowthegame.com/product/07-youve-been-naughty/
+  srgpc_url: https://www.srgpc.net/cards/7/youve-been-naughty/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -33566,6 +33632,7 @@
   tags: []
 - name: Bird's Eye View Kick
   db_uuid: 0b72959b72734b81be7bc8b86967869c
+  srgpc_url: https://www.srgpc.net/cards/7/birds-eye-view-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -33962,4 +34029,43 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
+  rules_text: +1 to Submission
+  tags: []
+- name: Gut-Checking Elbow
+  db_uuid: 0e0b368b6b624580be0c6ca982004102
+  srgpc_url: https://www.srgpc.net/cards/7/gut-checking-elbow/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Discard 2 cards from your hand. Add 2 Strikes from your discard pile to your hand.
+  tags: []
+- name: Smash Your Face Into the Table
+  db_uuid: d6108b622abf48fbb2404ea2d22891ff
+  srgpc_url: https://www.srgpc.net/cards/7/smash-your-face-into-the-table/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Search your deck for 1 card with "Table" in the name, add it to your hand or each player buries 1 card in their hand.
+  tags: []
+- name: Split Fire Story
+  db_uuid: a2e993d0dd1b46ac8c07c66d70fc1af8
+  srgpc_url: https://www.srgpc.net/cards/7/split-fire-story/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'Randomly add a Finish from your discard pile to your hand.
+
+    When this card is discarded from play for a Breakout, draw 1 card.'
+  tags: []
+- name: Take the Mantle
+  db_uuid: b6ea1a90522b4a17a966c134583c88ad
+  srgpc_url: https://www.srgpc.net/cards/7/take-the-mantle/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Search your deck for up to 3 cards and put them into your discard pile. Shuffle your deck.
   tags: []

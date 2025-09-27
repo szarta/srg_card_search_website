@@ -36665,5 +36665,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
-  rules_text: Your Agility is +2 during your turn.
+  rules_text: 'If  your opponent has another Submission in play, stop any Submission.
+
+    The Crowd Meter is considered -1 for all Stop text.'
   tags: []

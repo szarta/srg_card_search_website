@@ -2312,6 +2312,7 @@
 - name: Sheepish Running Knee to the Skull
   db_uuid: 6c2a798ae96140fa933e1257f229036c
   srg_url: https://supershowthegame.com/product/22-sheepish-running-knee/
+  srgpc_url: https://www.srgpc.net/cards/22/sheepish-running-knee-to-the-skull/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -2347,6 +2348,7 @@
 - name: Armenian Power Punch
   db_uuid: 57f66614167f44bb9085e15b14d9268d
   srg_url: https://supershowthegame.com/product/22-armenian-power-punch/
+  srgpc_url: https://www.srgpc.net/cards/22/armenian-power-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -3465,6 +3467,7 @@
 - name: Moonsault
   db_uuid: e11192eb755d4fcdb8caccd2b31a7326
   srg_url: https://supershowthegame.com/product/22-moonsault/
+  srgpc_url: https://www.srgpc.net/cards/22/moonsault/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16534,6 +16537,7 @@
   tags: []
 - name: 360 Lariat
   db_uuid: a811ce990f59487da29a7de21f7b389c
+  srgpc_url: https://www.srgpc.net/cards/22/360-lariat/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16545,6 +16549,7 @@
 - name: Highland Headbutt
   db_uuid: b878bf46b71c4003bd18d87d58473fae
   srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
+  srgpc_url: https://www.srgpc.net/cards/22/highland-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16555,6 +16560,7 @@
   tags: []
 - name: A Shot in the Dark
   db_uuid: be2e4f2c9f1746ce9bbb1f08111748d1
+  srgpc_url: https://www.srgpc.net/cards/22/a-shot-in-the-dark/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16562,6 +16568,7 @@
   tags: []
 - name: Atomic Knee Smash
   db_uuid: c1a201f39d384355bcc4c8f589be75cb
+  srgpc_url: https://www.srgpc.net/cards/22/atomic-knee-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16572,6 +16579,7 @@
   tags: []
 - name: Bank-Breaking Knee
   db_uuid: e385e063bb5a449990ecbcc2957cf29d
+  srgpc_url: https://www.srgpc.net/cards/22/bank-breaking-knee/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16584,6 +16592,7 @@
   tags: []
 - name: Beat Down
   db_uuid: f90d30a72e35458c945e192c3a5497f7
+  srgpc_url: https://www.srgpc.net/cards/22/beat-down/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16591,21 +16600,50 @@
   tags: []
 - name: Blast Into the Light Tubes
   db_uuid: 8e67ea9758d341508c7051a8d70a6823
+  srgpc_url: https://www.srgpc.net/cards/22/blast-into-the-light-tubes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
   tags: []
-- name: Booty Drop Chop
+- name: Booty Drop Chop (V1)
   db_uuid: c09f41ad04af40429b15946cb58aa674
+  srgpc_url: https://www.srgpc.net/cards/22/booty-drop-chop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your maximum handsize is +3.
+
+    Choose one:
+
+    Draw 3 cards.
+
+    Add the bottom 3 cards of your deck to your hand.
+
+    Skill Requirement: Power 8+'
+  tags: []
+- name: Booty Drop Chop (V2)
+  db_uuid: 92c1ff259f5e4b6b931c90a13c3c1851
+  srgpc_url: https://www.srgpc.net/cards/22/booty-drop-chop-strike/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Your maximum handsize is +3.
+
+    Choose one:
+
+    Draw 3 cards.
+
+    Add the bottom 3 cards of your deck to your hand.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Brass Knuckle Punch
   db_uuid: 7c8bd5a5fb2b4498b01d054f25b548ec
   srg_url: https://supershowthegame.com/product/22-brass-knuckle-punch/
+  srgpc_url: https://www.srgpc.net/cards/22/brass-knuckle-punch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16616,6 +16654,7 @@
   tags: []
 - name: Buckshot Driver
   db_uuid: 9058fa1a557c467a8b005bd41dd3b7a2
+  srgpc_url: https://www.srgpc.net/cards/22/buckshot-driver/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16623,6 +16662,7 @@
   tags: []
 - name: Bulldozer of Demolotion
   db_uuid: 7e71d03cf200438a80e28126a4143258
+  srgpc_url: https://www.srgpc.net/cards/22/bulldozer-of-demolotion/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16630,6 +16670,7 @@
   tags: []
 - name: Callous Elbow Strike
   db_uuid: fa199326c50b4067ac90038219314b9f
+  srgpc_url: https://www.srgpc.net/cards/22/callous-elbow-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16637,6 +16678,7 @@
   tags: []
 - name: Catch, Twist, Kick
   db_uuid: 82dbb30da1e84bfb8aad957b572da0aa
+  srgpc_url: https://www.srgpc.net/cards/22/catch-twist-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16644,6 +16686,7 @@
   tags: []
 - name: Chair Shot
   db_uuid: 9fa7bdeaa4c84ef198d3fdbde50c381c
+  srgpc_url: https://www.srgpc.net/cards/22/chair-shot/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16651,6 +16694,7 @@
   tags: []
 - name: Chop the Back of the Knee
   db_uuid: 3a1a9e87d4754655811889d1694b4aba
+  srgpc_url: https://www.srgpc.net/cards/22/chop-the-back-of-the-knee/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16659,6 +16703,7 @@
   tags: []
 - name: Clothesline
   db_uuid: ce1e31c662184b4bb36fa90f5f389496
+  srgpc_url: https://www.srgpc.net/cards/22/clothesline/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16666,6 +16711,7 @@
   tags: []
 - name: Clothesline Over the Top Rope
   db_uuid: e7673ba0474049f38229a78f4495d455
+  srgpc_url: https://www.srgpc.net/cards/22/clothesline-over-the-top-rope/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16676,6 +16722,7 @@
   tags: []
 - name: Corner Clothesline
   db_uuid: 5716c2579d2e40ffa768a14b42df323c
+  srgpc_url: https://www.srgpc.net/cards/22/corner-clothesline/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16683,6 +16730,7 @@
   tags: []
 - name: Cosmic Charging Splash
   db_uuid: 622cefcd937542a898e672605e962f1b
+  srgpc_url: https://www.srgpc.net/cards/22/cosmic-charging-splash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16690,6 +16738,7 @@
   tags: []
 - name: Daredevil Dive
   db_uuid: 311503316e1c4cf6a67f5b792b801503
+  srgpc_url: https://www.srgpc.net/cards/22/daredevil-dive/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16697,6 +16746,7 @@
   tags: []
 - name: Discus Elbow
   db_uuid: a7ef5df2b6fd421984806994e84949d7
+  srgpc_url: https://www.srgpc.net/cards/22/discus-elbow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16704,6 +16754,7 @@
   tags: []
 - name: Dive Off the Top Rope
   db_uuid: 95f7dd31526f479b8fb1d069f267b853
+  srgpc_url: https://www.srgpc.net/cards/22/dive-off-the-top-rope/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16711,6 +16762,7 @@
   tags: []
 - name: Diving Knee Drop
   db_uuid: 6119d008eaaa4f57b9a9087178909feb
+  srgpc_url: https://www.srgpc.net/cards/22/diving-knee-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16718,6 +16770,7 @@
   tags: []
 - name: Double Dose
   db_uuid: cb3e10c55c854a97b41a83065bea8cce
+  srgpc_url: https://www.srgpc.net/cards/22/double-dose/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16725,6 +16778,7 @@
   tags: []
 - name: Double Foot Stomp
   db_uuid: a1004107f2644ca9b7b9a9971bda2e25
+  srgpc_url: https://www.srgpc.net/cards/22/double-foot-stomp/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16732,6 +16786,7 @@
   tags: []
 - name: Double Jump Knee Strike
   db_uuid: 50229c75e12049f19aa6f2425d12c47d
+  srgpc_url: https://www.srgpc.net/cards/22/double-knee-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16739,6 +16794,7 @@
   tags: []
 - name: Double Jump Moonsault
   db_uuid: 67b1e87d32024767a8a7ec9554e734bc
+  srgpc_url: https://www.srgpc.net/cards/22/double-jump-moonsault/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16746,6 +16802,7 @@
   tags: []
 - name: Double Knee - Drop
   db_uuid: 9402b85185124620bc47e329d4cfa28c
+  srgpc_url: https://www.srgpc.net/cards/22/double-knee-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16760,6 +16817,7 @@
   tags: []
 - name: Eternal Conk
   db_uuid: 3e71a541162e41d6b9e5a8e196310108
+  srgpc_url: https://www.srgpc.net/cards/22/eternal-conk/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16770,6 +16828,7 @@
   tags: []
 - name: Fire One Across the Bow
   db_uuid: a5b3a331d4c942a7a22a5d309b2ab7f1
+  srgpc_url: https://www.srgpc.net/cards/22/fire-one-across-the-bow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16777,6 +16836,7 @@
   tags: []
 - name: Flying Knee Strike (V1)
   db_uuid: 2981c172ae3e44d8a46a585edc49b718
+  srgpc_url: https://www.srgpc.net/cards/22/flying-knee-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16793,6 +16853,7 @@
   tags: []
 - name: High Impact Forearm Smash
   db_uuid: 2d982259fe324a51a5b55eeb8de4f736
+  srgpc_url: https://www.srgpc.net/cards/22/high-impact-forearm-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16800,6 +16861,7 @@
   tags: []
 - name: High Strike
   db_uuid: 8163db04d5e4463ca439a1c225b02017
+  srgpc_url: https://www.srgpc.net/cards/22/high-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16807,6 +16869,7 @@
   tags: []
 - name: Karate Kick
   db_uuid: 8d53c96216fb4065b38868c5a51e93dc
+  srgpc_url: https://www.srgpc.net/cards/22/karate-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16821,6 +16884,7 @@
   tags: []
 - name: Lariat Over the Top
   db_uuid: 8c49f061d6d7462daa29e1dfe8592c44
+  srgpc_url: https://www.srgpc.net/cards/22/lariat-over-the-top/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16831,6 +16895,7 @@
   tags: []
 - name: Leaping Lariat (V1)
   db_uuid: b98b23173f7f48bd9b6bae9defc4b374
+  srgpc_url: https://www.srgpc.net/cards/22/leaping-lariat-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16845,6 +16910,7 @@
   tags: []
 - name: Let's Roll
   db_uuid: 10bd8a1e9f1b43ffb26a149bcf1cb726
+  srgpc_url: https://www.srgpc.net/cards/22/lets-roll/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16852,6 +16918,7 @@
   tags: []
 - name: Level Up Spear
   db_uuid: b97547650b6e44368f9234d8e01369ad
+  srgpc_url: https://www.srgpc.net/cards/22/level-up-spear/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16859,6 +16926,7 @@
   tags: []
 - name: Lightning Strikes
   db_uuid: da799d6709664d6a8145dcb5e617e0a8
+  srgpc_url: https://www.srgpc.net/cards/22/lightning-strikes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16866,6 +16934,7 @@
   tags: []
 - name: Lucky Dragon Jawbreaker
   db_uuid: 156a35701ea54b6eabad337ff513b105
+  srgpc_url: https://www.srgpc.net/cards/22/lucky-dragon-jawbreaker/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16873,6 +16942,7 @@
   tags: []
 - name: Mist in the Face
   db_uuid: b283fe8806214cbfb67576c246730aa2
+  srgpc_url: https://www.srgpc.net/cards/22/mist-in-the-face/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16880,6 +16950,7 @@
   tags: []
 - name: Muay Thai Strikes
   db_uuid: 7fe08b677c684e6990c0a5b9ac7033c4
+  srgpc_url: https://www.srgpc.net/cards/22/muay-thai-strikes/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16887,6 +16958,7 @@
   tags: []
 - name: Multiversal Headbutt
   db_uuid: e61030e566e547b0aae4799f61efce95
+  srgpc_url: https://www.srgpc.net/cards/22/multiversal-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16894,6 +16966,7 @@
   tags: []
 - name: Old School Knockdown
   db_uuid: eca33c5df09a441f873fbb1112c36b31
+  srgpc_url: https://www.srgpc.net/cards/22/old-school-knockdown/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16901,6 +16974,7 @@
   tags: []
 - name: The Opening Act
   db_uuid: be03498d58ad418f9ac634f5e4f03cf3
+  srgpc_url: https://www.srgpc.net/cards/22/the-opening-act/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16908,6 +16982,7 @@
   tags: []
 - name: Reckless Assault
   db_uuid: a1288af8daed45e5bd4fb6b4d443ad6c
+  srgpc_url: https://www.srgpc.net/cards/22/reckless-assault/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16915,6 +16990,7 @@
   tags: []
 - name: Red Splash
   db_uuid: 2aa42464af8341aca8a1ec311cf52e18
+  srgpc_url: https://www.srgpc.net/cards/22/red-splash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16922,6 +16998,7 @@
   tags: []
 - name: Rolling Tire Fire of Obliteration
   db_uuid: 704fef20c27c4443be99c63e88552f98
+  srgpc_url: https://www.srgpc.net/cards/22/rolling-tire-fire-of-obliteration/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16929,6 +17006,7 @@
   tags: []
 - name: Runaway Kick
   db_uuid: c7cd90ecc0c6451d8f2ee807be3d36af
+  srgpc_url: https://www.srgpc.net/cards/22/runaway-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16936,6 +17014,7 @@
   tags: []
 - name: Running Face Kick
   db_uuid: 31b0cbc5069749919ba976f2ec37fe52
+  srgpc_url: https://www.srgpc.net/cards/22/running-face-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16943,6 +17022,7 @@
   tags: []
 - name: Scratch
   db_uuid: 25824f9b22234a6b884ca37fbdb8917b
+  srgpc_url: https://www.srgpc.net/cards/22/scratch/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16962,6 +17042,7 @@
   tags: []
 - name: Set Up the Drumsticks
   db_uuid: 5f8048a149044ea4b996d0c319cacf36
+  srgpc_url: https://www.srgpc.net/cards/22/set-up-the-drumsticks/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16969,6 +17050,7 @@
   tags: []
 - name: Set Up the Kendo Stick
   db_uuid: d35f7c01c3594459b381bdf47a9c3791
+  srgpc_url: https://www.srgpc.net/cards/22/set-up-the-kendo-stick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16989,6 +17071,7 @@
   tags: []
 - name: Targeted Aggression
   db_uuid: be1eba150a6b41a39e438c52283fc1e6
+  srgpc_url: https://www.srgpc.net/cards/22/targeted-aggression/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -16996,6 +17079,7 @@
   tags: []
 - name: Set Up the Ladder
   db_uuid: f47b548b4fe34d99acd62e2127060c69
+  srgpc_url: https://www.srgpc.net/cards/22/set-up-the-ladder/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17006,6 +17090,7 @@
   tags: []
 - name: Set Up the Pineapple
   db_uuid: 62c61ec9024840ae983874fa9019893b
+  srgpc_url: https://www.srgpc.net/cards/22/set-up-the-pineapple/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17013,6 +17098,7 @@
   tags: []
 - name: Send It Home
   db_uuid: 7bf9bbc9966043fbbb12162a8d043130
+  srgpc_url: https://www.srgpc.net/cards/22/send-it-home/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17020,6 +17106,7 @@
   tags: []
 - name: Short Arm Lariat
   db_uuid: 05733d622542445dbaa94b9ef04d1bb7
+  srgpc_url: https://www.srgpc.net/cards/22/short-arm-lariat/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17027,6 +17114,7 @@
   tags: []
 - name: Show Boat
   db_uuid: fa512c6ee7d14e4b9cb6690147fa4e70
+  srgpc_url: https://www.srgpc.net/cards/22/showboat-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17037,6 +17125,7 @@
   tags: []
 - name: Sky-High Knee Drop
   db_uuid: d7d8149656db4acb86cef99cbbc0942d
+  srgpc_url: https://www.srgpc.net/cards/22/sky-high-knee-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17044,6 +17133,7 @@
   tags: []
 - name: Smash Into the Corner
   db_uuid: 6fe4fc047e1a4c09a38f65eea4e3bf0c
+  srgpc_url: https://www.srgpc.net/cards/22/splash-in-the-corner/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17054,6 +17144,7 @@
   tags: []
 - name: Snap Headbutt
   db_uuid: 8ab52bee3fdc47a3a4a8077cbfef78ad
+  srgpc_url: https://www.srgpc.net/cards/22/snap-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17061,6 +17152,7 @@
   tags: []
 - name: Soaring Skateboard Smash
   db_uuid: 226d7a4c82d94598927d4e0a3e12530f
+  srgpc_url: https://www.srgpc.net/cards/22/soaring-skateboard-smash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17075,6 +17167,7 @@
   tags: []
 - name: Standing Moonsault
   db_uuid: 38a52829bcaa4022ad19a7cb2351ba07
+  srgpc_url: https://www.srgpc.net/cards/22/standing-moonsault/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17082,6 +17175,7 @@
   tags: []
 - name: Stinging Splash
   db_uuid: 9641927c81c948d69090b74068a0b03d
+  srgpc_url: https://www.srgpc.net/cards/22/stinging-splash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17089,6 +17183,7 @@
   tags: []
 - name: Taking Candy From a Man!
   db_uuid: 3f53ab0fef934963b1c29d880378b6f0
+  srgpc_url: https://www.srgpc.net/cards/22/taking-candy-from-a-man/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17097,6 +17192,7 @@
   tags: []
 - name: Thunderous Face Kick
   db_uuid: de2f43b996f5441fb3209ff29eb595a3
+  srgpc_url: https://www.srgpc.net/cards/22/thunderous-face-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17104,6 +17200,7 @@
   tags: []
 - name: Time Jump
   db_uuid: b03a0747851e4660818c5b8b541f0b0b
+  srgpc_url: https://www.srgpc.net/cards/22/time-jump/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17111,6 +17208,7 @@
   tags: []
 - name: Title Belt Shot
   db_uuid: 6575c1e280ad4e45bd3082e9854ed085
+  srgpc_url: https://www.srgpc.net/cards/22/title-belt-shot/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17121,6 +17219,7 @@
   tags: []
 - name: Top Rope Dropkick
   db_uuid: 3ebeb72da8794cd4bf6ab19360db9895
+  srgpc_url: https://www.srgpc.net/cards/22/top-rope-dropkick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17128,6 +17227,7 @@
   tags: []
 - name: Top Rope Moonsault
   db_uuid: 5a3354266b2e46188fa39aaf12e3009a
+  srgpc_url: https://www.srgpc.net/cards/22/top-rope-moonsault/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17135,6 +17235,7 @@
   tags: []
 - name: Triple Swing and an Elbow
   db_uuid: 5c7f43a26b1c4f6083bf487ce9f0d306
+  srgpc_url: https://www.srgpc.net/cards/22/triple-swing-and-an-elbow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17142,6 +17243,7 @@
   tags: []
 - name: Turnip the Heat
   db_uuid: d4e06c5905094f80bf5db470fcc36b57
+  srgpc_url: https://www.srgpc.net/cards/22/turnip-the-heat/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17149,6 +17251,7 @@
   tags: []
 - name: Twisting Backflip
   db_uuid: d10aa4ba87844b32adaec99d7f1fda6d
+  srgpc_url: https://www.srgpc.net/cards/22/twisting-backflip/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17156,6 +17259,7 @@
   tags: []
 - name: Ultra Cosmic Titanic Slam
   db_uuid: c1010ed33620451c9e0a0b4b68730fb3
+  srgpc_url: https://www.srgpc.net/cards/22/ultra-cosmic-titanic-slam/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -35780,4 +35884,96 @@
   rules_text: 'The Crowd Meter is +1.
 
     If this card is flipped by "Set up the Table", add it to your hand.'
+  tags: []
+- name: Beat with the Microphone
+  db_uuid: 42bb47d5f8cd44e79dfb8364d6522e9b
+  srgpc_url: https://www.srgpc.net/cards/22/beat-with-the-microphone/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Flip up to 5 cards.
+
+    Shuffle 1 card from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+- name: Catch These Hands
+  db_uuid: e1ebc8040a8d4cb5b0bfa19b839cd705
+  srgpc_url: https://www.srgpc.net/cards/22/catch-these-hands/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Choose a skill: Your opponent''s skill of that type is -1.
+
+    The next time you roll that skill draw 1 card.'
+  tags: []
+- name: Chokeslam Lariat Through The Table
+  db_uuid: 71fe7b60ced74238bb449024527c1a80
+  srgpc_url: https://www.srgpc.net/cards/22/chokeslam-lariat-through-the-table/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Flip 4 cards. Add 1 Strike from your discard pile to your hand.
+
+    All Finish Grapples have the added text"Your Finish rolls are +1.'
+  tags: []
+- name: Face First
+  db_uuid: 329f05de91a740b6b1492753f68a7330
+  srgpc_url: https://www.srgpc.net/cards/22/face-first/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: If you have 3 other Follow Ups in play, this card is a Finish instead.
+  tags: []
+- name: Fleecing the Flock
+  db_uuid: a1ae025096624590986c28c114b03eff
+  srgpc_url: https://www.srgpc.net/cards/22/fleecing-the-flock/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Discard 1 card from your hand.
+
+    Draw 2 cards.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+- name: Forearm To The Face
+  db_uuid: da4438bf148b45dcbb3a7ddeb65f2735
+  srgpc_url: https://www.srgpc.net/cards/22/forearm-to-the-face/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Add 2 cards from your discard pile to your hand.
+
+    If either play rolls Strike for their Finish roll, their Finish roll is -1.'
+  tags: []
+- name: Spin Wheel Kick
+  db_uuid: 3d0353eaad9941978395e27c1531c70e
+  srgpc_url: https://www.srgpc.net/cards/22/spin-wheel-kick/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.
+
+    If either play rolls Agility for their Finish roll, their roll is +1.'
+  tags: []
+- name: Super Steel Chain Punch
+  db_uuid: 4dbccc56f41d426084f7525eb4951908
+  srgpc_url: https://www.srgpc.net/cards/22/super-steel-chain-punch/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If stopped, you lose the match via disqualification.'
   tags: []

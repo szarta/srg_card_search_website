@@ -152,7 +152,7 @@ export default function CreateList() {
 
     setSharing(true);
     try {
-      const cardUuids = rows.map(row => row.uuid);
+      const cardUuids = rows.map(row => row.db_uuid); // Fixed: use db_uuid instead of uuid
       const res = await fetch("/api/shared-lists", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -216,7 +216,7 @@ export default function CreateList() {
       </p>
 
       <div className="grid gap-3 mb-4">
-        {/* Optional list name input */}
+        {/* List name input */}
         <input
           type="text"
           className="w-full rounded-xl border p-3 bg-white text-black border-slate-300
@@ -246,14 +246,6 @@ export default function CreateList() {
           </button>
 
           <button
-            className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
-            onClick={handleShare}
-            disabled={sharing || rows.length === 0}
-          >
-            {sharing ? "Creating…" : "Share List"}
-          </button>
-
-          <button
             className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
             onClick={handleClear}
           >
@@ -261,28 +253,6 @@ export default function CreateList() {
           </button>
         </div>
       </div>
-
-      {shareUrl && (
-        <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-xl">
-          <p className="text-sm font-semibold text-green-800 mb-2">
-            Shareable link created and copied to clipboard!
-          </p>
-          <div className="flex gap-2">
-            <input
-              type="text"
-              readOnly
-              value={shareUrl}
-              className="flex-1 p-2 text-sm border rounded bg-white"
-            />
-            <button
-              onClick={() => navigator.clipboard.writeText(shareUrl)}
-              className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
-            >
-              Copy
-            </button>
-          </div>
-        </div>
-      )}
 
       {errors?.length > 0 && (
         <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl">
@@ -296,43 +266,17 @@ export default function CreateList() {
         </div>
       )}
 
-      {/* Share functionality and Grid preview */}
-      {rows.length > 0 && (
-        <div className="mb-4 flex gap-2 flex-wrap items-center">
-          <button
-            className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
-            onClick={handleShare}
-            disabled={sharing}
-          >
-            {sharing ? "Creating…" : "Create Shareable Link"}
-          </button>
-
-          {shareUrl && (
-            <div className="flex gap-2 items-center">
-              <span className="text-sm text-green-600 font-medium">Link created!</span>
-              <input
-                type="text"
-                readOnly
-                value={shareUrl}
-                className="flex-1 min-w-[300px] p-2 text-sm border rounded bg-white"
-              />
-              <button
-                onClick={() => navigator.clipboard.writeText(shareUrl)}
-                className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
-              >
-                Copy
-              </button>
-            </div>
-          )}
-        </div>
-      )}
-
+      {/* Pass share-related props to DeckGridFromNames */}
       <DeckGridFromNames
         rowsOverride={rows}
         pageSize={40}
         title="Preview"
         enableExport
         exportFileName={exportFileName}
+        onShare={handleShare}
+        sharing={sharing}
+        shareUrl={shareUrl}
+        listName={listName}
       />
     </div>
   );

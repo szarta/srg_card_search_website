@@ -11,10 +11,10 @@ export default function DeckGridFromNames({
   title = "Deck",
   enableExport = true,
   exportFileName,
-  onShare = null,             // NEW: share function passed from parent
-  sharing = false,            // NEW: sharing state
-  shareUrl = "",              // NEW: generated share URL
-  listName = "",              // NEW: list name for sharing
+  onShare = null,             // Share function passed from parent
+  sharing = false,            // Sharing state
+  shareUrl = "",              // Generated share URL
+  listName = "",              // List name for sharing
 }) {
   const [cards, setCards] = useState([]);
   const [notFound, setNotFound] = useState([]);
@@ -351,7 +351,7 @@ export default function DeckGridFromNames({
         </div>
 
         <div className="flex gap-2 flex-wrap">
-          {/* Share button - only show if onShare function is provided and we have cards */}
+          {/* Share button - positioned with export buttons */}
           {onShare && effectiveRows.length > 0 && (
             <button
               className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
@@ -359,7 +359,7 @@ export default function DeckGridFromNames({
               disabled={sharing}
               title="Create shareable link for this list"
             >
-              {sharing ? "Creating..." : "Create Shareable Link"}
+              {sharing ? "Creating..." : "Copy Shareable Link"}
             </button>
           )}
 

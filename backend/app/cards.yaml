@@ -8858,6 +8858,15 @@
   deck_card_number: 10
   rules_text: Shuffle 1 Strike from your discard pile into your deck for each card you have in play with "Pineapple" in the name.
   tags: []
+- name: Gathering the Drumsticks
+  db_uuid: 7682dd45cdeb4cfd952567b276f80639
+  srgpc_url: https://www.srgpc.net/cards/10/gathering-the-drumstick/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: 'Draw 1 card for each other card you have in play with "Drumstick" in the name.  Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
+  tags: []
 - name: Gut Shot (V1)
   db_uuid: 9d53927d6209468eaf707ae62060f7fe
   srgpc_url: https://www.srgpc.net/cards/10/gut-shot/
@@ -15026,11 +15035,17 @@
   tags: []
 - name: Lou Thez Press Punches
   db_uuid: a7906a78bdfb46fcb59bd34e5b569419
+  srg_url: https://supershowthegame.com/product/19-lou-thez-press-punches/
   srgpc_url: https://www.srgpc.net/cards/19/lou-thez-press-punches/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your opponent discards all Grapples they have in play.
+
+    Your next turn roll is +3.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Madness Unsealed
   db_uuid: a401fc3b6fb6462ab85aff0b21de370d
@@ -16571,6 +16586,20 @@
   play_order: Followup
   deck_card_number: 22
   tags: []
+- name: Tornado Tackle
+  db_uuid: a9303c667c144617bff255b415237915
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Discard 1 card your opponent has in play.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.
+
+    If either player rolls Agility for their turn roll, their turn roll is -1.'
+  tags: []
 - name: Atomic Knee Smash
   db_uuid: c1a201f39d384355bcc4c8f589be75cb
   srgpc_url: https://www.srgpc.net/cards/22/atomic-knee-smash/
@@ -17945,6 +17974,20 @@
   play_order: Followup
   deck_card_number: 24
   rules_text: If the Crowd Meter is 2 or greater, your opponent's Gimmick is blank.
+  tags: []
+- name: Big Ol' Skull Hold
+  db_uuid: f071f5db5d8d46258e873ae54768356f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Discard 1 card your opponent has in play.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.
+
+    If either player rolls Technique for their turn roll, their turn roll is -1.'
   tags: []
 - name: Sunset Sleeper Hold
   db_uuid: 967e451db96f4973978c4c464984c244
@@ -22159,6 +22202,8 @@
 
     If you hit a card with "Kendo Stick" in the name last turn, double these bonuses.'
   tags: []
+  related_cards:
+    - b6944de2e4c1406889adb81ea2f4a8be
 - name: Then to 2025
   db_uuid: 6bb3bfe25727423a8d2997dde18e7e26
   card_type: MainDeckCard
@@ -22167,6 +22212,8 @@
   deck_card_number: 29
   rules_text: Your Finish roll is +1 for each other card you have in play with "Kendo Stick" in the name (Max +2).
   tags: []
+  related_cards:
+    - b6944de2e4c1406889adb81ea2f4a8be
 - name: The House of Gains
   db_uuid: 21aeef2b755d4262a2fb908bb3b53553
   card_type: MainDeckCard
@@ -22181,6 +22228,8 @@
 
     Add 1 card with "Kendo Stick" in the name from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - b6944de2e4c1406889adb81ea2f4a8be
 - name: Bobby Ohio
   db_uuid: 411a3ec208cf4d5794932bb99b35800c
   card_type: SingleCompetitorCard
@@ -24315,6 +24364,8 @@
   tags: []
 - name: King Bjorn
   db_uuid: 1ea91ed2c91747f7806571a25debc498
+  srg_url: https://supershowthegame.com/product/king-bjorn/
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-bjorn/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24324,8 +24375,60 @@
   strike: 9
   submission: 7
   grapple: 8
-  rules_text: When your opponent stops a carrd, their stop has blank text.
+  rules_text: When your opponent stops a card, their Stop has blank text.
   tags: []
+  related_finishes:
+    - c59fb716f8b3427897478829d884a240
+    - 7139c69adda34a9e8975ec1f250bc108
+    - 021f9b41c5cc41688fb878d37b9353a3
+- name: '"Who Wants to be King?"'
+  db_uuid: c59fb716f8b3427897478829d884a240
+  srg_url: https://supershowthegame.com/product/king-bjorn/
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-bjorn/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Your Technique and Agility are +1 for each Stop your opponent has in play (Max +4).'
+  tags: []
+  related_cards:
+    - 1ea91ed2c91747f7806571a25debc498
+- name: Blood Eagle
+  db_uuid: 7139c69adda34a9e8975ec1f250bc108
+  srg_url: https://supershowthegame.com/product/king-bjorn/
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-bjorn/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and the Crowd Meter is 1 or greater, your opponent cannot draw more than 1 card during their turn.'
+  tags: []
+  related_cards:
+    - 1ea91ed2c91747f7806571a25debc498
+- name: My Mother Told Me...
+  db_uuid: 021f9b41c5cc41688fb878d37b9353a3
+  srg_url: https://supershowthegame.com/product/king-bjorn/
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-bjorn/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Choose 2 cards your opponent has in play and discard them.'
+  tags: []
+  related_cards:
+    - 1ea91ed2c91747f7806571a25debc498
 - name: King Pink
   db_uuid: 71989d2b62a44dafb3f0ad94537395c7
   card_type: SingleCompetitorCard
@@ -24782,8 +24885,10 @@
   grapple: 10
   rules_text: 'At the start of the match: Draw 3 cards, and your 1st turn roll is +3.'
   tags: []
-- name: Bjorn The Norseman
+- name: Bjorn The Norseman (V1)
   db_uuid: da6ce3bf4d2f4f36840d958baf646f69
+  srg_url: https://supershowthegame.com/product/bjorn-the-norseman/
+  srgpc_url: https://www.srgpc.net/cards/competitors/bjorn-the-norseman/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24794,6 +24899,65 @@
   submission: 6
   grapple: 10
   rules_text: After you flip any number of cards, draw the bottom card of your deck.
+  tags: []
+  related_finishes:
+    - 7ab882d2cdb849c8b8bee5d466e87b20
+    - af011d20d1c74b8b96a3918b1a6ddb9c
+    - 103e04d1b819421bbe60905038774755
+- name: Flying Holmgang
+  db_uuid: 7ab882d2cdb849c8b8bee5d466e87b20
+  srg_url: https://supershowthegame.com/product/bjorn-the-norseman/
+  srgpc_url: https://www.srgpc.net/cards/competitors/bjorn-the-norseman/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +2 to Strike
+
+    Flip 1 card.  Look at the bottom 3 cards of any player''s deck, then randomly bury them.'
+  tags: []
+  related_cards:
+    - da6ce3bf4d2f4f36840d958baf646f69
+- name: Running Atgeir
+  db_uuid: af011d20d1c74b8b96a3918b1a6ddb9c
+  srg_url: https://supershowthegame.com/product/bjorn-the-norseman/
+  srgpc_url: https://www.srgpc.net/cards/competitors/bjorn-the-norseman/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike.
+
+    Flip 1 card.
+
+    If this card is flipped you may add it to your hand.'
+  tags: []
+  related_cards:
+    - da6ce3bf4d2f4f36840d958baf646f69
+- name: Norseman's Slam
+  db_uuid: 103e04d1b819421bbe60905038774755
+  srg_url: https://supershowthegame.com/product/bjorn-the-norseman/
+  srgpc_url: https://www.srgpc.net/cards/competitors/bjorn-the-norseman/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +3 to Submission
+
+    Flip 1 card.
+
+    Your opponent chooses either player to randomly bury 1 card in their discard pile.'
+  tags: []
+  related_cards:
+    - da6ce3bf4d2f4f36840d958baf646f69
+- name: Bjorn The Norseman (V2)
+  db_uuid: b3d0a1dcf7eb4879b98056d2fc7b0ae9
+  card_type: SingleCompetitorCard
+  gender: Male
   tags: []
 - name: Black Scorpion X
   db_uuid: 079d19f7ea604b82a6af4a9ae7f9f453
@@ -29803,6 +29967,7 @@
 - name: Over Giver
   db_uuid: ed197a8258854b84b89b11a3b0790896
   srg_url: https://supershowthegame.com/product/over-giver-os/
+  srgpc_url: https://www.srgpc.net/cards/competitors/over-giver/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -29820,6 +29985,8 @@
     - 4d36d212f8404e96b308d2b3724659c2
 - name: New School Clothesline
   db_uuid: 46d24b823b5e4d3c9a253b2ecf17bcd4
+  srg_url: https://supershowthegame.com/product/over-giver-os/
+  srgpc_url: https://www.srgpc.net/cards/competitors/over-giver/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -29834,6 +30001,8 @@
     - ed197a8258854b84b89b11a3b0790896
 - name: Headstone Piledriver
   db_uuid: 508eee53b35543b7b773b2d80d0e329e
+  srg_url: https://supershowthegame.com/product/over-giver-os/
+  srgpc_url: https://www.srgpc.net/cards/competitors/over-giver/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -29846,6 +30015,8 @@
     - ed197a8258854b84b89b11a3b0790896
 - name: The Gates of Hell
   db_uuid: 4d36d212f8404e96b308d2b3724659c2
+  srg_url: https://supershowthegame.com/product/over-giver-os/
+  srgpc_url: https://www.srgpc.net/cards/competitors/over-giver/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -36450,6 +36621,20 @@
   deck_card_number: 23
   rules_text: If you have 3 other Follow Ups in play, this card is a Finish instead.
   tags: []
+- name: Blockbuster
+  db_uuid: e9c5df693ed343b09f09c28a5fc5dd07
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Discard 1 card your opponent has in play.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.
+
+    If either player rolls Power for their turn roll, their turn roll is -1.'
+  tags: []
 - name: Butterflying Brainbuster
   db_uuid: 6ed3cc6725c449279af000403fde98f7
   srgpc_url: https://www.srgpc.net/cards/23/butterflying-brainbuster/
@@ -36832,4 +37017,14 @@
   rules_text: 'Shuffle 2 cards from your discard pile into your deck.
 
     If your Technique skill is greater than your opponent''s Submission skill, draw 3 cards.'
+  tags: []
+- name: Drive Into the Canvas
+  db_uuid: 2a53885bc4c1497ea84688abf95b4173
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Search your deck for a Finish Grapple and add it to your hand.
+
+    Shuffle your deck.'
   tags: []

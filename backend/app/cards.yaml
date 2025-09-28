@@ -17314,6 +17314,16 @@
 
     Skill Requirement: Power 8+'
   tags: []
+- name: High-Flying Takedown
+  db_uuid: 03be84b23e10435bb42dfda47f7771af
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Grapple skill is greater than your opponent''s Power skill, draw 3 cards.'
+  tags: []
 - name: Spinning Arm Drag
   db_uuid: 51dfc92224b94a3f8a988a69554d58b8
   srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
@@ -36007,6 +36017,7 @@
   tags: []
 - name: Lucha Mode
   db_uuid: d2a4284f4c374c2996b9790e2c115b7e
+  srg_url: https://supershowthegame.com/product/13-lucha-mode/
   srgpc_url: https://www.srgpc.net/cards/13/lucha-mode/
   card_type: MainDeckCard
   atk_type: Strike
@@ -36430,6 +36441,16 @@
 
     This card counts as 2 Follow Up Grapples in play.'
   tags: []
+- name: Old School Shoulder Breaker
+  db_uuid: d84eea58cf254ddead5bb47036a30e11
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    This card counts as 2 Follow Up Grapples in play.'
+  tags: []
 - name: Sizing You Up
   db_uuid: 0acae6bc97a04657952b738510883145
   srgpc_url: https://www.srgpc.net/cards/20/sizing-you-up/
@@ -36563,6 +36584,16 @@
   play_order: Followup
   deck_card_number: 22
   rules_text: If you have 3 other Follow Ups in play, this card is a Finish instead.
+  tags: []
+- name: Thunderous Dropkick
+  db_uuid: 74d34bbeb78140aea7590c6a8f2d7d5a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Strike skill is greater than your opponent''s Agility skill, draw 3 cards.'
   tags: []
 - name: Fleecing the Flock
   db_uuid: a1ae025096624590986c28c114b03eff
@@ -36717,6 +36748,16 @@
   play_order: Followup
   deck_card_number: 24
   rules_text: Your Agility is +2 during your turn.
+  tags: []
+- name: Cattle Crusher
+  db_uuid: 11c852054ca14948b53aa8ecb789324f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Submission skill is greater than your opponent''s Technique skill, draw 3 cards.'
   tags: []
 - name: Cradle with the Steel Chair
   db_uuid: 098bfa921180406fa795dffa9b5749b7

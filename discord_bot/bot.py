@@ -77,10 +77,7 @@ async def on_message(message: discord.Message):
                 # Title + first sentence of rules
                 title = data.get("name") or name
                 rules = (data.get("rules_text") or "").strip()
-                rule_snip = ""
-                if rules:
-                    m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules, re.DOTALL)
-                    rule_snip = m.group(0) if m else rules
+                rule_snip = rules
 
                 # Build compact stats line for competitor cards
                 stats_keys = [
@@ -160,10 +157,7 @@ async def slash_card(interaction: discord.Interaction, name: str):
 
     title = data.get("name") or name
     rules = (data.get("rules_text") or "").strip()
-    rule_snip = ""
-    if rules:
-        m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules, re.DOTALL)
-        rule_snip = m.group(0) if m else rules
+    rule_snip = rules
 
     stats_keys = ["power", "technique", "agility", "strike", "submission", "grapple"]
     stat_parts = []

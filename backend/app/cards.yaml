@@ -22010,6 +22010,8 @@
   tags: []
 - name: The Big Guy (V1)
   db_uuid: 6fc63e68196d4ad7a08cf027583aafb2
+  srg_url: https://supershowthegame.com/product/the-big-guy/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22021,8 +22023,16 @@
   grapple: 8
   rules_text: When "Kendo Stick" would be discarded from your hand, flipped, or buried, you may instead add it to your hand.
   tags: []
+  related_finishes:
+    - f352a54c645a41daaa6440578d4eeba0
+    - ae24a5125d384f7b9904ed4f2e77f592
+    - 4121220a49614076acc18a21d524bdac
+    - eeff033a227d4ce29f87420e1610f6f4
+    - 705d88de1c9642219fc8a5faec85ee81
 - name: The Big Guy (V2)
   db_uuid: d2d8b06199b34b018a2b957e89f21b35
+  srg_url: https://supershowthegame.com/product/the-big-guy-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22034,6 +22044,92 @@
   grapple: 8
   rules_text: 'When a Lead or Follow Up with "Kendo Stick" in the name would be discarded from your hand, flipped, or buried, you may instead add 1 of those cards to your hand. Your card "Kendo Stick" is also card #02 and #03'
   tags: []
+  related_finishes:
+    - f352a54c645a41daaa6440578d4eeba0
+    - ae24a5125d384f7b9904ed4f2e77f592
+    - 4121220a49614076acc18a21d524bdac
+    - eeff033a227d4ce29f87420e1610f6f4
+    - 705d88de1c9642219fc8a5faec85ee81
+- name: Kendo Slice Party
+  db_uuid: f352a54c645a41daaa6440578d4eeba0
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    +1 to Strike'
+  tags: []
+  related_cards:
+    - 6fc63e68196d4ad7a08cf027583aafb2
+    - d2d8b06199b34b018a2b957e89f21b35
+- name: Kendo Slice
+  db_uuid: ae24a5125d384f7b9904ed4f2e77f592
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If you have "Kendo Stick" in play, this card is also a Follow Up.
+
+    If Stopped, you may discard "Kendo Stick" from your hand or play, otherwise you lose this match via disqualification.'
+  tags: []
+  related_cards:
+    - 6fc63e68196d4ad7a08cf027583aafb2
+    - d2d8b06199b34b018a2b957e89f21b35
+- name: Zubaz Bomb
+  db_uuid: 4121220a49614076acc18a21d524bdac
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If you have "Kendo Stick" in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 6fc63e68196d4ad7a08cf027583aafb2
+    - d2d8b06199b34b018a2b957e89f21b35
+- name: Circle of the Slice
+  db_uuid: eeff033a227d4ce29f87420e1610f6f4
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    When you have 4 cards in play with "Kendo Stick" in the name, your opponent gets 1 breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 6fc63e68196d4ad7a08cf027583aafb2
+    - d2d8b06199b34b018a2b957e89f21b35
+- name: Pinkie Toe Hold
+  db_uuid: 705d88de1c9642219fc8a5faec85ee81
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    When this card is in your discard pile: When you hit "Kendo Stick", you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 6fc63e68196d4ad7a08cf027583aafb2
+    - d2d8b06199b34b018a2b957e89f21b35
 - name: The Big Guy (V3)
   db_uuid: b6944de2e4c1406889adb81ea2f4a8be
   card_type: SingleCompetitorCard
@@ -33261,6 +33357,7 @@
   tags: []
 - name: Dr. Pauliwood
   db_uuid: d9e9083f2327491e84012142f1b5b414
+  srgpc_url: https://www.srgpc.net/competitor/dr-pauliwood/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male

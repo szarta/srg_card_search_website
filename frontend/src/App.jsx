@@ -35,7 +35,6 @@ function App() {
               <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="/">Search</a></li>
                 <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li> {/* NEW link */}
-                <li><a className="hover:text-srgPurple" href="#">Random Card</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
               </ul>
             </div>

@@ -3,13 +3,8 @@ Backup and restore shared lists during database recreation
 """
 
 import json
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from models.base import SharedList
-
-DATABASE_URL = "postgresql://USERNAME:SECUREPASSWORD@localhost/srg_cards"
-engine = create_engine(DATABASE_URL)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+from database import SessionLocal
 
 
 def backup_shared_lists(filename="shared_lists_backup.json"):

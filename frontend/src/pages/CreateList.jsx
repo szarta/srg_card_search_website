@@ -296,7 +296,37 @@ export default function CreateList() {
         </div>
       )}
 
-      {/* Grid preview with the SAME CSV/HTML export buttons & format */}
+      {/* Share functionality and Grid preview */}
+      {rows.length > 0 && (
+        <div className="mb-4 flex gap-2 flex-wrap items-center">
+          <button
+            className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
+            onClick={handleShare}
+            disabled={sharing}
+          >
+            {sharing ? "Creating…" : "Create Shareable Link"}
+          </button>
+
+          {shareUrl && (
+            <div className="flex gap-2 items-center">
+              <span className="text-sm text-green-600 font-medium">Link created!</span>
+              <input
+                type="text"
+                readOnly
+                value={shareUrl}
+                className="flex-1 min-w-[300px] p-2 text-sm border rounded bg-white"
+              />
+              <button
+                onClick={() => navigator.clipboard.writeText(shareUrl)}
+                className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
+              >
+                Copy
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+
       <DeckGridFromNames
         rowsOverride={rows}
         pageSize={40}

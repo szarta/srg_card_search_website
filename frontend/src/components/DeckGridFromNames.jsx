@@ -6,17 +6,21 @@ import { slugify } from "../lib/slug";
 
 export default function DeckGridFromNames({
   names = [],
-  rowsOverride = null,        // <-- NEW: pass pre-fetched rows to skip fetching
-  pageSize = 40,              // show up to 40 on page 1; typical decks are ≤ 35
+  rowsOverride = null,
+  pageSize = 40,
   title = "Deck",
   enableExport = true,
-  exportFileName,             // optional; defaults to slugified title
+  exportFileName,
+  onShare = null,             // NEW: share function passed from parent
+  sharing = false,            // NEW: sharing state
+  shareUrl = "",              // NEW: generated share URL
+  listName = "",              // NEW: list name for sharing
 }) {
   const [cards, setCards] = useState([]);
   const [notFound, setNotFound] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // If we’re given rowsOverride (array of card rows), we use that.
+  // If we're given rowsOverride (array of card rows), we use that.
   const effectiveRows = Array.isArray(rowsOverride) ? rowsOverride : cards;
 
   // pagination (still works if you ever exceed 40)
@@ -30,7 +34,6 @@ export default function DeckGridFromNames({
     if (Array.isArray(rowsOverride)) {
       return effectiveRows.slice(start, end);
     }
-    // names -> fetch path uses `cards`, which already correspond to pageNames
     return effectiveRows;
   }, [effectiveRows, page, pageSize, rowsOverride]);
 
@@ -54,12 +57,10 @@ export default function DeckGridFromNames({
         const fetched = [];
         const missing = [];
 
-        // Build current page’s names
         const start = (page - 1) * pageSize;
         const end = start + pageSize;
         const pageNames = names.slice(start, end);
 
-        // 1) Batch by-names first (includes gender)
         let batchRows = [];
         try {
           const resp = await fetch("/cards/by-names", {
@@ -82,7 +83,6 @@ export default function DeckGridFromNames({
           }
         }
 
-        // 2) Preserve order; fill from batch or fallbacks
         for (const n of pageNames) {
           const s = slugify(n);
           let row = bySlug.get(s) || byNameLower.get(n.toLowerCase());
@@ -109,12 +109,11 @@ export default function DeckGridFromNames({
           if (row) {
             fetched.push(row);
           } else {
-            fetched.push({ name: n }); // stub so exports still include the name
+            fetched.push({ name: n });
             missing.push(n);
           }
         }
 
-        // 3) Enrich competitor rows with gender if missing
         const COMP_TYPES = new Set([
           "SingleCompetitorCard",
           "TornadoCompetitorCard",
@@ -175,9 +174,7 @@ export default function DeckGridFromNames({
     };
   }, [names, page, pageSize, rowsOverride]);
 
-  // -------------------------
-  // Export helpers (aligned with CreateList/TableView)
-  // -------------------------
+  // Export helpers
   const defaultExportName =
     (exportFileName && exportFileName.trim()) || `${slugify(title || "deck")}.csv`;
 
@@ -195,7 +192,7 @@ export default function DeckGridFromNames({
       "comments",
       "comment",
       "srgpc_url",
-      "gender", // hidden in UI; we add to export later
+      "gender",
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
@@ -352,30 +349,69 @@ export default function DeckGridFromNames({
             {baseCount.toLocaleString()} item{baseCount === 1 ? "" : "s"}
           </p>
         </div>
-        {enableExport && (
-          <div className="flex gap-2">
+
+        <div className="flex gap-2 flex-wrap">
+          {/* Share button - only show if onShare function is provided and we have cards */}
+          {onShare && effectiveRows.length > 0 && (
             <button
-              className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
-              onClick={handleExportCsv}
-              disabled={loading || effectiveRows.length === 0}
-              title="Download visible deck as CSV"
+              className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
+              onClick={onShare}
+              disabled={sharing}
+              title="Create shareable link for this list"
             >
-              Download CSV
+              {sharing ? "Creating..." : "Create Shareable Link"}
             </button>
-            <button
-              className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
-              onClick={handleExportHtml}
-              disabled={loading || effectiveRows.length === 0}
-              title="Download visible deck as HTML (no CSS)"
-            >
-              Download HTML (no CSS)
-            </button>
-          </div>
-        )}
+          )}
+
+          {/* Export buttons */}
+          {enableExport && (
+            <>
+              <button
+                className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
+                onClick={handleExportCsv}
+                disabled={loading || effectiveRows.length === 0}
+                title="Download visible deck as CSV"
+              >
+                Download CSV
+              </button>
+              <button
+                className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
+                onClick={handleExportHtml}
+                disabled={loading || effectiveRows.length === 0}
+                title="Download visible deck as HTML (no CSS)"
+              >
+                Download HTML (no CSS)
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
+      {/* Show share URL success message */}
+      {shareUrl && (
+        <div className="mt-3 p-3 bg-green-50 border border-green-200 rounded-xl">
+          <p className="text-sm font-semibold text-green-800 mb-2">
+            Shareable link created and copied to clipboard!
+          </p>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              readOnly
+              value={shareUrl}
+              className="flex-1 p-2 text-sm border rounded bg-white"
+            />
+            <button
+              onClick={() => navigator.clipboard.writeText(shareUrl)}
+              className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      )}
+
       {loading ? (
-        <p className="text-gray-400 mt-4">Loading…</p>
+        <p className="text-gray-400 mt-4">Loading...</p>
       ) : effectiveRows.length === 0 ? (
         <p className="text-gray-400 mt-4">No cards found.</p>
       ) : (
@@ -384,7 +420,7 @@ export default function DeckGridFromNames({
 
       {notFound.length > 0 && !rowsOverride && (
         <p className="mt-3 text-xs text-amber-300">
-          Couldn’t find: {notFound.join(", ")}
+          Couldn't find: {notFound.join(", ")}
         </p>
       )}
 
@@ -400,4 +436,3 @@ export default function DeckGridFromNames({
     </section>
   );
 }
-

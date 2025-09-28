@@ -4,7 +4,10 @@ See LICENSE.txt for details.
 """
 
 from sqlalchemy import create_engine
-from models.base import Base  # This should import all your model classes
+from models.base import (
+    Base,
+    SharedList,
+)  # This should import all your model classes  # noqa: F401
 from sqlalchemy_utils import database_exists, create_database
 
 DATABASE_URL = "postgresql://USERNAME:SECUREPASSWORD@localhost/srg_cards"

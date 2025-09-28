@@ -3,10 +3,22 @@
 See LICENSE.txt for details.
 """
 
-from sqlalchemy import Column, String, Boolean, Enum, Integer, ForeignKey, Table
+from sqlalchemy import (
+    Column,
+    String,
+    Boolean,
+    Enum,
+    Integer,
+    ForeignKey,
+    Table,
+    DateTime,
+    Text,
+)
 from sqlalchemy.orm import relationship, declarative_base
 from sqlalchemy.dialects.postgresql import ARRAY, TEXT
+from sqlalchemy.sql import func
 import enum
+import uuid
 
 Base = declarative_base()
 
@@ -179,3 +191,16 @@ class CrowdMeterCard(Card):
     __mapper_args__ = {
         "polymorphic_identity": "CrowdMeterCard",
     }
+
+
+class SharedList(Base):
+    __tablename__ = "shared_lists"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    name = Column(String(255), nullable=True)
+    description = Column(Text, nullable=True)
+    card_uuids = Column(ARRAY(String), nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    def __repr__(self):
+        return f"<SharedList(id='{self.id}', name='{self.name}', cards={len(self.card_uuids or [])})>"

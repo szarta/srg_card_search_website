@@ -1,7 +1,7 @@
 // src/pages/CreateList.jsx
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import DeckGridFromNames from "../components/DeckGridFromNames.jsx";   // <-- swap in the grid
+import DeckGridFromNames from "../components/DeckGridFromNames.jsx";
 
 function useQuery() {
   const { search } = useLocation();
@@ -28,35 +28,93 @@ export default function CreateList() {
   const [text, setText] = useState("");
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [errors, setErrors] = useState([]); // unknown names, etc.
+  const [errors, setErrors] = useState([]);
+  const [shareUrl, setShareUrl] = useState("");
+  const [sharing, setSharing] = useState(false);
+  const [listName, setListName] = useState("");
+  const [loadedFromShare, setLoadedFromShare] = useState(false);
   const textareaRef = useRef(null);
 
-  // If a curated list is provided (?list=my-list), load it from public/lists/<slug>.txt or .json
+  // Load curated lists or shared lists
   useEffect(() => {
     const slug = query.get("list");
-    if (!slug) return;
+    const sharedId = query.get("shared");
 
-    async function loadSaved() {
-      try {
-        const txtRes = await fetch(`/lists/${slug}.txt`);
-        if (txtRes.ok) {
-          const t = await txtRes.text();
-          setText(t);
-          return;
-        }
-      } catch {}
-      try {
-        const jsonRes = await fetch(`/lists/${slug}.json`);
-        if (jsonRes.ok) {
-          const j = await jsonRes.json();
-          const t = Array.isArray(j?.names) ? j.names.join("\n") : "";
-          setText(t);
-          return;
-        }
-      } catch {}
+    if (sharedId) {
+      loadSharedList(sharedId);
+    } else if (slug) {
+      loadCuratedList(slug);
     }
-    loadSaved();
   }, [query]);
+
+  // Load shared list from database
+  const loadSharedList = async (sharedId) => {
+    try {
+      setLoading(true);
+      const res = await fetch(`/api/shared-lists/${sharedId}`);
+      if (!res.ok) {
+        if (res.status === 404) {
+          setErrors(["Shared list not found."]);
+        } else {
+          throw new Error(`HTTP ${res.status}`);
+        }
+        return;
+      }
+
+      const sharedList = await res.json();
+      setListName(sharedList.name || "");
+
+      // Convert UUIDs back to card data
+      const cardRes = await fetch("/cards/by-uuids", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ uuids: sharedList.card_uuids }),
+      });
+
+      if (!cardRes.ok) throw new Error(`HTTP ${cardRes.status}`);
+      const cardData = await cardRes.json();
+
+      // Set the card names as text and rows for display
+      const names = cardData.rows.map(row => row.name);
+      setText(names.join("\n"));
+      setRows(cardData.rows);
+      setLoadedFromShare(true);
+
+      // Show any missing cards if they exist
+      if (cardData.missing && cardData.missing.length > 0) {
+        setErrors([`Warning: ${cardData.missing.length} cards could not be found in database`]);
+      } else {
+        setErrors([]);
+      }
+
+    } catch (e) {
+      console.error(e);
+      setErrors(["Failed to load shared list."]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Load curated list from files (existing functionality)
+  const loadCuratedList = async (slug) => {
+    try {
+      const txtRes = await fetch(`/lists/${slug}.txt`);
+      if (txtRes.ok) {
+        const t = await txtRes.text();
+        setText(t);
+        return;
+      }
+    } catch {}
+    try {
+      const jsonRes = await fetch(`/lists/${slug}.json`);
+      if (jsonRes.ok) {
+        const j = await jsonRes.json();
+        const t = Array.isArray(j?.names) ? j.names.join("\n") : "";
+        setText(t);
+        return;
+      }
+    } catch {}
+  };
 
   const handleBuild = async () => {
     const names = parseNames(text);
@@ -86,24 +144,88 @@ export default function CreateList() {
     }
   };
 
+  const handleShare = async () => {
+    if (rows.length === 0) {
+      setErrors(["Please build a list first before sharing."]);
+      return;
+    }
+
+    setSharing(true);
+    try {
+      const cardUuids = rows.map(row => row.uuid);
+      const res = await fetch("/api/shared-lists", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: listName || "Untitled List",
+          card_uuids: cardUuids,
+        }),
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const result = await res.json();
+
+      const fullUrl = `${window.location.origin}/create-list?shared=${result.id}`;
+      setShareUrl(fullUrl);
+
+      // Copy to clipboard
+      await navigator.clipboard.writeText(fullUrl);
+
+    } catch (e) {
+      console.error(e);
+      setErrors(["Failed to create shareable link."]);
+    } finally {
+      setSharing(false);
+    }
+  };
+
   const handleClear = () => {
     setText("");
     setRows([]);
     setErrors([]);
+    setShareUrl("");
+    setListName("");
+    setLoadedFromShare(false);
     textareaRef.current?.focus();
-    if (query.get("list")) navigate("/create-list", { replace: true });
+    if (query.get("list") || query.get("shared")) {
+      navigate("/create-list", { replace: true });
+    }
   };
 
-  const exportFileName = query.get("list") ? `${query.get("list")}.csv` : "custom-list.csv";
+  const exportFileName = query.get("list")
+    ? `${query.get("list")}.csv`
+    : query.get("shared")
+    ? `shared-list-${query.get("shared")}.csv`
+    : "custom-list.csv";
 
   return (
     <div className="max-w-5xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-3">Create List</h1>
-      <p className="text-sm opacity-80 mb-2">
+      <h1 className="text-2xl font-bold mb-3">
+        Create List
+        {loadedFromShare && listName && (
+          <span className="text-lg font-normal text-gray-600 ml-2">- {listName}</span>
+        )}
+      </h1>
+      <p className="text-sm opacity-80 mb-4">
         Paste one card name per line. Lines starting with <code>#</code> are ignored.
+        {loadedFromShare && (
+          <span className="block text-blue-600 mt-1">
+            ✓ Loaded from shared link
+          </span>
+        )}
       </p>
 
       <div className="grid gap-3 mb-4">
+        {/* Optional list name input */}
+        <input
+          type="text"
+          className="w-full rounded-xl border p-3 bg-white text-black border-slate-300
+                     placeholder-slate-500 focus:outline-none focus:ring"
+          placeholder="List name (optional)"
+          value={listName}
+          onChange={(e) => setListName(e.target.value)}
+        />
+
         <textarea
           ref={textareaRef}
           className="w-full min-h-[200px] rounded-xl border p-3 font-mono
@@ -114,7 +236,7 @@ export default function CreateList() {
           onChange={(e) => setText(e.target.value)}
         />
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           <button
             className="px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white"
             onClick={handleBuild}
@@ -122,6 +244,15 @@ export default function CreateList() {
           >
             {loading ? "Building…" : "Build Grid"}
           </button>
+
+          <button
+            className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
+            onClick={handleShare}
+            disabled={sharing || rows.length === 0}
+          >
+            {sharing ? "Creating…" : "Share List"}
+          </button>
+
           <button
             className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
             onClick={handleClear}
@@ -131,9 +262,37 @@ export default function CreateList() {
         </div>
       </div>
 
+      {shareUrl && (
+        <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-xl">
+          <p className="text-sm font-semibold text-green-800 mb-2">
+            Shareable link created and copied to clipboard!
+          </p>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              readOnly
+              value={shareUrl}
+              className="flex-1 p-2 text-sm border rounded bg-white"
+            />
+            <button
+              onClick={() => navigator.clipboard.writeText(shareUrl)}
+              className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      )}
+
       {errors?.length > 0 && (
-        <div className="mb-4 text-sm">
-          <span className="font-semibold">Unmatched names:</span> {errors.join(", ")}
+        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl">
+          <span className="font-semibold text-red-800">
+            {errors.length === 1 && errors[0].includes("Unmatched")
+              ? "Unmatched names:"
+              : "Errors:"
+            }
+          </span>
+          <span className="text-red-700 ml-1">{errors.join(", ")}</span>
         </div>
       )}
 
@@ -148,4 +307,3 @@ export default function CreateList() {
     </div>
   );
 }
-

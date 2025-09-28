@@ -10,6 +10,7 @@ from routers import cards
 from routers import images
 from routers import sitemap
 from routers import card_meta
+from routers import shared_lists
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
@@ -52,3 +53,4 @@ app.include_router(cards.router)
 app.include_router(images.router)
 app.include_router(sitemap.router)
 app.include_router(card_meta.router)
+app.include_router(shared_lists.router, prefix="/api", tags=["shared_lists"])

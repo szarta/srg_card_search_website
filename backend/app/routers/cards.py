@@ -59,9 +59,9 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "db_uuid": card.db_uuid,
         "name": card.name,
         "card_type": card.card_type,
-        "atk_type": getattr(card, 'atk_type', None),
-        "play_order": getattr(card, 'play_order', None),
-        "deck_card_number": getattr(card, 'deck_card_number', None),
+        "atk_type": getattr(card, "atk_type", None),
+        "play_order": getattr(card, "play_order", None),
+        "deck_card_number": getattr(card, "deck_card_number", None),
         "is_banned": card.is_banned,
         "rules_text": card.rules_text,
         "errata_text": card.errata_text,
@@ -70,32 +70,46 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "srg_url": card.srg_url,
         "srgpc_url": card.srgpc_url,
         "release_set": card.release_set,
-        "power": getattr(card, 'power', None),
-        "agility": getattr(card, 'agility', None),
-        "strike": getattr(card, 'strike', None),
-        "submission": getattr(card, 'submission', None),
-        "grapple": getattr(card, 'grapple', None),
-        "technique": getattr(card, 'technique', None),
-        "division": getattr(card, 'division', None),
-        "gender": getattr(card, 'gender', None),
+        "power": getattr(card, "power", None),
+        "agility": getattr(card, "agility", None),
+        "strike": getattr(card, "strike", None),
+        "submission": getattr(card, "submission", None),
+        "grapple": getattr(card, "grapple", None),
+        "technique": getattr(card, "technique", None),
+        "division": getattr(card, "division", None),
+        "gender": getattr(card, "gender", None),
     }
 
     if include_relationships:
         # Handle related_cards
         related_cards = []
-        if hasattr(card, 'related_cards') and card.related_cards:
-            for related_card in card.related_cards[:10]:  # Limit to prevent huge responses
+        if hasattr(card, "related_cards") and card.related_cards:
+            for related_card in card.related_cards[
+                :10
+            ]:  # Limit to prevent huge responses
                 related_cards.append(
-                    safe_serialize_card(related_card, include_relationships=False, max_depth=max_depth, current_depth=current_depth + 1)
+                    safe_serialize_card(
+                        related_card,
+                        include_relationships=False,
+                        max_depth=max_depth,
+                        current_depth=current_depth + 1,
+                    )
                 )
         result["related_cards"] = related_cards
 
         # Handle related_finishes
         related_finishes = []
-        if hasattr(card, 'related_finishes') and card.related_finishes:
-            for finish_card in card.related_finishes[:20]:  # Limit to prevent huge responses
+        if hasattr(card, "related_finishes") and card.related_finishes:
+            for finish_card in card.related_finishes[
+                :20
+            ]:  # Limit to prevent huge responses
                 related_finishes.append(
-                    safe_serialize_card(finish_card, include_relationships=False, max_depth=max_depth, current_depth=current_depth + 1)
+                    safe_serialize_card(
+                        finish_card,
+                        include_relationships=False,
+                        max_depth=max_depth,
+                        current_depth=current_depth + 1,
+                    )
                 )
         result["related_finishes"] = related_finishes
     else:
@@ -246,7 +260,9 @@ def list_cards(
 
     return {
         "total_count": total_count,
-        "items": [safe_serialize_card(row, include_relationships=False) for row in paged],
+        "items": [
+            safe_serialize_card(row, include_relationships=False) for row in paged
+        ],
     }
 
 
@@ -290,7 +306,7 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
         card = (
             db.query(Card)
             .options(joinedload(Card.related_cards))
-            .filter(Card.db_uuid == db_uuid)
+            .filter(Card.db_uuid == card.db_uuid)  # <- This was the bug: db_uuid -> card.db_uuid
             .first()
         )
 
@@ -311,7 +327,9 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
         card = (
             db.query(CompetitorCard)
             .options(
-                joinedload(Card.related_cards),  # <- Use Card.related_cards, not CompetitorCard.related_cards
+                joinedload(
+                    Card.related_cards
+                ),  # <- Use Card.related_cards, not CompetitorCard.related_cards
                 joinedload(CompetitorCard.related_finishes),
             )
             .filter(CompetitorCard.db_uuid == db_uuid)
@@ -452,3 +470,109 @@ def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
             rows_out.append(safe_serialize_card(obj))
 
     return {"rows": rows_out, "unmatched": unmatched}
+
+
+# Add this class and endpoint to your cards.py file
+
+
+class UuidsRequest(BaseModel):
+    uuids: List[str]
+
+
+@router.post("/cards/by-uuids")
+def cards_by_uuids(payload: UuidsRequest, db: Session = Depends(get_db)):
+    """
+    Resolve a list of card UUIDs to full card rows, preserving the order of the input.
+    Returns any missing UUIDs for the UI to display.
+    """
+    if not payload.uuids:
+        return {"rows": [], "missing": []}
+
+    # Remove duplicates while preserving order
+    seen = set()
+    ordered_uuids = []
+    for uuid_str in payload.uuids:
+        if uuid_str not in seen:
+            seen.add(uuid_str)
+            ordered_uuids.append(uuid_str)
+
+    if not ordered_uuids:
+        return {"rows": [], "missing": []}
+
+    # 1) find candidate base rows by UUID
+    base_rows: List[Card] = db.query(Card).filter(Card.db_uuid.in_(ordered_uuids)).all()
+
+    # Map uuid -> Card object
+    by_uuid = {c.db_uuid: c for c in base_rows}
+
+    # 2) batch-hydrate by type so subclass columns are present
+    singles, tornado_trio, maindeck, others = [], [], [], []
+    for c in base_rows:
+        if c.card_type == CardType.single_competitor.value:
+            singles.append(c.db_uuid)
+        elif c.card_type in {
+            CardType.tornado_competitor.value,
+            CardType.trio_competitor.value,
+        }:
+            tornado_trio.append(c.db_uuid)
+        elif c.card_type == CardType.main_deck.value:
+            maindeck.append(c.db_uuid)
+        else:
+            others.append(c.db_uuid)
+
+    # query each mapper
+    hydrated: dict[str, Card] = {}
+
+    if singles:
+        for row in (
+            db.query(SingleCompetitorCard)
+            .options(
+                joinedload(Card.related_cards),
+                joinedload(SingleCompetitorCard.related_finishes),
+            )
+            .filter(SingleCompetitorCard.db_uuid.in_(singles))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if tornado_trio:
+        for row in (
+            db.query(CompetitorCard)
+            .options(
+                joinedload(Card.related_cards),
+                joinedload(CompetitorCard.related_finishes),
+            )
+            .filter(CompetitorCard.db_uuid.in_(tornado_trio))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if maindeck:
+        for row in (
+            db.query(MainDeckCard)
+            .options(joinedload(Card.related_cards))
+            .filter(MainDeckCard.db_uuid.in_(maindeck))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if others:
+        for row in (
+            db.query(Card)
+            .options(joinedload(Card.related_cards))
+            .filter(Card.db_uuid.in_(others))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    # 3) build output in the order of the input UUIDs
+    rows_out = []
+    missing = []
+    for uuid_str in ordered_uuids:
+        if uuid_str in by_uuid:
+            obj = hydrated.get(uuid_str, by_uuid[uuid_str])
+            rows_out.append(safe_serialize_card(obj))
+        else:
+            missing.append(uuid_str)
+
+    return {"rows": rows_out, "missing": missing}

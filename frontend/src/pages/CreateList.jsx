@@ -152,7 +152,23 @@ export default function CreateList() {
 
     setSharing(true);
     try {
-      const cardUuids = rows.map(row => row.db_uuid); // Fixed: use db_uuid instead of uuid
+      // Extract UUIDs - try both db_uuid and uuid fields
+      const cardUuids = rows.map(row => row.db_uuid || row.uuid).filter(Boolean);
+
+      // Debug logging
+      console.log("Sharing", cardUuids.length, "cards");
+      console.log("Sample card:", rows[0]);
+      console.log("First few UUIDs:", cardUuids.slice(0, 3));
+
+      if (cardUuids.length === 0) {
+        setErrors(["No valid card UUIDs found. Please rebuild the list."]);
+        return;
+      }
+
+      if (cardUuids.length !== rows.length) {
+        setErrors([`Warning: Only ${cardUuids.length} of ${rows.length} cards have valid UUIDs.`]);
+      }
+
       const res = await fetch("/api/shared-lists", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -162,7 +178,12 @@ export default function CreateList() {
         }),
       });
 
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {
+        const errorText = await res.text();
+        console.error("API Error:", res.status, errorText);
+        throw new Error(`HTTP ${res.status}: ${errorText}`);
+      }
+
       const result = await res.json();
 
       const fullUrl = `${window.location.origin}/create-list?shared=${result.id}`;
@@ -172,8 +193,8 @@ export default function CreateList() {
       await navigator.clipboard.writeText(fullUrl);
 
     } catch (e) {
-      console.error(e);
-      setErrors(["Failed to create shareable link."]);
+      console.error("Share error:", e);
+      setErrors([`Failed to create shareable link: ${e.message}`]);
     } finally {
       setSharing(false);
     }

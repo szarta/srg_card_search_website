@@ -33273,6 +33273,63 @@
   rules_text: When you hit a card with "Crack", "Neck", or "Spine" in the name draw 1 card or add 1 Grapple from your discard pile to your hand.
   comments: 'AKA: The Back'
   tags: []
+  related_finishes:
+    - c862e531f7ce43d4a24a3b4e36878c45
+    - 4f37f7cd46b74f448fc105ca71b1dd22
+    - 7f9a0a5542174ab19da630602c5046f3
+    - 8586aca44bfd4186a3283b5f2d54e356
+- name: Tool-Assisted Adjustment
+  db_uuid: c862e531f7ce43d4a24a3b4e36878c45
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +5 to Strike
+
+    When this card is in your discard pile: Before a breakout roll, you or your opponent may bury this card to add +2 to the next breakout roll.'
+  tags: []
+  related_cards:
+    - d9e9083f2327491e84012142f1b5b414
+- name: Totally Violent Adjustment
+  db_uuid: 4f37f7cd46b74f448fc105ca71b1dd22
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Unless you roll Power or Strike for your Finish roll, your Finish roll is +1 for each card you have in play with "Crack", "Neck", or "Spine" in the name (Max +3)
+  tags: []
+  related_cards:
+    - d9e9083f2327491e84012142f1b5b414
+- name: Spinal-Suplexation
+  db_uuid: 7f9a0a5542174ab19da630602c5046f3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    If this match has "Table" in the name, your Finish roll is +1.  Bury 1 card in your discard pile.'
+  tags: []
+  related_cards:
+    - d9e9083f2327491e84012142f1b5b414
+- name: Snappin' & Trappin'
+  db_uuid: 8586aca44bfd4186a3283b5f2d54e356
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    If stopped, and this is a Singles match, the Crowd Meter is now a "Tables Match" until the Crowd Meter increases.'
+  tags: []
+  related_cards:
+    - d9e9083f2327491e84012142f1b5b414
 - name: Draculeena & Calliope
   db_uuid: a371e756c06840968b6a0d030ca4b737
   card_type: SingleCompetitorCard

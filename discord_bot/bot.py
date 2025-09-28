@@ -79,7 +79,7 @@ async def on_message(message: discord.Message):
                 rules = (data.get("rules_text") or "").strip()
                 rule_snip = ""
                 if rules:
-                    m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules)
+                    m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules, re.DOTALL)
                     rule_snip = m.group(0) if m else rules
 
                 # Build compact stats line for competitor cards
@@ -109,7 +109,7 @@ async def on_message(message: discord.Message):
                 ):
                     stat_parts.append(f"Deck #{data.get('deck_card_number')}")
 
-                stat_line = " · ".join(stat_parts)  # e.g. "Power 8 · Technique 6"
+                stat_line = " • ".join(stat_parts)  # e.g. "Power 8 • Technique 6"
 
                 # Build description: stats (if any) + blank line + rules snippet
                 desc_chunks = []
@@ -162,7 +162,7 @@ async def slash_card(interaction: discord.Interaction, name: str):
     rules = (data.get("rules_text") or "").strip()
     rule_snip = ""
     if rules:
-        m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules)
+        m = re.match(r".+?(?:[.!?](?=\s|$)|$)", rules, re.DOTALL)
         rule_snip = m.group(0) if m else rules
 
     stats_keys = ["power", "technique", "agility", "strike", "submission", "grapple"]
@@ -181,7 +181,7 @@ async def slash_card(interaction: discord.Interaction, name: str):
         and data.get("deck_card_number") is not None
     ):
         stat_parts.append(f"Deck #{data.get('deck_card_number')}")
-    stat_line = " · ".join(stat_parts)
+    stat_line = " • ".join(stat_parts)
 
     desc_chunks = []
     if stat_line:

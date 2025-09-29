@@ -3637,6 +3637,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: Stop any Lead Grapple. This card counts as 2 Lead Strikes in play.
   tags: []
 - name: Hammer Into The Table
   db_uuid: ca3c4a43a2d5401c8b05c3bd25096304
@@ -3645,6 +3646,9 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: 'If you roll Grapple for your Finish roll, it is +1.
+
+    If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
   tags: []
 - name: I'm Just Getting Started
   db_uuid: 2b54e392daba4c21b09ce6d7825be25a
@@ -3653,6 +3657,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: 'Stop any Grapple with "If Stopped" in the text: That card has blank text until the end of the turn.'
   tags: []
 - name: Run Down
   db_uuid: 4d989810bfcb472cb213510381198754
@@ -3661,6 +3666,9 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: 'Stop any Lead Grapple.
+
+    Each player buries 1 card in their opponent''s discard pile.'
   tags: []
 - name: Seize the Moment
   db_uuid: 3da389f186a04d92bc431cdf2d923b1e
@@ -3669,6 +3677,9 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: 'Flip 1 card.
+
+    Add 1 other card of the same card or move type as the flipped card from your discard pile to your hand.'
   tags: []
 - name: Boot Off the Apron
   db_uuid: 9a5483b7c7f042118bfe3723a3005681
@@ -6142,7 +6153,7 @@
 - name: Cat's Claws (V1)
   db_uuid: 6106b65feead4e93a1d827fbbf697963
   srg_url: https://supershowthegame.com/product/06-cat-claws/
-  srgpc_url: https://www.srgpc.net/cards/6/cats-claws-v2/
+  srgpc_url: https://www.srgpc.net/cards/6/cats-claws/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6151,14 +6162,16 @@
   tags: []
 - name: Cat's Claws (V2)
   db_uuid: ae9cae86bc9f4509a88c7f7232c8c950
+  srgpc_url: https://www.srgpc.net/cards/6/cats-claws-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
+  rules_text: Stop any Follow Up Strike or each player buries 1 card in their hand.
   tags: []
 - name: Charge That Puppy Up! (V1)
   db_uuid: 08b01e431fdf4536933009cbdbd9de6e
-  srgpc_url: https://www.srgpc.net/cards/6/charge-that-puppy-up-v2/
+  srgpc_url: https://www.srgpc.net/cards/6/charge-that-puppy-up/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -6169,6 +6182,7 @@
   tags: []
 - name: Charge That Puppy Up! (V2)
   db_uuid: 751466e342d94c6997d1bdb598915a02
+  srgpc_url: https://www.srgpc.net/cards/6/charge-that-puppy-up-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -10302,6 +10316,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
+  rules_text: Stop any Finish Grapple that cannot be stopped. Your opponent's maximum hand size is -1.
   tags: []
 - name: Al13N Invasion
   db_uuid: 9e901f9a7d654524b28debe00a753ba4
@@ -10764,6 +10779,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
+  rules_text: Your next turn roll is +2.
   tags: []
 - name: Meteora
   db_uuid: 53a86bd2557144f185278a2e9407d319
@@ -10772,6 +10788,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
+  rules_text: Draw the bottom 2 cards of your deck, then bury 1 card in your hand.
   tags: []
 - name: Mudhole Stomp
   db_uuid: f342f41e3c03433d96f40c7c4d9d2cdf
@@ -10800,6 +10817,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
+  rules_text: If you have a Submission in play, add 1 card from your discard pile to your hand.
   tags: []
 - name: Pixel Palace Plancha
   db_uuid: 4b238050a99a4a1d9b010df3edba9bac

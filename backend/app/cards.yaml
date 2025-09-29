@@ -9985,6 +9985,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each other Lead you have in play.
   tags: []
 - name: Handful of Hair
   db_uuid: 4c1236188115466c8d5fbe998b562dad
@@ -10070,6 +10071,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: If your opponent has a Stop in play, put 1 Submission from your discard pile on top of your deck.
   tags: []
 - name: Leg Trap
   db_uuid: 7f32927489324bb1855f5ba1db37dd01
@@ -10078,6 +10080,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: If you have another Lead in play your next turn roll is +2.
   tags: []
 - name: Melody of Menace
   db_uuid: db49f4a0c76341a69e4d560c29954897
@@ -10086,6 +10089,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: Draw 1 card for each Stop you have in play.
   tags: []
 - name: Nowhere to Run
   db_uuid: e1f1d98908474de08cd14fe7702575ae
@@ -10094,6 +10098,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: 'Shuffle 1 card from your discard pile into your deck for each other Submission you have in play.
+
+    If this is a Steel Cage match, your opponent''s next turn roll is -2.'
   tags: []
 - name: Pin Into the Corner
   db_uuid: e35bf919cff34d86aef1808708a32d9a
@@ -10102,6 +10109,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: If your opponent has a Stop in play, draw 2 cards.
   tags: []
 - name: Raise the Dead
   db_uuid: 6f992635e10e4478838254efbc1d4526
@@ -10110,6 +10118,11 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
+  rules_text: 'Draw 1 card for each Lead you have in play.
+
+    Add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Grapple 10+, Technique 9+'
   tags: []
 - name: Ready to Rumble
   db_uuid: 09f77610a2ec48f5ac653ffbd8c8fbc2
@@ -12190,6 +12203,7 @@
   play_order: Followup
   deck_card_number: 15
   tags: []
+  rules_text: "If you have a Stop in play, add 1 card from your discard pile to your hand."
 - name: Cosmic Knee in the Ropes
   db_uuid: 870644c7092d42e5811abd1fa92de821
   srgpc_url: https://www.srgpc.net/cards/15/cosmic-knee-in-the-ropes/
@@ -18145,6 +18159,7 @@
   play_order: Followup
   deck_card_number: 24
   tags: []
+  rules_text: "Your Finish rolls are +1."
 - name: Cosmic Power Potion
   db_uuid: 17939f4da7524f719c9ed92b27c4099c
   srgpc_url: https://www.srgpc.net/cards/24/cosmic-power-potion/

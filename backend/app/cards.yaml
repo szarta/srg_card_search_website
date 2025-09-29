@@ -7149,7 +7149,8 @@
   tags: []
 - name: Thunderous Slap
   db_uuid: f56f15aaae7948d88cae3d3861faf240
-  srgpc_url: https://www.srgpc.net/cards/7/thunderous-stomp/
+  srg_url: https://supershowthegame.com/product/07-thunderous-slap/
+  srgpc_url: https://www.srgpc.net/cards/7/thunderous-slap/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7160,6 +7161,8 @@
   tags: []
 - name: Thunderous Stomp
   db_uuid: dcb941affc694d3ba6cade9b65f04bcc
+  srg_url: https://supershowthegame.com/product/07-thunderous-stomp/
+  srgpc_url: https://www.srgpc.net/cards/7/thunderous-stomp/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -7797,6 +7800,7 @@
   tags: []
 - name: Thunderous Goozle
   db_uuid: 10d9a03cf6444876adf157d4705c43b8
+  srg_url: https://supershowthegame.com/product/08-thunderous-goozle/
   srgpc_url: https://www.srgpc.net/cards/8/thunderous-goozle/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9135,6 +9139,7 @@
   tags: []
 - name: Thunderous Punch
   db_uuid: 8954f299844a4518929d83bf16810ae5
+  srg_url: https://supershowthegame.com/product/10-thunderous-punch/
   srgpc_url: https://www.srgpc.net/cards/10/thunderous-punch/
   card_type: MainDeckCard
   atk_type: Strike
@@ -11044,6 +11049,7 @@
   tags: []
 - name: Thunderous Smash
   db_uuid: 8cac3885ef024186a6d302fe5d1614e8
+  srg_url: https://supershowthegame.com/product/thunderous-smash/
   srgpc_url: https://www.srgpc.net/cards/13/thunderous-smash/
   card_type: MainDeckCard
   atk_type: Strike
@@ -15925,6 +15931,7 @@
   tags: []
 - name: Thunderous Flex
   db_uuid: d66659b2f2c546fbbe3297116b753eb5
+  srg_url: https://supershowthegame.com/product/20-thunderous-flex/
   srgpc_url: https://www.srgpc.net/cards/20/thunderous-flex/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -17226,6 +17233,7 @@
   tags: []
 - name: Thunderous Face Kick
   db_uuid: de2f43b996f5441fb3209ff29eb595a3
+  srg_url: https://supershowthegame.com/product/22-thunderous-face-kick/
   srgpc_url: https://www.srgpc.net/cards/22/thunderous-face-kick/
   card_type: MainDeckCard
   atk_type: Strike
@@ -17998,6 +18006,19 @@
     Draw 1 card.
 
     If either player rolls Technique for their turn roll, their turn roll is -1.'
+  tags: []
+- name: Chained STF
+  db_uuid: e70d6b10480e43ada49c96c42b216061
+  srg_url: https://supershowthegame.com/product/24-chained-stf/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Search your deck or discard pile for 3 Submissions: Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
+
+    If this is a Steel Cage match, draw 2 cards.
+
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Sunset Sleeper Hold
   db_uuid: 967e451db96f4973978c4c464984c244
@@ -24066,6 +24087,8 @@
     - Valiant
 - name: Thunderous Support From
   db_uuid: f135dc91ac8142c9b01d82f068540279
+  srg_url: https://supershowthegame.com/product/spectacle-thunderous-support-from/
+  srgpc_url: https://www.srgpc.net/cards/spectacles/valiant/thunderous-support-from/
   card_type: SpectacleCard
   rules_text: 'Once a match:
 
@@ -36339,6 +36362,7 @@
   tags: []
 - name: Cosmic Crab
   db_uuid: f8ccbc7df0684c1182766e9ccc132dd6
+  srg_url: https://supershowthegame.com/product/18-cosmic-crab/
   srgpc_url: https://www.srgpc.net/cards/18/cosmic-crab/
   card_type: MainDeckCard
   atk_type: Submission
@@ -36952,6 +36976,16 @@
   rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Strike.
 
     Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Cosmic Rest Hold
+  db_uuid: fc0caee9d298483ead2154fd1f49d27a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    The Crowd Meter is considered -1 for all Stop text.'
   tags: []
 - name: Gas You Up
   db_uuid: ab298ef00e09480c9b1b3e81802ae36d

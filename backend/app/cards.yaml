@@ -20423,6 +20423,7 @@
 - name: Al13n Invader (V1)
   db_uuid: 4e0abf2265bf451dac5e99e1a0d6fbd8
   srg_url: https://supershowthegame.com/product/8-bit-al13n-invader-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -20444,6 +20445,7 @@
     - dd3dae2839c7402d8cbb1745a5d41d05
 - name: Al13n Interference
   db_uuid: 253e1ed8fd794043b5912bad65234e1e
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -20457,6 +20459,7 @@
   tags: []
 - name: Al13n Invader (V2)
   db_uuid: ad37a60fc4184a49bc0cbdc7a693e909
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -20481,6 +20484,7 @@
     - dd3dae2839c7402d8cbb1745a5d41d05
 - name: Al13n Invader (V3)
   db_uuid: ed3de20d902c45da89fcb3dae4445739
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -20498,6 +20502,8 @@
     - 9bd1b410d4bc443eae2f2e2bc7526108
 - name: Orbital Extinction
   db_uuid: a73250c875834f86b0c45f02622e246b
+  srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -20508,6 +20514,8 @@
   tags: []
 - name: '"Weather Balloon"'
   db_uuid: 5c5cdd1b02824536a0c79896fb7560ec
+  srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -20520,6 +20528,8 @@
   tags: []
 - name: Al13n Infestation
   db_uuid: 9bd1b410d4bc443eae2f2e2bc7526108
+  srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -20532,6 +20542,7 @@
   tags: []
 - name: Unidentified Flying Elbow
   db_uuid: 91db923bc32149539a544f86c5375c38
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -20546,6 +20557,7 @@
   tags: []
 - name: Al13n Abduction
   db_uuid: 3a0cdad345814d5680e7c552e48197a0
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -20558,6 +20570,7 @@
   tags: []
 - name: Al13n Probe
   db_uuid: b6ed97893cf74321a7b47c5cb39156a6
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -20568,6 +20581,7 @@
   tags: []
 - name: Beam Me Down!
   db_uuid: 11d2807d16b840f09b6438700aceb983
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -20578,6 +20592,7 @@
   tags: []
 - name: Cosmic Crush
   db_uuid: 9cbd447b98ce4787bded7620df4517b9
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -20590,6 +20605,7 @@
   tags: []
 - name: Cosmic Wormhole
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -35910,6 +35926,7 @@
   tags: []
 - name: Unchained Wizard Knee
   db_uuid: c84b65709dfe4a4f94528198171f5c41
+  srg_url: https://supershowthegame.com/product/10-unchained-wizard-knee/
   srgpc_url: https://www.srgpc.net/cards/10/unchained-wizard-knee/
   card_type: MainDeckCard
   atk_type: Strike
@@ -36142,6 +36159,7 @@
   tags: []
 - name: Pixel Palace Plunge
   db_uuid: 8f1187d602ae4ab880651f18982fa8f7
+  srg_url: https://supershowthegame.com/product/14-pixel-palace-plunge/
   srgpc_url: https://www.srgpc.net/cards/14/pixel-palace-plunge/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -36171,6 +36189,7 @@
   tags: []
 - name: Possum Posse Progeny
   db_uuid: 9ccf885a4f8644918197121aff99bd42
+  srg_url: https://supershowthegame.com/product/18-possum-posse-progeny/
   srgpc_url: https://www.srgpc.net/cards/15/possum-posse-progeny/
   card_type: MainDeckCard
   atk_type: Submission
@@ -36260,6 +36279,7 @@
   tags: []
 - name: Flying Spear
   db_uuid: 45cb8138e588420386b1158083f05482
+  srg_url: https://supershowthegame.com/product/16-flying-spear/
   srgpc_url: https://www.srgpc.net/cards/16/flying-spear/
   card_type: MainDeckCard
   atk_type: Strike
@@ -36742,6 +36762,7 @@
   tags: []
 - name: Unchained Aggression
   db_uuid: 9837b6ea441f4ee88f3217280e6ad1c6
+  srg_url: https://supershowthegame.com/product/23-unchained-aggression/
   srgpc_url: https://www.srgpc.net/cards/23/unchained-aggresion/
   card_type: MainDeckCard
   atk_type: Grapple

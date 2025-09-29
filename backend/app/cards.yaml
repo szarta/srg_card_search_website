@@ -12202,8 +12202,8 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 15
+  rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
   tags: []
-  rules_text: "If you have a Stop in play, add 1 card from your discard pile to your hand."
 - name: Cosmic Knee in the Ropes
   db_uuid: 870644c7092d42e5811abd1fa92de821
   srgpc_url: https://www.srgpc.net/cards/15/cosmic-knee-in-the-ropes/
@@ -18158,8 +18158,8 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Your Finish rolls are +1.
   tags: []
-  rules_text: "Your Finish rolls are +1."
 - name: Cosmic Power Potion
   db_uuid: 17939f4da7524f719c9ed92b27c4099c
   srgpc_url: https://www.srgpc.net/cards/24/cosmic-power-potion/
@@ -31479,11 +31479,83 @@
   card_type: SingleCompetitorCard
   division: United States
   tags: []
-- name: Sheep of the Era
+- name: Sheep of the Era (V1)
   db_uuid: d83034fb8a4048fd89625212f4aa6d1f
+  srgpc_url: https://www.srgpc.net/competitors/sheep-of-the-era/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 5
+  grapple: 8
+  rules_text: It is considered a Steel Cage or Birdcage match for your card effects.
   tags: []
+  related_finishes:
+    - 1b3a8fbae78142b3b9673851b307ce64
+    - 5297e5c2f552462899d5ddcd14d76705
+    - edafdeb5463d4560a860c54c40b2e042
+- name: Sheep of the Era (V2)
+  db_uuid: 8d1d99f53cfe444c83ca6e03df7b6084
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 5
+  grapple: 8
+  rules_text: 'When your turn roll is at least 2 less than your target''s turn roll: Draw 1 card, then bury 1 card in your hand.'
+  tags: []
+  related_finishes:
+    - 1b3a8fbae78142b3b9673851b307ce64
+    - 5297e5c2f552462899d5ddcd14d76705
+    - edafdeb5463d4560a860c54c40b2e042
+- name: Baa'd Intentions
+  db_uuid: 1b3a8fbae78142b3b9673851b307ce64
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 8d1d99f53cfe444c83ca6e03df7b6084
+    - d83034fb8a4048fd89625212f4aa6d1f
+- name: Ewe-Turn
+  db_uuid: 5297e5c2f552462899d5ddcd14d76705
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If your opponent breaks out: You may discard your hand, then randomly add the same number of cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 8d1d99f53cfe444c83ca6e03df7b6084
+    - d83034fb8a4048fd89625212f4aa6d1f
+- name: Shepherd's Sheep Hook
+  db_uuid: edafdeb5463d4560a860c54c40b2e042
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Submission
+
+    You may draw the bottom 3 cards of your deck, then discard 2 cards from your hand.'
+  tags: []
+  related_cards:
+    - 8d1d99f53cfe444c83ca6e03df7b6084
+    - d83034fb8a4048fd89625212f4aa6d1f
 - name: Shieldmaiden
   db_uuid: 69b89fd47e764b3e80717925ac407b40
   card_type: SingleCompetitorCard

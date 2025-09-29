@@ -34116,6 +34116,7 @@
   tags: []
 - name: Isaac
   db_uuid: e5d58cd478394fe0882ce3e1b410041e
+  srgpc_url: https://www.srgpc.net/competitor/isaac/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -34127,8 +34128,59 @@
   grapple: 8
   rules_text: 'Once per turn:
 
-    If your opponent stops your Follow Up or Finish, roll your die: if the die matches the move type of the stopped card, play that card as an additional card this turn.'
+    If your opponent stops your Follow Up or Finish, roll your die: If the die matches the move type of the stopped card, play that card as an additional card this turn.'
   tags: []
+  related_finishes:
+    - 601ff981ede1492f8131cc3aa0c8678f
+    - 400dc798a0fe41cba1f4569b5831c1d7
+    - 0b57a098583c467a8d488d86174fb10b
+- name: Guppysault
+  db_uuid: 601ff981ede1492f8131cc3aa0c8678f
+  srgpc_url: https://www.srgpc.net/competitor/isaac/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    +2 to Strike
+
+    If your opponent breaks out, put 1 card with "Flying" in the name from your discard pile into play.'
+  tags: []
+  related_cards:
+    - e5d58cd478394fe0882ce3e1b410041e
+- name: Brimstone Piledriver
+  db_uuid: 400dc798a0fe41cba1f4569b5831c1d7
+  srgpc_url: https://www.srgpc.net/competitor/isaac/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile: After you roll Power for your turn roll 3 times, add this card to your hand, and your opponent''s turn roll is -3.'
+  tags: []
+  related_cards:
+    - e5d58cd478394fe0882ce3e1b410041e
+- name: The Locked Chest
+  db_uuid: 0b57a098583c467a8d488d86174fb10b
+  srgpc_url: https://www.srgpc.net/competitor/isaac/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    +1 to Strike
+
+    If you have a card in play with "Key" in the name, randomly add 3 cards from in play or your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - e5d58cd478394fe0882ce3e1b410041e
 - name: Jacque EE & Mombada
   db_uuid: 3fa19028e85843cc8f816578d0bb2b58
   card_type: TornadoCompetitorCard

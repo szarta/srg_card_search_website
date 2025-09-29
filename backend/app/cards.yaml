@@ -22525,6 +22525,8 @@
   tags: []
 - name: El Campeon de las Llamas (V1)
   db_uuid: 437b04b0decd4d3f93a90914be435d67
+  srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22536,8 +22538,17 @@
   grapple: 6
   rules_text: 'Once per turn: When your card with "Rolling" or "Kick" in the name is stopped, you may play 1 additional Strike this turn.'
   tags: []
+  related_finishes:
+    - 33df8a82a10d4c2baf337ec45a5631bb
+    - d99b39bc372843ceb5fa171a8a5dfbbb
+    - 93f751090cb645a092998206884ed756
+    - f6eab710928d4649927f73627a70239b
+    - 2198d0feb49643b4868a4259be6c8601
+    - c2125724080b4d058c693cb3439bd719
 - name: El Campeon de las Llamas (V2)
   db_uuid: ac35ccf29d134fda8ad7448adad2de52
+  srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22549,6 +22560,109 @@
   grapple: 6
   rules_text: 'Once per turn: When your Strike is stopped, you may play 1 additional card with "Rolling" or "Kick" in the name.'
   tags: []
+  related_finishes:
+    - 33df8a82a10d4c2baf337ec45a5631bb
+    - d99b39bc372843ceb5fa171a8a5dfbbb
+    - 93f751090cb645a092998206884ed756
+    - f6eab710928d4649927f73627a70239b
+    - 2198d0feb49643b4868a4259be6c8601
+    - c2125724080b4d058c693cb3439bd719
+- name: Gooooooaaaaal Kick!
+  db_uuid: 33df8a82a10d4c2baf337ec45a5631bb
+  srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Strike skill is +1 for each card you have in play with "Kick" in the name.
+
+    If your opponent stopped a card this turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
+- name: Pasar y Disparar
+  db_uuid: d99b39bc372843ceb5fa171a8a5dfbbb
+  srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    If stopped, choose a player: They randomly bury 2 cards in their discard pile.'
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
+- name: Tarjeta Roja
+  db_uuid: 93f751090cb645a092998206884ed756
+  srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If the Crowd Meter is 2 or greater: Stop any Strike with "Rolling" or "Kick" in the name or any Strike with "Via Disqualification" in the text.'
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
+- name: Stud Kick to the Bush
+  db_uuid: f6eab710928d4649927f73627a70239b
+  srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Finish rolls are +1 for each other card you have in play with "Kick" in the name. (Max +2)
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
+- name: Super Flipping Llama Shot
+  db_uuid: 2198d0feb49643b4868a4259be6c8601
+  srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If you have a card in play with "Table" in the name, double these bonuses.  If you have a card in play with "Fire" in the name, double these bonuses.'
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
+- name: To Honor the Flame
+  db_uuid: c2125724080b4d058c693cb3439bd719
+  srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile, you may bury card #15 from your hand to add this card to your hand.'
+  tags: []
+  related_cards:
+    - 437b04b0decd4d3f93a90914be435d67
+    - ac35ccf29d134fda8ad7448adad2de52
 - name: El Hombre Cybernetico
   db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
   srg_url: https://supershowthegame.com/product/el-hombre-cybernetico/
@@ -36665,6 +36779,7 @@
   tags: []
 - name: Spin Wheel Kick
   db_uuid: 3d0353eaad9941978395e27c1531c70e
+  srg_url: https://supershowthegame.com/product/22-spin-wheel-kick/
   srgpc_url: https://www.srgpc.net/cards/22/spin-wheel-kick/
   card_type: MainDeckCard
   atk_type: Strike

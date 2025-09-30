@@ -37780,3 +37780,11 @@
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your last turn without playing a card, your opponent''s next turn roll is -2.'
   tags: []
+- name: Tactical Retreat
+  db_uuid: fb9774648b24470fb616e20d556dec7c
+  srg_url: https://supershowthegame.com/product/entrance-tactical-retreat/
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you ended your turn without playing a card, put one card with "Sonic" in the name from your discard pile on top of your deck.'
+  tags: []

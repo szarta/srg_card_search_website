@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 
 const articles = [
-  { slug: "citizen-x-deck",        title: "Citizen X" },
-  { slug: "moonstar-deck",         title: "Moonstar" },
+  { slug: "citizen-x",        title: "Citizen X" },
+  { slug: "moonstar",         title: "Moonstar" },
   // { slug: "another-deck",      title: "Another Deck Article" },
 ];
 

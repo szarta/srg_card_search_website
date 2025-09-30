@@ -28950,6 +28950,7 @@
 - name: Le Penguin (V1)
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
   srg_url: https://supershowthegame.com/product/le-penguin/
+  srgpc_url: https://www.srgpc.net/cards/competitors/le-penguin/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -29001,6 +29002,7 @@
 - name: Flying Penguin Press
   db_uuid: 8bdeea11ec03410c9bac08475db23b0e
   srg_url: https://supershowthegame.com/product/le-penguin/
+  srgpc_url: https://www.srgpc.net/cards/competitors/le-penguin/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -29014,6 +29016,7 @@
 - name: Le Codebreaker
   db_uuid: 6f316aa121d64db2809864a1b87f0b74
   srg_url: https://supershowthegame.com/product/le-penguin/
+  srgpc_url: https://www.srgpc.net/cards/competitors/le-penguin/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -29031,6 +29034,7 @@
 - name: Surfing Bird
   db_uuid: b7fbfcc1b9a045519ccb3e1fb12bc76a
   srg_url: https://supershowthegame.com/product/le-penguin/
+  srgpc_url: https://www.srgpc.net/cards/competitors/le-penguin/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -37359,6 +37363,7 @@
   tags: []
 - name: American Union Arm Bender
   db_uuid: a0fbc43b8e8f421094fc267ea115a057
+  srg_url: "https://supershowthegame.com/product/24-american-union-arm-bender/"
   srgpc_url: https://www.srgpc.net/cards/24/american-union-arm-bender/
   card_type: MainDeckCard
   atk_type: Submission
@@ -37695,4 +37700,9 @@
   rules_text: 'Search your deck for a Finish Grapple and add it to your hand.
 
     Shuffle your deck.'
+  tags: []
+- name: Pretty Paul Says, "Let It Rip!"
+  db_uuid: 5224820cfea446b6938f65d7154bd2f0
+  card_type: EntranceCard
+  rules_text: 'Once per match: When you would bump, draw 2 cards instead and each player re-rolls their turn roll.'
   tags: []

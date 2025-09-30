@@ -18979,7 +18979,7 @@
 
     Draw 3 cards.'
   tags: []
-- name: Leg Lariat
+- name: Leg Lariat (#25)
   db_uuid: ce07a294014844098cf4481ef341d651
   srgpc_url: https://www.srgpc.net/cards/25/leg-lariat/
   card_type: MainDeckCard
@@ -19726,13 +19726,19 @@
   play_order: Lead
   deck_card_number: 26
   tags: []
-- name: Snap DDT
+- name: Snap DDT (#26)
   db_uuid: 555e5e9756ca4bf19d797bb8b469a0f1
+  srg_url: https://supershowthegame.com/product/26-snap-ddt/
   srgpc_url: https://www.srgpc.net/cards/26/snap-ddt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission.
+
+    Draw 1 card.
+
+    +2 to your next turn roll.'
   tags: []
 - name: Spinning Side Slam (V1)
   db_uuid: c4f12e457c4a4c599eddc5776f510ef0
@@ -36238,16 +36244,20 @@
 
     Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
   tags: []
-- name: Leg Lariat
+- name: Leg Lariat (#4)
   db_uuid: 1677c8c12ec548fd8cdc4a69775d3014
   srgpc_url: https://www.srgpc.net/cards/4/leg-lariat/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
   deck_card_number: 4
-  rules_text: 'Stop any Follow Up Grapple. Draw 1 card.
+  rules_text: 'Stop any Follow Up Grapple.
 
-    Your next turn roll is +2.'
+    Draw 1 card.
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Splitting Up-Bird Cut
   db_uuid: 51d9f503d8b74162a1c3183fc76c97ba
@@ -36320,16 +36330,21 @@
   deck_card_number: 5
   rules_text: Search your deck or discard pile for a Skill Requirement card and add it to your hand.
   tags: []
-- name: Snap DDT
+- name: Snap DDT (#5)
   db_uuid: 11518230c6d34f2c89782c3a0ddc7d2c
+  srg_url: https://supershowthegame.com/product/05-snap-ddt/
   srgpc_url: https://www.srgpc.net/cards/5/snap-ddt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 5
-  rules_text: 'Stop any Follow Up Submission, draw 1 card.
+  rules_text: 'Stop any Follow Up Submission.
 
-    Your next turn roll is +2.'
+    Draw 1 card.
+
+    +2 to your next turn roll.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Swinging Sweep
   db_uuid: 458982fcc61a4a91b3ee12a4faecde56
@@ -36533,6 +36548,7 @@
   tags: []
 - name: 'Shrinking Potion #89'
   db_uuid: 0797f36fb0d54212bf36b70da9cb83ff
+  srg_url: https://supershowthegame.com/product/10-shrinking-potion-89/
   srgpc_url: https://www.srgpc.net/cards/10/shrinking-potion-89/
   card_type: MainDeckCard
   atk_type: Strike
@@ -36843,6 +36859,7 @@
   tags: []
 - name: 'Stunning Shining Potion #43'
   db_uuid: b1f703cf0b384524a6ad64484585ff6c
+  srg_url: https://supershowthegame.com/product/15-stunning-shinning-potion-43/
   srgpc_url: https://www.srgpc.net/cards/15/stunning-shining-potion-43/
   card_type: MainDeckCard
   atk_type: Submission
@@ -37613,6 +37630,7 @@
   tags: []
 - name: 'Stunning Potion #82'
   db_uuid: b7e57f1516e3429d9d70269552233075
+  srg_url: https://supershowthegame.com/product/26-stunning-potion-82/
   srgpc_url: https://www.srgpc.net/cards/26/stunning-potion-82/
   card_type: MainDeckCard
   atk_type: Grapple

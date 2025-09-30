@@ -34010,6 +34010,8 @@
   tags: []
 - name: Cassandra
   db_uuid: 98f3f8c2a9624054b696f59bc8d89dd9
+  srg_url: https://supershowthegame.com/product/cassandra/
+  srgpc_url: https://www.srgpc.net/competitor/cassandra/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -34021,6 +34023,44 @@
   grapple: 9
   rules_text: Change "+" to "-" and "-" to "+" on your target's Gimmick and "Champion of Kickstarter" card.
   tags: []
+  related_finishes:
+    - dedc0e6d0bd14f6388c0b0e5191ffa72
+    - 285f847b3e8f4b748444549593b47830
+    - 9a68f64b3a5d43ac9bcbd52dee2f1d91
+- name: Your Worst Nightmare!
+  db_uuid: dedc0e6d0bd14f6388c0b0e5191ffa72
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'You may look at your opponent''s hand or discard pile: Choose 1 Finish; this card copies its text and Spotlight until you choose to use this effect again.'
+  tags: []
+  related_cards:
+    - 98f3f8c2a9624054b696f59bc8d89dd9
+- name: The Shadow Symphony
+  db_uuid: 285f847b3e8f4b748444549593b47830
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Finish rolls are +1 for each Finish your opponent hit on you this match.
+
+    When this card is in your discard pile, your opponent''s Finish cards cannot be other card types.'
+  tags: []
+  related_cards:
+    - 98f3f8c2a9624054b696f59bc8d89dd9
+- name: Barbwire Kiss
+  db_uuid: 9a68f64b3a5d43ac9bcbd52dee2f1d91
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission'
+  tags: []
+  related_cards:
+    - 98f3f8c2a9624054b696f59bc8d89dd9
 - name: Cheer and Fear
   db_uuid: b151d330471547a1ae1c1e81882a96ce
   card_type: TornadoCompetitorCard
@@ -34092,6 +34132,7 @@
   tags: []
 - name: Dr. Pauliwood
   db_uuid: d9e9083f2327491e84012142f1b5b414
+  srg_url: https://supershowthegame.com/product/dr-pauliwood/
   srgpc_url: https://www.srgpc.net/competitor/dr-pauliwood/
   card_type: SingleCompetitorCard
   division: United States
@@ -37805,4 +37846,133 @@
   rules_text: 'Once per match:
 
     If you ended your turn without playing a card, put one card with "Sonic" in the name from your discard pile on top of your deck.'
+  tags: []
+- name: Barbed Wire
+  db_uuid: 3664a1c045e94c5bae452d620348b20b
+  srg_url: https://supershowthegame.com/product/03-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'Stop any Lead Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Going Over the Barbed Wire
+  db_uuid: fe6b8282199d4e22a973819332299506
+  srg_url: https://supershowthegame.com/product/06-going-over-the-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Stop any Follow Up Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Barbed Wire Uprising
+  db_uuid: c924f2292c824217a576f2db13a9baa3
+  srg_url: https://supershowthegame.com/product/09-barbed-wire-uprising/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Put 1 card with "Barbed Wire" in the name from your discard pile on top of your deck.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Gathering the Barbed Wire
+  db_uuid: 588668ba6ac1402b83160b75aa968f04
+  srg_url: https://supershowthegame.com/product/12-gathering-the-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'Shuffle 1 card with "Barbed Wire" in the name from your discard pile into your deck for each Lead you have in play.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Barbed Wire Takeover
+  db_uuid: 8b6711008d5f4868abb588ffd6f80648
+  srg_url: https://supershowthegame.com/product/15-barbed-wire-takeover/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Submission is greater than your opponents Submission skill, stop any Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Catch the Barbed Wire
+  db_uuid: c476747aa19a40f8ac45fd00986d0997
+  srg_url: https://supershowthegame.com/product/15-catch-the-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponents Technique skill, stop any Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Ambush with the Barbed Wire
+  db_uuid: 8151f46a15064e0e90c1a7700c65839d
+  srg_url: https://supershowthegame.com/product/18-ambush-with-the-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'If your Technique skill is greater than your opponents Technique skill, stop any Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Barbed Wire Knockdown
+  db_uuid: fdd014244d3b482e97ca2d2570fd6dc7
+  srg_url: https://supershowthegame.com/product/21-barbed-wire-knockdown/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Set Up the Barbed Wire
+  db_uuid: 4934d12ecce0456caf0807da4a7d9b12
+  srg_url: https://supershowthegame.com/product/24-set-up-the-barbed-wire/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Search your deck for 1 card with "Barbed Wire" in the name, add to your hand.  All your Finish Submissions have the added text: "Your opponents Finish rolls are -1.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Barbed Wire Backlash
+  db_uuid: 16e10c69ddfa48ad8e4bfc2c4c7058b4
+  srg_url: https://supershowthegame.com/product/27-barbed-wire-backlash/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: Vicious Barbed Wire Suplex
+  db_uuid: 1a01989d2fa04576927111dc527441e7
+  srg_url: https://supershowthegame.com/product/30-vicious-barbed-wire-suplex/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Choose Technique or Submission. If you roll that skill for your Finish roll, it is +3.
+
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+  tags: []
+- name: This Is Where the Fun Begins
+  db_uuid: ec14de5d3bc444be8e8d5b0f9be47668
+  srg_url: https://supershowthegame.com/product/entrance-this-is-where-the-fun-begins/
+  card_type: EntranceCard
+  rules_text: 'Twice per match:
+
+    When you reveal the top card of your deck, and it does not have "Barbed Wire" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []

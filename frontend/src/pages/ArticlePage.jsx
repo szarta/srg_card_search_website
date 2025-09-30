@@ -96,7 +96,7 @@ export default function ArticlePage() {
                   )}
                 </>
               )}
-              {meta.date && <>{" — "}{new Date(meta.date).toLocaleDateString()}</>}
+              {meta.date && <>{" – "}{new Date(meta.date).toLocaleDateString()}</>}
             </p>
           )}
           {meta.video && (
@@ -119,6 +119,16 @@ export default function ArticlePage() {
             h2: (props) => <h2 className="text-3xl mt-6 mb-3" {...props} />,
             h3: (props) => <h3 className="text-2xl mt-5 mb-2" {...props} />,
             a:  (props) => <a className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline" {...props} />,
+            ul: (props) => <ul className="list-disc list-outside ml-6 my-4 space-y-2" {...props} />,
+            ol: (props) => <ol className="list-decimal list-outside ml-6 my-4 space-y-2" {...props} />,
+            li: ({ node, children, ...props }) => {
+              const out = [];
+              React.Children.forEach(children, (child, idx) => {
+                if (typeof child === "string") out.push(...renderBracketInline(child, `li${idx}`));
+                else out.push(child);
+              });
+              return <li className="text-white" {...props}>{out}</li>;
+            },
             p: ({ node, children, ...props }) => {
               const out = [];
               React.Children.forEach(children, (child, idx) => {
@@ -144,4 +154,3 @@ export default function ArticlePage() {
     </div>
   );
 }
-

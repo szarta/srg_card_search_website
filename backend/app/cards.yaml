@@ -34733,9 +34733,67 @@
   tags: []
 - name: Moonstar
   db_uuid: d300d0adc8fa40e6920db70814656422
+  srg_url: https://supershowthegame.com/product/moonstar/
+  srgpc_url: https://www.srgpc.net/competitor/moonstar/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: 'Once per turn or turn roll:
+
+    Whenever a plyer moves a card from their discard pile to another location with a Gimmick or Non-Spotlight card effect, you may switch 1 of the chosen cards with 1 card in their discard pile of the same card type.'
   tags: []
+  related_finishes:
+    - ff52247ce6d843c98df74736cb2afb6e
+    - 2d1a05687e1d40ebb3482f9768df827f
+    - 0ec69dddbba84b5a90e8e6a5be3d757b
+- name: This is the Stellar Collision!!
+  db_uuid: ff52247ce6d843c98df74736cb2afb6e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Power is -3.
+
+    Your opponent''s Strike is -2.
+
+    You may put 1 Lead from your discard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - d300d0adc8fa40e6920db70814656422
+- name: It's Time for a Star Fall!
+  db_uuid: 2d1a05687e1d40ebb3482f9768df827f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    If the Crowd Meter is 1 or greater, +1 to all your skills for each other card you have in play with "Moon" or "Star" in the name (Max +2).'
+  tags: []
+  related_cards:
+    - d300d0adc8fa40e6920db70814656422
+- name: That's the Lunar Theory!
+  db_uuid: 0ec69dddbba84b5a90e8e6a5be3d757b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    When this card is in your discard pile: If your Gimmick would switch a card, you may switch it with any card in the discard pile instead.'
+  tags: []
+  related_cards:
+    - d300d0adc8fa40e6920db70814656422
 - name: Mr. Hyde
   db_uuid: ceb9126b162c4be69b9291c088d3fe5b
   card_type: SingleCompetitorCard

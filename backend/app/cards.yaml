@@ -93,6 +93,7 @@
 - name: The Rising Sun
   db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
   srg_url: https://supershowthegame.com/product/the-rising-sun/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-rising-sun/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -614,6 +615,7 @@
 - name: The Big Shot
   db_uuid: 34920b2f4af2455da98b228debb1e87f
   srg_url: https://supershowthegame.com/product/the-big-shot/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-big-shot/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -779,6 +781,7 @@
 - name: Inevitable Ace Austin
   db_uuid: 9fd2c3aee2a04dc2b28c07e043be587c
   srg_url: https://supershowthegame.com/product/ace-austin/
+  srgpc_url: https://www.srgpc.net/competitors/inevitable-ace-austin/
   card_type: SingleCompetitorCard
   division: Global
   power: 6
@@ -2134,6 +2137,7 @@
 - name: El Super Hombre (V1)
   db_uuid: 59a06bccbea64d1bb1d6301449190e81
   srg_url: https://supershowthegame.com/product/el-super-hombre/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-super-hombre/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -2692,6 +2696,7 @@
 - name: Big Jim Bias
   db_uuid: 9af9c9c9ba454cbc8ea6bd87eb0adc9a
   srg_url: https://supershowthegame.com/product/big-jim-bias/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-jim-bias/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -2749,6 +2754,7 @@
 - name: Blackstar
   db_uuid: 5f5d6354e8b8416e9185cfcc6f425c8e
   srg_url: https://supershowthegame.com/product/blackstar/
+  srgpc_url: https://www.srgpc.net/cards/competitors/blackstar/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -2926,6 +2932,7 @@
 - name: Bartholomew Hooke
   db_uuid: a01036ebb5bf49e382f6c9668fd04cc7
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
+  srgpc_url: https://www.srgpc.net/competitor/bartholomew-hooke/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -2944,6 +2951,7 @@
 - name: Chibi
   db_uuid: a9015fd930594327831767247044e2fa
   srg_url: https://supershowthegame.com/product/chibi/
+  srgpc_url: https://www.srgpc.net/cards/competitors/chibi/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 7
@@ -3163,6 +3171,7 @@
 - name: Dread Pirate Tech Support (V1)
   db_uuid: d2b10108b44646b4b6527e2d8b8f6de5
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
+  srgpc_url: https://www.srgpc.net/competitor/dead-pirate-tech-support/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -3321,6 +3330,7 @@
 - name: Big Bad Bobby D (V1)
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -3374,6 +3384,7 @@
 - name: Captain C.J. Sparra
   db_uuid: df55bc41f35640b28b35de866e6a12da
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
+  srgpc_url: https://www.srgpc.net/cards/competitors/captain-c-j-sparra/
   card_type: SingleCompetitorCard
   division: World Championship
   power: 9
@@ -20768,6 +20779,7 @@
     - f4a9e71c2fb446c192037af4278e7311
 - name: Ring Admiral Grumpy Thunder
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
+  srgpc_url: https://www.srgpc.net/cards/competitors/ring-admiral-grumpy-thunder-jr/
   card_type: SingleCompetitorCard
   division: World Championship
   power: 8
@@ -21381,6 +21393,7 @@
   tags: []
 - name: Baanominal One
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
+  srgpc_url: https://www.srgpc.net/cards/competitors/baanomenal-one/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -21394,6 +21407,7 @@
   tags: []
 - name: Baanomenal Son Nikola Mai
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
+  srgpc_url: https://www.srgpc.net/cards/competitors/baanomenal-son-nikola-mai/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -21407,6 +21421,7 @@
   tags: []
 - name: Baby Brick
   db_uuid: 0e8eca6185214b268fa7ffddb4bdf57b
+  srgpc_url: https://www.srgpc.net/cards/competitors/baby-brick/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -21420,6 +21435,7 @@
   tags: []
 - name: Backpack Man
   db_uuid: cf6406b30a9644b7b96c432df9a26887
+  srgpc_url: https://www.srgpc.net/cards/competitors/backpack-man/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -21434,6 +21450,7 @@
 - name: Bad Billy Bagpipes
   db_uuid: 5202f9e0a26e4839a84797552a2979b9
   srg_url: https://supershowthegame.com/product/bad-billy-bagpipes/
+  srgpc_url: https://www.srgpc.net/competitor-bad-billy-bagpipes/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -21497,6 +21514,7 @@
   tags: []
 - name: Bak Hurten
   db_uuid: a1f365ab29b64887b81535a3aaaf80b8
+  srgpc_url: https://www.srgpc.net/cards/competitors/bak-hurten/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -21510,6 +21528,7 @@
   tags: []
 - name: Bandersnatch
   db_uuid: 5a60042042b64aa1add8fcc29685242e
+  srgpc_url: https://www.srgpc.net/cards/competitors/bandersnatch/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -21524,6 +21543,7 @@
 - name: Poppa Wheelie (V1)
   db_uuid: 874d321b095b401987c710035115583f
   srg_url: https://supershowthegame.com/product/poppa-wheelie/
+  srgpc_url: https://www.srgpc.net/cards/competitors/poppa-wheelie/
   card_type: SingleCompetitorCard
   division: United States
   power: 9
@@ -21831,6 +21851,7 @@
   tags: []
 - name: Devil's Reject G.P.S.
   db_uuid: bda6621e1c4841e9935454a5a54de480
+  srgpc_url: https://www.srgpc.net/cards/competitors/devils-reject-g-p-s/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -21844,6 +21865,7 @@
 - name: Maria Marinara
   db_uuid: f31810c01f1d43acac29a2fc067a1b41
   srg_url: https://supershowthegame.com/product/maria-marinara/
+  srgpc_url: https://www.srgpc.net/cards/competitors/maria-marinara/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -21924,6 +21946,7 @@
   tags: []
 - name: Kaily Sweet Pea Perre
   db_uuid: a000e409a8cf4a9fa77d73bb9787ef3f
+  srgpc_url: https://www.srgpc.net/cards/competitors/kaily-sweet-pea-perre/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -21960,6 +21983,7 @@
   tags: []
 - name: Velvet Assassin (V1)
   db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
+  srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 9
@@ -22162,6 +22186,7 @@
   tags: []
 - name: The Base God Gringo Loco
   db_uuid: ab2ce049ab6b49ce96d50089b770b14c
+  srgpc_url: https://www.srgpc.net/competitors/the-base-god-gringo-loco/
   card_type: SingleCompetitorCard
   division: Global
   power: 7
@@ -22174,6 +22199,7 @@
   tags: []
 - name: Bath Time Booker
   db_uuid: 75537925f3e5419eabfa2191870a6c7a
+  srgpc_url: https://www.srgpc.net/competitors/bath-time-booker/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -22187,6 +22213,7 @@
   tags: []
 - name: The Beast Michael Kerr (V2)
   db_uuid: d3459a63366446c2bcae03c9ba3132ac
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-beast-michael-kerr/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22200,6 +22227,7 @@
   tags: []
 - name: Beatstick Brandon
   db_uuid: 98eb1b96fced4564a2792083660d3709
+  srgpc_url: https://www.srgpc.net/cards/competitors/beatstick-brandon/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22213,6 +22241,7 @@
   tags: []
 - name: Belinda
   db_uuid: e38223a08984404b83bd34e9a7f17025
+  srgpc_url: https://www.srgpc.net/cards/competitors/belinda/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -22226,6 +22255,7 @@
   tags: []
 - name: Beverly Hills Booker
   db_uuid: 85616c84da2a41b7b65448a08eb7a4ed
+  srgpc_url: https://www.srgpc.net/competitors/beverly-hills-booker/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -22239,6 +22269,7 @@
   tags: []
 - name: Big Daddy Boughter (V1)
   db_uuid: c532848bb45141a5814f044a590a80f8
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-daddy-boughter/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22265,6 +22296,7 @@
   tags: []
 - name: Big Game Leroy
   db_uuid: b9d9ab11e1104c798637faebafd14825
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-game-leroy/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -22525,6 +22557,7 @@
   tags: []
 - name: Charlie Tiger (V1)
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
+  srgpc_url: https://www.srgpc.net/competitors/charlie-tiger-v2/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -22550,6 +22583,7 @@
   tags: []
 - name: Chronus
   db_uuid: 7a02f61a23a6463da190bdd8624d93fa
+  srgpc_url: https://www.srgpc.net/cards/competitors/chronus/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -22578,6 +22612,7 @@
   tags: []
 - name: Dangerous Dillon Bias
   db_uuid: fad605db94d44d3bb3fb2fc88e96a53d
+  srgpc_url: https://www.srgpc.net/cards/competitors/dangerous-dillon-bias/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22844,6 +22879,7 @@
 - name: El Hombre Cybernetico
   db_uuid: 38da06ea138f471dacc7ef74cc8c88f1
   srg_url: https://supershowthegame.com/product/el-hombre-cybernetico/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-hombre-cybernetico/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -22912,6 +22948,7 @@
   tags: []
 - name: El Pollo Enmascarada (V1)
   db_uuid: 05e30bc628624cbf97a563e9e41f3319
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-pollo-enmascarada/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -22938,6 +22975,7 @@
   tags: []
 - name: The Face
   db_uuid: 12a6be5c333544c7851c3f419b9d1bbd
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-face/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -22956,6 +22994,7 @@
 - name: General Lee Wong (V1)
   db_uuid: 1f64e258e37241f49e0661e85a1f56c7
   srg_url: https://supershowthegame.com/product/general-lee-wong/
+  srgpc_url: https://www.srgpc.net/competitor/general-lee-wong-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -22986,6 +23025,7 @@
   tags: []
 - name: Ginn the Heavy
   db_uuid: 7410d8ae52d44e32aa6dc474105ed663
+  srgpc_url: https://www.srgpc.net/cards/competitors/ginn-the-heavy/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Ambiguous
@@ -22999,6 +23039,7 @@
   tags: []
 - name: GoGo
   db_uuid: e610a36ba3564bef9254adb86d298d99
+  srgpc_url: https://www.srgpc.net/cards/competitors/gogo/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -23012,6 +23053,7 @@
   tags: []
 - name: Grim Librarian (V1)
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -23051,6 +23093,7 @@
   tags: []
 - name: Gropar the Great and Powerful
   db_uuid: 92712ad7966a404ebfb48b4482912594
+  srgpc_url: https://www.srgpc.net/cards/competitors/gropar-the-great-and-powerful/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -23064,6 +23107,7 @@
   tags: []
 - name: The Grump
   db_uuid: ed9f1e55e6094478bf87e93f209347a4
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-grump/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -23077,6 +23121,7 @@
   tags: []
 - name: Hamish MacDeath (V1)
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
+  srgpc_url: https://www.srgpc.net/cards/competitors/hamish-macdeath/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -23144,6 +23189,7 @@
   tags: []
 - name: Terror Skull (V1)
   db_uuid: 2bf53422f8854fad970f8184079c9cc8
+  srgpc_url: https://www.srgpc.net/cards/competitors/terror-skull/
   card_type: SingleCompetitorCard
   division: United States
   power: 10
@@ -23171,6 +23217,7 @@
 - name: Leader of the Postal Nation
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
+  srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-postal-nation/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -23270,6 +23317,7 @@
   tags: []
 - name: Shaggy Shark
   db_uuid: 3fbecda1ffc64b9fa731e5b06f260e33
+  srgpc_url: https://www.srgpc.net/cards/competitors/shaggy-shark/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 6
@@ -23282,6 +23330,7 @@
   tags: []
 - name: Doctor Dick Thunderlips
   db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
+  srgpc_url: https://www.srgpc.net/cards/competitors/dastardly-dick-thunderlips/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 7
@@ -23297,6 +23346,7 @@
 - name: Candice LeRae
   db_uuid: 748132a3c93642228eb708ad10f1f1ac
   srg_url: https://supershowthegame.com/product/candice-lerae/
+  srgpc_url: https://www.srgpc.net/cards/competitors/candice-lerae/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -23358,6 +23408,7 @@
     - 748132a3c93642228eb708ad10f1f1ac
 - name: El Scorpio
   db_uuid: 8b00ea8e2268466d98265ebb62cc0c64
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-scorpio/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -23371,6 +23422,7 @@
   tags: []
 - name: Fox Assassin (V1)
   db_uuid: f54e8cac51c34f5b88b0b5fee2c87ce7
+  srgpc_url: https://www.srgpc.net/cards/competitors/fox-assassin/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -23408,6 +23460,7 @@
   tags: []
 - name: Kenpo Kenny
   db_uuid: e528c01c4ef1460ca9ab29abf8c95795
+  srgpc_url: https://www.srgpc.net/cards/competitors/kenpo-kenney/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 5
@@ -23420,6 +23473,7 @@
   tags: []
 - name: Huracán Gonzalez
   db_uuid: 725f7ba41a2549e99dcb1270b463180c
+  srgpc_url: https://www.srgpc.net/cards/competitors/huracan-gonzalez/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 5
@@ -23432,6 +23486,7 @@
   tags: []
 - name: Jesxe
   db_uuid: 20059df60d9f40ccae5f9c892aa17c4a
+  srgpc_url: https://www.srgpc.net/cards/competitors/jesxe/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -23469,6 +23524,7 @@
   tags: []
 - name: Lady Baa Baa (V1)
   db_uuid: 9f7dc2e4f7ac49e882a24a302edf11cf
+  srgpc_url: https://www.srgpc.net/cards/competitors/lady-baa-baa/
   card_type: SingleCompetitorCard
   division: United States
   power: 8
@@ -23493,6 +23549,7 @@
   tags: []
 - name: Pauly 'The Pidgeon' Piccone
   db_uuid: b67cbc591a314259b7d96010d8c2fe26
+  srgpc_url: https://www.srgpc.net/cards/competitors/pauly-the-pigeon-piccone/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -23578,6 +23635,7 @@
   tags: []
 - name: Patient Zero Shawn Grubaugh
   db_uuid: 9c2616f1fc8c48aaa65cc468f99ff45d
+  srgpc_url: https://www.srgpc.net/cards/competitors/patient-zero-shawn-grubaugh/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 9
@@ -23590,6 +23648,7 @@
   tags: []
 - name: The Next Supreme
   db_uuid: f45bbd93c4b14c91bb85df10e4a82c31
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-next-supreme/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 8
@@ -23602,6 +23661,7 @@
   tags: []
 - name: Italian Bombada
   db_uuid: a7aba02de8f84413b3ff42bc12d2f320
+  srgpc_url: https://www.srgpc.net/cards/competitors/italian-bombada/
   card_type: SingleCompetitorCard
   division: Underworld
   power: 7
@@ -23614,6 +23674,7 @@
   tags: []
 - name: The Gold Standard (V1)
   db_uuid: bc4f9ccb992748adaedee6795da1720d
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-gold-standard/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -23642,6 +23703,7 @@
   tags: []
 - name: Varius
   db_uuid: 5097d05f3632489d910adf649a49738c
+  srgpc_url: https://www.srgpc.net/cards/competitors/varius/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 10
@@ -23654,6 +23716,7 @@
   tags: []
 - name: The Salty Sailor
   db_uuid: afec53cb2d714571bc02e2b8fb06ffd8
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-salty-sailor/
   card_type: SingleCompetitorCard
   division: Underworld
   power: 9
@@ -23666,6 +23729,7 @@
   tags: []
 - name: Mad Custodian
   db_uuid: a72fb5b1c70b439c97b87350954fd003
+  srgpc_url: https://www.srgpc.net/cards/competitors/mad-custodian/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -23678,6 +23742,7 @@
   tags: []
 - name: The High Roller (V1)
   db_uuid: 3eb9d2113255470eba5bf14fc16036cb
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
   card_type: SingleCompetitorCard
   division: Old School
   power: 7
@@ -23714,6 +23779,7 @@
   tags: []
 - name: Leader of the Armenian Army
   db_uuid: 5a74b42a67f04dc49ab389fa85990732
+  srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-armenian-army/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -23727,6 +23793,7 @@
   tags: []
 - name: Kaiser Wolf
   db_uuid: d06978f5f81f477bb9dd27d0287c0008
+  srgpc_url: https://www.srgpc.net/cards/competitors/kaiser-wolf/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -23792,6 +23859,7 @@
   tags: []
 - name: Man From Tomorrow
   db_uuid: 4fc0e0b35e794efbb3c6ee6cba33821b
+  srgpc_url: https://www.srgpc.net/cards/competitors/man-from-tomorrow/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 6
@@ -23804,6 +23872,7 @@
   tags: []
 - name: Whippo Whip
   db_uuid: 166ea57a5a424cf7a39a182734f15632
+  srgpc_url: https://www.srgpc.net/cards/competitors/whippo-whip/
   card_type: SingleCompetitorCard
   division: United States
   power: 6
@@ -23816,6 +23885,7 @@
   tags: []
 - name: Rainbow Girl (V2)
   db_uuid: 9abc29f439ee4b68a288d6c24555ceb0
+  srgpc_url: https://www.srgpc.net/competitor/rainbow-girl-v2/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Female
@@ -23926,6 +23996,7 @@
   tags: []
 - name: Venus
   db_uuid: 77fe6f7ba5eb4399bcbbe80d9d889767
+  srgpc_url: https://www.srgpc.net/cards/competitors/venus/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 6
@@ -23950,6 +24021,7 @@
   tags: []
 - name: Harrietta the Bearded Diva
   db_uuid: a29880e47a3640f28bc85a86bed15519
+  srgpc_url: https://www.srgpc.net/cards/competitors/harrietta-the-bearded-diva/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 6
@@ -23962,6 +24034,7 @@
   tags: []
 - name: Katy Kitty (V1)
   db_uuid: 0fc731c613e04c7481649b43cf72d7ae
+  srgpc_url: https://www.srgpc.net/cards/competitors/katy-kitty-new/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -23974,6 +24047,7 @@
   tags: []
 - name: Damien
   db_uuid: 03bfb9ac23074c849c4060a007636218
+  srgpc_url: https://www.srgpc.net/cards/competitors/damien/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 9
@@ -23998,6 +24072,7 @@
   tags: []
 - name: Real American Hero
   db_uuid: 368ad45ddb934241ae50758867e8c8f3
+  srgpc_url: https://www.srgpc.net/cards/competitors/real-american-hero/
   card_type: SingleCompetitorCard
   division: United States
   power: 9
@@ -24563,6 +24638,7 @@
     - Newman
 - name: Haultain The Paladin
   db_uuid: 61234f2548d14c9dafb688a8e2bdd4a8
+  srgpc_url: https://www.srgpc.net/cards/competitors/haultain-the-paladin/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24576,6 +24652,7 @@
   tags: []
 - name: Hobbzilla
   db_uuid: 31b4dedbc96a438a946d76a2368b6f2d
+  srgpc_url: https://www.srgpc.net/cards/competitors/hobbzilla/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -24736,6 +24813,7 @@
     - 83aa8315ce3f4a70b5a28fdd5a357c30
 - name: The Iron Sultan
   db_uuid: 82bf4e462d294a03a1220d12ce0eb848
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-iron-sultan/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -24749,6 +24827,7 @@
   tags: []
 - name: J Train (V2)
   db_uuid: 028f508517bf4270a4b8aaab4834796d
+  srgpc_url: https://www.srgpc.net/cards/competitors/j-train-new/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -24763,6 +24842,7 @@
 - name: Jerk of Cirque (V1)
   db_uuid: 031f54737d3b44a791e52796563e64fb
   srg_url: https://supershowthegame.com/product/jerk-of-cirque/
+  srgpc_url: https://www.srgpc.net/cards/competitors/jerk-of-cirque/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -24788,6 +24868,7 @@
   tags: []
 - name: Jessica Havok
   db_uuid: 2eef1e4ccbf4488b9c3967144b1bac84
+  srgpc_url: https://www.srgpc.net/cards/competitors/jessica-havok/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -24801,6 +24882,7 @@
   tags: []
 - name: Jinni
   db_uuid: 1c18904ccacf43ab856c9c603373f7d2
+  srgpc_url: https://www.srgpc.net/cards/competitors/jinni/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24919,6 +25001,7 @@
   tags: []
 - name: Le Guillotine
   db_uuid: 13913c745b87446ba38dc4ae17349f25
+  srgpc_url: https://www.srgpc.net/cards/competitors/le-guillotine/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -24945,6 +25028,7 @@
   tags: []
 - name: El Blanco Diablo (V1)
   db_uuid: fbc6b406877442389762487515cd1b5d
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-blanco-diablo/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -25036,6 +25120,7 @@
   tags: []
 - name: Chainsaw Jimmy
   db_uuid: 4212b765cda246c2a70bb6b346588e5b
+  srgpc_url: https://www.srgpc.net/cards/competitors/chainsaw-jimmy/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -25104,6 +25189,7 @@
   tags: []
 - name: The Heartbreaker
   db_uuid: 9d772bb04b9d462ba46019b2a6922d8d
+  srgpc_url: https://www.srgpc.net/competitors/the-heartbreaker/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -25118,6 +25204,7 @@
 - name: EDM
   db_uuid: a9b14669549e4cae8ac0f5ceb1b63aef
   srg_url: https://supershowthegame.com/product/edm/
+  srgpc_url: https://www.srgpc.net/cards/competitors/edm/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 6
@@ -25263,6 +25350,7 @@
 - name: Rambo Apocalypse
   db_uuid: 80b626dbcde047a595f325056eaa6907
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/
+  srgpc_url: https://www.srgpc.net/competitor/rambo-apocalypse/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -25324,6 +25412,7 @@
   tags: []
 - name: Big Match Pete
   db_uuid: 9df6a6d4fdfa4b0f95cb8c64737fa4aa
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-match-pete/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -25466,6 +25555,7 @@
     - b3d0a1dcf7eb4879b98056d2fc7b0ae9
 - name: Black Scorpion X
   db_uuid: 079d19f7ea604b82a6af4a9ae7f9f453
+  srgpc_url: https://www.srgpc.net/cards/competitors/black-scorpion-x/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -25479,6 +25569,7 @@
   tags: []
 - name: Blossom Tyne
   db_uuid: f2ec0c80a48041b4b40ca7208d7c8a5c
+  srgpc_url: https://www.srgpc.net/competitors/blossum-tyne/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -25492,6 +25583,7 @@
   tags: []
 - name: Blue Line Beast
   db_uuid: 9932fcbfe7ac4e61b445a809154529ba
+  srgpc_url: https://www.srgpc.net/cards/competitors/blue-line-beast/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -25770,6 +25862,7 @@
   tags: []
 - name: Cabana Man Dan
   db_uuid: 6812bd4569e741bf811f9e6eaca8f7a2
+  srgpc_url: https://www.srgpc.net/cards/competitors/cabana-man-dan/
   card_type: SingleCompetitorCard
   gender: Male
   power: 5
@@ -25782,6 +25875,7 @@
   tags: []
 - name: Caleb Konley
   db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63
+  srgpc_url: https://www.srgpc.net/cards/competitors/caleb-konley/
   card_type: SingleCompetitorCard
   gender: Male
   power: 6
@@ -25844,6 +25938,7 @@
 - name: Jean Dre The Gigantic Grenoble
   db_uuid: d0813d6556f143158538ab7ed48e978e
   srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/
+  srgpc_url: https://www.srgpc.net/competitor/jean-dre-the-gigantic-grenoble/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -25900,6 +25995,7 @@
   tags: []
 - name: The Nacho Guy
   db_uuid: 18a4a1afc5494c2586b84c7120c45dd9
+  srgpc_url: https://www.srgpc.net/competitors/nacho-guy/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -26006,6 +26102,7 @@
   tags: []
 - name: Noah the Boa
   db_uuid: b34f7beab430461182c377100b12c213
+  srgpc_url: https://www.srgpc.net/competitors/noah-the-boa/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -26056,6 +26153,7 @@
 - name: Candyman Dan
   db_uuid: f8dad17fa6a940b89d0466691d98b7fc
   srg_url: https://supershowthegame.com/product/candyman-dan/
+  srgpc_url: https://www.srgpc.net/cards/competitors/candyman-dan/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -26114,6 +26212,7 @@
 - name: The Cannoli
   db_uuid: 95cf443904d84b21bd323b1bf97fd926
   srg_url: https://supershowthegame.com/product/cannoli/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-cannoli/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -26192,6 +26291,7 @@
     - 95cf443904d84b21bd323b1bf97fd926
 - name: Captain Connie
   db_uuid: 9cf747fb137c4f36a025d5194af5705c
+  srgpc_url: https://www.srgpc.net/cards/competitors/captain-connie/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -26205,6 +26305,7 @@
   tags: []
 - name: Captain El Shoes
   db_uuid: 1d055bd6b3664fa987d0f23da3cf3fd1
+  srgpc_url: https://www.srgpc.net/competitors/captain-el-shoes/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26287,6 +26388,7 @@
   tags: []
 - name: Theo the Greek (V1)
   db_uuid: 831eb73c2ab9435794db4413c7e2521b
+  srgpc_url: https://www.srgpc.net/cards/competitors/theo-the-greek-neo/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -26300,6 +26402,7 @@
   tags: []
 - name: Theo the Greek (V2)
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
+  srgpc_url: https://www.srgpc.net/competitors/theo-the-greek-neo-v2/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -26313,6 +26416,7 @@
   tags: []
 - name: Captain Rustbelt
   db_uuid: d7de64cba4dd40589bfe221b0a7d65e4
+  srgpc_url: https://www.srgpc.net/cards/competitors/captain-rustbelt/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -26326,6 +26430,7 @@
   tags: []
 - name: Caveman (V1)
   db_uuid: f2d49aea3af44e0c90c7947680a6e89b
+  srgpc_url: https://www.srgpc.net/competitors/caveman-v2/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26354,6 +26459,7 @@
   tags: []
 - name: Chair Extraordinaire Shawn Spears
   db_uuid: 1cea3fa2e2ae4fe7bd34ab3fe624d296
+  srgpc_url: https://www.srgpc.net/cards/competitors/chair-extraordinaire-shawn-spears/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26367,6 +26473,7 @@
   tags: []
 - name: Chamomile T
   db_uuid: 309e9641dda648c09f80a98fa92efc16
+  srgpc_url: https://www.srgpc.net/cards/competitors/chamomile-t/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -26380,6 +26487,7 @@
   tags: []
 - name: Cheetah
   db_uuid: 8e7340565e01403d99eb2026d2d49765
+  srgpc_url: https://www.srgpc.net/cards/competitors/cheetah/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -26438,6 +26546,7 @@
 - name: Cherie Von Danish
   db_uuid: ee000b1dc146472c8ad39a71ad5616ae
   srg_url: https://supershowthegame.com/product/cherry-von-danish/
+  srgpc_url: https://www.srgpc.net/cards/competitors/cherie-von-danish/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Female
@@ -26491,6 +26600,7 @@
   tags: []
 - name: Cherry Glamazon
   db_uuid: c94f753c62f5406cae60f664dfc182e6
+  srgpc_url: https://www.srgpc.net/cards/competitors/cherry-glamazon/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -26504,6 +26614,7 @@
   tags: []
 - name: Cheshire
   db_uuid: 7b92ca8e078b45ecb8efdea750aa6a9d
+  srgpc_url: https://www.srgpc.net/cards/competitors/cheshire/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -26517,6 +26628,7 @@
   tags: []
 - name: Chester the Jester
   db_uuid: 9ef0e6cb61584512900eb71b7aa274a1
+  srgpc_url: https://www.srgpc.net/cards/competitors/chester-the-jester/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -26530,10 +26642,12 @@
   tags: []
 - name: Chip Day
   db_uuid: 75d2cf5b748242309bab0d36c57360f9
+  srgpc_url: https://www.srgpc.net/cards/competitors/chip-day/
   card_type: SingleCompetitorCard
   tags: []
 - name: Chugganomics (V1)
   db_uuid: d9498c9ce72b440cbb5158e4b492114d
+  srgpc_url: https://www.srgpc.net/cards/competitors/chugganomics/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -26753,31 +26867,37 @@
   tags: []
 - name: Daisy Rider
   db_uuid: 8be0afa58eb049048feb204eac5b48d2
+  srgpc_url: https://www.srgpc.net/cards/competitors/daisy-rider/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: The Dangerous Flower
   db_uuid: 34c5ce20f09847719ef1e45862a5efdb
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-dangerous-flower/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Danhausen
   db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
+  srgpc_url: https://www.srgpc.net/cards/competitors/danhausen/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Danny Briggs
   db_uuid: 8bc44c4b3faf4c49b45234f68dfeae29
+  srgpc_url: https://www.srgpc.net/cards/competitors/danny-briggs/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Danny Limelight
   db_uuid: ade41d5ac0b6435f978ed5505e67ec18
+  srgpc_url: https://www.srgpc.net/cards/competitors/danny-limelight/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Darius Carter
   db_uuid: e072664507f64381bf3c7bf0971a5039
+  srgpc_url: https://www.srgpc.net/cards/competitors/darius-carter/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
@@ -26811,10 +26931,12 @@
   tags: []
 - name: Davey Richards
   db_uuid: e9e692f8a8c248d6aceb81e6232b53db
+  srgpc_url: https://www.srgpc.net/cards/competitors/davey-richards/
   card_type: SingleCompetitorCard
   tags: []
 - name: David Starr (V1)
   db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
+  srgpc_url: https://www.srgpc.net/cards/competitors/david-starr/
   card_type: SingleCompetitorCard
   tags: []
 - name: David Starr (V2)
@@ -26824,6 +26946,7 @@
 - name: Dayna Might
   db_uuid: 01fa3c112412460b9999cb45f076fe73
   srg_url: https://supershowthegame.com/product/dayna-might/
+  srgpc_url: https://www.srgpc.net/cards/competitors/dayna-might/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -26874,6 +26997,7 @@
 - name: Chris Bey
   db_uuid: 74487f754b23449a8c30288b39a1782f
   srg_url: https://supershowthegame.com/product/chris-bey/
+  srgpc_url: https://www.srgpc.net/competitor-chris-bey/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -26922,11 +27046,13 @@
   tags: []
 - name: Deerfield Bullgizer
   db_uuid: 221d8474bf084404ac43c826c2491184
+  srgpc_url: https://www.srgpc.net/competitors/deerfield-bullgizer/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Deputy Dango
   db_uuid: 38a5391801c4447da6ea182bd53eb6f0
+  srgpc_url: https://www.srgpc.net/cards/competitors/deputy-dango/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26980,6 +27106,7 @@
   tags: []
 - name: Deranged Monarch
   db_uuid: 308de2fea17c4d1a8581fdd591951fef
+  srgpc_url: https://www.srgpc.net/cards/competitors/deranged-monarch/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -26995,17 +27122,20 @@
   tags: []
 - name: Derek Neal
   db_uuid: 77fdc45f8ebe46c9a0304eb24e8a9498
+  srgpc_url: https://www.srgpc.net/cards/competitors/derek-neal/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Des the Destroyer
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
+  srgpc_url: https://www.srgpc.net/competitors/des-the-destroyer/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: The Devil's Advocate (V1)
   db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
+  srgpc_url: https://www.srgpc.net/competitors/the-devils-advocate-2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -27246,6 +27376,7 @@
   tags: []
 - name: Effy
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
+  srgpc_url: https://www.srgpc.net/cards/competitors/effy/
   card_type: SingleCompetitorCard
   tags: []
 - name: El Gato Sombrio (V1)
@@ -27278,21 +27409,25 @@
   tags: []
 - name: E.L.F.
   db_uuid: 4546e97dd60b4490a4d69f62c2bdaea5
+  srgpc_url: https://www.srgpc.net/competitors/e-l-f
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: El Llama Enmascarada Senior
   db_uuid: 65dcddf9188847138f8777529436efb9
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-llama-enmascarada-senior/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: El Phantasmo
   db_uuid: c8788ae573734217b3a4ee2563d998b7
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: El Super Santa
   db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
+  srgpc_url: https://www.srgpc.net/competitors/el-super-santa/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -27311,12 +27446,14 @@
     - 015aecb201074dbb929a9c9cd8b0ea46
 - name: Ellis Taylor
   db_uuid: 2e85f004baa34c31bf8da5098a24f796
+  srgpc_url: https://www.srgpc.net/cards/competitors/ellis-taylor/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Ember Wolf (V1)
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
   srg_url: https://supershowthegame.com/product/ember-wolf/
+  srgpc_url: https://www.srgpc.net/competitors/ember-wolf-v2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -27385,21 +27522,25 @@
     - fc3e3574cfaf4e6eb225379bf90bbb11
 - name: Emo Mam
   db_uuid: 621336854c0d4f8d8d02ea15e46fa711
+  srgpc_url: https://www.srgpc.net/cards/competitors/emo-mam/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The End
   db_uuid: d12bb5eef1d7482fa310367b3bb07602
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-end/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Enforcer
   db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-enforcer/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Eric Jayden
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
+  srgpc_url: https://www.srgpc.net/cards/competitors/eric-jayden/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -27453,6 +27594,7 @@
   tags: []
 - name: Eva FireCat
   db_uuid: 961b4051a9df4a1b8cb802f66c4e6f67
+  srgpc_url: https://www.srgpc.net/cards/competitors/eva-firecat/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Female
@@ -27507,6 +27649,7 @@
   tags: []
 - name: Evee Laveaux
   db_uuid: cc42c7a9d4834a03836944558edd39cc
+  srgpc_url: https://www.srgpc.net/cards/competitors/evee-laveaux/
   card_type: SingleCompetitorCard
   gender: Female
   power: 9
@@ -27560,16 +27703,19 @@
   tags: []
 - name: Everybuddy
   db_uuid: 7a641f25d38c4438896303135d4e9d56
+  srgpc_url: https://www.srgpc.net/cards/competitors/everybuddy/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Everyone's Enemy
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
+  srgpc_url: https://www.srgpc.net/cards/competitors/everyones-enemy/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
+  srgpc_url: https://www.srgpc.net/competitor/evil-ed-the-cheese-head-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -27598,11 +27744,13 @@
   tags: []
 - name: Fast Hands Cam
   db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
+  srgpc_url: https://www.srgpc.net/cards/competitors/fast-hands-cam/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Father Light
   db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
+  srgpc_url: https://www.srgpc.net/cards/competitors/father-light/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -27616,6 +27764,7 @@
   tags: []
 - name: Fauxtista (V1)
   db_uuid: 1c3f399dee664720851eb4481be8ebdb
+  srgpc_url: https://www.srgpc.net/competitors/fauxtista-v2/
   card_type: SingleCompetitorCard
   gender: Male
   power: 8
@@ -27687,11 +27836,13 @@
   dvision: Hardcore
 - name: Finland
   db_uuid: ff124a60d2f94fe4ab9fd04b21ddda50
+  srgpc_url: https://www.srgpc.net/cards/competitors/finland/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Fire Flash
   db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
+  srgpc_url: https://www.srgpc.net/cards/competitors/fire-flash/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -27702,11 +27853,13 @@
   tags: []
 - name: The Firestarter Jake Crist
   db_uuid: 12518693612b42238adbe4e7f1562d3c
+  srgpc_url: https://www.srgpc.net/competitors/the-firestarter-jake-crist/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Flame Fighter
   db_uuid: ae2b1fde64e343da8848984231aa5c83
+  srgpc_url: https://www.srgpc.net/competitors/flame-fighter/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -27760,21 +27913,25 @@
   tags: []
 - name: Flip Gordon
   db_uuid: 23cd4515a4a14ddc9af09390a3a0865c
+  srgpc_url: https://www.srgpc.net/cards/competitors/flip-gordon/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Flora Mother of Llamas
   db_uuid: 3999aa59d7a6467ea1187669d086576b
+  srgpc_url: https://www.srgpc.net/cards/competitors/flora-mother-of-llamas/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Flyboy
   db_uuid: 7a27b8f53e2b41a093fb2e619ab364a9
+  srgpc_url: https://www.srgpc.net/cards/competitors/fly-boy/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Fortress
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
+  srgpc_url: https://www.srgpc.net/cards/competitors/fortress/
   card_type: SingleCompetitorCard
   division: Intergalatic
   tags: []
@@ -27794,6 +27951,7 @@
 - name: Foxworthy (V1)
   db_uuid: 518058d6535f46c692afbbfcbb8cc115
   srg_url: https://supershowthegame.com/product/foxworthy/
+  srgpc_url: https://www.srgpc.net/competitor/foxworthy-v2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -27824,16 +27982,19 @@
   tags: []
 - name: Franklin "Turtle" Clark
   db_uuid: d89414c9e0e943d2844fcdeec92be5e5
+  srgpc_url: https://www.srgpc.net/competitors/franklin-turtle-clark/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Frequent Flyer
   db_uuid: 8f4d6cf02cf04c15bcb6908883bc5fd0
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-frequent-flyer/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Fuhgeddaboutit!
   db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
+  srgpc_url: https://www.srgpc.net/competitors/fuhgeddaboutit/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -27848,6 +28009,7 @@
 - name: Funtime Bob (V1)
   db_uuid: b7b746a51bf5436da9c4ba172c7ff504
   srg_url: https://supershowthegame.com/product/funtime-bob/
+  srgpc_url: https://www.srgpc.net/competitors/funtime-bob-v2/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -27974,11 +28136,13 @@
   tags: []
 - name: Gabby Ortiz
   db_uuid: 0f15d434bd974b2a906aa62268028efb
+  srgpc_url: https://www.srgpc.net/cards/competitors/gabby-ortiz/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: GDD (V1)
   db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
+  srgpc_url: https://www.srgpc.net/cards/competitors/gdd/
   card_type: SingleCompetitorCard
   gender: Male
   power: 8
@@ -27991,6 +28155,7 @@
   tags: []
 - name: GDD (V2)
   db_uuid: ff1eff85cd864a54a5d66711c475655b
+  srgpc_url: https://www.srgpc.net/competitor-gdd-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -28004,6 +28169,7 @@
   tags: []
 - name: General Manager John Calace (V1)
   db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
+  srgpc_url: https://www.srgpc.net/cards/competitors/general-manager-john-calace/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -28032,11 +28198,13 @@
   tags: []
 - name: GGP
   db_uuid: 6ac028b8730a4e77a303e04ddd9efc8a
+  srgpc_url: https://www.srgpc.net/cards/competitors/ggp/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Gia de los Muertos (V1)
   db_uuid: a4b61c579c2d4ca59b5001ea5503fdef
+  srgpc_url: https://www.srgpc.net/cards/competitors/gia-de-los-muertos/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Female
@@ -28088,6 +28256,7 @@
   tags: []
 - name: Gideon Guts (V1)
   db_uuid: b0d290415e4e4ab685ecf41d06d6f167
+  srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
@@ -28098,21 +28267,25 @@
   tags: []
 - name: Grande Gallo
   db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
+  srgpc_url: https://www.srgpc.net/cards/competitors/grande-gallo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Great Oniman
   db_uuid: 2a085c1413b3407fb33e8737e43b732e
+  srgpc_url: https://www.srgpc.net/cards/competitors/great-oniman/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Great Outdoors
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-great-outdoors/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Grinch Pitt
   db_uuid: 18ec1811ed0f4626b8ff2009207e9e7c
+  srgpc_url: https://www.srgpc.net/competitors/grinch-pitt/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -28130,10 +28303,12 @@
     - 0f2a78e5a39e42c19da24a3ec34a096d
 - name: Hailey Stevens
   db_uuid: 139bab0bee214ab18d8150337869667e
+  srgpc_url: https://www.srgpc.net/cards/competitors/hailey-stevens/
   card_type: SingleCompetitorCard
   tags: []
 - name: Hallow King (V1)
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
+  srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -28160,16 +28335,19 @@
   tags: []
 - name: The Harlequin Queen
   db_uuid: 5319a7d9980845fb8a17e35df92f1068
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-harlequin-queen/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Harvey Luster
   db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
+  srgpc_url: https://www.srgpc.net/competitors/harvey-luster/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Heartache Kid Mr. L.F.F.
   db_uuid: 8d1c80c7bbf34977ae298f810ac15af8
+  srgpc_url: https://www.srgpc.net/competitors/heartache-kid-mr-l-f-f/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -28221,31 +28399,37 @@
   tags: []
 - name: Helen
   db_uuid: cf0fe079e09c452da001e572c73cf568
+  srgpc_url: https://www.srgpc.net/cards/competitors/helen/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: High Water
   db_uuid: c12b5c9b4a194269876839cba3a256cf
+  srgpc_url: https://www.srgpc.net/cards/competitors/high-water/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Hiroshi Tanahashi
   db_uuid: 818d5a2501ce481ca42886e95e7d0943
+  srgpc_url: https://www.srgpc.net/cards/competitors/hiroshi-tanahashi/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: History Making Matt Pineapple
   db_uuid: 70ec50606f764d35bbbbaf40618177da
+  srgpc_url: https://www.srgpc.net/competitors/history-making-matt-pineapple/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Hold the Line Harry
   db_uuid: ad19decd21624f22b678048ab0b463db
+  srgpc_url: https://www.srgpc.net/cards/competitors/hold-the-line-harry/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Homicide
   db_uuid: 8cb3b634e7d94e4eb9d14084aaee6047
+  srgpc_url: https://www.srgpc.net/cards/competitors/homicide/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
@@ -28279,12 +28463,14 @@
   tags: []
 - name: The Huntress Angel Lynn
   db_uuid: 947eaf142185488ca4a44d377af47b72
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-huntress-angel-lynn/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: The Hypnotist Hanz Mesmer
   db_uuid: 8d99533f1c7d4a1a9ac20cd0854eb757
   srg_url: https://supershowthegame.com/product/the-hypnotist-hanz-mesmer/
+  srgpc_url: https://www.srgpc.net/cards/competitors/hypnotist-hanz-mesmer/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -28340,6 +28526,7 @@
   tags: []
 - name: The Immortal Warrior
   db_uuid: 89174df957434c11b42ee945d9626972
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-immortal-warrior/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -28361,6 +28548,7 @@
 - name: Ivelisse "La Sicaria"
   db_uuid: c30f8ab941e046cdb7dea5772f96019b
   srg_url: https://supershowthegame.com/product/ivelisse-la-sicaria/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ivelisse-la-sicaria/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -28414,31 +28602,37 @@
   tags: []
 - name: J Train (V1)
   db_uuid: d47d439957d54e528b89ef8d584e4371
+  srgpc_url: https://www.srgpc.net/cards/competitors/j-train/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Jacob Fatu
   db_uuid: c8f9abd1a3cf4e089549384fd52d0bce
+  srgpc_url: https://www.srgpc.net/cards/competitors/jacob-fatu/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Jacque EE
   db_uuid: 7333bd77424b441891340c35244b2b11
+  srgpc_url: https://www.srgpc.net/cards/competitors/jacque-ee/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Jamie Senegal
   db_uuid: d7d82141547a44308408d2470732bb64
+  srgpc_url: https://www.srgpc.net/cards/competitors/jamie-senegal/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Jay Lyon
   db_uuid: 10a05e4e55ff46d5acd1f60c60b297dd
+  srgpc_url: https://www.srgpc.net/competitors/jay-lyon/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Jay White
   db_uuid: 68d8df0c31a04446bb8734cbe82be583
+  srgpc_url: https://www.srgpc.net/cards/competitors/jay-white/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -28491,26 +28685,31 @@
 - name: Jean Constance
   db_uuid: e7f4079b9154426e94cbc0bf90a6aa18
   srg_url: https://supershowthegame.com/product/jean-constance/
+  srgpc_url: https://www.srgpc.net/cards/competitors/jean-constance/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Jebediah The Amish Assassin
   db_uuid: bcfd31f67b454a1e9d41d981fb265e5d
+  srgpc_url: https://www.srgpc.net/cards/competitors/jebediah-the-amish-assassin/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Jessica Siren
   db_uuid: 1aeb79fc58f445b8ab7fe8bc2aebfcec
+  srgpc_url: https://www.srgpc.net/cards/competitors/jessica-siren/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: J-Flash
   db_uuid: c838aa6d65bd440689ed07eed9e1b94b
+  srgpc_url: https://www.srgpc.net/cards/competitors/j-flash/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Jigsaw
   db_uuid: 44a277528d754a41bbb5f404cd32f2bd
+  srgpc_url: https://www.srgpc.net/cards/competitors/jigsaw/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -28736,16 +28935,19 @@
   tags: []
 - name: K7 Sniper
   db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
+  srgpc_url: https://www.srgpc.net/cards/competitors/k7-sniper/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Kaleb With a K
   db_uuid: 58f826bfd837442ba47de9fdacf90df5
+  srgpc_url: https://www.srgpc.net/cards/competitors/kaleb-with-a-k/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Kameha Kahn
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
+  srgpc_url: https://www.srgpc.net/cards/competitors/kameha-kahn/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -28764,21 +28966,25 @@
   tags: []
 - name: KayJay Impala
   db_uuid: 376f821b06c94e4688ebf91d872b7d6e
+  srgpc_url: https://www.srgpc.net/cards/competitors/kayjay-impala/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Kazuchika Okada
   db_uuid: ef3da0aa20f646bc8d33957331a170da
+  srgpc_url: https://www.srgpc.net/cards/competitors/kazuchika-okada/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Ken Broadway
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
+  srgpc_url: https://www.srgpc.net/cards/competitors/ken-broadway/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Kenny Omega
   db_uuid: a65f29782caf41678005bafaf83802cc
+  srgpc_url: https://www.srgpc.net/cards/competitors/kenny-omega/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -28792,26 +28998,31 @@
   tags: []
 - name: Kenta
   db_uuid: c5956ba466a341ad8e89c6a23ed5a839
+  srgpc_url: https://www.srgpc.net/cards/competitors/kenta/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: The Kenway
   db_uuid: cc1f76c2186a4f5eb3ba93baf87df3d3
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-kenway/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Kenzie Page
   db_uuid: 84b60d0aecfa4ddd80a546a12ad8317d
+  srgpc_url: https://www.srgpc.net/cards/competitors/kenzie-paige/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Khloe Mai
   db_uuid: 3c8273a9252a46feb337348e29c30ad3
+  srgpc_url: https://www.srgpc.net/cards/competitors/khloe-mai/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Kid Fresh
   db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
+  srgpc_url: https://www.srgpc.net/cards/competitors/kid-fresh/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -28975,6 +29186,7 @@
 - name: L.A. Park
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
   srg_url: https://supershowthegame.com/product/la-park/
+  srgpc_url: https://www.srgpc.net/cards/competitors/l-a-park/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -29014,6 +29226,7 @@
   tags: []
 - name: L.E.O. the Law
   db_uuid: d972645ab8854914be96f3bf114ac119
+  srgpc_url: https://www.srgpc.net/cards/competitors/l-e-o-the-law/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -29032,6 +29245,7 @@
   tags: []
 - name: Lauren Santiago
   db_uuid: 7c74c7826eeb4f44b91805c51d1c7ac4
+  srgpc_url: https://www.srgpc.net/cards/competitors/lauren-santiago/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Female
@@ -29045,6 +29259,7 @@
   tags: []
 - name: Lawman Nick
   db_uuid: 2a686043f4ae434ab26a14adaf168625
+  srgpc_url: https://www.srgpc.net/cards/competitors/lawman-nick/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -29152,6 +29367,7 @@
     - 9cbb880d1b93435f9db7624ad7eb90c9
 - name: Leader of the Black Sheep
   db_uuid: 52492d03968e461d8a3e1e860491db9a
+  srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-black-sheep/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -29203,15 +29419,18 @@
   tags: []
 - name: Leader of the Unit JT Dunn
   db_uuid: 0fe383c8e4fe4083bb11149f4564a081
+  srgpc_url: https://www.srgpc.net/competitors/leader-of-the-unit-jt-dunn/
   card_type: SingleCompetitorCard
   tags: []
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
+  srgpc_url: https://www.srgpc.net/cards/competitors/lemmy-adam/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Lexi the Punk Rock Pixie (V1)
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
+  srgpc_url: https://www.srgpc.net/cards/competitors/lexi-the-punk-rock-pixie/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female
@@ -29324,6 +29543,7 @@
   tags: []
 - name: Liger
   db_uuid: 109e75661c724f3793fd139706a5b8b5
+  srgpc_url: https://www.srgpc.net/cards/competitors/liger/
   card_type: SingleCompetitorCard
   division: World Championship
   power: 9
@@ -29368,6 +29588,7 @@
   tags: []
 - name: Lily Mai (V1)
   db_uuid: b0f985ab713b4bc29df222f797d3c13e
+  srgpc_url: https://www.srgpc.net/competitor/lily-mai-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female
@@ -29395,16 +29616,19 @@
   tags: []
 - name: Lio Rush
   db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f
+  srgpc_url: https://www.srgpc.net/cards/competitors/lio-rush/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Lissa Langnatt
   db_uuid: 088fca386b3e47fcb5b1087f3b7def31
+  srgpc_url: https://www.srgpc.net/cards/competitors/lissa-langnatt/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Little Guido
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
+  srgpc_url: https://www.srgpc.net/cards/competitors/little-guido/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -29452,6 +29676,7 @@
   tags: []
 - name: The Living Weapon Michael Deans
   db_uuid: 6bde88ab22814abbbac458954e8e2e38
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-living-weapon-michael-deans/
   card_type: SingleCompetitorCard
   tags: []
 - name: Lobo Suicida (V1)
@@ -29640,6 +29865,7 @@
   tags: []
 - name: Macho Manny
   db_uuid: a09bc1774f984c6287207df2a01a4eee
+  srgpc_url: https://www.srgpc.net/cards/competitors/macho-manny/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -29691,6 +29917,7 @@
   tags: []
 - name: Mack-a-Tack
   db_uuid: 202418b1360d433daf406ee61bfd8e2f
+  srgpc_url: https://www.srgpc.net/cards/competitors/mack-a-tack/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Female
@@ -29706,21 +29933,25 @@
   tags: []
 - name: The Mad One
   db_uuid: c1a5f166e8d5469c9b64db175c6287df
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-mad-one/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Madman Fulton
   db_uuid: 1d26487afa2949a1926a43da578ce8ab
+  srgpc_url: https://www.srgpc.net/cards/competitors/madman-fulton/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Maestro
   db_uuid: da079db2b3084e20af107b64d23149a0
+  srgpc_url: https://www.srgpc.net/cards/competitors/maestro/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Magnificient Mr. Rey
   db_uuid: dba1b354303a48338e6e3362cdd62083
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-magnificent-mr-rey/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -29768,16 +29999,19 @@
   tags: []
 - name: Main Event Brett
   db_uuid: b6c2698fbe9c461daeb2837c99cf9b8e
+  srgpc_url: https://www.srgpc.net/cards/competitors/main-event-brett/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Mallory the Destroyer
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
+  srgpc_url: https://www.srgpc.net/cards/competitors/mallory-the-destroyer/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: The Man from I.T.
   db_uuid: 49295df8c3bb48778a446b6eeba6982f
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-man-from-i-t/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -29791,12 +30025,14 @@
   tags: []
 - name: Mangia
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
+  srgpc_url: https://www.srgpc.net/competitors/mangia/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Marcus Samuel Selmore
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
   srg_url: https://supershowthegame.com/product/marcus-samuel-selmore/
+  srgpc_url: https://www.srgpc.net/competitors/marcus-samuel-selmore/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 10
@@ -29809,15 +30045,18 @@
   tags: []
 - name: Mark F'n Perre
   db_uuid: 1f53f0225dc8495aa98d9e344a618bd1
+  srgpc_url: https://www.srgpc.net/cards/competitors/mark-fn-perre/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: The Mark Geoff Bravo
   db_uuid: 9a231499dca740c1ac1674b80f8234fd
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-mark-geoff-bravo/
   card_type: SingleCompetitorCard
   tags: []
 - name: Mark the Shark (V1)
   db_uuid: f9ad1426f01248fa90316c0410fd524b
+  srgpc_url: https://www.srgpc.net/cards/competitors/mark-the-shark-v2/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -29828,21 +30067,25 @@
   tags: []
 - name: Mars
   db_uuid: c487866114d74ebd9ca474bf13f38fb3
+  srgpc_url: https://www.srgpc.net/cards/competitors/mars/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Marty Scurll
   db_uuid: dba1d61db20b496486642845a978d752
+  srgpc_url: https://www.srgpc.net/cards/competitors/marty-scurll/
   card_type: SingleCompetitorCard
   tags: []
 - name: Masked Beetle
   db_uuid: 652f4cdb84a5453b852723eaa0ddc994
+  srgpc_url: https://www.srgpc.net/cards/competitors/masked-beetle/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Masked Llama (V1)
   db_uuid: c7b112a959164f1ab5a4018303136e61
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-masked-llama/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -29908,16 +30151,19 @@
   tags: []
 - name: The Master Chef L.M.P.
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-master-chef-l-m-p/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Master Dosmodious
   db_uuid: 0a2b9d6fc8f74186a5088cad2858e64a
+  srgpc_url: https://www.srgpc.net/cards/competitors/master-dosmodious/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Mastermind
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
+  srgpc_url: https://www.srgpc.net/cards/competitors/mastermind/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -30297,41 +30543,49 @@
   tags: []
 - name: Nadja Mai
   db_uuid: c65b7a1aee3e4237a00987baa88b2a28
+  srgpc_url: https://www.srgpc.net/cards/competitors/nadja-mai/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Nanouk
   db_uuid: f21af76d53d64bc48ad430cb5ebae5bf
+  srgpc_url: https://www.srgpc.net/cards/competitors/nanouk/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Neptune
   db_uuid: c42a2ced9d3541b9a257556fe7233471
+  srgpc_url: https://www.srgpc.net/cards/competitors/neptune/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: New Face of Chaos
   db_uuid: 7d54ebad1e594e788f676f9d1634aa85
+  srgpc_url: https://www.srgpc.net/cards/competitors/new-face-of-chaos/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: New Jack
   db_uuid: 26929d68478c48fab8b5c6be88ad8e96
+  srgpc_url: https://www.srgpc.net/cards/competitors/new-jack/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Night Terror
   db_uuid: 3ff32d2089504028b07d301071f12f2f
+  srgpc_url: https://www.srgpc.net/cards/competitors/night-terror/
   card_type: SingleCompetitorCard
   tags: []
 - name: Nightmare King
   db_uuid: 18c894fdf2ff4833a9f557629568e1b6
+  srgpc_url: https://www.srgpc.net/cards/competitors/nightmare-king/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Ninja Hummingbird
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ninja-hummingbird/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -30400,6 +30654,7 @@
   tags: []
 - name: Numer01
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e
+  srgpc_url: https://www.srgpc.net/cards/competitors/numer01/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -30413,15 +30668,18 @@
   tags: []
 - name: NY Phenom
   db_uuid: 9623ba974511425ebabfd5a904786f80
+  srgpc_url: https://www.srgpc.net/cards/competitors/ny-phenom/
   card_type: SingleCompetitorCard
   tags: []
 - name: O'Shay Edwards
   db_uuid: 7463c878455c4e76987b260d57741135
+  srgpc_url: https://www.srgpc.net/cards/competitors/oshay-edwards/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Officer Breezus
   db_uuid: b8dfb42ba0ec49889c7c8b44b4132f4f
+  srgpc_url: https://www.srgpc.net/cards/competitors/officer-breezus/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -30479,16 +30737,19 @@
   tags: []
 - name: The Ol' Skull and Bones
   db_uuid: 8d0a3ebd5ed54e0e9144958d689ac395
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-ol-skull-and-bones/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Oracle
   db_uuid: c4a7dc18e187401ba7632cc682b14879
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-oracle/
   card_type: SingleCompetitorCard
   division: Underworld
   tags: []
 - name: The "Other" Steve
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-other-steve/
   card_type: SingleCompetitorCard
   tags: []
 - name: Over Giver
@@ -30644,26 +30905,31 @@
   tags: []
 - name: Paiger Rager
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
+  srgpc_url: https://www.srgpc.net/cards/competitors/paiger-rager/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Pain Artist DaVinci Wade
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-pain-artist-davinci-wade/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Pang
   db_uuid: 67774251b6ed4a2a89c50ff7c5a0e129
+  srgpc_url: https://www.srgpc.net/cards/competitors/pang/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Pat the Thinker
   db_uuid: 582f1c66d042475088de05345806d255
+  srgpc_url: https://www.srgpc.net/cards/competitors/pat-the-thinker/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Peppermint T
   db_uuid: 8b779087745046389e96016a9622e1f8
+  srgpc_url: https://www.srgpc.net/competitors/peppermint-t/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -30677,6 +30943,7 @@
   tags: []
 - name: The Perfect Assistant
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-perfect-assistant/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Female
@@ -30690,12 +30957,14 @@
   tags: []
 - name: Perfect10n Shawn Spears
   db_uuid: b322c969168d4d7d9c3762bbc844d358
+  srgpc_url: https://www.srgpc.net/cards/competitors/perfect10n-shawn-spears/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Peter Lionheart (V1)
   db_uuid: 73701ef7f615485d82c628fa90f4ce68
   srg_url: https://supershowthegame.com/product/peter-lionheart/
+  srgpc_url: https://www.srgpc.net/cards/competitors/peter-lionheart/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -30727,6 +30996,7 @@
   tags: []
 - name: The Phoenix EV Fresh
   db_uuid: 5384da96ce6740ce9081b60773b99873
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-phoenix-ev-fresh/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -30745,11 +31015,13 @@
   tags: []
 - name: Pixel
   db_uuid: c60c1ad29cb0440481fc29ae1c863a37
+  srgpc_url: https://www.srgpc.net/cards/competitors/pixel/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Plant Based Bruiser
   db_uuid: a9a384dd112246d58b8c359460d56ddc
+  srgpc_url: https://www.srgpc.net/cards/competitors/plant-based-bruiser/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -30791,27 +31063,32 @@
   tags: []
 - name: Player of the Era
   db_uuid: 2a1ae85ae5c84ea0a72d5cc44553199c
+  srgpc_url: https://www.srgpc.net/cards/competitors/player-of-the-era/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Pluto
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
+  srgpc_url: https://www.srgpc.net/cards/competitors/pluto/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Poco Loco
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
+  srgpc_url: https://www.srgpc.net/cards/competitors/poco-loco/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Poland's Prince
   db_uuid: eaa66b2581dd44f0980eaebc34dbfbf5
+  srgpc_url: https://www.srgpc.net/cards/competitors/polands-prince/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Polverizer (V1)
   db_uuid: 3734dc0ab3994d058db9bee9d9923277
   srg_url: https://supershowthegame.com/product/the-polverizer/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-polverizer/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -30840,6 +31117,7 @@
   tags: []
 - name: The PPLZ Casual
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
+  srgpc_url: https://www.srgpc.net/cards/competitors/pplz-casual//
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
@@ -31045,6 +31323,7 @@
   tags: []
 - name: Quadruple H
   db_uuid: 50446df532b14eb784abe67b262181cd
+  srgpc_url: https://www.srgpc.net/cards/competitors/quadruple-h/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -31102,26 +31381,31 @@
   tags: []
 - name: The Queen of Cheer Adrianna Dee
   db_uuid: 7b1af704863e498b8b473e44c8d42ed4
+  srgpc_url: https://www.srgpc.net/competitors/queen-of-cheer-adrianna-dee/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Queen of Cupcakes Penelope Mai
   db_uuid: f3191d334cc544f7a70a6206e3c20c12
+  srgpc_url: https://www.srgpc.net/cards/competitors/queen-of-cupcakes-penelope-mai/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Rage
   db_uuid: 3f06685328d74f4fa8c64f77a0add3df
+  srgpc_url: https://www.srgpc.net/cards/competitors/rage/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Rahz El Dazzel
   db_uuid: e1b8cc42d0774c118785d02b296909f3
+  srgpc_url: https://www.srgpc.net/cards/competitors/rahz-el-dazzel/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Random Guy
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
+  srgpc_url: https://www.srgpc.net/cards/competitors/random-guy/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -31171,26 +31455,31 @@
   tags: []
 - name: RaRa Perre
   db_uuid: c138c28b4b8b48bbb5272e9ceaede716
+  srgpc_url: https://www.srgpc.net/cards/competitors/rara-perre/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Raven
   db_uuid: 6e915bbeb0b148a4a578992b50c63bbe
+  srgpc_url: https://www.srgpc.net/cards/competitors/raven/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Ray'gr Dragon God
   db_uuid: 6f0c54f9e3074538baff7a1171fa4fb2
+  srgpc_url: https://www.srgpc.net/cards/competitors/raygr-dragon-god/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Rekt
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
+  srgpc_url: https://www.srgpc.net/cards/competitors/rekt/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Reverend Good Brain
   db_uuid: 289c8f5092744a71a376e27dd231bd04
+  srgpc_url: https://www.srgpc.net/cards/competitors/reverend-good-brain/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -31240,6 +31529,7 @@
   tags: []
 - name: Reverend Robert Torn
   db_uuid: 0f6248453f894d958438cdcfeffd1047
+  srgpc_url: https://www.srgpc.net/cards/competitors/reverend-robert-torn/
   card_type: SingleCompetitorCard
   gender: Male
   power: 9
@@ -31297,11 +31587,13 @@
   tags: []
 - name: Rhino
   db_uuid: 98dd6f69389340bbadb5b192792ea1f6
+  srgpc_url: https://www.srgpc.net/cards/competitors/rhino/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Ricochet
   db_uuid: be4591ac738748c29cf9fef3179e6c94
+  srgpc_url: https://www.srgpc.net/cards/competitors/ricochet/
   card_type: SingleCompetitorCard
   division: Underworld
   tags: []
@@ -31434,6 +31726,7 @@
     - d4e8d703c3a64310b24f5ef1b466c23c
 - name: Riggs Simmons (V1)
   db_uuid: d408bb1c9cb94a4882b1beb250beae75
+  srgpc_url: https://www.srgpc.net/competitor/riggs-simmons-v2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -31462,12 +31755,14 @@
   tags: []
 - name: Ring Leader
   db_uuid: f67082e53b084aefbc07e3df08801f6f
+  srgpc_url: https://www.srgpc.net/cards/competitors/ring-leader/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: RJ Bombshell (V1)
   db_uuid: 8fa5113d9e0243899f7ad586a3b7c323
   srg_url: https://supershowthegame.com/product/rj-bombshell/
+  srgpc_url: https://www.srgpc.net/competitor/rj-bombshell-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -31579,6 +31874,7 @@
   tags: []
 - name: Sabu
   db_uuid: bb3bee34d3df4e1384ba7c77b2a826f3
+  srgpc_url: https://www.srgpc.net/cards/competitors/sabu/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -31632,6 +31928,7 @@
   tags: []
 - name: Sage The Christmas Witch
   db_uuid: 4113ec43d646463d9a610b57e58cfe33
+  srgpc_url: https://www.srgpc.net/competitors/sage-the-christmas-witch/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -31647,6 +31944,7 @@
   tags: []
 - name: Sage the Wiccan Witch (V1)
   db_uuid: 04ee2101e644473f9327c2333d8183c8
+  srgpc_url: https://www.srgpc.net/cards/competitors/sage-the-wiccan-witch-iku-zo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -31677,6 +31975,7 @@
   tags: []
 - name: Sam LeMule
   db_uuid: 65d69cb7f158408d94b44b307d969cde
+  srgpc_url: https://www.srgpc.net/cards/competitors/sam-lemule/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -31690,6 +31989,7 @@
   tags: []
 - name: Sami Callihan "Death Machine" (V1)
   db_uuid: 3ebc8a70bd834b31b85381984de3ea5c
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-death-machine-sami-callihan-wr-version/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
@@ -31700,21 +32000,25 @@
   tags: []
 - name: Sami "The Draw" Callihan
   db_uuid: 20c146c8c0854329807a89143269a8fb
+  srgpc_url: https://www.srgpc.net/cards/competitors/sami-the-draw-callihan/
   card_type: SingleCompetitorCard
   division: Underworld
   tags: []
 - name: Santa's Little Helper
   db_uuid: 1ff9513294ec45d9b52189d8c6f7005c
+  srgpc_url: https://www.srgpc.net/cards/competitors/santas-little-helper/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Santa's Little Llama
   db_uuid: 9c53d33649a64c25bbef794fb6c24f29
+  srgpc_url: https://www.srgpc.net/competitors/santas-little-llama/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Scarlett Graves (V1)
   db_uuid: bbad60422a9c403b97980cc9efab48c1
+  srgpc_url: https://www.srgpc.net/competitors/scarlett-graves-2/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -31725,11 +32029,13 @@
   tags: []
 - name: Scott Prime
   db_uuid: 504e8e4759024076b094608d6b8172a6
+  srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Scrapyard Cat
   db_uuid: b0fcea9832944b0890b8d622271fea68
+  srgpc_url: https://www.srgpc.net/competitors/scrapyard-cat/
   card_type: SingleCompetitorCard
   division: Old School
   power: 7
@@ -31774,21 +32080,25 @@
   tags: []
 - name: The Screaming Danshee
   db_uuid: 2d3873502620427d979c152bb1d53f3c
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-screaming-danshee/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Sgt. Yoga
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
+  srgpc_url: https://www.srgpc.net/competitors/sgt-yoga/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Shade
   db_uuid: 54590750c88a4c3aaa4f2a98cbb6207e
+  srgpc_url: https://www.srgpc.net/cards/competitors/shade/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Shadow Phoenix (V1)
   db_uuid: b6a34c56cfb041e7839acfaf3e0a0eab
+  srgpc_url: https://www.srgpc.net/cards/competitors/shadow-phoenix/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -31799,26 +32109,31 @@
   tags: []
 - name: Shane 'Hurricane' Helms
   db_uuid: 81a31f579ad848c496f6ba2059f196ca
+  srgpc_url: https://www.srgpc.net/cards/competitors/shane-hurricane-helms/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Shane Tilton
   db_uuid: 5e7ddda9089049ffaa3d37aa6e33c4dc
+  srgpc_url: https://www.srgpc.net/competitors/shane-tilton/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Shane Strickland
   db_uuid: 17aed6b36bb347bf8eae88195831bf8b
+  srgpc_url: https://www.srgpc.net/cards/competitors/shane-strickland/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Shea McCoy
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
+  srgpc_url: https://www.srgpc.net/cards/competitors/shea-mccoy/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Sheeple's Champion
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
+  srgpc_url: https://www.srgpc.net/cards/competitors/sheeples-champion/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -32499,11 +32814,13 @@
   tags: []
 - name: The Tartan Terror
   db_uuid: a2895b52164743edbdd083272279e147
+  srgpc_url: https://www.srgpc.net/competitors/the-tartan-terror/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Terra
   db_uuid: 90b0c96882754a4dbd175e313f4991b2
+  srgpc_url: https://www.srgpc.net/cards/competitors/terra/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -32559,91 +32876,109 @@
   tags: []
 - name: Tetsuya Naito
   db_uuid: ef4b285b0236403a9be1a821b7e5bda5
+  srgpc_url: https://www.srgpc.net/cards/competitors/tetsuya-naito/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Texas Juggernaut
   db_uuid: c0881aba76014c88b5f720f463f48d64
+  srgpc_url: https://www.srgpc.net/cards/competitors/texas-juggernaut/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: THE Phil Birch
   db_uuid: 2ac859ee5b724848b5d34e70740c4f50
+  srgpc_url: https://www.srgpc.net/competitors/the-phil-birch/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Titan
   db_uuid: 0a4ae4fdea654848ac7a8467bc9f74f2
+  srgpc_url: https://www.srgpc.net/cards/competitors/titan/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Titan of the Northeast
   db_uuid: 0e42a47bc46d470a9c8db554bb0edf6b
+  srgpc_url: https://www.srgpc.net/cards/competitors/titan-of-the-northeast/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: TJ Marconi
   db_uuid: e14019134fab4819bfd60e35943ce375
+  srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: 'TJ Marconi Public Enemy #1'
   db_uuid: 8f726675283f40eabe2c99539ef6e394
+  srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi-public-enemy-no-1/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Tommy Stillwell
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
+  srgpc_url: https://www.srgpc.net/cards/competitors/tommy-stillwell/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Trashman
   db_uuid: cd74ed7f79184db582a82ecd92058c28
+  srgpc_url: https://www.srgpc.net/cards/competitors/trashman/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Trent?
   db_uuid: 902a282a6c6f4317b4cf87e0a4eed30d
+  srgpc_url: https://www.srgpc.net/cards/competitors/trent/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: True American Guy Gregory Patrick Scott
   db_uuid: 6d08f346a2584887a329443b00b9f02f
+  srgpc_url: https://www.srgpc.net/cards/competitors/true-american-guy-gregory-patrick-scott/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The True Survivor
   db_uuid: 07f8e7d0b2d341a08c7fa0df4aae777b
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-true-survivor/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: TVA Commissioner Drew Madsen
   db_uuid: 191fdd8ac35641ba930ccdfcea5e94fd
+  srgpc_url: https://www.srgpc.net/cards/competitors/tva-commissioner-drew-madsen/
   card_type: SingleCompetitorCard
   division: World Championship
   tags: []
 - name: Tyler Chaos
   db_uuid: 6d522aa7ac7840d88a5790a5c7c7e5e0
+  srgpc_url: https://www.srgpc.net/cards/competitors/tyler-chaos/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Tytan
   db_uuid: 6868fc4520954fd4a3ca756d11b59d18
+  srgpc_url: https://www.srgpc.net/competitor/tytan/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Ultimate Grump
   db_uuid: 26cdda7245744396ae988697babdef2f
+  srgpc_url: https://www.srgpc.net/cards/competitors/ultimate-grump/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Ultimate Phighter
   db_uuid: 30a3349b5bfa4d608ac989f90a253dc5
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-ultimate-phighter/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Uncle Awesome (V1)
   db_uuid: 4e2a4a8022b0485e8449750cb411d793
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome-v2/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -32654,12 +32989,14 @@
   tags: []
 - name: Uncle Bradley
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
+  srgpc_url: https://www.srgpc.net/cards/competitors/uncle-bradley/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Uncaged Beast
   db_uuid: 0beebc490ed0447f9a1323c470f94454
   srg_url: https://supershowthegame.com/product/uncaged-beast/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-uncaged-beast/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -32717,35 +33054,42 @@
     - 0beebc490ed0447f9a1323c470f94454
 - name: The Underhoss
   db_uuid: 80d48aba45684fb29c71c0095125c481
+  srgpc_url: https://www.srgpc.net/competitor/the-underhoss/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Unicorn Princess
   db_uuid: 834c8775accf428380910277cbe27413
+  srgpc_url: https://www.srgpc.net/cards/competitors/unicorn-princess/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
+  srgpc_url: https://www.srgpc.net/cards/competitors/unique/
   card_type: SingleCompetitorCard
   tags: []
 - name: Uranus
   db_uuid: 60f3433ddd5745c9905583b60466a734
+  srgpc_url: https://www.srgpc.net/competitor-uranus/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Vampire Hunter Foreman
   db_uuid: 58b34930fa664d1ebf89b1058b14a48a
+  srgpc_url: https://www.srgpc.net/competitors/vampire-hunter-foreman/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
 - name: Vampyr Bastet
   db_uuid: 0e97a0fb8d70423182a7daf7b484f8f8
+  srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-bastet/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Vampyr Sehkmet (V1)
   db_uuid: 18c9a0e41d4a4315a4e453bdb39d2be5
+  srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-sehkmet/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -32757,6 +33101,7 @@
 - name: Vanilla Gorilla (V1)
   db_uuid: 6e44f203e2074096b2f799a345663474
   srg_url: https://supershowthegame.com/product/vanilla-gorilla/
+  srgpc_url: https://www.srgpc.net/cards/competitors/vanilla-gorilla/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -32872,26 +33217,31 @@
   tags: []
 - name: Vick the Brick
   db_uuid: 81fa1f8c73a04f7e8010d951be00e4c0
+  srgpc_url: https://www.srgpc.net/cards/competitors/vick-the-brick/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: Viral
   db_uuid: a35ca200648749e5be284b5904b94523
+  srgpc_url: https://www.srgpc.net/cards/competitors/viral/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Void (V1)
   db_uuid: 32bc1449683540558a8f0606922e3885
+  srgpc_url: https://www.srgpc.net/cards/competitors/void-old/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Void (V2)
   db_uuid: 30112e84fc814802a4d4ec817e143e69
+  srgpc_url: https://www.srgpc.net/cards/competitors/void-new/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: Wait for It Chopper
   db_uuid: ebc3e1b4fbf942f5b11c1d60f57185e5
+  srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-hopper/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -32902,11 +33252,13 @@
   tags: []
 - name: Warehouse
   db_uuid: ef91936ee02e4388ad2a6d37fc105340
+  srgpc_url: https://www.srgpc.net/cards/competitors/warehouse/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: White Lily (V1)
   db_uuid: e1baa91d10a94e23816b04e7809eb08d
+  srgpc_url: https://www.srgpc.net/cards/competitors/white-lily-new/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -32917,11 +33269,13 @@
   tags: []
 - name: Whole Lotta Dude Crash Jaxon
   db_uuid: 33f14ac0cc504bad9a2b0b465163e6d6
+  srgpc_url: https://www.srgpc.net/competitors/whole-lotta-dude-crash-jaxon/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Wiser Wizard
   db_uuid: 92aad45d0fa046448ec91a4c4d4cd869
+  srgpc_url: https://www.srgpc.net/cards/competitors/wiser-wizard/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -33000,16 +33354,19 @@
     - 92aad45d0fa046448ec91a4c4d4cd869
 - name: Will Ospreay
   db_uuid: f4d37bc8209e4db5b7eb75f4bdf8aaaf
+  srgpc_url: https://www.srgpc.net/cards/competitors/will-ospreay/
   card_type: SingleCompetitorCard
   division: Global
   tags: []
 - name: Witch Hunter General
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
+  srgpc_url: https://www.srgpc.net/cards/competitors/witch-hunter-general/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
 - name: The Witch's Apprentice
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-witchs-apprentice/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Female
@@ -33023,6 +33380,7 @@
   tags: []
 - name: Wooly Bully (V1)
   db_uuid: 5d762e9b0091476e82e97ea73034fefa
+  srgpc_url: https://www.srgpc.net/cards/competitors/wooly-bully/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -33062,6 +33420,7 @@
   tags: []
 - name: Wrench Monkey
   db_uuid: e2f4f5e7315442059b7057b0333e0e23
+  srgpc_url: https://www.srgpc.net/cards/competitors/wrench-monkey/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -33323,6 +33682,7 @@
 - name: Big Rig Daddy Dig
   db_uuid: e0cbf404d2494892a95d1f8fd58dfaa3
   srg_url: https://supershowthegame.com/product/big-rig-daddy-dig/
+  srgpc_url: https://www.srgpc.net/competitor/big-rig-daddy-dig/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -33437,6 +33797,7 @@
   tags: []
 - name: The Master Strategist
   db_uuid: 1e018f4597504d1cb3f3f2711ee1326a
+  srgpc_url: https://www.srgpc.net/competitor/the-master-strategist/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -33451,6 +33812,7 @@
 - name: The Latin Lover Swindle Heat
   db_uuid: 66129944904b4d68a3e33c57d11f9914
   srg_url: https://supershowthegame.com/product/the-latin-lover-swindle-heat/
+  srgpc_url: https://www.srgpc.net/competitor/the-latin-lover-swindle-heat/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -33636,6 +33998,7 @@
 - name: Bael
   db_uuid: 3e85e823fd544ea7acd81acb9b3e627f
   srg_url: https://supershowthegame.com/product/bael/
+  srgpc_url: https://www.srgpc.net/competitor/bael/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -34122,6 +34485,7 @@
 - name: Captain Kiddo
   db_uuid: 66154148618e431ba0dd2c28c08e95d9
   srg_url: https://supershowthegame.com/product/captain-kiddo/
+  srgpc_url: https://www.srgpc.net/competitor/captain-kiddo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -34232,6 +34596,7 @@
   tags: []
 - name: Chief Coffey
   db_uuid: 67985c3af162453ebe643a0edd3c11ef
+  srgpc_url: https://www.srgpc.net/competitor/chief-coffey/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -34381,6 +34746,7 @@
 - name: Deathmatch King Matt Cardona
   db_uuid: b3c837b732a54281aa9169ab1d46d42f
   srg_url: https://supershowthegame.com/product/deathmatch-king/
+  srgpc_url: https://www.srgpc.net/competitors/deathmatch-king-matt-cardona/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -34403,6 +34769,7 @@
     - 9d27d70756e846be9eb40a150889693f
 - name: Defector
   db_uuid: fc7f7efc0f914eb88a42db65b9778ab6
+  srgpc_url: https://www.srgpc.net/competitor/defector/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -34431,26 +34798,31 @@
   tags: []
 - name: El Cerebro
   db_uuid: 389c3b62d4e5419fad9bbf3037a45aac
+  srgpc_url: https://www.srgpc.net/competitor/el-cerebro/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: El Frenetico
   db_uuid: ed652335019b4eee8341e33a86bad731
+  srgpc_url: https://www.srgpc.net/competitor/el-frenetico/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: El Ganso Ruso
   db_uuid: 8ce649bcffc94efbb19e5639e0e76472
+  srgpc_url: https://www.srgpc.net/competitor/el-ganso-ruso/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: El Jabroni
   db_uuid: 57c6169657c344cf8723858af6e7f422
+  srgpc_url: https://www.srgpc.net/competitor/el-jabroni/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: El Leon de Lahore
   db_uuid: 82a3cb85ff544fbb96e18487d156f321
+  srgpc_url: https://www.srgpc.net/competitor/el-leon-de-lahore/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
@@ -34465,6 +34837,7 @@
   tags: []
 - name: Emphaseizing
   db_uuid: 86f21ee3774440079127137fb8247cca
+  srgpc_url: https://www.srgpc.net/competitor/emphaseizing/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -34485,6 +34858,7 @@
 - name: Fae Dragon
   db_uuid: c37902890fa44033ad8ca1412ba9ae3d
   srg_url: https://supershowthegame.com/product/fae-dragon/
+  srgpc_url: https://www.srgpc.net/competitor/fae-dragon/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -34575,12 +34949,14 @@
   tags: []
 - name: Gogawa
   db_uuid: ace62433009947bba25f3f954910f1e6
+  srgpc_url: https://www.srgpc.net/competitor/gogawa/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: Goldlust
   db_uuid: 3e9abd47231c419981518fc2ab84a2cc
   srg_url: https://supershowthegame.com/product/goldlust/
+  srgpc_url: https://www.srgpc.net/competitor-goldlust/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -34616,6 +34992,7 @@
   tags: []
 - name: Hex
   db_uuid: e515d26515954e709e0f81a86f5231cb
+  srgpc_url: https://www.srgpc.net/competitor/hex/
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
@@ -34643,6 +35020,7 @@
 - name: Hot Rod
   db_uuid: 003693336f2e48878c7fc6ad9c18b6db
   srg_url: https://supershowthegame.com/product/hot-rod/
+  srgpc_url: https://www.srgpc.net/competitor-hot-rod/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -34694,6 +35072,7 @@
   tags: []
 - name: Human Resources
   db_uuid: b64f5ecb347847ec9f6d6c3ee6704b6e
+  srgpc_url: https://www.srgpc.net/competitor/human-resources/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -34810,6 +35189,7 @@
   tags: []
 - name: Jax Pet of the Year
   db_uuid: d829449703064ba38d7e0953102e3de9
+  srgpc_url: https://www.srgpc.net/competitor/best-pupper/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -34909,6 +35289,7 @@
 - name: Lady Outlaw
   db_uuid: 7bc2886de7e34870819b0dd6536cdf8b
   srg_url: https://supershowthegame.com/product/lady-outlaw/
+  srgpc_url: https://www.srgpc.net/cards/competitors/lady-outlaw/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -34924,6 +35305,7 @@
 - name: Lil' G
   db_uuid: 496ad29ce2d1416396e74a12026172b2
   srg_url: https://supershowthegame.com/product/lil-g/
+  srgpc_url: https://www.srgpc.net/competitor/lil-g/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
@@ -34946,6 +35328,7 @@
   tags: []
 - name: Ref Dave
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999
+  srgpc_url: https://www.srgpc.net/competitor/ref-dave/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -35035,6 +35418,7 @@
   tags: []
 - name: The Phenomenal Beast Chris Angels
   db_uuid: 3d7652ac29af4c77842e419996e11278
+  srgpc_url: https://www.srgpc.net/competitor/the-phenomenal-beast-chris-angels/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -35067,6 +35451,7 @@
   tags: []
 - name: Nirab Woken Dragon God (V1)
   db_uuid: d1e4395c81ca492b8f180aaf5b6431b8
+  srgpc_url: https://www.srgpc.net/competitor/nirab-woken-dragon-god/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -35085,6 +35470,7 @@
   tags: []
 - name: The Franchise
   db_uuid: 5b6cc3273f03415cbe6635d2a0796f03
+  srgpc_url: https://www.srgpc.net/competitor/the-franchise/
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
@@ -35096,6 +35482,7 @@
 - name: The Mad Hatter
   db_uuid: e8cc1344fd0740a7a6b6695753fac43d
   srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/
+  srgpc_url: https://www.srgpc.net/competitor/the-mad-hatter/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -35185,6 +35572,7 @@
   tags: []
 - name: Phoenix Reborn
   db_uuid: d77ce9c2b17a4083ad3f8b6a1f28a647
+  srgpc_url: https://www.srgpc.net/competitor/phoenix-reborn/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -35215,6 +35603,7 @@
   tags: []
 - name: Scrappers
   db_uuid: d159fc362f2c49e2b730c3806319e5f5
+  srgpc_url: https://www.srgpc.net/competitor/scrappers/
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
@@ -35235,6 +35624,7 @@
 - name: Rey Zerblade
   db_uuid: 3e6ec7e5fe33421d83a699ac956a6858
   srg_url: https://supershowthegame.com/product/ray-zerblade/
+  srgpc_url: https://www.srgpc.net/competitor/rey-zerblade/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -35277,6 +35667,7 @@
 - name: Wendigo
   db_uuid: caae00fadebe4d0fb4d0cbc4ae35c06b
   srg_url: https://supershowthegame.com/product/wendigo/
+  srgpc_url: https://www.srgpc.net/competitor/wendigo/
   card_type: SingleCompetitorCard
   division: Underworld
   power: 9
@@ -35345,6 +35736,7 @@
   tags: []
 - name: Ollie
   db_uuid: 0c1b1853cc114d119cd55a50f04386f5
+  srgpc_url: https://www.srgpc.net/competitor/ollie/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -35502,11 +35894,13 @@
   tags: []
 - name: Vacation Commissioner
   db_uuid: 287077390a6f4cf5a7d056e252a2469c
+  srgpc_url: https://www.srgpc.net/competitor/vacation-commissioner/
   card_type: SingleCompetitorCard
   division: United States
   tags: []
 - name: The Winning Ticket
   db_uuid: f4a3aea48e544fac9e4edf24b5d07235
+  srgpc_url: https://www.srgpc.net/competitor/winning-ticket/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male

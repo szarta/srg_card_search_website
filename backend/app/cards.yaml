@@ -30,6 +30,7 @@
   db_uuid: eb68a4f3acd74fb592885308366529f2
   is_banned: false
   srg_url: https://supershowthegame.com/product/hammerstone/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alex-hammerstone/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -195,6 +196,7 @@
 - name: Aaron Dallas
   db_uuid: ca03f4b01d5d409fbd3a75a8e58d83a1
   srg_url: https://supershowthegame.com/product/aaron-dallas/
+  srgpc_url: https://www.srgpc.net/cards/competitors/aaron-dallas/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -309,6 +311,7 @@
   db_uuid: 2507369b706f4dec83b61e8da40b80c0
   is_banned: false
   srg_url: https://supershowthegame.com/product/amazing-red/
+  srgpc_url: https://www.srgpc.net/cards/competitors/amazing-red/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -536,6 +539,7 @@
 - name: Abigail Fairy in Training
   db_uuid: c0bfb96bd9054080960a0ecbaeb13e64
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
+  srgpc_url: https://www.srgpc.net/cards/competitors/abigail-fairy-in-training/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Female
@@ -592,6 +596,7 @@
   tags: []
 - name: The Abominable Big Shot
   db_uuid: 2940ac1fddf54ee5a1245615bd109907
+  srgpc_url: https://www.srgpc.net/competitors/the-abominable-big-shot/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 9
@@ -663,6 +668,7 @@
   tags: []
 - name: The Above Average Warrior
   db_uuid: bb8f720590c44fe189ce68af24a73598
+  srgpc_url: https://www.srgpc.net/competitors/the-above-average-warrior/
   card_type: SingleCompetitorCard
   division: Old School
   power: 6
@@ -873,6 +879,7 @@
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ach
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -934,6 +941,7 @@
 - name: Adam Page
   db_uuid: 56608588327c405bb148ae2d2feafecc
   srg_url: https://supershowthegame.com/product/adam-page/
+  srgpc_url: https://www.srgpc.net/cards/competitors/adam-page/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -987,6 +995,7 @@
 - name: Adam Priest
   db_uuid: c077293c5143451885069856ec9b01e9
   srg_url: https://supershowthegame.com/product/adam-priest/
+  srgpc_url: https://www.srgpc.net/cards/competitors/adam-priest/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -2623,6 +2632,7 @@
 - name: Art the Seal
   db_uuid: abec1bc1bede476cb22839213ccb31b9
   srg_url: https://supershowthegame.com/product/art-the-seal/
+  srgpc_url: https://www.srgpc.net/cards/competitors/art-the-seal/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Ambiguous
@@ -2854,6 +2864,7 @@
 - name: Alana Antoinnette
   db_uuid: c4732bb7130f49d5830a881f78b0d6a6
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alana-antoinette/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female
@@ -3236,6 +3247,7 @@
 - name: Ariel Lipstick
   db_uuid: 37f9036514b94c4b82fefbb482b5a1a9
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ariel-lipstick/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Female
@@ -20309,6 +20321,7 @@
 - name: AJ Styles
   db_uuid: b5a305c0f693405f8cb43b4e5864e559
   srg_url: https://supershowthegame.com/product/aj-styles/
+  srgpc_url: https://www.srgpc.net/cards/competitors/aj-styles/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -20373,6 +20386,7 @@
     - b5a305c0f693405f8cb43b4e5864e559
 - name: Akira Takeda
   db_uuid: cedb63b1a108434b91062c9a0bf36d03
+  srgpc_url: https://www.srgpc.net/cards/competitors/akira-takeda/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -20467,7 +20481,7 @@
 - name: Al13n Invader (V1)
   db_uuid: 4e0abf2265bf451dac5e99e1a0d6fbd8
   srg_url: https://supershowthegame.com/product/8-bit-al13n-invader-2/
-  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
+  srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -20805,6 +20819,7 @@
 - name: Alexander Slamilton
   db_uuid: fae93ed792e548029db624a4eb65c08d
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alexander-slamilton/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -20858,6 +20873,7 @@
 - name: Alexander Slamilton Hardercore
   db_uuid: 716732d07b1e4881b1f908405391b4a0
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
+  srgpc_url: https://www.srgpc.net/competitors/alexander-slamilton-hardercore/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -20887,6 +20903,7 @@
 - name: Alex Kane
   db_uuid: 34172f8d50054d639928f3736621afd3
   srg_url: https://supershowthegame.com/product/alex-kane/
+  srgpc_url: https://www.srgpc.net/competitor/alex-kane/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -20944,6 +20961,7 @@
 - name: Alton Black
   db_uuid: 93f5a9e64bdb493bb0a59222a489272b
   srg_url: https://supershowthegame.com/product/alton-black/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alton-black/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -20998,6 +21016,7 @@
   tags: []
 - name: Amber Nova
   db_uuid: 49d86a1b4f724377adf532d4575ab885
+  srgpc_url: https://www.srgpc.net/cards/competitors/amber-nova/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -21035,6 +21054,7 @@
   tags: []
 - name: Amelia Breckenwith
   db_uuid: d7a4d360d24545809a143d0cf1e69663
+  srgpc_url: https://www.srgpc.net/competitors/amelia-breckenwith/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -21055,6 +21075,7 @@
 - name: Anastasia Morningstar (V1)
   db_uuid: 7542616eb8064027b33b2d0651a77d9e
   srg_url: https://supershowthegame.com/product/anastasia-morningstar/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anastasia-morningstar/
   card_type: SingleCompetitorCard
   division: Global
   gender: Ambiguous
@@ -21110,6 +21131,7 @@
   tags: []
 - name: Andreas Fiesta
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
+  srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -21332,6 +21354,7 @@
   tags: []
 - name: Arcade Addict Aaron
   db_uuid: 51aff101c37346fba003d6e1f21105b1
+  srgpc_url: https://www.srgpc.net/cards/competitors/arcade-addict-aaron/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -21344,6 +21367,7 @@
   tags: []
 - name: Asia
   db_uuid: 41cf829b50b649a2bbfcd56484afb428
+  srgpc_url: https://www.srgpc.net/competitors/asia/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Female
@@ -21998,6 +22022,7 @@
   tags: []
 - name: Amos the Iron Worker (V1)
   db_uuid: 8e86da7670a84f1898ab2e1e570aebca
+  srgpc_url: https://www.srgpc.net/cards/competitors/amos-the-iron-worker/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -22123,6 +22148,7 @@
   tags: []
 - name: ARFox
   db_uuid: 23174a8ec9fd420d93b19331b116a6b1
+  srgpc_url: https://www.srgpc.net/cards/competitors/arfox/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -24130,6 +24156,7 @@
 - name: Anarchy's Son (V1)
   db_uuid: 77ebbb073d5d453c8a1d3c5fc552897e
   srg_url: https://supershowthegame.com/product/anarchys-son/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -30705,8 +30732,16 @@
   tags: []
 - name: Piglet
   db_uuid: 1069a54e1c674abeb90ce4bb07a37404
+  srgpc_url: https://www.srgpc.net/cards/competitors/piglet/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
   tags: []
 - name: Pixel
   db_uuid: c60c1ad29cb0440481fc29ae1c863a37
@@ -35383,6 +35418,7 @@
     - a032262dc42843239904a8ac14ca5caa
 - name: Syzygy (Back Stats)
   db_uuid: a032262dc42843239904a8ac14ca5caa
+  card_type: SingleCompetitorCard
   power: 5
   technique: 6
   agility: 7

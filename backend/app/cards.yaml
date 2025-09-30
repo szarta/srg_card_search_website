@@ -21135,8 +21135,10 @@
   play_order: Finish
   deck_card_number: 30
   tags: []
-- name: The Angler
+- name: The Angler (V1)
   db_uuid: c069f0402fb949bc8133703f98f1e328
+  srg_url: https://supershowthegame.com/product/the-angler/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -21152,27 +21154,133 @@
     - 6311008b202a4f64bc8b8a528ace8b1d
     - fee9f96b62a744ca96541aa1d25748a5
     - 76d4e3bd5bb3475c88297a195c170de5
+    - 732cb2ca0e2743faa951ad30d4d6d097
+    - 597025980e6d45b78d7d5c473101e201
+    - 7d1bbdecb494418088ee5b17a902ade6
+    - a8bb450b4d4342459dca408e5927e502
 - name: Fly Fisting
   db_uuid: 6311008b202a4f64bc8b8a528ace8b1d
+  srg_url: https://supershowthegame.com/product/the-angler/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
   tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
 - name: The Angler Slam
   db_uuid: fee9f96b62a744ca96541aa1d25748a5
+  srg_url: https://supershowthegame.com/product/the-angler/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
 - name: The Big Catch
   db_uuid: 76d4e3bd5bb3475c88297a195c170de5
+  srg_url: https://supershowthegame.com/product/the-angler/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
   tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
+- name: Hook, Line, & Sinker
+  db_uuid: 732cb2ca0e2743faa951ad30d4d6d097
+  srg_url: https://supershowthegame.com/product/the-angler/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    If your opponent breaks out, you may play 1 Lead Strike from your discard pile.'
+  tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
+- name: The Angler (V2)
+  db_uuid: f24d6f8923f047d283cdf7a80b382854
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Male
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 6
+  rules_text: Whenever you would discard any number of cards from your hand, you may instead bury them in any order.
+  tags: []
+  related_finishes:
+    - 6311008b202a4f64bc8b8a528ace8b1d
+    - fee9f96b62a744ca96541aa1d25748a5
+    - 76d4e3bd5bb3475c88297a195c170de5
+    - 732cb2ca0e2743faa951ad30d4d6d097
+    - 597025980e6d45b78d7d5c473101e201
+    - 7d1bbdecb494418088ee5b17a902ade6
+    - a8bb450b4d4342459dca408e5927e502
+- name: Tackle Boxing
+  db_uuid: 597025980e6d45b78d7d5c473101e201
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    If your opponent breaks out, you may search your deck for 1 Lead, and put it into play.'
+  tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
+- name: The Catch of the Day
+  db_uuid: 7d1bbdecb494418088ee5b17a902ade6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +1 to Technique
+
+    If your opponent breaks out, you may put 1 Lead from your discard pile into play or add 1 Lead from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
+- name: Reel 'Em In
+  db_uuid: a8bb450b4d4342459dca408e5927e502
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s 3rd breakout roll is -1.
+
+    Each time your opponent rolls for a breakout, draw 2 cards.'
+  tags: []
+  related_cards:
+    - c069f0402fb949bc8133703f98f1e328
+    - f24d6f8923f047d283cdf7a80b382854
 - name: Anika al'Namira
   db_uuid: 16b331c7c2df463bad441c6166f0e15f
   card_type: SingleCompetitorCard

@@ -20122,13 +20122,18 @@
   play_order: Lead
   deck_card_number: 27
   tags: []
-- name: Leg & Arm Lock
+- name: Leg & Arm Lock (#27)
   db_uuid: 855eabc5b6634eb4bea1f43ccdd4d6ed
   srgpc_url: https://www.srgpc.net/cards/27/leg-arm-lock/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike.
+
+    Draw 1 card.
+
+    +2 to your next turn roll.'
   tags: []
 - name: Leg Nelson
   db_uuid: 86aa9955463e47758af704d649a1cfcc
@@ -25370,7 +25375,62 @@
   db_uuid: b3d0a1dcf7eb4879b98056d2fc7b0ae9
   card_type: SingleCompetitorCard
   gender: Male
+  power: 8
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: When you flip a Stop, you may put it into play.
   tags: []
+  related_finishes:
+    - 2c1985cf1dd245139c868d5d09c1b97d
+    - 907b90cbf76e490480b305f5e9631c61
+    - 8918117c813f48b68d08ead300343dd9
+- name: Love Rocket
+  db_uuid: 2c1985cf1dd245139c868d5d09c1b97d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Add 1 card you have in play to your hand.'
+  tags: []
+  related_cards:
+    - b3d0a1dcf7eb4879b98056d2fc7b0ae9
+- name: Excite Me With Your Demise!
+  db_uuid: 907b90cbf76e490480b305f5e9631c61
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    Flip up to 4 cards.
+
+    Your Finish roll is +1 for every 2 Stop''s you have in play (Max +2).'
+  tags: []
+  related_cards:
+    - b3d0a1dcf7eb4879b98056d2fc7b0ae9
+- name: Missilia Armori
+  db_uuid: 8918117c813f48b68d08ead300343dd9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Stop any Strike if it is not the first card played this turn.'
+  tags: []
+  related_cards:
+    - b3d0a1dcf7eb4879b98056d2fc7b0ae9
 - name: Black Scorpion X
   db_uuid: 079d19f7ea604b82a6af4a9ae7f9f453
   card_type: SingleCompetitorCard
@@ -36311,8 +36371,9 @@
 
     Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
   tags: []
-- name: Leg & Arm Lock
+- name: Leg & Arm Lock (#6)
   db_uuid: bb24276c105d412db101024b364fb084
+  srg_url: https://supershowthegame.com/product/06-leg-arm-lock/
   srgpc_url: https://www.srgpc.net/cards/6/leg-arm-lock/
   card_type: MainDeckCard
   atk_type: Submission
@@ -36322,7 +36383,9 @@
 
     Draw 1 card.
 
-    Your next turn roll is +2.'
+    Your next turn roll is +2.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Starstruck
   db_uuid: dd081453551d4a6b9dc729a492bcf6d7
@@ -36658,7 +36721,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
-  rules_text: +1 to your next turn roll or add 1 Finish from your discard pile to your hand.
+  rules_text: '+1 to your next turn roll.
+
+    Add 1 Finish from your discard pile to your hand.'
   tags: []
 - name: This is My Sledgehammer Now!
   db_uuid: 16adf570115b4bc7aee7a8a4abe6fbad
@@ -36712,7 +36777,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 14
-  rules_text: +1 to your next turn roll or add 1 Finish from your discard pile to your hand.
+  rules_text: '+1 to your next turn roll.
+
+    Add 1 Finish from your discard pile to your hand.'
   tags: []
 - name: Legendary Coaching
   db_uuid: 0c12750e07144bb5a24349007a2b34e1
@@ -36760,7 +36827,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 15
-  rules_text: +1 to your next turn roll or add 1 Finish from your discard pile to your hand.
+  rules_text: '+1 to your next turn roll.
+
+    Add 1 Finish from your discard pile to your hand.'
   tags: []
 - name: Possum Posse Progeny
   db_uuid: 9ccf885a4f8644918197121aff99bd42
@@ -37363,7 +37432,7 @@
   tags: []
 - name: American Union Arm Bender
   db_uuid: a0fbc43b8e8f421094fc267ea115a057
-  srg_url: "https://supershowthegame.com/product/24-american-union-arm-bender/"
+  srg_url: https://supershowthegame.com/product/24-american-union-arm-bender/
   srgpc_url: https://www.srgpc.net/cards/24/american-union-arm-bender/
   card_type: MainDeckCard
   atk_type: Submission
@@ -37705,4 +37774,9 @@
   db_uuid: 5224820cfea446b6938f65d7154bd2f0
   card_type: EntranceCard
   rules_text: 'Once per match: When you would bump, draw 2 cards instead and each player re-rolls their turn roll.'
+  tags: []
+- name: Keeping the L.F.F. Old School
+  db_uuid: 5b15aeea06114c8c9dae93c209b55e5d
+  card_type: EntranceCard
+  rules_text: 'Once per match: If you ended your last turn without playing a card, your opponent''s next turn roll is -2.'
   tags: []

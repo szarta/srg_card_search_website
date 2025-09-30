@@ -31262,11 +31262,133 @@
   card_type: SingleCompetitorCard
   division: Underworld
   tags: []
-- name: Ricky Riot
+- name: Ricky Riot (V1)
   db_uuid: 5cf0d256efd841b3b5c220e2487db443
+  srg_url: https://supershowthegame.com/product/ricky-riot/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ricky-riot/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  rules_text: 'When your turn roll is at least 3 less than your opponent''s turn roll:
+
+    Look at the top 2 cards of your deck, add 1 to your hand, put the other back on top or bury it.'
   tags: []
+  related_finishes:
+    - b8d2707e485e40d08d0f29e5efaa8552
+    - c042f762f1a545d082db24282f08e3c2
+    - 75ef4c23fb8c427cb6cd8adfd099c41d
+- name: Cream of the Crop Elbow Drop
+  db_uuid: b8d2707e485e40d08d0f29e5efaa8552
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike'
+  tags: []
+  related_cards:
+    - 5cf0d256efd841b3b5c220e2487db443
+- name: Soups Up Stunner
+  db_uuid: c042f762f1a545d082db24282f08e3c2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent''s turn roll is at least 3 greater than yours, you may re-roll your next turn roll.'
+  tags: []
+  related_cards:
+    - 5cf0d256efd841b3b5c220e2487db443
+- name: Get Good or Get Got
+  db_uuid: 75ef4c23fb8c427cb6cd8adfd099c41d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 5cf0d256efd841b3b5c220e2487db443
+- name: Ricky Riot (V2)
+  db_uuid: d4e8d703c3a64310b24f5ef1b466c23c
+  srg_url: https://supershowthegame.com/product/ricky-riot-v2/
+  srgpc_url: https://www.srgpc.net/competitor/ricky-riot-v2/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  rules_text: When you rolled Technique, Agility, or Grapple for your turn roll, and your target won the turn roll, your next turn roll is +2.
+  tags: []
+  related_finishes:
+    - 13f953f5083e47c3809878657bc32397
+    - 92caeadaad1c473c86a47cbe09de6661
+    - 0c1a1d4ff89149bfb1d38022d154080c
+- name: Trigger Warning!
+  db_uuid: 13f953f5083e47c3809878657bc32397
+  srg_url: https://supershowthegame.com/product/ricky-riot-v2/
+  srgpc_url: https://www.srgpc.net/competitor/ricky-riot-v2/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If your turn roll was increased by your Gimmick, +2 to Submission and +1 to Strike.'
+  tags: []
+  related_cards:
+    - d4e8d703c3a64310b24f5ef1b466c23c
+- name: Welcome to the Big House!
+  db_uuid: 92caeadaad1c473c86a47cbe09de6661
+  srg_url: https://supershowthegame.com/product/ricky-riot-v2/
+  srgpc_url: https://www.srgpc.net/competitor/ricky-riot-v2/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Shuffle up to 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - d4e8d703c3a64310b24f5ef1b466c23c
+- name: Whooo's Got a Broken Arm!?
+  db_uuid: 0c1a1d4ff89149bfb1d38022d154080c
+  srg_url: https://supershowthegame.com/product/ricky-riot-v2/
+  srgpc_url: https://www.srgpc.net/competitor/ricky-riot-v2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    Stop any Finish Strike that cannot be stopped, or if this match has disqualifications, stop any Strike with "Via Disqualification" in the text.'
+  tags: []
+  related_cards:
+    - d4e8d703c3a64310b24f5ef1b466c23c
 - name: Riggs Simmons (V1)
   db_uuid: d408bb1c9cb94a4882b1beb250beae75
   card_type: SingleCompetitorCard

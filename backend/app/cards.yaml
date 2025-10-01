@@ -23197,24 +23197,6 @@
     - e070f51ba68249d8b63fd303689d349c
     - 5f2efddce40e43afafed7ca11564987c
     - 6e2476a74e814079975d356a62adb55e
-- name: Hamish MacDeath (V2)
-  db_uuid: 838f2619cdb24dd6be831ec1612b3051
-  srg_url: https://supershowthegame.com/product/hamish-macdeath-alt-art/
-  card_type: SingleCompetitorCard
-  division: Underworld
-  gender: Male
-  power: 10
-  technique: 5
-  agility: 6
-  strike: 9
-  submission: 7
-  grapple: 8
-  rules_text: When you would bump, you may instead put 2 cards from your discard pile into your hand and your turn roll is -1.
-  tags: []
-  related_finishes:
-    - e070f51ba68249d8b63fd303689d349c
-    - 5f2efddce40e43afafed7ca11564987c
-    - 6e2476a74e814079975d356a62adb55e
 - name: The Horns of Falstaff
   db_uuid: e070f51ba68249d8b63fd303689d349c
   card_type: MainDeckCard
@@ -23225,6 +23207,8 @@
 
     Flip 3 cards.'
   tags: []
+  related_cards:
+    - aa604e7ca9b047619e658e3c8ba5301e
 - name: The Scottish Move
   db_uuid: 5f2efddce40e43afafed7ca11564987c
   card_type: MainDeckCard
@@ -23237,6 +23221,8 @@
 
     Flip 6 cards.'
   tags: []
+  related_cards:
+    - aa604e7ca9b047619e658e3c8ba5301e
 - name: Exit, Hugged by a Bear
   db_uuid: 6e2476a74e814079975d356a62adb55e
   card_type: MainDeckCard
@@ -23247,6 +23233,8 @@
 
     Each time your opponent rolls for a breakout roll, flip 5 cards.'
   tags: []
+  related_cards:
+    - aa604e7ca9b047619e658e3c8ba5301e
 - name: Terror Skull (V1)
   db_uuid: 2bf53422f8854fad970f8184079c9cc8
   srgpc_url: https://www.srgpc.net/cards/competitors/terror-skull/

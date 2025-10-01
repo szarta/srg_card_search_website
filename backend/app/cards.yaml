@@ -33802,6 +33802,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi-public-enemy-no-1/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: Your cards with "Kick", "Drop", or "Boot" in the name have the added text "Your next turn roll is +1.
   tags: []
 - name: Tommy Stillwell
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
@@ -34252,6 +34260,16 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/void-old/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: 'FRONT: Once per match, when you have 3 Void Finishes in your discard pile, you may randomly add 1 of those Finish cards to your hand and turn this card over.
+
+    BACK: Once per match, when you have 3 Void Finishes in your discard pile, and the Crowd Meter is 2 or greater, you may add 1 of those cards to your hand.'
   tags: []
 - name: Void (V2)
   db_uuid: 30112e84fc814802a4d4ec817e143e69
@@ -34261,14 +34279,31 @@
   tags: []
 - name: Wait for It Chopper
   db_uuid: ebc3e1b4fbf942f5b11c1d60f57185e5
-  srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-hopper/
+  srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-chopper/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When you hit a card with "Chop" in the name, search your deck for a card with "Chop" in the name and add it to your hand.
   tags: []
 - name: Wait for It Hopper
   db_uuid: 7990e5586c24480db646fede33f5a9fe
+  srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-hopper/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: When you hit a card with "Hop" in the name, search your deck or discard pile for a card with "Hop" in the name and add it to your hand.
   tags: []
 - name: Warehouse
   db_uuid: ef91936ee02e4388ad2a6d37fc105340
@@ -35848,8 +35883,17 @@
   tags: []
 - name: Dylon
   db_uuid: fcaef71cfd7342628ffc1485d1957aaf
+  srgpc_url: https://www.srgpc.net/competitor/dylon/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 10
+  grapple: 6
+  rules_text: Your Submission skill is +1 for each Strike you have in play (Max +2).
   tags: []
 - name: El Cerebro
   db_uuid: 389c3b62d4e5419fad9bbf3037a45aac
@@ -35869,6 +35913,14 @@
   srgpc_url: https://www.srgpc.net/competitor/el-frenetico/
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Male
+  power: 8
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: When your target rolls Strike for their turn roll, draw 1 card.
   tags: []
 - name: El Ganso Ruso
   db_uuid: 8ce649bcffc94efbb19e5639e0e76472
@@ -35901,6 +35953,14 @@
   srgpc_url: https://www.srgpc.net/competitor/el-leon-de-lahore/
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 9
+  rules_text: During your turn, when you hit a Lead, your next turn roll is +1.
   tags: []
 - name: El Super Hombre (V2)
   db_uuid: d149b71b56624078bea5794ee597e7b1
@@ -36283,12 +36343,27 @@
 - name: Jacque EE & Mombada
   db_uuid: 3fa19028e85843cc8f816578d0bb2b58
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 16
+  agility: 18
+  strike: 20
+  submission: 12
+  grapple: 10
+  rules_text: When your opponent moves any number of cards from their discard pile for a card or Gimmick, they randomly bury 1 card in their hand.
   tags: []
-- name: Jax Pet of the Year
+- name: Jax, Pet of the Year
   db_uuid: d829449703064ba38d7e0953102e3de9
   srgpc_url: https://www.srgpc.net/competitor/best-pupper/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: When your opponent hits a card with "Alligator", "Anaconda", "Bat", "Bear", "Bird", "Cat", "Crab", "Cheetah", "Dog", "Duck", "Fish", "Frog", "Goat", "Gorilla", "Hog", "Llama", "Lion", "Mouse", "Monkey", "Octopus", "Penguin", "Pig", "Rabbit", "Seal", "Sheep", "Snake", "Tiger", or "Turtle" in the name, that card has blank text and their next turn roll is -1.
   tags: []
 - name: Joe Hendry
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
@@ -36400,11 +36475,31 @@
 - name: Law & Paw Connection
   db_uuid: 6060f5b0056140c9a39e3128cdebae7f
   card_type: TornadoCompetitorCard
+  power: 10
+  technique: 12
+  agility: 14
+  strike: 16
+  submission: 20
+  grapple: 18
+  rules_text: 'When you roll Technique for your turn roll:
+
+    You may add 1 card any player has in play back to their hand.
+
+    3 times per match: You may force your opponent to re-roll a turn or Finish roll.'
   tags: []
 - name: League of Extraordinary Grapplers
   db_uuid: 1314440f282c473dbb9499d5a4b48601
   srg_url: https://supershowthegame.com/product/league-of-extraordinary-grapplers/
   card_type: TrioCompetitorCard
+  power: 21
+  technique: 24
+  agility: 15
+  strike: 27
+  submission: 18
+  grapple: 30
+  rules_text: 'When you hit a card with "Leg" in the name you may re-roll your next turn roll.
+
+    Your Finish and breakout rolls are +2 for each card you have in play with "Leg" in the name (Max +6).'
   tags: []
 - name: Lil' G
   db_uuid: 496ad29ce2d1416396e74a12026172b2
@@ -36412,23 +36507,57 @@
   srgpc_url: https://www.srgpc.net/competitor/lil-g/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When your roll Technique, your Power is +1 until after you roll Power.
   tags: []
 - name: Living Legends
   db_uuid: 027a8e6e5826403fa92ea3a76a1985b5
   srg_url: https://supershowthegame.com/product/living-legends/
   card_type: TornadoCompetitorCard
+  power: 18
+  technique: 14
+  agility: 16
+  strike: 12
+  submission: 20
+  grapple: 10
+  rules_text: 'Your cards with "Bar", "Shot", "Sheep", "Frog", or "Bender" in the name have the added text: "Your opponent randomly buries 1 card in their hand, bury 1 card in your opponent''s discard pile.'
   tags: []
 - name: Lord Graves
   db_uuid: 6ded6a7076cc4621bd998aaee548b55e
   srg_url: https://supershowthegame.com/product/lord-graves-master-of-the-frozen-shadows-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a card with "Bird", "Bite", "Fly", or "Wing" in the name, your opponent's next turn roll is -1.
   tags: []
 - name: Mike Santana
   db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
   srg_url: https://supershowthegame.com/product/00-mike-santana-competitor-set-slammiversary-edition/
+  srgpc_url: https://www.srgpc.net/competitor/mike-santana/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 9
+  rules_text: 'Once per turn roll:
+
+    If your turn roll is at least 3 less than your target''s turn roll, you may re-roll their turn roll.'
   tags: []
 - name: Ref Dave
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999

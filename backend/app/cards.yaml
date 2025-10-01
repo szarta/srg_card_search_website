@@ -8770,7 +8770,7 @@
   deck_card_number: 10
   rules_text: Bury 1 card in your opponent's discard pile for each Strike you have in play.
   tags: []
-- name: Diving Headbutt
+- name: Diving Headbutt (#10)
   db_uuid: fab5b0a227a24993bf7a420017ceb9f6
   card_type: MainDeckCard
   atk_type: Strike
@@ -14954,13 +14954,14 @@
   play_order: Followup
   deck_card_number: 19
   tags: []
-- name: Diving Headbutt
+- name: Diving Headbutt (#19)
   db_uuid: aedf3e9b40f443a4a03b27a6a3b4f4fc
   srgpc_url: https://www.srgpc.net/cards/19/diving-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Put 1 card from your hand on top of your deck. Look at your opponent's hand, choose 1 card and discard it.
   tags: []
 - name: Double Clothesline
   db_uuid: 6706f07a6a3c463aa2566cfdbc362b94

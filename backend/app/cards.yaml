@@ -8770,14 +8770,6 @@
   deck_card_number: 10
   rules_text: Bury 1 card in your opponent's discard pile for each Strike you have in play.
   tags: []
-- name: Diving Headbutt (#10)
-  db_uuid: fab5b0a227a24993bf7a420017ceb9f6
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Lead
-  deck_card_number: 10
-  rules_text: Put 1 card from your hand on top of your deck. Look at your opponent's hand, choose 1 card and discard it.
-  tags: []
 - name: Diving European Uppercut
   db_uuid: c1ed6cb52cc44ccb92a937a01ce3e6af
   srgpc_url: https://www.srgpc.net/cards/10/diving-european-uppercut/

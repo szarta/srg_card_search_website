@@ -32890,6 +32890,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/shadow-phoenix/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 7
+  rules_text: 'Once per turn roll: When your opponent''s turn roll is Grapple, your turn roll is +2.'
   tags: []
 - name: Shadow Phoenix (V2)
   db_uuid: 84910742683d4cd2af7a57cd571c74cf

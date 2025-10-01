@@ -7704,7 +7704,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: Your opponent buries 1 card in their hand.
+  rules_text: Draw 1 card or put 1 Strike from your discard pile on top of your deck.
   tags: []
 - name: Steel Chair Uprising
   db_uuid: 821ed2394cd84ef39280b2486bf2218f

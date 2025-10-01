@@ -37837,7 +37837,7 @@
   deck_card_number: 28
   rules_text: ''
   tags: []
-- name: 'Cong Jagi Paebae: Total Self Defeat'
+- name: 'Chong Jagi Paebae: Total Self Defeat'
   db_uuid: b10575053f8a4750a44e1ed4d0a21b5d
   card_type: MainDeckCard
   atk_type: Grapple

@@ -23714,7 +23714,8 @@
   tags: []
 - name: The Gold Standard (V1)
   db_uuid: bc4f9ccb992748adaedee6795da1720d
-  srgpc_url: https://www.srgpc.net/cards/competitors/the-gold-standard/
+  is_banned: true
+  srgpc_url: https://www.srgpc.net/2020-vision-the-gold-standard/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -23729,6 +23730,8 @@
   tags: []
 - name: The Gold Standard (V2)
   db_uuid: 29b3e5e107ca46fc9e766b37fa0cf857
+  srg_url: https://supershowthegame.com/product/gold-standard/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-gold-standard/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -32753,11 +32756,28 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/the-death-machine-sami-callihan-wr-version/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 10
+  rules_text: When you would flip a set number of cards, you may instead have your opponent flip the same number of cards.
   tags: []
 - name: Sami Callihan "Death Machine" (V2)
   db_uuid: c38c2c3ef1154d008cb129120a95bdb6
+  srgpc_url: https://www.srgpc.net/cards/competitors/death-machine-sami-callihan/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 10
+  rules_text: You do not bury or discard cards from your hand for your own card effects.
   tags: []
 - name: Sami "The Draw" Callihan
   db_uuid: 20c146c8c0854329807a89143269a8fb

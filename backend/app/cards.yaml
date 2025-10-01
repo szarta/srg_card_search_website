@@ -4541,6 +4541,7 @@
   tags: []
 - name: Table (V1)
   db_uuid: 0fc1f69e20c1409993eb7b9e0e1e9505
+  srg_url: https://supershowthegame.com/product/02-table/
   srgpc_url: https://www.srgpc.net/cards/2/table-v2/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9115,14 +9116,6 @@
   play_order: Lead
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each card you have in play with "Steel Chain" in the name.
-  tags: []
-- name: Stomp
-  db_uuid: bb3afdf7bc3148b9a182a7784a569017
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Lead
-  deck_card_number: 10
-  rules_text: Draw 3 cards.
   tags: []
 - name: Sucker Punch
   db_uuid: 7b3feabbf1274a3cb65d7c03341f7fdb
@@ -18756,6 +18749,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'If this is the first turn of the game or the Crowd Meter is 3 or greater, this card is also a Lead.
+
+    Your opponent cannot discard this card from play.'
   tags: []
 - name: Vicious Triple Suplex (V2)
   db_uuid: ebc3c67e099e4521819c9e58528fc0f0
@@ -18763,6 +18759,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'If this is the first turn of the game or the Crowd Meter is 1 or greater, this card is also a Lead.
+
+    Your opponent cannot discard this card from play.'
   tags: []
 - name: Wooly in the Ropes
   db_uuid: 17dc5561ae764be689ef394d69922829
@@ -19051,7 +19050,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 25
-  rules_text: 'Stop any Grapple.
+  rules_text: 'Stop any Lead Grapple.
 
     Draw 3 cards.'
   tags: []

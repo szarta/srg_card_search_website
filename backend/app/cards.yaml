@@ -14946,7 +14946,7 @@
   play_order: Followup
   deck_card_number: 19
   tags: []
-- name: Diving Headbutt (#19)
+- name: Diving Headbutt
   db_uuid: aedf3e9b40f443a4a03b27a6a3b4f4fc
   srgpc_url: https://www.srgpc.net/cards/19/diving-headbutt/
   card_type: MainDeckCard

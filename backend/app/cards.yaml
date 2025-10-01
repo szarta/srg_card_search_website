@@ -39904,3 +39904,27 @@
   srgpc_url: https://www.srgpc.net/entrance/the-year-of-the-witch-with-borah-brewington/
   card_type: EntranceCard
   tags: []
+- name: Magnet and Steel
+  db_uuid: f17df0c2772e4a62819e90e7c90ed893
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: ''
+  tags: []
+- name: The Law and Paw Drop
+  db_uuid: df4a7e8e8f6a4b8caa87c2234938f6ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: ''
+  tags: []
+- name: The Hard Way
+  db_uuid: 00ba26808be048f1812d581a65b46adb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: ''
+  tags: []

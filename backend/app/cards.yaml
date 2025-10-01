@@ -37828,31 +37828,62 @@
   db_uuid: 3cc05805288f4e449952b5d86889671f
   srg_url: https://supershowthegame.com/product/the-good-the-bad-and-the-whiskey/
   card_type: TrioCompetitorCard
+  power: 27
+  technique: 24
+  agility: 21
+  strike: 30
+  submission: 15
+  grapple: 18
+  rules_text: 'When you hit a card with "Shot" in the name add 1 other card any player has in play back to their hand.
+
+    3 Times Per Match: You may force your opponent to re-roll their turn roll and that roll is -6.'
   tags: []
+  related_finishes:
+    - 9e58305626554e9caf7dc101d5920c3e
+    - b10575053f8a4750a44e1ed4d0a21b5d
+    - e26b1b54b610493b9fbe997986f5f9fa
 - name: 'Jeugusa: Death Strike'
   db_uuid: 9e58305626554e9caf7dc101d5920c3e
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  rules_text: ''
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Strike'
   tags: []
+  related_cards:
+    - 3cc05805288f4e449952b5d86889671f
 - name: 'Chong Jagi Paebae: Total Self Defeat'
   db_uuid: b10575053f8a4750a44e1ed4d0a21b5d
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  rules_text: ''
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    If the Crowd Meter is 2 or greater and you have 0 cards in play, stop any Finish Submission.'
   tags: []
+  related_cards:
+    - 3cc05805288f4e449952b5d86889671f
 - name: Justice is Served
   db_uuid: e26b1b54b610493b9fbe997986f5f9fa
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: ''
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Draw 2 cards. Your opponent buries 1 card in their hand.'
   tags: []
+  related_cards:
+    - 3cc05805288f4e449952b5d86889671f
 - name: The Higher Class (V1)
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
   srg_url: https://supershowthegame.com/product/the-higher-class-v1/

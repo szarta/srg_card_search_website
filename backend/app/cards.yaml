@@ -37829,6 +37829,30 @@
   srg_url: https://supershowthegame.com/product/the-good-the-bad-and-the-whiskey/
   card_type: TrioCompetitorCard
   tags: []
+- name: 'Jeugusa: Death Strike'
+  db_uuid: 9e58305626554e9caf7dc101d5920c3e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: ''
+  tags: []
+- name: 'Cong Jagi Paebae: Total Self Defeat'
+  db_uuid: b10575053f8a4750a44e1ed4d0a21b5d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: ''
+  tags: []
+- name: Justice is Served
+  db_uuid: e26b1b54b610493b9fbe997986f5f9fa
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: ''
+  tags: []
 - name: The Higher Class (V1)
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
   srg_url: https://supershowthegame.com/product/the-higher-class-v1/

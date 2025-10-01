@@ -39844,3 +39844,8 @@
 
     When you reveal the top card of your deck, and it does not have "Barbed Wire" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []
+- name: The Year of the Witch with Borah Brewington
+  db_uuid: 9e7bd58c7c754fd0a18d2cd4fe547b12
+  srgpc_url: https://www.srgpc.net/entrance/the-year-of-the-witch-with-borah-brewington/
+  card_type: EntranceCard
+  tags: []

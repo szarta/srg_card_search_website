@@ -13035,6 +13035,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 16
+  rules_text: Your next turn roll is +1 for each Stop in play.
   tags: []
 - name: Flying Back Elbow
   db_uuid: 72f63a6d60f44404991e4a3f8bf68a3d
@@ -13726,6 +13727,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: 'If you have another Grapple in play, your opponent''s next turn roll is -2.
+
+    If you are a Tag Team or Trio, your next turn roll is +2.'
   tags: []
 - name: Dragon Suplex
   db_uuid: 01c66ba38e7f459d9e4f15211f7a5c61
@@ -13834,6 +13838,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, draw 1 card and your Tag Team partner draws 1 card.
   tags: []
 - name: Lariat Drop
   db_uuid: da9bcd1303e643e58100d2a9ede7910a
@@ -13842,6 +13847,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Grapple in play, your opponent buries 1 card in their hand.
   tags: []
 - name: Legendary Monkey Flip
   db_uuid: 1ec1cdf068e74eb6aabe6e6f166618f1
@@ -13850,6 +13856,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If your opponent has a Stop in play, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Legendary Teabag of Cringe
   db_uuid: f40f121f20294884964417de25716a78
@@ -13868,6 +13875,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Submission skill is +1.
   tags: []
 - name: Lightning Helix Piledriver
   db_uuid: c85ab8d3ec3f451a824f8f210ac73d65
@@ -13876,6 +13884,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Technique skill is +1.
   tags: []
 - name: Lucha Battering Ram!
   db_uuid: 1874fa572576498dbd4f25f928e844a2
@@ -13884,6 +13893,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Draw 1 card for each Stop you have in play.
   tags: []
 - name: Lucky Yeet Dive
   db_uuid: 40b360f65c3e40c692b6ae670f1478a1
@@ -13892,6 +13902,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Agility skill is +1.
   tags: []
 - name: Overhead Strike
   db_uuid: c977ebd959204a248f1db8c2e5e5423b
@@ -13900,6 +13911,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Draw 1 card for each Strike you have in play.
   tags: []
 - name: Powerbomb Into the Corner
   db_uuid: 6ecc1c7f012c48cc9403fffcedb33a1b
@@ -13908,6 +13920,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Strike skill is +1.
   tags: []
 - name: Powerbomb Over the Top Rope
   db_uuid: a0705766ae324430878872825e2508bd
@@ -13934,6 +13947,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Grapple skill is +1.
   tags: []
 - name: Rope-A-Dope
   db_uuid: df60a476d3e649d0b0b71d50830eaad3
@@ -13942,6 +13956,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: 'Stop any Submission with "Double Team" in the text.
+
+    If you have another Follow Up in play, your Tag Team partner draws the bottom card of their deck.'
   tags: []
 - name: Running Bulldog
   db_uuid: d55e0d49b3834168a0709e6a0d2bea41
@@ -13950,6 +13967,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Your next turn roll is +1 for each other Follow Up you have in play.
   tags: []
 - name: Sambo Suplex
   db_uuid: 32199a5b6a3d47e6aee89d635e790941
@@ -13958,6 +13976,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Draw 1 card for each other Grapple you have in play.
   tags: []
 - name: Screwdriver
   db_uuid: 456ccc4caaea427887c814db1a050067
@@ -13966,6 +13985,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have 2 other Follow Ups in play, add 1 card from your discard pile to your hand and your next turn roll is +1.
   tags: []
 - name: Slam Through the Steel Cage
   db_uuid: 689fe89a689e4870a50737ce6911a243
@@ -13974,6 +13994,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: 'Your Grapple skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Slammin' Pixelplex
   db_uuid: cb260a74071c4521af888767c98950a6
@@ -13982,6 +14007,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If your opponent has a Stop in play, draw 2 cards.
   tags: []
 - name: Slammin' Sheep Beats
   db_uuid: 005d18f4ecb04b9db909f233482bbfd9
@@ -13990,6 +14016,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: 'If you have another Follow Up in play, your opponent discards 1 card in their hand.
+
+    If this is a Steel Cage match, you may discard 1 card from your hand.'
   tags: []
 - name: Slingshot Suplex
   db_uuid: 93a43ca04d8b48078d55ceca6fc80cc6
@@ -13998,6 +14027,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play your next turn roll is +2.
   tags: []
 - name: Snap Tag
   db_uuid: 20de4ea2fed44e5d9ac9cb1267bafe31
@@ -14006,6 +14036,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, your Tag Team partner may play a Lead or Follow Up this turn.
   tags: []
 - name: Soup'r Backstabber
   db_uuid: 3aea88278c32494d8ec0d178434f6704
@@ -14014,6 +14045,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up or Finish Grapple in play, your Power skill is +1.
   tags: []
 - name: Snap Dragon Suplex
   db_uuid: d6a3b8e3aac84f1f855e20335cfddc39
@@ -14032,6 +14064,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Spinebreaker
   db_uuid: cd2d2e5f829f428eb58cb26c8fcd51ac
@@ -14040,6 +14073,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags: []
 - name: Stalling Suplex
   db_uuid: 26ada6097e3f4210bf1c9e4ec9fecfa4
@@ -14048,6 +14082,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags: []
 - name: Steel Chain-Assisted Headlock Takedown
   db_uuid: 2ea28ed71ea441cfa44395c77ffd5c9a
@@ -14067,6 +14102,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Draw 1 card for each other Follow Up you have in play.
   tags: []
 - name: Swinging Suplex
   db_uuid: e4f6b42b80c14e09890be122efa44c50
@@ -14084,6 +14120,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If your opponent has a Stop in play, put 1 card from your discard pile on top of your deck.
   tags: []
 - name: Throat Slam
   db_uuid: e3eb18f01ec64bc88ae88e43076da9ed
@@ -14092,6 +14129,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: If you have another Follow Up in play, draw 1 card and you may play 1 additional card this turn.
   tags: []
 - name: Tilt-a-Whirl Backbreaker
   db_uuid: 32587b073c0141c8bd8d970529306a18
@@ -14143,6 +14181,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in your hand.
+
+    When the Crowd Meter is 2 or greater this card is also a Lead.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Working Mom Makes Trash Can and Pineapple Champions
   db_uuid: 14f5311fc26e4e58bc210bb7026a8afb
@@ -14151,6 +14194,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
+  rules_text: Draw 1 card for each Lead your opponent has in play.
   tags: []
 - name: Abdominal Stretch (V1)
   db_uuid: 731363a81ad9432ebcdd36cc63cde50c
@@ -14778,6 +14822,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your opponent randomly discards 1 card from their hand.
+
+    Bury up to 2 cards in any player''s discard pile.
+
+    If this is a Ring of Fire or Lumberjack match, double these numbers.'
   tags: []
 - name: Backfist
   db_uuid: e21f8097022c4c808385e7bcbad49eae
@@ -14786,6 +14835,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If the Crowd Meter is a 1 or greater and your opponent has another Grapple in play, stop any Grapple.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Baseball Bat Knockdown
   db_uuid: a45e9e87f4fd45b1a724094ae5864092
@@ -14805,6 +14857,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Each player flips 1 card or if your opponent has another Grapple in play, stop any Grapple.
   tags: []
 - name: Blindside Smash
   db_uuid: 6ff9ea12ebc84264b9a6e3ccc31c6f2a
@@ -14855,6 +14908,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple
+
+    or each player buries 1 card in their discard pile.'
   tags: []
 - name: Counter Punching
   db_uuid: fa47c664aa2f4c7eb750d8176bbfd4e7
@@ -14863,6 +14919,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    +2 to Agility.'
   tags: []
 - name: Death Defying Elbow Drop (V1)
   db_uuid: 0c0a3d3523af430595a897fa757e9c43
@@ -37346,15 +37405,6 @@
   play_order: Followup
   deck_card_number: 13
   rules_text: If your Agility skill is at least 4 greater than your opponent's Agility skill, or this match has "Table" in the name, stop any Grapple.
-  tags: []
-- name: Kitchen Sink
-  db_uuid: 3236959286624d2d94d8130dc2962e56
-  srgpc_url: https://www.srgpc.net/cards/13/kitchen-sink/
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 13
-  rules_text: Search your deck for 1 Strike and put it on top of your shuffled deck.
   tags: []
 - name: Learning The House Rules
   db_uuid: 59e634f8a2ae4b8dab81176bfac5a327

@@ -37837,6 +37837,7 @@
 - name: The Good The Bad and The Whiskey
   db_uuid: 3cc05805288f4e449952b5d86889671f
   srg_url: https://supershowthegame.com/product/the-good-the-bad-and-the-whiskey/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-good-the-bad-and-the-whiskey/
   card_type: TrioCompetitorCard
   power: 27
   technique: 24

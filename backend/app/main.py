@@ -4,6 +4,7 @@ See LICENSE.txt for details.
 """
 
 import os
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from routers import cards
@@ -18,9 +19,12 @@ from fastapi.responses import FileResponse
 __version__ = "%(prog)s 1.0.0 (Rel: 07 Aug 2025)"
 default_log_format = "%(filename)s:%(levelname)s:%(asctime)s] %(message)s"
 
-IMAGES_ROOT = "/path/to/images"
-# IMAGES_ROOT = "/home/dondo/srg_card_search_website/images"
-# IMAGES_ROOT = "/home/brandon/data/srg_card_search_website/images"
+# Get the directory where main.py lives
+BASE_DIR = Path(__file__).resolve().parent
+
+# Relative paths from the backend directory
+IMAGES_ROOT = BASE_DIR / "images"
+UPLOADS_ROOT = BASE_DIR / "uploads"
 
 app = FastAPI()
 
@@ -34,13 +38,13 @@ app.add_middleware(
 
 app.mount(
     "/images/thumbnails",
-    StaticFiles(directory=f"{IMAGES_ROOT}/thumbnails"),
+    StaticFiles(directory=str(IMAGES_ROOT / "thumbnails")),
     name="thumbnails",
 )
 
 app.mount(
     "/images/fullsize",
-    StaticFiles(directory=f"{IMAGES_ROOT}/fullsize"),
+    StaticFiles(directory=str(IMAGES_ROOT / "fullsize")),
     name="fullsize",
 )
 

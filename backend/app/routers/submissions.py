@@ -24,8 +24,9 @@ def get_db():
         db.close()
 
 
-# Ensure uploads directory exists
-UPLOADS_DIR = Path("uploads")
+# Get uploads directory relative to backend root
+BASE_DIR = Path(__file__).resolve().parent.parent
+UPLOADS_DIR = BASE_DIR / "uploads"
 UPLOADS_DIR.mkdir(exist_ok=True)
 MISSING_CARDS_DIR = UPLOADS_DIR / "missing_cards"
 MISSING_IMAGES_DIR = UPLOADS_DIR / "missing_images"

@@ -36479,6 +36479,7 @@
   tags: []
 - name: Law & Paw Connection
   db_uuid: 6060f5b0056140c9a39e3128cdebae7f
+  srgpc_url: https://www.srgpc.net/cards/competitors/law-paw-connection/
   card_type: TornadoCompetitorCard
   power: 10
   technique: 12
@@ -36492,6 +36493,10 @@
 
     3 times per match: You may force your opponent to re-roll a turn or Finish roll.'
   tags: []
+  related_finishes:
+    - f17df0c2772e4a62819e90e7c90ed893
+    - df4a7e8e8f6a4b8caa87c2234938f6ee
+    - 00ba26808be048f1812d581a65b46adb
 - name: League of Extraordinary Grapplers
   db_uuid: 1314440f282c473dbb9499d5a4b48601
   srg_url: https://supershowthegame.com/product/league-of-extraordinary-grapplers/
@@ -37847,6 +37852,9 @@
     - 9e58305626554e9caf7dc101d5920c3e
     - b10575053f8a4750a44e1ed4d0a21b5d
     - e26b1b54b610493b9fbe997986f5f9fa
+    - f17df0c2772e4a62819e90e7c90ed893
+    - df4a7e8e8f6a4b8caa87c2234938f6ee
+    - 00ba26808be048f1812d581a65b46adb
 - name: 'Jeugusa: Death Strike'
   db_uuid: 9e58305626554e9caf7dc101d5920c3e
   card_type: MainDeckCard
@@ -39908,6 +39916,7 @@
   db_uuid: 9e7bd58c7c754fd0a18d2cd4fe547b12
   srgpc_url: https://www.srgpc.net/entrance/the-year-of-the-witch-with-borah-brewington/
   card_type: EntranceCard
+  rules_text: Replace "Three Times per Match" with "Five Times per Match" in your Gimmick.
   tags: []
 - name: Magnet and Steel
   db_uuid: f17df0c2772e4a62819e90e7c90ed893
@@ -39915,24 +39924,47 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  rules_text: ''
+  rules_text: '+4 to Technique
+
+    +2 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile and you roll Grapple for your turn roll, you may switch it to Technique.'
   tags: []
+  related_cards:
+    - 6060f5b0056140c9a39e3128cdebae7f
+    - 3cc05805288f4e449952b5d86889671f
 - name: The Law and Paw Drop
   db_uuid: df4a7e8e8f6a4b8caa87c2234938f6ee
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  rules_text: ''
+  rules_text: '+4 to Technique
+
+    If stopped, put this card into play.'
   tags: []
+  related_cards:
+    - 6060f5b0056140c9a39e3128cdebae7f
+    - 3cc05805288f4e449952b5d86889671f
 - name: The Hard Way
   db_uuid: 00ba26808be048f1812d581a65b46adb
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: ''
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +2 to Agility
+
+    Once per turn: You may use your Gimmick to make your opponent re-roll their Breakout Roll.'
   tags: []
+  related_cards:
+    - 6060f5b0056140c9a39e3128cdebae7f
+    - 3cc05805288f4e449952b5d86889671f
 - name: Supersonica
   db_uuid: 4bcdec3ecc6445fbb9be4aa897d17972
   card_type: SingleCompetitorCard

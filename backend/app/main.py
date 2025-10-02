@@ -17,9 +17,9 @@ from fastapi.responses import FileResponse
 __version__ = "%(prog)s 1.0.0 (Rel: 07 Aug 2025)"
 default_log_format = "%(filename)s:%(levelname)s:%(asctime)s] %(message)s"
 
-IMAGES_ROOT = "/path/to/images"
+# IMAGES_ROOT = "/path/to/images"
 # IMAGES_ROOT = "/home/dondo/srg_card_search_website/images"
-# IMAGES_ROOT = "/home/brandon/data/srg_card_search_website/images"
+IMAGES_ROOT = "/home/brandon/data/srg_card_search_website/images"
 
 app = FastAPI()
 

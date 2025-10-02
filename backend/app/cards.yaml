@@ -7501,7 +7501,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: Your opponent randomly buries 1 card in their hand>
+  rules_text: Your opponent randomly buries 1 card in their hand.
   tags: []
 - name: Greco Roman Takedown
   db_uuid: bbc5612baee94008ae4f5b03a6d413ed
@@ -27780,12 +27780,16 @@
     - 88eab7aa5e1c49dba359cb70d9a8dc88
     - 4fec27ebd1af4449bc8d2159286ad70d
 - name: Firestarter
+  db_uuid: 279f7634d67d4759a912ff9ab8865a4e
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: Firestarter (#28)
   db_uuid: a91e4a805d4e4439bd1a48295c27cfa2
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  division: Super Lucha
   rules_text: '+1 to Technique
 
     +4 to Strike
@@ -30088,6 +30092,7 @@
   tags: []
 - name: Lily Mai (V2)
   db_uuid: e2bac1fd8d714ca8a1864b32dc79cb04
+  srgpc_url: https://www.srgpc.net/competitor/lily-mai-v2/
   card_type: SingleCompetitorCard
   gender: Female
   power: 6
@@ -31213,7 +31218,7 @@
   submission: 5
   grapple: 8
   tags: []
-- name: Ninja Hummingbird
+- name: Ninja Hummingbird (V1)
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
   srgpc_url: https://www.srgpc.net/cards/competitors/ninja-hummingbird/
@@ -39927,4 +39932,39 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: ''
+  tags: []
+- name: Supersonica
+  db_uuid: 4bcdec3ecc6445fbb9be4aa897d17972
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: Ninja Hummingbird (V2)
+  db_uuid: 66d0f98dfaf143a5987afaed62824d27
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: Loeb The Collector
+  db_uuid: cb529308bc9847e581b0128f99719f04
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: Snake Pitt (V4)
+  db_uuid: a9e25560225244d3accd57034587220b
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: St. Macho
+  db_uuid: 4a15300ac41346d2a521fca4939c3404
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: Vik Vik DeDoom
+  db_uuid: d4780f9496154143ac792803b32fa4ea
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  tags: []
+- name: The Wolf Guardian
+  db_uuid: 8e1a2c4a56f141c9b0464681e3d720a7
+  card_type: SingleCompetitorCard
+  division: Super Lucha
   tags: []

@@ -144,7 +144,7 @@
   deck_card_number: 30
   rules_text: Your opponent gets 1 breakout roll this turn.
   tags: []
-- name: Lock Up
+- name: Lock Up (V1)
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
   srg_url: https://supershowthegame.com/product/02-lock-up/
   srgpc_url: https://www.srgpc.net/cards/2/lock-up/
@@ -154,7 +154,14 @@
   deck_card_number: 2
   rules_text: Stop any Lead Submission.
   tags: []
-- name: Headlock
+- name: Lock Up (V2)
+  db_uuid: 4ef8a4ab87eb4e59b84c517751de82ed
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  tags: []
+- name: Headlock (V1)
   db_uuid: 685b2201f4994f9785f6f966cd4030c7
   srg_url: https://supershowthegame.com/product/03-headlock-os/
   srgpc_url: https://www.srgpc.net/cards/3/headlock
@@ -163,6 +170,13 @@
   play_order: Lead
   deck_card_number: 3
   rules_text: Stop any Lead Strike.
+  tags: []
+- name: Headlock (V2)
+  db_uuid: 67509e0b8f394b27bf875395158d23e8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
   tags: []
 - name: Kick (V1)
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
@@ -4002,7 +4016,7 @@
   deck_card_number: 1
   rules_text: Stop any Lead Grapple or each player buries 1 card in their discard pile.
   tags: []
-- name: Punch
+- name: Punch (V1)
   db_uuid: 0870773b955340b998a08b7948e70974
   srg_url: https://supershowthegame.com/product/01-punch/
   srgpc_url: https://www.srgpc.net/cards/1/punch/
@@ -4011,6 +4025,13 @@
   play_order: Lead
   deck_card_number: 1
   rules_text: Stop any Lead Grapple.
+  tags: []
+- name: Punch (V2)
+  db_uuid: eff8c4aadc30499db366f1b22cb502cc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
   tags: []
 - name: Sheepish Collection
   db_uuid: 163943bd8e1441d08f3219deb9b9bfa4

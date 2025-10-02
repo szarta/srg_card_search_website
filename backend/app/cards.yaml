@@ -14205,6 +14205,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your opponent flips 2 cards for each card you have in play with "Ring Step" in the name.
+
+    You may add 1 other card you have in play with "Ring Step" in the name to your hand.'
   tags: []
 - name: Ambush With the Sledgehammer
   db_uuid: cff980d722a1413cb5d120435b693eeb
@@ -14213,6 +14216,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each card you have in play with "Sledgehammer" in the name, then bury 1 card in your hand.
   tags: []
 - name: Ambush With the Steel Chain
   db_uuid: 836ce42e15a44974a82d9731dfa2950e
@@ -14232,6 +14236,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, your opponent discards 1 card from their hand.
+
+    If this is a Steel Cage match, you may discard 1 card from your hand.'
   tags: []
 - name: Ambush with the Microphone
   db_uuid: 71ed55fc614247c18180a00e4d899600
@@ -14252,6 +14259,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Bury 1 card in your opponent's discard pile for each Submission you have in play.
   tags: []
 - name: Behind-the-Back Choke
   db_uuid: 9ce1ebeb67c04dacb3b976d0514d3a42
@@ -14268,6 +14276,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your opponent's next turn roll is -1 for each Lead they have in play.
   tags: []
 - name: Blind Tag
   db_uuid: be5533b00b8742ac97bac23f20edd19a
@@ -14276,6 +14285,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, your Tag Team partner may play a Lead or Follow Up this turn.
   tags: []
 - name: Body Crush
   db_uuid: 6096704f4338401c8652a3746505155a
@@ -14284,14 +14294,18 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play your next turn roll is +2.
   tags: []
 - name: Board, Pillage, Plunder!
   db_uuid: 393d3ddb280749519027c181bfcbb4d3
-  srgpc_url: https://www.srgpc.net/cards/18/raid-pillage-plunder-2/
+  srgpc_url: https://www.srgpc.net/cards/18/raid-pillage-plunder/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, flip 1 card and your next turn roll is +1.
+
+    When you have another Follow Up in play, your maximum handsize is +1.'
   tags: []
 - name: Body Stretch
   db_uuid: 70a3f3159eaa469fb5801bd4c7c45195
@@ -14557,10 +14571,14 @@
   tags: []
 - name: Raid, Pillage, Plunder!
   db_uuid: 9af181175e344f1cbf7547ba901db706
+  srgpc_url: https://www.srgpc.net/cards/18/raid-pillage-plunder-2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, flip 1 card and your next turn roll is +1.
+
+    When you have another Follow Up in play, your maximum handsize is +1.'
   tags: []
 - name: Rest Hold (V1)
   db_uuid: 974603edacbe44ad9c3091022849fd08

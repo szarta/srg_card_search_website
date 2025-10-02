@@ -5,6 +5,9 @@ import DeckList    from "./pages/DeckList";
 import ArticlePage from "./pages/ArticlePage";
 import TableView from "./pages/TableView";
 
+import SubmitMissingCard from "./pages/SubmitMissingCard";
+import SubmitMissingImage from "./pages/SubmitMissingImage";
+
 // NEW: Create List page (free-form list → table)
 import CreateList from "./pages/CreateList";
 
@@ -24,6 +27,9 @@ function App() {
 
             {/* NEW: Create List route */}
             <Route path="/create-list" element={<CreateList />} />
+
+            <Route path="/submit-missing-card" element={<SubmitMissingCard />} />
+            <Route path="/submit-missing-image" element={<SubmitMissingImage />} />
           </Routes>
         </main>
 
@@ -35,6 +41,8 @@ function App() {
               <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="/">Search</a></li>
                 <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li> {/* NEW link */}
+                <li><a className="hover:text-srgPurple" href="/submit-missing-card">Submit Missing Card</a></li>
+                <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
               </ul>
             </div>

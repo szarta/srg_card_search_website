@@ -4,10 +4,11 @@ Cards router
 
 from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session, joinedload
-from typing import Optional, List
+from typing import Optional, List, Tuple
 import re
 from pydantic import BaseModel
 from sqlalchemy import func
+
 
 from models.base import (
     Card,
@@ -119,153 +120,6 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
     return result
 
 
-@router.get("/cards", response_model=PaginatedCardResponse)
-def list_cards(
-    db: Session = Depends(get_db),
-    q: Optional[str] = Query(None, description="Search name, rules text, or tags"),
-    card_type: Optional[str] = Query(None),
-    atk_type: Optional[str] = Query(None),
-    play_order: Optional[str] = Query(None),
-    deck_card_number: Optional[int] = Query(None),
-    is_banned: Optional[bool] = Query(None),
-    release_set: Optional[str] = Query(None),
-    limit: int = Query(20, ge=1, le=100),
-    offset: int = Query(0, ge=0),
-    sort_order: str = Query("asc", enum=["asc", "desc"]),
-    power: Optional[int] = Query(None),
-    agility: Optional[int] = Query(None),
-    strike: Optional[int] = Query(None),
-    submission: Optional[int] = Query(None),
-    grapple: Optional[int] = Query(None),
-    technique: Optional[int] = Query(None),
-    division: Optional[str] = Query(None, min_length=0, max_length=100),
-    gender: Optional[Gender] = Query(None),
-):
-    """
-    Robust list endpoint:
-      - Query concrete mappers directly (CompetitorCard, MainDeckCard) so subclass columns hydrate.
-      - Query base Card for other types (EntranceCard, SpectacleCard, CrowdMeterCard).
-      - Merge, sort in Python, then paginate.
-    Scale is fine (≈2k rows).
-    """
-
-    def apply_common_filters(qry, cls):
-        if q:
-            # Match name, rules text, OR tags across all card types
-            qry = qry.filter(
-                (cls.name.ilike(f"%{q}%"))
-                | (cls.rules_text.ilike(f"%{q}%"))
-                | (func.array_to_string(cls.tags, " ").ilike(f"%{q}%"))
-            )
-
-        if is_banned is not None:
-            qry = qry.filter(cls.is_banned == is_banned)
-        if release_set:
-            qry = qry.filter(cls.release_set == release_set)
-        return qry
-
-    items: List[Card] = []
-
-    # ---- Single Competitors (can filter gender) ----
-    if card_type is None or card_type == CardType.single_competitor.value:
-        sq = db.query(SingleCompetitorCard)
-        sq = apply_common_filters(sq, SingleCompetitorCard)
-        # Optional: scope by type if explicitly requested (harmless if None)
-        if card_type == CardType.single_competitor.value:
-            sq = sq.filter(
-                SingleCompetitorCard.card_type == CardType.single_competitor.value
-            )
-        if division:
-            sq = sq.filter(SingleCompetitorCard.division.ilike(f"%{division}%"))
-        if gender is not None:
-            sq = sq.filter(SingleCompetitorCard.gender == gender)
-        # Stat filters
-        if power is not None:
-            sq = sq.filter(SingleCompetitorCard.power == power)
-        if agility is not None:
-            sq = sq.filter(SingleCompetitorCard.agility == agility)
-        if strike is not None:
-            sq = sq.filter(SingleCompetitorCard.strike == strike)
-        if submission is not None:
-            sq = sq.filter(SingleCompetitorCard.submission == submission)
-        if grapple is not None:
-            sq = sq.filter(SingleCompetitorCard.grapple == grapple)
-        if technique is not None:
-            sq = sq.filter(SingleCompetitorCard.technique == technique)
-        items += sq.all()
-
-    # ---- Tornado/Trio Competitors (no gender column here) ----
-    tt_types = [CardType.tornado_competitor.value, CardType.trio_competitor.value]
-    if card_type is None or card_type in tt_types:
-        cq = db.query(CompetitorCard)
-        cq = apply_common_filters(cq, CompetitorCard)
-
-        # Exclude singles so we don't duplicate results with the block above
-        if card_type is None:
-            cq = cq.filter(CompetitorCard.card_type.in_(tt_types))
-        else:
-            cq = cq.filter(CompetitorCard.card_type == card_type)
-        if division:
-            cq = cq.filter(CompetitorCard.division.ilike(f"%{division}%"))
-        # Stat filters
-        if power is not None:
-            cq = cq.filter(CompetitorCard.power == power)
-        if agility is not None:
-            cq = cq.filter(CompetitorCard.agility == agility)
-        if strike is not None:
-            cq = cq.filter(CompetitorCard.strike == strike)
-        if submission is not None:
-            cq = cq.filter(CompetitorCard.submission == submission)
-        if grapple is not None:
-            cq = cq.filter(CompetitorCard.grapple == grapple)
-        if technique is not None:
-            cq = cq.filter(CompetitorCard.technique == technique)
-        items += cq.all()
-
-    # ---- Main Deck ----
-    if card_type is None or card_type == CardType.main_deck.value:
-        mq = db.query(MainDeckCard)
-        mq = apply_common_filters(mq, MainDeckCard)
-        if atk_type in [e.value for e in AttackSubtype]:
-            mq = mq.filter(MainDeckCard.atk_type == atk_type)
-        if play_order in [e.value for e in PlayOrderSubtype]:
-            mq = mq.filter(MainDeckCard.play_order == play_order)
-        if deck_card_number is not None:
-            mq = mq.filter(MainDeckCard.deck_card_number == deck_card_number)
-
-        items += mq.all()
-
-    # ---- Other base-only types (Entrance, Spectacle, Crowd Meter, etc.) ----
-    other_types = {
-        CardType.entrance.value,
-        CardType.spectacle.value,
-        CardType.crowd_meter.value,
-    }
-    if card_type is None or card_type in other_types:
-        oq = db.query(Card)
-        oq = apply_common_filters(oq, Card)
-        if card_type in other_types:
-            oq = oq.filter(Card.card_type == card_type)
-        else:
-            # When unspecified, only include the "other" set here
-            oq = oq.filter(Card.card_type.in_(list(other_types)))
-        items += oq.all()
-
-    # ---- Merge + sort + paginate ----
-    reverse = sort_order == "desc"
-    items.sort(key=lambda c: (c.name or "").lower(), reverse=reverse)
-
-    total_count = len(items)
-    paged = items[offset : offset + limit]
-
-    return {
-        "total_count": total_count,
-        "items": [
-            safe_serialize_card(row, include_relationships=False) for row in paged
-        ],
-    }
-
-
 @router.get("/cards/slug/{slug}", response_model=CardSchema)
 def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
     # Broad filter by words to keep DB work reasonable, then exact-match via Python slugify
@@ -306,7 +160,9 @@ def get_card_by_slug(slug: str, db: Session = Depends(get_db)):
         card = (
             db.query(Card)
             .options(joinedload(Card.related_cards))
-            .filter(Card.db_uuid == card.db_uuid)  # <- This was the bug: db_uuid -> card.db_uuid
+            .filter(
+                Card.db_uuid == card.db_uuid
+            )  # <- This was the bug: db_uuid -> card.db_uuid
             .first()
         )
 
@@ -359,120 +215,6 @@ def get_card(db_uuid: str, db: Session = Depends(get_db)):
 class NamesRequest(BaseModel):
     names: list[str]
     quantities: list[int] | None = None  # accepted but ignored for now (unique cards)
-
-
-@router.post("/cards/by-names")
-def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
-    """
-    Resolve a list of card names to full card rows, preserving the order of the input.
-    Exact, case-insensitive name match. Returns any unmatched names for the UI to display.
-    """
-    if not payload.names:
-        return {"rows": [], "unmatched": []}
-
-    # 1) normalize inputs and preserve original order
-    ordered = []
-    seen_positions = {}
-    for i, raw in enumerate(payload.names):
-        name = (raw or "").strip()
-        if not name:
-            continue
-        ordered.append(name)
-        # remember first position for stable ordering of duplicates
-        seen_positions.setdefault(name.lower(), i)
-
-    if not ordered:
-        return {"rows": [], "unmatched": []}
-
-    lname_set = {n.lower() for n in ordered}
-
-    # 2) find candidate base rows by exact (case-insensitive) name
-    base_rows: list[Card] = (
-        db.query(Card).filter(func.lower(Card.name).in_(lname_set)).all()
-    )
-
-    # Map name(lower) -> list of db_uuids (just in case of duplicate names across types)
-    by_lname = {}
-    for c in base_rows:
-        by_lname.setdefault(c.name.lower(), []).append(c)
-
-    # 3) batch-hydrate by type so subclass columns (e.g. deck_card_number, stats) are present
-    singles, tornado_trio, maindeck, others = [], [], [], []
-    for c in base_rows:
-        if c.card_type == CardType.single_competitor.value:
-            singles.append(c.db_uuid)
-        elif c.card_type in {
-            CardType.tornado_competitor.value,
-            CardType.trio_competitor.value,
-        }:
-            tornado_trio.append(c.db_uuid)
-        elif c.card_type == CardType.main_deck.value:
-            maindeck.append(c.db_uuid)
-        else:
-            others.append(c.db_uuid)
-
-    # query each mapper
-    hydrated: dict[str, Card] = {}
-
-    if singles:
-        for row in (
-            db.query(SingleCompetitorCard)
-            .options(
-                joinedload(Card.related_cards),
-                joinedload(SingleCompetitorCard.related_finishes),
-            )
-            .filter(SingleCompetitorCard.db_uuid.in_(singles))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    if tornado_trio:
-        for row in (
-            db.query(CompetitorCard)
-            .options(
-                joinedload(Card.related_cards),
-                joinedload(CompetitorCard.related_finishes),
-            )
-            .filter(CompetitorCard.db_uuid.in_(tornado_trio))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    if maindeck:
-        for row in (
-            db.query(MainDeckCard)
-            .options(joinedload(Card.related_cards))
-            .filter(MainDeckCard.db_uuid.in_(maindeck))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row  # includes deck_card_number
-
-    if others:
-        for row in (
-            db.query(Card)
-            .options(joinedload(Card.related_cards))
-            .filter(Card.db_uuid.in_(others))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    # 4) build output in the order of the input names
-    rows_out = []
-    unmatched = []
-    for name in ordered:
-        candidates = by_lname.get(name.lower())
-        if not candidates:
-            unmatched.append(name)
-            continue
-        # If multiple rows share the same name, include them all
-        for c in candidates:
-            obj = hydrated.get(c.db_uuid, c)
-            rows_out.append(safe_serialize_card(obj))
-
-    return {"rows": rows_out, "unmatched": unmatched}
-
-
-# Add this class and endpoint to your cards.py file
 
 
 class UuidsRequest(BaseModel):
@@ -576,3 +318,410 @@ def cards_by_uuids(payload: UuidsRequest, db: Session = Depends(get_db)):
             missing.append(uuid_str)
 
     return {"rows": rows_out, "missing": missing}
+
+
+def normalize_for_matching(text: str) -> str:
+    """
+    Normalize text for fuzzy matching by:
+    - Converting to lowercase
+    - Removing all punctuation and special characters
+    - Collapsing multiple spaces to single space
+    - Trimming whitespace
+    """
+    if not text:
+        return ""
+    normalized = re.sub(r"[^a-z0-9\s]", "", text.lower())
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized.strip()
+
+
+def _apply_common_filters(
+    qry, cls, q: Optional[str], is_banned: Optional[bool], release_set: Optional[str]
+):
+    """Extract common filter logic to reduce complexity"""
+    if q:
+        qry = qry.filter(
+            (cls.name.ilike(f"%{q}%"))
+            | (cls.rules_text.ilike(f"%{q}%"))
+            | (func.array_to_string(cls.tags, " ").ilike(f"%{q}%"))
+        )
+    if is_banned is not None:
+        qry = qry.filter(cls.is_banned == is_banned)
+    if release_set:
+        qry = qry.filter(cls.release_set == release_set)
+    return qry
+
+
+def _apply_stat_filters(
+    qry, cls, power, agility, strike, submission, grapple, technique
+):
+    """Extract stat filter logic"""
+    if power is not None:
+        qry = qry.filter(cls.power == power)
+    if agility is not None:
+        qry = qry.filter(cls.agility == agility)
+    if strike is not None:
+        qry = qry.filter(cls.strike == strike)
+    if submission is not None:
+        qry = qry.filter(cls.submission == submission)
+    if grapple is not None:
+        qry = qry.filter(cls.grapple == grapple)
+    if technique is not None:
+        qry = qry.filter(cls.technique == technique)
+    return qry
+
+
+def _query_single_competitors(
+    db: Session,
+    card_type,
+    q,
+    is_banned,
+    release_set,
+    division,
+    gender,
+    power,
+    agility,
+    strike,
+    submission,
+    grapple,
+    technique,
+) -> List[Card]:
+    """Query single competitor cards"""
+    if card_type is not None and card_type != CardType.single_competitor.value:
+        return []
+
+    sq = db.query(SingleCompetitorCard)
+    sq = _apply_common_filters(sq, SingleCompetitorCard, q, is_banned, release_set)
+
+    if card_type == CardType.single_competitor.value:
+        sq = sq.filter(
+            SingleCompetitorCard.card_type == CardType.single_competitor.value
+        )
+    if division:
+        sq = sq.filter(SingleCompetitorCard.division.ilike(f"%{division}%"))
+    if gender is not None:
+        sq = sq.filter(SingleCompetitorCard.gender == gender)
+
+    sq = _apply_stat_filters(
+        sq, SingleCompetitorCard, power, agility, strike, submission, grapple, technique
+    )
+    return sq.all()
+
+
+def _query_tornado_trio_competitors(
+    db: Session,
+    card_type,
+    q,
+    is_banned,
+    release_set,
+    division,
+    power,
+    agility,
+    strike,
+    submission,
+    grapple,
+    technique,
+) -> List[Card]:
+    """Query tornado/trio competitor cards"""
+    tt_types = [CardType.tornado_competitor.value, CardType.trio_competitor.value]
+    if card_type is not None and card_type not in tt_types:
+        return []
+
+    cq = db.query(CompetitorCard)
+    cq = _apply_common_filters(cq, CompetitorCard, q, is_banned, release_set)
+
+    if card_type is None:
+        cq = cq.filter(CompetitorCard.card_type.in_(tt_types))
+    else:
+        cq = cq.filter(CompetitorCard.card_type == card_type)
+
+    if division:
+        cq = cq.filter(CompetitorCard.division.ilike(f"%{division}%"))
+
+    cq = _apply_stat_filters(
+        cq, CompetitorCard, power, agility, strike, submission, grapple, technique
+    )
+    return cq.all()
+
+
+def _query_main_deck_cards(
+    db: Session,
+    card_type,
+    q,
+    is_banned,
+    release_set,
+    atk_type,
+    play_order,
+    deck_card_number,
+) -> List[Card]:
+    """Query main deck cards"""
+    if card_type is not None and card_type != CardType.main_deck.value:
+        return []
+
+    mq = db.query(MainDeckCard)
+    mq = _apply_common_filters(mq, MainDeckCard, q, is_banned, release_set)
+
+    if atk_type in [e.value for e in AttackSubtype]:
+        mq = mq.filter(MainDeckCard.atk_type == atk_type)
+    if play_order in [e.value for e in PlayOrderSubtype]:
+        mq = mq.filter(MainDeckCard.play_order == play_order)
+    if deck_card_number is not None:
+        mq = mq.filter(MainDeckCard.deck_card_number == deck_card_number)
+
+    return mq.all()
+
+
+def _query_other_cards(db: Session, card_type, q, is_banned, release_set) -> List[Card]:
+    """Query entrance, spectacle, crowd meter cards"""
+    other_types = {
+        CardType.entrance.value,
+        CardType.spectacle.value,
+        CardType.crowd_meter.value,
+    }
+    if card_type is not None and card_type not in other_types:
+        return []
+
+    oq = db.query(Card)
+    oq = _apply_common_filters(oq, Card, q, is_banned, release_set)
+
+    if card_type in other_types:
+        oq = oq.filter(Card.card_type == card_type)
+    else:
+        oq = oq.filter(Card.card_type.in_(list(other_types)))
+
+    return oq.all()
+
+
+@router.get("/cards", response_model=PaginatedCardResponse)
+def list_cards(
+    db: Session = Depends(get_db),
+    q: Optional[str] = Query(None, description="Search name, rules text, or tags"),
+    card_type: Optional[str] = Query(None),
+    atk_type: Optional[str] = Query(None),
+    play_order: Optional[str] = Query(None),
+    deck_card_number: Optional[int] = Query(None),
+    is_banned: Optional[bool] = Query(None),
+    release_set: Optional[str] = Query(None),
+    limit: int = Query(20, ge=1, le=100),
+    offset: int = Query(0, ge=0),
+    sort_order: str = Query("asc", enum=["asc", "desc"]),
+    power: Optional[int] = Query(None),
+    agility: Optional[int] = Query(None),
+    strike: Optional[int] = Query(None),
+    submission: Optional[int] = Query(None),
+    grapple: Optional[int] = Query(None),
+    technique: Optional[int] = Query(None),
+    division: Optional[str] = Query(None, min_length=0, max_length=100),
+    gender: Optional[Gender] = Query(None),
+):
+    """
+    Robust list endpoint with reduced complexity.
+    Query concrete mappers directly so subclass columns hydrate.
+    """
+    items: List[Card] = []
+
+    # Query each card type using helper functions
+    items += _query_single_competitors(
+        db,
+        card_type,
+        q,
+        is_banned,
+        release_set,
+        division,
+        gender,
+        power,
+        agility,
+        strike,
+        submission,
+        grapple,
+        technique,
+    )
+
+    items += _query_tornado_trio_competitors(
+        db,
+        card_type,
+        q,
+        is_banned,
+        release_set,
+        division,
+        power,
+        agility,
+        strike,
+        submission,
+        grapple,
+        technique,
+    )
+
+    items += _query_main_deck_cards(
+        db, card_type, q, is_banned, release_set, atk_type, play_order, deck_card_number
+    )
+
+    items += _query_other_cards(db, card_type, q, is_banned, release_set)
+
+    # Sort and paginate
+    reverse = sort_order == "desc"
+    items.sort(key=lambda c: (c.name or "").lower(), reverse=reverse)
+
+    total_count = len(items)
+    paged = items[offset : offset + limit]
+
+    return {
+        "total_count": total_count,
+        "items": [
+            safe_serialize_card(row, include_relationships=False) for row in paged
+        ],
+    }
+
+
+def _build_normalized_lookup(all_cards: List[Card]) -> dict:
+    """Build normalized name lookup map"""
+    normalized_lookup = {}
+    for card in all_cards:
+        if card.name:
+            norm_name = normalize_for_matching(card.name)
+            if norm_name:
+                normalized_lookup.setdefault(norm_name, []).append(card)
+    return normalized_lookup
+
+
+def _match_input_names(
+    ordered: List[str], normalized_lookup: dict
+) -> Tuple[dict, List[str]]:
+    """Match input names to cards"""
+    matched_cards = {}
+    unmatched = []
+
+    for input_name in ordered:
+        norm_input = normalize_for_matching(input_name)
+        if norm_input in normalized_lookup:
+            matched_cards[input_name] = normalized_lookup[norm_input]
+        else:
+            unmatched.append(input_name)
+
+    return matched_cards, unmatched
+
+
+def _categorize_cards_by_type(
+    all_cards: List[Card], all_matched_uuids: set
+) -> Tuple[List[str], List[str], List[str], List[str], dict]:
+    """Categorize matched cards by type for batch hydration"""
+    singles, tornado_trio, maindeck, others = [], [], [], []
+    uuid_to_base_card = {}
+
+    for card in all_cards:
+        if card.db_uuid in all_matched_uuids:
+            uuid_to_base_card[card.db_uuid] = card
+            if card.card_type == CardType.single_competitor.value:
+                singles.append(card.db_uuid)
+            elif card.card_type in {
+                CardType.tornado_competitor.value,
+                CardType.trio_competitor.value,
+            }:
+                tornado_trio.append(card.db_uuid)
+            elif card.card_type == CardType.main_deck.value:
+                maindeck.append(card.db_uuid)
+            else:
+                others.append(card.db_uuid)
+
+    return singles, tornado_trio, maindeck, others, uuid_to_base_card
+
+
+def _hydrate_cards(
+    db: Session,
+    singles: List[str],
+    tornado_trio: List[str],
+    maindeck: List[str],
+    others: List[str],
+) -> dict:
+    """Hydrate cards with full relationships"""
+    hydrated = {}
+
+    if singles:
+        for row in (
+            db.query(SingleCompetitorCard)
+            .options(
+                joinedload(Card.related_cards),
+                joinedload(SingleCompetitorCard.related_finishes),
+            )
+            .filter(SingleCompetitorCard.db_uuid.in_(singles))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if tornado_trio:
+        for row in (
+            db.query(CompetitorCard)
+            .options(
+                joinedload(Card.related_cards),
+                joinedload(CompetitorCard.related_finishes),
+            )
+            .filter(CompetitorCard.db_uuid.in_(tornado_trio))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if maindeck:
+        for row in (
+            db.query(MainDeckCard)
+            .options(joinedload(Card.related_cards))
+            .filter(MainDeckCard.db_uuid.in_(maindeck))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    if others:
+        for row in (
+            db.query(Card)
+            .options(joinedload(Card.related_cards))
+            .filter(Card.db_uuid.in_(others))
+            .all()
+        ):
+            hydrated[row.db_uuid] = row
+
+    return hydrated
+
+
+@router.post("/cards/by-names")
+def cards_by_names(payload: NamesRequest, db: Session = Depends(get_db)):
+    """
+    Resolve card names using fuzzy matching.
+    Ignores punctuation, casing, and extra whitespace.
+    """
+    if not payload.names:
+        return {"rows": [], "unmatched": []}
+
+    # Normalize and order inputs
+    ordered = [name.strip() for name in payload.names if name and name.strip()]
+    if not ordered:
+        return {"rows": [], "unmatched": []}
+
+    # Fetch and build lookup
+    all_cards = db.query(Card).all()
+    normalized_lookup = _build_normalized_lookup(all_cards)
+
+    # Match inputs
+    matched_cards, unmatched = _match_input_names(ordered, normalized_lookup)
+
+    # Collect matched UUIDs
+    all_matched_uuids = {
+        card.db_uuid for cards_list in matched_cards.values() for card in cards_list
+    }
+
+    if not all_matched_uuids:
+        return {"rows": [], "unmatched": unmatched}
+
+    # Categorize and hydrate
+    singles, tornado_trio, maindeck, others, uuid_to_base_card = (
+        _categorize_cards_by_type(all_cards, all_matched_uuids)
+    )
+    hydrated = _hydrate_cards(db, singles, tornado_trio, maindeck, others)
+
+    # Build output preserving input order
+    rows_out = []
+    for input_name in ordered:
+        if input_name in matched_cards:
+            for card in matched_cards[input_name]:
+                obj = hydrated.get(card.db_uuid, uuid_to_base_card[card.db_uuid])
+                rows_out.append(safe_serialize_card(obj))
+
+    return {"rows": rows_out, "unmatched": unmatched}

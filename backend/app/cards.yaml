@@ -178,7 +178,7 @@
   play_order: Lead
   deck_card_number: 3
   tags: []
-- name: Kick (V1)
+- name: Kick
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
   srg_url: https://supershowthegame.com/product/04-kick/
   srgpc_url: https://www.srgpc.net/cards/4/kick/
@@ -2458,7 +2458,7 @@
 
     Your opponent cannot double team, save, or protect until the end of their next turn.'
   tags: []
-- name: Drawin' Dimes (V1)
+- name: Drawin' Dimes
   db_uuid: 3985ce9c65644441becdde562788868a
   srg_url: https://supershowthegame.com/product/07-drawin-dimes/
   srgpc_url: https://www.srgpc.net/cards/7/drawin-dimes/
@@ -2597,7 +2597,7 @@
 
     Bury 2 cards in any player''s discard pile.'
   tags: []
-- name: The Seven Seals
+- name: The Seven Seals (Strike)
   db_uuid: 9a58dadddf4d496386cdb4887febeae8
   srg_url: https://supershowthegame.com/product/14-the-seven-seals/
   srgpc_url: https://www.srgpc.net/cards/14/the-seven-seals/
@@ -3327,7 +3327,7 @@
 
     Your opponent''s maximum handsize is -6.'
   tags: []
-- name: Armageddon
+- name: Armageddon (Grapple)
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
   srg_url: https://supershowthegame.com/product/17-armageddon/
   srgpc_url: https://www.srgpc.net/cards/17/armageddon/
@@ -4847,7 +4847,7 @@
 
     If your next turn roll is Submission, draw 1 card.'
   tags: []
-- name: Handshake of Doom!
+- name: Handshake of Doom! (Power)
   db_uuid: b85f7a12240c4bb8a0fbe2a6666c310d
   srgpc_url: https://www.srgpc.net/cards/3/handshake-of-doom/
   card_type: MainDeckCard
@@ -5374,7 +5374,7 @@
   deck_card_number: 4
   rules_text: If your opponent does not have a Follow Up Grapple in play, stop any Follow Up Grapple. Draw 1 card, then bury 1 card in your hand.
   tags: []
-- name: Kick (V2)
+- name: Kick (Strike)
   db_uuid: aeda5fdd8c814f599ea38889c81ef3b1
   srgpc_url: https://www.srgpc.net/cards/4/kick-strike/
   card_type: MainDeckCard
@@ -6429,7 +6429,7 @@
   deck_card_number: 6
   rules_text: Flip cards until you flip a Follow Up. Add that Follow Up to your hand.
   tags: []
-- name: Irish Goodbye
+- name: Irish Goodbye (Power)
   db_uuid: a2dc3fdb9af84095b0218f6a3643cc94
   srgpc_url: https://www.srgpc.net/cards/6/irish-goodbye/
   card_type: MainDeckCard
@@ -6759,7 +6759,7 @@
   deck_card_number: 7
   rules_text: Choose 1 card your opponent has in play and put it into their discard pile, or bury your hand and draw the same number of cards.
   tags: []
-- name: Doomsday Lariat
+- name: Doomsday Lariat (Strike)
   db_uuid: 35ca2bdfe72b4553aaa134122d58685a
   srgpc_url: https://www.srgpc.net/cards/7/doomsday-lariat/
   card_type: MainDeckCard
@@ -6777,7 +6777,7 @@
   deck_card_number: 7
   rules_text: Reveal the top 2 cards of your deck, add 1 to your hand and shuffle the other back into your deck.
   tags: []
-- name: Drawin' Dimes (V2)
+- name: Drawin' Dimes (Strike)
   db_uuid: b684f046dbca4e608eeef10581716eb1
   srgpc_url: https://www.srgpc.net/cards/7/drawin-dimes-strike/
   card_type: MainDeckCard
@@ -7062,7 +7062,7 @@
   deck_card_number: 7
   rules_text: You may play 1 extra card this turn or if you have less cards in your hand than your opponent, draw 2 cards.
   tags: []
-- name: Rolling Forearm (V2)
+- name: Rolling Forearm (Technique)
   db_uuid: ae508887f4354efa8263f4396da7c661
   srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm-technique/
   card_type: MainDeckCard
@@ -7382,7 +7382,7 @@
   deck_card_number: 8
   rules_text: Search your deck for 1 Grapple and put it into your discard pile, then shuffle your deck, or shuffle 2 Grapples from your discard pile into your deck.
   tags: []
-- name: Call to the Crowd (V1)
+- name: Call to the Crowd
   db_uuid: 8f5cc32925ee425b9087a086a10b6d21
   srg_url: https://supershowthegame.com/product/08-call-to-the-crowd/
   srgpc_url: https://www.srgpc.net/cards/8/call-to-the-crowd-agility/
@@ -7392,7 +7392,7 @@
   deck_card_number: 8
   rules_text: You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards.
   tags: []
-- name: Call to the Crowd (V2)
+- name: Call to the Crowd (Agility)
   db_uuid: 3adee904e4614f00ad56f51e1db731e1
   srg_url: https://supershowthegame.com/product/08-call-to-the-crowd-agility/
   card_type: MainDeckCard
@@ -7880,7 +7880,7 @@
 
     When this card is in your discard pile: When you roll Power for your turn roll, you may put this card on top of your deck.'
   tags: []
-- name: Tornado Chin Takedown
+- name: Tornado Chin Takedown (Grapple)
   db_uuid: 3c568a5653024a46ac9c591d15ba39f2
   srgpc_url: https://www.srgpc.net/cards/8/tornado-chin-takedown/
   card_type: MainDeckCard
@@ -8030,7 +8030,7 @@
   deck_card_number: 9
   rules_text: Reveal 2 cards in your hand.  Add 1 Submission from your discard pile to your hand.
   tags: []
-- name: Atomic Chicken Wing
+- name: Atomic Chicken Wing (Submission)
   db_uuid: e17735b32e0c49eb80e8fe142130d920
   srgpc_url: https://www.srgpc.net/cards/9/atomic-chicken-wing/
   card_type: MainDeckCard
@@ -8079,7 +8079,7 @@
 
     When this card is in your discard pile: When you roll Technique for your turn roll, you may put this card on top of your deck.'
   tags: []
-- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V1)
+- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Submission)
   db_uuid: f7c98b41634a4272be29f4bf8a37bc9f
   srgpc_url: https://www.srgpc.net/cards/9/chugga-chugga-chugga-chugga-chugga-chugga-chug-submission/
   card_type: MainDeckCard
@@ -8090,7 +8090,7 @@
 
     If the Crowd Meter is 3 or greater, draw 5 cards instead. Skill Requirement: Submission 8+'
   tags: []
-- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V2)
+- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Agility)
   db_uuid: f275dfe7304d4014852c712b5bdd60b4
   srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug-agility/
   card_type: MainDeckCard
@@ -8099,9 +8099,11 @@
   deck_card_number: 9
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.'
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.
+
+    Skill Requirement: Agility 8+'
   tags: []
-- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V3)
+- name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug!
   db_uuid: 8a1299aa5d354566a8686984becacc19
   srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug/
   card_type: MainDeckCard
@@ -8675,7 +8677,7 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play your next turn roll is +2.
   tags: []
-- name: Bow to None (V1)
+- name: Bow to None (Strike)
   db_uuid: d2487aa241f340abb6c9a51551e30574
   srgpc_url: https://www.srgpc.net/cards/10/bow-to-none/
   card_type: MainDeckCard
@@ -8691,7 +8693,7 @@
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
-- name: Bow to None (V2)
+- name: Bow to None (Grapple)
   db_uuid: c3aaadb614e3476592b3d497d897c0fe
   srgpc_url: https://www.srgpc.net/cards/10/bow-to-none-grapple/
   card_type: MainDeckCard
@@ -9138,7 +9140,7 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each card you have in play with "Steel Chain" in the name.
   tags: []
-- name: Sucker Punch
+- name: Sucker Punch (Strike)
   db_uuid: 7b3feabbf1274a3cb65d7c03341f7fdb
   srgpc_url: https://www.srgpc.net/cards/10/sucker-punch/
   card_type: MainDeckCard
@@ -9288,7 +9290,7 @@
   deck_card_number: 11
   rules_text: Flip 2 cards for each Lead you have in play.
   tags: []
-- name: Boop!
+- name: Boop! (Grapple)
   db_uuid: e661937b0b72445db066c87d672c2777
   srgpc_url: https://www.srgpc.net/cards/11/boop/
   card_type: MainDeckCard
@@ -9368,7 +9370,7 @@
   deck_card_number: 11
   rules_text: Draw 1 card for each other Grapple you have in play.
   tags: []
-- name: Evening Up the Odds
+- name: Evening Up the Odds (Grapple)
   db_uuid: c0828ae2627a46bdb10824f36fbb1dc3
   srgpc_url: https://www.srgpc.net/cards/11/evening-up-the-odds/
   card_type: MainDeckCard
@@ -9521,7 +9523,7 @@
   deck_card_number: 11
   rules_text: Draw 1 card for each Grapple you have in play, then bury 1 card in your hand.
   tags: []
-- name: Pouring It On
+- name: Pouring It On (Technique)
   db_uuid: ba7c9b81d71c4d819b1af6f0b0ec68e5
   srgpc_url: https://www.srgpc.net/cards/11/pouring-it-on/
   card_type: MainDeckCard
@@ -9534,7 +9536,7 @@
 
     Skill Requirement: Technique 8+'
   tags: []
-- name: Put Some Respect On It!
+- name: Put Some Respect On It! (Grapple)
   db_uuid: 506a434f50d743d6bec704fa4eeb561f
   srgpc_url: https://www.srgpc.net/cards/11/put-some-respect-on-it/
   card_type: MainDeckCard
@@ -10140,7 +10142,7 @@
   deck_card_number: 12
   rules_text: If your opponent has a Stop in play, draw 2 cards.
   tags: []
-- name: Raise the Dead
+- name: Raise the Dead (Grapple, Technique)
   db_uuid: 6f992635e10e4478838254efbc1d4526
   srgpc_url: https://www.srgpc.net/cards/12/raise-the-dead/
   card_type: MainDeckCard
@@ -10190,7 +10192,7 @@
   deck_card_number: 12
   rules_text: Your next turn roll is +1 for each Submission your opponent has in play.
   tags: []
-- name: Rolling Forearm Lock
+- name: Rolling Forearm Lock (Submission)
   db_uuid: 16c6ece1c89d4ca68b5542346f5059c3
   srgpc_url: https://www.srgpc.net/cards/12/rolling-forearm-lock/
   card_type: MainDeckCard
@@ -10286,7 +10288,7 @@
   deck_card_number: 12
   rules_text: Draw 1 card for each Lead your opponent has in play.
   tags: []
-- name: The Buck Stops Here
+- name: The Buck Stops Here (Power)
   db_uuid: 6aa5ecac1a654b318251f565d0a6382b
   srgpc_url: https://www.srgpc.net/cards/12/the-buck-stops-here/
   card_type: MainDeckCard
@@ -10360,7 +10362,7 @@
   deck_card_number: 13
   rules_text: Stop any Finish Grapple that cannot be stopped. Your opponent's maximum hand size is -1.
   tags: []
-- name: Al13N Invasion
+- name: Al13N Invasion (Submission)
   db_uuid: 9e901f9a7d654524b28debe00a753ba4
   srgpc_url: https://www.srgpc.net/cards/13/al13n-invasion/
   card_type: MainDeckCard
@@ -10431,7 +10433,7 @@
 
     Each player buries 1 card in their opponent''s discard pile.'
   tags: []
-- name: Break the Seal
+- name: Break the Seal (Strike)
   db_uuid: 0501c8fc842843438d921f6a4e6e4633
   srgpc_url: https://www.srgpc.net/cards/13/break-the-seal/
   card_type: MainDeckCard
@@ -10462,7 +10464,7 @@
   deck_card_number: 13
   rules_text: If your Strike skill is at least 4 greater than your opponent's Strike skill or this match has "Chain" in the name, stop any Grapple.
   tags: []
-- name: Charging Spear
+- name: Charging Spear (Strike)
   db_uuid: 12f9cb40b0f9400281f9ca96ab56b638
   srgpc_url: https://www.srgpc.net/cards/13/charging-spear/
   card_type: MainDeckCard
@@ -10495,7 +10497,7 @@
 
     Draw 1 card then bury 1 card in your hand.'
   tags: []
-- name: Corner Slingshot
+- name: Corner Slingshot (Agility)
   db_uuid: 2faf498a93224155b250b76c5fdaaf6a
   srgpc_url: https://www.srgpc.net/cards/13/corner-slingshot/
   card_type: MainDeckCard
@@ -10546,7 +10548,7 @@
 
     When this card is in your discard pile, if your opponent stops a Strike, you may add it to your hand.'
   tags: []
-- name: Enzuigiri (V1)
+- name: Enzuigiri (Strike)
   db_uuid: 1ce5dc9c3d9749db80cdbc265e5876a8
   srgpc_url: https://www.srgpc.net/cards/13/enzuigiri-strike/
   card_type: MainDeckCard
@@ -10559,7 +10561,7 @@
 
     Skill Requirement: Strike 8+'
   tags: []
-- name: Enzuigiri (V2)
+- name: Enzuigiri (Agility)
   db_uuid: 3c33b1bed6d341339ef0ef5e1302692c
   srgpc_url: https://www.srgpc.net/cards/13/enzuigiri/
   card_type: MainDeckCard
@@ -10943,7 +10945,7 @@
   deck_card_number: 13
   rules_text: If your Strike skill is at least 4 greater than your opponent's Strike skill, or this match has "Ladder" in the name, stop any Grapple.
   tags: []
-- name: Slingshot Stomp
+- name: Slingshot Stomp (Submission)
   db_uuid: 15c2381d802d46bb8bea9562313fb44a
   srgpc_url: https://www.srgpc.net/cards/13/slingshot-stomp/
   card_type: MainDeckCard
@@ -10998,7 +11000,7 @@
 
     If the Crowd Meter is 5 or greater this card is also a Finish.'
   tags: []
-- name: Springboard Lion Splash
+- name: Springboard Lion Splash (Strike)
   db_uuid: 608ad20396494e9d98260a5a242f69d8
   srgpc_url: https://www.srgpc.net/cards/13/springboard-lion-splash/
   card_type: MainDeckCard
@@ -11151,7 +11153,7 @@
   related_cards:
     - fbb77ed95adc4564ae62b844fd31e073
     - b5f3821913f14a9ea4b45eb95aa3959b
-- name: Ultimate Corner Crush
+- name: Ultimate Corner Crush (Agility)
   db_uuid: a45c40686bba4f958a7f86b5ff5fc9aa
   srgpc_url: https://www.srgpc.net/cards/13/ultimate-corner-crush/
   card_type: MainDeckCard
@@ -11173,7 +11175,7 @@
   deck_card_number: 13
   rules_text: Each player flips 1 card or if your Agility skill is greater than your opponent's Agility skill, stop any Grapple.
   tags: []
-- name: Ura-zuki
+- name: Ura-zuki (Technique)
   db_uuid: b4d1d9bc02934c3b96ae58c4ad89e387
   srgpc_url: https://www.srgpc.net/cards/13/ura-zuki/
   card_type: MainDeckCard
@@ -11195,7 +11197,7 @@
 
     Each player draws 1 card.'
   tags: []
-- name: Alvin the Cat's Lucky Day
+- name: Alvin the Cat's Lucky Day (Grapple)
   db_uuid: 2fa0d8c8f2ae42e293857461e2a93785
   srgpc_url: https://www.srgpc.net/cards/14/alvin-the-cats-lucky-day/
   card_type: MainDeckCard
@@ -11315,7 +11317,7 @@
 
     Randomly reveal 1 card in your hand; if it has "Guitar" in the name, draw 1 card.'
   tags: []
-- name: Catch the Ropes
+- name: Catch the Ropes (Agility)
   db_uuid: 3aebaea664064346b166bff127e16ffc
   srgpc_url: https://www.srgpc.net/cards/14/catch-the-ropes/
   card_type: MainDeckCard
@@ -11344,7 +11346,7 @@
   deck_card_number: 14
   rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
   tags: []
-- name: Colossal Smash
+- name: Colossal Smash (Power, Grapple)
   db_uuid: 481837b6748045d6a46e524d24c2824a
   srgpc_url: https://www.srgpc.net/cards/14/colossal-smash/
   card_type: MainDeckCard
@@ -11461,7 +11463,7 @@
   deck_card_number: 14
   rules_text: Your Power skill is +1 during your turn and turn rolls.
   tags: []
-- name: Faceplant Piledriver
+- name: Faceplant Piledriver (Power)
   db_uuid: 3ce9b52b3b2a405db8ea055d11afc6d2
   srgpc_url: https://www.srgpc.net/cards/14/faceplant-piledriver/
   card_type: MainDeckCard
@@ -11716,7 +11718,7 @@
 
     Look at your opponent''s hand.'
   tags: []
-- name: Pull Down the Ropes
+- name: Pull Down the Ropes (Grapple)
   db_uuid: 30bf8aad2264401fb07376bc982dab12
   srgpc_url: https://www.srgpc.net/cards/14/pull-down-the-ropes/
   card_type: MainDeckCard
@@ -11751,7 +11753,7 @@
 
     Put 1 card from your discard pile on top of your deck.'
   tags: []
-- name: Running Suplex
+- name: Running Suplex (Power)
   db_uuid: 26cfd0d44eb74f748d7af6c624505cbe
   srgpc_url: https://www.srgpc.net/cards/14/running-suplex/
   card_type: MainDeckCard
@@ -11793,7 +11795,7 @@
 
     Draw 2 cards.'
   tags: []
-- name: Smashing Takedown
+- name: Smashing Takedown (Grapple)
   db_uuid: 9e865c9e649c49a38c943decf020613f
   srgpc_url: https://www.srgpc.net/cards/14/smashing-takedown/
   card_type: MainDeckCard
@@ -11817,7 +11819,7 @@
 
     You may re-roll your next turn roll.'
   tags: []
-- name: Soaring Suplex
+- name: Soaring Suplex (Agility)
   db_uuid: 0cf018349d3b4391b7dcc4bd20b62446
   srgpc_url: https://www.srgpc.net/cards/14/soaring-suplex/
   card_type: MainDeckCard
@@ -11861,7 +11863,7 @@
   deck_card_number: 14
   rules_text: Add 1 Stop from your discard pile to your hand.
   tags: []
-- name: Springboard Stunner
+- name: Springboard Stunner (Strike)
   db_uuid: f3c251dc6ed4452a8786cc4f5289b262
   card_type: MainDeckCard
   atk_type: Grapple
@@ -12067,7 +12069,7 @@
   deck_card_number: 15
   rules_text: Your next turn roll is +2.
   tags: []
-- name: Armenian Choke Hold
+- name: Armenian Choke Hold (Technique)
   db_uuid: 094a1bc0ebcb46ed8aa10cae1447f13c
   srgpc_url: https://www.srgpc.net/cards/15/armenian-choke-hold/
   card_type: MainDeckCard
@@ -12112,7 +12114,7 @@
 
     If this is a Steel Cage match, draw 2 cards.'
   tags: []
-- name: Beg for Mercy
+- name: Beg for Mercy (Grapple)
   db_uuid: c7c10be660374a0caa38dfab98aa0241
   srg_url: https://supershowthegame.com/product/15-beg-for-mercy/
   srgpc_url: https://www.srgpc.net/cards/15/beg-for-mercy/
@@ -12150,7 +12152,7 @@
 
     Put 1 Submission from your discard pile on top of your deck.'
   tags: []
-- name: Body Breaker
+- name: Body Breaker (Power)
   db_uuid: aa5aa53d68384d918f59f6819dd78e7f
   srgpc_url: https://www.srgpc.net/cards/15/body-breaker/
   card_type: MainDeckCard
@@ -12192,7 +12194,7 @@
   deck_card_number: 15
   rules_text: If your Submission skill is greater than your opponent's Submission skill, stop any Strike.
   tags: []
-- name: Capture Sleeper Hold
+- name: Capture Sleeper Hold (Technique)
   db_uuid: 052248bcf06740aeb41439fec8491033
   srgpc_url: https://www.srgpc.net/cards/15/capture-sleeper-hold/
   card_type: MainDeckCard
@@ -12244,7 +12246,7 @@
 
     Each player draws 1 card.'
   tags: []
-- name: Crossarm Chickenwing (V1)
+- name: Crossarm Chickenwing (Submission)
   db_uuid: 450354ee23574441a02b3125e0d5eb71
   srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing-submission/
   card_type: MainDeckCard
@@ -12257,7 +12259,7 @@
 
     Skill Requirement: Submission 8+'
   tags: []
-- name: Crossarm Chickenwing (V2)
+- name: Crossarm Chickenwing (Agility)
   db_uuid: c583520d1c4e4faf91ac3407095f2727
   srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing/
   card_type: MainDeckCard
@@ -12429,7 +12431,7 @@
 
     Your next turn roll is +1.'
   tags: []
-- name: Llama Lock
+- name: Llama Lock (Submission)
   db_uuid: b9690e28433a4d1bac0a4ff67b53af98
   srgpc_url: https://www.srgpc.net/cards/15/llama-lock/
   card_type: MainDeckCard
@@ -12514,7 +12516,7 @@
   deck_card_number: 15
   rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Submission skill is greater than your opponent's Submission skill, stop any Strike.
   tags: []
-- name: Rope Break (V1)
+- name: Rope Break (Power)
   db_uuid: 6c66c8d3e2914481bfd9f713ad147732
   srgpc_url: https://www.srgpc.net/cards/15/rope-break/
   card_type: MainDeckCard
@@ -12525,7 +12527,7 @@
 
     Skill Requirement: Power 8+'
   tags: []
-- name: Rope Break (V2)
+- name: Rope Break
   db_uuid: 910aab0a7e374b969d2d698e92dafdac
   srgpc_url: https://www.srgpc.net/cards/15/rope-break-njpw/
   card_type: MainDeckCard
@@ -12583,7 +12585,7 @@
   deck_card_number: 15
   rules_text: Your Submission skill is +1 during your turn and turn rolls.
   tags: []
-- name: Slingshot Lock
+- name: Slingshot Lock (Submission)
   db_uuid: 0a42936503ce4b02a0021c9509653591
   srgpc_url: https://www.srgpc.net/cards/15/slingshot-lock/
   card_type: MainDeckCard
@@ -12871,7 +12873,7 @@
   deck_card_number: 16
   rules_text: If you have 2 other Follow Ups in play, add 1 card from your discard pile to your hand and your next turn roll is +1.
   tags: []
-- name: Charged Cat Paws
+- name: Charged Cat Paws (Strike)
   db_uuid: 3754793328c04efcb6e463ee20d65705
   srgpc_url: https://www.srgpc.net/cards/16/charged-cat-paws/
   card_type: MainDeckCard
@@ -12920,7 +12922,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up or Finish Strike in play, your Grapple skill is +1.
   tags: []
-- name: Crane Kick
+- name: Crane Kick (Technique)
   db_uuid: 8cdeed7d9cfe44f780f6b0c38eeee2f8
   srgpc_url: https://www.srgpc.net/cards/16/crane-kick/
   card_type: MainDeckCard
@@ -12960,7 +12962,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up or Finish Strike in play, your Technique skill is +1.
   tags: []
-- name: Dogged Determination
+- name: Dogged Determination (Grapple)
   db_uuid: 2096dc76526c4fd682c484e9d8d3416c
   srgpc_url: https://www.srgpc.net/cards/16/dogged-determination/
   card_type: MainDeckCard
@@ -13070,14 +13072,18 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up in play, draw 2 cards.
   tags: []
-- name: Flying Forearm Shot
+- name: Flying Forearm Shot (Strike)
   db_uuid: ab5ab9c1b9aa4fb1818e3eb5fa4d435c
   srgpc_url: https://www.srgpc.net/cards/16/flying-forearm-shot/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 16
-  rules_text: "Stop \"Press Slam\".\n Draw 1 card for each Follow Up you have in play.\nSkill Requirement: Strike 8+"
+  rules_text: 'Stop "Press Slam".
+
+    Draw 1 card for each Follow Up you have in play.
+
+    Skill Requirement: Strike 8+'
   tags: []
   related_cards:
     - 1a5d9a8a26a24f2cb51ee4b26499286b
@@ -13352,7 +13358,7 @@
   tags: []
   related_cards:
     - 8734e9fde50c47b7a2e51cbc1adbc6de
-- name: Sky-High Punches
+- name: Sky-High Punches (Agility)
   db_uuid: 00da933daa9b4ff896b53a4dfa1bfa29
   srgpc_url: https://www.srgpc.net/cards/16/sky-high-punches/
   card_type: MainDeckCard
@@ -13573,7 +13579,7 @@
   deck_card_number: 17
   rules_text: Your next turn roll is +1 for each Grapple your opponent has in play.
   tags: []
-- name: Steel Chained Spinebuster
+- name: Steel Chained Spinebuster (Power)
   db_uuid: c55078d305bd4b4982cea8fbe56e12a1
   srg_url: https://supershowthegame.com/product/17-steel-chained-spinebuster/
   card_type: MainDeckCard
@@ -13711,7 +13717,7 @@
   deck_card_number: 17
   rules_text: If you have another Grapple in play, draw 2 cards.
   tags: []
-- name: Double Down on the Hits
+- name: Double Down on the Hits (Technique)
   db_uuid: c4e1d39cf4b64217814f77269094eef7
   srgpc_url: https://www.srgpc.net/cards/17/double-down-on-the-hits/
   card_type: MainDeckCard
@@ -13993,7 +13999,7 @@
   deck_card_number: 17
   rules_text: If you have 2 other Follow Ups in play, add 1 card from your discard pile to your hand and your next turn roll is +1.
   tags: []
-- name: Slam Through the Steel Cage
+- name: Slam Through the Steel Cage (Power)
   db_uuid: 689fe89a689e4870a50737ce6911a243
   srgpc_url: https://www.srgpc.net/cards/17/slam-through-the-steel-cage/
   card_type: MainDeckCard
@@ -14137,7 +14143,7 @@
   deck_card_number: 17
   rules_text: If you have another Follow Up in play, draw 1 card and you may play 1 additional card this turn.
   tags: []
-- name: Tilt-a-Whirl Backbreaker
+- name: Tilt-a-Whirl Backbreaker (Grapple)
   db_uuid: 32587b073c0141c8bd8d970529306a18
   srgpc_url: https://www.srgpc.net/cards/17/tilt-a-whirl-backbreaker/
   card_type: MainDeckCard
@@ -14180,7 +14186,7 @@
   deck_card_number: 17
   rules_text: If you have another Grapple in play, choose 1 card your opponent has in play and discard it.
   tags: []
-- name: Walking Slam
+- name: Walking Slam (Power)
   db_uuid: 03331eb028cf42879d5f9503b9642677
   srgpc_url: https://www.srgpc.net/cards/17/walking-slam/
   card_type: MainDeckCard
@@ -14415,7 +14421,7 @@
 
     If you are a Tag Team or Trio, your next turn roll is +2.'
   tags: []
-- name: Flying Head Scissors
+- name: Flying Head Scissors (Agility)
   db_uuid: ee70e768f539477eb5af803fcd28d8b6
   srgpc_url: https://www.srgpc.net/cards/18/flying-head-scissors/
   card_type: MainDeckCard
@@ -15179,7 +15185,7 @@
   play_order: Followup
   deck_card_number: 19
   tags: []
-- name: Lou Thez Press Punches
+- name: Lou Thez Press Punches (Strike)
   db_uuid: a7906a78bdfb46fcb59bd34e5b569419
   srg_url: https://supershowthegame.com/product/19-lou-thez-press-punches/
   srgpc_url: https://www.srgpc.net/cards/19/lou-thez-press-punches/
@@ -15417,7 +15423,7 @@
   play_order: Followup
   deck_card_number: 19
   tags: []
-- name: The 718 (V1)
+- name: The 718 (Strike)
   db_uuid: e2015f24413a4dd68fc7ae78fba3d78a
   srgpc_url: https://www.srgpc.net/cards/19/the-718-strike/
   card_type: MainDeckCard
@@ -15430,7 +15436,7 @@
 
     Skill Requirement: Strike 8+'
   tags: []
-- name: The 718 (V2)
+- name: The 718 (Agility)
   db_uuid: d0b0c27841854f7ca8ed6b64fa01c7d4
   card_type: MainDeckCard
   atk_type: Strike
@@ -15845,7 +15851,7 @@
   play_order: Followup
   deck_card_number: 20
   tags: []
-- name: Press Slam (V1)
+- name: Press Slam (Grapple)
   db_uuid: 1a5d9a8a26a24f2cb51ee4b26499286b
   srgpc_url: https://www.srgpc.net/cards/20/press-slam-grapple/
   card_type: MainDeckCard
@@ -15858,7 +15864,7 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
-- name: Press Slam (V2)
+- name: Press Slam (Power)
   db_uuid: 7c49b4a11b364873af1c67cd03273f64
   srgpc_url: https://www.srgpc.net/cards/20/press-slam-power/
   card_type: MainDeckCard
@@ -15993,7 +15999,7 @@
   play_order: Followup
   deck_card_number: 20
   tags: []
-- name: Super Powerbomb
+- name: Super Powerbomb (Power)
   db_uuid: 2ecb0737e9244d04807b32f573cdfeb9
   srgpc_url: https://www.srgpc.net/cards/20/super-powerbomb/
   card_type: MainDeckCard
@@ -16146,7 +16152,7 @@
 
     Each player draws 1 card.'
   tags: []
-- name: Barrel It Up
+- name: Barrel It Up (Technique)
   db_uuid: 31b41aab40f24de4ae214833dc02a967
   srgpc_url: https://www.srgpc.net/cards/21/barrel-it-up/
   card_type: MainDeckCard
@@ -16192,7 +16198,7 @@
   play_order: Followup
   deck_card_number: 21
   tags: []
-- name: Body Tangle
+- name: Body Tangle (Submission)
   db_uuid: 190d5544bfbf4d9fb7b5614a439e970f
   srgpc_url: https://www.srgpc.net/cards/21/body-tangle/
   card_type: MainDeckCard
@@ -16299,7 +16305,7 @@
   deck_card_number: 21
   rules_text: +1 to Agility
   tags: []
-- name: Full Nelson (V1)
+- name: Full Nelson (Submission)
   db_uuid: 0e6380f5281947439c1c62b75e9934f1
   srgpc_url: https://www.srgpc.net/cards/21/full-nelson-submission/
   card_type: MainDeckCard
@@ -16312,7 +16318,7 @@
 
     Skill Requirement: Submission 8+'
   tags: []
-- name: Full Nelson (V2)
+- name: Full Nelson (Technique)
   db_uuid: 7f8f679347c3493183871867fa8cf65f
   srgpc_url: https://www.srgpc.net/cards/21/full-nelson-technique/
   card_type: MainDeckCard
@@ -16787,7 +16793,7 @@
   play_order: Followup
   deck_card_number: 22
   tags: []
-- name: Booty Drop Chop (V1)
+- name: Booty Drop Chop (Power)
   db_uuid: c09f41ad04af40429b15946cb58aa674
   srgpc_url: https://www.srgpc.net/cards/22/booty-drop-chop/
   card_type: MainDeckCard
@@ -16804,7 +16810,7 @@
 
     Skill Requirement: Power 8+'
   tags: []
-- name: Booty Drop Chop (V2)
+- name: Booty Drop Chop (Strike)
   db_uuid: 92c1ff259f5e4b6b931c90a13c3c1851
   srgpc_url: https://www.srgpc.net/cards/22/booty-drop-chop-strike/
   card_type: MainDeckCard
@@ -17447,7 +17453,7 @@
   play_order: Followup
   deck_card_number: 22
   tags: []
-- name: 2 Birds, 1 Stone
+- name: 2 Birds, 1 Stone (Power)
   db_uuid: baf307a1efc84f9aba8400c7a71494f8
   srgpc_url: https://www.srgpc.net/cards/23/2-birds-1-stone/
   card_type: MainDeckCard
@@ -17500,7 +17506,7 @@
   play_order: Followup
   deck_card_number: 23
   tags: []
-- name: Back From the Brink
+- name: Back From the Brink (Grapple)
   db_uuid: b3ebd706f77b49299cb2c674b1312bb0
   srgpc_url: https://www.srgpc.net/cards/23/back-from-the-brink/
   card_type: MainDeckCard
@@ -17529,7 +17535,7 @@
   play_order: Followup
   deck_card_number: 23
   tags: []
-- name: Blindside Suplex
+- name: Blindside Suplex (Grapple)
   db_uuid: 4e266f93eb034d498cde022b81363fd0
   srgpc_url: https://www.srgpc.net/cards/23/blindside-suplex/
   card_type: MainDeckCard
@@ -17857,7 +17863,7 @@
   play_order: Followup
   deck_card_number: 23
   tags: []
-- name: Pizza Toss
+- name: Pizza Toss (Power)
   db_uuid: 187971b3e7dd4e1ea94a4e388139a2b6
   srgpc_url: https://www.srgpc.net/cards/23/pizza-toss/
   card_type: MainDeckCard
@@ -17878,7 +17884,7 @@
   play_order: Followup
   deck_card_number: 23
   tags: []
-- name: Powerbomb
+- name: Powerbomb (Power)
   db_uuid: 73d02e53f7f745a0aba77497b5898f5d
   srgpc_url: https://www.srgpc.net/cards/23/powerbomb/
   card_type: MainDeckCard
@@ -18147,7 +18153,7 @@
 
     If either player rolls Technique for their turn roll, their turn roll is -1.'
   tags: []
-- name: Chained STF
+- name: Chained STF (Technique)
   db_uuid: e70d6b10480e43ada49c96c42b216061
   srg_url: https://supershowthegame.com/product/24-chained-stf/
   card_type: MainDeckCard
@@ -18362,7 +18368,7 @@
   play_order: Followup
   deck_card_number: 24
   tags: []
-- name: Flipping Armbar
+- name: Flipping Armbar (Technique)
   db_uuid: bcf42a8ec06841ac9a77866d59f3b20d
   srgpc_url: https://www.srgpc.net/cards/24/flipping-armbar/
   card_type: MainDeckCard
@@ -18375,7 +18381,7 @@
 
     Skill Requirement: Technique 8+'
   tags: []
-- name: Flying Fly Trap
+- name: Flying Fly Trap (Submission)
   db_uuid: 9f1a114cac8142c8becd277019c49208
   srgpc_url: https://www.srgpc.net/cards/24/flying-fly-trap/
   card_type: MainDeckCard
@@ -19310,7 +19316,7 @@
 
     Your next turn roll is +2.'
   tags: []
-- name: Supersonic Slap
+- name: Supersonic Slap (Strike)
   db_uuid: 3eeadbda73264d15badba997eda3dadc
   srgpc_url: https://www.srgpc.net/cards/25/supersonic-slap/
   card_type: MainDeckCard
@@ -19419,7 +19425,7 @@
 
     Search your deck for 1 Grapple and put it on top of your shuffled deck.'
   tags: []
-- name: Atomic Slam
+- name: Atomic Slam (Grapple)
   db_uuid: b1dfbe3fbfa74d90bc704d3107172329
   srgpc_url: https://www.srgpc.net/cards/26/atomic-slam/
   card_type: MainDeckCard
@@ -38270,7 +38276,7 @@
 
     Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
   tags: []
-- name: Leg Lariat (#4)
+- name: Leg Lariat (Strike)
   db_uuid: 1677c8c12ec548fd8cdc4a69775d3014
   srgpc_url: https://www.srgpc.net/cards/4/leg-lariat/
   card_type: MainDeckCard
@@ -38356,7 +38362,7 @@
   deck_card_number: 5
   rules_text: Search your deck or discard pile for a Skill Requirement card and add it to your hand.
   tags: []
-- name: Snap DDT (#5)
+- name: Snap DDT (Grapple)
   db_uuid: 11518230c6d34f2c89782c3a0ddc7d2c
   srg_url: https://supershowthegame.com/product/05-snap-ddt/
   srgpc_url: https://www.srgpc.net/cards/5/snap-ddt/
@@ -38412,7 +38418,7 @@
 
     Look at your opponent''s hand, choose 1 Follow Up Strike and discard it.'
   tags: []
-- name: Leg & Arm Lock (#6)
+- name: Leg & Arm Lock (Submission)
   db_uuid: bb24276c105d412db101024b364fb084
   srg_url: https://supershowthegame.com/product/06-leg-arm-lock/
   srgpc_url: https://www.srgpc.net/cards/6/leg-arm-lock/
@@ -38582,7 +38588,7 @@
   deck_card_number: 10
   rules_text: Shuffle 1 card with "Potion" in the name from your discard pile into your deck for each card you have in play with "Potion" in the name.
   tags: []
-- name: Stomp the Taste Out of Your Mouth
+- name: Stomp the Taste Out of Your Mouth (Agility)
   db_uuid: 40fd23bcd9664887b452f54364ead911
   srgpc_url: https://www.srgpc.net/cards/10/stomp-the-taste-out-of-your-mouth/
   card_type: MainDeckCard
@@ -38769,7 +38775,7 @@
 
     Shuffle your deck.'
   tags: []
-- name: A Wolf in Sheep's Holding
+- name: A Wolf in Sheep's Holding (Power)
   db_uuid: 99800450889847ecb650e50df3c1c99e
   srg_url: https://supershowthegame.com/product/14-a-wolf-in-sheeps-holding/
   srgpc_url: https://www.srgpc.net/card/14/a-wolf-in-sheeps-holding/
@@ -39195,7 +39201,7 @@
 
     The Crowd Meter is considered +1 for all Stop text.'
   tags: []
-- name: Wonderful Championship Mugs
+- name: Wonderful Championship Mugs (Grapple)
   db_uuid: 64775305ff9544eaa4cd87992504fb13
   srgpc_url: https://www.srgpc.net/card/20/wonderful-championship-mugs/
   card_type: MainDeckCard
@@ -39426,7 +39432,7 @@
 
     Put the others back on top of their deck in any order.'
   tags: []
-- name: Leveling Up The Union
+- name: Leveling Up The Union (Power)
   db_uuid: b27addf2134b48298cb5e798ddd00729
   srgpc_url: https://www.srgpc.net/cards/23/leveling-up-the-union/
   card_type: MainDeckCard
@@ -39548,7 +39554,7 @@
   deck_card_number: 24
   rules_text: If you have 3 other Follow Ups in play, this card is a Finish instead.
   tags: []
-- name: Watchdog Wrench
+- name: Watchdog Wrench (Technique)
   db_uuid: 9c567c712f3c43b882cb92732e48e564
   srgpc_url: https://www.srgpc.net/cards/24/watchdog-wrench/
   card_type: MainDeckCard

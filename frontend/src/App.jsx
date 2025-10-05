@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
-import DeckList    from "./pages/DeckList";
+import DeckList from "./pages/DeckList";
 import ArticlePage from "./pages/ArticlePage";
 import TableView from "./pages/TableView";
 
@@ -11,9 +12,21 @@ import SubmitMissingImage from "./pages/SubmitMissingImage";
 // NEW: Create List page (free-form list → table)
 import CreateList from "./pages/CreateList";
 
+// Component to scroll to top on route change
+function ScrollToTop() {
+  const { pathname, key } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname, key]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col font-sans text-gray-100">
 
         {/* Main */}
@@ -40,7 +53,7 @@ function App() {
               <h3 className="text-white font-bold mb-2">Cards</h3>
               <ul className="space-y-1">
                 <li><a className="hover:text-srgPurple" href="/">Search</a></li>
-                <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li> {/* NEW link */}
+                <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li>
                 <li><a className="hover:text-srgPurple" href="/submit-missing-card">Submit Missing Card</a></li>
                 <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>

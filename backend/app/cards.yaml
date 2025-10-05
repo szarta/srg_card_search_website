@@ -14561,6 +14561,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each Stop you have in play.
   tags: []
 - name: Mop Twist Clutch
   db_uuid: 526e5935f2ef4d9aa25cbeb8c57c4547
@@ -14578,6 +14579,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your opponent flips 1 card for each Submission you have in play.
+
+    You bury 1 card in your opponent''s discard pile.'
   tags: []
 - name: Over the Top Choke
   db_uuid: df15a1077d714fdc93f2c89cb1b9aa46
@@ -14588,13 +14592,18 @@
   deck_card_number: 18
   rules_text: If you have another Follow Up in play, choose 1 card your opponent has in play and discard it.
   tags: []
-- name: Pasture Bedtime
+- name: Pasture Bedtime (Agility)
   db_uuid: c0ae3aadac0d484faa56658714b65491
   srgpc_url: https://www.srgpc.net/cards/18/pasture-bedtime/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your Agility skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
+
+    Skill Requirement: Agility 8+'
   tags: []
 - name: Peg Leg Shanghai
   db_uuid: 4742bc528df74d14902420fc4b8a1c1c
@@ -14603,6 +14612,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'If you have another Submission in play, shuffle 2 cards from your discard pile into your deck.
+
+    If this is a Ring of fire match, shuffle 4 cards instead.'
   tags: []
 - name: Pretzel Knot
   db_uuid: ae58fc2975ff4361aae77532ea0b5225
@@ -14611,6 +14623,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, draw the bottom card of your deck.
   tags: []
 - name: Repeating Stomps
   db_uuid: 329f74c3a88b44298ef4ff45955f0873
@@ -14619,6 +14632,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, look at the top 3 cards of your deck.  Add 1 to your hand and put the others back on the top or bottom of your deck in any order.
   tags: []
 - name: Raid, Pillage, Plunder!
   db_uuid: 9af181175e344f1cbf7547ba901db706
@@ -14638,6 +14652,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your opponent's next turn roll is -1 for each other Submission you have in play.
   tags: []
 - name: Rest Hold (V2)
   db_uuid: 0ccedd94e240407b8abba007d34e70f3
@@ -14645,6 +14660,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your opponent's next turn roll is -1 for each Submission you have in play.
   tags: []
 - name: Ride the Ropes
   db_uuid: 41d2afd6ed894674a4fab0b3301b17f2
@@ -14653,6 +14669,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, draw 1 card and your Tag Team partner draws 1 card.
   tags: []
 - name: Rolling Leg Lock
   db_uuid: 6b7f064321d64e158e9c1802579ea102
@@ -14661,14 +14678,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, you may re-roll your next turn roll.
   tags: []
-- name: Rope Choke
+- name: Rope Choke (Submission)
   db_uuid: ee379d4a00a049d5afe366eea5d593c2
   srgpc_url: https://www.srgpc.net/cards/18/rope-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Stop "The 718".
+
+    Draw 1 card for each Follow Up you have in play.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Royal Stretch
   db_uuid: 74cf731917f34a36b95f73234dd5c4cc
@@ -14677,6 +14700,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have 2 other Follow Ups in play, add 1 card from your discard pile to your hand and your next turn roll is +1.
   tags: []
 - name: Sheep and Cat Stretch
   db_uuid: fe541f43f10f4bf69efb2493c163be07
@@ -15024,6 +15048,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Each player adds the bottom card of their deck to their hand or if your opponent has another Grapple in play, stop any Grapple.
   tags: []
 - name: Dragon Gate Crash
   db_uuid: b687f6ae6f354444a7f4a1a08cad5537
@@ -16139,6 +16164,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   tags: []
 - name: Ankle Lock
   db_uuid: a006a77d4d8941f68e7089b1fa4e0a6d
@@ -18718,6 +18748,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Look at your opponent''s hand.
+
+    Add 1 card from your discard pile to your hand.'
   tags: []
 - name: Straightjacket Choke
   db_uuid: 110cfb4efaef4e02a5ea49ccb920d415
@@ -19772,6 +19805,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    Put 1 Grapple from your discard pile on top of your deck.'
   tags: []
 - name: Grab Hold of the Ropes
   db_uuid: 54beed9a437b488d8768075ce5ce487b
@@ -20213,6 +20249,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike or Finish Strike.
+
+    When you stop a card, the stopped card has blank text until the end of the turn.'
   tags: []
 - name: Hair Pull
   db_uuid: a1d6e00814d84d99a47615177934cb2c

@@ -55,7 +55,7 @@ function Layout() {
                 <li><a className="hover:text-srgPurple" to="/create-list">Create List</a></li>
                 <li><a className="hover:text-srgPurple" to="/submit-missing-card">Submit Missing Card</a></li>
                 <li><a className="hover:text-srgPurple" to="/submit-missing-image">Submit Missing Image</a></li>
-                <li><a className="hover:text-srgPurple" to="/decks">Decks</Link></li>
+                <li><a className="hover:text-srgPurple" to="/decks">Decks</a></li>
               </ul>
             </div>
             <div>

@@ -1,8 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function CardGrid({ cards }) {
-  const navigate = useNavigate();
-
   if (!cards || cards.length === 0) {
     return <p className="mt-4 text-gray-600">No cards found.</p>;
   }
@@ -36,10 +34,7 @@ export default function CardGrid({ cards }) {
         return (
           <Link
             to={`/card/${card.db_uuid}`}
-            onClick={(e) => {
-                e.preventDefault();
-                navigate(`/card/${card.db_uuid}`);
-            }}
+            reloadDocument
             key={card.db_uuid}
             className="block w-full transition-transform overflow-hidden md:hover:scale-105 md:focus:scale-105"
           >

@@ -3689,6 +3689,7 @@
   tags: []
 - name: I'm Just Getting Started
   db_uuid: 2b54e392daba4c21b09ce6d7825be25a
+  srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
   srgpc_url: https://www.srgpc.net/cards/1/im-just-getting-started/
   card_type: MainDeckCard
   atk_type: Strike
@@ -8705,6 +8706,21 @@
     Your opponent''s next turn roll is -2 for each Lead you have in play.
 
     Skill Requirement: Grapple 8+'
+  tags: []
+  related_cards:
+    - c7c10be660374a0caa38dfab98aa0241
+    - c8f2b59005a54db7aa26bacd590fdf31
+- name: Bow to None (Power)
+  db_uuid: 7c6bd0210fb8452e8339fb3837816631
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
+
+    Your opponent''s next turn roll is -2 for each Lead you have in play.
+
+    Skill Requirement: Power 8+'
   tags: []
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
@@ -38268,6 +38284,7 @@
   tags: []
 - name: No More Tough Talk?
   db_uuid: c74150feba7146119250135ee9422b53
+  srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
   srgpc_url: https://www.srgpc.net/cards/3/no-more-tough-talk/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39546,6 +39563,7 @@
   tags: []
 - name: Cradle with the Steel Chair
   db_uuid: 098bfa921180406fa795dffa9b5749b7
+  srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
   srgpc_url: https://www.srgpc.net/cards/24/cradle-with-the-steel-chair/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39738,6 +39756,17 @@
   rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Strike.
 
     Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Cradle With the Steel Chain
+  db_uuid: 68d2116c59be4a4e85d359fcd68028f5
+  srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike.
+
+    If you have "Set Up the Steel Chain" or "Steel Chain" in play, this card is also a Finish.'
   tags: []
 - name: Cosmic Rest Hold
   db_uuid: fc0caee9d298483ead2154fd1f49d27a

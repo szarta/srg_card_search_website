@@ -14295,6 +14295,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, look at the top 3 cards of your opopnent's deck, you may flip any number of them, put the others back on top in any order.
   tags: []
 - name: Berserker Dragon Rack
   db_uuid: 70d0fcda73894f7ebc517ef911523c48
@@ -14341,6 +14342,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your next turn roll is +1 for each other Submission you have in play.
   tags: []
 - name: Choke Hold
   db_uuid: 9731cdb78db74098a21fde5f6041bab1
@@ -14349,6 +14351,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, draw 2 cards.
   tags: []
 - name: Clutching Stomps
   db_uuid: e617633b735f4395a9f05f4ed61fe3c2
@@ -14357,6 +14360,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, draw 1 card and you may play 1 additional card this turn.
   tags: []
 - name: Cravate
   db_uuid: ab7a4ce2470645e1878bb70d3dc34d71
@@ -14365,6 +14369,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your next turn roll is +1 for each other Follow Up you have in paly.
   tags: []
 - name: Dragon Leg Lock
   db_uuid: c3804dbe611b43a0b85c7c5a7694857e
@@ -14374,7 +14379,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
-  rules_text: If you ahve another Follow Up in play, your opponent buries 1 card in their hand.
+  rules_text: If you have another Follow Up in play, your opponent buries 1 card in their hand.
   tags: []
 - name: Feeling Dangerous
   db_uuid: 70bc7806864a424fa99a21177c8d5b06
@@ -14400,6 +14405,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, draw 2 cards.
   tags: []
 - name: Fish Hook
   db_uuid: f82a79cf664e45d9986a2a45d936789f
@@ -14408,6 +14414,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Flock of Florida Friends
   db_uuid: 580a25c690bd4ef48b696b9d3a5d25af
@@ -14441,6 +14448,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Cannot be stopped by "Rejected".  If you have another Follow Up in play, draw 1 card.
   tags: []
 - name: Half Nelson Headlock
   db_uuid: a35050be02f74b8d88cae4d650cd0067
@@ -14449,6 +14457,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, shuffle 1 Submission from your discard pile into your deck and draw 1 card.
   tags: []
 - name: Hanging Headlock
   db_uuid: 2ac63c6211324b24947736cdfad2005a
@@ -14457,6 +14466,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play your next turn roll is +2.
   tags: []
 - name: Head Crunch
   db_uuid: 4bdf6a555cf548f2a62dc2aaf16dc404
@@ -14465,14 +14475,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Shuffle 1 card from your discard pile into your deck for each other Follow Up you have in play.
   tags: []
-- name: High Impact Face-Off
+- name: High Impact Face-Off (Submission)
   db_uuid: 18eac3ff8b8a41d888e4112df04b4999
   srgpc_url: https://www.srgpc.net/cards/18/high-impact-face-off/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your Technique skill is +2 during Finish rolls.
+
+    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Imperial Stretch
   db_uuid: 35aec9fdee7147bc806067d9e14b5d1d
@@ -14481,6 +14497,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, add 1 Stop from your discard pile to your hand.
   tags: []
 - name: Inner Fire
   db_uuid: b69706f41a28432d8390607d1fa70516
@@ -14489,6 +14506,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each Grapple you have in play.
   tags: []
 - name: Kaboomarang
   db_uuid: 3a487aa1494f465ab48b6cf9229538bf
@@ -14497,6 +14515,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your next turn roll is +1 for each Stop in play.
   tags: []
 - name: King's Wrench
   db_uuid: 0df1a55f54e54ba9a9e5005a7caafcd5
@@ -14505,6 +14524,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If your opponent has a Stop in play, draw 2 cards.
   tags: []
 - name: Legendary Triangle
   db_uuid: 9583e4cd3d7c41dabb2feec49c999293
@@ -14513,6 +14533,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Grapple skill is +1.
   tags: []
 - name: Leveling Back Up
   db_uuid: 3b09e27af2014de3b3007a8610655999
@@ -14525,10 +14546,13 @@
   tags: []
 - name: Mind Games (#18)
   db_uuid: 9aa6c291b28245a09e248eea3c602a60
+  srg_url: https://supershowthegame.com/product/18-mind-games/
+  srgpc_url: https://www.srgpc.net/cards/18/mind-games/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Technique skill is +1.
   tags: []
 - name: Mirror of Desire
   db_uuid: 3b0df0810baa453b9825917e129168b6
@@ -39084,15 +39108,6 @@
   rules_text: 'Flip 2 cards for each Follow Up you have in play.
 
     Add 1 card with "Table" in the name from your discard pile to your hand.'
-  tags: []
-- name: Mind Games
-  db_uuid: d48c15fa1f5e4766b3f2836b64636d49
-  srgpc_url: https://www.srgpc.net/cards/18/mind-games/
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Followup
-  deck_card_number: 18
-  rules_text: If you have another Follow Up or Finish Submission in play, your Technique skill is +1.
   tags: []
 - name: Thunderous Rib Cracker
   db_uuid: 8d6d8774c9c14e47a1b178add7376669

@@ -6705,6 +6705,8 @@
   tags: []
 - name: Calling for Backup
   db_uuid: 87f37eb7cbcb4a4cb0c923bdb95b92dd
+  srg_url: https://supershowthegame.com/product/sfge-promo-bundle/
+  srgpc_url: https://www.srgpc.net/cards/1/calling-for-backup/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead

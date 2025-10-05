@@ -51,11 +51,11 @@ function Layout() {
             <div>
               <h3 className="text-white font-bold mb-2">Cards</h3>
               <ul className="space-y-1">
-                <li><Link className="hover:text-srgPurple" to="/">Search</Link></li>
-                <li><Link className="hover:text-srgPurple" to="/create-list">Create List</Link></li>
-                <li><Link className="hover:text-srgPurple" to="/submit-missing-card">Submit Missing Card</Link></li>
-                <li><Link className="hover:text-srgPurple" to="/submit-missing-image">Submit Missing Image</Link></li>
-                <li><Link className="hover:text-srgPurple" to="/decks">Decks</Link></li>
+                <li><a className="hover:text-srgPurple" to="/">Search</Link></li>
+                <li><a className="hover:text-srgPurple" to="/create-list">Create List</Link></li>
+                <li><a className="hover:text-srgPurple" to="/submit-missing-card">Submit Missing Card</Link></li>
+                <li><a className="hover:text-srgPurple" to="/submit-missing-image">Submit Missing Image</Link></li>
+                <li><a className="hover:text-srgPurple" to="/decks">Decks</Link></li>
               </ul>
             </div>
             <div>

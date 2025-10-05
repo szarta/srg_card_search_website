@@ -25,6 +25,7 @@ function parseNames(text) {
 export default function CreateList() {
   const query = useQuery();
   const navigate = useNavigate();
+  const location = useLocation(); // Add this
   const [text, setText] = useState("");
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -155,11 +156,6 @@ export default function CreateList() {
       // Extract UUIDs - try both db_uuid and uuid fields
       const cardUuids = rows.map(row => row.db_uuid || row.uuid).filter(Boolean);
 
-      // Debug logging
-      console.log("Sharing", cardUuids.length, "cards");
-      console.log("Sample card:", rows[0]);
-      console.log("First few UUIDs:", cardUuids.slice(0, 3));
-
       if (cardUuids.length === 0) {
         setErrors(["No valid card UUIDs found. Please rebuild the list."]);
         return;
@@ -237,7 +233,6 @@ export default function CreateList() {
       </p>
 
       <div className="grid gap-3 mb-4">
-        {/* List name input */}
         <input
           type="text"
           className="w-full rounded-xl border p-3 bg-white text-black border-slate-300
@@ -280,15 +275,15 @@ export default function CreateList() {
           <span className="font-semibold text-red-800">
             {errors.length === 1 && errors[0].includes("Unmatched")
               ? "Unmatched names:"
-              : "Errors:"
-            }
+              : "Errors:"}
           </span>
           <span className="text-red-700 ml-1">{errors.join(", ")}</span>
         </div>
       )}
 
-      {/* Pass share-related props to DeckGridFromNames */}
+      {/* Add key prop to force remount when location changes */}
       <DeckGridFromNames
+        key={location.search} // Force remount when URL params change
         rowsOverride={rows}
         pageSize={40}
         title="Preview"

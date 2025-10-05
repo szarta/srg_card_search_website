@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
@@ -17,8 +17,20 @@ function ScrollToTop() {
   const { pathname, key } = useLocation();
 
   useEffect(() => {
+    console.log('Route changed to:', pathname, 'key:', key);
     window.scrollTo(0, 0);
   }, [pathname, key]);
+
+  return null;
+}
+
+// Debug component to log route changes
+function RouteLogger() {
+  const location = useLocation();
+
+  useEffect(() => {
+    console.log('Location changed:', location);
+  }, [location]);
 
   return null;
 }
@@ -27,6 +39,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <RouteLogger />
       <div className="min-h-screen flex flex-col font-sans text-gray-100">
 
         {/* Main */}
@@ -52,11 +65,11 @@ function App() {
             <div>
               <h3 className="text-white font-bold mb-2">Cards</h3>
               <ul className="space-y-1">
-                <li><a className="hover:text-srgPurple" href="/">Search</a></li>
-                <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li>
-                <li><a className="hover:text-srgPurple" href="/submit-missing-card">Submit Missing Card</a></li>
-                <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
-                <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
+                <li><Link className="hover:text-srgPurple" to="/">Search</Link></li>
+                <li><Link className="hover:text-srgPurple" to="/create-list">Create List</Link></li>
+                <li><Link className="hover:text-srgPurple" to="/submit-missing-card">Submit Missing Card</Link></li>
+                <li><Link className="hover:text-srgPurple" to="/submit-missing-image">Submit Missing Image</Link></li>
+                <li><Link className="hover:text-srgPurple" to="/decks">Decks</Link></li>
               </ul>
             </div>
             <div>

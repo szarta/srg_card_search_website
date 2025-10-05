@@ -34,6 +34,7 @@ export default function CardGrid({ cards }) {
         return (
           <Link
             to={`/card/${card.db_uuid}`}
+            reloadDocument
             key={card.db_uuid}
             className="block w-full transition-transform overflow-hidden md:hover:scale-105 md:focus:scale-105"
           >

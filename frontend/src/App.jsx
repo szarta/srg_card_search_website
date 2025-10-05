@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, Link, Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
@@ -8,8 +8,6 @@ import TableView from "./pages/TableView";
 
 import SubmitMissingCard from "./pages/SubmitMissingCard";
 import SubmitMissingImage from "./pages/SubmitMissingImage";
-
-// NEW: Create List page (free-form list → table)
 import CreateList from "./pages/CreateList";
 
 // Component to scroll to top on route change
@@ -35,28 +33,16 @@ function RouteLogger() {
   return null;
 }
 
-function App() {
+// Layout component that wraps all routes
+function Layout() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <RouteLogger />
       <div className="min-h-screen flex flex-col font-sans text-gray-100">
-
         {/* Main */}
         <main className="flex-grow w-full px-4 py-6">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/card/:idOrSlug" element={<CardDetail />} />
-            <Route path="/table" element={<TableView />} />
-            <Route path="/decks" element={<DeckList />} />
-            <Route path="/decks/:slug" element={<ArticlePage />} />
-
-            {/* NEW: Create List route */}
-            <Route path="/create-list" element={<CreateList />} />
-
-            <Route path="/submit-missing-card" element={<SubmitMissingCard />} />
-            <Route path="/submit-missing-image" element={<SubmitMissingImage />} />
-          </Routes>
+          <Outlet />
         </main>
 
         {/* Footer */}
@@ -95,8 +81,29 @@ function App() {
           </div>
         </footer>
       </div>
-    </Router>
+    </>
   );
+}
+
+// Create the router using React Router v7 API
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/card/:idOrSlug", element: <CardDetail /> },
+      { path: "/table", element: <TableView /> },
+      { path: "/decks", element: <DeckList /> },
+      { path: "/decks/:slug", element: <ArticlePage /> },
+      { path: "/create-list", element: <CreateList /> },
+      { path: "/submit-missing-card", element: <SubmitMissingCard /> },
+      { path: "/submit-missing-image", element: <SubmitMissingImage /> },
+    ],
+  },
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
 }
 
 export default App;

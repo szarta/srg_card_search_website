@@ -25836,6 +25836,7 @@
   tags: []
 - name: Brett the Metal Head
   db_uuid: 7349f9255a09467696401a2869c7fa29
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -25851,8 +25852,11 @@
     - e7f190b908f841e48a2761b3c1de8ff0
     - 44eefcdcf69f4bd89eb0801064532bad
     - 8c71b37310a746e99ccc3ba8477da89e
+    - 670350643b0049f1bf0b2f6091c0732a
+    - ed3f7b3645aa4f5cbb8dd40ed1ffe216
 - name: The Soundcheck
   db_uuid: e7f190b908f841e48a2761b3c1de8ff0
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -25865,6 +25869,7 @@
   tags: []
 - name: Slammed Into Nowhere
   db_uuid: 44eefcdcf69f4bd89eb0801064532bad
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -25877,6 +25882,7 @@
   tags: []
 - name: The Hurtshooter
   db_uuid: 8c71b37310a746e99ccc3ba8477da89e
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -25886,6 +25892,38 @@
     +2 to Submission
 
     When your opponent rolls for a breakout roll: Add a card with "Crowd", "Elbow", or "Slam" in the name from your discard pile to your hand.'
+  tags: []
+- name: The Encore
+  db_uuid: 670350643b0049f1bf0b2f6091c0732a
+  srg_url: https://supershowthegame.com/product/everything-halloween/
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    If stopped, and you do not have "Call to the Crowd" in play, you lose the match via disqualification.'
+  tags: []
+- name: The Crowd's Elbow
+  db_uuid: ed3f7b3645aa4f5cbb8dd40ed1ffe216
+  srg_url: https://supershowthegame.com/product/everything-halloween/
+  srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Your opponent''s 1st breakout roll is -1 for each card you have in paly with "Crowd" in the name.
+
+    Your opponent''s 2nd breakout roll is -1 for each card you have in play with "Elbow" in the name.'
   tags: []
 - name: Brian Wait_4_It Schmidt
   db_uuid: 71b6b581c7a249958c2e512d3d89afaa

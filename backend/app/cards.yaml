@@ -27396,6 +27396,7 @@
   tags: []
 - name: Des the Destroyer
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
+  srg_url: https://supershowthegame.com/product/everything-halloween/
   srgpc_url: https://www.srgpc.net/competitors/des-the-destroyer/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -27407,6 +27408,52 @@
   submission: 7
   grapple: 10
   tags: []
+  related_finishes:
+    - addbe4eaa6f24f108292518013d0cd37
+    - d37525f8853547ab8d103f066ba7c32e
+    - 16c181aa48c84f898646e36f71943e6e
+- name: Desolate Destruction
+  db_uuid: addbe4eaa6f24f108292518013d0cd37
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +2 to Strike
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Hammer" in the name.'
+  tags: []
+  related_cards:
+    - 63c51da5b7fd43b4b4e51fd4f0f0c55f
+- name: Descent of the Hammer
+  db_uuid: d37525f8853547ab8d103f066ba7c32e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    When this card is in your discard pile and you hit a card with "Hammer" in the name, add 1 other card with "Hammer" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 63c51da5b7fd43b4b4e51fd4f0f0c55f
+- name: Hammer of Despair
+  db_uuid: 16c181aa48c84f898646e36f71943e6e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Agility is +1 for each card you have in play with "Hammer" in the name.
+
+    If your opponent breaks out, put 1 card with "Hammer" in the name from your hand into play.'
+  tags: []
+  related_cards:
+    - 63c51da5b7fd43b4b4e51fd4f0f0c55f
 - name: The Devil's Advocate (V1)
   db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
   srg_url: https://supershowthegame.com/product/the-devils-advocate/

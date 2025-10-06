@@ -33579,6 +33579,11 @@
   grapple: 7
   rules_text: 'When you roll Agility for your turn roll: Look at the top and bottom card of your deck, add 1 to your hand and bury the other.'
   tags: []
+  related_finishes:
+    - a1020ad6031c4ab0849e02fe2c9c558f
+    - 4906c1a70d344f00919269174eaba87e
+    - 4171d7464914421e9c36a381ed559aa1
+    - 0cf6579fa92548cc9b5a6690659c5425
 - name: Bonk!
   db_uuid: a1020ad6031c4ab0849e02fe2c9c558f
   card_type: MainDeckCard
@@ -33593,6 +33598,8 @@
 
     Look at the bottom 4 cards of your deck, add one to your hand and randomly bury the others.'
   tags: []
+  related_cards:
+    - 3f3f8b5b536443bb8552f182a2bf9fa0
 - name: Laughing in the Dark
   db_uuid: 4906c1a70d344f00919269174eaba87e
   card_type: MainDeckCard
@@ -33605,6 +33612,8 @@
 
     If stopped, bury this card and randomly bury 1 card in your hand.'
   tags: []
+  related_cards:
+    - 3f3f8b5b536443bb8552f182a2bf9fa0
 - name: Split Personality
   db_uuid: 4171d7464914421e9c36a381ed559aa1
   card_type: MainDeckCard
@@ -33617,6 +33626,8 @@
 
     When this card is in your discard pile, your opponent cannot move other cards from your discard pile.'
   tags: []
+  related_cards:
+    - 3f3f8b5b536443bb8552f182a2bf9fa0
 - name: Why So Serious?!?
   db_uuid: 0cf6579fa92548cc9b5a6690659c5425
   card_type: MainDeckCard
@@ -33629,6 +33640,8 @@
 
     Reveal the bottom card of your deck, if it is a Strike, your opponent''s 1st and 2nd breakout rolls are -1.'
   tags: []
+  related_cards:
+    - 3f3f8b5b536443bb8552f182a2bf9fa0
 - name: The SRG Boss (V1)
   db_uuid: 5bb1291d12d94245872efd166cdd72fc
   srg_url: https://supershowthegame.com/product/the-srg-boss/

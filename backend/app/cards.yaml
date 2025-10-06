@@ -3678,6 +3678,7 @@
   tags: []
 - name: Hammer Into The Table
   db_uuid: ca3c4a43a2d5401c8b05c3bd25096304
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/1/hammer-into-the-table/
   card_type: MainDeckCard
   atk_type: Strike
@@ -11987,6 +11988,7 @@
   tags: []
 - name: Unstable Upheaval
   db_uuid: 25678aec8d344a2398df457266b9184e
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/14/unstable-upheaval/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -32630,6 +32632,7 @@
   tags: []
 - name: Riggs Simmons (V2)
   db_uuid: d2ffdea36f394990b9c1d68695118e24
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -38254,6 +38257,7 @@
   tags: []
 - name: Table (V2)
   db_uuid: 0098aee23059474692e870959ec75bb5
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -38305,6 +38309,7 @@
   tags: []
 - name: Unpredictable Turn
   db_uuid: 8ab07b8fea6146e0925363b5b647e1fa
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/3/unpredictable-turn/
   card_type: MainDeckCard
   atk_type: Submission
@@ -38327,6 +38332,7 @@
   tags: []
 - name: Dive To The Outside
   db_uuid: 7705581120874fbda218552ab8172ff5
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/4/dive-to-the-outside/
   card_type: MainDeckCard
   atk_type: Strike
@@ -38547,6 +38553,7 @@
   tags: []
 - name: Smash Your Face Into the Table
   db_uuid: d6108b622abf48fbb2404ea2d22891ff
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/7/smash-your-face-into-the-table/
   card_type: MainDeckCard
   atk_type: Strike
@@ -38598,6 +38605,7 @@
   tags: []
 - name: Back Shots Off the Table
   db_uuid: 72b0a6a2732b4fa18b97d8d87de93a49
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/9/back-shots-off-the-table/
   card_type: MainDeckCard
   atk_type: Submission
@@ -38685,6 +38693,7 @@
   tags: []
 - name: Stunning Table Sacrifice
   db_uuid: e666ecbffa0d49308401b372473b3d8a
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/10/stunning-table-sacrifice/
   card_type: MainDeckCard
   atk_type: Strike
@@ -38767,6 +38776,7 @@
   tags: []
 - name: Table? FUHGETTABOUTIT!
   db_uuid: 91dbacad559d43629b6c2866d0058722
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/12/table-fuhgettaboutit/
   card_type: MainDeckCard
   atk_type: Submission
@@ -38796,6 +38806,7 @@
   tags: []
 - name: I Am the Table
   db_uuid: 31464fb1fb8c46ab9f6628d791148e11
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/13/i-am-the-table/
   card_type: MainDeckCard
   atk_type: Strike
@@ -38985,6 +38996,7 @@
   tags: []
 - name: Taunt from the Table
   db_uuid: 623e04e77164460d9594dbc95de258c4
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/15/taunt-from-the-table/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39055,6 +39067,7 @@
   tags: []
 - name: Inflight Drop on the Table
   db_uuid: e9a8a389dbca43988c946f866da7b6be
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/16/inflight-drop-on-the-table/
   card_type: MainDeckCard
   atk_type: Strike
@@ -39106,6 +39119,7 @@
   tags: []
 - name: Firebomb Through The Table
   db_uuid: 63c98b8fc9e049968c6ce9859a69b8db
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/17/firebomb-through-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -39158,6 +39172,7 @@
   tags: []
 - name: Light the Table on Fire
   db_uuid: 2ad0cf13f5d74ab2b2669724ab06b9de
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/18/light-the-table-on-fire/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39224,6 +39239,7 @@
   tags: []
 - name: Clear Off the Table
   db_uuid: 6ff609b823944c6692aa77e250a9030c
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/20/clear-off-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -39333,6 +39349,7 @@
   tags: []
 - name: Machine Gun Table Flip
   db_uuid: e04c0ff433db493e9afa9181a28c518b
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/21/machine-gun-table-flip/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39368,6 +39385,7 @@
   tags: []
 - name: Chokeslam Lariat Through The Table
   db_uuid: 71fe7b60ced74238bb449024527c1a80
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/22/chokeslam-lariat-through-the-table/
   card_type: MainDeckCard
   atk_type: Strike
@@ -39584,8 +39602,9 @@
 
     If either player rolls Submission for their Finish roll, their Finish roll is -1.'
   tags: []
-- name: Microphone Head Smash
+- name: Microphone Hand Smash
   db_uuid: 631e847a81e843bd883139707aec1dfe
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/24/microphone-hand-smash/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39683,8 +39702,9 @@
 
     Add 2 cards from your discard pile to your hand.'
   tags: []
-- name: Unchaimed Hammer Strike
+- name: Unchained Hammer Strike
   db_uuid: a9a7f26d9a97438a99cec4e1493de561
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/25/unchained-hammer-strike/
   card_type: MainDeckCard
   atk_type: Strike
@@ -39750,6 +39770,7 @@
   tags: []
 - name: Fire Rescue Hold
   db_uuid: 30cfd42d0a0b4f19a8c9d91d7293b71e
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/27/fire-rescue-hold/
   card_type: MainDeckCard
   atk_type: Submission
@@ -39816,6 +39837,19 @@
     - 24ec5d67706246339c11e414ce25f97c
     - 68d9d4bf73654a46a9da169e4f1676fb
     - 9a78c09e97a34569bd49c08839171c8c
+- name: Splash Through the Table
+  db_uuid: ac963b55d4124150bdece95f2be7744e
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If you have 2 cards in play with "Table" in the name, this card is considered to have your competitor logo.'
+  tags: []
 - name: Tooth and Nailed
   db_uuid: 24ec5d67706246339c11e414ce25f97c
   card_type: MainDeckCard
@@ -39832,6 +39866,14 @@
   tags: []
   related_cards:
     - 992dac94fa8944afab7d4ac757df2944
+- name: Slam Through the Table
+  db_uuid: 25d85a61d8824d5cb63b6ef0baac7f00
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Power and Grapple are +1 for each other card you have in play with "Table" in the name.
+  tags: []
 - name: Dropple-Ganger
   db_uuid: 68d9d4bf73654a46a9da169e4f1676fb
   card_type: MainDeckCard
@@ -39864,6 +39906,14 @@
   tags: []
   related_cards:
     - 992dac94fa8944afab7d4ac757df2944
+- name: Crush With the Table
+  db_uuid: 3e46783da4dc4c299b339d5a6a0cead7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Grapple and Submission are +1 for each other card you have in play with "Table" in the name.
+  tags: []
 - name: Fire Hammer Slam
   db_uuid: 94c2903feafa44089dc0a3af51d7569e
   srg_url: https://supershowthegame.com/product/20-fire-hammer-slam/

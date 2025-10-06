@@ -39837,6 +39837,20 @@
     - 24ec5d67706246339c11e414ce25f97c
     - 68d9d4bf73654a46a9da169e4f1676fb
     - 9a78c09e97a34569bd49c08839171c8c
+- name: Bearcat Dropkick (Strike)
+  db_uuid: 00640b78aeb64edc84f73f8b01bd1c8c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Draw 1 card.
+
+    If your Finish roll is 6 or less, it is +2.
+
+    Skill Requirement: Strike 8+'
+  tags: []
 - name: Splash Through the Table
   db_uuid: ac963b55d4124150bdece95f2be7744e
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -39966,6 +39980,16 @@
   db_uuid: 5224820cfea446b6938f65d7154bd2f0
   card_type: EntranceCard
   rules_text: 'Once per match: When you would bump, draw 2 cards instead and each player re-rolls their turn roll.'
+  tags: []
+- name: L.F.F. Means Love for Family
+  db_uuid: dfaf152a7c314007af725e3f365ee375
+  srg_url: https://supershowthegame.com/product/gen-con-2025-promo-bundle/
+  card_type: EntranceCard
+  rules_text: 'After you or your target roll these printed skills for your turn roll:
+
+    5-6-6
+
+    That player draws one card.'
   tags: []
 - name: Keeping the L.F.F. Old School
   db_uuid: 5b15aeea06114c8c9dae93c209b55e5d

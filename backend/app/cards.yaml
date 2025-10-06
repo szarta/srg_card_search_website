@@ -2432,6 +2432,17 @@
 
     Add 2 Strikes from your discard pile to your hand or your next turn roll is +1.'
   tags: []
+- name: Blindside Tackle
+  db_uuid: ec82e20d3b184af083ccf764a19b747c
+  srg_url: https://supershowthegame.com/product/kickstarter-comic-promos/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    Your next turn roll is +2 for each Finish in your discard pile.'
+  tags: []
 - name: Cold Snap
   db_uuid: a82a43f981a247b8b69a79b169e18891
   srg_url: https://supershowthegame.com/product/01-cold-snap/
@@ -17359,6 +17370,7 @@
   tags: []
 - name: Send It Home
   db_uuid: 7bf9bbc9966043fbbb12162a8d043130
+  srg_url: https://supershowthegame.com/product/kickstarter-comic-promos/
   srgpc_url: https://www.srgpc.net/cards/22/send-it-home/
   card_type: MainDeckCard
   atk_type: Strike

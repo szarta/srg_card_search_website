@@ -14419,6 +14419,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your opponent''s next turn roll is -1 for each other Follow Up you have in play.
+
+    When this card is in your discard pile and you have 11 or more cards in your hand, you may add it to your hand.'
   tags: []
 - name: Figure-4 Leg Lock
   db_uuid: db40d60bfeb44e4aa95b7c1725197097
@@ -14740,6 +14743,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Agility skill is +1.
   tags: []
 - name: Sleeper Hold
   db_uuid: 7e232d4350c44522a1a28c211b5e2903
@@ -14757,6 +14761,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Strike skill is +1.
   tags: []
 - name: Soup'r Angled Crab
   db_uuid: f42eb6454c7e41b089ba563fdd333ab5
@@ -14765,6 +14770,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Submission skill is +1.
   tags: []
 - name: Spinning Head Twist
   db_uuid: deca348de3fc4b69b8e80de86c708ce8
@@ -14773,6 +14779,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up or Finish Submission in play, your Power skill is +1.
   tags: []
 - name: Straddle Over the Top Rope
   db_uuid: 786000894c2b469dbd7f04148a6a7e5d
@@ -14792,6 +14799,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, add 1 Finish from your discard pile to your hand.
   tags: []
 - name: Strong Island Tabletop Clutch
   db_uuid: 9677ed825ce8429ba9ee4d2f48cbc06b
@@ -14800,6 +14808,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each Lead your opponent has in play.
   tags: []
 - name: Surfboard Kick
   db_uuid: 638513ebcbc24b1aa663cca7185f01c2
@@ -14808,6 +14817,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Stop "The 718".
+
+    Bury 1 card in your hand for each Follow Up you have in play.'
   tags: []
 - name: Surfboard Stretch
   db_uuid: 15ad488671a040729c857ff349606e66
@@ -14816,6 +14828,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each other Submission you have in play.
   tags: []
 - name: Swinging Full Nelson
   db_uuid: 93bebf246f1d403dad1ed4db2c6a38e7
@@ -14824,6 +14837,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Draw 1 card for each Follow Up you have in play, then bury 1 card in your hand.
   tags: []
 - name: The Final Dungeon Lock
   db_uuid: 7813b9372f5f48b6ba725303efa36013
@@ -14832,14 +14846,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If your opponent has a Stop in play, choose 1 card your opponent has in play and discard it.
   tags: []
-- name: Throwing My Weight Around!
+- name: Throwing My Weight Around! (Power)
   db_uuid: b7b9179dc35d493d8023b20ccbdc8505
   srgpc_url: https://www.srgpc.net/cards/18/throwing-my-weight-around/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Cannot be stopped by "Rejected".
+
+    If you have another Submission in play, add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Torture Rack Backbreaker
   db_uuid: f745e63f7ce24c788cfefaf128db3abc
@@ -14848,6 +14868,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, you may re-roll your next turn roll.
   tags: []
 - name: Trap in the Trash Can
   db_uuid: dd564b05c934403aa1bef4e293343267
@@ -14856,6 +14877,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'If you have a Grapple in play, draw 1 card.
+
+    Your opponent cannot move this card from in play.'
   tags: []
 - name: Trap in the Turnbuckle
   db_uuid: 778bbbddf05e451ea54eeba0b8900581
@@ -14864,14 +14888,22 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Stop any Strike with "Double Team" in the text.
+
+    If you have another Follow Up in play, your Tag Team partner draws the bottom card of their deck.'
   tags: []
-- name: Trap With the Cage Door
+- name: Trap With the Cage Door (Technique)
   db_uuid: d2ee7f06ecb5438381bd019c3638ecc6
   srgpc_url: https://www.srgpc.net/cards/18/trap-with-the-cage-door/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: 'Your Submission skill is +2 during Finish Rolls.
+
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
+
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Tree of Woe
   db_uuid: 247289d34ac84cffa3eaff7dcaaae616
@@ -14880,6 +14912,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags: []
 - name: Work the Leg
   db_uuid: f07e65b8ff3c4dbb86eebe0419ef192b
@@ -14888,6 +14921,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: If you have another Submission in play, your opponent buries 1 card in their hand.
   tags: []
 - name: Work, Trashman, Work
   db_uuid: c4ed84178c9e4266871eede4d18174b1
@@ -14896,21 +14930,27 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
+  rules_text: Your next turn roll is +1 for each Submission your opponent has in play.
   tags: []
 - name: Working On the Knee (V1)
   db_uuid: 034ffd96fca043c9b52b5438c6614091
+  srgpc_url: https://www.srgpc.net/cards/18/working-on-the-knee/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: Flip 2 cards for each other Submission you have in play.
+  tags: []
+- name: Working On the Knee (V2)
+  db_uuid: 0f132037dfb64adb874783e107cae723
   srgpc_url: https://www.srgpc.net/cards/18/working-on-the-knee-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
-  tags: []
-- name: Working On the Knee (V2)
-  db_uuid: 0f132037dfb64adb874783e107cae723
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Followup
-  deck_card_number: 18
+  rules_text: 'Flip 2 cards for each Submission you have in play.
+
+    If this is a Triad match, your opponent''s next turn roll is -2.'
   tags: []
 - name: You're Not Ready
   db_uuid: 0100a2f0cb604367864f8e3a40bef90f

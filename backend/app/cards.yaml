@@ -33570,11 +33570,64 @@
   db_uuid: 3f3f8b5b536443bb8552f182a2bf9fa0
   card_type: SingleCompetitorCard
   division: Underworld
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  rules_text: 'When you roll Agility for your turn roll: Look at the top and bottom card of your deck, add 1 to your hand and bury the other.'
   tags: []
-- name: Split (V2)
-  db_uuid: 449d43de669140c5aacc34b0a7dcfb7e
-  card_type: SingleCompetitorCard
-  division: Underworld
+- name: Bonk!
+  db_uuid: a1020ad6031c4ab0849e02fe2c9c558f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Look at the bottom 4 cards of your deck, add one to your hand and randomly bury the others.'
+  tags: []
+- name: Laughing in the Dark
+  db_uuid: 4906c1a70d344f00919269174eaba87e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If stopped, bury this card and randomly bury 1 card in your hand.'
+  tags: []
+- name: Split Personality
+  db_uuid: 4171d7464914421e9c36a381ed559aa1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile, your opponent cannot move other cards from your discard pile.'
+  tags: []
+- name: Why So Serious?!?
+  db_uuid: 0cf6579fa92548cc9b5a6690659c5425
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Reveal the bottom card of your deck, if it is a Strike, your opponent''s 1st and 2nd breakout rolls are -1.'
   tags: []
 - name: The SRG Boss (V1)
   db_uuid: 5bb1291d12d94245872efd166cdd72fc

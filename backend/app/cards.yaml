@@ -37615,7 +37615,63 @@
 - name: Star Destroyers
   db_uuid: b11f4afc1d924ecbb63a978a156b8d7d
   srg_url: https://supershowthegame.com/product/boss-and-fauxtista-halloween/
+  srgpc_url: https://www.srgpc.net/competitors/star-destroyers/
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 10
+  agility: 18
+  strike: 20
+  submission: 16
+  grapple: 12
+  rules_text: 'When your opponent breaks out, you may play an additional card this turn as if it were also a Lead. "The Golden Gun" is also card #07 and "C.O.G." is also #24.'
+  tags: []
+  related_finishes:
+    - 8beed0a833584e6ab17b96eb46542464
+    - 386aa741e99a452b8ad736d19b121cf5
+    - 16892f40e8e54697874f8eca021681d8
+    - 61efe077075d460188c2e1ef7f26f16e
+- name: Star Struck
+  db_uuid: 386aa741e99a452b8ad736d19b121cf5
+  srg_url: https://supershowthegame.com/product/boss-and-fauxtista-halloween/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    If your Agility and Strike skills are greater than your opponent''s Agility and Strike skills, stop any Finish Grapple.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+- name: Down the Wormhole
+  db_uuid: 16892f40e8e54697874f8eca021681d8
+  srg_url: https://supershowthegame.com/product/boss-and-fauxtista-halloween/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    +4 to Grapple
+
+    Your opponent randomly reveals 3 cards in their hands and discards all Stops.'
+  tags: []
+- name: Spacial Domination
+  db_uuid: 61efe077075d460188c2e1ef7f26f16e
+  srg_url: https://supershowthegame.com/product/boss-and-fauxtista-halloween/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +5 to Technique
+
+    +1 to Submission
+
+    When your opponent rolls for a breakout roll, they randomly discard 2 cards from their hand.'
   tags: []
 - name: Cage and Verna
   db_uuid: 4a7e9d221c5143149ba9b86c65fcb7c0

@@ -39850,6 +39850,20 @@
 
     If you have 2 cards in play with "Table" in the name, this card is considered to have your competitor logo.'
   tags: []
+- name: A Powerful Drumstick Sealing
+  db_uuid: bf538f397cad4ea5a09ad3fb02738c8b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    When you have 2 cards with "Drumstick" in the name in play, this card is considered to have your Competitor logo.'
+  tags: []
 - name: Tooth and Nailed
   db_uuid: 24ec5d67706246339c11e414ce25f97c
   card_type: MainDeckCard

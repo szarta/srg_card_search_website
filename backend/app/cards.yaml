@@ -39868,6 +39868,7 @@
     - 992dac94fa8944afab7d4ac757df2944
 - name: Slam Through the Table
   db_uuid: 25d85a61d8824d5cb63b6ef0baac7f00
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -39908,6 +39909,7 @@
     - 992dac94fa8944afab7d4ac757df2944
 - name: Crush With the Table
   db_uuid: 3e46783da4dc4c299b339d5a6a0cead7
+  srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish

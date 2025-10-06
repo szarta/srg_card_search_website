@@ -20553,6 +20553,21 @@
 
     Take any number of Lead cards from your discard pile and shuffle them into your deck, then draw the same number of cards.'
   tags: []
+- name: Loaded Gut Punch
+  db_uuid: 1b251025059948b482ebba1d38ff9e79
+  srg_url: https://supershowthegame.com/product/everything-halloween/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
 - name: Styles Cash
   db_uuid: 14bcf3aca242404cb309594e2bbb2d7b
   card_type: MainDeckCard
@@ -37887,8 +37902,36 @@
 - name: Welcome to Wonderland
   db_uuid: 44c958d3b8e740c8b9e58530de84673e
   srg_url: https://supershowthegame.com/product/welcome-to-wonderland/
+  srgpc_url: https://www.srgpc.net/cards/competitors/welcome-to-wonderland/
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 10
+  agility: 14
+  strike: 20
+  submission: 12
+  grapple: 18
+  rules_text: 'During any turn, when you would draw any number of cards, you may instead add the same number of cards from the bottom of your deck to your hand.
+
+    Your opponent''s Gimmick cannot prevent you from drawing cards.'
   tags: []
+  related_finishes:
+    - 4e49e9c23e73426f9a0eedbb71b182f6
+- name: Can You Stand on Your Head?
+  db_uuid: 4e49e9c23e73426f9a0eedbb71b182f6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+7 to Technique
+
+    +5 to Submission
+
+    Bury 3 cards in any player''s discard pile.
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 44c958d3b8e740c8b9e58530de84673e
 - name: X Kittens
   db_uuid: bc241b85fa3b4b86a7e5aec17ab685c4
   srg_url: https://supershowthegame.com/product/x-kittens/

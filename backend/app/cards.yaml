@@ -15074,18 +15074,21 @@
   tags: []
 - name: Death Defying Elbow Drop (V1)
   db_uuid: 0c0a3d3523af430595a897fa757e9c43
+  srgpc_url: https://www.srgpc.net/cards/19/death-defying-elbow-drop/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: If this match has No Disqualifications, and the Crowd Meter is 3 or greater, this card is also a Finish.
+  tags: []
+- name: Death Defying Elbow Drop (V2)
+  db_uuid: 742787b312ff4b79a8da45c24aff58cd
   srgpc_url: https://www.srgpc.net/cards/19/death-defying-elbow-drop-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
-  tags: []
-- name: Death Defying Elbow Drop (V2)
-  db_uuid: 742787b312ff4b79a8da45c24aff58cd
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 19
+  rules_text: If this match has No Disqualifications, and the Crowd Meter is 1 or greater, this card is also a Finish.
   tags: []
 - name: Dirty Boxing
   db_uuid: 3666c65f83f847cd9794c716a2ae6c81
@@ -15094,6 +15097,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Grapple.
   tags: []
 - name: Dive Through the Ropes
   db_uuid: 99eb23bde24f420a81e87f8e817bdc72
@@ -15102,6 +15106,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Choose 1 or your skills; that skill is +1 during your turn and turn rolls.
   tags: []
 - name: Diving Headbutt
   db_uuid: aedf3e9b40f443a4a03b27a6a3b4f4fc
@@ -15141,6 +15146,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
 - name: Finger Stomp
   db_uuid: 45d3fecd7df942d1a18f22b96844391c
@@ -15149,6 +15157,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Submission
   tags: []
 - name: Gut Punch (V1)
   db_uuid: dae48dd8ce904fb19efdb35efe07d933
@@ -15157,6 +15166,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    +1 to your next turn roll.'
   tags: []
 - name: Gut Punch (V2)
   db_uuid: 0331aec0751a45a5a12d90fa519def03
@@ -15164,6 +15176,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    +2 to your next turn roll.'
   tags: []
 - name: Head Over Yeet
   db_uuid: 5f8e48c7f7bf4871a1ec9cb9f812f205
@@ -15172,6 +15187,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Draw 1 card. Bury 1 card in your hand.
+
+    Your oppponent''s next turn roll is -2.
+
+    If this is a Steel Cage match and your opponent has fewer cards in their deck than you, this card is also a Finish.'
   tags: []
 - name: High Flying Flip
   db_uuid: a4fb74ed0b1b449cb58b1540c1a884a1
@@ -15189,6 +15209,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Add 1 card from your discard pile to your hand.
   tags: []
 - name: Hold the Kendo Stick
   db_uuid: 61e5da341dd64a3887cd8237a5e59f28
@@ -15197,6 +15218,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: If you have a card with "Kendo Stick" in the name in play and your opponent has another Grapple in play, stop any Grapple.
   tags: []
 - name: Hold the Pineapple
   db_uuid: 0fdc7f47bb1c4531b6484c95be92cbed
@@ -15205,14 +15227,22 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If you have a card in play with "Pineapple" in the name and your opponent has another Grapple in play, stop any Grapple.
+
+    Discard 1 card your opponent has in play.'
   tags: []
-- name: Isolate and Attack
+- name: Isolate and Attack (Strike)
   db_uuid: 0fc3b4ee34244f48a7bd75e4d38c351b
   srgpc_url: https://www.srgpc.net/cards/19/isolate-and-attack/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
+
+    +1 to Strike
+
+    Skill Requirement: Strike 16+'
   tags: []
 - name: Jumping Back Kick
   db_uuid: 8b242d5690af4b3097e7746579b842e0
@@ -15221,6 +15251,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If the Crowd Meter is 1 or greater and your opponent has another Grapple in play, stop any Grapple.
+
+    Draw 1 card.'
   tags: []
 - name: Kick to the Head
   db_uuid: 98e8f4755d09437789683e66d554df7b
@@ -15229,6 +15262,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Strike
   tags: []
 - name: Knee in the Corner
   db_uuid: 2a902331e5a8474a89f0ecc68ad53289
@@ -15237,6 +15271,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Choose 1 of your opponent's skills; that skill is -1 during their turn and turn rolls.
   tags: []
 - name: Knee Out of the Ring
   db_uuid: e8c5c3f8d59841238bf9cf54e2843422
@@ -15245,6 +15280,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Shuffle 3 cards from your discard pile into your deck.
   tags: []
 - name: Knee Smash
   db_uuid: 9559041d70564e4db1856ab2f61baff3
@@ -15253,6 +15289,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Draw 1 card.
+
+    If you have fewer cards in your hand than your opponent, this card is also a Lead.'
   tags: []
 - name: Knockdown the Kendo Stick
   db_uuid: 88e4063c97cc4f2bba73c972ceff6e77
@@ -15261,6 +15300,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If stopped, the Crowd Meter is +1.
+
+    You may force your opponent to re-roll their next turn roll.'
   tags: []
 - name: Knockdown the Ladder
   db_uuid: fbb77ed95adc4564ae62b844fd31e073
@@ -15280,6 +15322,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'The Crowd Meter is +1.
+
+    If stopped, you may re-roll your next turn roll.'
   tags: []
 - name: Leaping Knee to the Face
   db_uuid: b6df8b8a5b904f0cad7578afcb6fdb91

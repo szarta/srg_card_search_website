@@ -15761,6 +15761,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Submission
   tags: []
 - name: Arrow Driver
   db_uuid: bcfd0683a3ae4481a5c3a3ec8ba001d8
@@ -15769,6 +15770,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Add 1 card from your discard pile to your hand.
   tags: []
 - name: Back Drop Over the Top
   db_uuid: 82a343ae8b9e49298e2a6492d37ea825
@@ -15786,6 +15788,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent cannot make you bury cards from your hand.
   tags: []
 - name: Belly to Bear Belly Suplex
   db_uuid: 155031198ab3412f8168b991190b0425
@@ -15794,6 +15797,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Finish Submission.
+
+    Draw 1 card.'
   tags: []
 - name: Big Steel Chain Throw
   db_uuid: 65d6c368c28c4773aab606168c98e225
@@ -15813,6 +15819,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    Draw 2 cards.'
   tags: []
 - name: Bridging Suplex
   db_uuid: 5671ce23f4d4456ba91c75c9c0f2e575
@@ -15821,6 +15830,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Choose 1 of your opponent's skills; that skill is -1 during their turn and turn rolls.
   tags: []
 - name: Bulldog Takedown
   db_uuid: e604d41855f84270b6fe678b655dc7be
@@ -15829,6 +15839,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If stopped, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Catapult
   db_uuid: 611c1d0cc4374c3cb0b5574e68fc6cca
@@ -15837,6 +15848,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Each player flips 1 card or if your opponent has another Submission in play, stop any Submission.
   tags: []
 - name: Cultural Downfall
   db_uuid: 5d788c2cadd7423a867f0f1f4190665e
@@ -15845,6 +15857,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    +2 to Grapple
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Detroit Breaker Bomb
   db_uuid: 7e3b39ce46a24cdf8d7a84fba6cdaa2f
@@ -15853,6 +15870,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent cannot move cards from their discard pile to their hand.
   tags: []
 - name: Dive Bomb
   db_uuid: aa2aef55adac4c56a903634f7e19e42c
@@ -15861,14 +15879,20 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Look at your opponent's hand, choose 1 Submission and discard it.
   tags: []
-- name: Divide and Conquer
+- name: Divide and Conquer (Grapple)
   db_uuid: f1242a18cad2493695f51a06f62481a3
   srgpc_url: https://www.srgpc.net/cards/20/divide-and-conquer/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
+
+    +1 to Grapple.
+
+    Skill Requirement: Grapple 16+'
   tags: []
 - name: Double Leg Powerbomb
   db_uuid: 9a51d798372e4ecaa2ac60b4c29cacb8
@@ -15877,6 +15901,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If your opponent has another Submission in play, stop any Submission or each player buries 1 card in their discard pile.
   tags: []
 - name: Drop On The Floor
   db_uuid: 05492d7935bc49b9bc54febac62d051c
@@ -15885,6 +15910,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Each player adds the bottom card of their deck to their hand or if your opponent has another Submission in play, stop any Submission.
   tags: []
 - name: Drop Over the Top
   db_uuid: 1731e66b4e444f71a896cec4fce3f60b
@@ -15901,14 +15927,18 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent's maximum hand size is -4
   tags: []
-- name: Embrace the Madness
+- name: Embrace the Madness (Strike)
   db_uuid: 56d648736c9348e4b8bd31f22867c8fa
   srgpc_url: https://www.srgpc.net/cards/20/embrace-the-madness/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your opponent''s next Submission has the added text: "If stopped, you lose the match via disqualification.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Face Buster Suplex
   db_uuid: 35e7345681dc4768b1b626b2988f0125

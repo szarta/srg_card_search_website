@@ -15333,6 +15333,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Agility.
   tags: []
 - name: Leg Launch
   db_uuid: 179d678166314b27b0c688c98a8c4ce4
@@ -15341,6 +15342,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +2 to Strike during your opponent's turn.
   tags: []
 - name: Legendary Dive
   db_uuid: 156186f8e395454c982f8be2d9b6986e
@@ -15349,6 +15351,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot Double-Team with or save other players.
   tags: []
 - name: Lou Thez Press Punches (Strike)
   db_uuid: a7906a78bdfb46fcb59bd34e5b569419
@@ -15364,35 +15367,37 @@
 
     Skill Requirement: Strike 8+'
   tags: []
-- name: Madness Unsealed
+- name: Madness Unsealed (Agility)
   db_uuid: a401fc3b6fb6462ab85aff0b21de370d
   srgpc_url: https://www.srgpc.net/cards/19/madness-unsealed/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your opponent''s next Grapple has the added text: "If stopped, you lose the match via disqualification."
+
+    Skill Requirement: Agility 8+'
   tags: []
 - name: Missile Drop Kick (V1)
   db_uuid: 804ce043b2974ba4a945c158973a5ef4
+  srg_url: https://supershowthegame.com/product/19-missle-drop-kick/
   srgpc_url: https://www.srgpc.net/cards/19/missile-drop-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Draw 1 card. Flip 2 cards.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Missile Drop Kick (V2)
   db_uuid: 60370aa92efc42139f03ed2fcff64492
+  srgpc_url: https://www.srgpc.net/cards/19/missile-drop-kick-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
-  tags: []
-- name: Missile Drop Kick V3
-  db_uuid: a49071f501174cadaf71ff83c7a58c84
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 19
+  rules_text: Your next turn roll is +1 for each other Follow Up you have in play.
   tags: []
 - name: Mounted Ground Punches
   db_uuid: 55c68d8f55634765aad05f1cdaba4c03
@@ -15401,6 +15406,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your next turn roll is +4.
   tags: []
 - name: Outsider Distraction
   db_uuid: 9fc7d84e32f345d38278fd2a5a86a848
@@ -15409,6 +15415,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot increase their turn roll.
   tags: []
 - name: Pineapple Crush
   db_uuid: 5d916bd2abec4b0fae7b478ac54839a6
@@ -15417,6 +15424,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent's Spotlights are blank.
   tags: []
 - name: Poison Stars
   db_uuid: d3fc42e3a9c145749b4b2216e410dfa3
@@ -15436,14 +15444,20 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Power
   tags: []
-- name: Pump Kick
+- name: Pump Kick (Strike)
   db_uuid: 0d983b55b1ed4dd3a350e217f0572cdf
   srgpc_url: https://www.srgpc.net/cards/19/pump-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    +2 to Strike
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Punch into the Turnbuckle
   db_uuid: d2ffe1617c734e8fb50e0c0d98396a44
@@ -15452,6 +15466,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    +2 to Strike.'
   tags: []
 - name: Rain Down
   db_uuid: 3bf913cbb85f4a8ebdee84b5426d1745
@@ -15460,6 +15477,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your breakout rolls are +1.
+
+    If the Crowd Meter is 2 or greater, they are +2 instead.'
   tags: []
 - name: Raja Ripcord Chop
   db_uuid: b2b01a74dee648a19862290022473b7e
@@ -15468,22 +15488,35 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    Your opponent randomly discards 1 card from their hand.'
   tags: []
-- name: Repeated Superkicks
+- name: Repeated Superkicks (Submission)
   db_uuid: e48ba3b7926a4b3680cfcaaefc2bdaa5
   srgpc_url: https://www.srgpc.net/cards/19/repeated-superkicks/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Skill Requirement: Submission 8+'
   tags: []
-- name: Save the Bacon!
+- name: Save the Bacon! (Strike)
   db_uuid: 83ad66c9de7345ebbf62cb3cb742793d
   srgpc_url: https://www.srgpc.net/cards/19/save-the-bacon/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Copy the text of a Grapple your opponent has in play until th end of the turn.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Series of Kicks
   db_uuid: 816eedf545494030bf30fb5e4b6e6a8f
@@ -15492,6 +15525,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent's maximum hand size is -4.
   tags: []
 - name: Series of Punches
   db_uuid: 8d37926f77774339805dbc5db6e75bf0
@@ -15500,6 +15534,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot draw cards except for winning turn rolls.
   tags: []
 - name: Shock the Crowd
   db_uuid: 846df2a57ddd402896de81c692b3a386
@@ -15508,6 +15543,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Flip up to 3 cards.
+
+    Add 1 Strike from your discard pile to your hand.'
   tags: []
 - name: Shove Out of the Ring
   db_uuid: 4d6ec43c806e48f2982643641551f465
@@ -15515,6 +15553,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
+
+    Draw 2 cards.'
   tags: []
 - name: Skull Kick
   db_uuid: 8d73406a2f5b4e079ae5804dce8f6934
@@ -15523,6 +15564,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 1 Grapple and discard it.'
   tags: []
 - name: 'Skullduggery Potion #19'
   db_uuid: a1491c05bad44f23928914333d76bd34
@@ -15531,6 +15575,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Each player shuffles 1 Strike from their discard pile into their deck or if your opponent has another Grapple in play, stop any Grapple.
   tags: []
 - name: Somersault Senton
   db_uuid: 9645c367bb6f4bca8c9da5c138411180
@@ -15539,6 +15584,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Choose 2 cards your opponent has in play and discard them.
   tags: []
 - name: Spear
   db_uuid: 08f93887b1b94730956eec9d5f585935
@@ -15547,6 +15593,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your opponent buries 1 random card in their hand.
+
+    Discard 1 card your opponent has in play.'
   tags: []
 - name: Spinning Clothesline
   db_uuid: 6d10cf457eb345f5b0592b2732479587
@@ -15555,6 +15604,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: +1 to Technique
   tags: []
 - name: Standing Side Kick
   db_uuid: 7e192364f85a4abd9041acd81ffddd26
@@ -15563,6 +15613,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    If you have less cards in play than your opponent this card is also a Lead.'
   tags: []
 - name: Steel Chin Buster
   db_uuid: 93190ce889d8453ba10a69868b924ae4
@@ -15571,6 +15624,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot force you to bury cards from your hand.
   tags: []
 - name: Suppressive Fire
   db_uuid: 624c3632df9c4cb7823ec2b771a8e012
@@ -15579,6 +15633,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player reveals 2 cards in their hand.'
   tags: []
 - name: That's a Paddlin'
   db_uuid: aae4ad8b102040c39acb1f7c3f3f2762
@@ -15587,6 +15644,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: If your opponent has another Grapple in play, stop any Finish Grapple. Draw 1 card.
   tags: []
 - name: The 718 (Strike)
   db_uuid: e2015f24413a4dd68fc7ae78fba3d78a
@@ -15621,14 +15679,22 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot force you to bury cards in your hand.
   tags: []
-- name: The Hat Trick
+- name: The Hat Trick (Strike)
   db_uuid: 6c4269cddbd5419780da4c90fdf28e28
   srgpc_url: https://www.srgpc.net/cards/19/the-hat-trick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Your next turn roll is +2.
+
+    Your opponent discards all Follow Ups from play.
+
+    Your partner chooses an opponent; they discard all Follow Ups in play.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: The Seven Bells of the Belfry (V1)
   db_uuid: 6e681e5458d14ce8b1150b969647a730
@@ -15637,6 +15703,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent's card effects and Gimmick cannot move other cards in play to any location.
   tags: []
 - name: The Seven Bells of the Belfry (V2)
   db_uuid: d6fc3fd4471249aa82e07e73104547d6
@@ -15644,6 +15711,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: Your opponent cannot move other cards in play to any other location.
   tags: []
 - name: Tope Suicida
   db_uuid: 13406717ee1e4506b5f55b81f919f9b3
@@ -15652,6 +15720,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: 'Search your deck for a Strike and add it to your hand.
+
+    Shuffle your deck.'
   tags: []
 - name: Trash-Bash-Smash
   db_uuid: 18ace5401c9341dbb1d2c7d4af2db6de
@@ -15671,6 +15742,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
+  rules_text: If your opponent stops this card they bury 1 card in their hand.
   tags: []
 - name: Airplane Slam
   db_uuid: 560ba7f5c61946f8828dcfde7cef7382
@@ -15680,6 +15752,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Power
   tags: []
 - name: All American Powerslam
   db_uuid: a381d6ff9a304956bd01758efb0855fa

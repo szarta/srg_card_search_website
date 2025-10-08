@@ -16410,21 +16410,33 @@
   deck_card_number: 20
   rules_text: If the Crowd Meter is 1 or greater and your opponent has another Submission in play, stop any Submission. Your next turn roll is +1.
   tags: []
-- name: Teaching From the Dark
+- name: Teaching From the Dark (Grapple)
   db_uuid: 8da7ef986bd24b6aafc65c8849a8f95a
   srgpc_url: https://www.srgpc.net/cards/20/teaching-from-the-dark/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your next turn roll is +2.
+
+    Your opponent discards all Follow Ups from play.
+
+    Your partner chooses an opponent: they discard all Follow Ups in play.
+
+    Skill Requirement: Grapple 8+'
   tags: []
-- name: That Doesn't Work For Me, Brother!
+- name: That Doesn't Work For Me, Brother! (Grapple)
   db_uuid: f6a2e224589e475a987fed9e8ea0601a
   srgpc_url: https://www.srgpc.net/cards/20/that-doesnt-work-for-me-brother/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Copy the text of a Submission your opponent has in play until the end of the turn.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Thunderous Flex
   db_uuid: d66659b2f2c546fbbe3297116b753eb5
@@ -16434,6 +16446,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent's Spectacles are blank.
   tags: []
 - name: Train Breaker
   db_uuid: 8be346379ab2414cb44f7c1840511b2f
@@ -16442,6 +16455,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your opponent randomly discards 1 card from their hand.
+
+    Bury up to 2 cards in any player''s discard pile.
+
+    If this is a Ring of Fire or Lumberjack match, double these numbers.'
   tags: []
 - name: Unreal Teamwork
   db_uuid: 91438f2ff2774c16803e6ddbac3b22ba
@@ -16450,6 +16468,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent cannot Double-Team with or Save other players.
   tags: []
 - name: A Powerful Hand Buster
   db_uuid: fc5de0a5e2b84c16b13e3cf24c0fb490
@@ -16458,6 +16477,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent's maximum handsize is -4.
   tags: []
 - name: American Dragon Leg Lock
   db_uuid: faf3fe2bde514cfba2fdde807d730da0
@@ -16479,6 +16499,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +1 to Submission
   tags: []
 - name: Ankle Torching
   db_uuid: a93ebcce6f6848fab2a0ba0f7910f2a3
@@ -16487,6 +16508,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +1 to Grapple
   tags: []
 - name: Armbar Over the Top
   db_uuid: bc5249d8841a415d8007cfb7bb9c4167
@@ -16528,6 +16550,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Each player flips 1 card or if your opponent has another Strike in play, stop any Strike.
   tags: []
 - name: Big-Brain Plays
   db_uuid: c59caf7b6c804c43b0d8ab615e3e2269
@@ -16545,6 +16568,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent's Entrance is blank.
   tags: []
 - name: Body Scissors
   db_uuid: f3adda24ff3c43e1900b08f6aecf8d9b
@@ -16553,6 +16577,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: If your opponent stops this card, take 1 card from your discard pile and add it to your hand.
   tags: []
 - name: Body Tangle (Submission)
   db_uuid: 190d5544bfbf4d9fb7b5614a439e970f
@@ -16574,6 +16599,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +1 to Strike
   tags: []
 - name: Boss-Arm Breaker
   db_uuid: bfbc586d973b4a879bee887a8cdf826a
@@ -16582,6 +16608,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Draw 1 card.
+
+    If you have fewer cards in your hand than your opponent, this card is also a Lead.'
   tags: []
 - name: Chicken Wing Toe Hold
   db_uuid: b0418c86360e442ba00471d22c557ee9
@@ -16590,6 +16619,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Look at your opponent's hand. Choose 1 Strike and discard it.
   tags: []
 - name: Crash and Burn
   db_uuid: add514740fb54a0d99ea217c70e5e95c
@@ -16598,14 +16628,24 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player buries 1 card in their hand.'
   tags: []
-- name: Dark Dealings
+- name: Dark Dealings (Submission)
   db_uuid: 5f0177f46531409d9ee61ca16292a7bd
   srgpc_url: https://www.srgpc.net/cards/21/dark-dealings/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your next turn roll is +2.
+
+    Your opponent discards all Follow Ups from play.
+
+    Your partner chooses an opponent: they discard all Follow Ups from play.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Dog Off the Chain
   db_uuid: 524d595f09cc4fb1b55103b521614334
@@ -16635,6 +16675,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: During your opponent's turn, your Technique is +2.
   tags: []
 - name: European Clutch
   db_uuid: d7d860fe0f0946f99f63cb20f9c92238
@@ -16643,6 +16684,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If the Crowd Meter is 1 or greater and your opponent has another Strike in play, stop any Strike.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Feeling Catty
   db_uuid: 84cb8d36c8654781955f06e4b8de2104
@@ -16651,6 +16695,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent cannot increase their turn roll.
   tags: []
 - name: Flying Headlock
   db_uuid: b228c9ab4ae2449d853e1c8e11de7c39
@@ -16694,6 +16739,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If the Crowd Meter is 1 or greater and your opponent has another Strike in play, stop any Strike.
+
+    Draw 1 card.'
   tags: []
 - name: Head and Arm Vice (V1)
   db_uuid: 6c091a30f945425f985df86c8533572b
@@ -16702,6 +16750,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    +1 to your next turn roll.'
   tags: []
 - name: Head and Arm Vice (V2)
   db_uuid: 43c67faf69064a6a9efb4e183c0acae2
@@ -16709,6 +16760,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    +2 to your next turn roll.'
   tags: []
 - name: Head Scissors
   db_uuid: 982a5a794aa74faa8d74e8e3026e6f3b
@@ -16717,6 +16771,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your opponent buries 1 random card in their hand.
+
+    Discard 1 card your opponent has in play.'
   tags: []
 - name: Head Twist
   db_uuid: 553dd8b1f03d4c109300c865436e79f7
@@ -16725,6 +16782,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Choose 1 of your opponent's skills; that skill is -1 during their turn and turn rolls.
   tags: []
 - name: Hold Back the Tears
   db_uuid: fabe7724cec04952b747b0bba8fc848b
@@ -16733,6 +16791,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: "Draw 1 card. Bury 1 card in your hand.\nYour opponent's next turn roll is -2.\n  If this is a Steel Cage match and your opponent has fewer cards in their deck than you, this card is also a Finish."
   tags: []
 - name: Hold the Ring Steps
   db_uuid: 3820a2c26471428684ec69ecdab4bfb4
@@ -16741,6 +16800,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: If you have a card with "Ring Step" in the name in play and your opponent has another Strike in play, stop any Strike.
   tags: []
 - name: Hold the Sledgehammer
   db_uuid: bad763d66e314400ba74cf517e0ade6e
@@ -16749,6 +16809,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If you have a card in play with "Sledgehammer" in the name and your opponent has another Strike in play, stop any Strike.
+
+    Your opponent randomly buries 1 card in their hand.'
   tags: []
 - name: Hold the Steel Chain
   db_uuid: 0f023daa9abf45b182c093d37f151ede
@@ -16766,6 +16829,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +1 to Technique
   tags: []
 - name: Karma-Karma-Karma-Karma-Karma-Camel-Eleon Clutch
   db_uuid: d3c8a55b606846608c184bbc29ab74ec
@@ -16774,6 +16838,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Finish Strike.
+
+    Draw 1 card.'
   tags: []
 - name: Kissing Booth
   db_uuid: 67b6e4bf89c34aebb78c2d5cc0a17b81
@@ -16782,14 +16849,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent cannot draw cards except for winning turn rolls.
   tags: []
-- name: Knee Buster
+- name: Knee Buster (Submission)
   db_uuid: 5921a82c8dbe42bab90b18b7b461f9fb
   srgpc_url: https://www.srgpc.net/21-knee-buster-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your opponent discards all Strikes they have in play.
+
+    Your next turn roll is +3.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Knockdown the Ring Steps
   db_uuid: 26fd8a1bab09431e885d4238221c6580

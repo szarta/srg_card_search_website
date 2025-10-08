@@ -30221,9 +30221,65 @@
   tags: []
 - name: Koby the Kid
   db_uuid: bf301e6c594b4946a34618e4e43af90b
+  srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 5
+  submission: 6
+  grapple: 9
+  rules_text: When your opponent moves any number of cards from their discard pile to another location, you may draw 1 card.
   tags: []
+  related_finishes:
+    - 5812b91283a24dab9e245980ef682127
+    - 29ec97d90c664a14891ee5daa1845d4c
+    - 0293f0f6b6114c9790aec416a1f3b15a
+- name: Bum Breaker
+  db_uuid: 5812b91283a24dab9e245980ef682127
+  srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    +2 to your lowest skill.'
+  tags: []
+  related_cards:
+    - bf301e6c594b4946a34618e4e43af90b
+- name: Bum Buster
+  db_uuid: 29ec97d90c664a14891ee5daa1845d4c
+  srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Your opponent flips 4 cards, then bury 1 card in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - bf301e6c594b4946a34618e4e43af90b
+- name: Bum Bender
+  db_uuid: 0293f0f6b6114c9790aec416a1f3b15a
+  srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    Look at the top 3 cards of your opponent''s deck and discard any number of them, bury the others.'
+  tags: []
+  related_cards:
+    - bf301e6c594b4946a34618e4e43af90b
 - name: Kota Ibushi
   db_uuid: ccfe5910ae174623b2a7f5b0f96e24d2
   card_type: SingleCompetitorCard
@@ -34599,15 +34655,136 @@
   tags: []
 - name: Uncle Awesome (V1)
   db_uuid: 4e2a4a8022b0485e8449750cb411d793
-  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome-v2/
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 5
+  grapple: 9
   tags: []
+  related_finishes:
+    - f4d585c112ed42aaa04ee7bb8b34d518
+    - 33a6e272bf224d569e525ca714b6aaf1
+    - 4dff266459db4276af3124b7e70918ea
+    - 47497fa28156476db595e5cb268680d4
+    - f6eeb443067744d4a02db8975f713e4f
+    - 3157393dd3c644d8bcfe8adac34b01a3
+  rules-text: When you have the same number of cards in your hand as your opponent; Your Strike, Submission, and Grapple are +1 during your turn rolls.
 - name: Uncle Awesome (V2)
   db_uuid: 1886db488a2540c18d7fc450b201f9b0
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome-v2/
   card_type: SingleCompetitorCard
   division: Underworld
+  gender: Male
+  power: 10
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 5
+  grapple: 9
+  rules_text: Your Technique is +1 for each card you have in play with "Chin", "Jaw", or "Face" in the name (Max +3).
   tags: []
+  related_finishes:
+    - f4d585c112ed42aaa04ee7bb8b34d518
+    - 33a6e272bf224d569e525ca714b6aaf1
+    - 4dff266459db4276af3124b7e70918ea
+    - 47497fa28156476db595e5cb268680d4
+    - f6eeb443067744d4a02db8975f713e4f
+    - 3157393dd3c644d8bcfe8adac34b01a3
+- name: Chin It, To Win It
+  db_uuid: f4d585c112ed42aaa04ee7bb8b34d518
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you have the same number of cards in your hand as your opponent, double these bonuses.'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
+- name: Chinspiration
+  db_uuid: 33a6e272bf224d569e525ca714b6aaf1
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Draw up to 1 card for each card you have in play with "Chin" in the name.'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
+- name: The Dude Abides
+  db_uuid: 4dff266459db4276af3124b7e70918ea
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    If you have a card in play with "Chin" in the name, +3 to Strike.'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
+- name: Chin-Shasa
+  db_uuid: 47497fa28156476db595e5cb268680d4
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
+- name: Chin-derella Story
+  db_uuid: f6eeb443067744d4a02db8975f713e4f
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    When this card is in your discard pile: You are considered to have the same number of cards in your hand as your opponent.'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
+- name: Chin-namon Toast Crunch
+  db_uuid: 3157393dd3c644d8bcfe8adac34b01a3
+  srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    You may discard 1 card with "Chin" or "Jaw" in the name in play to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 1886db488a2540c18d7fc450b201f9b0
+    - 4e2a4a8022b0485e8449750cb411d793
 - name: Uncle Bradley
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   srgpc_url: https://www.srgpc.net/cards/competitors/uncle-bradley/
@@ -38339,10 +38516,67 @@
   db_uuid: 60e0134eb28d4d5f9f2df99aa0b123bd
   card_type: TornadoCompetitorCard
   tags: []
-- name: Scruffy & Ariel
+- name: Scruffy & Ariel Lipstick
   db_uuid: 7cd009b1562e402ca7b089a02c58bef5
+  srg_url: https://supershowthegame.com/product/scruffy-ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/scruffy-ariel
   card_type: TornadoCompetitorCard
+  power: 10
+  technique: 12
+  agility: 18
+  strike: 20
+  submission: 14
+  grapple: 16
+  rules_text: When you roll Power, draw 2 cards.
   tags: []
+  related_finishes:
+    - 02dd473655fa42ed8d708c0c17528aa5
+    - 07a0f2dac4a24e929db728a777f435c4
+    - 1adf7bd57f8a4e46a5f4461ed9faacaa
+- name: Pupper Up
+  db_uuid: 02dd473655fa42ed8d708c0c17528aa5
+  srg_url: https://supershowthegame.com/product/scruffy-ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/scruffy-ariel
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - 7cd009b1562e402ca7b089a02c58bef5
+- name: Ruff Finish
+  db_uuid: 07a0f2dac4a24e929db728a777f435c4
+  srg_url: https://supershowthegame.com/product/scruffy-ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/scruffy-ariel
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +3 to Grapple'
+  tags: []
+  related_cards:
+    - 7cd009b1562e402ca7b089a02c58bef5
+- name: Best in Supershow
+  db_uuid: 1adf7bd57f8a4e46a5f4461ed9faacaa
+  srg_url: https://supershowthegame.com/product/scruffy-ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/scruffy-ariel
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    +5 to Submission
+
+    Your opponent buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 7cd009b1562e402ca7b089a02c58bef5
 - name: The Sheeple's Champions
   db_uuid: 4770295279d8477583d6aca000622131
   srg_url: https://supershowthegame.com/product/sheeples-champions-competitor-only/

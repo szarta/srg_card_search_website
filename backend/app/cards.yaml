@@ -15947,6 +15947,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Technique
   tags: []
 - name: Face Drop Suplex
   db_uuid: a2070591840142dc859fb2f6b70d5ebb
@@ -15955,6 +15956,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your opponent buries 1 randomly card in their hand.
+
+    Discard 1 card your opponent has in play.'
   tags: []
 - name: Face Drop
   db_uuid: ed5cf4ca0e894ade85a603607a9b0693
@@ -15963,6 +15967,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Grapple.
   tags: []
 - name: Flipping Face Buster
   db_uuid: f084224ebc0d4b3689fecb291351e9ff
@@ -15991,14 +15996,22 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
-- name: High Impact Back Drop
+- name: High Impact Back Drop (Strike)
   db_uuid: cd5501e9ef644b63ba9ae92ee448157e
   srgpc_url: https://www.srgpc.net/cards/20/high-impact-back-drop/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Hold the Steel Chair
   db_uuid: cc6b18ddd1f04dd6aabdf531f9debaef
@@ -16007,6 +16020,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If you have a card with "Steel Chair" in the name in play and your opponent has another Submission in play, stop any Submission.
   tags: []
 - name: Hold the Trash Can
   db_uuid: cd22f710c8234b8e9288c42439366ea0
@@ -16026,6 +16040,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Agility
   tags: []
 - name: Inverted Suplex
   db_uuid: 5f87c106434d4ff8b7fc18f12f7f3b64
@@ -16034,6 +16049,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Choose 2 cards your opponent has in play and discard them.
   tags: []
 - name: Irish Spinebreaker
   db_uuid: bfaea3fadce0443595b5c7b1e5ff32f6
@@ -16042,6 +16058,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Put 1 card from your hand on top of your deck.  Look at your opponent's hand, choose 1 card and discard it.
   tags: []
 - name: Knockdown the Steel Chair
   db_uuid: 1413f591f7bf42e0bc8ad1b5ea29b21a
@@ -16050,6 +16067,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If stopped, the Crowd Meter is +1.
+
+    You may force your opponent to re-roll their next turn roll.'
   tags: []
 - name: Knockdown the Table
   db_uuid: 1c655f78aba24d4ab6470a51f372b80f
@@ -16069,6 +16089,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'The Crowd Meter is +1.
+
+    If stopped, you may re-roll your next turn roll.'
   tags: []
 - name: Mind Shield
   db_uuid: 1bfae06a66b3452eac1c6aabca03adf7
@@ -16077,6 +16100,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player reveals 2 cards in their hand.'
   tags: []
 - name: Neckbreaker
   db_uuid: 636509a8a72d4e8fb340fafcf9b8e17d
@@ -16085,6 +16111,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If your opponent has another Submission in play, stop any Submission.
   tags: []
 - name: Never Backing Down
   db_uuid: c129fe5ea83c4caa97af3118a23e00a1
@@ -16092,6 +16119,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Each player shuffles 1 Grapple from their discard pile into their deck or if your opponent has another Submission in play, stop any Submission.
   tags: []
 - name: Pancake Slam
   db_uuid: 5f4475182857499db105c8c3c6661d23
@@ -16100,6 +16128,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: During your opponent's turn, your Power is +2.
   tags: []
 - name: Panic Slam
   db_uuid: b2ed769b813f4da3805a1fe3e3e49d3a
@@ -16118,6 +16147,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player buries 1 card in their hand.'
   tags: []
 - name: Press Slam (Grapple)
   db_uuid: 1a5d9a8a26a24f2cb51ee4b26499286b
@@ -16145,20 +16177,27 @@
 
     Skill Requirement: Power 8+'
   tags: []
-- name: Release German Suplex (V1)
+- name: Release German Suplex (V2)
   db_uuid: a69f7f4cd9074ac8a54b4cb6dd9e9bd5
   srgpc_url: https://www.srgpc.net/cards/20/release-german-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Draw 1 card. Flip 2 cards.
+
+    Your next turn roll is +1.'
   tags: []
-- name: Release German Suplex (V2)
+- name: Release German Suplex (V1)
   db_uuid: f5eee8d9a4da48d1ae6db76404577843
+  srgpc_url: https://www.srgpc.net/cards/20/release-german-suplex-v1/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Draw 1 card. Flip 1 card.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Rolling Down the Street
   db_uuid: 4a502ef0b5c44941ab280beb808117b9
@@ -16167,6 +16206,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your opponent's card effects and Gimmick cannot move other cards in play to any location.
   tags: []
 - name: Rush of Adrenaline
   db_uuid: d3acf9ed6c514267861a19cd41f89a9d
@@ -16175,6 +16215,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your breakout rolls are +1.
+
+    If the Crowd Meter is 1 or greater, they are +2 instead.'
   tags: []
 - name: Sealed Away
   db_uuid: 0002786b87a541dbad94e1361034c181
@@ -16195,14 +16238,20 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Your next turn roll is +4.
   tags: []
-- name: Sitout Powerbomb
+- name: Sitout Powerbomb (Grapple)
   db_uuid: c1f5ba253d35472a959d3fbd6d69c8e1
   srgpc_url: https://www.srgpc.net/cards/20/sitout-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    +2 to Grapple.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Skull Slam
   db_uuid: ff8842b730e4447ebf679e3444bf4b46
@@ -16211,6 +16260,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If the Crowd Meter is 1 or greater and your opponent has another Submission in play, stop any Submission.
+
+    Draw 1 card.'
   tags: []
 - name: Slam Out of the Ring
   db_uuid: 81dc3e518aaa4998a1d2ece11c417b23
@@ -16219,6 +16271,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: Shuffle 3 cards from your discard pile into your deck.
   tags: []
 - name: Slammin' and Jammin'
   db_uuid: 48d7fd9d041e4fbe92033f489d3736f3
@@ -16227,6 +16280,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +1 to Strike
   tags: []
 - name: Slithering Chin Slam
   db_uuid: 9898d3bbd2b64ea084c4a5ead8393ef6
@@ -16235,6 +16289,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: +2 to Grapple during your opponent's turn.
   tags: []
 - name: Spinebuster (V1)
   db_uuid: 9240659848784cf5bf5566ac0e8a79af
@@ -16243,6 +16298,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play stop any Submission.
+
+    +1 to your next turn roll.'
   tags: []
 - name: Spinebuster (V2)
   db_uuid: f31334d1d4f64e6399d1298430453621
@@ -16250,6 +16308,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play stop any Submission.
+
+    +2 to your next turn roll.'
   tags: []
 - name: STO Backbreaker
   db_uuid: 6bac102efff540539c5b90d1dfc982f4
@@ -16258,6 +16319,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Search your deck for a Grapple and add it to your hand.
+
+    Shuffle your deck.'
   tags: []
 - name: Sunshine Buster
   db_uuid: e994f5d689024f61a883a1d668438e0b
@@ -16266,6 +16330,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
+
+    Your opponent randomly discards 1 card from their hand.'
   tags: []
 - name: Super Powerbomb (Power)
   db_uuid: 2ecb0737e9244d04807b32f573cdfeb9
@@ -16280,13 +16347,18 @@
 
     Skill Requirement: Power 8+'
   tags: []
-- name: Super Shoulder Breaker
+- name: Super Shoulder Breaker (Grapple)
   db_uuid: 6d80f5514d134c35939ab2762f8f26d8
   srgpc_url: https://www.srgpc.net/cards/20/super-shoulder-breaker-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Your opponent discards all Submissions they have in play.
+
+    Your next turn roll is +3.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Superkick Suplex
   db_uuid: fd6faadb23a647ecbde9ac36c84d7eee
@@ -16295,6 +16367,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Draw 1 card.
+
+    If you have fewer cards in your hand than your opponent, this card is also a Lead.'
   tags: []
 - name: Superplex Off the Ropes
   db_uuid: 25dc294232cc4ba280d03ce0bcdeb9ce
@@ -16303,6 +16378,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: 'Draw 1 card. Bury 1 card in your hand.
+
+    Your opponent''s next turn roll is -2.
+
+    If this is a Steel Cage match and your opponent has fewer cards in their deck than you, this card is also a Finish.'
   tags: []
 - name: Suplex Out of the Ring (V1)
   db_uuid: 87eca3c27ff54bd3b4b66c935b13aae7
@@ -16311,6 +16391,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If this match has no disqualifications and the Crowd Meter is 3 or greater, this card is also a Finish.
   tags: []
 - name: Suplex Out of the Ring (V2)
   db_uuid: 4c2e6f0d1ab1443994eb41834cbb9041
@@ -16318,6 +16399,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If this match has no disqualifications and the Crowd Meter is 1 or greater, this card is also a Finish.
   tags: []
 - name: T-Bone Suplex
   db_uuid: 3d1c7b4b1160469693521ec6fa073913
@@ -16326,6 +16408,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
+  rules_text: If the Crowd Meter is 1 or greater and your opponent has another Submission in play, stop any Submission. Your next turn roll is +1.
   tags: []
 - name: Teaching From the Dark
   db_uuid: 8da7ef986bd24b6aafc65c8849a8f95a

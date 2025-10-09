@@ -37279,8 +37279,59 @@
 - name: Kitty Corn
   db_uuid: c81420517af242c78e431d4daa0cd7ca
   srg_url: https://supershowthegame.com/product/kitty-corn-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
   card_type: TornadoCompetitorCard
+  power: 10
+  technique: 14
+  agility: 20
+  strike: 18
+  submission: 12
+  grapple: 16
+  rules_text: 'When you hit a card with "Cat", "Scratch", "Run", "Stomp", "Charge", or "Charging" in the name: Draw 1 card, bury 1 card in your opponent''s discard pile, and your next turn roll is +2.'
   tags: []
+  related_finishes:
+    - 42f4864306d740f58efb4ea9fc35818f
+    - 0907130733b24e94b8124000d36a84e2
+    - 207f2b7ed58a4b92946205eb394e4f55
+- name: The Shining Spear
+  db_uuid: 42f4864306d740f58efb4ea9fc35818f
+  srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    If you have at least 2 cards with "Charge", "Charging", or "Run" in the name in play, your opponent gets 1 breakout roll this turn.'
+  tags: []
+  related_cards:
+    - c81420517af242c78e431d4daa0cd7ca
+- name: Catch Me If You Can
+  db_uuid: 0907130733b24e94b8124000d36a84e2
+  srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Finish roll is + the Crowd Meter.
+
+    Your opponent''s breakout rolls are +2 for each Stop they have in play.
+
+    If stopped, put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - c81420517af242c78e431d4daa0cd7ca
+- name: Stompie Stomp Hooves
+  db_uuid: 207f2b7ed58a4b92946205eb394e4f55
+  srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Finish rolls are +1 for each other card you have in play with "Stomp" in the name.
+  tags: []
+  related_cards:
+    - c81420517af242c78e431d4daa0cd7ca
 - name: KO Princess
   db_uuid: 6b713d264ee6403481e104781ecab700
   card_type: SingleCompetitorCard

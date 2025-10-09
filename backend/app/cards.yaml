@@ -23616,8 +23616,14 @@
   grapple: 7
   rules_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll their turn roll.'
   tags: []
+  related_finishes:
+    - eded279be1754024a020abc484bab3a3
+    - c4abae61d6c54a009e94302bd57781f8
+    - 64b48dd07372438ca90eb9b8f4a8d627
 - name: Grim Librarian (V2)
   db_uuid: b95f873118b944b0b07a8af9c8731752
+  srg_url: https://supershowthegame.com/product/grim-librarian-2/
+  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -23629,10 +23635,15 @@
   grapple: 7
   rules_text: 'Once per turn roll, when you roll Technique: You may choose any player to re-roll their turn roll.'
   tags: []
+  related_finishes:
+    - eded279be1754024a020abc484bab3a3
+    - c4abae61d6c54a009e94302bd57781f8
+    - 64b48dd07372438ca90eb9b8f4a8d627
 - name: Grim Librarian (V3)
   db_uuid: d5edc30f9dc04838bc821938c31f0312
   card_type: SingleCompetitorCard
   division: United States
+  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
   gender: Male
   power: 10
   technique: 8
@@ -23642,6 +23653,61 @@
   grapple: 7
   rules_text: 'When you or your opponent roll Technique: you may draw 1 card then bury 1 card in your hand.'
   tags: []
+  related_finishes:
+    - eded279be1754024a020abc484bab3a3
+    - c4abae61d6c54a009e94302bd57781f8
+    - 64b48dd07372438ca90eb9b8f4a8d627
+- name: '"Shhhhh"'
+  db_uuid: eded279be1754024a020abc484bab3a3
+  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Your next turn roll is +2.
+
+    If stopped, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+- name: Close the Book
+  db_uuid: c4abae61d6c54a009e94302bd57781f8
+  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If stopped, add 1 card with "School" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+- name: The Final Chapter
+  db_uuid: 64b48dd07372438ca90eb9b8f4a8d627
+  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
 - name: Gropar the Great and Powerful
   db_uuid: 92712ad7966a404ebfb48b4482912594
   srgpc_url: https://www.srgpc.net/cards/competitors/gropar-the-great-and-powerful/
@@ -37295,6 +37361,7 @@
     - 207f2b7ed58a4b92946205eb394e4f55
 - name: The Shining Spear
   db_uuid: 42f4864306d740f58efb4ea9fc35818f
+  srg_url: https://supershowthegame.com/product/kitty-corn-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
   card_type: MainDeckCard
   atk_type: Strike
@@ -37308,6 +37375,7 @@
     - c81420517af242c78e431d4daa0cd7ca
 - name: Catch Me If You Can
   db_uuid: 0907130733b24e94b8124000d36a84e2
+  srg_url: https://supershowthegame.com/product/kitty-corn-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -37323,6 +37391,7 @@
     - c81420517af242c78e431d4daa0cd7ca
 - name: Stompie Stomp Hooves
   db_uuid: 207f2b7ed58a4b92946205eb394e4f55
+  srg_url: https://supershowthegame.com/product/kitty-corn-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/kitty-corn/
   card_type: MainDeckCard
   atk_type: Submission

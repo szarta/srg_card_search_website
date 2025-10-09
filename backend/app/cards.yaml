@@ -23623,7 +23623,7 @@
 - name: Grim Librarian (V2)
   db_uuid: b95f873118b944b0b07a8af9c8731752
   srg_url: https://supershowthegame.com/product/grim-librarian-2/
-  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -23641,9 +23641,9 @@
     - 64b48dd07372438ca90eb9b8f4a8d627
 - name: Grim Librarian (V3)
   db_uuid: d5edc30f9dc04838bc821938c31f0312
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: SingleCompetitorCard
   division: United States
-  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
   gender: Male
   power: 10
   technique: 8
@@ -23659,7 +23659,7 @@
     - 64b48dd07372438ca90eb9b8f4a8d627
 - name: '"Shhhhh"'
   db_uuid: eded279be1754024a020abc484bab3a3
-  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -23676,7 +23676,7 @@
     - d5edc30f9dc04838bc821938c31f0312
 - name: Close the Book
   db_uuid: c4abae61d6c54a009e94302bd57781f8
-  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -23693,7 +23693,7 @@
     - d5edc30f9dc04838bc821938c31f0312
 - name: The Final Chapter
   db_uuid: 64b48dd07372438ca90eb9b8f4a8d627
-  srgpc_url: "https://www.srgpc.net/cards/competitors/grim-librarian/"
+  srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish

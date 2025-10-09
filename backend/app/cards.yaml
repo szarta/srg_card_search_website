@@ -37694,6 +37694,56 @@
 
     Reveal the bottom card of your deck: If the card is odd-numbered, your target randomly discards a card from their hand, and you add the revealed card to your hand; If not, you may put that card on top of your deck.'
   tags: []
+  related_finishes:
+    - a56dfdb6d62a496faef0dc5764debf0d
+    - 6302f528b5ab4b95a6afaa92a49d9195
+    - 68c627255a0345efba8e0f6b5f8f4092
+- name: What's The Hatter with Me?
+  db_uuid: a56dfdb6d62a496faef0dc5764debf0d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +2 to Strike
+
+    Draw 3 cards.
+
+    If you have no other cards with "Mad" or "Hat" in the name in play, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - e8cc1344fd0740a7a6b6695753fac43d
+- name: Mad Tea Party
+  db_uuid: 6302f528b5ab4b95a6afaa92a49d9195
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    Your Tag Team partner''s Power is +1.
+
+    If your opponent breaks out, you may put this card into play.'
+  tags: []
+  related_cards:
+    - e8cc1344fd0740a7a6b6695753fac43d
+- name: Hatter's Unbirthday
+  db_uuid: 68c627255a0345efba8e0f6b5f8f4092
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +4 to Technique
+
+    You and your tag partner bury 1 odd-numbered card in your discard piles.'
+  tags: []
+  related_cards:
+    - e8cc1344fd0740a7a6b6695753fac43d
 - name: Master Cringe
   db_uuid: d35236745f0a4554b20205b440660315
   srg_url: https://supershowthegame.com/product/master-cringe-halloween-competitor/
@@ -41180,4 +41230,18 @@
   db_uuid: 8e1a2c4a56f141c9b0464681e3d720a7
   card_type: SingleCompetitorCard
   division: Super Lucha
+  tags: []
+- name: The Dirty Burgs
+  db_uuid: fb99cecd0c0e4110a9f2b0358ef4b608
+  srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/
+  srgpc_url: https://www.srgpc.net/competitor/the-dirty-burgs/
+  power: 18
+  technique: 10
+  agility: 12
+  strike: 20
+  submission: 16
+  grapple: 14
+  rules_text: 'When you hit a card with "Disqualification" in the text or "Sledgehammer" in the name, draw a card and your opponent''s next turn roll is -2.
+
+    "Blast Into the Light Tubes" is also a Finish.'
   tags: []

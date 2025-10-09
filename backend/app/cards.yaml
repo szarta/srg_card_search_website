@@ -16906,6 +16906,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    Draw 2 cards.'
   tags: []
 - name: Let it Ride, Baybay!
   db_uuid: d8a997a6ecf44fe29db95ce826151c11
@@ -16914,6 +16917,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent cannot Double Team with or Save other players.
   tags: []
 - name: Level Up Ankle Lock
   db_uuid: 1014b4c20e0241759adec1a2105eea56
@@ -16922,6 +16926,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    Your opponent randomly discards 1 card from their hand.'
   tags: []
 - name: Microphone Knockdown
   db_uuid: 431011a6d73e471da3dd506ec11258eb
@@ -16930,6 +16937,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
 - name: Mind Grab
   db_uuid: 1d9e7778d82c4e8680fabde4565ccee3
@@ -16938,6 +16948,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player reveals 2 cards in their hand.'
   tags: []
 - name: Neck Crank (V1)
   db_uuid: 70d11eaa8f5448889a4fcb84fb47fc32
@@ -16946,6 +16959,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Draw 1 card. Flip 1 card. Your next turn roll is +1.
   tags: []
 - name: Neck Crank (V2)
   db_uuid: 8652ab0a3c454af48c68aed2b15ef2d9
@@ -16953,6 +16967,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Draw 1 card. Flip 2 cards. Your next turn roll is +1.
   tags: []
 - name: Neck Twist
   db_uuid: dfb2ad7a466e45fcb76ee539c31c2f16
@@ -16961,6 +16976,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +1 to Power.
   tags: []
 - name: Neck Wrenching
   db_uuid: cec37f2e8ded4b42a0583f51f2a22a58
@@ -16969,14 +16985,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: +2 to Submission during your opponent's turn.
   tags: []
-- name: Nope! Miss a Dive, Eat the Mat
+- name: Nope! Miss a Dive, Eat the Mat (Grapple)
   db_uuid: b9c38e29ccc8425aa2bfa0d7f014d7c4
   srgpc_url: https://www.srgpc.net/cards/21/nope-miss-a-dive-eat-the-mat/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Octopus Hold
   db_uuid: 6d189703d2024aefb48a1b1b72984806
@@ -16985,6 +17007,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent cannot move cards from their discard pile to their hand.
   tags: []
 - name: Pineapple Squeeze
   db_uuid: e7e0b88b0b5d4e70ae5a84f608fd2bff
@@ -16993,6 +17016,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    Your opponent randomly discards 1 card from their hand.'
   tags: []
 - name: Power Rack
   db_uuid: 32084fc017cb4d79a2a2b0f271401f2a
@@ -17001,6 +17027,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Add 1 card from your discard pile to your hand.
   tags: []
 - name: Reverse the Pressure
   db_uuid: ff72e21de1a143d88e1c8b24b06e99f5
@@ -17009,6 +17036,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Each player adds the bottom card of their deck to their hand or if your opponent has another Strike in play, stop any Strike.
   tags: []
 - name: Roar to the Crowd
   db_uuid: 7a716dd2176848cfbf2e0ade32dd25ba
@@ -17017,14 +17045,22 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your breakout rolls are +1.
+
+    If the Crowd Meter is 1 or greater, they are +2 instead.'
   tags: []
-- name: Rocking Stretch
+- name: Rocking Stretch (Technique)
   db_uuid: ec6c86da558c401b92a848eacc9da406
   srgpc_url: https://www.srgpc.net/cards/21/rocking-stretch/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
+
+    +2 to Submission.
+
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Roll Out of the Way
   db_uuid: 0e77f9dc38394f09a1445d4f1780dd6d
@@ -17033,6 +17069,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Search your deck for a Submission and add it to your hand.
+
+    Shuffle your deck.'
   tags: []
 - name: Shoulder Assault
   db_uuid: 40c6341d71314bcdba7fe3199634be0f
@@ -17041,6 +17080,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: If your opponent has another Strike in play, stop any Strike or each player buries 1 card in their discard pile.
   tags: []
 - name: Shoulder Claw
   db_uuid: 42e3b14087d54b4aa33ff3e0d03f98d9
@@ -17049,6 +17089,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Put 1 card from your hand on top of your deck.  Look at your opponent's hand, choose 1 card and discard it.
   tags: []
 - name: Snap Arm Breaker
   db_uuid: 05bf211e2fc74ec7be5d37bef023ecda

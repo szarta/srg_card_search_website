@@ -16871,6 +16871,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If stopped, the Crowd Meter is +1.
+
+    You may force your opponent to re-roll their next turn roll.'
   tags: []
 - name: Knockdown the Steel Chain
   db_uuid: b5f3821913f14a9ea4b45eb95aa3959b
@@ -16889,6 +16892,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'The Crowd Meter is +1.
+
+    If stopped, you may re-roll your next turn roll.'
   tags: []
 - name: Leg Lock
   db_uuid: 630b12050d8843d0b7810e0acab11bad
@@ -17098,6 +17104,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Shuffle 3 cards from your discard pile into your deck.
   tags: []
 - name: Spinning Arm Lock
   db_uuid: 3f2c4a2371e740448cf1b24a23fe646f
@@ -17106,6 +17113,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    If you have less cards in play than your opponent this card is also a Lead.'
   tags: []
 - name: Squash
   db_uuid: 1947f9d3c7d341c0bc914d30eebc16e2
@@ -17114,21 +17124,25 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Choose 1 of your skills: That skill is +1 during your turn and turn rolls.'
   tags: []
-- name: 'Stone Skin Potion #21 (V1)'
+- name: 'Stone Skin Potion #21 (V2)'
   db_uuid: 0c31c2726f1d406b871a4912d2aa5c99
   srgpc_url: https://www.srgpc.net/cards/21/stone-skin-potion-21-2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent cannot move cards in play to any other location.
   tags: []
-- name: 'Stone Skin Potion #21 (V2)'
+- name: 'Stone Skin Potion #21 (V1)'
   db_uuid: a6b8f85e93e048d2a370f53a37160019
+  srgpc_url: https://www.srgpc.net/cards/21/stone-skin-potion-21/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your opponent's card effects and Gimmick cannot move other cards in play to any location.
   tags: []
 - name: Stretching Neck Crank
   db_uuid: 71d3a4f9fdbb4e95bc42f670dffcd419
@@ -17137,30 +17151,42 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: Your next turn roll is +4.
   tags: []
-- name: Swing and a Miss
+- name: Swing and a Miss (Submission)
   db_uuid: b0bdea97a0b241e28a3674d6e03b5f06
   srgpc_url: https://www.srgpc.net/cards/21/swing-and-a-miss/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Copy the text of a Strike your opponent has in play until the end of the turn.
+
+    Skill Requirement: Submission 8+'
   tags: []
-- name: The Madness Spreads
+- name: The Madness Spreads (Grapple)
   db_uuid: 37bd5a41ed97461cb33e713e9a13571d
   srgpc_url: https://www.srgpc.net/cards/21/the-madness-spreads/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your opponent''s next Strike has the added text:"If stopped, you lose the match via Disqualification."Skill Requirement: Grapple 8+'
   tags: []
-- name: Trap and Control
+- name: Trap and Control (Submission)
   db_uuid: 6a138190c6ca4535a6596b2b5150de36
   srgpc_url: https://www.srgpc.net/cards/21/trap-and-control/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
+
+    +1 to Submission
+
+    Skill Requirement: Submission 16+'
   tags: []
 - name: Twisted Rope Burn
   db_uuid: 1dc0e864fceb44abbdde058730520a19
@@ -17169,6 +17195,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: 'Your opponent randomly discards 1 card in their hand.
+
+    Bury up to 2 cards in any player''s discard pile. If this is a Ring of Fire or Lumber Jack match, double these numbers.'
   tags: []
 - name: Well Scouted
   db_uuid: ce0cbde55f4246cfb9650d4264ba8b71
@@ -17177,6 +17206,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
+  rules_text: If your opponent has another Strike in play, stop any Strike. Each player buries 1 card in their opponent's discard pile.
   tags: []
 - name: 360 Lariat
   db_uuid: a811ce990f59487da29a7de21f7b389c

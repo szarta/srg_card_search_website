@@ -17487,13 +17487,18 @@
   deck_card_number: 22
   rules_text: Draw 3 cards.
   tags: []
-- name: Diving Knee Drop
+- name: Diving Knee Drop (Strike)
   db_uuid: 6119d008eaaa4f57b9a9087178909feb
   srgpc_url: https://www.srgpc.net/cards/22/diving-knee-drop/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Double Dose
   db_uuid: cb3e10c55c854a97b41a83065bea8cce
@@ -17502,6 +17507,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 3 cards.
+
+    Add 2 Submissions from your discard pile to your hand or your next turn roll is +1.'
   tags: []
 - name: Double Foot Stomp
   db_uuid: a1004107f2644ca9b7b9a9971bda2e25
@@ -17510,6 +17518,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 3 cards.
+
+    Shuffle up to 6 cards from your discard pile into your deck.'
   tags: []
 - name: Double Jump Knee Strike
   db_uuid: 50229c75e12049f19aa6f2425d12c47d
@@ -17518,6 +17529,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 1 card.
+
+    Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Double Jump Moonsault
   db_uuid: 67b1e87d32024767a8a7ec9554e734bc
@@ -17526,6 +17542,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Shuffle up to 4 cards from your discard pile into your deck. Draw 1 card.
   tags: []
 - name: Double Knee - Drop
   db_uuid: 9402b85185124620bc47e329d4cfa28c
@@ -17534,6 +17551,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Your opponent buries 2 cards in their hand. If this is a Tag Team match draw 1 card.
   tags: []
 - name: Double Knee Strike
   db_uuid: bca1bde690854f0aad1826b70ee0edb8
@@ -17541,6 +17559,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Draw the bottom 2 cards of your deck.
   tags: []
 - name: Eternal Conk
   db_uuid: 3e71a541162e41d6b9e5a8e196310108
@@ -17553,17 +17572,24 @@
 
     Your next turn roll is +2.'
   tags: []
-- name: Fire One Across the Bow
+- name: Fire One Across the Bow (Strike)
   db_uuid: a5b3a331d4c942a7a22a5d309b2ab7f1
   srgpc_url: https://www.srgpc.net/cards/22/fire-one-across-the-bow/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Search your deck or discard pile for 3 Strikes:
+
+    Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
+
+    If this is a Ring of Fire match, your opponent flips 3 cards.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Flying Knee Strike (V1)
   db_uuid: 2981c172ae3e44d8a46a585edc49b718
-  srgpc_url: https://www.srgpc.net/cards/22/flying-knee-strike/
+  srgpc_url: https://www.srgpc.net/cards/22/flying-knee-strike-v1/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17572,6 +17598,7 @@
   tags: []
 - name: Flying Knee Strike (V2)
   db_uuid: 1cb9b3465c5f4ec68cbf5a9da4d1e6b9
+  srgpc_url: https://www.srgpc.net/cards/22/flying-knee-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
@@ -17585,6 +17612,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 5 cards.
+
+    Add 2 Finishes from your discard pile to your hand.'
   tags: []
 - name: High Strike
   db_uuid: 8163db04d5e4463ca439a1c225b02017
@@ -17593,6 +17623,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your next turn roll is +3.
+
+    If either player rolls Strike for their turn roll, their roll is +1.'
   tags: []
 - name: Karate Kick
   db_uuid: 8d53c96216fb4065b38868c5a51e93dc
@@ -17601,6 +17634,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Draw 2 cards.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Hurricane Clothesline
   db_uuid: 1d8e6b9b9c734036a9599055ac1996a3
@@ -17608,6 +17644,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Agility skill is greater than your opponent''s Strike skill, draw 3 cards.'
   tags: []
 - name: Lariat Over the Top
   db_uuid: 8c49f061d6d7462daa29e1dfe8592c44
@@ -17622,18 +17661,25 @@
   tags: []
 - name: Leaping Lariat (V1)
   db_uuid: b98b23173f7f48bd9b6bae9defc4b374
+  srgpc_url: https://www.srgpc.net/cards/22/leaping-lariat/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Flip 2 cards.
+
+    Add 2 Strikes from your discard pile to your hand or draw 1 card.'
+  tags: []
+- name: Leaping Lariat (V2)
+  db_uuid: 052216d0c69a45f28a0543c87646f8dc
   srgpc_url: https://www.srgpc.net/cards/22/leaping-lariat-v2/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  tags: []
-- name: Leaping Lariat (V2)
-  db_uuid: 052216d0c69a45f28a0543c87646f8dc
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 22
+  rules_text: 'Flip 3 cards.
+
+    Add 2 Strikes from your discard pile to your hand or draw 1 card for each opponent in the match.'
   tags: []
 - name: Let's Roll
   db_uuid: 10bd8a1e9f1b43ffb26a149bcf1cb726
@@ -17642,6 +17688,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 3 cards.
+
+    Add 1 card from your discard pile to your hand.
+
+    If either player rolls Strike for their Finish roll, their roll is +1.'
   tags: []
 - name: Level Up Spear
   db_uuid: b97547650b6e44368f9234d8e01369ad
@@ -17650,6 +17701,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Your Technique skill is +2 during your turn.
   tags: []
 - name: Lightning Strikes
   db_uuid: da799d6709664d6a8145dcb5e617e0a8
@@ -17658,6 +17710,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'The Crowd Meter is considered +2 for your card effects.
+
+    Draw 2 cards.'
   tags: []
 - name: Lucky Dragon Jawbreaker
   db_uuid: 156a35701ea54b6eabad337ff513b105
@@ -17666,6 +17721,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: If the Crowd Meter is 2 or greater, your opponent's Gimmick is blank.
   tags: []
 - name: Mist in the Face
   db_uuid: b283fe8806214cbfb67576c246730aa2
@@ -17674,6 +17730,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Draw 1 card. Add 1 card from your discard pile to your hand. Your next turn roll is +1.
+
+    If stopped, you lose the match via disqualification.'
   tags: []
 - name: Muay Thai Strikes
   db_uuid: 7fe08b677c684e6990c0a5b9ac7033c4
@@ -17682,6 +17741,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Discard 1 card your opponent has in play. Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Multiversal Headbutt
   db_uuid: e61030e566e547b0aae4799f61efce95
@@ -17690,6 +17752,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Submission and 1 Grapple from your discard pile to your hand or your next turn roll is +1.'
   tags: []
 - name: Old School Knockdown
   db_uuid: eca33c5df09a441f873fbb1112c36b31
@@ -17698,6 +17763,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: If your opponent has 2 Stops in play, their Gimmick is blank.
   tags: []
 - name: The Opening Act
   db_uuid: be03498d58ad418f9ac634f5e4f03cf3
@@ -17706,6 +17772,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Draw 3 cards.
+
+    If either player rolls Power for their breakout roll, their roll is +1.'
   tags: []
 - name: Reckless Assault
   db_uuid: a1288af8daed45e5bd4fb6b4d443ad6c
@@ -17714,14 +17783,20 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Add 2 cards from your discard pile to your hand.
   tags: []
-- name: Red Splash
+- name: Red Splash (Technique)
   db_uuid: 2aa42464af8341aca8a1ec311cf52e18
   srgpc_url: https://www.srgpc.net/cards/22/red-splash/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.
+
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Rolling Tire Fire of Obliteration
   db_uuid: 704fef20c27c4443be99c63e88552f98
@@ -17730,6 +17805,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 1 card.
+
+    Add 1 card from your discard pile to your hand. Draw 1 card.'
   tags: []
 - name: Runaway Kick
   db_uuid: c7cd90ecc0c6451d8f2ee807be3d36af
@@ -17738,6 +17816,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your opponent''s next turn roll is -2.
+
+    When this card is in play the match has no disqualifications.'
   tags: []
 - name: Running Face Kick
   db_uuid: 31b0cbc5069749919ba976f2ec37fe52
@@ -17746,6 +17827,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Flip 4 cards, then take 1 card from your discard pile and add it to your hand.
   tags: []
 - name: Scratch
   db_uuid: 25824f9b22234a6b884ca37fbdb8917b
@@ -17754,6 +17836,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Add 1 Finish and 1 Strike from your discard pile to your hand.
+
+    If your opponent moves this card from play, add 1 Finish or 1 Strike from your discard pile to your hand.'
   tags: []
 - name: Set Up the Baseball Bat
   db_uuid: 473cc62434d34d7da3e297321de6d7a9
@@ -17774,6 +17859,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 5 cards. Add 2 cards with "Drumstick" in the name from your discard pile to your hand. Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
 - name: Set Up the Kendo Stick
   db_uuid: d35f7c01c3594459b381bdf47a9c3791
@@ -17803,6 +17889,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Look at the top 6 cards of your opponent''s deck, bury 2 of them.
+
+    Put the others back on top of their deck in any order.'
   tags: []
 - name: Set Up the Ladder
   db_uuid: f47b548b4fe34d99acd62e2127060c69
@@ -17822,6 +17911,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 2 cards.
+
+    If either player rolls Strike for their breakout roll, their roll is +1.'
   tags: []
 - name: Send It Home
   db_uuid: 7bf9bbc9966043fbbb12162a8d043130
@@ -17831,6 +17925,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    Your next turn roll is +2 for each Finish in your discard pile.'
   tags: []
 - name: Short Arm Lariat
   db_uuid: 05733d622542445dbaa94b9ef04d1bb7
@@ -17839,6 +17936,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 3 cards.
+
+    Take 2 cards from your discard pile and shuffle them into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Show Boat
   db_uuid: fa512c6ee7d14e4b9cb6690147fa4e70
@@ -17858,6 +17960,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 1 Follow Up and discard it.
+
+    If this is a Steel Cage match, you may discard 1 card from your hand and your opponent buries the chosen card instead.'
   tags: []
 - name: Smash Into the Corner
   db_uuid: 6fe4fc047e1a4c09a38f65eea4e3bf0c
@@ -17870,13 +17977,18 @@
 
     Bury 2 cards in any player''s discard pile.'
   tags: []
-- name: Snap Headbutt
+- name: Snap Headbutt (Strike)
   db_uuid: 8ab52bee3fdc47a3a4a8077cbfef78ad
   srgpc_url: https://www.srgpc.net/cards/22/snap-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Strike for your turn roll, you may add it to your hand.
+
+    Skill Requirement: Strike 8+'
   tags: []
 - name: Soaring Skateboard Smash
   db_uuid: 226d7a4c82d94598927d4e0a3e12530f
@@ -17885,6 +17997,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your opponent''s Gimmick is blank.
+
+    If stopped, you lose the match via disqualification.'
   tags: []
 - name: Splash in the Corner
   db_uuid: e2a3a781bcfa4a39a89a60bf769404e2
@@ -17892,6 +18007,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Take 2 cards from your discard pile and shuffle them into your deck, then draw 2 cards.
   tags: []
 - name: Standing Moonsault
   db_uuid: 38a52829bcaa4022ad19a7cb2351ba07
@@ -17900,6 +18016,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Search your deck for a Finish and add it to your hand.
+
+    Shuffle your deck.
+
+    Your maximum handsize is +1.'
   tags: []
 - name: Stinging Splash
   db_uuid: 9641927c81c948d69090b74068a0b03d
@@ -17908,6 +18029,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Look at your opponent''s hand.
+
+    Add 1 card from your discard pile to your hand.'
   tags: []
 - name: Taking Candy From a Man!
   db_uuid: 3f53ab0fef934963b1c29d880378b6f0
@@ -17926,6 +18050,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 6 cards.
+
+    You may play 1 additional card this turn.'
   tags: []
 - name: Time Jump
   db_uuid: b03a0747851e4660818c5b8b541f0b0b
@@ -17934,6 +18061,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your opponent randomly buries 1 card in their hand.
+
+    The Crowd Meter is considered -2 for all effects.'
   tags: []
 - name: Title Belt Shot
   db_uuid: 6575c1e280ad4e45bd3082e9854ed085
@@ -17953,6 +18083,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Draw 1 card.
+
+    This card cannot be stopped by Follow Ups.'
   tags: []
 - name: Top Rope Moonsault
   db_uuid: 5a3354266b2e46188fa39aaf12e3009a
@@ -17961,6 +18094,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip up to 6 cards.
+
+    Shuffle 3 cards from your discard pile into your deck.'
   tags: []
 - name: Triple Swing and an Elbow
   db_uuid: 5c7f43a26b1c4f6083bf487ce9f0d306
@@ -17969,6 +18105,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Once per turn:
+
+    You may re-roll your Finish roll.'
   tags: []
 - name: Turnip the Heat
   db_uuid: d4e06c5905094f80bf5db470fcc36b57
@@ -17977,6 +18116,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Shuffle up to 4 cards from your discard pile into your deck. Your opponent discards 1 card from their hand. If this is a Ring of Fire or Lumberjack match, double these numbers.
   tags: []
 - name: Twisting Backflip
   db_uuid: d10aa4ba87844b32adaec99d7f1fda6d
@@ -17985,6 +18125,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Search your deck for a Strike and add it to your hand.
+
+    Your opponent''s maximum handsize is -1.'
   tags: []
 - name: Ultra Cosmic Titanic Slam
   db_uuid: c1010ed33620451c9e0a0b4b68730fb3
@@ -17993,6 +18136,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Bury 2 cards in your discard pile.
+
+    Look at the top 3 cards of your deck. Add 2 cards to your hand and put the other back on top.
+
+    If this is a Triad match, you may shuffle your deck.'
   tags: []
 - name: 2 Birds, 1 Stone (Power)
   db_uuid: baf307a1efc84f9aba8400c7a71494f8

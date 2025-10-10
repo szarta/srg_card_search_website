@@ -17238,6 +17238,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Look at the top 4 cards of your deck, add 2 to your hand and flip the others.
+
+    If this is a Steel Cage match, discard 1 card from your hand.'
   tags: []
 - name: Tornado Tackle
   db_uuid: a9303c667c144617bff255b415237915
@@ -17284,6 +17287,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Your next turn roll is +3.
   tags: []
 - name: Blast Into the Light Tubes
   db_uuid: 8e67ea9758d341508c7051a8d70a6823
@@ -17292,6 +17296,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Your opponent discards all cards they have in play.
+
+    Bury up to 3 cards in any player''s discard pile.
+
+    If stopped, you lose the match via disqualification.'
   tags: []
 - name: Booty Drop Chop (Power)
   db_uuid: c09f41ad04af40429b15946cb58aa674
@@ -17346,6 +17355,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your Tag Team partner adds 1 card from their discard pile to their hand.'
   tags: []
 - name: Bulldozer of Demolotion
   db_uuid: 7e71d03cf200438a80e28126a4143258
@@ -17354,22 +17366,35 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Add 1 card from your discard pile to your hand or look at the top 3 cards of your deck. Put 2 cards in your hand and bury the other.
   tags: []
-- name: Callous Elbow Strike
+- name: Callous Elbow Strike (Strike)
   db_uuid: fa199326c50b4067ac90038219314b9f
   srgpc_url: https://www.srgpc.net/cards/22/callous-elbow-strike/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Choose a skill: your opponent''s skill of that type is -1.
+
+    The next time you roll that skill, draw 1 card.
+
+    Skill Requirement: Strike 8+'
   tags: []
-- name: Catch, Twist, Kick
+- name: Catch, Twist, Kick (Agility)
   db_uuid: 82dbb30da1e84bfb8aad957b572da0aa
   srgpc_url: https://www.srgpc.net/cards/22/catch-twist-kick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Search your deck or discard pile for 3 Strikes:
+
+    Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
+
+    If this is a Steel Chain match, draw 2 cards.
+
+    Skill Requirement: Agility 8+'
   tags: []
 - name: Chair Shot
   db_uuid: 9fa7bdeaa4c84ef198d3fdbde50c381c
@@ -17378,6 +17403,11 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Look at your opponent''s hand, choose 1 card and discard it.
+
+    Your opponent''s next turn roll is -1.
+
+    If stopped, you lose the match via disqualification.'
   tags: []
 - name: Chop the Back of the Knee
   db_uuid: 3a1a9e87d4754655811889d1694b4aba
@@ -17395,6 +17425,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags: []
 - name: Clothesline Over the Top Rope
   db_uuid: e7673ba0474049f38229a78f4495d455
@@ -17414,6 +17445,9 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 1 card.
+
+    Draw 3 cards.'
   tags: []
 - name: Cosmic Charging Splash
   db_uuid: 622cefcd937542a898e672605e962f1b
@@ -17422,14 +17456,18 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Flip 2 cards. Add 1 Strike and 1 Grapple from your discard pile to your hand, or your opponent buries 1 card in their hand.
   tags: []
-- name: Daredevil Dive
+- name: Daredevil Dive (Agility 8+)
   db_uuid: 311503316e1c4cf6a67f5b792b801503
   srgpc_url: https://www.srgpc.net/cards/22/daredevil-dive/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: 'Flip 4 cards. Add 2 cards from your discard pile to your hand.
+
+    Skill Requirement: Agility 8+'
   tags: []
 - name: Discus Elbow
   db_uuid: a7ef5df2b6fd421984806994e84949d7
@@ -17438,6 +17476,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Your opponent randomly reveals 3 cards in their hand. Choose 1 of those cards and bury it.
   tags: []
 - name: Dive Off the Top Rope
   db_uuid: 95f7dd31526f479b8fb1d069f267b853
@@ -17446,6 +17485,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
+  rules_text: Draw 3 cards.
   tags: []
 - name: Diving Knee Drop
   db_uuid: 6119d008eaaa4f57b9a9087178909feb

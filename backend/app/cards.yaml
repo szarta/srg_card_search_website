@@ -18208,6 +18208,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'If this is the first turn of the game or the Crowd Meter is 1 or greater, this card is also a Lead.
+
+    Your opponent cannot move this card from in play.'
   tags: []
 - name: Avalanche Driver
   db_uuid: 8c4e28cb99dd4738885103711e97a5d2
@@ -18216,6 +18219,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top and the bottom card of your deck.'
   tags: []
 - name: Back From the Brink (Grapple)
   db_uuid: b3ebd706f77b49299cb2c674b1312bb0
@@ -18237,6 +18243,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags: []
 - name: Backpack Stunner
   db_uuid: 27d82c02fd3243c3adaeece475b62d62
@@ -18245,6 +18252,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Draw 1 card.
+
+    This card cannot be stopped by Follow Ups.'
   tags: []
 - name: Blindside Suplex (Grapple)
   db_uuid: 4e266f93eb034d498cde022b81363fd0
@@ -18275,6 +18285,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip up to 6 cards.
+
+    Shuffle 3 cards from your discard pile into your deck.'
   tags: []
 - name: Cosmic Corner Throw
   db_uuid: 3fcc1b3c54b9413c85e07cd6a3d3f875
@@ -18283,6 +18296,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Grapple and 1 Submission from your discard pile to your hand, or your opponent buries 1 card in their hand.'
   tags: []
 - name: Crucifix Powerbomb
   db_uuid: c340d431e01d48148530606ee2a379da
@@ -18291,6 +18307,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Your opponent flips 5 cards.
+
+    Put up to 4 cards from your opponent''s discard pile on top of their deck.'
   tags: []
 - name: Daredevil Slam
   db_uuid: c32165b14bb4412882708c8b0aa7afb5
@@ -18299,6 +18318,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
+
+    Shuffle your deck.'
   tags: []
 - name: Death Valley Driver
   db_uuid: 3a6c39261ec745c7b6a7f191194b738b
@@ -18307,6 +18329,11 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Search your deck for a Finish and add it to your hand.
+
+    Shuffle your deck.
+
+    Your maximum handsize is +1.'
   tags: []
 - name: Death Valley Drop
   db_uuid: c3ca3d9c74364b51bfd8695d3e87c43f
@@ -18314,6 +18341,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Your opponent discards 1 randomly card from their hand.
+
+    Bury 2 cards in any player''s discard pile.'
   tags: []
 - name: Dirt Drop
   db_uuid: 9feee0d2473e4d96972acfb18da6ab49
@@ -18322,24 +18352,27 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Add 1 Finish and 1 Grapple from your discard pile to your hand.
+
+    If your opponent moves this card from in play, add 1 Finish or 1 Grapple from your discard pile to your hand.'
   tags: []
 - name: Diving Takedown (V1)
   db_uuid: c0d955c4fcca435e86d7b345f9a1dfe7
+  srgpc_url: https://www.srgpc.net/23-diving-takedown-v1/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: Search your deck for a Grapple, put it on top of your shuffled deck.
+  tags: []
+- name: Diving Takedown (V2)
+  db_uuid: c17794d1b3b2449eb4d322d45b0d4dd2
   srgpc_url: https://www.srgpc.net/cards/23/diving-takedown/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
-  rules_text: 'Randomly choose 1, 2, or 3.
-
-    Each player flips the chosen amount.'
-  tags: []
-- name: Diving Takedown (V2)
-  db_uuid: c17794d1b3b2449eb4d322d45b0d4dd2
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Followup
-  deck_card_number: 23
+  rules_text: Search your deck or discard pile for a Grapple, put it on top of your shuffled deck.
   tags: []
 - name: Drag Out of the Ring
   db_uuid: 37101e87902140d68983dce03f1fbb23
@@ -18348,6 +18381,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: Draw the bottom 2 cards of your deck.
   tags: []
 - name: Eternal-Conrana
   db_uuid: dd103aa2ba6b4c258d862948f880b00b
@@ -18399,13 +18433,18 @@
 
     Draw 1 card.'
   tags: []
-- name: From Darkness Into Light
+- name: From Darkness Into Light (Grapple)
   db_uuid: 29620994422149f890ec01acfee313e2
   srgpc_url: https://www.srgpc.net/cards/23/from-darkness-into-light/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Gut Punch Body Slam
   db_uuid: ccc1924697ec4176b6a0e79f831e7ca3
@@ -18414,6 +18453,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 4 cards.
+
+    Add 1 Grapple from your discard pile to your hand. All Finish Submissions have the added text: "Your Finish rolls are +1."'
   tags: []
 - name: Head Drop Driver
   db_uuid: d40e2a878f41424cbd7ec2f2b8282278
@@ -18422,6 +18464,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Look at the top 4 cards of your deck, add 1 to your hand then put the others on top of your deck in any order.'
   tags: []
 - name: Heave Into the Corner
   db_uuid: 9fa854e36ca9460bae9b13820b4f98b0
@@ -18430,6 +18475,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Heave Over the Shoulder
   db_uuid: 67e9d8569d62433bacb2386a7e155690
@@ -18438,14 +18486,24 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 1 card.
+
+    Shuffle up to 4 cards from your discard pile into your deck. Draw 1 card.'
   tags: []
-- name: Herculean Throw
+- name: Herculean Throw (Power)
   db_uuid: 218b6018cfc542bf8dcfa695fcf36fe6
   srgpc_url: https://www.srgpc.net/cards/23/herculean-throw/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Search your deck or discard pile for 3 Grapples:
+
+    Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
+
+    If this is a Steel Chain match, draw 2 cards.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: High Crunching Stomps
   db_uuid: 0b82142a4c7c4691b534336e08468545
@@ -18454,6 +18512,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: If the Crowd Meter is 2 or greater, your opponent's Gimmick is blank.
   tags: []
 - name: I'll Handle This!
   db_uuid: 6529d8f177de4966a9ad378e2047d14a
@@ -18462,6 +18521,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Your next turn roll is +3.
+
+    If Either player rolls Grapple for their turn roll, their roll is +1.'
   tags: []
 - name: Impact Driver
   db_uuid: 6129d603147d431f86fa35efa97eb50b
@@ -18470,6 +18532,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: Your Finish rolls are +1.
   tags: []
 - name: Inferno Wool Cutter
   db_uuid: 0187fdf1d72d4d6ba86d1ce0b44b9a9b
@@ -18487,6 +18550,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Discard 1 card your opponent has in play, shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: King's Downfall
   db_uuid: 4612d2e8dcfe4f508145ef4098c2e3eb
@@ -18495,6 +18561,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: If your opponent has 2 Stops in play, their Gimmick is blank.
   tags: []
 - name: Kitchen Sink (#23)
   db_uuid: f14b10b2a096450f838be90cf6388f16
@@ -18514,6 +18581,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Your opponent''s next turn roll is -2.
+
+    When this card is in play the match has no disqualifications.'
   tags: []
 - name: Lariat Takedown
   db_uuid: 3b7c8036416c4ab9aa9f8dc1a0100f86
@@ -18526,13 +18596,22 @@
 
     Take 2 cards from your discard pile, shuffle them into your deck, then draw 2 cards.'
   tags: []
-- name: Legendary American Sheep Union Break
+- name: Legendary American Sheep Union Break (Submission)
   db_uuid: f2822cf1bee942458ba4620c75dccbab
   srgpc_url: https://www.srgpc.net/cards/23/legendary-american-sheep-union-break/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Your maximum handsize is +3.
+
+    Choose one:
+
+    Draw 3 cards.
+
+    Add the bottom 3 cards of your deck to your hand.
+
+    Skill Requirement: Grapple 8+'
   tags: []
 - name: Lucha Light House of Pain
   db_uuid: 2b3297c85ca94b79b4620fce31b7f112
@@ -18541,6 +18620,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 1 card.
+
+    Add 1 card from your discard pile to your hand. Draw 1 card.'
   tags: []
 - name: Multiversal Backbreaker
   db_uuid: 1d81e10b458149b0ae6c4d2178924bf1
@@ -18549,6 +18631,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Strike and 1 Submission from your discard pile to your hand, or your next turn roll is +1.'
   tags: []
 - name: Monkey Flip
   db_uuid: 28d620b44db2437e86a016a37e3b9505
@@ -18557,6 +18642,9 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
+  rules_text: 'Choose a skill: Your opponent''s sklil of that type is -1.
+
+    The next time you roll that skill, draw 1 card.'
   tags: []
 - name: Norseman's Fury
   db_uuid: 2f3b89e0937249588762eccbaae31699

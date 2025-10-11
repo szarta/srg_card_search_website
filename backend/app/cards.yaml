@@ -3313,6 +3313,7 @@
 - name: Pucker Up
   db_uuid: b214d29577824b9c84898f40e414bba4
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ariel-lipstick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -3323,9 +3324,12 @@
 
     Draw 1 card or your opponent buries 2 cards in their hand.'
   tags: []
+  related_cards:
+    - 37f9036514b94c4b82fefbb482b5a1a9
 - name: Matte Finish
   db_uuid: 186adcdd95b049e597d79fd92ef31a15
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ariel-lipstick/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -3338,9 +3342,12 @@
 
     Each player buries 1 card in their hand.'
   tags: []
+  related_cards:
+    - 37f9036514b94c4b82fefbb482b5a1a9
 - name: The Makeover
   db_uuid: 2b71751340fa42899d966bda24299eb5
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ariel-lipstick/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -3351,6 +3358,8 @@
 
     Your opponent''s maximum handsize is -6.'
   tags: []
+  related_cards:
+    - 37f9036514b94c4b82fefbb482b5a1a9
 - name: Armageddon (Grapple)
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
   srg_url: https://supershowthegame.com/product/17-armageddon/

@@ -339,9 +339,14 @@
   rules_text: When you roll Power for your turn roll draw 2 cards.
   release_set: Unknown
   tags: []
+  related_finishes:
+    - b36a163260f2481b9fe93ca951a27f8a
+    - 6b71fa12b14c4464bbad53ad3995915d
+    - 988a1e53a2124782a0f3addf54f5215b
 - name: Infrared
   db_uuid: b36a163260f2481b9fe93ca951a27f8a
   srg_url: https://supershowthegame.com/product/amazing-red/
+  srgpc_url: https://www.srgpc.net/cards/competitors/amazing-red/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -352,9 +357,12 @@
 
     Look at your opponent''s hand, choose 1 card and bury it.'
   tags: []
+  related_cards:
+    - 2507369b706f4dec83b61e8da40b80c0
 - name: Code Red
   db_uuid: 6b71fa12b14c4464bbad53ad3995915d
   srg_url: https://supershowthegame.com/product/amazing-red/
+  srgpc_url: https://www.srgpc.net/cards/competitors/amazing-red/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -365,9 +373,12 @@
 
     Bury any number of cards in your hand, then draw the same number of cards.'
   tags: []
+  related_cards:
+    - 2507369b706f4dec83b61e8da40b80c0
 - name: Red Cross
   db_uuid: 988a1e53a2124782a0f3addf54f5215b
   srg_url: https://supershowthegame.com/product/amazing-red/
+  srgpc_url: https://www.srgpc.net/cards/competitors/amazing-red/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -378,6 +389,8 @@
 
     Bury any number of cards in your hand, your opponent buries the same number of cards in his hand.'
   tags: []
+  related_cards:
+    - 2507369b706f4dec83b61e8da40b80c0
 - name: 12 Grapple Matt
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
   srg_url: https://supershowthegame.com/product/12-grapple-matt/

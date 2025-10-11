@@ -24538,6 +24538,7 @@
 - name: D2 (V1)
   db_uuid: bd04b23708fe49728541a20e689cae61
   srg_url: https://supershowthegame.com/product/d2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
   card_type: SingleCompetitorCard
   division: World Championship
   power: 8
@@ -24547,6 +24548,130 @@
   submission: 9
   grapple: 7
   rules_text: When your turn roll is exactly 2 less than your opponet's turn roll, draw 2 cards or add 1 card with "Hammer" in the name from your discard pile to your hand.
+  tags: []
+  related_finishes:
+    - 31147ec233364c6b9d0ce86527b78054
+    - a01578496fd84636939dff4762da7ca7
+    - 4a39cb20d46e41828607c82a54b4084c
+    - e818072be5314d99a87c057550fb50b3
+- name: Thud!
+  db_uuid: 31147ec233364c6b9d0ce86527b78054
+  srg_url: https://supershowthegame.com/product/d2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Agility
+
+    Your Agility skill is +1 for each card you have in play with "Hammer", "Smash", "High", or "Strike" in the name.'
+  tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+- name: Step Right Up!
+  db_uuid: a01578496fd84636939dff4762da7ca7
+  srg_url: https://supershowthegame.com/product/d2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Add 1 card with "High", 1 card with "Strike", 1 card with "Smash", and 1 card with "Hammer" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+- name: Test Your Might
+  db_uuid: 4a39cb20d46e41828607c82a54b4084c
+  srg_url: https://supershowthegame.com/product/d2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile: Your Power skill is greater than your opponent''s Power skill for card effects.'
+  tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+- name: Dizzy Drill
+  db_uuid: 79ea7f5e5370414c9e889de621d5036c
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Your opponent shuffles 2 cards from their hand into their deck.
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+- name: Dark Descent
+  db_uuid: 3d42030bc3e34f509248b493264f3c21
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Your Submission skill is +1 for each time you''ve used your D2 Gimmick.'
+  tags: []
+- name: Destructive Dreamland
+  db_uuid: de4ad028468340be8d718a9ef236fee5
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +4 to Submission'
+  tags: []
+- name: Face Melter
+  db_uuid: ca803bf9b2424e03b03250e5400b3ca9
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: ''
+  tags: []
+- name: Psychocidal
+  db_uuid: e818072be5314d99a87c057550fb50b3
+  srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Bury 4 cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+- name: Sweet Nightmare
+  db_uuid: 776fad5b882a45a184765b90af6d6fcd
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: ''
   tags: []
 - name: D2 (V2)
   db_uuid: bf1ee5c00125450da300bb9f3762511f
@@ -33570,6 +33695,7 @@
   tags: []
 - name: Ring Leader
   db_uuid: f67082e53b084aefbc07e3df08801f6f
+  srg_url: https://supershowthegame.com/product/ring-leader/
   srgpc_url: https://www.srgpc.net/cards/competitors/ring-leader/
   card_type: SingleCompetitorCard
   division: United States
@@ -33580,7 +33706,54 @@
   strike: 6
   submission: 9
   grapple: 8
+  rules_text: 'Once per turn:
+
+    When your opponent flips or buries any number of cards in their discard pile: Add 1 card with "Ring" in the name from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 08b55c0aa6a642f29450176b1bf28e02
+    - f432342e593e41e2a21f18b0b39250ee
+    - 1d87556c2fa24e64807d0f615ed711f4
+- name: Spitting Rings of Fire
+  db_uuid: 08b55c0aa6a642f29450176b1bf28e02
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    If you have 3 cards in play with "Fire" in the name, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - f67082e53b084aefbc07e3df08801f6f
+- name: Gathering the Freak Show
+  db_uuid: f432342e593e41e2a21f18b0b39250ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Flip cards equal to the Crowd Meter +2.'
+  tags: []
+  related_cards:
+    - f67082e53b084aefbc07e3df08801f6f
+- name: Three-Ringed Spectacle
+  db_uuid: 1d87556c2fa24e64807d0f615ed711f4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    If any player broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - f67082e53b084aefbc07e3df08801f6f
 - name: RJ Bombshell (V1)
   db_uuid: 8fa5113d9e0243899f7ad586a3b7c323
   srg_url: https://supershowthegame.com/product/rj-bombshell/
@@ -36971,8 +37144,25 @@
   tags: []
 - name: D2 & The Ring Leader
   db_uuid: 9f02b39088284f38a15781a4bafacce7
+  srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2-the-ring-leader/
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 10
+  agility: 14
+  strike: 18
+  submission: 16
+  grapple: 20
+  rules_text: When your turn roll is exactly 2 less than your opponent's, bump instead.
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+    - f67082e53b084aefbc07e3df08801f6f
+  related_finishes:
+    - 31147ec233364c6b9d0ce86527b78054
+    - a01578496fd84636939dff4762da7ca7
+    - 4a39cb20d46e41828607c82a54b4084c
+    - e818072be5314d99a87c057550fb50b3
 - name: Dangerous Alliance
   db_uuid: b6419b038a244358a61a32d3d7d41cc4
   srg_url: https://supershowthegame.com/product/dangerous-alliance/

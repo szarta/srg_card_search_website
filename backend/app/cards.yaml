@@ -22239,7 +22239,7 @@
   tags: []
 - name: Baanomenal Son Nikola Mai
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
-  srgpc_url: https://www.srgpc.net/cards/competitors/baanomenal-son-nikola-mai/
+  srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -22251,6 +22251,71 @@
   grapple: 10
   rules_text: When you roll Agility or Submission for your turn roll, you may draw 1 card then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - e2189d9f64e944c1918ec88f69f2ee5d
+    - 56e96db679274d74b7489b16a6ad9276
+    - 01048da009d44150bcc7ba96131dce44
+    - a3a76103e4d04cd9a4ca38bb2e9dd3bd
+- name: The Rage of the Eight Mais
+  db_uuid: e2189d9f64e944c1918ec88f69f2ee5d
+  srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If stopped, bury or discard any number of cards from your hand to draw the same number of cards.'
+  tags: []
+  related_cards:
+    - 492abcc803d447eeb36a4406bc46bc3b
+- name: This is Not the Best Guitar Finish in the World, No. This is Just a Tribute.
+  db_uuid: 56e96db679274d74b7489b16a6ad9276
+  srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Submission
+
+    Draw 2 cards, then bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - 492abcc803d447eeb36a4406bc46bc3b
+- name: Ewe-Decator
+  db_uuid: 01048da009d44150bcc7ba96131dce44
+  srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    When this card is in your discard pile: After you use your Baanomel Son Nikola Mai Gimmick, you may bury 1 other card in your discard pile.'
+  tags: []
+  related_cards:
+    - 492abcc803d447eeb36a4406bc46bc3b
+- name: Tesla Coil
+  db_uuid: a3a76103e4d04cd9a4ca38bb2e9dd3bd
+  srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    Draw the bottom 2 cards of your deck.'
+  tags: []
+  related_cards:
+    - 492abcc803d447eeb36a4406bc46bc3b
 - name: Baby Brick
   db_uuid: 0e8eca6185214b268fa7ffddb4bdf57b
   srgpc_url: https://www.srgpc.net/cards/competitors/baby-brick/

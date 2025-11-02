@@ -26031,7 +26031,7 @@
   strike: 7
   submission: 6
   grapple: 8
-  rules_text: After your opponent moves any number of cards from their discard pile to their hand, add 1 card fro myour discard pile to your hand.
+  rules_text: After your opponent moves any number of cards from their discard pile to their hand, add 1 card from your discard pile to your hand.
   tags: []
 - name: Jessica Havok
   db_uuid: 2eef1e4ccbf4488b9c3967144b1bac84

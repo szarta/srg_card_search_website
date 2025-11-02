@@ -30332,7 +30332,7 @@
   strike: 7
   submission: 6
   grapple: 10
-  rules_text: Whenever your opponent buries or discards card from their hand they must do so randomly.
+  rules_text: Whenever your opponent buries or discards cards from their hand they must do so randomly.
   tags: []
   related_finishes:
     - 6257bda9e722488fb9b295296ac38808

@@ -38666,17 +38666,43 @@
   db_uuid: 627444f08925427b973a23be26369043
   card_type: SingleCompetitorCard
   division: United States
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  rules_text: 'During your turn roll:
+
+    When you have a card with "Fire" in the name in play, your Power is +1.
+
+    When you have a card with "Hammer" in the name in play, your Power is +1.'
   tags: []
 - name: Soratonin
   db_uuid: 8e91063f3d584089a7218223a02d0574
   srg_url: https://supershowthegame.com/product/soratonin/
   card_type: SingleCompetitorCard
   division: United States
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  rules_text: After a breakout, search your deck or discard pile for a Soratonin Finish and add it to your hand.
   tags: []
 - name: SRG Mom
   db_uuid: 6a32e401cff74db8937a966a156ae2c3
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 8
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 10
+  grapple: 7
+  rules_text: When your opponent reveals any number of cards from your effect, you may bury 1 of the revealed cards.
   tags: []
 - name: Syzygy
   db_uuid: 84cabdff220742dfae1717f690ae850a
@@ -38722,10 +38748,17 @@
   grapple: 8
   rules_text: When you hit a card with "Bird" or "Press" in the name, your opponent discards 1 card from their hand.
   tags: []
-- name: The Greatest American Who Ever Lived
+- name: The SRG Boss V2 (The Greatest American Who Ever Lived)
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   card_type: SingleCompetitorCard
   division: United States
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 7
+  rules_text: 'At the start of the match reveal any number of Singles Competitors with the SRG Boss (V1) logo: Choose 1 and add their Gimmick to yours.'
   tags: []
 - name: The Starbreaker
   db_uuid: e9f8f5ac87b046d787401602e5730749
@@ -41827,16 +41860,37 @@
   db_uuid: 4bcdec3ecc6445fbb9be4aa897d17972
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: When you roll Submission for your turn roll, draw 2 cards.
   tags: []
 - name: Ninja Hummingbird (V2)
   db_uuid: 66d0f98dfaf143a5987afaed62824d27
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: 'Once per turn roll: When your target rolls Power, you may force them to re-roll.'
   tags: []
 - name: Loeb The Collector
   db_uuid: cb529308bc9847e581b0128f99719f04
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 5
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 9
+  grapple: 10
+  rules_text: 'When you roll Grapple for your turn roll: When you hit a card, copy the text of a card your opponent has in play until the end of the turn.'
   tags: []
 - name: Snake Pitt (V4)
   db_uuid: a9e25560225244d3accd57034587220b
@@ -41847,16 +41901,37 @@
   db_uuid: 4a15300ac41346d2a521fca4939c3404
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: When your target's turn roll is 5 or less, this turn roll and your next turn roll are +1.
   tags: []
 - name: Vik Vik DeDoom
   db_uuid: d4780f9496154143ac792803b32fa4ea
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 9
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 8
+  grapple: 5
+  rules_text: 'Once per match: During anyone''s turn, draw 4 cards.'
   tags: []
 - name: The Wolf Guardian
   db_uuid: 8e1a2c4a56f141c9b0464681e3d720a7
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 5
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 10
+  grapple: 8
+  rules_text: 'When you roll Power for your turn roll: Your Strike is +3 and your Agility is +3 during your next turn roll.'
   tags: []
 - name: The Dirty Burgs
   db_uuid: fb99cecd0c0e4110a9f2b0358ef4b608

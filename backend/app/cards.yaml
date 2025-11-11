@@ -24950,6 +24950,7 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
   card_type: SingleCompetitorCard
   division: Old School
+  gender: Male
   power: 7
   technique: 6
   agility: 5
@@ -24958,10 +24959,19 @@
   grapple: 8
   rules_text: When you roll Agility for your turn roll, look at the top 4 cards of your deck, add 1 to your hand and randomly put the others back on top of your deck.
   tags: []
+  related_finishes:
+    - 91ac0d644d8c4ea3ac9dc6c994528c8e
+    - 2e748bba9d7e411f809af291ac47984e
+    - 4a3ccfad50e44c489fd31f6bde0f1373
+    - adfddb9675ba445384a91b60c865f030
+    - b6b86e8dc315466f92738a578cfb9bb1
+    - 0759f2b62d854873b2b03498b86f7858
 - name: The High Roller (V2)
   db_uuid: 7ea7597e056c450c9803bcaae977845a
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
   card_type: SingleCompetitorCard
   division: Old School
+  gender: Male
   power: 7
   technique: 6
   agility: 5
@@ -24970,6 +24980,113 @@
   grapple: 8
   rules_text: When your turn roll is 11 or greater, draw 1 card.
   tags: []
+  related_finishes:
+    - 91ac0d644d8c4ea3ac9dc6c994528c8e
+    - 2e748bba9d7e411f809af291ac47984e
+    - 4a3ccfad50e44c489fd31f6bde0f1373
+    - adfddb9675ba445384a91b60c865f030
+    - b6b86e8dc315466f92738a578cfb9bb1
+    - 0759f2b62d854873b2b03498b86f7858
+- name: The Big Blind
+  db_uuid: 91ac0d644d8c4ea3ac9dc6c994528c8e
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    If you have more cards in your hand than your opponent double these bonuses.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
+- name: All In
+  db_uuid: 2e748bba9d7e411f809af291ac47984e
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    You may bury all other cards in your hand.
+
+    If you do this card is also a Lead.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
+- name: Texas Hold'em
+  db_uuid: 4a3ccfad50e44c489fd31f6bde0f1373
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Flip 3 cards. Shuffle 1 card from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
+- name: The Rolling Chip
+  db_uuid: adfddb9675ba445384a91b60c865f030
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck, your next turn roll is +3.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
+- name: The Casino Comp
+  db_uuid: b6b86e8dc315466f92738a578cfb9bb1
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    This card copies the text of a card your opponent has in play until the end of the turn.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
+- name: The High Limit Lounge
+  db_uuid: 0759f2b62d854873b2b03498b86f7858
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    When this card is in your discard pile and you roll Submission for your turn roll, discard 1 card from your hand and your turn roll is +1.'
+  tags: []
+  related_cards:
+    - 3eb9d2113255470eba5bf14fc16036cb
+    - 7ea7597e056c450c9803bcaae977845a
 - name: Miss Fury
   db_uuid: bf2ee4518b64409cac022a79d7412d54
   card_type: SingleCompetitorCard

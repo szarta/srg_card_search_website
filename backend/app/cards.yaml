@@ -38773,9 +38773,62 @@
   tags: []
 - name: Mofa
   db_uuid: f70d6561116e416694e7a41f0194d756
+  srg_url: https://supershowthegame.com/product/mofa/
+  srgpc_url: https://www.srgpc.net/competitor-mofa/
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: 'Once per turn roll: When your target rolls Agility, you may force them to re-roll.'
   tags: []
+  related_finishes:
+    - e8374a5ac0944990848d8a3e294d4f65
+    - 0678c1d77d98404a8497a8c4f37c7fdd
+    - d4bfe4aa13344512a0bdfa757a80c997
+- name: Doomcloud!
+  db_uuid: e8374a5ac0944990848d8a3e294d4f65
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Technique
+
+    +2 to Strike
+
+    Draw 5 cards.'
+  tags: []
+  related_cards:
+    - f70d6561116e416694e7a41f0194d756
+- name: Hailstorm!
+  db_uuid: 0678c1d77d98404a8497a8c4f37c7fdd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Strike
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - f70d6561116e416694e7a41f0194d756
+- name: Honky Catarrh!
+  db_uuid: d4bfe4aa13344512a0bdfa757a80c997
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Agility
+
+    Look at your opponent''s hand, choose 1 card and discard it.
+
+    If your opponent''s Agility is 6 or less, choose 2 cards instead.'
+  tags: []
+  related_cards:
+    - f70d6561116e416694e7a41f0194d756
 - name: Mr. Soleil
   db_uuid: 074d9ca5764847d19d8f3158a4b87552
   card_type: SingleCompetitorCard

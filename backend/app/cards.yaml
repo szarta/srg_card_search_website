@@ -122,6 +122,8 @@
 
     Flip 2 cards, shuffle 2 cards from your discard pile into your deck.  Draw 2 cards'
   tags: []
+  related_cards:
+    - 83a18825be1b4a83bcbc1392a5bcb585
 - name: The Sunset Suplex
   db_uuid: 813b7639865341f7bca992dbf6931f76
   srg_url: https://supershowthegame.com/product/the-rising-sun/
@@ -135,6 +137,8 @@
 
     +3 to Grapple'
   tags: []
+  related_cards:
+    - 83a18825be1b4a83bcbc1392a5bcb585
 - name: Circle of the Sun
   db_uuid: a175f29cdf774861b4d762e749e093d9
   srg_url: https://supershowthegame.com/product/the-rising-sun/
@@ -144,6 +148,8 @@
   deck_card_number: 30
   rules_text: Your opponent gets 1 breakout roll this turn.
   tags: []
+  related_cards:
+    - 83a18825be1b4a83bcbc1392a5bcb585
 - name: Lock Up (V1)
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
   srg_url: https://supershowthegame.com/product/02-lock-up/
@@ -2191,7 +2197,9 @@
 
     +1 to Strike'
   tags: []
-- name: El Super Smash (#29)
+  related_cards:
+    - 59a06bccbea64d1bb1d6301449190e81
+- name: El Super Slam
   db_uuid: 63034684664a4ac9ba689abb6cc2aa97
   srg_url: https://supershowthegame.com/product/el-super-hombre/
   card_type: MainDeckCard
@@ -2202,6 +2210,8 @@
 
     +1 to Grapple'
   tags: []
+  related_cards:
+    - 59a06bccbea64d1bb1d6301449190e81
 - name: El Superhold
   db_uuid: 015aecb201074dbb929a9c9cd8b0ea46
   srg_url: https://supershowthegame.com/product/el-super-hombre/
@@ -2213,6 +2223,8 @@
 
     +3 to Submission'
   tags: []
+  related_cards:
+    - 59a06bccbea64d1bb1d6301449190e81
 - name: Freedom Belle - Iku Zo
   db_uuid: 13d73960938c418f9f0cecc7145ac830
   srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
@@ -2703,6 +2715,8 @@
 
     When this card is in your discard pile and you stop a card, the stopped card has blank text until the end of the turn.'
   tags: []
+  related_cards:
+    - abec1bc1bede476cb22839213ccb31b9
 - name: Chonkin' and Bonkin'
   db_uuid: 5cff784c580d42cf93f34c57fb88a9bf
   srg_url: https://supershowthegame.com/product/art-the-seal/
@@ -2718,6 +2732,8 @@
 
     Your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_cards:
+    - abec1bc1bede476cb22839213ccb31b9
 - name: Seal of Disapproval
   db_uuid: e9db919e62d6440db8d6fe7dc0384cc7
   srg_url: https://supershowthegame.com/product/art-the-seal/
@@ -2731,6 +2747,8 @@
 
     If your opponent has a Spectacle revealed, this card is also a Follow Up.  If that Spectacle has "Taunt" in the name, double these bonuses.'
   tags: []
+  related_cards:
+    - abec1bc1bede476cb22839213ccb31b9
 - name: Big Jim Bias
   db_uuid: 9af9c9c9ba454cbc8ea6bd87eb0adc9a
   srg_url: https://supershowthegame.com/product/big-jim-bias/
@@ -2939,6 +2957,8 @@
 
     Each player discards 1 card from their hand. Each player draws 1 card.'
   tags: []
+  related_cards:
+    - c4732bb7130f49d5830a881f78b0d6a6
 - name: Let Them Eat Cake
   db_uuid: a62244a047184f01b497149d25827b2a
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
@@ -2952,6 +2972,8 @@
 
     Bury 2 cards in any player''s discard pile. Look at the top 4 cards of your opponent''s deck and put them on top in any order.'
   tags: []
+  related_cards:
+    - c4732bb7130f49d5830a881f78b0d6a6
 - name: The Reign of Terror
   db_uuid: 1a6c7ef85ca54ac991d99363f5fa8597
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
@@ -2967,6 +2989,8 @@
 
     Your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_cards:
+    - c4732bb7130f49d5830a881f78b0d6a6
 - name: Bartholomew Hooke
   db_uuid: a01036ebb5bf49e382f6c9668fd04cc7
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -3291,6 +3315,8 @@
 
     Their 3rd brekaout roll is -2.'
   tags: []
+  related_cards:
+    - df55bc41f35640b28b35de866e6a12da
 - name: Ariel Lipstick
   db_uuid: 37f9036514b94c4b82fefbb482b5a1a9
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
@@ -3459,6 +3485,8 @@
 
     If your opponent breaks out, you may discard 1 card from your hand to add this card to your hand.'
   tags: []
+  related_cards:
+    - df55bc41f35640b28b35de866e6a12da
 - name: Where's the Rum
   db_uuid: 9f10a21c932044f9bf731ad78a3ccbfb
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
@@ -3472,6 +3500,8 @@
 
     You may bury 4 cards in your hand to re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - df55bc41f35640b28b35de866e6a12da
 - name: The Cyclone (V1)
   db_uuid: 014bc171e93a4ed9a4d26d6d7fab3039
   card_type: SingleCompetitorCard
@@ -24284,6 +24314,8 @@
 
     When your opponent hits a Finish: You may reveal this card from your hand and shuffle it into your deck to add +1 to your breakout rolls until the end of the turn.'
   tags: []
+  related_cards:
+    - 417d1d704f49439c8c8e4f3bd703a880
 - name: Express Delivery
   db_uuid: a052f3ebfe08410c8c784a9f7d9b7cff
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
@@ -24297,6 +24329,8 @@
 
     Shuffle 1 card from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 417d1d704f49439c8c8e4f3bd703a880
 - name: Return to Sender
   db_uuid: 001400440b844d76bacc6907b50710e5
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
@@ -24310,6 +24344,8 @@
 
     When your opponent rolls their 1st or 2nd breakout roll, shuffle 1 card from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 417d1d704f49439c8c8e4f3bd703a880
 - name: Mighty Marcel
   db_uuid: 7b2f88b0914c49d996c823ddd1be50ac
   card_type: SingleCompetitorCard
@@ -26977,6 +27013,8 @@
 
     If you and your opponent rolled the same skill for your turn roll, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - 8b89fe0295184f92a159339ac164756b
 - name: Brock Bottom
   db_uuid: d4d377c0fb1749449bf2437424b7b977
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
@@ -26990,6 +27028,8 @@
 
     If you and your opponent rolled the same skill for your turn roll, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 8b89fe0295184f92a159339ac164756b
 - name: GOAT's Dive Bomb Superkick
   db_uuid: 52344a7efe4e4de4a783e860e384a546
   srg_url: https://supershowthegame.com/product/brock-smith/
@@ -27001,6 +27041,8 @@
 
     Your Power and Strike cards are +1 for every 4 cards in your hand.'
   tags: []
+  related_cards:
+    - 8b89fe0295184f92a159339ac164756b
 - name: Gizmo's Revenge
   db_uuid: d9691f0c50c94186abfffb99b59d4211
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
@@ -27014,6 +27056,8 @@
 
     When this card is in your discard pile and you roll the same skill as an opponent, you may shuffle it into your deck.'
   tags: []
+  related_cards:
+    - 8b89fe0295184f92a159339ac164756b
 - name: Brother Dan
   db_uuid: 73cf2f31cea34d14afdff694aae099e5
   srg_url: https://supershowthegame.com/product/brother-dan/
@@ -27082,6 +27126,7 @@
   db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63
   srgpc_url: https://www.srgpc.net/cards/competitors/caleb-konley/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 6
   technique: 9
@@ -28707,6 +28752,7 @@
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
   srgpc_url: https://www.srgpc.net/cards/competitors/effy/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 7
   technique: 6
@@ -36149,9 +36195,62 @@
   tags: []
 - name: Zack Sabre Jr. (V2)
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
+  srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr-njpw/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from yoru discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 8e3db67fc80348098e4f8a24d47aab99
+    - df4fa4058d284a43862f4f201d056260
+    - a3d4e9edb43048428d41bce636d2babf
+- name: Penalty Kick
+  db_uuid: 8e3db67fc80348098e4f8a24d47aab99
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    When you have 0 cards in your deck, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 6359a3a6d77d45ae8e05f43c37b5a001
+- name: Zack Driver
+  db_uuid: df4fa4058d284a43862f4f201d056260
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 6359a3a6d77d45ae8e05f43c37b5a001
+- name: Clarky Cat
+  db_uuid: a3d4e9edb43048428d41bce636d2babf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    Flip 3 cards or add 1 Submission with "Arm" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 6359a3a6d77d45ae8e05f43c37b5a001
 - name: Zero Win Champion
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   card_type: SingleCompetitorCard
@@ -40735,6 +40834,17 @@
   deck_card_number: 16
   rules_text: Draw 1 card for each Stop your opponent has in play.
   tags: []
+- name: Next Level Uppercut
+  db_uuid: ef9f3e5c21244b2da31a1092a5b5ba7e
+  srg_url: https://supershowthegame.com/product/16-next-level-uppercut/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'If you have another Follow Up in play, draw 1 card.
+
+    Stop "Rejected!". "Rejected" has blank text.'
+  tags: []
 - name: Inflight Drop on the Table
   db_uuid: e9a8a389dbca43988c946f866da7b6be
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -41241,6 +41351,16 @@
   deck_card_number: 24
   rules_text: Your Agility is +2 during your turn.
   tags: []
+- name: Blood Bath
+  db_uuid: 7443b63c972a4731961f2aef778801ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'If stopped, you lose the match via disqualification.
+
+    If the Crowd Meter is 2 or greater, this card is also a Finish.'
+  tags: []
 - name: Cattle Crusher
   db_uuid: 11c852054ca14948b53aa8ecb789324f
   card_type: MainDeckCard
@@ -41589,6 +41709,16 @@
   tags: []
   related_cards:
     - 992dac94fa8944afab7d4ac757df2944
+- name: Level Upbreak
+  db_uuid: 984d0965c9bc4be0a60615da7488eefd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your lowest printed skill is +4.
+
+    If you have 2 cards in play with "Level" or "Dungeon" in the name: this card cannot be stopped by printed Finish cards and your opponent cannot prevent you from playing this card.'
+  tags: []
 - name: Treasure Trap
   db_uuid: 9a78c09e97a34569bd49c08839171c8c
   card_type: MainDeckCard
@@ -41650,6 +41780,11 @@
   db_uuid: 5224820cfea446b6938f65d7154bd2f0
   card_type: EntranceCard
   rules_text: 'Once per match: When you would bump, draw 2 cards instead and each player re-rolls their turn roll.'
+  tags: []
+- name: Leveling Up At The Venture Dojo
+  db_uuid: 4a491fee84fc4b67bd708b79ed769804
+  srg_url: https://supershowthegame.com/product/entrance-leveling-up-at-the-venture-dojo/
+  rules_text: 'When you have fewer cards in your hand than your minimum handsize: Your opponent cannot force you to bury or discard cards from your hand.'
   tags: []
 - name: L.F.F. Means Love for Family
   db_uuid: dfaf152a7c314007af725e3f365ee375
@@ -41948,3 +42083,71 @@
 
     "Blast Into the Light Tubes" is also a Finish.'
   tags: []
+- name: Righthand Men
+  db_uuid: 21b065984465423c90b631545f94e0fb
+  card_type: TornadoCompetitorCard
+  tags: []
+- name: Beef Mode
+  db_uuid: 4ad41a329cc34e20a0a6b3d89665f88d
+  srg_url: https://supershowthegame.com/product/beef-mode/
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 9
+  rules_text: When you and your target roll the same skill, you may re-roll your turn roll and it is +1.
+  tags: []
+  related_finishes:
+    - 62a66393678e4135b89b7a1685de3341
+    - 7364bcfabdc540e48e3ebe791895d607
+    - 093b246f40e646ccaaa989790d1352bd
+- name: The Tricep Beef
+  db_uuid: 62a66393678e4135b89b7a1685de3341
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    Bury 1 card in your discard pile.
+
+    Draw 1 card.
+
+    If either player re-rolled their turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 4ad41a329cc34e20a0a6b3d89665f88d
+- name: Beef Bomb
+  db_uuid: 7364bcfabdc540e48e3ebe791895d607
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Choose Strike, Grapple, or Submission: Your opponent reveals their hand and buries cards in their hand equal to the number of the chosen type revealed.'
+  tags: []
+  related_cards:
+    - 4ad41a329cc34e20a0a6b3d89665f88d
+- name: The Beef Curtain
+  db_uuid: 093b246f40e646ccaaa989790d1352bd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    If either player re-rolled their turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 4ad41a329cc34e20a0a6b3d89665f88d

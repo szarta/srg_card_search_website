@@ -11071,6 +11071,7 @@
   tags: []
 - name: Splash (V2)
   db_uuid: 58679a3c33e5454391f4d7d5a81e2dea
+  srg_url: https://supershowthegame.com/product/13-splash/
   srgpc_url: https://www.srgpc.net/cards/13/splash-v2/
   card_type: MainDeckCard
   atk_type: Strike
@@ -11097,6 +11098,7 @@
   tags: []
 - name: Steel Chain Spin
   db_uuid: f40febdff67946279c449f9b8a10e19d
+  srg_url: https://supershowthegame.com/product/13-steel-chain-spin/
   srgpc_url: https://www.srgpc.net/cards/13/steel-chain-spin/
   card_type: MainDeckCard
   atk_type: Strike
@@ -33469,6 +33471,8 @@
 
     If your opponent breaks out or when this card is flipped, you may shuffle it into your deck.'
   tags: []
+  related_cards:
+    - 483a9b0e19864ba0b39d35eab674d18c
 - name: Is This How You Do That?
   db_uuid: 088301c747aa48d194685b1169bd1d9b
   card_type: MainDeckCard
@@ -33479,6 +33483,8 @@
 
     If this card is flipped for your Gimmick your turn roll is +1.'
   tags: []
+  related_cards:
+    - 483a9b0e19864ba0b39d35eab674d18c
 - name: Surprise Grab
   db_uuid: 5bad0cfc16c940c0be55320895dda1c8
   card_type: MainDeckCard
@@ -33491,6 +33497,8 @@
 
     If this card is flipped for your Gimmick, you may play it.'
   tags: []
+  related_cards:
+    - 483a9b0e19864ba0b39d35eab674d18c
 - name: RaRa Perre
   db_uuid: c138c28b4b8b48bbb5272e9ceaede716
   srgpc_url: https://www.srgpc.net/cards/competitors/rara-perre/
@@ -38543,6 +38551,15 @@
   db_uuid: ceb9126b162c4be69b9291c088d3fe5b
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: 'Once per turn or turn roll:
+
+    You may shuffle 1 card with "Potion" in the name that you have in play into your deck to re-roll any roll.'
   tags: []
 - name: Phoenix Reborn
   db_uuid: d77ce9c2b17a4083ad3f8b6a1f28a647
@@ -40628,6 +40645,7 @@
   tags: []
 - name: This is My Sledgehammer Now!
   db_uuid: 16adf570115b4bc7aee7a8a4abe6fbad
+  srg_url: https://supershowthegame.com/product/13-this-is-my-sledgehammer-now/
   srgpc_url: https://www.srgpc.net/cards/13/this-is-my-sledgehammer-now/
   card_type: MainDeckCard
   atk_type: Strike
@@ -40879,6 +40897,7 @@
   tags: []
 - name: Savor the Moment
   db_uuid: 1f53f71e434a426ba97e1626b44449c3
+  srg_url: https://supershowthegame.com/product/16-savor-the-moment/
   srgpc_url: https://www.srgpc.net/cards/16/savor-the-moment/
   card_type: MainDeckCard
   atk_type: Strike
@@ -40939,6 +40958,19 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: If you have another Submission in play, your opponent discards 1 card in their hand.
+  tags: []
+- name: Cosmic Pizzapocalypse
+  db_uuid: dccf62fce19e4576ba1b1fb076275dfb
+  srg_url: https://supershowthegame.com/product/15-cosmic-pizzapocalypse/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, draw 1 card.
+
+    Stop "Apocalypse".
+
+    "Apocalypse" has blank text.'
   tags: []
 - name: Cosmic Crab
   db_uuid: f8ccbc7df0684c1182766e9ccc132dd6

@@ -42421,3 +42421,15 @@
   tags: []
   related_cards:
     - 4ad41a329cc34e20a0a6b3d89665f88d
+- name: Luna Bellatrix
+  db_uuid: d90fee46244b40f8a966ed1be71aeb7f
+  srg_url: https://supershowthegame.com/product/luna-bellatrix-new/
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 9
+  rules_text: When your turn roll is 1 less than your target's turn roll, your target randomly buries 1 card in their hand.
+  tags: []

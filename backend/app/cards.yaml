@@ -30555,11 +30555,67 @@
   card_type: SingleCompetitorCard
   division: Global
   tags: []
-- name: Johnathan N Korea
+- name: Johnny North Korea
   db_uuid: 6fee88b1e0494bec9e0181ab6735a50b
+  srg_url: https://supershowthegame.com/product/johnny-north-korea/
+  srgpc_url: https://www.srgpc.net/competitor/johnny-n-k/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 7
+  grapple: 10
+  rules_text: When you hit a card with "Bomb" or "America" in the name, your opponent randomly reveals a card in their hand; If it is a Stop, they discard it.
   tags: []
+  related_finishes:
+    - 9fb294805bd349d1bdbc1d0ed177ab08
+    - e5df92fe21cf48afb545fc5d2c5ce0d9
+    - afd7087140664e3fbf8655aeb87e6d14
+- name: We Will Not Hesitate to Slap America
+  db_uuid: 9fb294805bd349d1bdbc1d0ed177ab08
+  srg_url: https://supershowthegame.com/product/johnny-north-korea/
+  srgpc_url: https://www.srgpc.net/competitor/johnny-n-k/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +20 to Strike
+  tags: []
+  related_cards:
+    - 6fee88b1e0494bec9e0181ab6735a50b
+- name: The Electric Chairman Bomb
+  db_uuid: e5df92fe21cf48afb545fc5d2c5ce0d9
+  srg_url: https://supershowthegame.com/product/johnny-north-korea/
+  srgpc_url: https://www.srgpc.net/competitor/johnny-n-k/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    When this card is in your discard pile and you hit a card with "Bomb" in the name, you may choose 1 card your opponent has in play and bury it.'
+  tags: []
+  related_cards:
+    - 6fee88b1e0494bec9e0181ab6735a50b
+- name: Best Korean Bombardment
+  db_uuid: afd7087140664e3fbf8655aeb87e6d14
+  srg_url: https://supershowthegame.com/product/johnny-north-korea/
+  srgpc_url: https://www.srgpc.net/competitor/johnny-n-k/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your Finish rolls are +1 for each other Submission you have in play with "Bomb" or "America" in the name (Max +2).'
+  tags: []
+  related_cards:
+    - 6fee88b1e0494bec9e0181ab6735a50b
 - name: Johnny Korea
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
   card_type: SingleCompetitorCard
@@ -36657,6 +36713,8 @@
 
     Look at your opponent''s hand, discard all their Finishes.'
   tags: []
+  related_cards:
+    - 66129944904b4d68a3e33c57d11f9914
 - name: Danza De Tres
   db_uuid: 90917cc937924e419d9f2ef214bccaf2
   card_type: MainDeckCard
@@ -36671,6 +36729,8 @@
 
     Each time your opponent rolls for a breakout, draw 1 card.'
   tags: []
+  related_cards:
+    - 66129944904b4d68a3e33c57d11f9914
 - name: Amor Triangulo
   db_uuid: 0835297397a64f5e9c791baadcdefce4
   card_type: MainDeckCard
@@ -36681,6 +36741,8 @@
 
     If this is a multiplayer match, triple these bonuses.'
   tags: []
+  related_cards:
+    - 66129944904b4d68a3e33c57d11f9914
 - name: The Beast Michael Kerr (V1)
   db_uuid: 8deec12ca2ec43a0b0979fc5576e004f
   card_type: SingleCompetitorCard
@@ -37779,6 +37841,8 @@
 
     Look at the top 6 cards of your opponent''s deck; discard 3, bury 2, and put the last 1 on top.'
   tags: []
+  related_cards:
+    - c37902890fa44033ad8ca1412ba9ae3d
 - name: The Thorn Forest
   db_uuid: 34cfd3e1a40545f6bd8985ba82774234
   card_type: MainDeckCard
@@ -37791,6 +37855,8 @@
 
     If stopped, draw 1 card for each stop your opponent has in play (Max 2).'
   tags: []
+  related_cards:
+    - c37902890fa44033ad8ca1412ba9ae3d
 - name: Curse To Sleep
   db_uuid: b01e49a0967d4506bb09fe6f559c8f40
   card_type: MainDeckCard
@@ -37803,6 +37869,8 @@
 
     Your next turn roll is -1.'
   tags: []
+  related_cards:
+    - c37902890fa44033ad8ca1412ba9ae3d
 - name: Final Form Dick Thunderlips
   db_uuid: f513e6e02c9446ceac133ea9783fca21
   srg_url: https://supershowthegame.com/product/final-form-dick-thunderlips/

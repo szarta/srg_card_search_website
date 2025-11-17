@@ -33251,6 +33251,59 @@
 
     When your opponent hits a Finish, they may hide one of your other revealed Competitors.'
   tags: []
+  related_cards:
+    - bc7ef38f40c64f6ba76491cd05e55695
+    - b8a01bfe1df7408ba4204b9d0e397796
+  related_finishes:
+    - 3f8ccc13f7334d3098384de871a93951
+    - 5b856568f1a7473482b66c9152076443
+    - 969e74cdc3564540ac54407c41c12cc2
+- name: Can't Stop, Must Pop
+  db_uuid: 3f8ccc13f7334d3098384de871a93951
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    If you have Hank the Tank revealed, double these bonuses.'
+  tags: []
+  related_cards:
+    - a9a384dd112246d58b8c359460d56ddc
+    - bc7ef38f40c64f6ba76491cd05e55695
+- name: Dropping Knowledge
+  db_uuid: 5b856568f1a7473482b66c9152076443
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    Once per turn:
+
+    If you have Jack of All Trades revealed you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - a9a384dd112246d58b8c359460d56ddc
+    - b8a01bfe1df7408ba4204b9d0e397796
+- name: Circle of the Sons
+  db_uuid: 969e74cdc3564540ac54407c41c12cc2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your opponent gets 1 fewer breakout roll for each Hank the Tank or Jack of All Trades competitor you have revealed.'
+  tags: []
+  related_cards:
+    - a9a384dd112246d58b8c359460d56ddc
+    - bc7ef38f40c64f6ba76491cd05e55695
+    - b8a01bfe1df7408ba4204b9d0e397796
 - name: Hank the Tank
   db_uuid: bc7ef38f40c64f6ba76491cd05e55695
   card_type: SingleCompetitorCard
@@ -33264,6 +33317,12 @@
   grapple: 8
   rules_text: When your opponent's turn roll is 10 or greater, your turn roll is +1.
   tags: []
+  related_cards:
+    - a9a384dd112246d58b8c359460d56ddc
+  related_finishes:
+    - 3f8ccc13f7334d3098384de871a93951
+    - 5b856568f1a7473482b66c9152076443
+    - 969e74cdc3564540ac54407c41c12cc2
 - name: Jack of All Trades
   db_uuid: b8a01bfe1df7408ba4204b9d0e397796
   card_type: SingleCompetitorCard
@@ -33277,6 +33336,12 @@
   grapple: 8
   rules_text: 'When you hit a Grapple: Flip 2 cards, add 1 Stop from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - a9a384dd112246d58b8c359460d56ddc
+  related_finishes:
+    - 3f8ccc13f7334d3098384de871a93951
+    - 5b856568f1a7473482b66c9152076443
+    - 969e74cdc3564540ac54407c41c12cc2
 - name: Player of the Era
   db_uuid: 2a1ae85ae5c84ea0a72d5cc44553199c
   srgpc_url: https://www.srgpc.net/cards/competitors/player-of-the-era/

@@ -34717,6 +34717,48 @@
   grapple: 5
   rules_text: When you roll Agility for your turn roll, draw 1 card and your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 3459f1d7d38f4976a678fda3474bf39a
+    - 943f57019675411fbf720315c987a74b
+    - 5f34048aef2344d5a3decce647badc98
+- name: Slime Wave
+  db_uuid: 3459f1d7d38f4976a678fda3474bf39a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Draw 1 card.
+
+    Your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - e03d8c8283804088a9ff5bac13d02c99
+- name: Slime Bind
+  db_uuid: 943f57019675411fbf720315c987a74b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your opponent's Grapple and Agility skills are -2.
+  tags: []
+  related_cards:
+    - e03d8c8283804088a9ff5bac13d02c99
+- name: Summon Slime Monster
+  db_uuid: 5f34048aef2344d5a3decce647badc98
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power for each Submission you have in play.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - e03d8c8283804088a9ff5bac13d02c99
 - name: Snake Pitt (V1)
   db_uuid: 8ae46f2366614e28ac5d20571c09d455
   card_type: SingleCompetitorCard

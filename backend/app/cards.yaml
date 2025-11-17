@@ -33272,6 +33272,7 @@
   tags: []
   related_cards:
     - a9a384dd112246d58b8c359460d56ddc
+    - b8a01bfe1df7408ba4204b9d0e397796
     - bc7ef38f40c64f6ba76491cd05e55695
 - name: Dropping Knowledge
   db_uuid: 5b856568f1a7473482b66c9152076443
@@ -33290,6 +33291,7 @@
   related_cards:
     - a9a384dd112246d58b8c359460d56ddc
     - b8a01bfe1df7408ba4204b9d0e397796
+    - bc7ef38f40c64f6ba76491cd05e55695
 - name: Circle of the Sons
   db_uuid: 969e74cdc3564540ac54407c41c12cc2
   card_type: MainDeckCard
@@ -33302,8 +33304,8 @@
   tags: []
   related_cards:
     - a9a384dd112246d58b8c359460d56ddc
-    - bc7ef38f40c64f6ba76491cd05e55695
     - b8a01bfe1df7408ba4204b9d0e397796
+    - bc7ef38f40c64f6ba76491cd05e55695
 - name: Hank the Tank
   db_uuid: bc7ef38f40c64f6ba76491cd05e55695
   card_type: SingleCompetitorCard

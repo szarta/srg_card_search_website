@@ -37809,7 +37809,7 @@
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
 - name: El Super Hombre (Super Lucha)
-  db_uuid: d149b71b56624078bea5794ee597e7b1
+  db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []

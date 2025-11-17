@@ -34247,7 +34247,59 @@
   db_uuid: 76844541603c4065993d0c45c0de838b
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 8
+  rules_text: When you hit a card with "Tar" or "Heel" in the name, you may shuffle 1 card you have in play into your deck.
   tags: []
+  related_finishes:
+    - 46c8bcd9651046b9a42cca66a76a8693
+    - 729ea115eb06416c9439367d1194ee86
+    - 4ef2ef1d12924d958dc8cf6cd300de1a
+- name: The Rising Star Splash
+  db_uuid: 46c8bcd9651046b9a42cca66a76a8693
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Your opponent discards 1 card from their hand for each Stop they have in play.'
+  tags: []
+  related_cards:
+    - 76844541603c4065993d0c45c0de838b
+- name: Carolina Sweet Tea Bag
+  db_uuid: 729ea115eb06416c9439367d1194ee86
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    The next Skill Requirement card your opponent hits has blank text.'
+  tags: []
+  related_cards:
+    - 76844541603c4065993d0c45c0de838b
+- name: Rowdy Lock
+  db_uuid: 4ef2ef1d12924d958dc8cf6cd300de1a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    You may play this card as a Lead instead of a Finish: When you shuffle this card into your deck with your Gimmick, your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - 76844541603c4065993d0c45c0de838b
 - name: Ruby Renegade
   db_uuid: 7d75b496431a49a88896c8b79066646d
   card_type: SingleCompetitorCard

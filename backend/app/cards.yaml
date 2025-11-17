@@ -42598,3 +42598,57 @@
   grapple: 9
   rules_text: When your turn roll is 1 less than your target's turn roll, your target randomly buries 1 card in their hand.
   tags: []
+- name: Zach the Highest One
+  db_uuid: 2a98a1c0a7d547829ef36758becd91c8
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 5
+  rules_text: 'When you roll Agility or Grapple for your turn roll: You may shuffle 1 card from your hand into your deck and draw 1 card.'
+  tags: []
+  related_finishes:
+    - 1f39f20fb061409589d79e53f0ee6c7e
+    - 4c8debf82d2a49c28985b50fd50cf5d0
+    - de538e21306a4aa6aa6f30712249e56a
+- name: Purifying Smoke Punch
+  db_uuid: 1f39f20fb061409589d79e53f0ee6c7e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Agility'
+  tags: []
+  related_cards:
+    - 2a98a1c0a7d547829ef36758becd91c8
+- name: Steam Roller Da!
+  db_uuid: 4c8debf82d2a49c28985b50fd50cf5d0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Agility
+
+    Your opponent randomly discards half of their hand (Rounded Up), then they randomly add 2 cards from their discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 2a98a1c0a7d547829ef36758becd91c8
+- name: Ishvalan Gas Mask
+  db_uuid: de538e21306a4aa6aa6f30712249e56a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '-2 to your opponent''s Power and Technique
+
+    When this card is in your discard pile, your opponent cannot look at your hand or discard pile.'
+  tags: []
+  related_cards:
+    - 2a98a1c0a7d547829ef36758becd91c8

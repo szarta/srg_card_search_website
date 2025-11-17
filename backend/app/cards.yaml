@@ -37793,6 +37793,7 @@
     - 015aecb201074dbb929a9c9cd8b0ea46
 - name: El Super Hombre (V3)
   db_uuid: b70afdfa287e4ca6be73ee9f03c863ea
+  card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
   power: 10

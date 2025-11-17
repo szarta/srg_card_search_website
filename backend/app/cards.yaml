@@ -33358,16 +33358,67 @@
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
-- name: Practisite
-  db_uuid: d3e0aa69a169437081fc6fa67a0979a2
-  card_type: SingleCompetitorCard
-  division: United States
-  tags: []
 - name: 'Press #1 P (V1)'
   db_uuid: 62eb204d6221414d9c816b81d6067761
   card_type: SingleCompetitorCard
   division: United States
   tags: []
+- name: Practisite
+  db_uuid: d3e0aa69a169437081fc6fa67a0979a2
+  srgpc_url: https://www.srgpc.net/cards/competitors/practisite/
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  rules_text: When your opponent hits a Submission, you may discard a card to blank its text.
+  tags: []
+  related_finishes:
+    - 73903166e0fe4e38aa564a1a949474fe
+    - f2c09f32fb7c4400b4ca5990719e22a5
+    - 99cd8327d5804a1d935f55987db37475
+- name: Express Train Roundhouse
+  db_uuid: 73903166e0fe4e38aa564a1a949474fe
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Technique and Agility for each Submission your opponent has in play.'
+  tags: []
+  related_cards:
+    - d3e0aa69a169437081fc6fa67a0979a2
+- name: Spear of Destiny
+  db_uuid: f2c09f32fb7c4400b4ca5990719e22a5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    If your opponent does not have a Submission in play, this card cannot be stopped by Follow Ups.'
+  tags: []
+  related_cards:
+    - d3e0aa69a169437081fc6fa67a0979a2
+- name: Flying Hammerlock
+  db_uuid: 99cd8327d5804a1d935f55987db37475
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Agility
+
+    If stopped, choose 1 Lead or Follow Up Submission in your opponent''s discard pile and put it into play, or discard 1 card your opponent has in play.'
+  tags: []
+  related_cards:
+    - d3e0aa69a169437081fc6fa67a0979a2
 - name: 'Press #1 P (V2)'
   db_uuid: 2f9a9734734748849dc7f70b07e38c47
   card_type: SingleCompetitorCard

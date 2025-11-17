@@ -30663,9 +30663,64 @@
     - 6fee88b1e0494bec9e0181ab6735a50b
 - name: Johnny Korea
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-korea/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 5
+  rules_text: When your turn roll is at least 2 less than your opopnent's, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - a9cb06a84ac64e7194ffc8c64c51d74f
+    - 4b80eaa3299c4e2eb4929997ffb2b7e1
+    - 9ab3d3b48a234cafa7572486f8248263
+- name: Blind Knuckle Shuffle
+  db_uuid: a9cb06a84ac64e7194ffc8c64c51d74f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Randomly shuffle 3 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - c7c67bea6ff64c3b81cc812363c23ac4
+- name: Eye Can't See You
+  db_uuid: 4b80eaa3299c4e2eb4929997ffb2b7e1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    When this card is in your discard pile: If your turn roll is at least 3 less than your opponent''s, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - c7c67bea6ff64c3b81cc812363c23ac4
+- name: 20/200 Mop Stretch
+  db_uuid: 9ab3d3b48a234cafa7572486f8248263
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Grapple'
+  tags: []
+  related_cards:
+    - c7c67bea6ff64c3b81cc812363c23ac4
 - name: Johnny Supershow (V1)
   db_uuid: 659e5cb61628456f971e60e2b70760b3
   is_banned: true

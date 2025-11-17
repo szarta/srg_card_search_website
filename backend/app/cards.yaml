@@ -26310,6 +26310,7 @@
   tags: []
 - name: Krule
   db_uuid: 6405174e3a3f4c77acbffedf7f0c932c
+  srgpc_url: https://www.srgpc.net/cards/competitors/krule/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26321,6 +26322,50 @@
   grapple: 8
   rules_text: When you hit a card with "Steel Chain" in the name, your opponent randomly buries 1 card in their hand. If "Blast Into the Light Tubes" is stopped, the match does not end via Disqualification.
   tags: []
+  related_finishes:
+    - aa7406be327d4e76adc65536cf71d17c
+    - 15c6191f5c6346e2a2730ac243661c2e
+    - d8b05dbd433a4a91a8236bcfb7bf4085
+- name: Broken Chains
+  db_uuid: aa7406be327d4e76adc65536cf71d17c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If you have "Blast into the Light Tubes" in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 6405174e3a3f4c77acbffedf7f0c932c
+- name: Scorched Earth
+  db_uuid: 15c6191f5c6346e2a2730ac243661c2e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If stopped, you may add 2 cards with "Steel Chain" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 6405174e3a3f4c77acbffedf7f0c932c
+- name: The Last Breath
+  db_uuid: d8b05dbd433a4a91a8236bcfb7bf4085
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Look at your opponent''s hand, choose 2 cards and shuffle them into their deck.'
+  tags: []
+  related_cards:
+    - 6405174e3a3f4c77acbffedf7f0c932c
 - name: Le Guillotine
   db_uuid: 13913c745b87446ba38dc4ae17349f25
   srgpc_url: https://www.srgpc.net/cards/competitors/le-guillotine/

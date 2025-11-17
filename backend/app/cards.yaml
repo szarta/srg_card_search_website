@@ -37777,6 +37777,39 @@
 - name: El Super Hombre (V2)
   db_uuid: d149b71b56624078bea5794ee597e7b1
   card_type: SingleCompetitorCard
+  division: World Championship
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: After your opponent hits a Follow Up or you breakout, draw 1 card or shuffle 2 cards from your discard pile into your deck.
+  tags: []
+  related_finishes:
+    - ac693f80214649c9a71bf99186efb3eb
+    - 63034684664a4ac9ba689abb6cc2aa97
+    - 015aecb201074dbb929a9c9cd8b0ea46
+- name: El Super Hombre (V3)
+  db_uuid: b70afdfa287e4ca6be73ee9f03c863ea
+  division: World Championship
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When you roll Agility for your turn roll: Draw 1 card or your roll is +1.'
+  tags: []
+  related_finishes:
+    - ac693f80214649c9a71bf99186efb3eb
+    - 63034684664a4ac9ba689abb6cc2aa97
+    - 015aecb201074dbb929a9c9cd8b0ea46
+- name: El Super Hombre (Super Lucha)
+  db_uuid: d149b71b56624078bea5794ee597e7b1
+  card_type: SingleCompetitorCard
   division: Super Lucha
   tags: []
 - name: El Super Suns
@@ -38436,6 +38469,50 @@
 
     If your turn roll is at least 3 less than your target''s turn roll, you may re-roll their turn roll.'
   tags: []
+  related_finishes:
+    - 02d98d585ad1403ea49e19d0642ce2ee
+    - 0b3cadd2218344fc887d584e1e1c5d7b
+    - ec9e3b29cb74401aaf143d6e85bcbd77
+- name: Spin the Block
+  db_uuid: 02d98d585ad1403ea49e19d0642ce2ee
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    Once per turn: if your opponent re-rolled their turn roll, you may re-roll your Finish roll, and your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - ab42b20b29f64d29954f90ab0ac00bb8
+- name: Sit-Out Powerbomb
+  db_uuid: 0b3cadd2218344fc887d584e1e1c5d7b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - ab42b20b29f64d29954f90ab0ac00bb8
+- name: Beaten to Submission
+  db_uuid: ec9e3b29cb74401aaf143d6e85bcbd77
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If you have 10 other cards in play, the Crowd Meter is +1.
+
+    If you have 15 other cards in play, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - ab42b20b29f64d29954f90ab0ac00bb8
 - name: Ref Dave
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999
   srgpc_url: https://www.srgpc.net/competitor/ref-dave/

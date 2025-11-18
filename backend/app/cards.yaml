@@ -22842,6 +22842,7 @@
   tags: []
 - name: Long Balls Larry
   db_uuid: 1a63c5024be045dfb7f6be8b22c050b9
+  srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -22853,24 +22854,35 @@
   grapple: 5
   rules_text: 'When you hit a card with "Run", "Swing", "Hit", or "Stretch" in the name: Draw 1 card or bury 1 card in your opponent''s discard pile.'
   tags: []
+  related_finishes:
+    - 5c0c27bf60cd45ff80c84b026cb3be1f
+    - b090f142e6fd4500a322ffbeb07046c5
+    - b30735b37f834747bb038cc4f9553f2e
 - name: The Strike Out
   db_uuid: 5c0c27bf60cd45ff80c84b026cb3be1f
+  srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
   rules_text: If your opponent has 3 Strikes in play they get 1 Breakout roll this turn and this card cannot be stopped.
   tags: []
+  related_cards:
+    - 1a63c5024be045dfb7f6be8b22c050b9
 - name: The Grand Slam
   db_uuid: b090f142e6fd4500a322ffbeb07046c5
+  srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   rules_text: If you have a card in play with "Single", a card in play with "Double", and a card in play with "Triple" in the name, your Finish roll is +4.
   tags: []
+  related_cards:
+    - 1a63c5024be045dfb7f6be8b22c050b9
 - name: The 7th Inning Stretch
   db_uuid: b30735b37f834747bb038cc4f9553f2e
+  srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -22883,6 +22895,8 @@
 
     Shuffle any number of cards with "Run", "Swing", "Hit", or "Stetch" in the name from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 1a63c5024be045dfb7f6be8b22c050b9
 - name: DJ Outlaw
   db_uuid: f8a15098e9e04c5e948f78558974f233
   card_type: SingleCompetitorCard

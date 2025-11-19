@@ -2081,7 +2081,7 @@
   card_type: EntranceCard
   rules_text: You are considered your own tag team partner for your card effects.
   tags: []
-- name: Candy MaM (V2)
+- name: Candy MaM
   db_uuid: e1e8ae66adc2457a8d87a4a1d9820442
   srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/
   card_type: SingleCompetitorCard
@@ -3332,6 +3332,8 @@
   grapple: 8
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent buries 1 card in their hand.
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
   related_finishes:
     - b214d29577824b9c84898f40e414bba4
     - 186adcdd95b049e597d79fd92ef31a15
@@ -3352,6 +3354,7 @@
   tags: []
   related_cards:
     - 37f9036514b94c4b82fefbb482b5a1a9
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: Matte Finish
   db_uuid: 186adcdd95b049e597d79fd92ef31a15
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
@@ -3370,6 +3373,7 @@
   tags: []
   related_cards:
     - 37f9036514b94c4b82fefbb482b5a1a9
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: The Makeover
   db_uuid: 2b71751340fa42899d966bda24299eb5
   srg_url: https://supershowthegame.com/product/ariel-lipstick/
@@ -3386,6 +3390,7 @@
   tags: []
   related_cards:
     - 37f9036514b94c4b82fefbb482b5a1a9
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: Armageddon (Grapple)
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
   srg_url: https://supershowthegame.com/product/17-armageddon/
@@ -25673,10 +25678,22 @@
   grapple: 16
   rules_text: 'When you roll Power: Add 1 card from your discard pile to your hand and your opponent buries 1 card in their hand.'
   tags: []
+  related_cards:
+    - 37f9036514b94c4b82fefbb482b5a1a9
+    - 04ee2101e644473f9327c2333d8183c8
+    - a378da2c21714848b68236126756ca50
   related_finishes:
     - e849401a3fe94a65a9274026945d685e
     - ab5cf2d554db451bbcad087c8b811432
     - fb3cc3a484af4231bcf5f0b8b30cc22e
+    - b214d29577824b9c84898f40e414bba4
+    - 186adcdd95b049e597d79fd92ef31a15
+    - 2b71751340fa42899d966bda24299eb5
+    - 2b02699126e24231992f676db15290c5
+    - 8be49c901dd348b8a4f3df749ae5e1d7
+    - 808ba25516244898996d93ca33500c35
+    - 0b1099b9116c465bb003708c3524877f
+    - ff2a915ef87046cfa33cbd4561b68c73
 - name: Double Trouble, Cauldron Bubble
   db_uuid: e849401a3fe94a65a9274026945d685e
   card_type: MainDeckCard
@@ -25689,6 +25706,8 @@
 
     Add 1 card from your discard pile to your hand or look at your opponent''s hand, choose 1 card and bury it.'
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: The Black Eye-Liner
   db_uuid: ab5cf2d554db451bbcad087c8b811432
   card_type: MainDeckCard
@@ -25701,6 +25720,8 @@
 
     If you rolled Power for your turn roll, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: The 14 Wonders
   db_uuid: fb3cc3a484af4231bcf5f0b8b30cc22e
   card_type: MainDeckCard
@@ -25709,6 +25730,8 @@
   deck_card_number: 30
   rules_text: Your Submission and Technique are +2 for each Submission and Strike you have in play.
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: Freak Show (V1)
   db_uuid: 43d7ce2d37734096a657e5133cf614c1
   card_type: TrioCompetitorCard
@@ -31932,6 +31955,111 @@
 
     Your cards named "Back Kick" are also considered #11 and #12.'
   tags: []
+  related_finishes:
+    - fc9653b17cbb4dd8bd1117af2725f743
+    - 86b83497a4ad4706a25404de414db971
+    - 18ec5506b17f4b4aa3d0d48085889f0d
+    - 5243a9d14313427296de1c79353e5c49
+    - a929bcd28b474a08963a265f4f35547d
+    - a5c21097ae6f4bb1ab2755b331957779
+- name: White Lily Kick
+  db_uuid: fc9653b17cbb4dd8bd1117af2725f743
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    If stopped your opponent buries 1 random card in their hand.
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Kick" in the name.'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
+- name: Kick Start Mai Heart
+  db_uuid: 86b83497a4ad4706a25404de414db971
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Shuffle any number of cards with "Kick" in the name from your discard pile into your deck.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
+- name: Just for Kicks
+  db_uuid: 18ec5506b17f4b4aa3d0d48085889f0d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent''s 1st Breakout roll is -3.
+
+    When you have fewer Stop cards in play than your opponent, your opponent''s 2nd Breakout roll is -3.'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
+- name: Spinning Lotus Kick
+  db_uuid: 5243a9d14313427296de1c79353e5c49
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    You may play this card as a Follow Up instead.
+
+    When you roll Strike for your turn or Breakout roll, discard this card from play.'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
+- name: Dragon Driver
+  db_uuid: a929bcd28b474a08963a265f4f35547d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Agility'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
+- name: The Mai Tai
+  db_uuid: a5c21097ae6f4bb1ab2755b331957779
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    Discard 1 Stop you have in play. Add 1 Stop from in play to your hand.'
+  tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - b25eb5160c88425cb1a8e36cb04dc9db
 - name: Lily Mai (V2)
   db_uuid: e2bac1fd8d714ca8a1864b32dc79cb04
   srgpc_url: https://www.srgpc.net/competitor/lily-mai-v2/
@@ -31945,6 +32073,13 @@
   grapple: 7
   rules_text: 'When you hit a card with "Kick" or "Dragon" in the name, your opponent randomly reveals one card in their hand: if it''s a stop, draw 1 card, if not, they discard it.'
   tags: []
+  related_finishes:
+    - fc9653b17cbb4dd8bd1117af2725f743
+    - 86b83497a4ad4706a25404de414db971
+    - 18ec5506b17f4b4aa3d0d48085889f0d
+    - 5243a9d14313427296de1c79353e5c49
+    - a929bcd28b474a08963a265f4f35547d
+    - a5c21097ae6f4bb1ab2755b331957779
 - name: Lio Rush
   db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f
   srgpc_url: https://www.srgpc.net/cards/competitors/lio-rush/
@@ -32504,6 +32639,8 @@
   submission: 5
   grapple: 9
   tags: []
+  related_cards:
+    - 8a9bef4a979a4d31b05a7f15411c0055
   related_finishes:
     - 50b05f057ff1441a9618c6f7e1b7354b
     - fca77d98c237423d88b380e01b45d49a
@@ -32520,6 +32657,8 @@
   submission: 5
   grapple: 10
   tags: []
+  related_cards:
+    - 8a9bef4a979a4d31b05a7f15411c0055
   related_finishes:
     - 50b05f057ff1441a9618c6f7e1b7354b
     - fca77d98c237423d88b380e01b45d49a
@@ -32535,6 +32674,10 @@
 
     If your opponent played a Stop this turn, this card is also a Lead.'
   tags: []
+  related_cards:
+    - c7b112a959164f1ab5a4018303136e61
+    - e50493d2f25143e3ada268231a196148
+    - 8a9bef4a979a4d31b05a7f15411c0055
 - name: Alpaca Driver
   db_uuid: fca77d98c237423d88b380e01b45d49a
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
@@ -32546,6 +32689,10 @@
 
     Draw 2 cards.'
   tags: []
+  related_cards:
+    - c7b112a959164f1ab5a4018303136e61
+    - e50493d2f25143e3ada268231a196148
+    - 8a9bef4a979a4d31b05a7f15411c0055
 - name: Goat Monkey Grip
   db_uuid: 6371c23c781846bcb9146ba355bf97fd
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
@@ -32557,6 +32704,10 @@
 
     Shuffle 2 cards from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - c7b112a959164f1ab5a4018303136e61
+    - e50493d2f25143e3ada268231a196148
+    - 8a9bef4a979a4d31b05a7f15411c0055
 - name: The Master Chef L.M.P.
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4
   srgpc_url: https://www.srgpc.net/cards/competitors/the-master-chef-l-m-p/
@@ -34792,6 +34943,14 @@
   grapple: 8
   rules_text: 'When you roll Power: Flip 3 cards, then shuffle 2 cards from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
+  related_finishes:
+    - 2b02699126e24231992f676db15290c5
+    - 8be49c901dd348b8a4f3df749ae5e1d7
+    - 808ba25516244898996d93ca33500c35
+    - 0b1099b9116c465bb003708c3524877f
+    - ff2a915ef87046cfa33cbd4561b68c73
 - name: Sage the Wiccan Witch (V2)
   db_uuid: a378da2c21714848b68236126756ca50
   card_type: SingleCompetitorCard
@@ -34809,6 +34968,86 @@
 
     Put 1 card from your discard pile on top of your deck.'
   tags: []
+  related_cards:
+    - ee1179b3778240f09d9cd167420d9e1f
+  related_finishes:
+    - 2b02699126e24231992f676db15290c5
+    - 8be49c901dd348b8a4f3df749ae5e1d7
+    - 808ba25516244898996d93ca33500c35
+    - 0b1099b9116c465bb003708c3524877f
+    - ff2a915ef87046cfa33cbd4561b68c73
+- name: Seven Wonders (V1)
+  db_uuid: 2b02699126e24231992f676db15290c5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Flip 4 cards, then add 3 cards from your discard pile to your hand.
+  tags: []
+  related_cards:
+    - a378da2c21714848b68236126756ca50
+    - 04ee2101e644473f9327c2333d8183c8
+    - ee1179b3778240f09d9cd167420d9e1f
+- name: Seven Wonders (V2)
+  db_uuid: 8be49c901dd348b8a4f3df749ae5e1d7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    Flip 4 cards, then add 3 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - a378da2c21714848b68236126756ca50
+    - 04ee2101e644473f9327c2333d8183c8
+    - ee1179b3778240f09d9cd167420d9e1f
+- name: The Book of Spells (V1)
+  db_uuid: 808ba25516244898996d93ca33500c35
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    When this card is flipped, your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - a378da2c21714848b68236126756ca50
+    - 04ee2101e644473f9327c2333d8183c8
+    - ee1179b3778240f09d9cd167420d9e1f
+- name: The Book of Spells (V2)
+  db_uuid: 0b1099b9116c465bb003708c3524877f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    When this card is flipped, your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - a378da2c21714848b68236126756ca50
+    - 04ee2101e644473f9327c2333d8183c8
+    - ee1179b3778240f09d9cd167420d9e1f
+- name: The Witch's Brew
+  db_uuid: ff2a915ef87046cfa33cbd4561b68c73
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    You may shuffle your hand into the deck and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - a378da2c21714848b68236126756ca50
+    - 04ee2101e644473f9327c2333d8183c8
+    - ee1179b3778240f09d9cd167420d9e1f
 - name: Sam LeMule
   db_uuid: 65d69cb7f158408d94b44b307d969cde
   srgpc_url: https://www.srgpc.net/cards/competitors/sam-lemule/
@@ -36388,7 +36627,61 @@
   strike: 5
   submission: 10
   grapple: 7
+  rules_text: 'Choose 1: "Table", "Ladder", or "Steel Chain".  When you hit a card with that in the name: Flip 2 cards, then add 1 Stop from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+  related_finishes:
+    - 7d2a8c7f528148929f3c0c2c80549531
+    - c7f4ca34a5fc4646a38409dbf8ba3727
+    - c2bb4874e41441bebeb34e665d68dec6
+- name: The Union Strike
+  db_uuid: 7d2a8c7f528148929f3c0c2c80549531
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 58b34930fa664d1ebf89b1058b14a48a
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+- name: Mandatory Overtime
+  db_uuid: c7f4ca34a5fc4646a38409dbf8ba3727
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    If your opponent rolls 9 for their Breakout roll, their next roll is -1.
+
+    If they roll 5 for their Breakout roll, their next roll is +1.'
+  tags: []
+  related_cards:
+    - 58b34930fa664d1ebf89b1058b14a48a
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+- name: Work Stoppage
+  db_uuid: c2bb4874e41441bebeb34e665d68dec6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    Your opponent cannot play cards on their next turn.'
+  tags: []
+  related_cards:
+    - 58b34930fa664d1ebf89b1058b14a48a
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
 - name: Vampyr Bastet
   db_uuid: 0e97a0fb8d70423182a7daf7b484f8f8
   srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-bastet/
@@ -36618,7 +36911,59 @@
   strike: 6
   submission: 10
   grapple: 8
+  rules_text: When you roll Submission you may look at your opponent's hand.
   tags: []
+  related_finishes:
+    - 05373d238c2649aab8bcf8b962549ba8
+    - c2d3731dec1f4242995caee8282bcc53
+    - 66714e057b404b1691e44b5714e0e651
+- name: Overnight Express
+  db_uuid: 05373d238c2649aab8bcf8b962549ba8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +2 to Strike
+
+    If you rolled Agility for your turn roll this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - ef91936ee02e4388ad2a6d37fc105340
+    - 8a9bef4a979a4d31b05a7f15411c0055
+- name: The Pallet Jack
+  db_uuid: c2d3731dec1f4242995caee8282bcc53
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Look at your opponent''s hand, you may have them randomly bury it and draw 2 cards.'
+  tags: []
+  related_cards:
+    - ef91936ee02e4388ad2a6d37fc105340
+    - 8a9bef4a979a4d31b05a7f15411c0055
+- name: The Fork Lift
+  db_uuid: 66714e057b404b1691e44b5714e0e651
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Flip 2 cards, discard 2 cards, add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ef91936ee02e4388ad2a6d37fc105340
+    - 8a9bef4a979a4d31b05a7f15411c0055
 - name: White Lily (V1)
   db_uuid: e1baa91d10a94e23816b04e7809eb08d
   srgpc_url: https://www.srgpc.net/cards/competitors/white-lily-new/
@@ -36871,9 +37216,14 @@
   grapple: 5
   rules_text: When your card is stopped, you may shuffle 2 other cards from your discard pile into your deck.
   tags: []
+  related_cards:
+    - 2a812c8ba41943f89f576a7d8a9876d9
   related_finishes:
+    - 12cb9ad1a6e74944b146da53c023dab6
     - 5ba491a17dcb408d97b60efbce7dc41a
+    - cded3dd0d27c442aae10c0cb6d93feff
     - 6fe34f3ae57e4e9bbf754943478861c7
+    - dab57e0309074daebf0f8381ce6d6d5b
     - 9cff8c4c10444a07bff08dded78873fb
 - name: Yaz Mean (V2)
   db_uuid: e2d658ce8758400e9560e80b11528fa5
@@ -36890,11 +37240,30 @@
 
     Shuffle 1 card with "Strike", "Dive", "Goal", or "Run" in the name from your discard pile into your deck and draw 1 card.'
   tags: []
+  related_cards:
+    - 2a812c8ba41943f89f576a7d8a9876d9
   related_finishes:
+    - 12cb9ad1a6e74944b146da53c023dab6
     - 5ba491a17dcb408d97b60efbce7dc41a
+    - cded3dd0d27c442aae10c0cb6d93feff
     - 6fe34f3ae57e4e9bbf754943478861c7
+    - dab57e0309074daebf0f8381ce6d6d5b
     - 9cff8c4c10444a07bff08dded78873fb
-- name: Goal Kick
+- name: Goal Kick (V1)
+  db_uuid: 12cb9ad1a6e74944b146da53c023dab6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - f20eefad1a8c46cca1268ee559d4cc8b
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Goal Kick (V2)
   db_uuid: 5ba491a17dcb408d97b60efbce7dc41a
   card_type: MainDeckCard
   atk_type: Strike
@@ -36905,9 +37274,26 @@
     Draw 2 cards.'
   tags: []
   related_cards:
-    - e2d658ce8758400e9560e80b11528fa5
     - f20eefad1a8c46cca1268ee559d4cc8b
-- name: Offsides
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Offsides (V1)
+  db_uuid: cded3dd0d27c442aae10c0cb6d93feff
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - f20eefad1a8c46cca1268ee559d4cc8b
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Offsides (V2)
   db_uuid: 6fe34f3ae57e4e9bbf754943478861c7
   card_type: MainDeckCard
   atk_type: Grapple
@@ -36920,9 +37306,26 @@
     Your opponent randomly discards 1 card from their hand.'
   tags: []
   related_cards:
-    - e2d658ce8758400e9560e80b11528fa5
     - f20eefad1a8c46cca1268ee559d4cc8b
-- name: Stoppage Time
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Stoppage Time (V1)
+  db_uuid: dab57e0309074daebf0f8381ce6d6d5b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - f20eefad1a8c46cca1268ee559d4cc8b
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Stoppage Time (V2)
   db_uuid: 9cff8c4c10444a07bff08dded78873fb
   card_type: MainDeckCard
   atk_type: Submission
@@ -36935,8 +37338,9 @@
     +2 to Grapple'
   tags: []
   related_cards:
-    - e2d658ce8758400e9560e80b11528fa5
     - f20eefad1a8c46cca1268ee559d4cc8b
+    - e2d658ce8758400e9560e80b11528fa5
+    - 2a812c8ba41943f89f576a7d8a9876d9
 - name: Yeva Lionheart
   db_uuid: 7ed49e996f284cc8a973dd9118ad4c90
   card_type: SingleCompetitorCard
@@ -40247,11 +40651,99 @@
   srg_url: https://supershowthegame.com/product/street-cleaners-competitor-only/
   card_type: TornadoCompetitorCard
   tags: []
-- name: Sweet Innuendos
+- name: Sweet Innuendos (V1)
   db_uuid: b3d8e9b2e4344e28b02bd7c2303ebbc0
   srg_url: https://supershowthegame.com/product/sweet-innuendos-full-set/
   card_type: TornadoCompetitorCard
+  power: 18
+  technique: 12
+  agility: 14
+  strike: 16
+  submission: 20
+  grapple: 10
+  rules_text: 'At the start of the match: Choose an opponent and copy their Gimmick, replace any word in quotation marks with "Hip" or "Leg".'
   tags: []
+  related_cards:
+    - e1e8ae66adc2457a8d87a4a1d9820442
+  related_finishes:
+    - 13d6e1a9d5fa4eb08a120c7b6fbc4d9e
+    - a80cf450bf9544668244d358c48a6de5
+    - f732a1be9495475a8bba7a8a12462037
+    - e22393623b474346a39e93dae92f620d
+    - af7fb58dea1c4a499ed16767c916ec08
+    - 23306b5fe097480bae0f94cd1ddc8a02
+- name: Sweet Innuendos (V2)
+  db_uuid: 2a812c8ba41943f89f576a7d8a9876d9
+  srg_url: https://supershowthegame.com/product/sweet-innuendos-full-set/
+  card_type: TornadoCompetitorCard
+  power: 18
+  technique: 12
+  agility: 14
+  strike: 16
+  submission: 20
+  grapple: 10
+  rules_text: 'At the start of the match: Choose an opponent and copy their Gimmick, replace any word in quotation marks with "Hip" or "Leg".'
+  tags: []
+  related_cards:
+    - e1e8ae66adc2457a8d87a4a1d9820442
+    - f20eefad1a8c46cca1268ee559d4cc8b
+    - e2d658ce8758400e9560e80b11528fa5
+  related_finishes:
+    - 13d6e1a9d5fa4eb08a120c7b6fbc4d9e
+    - a80cf450bf9544668244d358c48a6de5
+    - f732a1be9495475a8bba7a8a12462037
+    - e22393623b474346a39e93dae92f620d
+    - af7fb58dea1c4a499ed16767c916ec08
+    - 23306b5fe097480bae0f94cd1ddc8a02
+    - 12cb9ad1a6e74944b146da53c023dab6
+    - 5ba491a17dcb408d97b60efbce7dc41a
+    - cded3dd0d27c442aae10c0cb6d93feff
+    - 6fe34f3ae57e4e9bbf754943478861c7
+    - dab57e0309074daebf0f8381ce6d6d5b
+    - 9cff8c4c10444a07bff08dded78873fb
+- name: FAFO
+  db_uuid: 13d6e1a9d5fa4eb08a120c7b6fbc4d9e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +2 to Agility and Strike for each card you have in play with "Hip" or "Leg" in the name.  Shuffle up to 9 cards with "Hip" or "Leg" in the name from your discard pile into your deck.
+  tags: []
+  related_cards:
+    - b3d8e9b2e4344e28b02bd7c2303ebbc0
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: Bubblegum Slam
+  db_uuid: a80cf450bf9544668244d358c48a6de5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +6 to Strike
+
+    +3 to Submission
+
+    Draw 1 card for each card you have in play with "Hip" or "Leg" in the name.'
+  tags: []
+  related_cards:
+    - b3d8e9b2e4344e28b02bd7c2303ebbc0
+    - 2a812c8ba41943f89f576a7d8a9876d9
+- name: She-Unit
+  db_uuid: f732a1be9495475a8bba7a8a12462037
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +4 to Submission
+
+    If you have 10 cards in play with "Hip" or "Leg" in the name, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - b3d8e9b2e4344e28b02bd7c2303ebbc0
+    - 2a812c8ba41943f89f576a7d8a9876d9
 - name: Tassa & Tuossa
   db_uuid: 288faa0fcb6f4c46b1fcb50e4abecf13
   srg_url: https://supershowthegame.com/product/tessa-tuossa/
@@ -40356,7 +40848,43 @@
 - name: Mai Girls (Tag)
   db_uuid: b25eb5160c88425cb1a8e36cb04dc9db
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 14
+  agility: 18
+  strike: 16
+  submission: 20
+  grapple: 10
+  rules_text: When you hit a card with "Kick", "Chain", or "Arm" in the name, draw 1 card and if it is your turn, shuffle 1 card from your discard pile into your deck and your next turn roll is +2.
   tags: []
+  related_cards:
+    - b0f985ab713b4bc29df222f797d3c13e
+    - e2bac1fd8d714ca8a1864b32dc79cb04
+    - 763531a5c5ee468690793b8683f59abd
+    - 60081196caac41bb82fb1735e16268f6
+  related_finishes:
+    - 426cd9207d104cadaeb13b7a932754df
+    - fc9653b17cbb4dd8bd1117af2725f743
+    - 86b83497a4ad4706a25404de414db971
+    - 18ec5506b17f4b4aa3d0d48085889f0d
+    - 5243a9d14313427296de1c79353e5c49
+    - a929bcd28b474a08963a265f4f35547d
+    - a5c21097ae6f4bb1ab2755b331957779
+- name: Kick to the Curb
+  db_uuid: 426cd9207d104cadaeb13b7a932754df
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+6 to Power
+
+    +4 to Technique
+
+    Bury 2 cards in either player''s discard pile.
+
+    If your opponent breaks out, put a Lead from your hand or discard pile into play.'
+  tags: []
+  related_cards:
+    - b25eb5160c88425cb1a8e36cb04dc9db
 - name: Mai Girls (Trio)
   db_uuid: 822e8008287c4ac5828d8505e3f9f930
   card_type: TrioCompetitorCard
@@ -40492,7 +41020,66 @@
 - name: Storage Warriors
   db_uuid: 8a9bef4a979a4d31b05a7f15411c0055
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 10
+  agility: 12
+  strike: 18
+  submission: 14
+  grapple: 20
+  rules_text: 'When your card is stopped: Look at your opponent''s hand and your opponent''s next turn roll is -1.'
   tags: []
+  related_cards:
+    - c7b112a959164f1ab5a4018303136e61
+    - e50493d2f25143e3ada268231a196148
+    - ef91936ee02e4388ad2a6d37fc105340
+  related_finishes:
+    - e9994846698b4025b9fcb7d76f7f9a29
+    - b7ae5dbbb46d4bfaafc8e8aa157899e0
+    - 5557b30bcd52474c8e38081b628b4bea
+    - 50b05f057ff1441a9618c6f7e1b7354b
+    - fca77d98c237423d88b380e01b45d49a
+    - 6371c23c781846bcb9146ba355bf97fd
+    - 05373d238c2649aab8bcf8b962549ba8
+    - c2d3731dec1f4242995caee8282bcc53
+    - 66714e057b404b1691e44b5714e0e651
+- name: The Pallet Picking
+  db_uuid: e9994846698b4025b9fcb7d76f7f9a29
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    +2 to Strike
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 8a9bef4a979a4d31b05a7f15411c0055
+- name: The Alpackage Pile Drop
+  db_uuid: b7ae5dbbb46d4bfaafc8e8aa157899e0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+10 to Technique
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 8a9bef4a979a4d31b05a7f15411c0055
+- name: The Backorder
+  db_uuid: 5557b30bcd52474c8e38081b628b4bea
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique and Submission for each other card you have in play with "Back" in the name.
+
+    If this card is stopped, bury it.'
+  tags: []
+  related_cards:
+    - 8a9bef4a979a4d31b05a7f15411c0055
 - name: Swaggy D (Tag)
   db_uuid: 6f93006e9cc84aa3a493c002f31fc2e3
   card_type: TornadoCompetitorCard
@@ -40572,7 +41159,73 @@
 - name: Union Safety Reps
   db_uuid: 56d2caa296fc4cf1bf3aa14ddfe3bc31
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 18
+  agility: 14
+  strike: 10
+  submission: 16
+  grapple: 12
+  rules_text: 'When you hit a card with "Fire" or "Union" in the name: Draw 1 card or add 1 card from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - ae2b1fde64e343da8848984231aa5c83
+    - 58b34930fa664d1ebf89b1058b14a48a
+  related_finishes:
+    - fd5d3181cebf4b63bf5093ba84231a0e
+    - 9c6f3672dff046f4817d569ec3574224
+    - f6cd115d30d54ab9b14b3015703b5315
+    - 9baa5dfc2f134125be5a18e4695c4d37
+    - 11f144af513c446d901413f6d6c5576a
+    - 04a5edcddd224619ba79547528df0460
+    - 7d2a8c7f528148929f3c0c2c80549531
+    - c7f4ca34a5fc4646a38409dbf8ba3727
+    - c2bb4874e41441bebeb34e665d68dec6
+- name: Union Strong Strike!
+  db_uuid: fd5d3181cebf4b63bf5093ba84231a0e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Agility
+
+    +5 to Strike
+
+    +3 to Grapple
+
+    If you have 5 cards with "Union" in the name in play, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+- name: Slammed with Paperwork
+  db_uuid: 9c6f3672dff046f4817d569ec3574224
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +4 to Grapple
+
+    For each card you have in play with "Union" in the name, look at your opponent''s hand, choose 1 cad, and bury it (Max 3).'
+  tags: []
+  related_cards:
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+- name: Surprise Safety Inspection
+  db_uuid: f6cd115d30d54ab9b14b3015703b5315
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    Look at your opponent''s hand, choose 1 card and discard it.
+
+    If your opponent stopped your card last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 56d2caa296fc4cf1bf3aa14ddfe3bc31
 - name: Vegas Invaders
   db_uuid: ff886063363b4e9495163aac12552d20
   srg_url: https://supershowthegame.com/product/vegas-invaders/

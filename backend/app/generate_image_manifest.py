@@ -49,17 +49,20 @@ def generate_manifest():
 
                 images[uuid] = {"path": str(rel_path), "hash": file_hash}
 
+    # Sort images by UUID for consistent diffs
+    sorted_images = dict(sorted(images.items()))
+
     # Create manifest
     manifest = {
         "version": 1,
         "generated": datetime.now().isoformat(),
-        "image_count": len(images),
-        "images": images,
+        "image_count": len(sorted_images),
+        "images": sorted_images,
     }
 
-    # Write JSON
+    # Write JSON with sorted keys
     with open(OUTPUT_FILE, "w") as f:
-        json.dump(manifest, f, indent=2)
+        json.dump(manifest, f, indent=2, sort_keys=False)
 
     print(f"Generated manifest with {len(images)} images")
     print(f"Output: {OUTPUT_FILE}")

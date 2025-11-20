@@ -9,6 +9,7 @@ import TableView from "./pages/TableView";
 import SubmitMissingCard from "./pages/SubmitMissingCard";
 import SubmitMissingImage from "./pages/SubmitMissingImage";
 import CreateList from "./pages/CreateList";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -70,8 +71,9 @@ function Layout() {
               </ul>
             </div>
             <div>
-              <h3 className="text-white font-bold mb-2">Developer</h3>
+              <h3 className="text-white font-bold mb-2">Legal</h3>
               <ul className="space-y-1">
+                <li><a className="hover:text-srgPurple" href="/privacy">Privacy Policy</a></li>
                 <li><a className="hover:text-srgPurple" href="https://github.com/szarta/srg_card_search_website" target="_blank" rel="noreferrer">GitHub</a></li>
               </ul>
             </div>
@@ -98,6 +100,7 @@ const router = createBrowserRouter([
       { path: "/create-list", element: <CreateList /> },
       { path: "/submit-missing-card", element: <SubmitMissingCard /> },
       { path: "/submit-missing-image", element: <SubmitMissingImage /> },
+      { path: "/privacy", element: <PrivacyPolicy /> },
     ],
   },
 ]);

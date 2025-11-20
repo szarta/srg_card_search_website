@@ -48,6 +48,21 @@ app.mount(
     name="fullsize",
 )
 
+app.mount(
+    "/images/mobile",
+    StaticFiles(directory=str(IMAGES_ROOT / "mobile")),
+    name="mobile",
+)
+
+
+@app.get("/api/images/manifest", include_in_schema=False)
+def get_image_manifest():
+    """Return the image manifest for mobile app sync."""
+    manifest_path = BASE_DIR / "images_manifest.json"
+    if manifest_path.exists():
+        return FileResponse(manifest_path, media_type="application/json")
+    return {"error": "Manifest not found"}
+
 
 @app.get("/favicon.ico", include_in_schema=False)
 def favicon():

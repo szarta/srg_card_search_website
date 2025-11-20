@@ -19218,13 +19218,28 @@
 
     Your opponent''s next turn roll is -2.'
   tags: []
-- name: Destiny's Call
+- name: Destiny's Call (V1)
   db_uuid: 3d74224802234efb8e29a336db6ed590
+  srgpc_url: https://www.srgpc.net/cards/24/destinys-call/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: Search your deck for up to 4 cards and put them into your discard pile, shuffle your deck.
+  tags: []
+- name: Destiny's Call (V2)
+  db_uuid: 6aa7c08a48ba49c3baca127d5880cd0b
+  srg_url: https://supershowthegame.com/product/24-destinys-call-2/
   srgpc_url: https://www.srgpc.net/cards/24/destinys-call-2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
+
+    Shuffle your deck.
+
+    Draw 2 cards.'
   tags: []
 - name: Divergence Singularity
   db_uuid: d094ff94a70449e98ccffec708559c21

@@ -64,6 +64,28 @@ def get_image_manifest():
     return {"error": "Manifest not found"}
 
 
+@app.get("/api/cards/manifest", include_in_schema=False)
+def get_cards_manifest():
+    """Return the card database manifest for mobile app sync."""
+    manifest_path = BASE_DIR / "db_manifest.json"
+    if manifest_path.exists():
+        return FileResponse(manifest_path, media_type="application/json")
+    return {"error": "Manifest not found"}
+
+
+@app.get("/api/cards/database", include_in_schema=False)
+def get_cards_database():
+    """Return the mobile card database file."""
+    db_path = BASE_DIR / "srg_cards_mobile.db"
+    if db_path.exists():
+        return FileResponse(
+            db_path,
+            media_type="application/octet-stream",
+            filename="srg_cards_mobile.db",
+        )
+    return {"error": "Database not found"}
+
+
 @app.get("/favicon.ico", include_in_schema=False)
 def favicon():
     return FileResponse(os.path.join("static", "favicon.ico"))

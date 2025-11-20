@@ -88,6 +88,30 @@ def create_mobile_schema(conn):
         )
     """)
 
+    # Card relationship tables (for linked finishes and related cards)
+    cursor.execute("DROP TABLE IF EXISTS card_related_finishes")
+    cursor.execute("DROP TABLE IF EXISTS card_related_cards")
+
+    cursor.execute("""
+        CREATE TABLE card_related_finishes (
+            card_uuid TEXT NOT NULL,
+            finish_uuid TEXT NOT NULL,
+            PRIMARY KEY (card_uuid, finish_uuid),
+            FOREIGN KEY (card_uuid) REFERENCES cards(db_uuid) ON DELETE CASCADE,
+            FOREIGN KEY (finish_uuid) REFERENCES cards(db_uuid) ON DELETE CASCADE
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE card_related_cards (
+            card_uuid TEXT NOT NULL,
+            related_uuid TEXT NOT NULL,
+            PRIMARY KEY (card_uuid, related_uuid),
+            FOREIGN KEY (card_uuid) REFERENCES cards(db_uuid) ON DELETE CASCADE,
+            FOREIGN KEY (related_uuid) REFERENCES cards(db_uuid) ON DELETE CASCADE
+        )
+    """)
+
     # Note: Room will create indexes itself, don't create them here
 
     # Insert default folders
@@ -188,7 +212,45 @@ def load_cards_from_yaml(conn, yaml_path):
             print(f"  Progress: {i}/{len(cards)}")
 
     conn.commit()
-    print(f"\n[SUCCESS] Loaded {len(cards)} cards into database")
+    print(f"Loaded {len(cards)} cards")
+
+    # Insert related finishes
+    print("\nInserting related finishes...")
+    finish_count = 0
+    for entry in cards:
+        card_uuid = entry["db_uuid"]
+        related_finishes = entry.get("related_finishes", [])
+        if related_finishes:
+            for finish_uuid in related_finishes:
+                cursor.execute(
+                    "INSERT OR IGNORE INTO card_related_finishes (card_uuid, finish_uuid) VALUES (?, ?)",
+                    (card_uuid, finish_uuid),
+                )
+                finish_count += 1
+
+    conn.commit()
+    print(f"Loaded {finish_count} related finish links")
+
+    # Insert related cards
+    print("\nInserting related cards...")
+    related_count = 0
+    for entry in cards:
+        card_uuid = entry["db_uuid"]
+        related_cards = entry.get("related_cards", [])
+        if related_cards:
+            for related_uuid in related_cards:
+                cursor.execute(
+                    "INSERT OR IGNORE INTO card_related_cards (card_uuid, related_uuid) VALUES (?, ?)",
+                    (card_uuid, related_uuid),
+                )
+                related_count += 1
+
+    conn.commit()
+    print(f"Loaded {related_count} related card links")
+
+    print(
+        f"\n[SUCCESS] Database complete: {len(cards)} cards, {finish_count} finish links, {related_count} related links"
+    )
 
 
 if __name__ == "__main__":

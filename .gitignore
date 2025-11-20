@@ -1,3 +1,4 @@
 __pycache__/
 venv/
 backend/app/images
+helpers/source_images

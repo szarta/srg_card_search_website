@@ -248,6 +248,14 @@
   deck_card_number: 28
   rules_text: +1 to Power\n+2 to Strike\nDraw 1 card for each Follow Up you have in play.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Sweep
   db_uuid: f09f15c51c37454c88216673d381bd1e
   srg_url: https://supershowthegame.com/product/29-southern-state-sweep/
@@ -257,6 +265,14 @@
   deck_card_number: 29
   rules_text: +1 to Power\n+1 To Technique\n+1 to Submission\nIf you have 2 other Grapples in play, double these bonuses.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Toe Hold
   db_uuid: 20b4b457c0e948a7b2ee3de55ac525cc
   srg_url: https://supershowthegame.com/product/30-southern-state-toe-hold/
@@ -266,6 +282,14 @@
   deck_card_number: 30
   rules_text: +1 to Technique\n+1 to Agility\n+1 to Submission\nStop any Strike with "Kick" in the name that cannot be stopped.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Steel Chain
   db_uuid: 98dc503d4fc440e1828186024e0db7d8
   srg_url: https://supershowthegame.com/product/28-southern-state-steel-chain/
@@ -275,6 +299,14 @@
   deck_card_number: 28
   rules_text: +1 to Strike\n+1 to Submission\n+1 to Grapple\nYour opponent randomly discards 1 card from their hand.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Spike
   db_uuid: 588e9300687e47219cd404235031d8d3
   srg_url: ''
@@ -284,6 +316,14 @@
   deck_card_number: 29
   rules_text: +1 to Power\n+2 To Grapple\nYour next turn roll is +1.\nIf you hit a Strike last turn, double these bonuses.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Crab
   db_uuid: 9a6b598359b74c3fab8ecb0056bf97f9
   card_type: MainDeckCard
@@ -292,10 +332,16 @@
   deck_card_number: 30
   rules_text: +1 to Submission\nSeach your deck for 1 Finish and add it to your hand.\nOnce per turn:\nYou may discard 1 Finish from your hand to re-roll your Finish roll.
   tags: []
-  srl_url: ''
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Cross
   db_uuid: 583ce65671864a5699baf0f730b974b4
-  srg_url: ''
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -308,6 +354,14 @@
 
     Bury 1 card in you or your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Suplex
   db_uuid: 3143d64b2c2e415b81f1b42b8c7f5786
   srg_url: https://supershowthegame.com/product/29-southern-state-suplex/
@@ -319,6 +373,14 @@
 
     Your lowest skill is +3.'
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Southern State Trap
   db_uuid: 12048b7630154f6a9f388e612d613e6c
   srg_url: https://supershowthegame.com/product/30-southern-state-trap/
@@ -328,6 +390,14 @@
   deck_card_number: 30
   rules_text: Copy the text of 1 card in your discard pile.
   tags: []
+  related_cards:
+    - ca03f4b01d5d409fbd3a75a8e58d83a1
+    - 8bc44c4b3faf4c49b45234f68dfeae29
+    - 75d2cf5b748242309bab0d36c57360f9
+    - 80f9f38a75fc48f2b356fe043cafe2d0
+    - 376f821b06c94e4688ebf91d872b7d6e
+    - 8660f7591692453d871422bfec5a7f52
+    - cc1f76c2186a4f5eb3ba93baf87df3d3
 - name: Amazing Red
   db_uuid: 2507369b706f4dec83b61e8da40b80c0
   is_banned: false
@@ -21800,6 +21870,7 @@
 - name: 8 Bit Eric
   db_uuid: 9e8a66929b544b1a9adc98c002360ac7
   srg_url: https://supershowthegame.com/product/8-bit-eric/
+  srgpc_url: https://www.srgpc.net/competitor-8-bit-eric/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -21811,8 +21882,6 @@
   grapple: 8
   rules_text: 'Once per turn roll: if you roll Grapple, draw a card.'
   tags: []
-  related_cards:
-    - f4a9e71c2fb446c192037af4278e7311
 - name: Ring Admiral Grumpy Thunder
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
   srgpc_url: https://www.srgpc.net/cards/competitors/ring-admiral-grumpy-thunder-jr/
@@ -27326,8 +27395,9 @@
   grapple: 7
   rules_text: When your opponent increases their turn roll, increase your turn roll the same amount.  If that increase came from a card, your roll is +1 additional.
   tags: []
-- name: The Brain Still Standing
+- name: The Brain Still Standing (V1)
   db_uuid: 7007c64893994620aaa816d370d66df3
+  srgpc_url: https://www.srgpc.net/competitors/the-brain-still-standing/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -27337,8 +27407,122 @@
   strike: 5
   submission: 6
   grapple: 10
-  rules_text: When your card is stopped, you may re-rooll your next turn roll.
+  rules_text: When your card is stopped, you may re-roll your next turn roll.
   tags: []
+  related_finishes:
+    - f0a4569e14c048dd9b3a64a236733013
+    - 4a4ed7d23f0a4253a9494592f398e316
+    - 259585b9e2aa47df93a50ff13b9097f6
+    - cb1d31303e284aea977d55a4746513cd
+    - 8c0b8e9cfe80435e8f91041b72ff1420
+    - e5961158a2924c918c58c108447f3321
+- name: Knee-Spectfully Disagree
+  db_uuid: f0a4569e14c048dd9b3a64a236733013
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Randomly reveal 1 card in your hand: This card copies that card''s text until the end of the turn.'
+  tags: []
+- name: Microphone Drop
+  db_uuid: 4a4ed7d23f0a4253a9494592f398e316
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    Add 1 Lead from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 7007c64893994620aaa816d370d66df3
+    - 395c80165cd24bb48f2ae4f7003ac670
+- name: Interview's Over
+  db_uuid: 259585b9e2aa47df93a50ff13b9097f6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Cannot be stopped by cards with Skill Requirements.'
+  tags: []
+  related_cards:
+    - 7007c64893994620aaa816d370d66df3
+    - 395c80165cd24bb48f2ae4f7003ac670
+- name: The Brain Teaser
+  db_uuid: cb1d31303e284aea977d55a4746513cd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you rolled Grapple for your turn roll or re-rolled your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7007c64893994620aaa816d370d66df3
+    - 395c80165cd24bb48f2ae4f7003ac670
+- name: Brain Breaker
+  db_uuid: 8c0b8e9cfe80435e8f91041b72ff1420
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    If you re-rolled your turn roll, this card is also a Follow Up and cannot be stopped by "Apocalypse".'
+  tags: []
+  related_cards:
+    - 7007c64893994620aaa816d370d66df3
+    - 395c80165cd24bb48f2ae4f7003ac670
+- name: The Brain Bender
+  db_uuid: e5961158a2924c918c58c108447f3321
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    If you re-rolled your turn roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 7007c64893994620aaa816d370d66df3
+    - 395c80165cd24bb48f2ae4f7003ac670
+- name: The Brain Still Standing (V2)
+  db_uuid: 395c80165cd24bb48f2ae4f7003ac670
+  srgpc_url: https://www.srgpc.net/competitor/the-brain-still-standing-v2/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 5
+  submission: 6
+  grapple: 10
+  rules_text: 'Once per turn roll: When you or your target roll 8, you may re-roll your turn roll.'
+  tags: []
+  related_finishes:
+    - f0a4569e14c048dd9b3a64a236733013
+    - 4a4ed7d23f0a4253a9494592f398e316
+    - 259585b9e2aa47df93a50ff13b9097f6
+    - cb1d31303e284aea977d55a4746513cd
+    - 8c0b8e9cfe80435e8f91041b72ff1420
+    - e5961158a2924c918c58c108447f3321
 - name: Brett the Metal Head
   db_uuid: 7349f9255a09467696401a2869c7fa29
   srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
@@ -28400,8 +28584,19 @@
   agility: 9
   strike: 10
   submission: 5
-  grapple: 6
+  grapple: 8
+  rules_text: When you hit a Lead or Follow Up Strike, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Chugganomics (V1)
   db_uuid: d9498c9ce72b440cbb5158e4b492114d
   srgpc_url: https://www.srgpc.net/cards/competitors/chugganomics/
@@ -28672,8 +28867,19 @@
   agility: 6
   strike: 8
   submission: 7
-  grapple: 10
+  grapple: 9
+  rules_text: 'When you stop a card: Your Power, Grapple, and Strike skills are +2 during your next turn roll.'
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Danny Limelight
   db_uuid: ade41d5ac0b6435f978ed5505e67ec18
   srgpc_url: https://www.srgpc.net/cards/competitors/danny-limelight/
@@ -29243,6 +29449,16 @@
   grapple: 6
   rules_text: When you hit a card with "Sweep" or "Choke" in the name, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: The Dweeb
   db_uuid: 5855a5840bde47f69a596df2703401ad
   card_type: SingleCompetitorCard
@@ -30920,7 +31136,25 @@
   db_uuid: 8660f7591692453d871422bfec5a7f52
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 9
+  rules_text: 'During your turn: When you hit a card and you have at least 4 cards in play, your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Johan Sibelius
   db_uuid: cfa3283cdd9f40d18785633df6626070
   card_type: SingleCompetitorCard
@@ -31259,8 +31493,19 @@
   agility: 9
   strike: 6
   submission: 5
-  grapple: 7
+  grapple: 8
+  rules_text: When you hit a card that buries 1 card in your discard pile, draw 1 card.
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Kazuchika Okada
   db_uuid: ef3da0aa20f646bc8d33957331a170da
   srgpc_url: https://www.srgpc.net/cards/competitors/kazuchika-okada/
@@ -31325,8 +31570,19 @@
   agility: 6
   strike: 5
   submission: 8
-  grapple: 7
+  grapple: 10
+  rules_text: When you hit a Lead or Follow Up Grapple, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 31ab2f0496e64b75a349d1b43d503088
+    - f09f15c51c37454c88216673d381bd1e
+    - 20b4b457c0e948a7b2ee3de55ac525cc
+    - 98dc503d4fc440e1828186024e0db7d8
+    - 588e9300687e47219cd404235031d8d3
+    - 9a6b598359b74c3fab8ecb0056bf97f9
+    - 583ce65671864a5699baf0f730b974b4
+    - 3143d64b2c2e415b81f1b42b8c7f5786
+    - 12048b7630154f6a9f388e612d613e6c
 - name: Kenzie Page
   db_uuid: 84b60d0aecfa4ddd80a546a12ad8317d
   srgpc_url: https://www.srgpc.net/cards/competitors/kenzie-paige/

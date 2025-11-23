@@ -4156,7 +4156,7 @@
   deck_card_number: 1
   rules_text: Stop any Lead Grapple or each player buries 1 card in their discard pile.
   tags: []
-- name: Punch (V1)
+- name: Punch
   db_uuid: 0870773b955340b998a08b7948e70974
   srg_url: https://supershowthegame.com/product/01-punch/
   srgpc_url: https://www.srgpc.net/cards/1/punch/
@@ -4166,12 +4166,13 @@
   deck_card_number: 1
   rules_text: Stop any Lead Grapple.
   tags: []
-- name: Punch (V2)
+- name: Punch (Agility)
   db_uuid: eff8c4aadc30499db366f1b22cb502cc
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
+  rules_text: +1 to Agility
   tags: []
 - name: Sheepish Collection
   db_uuid: 163943bd8e1441d08f3219deb9b9bfa4
@@ -42194,6 +42195,16 @@
   play_order: Lead
   deck_card_number: 6
   rules_text: Search your deck or discard pile for a Skill Requirement card and add it to your hand.
+  tags: []
+- name: Chop the Groin
+  db_uuid: 1259148be35446c7b8b97fbdf82b78eb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Stop any Follow Up Strike.
+
+    This card counts as 2 Lead Submissions in play.'
   tags: []
 - name: Knees to the Elbow
   db_uuid: 049b55c24bb645feb96d7eed181c8f11

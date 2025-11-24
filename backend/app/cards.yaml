@@ -11444,7 +11444,7 @@
 
     If the Crowd Meter is 5 or greater, this card is also a Finish.'
   tags: []
-- name: Back Body Drop (V1)
+- name: Back Body Drop (V2)
   db_uuid: 6ecacd4579324ccd8a20bdedd6c6eeec
   srgpc_url: https://www.srgpc.net/cards/14/back-body-drop/
   card_type: MainDeckCard
@@ -11455,8 +11455,9 @@
 
     You may bury 1 card in your opponent''s discard pile.'
   tags: []
-- name: Back Body Drop (V2)
+- name: Back Body Drop (V1)
   db_uuid: 22b2cb6c22eb4e18a8cac46620f64593
+  srgpc_url: https://www.srgpc.net/cards/14/back-body-drop-v1/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup

@@ -26,6 +26,21 @@
   comments: ''
   release_set: Unknown
   tags: []
+- name: El Toro Guapo
+  db_uuid: 271b524616d04a08b7c95d67515e2599
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: 'Once during your turn:
+
+    When you hit a Follow Up, or your opponent rolled Power for their turn roll: you may play an additional Follow Up this turn.'
+  tags: []
 - name: Alex Hammerstone
   db_uuid: eb68a4f3acd74fb592885308366529f2
   is_banned: false
@@ -5485,7 +5500,7 @@
 
     If your Strike skill is greater than your opponent''s Strike skill, draw 2 cards instead.'
   tags: []
-- name: Irish Whip
+- name: Irish Whip (V1)
   db_uuid: b63e5896de194b20b676cfa5afc3b1f6
   srgpc_url: https://www.srgpc.net/cards/4/irish-whip
   card_type: MainDeckCard
@@ -5493,6 +5508,14 @@
   play_order: Lead
   deck_card_number: 4
   rules_text: Flip cards until you flip a Strike, add that Strike to your hand.
+  tags: []
+- name: Irish Whip (V2)
+  db_uuid: 1319e48b298446929fb93c3fe7926ce4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: Flip 3 cards, add 1 flipped Strike to your hand.  If your Agility is greater than your opponent's Agility, also add 2 flipped cards to your hand.
   tags: []
 - name: Jaw Jacking
   db_uuid: 6325e3456dbd4658b2ad53039b6ed469
@@ -6222,7 +6245,7 @@
   deck_card_number: 5
   rules_text: Stop any Follow Up Submission or each player buries 1 card in their discard pile.
   tags: []
-- name: Throw Into the Corner
+- name: Throw Into the Corner (V1)
   db_uuid: 3d8bf1ab674e43f18cb04dc079fba62c
   srgpc_url: https://www.srgpc.net/cards/5/throw-into-the-corner/
   card_type: MainDeckCard
@@ -6230,6 +6253,14 @@
   play_order: Lead
   deck_card_number: 5
   rules_text: Flip cards until your flip a Grapple, add that Grapple to your hand.
+  tags: []
+- name: Throw Into the Corner (V2)
+  db_uuid: d665c73c80504452bf799fef68fd1e56
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: Flip 3 cards, add 1 flipped Grapple to your hand; if your Power is greater than your opponent's Power, also add 2 flipped cards to your hand.
   tags: []
 - name: Throw Into the Post
   db_uuid: fa95c929062d45f2b63197d24409c0fd
@@ -6412,7 +6443,7 @@
 
     If stopped, add 1 Lead from your discard pile to your hand.'
   tags: []
-- name: Drag to the Center
+- name: Drag to the Center (V1)
   db_uuid: c96f9bb6d27b468d80e3022790baa4b0
   srgpc_url: https://www.srgpc.net/cards/6/drag-to-the-center/
   card_type: MainDeckCard
@@ -6420,6 +6451,14 @@
   play_order: Lead
   deck_card_number: 6
   rules_text: Flip cards until you flip a Submission, add that Submission to your hand.
+  tags: []
+- name: Drag to the Center (V2)
+  db_uuid: e7986c1225a0404192bd7fa5dba6d4e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: Flip 3 cards, add 1 flipped Submission to your hand; if your Technique is greater than your opponent's Technique, also add 2 flipped cards to your hand.
   tags: []
 - name: Elevated Arm Bar
   db_uuid: 58460808074247e0b2e221a1cafb6197
@@ -12935,6 +12974,14 @@
 
     When this card is in your discard pile and you have 2 or fewer cards in your hand, you may add it to your hand.'
   tags: []
+- name: Enter My Ring Step to My Thunderous Sledgehammer Chop
+  db_uuid: 37e2ac7a6864438ebdb7826418f11570
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: If you have another Follow Up in play, search your deck for a Strike, and put it on top of your shuffled deck.
+  tags: []
 - name: All Star Falling Star Assault
   db_uuid: 45933eedc14a46e2b0c881980450208e
   srgpc_url: https://www.srgpc.net/cards/16/all-star-falling-star-assault/
@@ -14377,6 +14424,14 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: Flip 2 cards for each other Follow Up you have in play.
+  tags: []
+- name: Barbed Wire Baseball Battle Axe or Charcuterie Cheese
+  db_uuid: a909d0ce0f2a4d0f875c6e2d065d87ab
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: If you have another Follow Up in play, search your deck for a Submission, and put it on top of your shuffled deck.
   tags: []
 - name: Abdominal Stretch (V2)
   db_uuid: 85b9920889a04f368bb1057b48cd8404
@@ -42840,6 +42895,14 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your opponent has in play.
+  tags: []
+- name: Hypersonic Thumb Tackle
+  db_uuid: be2cc43c029d48beafa12da50d3731e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: If you have another Follow Up in play, search your deck for a Grapple, and put it on top of your shuffled deck.
   tags: []
 - name: Firebomb Through The Table
   db_uuid: 63c98b8fc9e049968c6ce9859a69b8db

@@ -26780,7 +26780,7 @@
   agility: 6
   strike: 7
   submission: 8
-  grapple: 8
+  grapple: 9
   rules_text: When you hit a card with "Steel Chain" in the name, your opponent randomly buries 1 card in their hand. If "Blast Into the Light Tubes" is stopped, the match does not end via Disqualification.
   tags: []
   related_finishes:
@@ -28884,7 +28884,7 @@
   agility: 7
   strike: 10
   submission: 5
-  grapple: 9
+  grapple: 8
   tags: []
 - name: The Dangerous Flower
   db_uuid: 34c5ce20f09847719ef1e45862a5efdb
@@ -28897,7 +28897,7 @@
   agility: 8
   strike: 10
   submission: 9
-  grapple: 6
+  grapple: 7
   tags: []
 - name: Danhausen
   db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
@@ -28910,7 +28910,7 @@
   agility: 7
   strike: 8
   submission: 5
-  grapple: 6
+  grapple: 10
   tags: []
 - name: Danny Briggs
   db_uuid: 8bc44c4b3faf4c49b45234f68dfeae29
@@ -28947,7 +28947,7 @@
   agility: 10
   strike: 8
   submission: 5
-  grapple: 7
+  grapple: 6
   tags: []
 - name: Darius Carter
   db_uuid: e072664507f64381bf3c7bf0971a5039
@@ -28960,7 +28960,7 @@
   agility: 6
   strike: 9
   submission: 10
-  grapple: 5
+  grapple: 8
   tags: []
 - name: Dastardly Dick Thunderlips (V1)
   db_uuid: f95778408dbf46dca6c1450f3d8b7967
@@ -29000,7 +29000,7 @@
   agility: 5
   strike: 6
   submission: 10
-  grapple: 7
+  grapple: 8
   tags: []
 - name: David Starr (V1)
   db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
@@ -29123,7 +29123,7 @@
   agility: 5
   strike: 6
   submission: 9
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Deputy Dango
   db_uuid: 38a5391801c4447da6ea182bd53eb6f0
@@ -29206,7 +29206,7 @@
   agility: 5
   strike: 9
   submission: 7
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Des the Destroyer
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
@@ -29220,7 +29220,7 @@
   agility: 5
   strike: 8
   submission: 7
-  grapple: 10
+  grapple: 9
   tags: []
   related_finishes:
     - addbe4eaa6f24f108292518013d0cd37
@@ -29531,7 +29531,7 @@
   agility: 5
   strike: 9
   submission: 10
-  grapple: 7
+  grapple: 8
   tags: []
 - name: El Gato Sombrio (V1)
   db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
@@ -29572,7 +29572,10 @@
   agility: 10
   strike: 5
   submission: 8
-  grapple: 6
+  grapple: 7
+  rules_text: 'During your turn roll:
+
+    Your Technique is + the Crowd Meter (max +3).'
   tags: []
 - name: El Llama Enmascarada Senior
   db_uuid: 65dcddf9188847138f8777529436efb9
@@ -29585,7 +29588,7 @@
   agility: 7
   strike: 6
   submission: 9
-  grapple: 5
+  grapple: 8
   tags: []
 - name: El Phantasmo
   db_uuid: c8788ae573734217b3a4ee2563d998b7
@@ -29623,7 +29626,7 @@
   agility: 7
   strike: 8
   submission: 9
-  grapple: 6
+  grapple: 5
   tags: []
 - name: Ember Wolf (V1)
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
@@ -29706,7 +29709,7 @@
   agility: 10
   strike: 7
   submission: 8
-  grapple: 6
+  grapple: 9
   tags: []
 - name: The End
   db_uuid: d12bb5eef1d7482fa310367b3bb07602
@@ -29719,7 +29722,7 @@
   agility: 8
   strike: 5
   submission: 10
-  grapple: 6
+  grapple: 7
   tags: []
 - name: The Enforcer
   db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
@@ -29732,7 +29735,7 @@
   agility: 7
   strike: 5
   submission: 8
-  grapple: 6
+  grapple: 9
   tags: []
 - name: Eric Jayden
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
@@ -29912,7 +29915,7 @@
   agility: 8
   strike: 10
   submission: 6
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Everyone's Enemy
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
@@ -29960,7 +29963,7 @@
   agility: 9
   strike: 10
   submission: 7
-  grapple: 8
+  grapple: 5
   tags: []
 - name: Father Light
   db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
@@ -30059,7 +30062,7 @@
   agility: 7
   strike: 10
   submission: 6
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Fire Flash
   db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
@@ -30072,7 +30075,7 @@
   agility: 7
   strike: 10
   submission: 9
-  grapple: 8
+  grapple: 6
   tags: []
 - name: The Fireball
   db_uuid: f602d739628746ee8620999d09310727
@@ -30090,7 +30093,7 @@
   agility: 7
   strike: 8
   submission: 9
-  grapple: 5
+  grapple: 6
   tags: []
 - name: Flame Fighter
   db_uuid: ae2b1fde64e343da8848984231aa5c83
@@ -30157,7 +30160,7 @@
   agility: 10
   strike: 8
   submission: 5
-  grapple: 7
+  grapple: 6
   tags: []
 - name: Flora Mother of Llamas
   db_uuid: 3999aa59d7a6467ea1187669d086576b
@@ -30170,7 +30173,7 @@
   agility: 9
   strike: 10
   submission: 5
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Flyboy
   db_uuid: 7a27b8f53e2b41a093fb2e619ab364a9
@@ -30183,7 +30186,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 5
+  grapple: 10
   tags: []
 - name: Fortress
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
@@ -30196,7 +30199,7 @@
   agility: 6
   strike: 8
   submission: 5
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Fox Assassin (V2)
   db_uuid: 483f70a0f19841288d1d8ea046225744
@@ -30260,7 +30263,7 @@
   agility: 10
   strike: 8
   submission: 5
-  grapple: 7
+  grapple: 6
   tags: []
 - name: Fuhgeddaboutit!
   db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
@@ -30415,7 +30418,7 @@
   agility: 7
   strike: 10
   submission: 9
-  grapple: 5
+  grapple: 6
   tags: []
 - name: GDD (V1)
   db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
@@ -30484,7 +30487,7 @@
   agility: 6
   strike: 8
   submission: 5
-  grapple: 7
+  grapple: 9
   tags: []
 - name: Gia de los Muertos (V1)
   db_uuid: a4b61c579c2d4ca59b5001ea5503fdef
@@ -30560,7 +30563,7 @@
   agility: 9
   strike: 10
   submission: 8
-  grapple: 7
+  grapple: 5
   tags: []
 - name: The Great Oniman
   db_uuid: 2a085c1413b3407fb33e8737e43b732e
@@ -30579,7 +30582,7 @@
   agility: 8
   strike: 7
   submission: 6
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Grinch Pitt
   db_uuid: 18ec1811ed0f4626b8ff2009207e9e7c
@@ -30609,7 +30612,7 @@
   agility: 9
   strike: 6
   submission: 7
-  grapple: 5
+  grapple: 10
   tags: []
 - name: Hallow King (V1)
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
@@ -30649,7 +30652,7 @@
   agility: 10
   strike: 5
   submission: 8
-  grapple: 6
+  grapple: 7
   tags: []
 - name: Harvey Luster
   db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
@@ -30662,7 +30665,7 @@
   agility: 6
   strike: 8
   submission: 5
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Heartache Kid Mr. L.F.F.
   db_uuid: 8d1c80c7bbf34977ae298f810ac15af8
@@ -30727,7 +30730,7 @@
   agility: 9
   strike: 5
   submission: 10
-  grapple: 6
+  grapple: 8
   tags: []
 - name: High Water
   db_uuid: c12b5c9b4a194269876839cba3a256cf
@@ -30740,7 +30743,7 @@
   agility: 7
   strike: 10
   submission: 5
-  grapple: 8
+  grapple: 6
   tags: []
 - name: Hiroshi Tanahashi
   db_uuid: 818d5a2501ce481ca42886e95e7d0943
@@ -30753,7 +30756,7 @@
   agility: 8
   strike: 6
   submission: 7
-  grapple: 5
+  grapple: 9
   tags: []
 - name: History Making Matt Pineapple
   db_uuid: 70ec50606f764d35bbbbaf40618177da
@@ -30766,7 +30769,7 @@
   agility: 6
   strike: 5
   submission: 10
-  grapple: 8
+  grapple: 9
   tags: []
 - name: Hold the Line Harry
   db_uuid: ad19decd21624f22b678048ab0b463db
@@ -30779,7 +30782,7 @@
   agility: 10
   strike: 8
   submission: 6
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Homicide
   db_uuid: 8cb3b634e7d94e4eb9d14084aaee6047
@@ -30792,7 +30795,7 @@
   agility: 5
   strike: 8
   submission: 10
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Hornet (V1)
   db_uuid: 514afe8b058d42a69b1870ba236be431
@@ -30833,7 +30836,7 @@
   agility: 8
   strike: 9
   submission: 6
-  grapple: 7
+  grapple: 5
   tags: []
 - name: The Hypnotist Hanz Mesmer
   db_uuid: 8d99533f1c7d4a1a9ac20cd0854eb757
@@ -30903,7 +30906,7 @@
   agility: 8
   strike: 7
   submission: 6
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Invisible Man (V1)
   db_uuid: 534355d64b334f64b7598bbb93785bcb
@@ -30992,7 +30995,7 @@
   agility: 8
   strike: 7
   submission: 5
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Jacque EE
   db_uuid: 7333bd77424b441891340c35244b2b11
@@ -31005,7 +31008,7 @@
   agility: 9
   strike: 10
   submission: 6
-  grapple: 7
+  grapple: 5
   tags: []
 - name: Jamie Senegal
   db_uuid: d7d82141547a44308408d2470732bb64
@@ -31018,7 +31021,7 @@
   agility: 7
   strike: 10
   submission: 5
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Jay Lyon
   db_uuid: 10a05e4e55ff46d5acd1f60c60b297dd
@@ -31031,7 +31034,7 @@
   agility: 9
   strike: 7
   submission: 5
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Jay White
   db_uuid: 68d8df0c31a04446bb8734cbe82be583
@@ -31097,7 +31100,7 @@
   agility: 8
   strike: 10
   submission: 5
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Jebediah The Amish Assassin
   db_uuid: bcfd31f67b454a1e9d41d981fb265e5d
@@ -31110,7 +31113,7 @@
   agility: 8
   strike: 5
   submission: 9
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Jessica Siren
   db_uuid: 1aeb79fc58f445b8ab7fe8bc2aebfcec
@@ -31123,7 +31126,7 @@
   agility: 9
   strike: 8
   submission: 7
-  grapple: 5
+  grapple: 6
   tags: []
 - name: J-Flash
   db_uuid: c838aa6d65bd440689ed07eed9e1b94b
@@ -31136,7 +31139,7 @@
   agility: 10
   strike: 5
   submission: 7
-  grapple: 6
+  grapple: 9
   tags: []
 - name: Jigsaw
   db_uuid: 44a277528d754a41bbb5f404cd32f2bd
@@ -31504,7 +31507,7 @@
   agility: 6
   strike: 9
   submission: 8
-  grapple: 5
+  grapple: 7
   tags: []
 - name: Kaleb With a K
   db_uuid: 58f826bfd837442ba47de9fdacf90df5
@@ -31517,7 +31520,7 @@
   agility: 7
   strike: 8
   submission: 5
-  grapple: 6
+  grapple: 10
   tags: []
 - name: Kameha Kahn
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
@@ -31573,7 +31576,7 @@
   agility: 7
   strike: 10
   submission: 6
-  grapple: 5
+  grapple: 8
   tags: []
 - name: Ken Broadway
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
@@ -31586,7 +31589,7 @@
   agility: 6
   strike: 10
   submission: 5
-  grapple: 7
+  grapple: 9
   tags: []
 - name: Kenny Omega
   db_uuid: a65f29782caf41678005bafaf83802cc
@@ -31613,7 +31616,7 @@
   agility: 8
   strike: 10
   submission: 6
-  grapple: 5
+  grapple: 7
   tags: []
 - name: The Kenway
   db_uuid: cc1f76c2186a4f5eb3ba93baf87df3d3
@@ -31656,7 +31659,7 @@
   agility: 8
   strike: 10
   submission: 7
-  grapple: 6
+  grapple: 5
   tags: []
 - name: Kid Fresh
   db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
@@ -31669,7 +31672,7 @@
   agility: 10
   strike: 8
   submission: 6
-  grapple: 5
+  grapple: 7
   tags: []
 - name: Kid Thunder
   db_uuid: 223b53a8b2c34a37ac87a18cf0b1bdae
@@ -31969,7 +31972,7 @@
   agility: 5
   strike: 7
   submission: 9
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Le Penguin (V1)
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
@@ -32135,7 +32138,7 @@
   agility: 6
   strike: 10
   submission: 5
-  grapple: 7
+  grapple: 8
   tags: []
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
@@ -32148,7 +32151,7 @@
   agility: 6
   strike: 8
   submission: 9
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Lexi the Punk Rock Pixie (V1)
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
@@ -32460,7 +32463,7 @@
   agility: 10
   strike: 9
   submission: 5
-  grapple: 6
+  grapple: 7
   tags: []
 - name: Lissa Langnatt
   db_uuid: 088fca386b3e47fcb5b1087f3b7def31
@@ -32473,7 +32476,7 @@
   agility: 10
   strike: 7
   submission: 8
-  grapple: 9
+  grapple: 6
   tags: []
 - name: Little Guido
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
@@ -32533,7 +32536,7 @@
   agility: 8
   strike: 10
   submission: 7
-  grapple: 5
+  grapple: 6
   tags: []
 - name: Lobo Suicida (V1)
   db_uuid: cf93b1f8e4794f98b4282c71d2e29234
@@ -32798,7 +32801,7 @@
   agility: 5
   strike: 7
   submission: 6
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Madman Fulton
   db_uuid: 1d26487afa2949a1926a43da578ce8ab
@@ -32811,7 +32814,7 @@
   agility: 6
   strike: 8
   submission: 7
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Maestro
   db_uuid: da079db2b3084e20af107b64d23149a0
@@ -32824,7 +32827,7 @@
   agility: 10
   strike: 8
   submission: 7
-  grapple: 6
+  grapple: 5
   tags: []
 - name: The Magnificient Mr. Rey
   db_uuid: dba1b354303a48338e6e3362cdd62083
@@ -32911,7 +32914,7 @@
   agility: 7
   strike: 5
   submission: 8
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Marcus Samuel Selmore
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
@@ -32943,7 +32946,7 @@
   agility: 6
   strike: 9
   submission: 8
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Mark the Shark (V1)
   db_uuid: f9ad1426f01248fa90316c0410fd524b
@@ -32967,7 +32970,7 @@
   agility: 7
   strike: 6
   submission: 8
-  grapple: 10
+  grapple: 5
   tags: []
 - name: Marty Scurll
   db_uuid: dba1d61db20b496486642845a978d752
@@ -32979,7 +32982,7 @@
   agility: 6
   strike: 7
   submission: 10
-  grapple: 5
+  grapple: 8
   tags: []
 - name: Masked Beetle
   db_uuid: 652f4cdb84a5453b852723eaa0ddc994
@@ -32992,7 +32995,7 @@
   agility: 10
   strike: 7
   submission: 5
-  grapple: 6
+  grapple: 9
   tags: []
 - name: The Masked Llama (V1)
   db_uuid: c7b112a959164f1ab5a4018303136e61
@@ -33088,7 +33091,7 @@
   agility: 7
   strike: 10
   submission: 8
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Master Dosmodious
   db_uuid: 0a2b9d6fc8f74186a5088cad2858e64a
@@ -33101,7 +33104,7 @@
   agility: 5
   strike: 6
   submission: 7
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Mastermind
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
@@ -33114,7 +33117,7 @@
   agility: 9
   strike: 10
   submission: 8
-  grapple: 7
+  grapple: 5
   tags: []
 - name: Matt Nelan (V1)
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
@@ -33501,7 +33504,7 @@
   agility: 6
   strike: 8
   submission: 7
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Nanouk
   db_uuid: f21af76d53d64bc48ad430cb5ebae5bf
@@ -33514,7 +33517,7 @@
   agility: 6
   strike: 5
   submission: 10
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Neptune
   db_uuid: c42a2ced9d3541b9a257556fe7233471
@@ -33527,7 +33530,7 @@
   agility: 6
   strike: 7
   submission: 10
-  grapple: 9
+  grapple: 8
   tags: []
 - name: New Face of Chaos
   db_uuid: 7d54ebad1e594e788f676f9d1634aa85
@@ -33540,7 +33543,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 7
+  grapple: 10
   tags: []
 - name: New Jack
   db_uuid: 26929d68478c48fab8b5c6be88ad8e96
@@ -33553,7 +33556,7 @@
   agility: 7
   strike: 10
   submission: 6
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Night Terror
   db_uuid: 3ff32d2089504028b07d301071f12f2f
@@ -33565,7 +33568,7 @@
   agility: 10
   strike: 8
   submission: 5
-  grapple: 6
+  grapple: 9
   tags: []
 - name: Nightmare King
   db_uuid: 18c894fdf2ff4833a9f557629568e1b6
@@ -33578,7 +33581,7 @@
   agility: 10
   strike: 6
   submission: 5
-  grapple: 8
+  grapple: 9
   tags: []
 - name: Ninja Hummingbird (V1)
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
@@ -33750,7 +33753,7 @@
   agility: 7
   strike: 9
   submission: 10
-  grapple: 8
+  grapple: 6
   tags: []
 - name: The "Other" Steve
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
@@ -33919,7 +33922,7 @@
   agility: 8
   strike: 10
   submission: 7
-  grapple: 5
+  grapple: 6
   tags: []
 - name: The Pain Artist DaVinci Wade
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
@@ -33932,7 +33935,7 @@
   agility: 7
   strike: 5
   submission: 9
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Pang
   db_uuid: 67774251b6ed4a2a89c50ff7c5a0e129
@@ -33945,7 +33948,7 @@
   agility: 9
   strike: 5
   submission: 8
-  grapple: 6
+  grapple: 7
   tags: []
 - name: Pat the Thinker
   db_uuid: 582f1c66d042475088de05345806d255
@@ -33992,7 +33995,7 @@
   agility: 6
   strike: 9
   submission: 5
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Peter Lionheart (V1)
   db_uuid: 73701ef7f615485d82c628fa90f4ce68
@@ -34038,7 +34041,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 7
+  grapple: 5
   tags: []
 - name: Piglet
   db_uuid: 1069a54e1c674abeb90ce4bb07a37404
@@ -34064,7 +34067,7 @@
   agility: 9
   strike: 7
   submission: 10
-  grapple: 6
+  grapple: 5
   tags: []
 - name: Plant Based Bruiser
   db_uuid: a9a384dd112246d58b8c359460d56ddc
@@ -34186,7 +34189,7 @@
   agility: 8
   strike: 6
   submission: 10
-  grapple: 9
+  grapple: 5
   tags: []
 - name: Pluto
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
@@ -34199,7 +34202,7 @@
   agility: 8
   strike: 7
   submission: 10
-  grapple: 6
+  grapple: 5
   tags: []
 - name: Poco Loco
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
@@ -34212,7 +34215,7 @@
   agility: 10
   strike: 7
   submission: 6
-  grapple: 5
+  grapple: 8
   tags: []
 - name: Poland's Prince
   db_uuid: eaa66b2581dd44f0980eaebc34dbfbf5
@@ -34582,7 +34585,7 @@
   agility: 9
   strike: 8
   submission: 10
-  grapple: 7
+  grapple: 5
   tags: []
 - name: Rage
   db_uuid: 3f06685328d74f4fa8c64f77a0add3df
@@ -34595,7 +34598,7 @@
   agility: 6
   strike: 9
   submission: 7
-  grapple: 10
+  grapple: 8
   tags: []
 - name: Rahz El Dazzel
   db_uuid: e1b8cc42d0774c118785d02b296909f3
@@ -34608,7 +34611,7 @@
   agility: 10
   strike: 9
   submission: 7
-  grapple: 5
+  grapple: 6
   tags: []
 - name: Random Guy
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
@@ -34677,7 +34680,7 @@
   agility: 10
   strike: 7
   submission: 9
-  grapple: 6
+  grapple: 5
   tags: []
 - name: Raven
   db_uuid: 6e915bbeb0b148a4a578992b50c63bbe
@@ -34690,7 +34693,7 @@
   agility: 7
   strike: 8
   submission: 5
-  grapple: 6
+  grapple: 10
   tags: []
 - name: Ray'gr Dragon God
   db_uuid: 6f0c54f9e3074538baff7a1171fa4fb2
@@ -34709,7 +34712,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 7
+  grapple: 5
   tags: []
 - name: Reverend Good Brain
   db_uuid: 289c8f5092744a71a376e27dd231bd04
@@ -34830,7 +34833,7 @@
   agility: 7
   strike: 8
   submission: 5
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Ricochet
   db_uuid: be4591ac738748c29cf9fef3179e6c94
@@ -34843,7 +34846,7 @@
   agility: 10
   strike: 6
   submission: 5
-  grapple: 6
+  grapple: 9
   tags: []
 - name: Ricky Riot (V1)
   db_uuid: 5cf0d256efd841b3b5c220e2487db443
@@ -35014,7 +35017,7 @@
   agility: 5
   strike: 6
   submission: 9
-  grapple: 8
+  grapple: 7
   rules_text: 'Once per turn:
 
     When your opponent flips or buries any number of cards in their discard pile: Add 1 card with "Ring" in the name from your discard pile to your hand.'
@@ -35499,7 +35502,7 @@
   agility: 5
   strike: 8
   submission: 9
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Scrapyard Cat
   db_uuid: b0fcea9832944b0890b8d622271fea68
@@ -35557,7 +35560,7 @@
   agility: 10
   strike: 8
   submission: 5
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Sgt. Yoga
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
@@ -35570,7 +35573,7 @@
   agility: 5
   strike: 7
   submission: 10
-  grapple: 9
+  grapple: 8
   tags: []
 - name: Shade
   db_uuid: 54590750c88a4c3aaa4f2a98cbb6207e
@@ -35583,7 +35586,7 @@
   agility: 5
   strike: 10
   submission: 8
-  grapple: 9
+  grapple: 6
   tags: []
 - name: Shadow Phoenix (V1)
   db_uuid: b6a34c56cfb041e7839acfaf3e0a0eab
@@ -35621,7 +35624,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 5
+  grapple: 7
   tags: []
 - name: Shane Strickland
   db_uuid: 17aed6b36bb347bf8eae88195831bf8b
@@ -35634,7 +35637,7 @@
   agility: 9
   strike: 10
   submission: 5
-  grapple: 7
+  grapple: 8
   tags: []
 - name: Shea McCoy
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
@@ -35647,7 +35650,7 @@
   agility: 5
   strike: 6
   submission: 10
-  grapple: 8
+  grapple: 9
   tags: []
 - name: Sheeple's Champion
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
@@ -35780,7 +35783,7 @@
   agility: 5
   strike: 6
   submission: 10
-  grapple: 7
+  grapple: 9
   rules_text: 'FRONT: Once during your turn when you draw 1 or more cards, draw 1 card then discard 1 card.
 
     When you bury a card in your hand, you may turn this card over.
@@ -36449,7 +36452,7 @@
   agility: 5
   strike: 7
   submission: 6
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Terra
   db_uuid: 90b0c96882754a4dbd175e313f4991b2
@@ -36518,7 +36521,7 @@
   agility: 7
   strike: 8
   submission: 6
-  grapple: 5
+  grapple: 9
   tags: []
 - name: Texas Juggernaut
   db_uuid: c0881aba76014c88b5f720f463f48d64
@@ -36531,7 +36534,7 @@
   agility: 8
   strike: 5
   submission: 10
-  grapple: 9
+  grapple: 7
   tags: []
 - name: THE Phil Birch
   db_uuid: 2ac859ee5b724848b5d34e70740c4f50
@@ -36544,7 +36547,7 @@
   agility: 5
   strike: 7
   submission: 10
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Titan
   db_uuid: 0a4ae4fdea654848ac7a8467bc9f74f2
@@ -36557,7 +36560,7 @@
   agility: 5
   strike: 9
   submission: 7
-  grapple: 10
+  grapple: 8
   tags: []
 - name: Titan of the Northeast
   db_uuid: 0e42a47bc46d470a9c8db554bb0edf6b
@@ -36570,7 +36573,7 @@
   agility: 8
   strike: 9
   submission: 6
-  grapple: 10
+  grapple: 7
   tags: []
 - name: TJ Marconi
   db_uuid: e14019134fab4819bfd60e35943ce375
@@ -36583,7 +36586,7 @@
   agility: 8
   strike: 9
   submission: 6
-  grapple: 10
+  grapple: 7
   tags: []
 - name: 'TJ Marconi Public Enemy #1'
   db_uuid: 8f726675283f40eabe2c99539ef6e394
@@ -36610,7 +36613,7 @@
   agility: 7
   strike: 5
   submission: 6
-  grapple: 8
+  grapple: 10
   tags: []
 - name: Trashman
   db_uuid: cd74ed7f79184db582a82ecd92058c28
@@ -36623,7 +36626,7 @@
   agility: 7
   strike: 10
   submission: 6
-  grapple: 9
+  grapple: 8
   tags: []
 - name: Trent?
   db_uuid: 902a282a6c6f4317b4cf87e0a4eed30d
@@ -36636,7 +36639,7 @@
   agility: 8
   strike: 10
   submission: 6
-  grapple: 5
+  grapple: 9
   tags: []
 - name: True American Guy Gregory Patrick Scott
   db_uuid: 6d08f346a2584887a329443b00b9f02f
@@ -36649,7 +36652,7 @@
   agility: 6
   strike: 8
   submission: 9
-  grapple: 10
+  grapple: 5
   tags: []
 - name: The True Survivor
   db_uuid: 07f8e7d0b2d341a08c7fa0df4aae777b
@@ -36662,7 +36665,7 @@
   agility: 5
   strike: 9
   submission: 6
-  grapple: 10
+  grapple: 8
   tags: []
 - name: TVA Commissioner Drew Madsen
   db_uuid: 191fdd8ac35641ba930ccdfcea5e94fd
@@ -36675,7 +36678,7 @@
   agility: 7
   strike: 5
   submission: 8
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Tyler Chaos
   db_uuid: 6d522aa7ac7840d88a5790a5c7c7e5e0
@@ -36688,7 +36691,7 @@
   agility: 6
   strike: 10
   submission: 7
-  grapple: 8
+  grapple: 5
   tags: []
 - name: Tytan
   db_uuid: 6868fc4520954fd4a3ca756d11b59d18
@@ -36701,7 +36704,7 @@
   agility: 5
   strike: 8
   submission: 9
-  grapple: 10
+  grapple: 6
   tags: []
 - name: Ultimate Grump
   db_uuid: 26cdda7245744396ae988697babdef2f
@@ -36714,7 +36717,7 @@
   agility: 8
   strike: 10
   submission: 7
-  grapple: 9
+  grapple: 6
   tags: []
 - name: The Ultimate Phighter
   db_uuid: 30a3349b5bfa4d608ac989f90a253dc5
@@ -36727,7 +36730,7 @@
   agility: 5
   strike: 7
   submission: 6
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Uncle Awesome (V1)
   db_uuid: 4e2a4a8022b0485e8449750cb411d793
@@ -36872,7 +36875,7 @@
   agility: 6
   strike: 7
   submission: 9
-  grapple: 5
+  grapple: 8
   tags: []
 - name: The Uncaged Beast
   db_uuid: 0beebc490ed0447f9a1323c470f94454
@@ -36944,7 +36947,7 @@
   agility: 5
   strike: 6
   submission: 10
-  grapple: 9
+  grapple: 7
   tags: []
 - name: Unicorn Princess
   db_uuid: 834c8775accf428380910277cbe27413
@@ -36957,7 +36960,7 @@
   agility: 10
   strike: 9
   submission: 6
-  grapple: 5
+  grapple: 8
   tags: []
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
@@ -36969,7 +36972,7 @@
   agility: 9
   strike: 5
   submission: 10
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Uranus
   db_uuid: 60f3433ddd5745c9905583b60466a734
@@ -36982,7 +36985,7 @@
   agility: 5
   strike: 8
   submission: 7
-  grapple: 9
+  grapple: 10
   tags: []
 - name: Vampire Hunter Foreman
   db_uuid: 58b34930fa664d1ebf89b1058b14a48a
@@ -36995,7 +36998,7 @@
   agility: 6
   strike: 5
   submission: 10
-  grapple: 7
+  grapple: 8
   rules_text: 'Choose 1: "Table", "Ladder", or "Steel Chain".  When you hit a card with that in the name: Flip 2 cards, then add 1 Stop from your discard pile to your hand.'
   tags: []
   related_cards:
@@ -37062,7 +37065,7 @@
   agility: 7
   strike: 8
   submission: 10
-  grapple: 9
+  grapple: 6
   tags: []
 - name: Vampyr Sehkmet (V1)
   db_uuid: 18c9a0e41d4a4315a4e453bdb39d2be5
@@ -37203,7 +37206,7 @@
   agility: 8
   strike: 6
   submission: 7
-  grapple: 10
+  grapple: 5
   tags: []
 - name: Viral
   db_uuid: a35ca200648749e5be284b5904b94523
@@ -37216,7 +37219,7 @@
   agility: 5
   strike: 9
   submission: 7
-  grapple: 6
+  grapple: 8
   tags: []
 - name: Void (V1)
   db_uuid: 32bc1449683540558a8f0606922e3885
@@ -37279,7 +37282,7 @@
   agility: 7
   strike: 6
   submission: 10
-  grapple: 8
+  grapple: 9
   rules_text: When you roll Submission you may look at your opponent's hand.
   tags: []
   related_finishes:
@@ -37355,7 +37358,7 @@
   agility: 7
   strike: 8
   submission: 5
-  grapple: 10
+  grapple: 9
   tags: []
 - name: Wiser Wizard
   db_uuid: 92aad45d0fa046448ec91a4c4d4cd869
@@ -37447,7 +37450,7 @@
   agility: 10
   strike: 9
   submission: 6
-  grapple: 5
+  grapple: 7
   tags: []
 - name: Witch Hunter General
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
@@ -37460,7 +37463,7 @@
   agility: 5
   strike: 6
   submission: 7
-  grapple: 10
+  grapple: 8
   tags: []
 - name: The Witch's Apprentice
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
@@ -39014,7 +39017,7 @@
   agility: 9
   strike: 5
   submission: 8
-  grapple: 7
+  grapple: 10
   tags: []
 - name: Derby Dames
   db_uuid: 8d1a2dbdd8f14f0f9cab6b640eeda523
@@ -39059,7 +39062,7 @@
   agility: 8
   strike: 6
   submission: 9
-  grapple: 10
+  grapple: 5
   tags: []
 - name: El Frenetico
   db_uuid: ed652335019b4eee8341e33a86bad731
@@ -39086,7 +39089,7 @@
   agility: 6
   strike: 7
   submission: 10
-  grapple: 8
+  grapple: 5
   tags: []
 - name: El Jabroni
   db_uuid: 57c6169657c344cf8723858af6e7f422
@@ -39099,7 +39102,7 @@
   agility: 8
   strike: 5
   submission: 6
-  grapple: 9
+  grapple: 10
   tags: []
 - name: El Leon de Lahore
   db_uuid: 82a3cb85ff544fbb96e18487d156f321
@@ -39169,7 +39172,7 @@
   agility: 8
   strike: 7
   submission: 10
-  grapple: 9
+  grapple: 6
   tags: []
 - name: Everybuddy & A Buddy
   db_uuid: 2c7b85ebf006415fbf53f3f465eeb7f5
@@ -39294,7 +39297,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 5
+  grapple: 7
   tags: []
 - name: Goldlust
   db_uuid: 3e9abd47231c419981518fc2ab84a2cc
@@ -39355,7 +39358,7 @@
   agility: 8
   strike: 6
   submission: 10
-  grapple: 7
+  grapple: 5
   tags: []
 - name: xHidden Threatx
   db_uuid: dfc77bfe1e8c4a8089d3e3a1b54d4b5e
@@ -40045,7 +40048,7 @@
   agility: 8
   strike: 5
   submission: 9
-  grapple: 10
+  grapple: 7
   tags: []
 - name: The Freak
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
@@ -40213,7 +40216,7 @@
   agility: 10
   strike: 5
   submission: 8
-  grapple: 9
+  grapple: 6
   tags: []
 - name: Ranger Dangerfield
   db_uuid: cc37ceca4d674cb2ac35e22f4f712b25
@@ -40246,7 +40249,7 @@
   agility: 6
   strike: 5
   submission: 8
-  grapple: 10
+  grapple: 7
   tags: []
 - name: Soto the Goato
   db_uuid: a165b1a7bd3e43958eee8a319ef94074
@@ -40646,7 +40649,7 @@
   agility: 9
   strike: 6
   submission: 8
-  grapple: 10
+  grapple: 7
   tags: []
 - name: The Winning Ticket
   db_uuid: f4a3aea48e544fac9e4edf24b5d07235

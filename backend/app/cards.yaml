@@ -7950,27 +7950,41 @@
 
     If this is a Steel Cage match, draw 2 cards.'
   tags: []
-- name: Sweet & Salty Impact Drop (V1)
+- name: A Simple Call
+  db_uuid: 1eabd9fc50ba4f49942893412c1e1b16
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: Search your deck for up to 3 cards and put them into your discard pile.  Shuffle your deck.
+  tags: []
+- name: Sweet & Salty Impact Drop
   db_uuid: e9adfc9b7a3043c3892329fefe5e8e1b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    If your next turn roll is 10, it is +1.'
+  tags: []
+- name: Sweet & Salty Impact Drop (Strike)
+  db_uuid: 36ebe021c9604d3cbc8c50f5f80cdff0
   srgpc_url: https://www.srgpc.net/cards/8/sweet-salty-impact-drop-strike/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
   tags: []
-- name: Sweet & Salty Impact Drop (V2)
-  db_uuid: 36ebe021c9604d3cbc8c50f5f80cdff0
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Lead
-  deck_card_number: 8
-  tags: []
-- name: Sweet & Salty Impact Drop (V3)
+- name: Sweet & Salty Impact Drop (Grapple)
   db_uuid: 67ee5fd4625042778926e81052173083
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
+  rules_text: 'Your opponent buries 2 cards in their hand.
+
+    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead.'
   tags: []
 - name: Swing Around the Ring
   db_uuid: e2dc29143f57497aa9372b2943791a0a
@@ -42454,7 +42468,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 10
-  rules_text: 'Stop "Sweet and Salty Impact Drop".
+  rules_text: 'Stop "Sweet & Salty Impact Drop".
 
     Your next turn roll is +2 for each Lead you have in play.
 

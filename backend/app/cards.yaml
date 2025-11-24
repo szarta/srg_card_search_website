@@ -12229,6 +12229,16 @@
   deck_card_number: 15
   rules_text: Add 1 Strike from your discard pile to your hand.
   tags: []
+- name: Phenomenal Crowbar Beatdown
+  db_uuid: d015505f1aa240f6bf0445f69bf679ba
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Stop "Top Rope Flying Headband Drop" or "Death by Elbow". Shuffle 1 card from your discard pile into your deck and draw 1 card.
+
+    If played as a stop, the Crowd Meter is +2 and this card is also a Finish.'
+  tags: []
 - name: All American Headlock
   db_uuid: 11e103e86aae4fcca8acfd598b210dfa
   srgpc_url: https://www.srgpc.net/cards/15/all-american-headlock/

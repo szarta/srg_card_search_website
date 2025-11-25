@@ -2528,6 +2528,26 @@
 
     Add 2 Strikes from your discard pile to your hand or your next turn roll is +1.'
   tags: []
+- name: The Razor's Edge (Grapple)
+  db_uuid: 099901e0e98c4780aee619e51953737a
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Grapple 8+'
+  tags:
+    - Super Lucha
+- name: Super Lucha Stampede (Power)
+  db_uuid: 0180fb4238bb46cb875588ae5c7e7e3e
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Power 8+'
+  tags:
+    - Super Lucha
 - name: Blindside Tackle
   db_uuid: ec82e20d3b184af083ccf764a19b747c
   srg_url: https://supershowthegame.com/product/kickstarter-comic-promos/
@@ -3655,6 +3675,26 @@
   deck_card_number: 22
   rules_text: Your opponent randomly reveals 3 cards in their hand and discards all revealed stops.
   tags: []
+- name: Bowl-o-Rama Slam (Agility)
+  db_uuid: b634a91a2bd1427d8612fd090db9707c
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Agility 8+'
+  tags:
+    - Super Lucha
+- name: Fantastic Doom Pipe Pounce! (Strike)
+  db_uuid: b42187c7b6b740f2938057f3535e1105
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Strike 8+'
+  tags:
+    - Super Lucha
 - name: Elbow Shot
   db_uuid: e4809829f15e4232937e72b281f75edc
   srg_url: https://supershowthegame.com/product/07-elbow-shot/
@@ -43521,6 +43561,26 @@
   deck_card_number: 24
   rules_text: Your Agility is +2 during your turn.
   tags: []
+- name: The Whammer Jammer! (Technique)
+  db_uuid: 14e5eb4928ca4ef796bc2ede62c2f0fa
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Technique 8+'
+  tags:
+    - Super Lucha
+- name: Steak Sauce of Submission (Submission)
+  db_uuid: 7cd910f49c9a4bd4ab573eb302c306b1
+  srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Submission 8+'
+  tags:
+    - Super Lucha
 - name: Blood Bath
   db_uuid: 7443b63c972a4731961f2aef778801ec
   card_type: MainDeckCard

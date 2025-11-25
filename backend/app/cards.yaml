@@ -165,7 +165,7 @@
   tags: []
   related_cards:
     - 83a18825be1b4a83bcbc1392a5bcb585
-- name: Lock Up (V1)
+- name: Lock Up
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
   srg_url: https://supershowthegame.com/product/02-lock-up/
   srgpc_url: https://www.srgpc.net/cards/2/lock-up/
@@ -175,14 +175,7 @@
   deck_card_number: 2
   rules_text: Stop any Lead Submission.
   tags: []
-- name: Lock Up (V2)
-  db_uuid: 4ef8a4ab87eb4e59b84c517751de82ed
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Lead
-  deck_card_number: 2
-  tags: []
-- name: Headlock (V1)
+- name: Headlock
   db_uuid: 685b2201f4994f9785f6f966cd4030c7
   srg_url: https://supershowthegame.com/product/03-headlock-os/
   srgpc_url: https://www.srgpc.net/cards/3/headlock
@@ -191,13 +184,6 @@
   play_order: Lead
   deck_card_number: 3
   rules_text: Stop any Lead Strike.
-  tags: []
-- name: Headlock (V2)
-  db_uuid: 67509e0b8f394b27bf875395158d23e8
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Lead
-  deck_card_number: 3
   tags: []
 - name: Kick
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
@@ -34551,6 +34537,10 @@
 
     Your minimum and maximum handsize are +2.'
   tags: []
+  related_finishes:
+    - 57be72d7161943daa8ffd4fac4c3d4b6
+    - b9b1403495274baaae7158bd7e16c871
+    - aeef6ce9c66b414da6ba623de419df17
 - name: Sledgie the Sledgehammer
   db_uuid: 57be72d7161943daa8ffd4fac4c3d4b6
   card_type: MainDeckCard
@@ -34565,6 +34555,8 @@
 
     If stopped, unless you have 10 or more cards in your hand, you lose the match via Disqualification.'
   tags: []
+  related_cards:
+    - 50446df532b14eb784abe67b262181cd
 - name: Line of Descent
   db_uuid: b9b1403495274baaae7158bd7e16c871
   card_type: MainDeckCard
@@ -34579,6 +34571,8 @@
 
     If you have 2 or more cards in your hand than your opponent, double these bonuses.'
   tags: []
+  related_cards:
+    - 50446df532b14eb784abe67b262181cd
 - name: Quadruple Tear
   db_uuid: aeef6ce9c66b414da6ba623de419df17
   card_type: MainDeckCard
@@ -34593,12 +34587,66 @@
 
     Draw 4 cards.'
   tags: []
+  related_cards:
+    - 50446df532b14eb784abe67b262181cd
 - name: The Queen of Cheer Adrianna Dee
   db_uuid: 7b1af704863e498b8b473e44c8d42ed4
   srgpc_url: https://www.srgpc.net/competitors/queen-of-cheer-adrianna-dee/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Female
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 10
+  rules_text: When you roll Agility for your turn roll, draw 1 card and your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - aeefdfb6835a4e0f863f8307fde32da9
+    - 90f44b38e1b94fd7b68f8f93e2863c3b
+    - 396bb4ae30bd42feb440e8c6e4200a35
+- name: Nana Banana Split
+  db_uuid: aeefdfb6835a4e0f863f8307fde32da9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Submission for each Strike you have in play.
+
+    Your opponent randomly buries half their hand (rounded up).'
+  tags: []
+  related_cards:
+    - 7b1af704863e498b8b473e44c8d42ed4
+- name: All the Stars in the Sky and the Fish in the Sea
+  db_uuid: 90f44b38e1b94fd7b68f8f93e2863c3b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your opponent''s Technique and Grapple are -2.
+
+    Randomly reveal a card in your hand and this card copies its text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 7b1af704863e498b8b473e44c8d42ed4
+- name: One Team, One Dream
+  db_uuid: 396bb4ae30bd42feb440e8c6e4200a35
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Draw the bottom card of your deck.
+
+    Your opponent''s next turn roll is -1.'
+  tags: []
+  related_cards:
+    - 7b1af704863e498b8b473e44c8d42ed4
 - name: Queen of Cupcakes Penelope Mai
   db_uuid: f3191d334cc544f7a70a6206e3c20c12
   srgpc_url: https://www.srgpc.net/cards/competitors/queen-of-cupcakes-penelope-mai/
@@ -41310,8 +41358,70 @@
 - name: New Wool Order (Trio)
   db_uuid: 3802b52979fd4fb68a5b900d00189a42
   srg_url: https://supershowthegame.com/product/new-wool-order-trio/
+  srgpc_url: https://www.srgpc.net/cards/competitors/new-wool-order-trio/
   card_type: TrioCompetitorCard
+  power: 18
+  technique: 15
+  agility: 24
+  strike: 21
+  submission: 27
+  grapple: 30
+  rules_text: 'When you flip a Stop, add it to your hand.
+
+    You may replace the word "Or" with "And" in the text of your cards.
+
+    Your maximum handsize is +4.'
   tags: []
+  related_finishes:
+    - 6f56ef5603264edb8f8739befbf73d0f
+    - 8336f8a3ad9f4d019518c997068243d4
+    - d38b8c6605a44e4a9185c22fbc2fb990
+- name: The Sheeples Elbow
+  db_uuid: 6f56ef5603264edb8f8739befbf73d0f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+6 to Power
+
+    +4 to Agility
+
+    +2 to Strike
+
+    Stop "Double Death Drop", "School Boy", or "Backslide".'
+  tags: []
+  related_cards:
+    - 3802b52979fd4fb68a5b900d00189a42
+- name: Shear Destruction
+  db_uuid: 8336f8a3ad9f4d019518c997068243d4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+6 to Power
+
+    +2 to Agility
+
+    +4 to Strike
+
+    When this card is in your discard pile your maximum handsize is +4.'
+  tags: []
+  related_cards:
+    - 3802b52979fd4fb68a5b900d00189a42
+- name: Sheep Shooter Party
+  db_uuid: d38b8c6605a44e4a9185c22fbc2fb990
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +4 to Technique
+
+    Take all Stops from your discard pile and shuffle them into your deck.  Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 3802b52979fd4fb68a5b900d00189a42
 - name: Ninja Firebirds
   db_uuid: 4f05f98ff74b4be49e53e2092c28a90a
   card_type: TornadoCompetitorCard
@@ -41860,7 +41970,19 @@
   tags: []
 - name: Ursus the Wrestling Bear
   db_uuid: e8769aea5b0c46d1868cd483fb8181a1
+  srgpc_url: https://www.srgpc.net/cards/competitors/ursus-the-wrestling-bear/
   card_type: TrioCompetitorCard
+  power: 30
+  technique: 15
+  agility: 21
+  strike: 27
+  submission: 18
+  grapple: 24
+  rules_text: 'When your Power is equal to your opponent''s Power, your Power is +2.  At the start of the match:
+
+    Draw cards equal to the difference between you and one opponent''s Power (Max 7).
+
+    Your "Bear Hug" is also a Finish.'
   tags: []
 - name: Warlords of the Sea
   db_uuid: cabf020eb091401fa5e705bcd00feadf

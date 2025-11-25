@@ -40,7 +40,8 @@
   rules_text: 'Once during your turn:
 
     When you hit a Follow Up, or your opponent rolled Power for their turn roll: you may play an additional Follow Up this turn.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Alex Hammerstone
   db_uuid: eb68a4f3acd74fb592885308366529f2
   is_banned: false
@@ -13032,7 +13033,8 @@
   play_order: Followup
   deck_card_number: 16
   rules_text: If you have another Follow Up in play, search your deck for a Strike, and put it on top of your shuffled deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: All Star Falling Star Assault
   db_uuid: 45933eedc14a46e2b0c881980450208e
   srgpc_url: https://www.srgpc.net/cards/16/all-star-falling-star-assault/
@@ -14483,7 +14485,8 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: If you have another Follow Up in play, search your deck for a Submission, and put it on top of your shuffled deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Abdominal Stretch (V2)
   db_uuid: 85b9920889a04f368bb1057b48cd8404
   card_type: MainDeckCard
@@ -37677,6 +37680,7 @@
   tags: []
 - name: YamatoHama
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
+  srgpc_url: https://www.srgpc.net/cards/competitors/yamatohama/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -37688,6 +37692,52 @@
   grapple: 9
   rules_text: When your turn roll is at least 3 greater than your opponent's turn roll, bury 3 cards in your opponent's discard pile.
   tags: []
+  related_finishes:
+    - 500e62382c2645a0a347207633d25195
+    - 65915a9ced4c412ca0d7900b0abe2a8f
+    - 93a42ac6bbb34e729812d9d1aa52e874
+- name: Yori-Kiri
+  db_uuid: 500e62382c2645a0a347207633d25195
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - 2b02cdb188af4611b79c7a0e616ad692
+- name: Saitama Tsunami Slam
+  db_uuid: 65915a9ced4c412ca0d7900b0abe2a8f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Your opponent randomly puts their hand on top of their deck, then draws the bottom 3 cards of their deck.'
+  tags: []
+  related_cards:
+    - 2b02cdb188af4611b79c7a0e616ad692
+- name: Fisherman's Throw
+  db_uuid: 93a42ac6bbb34e729812d9d1aa52e874
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you would bump, your opopnent''s turn roll is instead -1.'
+  tags: []
+  related_cards:
+    - 2b02cdb188af4611b79c7a0e616ad692
 - name: Yaz Mean (V1)
   db_uuid: f20eefad1a8c46cca1268ee559d4cc8b
   card_type: SingleCompetitorCard
@@ -40419,7 +40469,8 @@
   submission: 10
   grapple: 9
   rules_text: 'Once per turn roll: When your target rolls Agility, you may force them to re-roll.'
-  tags: []
+  tags:
+    - Super Lucha
   related_finishes:
     - e8374a5ac0944990848d8a3e294d4f65
     - 0678c1d77d98404a8497a8c4f37c7fdd
@@ -40435,7 +40486,8 @@
     +2 to Strike
 
     Draw 5 cards.'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - f70d6561116e416694e7a41f0194d756
 - name: Hailstorm!
@@ -40447,7 +40499,8 @@
   rules_text: '+3 to Strike
 
     +1 to Grapple'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - f70d6561116e416694e7a41f0194d756
 - name: Honky Catarrh!
@@ -40461,7 +40514,8 @@
     Look at your opponent''s hand, choose 1 card and discard it.
 
     If your opponent''s Agility is 6 or less, choose 2 cards instead.'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - f70d6561116e416694e7a41f0194d756
 - name: Mr. Soleil
@@ -43093,7 +43147,8 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: If you have another Follow Up in play, search your deck for a Grapple, and put it on top of your shuffled deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Firebomb Through The Table
   db_uuid: 63c98b8fc9e049968c6ce9859a69b8db
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/

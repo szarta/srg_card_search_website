@@ -33739,12 +33739,12 @@
   submission: 5
   grapple: 6
   rules_text: During your turn, if you rolled Power for your turn roll, your Strikes are also Leads.
+  comments: 'AKA: The Big Bad Kaiju'
   tags: []
   related_finishes:
     - 6e31197265894b61918eede79e963d01
     - b044472daf864c2e8b04c006e1a930e6
     - bf1f1d0b2aec4bae94fad620344c1220
-  comment: 'AKA: The Big Bad Kaiju'
 - name: Ronin 47
   db_uuid: 6e31197265894b61918eede79e963d01
   card_type: MainDeckCard

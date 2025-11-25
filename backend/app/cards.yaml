@@ -33731,7 +33731,62 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/oshay-edwards/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: During your turn, if you rolled Power for your turn roll, your Strikes are also Leads.
   tags: []
+  related_finishes:
+    - 6e31197265894b61918eede79e963d01
+    - b044472daf864c2e8b04c006e1a930e6
+    - bf1f1d0b2aec4bae94fad620344c1220
+  comment: 'AKA: The Big Bad Kaiju'
+- name: Ronin 47
+  db_uuid: 6e31197265894b61918eede79e963d01
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    Draw 2 cards.
+
+    Your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - 7463c878455c4e76987b260d57741135
+- name: Kaiju Driver
+  db_uuid: b044472daf864c2e8b04c006e1a930e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Shuffle 3 Strikes from your discard pile into your deck, or add 1 Strike from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 7463c878455c4e76987b260d57741135
+- name: Kaiju Crab
+  db_uuid: bf1f1d0b2aec4bae94fad620344c1220
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 7463c878455c4e76987b260d57741135
 - name: Officer Breezus
   db_uuid: b8dfb42ba0ec49889c7c8b44b4132f4f
   srgpc_url: https://www.srgpc.net/cards/competitors/officer-breezus/

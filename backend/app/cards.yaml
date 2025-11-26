@@ -4302,7 +4302,8 @@
   play_order: Lead
   deck_card_number: 1
   rules_text: Choose 1 card your opponent has in play and discard it.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Trip Up
   db_uuid: 7fce7dd800ce44388ede74550c508169
   srgpc_url: https://www.srgpc.net/cards/1/trip-up/
@@ -4560,7 +4561,8 @@
   play_order: Lead
   deck_card_number: 2
   rules_text: Choose 1 card your opponent has in play an discard it.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Look for an Opening
   db_uuid: 3f65ab7bac514eb2aff68fb181ff350b
   srgpc_url: https://www.srgpc.net/cards/2/look-for-an-opening/
@@ -4866,7 +4868,8 @@
   play_order: Lead
   deck_card_number: 3
   rules_text: Choose 1 card your opponent has in play and discard it.
-  tags: []
+  tags:
+    - Super Lucha
 - name: America Fires Back
   db_uuid: 28edc6efa42544b6bd71bd5412abee41
   srgpc_url: https://www.srgpc.net/cards/3/america-fires-back/
@@ -5810,7 +5813,8 @@
   rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Grapple.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Tornado Kick
   db_uuid: a9198188719949a68fa6cbcdc693e318
   srgpc_url: https://www.srgpc.net/cards/4/tornado-kick/
@@ -5896,7 +5900,8 @@
   rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Submission.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Catch Chicken Wing
   db_uuid: a61e57cc2b2c44c1bb4b008ec21ad1a9
   srgpc_url: https://www.srgpc.net/cards/5/catch-chicken-wing/
@@ -6681,7 +6686,8 @@
   rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Strike.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Knee Bar
   db_uuid: b14038b10078470084fa4f97930f7f3d
   srgpc_url: https://www.srgpc.net/cards/6/knee-bar/
@@ -7064,7 +7070,8 @@
   play_order: Lead
   deck_card_number: 7
   rules_text: Draw 1 card or take 4 cards from your discard pile and randomly put them on top of your deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Jump Kick
   db_uuid: 0b95e98f3b4448ffaf94817ccc881285
   srgpc_url: https://www.srgpc.net/cards/7/jump-kick/
@@ -7232,7 +7239,8 @@
   rules_text: 'Your next turn roll is +1.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Rainbow Punch
   db_uuid: 14a171e84211442d9ead218029299e5d
   srgpc_url: https://www.srgpc.net/cards/7/rainbow-punch/
@@ -7814,7 +7822,8 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: Draw 1 card or take 4 cards from your discard pile and randomly put them on top of your deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Making Waves
   db_uuid: 6f24daf8cef340cf8b88d53e0f60c067
   srgpc_url: https://www.srgpc.net/cards/8/making-waves/
@@ -8144,7 +8153,8 @@
   rules_text: 'Your next turn roll is +1.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Work the Crowd
   db_uuid: 1077de64aefd40e0b26bc093a7bf36da
   srgpc_url: https://www.srgpc.net/cards/8/work-the-crowd/
@@ -8534,7 +8544,8 @@
   rules_text: 'Your next turn roll is +1.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Land on Generic Building Blocks
   db_uuid: 0ab6ce462a724703909497420b6700b0
   srgpc_url: https://www.srgpc.net/cards/9/land-on-generic-building-blocks/
@@ -8684,7 +8695,8 @@
   play_order: Lead
   deck_card_number: 9
   rules_text: Draw 1 card or take 4 cards from your discard pile and randomly put them on top of your deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Split Finger Gouge
   db_uuid: 2c58faca0e2849c4b66c27d3ad1e23d8
   srgpc_url: https://www.srgpc.net/cards/9/split-finger-gouge/
@@ -8890,7 +8902,8 @@
   play_order: Lead
   deck_card_number: 10
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Boot Lace
   db_uuid: 90ef7b3b4e164f86aed548e14fb80307
   srgpc_url: https://www.srgpc.net/cards/10/boot-lace/
@@ -9314,7 +9327,8 @@
   play_order: Lead
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Pier Six Brawl
   db_uuid: bb44853b06124e68a147fe86652b9562
   srgpc_url: https://www.srgpc.net/cards/10/pier-six-brawl/
@@ -9501,7 +9515,8 @@
   play_order: Lead
   deck_card_number: 11
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Barrel Slice
   db_uuid: 17a34d6d13bc44d593ab65bf17798341
   srgpc_url: https://www.srgpc.net/cards/11/barrel-slice/
@@ -9834,7 +9849,8 @@
   play_order: Lead
   deck_card_number: 11
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Samoan Drop
   db_uuid: fa39297bc81a4fac8672f3f509a29263
   srgpc_url: https://www.srgpc.net/cards/11/samoan-drop/
@@ -10125,7 +10141,8 @@
   play_order: Lead
   deck_card_number: 12
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Chin Choke
   db_uuid: ee631afe2aae470c92d921ec6e03f4f5
   srgpc_url: https://www.srgpc.net/cards/12/chin-choke/
@@ -10359,7 +10376,8 @@
   play_order: Lead
   deck_card_number: 12
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Nowhere to Run
   db_uuid: e1f1d98908474de08cd14fe7702575ae
   srgpc_url: https://www.srgpc.net/cards/12/nowhere-to-run/
@@ -11015,7 +11033,8 @@
   play_order: Followup
   deck_card_number: 13
   rules_text: If you have a Stop in play add 1 card from your discard pile to your hand.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Lucky Guitar Strike
   db_uuid: cbb41e7818004485a0f4caa2c1307469
   srgpc_url: https://www.srgpc.net/cards/13/lucky-guitar-strike/
@@ -11586,7 +11605,8 @@
   play_order: Followup
   deck_card_number: 14
   rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Colossal Smash (Power, Grapple)
   db_uuid: 481837b6748045d6a46e524d24c2824a
   srgpc_url: https://www.srgpc.net/cards/14/colossal-smash/
@@ -12486,7 +12506,8 @@
   play_order: Followup
   deck_card_number: 15
   rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Cosmic Knee in the Ropes
   db_uuid: 870644c7092d42e5811abd1fa92de821
   srgpc_url: https://www.srgpc.net/cards/15/cosmic-knee-in-the-ropes/
@@ -13043,7 +13064,8 @@
   play_order: Followup
   deck_card_number: 16
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Ambush With the Drumsticks
   db_uuid: fff0816a2267421b9ebef17b5f84a5b1
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-kendo-stick/
@@ -13305,7 +13327,8 @@
   play_order: Followup
   deck_card_number: 16
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Flying Back Elbow
   db_uuid: 72f63a6d60f44404991e4a3f8bf68a3d
   srgpc_url: https://www.srgpc.net/cards/16/flying-back-elbow/
@@ -13780,7 +13803,8 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: If you have another Follow Up in play, look at the top 4 cards of your deck; put 1 in your hand, and flip the others.
-  tags: []
+  tags:
+    - Super Lucha
 - name: All American Suplex
   db_uuid: 2be14346daca4d02a8739620e43a6872
   srgpc_url: https://www.srgpc.net/cards/17/all-american-suplex/
@@ -14056,7 +14080,8 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Gut Wrench (V1)
   db_uuid: de347ca6d31c4dce915105ff3d9ea93f
   srgpc_url: https://www.srgpc.net/cards/17/gut-wrench-v2/
@@ -14167,7 +14192,8 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Lucky Yeet Dive
   db_uuid: 40b360f65c3e40c692b6ae670f1478a1
   srgpc_url: https://www.srgpc.net/cards/17/lucky-yeet-dive/
@@ -14789,7 +14815,8 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: Your next turn roll is +1 for each Stop in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: King's Wrench
   db_uuid: 0df1a55f54e54ba9a9e5005a7caafcd5
   srgpc_url: https://www.srgpc.net/cards/18/kings-wrench/
@@ -14835,7 +14862,8 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: Draw 1 card for each Stop you have in play.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Mop Twist Clutch
   db_uuid: 526e5935f2ef4d9aa25cbeb8c57c4547
   srgpc_url: https://www.srgpc.net/cards/18/mop-twist-clutch/
@@ -15884,7 +15912,8 @@
   play_order: Followup
   deck_card_number: 19
   rules_text: If your opponent has another Grapple in play, stop any Finish Grapple. Draw 1 card.
-  tags: []
+  tags:
+    - Super Lucha
 - name: The 718 (Strike)
   db_uuid: e2015f24413a4dd68fc7ae78fba3d78a
   srgpc_url: https://www.srgpc.net/cards/19/the-718-strike/
@@ -16039,7 +16068,8 @@
   rules_text: 'If your opponent has another Submission in play, stop any Finish Submission.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Big Steel Chain Throw
   db_uuid: 65d6c368c28c4773aab606168c98e225
   srgpc_url: https://www.srgpc.net/cards/20/big-steel-chain-throw/
@@ -17080,7 +17110,8 @@
   rules_text: 'If your opponent has another Strike in play, stop any Finish Strike.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Kissing Booth
   db_uuid: 67b6e4bf89c34aebb78c2d5cc0a17b81
   srgpc_url: https://www.srgpc.net/cards/21/kissing-booth/
@@ -17606,7 +17637,8 @@
   play_order: Followup
   deck_card_number: 22
   rules_text: Add 1 card from your discard pile to your hand or look at the top 3 cards of your deck. Put 2 cards in your hand and bury the other.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Callous Elbow Strike (Strike)
   db_uuid: fa199326c50b4067ac90038219314b9f
   srgpc_url: https://www.srgpc.net/cards/22/callous-elbow-strike/
@@ -18047,7 +18079,8 @@
   rules_text: 'Flip 1 card.
 
     Add 1 card from your discard pile to your hand. Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Runaway Kick
   db_uuid: c7cd90ecc0c6451d8f2ee807be3d36af
   srgpc_url: https://www.srgpc.net/cards/22/runaway-kick/
@@ -18619,7 +18652,8 @@
   play_order: Followup
   deck_card_number: 23
   rules_text: Add 1 card from your discard pile to your hand or look at the top 3 cards of your deck, put 2 cards in your hand and bury the other.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Flying Cutter
   db_uuid: 6b41ebfc8bce402cadf36491eaa81844
   srgpc_url: https://www.srgpc.net/cards/23/flying-cutter/
@@ -18841,7 +18875,8 @@
   rules_text: 'Flip 1 card.
 
     Add 1 card from your discard pile to your hand. Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Multiversal Backbreaker
   db_uuid: 1d81e10b458149b0ae6c4d2178924bf1
   srgpc_url: https://www.srgpc.net/cards/23/multiversal-backbreaker/
@@ -20668,7 +20703,8 @@
   rules_text: 'Stop any Follow Up Grapple or Finish Grapple.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Alpaca Slam
   db_uuid: 662a432d1fe84d3288ab055dff4f6021
   srgpc_url: https://www.srgpc.net/cards/26/alpaca-slam/
@@ -20700,7 +20736,8 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
-  tags: []
+  tags:
+    - Super Lucha
 - name: Back Drop
   db_uuid: a9935a93aef04478995a5f815cb7bdba
   srgpc_url: https://www.srgpc.net/cards/26/back-drop/
@@ -21686,7 +21723,8 @@
   rules_text: 'Stop any Follow Up Strike or Finish Strike.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: AJ Styles
   db_uuid: b5a305c0f693405f8cb43b4e5864e559
   srg_url: https://supershowthegame.com/product/aj-styles/

@@ -19266,6 +19266,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    Your next turn roll is +2 for each Finish in your discard pile.'
   tags: []
 - name: Armenian Steel Boot Shots
   db_uuid: 67c0575ea18e408db9bbb066fe632fdd
@@ -19274,6 +19277,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Submission and 1 Grapple from your discard pile to your hand, or draw 1 card.'
   tags: []
 - name: BCW Rolling Leg Cutter
   db_uuid: 0f6c9a28381d4ee0b649e9acaeb0a4cf
@@ -19293,6 +19299,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Discard 1 card from your hand.
+
+    Draw 2 cards.
+
+    Add 1 card from your discard pile to your hand.'
   tags: []
 - name: Blindside Choke
   db_uuid: c1c591d79fef46a1bf0352b1754e4527
@@ -19301,6 +19312,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Your next turn roll is +3.
   tags: []
 - name: Boot Choke
   db_uuid: 0f1dd7b111ed4283ac3ff23f43d71f6d
@@ -19309,6 +19321,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Look at the top 4 cards of your deck, add 1 to your hand then put the others on top of your deck in any order.'
   tags: []
 - name: Boot in the Corner
   db_uuid: db010079c2204938b75f531e3c07e5c3
@@ -19317,6 +19332,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.
   tags: []
 - name: Bulldog Choke
   db_uuid: ec17bac0447d4848a0cb90a96a502ef9
@@ -19329,13 +19345,18 @@
 
     This card cannot be stopped by Follow Ups.'
   tags: []
-- name: Choke On the Smoke
+- name: Choke On the Smoke (Submission)
   db_uuid: bf90f9be796e4bcbaac117a13ff2d5fa
   srgpc_url: https://www.srgpc.net/cards/24/choke-on-the-smoke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Search your deck or disard pile for 3 Submissions:
+
+    Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
+
+    If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Submission 8+'
   tags: []
 - name: Chowchi Says, "Go To Sheep"
   db_uuid: b7f5fab757e2458e82ebac0025b50838
@@ -19344,6 +19365,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Your Submission skill is +2 during your turn.
   tags: []
 - name: Cobra Clutch
   db_uuid: f8e8ac886683490dbd7d5c180e5d5388
@@ -19361,6 +19383,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Your opponent randomly buries 1 card in their hand.
+
+    The Crowd Meter is considered +2 for all effects.'
   tags: []
 - name: Cosmic Skull Hold
   db_uuid: cd1a6ea7d6234381800571a5b768f6ab
@@ -19369,6 +19394,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Submission and 1 Strike from your discard pile to your hand, or your opponent buries 1 card in their hand.'
   tags: []
 - name: Crossbow (V1)
   db_uuid: a6ad070352174e75b7def01cded6224e
@@ -19428,6 +19456,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Once per turn:
+
+    You may re-roll your Finish roll.'
   tags: []
 - name: Earthquake Hold
   db_uuid: 03d03e3c11d742769858418f29d5546d
@@ -19436,10 +19467,13 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'The Crowd Meter is considered +2 for your card effects.
+
+    Draw 2 cards.'
   tags: []
 - name: Eternal Conditioning
   db_uuid: 256c6844127c4ec88f7ee3ae6071eb0c
-  srgpc_url: https://www.srgpc.net/cards/24/eternal-conditioning/https://www.srgpc.net/cards/24/eternal-conditioning/
+  srgpc_url: https://www.srgpc.net/cards/24/eternal-conditioning/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -19462,6 +19496,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Your opponent randomly reveals 3 cards in their hand, choose 1 of those cards and bury it.
   tags: []
 - name: Flipping Armbar (Technique)
   db_uuid: bcf42a8ec06841ac9a77866d59f3b20d
@@ -19496,6 +19531,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Look at the top 6 cards of your opponent''s deck, bury 2 of them.
+
+    Put the others back on top of their deck in any order.'
   tags: []
 - name: Grin Without a Cat
   db_uuid: 02c1becf0b58432db32667ac1f763c34
@@ -19504,6 +19542,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Search your deck for a Submission and add it to your hand.
+
+    Your opponent''s maximum handsize is -1.'
   tags: []
 - name: Half Nelson Hold
   db_uuid: 9a41814be5b642b484de0ff7bf1b8866
@@ -19512,6 +19553,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 3 cards.
+
+    Take 2 cards from your discard pile and shuffle them into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Hanging Leg Choke
   db_uuid: c07ea816632c46e982bf473442000032
@@ -19520,6 +19566,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip up to 6 cards.
+
+    Shuffle 3 cards from your discard pile into your deck.'
   tags: []
 - name: Headlock - Kick
   db_uuid: dfe1519be25a44a7b9b1ca08666e0a80
@@ -19528,6 +19577,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Your opponent buries 2 cards in their hand.
+
+    If this is a Tag Team match draw 1 card.'
   tags: []
 - name: Heel Hold
   db_uuid: 88298a1c4c7c460d92a39ef63f325791
@@ -19536,6 +19588,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Draw 3 cards.
   tags: []
 - name: Hold 'Em And Hog Tie 'Em
   db_uuid: ceb9bdd8d57c49f49a129d1904ddf274
@@ -19544,6 +19597,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your tag team partner adds 1 card from their discard pile to their hand.'
   tags: []
 - name: I've Got This, Boss!
   db_uuid: 7fa59cc9400741258ef9488f9b6d64c5
@@ -19552,6 +19608,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Your next turn roll is +3.
+
+    If either player rolls Submission for their turn roll, their roll is +1.'
   tags: []
 - name: Indian Deathlock
   db_uuid: c5f20a53021b43a5a07cdc97e3330688
@@ -19560,6 +19619,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 1 card.
+
+    Draw 3 cards.'
   tags: []
 - name: Inferno Claw
   db_uuid: 4765d5e76f784e2c9cf0ff4fa5aa0439
@@ -19568,6 +19630,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Shuffle up to 4 cards from your discard pile into your deck.  Your opponent discards 1 card from their hand.  If this is a Ring of Fire or Lumberjack match, double these numbers.
   tags: []
 - name: Inverted Anaconda Vice
   db_uuid: db882aebe8594a5d9b37d61dc0e31856
@@ -19576,6 +19639,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Your opponent flips 5 cards.
+
+    Put up to 4 cards from your opponent''s discard pile on top of their deck.'
   tags: []
 - name: Inverted Face Lock
   db_uuid: b8380863ff7e47848dd7ef9d263384a1
@@ -19584,6 +19650,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Flip 4 cards, then take 1 card from your discard pile and add it to your hand.
   tags: []
 - name: Kicker Hold
   db_uuid: f1f51b663bcb4da4b714b5f301f33d0f
@@ -19592,6 +19659,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Draw 2 cards. Your next turn roll is +1.
   tags: []
 - name: Knee Stomps
   db_uuid: 442b57f6865747769ec372c192e3ad88
@@ -19600,6 +19668,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Add 1 Finish and 1 Submission from your discard pile to your hand.
+
+    If your opponent moves this card from in play, add 1 Finish or 1 Submission from your discard pile to your hand.'
   tags: []
 - name: La Magica Mystifca
   db_uuid: 2f51b6e9e93948bcaefc324c7d55f079
@@ -19608,7 +19679,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
-  tags: []
+  rules_text: Add 1 card from your discard pile to your hand or look at the top 3 cards of your deck, put 2 cards in your hand and bury the other.
+  tags:
+    - Super Lucha
 - name: Lariat Knot
   db_uuid: 62681cc40c3043d5b850c7ec64b3be67
   srgpc_url: https://www.srgpc.net/cards/24/lariat-knot/
@@ -19620,13 +19693,22 @@
 
     Take 2 cards from your discard pile and shuffle them into your deck.  Draw 2 cards.'
   tags: []
-- name: Leave It to Fate
+- name: Leave It to Fate (Submission)
   db_uuid: fa30c969deb044e7bb7f05715569d7ac
   srgpc_url: https://www.srgpc.net/cards/24/leave-it-to-fate/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Your maximum handsize is +3.
+
+    Choose one:
+
+    Draw 3 cards.
+
+    Add the bottom 3 cards of your deck to your hand.
+
+    Skill Requirement: Submission 8+'
   tags: []
 - name: Leg Lariat Lock
   db_uuid: f32b15997ca74300bf0770d5029a0459
@@ -19635,14 +19717,20 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 5 cards.
+
+    Add 2 Finishes from your discard pile to your hand.'
   tags: []
-- name: Lockdown Hold
+- name: Lockdown Hold (Submission)
   db_uuid: 50759870abbb43bf972d5b1845086128
   srgpc_url: https://www.srgpc.net/cards/24/lockdown-hold/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Choose 1 card your opponent has in play and discard it.
+
+    When this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand.  Skill Requirement: Submission 8+'
   tags: []
 - name: Multiversal Stomps
   db_uuid: f00894dd8cfd479c8c865f1bcd0bd1aa
@@ -19651,6 +19739,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 2 cards.
+
+    Add 1 Strike and 1 Grapple from your discard pile to your hand, or your next turn roll is +1.'
   tags: []
 - name: Neck Vise
   db_uuid: e22c784373b5495bb95d5b19ff8c9a9e
@@ -19659,6 +19750,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Discard 1 card your opponent has in play, shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Nerve Hold
   db_uuid: 4522a5ce67cb4c2c945f494cdf53b8e4
@@ -19667,6 +19761,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Take 2 cards from your discard pile and shuffle them into your deck, then draw 2 cards.
   tags: []
 - name: Over the Top Headlock
   db_uuid: aa640ffe35a54a518767951f10c41d91
@@ -19695,6 +19790,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Look at your opponent''s hand, choose 1 Follow Up and discard it.
+
+    If this is a Steel Cage match, you may discard 1 card from your hand and your opponent buries the chosen card instead.'
   tags: []
 - name: Psychic Grasp
   db_uuid: c5481ded41f949d0911870a417c25e67
@@ -19703,6 +19801,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 3 cards.
+
+    Add 2 Grapples from your disard pile to your hand or your next turn roll is +1.'
   tags: []
 - name: Reckless Rack-a-Roo
   db_uuid: 2742d6fe1ce643f89d7acc254664c74d
@@ -19722,6 +19823,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 2 cards.
+
+    Add 2 Submissions from your discard pile to your hand or draw 1 card.'
   tags: []
 - name: Rib Buster (V2)
   db_uuid: aaa577c1fbdb497cbd0a4cfec0a904d8
@@ -19729,6 +19833,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 3 cards.
+
+    Add 2 Submissions from your discard pile to your hand or draw 1 card for each opponent in the match.'
   tags: []
 - name: Robo-Rampage
   db_uuid: 2d8b62557d214ecb800b070b78e53706
@@ -19737,7 +19844,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
-  tags: []
+  rules_text: 'Flip 1 card.
+
+    Add 1 card from your discard pile to your hand. Draw 1 card.'
+  tags:
+    - Super Lucha
 - name: Set Up the Microphone
   db_uuid: 41dcfd20af254329a0acc934215f1a28
   srgpc_url: https://www.srgpc.net/cards/24/set-up-the-microphone/
@@ -19754,6 +19865,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Search your deck or discard pile for 1 Submission and put it on top of your shuffled deck.
+
+    If either player rolls Power for their turn roll, their roll is +1.'
   tags: []
 - name: Set Up the Sledgehammer
   db_uuid: cdbeada3ef80478a944efeec72abf70c
@@ -19762,6 +19876,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 2 cards.
+
+    If either player rolls Submission for their breakout roll, their roll is +1.'
   tags: []
 - name: Set Up the Steel Chain
   db_uuid: a74f326ba3b345478d07af9a7ad52178
@@ -19781,6 +19900,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top and the bottom card of your deck.'
   tags: []
 - name: Standing Ankle Lock
   db_uuid: b2d7a7debd6f41b89a9ef7d99eae5049
@@ -19800,6 +19922,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 3 cards.
+
+    Shuffle up to 6 cards from your discard pile into your deck.'
   tags: []
 - name: Strangle Hold
   db_uuid: 124a1a8b34ba43c69b79c5868bbaf0cc
@@ -19810,13 +19935,16 @@
   deck_card_number: 24
   rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags: []
-- name: Super Dragon Leg Twist
+- name: Super Dragon Leg Twist (Submission)
   db_uuid: 5f1b5cb33c2c4ecd8915002f5a69961e
   srgpc_url: https://www.srgpc.net/cards/24/super-dragon-leg-twist/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.'
   tags: []
 - name: Surfboard Sleeper Hold
   db_uuid: c6fdf041e57f429d9f66b95473b4cb7f
@@ -19825,6 +19953,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 1 card.
+
+    Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Surfboard Stomp
   db_uuid: f53085daaeb34884aa5328d309a56e16
@@ -19833,6 +19966,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Texas Cloverleaf Hold
   db_uuid: 4d097b48a48b42bdb760f44c68cc0a1a
@@ -19841,6 +19977,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 6 cards.
+
+    You may play 1 additional card this turn.'
   tags: []
 - name: The Main Attraction
   db_uuid: 80cef7c6b0c04524b2ecfb05ed67afb5
@@ -19849,6 +19988,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Draw 3 cards.
+
+    If either player rolls Technique for their breakout roll, their roll is +1.'
   tags: []
 - name: The Switcheroo
   db_uuid: defc9758cdd14386839a69745466c309
@@ -19857,6 +19999,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Add 2 cards from your discard pile to your hand.
   tags: []
 - name: Triangle Stretch
   db_uuid: 3892b3c002eb49938f0055d16fbc2fee
@@ -19876,6 +20019,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: Add 2 cards from your discard pile to your hand.
   tags: []
 - name: Ultra Cosmic Death Clutch
   db_uuid: 0133ef5b708342bea9d7a11aa4e03ba1
@@ -19884,6 +20028,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Bury 2 cards in your discard pile.
+
+    Look at the top 3 cards of your deck, add 2 cards to your hand and put the other back on top.
+
+    If this is a Triad match, you may shuffle your deck.'
   tags: []
 - name: Vicious Triple Suplex (V1)
   db_uuid: 481499e3d3144456b2646c9ae482f30d
@@ -19913,6 +20062,9 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Look at the top 4 cards of your deck, add 2 to your hand and flip the others.
+
+    If this is a Steel Cage match, discard 1 card from your hand.'
   tags: []
 - name: You've Been Warned!
   db_uuid: 4c52f1f4c1ff44cf98493fcac37e7008
@@ -19921,6 +20073,11 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
+  rules_text: 'Flip 3 cards.
+
+    Add 1 card from your discard pile to your hand.
+
+    If either player rolls Submission for their Finish roll, their roll is +1.'
   tags: []
 - name: A Rabbit Out of a Hat
   db_uuid: 56c451a5edc74d2caec72363e28fe1df
@@ -30268,6 +30425,50 @@
   grapple: 7
   rules_text: 'When you roll Submission: Add 1 card any player has in play to their hand.'
   tags: []
+  related_finishes:
+    - d06b7fa5a55740398cc0ca8d5dd278e7
+    - a8bd2caa9b6948cbb12312062f88e0c3
+    - d08a50cccb34462b9bbf19bfcd44a47d
+- name: Eternal Torture
+  db_uuid: d06b7fa5a55740398cc0ca8d5dd278e7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Submission
+
+    Your opponent buries cards in their hand equal to the Crowd Meter +1 or draw cards equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 483f70a0f19841288d1d8ea046225744
+- name: Death Strike
+  db_uuid: a8bd2caa9b6948cbb12312062f88e0c3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Strike'
+  tags: []
+  related_cards:
+    - 483f70a0f19841288d1d8ea046225744
+- name: Total Self-Defeat
+  db_uuid: d08a50cccb34462b9bbf19bfcd44a47d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    When the Crowd Meter is 2 or greater and you have 0 cards in play, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - 483f70a0f19841288d1d8ea046225744
 - name: Foxworthy (V1)
   db_uuid: 518058d6535f46c692afbbfcbb8cc115
   srg_url: https://supershowthegame.com/product/foxworthy/

@@ -41057,6 +41057,7 @@
   tags: []
 - name: The Starbreaker
   db_uuid: e9f8f5ac87b046d787401602e5730749
+  srg_url: https://supershowthegame.com/product/star-breaker/
   card_type: SingleCompetitorCard
   division: United States
   power: 9
@@ -44886,3 +44887,14 @@
     If you rolled your printed 5 skill for a Finish roll, you may re-roll.'
   tags:
     - Super Lucha
+- name: Decent with the Steel Chain
+  db_uuid: a4086134e01f4725b4022d2b8fbf4780
+  card_type: EntranceCard
+  rules_text: 'During your turn:
+
+    It is considered a Steel Chain match for your card effects.
+
+    Once per match:
+
+    It is considered Crowd Meter 2 for your card effects with "Chain" in the name.'
+  tags: []

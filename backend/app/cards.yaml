@@ -20157,6 +20157,9 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 25
+  rules_text: 'Seach your deck for 1 card and add it to your hand.
+
+    You may play 1 additional card this turn.'
   tags: []
 - name: Ax Kick
   db_uuid: 85acf559e7aa4924b82acd6028837015
@@ -20746,6 +20749,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission or Finish Submission.
+
+    Draw 1 card.'
   tags:
     - Super Lucha
 - name: Back Drop
@@ -20755,6 +20761,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player draws 1 card.'
   tags: []
 - name: Backlash With the Guitar
   db_uuid: c34133affb3944f494e4fca142af69fa
@@ -20763,6 +20772,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Randomly reveal 1 card in your hand: if it has "Guitar" in the name, draw 1 card.'
   tags: []
 - name: Backlash With the Steel Chair
   db_uuid: 017b1e1526544759ba955c29b3ae9fa3
@@ -20771,6 +20783,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Submission or Finish Submission.
+
+    Draw 2 cards or shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Backlash With the Table
   db_uuid: c40c366f6db845e8bba9ba0ed13db1b9
@@ -20778,6 +20793,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Submission.
+
+    Draw 2 cards, shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Backlash With the Trash Can
   db_uuid: ee4ad97e515c41c3896bbef266d6634f
@@ -20786,6 +20804,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'If you have a card in play with "Trash Can" in the name, stop any Submission.
+
+    Draw 2 cards, shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Backslide
   db_uuid: 7549343d055948a489ed68e87f106550
@@ -20812,6 +20833,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission.
+
+    Your opponent randomly buries 2 cards in their hand.'
   tags: []
 - name: Boss Toss
   db_uuid: a397c49383af4d25ae65f5403f9d4cb2
@@ -20831,6 +20855,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Bury up to 3 cards in your opponent''s discard pile.'
   tags: []
 - name: Broken in Half
   db_uuid: ba090aeaeca3476f8c0c1af376fe52f9
@@ -20839,6 +20866,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    If you stopped a Finish, the Crowd Meter is +1.'
   tags: []
 - name: Burning Blade
   db_uuid: 013dda2e7b1a419494a982ea6434d622
@@ -20847,6 +20877,11 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Draw 1 card.
+
+    This card is also a Follow Up.  Skill Requirement: Grapple 10, Power 9'
   tags: []
 - name: Butterfly Suplex
   db_uuid: 1517fa38945d40749a4a3ccc1de79749
@@ -20855,6 +20890,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or any Finish Submission.
+
+    Your opponent buries 1 card in their hand.'
   tags: []
 - name: Catch Cutter
   db_uuid: f82c584a7fe24c748908e736c99ae4b1
@@ -20874,6 +20912,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: '+1 to your Breakout rolls.
+
+    If the Crowd Meter is 2 or greater or this is a Steel Cage match, stop any Finish Submission.'
   tags: []
 - name: Death Stomps
   db_uuid: 026360d7fbd040a6bbdc44fc5518ec17

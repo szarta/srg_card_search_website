@@ -44876,11 +44876,13 @@
   rules_text: 'Once per match:
 
     If your target rolled their printed 10 skill for a Finish roll, you may force them to re-roll.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Tecnico Training 101 in Room 208
   db_uuid: 33e85c98a2f147c7a536497f64b94f7e
   card_type: EntranceCard
   rules_text: 'Once per match:
 
     If you rolled your printed 5 skill for a Finish roll, you may re-roll.'
-  tags: []
+  tags:
+    - Super Lucha

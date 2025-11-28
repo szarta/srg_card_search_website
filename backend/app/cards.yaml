@@ -45785,3 +45785,8 @@
 
     It is considered Crowd Meter 2 for your card effects with "Chain" in the name.'
   tags: []
+- name: Never Give Up With Tia Lupita
+  db_uuid: dae3b3218c1d44a8a9661a36f1836f8f
+  card_type: EntranceCard
+  rules_text: Finishes with "Cannot Breakout" in the text instead have blank text.
+  tags: []

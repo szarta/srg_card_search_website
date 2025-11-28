@@ -3517,7 +3517,7 @@
     - b03d33e83bb84557a074ba00c42974a3
     - 9d528129fcb841e6b0e0006fedbe07c6
     - 3e532f7d868c47b292fbabc58fbb1698
-    - b03d33e83bb84557a074ba00c42974a3
+    - c553c218e2184e0788bb45276be11808
 - name: Brain Damage
   db_uuid: b03d33e83bb84557a074ba00c42974a3
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
@@ -3563,7 +3563,7 @@
   related_cards:
     - 64f184e2aad14b30adda926175ee8e6e
 - name: Big Bad Backfist
-  db_uuid: b03d33e83bb84557a074ba00c42974a3
+  db_uuid: c553c218e2184e0788bb45276be11808
   srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: MainDeckCard
   atk_type: Strike

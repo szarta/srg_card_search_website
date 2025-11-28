@@ -3497,7 +3497,7 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
-- name: Big Bad Bobby D (V1)
+- name: Big Bad Bobby D
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
@@ -3511,14 +3511,17 @@
   submission: 6
   grapple: 8
   rules_text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater than your turn roll, your next turn roll is +2.'
+  comments: 'AKA: Mayor of the Chain Gang'
   tags: []
   related_finishes:
     - b03d33e83bb84557a074ba00c42974a3
     - 9d528129fcb841e6b0e0006fedbe07c6
     - 3e532f7d868c47b292fbabc58fbb1698
+    - b03d33e83bb84557a074ba00c42974a3
 - name: Brain Damage
   db_uuid: b03d33e83bb84557a074ba00c42974a3
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -3529,9 +3532,12 @@
 
     If this card is stopped, you may choose 1 card you have in play and play it again as an additional card this turn.'
   tags: []
+  related_cards:
+    - 64f184e2aad14b30adda926175ee8e6e
 - name: Brain Storm
   db_uuid: 9d528129fcb841e6b0e0006fedbe07c6
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -3540,9 +3546,12 @@
 
     +2 to Grapple'
   tags: []
+  related_cards:
+    - 64f184e2aad14b30adda926175ee8e6e
 - name: Brain Drain
   db_uuid: 3e532f7d868c47b292fbabc58fbb1698
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -3551,6 +3560,25 @@
 
     When this card is in your discard pile and your opponent''s last turn roll was at least 3 greater than yours, your first breakout roll is +2.'
   tags: []
+  related_cards:
+    - 64f184e2aad14b30adda926175ee8e6e
+- name: Big Bad Backfist
+  db_uuid: b03d33e83bb84557a074ba00c42974a3
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Once per turn: If you rolled Submission for your Finish roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 64f184e2aad14b30adda926175ee8e6e
 - name: Captain C.J. Sparra
   db_uuid: df55bc41f35640b28b35de866e6a12da
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
@@ -35781,9 +35809,60 @@
   tags: []
 - name: RVD
   db_uuid: 276fb52f04234fa9bb6adebf98aa91e6
+  srgpc_url: https://www.srgpc.net/cards/competitors/rvd/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: When you have a card with "High" in the name in play, your Power, Technique, and Agility are +1.
   tags: []
+  related_finishes:
+    - 8a0aa5d3a3254f17ac3da53e9faf2d13
+    - 6123438277bb40f2bb067f88b48ce2dd
+    - 7b099b38ba004142bc750f0c68f5b85f
+- name: Five Star Frog Splash
+  db_uuid: 8a0aa5d3a3254f17ac3da53e9faf2d13
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Flip 5 cards.
+
+    Your Finish roll is +1 for each Strike card flipped.'
+  tags: []
+  related_cards:
+    - 276fb52f04234fa9bb6adebf98aa91e6
+- name: Van Daminator
+  db_uuid: 6123438277bb40f2bb067f88b48ce2dd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 276fb52f04234fa9bb6adebf98aa91e6
+- name: CBD Max Strength
+  db_uuid: 7b099b38ba004142bc750f0c68f5b85f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 276fb52f04234fa9bb6adebf98aa91e6
 - name: Ryan
   db_uuid: fc43a93f413d4560993cb36a1128f06b
   card_type: SingleCompetitorCard
@@ -38027,7 +38106,52 @@
   strike: 6
   submission: 7
   grapple: 8
+  rules_text: When you roll Grapple, your opponent randomly buries 1 card in their hand.
   tags: []
+  related_finishes:
+    - 74e7a5819f3d4668833d9661afddecf2
+    - 0be70731b5724959a97cfe6ddc5514c1
+    - 32d1137164f840ecb090251545c0b45a
+- name: Malleus Maleficarum
+  db_uuid: 74e7a5819f3d4668833d9661afddecf2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    If you roll Power or Strike, your opponent randomly buries their hand.'
+  tags: []
+  related_cards:
+    - a63011dbda754ac2b6052aa5b4f7c9c4
+- name: Gallows Hill
+  db_uuid: 0be70731b5724959a97cfe6ddc5514c1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    Your opponent buries 1 card in their hand, then buries 1 random card in their hand.'
+  tags: []
+  related_cards:
+    - a63011dbda754ac2b6052aa5b4f7c9c4
+- name: Divine Persecution
+  db_uuid: 32d1137164f840ecb090251545c0b45a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Your opponent randomly buries cards in their hand equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - a63011dbda754ac2b6052aa5b4f7c9c4
 - name: The Witch's Apprentice
   db_uuid: 0d71d3dff2ad4f23a35055c49935c913
   srgpc_url: https://www.srgpc.net/cards/competitors/the-witchs-apprentice/
@@ -38398,6 +38522,8 @@
   tags: []
 - name: Zombie
   db_uuid: 64468c0e28f249d6b26708f00570c064
+  srg_url: https://supershowthegame.com/product/zombie/
+  srgpc_url: https://www.srgpc.net/cards/competitors/zombie/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -38409,6 +38535,59 @@
   grapple: 10
   rules_text: 'Once a turn roll, when your turn roll is at least 3 less than your opponent''s: add 1 non-Finish card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 407e4118737e4f4591bfad143ac0f1e9
+    - ca72c89d57d14238bdddc5a70b834d1f
+    - e7086c54881a44be9573fd845e54e01c
+    - 4a2fdccbca1a42489bc806840cd570b0
+- name: The Dead End
+  db_uuid: 407e4118737e4f4591bfad143ac0f1e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    When the Crowd Meter is 2 or greater and this card is in your discard pile ignore "non Finish" in your Gimmick.'
+  tags: []
+  related_cards:
+    - 64468c0e28f249d6b26708f00570c064
+- name: Z Trigger
+  db_uuid: ca72c89d57d14238bdddc5a70b834d1f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Look at your opponent's hand or discard pile and choose 1 card.  This card copies its text until the end of the turn.
+  tags: []
+  related_cards:
+    - 64468c0e28f249d6b26708f00570c064
+- name: The Grave Digger
+  db_uuid: e7086c54881a44be9573fd845e54e01c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Bury 2 cards in your opponent''s discard pile and your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 64468c0e28f249d6b26708f00570c064
+- name: Three Handled Moss Covered Abernathy Family Cradunzle
+  db_uuid: 4a2fdccbca1a42489bc806840cd570b0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Your opponent randomly reveals 3 cards in their hand, choose 1 to discard, 1 to bury, and 1 to put on top of their deck.'
+  tags: []
+  related_cards:
+    - 64468c0e28f249d6b26708f00570c064
 - name: Zonda
   db_uuid: c3fe9806c9c14f4f844a8c904c2969ab
   card_type: SingleCompetitorCard

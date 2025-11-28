@@ -22827,6 +22827,7 @@
   tags: []
 - name: Arcade Addict Aaron
   db_uuid: 51aff101c37346fba003d6e1f21105b1
+  srg_url: https://supershowthegame.com/product/arcade-addict-aaron/
   srgpc_url: https://www.srgpc.net/cards/competitors/arcade-addict-aaron/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -22837,7 +22838,52 @@
   strike: 10
   submission: 5
   grapple: 8
+  rules_text: When you roll Submission for your turn roll, your Power and Technique are +1 until the start of your next turn.
   tags: []
+  related_finishes:
+    - 33b8728db20d453e8a91c5390f624684
+    - 7aa4e25251b24afba2f2e5e8230bf5ba
+    - 4bf3c601a0634b4397b8f19e4de5ad12
+- name: The Score That Shook Paradise
+  db_uuid: 33b8728db20d453e8a91c5390f624684
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    If you have a card in play with "Old School" in the name, +2 to Technique.'
+  tags: []
+  related_cards:
+    - 51aff101c37346fba003d6e1f21105b1
+- name: School Boy Legend
+  db_uuid: 7aa4e25251b24afba2f2e5e8230bf5ba
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    If "School Boy" is in your discard pile and the Crowd Meter is 1 or greater, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 51aff101c37346fba003d6e1f21105b1
+- name: The Prize Counter
+  db_uuid: 4bf3c601a0634b4397b8f19e4de5ad12
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    When this card is in your discard pile and you roll Power for your turn roll, you are considered to have rolled Power 2 times for effects.'
+  tags: []
+  related_cards:
+    - 51aff101c37346fba003d6e1f21105b1
 - name: Asia
   db_uuid: 41cf829b50b649a2bbfcd56484afb428
   srgpc_url: https://www.srgpc.net/competitors/asia/
@@ -30595,7 +30641,63 @@
   srgpc_url: https://www.srgpc.net/competitors/franklin-turtle-clark/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Technique or Agility, flip 2 cards: That skill is +2 for each Strike flipped until the end of the turn roll.'
   tags: []
+  related_finishes:
+    - c56150b39b6849ebbf611d4bcb2e689f
+    - b9e4ff615f3041c5bfeb4d6f2c4b0f62
+    - 02c0c0e2a47c414c8623a1e221044324
+- name: Shell Shock
+  db_uuid: c56150b39b6849ebbf611d4bcb2e689f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    If this card is flipped, shuffle it from your discard pile back into your deck.'
+  tags: []
+  related_cards:
+    - d89414c9e0e943d2844fcdeec92be5e5
+- name: Turtle Power Bomb
+  db_uuid: b9e4ff615f3041c5bfeb4d6f2c4b0f62
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s next turn roll is -2 for each breakout roll they rolled this turn.'
+  tags: []
+  related_cards:
+    - d89414c9e0e943d2844fcdeec92be5e5
+- name: Turtle Claw
+  db_uuid: 02c0c0e2a47c414c8623a1e221044324
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Your Finish roll is +1 for each Strike you flipped for your Gimmick on the last turn roll.'
+  tags: []
+  related_cards:
+    - d89414c9e0e943d2844fcdeec92be5e5
 - name: The Frequent Flyer
   db_uuid: 8f4d6cf02cf04c15bcb6908883bc5fd0
   srgpc_url: https://www.srgpc.net/cards/competitors/the-frequent-flyer/
@@ -39025,16 +39127,48 @@
 - name: Band of Brothers
   db_uuid: 5d5c4a1aff434ebb9359be5625da0fb8
   srg_url: https://supershowthegame.com/product/band-of-brothers-w-pineapple-smash/
+  srgpc_url: https://www.srgpc.net/cards/competitors/band-of-brothers/
   card_type: TrioCompetitorCard
+  power: 24
+  technique: 21
+  agility: 18
+  strike: 15
+  submission: 27
+  grapple: 30
+  rules_text: 'Once per turn: When you hit a card with "Pineapple", "Bar", or "Trash" in the name, draw 1 card and if it is your turn, you may play an extra card this turn.
+
+    Your breakout and Finish rolls are + the Crowd Meter.'
   tags: []
 - name: Barnyard Mafia
   db_uuid: 8bb9434ee8d94f09b0cbfe92418dce82
   srg_url: https://supershowthegame.com/product/barnyard-mafia/
+  srgpc_url: https://www.srgpc.net/cards/competitors/barnyard-mafia/
   card_type: TrioCompetitorCard
+  power: 18
+  technique: 27
+  agility: 15
+  strike: 21
+  submission: 24
+  grapple: 30
+  rules_text: 'When you have a Strike in play, your Submission skill is +3.
+
+    During your turn:
+
+    When you hit a Grapple, look at the top 3 cards of your deck.  Add 1 to your hand, bury 1, and flip the other.
+
+    When you hit a Submission, discard 1 other card in play.'
   tags: []
 - name: Beach Bums
   db_uuid: 3f63303ebd4f48baabadfe23090cf066
+  srgpc_url: https://www.srgpc.net/cards/competitors/beach-bums/
   card_type: TrioCompetitorCard
+  power: 27
+  technique: 21
+  agility: 24
+  strike: 30
+  submission: 15
+  grapple: 18
+  rules_text: Once during your turn when you play a card with "Drop" or "Splash" in the name you may play another card with "Drop" or "Splash" in the name.
   tags: []
 - name: Beauty and the Beatstick
   db_uuid: 180073d7502e46bd957a7379a99afe54
@@ -39066,11 +39200,25 @@
   db_uuid: c939efe58c554a1f90457e25df23c36e
   srg_url: https://supershowthegame.com/product/big-baallerz/
   card_type: TrioCompetitorCard
+  power: 18
+  technique: 30
+  agility: 27
+  strike: 15
+  submission: 24
+  grapple: 21
+  rules_text: 'When you have a card with "Boot", "Corner", or "Dragon" in the name in play: Your Strike, Submission, and Grapple skills are +3.'
   tags: []
 - name: Big Money
   db_uuid: 8fa7c780ce484084b9eaf58d5d343f0c
   srg_url: https://supershowthegame.com/product/big-money/
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 12
+  agility: 18
+  strike: 10
+  submission: 20
+  grapple: 14
+  rules_text: When your opponent moves any number of cards from your discard pile with their card effect or Gimmick, copy that effect until the end of the turn. (Your skills cannot be increased in this way.)
   tags: []
 - name: Biggest Man in All the Land
   db_uuid: bb68774ff47d4d2493d1a13cea5061f1
@@ -40801,6 +40949,52 @@
   grapple: 5
   rules_text: When your opponent hits a Strike, you may put 1 Strike from your discard pile on top of your deck.
   tags: []
+  related_finishes:
+    - f5a9944a03c94d7191ee61128391a097
+    - a296921d5231468190e0fce9eb9b69d3
+    - f69ebfc6a60c4cf8b985a305a1125b9b
+- name: Stunging Splash
+  db_uuid: f5a9944a03c94d7191ee61128391a097
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Flip 2 cards.
+
+    Add 1 Submission from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 4fca7d06fac844ef810d022629b265ff
+- name: The Buzzkill
+  db_uuid: a296921d5231468190e0fce9eb9b69d3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Search your deck for 2 Strikes: Add 1 to your hand and put the other in your discard pile.'
+  tags: []
+  related_cards:
+    - 4fca7d06fac844ef810d022629b265ff
+- name: The Bee Sting
+  db_uuid: f69ebfc6a60c4cf8b985a305a1125b9b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Finish Roll is +3.
+
+    If your opponent breaks out, you lose the match via Pinfall.'
+  tags: []
+  related_cards:
+    - 4fca7d06fac844ef810d022629b265ff
 - name: Mofa
   db_uuid: f70d6561116e416694e7a41f0194d756
   srg_url: https://supershowthegame.com/product/mofa/

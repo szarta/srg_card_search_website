@@ -41931,7 +41931,58 @@
   strike: 6
   submission: 8
   grapple: 7
+  rules_text: When your target's skills would increase from a Finish or Gimmick, they are instead decreased.
   tags: []
+  related_finishes:
+    - cf2abdc645684ce1b91664659958d027
+    - 386e905da6e44a119aff65d1587460ec
+    - 9ae9dbd9e7b44cb5b57b56ba326ca473
+- name: Rising Star Kick
+  db_uuid: cf2abdc645684ce1b91664659958d027
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    Your Technique is + the Crowd Meter.
+
+    Add 1 Grapple from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 287077390a6f4cf5a7d056e252a2469c
+- name: Relaxed and Casual Brainbuster
+  db_uuid: 386e905da6e44a119aff65d1587460ec
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    +1 to Submission
+
+    Shuffle 3 cards from your discard pile into your deck or draw 1 card.'
+  tags: []
+  related_cards:
+    - 287077390a6f4cf5a7d056e252a2469c
+- name: Non-Competitive Press
+  db_uuid: 9ae9dbd9e7b44cb5b57b56ba326ca473
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Each player''s Submission is +2.
+
+    Each player''s Technique is +1.
+
+    Copy the text of a card your opponent has in play.'
+  tags: []
+  related_cards:
+    - 287077390a6f4cf5a7d056e252a2469c
 - name: The Winning Ticket
   db_uuid: f4a3aea48e544fac9e4edf24b5d07235
   srgpc_url: https://www.srgpc.net/competitor/winning-ticket/

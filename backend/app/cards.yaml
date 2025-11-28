@@ -25600,7 +25600,9 @@
     - 31147ec233364c6b9d0ce86527b78054
     - a01578496fd84636939dff4762da7ca7
     - 4a39cb20d46e41828607c82a54b4084c
+    - ca803bf9b2424e03b03250e5400b3ca9
     - e818072be5314d99a87c057550fb50b3
+    - 776fad5b882a45a184765b90af6d6fcd
 - name: Thud!
   db_uuid: 31147ec233364c6b9d0ce86527b78054
   srg_url: https://supershowthegame.com/product/d2/
@@ -25693,8 +25695,12 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  rules_text: ''
+  rules_text: '+3 to Agility
+
+    When your turn roll was exactly 2 greater than your opponent''s turn roll, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
 - name: Psychocidal
   db_uuid: e818072be5314d99a87c057550fb50b3
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
@@ -25711,15 +25717,36 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
-- name: Sweet Nightmare
+- name: Sweet Nightmare (V1)
   db_uuid: 776fad5b882a45a184765b90af6d6fcd
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: ''
+  rules_text: '+2 to Submission
+
+    Draw 1 card for each Submission you have in play.
+
+    Your opponent''s Technique is -2.'
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
+- name: Sweet Nightmare (V2)
+  db_uuid: d7388c1cd0244dab83c2d2ae0d0738f2
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    Draw 1 card for each Submission you have in play.
+
+    Your opponent''s breakout roll is -2.'
+  tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
 - name: D2 (V2)
   db_uuid: bf1ee5c00125450da300bb9f3762511f
   card_type: SingleCompetitorCard

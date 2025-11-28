@@ -3640,6 +3640,13 @@
   grapple: 6
   rules_text: When a card or Gimmick causes you to bury any number of cards, shuffle your deck then draw 1 card.
   tags: []
+  related_finishes:
+    - a7b8fd24d8714c8b832ddc8f2d34ccc4
+    - 0713670115ea4923acd28a226a8f7c3f
+    - 3feda229357c4e2186088bc9be8829e6
+    - a3e716a43ae14c4f99a21cc2077e3f26
+    - 4da8362de9bd4ef9814f9ea6c7032f2b
+    - e0be70b5f27b487588a804a0d43b29ae
 - name: The Cyclone (V2)
   db_uuid: b69620138a614df0bea6b3bddcc2123d
   srg_url: https://supershowthegame.com/product/cyclone-os/
@@ -3654,6 +3661,103 @@
   grapple: 6
   rules_text: When you bump, you may have either player shuffle their hand into their deck and then add the top 4 cards of their deck to their hand.
   tags: []
+  related_finishes:
+    - a7b8fd24d8714c8b832ddc8f2d34ccc4
+    - 0713670115ea4923acd28a226a8f7c3f
+    - 3feda229357c4e2186088bc9be8829e6
+    - a3e716a43ae14c4f99a21cc2077e3f26
+    - 4da8362de9bd4ef9814f9ea6c7032f2b
+    - e0be70b5f27b487588a804a0d43b29ae
+- name: Cyclone Kick
+  db_uuid: a7b8fd24d8714c8b832ddc8f2d34ccc4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Strike
+
+    If you bumped on the previous turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
+- name: Tailwind
+  db_uuid: 0713670115ea4923acd28a226a8f7c3f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    If you bumped on the previous turn roll, your opponent gets 2 breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
+- name: The Wind Shears
+  db_uuid: 3feda229357c4e2186088bc9be8829e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Your opponent discards half the cards in their hand (rounded up).'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
+- name: Shimmering Wizard
+  db_uuid: a3e716a43ae14c4f99a21cc2077e3f26
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Technique
+
+    When this card is in your discard pile and you shuffle your deck, you may shuffle it into your deck.'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
+- name: Invertebreaker
+  db_uuid: 4da8362de9bd4ef9814f9ea6c7032f2b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Bury any number of cards in your hand, then draw the same number of cards.'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
+- name: Category 5
+  db_uuid: e0be70b5f27b487588a804a0d43b29ae
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Submission
+
+    Flip 5, or bury 5 cards in your discard pile.'
+  tags: []
+  related_cards:
+    - 014bc171e93a4ed9a4d26d6d7fab3039
+    - b69620138a614df0bea6b3bddcc2123d
 - name: Get Burned!
   db_uuid: 7e2cc33ab9e24904979efd6bce9aacb4
   srg_url: https://supershowthegame.com/product/19-get-burned/
@@ -31959,7 +32063,59 @@
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 8
+  rules_text: When you hit a card with "Drop" in the name, your next turn roll is +1, and if you have 3 cards in play with "Drop" in the name, your opponent discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 44fcb705791b4502b869be5e874e736c
+    - 39e761549e134d85b8935c3b07f23050
+    - a4e8c3d3c9234b32add7e3b6bdac66f1
+- name: Los Tres Golpes
+  db_uuid: 44fcb705791b4502b869be5e874e736c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    When your opponent wins a turn roll: you may discard this card from your hand and discard 1 card you have in play with "Drop" in the name to end your opponent''s turn.'
+  tags: []
+  related_cards:
+    - c7738a0ba99b4c86b5f8427356ac8bc9
+- name: Drop the Tostones in the Fryer
+  db_uuid: 39e761549e134d85b8935c3b07f23050
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    Your opponent''s 1st and 2nd breakout rolls are -1 for each card you have in play with "Drop" in the name.'
+  tags: []
+  related_cards:
+    - c7738a0ba99b4c86b5f8427356ac8bc9
+- name: Sancocho Sleeper
+  db_uuid: a4e8c3d3c9234b32add7e3b6bdac66f1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Submission
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Drop" in the name +1.'
+  tags: []
+  related_cards:
+    - c7738a0ba99b4c86b5f8427356ac8bc9
 - name: JT Dunn
   db_uuid: b41d30281182409c8d64717d314ab4bc
   card_type: SingleCompetitorCard
@@ -34513,6 +34669,48 @@
   grapple: 6
   rules_text: 'When your opponent stops your card: Reveal the top 2 cards of your deck, add 1 to your hand and bury the other.'
   tags: []
+  related_finishes:
+    - 0be0ae1faeed41f8a1e0eccd9758a02a
+    - 9cf25c9924c34a0a8b260a4e04a033ff
+    - 191abc11c8e6457287cb5f865e5e7695
+- name: The Scheduled Beating
+  db_uuid: 0be0ae1faeed41f8a1e0eccd9758a02a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If stopped, put this card on top of your deck and randomly add the bottom 4 cards of your deck on top of it.'
+  tags: []
+  related_cards:
+    - 583629e3e0fe43c28fbdd39f40a61ff8
+- name: Perfect PWR Bomb
+  db_uuid: 9cf25c9924c34a0a8b260a4e04a033ff
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +4 to Grapple'
+  tags: []
+  related_cards:
+    - 583629e3e0fe43c28fbdd39f40a61ff8
+- name: Fold 'em & File 'em
+  db_uuid: 191abc11c8e6457287cb5f865e5e7695
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Your opponent buries half of the cards in their hand (rounded down).'
+  tags: []
+  related_cards:
+    - 583629e3e0fe43c28fbdd39f40a61ff8
 - name: Perfect10n Shawn Spears
   db_uuid: b322c969168d4d7d9c3762bbc844d358
   srgpc_url: https://www.srgpc.net/cards/competitors/perfect10n-shawn-spears/

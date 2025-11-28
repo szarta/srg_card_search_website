@@ -45797,3 +45797,33 @@
   card_type: EntranceCard
   rules_text: Finishes with "Cannot Breakout" in the text instead have blank text.
   tags: []
+- name: Stomp Your Block Off (Strike)
+  db_uuid: 7427d162ea8b47cfb667db3694fd70fd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Draw 1 card.
+
+    You may play 1 Strike from your discard pile as an additional card this turn.  Skill Requirement: Strike 8+'
+  tags: []
+- name: Blindside Asphyxiator (Submission)
+  db_uuid: 218660f6319541c6be51ebf4ef0a910d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Draw 1 card.
+
+    You may play 1 Submission from your discard pile as an additional card this turn.  Skill Requirement: Submission 8+'
+  tags: []
+- name: Slithering Back Suplex (Grapple)
+  db_uuid: 665ba404533b486cb27df11d1e16a803
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Draw 1 card.
+
+    You may play 1 Grapple from your discard pile as an additional card this turn.  Skill Requirement: Grapple 8+'
+  tags: []

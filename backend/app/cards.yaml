@@ -3131,6 +3131,8 @@
 
     +3 to Strike'
   tags: []
+  related_cards:
+    - a9015fd930594327831767247044e2fa
 - name: Succession
   db_uuid: 733c5928ab74495da54cae4f1fe9c465
   srg_url: https://supershowthegame.com/product/chibi/
@@ -3144,6 +3146,8 @@
 
     When your opponent''s turn roll is 5, this card is a Follow Up.'
   tags: []
+  related_cards:
+    - a9015fd930594327831767247044e2fa
 - name: Seat of Power
   db_uuid: 76956640cfc7469da14708c95b2d5f13
   srg_url: https://supershowthegame.com/product/chibi/
@@ -3155,6 +3159,8 @@
 
     If your opponent rolls a 5 for their breakout roll, your opponent cannot breakout.'
   tags: []
+  related_cards:
+    - a9015fd930594327831767247044e2fa
 - name: Citizen X
   db_uuid: 00e44c96da69423b95a40b5d756354b4
   srg_url: https://supershowthegame.com/product/citizen-x/
@@ -25603,6 +25609,7 @@
     - ca803bf9b2424e03b03250e5400b3ca9
     - e818072be5314d99a87c057550fb50b3
     - 776fad5b882a45a184765b90af6d6fcd
+    - d7388c1cd0244dab83c2d2ae0d0738f2
 - name: Thud!
   db_uuid: 31147ec233364c6b9d0ce86527b78054
   srg_url: https://supershowthegame.com/product/d2/

@@ -20,7 +20,7 @@ competitor is at controlling the opponent when they have a deck, so if I can
 potentially set them way back multiple times it can be a nice swing. With that
 change I would consider using [[Standing Moonsault]] at #22 instead to search and
 filter out the finisher again, or even the grapple finish. Changing
-[[Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V3)]] into [[Submerge]]
+[[Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Agility)]] into [[Submerge]]
 can be an option too but you don’t want to over commit to the gimmick
 too much or you may be in trouble if you get blanked!
 
@@ -80,7 +80,6 @@ any Spotlight Spam to do it.
 
 ## Decklist
 
-### Competitor
 ```deck
 Moonstar
 This is the Stellar Collision!!
@@ -95,7 +94,7 @@ Catch Chicken Wing
 Philly Cheese Grater
 Razor Whip
 Lucha, Rinse, Repeat!
-Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (V3)
+Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Agility)
 Brawling and Punching
 Getting Over
 Hold It Right There!

@@ -42204,9 +42204,9 @@
     - 44cb89f64a234337a7897fad2983fdc2
     - c97df853d2d84795bdbe639f97d7bd7f
     - d8daf9788cef4fd99edd43d23c0b4c82
-    - dade3afff5744e4fb03610976aaadbb5
     - 3b553daa34a34e4ea66dfa39235c5f19
     - 661dbb27619b4c26b84d4dc020f50d1a
+    - 052f3107fc894070bd6cbdab7d52549f
 - name: Boss-Rate Beatdown
   db_uuid: 44cb89f64a234337a7897fad2983fdc2
   card_type: MainDeckCard
@@ -42238,14 +42238,6 @@
     Bury 3 cards in your opponent''s discard pile.
 
     Draw 3 cards.'
-  tags: []
-- name: It's the Back Claw!
-  db_uuid: dade3afff5744e4fb03610976aaadbb5
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Finish
-  deck_card_number: 30
-  rules_text: For each Entrance Card you have revealed, you may re-roll your Finish roll.
   tags: []
 - name: Death Choke
   db_uuid: 3b553daa34a34e4ea66dfa39235c5f19

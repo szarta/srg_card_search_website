@@ -41946,7 +41946,7 @@
   grapple: 8
   rules_text: When you hit a card with "Bird" or "Press" in the name, your opponent discards 1 card from their hand.
   tags: []
-- name: The SRG Boss V2 (The Greatest American Who Ever Lived)
+- name: The SRG Boss (The Greatest American Who Ever Lived)
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   card_type: SingleCompetitorCard
   division: United States

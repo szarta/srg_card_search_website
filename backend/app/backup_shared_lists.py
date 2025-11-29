@@ -21,6 +21,10 @@ def backup_shared_lists(filename="shared_lists_backup.json"):
                     "name": sl.name,
                     "description": sl.description,
                     "card_uuids": sl.card_uuids,
+                    "list_type": sl.list_type.value
+                    if hasattr(sl, "list_type") and sl.list_type
+                    else "COLLECTION",
+                    "deck_data": sl.deck_data if hasattr(sl, "deck_data") else None,
                     "created_at": sl.created_at.isoformat() if sl.created_at else None,
                 }
             )
@@ -62,6 +66,8 @@ def restore_shared_lists(filename="shared_lists_backup.json"):
                 name=data["name"],
                 description=data["description"],
                 card_uuids=data["card_uuids"],
+                list_type=data.get("list_type", "COLLECTION"),
+                deck_data=data.get("deck_data"),
                 # Note: created_at will be set to current time since we can't override it
             )
 

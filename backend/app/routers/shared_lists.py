@@ -29,10 +29,17 @@ def get_db():
 def create_shared_list(payload: SharedListCreate, db: Session = Depends(get_db)):
     """
     Create a new shareable list from card UUIDs.
+    Supports both COLLECTION (simple card list) and DECK (structured with slots).
     """
     if not payload.card_uuids:
         raise HTTPException(
             status_code=400, detail="At least one card UUID is required"
+        )
+
+    # Validate that deck_data is provided when list_type is DECK
+    if payload.list_type == "DECK" and not payload.deck_data:
+        raise HTTPException(
+            status_code=400, detail="deck_data is required when list_type is DECK"
         )
 
     # Validate that all UUIDs exist in the database
@@ -48,11 +55,16 @@ def create_shared_list(payload: SharedListCreate, db: Session = Depends(get_db))
             detail=f"Invalid card UUIDs: {', '.join(missing_uuids[:5])}",  # Limit error message length
         )
 
+    # Convert deck_data to dict for JSON storage
+    deck_data_dict = payload.deck_data.model_dump() if payload.deck_data else None
+
     # Create the shared list
     shared_list = SharedList(
         name=payload.name,
         description=payload.description,
         card_uuids=payload.card_uuids,
+        list_type=payload.list_type,
+        deck_data=deck_data_dict,
     )
 
     try:

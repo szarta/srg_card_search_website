@@ -13,6 +13,7 @@ from sqlalchemy import (
     Table,
     DateTime,
     Text,
+    JSON,
 )
 from sqlalchemy.orm import relationship, declarative_base
 from sqlalchemy.dialects.postgresql import ARRAY, TEXT
@@ -193,6 +194,11 @@ class CrowdMeterCard(Card):
     }
 
 
+class SharedListType(str, enum.Enum):
+    collection = "COLLECTION"
+    deck = "DECK"
+
+
 class SharedList(Base):
     __tablename__ = "shared_lists"
 
@@ -200,7 +206,15 @@ class SharedList(Base):
     name = Column(String(255), nullable=True)
     description = Column(Text, nullable=True)
     card_uuids = Column(ARRAY(String), nullable=False)
+    list_type = Column(
+        Enum(SharedListType, name="shared_list_type_enum"),
+        nullable=False,
+        default=SharedListType.collection,
+    )
+    deck_data = Column(
+        JSON, nullable=True
+    )  # Stores deck structure when list_type is DECK
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     def __repr__(self):
-        return f"<SharedList(id='{self.id}', name='{self.name}', cards={len(self.card_uuids or [])})>"
+        return f"<SharedList(id='{self.id}', name='{self.name}', type='{self.list_type}', cards={len(self.card_uuids or [])})>"

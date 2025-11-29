@@ -30519,7 +30519,56 @@
   strike: 10
   submission: 7
   grapple: 5
+  rules_text: 'During your turn:
+
+    When you hit a card with "Lightning", "Hand", or "Punch" in the name, you may play 1 additional card this turn.'
   tags: []
+  related_finishes:
+    - 2c0944b9d5fd4ba7a3ad14f502e4f74f
+    - 006f404466e141e8aa7398915c5e971d
+    - 67a103c6e77542e2a27991fd9f685c9f
+- name: Ironhanded Punch From the Heavens!
+  db_uuid: 2c0944b9d5fd4ba7a3ad14f502e4f74f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    Shuffle up to 5 cards with "Lightning", "Hand", or "Punch" in the name from your discard pile into your deck.  Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 26e572a5ff9b48f59c604d84dce4c0b8
+- name: Lightning-Fast Drop
+  db_uuid: 006f404466e141e8aa7398915c5e971d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    If the Crowd Meter is 2 or greater:
+
+    If stopped, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 26e572a5ff9b48f59c604d84dce4c0b8
+- name: The Bennington Crab
+  db_uuid: 67a103c6e77542e2a27991fd9f685c9f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Once per turn: You may reveal this card from your hand, shuffle it into your deck, and draw 1 card.
+
+    If you revealed this card this turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 26e572a5ff9b48f59c604d84dce4c0b8
 - name: Father Light
   db_uuid: 0a72bde2abe84fef92b5695e8ec53a86
   srgpc_url: https://www.srgpc.net/cards/competitors/father-light/

@@ -32,7 +32,7 @@ Noteworthy interactions in the deck itself:
 - Your [[Razor Whip]] and [[Imperial Stretch]] turn into a [[Drawin' Dimes (V2)]]
   being able to take any card back.
 
-- Your [[Choke on the Smoke]] not only helps get the spotlight faster but if
+- Your [[Choke on the Smoke (Submission)]] not only helps get the spotlight faster but if
   you choose discard you have the option at 2 submissions and any one card.
 
 - When at deck out all your friendly bury stops basically become fight in the
@@ -109,7 +109,7 @@ Hook the Top Rope
 Well Scouted
 Moonsault
 Avalanche Driver
-Choke on the Smoke
+Choke on the Smoke (Submission)
 Springboard Moonsault
 It's Not the Size of the Dog in the Fight
 It's the Size of the Fight in the Dog

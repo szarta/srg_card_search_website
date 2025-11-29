@@ -12,6 +12,8 @@ export default function ArticlePage() {
   const { slug } = useParams();
   const [meta, setMeta] = useState({});
   const [content, setContent] = useState("");
+  const [sharing, setSharing] = useState(false);
+  const [shareUrl, setShareUrl] = useState("");
 
   useEffect(() => {
     const url = `/articles/${slug}.md`;
@@ -51,6 +53,107 @@ export default function ArticlePage() {
     return parts;
   };
 
+  // Share handler for decks
+  const handleShareDeck = async (names, title) => {
+    setSharing(true);
+    setShareUrl("");
+
+    try {
+      // Fetch all cards by name to build deck structure
+      const response = await fetch("/cards/by-names", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ names }),
+      });
+
+      if (!response.ok) throw new Error("Failed to fetch cards");
+
+      const data = await response.json();
+      const cards = data.rows || [];
+
+      // Build card map
+      const cardMap = new Map();
+      cards.forEach(card => {
+        if (card?.name) {
+          cardMap.set(card.name.toLowerCase(), card);
+        }
+      });
+
+      // Determine deck structure from card order
+      // First card should be competitor, second is entrance, rest are deck cards
+      const slots = [];
+      const cardUuids = [];
+      let spectacleType = "NEWMAN"; // default
+
+      names.forEach((name, index) => {
+        const card = cardMap.get(name.toLowerCase());
+        if (!card?.db_uuid) return;
+
+        cardUuids.push(card.db_uuid);
+
+        if (index === 0) {
+          // First card is competitor
+          slots.push({
+            slot_type: "COMPETITOR",
+            slot_number: 0,
+            card_uuid: card.db_uuid
+          });
+        } else if (index === 1) {
+          // Second card is entrance
+          slots.push({
+            slot_type: "ENTRANCE",
+            slot_number: 0,
+            card_uuid: card.db_uuid
+          });
+        } else if (card.card_type === "MainDeckCard") {
+          // Deck cards (slots 1-30)
+          const deckNum = card.deck_card_number || (index - 1);
+          slots.push({
+            slot_type: "DECK",
+            slot_number: deckNum,
+            card_uuid: card.db_uuid
+          });
+        } else {
+          // Everything else goes to alternates
+          slots.push({
+            slot_type: "ALTERNATE",
+            slot_number: 0,
+            card_uuid: card.db_uuid
+          });
+        }
+      });
+
+      // Create shared list
+      const shareResponse = await fetch("/api/shared-lists", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: title || "Shared Deck",
+          description: `Deck from article: ${meta.title || slug}`,
+          card_uuids: cardUuids,
+          list_type: "DECK",
+          deck_data: {
+            spectacle_type: spectacleType,
+            slots: slots
+          }
+        }),
+      });
+
+      if (!shareResponse.ok) throw new Error("Failed to create shared list");
+
+      const shareData = await shareResponse.json();
+      const fullUrl = `${window.location.origin}${shareData.url}`;
+
+      setShareUrl(fullUrl);
+      await navigator.clipboard.writeText(fullUrl);
+    } catch (error) {
+      console.error("Share error:", error);
+      alert("Failed to create shareable link: " + error.message);
+    } finally {
+      setSharing(false);
+    }
+  };
+
   // Recognize ```deck code fences and render the grid with exports
   const CodeBlock = ({ inline, className, children, ...props }) => {
     if (inline) return <code className={className} {...props}>{children}</code>;
@@ -69,7 +172,18 @@ export default function ArticlePage() {
       const first = names.shift();
       title = first.split(":").slice(1).join(":").trim() || "Deck";
     }
-    return <DeckGridFromNames names={names} title={title} pageSize={40} />;
+
+    return (
+      <DeckGridFromNames
+        names={names}
+        title={title}
+        pageSize={40}
+        onShare={() => handleShareDeck(names, title)}
+        sharing={sharing}
+        shareUrl={shareUrl}
+        listName={title}
+      />
+    );
   };
 
   return (

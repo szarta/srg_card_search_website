@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import CardGrid from "./CardGrid";
 import Pagination from "./Pagination";
 import { slugify } from "../lib/slug";
+import { QRCodeSVG } from "qrcode.react";
 
 export default function DeckGridFromNames({
   names = [],
@@ -387,25 +388,47 @@ export default function DeckGridFromNames({
         </div>
       </div>
 
-      {/* Show share URL success message */}
+      {/* Show share URL success message with QR code */}
       {shareUrl && (
-        <div className="mt-3 p-3 bg-green-50 border border-green-200 rounded-xl">
-          <p className="text-sm font-semibold text-green-800 mb-2">
+        <div className="mt-3 p-4 bg-green-50 border border-green-200 rounded-xl">
+          <p className="text-sm font-semibold text-green-800 mb-3">
             Shareable link created and copied to clipboard!
           </p>
-          <div className="flex gap-2">
-            <input
-              type="text"
-              readOnly
-              value={shareUrl}
-              className="flex-1 p-2 text-sm border rounded bg-white"
-            />
-            <button
-              onClick={() => navigator.clipboard.writeText(shareUrl)}
-              className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded"
-            >
-              Copy
-            </button>
+          <div className="flex gap-4 items-start">
+            {/* QR Code */}
+            <div className="flex-shrink-0 bg-white p-3 rounded-lg border border-green-300">
+              <QRCodeSVG
+                value={shareUrl}
+                size={160}
+                level="M"
+                includeMargin={false}
+              />
+              <p className="text-xs text-center text-gray-600 mt-2">Scan to import</p>
+            </div>
+
+            {/* URL and Copy button */}
+            <div className="flex-1 min-w-0">
+              <label className="text-xs font-medium text-green-800 mb-1 block">
+                Share URL:
+              </label>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  readOnly
+                  value={shareUrl}
+                  className="flex-1 p-2 text-sm border rounded bg-white text-gray-800"
+                />
+                <button
+                  onClick={() => navigator.clipboard.writeText(shareUrl)}
+                  className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded whitespace-nowrap"
+                >
+                  Copy
+                </button>
+              </div>
+              <p className="text-xs text-gray-600 mt-2">
+                Share this link or scan the QR code to import this deck
+              </p>
+            </div>
           </div>
         </div>
       )}

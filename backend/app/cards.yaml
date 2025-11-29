@@ -40238,9 +40238,69 @@
     - d9e9083f2327491e84012142f1b5b414
 - name: Draculeena & Calliope
   db_uuid: a371e756c06840968b6a0d030ca4b737
+  srgpc_url: https://www.srgpc.net/competitor/draculeena-calliope/
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 5
+  submission: 6
+  grapple: 9
+  rules_text: +1 to Agility for each Draculeena & Calliope Finish card in your discard pile.
+  tags:
+    - Super Lucha
+  related_finishes:
+    - b16b0f76f85a4e68b308527a978faee9
+    - f0009734c1dc4b14a4aa60d80f1bd4c1
+    - 42836f67e4d341b78b80d1c189e7eeb4
+- name: Sangrelation!
+  db_uuid: b16b0f76f85a4e68b308527a978faee9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    +1 to Submission
+
+    Your opponent buries 2 cards in their hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a371e756c06840968b6a0d030ca4b737
+- name: Assault and Bat-tery!
+  db_uuid: f0009734c1dc4b14a4aa60d80f1bd4c1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Your opponent randomly reveals cards from their hand and buries them until they reveal a card with an odd number.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a371e756c06840968b6a0d030ca4b737
+- name: Finish of Mist-ery!
+  db_uuid: 42836f67e4d341b78b80d1c189e7eeb4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    If you and your opponent rolled the same skill for your turn roll, you may re-roll your Finish roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a371e756c06840968b6a0d030ca4b737
 - name: Drew Gulak
   db_uuid: e161ad4f6b464065a78c1519b7da5da9
   card_type: SingleCompetitorCard
@@ -45531,6 +45591,7 @@
   tags: []
 - name: Vik Vik DeDoom
   db_uuid: d4780f9496154143ac792803b32fa4ea
+  srgpc_url: https://www.srgpc.net/competitor/vik-vik-dedoom/
   card_type: SingleCompetitorCard
   division: Super Lucha
   power: 9
@@ -45540,7 +45601,61 @@
   submission: 8
   grapple: 5
   rules_text: 'Once per match: During anyone''s turn, draw 4 cards.'
-  tags: []
+  tags:
+    - Super Lucha
+  related_finishes:
+    - 0dd66348974d427daf609ab75d2b4de7
+    - e8a17b8b5de24d3eb2efddbccb95981a
+    - 5ed54bf7aab24d46aca9552336d3bdb0
+- name: Foot Dive DeDoom!
+  db_uuid: 0dd66348974d427daf609ab75d2b4de7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    +2 to Submission
+
+    Discard 2 cards from your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - d4780f9496154143ac792803b32fa4ea
+- name: Sinister Sledgehammer DeDoom!
+  db_uuid: e8a17b8b5de24d3eb2efddbccb95981a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    +3 to Grapple
+
+    Draw 4 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - d4780f9496154143ac792803b32fa4ea
+- name: Steel Pipe Constrictor!
+  db_uuid: 5ed54bf7aab24d46aca9552336d3bdb0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission=
+
+    +5 to Grapple
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - d4780f9496154143ac792803b32fa4ea
 - name: The Wolf Guardian
   db_uuid: 8e1a2c4a56f141c9b0464681e3d720a7
   card_type: SingleCompetitorCard

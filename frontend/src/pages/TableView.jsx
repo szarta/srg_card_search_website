@@ -29,7 +29,8 @@ export default function TableView(props) {
       cardType: obj.cardType || "",
       atkType: obj.atkType || "",
       playOrder: obj.playOrder || "",
-      deckCardNumber: obj.deckCardNumber || "",
+      deckCardNumberMin: obj.deckCardNumberMin || "1",
+      deckCardNumberMax: obj.deckCardNumberMax || "27",
       division: obj.division || "",
       gender: obj.gender || "",
       power: obj.power || "",
@@ -55,9 +56,15 @@ export default function TableView(props) {
       q.append("play_order", po);
     }
 
-    if (filters.cardType === "MainDeckCard" && filters.deckCardNumber !== "") {
-      const n = parseInt(filters.deckCardNumber, 10);
-      if (!Number.isNaN(n)) q.append("deck_card_number", String(n));
+    if (filters.cardType === "MainDeckCard") {
+      if (filters.deckCardNumberMin !== "" && filters.deckCardNumberMin !== null && filters.deckCardNumberMin !== undefined) {
+        const n = parseInt(filters.deckCardNumberMin, 10);
+        if (!Number.isNaN(n)) q.append("deck_card_number_min", String(n));
+      }
+      if (filters.deckCardNumberMax !== "" && filters.deckCardNumberMax !== null && filters.deckCardNumberMax !== undefined) {
+        const n = parseInt(filters.deckCardNumberMax, 10);
+        if (!Number.isNaN(n)) q.append("deck_card_number_max", String(n));
+      }
     }
 
     ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {

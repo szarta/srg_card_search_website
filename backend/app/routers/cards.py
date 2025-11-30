@@ -452,7 +452,8 @@ def _query_main_deck_cards(
     release_set,
     atk_type,
     play_order,
-    deck_card_number,
+    deck_card_number_min,
+    deck_card_number_max,
 ) -> List[Card]:
     """Query main deck cards"""
     if card_type is not None and card_type != CardType.main_deck.value:
@@ -465,8 +466,10 @@ def _query_main_deck_cards(
         mq = mq.filter(MainDeckCard.atk_type == atk_type)
     if play_order in [e.value for e in PlayOrderSubtype]:
         mq = mq.filter(MainDeckCard.play_order == play_order)
-    if deck_card_number is not None:
-        mq = mq.filter(MainDeckCard.deck_card_number == deck_card_number)
+    if deck_card_number_min is not None:
+        mq = mq.filter(MainDeckCard.deck_card_number >= deck_card_number_min)
+    if deck_card_number_max is not None:
+        mq = mq.filter(MainDeckCard.deck_card_number <= deck_card_number_max)
 
     return mq.all()
 
@@ -499,7 +502,8 @@ def list_cards(
     card_type: Optional[str] = Query(None),
     atk_type: Optional[str] = Query(None),
     play_order: Optional[str] = Query(None),
-    deck_card_number: Optional[int] = Query(None),
+    deck_card_number_min: Optional[int] = Query(None),
+    deck_card_number_max: Optional[int] = Query(None),
     is_banned: Optional[bool] = Query(None),
     release_set: Optional[str] = Query(None),
     limit: int = Query(20, ge=1, le=100),
@@ -553,7 +557,7 @@ def list_cards(
     )
 
     items += _query_main_deck_cards(
-        db, card_type, q, is_banned, release_set, atk_type, play_order, deck_card_number
+        db, card_type, q, is_banned, release_set, atk_type, play_order, deck_card_number_min, deck_card_number_max
     )
 
     items += _query_other_cards(db, card_type, q, is_banned, release_set)

@@ -7,7 +7,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [cardType, setCardType] = useState("");
   const [atkType, setAtkType] = useState("");
   const [playOrder, setPlayOrder] = useState("");
-  const [deckCardNumber, setDeckCardNumber] = useState("");
+  const [deckCardNumberMin, setDeckCardNumberMin] = useState("1");
+  const [deckCardNumberMax, setDeckCardNumberMax] = useState("27");
   const [division, setDivision] = useState("");
   const [gender, setGender] = useState(""); // "", "Male", "Female", "Ambiguous"
 
@@ -28,7 +29,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     setCardType(defaultValues.cardType ?? "");
     setAtkType(defaultValues.atkType ?? "");
     setPlayOrder(defaultValues.playOrder ?? "");
-    setDeckCardNumber(defaultValues.deckCardNumber ?? "");
+    setDeckCardNumberMin(defaultValues.deckCardNumberMin ?? "1");
+    setDeckCardNumberMax(defaultValues.deckCardNumberMax ?? "27");
     setPower(defaultValues.power ?? "");
     setAgility(defaultValues.agility ?? "");
     setStrike(defaultValues.strike ?? "");
@@ -46,7 +48,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       cardType,
       atkType,
       playOrder,
-      deckCardNumber,
+      deckCardNumberMin,
+      deckCardNumberMax,
       power,
       agility,
       strike,
@@ -76,7 +79,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     add("cardType", cardType);
     add("atkType", atkType);
     add("playOrder", playOrder);
-    add("deckCardNumber", deckCardNumber);
+    add("deckCardNumberMin", deckCardNumberMin);
+    add("deckCardNumberMax", deckCardNumberMax);
     add("power", power);
     add("agility", agility);
     add("strike", strike);
@@ -121,7 +125,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
           setCardType(v);
           // Clear fields that don't apply when switching card types
           if (v !== "MainDeckCard") {
-            setDeckCardNumber("");
+            setDeckCardNumberMin("1");
+            setDeckCardNumberMax("27");
             setAtkType("");
             setPlayOrder("");
           }
@@ -180,18 +185,32 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
         <option value="Finish">Finish</option>
       </select>
 
-      {/* Deck Card Number — only relevant to Main Deck */}
-      <input
-        type="number"
-        inputMode="numeric"
-        placeholder="Deck #"
-        value={deckCardNumber}
-        onChange={(e) => setDeckCardNumber(e.target.value)}
-        disabled={cardType !== "MainDeckCard"}
-        className={`w-24 bg-gray-900 text-white border border-gray-700 rounded p-2 ${
-          cardType === "MainDeckCard" ? "" : "opacity-50"
-        }`}
-      />
+      {/* Deck Card Number Range — only relevant to Main Deck */}
+      <div className={`flex items-center gap-2 ${cardType === "MainDeckCard" ? "" : "opacity-50"}`}>
+        <input
+          type="number"
+          inputMode="numeric"
+          placeholder="Min"
+          value={deckCardNumberMin}
+          onChange={(e) => setDeckCardNumberMin(e.target.value)}
+          disabled={cardType !== "MainDeckCard"}
+          min="1"
+          max="30"
+          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
+        />
+        <span className="text-gray-400">-</span>
+        <input
+          type="number"
+          inputMode="numeric"
+          placeholder="Max"
+          value={deckCardNumberMax}
+          onChange={(e) => setDeckCardNumberMax(e.target.value)}
+          disabled={cardType !== "MainDeckCard"}
+          min="1"
+          max="30"
+          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
+        />
+      </div>
 
       {/* Competitor stats — shown for competitor types */}
       {["SingleCompetitorCard", "TornadoCompetitorCard", "TrioCompetitorCard"].includes(cardType) && (

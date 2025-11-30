@@ -9,7 +9,8 @@ const FILTER_KEYS = [
   "cardType",
   "atkType",
   "playOrder",
-  "deckCardNumber",
+  "deckCardNumberMin",
+  "deckCardNumberMax",
   "power",
   "agility",
   "strike",
@@ -31,7 +32,8 @@ export default function Home() {
     cardType: "",
     atkType: "",
     playOrder: "",
-    deckCardNumber: "",
+    deckCardNumberMin: "1",
+    deckCardNumberMax: "27",
     power: "",
     agility: "",
     strike: "",
@@ -91,9 +93,15 @@ export default function Home() {
       if (f.atkType) params.append("atk_type", f.atkType);
       if (f.playOrder) params.append("play_order", f.playOrder);
 
-      if (f.cardType === "MainDeckCard" && f.deckCardNumber !== "") {
-        const n = parseInt(f.deckCardNumber, 10);
-        if (!Number.isNaN(n)) params.append("deck_card_number", String(n));
+      if (f.cardType === "MainDeckCard") {
+        if (f.deckCardNumberMin !== "" && f.deckCardNumberMin !== null && f.deckCardNumberMin !== undefined) {
+          const n = parseInt(f.deckCardNumberMin, 10);
+          if (!Number.isNaN(n)) params.append("deck_card_number_min", String(n));
+        }
+        if (f.deckCardNumberMax !== "" && f.deckCardNumberMax !== null && f.deckCardNumberMax !== undefined) {
+          const n = parseInt(f.deckCardNumberMax, 10);
+          if (!Number.isNaN(n)) params.append("deck_card_number_max", String(n));
+        }
       }
 
       ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {

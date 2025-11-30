@@ -2047,7 +2047,7 @@
   deck_card_number: 8
   rules_text: Your opponent randomly buries 1 card in their hand.
   tags: []
-- name: Snap Suplex
+- name: Snap Suplex (V1)
   db_uuid: b7cc629425f748c2a40d8d3fcd9d50e7
   srg_url: https://supershowthegame.com/product/08-snap-suplex/
   srgpc_url: https://www.srgpc.net/cards/8/snap-suplex/
@@ -2056,6 +2056,14 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: Your opponent buries 1 card in their hand or your next turn roll is +1.
+  tags: []
+- name: Snap Suplex (V2)
+  db_uuid: c2242a8c758a4c1bb055e609174b01ef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: Your opponent buries 1 card in their hand. Your next turn roll is +1.
   tags: []
 - name: Head Crush (V1)
   db_uuid: 28a1382196f34df6a8a7fe881c707e86
@@ -2066,6 +2074,14 @@
   play_order: Lead
   deck_card_number: 9
   rules_text: Your opponent buries 1 card in their hand, or your next turn roll is +1.
+  tags: []
+- name: Head Crush (V3)
+  db_uuid: 3e3d175cca7f4b82a0f18cb0dc190947
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Your opponent buries 1 card in their hand. Your next turn roll is +1.
   tags: []
 - name: Knee Lift
   db_uuid: 977cd7fe10f1438d9388c07719615608
@@ -8015,7 +8031,7 @@
   rules_text: The next time you roll Power for your turn roll, it is +2. When your opponent's Gimmick would move any number of cards from their discard pile to any location, they are instead buried.
   tags:
     - Old School
-- name: Kabloow
+- name: Kabloow (V1)
   db_uuid: 4f5b73c6a84b465e89503efd000bfb11
   srgpc_url: https://www.srgpc.net/cards/8/kabloow/
   card_type: MainDeckCard
@@ -8023,6 +8039,16 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: '+2 to Power, Submission, and Grapple during your next turn roll.
+
+    Cards in your opponent''s discard pile have blank text.'
+  tags: []
+- name: Kabloow (V2)
+  db_uuid: 621922f41ab64307a2d2310b3e707a5c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: '+3 to Power, Submission, and Grapple during your next turn roll.
 
     Cards in your opponent''s discard pile have blank text.'
   tags: []
@@ -8844,7 +8870,7 @@
 
     When this card is discarded from play for a breakout, shuffle 3 other cards from your discard pile into your deck.'
   tags: []
-- name: Ricotta
+- name: Ricotta (V1)
   db_uuid: 0de665b84ce14f99ab7b31b376793793
   srgpc_url: https://www.srgpc.net/cards/9/ricotta/
   card_type: MainDeckCard
@@ -8852,6 +8878,16 @@
   play_order: Lead
   deck_card_number: 9
   rules_text: '+2 to Technique, Strike, and Submission during your next turn roll.
+
+    Cards in your opponent''s discard pile have blank text.'
+  tags: []
+- name: Ricotta (V2)
+  db_uuid: 3f941d1bb879460eb8a2f6167541a28b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: '+3 to Technique, Strike, and Submission during your next turn roll.
 
     Cards in your opponent''s discard pile have blank text.'
   tags: []
@@ -47387,3 +47423,13 @@
   tags: []
   related_cards:
     - 0d55504666344a1686f8fdada45cb7bc
+- name: Soup and Sauce Toss
+  db_uuid: 640bfaaa6d6b44fb91ee64b120944f37
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'Stop any Follow Up Submission.
+
+    This card counts as 2 Lead Grapples in play.'
+  tags: []

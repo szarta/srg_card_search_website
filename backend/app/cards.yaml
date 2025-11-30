@@ -23227,6 +23227,8 @@
 
     If you have a Finish in your discard pile with blank text, double these bonuses.'
   tags: []
+  related_cards:
+    - 16b331c7c2df463bad441c6166f0e15f
 - name: Desert Lotus
   db_uuid: f1d3aeb4dbc040d594e421703b657bac
   card_type: MainDeckCard
@@ -23237,6 +23239,8 @@
 
     When this card is in your discard pile and your opponent moves any number of cards from their discard pile with a card or Gimmick, shuffle this card into your deck: If it was moved with a Gimmick, add it to your hand instead.'
   tags: []
+  related_cards:
+    - 16b331c7c2df463bad441c6166f0e15f
 - name: Call to Hectate
   db_uuid: 8d5a540e09f4463bb9be312e0d69f0e9
   card_type: MainDeckCard
@@ -23249,6 +23253,8 @@
 
     If stopped, your next turn roll is +2.'
   tags: []
+  related_cards:
+    - 16b331c7c2df463bad441c6166f0e15f
 - name: Arcade Addict Aaron
   db_uuid: 51aff101c37346fba003d6e1f21105b1
   srg_url: https://supershowthegame.com/product/arcade-addict-aaron/
@@ -24169,21 +24175,40 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+2 to Power
+
+    Your opponent''s 1st Breakout roll is -2.
+
+    If stopped, you lose the match via disqualification.'
   tags: []
+  related_cards:
+    - 1b4cca9a54f346c2af1ffc58ca1b5d0c
 - name: The Knee Replacement
   db_uuid: 0ce11aaa2de9428e92fdfbe7fc6e4993
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    If your next card played has "Knee" or "Leg" in the name, it is also a Lead.'
   tags: []
+  related_cards:
+    - 1b4cca9a54f346c2af1ffc58ca1b5d0c
 - name: Figure-80 Leg Lock
   db_uuid: 7464384727b942af9c51d2e5b61ce0f0
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +4 to Submission
+
+    If the Crowd Meter is 4 or greater, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - 1b4cca9a54f346c2af1ffc58ca1b5d0c
 - name: Amos the Iron Worker (V1)
   db_uuid: 8e86da7670a84f1898ab2e1e570aebca
   srgpc_url: https://www.srgpc.net/cards/competitors/amos-the-iron-worker/
@@ -24217,27 +24242,59 @@
   grapple: 10
   rules_text: When your opponent stops a card with "Steel", "Wrench", "Burn", or "Fire" in the name, shuffle 1 other card from your discard pile into your deck and draw 1 card.
   tags: []
+  related_finishes:
+    - bc8f5dfdd9b3406a9078459fa065f6f2
+    - 94690264163e431dbfcf6941e06ba837
+    - 4e68b0da643743aca4c32b23225d48c8
 - name: Punch the Clock
   db_uuid: bc8f5dfdd9b3406a9078459fa065f6f2
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Your opponent discards half the cards in their hand (rounded up), then flips the same number of cards.'
   tags: []
+  related_cards:
+    - 8e86da7670a84f1898ab2e1e570aebca
+    - 3f262cc919a84d6b8d1d371695c1ce8f
 - name: Burning on Both Ends
   db_uuid: 94690264163e431dbfcf6941e06ba837
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+4 to Technique
+
+    +1 to Grapple
+
+    Flip up to 6 cards.
+
+    Shuffle 6 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
   tags: []
+  related_cards:
+    - 8e86da7670a84f1898ab2e1e570aebca
+    - 3f262cc919a84d6b8d1d371695c1ce8f
 - name: American Iron Arm Wrench
   db_uuid: 4e68b0da643743aca4c32b23225d48c8
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile and you move 6 or more cards from your discard pile to another location, you may put this card on top of your deck.'
   tags: []
+  related_cards:
+    - 8e86da7670a84f1898ab2e1e570aebca
+    - 3f262cc919a84d6b8d1d371695c1ce8f
 - name: ANTagonist (V1)
   db_uuid: ce6ad6df80c0437194a6957fdbc70712
   srg_url: https://supershowthegame.com/product/antagonist-aprilfools/

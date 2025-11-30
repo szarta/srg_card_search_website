@@ -14534,7 +14534,7 @@
   rules_text: If you have a Follow Up in play, add 1 Stop from your discard pile to your hand.
   tags:
     - Old School
-- name: Reverse Head Drop
+- name: Reverse Head Drop (V1)
   db_uuid: feba792a1a0e45d181e4471a1d438d25
   srgpc_url: https://www.srgpc.net/cards/17/reverse-head-drop/
   card_type: MainDeckCard
@@ -14542,6 +14542,14 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: If you have another Grapple in play your next turn roll is +2.
+  tags: []
+- name: Reverse Head Drop (V2)
+  db_uuid: 9a0959238e9d48799605d12b807880ae
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: If you have another Grapple in play your next turn roll is +2.  If this match has no disqualifications, your next turn roll is +1.
   tags: []
 - name: Rolling German Suplex
   db_uuid: f5c920864e11428aac35bb0e2ba0502f
@@ -14923,7 +14931,7 @@
   deck_card_number: 18
   rules_text: If you have another Follow Up in play, your Tag Team partner may play a Lead or Follow Up this turn.
   tags: []
-- name: Body Crush
+- name: Body Crush (V1)
   db_uuid: 6096704f4338401c8652a3746505155a
   srgpc_url: https://www.srgpc.net/cards/18/body-crush/
   card_type: MainDeckCard
@@ -14931,6 +14939,14 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: If you have another Submission in play your next turn roll is +2.
+  tags: []
+- name: Body Crush (V2)
+  db_uuid: 6ecda0187c4748b1944aa1c027eb539f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: If you have another Submission in play your next turn roll is +2. If this match has no disqualifications, your next turn roll is +1.
   tags: []
 - name: Board, Pillage, Plunder!
   db_uuid: 393d3ddb280749519027c181bfcbb4d3
@@ -14943,7 +14959,7 @@
 
     When you have another Follow Up in play, your maximum handsize is +1.'
   tags: []
-- name: Body Stretch
+- name: Body Stretch (V1)
   db_uuid: 70a3f3159eaa469fb5801bd4c7c45195
   srgpc_url: https://www.srgpc.net/cards/18/body-stretch/
   card_type: MainDeckCard
@@ -14951,6 +14967,14 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: Your next turn roll is +1 for each other Submission you have in play.
+  tags: []
+- name: Body Stretch (V2)
+  db_uuid: 51026cbe89394019acbb44bc0050e780
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: Your next turn roll is +1 for each Submission you have in play.
   tags: []
 - name: Choke Hold
   db_uuid: 9731cdb78db74098a21fde5f6041bab1
@@ -47282,4 +47306,24 @@
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
     The Crowd Meter is considered -1 for all Stop text.'
+  tags: []
+- name: Veggie-Slice
+  db_uuid: ea8e85a558b048cd9e7542effe5f6969
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, discard 1 card you opponent has in play.
+
+    If your opponent hit a Strike this turn, stop any Strike.'
+  tags: []
+- name: Corner-Conrana
+  db_uuid: cb631225f25548588d13775cd89b9d67
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'If you have another Follow Up in play, discard 1 card your opponent has in play.
+
+    If your opponent hit a Submission this turn, stop any Submission.'
   tags: []

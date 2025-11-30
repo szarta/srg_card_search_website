@@ -34105,7 +34105,82 @@
   db_uuid: 325738205e8248dcba7efb484c0c37ef
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 5
+  rules_text: 'When you bump, draw 1 card.
+
+    When you roll Strike for your 3rd Breakout roll, your roll is +5.'
   tags: []
+  related_finishes:
+    - 3c76401006db46c695469c6e530fda71
+    - 1179ef65d965423d9d0b2a77551abca3
+    - 824e929e82354ffbb9cff831def1c162
+    - 27af012d963d4c199e99f3b05f80ed4a
+- name: The JKO
+  db_uuid: 3c76401006db46c695469c6e530fda71
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    Your opponent randomly buries 1 card in their hand, then they randomly discard 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 325738205e8248dcba7efb484c0c37ef
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: The Match of the Year (Mistress of Mayhem)
+  db_uuid: 1179ef65d965423d9d0b2a77551abca3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Your opponent discards 1 card from their hand.
+
+    If this is a Tag Team match, double these bonuses.'
+  tags: []
+  related_cards:
+    - 325738205e8248dcba7efb484c0c37ef
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: Jenocide
+  db_uuid: 824e929e82354ffbb9cff831def1c162
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 325738205e8248dcba7efb484c0c37ef
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: Light It Up Blue
+  db_uuid: 27af012d963d4c199e99f3b05f80ed4a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Grapple
+
+    Your opponent discards 1 random card in their hand.'
+  tags: []
+  related_cards:
+    - 325738205e8248dcba7efb484c0c37ef
+    - 4eecca4ae9e949e5a6f7c251f028b712
 - name: Mombada
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
   card_type: SingleCompetitorCard
@@ -36619,7 +36694,96 @@
   strike: 8
   submission: 9
   grapple: 10
+  rules_text: When you roll Technique for your turn roll or Finish roll, you may switch it to Power.
   tags: []
+  related_finishes:
+    - 5d960f8662294f49aaecb66de0a8addf
+    - 35dda180e39f46a89892d2dbed0db1da
+    - 50ea91b703fb48f3acf9fb1167bf4644
+    - 7992fbf3c6ec4352b58c7e7556f8a1a6
+    - 4e883a63fcf0423f981af027260c3156
+- name: The Loaded Glove
+  db_uuid: 5d960f8662294f49aaecb66de0a8addf
+  srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    When your opponent''s turn roll is 5 this card cannot be stopped.
+
+    If this card is stopped, you lose the match via disqualification.
+
+    If you roll Power, your opponent buries their hand.'
+  tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: Salt in the Eyes
+  db_uuid: 35dda180e39f46a89892d2dbed0db1da
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Submission
+
+    Your opponent randomly buries 5 cards in their hand.
+
+    If stopped, randomly bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: Five Star Heart Punch
+  db_uuid: 50ea91b703fb48f3acf9fb1167bf4644
+  srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Flip 5 cards.
+
+    For each Strike flipped: +1 to Strike and Power.
+
+    Your opponent buries 1 card in their hand for each Strike flipped.'
+  tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: The Match of the Year (Scott Prime)
+  db_uuid: 7992fbf3c6ec4352b58c7e7556f8a1a6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Draw 1 card.
+
+    If this is a Tag Team match, double these bonuses.'
+  tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 4eecca4ae9e949e5a6f7c251f028b712
+- name: The Primal Scream
+  db_uuid: 4e883a63fcf0423f981af027260c3156
+  srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    If you rolled Power for your turn roll this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 4eecca4ae9e949e5a6f7c251f028b712
 - name: Scrapyard Cat
   db_uuid: b0fcea9832944b0890b8d622271fea68
   srgpc_url: https://www.srgpc.net/competitors/scrapyard-cat/
@@ -40786,7 +40950,49 @@
   db_uuid: 4eecca4ae9e949e5a6f7c251f028b712
   srg_url: https://supershowthegame.com/product/five-star-mayhem/
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 16
+  agility: 10
+  strike: 20
+  submission: 18
+  grapple: 12
+  rules_text: 'When you roll Agility for your turn or Finish roll, you may switch it to Power.
+
+    Draw 1 additional card for bumps.
+
+    If your 3rd Breakout roll is Strike, it is +5.'
   tags: []
+  related_cards:
+    - 504e8e4759024076b094608d6b8172a6
+    - 325738205e8248dcba7efb484c0c37ef
+  related_finishes:
+    - b089b28eb42a4fa39f27e8697fb56980
+    - 5d960f8662294f49aaecb66de0a8addf
+    - 35dda180e39f46a89892d2dbed0db1da
+    - 50ea91b703fb48f3acf9fb1167bf4644
+    - 7992fbf3c6ec4352b58c7e7556f8a1a6
+    - 4e883a63fcf0423f981af027260c3156
+    - 3c76401006db46c695469c6e530fda71
+    - 1179ef65d965423d9d0b2a77551abca3
+    - 824e929e82354ffbb9cff831def1c162
+    - 27af012d963d4c199e99f3b05f80ed4a
+- name: The Loaded Glove
+  db_uuid: de57d6d86fdc42dfab67461c972267c0
+  tags: []
+- name: The Love Tap
+  db_uuid: b089b28eb42a4fa39f27e8697fb56980
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    Look at your opponent''s hand.
+
+    Your Grapple is +1 for each Strike your opponent has in their hand.'
+  tags: []
+  related_cards:
+    - 4eecca4ae9e949e5a6f7c251f028b712
 - name: Flippin' Machines
   db_uuid: bb327fc13b4641ecbacc3ced2e7a1559
   srg_url: https://supershowthegame.com/product/flippin-machines/

@@ -8149,6 +8149,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
+  rules_text: 'Your opponent buries 2 cards in their hand.
+
+    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Strike 8+'
   tags: []
 - name: Sweet & Salty Impact Drop (Grapple)
   db_uuid: 67ee5fd4625042778926e81052173083
@@ -8158,7 +8161,7 @@
   deck_card_number: 8
   rules_text: 'Your opponent buries 2 cards in their hand.
 
-    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead.'
+    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Grapple 8+'
   tags: []
 - name: Swing Around the Ring
   db_uuid: e2dc29143f57497aa9372b2943791a0a
@@ -21061,6 +21064,11 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    When this card is in play, the match has no disqualifications.
+
+    Your maximum handsize is +2.'
   tags: []
 - name: Demolition Suplex
   db_uuid: dcd8d8002c9c48849e25b0cc2a63c591
@@ -21069,6 +21077,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission.
+
+    Add 1 card from your discard pile to your hand.'
   tags: []
 - name: Devious Drop
   db_uuid: c8e19c3016e6420e985ad7a94c8dd1f7
@@ -21077,6 +21088,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Your opponent's Gimmick is blank.
   tags: []
 - name: Dirty Tactics
   db_uuid: 88ccf0b256634675ad22a37b06070cc8
@@ -21128,6 +21140,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player''s minimum handsize is +3.'
   tags: []
 - name: Double Leg Bridge
   db_uuid: d2c9a0eae0d84598b25f957477f16755
@@ -21147,6 +21162,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Draw 1 card.
+
+    If you are a Tag Team or a Trio, stop any Submission.'
   tags: []
 - name: Double Underhook Back Buster
   db_uuid: b64cde3215014233a6ed42e1c882c1ea
@@ -21155,6 +21173,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Each player flips 1 card or stop any Submission.
   tags: []
 - name: Dragon Control
   db_uuid: e087a44c624f425f80cfeb2d3dda3925
@@ -21163,6 +21182,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: +1 to Grapple
   tags: []
 - name: Dragon-Conrana
   db_uuid: 2b005f024fd349dca5090cc2c0feb855
@@ -21171,6 +21191,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: +1 to Agility
   tags: []
 - name: Drastic Times
   db_uuid: ac8af13b286c405ba1fb8e9460d3757b
@@ -21179,6 +21200,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Stop any Submission or each player buries 1 card in their discard pile.
   tags: []
 - name: Ember's Chicken Wing
   db_uuid: 5a7c8eb6dcd74cf390539892511bf91e
@@ -21198,6 +21220,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Stop any Submission card.
   tags: []
 - name: Finishing Off The Buddy Building
   db_uuid: 479919d069a64fd18c98ba9ad2508a03
@@ -21206,21 +21229,27 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Stop any Finish Submission or each player buries 1 card in their hand and if this is a Ring of Fire match, your opponent flips 1 card.
   tags: []
 - name: Float Over DDT (V1)
   db_uuid: 3c6788ea30704078a5def7008535db3d
+  srgpc_url: https://www.srgpc.net/cards/26/float-over-ddt/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: Draw 3 cards.
+  tags: []
+- name: Float Over DDT (V2)
+  db_uuid: 8ebe8941c57748f6a836bdb6ac412aac
   srgpc_url: https://www.srgpc.net/cards/26/float-over-ddt-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
-  tags: []
-- name: Float Over DDT (V2)
-  db_uuid: 8ebe8941c57748f6a836bdb6ac412aac
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Lead
-  deck_card_number: 26
+  rules_text: 'Stop any Lead Submission.
+
+    Draw 3 cards.'
   tags: []
 - name: Get That Outta Here!
   db_uuid: 577a2b895993469984ef8d1368770337
@@ -21240,6 +21269,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    Shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Hyper Skull Knee Drop
   db_uuid: 2ae0611c188441f6b307506b0c1f9148
@@ -21248,6 +21280,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Each player adds the bottom card of their deck to their hand or stop any Submission.
   tags: []
 - name: Make It Rain
   db_uuid: 9404f75d867340f697198594c39d87b9
@@ -21280,6 +21313,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player''s maximum handsize is +1.'
   tags: []
 - name: Roll Through
   db_uuid: c46c1d9c3900428f91150a6aec763cf6
@@ -21288,6 +21324,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Your opponent''s maximum handsize is -1.'
   tags: []
 - name: School Boy
   db_uuid: abfe83415b9f439296c8000f2deda7b1
@@ -21313,6 +21352,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: Stop any Finish Submission, even if it cannot be stopped.
   tags: []
 - name: Single Leg Slam
   db_uuid: 8c8a08b3e41245f082a2adcdf50d1194
@@ -21321,6 +21361,11 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
   tags: []
 - name: Slam Into the Ring Post
   db_uuid: 9baeb568fdf3436fb52d04381ab8b963
@@ -21329,6 +21374,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Look at your opponent''s hand, choose 1 card and bury it.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Snap DDT (#26)
   db_uuid: 555e5e9756ca4bf19d797bb8b469a0f1
@@ -21346,18 +21394,25 @@
   tags: []
 - name: Spinning Side Slam (V1)
   db_uuid: c4f12e457c4a4c599eddc5776f510ef0
+  srgpc_url: https://www.srgpc.net/cards/26/spinning-side-slam-v1/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    Your next turn roll is +1.'
+  tags: []
+- name: Spinning Side Slam (V2)
+  db_uuid: ed3265619653445f8ce0371832f456ec
   srgpc_url: https://www.srgpc.net/cards/26/spinning-side-slam/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
-  tags: []
-- name: Spinning Side Slam (V2)
-  db_uuid: ed3265619653445f8ce0371832f456ec
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Lead
-  deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    Your next turn roll is +2.'
   tags: []
 - name: Stretch for the Ropes
   db_uuid: 398866c2b351407e8190f1d40616b5fe
@@ -21366,6 +21421,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    You may force your opponent to re-roll their next turn roll.'
   tags: []
 - name: Stunner
   db_uuid: a866da539394433f89da01547f18007c
@@ -21385,6 +21443,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Draw 1 card.'
   tags: []
 - name: Sunset Flip Powerbomb
   db_uuid: 1818b143f56646f1bab598b6fda08c20
@@ -21393,6 +21454,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission.
+
+    Discard 2 cards your opponent has in play.'
   tags: []
 - name: Sweeping Slam (V1)
   db_uuid: 1f3f990844c449979675a48f7b3bcf2f
@@ -21401,6 +21465,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any printed Finish Submission.
+
+    If the stopped card did not have a competitor logo or skill requirement, this card is also a Finish.'
   tags: []
 - name: Sweeping Slam (V2)
   db_uuid: 6c976b91ce43441eb69301e84d512994
@@ -21408,6 +21475,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Finish Submission.
+
+    If the stopped card did not have a competitor logo or skill requirement, the Crowd Meter is +1 and this card is also a Finish.'
   tags: []
 - name: Tabletop Monkey Flip
   db_uuid: 80b8e65c50604fb687c248a31f76a47b
@@ -21416,6 +21486,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'Stop any Follow Up Submission.
+
+    If you have "Set Up the Table" or "Table" in play, this card is also a Finish.'
   tags: []
 - name: Taunting Impact Suplex
   db_uuid: 049d8d86b4ea476da0f5e7409d23005b
@@ -21435,6 +21508,9 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 26
+  rules_text: 'If this is a Tag Team match, stop any Submission.
+
+    Your Tag Team partner draws 1 card.'
   tags: []
 - name: A Small Fortune
   db_uuid: b235c776b425411e9d3e355d84718782
@@ -21454,6 +21530,11 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    When this card is in play the match has no disqualifications.
+
+    Your maximum handsize is +2.'
   tags: []
 - name: Bankrolling a Championship
   db_uuid: 7df436fad0ef45949c1e61fde3bc1761
@@ -21484,6 +21565,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Strike or Finish Strike.
+
+    Draw 2 cards or your opponent randomly buries 1 card in their hand.'
   tags: []
 - name: Backlash With the Steel Chain
   db_uuid: 1b1d4906d3144e00a5c3c64b3e5757f8
@@ -21503,6 +21587,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'If you have a card in play with "Sledgehammer" in the name, stop any Strike.
+
+    Draw 2 cards, your opponent randomly buries 1 card in their hand.'
   tags: []
 - name: Blatant Chokehold
   db_uuid: b5dcb780c89240679d217257a4ebdc78
@@ -21511,6 +21598,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Your opponent's Gimmick is blank.
   tags: []
 - name: Boston Crab
   db_uuid: 7c0c16f90aa14db5a4bb88fa9e584219
@@ -21519,36 +21607,47 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    You may re-roll your next turn roll.'
   tags: []
 - name: Chicken Wing (V1)
   db_uuid: 4dd6e0a7ece74564844f4b230cce4a69
+  srgpc_url: https://www.srgpc.net/cards/27/chicken-wing-2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: Stop any Finish Strike, your next turn roll is +1.
+  tags: []
+- name: Chicken Wing (V2)
+  db_uuid: 08f7eae79be345439e9bc890cbe05ba5
   srgpc_url: https://www.srgpc.net/cards/27/chicken-wing/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Stop any Finish Strike, your next turn roll is +2.
   tags: []
-- name: Chicken Wing (V2)
-  db_uuid: 08f7eae79be345439e9bc890cbe05ba5
+- name: Choke Out (V1)
+  db_uuid: 6d182040e8414f419777a13f6a1ec838
+  srgpc_url: https://www.srgpc.net/cards/27/choke-out/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Draw 3 cards.
   tags: []
-- name: Choke Out (V1)
-  db_uuid: 6d182040e8414f419777a13f6a1ec838
+- name: Choke Out (V2)
+  db_uuid: b0f0783591054650a0ede833d0d714a7
   srgpc_url: https://www.srgpc.net/cards/27/choke-out-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
-  tags: []
-- name: Choke Out (V2)
-  db_uuid: b0f0783591054650a0ede833d0d714a7
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Lead
-  deck_card_number: 27
+  rules_text: 'Stop any Lead Strike.
+
+    Draw 3 cards.'
   tags: []
 - name: Devious Choke
   db_uuid: 8f675445df204825b65a3a89a68df001
@@ -21557,6 +21656,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Look at your opponent''s hand, choose 1 card and bury it.
+
+    Your next turn roll is +1.'
   tags: []
 - name: Diving Choke
   db_uuid: bea521ab20944c69a87ac4fab183e259
@@ -21565,6 +21667,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'If this is a Tag Team match, stop any Strike.
+
+    Your Tag partner draws 1 card.'
   tags: []
 - name: Double Armbar
   db_uuid: 24da2f850f4d43289999418be2c29f73
@@ -21582,6 +21687,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Draw 1 card.
+
+    If you are a Tag Team or a Trio, stop any Strike.'
   tags: []
 - name: Double Finger Lock
   db_uuid: b5c090e5392f4389ab838b7184516a5e
@@ -21590,6 +21698,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Each player draws 1 card.'
   tags: []
 - name: Double Hand Hold
   db_uuid: 65cd09f2bd0e47369851d39f744cebbf
@@ -21598,6 +21709,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Bury up to 3 cards in your opponent''s discard pile.'
   tags: []
 - name: Double Leg Lock
   db_uuid: a600eac814e249e0bc3cc3dc5fb520fd
@@ -21606,6 +21720,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Each player flips 1 card or stop any Strike.
   tags: []
 - name: Dragon Arm Lock
   db_uuid: bc6753ed2ecc48fcab76f5411434cf83
@@ -21614,6 +21729,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: +1 to Submission.
   tags: []
 - name: Dragon Sleeper
   db_uuid: ac7330f10cc34a6493189963a19edb5d
@@ -21622,6 +21738,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: +1 to Power.
   tags: []
 - name: Eternal Conjure
   db_uuid: 3f82d43ec850456e8dea10508612236e
@@ -21641,6 +21758,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: '+1 to your Breakout rolls.
+
+    If the Crowd Meter is 2 or greater or this is a Steel Cage match, stop any Finish Strike.'
   tags: []
 - name: Flip Out of the Ring
   db_uuid: 1f5f8e9c5fe24125bca5d5c67f7aed69
@@ -21649,6 +21769,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Discard 1 card your opponent has in play.
+
+    Add 2 cards from your discard pile to your hand.'
   tags: []
 - name: Foot On the Ropes
   db_uuid: ac8543a1a5ed426e8940764602e79b36
@@ -21657,6 +21780,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    If you stopped a Finish, the Crowd Meter is +1.'
   tags: []
 - name: Force Shield
   db_uuid: a43c8205073b4178a332566040a443ee
@@ -21665,6 +21791,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Shuffle 2 Grapples from your discard pile into your deck.'
   tags: []
 - name: Freeze! Don't Move
   db_uuid: 2ca6da31309b42a8a1e578e4970f5626
@@ -21695,6 +21824,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Stop any Finish Strike, even if it cannot be stopped.
   tags: []
 - name: It's the Size of the Fight in the Dog
   db_uuid: bca32c36897e4dd89b408c4158758bc3
@@ -21726,6 +21856,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike.
+
+    Your opponent randomly buries 2 cards in their hand.'
   tags: []
 - name: King's Clutch
   db_uuid: a38160d99d954d29abbe9a256793f2bf
@@ -21734,6 +21867,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike.
+
+    Add 1 card from your discard pile to your hand.'
   tags: []
 - name: Leg & Arm Lock (#27)
   db_uuid: 855eabc5b6634eb4bea1f43ccdd4d6ed
@@ -21755,6 +21891,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Stop any Strike or each player buries 1 card in their discard pile.
   tags: []
 - name: Muta Lock
   db_uuid: 6cb81c46205e4e3eb23ace6e02fd3ad4
@@ -21763,6 +21900,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Each player''s maximum handsize is +1.'
   tags: []
 - name: Rolling Armbar
   db_uuid: ee907792472a4d3d8e690fd399ae04f7
@@ -21771,6 +21911,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or any Finish Strike.
+
+    Draw 1 card.'
   tags: []
 - name: Seated Armbar
   db_uuid: 4c3a28a7ea4641aba101283ddbf51153
@@ -21779,6 +21922,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike.
+
+    Discard 2 cards your opponent has in play.'
   tags: []
 - name: Seated Finger Lock
   db_uuid: 2932124c95c948779a001341b71945d6
@@ -21787,6 +21933,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Each player''s minimum handsize is +3.'
   tags: []
 - name: Sheep Trick
   db_uuid: e17e01c54ed54f89ba9e91a2a6ed0ba3
@@ -21795,6 +21944,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Each player adds the bottom card of their deck to their hand or stop any Strike.
   tags: []
 - name: Shoulder Lock
   db_uuid: f320f033ea784a92a5f1fd924a366622
@@ -21803,6 +21953,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Your opponent''s maximum handsize is -1.'
   tags: []
 - name: Shoulder Snap
   db_uuid: c41384ddc3db490faaad46b32c3af3e4
@@ -21811,6 +21964,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    Shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Slammin' Beards
   db_uuid: 57e7d065942e4ce0a27e7288392504b7
@@ -21819,6 +21975,11 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Each player reveals the top card of their deck and adds it to their hand.
+
+    If this is a Steel Cage or Liger''s Den match, you may flip both cards instead.'
   tags: []
 - name: Skull Twist
   db_uuid: 28c499973f9f4713a97f3f88e95f0213
@@ -21827,14 +21988,20 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    Search your deck for 1 Submission and put it on top of your shuffled deck.'
   tags: []
-- name: Sky-High Choke
+- name: Sky-High Choke (Submission)
   db_uuid: 8fd26f46682d4d6d82cf46c3296e3566
   srgpc_url: https://www.srgpc.net/cards/27/sky-high-choke/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    Your Finish rolls are +1.  Skill Requirement: Submission 8+'
   tags: []
 - name: Smush into the Turnbuckle
   db_uuid: 37e307cb41c54764b432fcab6803a339
@@ -21843,6 +22010,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike or Finish Strike.
+
+    Cards in your opponent''s discard pile have blank text.'
   tags: []
 - name: STF
   db_uuid: 892e566c192c40b2bc7d733a5e55ccdc
@@ -21851,6 +22021,9 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Follow Up Strike or Finish Strike.
+
+    You may force your opponent to re-roll their next turn roll.'
   tags: []
 - name: Swing and a Schmidt
   db_uuid: 0f2b94b038994ff09537744674255dc8
@@ -21859,6 +22032,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: Stop any Finish Strike or each player buries 1 card in their hand and if this is a Ring of Fire match, your opponent flips 1 card.
   tags: []
 - name: Tame and Constrain
   db_uuid: e6d52800742b4d55b0717efe72481749
@@ -21867,6 +22041,11 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    Each player discards the bottom card of their deck.
+
+    If this is a Triad match, you may add those cards to each player''s hand.'
   tags: []
 - name: The Fix Is In
   db_uuid: af08b3726fcb4f5da30ff524c882c3e2
@@ -21875,21 +22054,31 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    Put 1 Submission from your discard pile on top of your deck.'
   tags: []
 - name: Umbrella Hold (V1)
   db_uuid: 9bb051d3d8624a46beff63e7e421fd1a
+  srgpc_url: https://www.srgpc.net/cards/27/umbrella-hold/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any printed Finish Strike.
+
+    If the stopped card did not have a competitor logo or skill requirement, this card is also a Finish.'
+  tags: []
+- name: Umbrella Hold (V2)
+  db_uuid: c353c415d5aa42a594c801d22a99b0aa
   srgpc_url: https://www.srgpc.net/cards/27/umbrella-hold-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 27
-  tags: []
-- name: Umbrella Hold (V2)
-  db_uuid: c353c415d5aa42a594c801d22a99b0aa
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Lead
-  deck_card_number: 27
+  rules_text: 'Stop any Finish Strike.
+
+    If the stopped card did not have a competitor logo or skill requirement, the Crowd Meter is +1 and this card is also a Finish.'
   tags: []
 - name: Wrap in the Ropes
   db_uuid: d1f7c5ef29fc4e7b81eb7035e6b0ac73
@@ -22648,21 +22837,44 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If you have a card in play with "Wrench" in the name, double these bonuses.'
   tags: []
+  related_cards:
+    - 49d86a1b4f724377adf532d4575ab885
 - name: Nova-Plex
   db_uuid: 50187b39981d44f399ba5ca371c52ed2
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    If you have 3 cards in play with "Wrench" in the name, your opponent gets 1 Breakout roll.'
   tags: []
+  related_cards:
+    - 49d86a1b4f724377adf532d4575ab885
 - name: Nova-Wrench
   db_uuid: 6fb0d05d97134a74a85f41af342ed1c8
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    If you rolled Technique for your turn roll, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - 49d86a1b4f724377adf532d4575ab885
 - name: Amelia Breckenwith
   db_uuid: d7a4d360d24545809a143d0cf1e69663
   srgpc_url: https://www.srgpc.net/competitors/amelia-breckenwith/
@@ -22704,6 +22916,7 @@
     - 6175526eefc9482e84f4da74fa05ec49
 - name: Anastasia Morningstar (V2)
   db_uuid: 02d84608c0b249eda70fdbcb9c2225b9
+  srgpc_url: https://www.srgpc.net/cards/competitors/anastasia-morningstar/
   card_type: SingleCompetitorCard
   division: Global
   gender: Ambiguous
@@ -22725,21 +22938,45 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    Look at your opponent''s hand and choose 2 cards.
+
+    Put one on top of your opponent''s deck and bury the other.'
   tags: []
+  related_cards:
+    - 7542616eb8064027b33b2d0651a77d9e
+    - 02d84608c0b249eda70fdbcb9c2225b9
 - name: The Dark Bomb
   db_uuid: b7c0bef7462540209be3c1bf99b62fb3
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +4 to Grapple
+
+    Your opponent flips all cards in their deck, then randomly buries their discard pile.'
   tags: []
+  related_cards:
+    - 7542616eb8064027b33b2d0651a77d9e
+    - 02d84608c0b249eda70fdbcb9c2225b9
 - name: The Noctifer
   db_uuid: 6175526eefc9482e84f4da74fa05ec49
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Your opponent''s next turn roll is -2.'
   tags: []
+  related_cards:
+    - 7542616eb8064027b33b2d0651a77d9e
+    - 02d84608c0b249eda70fdbcb9c2225b9
 - name: Andreas Fiesta
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
   srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/

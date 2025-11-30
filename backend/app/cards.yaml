@@ -13625,7 +13625,7 @@
   rules_text: Your next turn roll is +1 for each Stop in play.
   tags:
     - Super Lucha
-- name: Flying Back Elbow
+- name: Flying Back Elbow (V1)
   db_uuid: 72f63a6d60f44404991e4a3f8bf68a3d
   srgpc_url: https://www.srgpc.net/cards/16/flying-back-elbow/
   card_type: MainDeckCard
@@ -45748,19 +45748,9 @@
   deck_card_number: 20
   rules_text: If you have a card in play with "Table" in the name and your opponent has another Submission in play, stop any Submission.
   tags: []
-- name: Old School Shoulder Slam
-  db_uuid: 871db6d07bf340b5b2e415f7c6419b91
-  srgpc_url: https://www.srgpc.net/cards/20/old-school-shoulder-breaker/
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Followup
-  deck_card_number: 20
-  rules_text: 'If your opponent has another Submission in play, stop any Submission.
-
-    This card counts as 2 Follow Up Grapples in play.'
-  tags: []
 - name: Old School Shoulder Breaker
   db_uuid: d84eea58cf254ddead5bb47036a30e11
+  srgpc_url: https://www.srgpc.net/cards/20/old-school-shoulder-breaker/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -47265,3 +47255,31 @@
     - Super Lucha
   related_cards:
     - 8afc71160a9b48f6bcbe5671f96e042d
+- name: Springboard Kick
+  db_uuid: eb43ad2b72034522a53498b66581277b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'If you have another Follow Up in play, discard 1 card your opponent has in play.
+
+    If your opponent hit a Grapple this turn, stop any Grapple.'
+  tags: []
+- name: Flying Back Elbow (V2)
+  db_uuid: 053ce5ef1df8451b9c7a0b65b92f07d2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: Your next turn roll is +1 for each Strike you have in play.
+  tags: []
+- name: Stunned and Outgunned
+  db_uuid: 39dbfffb15e14ba889bfb04ecc40c6c3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    The Crowd Meter is considered -1 for all Stop text.'
+  tags: []

@@ -26608,7 +26608,7 @@
 
     When this card is in your discard pile and your roll Strike you may discard 1 card.  If stopped you lose the match via Disqualification.'
   tags: []
-- name: Anarchy's Shovel
+- name: Anarchy's Shovel (Anarchy's Son)
   db_uuid: eb6f73c0770e4aa2a8a4ce5b42100ca6
   srg_url: https://supershowthegame.com/product/anarchys-son/
   card_type: MainDeckCard
@@ -31167,6 +31167,14 @@
 
     You may replace all Crowd Meter cards with either: Steel Cage, Psycho Circus, Lumberjack, No DQ, or Submission Match Crowd Meters.'
   tags: []
+  related_cards:
+    - 027a8e6e5826403fa92ea3a76a1985b5
+  related_finishes:
+    - 044e4a87082a40598f5795d540f51591
+    - bc93b9104435414d96d28be0549ce63c
+    - 6c66f931266b49bfb7ca54e3d1ffa194
+    - e6e3e7bcfb7f48b9916e7ae5b21cc97d
+    - 7d30fd37823749158efb0843310993f1
 - name: General Manager John Calace (V2)
   db_uuid: c4a11e2c1cc1428c82d6c46a4f1f3646
   card_type: SingleCompetitorCard
@@ -31180,6 +31188,92 @@
   grapple: 5
   rules_text: 'Your cards with "Bar", "Shot", or "Bender" in the name have the added text: "Your opponent buries 1 random card in their hand." When you have 5 cards with "Bar", "Shot", or "Bender" in the name in play, your opponent''s Gimmick is blank.'
   tags: []
+  related_cards:
+    - 027a8e6e5826403fa92ea3a76a1985b5
+  related_finishes:
+    - 044e4a87082a40598f5795d540f51591
+    - bc93b9104435414d96d28be0549ce63c
+    - 6c66f931266b49bfb7ca54e3d1ffa194
+    - e6e3e7bcfb7f48b9916e7ae5b21cc97d
+    - 7d30fd37823749158efb0843310993f1
+- name: Skol-Line
+  db_uuid: 044e4a87082a40598f5795d540f51591
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Agility
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: Peasant Driver
+  db_uuid: bc93b9104435414d96d28be0549ce63c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    You may blank the Crowd Meter until the end of the turn.
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: Sorry, Charlie
+  db_uuid: 6c66f931266b49bfb7ca54e3d1ffa194
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Grapple
+
+    Discard 5 cards from your hand, or your opponent draws 5 cards.'
+  tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: After Dark Bender
+  db_uuid: e6e3e7bcfb7f48b9916e7ae5b21cc97d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent''s 1st Breakout roll is -1 for each card you have in play with "Bender" in the name.
+
+    Their 2nd Breakout roll is -1 for each card you have in play with "Shot" in the name.'
+  tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: Death Choke
+  db_uuid: 7d30fd37823749158efb0843310993f1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    When the Crowd Meter is 3 or greater, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 027a8e6e5826403fa92ea3a76a1985b5
 - name: GGP
   db_uuid: 6ac028b8730a4e77a303e04ddd9efc8a
   srgpc_url: https://www.srgpc.net/cards/competitors/ggp/
@@ -38972,6 +39066,11 @@
   grapple: 10
   rules_text: When your opponent stops your Grapple, look at the top 3 cards of your deck, add 1 to your hand, flip 1, and bury the other.
   tags: []
+  related_finishes:
+    - 89ac74a441bc49f9a68f66149740e297
+    - 841038f531984bd0899a626cc3f820f8
+    - 68c0e08262964b17baa39c93ea6433eb
+    - 5bd10cf85a5d445d993a16851fbc5c84
 - name: Wooly Bully (V2)
   db_uuid: 01d7da804407400684e6243d0bc5774a
   card_type: SingleCompetitorCard
@@ -38985,6 +39084,11 @@
   grapple: 10
   rules_text: When your opponent stops a Grapple, reveal the top 3 cards of your deck, add 2 to your hand and bury the other.
   tags: []
+  related_finishes:
+    - 89ac74a441bc49f9a68f66149740e297
+    - 841038f531984bd0899a626cc3f820f8
+    - 68c0e08262964b17baa39c93ea6433eb
+    - 5bd10cf85a5d445d993a16851fbc5c84
 - name: Wooly Bully (V3)
   db_uuid: 3e393847dd0940018f4921d4b6dd9c3a
   card_type: SingleCompetitorCard
@@ -38998,6 +39102,81 @@
   grapple: 7
   rules_text: When you roll Technique, you may look at the top 3 cards of your deck, flip 1, bury 1, and put the other back on top.
   tags: []
+  related_finishes:
+    - 89ac74a441bc49f9a68f66149740e297
+    - 841038f531984bd0899a626cc3f820f8
+    - 68c0e08262964b17baa39c93ea6433eb
+    - 5bd10cf85a5d445d993a16851fbc5c84
+- name: The Lamb Chop
+  db_uuid: 89ac74a441bc49f9a68f66149740e297
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If this card is flipped, instead bury it and draw 1 card.'
+  tags: []
+  related_cards:
+    - 5d762e9b0091476e82e97ea73034fefa
+    - 01d7da804407400684e6243d0bc5774a
+    - 3e393847dd0940018f4921d4b6dd9c3a
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: Anarchy's Shovel (Wooly Bully)
+  db_uuid: 841038f531984bd0899a626cc3f820f8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If stopped, discard 1 card from your hand and bury this card or lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 5d762e9b0091476e82e97ea73034fefa
+    - 01d7da804407400684e6243d0bc5774a
+    - 3e393847dd0940018f4921d4b6dd9c3a
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: The Wool Cutter
+  db_uuid: 68c0e08262964b17baa39c93ea6433eb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    When the Crowd Meter is 1 or greater this card is also a Follow Up.
+
+    When the Crowd Meter is 2 or greater this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 5d762e9b0091476e82e97ea73034fefa
+    - 01d7da804407400684e6243d0bc5774a
+    - 3e393847dd0940018f4921d4b6dd9c3a
+    - 027a8e6e5826403fa92ea3a76a1985b5
+- name: Shear Punishment
+  db_uuid: 5bd10cf85a5d445d993a16851fbc5c84
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Draw the bottom 2 cards of your deck.'
+  tags: []
+  related_cards:
+    - 5d762e9b0091476e82e97ea73034fefa
+    - 01d7da804407400684e6243d0bc5774a
+    - 3e393847dd0940018f4921d4b6dd9c3a
+    - 027a8e6e5826403fa92ea3a76a1985b5
 - name: Wrench Monkey
   db_uuid: e2f4f5e7315442059b7057b0333e0e23
   srgpc_url: https://www.srgpc.net/cards/competitors/wrench-monkey/
@@ -41537,6 +41716,22 @@
   grapple: 10
   rules_text: 'Your cards with "Bar", "Shot", "Sheep", "Frog", or "Bender" in the name have the added text: "Your opponent randomly buries 1 card in their hand, bury 1 card in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - c3a4f97f97024dc7aba6e6321cf47bd2
+    - c4a11e2c1cc1428c82d6c46a4f1f3646
+    - 5d762e9b0091476e82e97ea73034fefa
+    - 01d7da804407400684e6243d0bc5774a
+    - 3e393847dd0940018f4921d4b6dd9c3a
+  related_finishes:
+    - 044e4a87082a40598f5795d540f51591
+    - bc93b9104435414d96d28be0549ce63c
+    - 6c66f931266b49bfb7ca54e3d1ffa194
+    - e6e3e7bcfb7f48b9916e7ae5b21cc97d
+    - 7d30fd37823749158efb0843310993f1
+    - 89ac74a441bc49f9a68f66149740e297
+    - 841038f531984bd0899a626cc3f820f8
+    - 68c0e08262964b17baa39c93ea6433eb
+    - 5bd10cf85a5d445d993a16851fbc5c84
 - name: Lord Graves
   db_uuid: 6ded6a7076cc4621bd998aaee548b55e
   srg_url: https://supershowthegame.com/product/lord-graves-master-of-the-frozen-shadows-halloween-competitor/

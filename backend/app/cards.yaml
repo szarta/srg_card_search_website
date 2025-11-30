@@ -31260,6 +31260,7 @@
     - c3a4f97f97024dc7aba6e6321cf47bd2
     - c4a11e2c1cc1428c82d6c46a4f1f3646
     - 027a8e6e5826403fa92ea3a76a1985b5
+    - a28b9f5e3a034f3fb375477b6c07ea34
 - name: Death Choke
   db_uuid: 7d30fd37823749158efb0843310993f1
   card_type: MainDeckCard
@@ -31274,6 +31275,7 @@
     - c3a4f97f97024dc7aba6e6321cf47bd2
     - c4a11e2c1cc1428c82d6c46a4f1f3646
     - 027a8e6e5826403fa92ea3a76a1985b5
+    - a28b9f5e3a034f3fb375477b6c07ea34
 - name: GGP
   db_uuid: 6ac028b8730a4e77a303e04ddd9efc8a
   srgpc_url: https://www.srgpc.net/cards/competitors/ggp/
@@ -42758,8 +42760,8 @@
     - 44cb89f64a234337a7897fad2983fdc2
     - c97df853d2d84795bdbe639f97d7bd7f
     - d8daf9788cef4fd99edd43d23c0b4c82
-    - 3b553daa34a34e4ea66dfa39235c5f19
-    - 661dbb27619b4c26b84d4dc020f50d1a
+    - 7d30fd37823749158efb0843310993f1
+    - e6e3e7bcfb7f48b9916e7ae5b21cc97d
     - 052f3107fc894070bd6cbdab7d52549f
 - name: Boss-Rate Beatdown
   db_uuid: 44cb89f64a234337a7897fad2983fdc2
@@ -42792,24 +42794,6 @@
     Bury 3 cards in your opponent''s discard pile.
 
     Draw 3 cards.'
-  tags: []
-- name: Death Choke
-  db_uuid: 3b553daa34a34e4ea66dfa39235c5f19
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Finish
-  deck_card_number: 30
-  rules_text: '+2 to Submission
-
-    When the Crowd Meter is 3 or greater, your opponent cannot breakout.'
-  tags: []
-- name: After-Dark Bender
-  db_uuid: 661dbb27619b4c26b84d4dc020f50d1a
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Finish
-  deck_card_number: 30
-  rules_text: Your opponent's 1st breakout roll is -1 for each card you have in play with "Bender" in the name. Their 2nd breakout roll is -1 for each card you have in play with "Shot" in the name.
   tags: []
 - name: Thinky and The Brain
   db_uuid: dd9c19e211af423fb22f621910a75393

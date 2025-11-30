@@ -34116,6 +34116,8 @@
 
     When you roll Strike for your 3rd Breakout roll, your roll is +5.'
   tags: []
+  related_cards:
+    - 4eecca4ae9e949e5a6f7c251f028b712
   related_finishes:
     - 3c76401006db46c695469c6e530fda71
     - 1179ef65d965423d9d0b2a77551abca3
@@ -36696,6 +36698,8 @@
   grapple: 10
   rules_text: When you roll Technique for your turn roll or Finish roll, you may switch it to Power.
   tags: []
+  related_cards:
+    - 4eecca4ae9e949e5a6f7c251f028b712
   related_finishes:
     - 5d960f8662294f49aaecb66de0a8addf
     - 35dda180e39f46a89892d2dbed0db1da
@@ -46392,3 +46396,68 @@
     - Super Lucha
   related_cards:
     - b0c907179ca64ae19373d3bd697081ef
+- name: Rosa
+  db_uuid: 8afc71160a9b48f6bcbe5671f96e042d
+  srg_url: https://supershowthegame.com/product/rosa/
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: 'Once per turn roll: When your target rolls Agility, you may re-roll your turn roll.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - fdb2ec1e08604c969a87b26e7c4e363d
+    - 426a8bb9d041479e94c7effc68178934
+    - 5e6778a8386e4c27a60edfbcca6d3293
+- name: Rubber Chicken!
+  db_uuid: fdb2ec1e08604c969a87b26e7c4e363d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8afc71160a9b48f6bcbe5671f96e042d
+- name: Fun Flower Shower!
+  db_uuid: 426a8bb9d041479e94c7effc68178934
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8afc71160a9b48f6bcbe5671f96e042d
+- name: Hypersonic Rainbow!
+  db_uuid: 5e6778a8386e4c27a60edfbcca6d3293
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +2 to Agility
+
+    +2 to Strike
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8afc71160a9b48f6bcbe5671f96e042d

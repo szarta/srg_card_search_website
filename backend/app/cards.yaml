@@ -47327,3 +47327,63 @@
 
     If your opponent hit a Submission this turn, stop any Submission.'
   tags: []
+- name: Leon Slater
+  db_uuid: 0d55504666344a1686f8fdada45cb7bc
+  srg_url: https://supershowthegame.com/product/leon-slater/
+  card_type: SingleCompetitorCard
+  division: Global
+  gender: Male
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 6
+  grapple: 8
+  rules_text: 'When you roll Power for your turn or Finish roll: if you have fewer cards in hand than your target, draw 3 cards.'
+  tags: []
+  related_finishes:
+    - 66b2514d3f2a475490fb05fe1115215d
+    - 9d33a0c6ac9e46439fb4ca6220aa5efa
+    - dfe6d90d48614c0db89800b31a82416e
+- name: Swanton 450
+  db_uuid: 66b2514d3f2a475490fb05fe1115215d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    Bury up to 3 cards in your hand; your Power is +1 for each card buried.'
+  tags: []
+  related_cards:
+    - 0d55504666344a1686f8fdada45cb7bc
+- name: Twist of Slate
+  db_uuid: 9d33a0c6ac9e46439fb4ca6220aa5efa
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Discard up to 2 cards from your hand.
+
+    Add up to 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 0d55504666344a1686f8fdada45cb7bc
+- name: Youngest in Charge
+  db_uuid: dfe6d90d48614c0db89800b31a82416e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    During the next turn roll: you may discard 1 card from your hand to switch your turn roll to Power.'
+  tags: []
+  related_cards:
+    - 0d55504666344a1686f8fdada45cb7bc

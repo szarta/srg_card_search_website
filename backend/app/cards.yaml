@@ -23001,21 +23001,42 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Add 1 Lead you have in play to your hand.'
   tags: []
+  related_cards:
+    - 47ab42f483b34d89bedc5b96374ab707
 - name: The Party Foul
   db_uuid: 44c4ff6684d1410fad27c125885521d1
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    If stopped, your opopnent''s turn rolls are -1 until you hit a card or end your turn without playing a card.'
   tags: []
+  related_cards:
+    - 47ab42f483b34d89bedc5b96374ab707
 - name: Mind Games (#30)
   db_uuid: ee74a7038b1f495ba9376826ae60e7ec
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    You may use your opponent''s skill of the same type for your Finish roll.'
   tags: []
+  related_cards:
+    - 47ab42f483b34d89bedc5b96374ab707
 - name: The Angler (V1)
   db_uuid: c069f0402fb949bc8133703f98f1e328
   srg_url: https://supershowthegame.com/product/the-angler/

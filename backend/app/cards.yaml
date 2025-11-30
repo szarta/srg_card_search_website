@@ -23068,6 +23068,11 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+3 to Power
+
+    Shuffle 1 other Strike you have in play into your deck.
+
+    When this card is in your discard pile, it is also a Lead.'
   tags: []
   related_cards:
     - c069f0402fb949bc8133703f98f1e328
@@ -23080,6 +23085,13 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    When the Crowd Meter is 2 or Greater: If you have a Lead Strike in play, this card is also a Follow Up.'
   tags: []
   related_cards:
     - c069f0402fb949bc8133703f98f1e328
@@ -23092,6 +23104,9 @@
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    Shuffle up to 5 Strikes from your discard pile into your deck and draw the same number of cards.'
   tags: []
   related_cards:
     - c069f0402fb949bc8133703f98f1e328
@@ -23206,6 +23221,11 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    If you have a Finish in your discard pile with blank text, double these bonuses.'
   tags: []
 - name: Desert Lotus
   db_uuid: f1d3aeb4dbc040d594e421703b657bac
@@ -23213,6 +23233,9 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    When this card is in your discard pile and your opponent moves any number of cards from their discard pile with a card or Gimmick, shuffle this card into your deck: If it was moved with a Gimmick, add it to your hand instead.'
   tags: []
 - name: Call to Hectate
   db_uuid: 8d5a540e09f4463bb9be312e0d69f0e9
@@ -23220,6 +23243,11 @@
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    If stopped, your next turn roll is +2.'
   tags: []
 - name: Arcade Addict Aaron
   db_uuid: 51aff101c37346fba003d6e1f21105b1

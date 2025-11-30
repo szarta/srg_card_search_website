@@ -31316,7 +31316,9 @@
   tags: []
 - name: Fauxtista (V2)
   db_uuid: 4356f9b884184358a9bb01e9c8b012be
+  srgpc_url: https://www.srgpc.net/competitors/fauxtista-v2/
   card_type: SingleCompetitorCard
+  division: Hardcore
   gender: Male
   power: 7
   technique: 9
@@ -31326,7 +31328,54 @@
   grapple: 8
   rules_text: When you roll Submission for your turn roll, your opponent's Gimmick is immediately blanked until the end of this turn roll and their turn roll is -1.
   tags: []
-  dvision: Hardcore
+  related_finishes:
+    - a34e3f53db5e417ca7c0d0436dd72991
+    - f70687bc993448fcb354c27184c42bad
+    - aaf8ac870fa741fc8dfae7ab6a2d8102
+- name: Boomshot
+  db_uuid: a34e3f53db5e417ca7c0d0436dd72991
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand.
+
+    If you rolled Submission for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 4356f9b884184358a9bb01e9c8b012be
+- name: The Hammer of Dawn
+  db_uuid: f70687bc993448fcb354c27184c42bad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you roll Submission for your turn roll, you may discard 3 cards from your hand to put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - 4356f9b884184358a9bb01e9c8b012be
+- name: C.O.G.
+  db_uuid: aaf8ac870fa741fc8dfae7ab6a2d8102
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If you rolled Submission for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 4356f9b884184358a9bb01e9c8b012be
 - name: Finland
   db_uuid: ff124a60d2f94fe4ab9fd04b21ddda50
   srgpc_url: https://www.srgpc.net/cards/competitors/finland/

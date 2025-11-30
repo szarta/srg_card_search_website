@@ -37562,7 +37562,110 @@
   db_uuid: 294600d7a6514933a4fcb4b35e8815c4
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: 'When the Crowd Meter increases: Draw 1 card and your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_finishes:
+    - cd999089c0a646119e0d7b2ed9c74804
+    - d0696e4c4681425f90ec4c298b3cbfe4
+    - f46ff20971b04d8b9198bf1a97a0bcd7
+    - f3e7ea9fbb7443ddaf9b47fd1285e5be
+    - bbf3bc3eb0e14b6fa99ddd468661ba0a
+    - 32c4227efe9146efa269946ad12010f1
+- name: Thicc Boi Senton (V1)
+  db_uuid: cd999089c0a646119e0d7b2ed9c74804
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If stopped, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
+- name: Dawsome Driver (V1)
+  db_uuid: d0696e4c4681425f90ec4c298b3cbfe4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Each player draws 2 cards.
+
+    Your opponent discards cards equal to the Crowd Meter.
+
+    Your opponent''s 1st and 2nd breakout rolls are -1 for each Finish in their discard pile.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
+- name: Zaddy Sleeper (V1)
+  db_uuid: f46ff20971b04d8b9198bf1a97a0bcd7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s next turn roll is - the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
+- name: Thicc Boi Senton (V2)
+  db_uuid: f3e7ea9fbb7443ddaf9b47fd1285e5be
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If stopped, the Crowd Meter is +1.
+
+    If you are a Tag Team, double these bonuses.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
+- name: Dawsome Driver (V2)
+  db_uuid: bbf3bc3eb0e14b6fa99ddd468661ba0a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Draw 2 cards.
+
+    Your opponent discards cards equal to the Crowd Meter +2.
+
+    Your opponent''s 1st and 2nd breakout rolls are -1 for each Finish in their discard pile.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
+- name: Zaddy Sleeper (V2)
+  db_uuid: 32c4227efe9146efa269946ad12010f1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s next turn roll is - the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 294600d7a6514933a4fcb4b35e8815c4
 - name: Swim Files (V1)
   db_uuid: b2fd07aa82b94642b426a437ae395596
   card_type: SingleCompetitorCard

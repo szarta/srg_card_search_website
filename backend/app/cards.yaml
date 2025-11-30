@@ -40976,9 +40976,6 @@
     - 1179ef65d965423d9d0b2a77551abca3
     - 824e929e82354ffbb9cff831def1c162
     - 27af012d963d4c199e99f3b05f80ed4a
-- name: The Loaded Glove
-  db_uuid: de57d6d86fdc42dfab67461c972267c0
-  tags: []
 - name: The Love Tap
   db_uuid: b089b28eb42a4fa39f27e8697fb56980
   card_type: MainDeckCard

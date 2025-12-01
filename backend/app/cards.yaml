@@ -40502,10 +40502,18 @@
   strike: 5
   submission: 7
   grapple: 8
+  rules_text: 'Once per turn roll: When your opponent rolls Grapple, you may force them to re-roll.'
   tags: []
 - name: The Zookeeper
   db_uuid: 008a69befa074a0f99556e773fdc4315
   card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: It is considered a Liger's Den match for your card effects.
   tags: []
 - name: Mr. Sunday Night Ron Rumble
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
@@ -41571,11 +41579,26 @@
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: 'When you roll Submission for your turn roll: Draw 1 card then flip 1 card.'
   tags: []
 - name: Cock-a-Doodle Dick Thunderlips
   db_uuid: 1dcda13fa9d445f1a8347d6f2e54bdae
   srg_url: https://supershowthegame.com/product/cock-a-doodle-dick-thunderlips/
   card_type: TornadoCompetitorCard
+  power: 10
+  technique: 20
+  agility: 12
+  strike: 16
+  submission: 18
+  grapple: 14
+  rules_text: When you have equal or fewer cards in your hand than your opponent and you would bump, your roll is instead +9000
   tags: []
 - name: Commodore Terror Skull
   db_uuid: f9a79090f8954ced812232f2c4d6b2af
@@ -41594,11 +41617,26 @@
 - name: Communion Party
   db_uuid: 2604cae3f8c946daae98ac412d0acd35
   card_type: TrioCompetitorCard
+  power: 15
+  technique: 24
+  agility: 21
+  strike: 18
+  submission: 27
+  grapple: 30
+  rules_text: At the start of the match, unblank your skill cards. Your skills are considered 3 higher than your opponent's for your card effects. When either player would draw a card, both players draw.
   tags: []
 - name: Cringe T
   db_uuid: 0fe96044960944f5b77d9e45040934e4
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Male
+  power: 6
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 10
+  grapple: 5
+  rules_text: When you or your target break out, add 1 Strike or Submission from your discard pile to your hand.
   tags:
     - Super Lucha
 - name: D2 & The Ring Leader
@@ -41864,6 +41902,7 @@
   strike: 6
   submission: 9
   grapple: 5
+  rules_text: When your target's turn roll is 10 or greater, you may re-roll your next turn roll.
   tags:
     - Super Lucha
 - name: El Frenetico
@@ -41893,6 +41932,7 @@
   strike: 7
   submission: 10
   grapple: 5
+  rules_text: Copy your target's Entrance or your 1st turn roll is +6.
   tags:
     - Super Lucha
 - name: El Jabroni
@@ -41907,6 +41947,7 @@
   strike: 5
   submission: 6
   grapple: 10
+  rules_text: When your Grapple is stopped, put 1 other Grapple from your discard pile on top of your deck.
   tags:
     - Super Lucha
 - name: El Leon de Lahore
@@ -42132,6 +42173,13 @@
 - name: Girthquake
   db_uuid: 39ae34a04acf4f8a83f4cc2f5590336d
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 14
+  agility: 10
+  strike: 18
+  submission: 12
+  grapple: 20
+  rules_text: 'Your cards with "Belly", "Gut", or "Rib" in the name have the added text: "Draw 2 cards." Double the numbers in the text of your cards with "Chin" in the name.'
   tags: []
 - name: Gogawa
   db_uuid: ace62433009947bba25f3f954910f1e6
@@ -42145,6 +42193,7 @@
   strike: 6
   submission: 8
   grapple: 7
+  rules_text: 'When you roll Agility or Strike for your turn roll: You may shuffle 1 Submission from your discard pile into your deck.'
   tags:
     - Super Lucha
 - name: Goldlust
@@ -42160,25 +42209,63 @@
   strike: 8
   submission: 5
   grapple: 10
-  rules_text: When your skils are increased, your opponent's gimmick is blanked.
+  rules_text: When your skills are increased, your opponent's Gimmick is blanked.
   tags: []
 - name: Goodnight Express
   db_uuid: d20bfcca68964c50986f2cc3e30f7243
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 16
+  agility: 10
+  strike: 12
+  submission: 18
+  grapple: 20
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, your opponent''s Gimmick is blank.
+
+    If it is not and your opponent stops a card, they bury 1 card in their hand.'
   tags: []
 - name: Grey Matter
   db_uuid: b9ec8855c7b44d36aa73fca91e1bcac4
   srg_url: https://supershowthegame.com/product/grey-matter/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 12
+  agility: 10
+  strike: 18
+  submission: 16
+  grapple: 14
+  rules_text: 'Once a turn roll:
+
+    If you lost the last turn roll or your opponent rolled their highest skill, you may re-roll your turn roll.
+
+    Double the bonuses on your Robert ''The Brain'' Dunn & Shade cards.'
   tags: []
 - name: Guardians of the Gates
   db_uuid: 3ffe41b91241483c9e802696b3e5ae30
   srg_url: https://supershowthegame.com/product/guardians-of-the-gates/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 16
+  agility: 18
+  strike: 10
+  submission: 14
+  grapple: 12
+  rules_text: 'Your Power is +1 during turn rolls.
+
+    After you flip 3 or more cards, you may add 1 of the flipped cards to your hand.'
   tags: []
 - name: Hallow Kingdom
   db_uuid: dddf89532ce0478780e4c01eab85ab1c
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 18
+  agility: 14
+  strike: 16
+  submission: 10
+  grapple: 12
+  rules_text: 'Your opponent''s maximum handsize is -1 and minus the Crowd Meter.
+
+    When your opponent discards any number of cards, they do so randomly.'
   tags: []
 - name: Happy Birthday
   db_uuid: 9f402e03c6e44855aaf490e131750e20
@@ -42207,6 +42294,7 @@
   strike: 6
   submission: 10
   grapple: 5
+  rules_text: When you and your target roll the same skill for your turn roll, your next turn roll is +2.
   tags:
     - Super Lucha
 - name: xHidden Threatx
@@ -42437,6 +42525,13 @@
 - name: Kabuki Kabloow
   db_uuid: 711c8f31d1f448a2afba2bfc60f227ed
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 16
+  agility: 14
+  strike: 18
+  submission: 10
+  grapple: 20
+  rules_text: After you discard any number of cards from in play or from your hand, your next roll is +1.
   tags: []
 - name: King of Strikes
   db_uuid: a2d8b8302a564a068f18f2d00239f1b8
@@ -43872,6 +43967,13 @@
   db_uuid: 4a7e9d221c5143149ba9b86c65fcb7c0
   srg_url: https://supershowthegame.com/product/cage-and-verna/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 12
+  strike: 14
+  submission: 16
+  grapple: 18
+  rules_text: 'Your cards with "Super", "Power", or "Steel" in the name have the added text: "Shuffle 1 card from your discard pile into your deck and your next turn roll is +2.'
   tags: []
 - name: Filthadelphia
   db_uuid: 5f19defcd3c748128aeda00aa30b087b
@@ -43882,6 +43984,13 @@
   db_uuid: 4d0b8f6efea8405a8af21eb7c39df825
   srg_url: https://supershowthegame.com/product/maidens-of-the-storm/
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 14
+  agility: 20
+  strike: 16
+  submission: 18
+  grapple: 10
+  rules_text: When your opponent hits a Grapple, copy its text, then blank it until the end of the turn.
   tags: []
 - name: Manicotti Marinara
   db_uuid: 822f5546471347c6b67d0d3367caf406

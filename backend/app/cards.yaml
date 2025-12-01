@@ -32136,8 +32136,8 @@
   grapple: 10
   tags: []
 - name: Hallow King (V1)
+  srgpc_url: "https://www.srgpc.net/cards/competitors/hallow-king/"
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
-  srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -32149,7 +32149,13 @@
   grapple: 5
   rules_text: When you hit a card with "Head", "Arm", or "Back" in the name, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - 175bf8609ec742ab9cec3151a8170cf1
+    - d53b3112fad44ad6936c95f2c3a38c44
+    - b40f8e7baf0243998c8aaae7c1b6614d
+    - f47742a893a8426bad8c5b4f072263a7
 - name: Hallow King (V2)
+  srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
   db_uuid: ed653f444d954936987aec59d4c5e4dd
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -32161,6 +32167,64 @@
   submission: 6
   grapple: 5
   rules_text: Your target's power is -1 the Crowd Meter.
+  tags: []
+  related_finishes:
+    - 175bf8609ec742ab9cec3151a8170cf1
+    - d53b3112fad44ad6936c95f2c3a38c44
+    - b40f8e7baf0243998c8aaae7c1b6614d
+    - f47742a893a8426bad8c5b4f072263a7
+- name: The Staff of Doom
+  db_uuid: 175bf8609ec742ab9cec3151a8170cf1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    Shuffle up to 5 cards with "Head", "Arm" or "Back" in the name from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
+- name: Decapitator
+  db_uuid: d53b3112fad44ad6936c95f2c3a38c44
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Head" in the name.'
+  tags: []
+- name: Backbreaker from the Dead
+  db_uuid: b40f8e7baf0243998c8aaae7c1b6614d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    If your opponent''s turn roll was 4 or less, this card cannot be stopped.'
+  tags: []
+- name: Elimbinator
+  db_uuid: f47742a893a8426bad8c5b4f072263a7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    Your opponent''s 1st Breakout roll is -1 for each card you have in play with "Arm" in the name.  Bury the same number of cards in your opponent''s discard pile.'
   tags: []
 - name: The Harlequin Queen
   db_uuid: 5319a7d9980845fb8a17e35df92f1068

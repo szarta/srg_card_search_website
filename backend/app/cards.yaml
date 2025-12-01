@@ -32136,8 +32136,8 @@
   grapple: 10
   tags: []
 - name: Hallow King (V1)
-  srgpc_url: "https://www.srgpc.net/cards/competitors/hallow-king/"
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
+  srgpc_url: https://www.srgpc.net/cards/competitors/hallow-king/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -32155,8 +32155,8 @@
     - b40f8e7baf0243998c8aaae7c1b6614d
     - f47742a893a8426bad8c5b4f072263a7
 - name: Hallow King (V2)
-  srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
   db_uuid: ed653f444d954936987aec59d4c5e4dd
+  srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -41463,7 +41463,7 @@
   db_uuid: 0fe96044960944f5b77d9e45040934e4
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: 
+  tags:
     - Super Lucha
 - name: D2 & The Ring Leader
   db_uuid: 9f02b39088284f38a15781a4bafacce7
@@ -41991,7 +41991,7 @@
   db_uuid: 1c2aa28e1b764df69acbf7a80c5f5c87
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: 
+  tags:
     - Super Lucha
 - name: Girthquake
   db_uuid: 39ae34a04acf4f8a83f4cc2f5590336d
@@ -47569,3 +47569,17 @@
 
     This card counts as 2 Lead Grapples in play.'
   tags: []
+- name: The Macho Squatcho
+  db_uuid: 4711539d48cc45a78fa29a20ad62ac76
+  srg_url: https://supershowthegame.com/product/macho-squatcho-pax-exclusive-competitor/
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When your target increases any number of their skills, draw 2 cards.
+  tags:
+    - Super Lucha

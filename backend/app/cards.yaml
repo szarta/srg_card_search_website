@@ -34889,7 +34889,7 @@
   grapple: 10
   rules_text: When your opponent uses their Gimmick from a roll, hitting a card, or added text, copy that effect.
   tags: []
-- name: Memes Dealer
+- name: Memes Dealer (V1)
   db_uuid: 2812975b494f480eb69153836f76e68a
   card_type: SingleCompetitorCard
   division: Underworld
@@ -34902,6 +34902,84 @@
   grapple: 6
   rules_text: 'Once during your opponent''s turn: You may reveal 1 card in your hand, shuffle it into your deck, and draw 1 card.'
   tags: []
+  related_finishes:
+    - bba81de85eb34b8399ef81c81c4630c4
+    - 0d3f9f79818f4fea97fa3afc157322ad
+    - 23f349f3569b433bbe7d11ac2507f744
+    - e6625519e94d4ec1972993c60c9b2bec
+- name: Memes Dealer (V2)
+  db_uuid: c6cea4fe18774ca5a4f879c8a243821a
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 10
+  grapple: 6
+  rules_text: When your opponent shuffles their deck, draw 2 cards.
+  tags: []
+  related_finishes:
+    - bba81de85eb34b8399ef81c81c4630c4
+    - 0d3f9f79818f4fea97fa3afc157322ad
+    - 23f349f3569b433bbe7d11ac2507f744
+    - e6625519e94d4ec1972993c60c9b2bec
+- name: Drop the Ban Hammer
+  db_uuid: bba81de85eb34b8399ef81c81c4630c4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: If your Finish roll is 8 or greater, it is +2.
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
+- name: Sips Knee
+  db_uuid: e6625519e94d4ec1972993c60c9b2bec
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Each player shuffles their deck.
+
+    +1 to Agility
+
+    +1 to Strike
+
+    +3 to Grapple.'
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
+- name: Rick Rolled
+  db_uuid: 0d3f9f79818f4fea97fa3afc157322ad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    When this card is revealed from your hand, draw 1 card.'
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
+- name: Banned!
+  db_uuid: 23f349f3569b433bbe7d11ac2507f744
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    If stopped, your opponent''s Gimmick is blank until the Crowd Meter increases.'
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
 - name: The Mercenary Flip Gordon
   db_uuid: e06405a7f9a54dfe8d429828e3c52b01
   card_type: SingleCompetitorCard

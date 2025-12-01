@@ -32154,6 +32154,9 @@
     - d53b3112fad44ad6936c95f2c3a38c44
     - b40f8e7baf0243998c8aaae7c1b6614d
     - f47742a893a8426bad8c5b4f072263a7
+    - 6c4e1124fd8d4bdc991c437f2227eaaf
+    - 251446f0bbc3435c8a5a41c9531486c9
+    - 000e784178d3416cbce414846f4d271c
 - name: Hallow King (V2)
   db_uuid: ed653f444d954936987aec59d4c5e4dd
   srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
@@ -32173,6 +32176,9 @@
     - d53b3112fad44ad6936c95f2c3a38c44
     - b40f8e7baf0243998c8aaae7c1b6614d
     - f47742a893a8426bad8c5b4f072263a7
+    - 6c4e1124fd8d4bdc991c437f2227eaaf
+    - 251446f0bbc3435c8a5a41c9531486c9
+    - 000e784178d3416cbce414846f4d271c
 - name: The Staff of Doom
   db_uuid: 175bf8609ec742ab9cec3151a8170cf1
   card_type: MainDeckCard
@@ -32202,6 +32208,9 @@
 
     Your opponent buries 1 card in their hand for each card you have in play with "Head" in the name.'
   tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
 - name: Backbreaker from the Dead
   db_uuid: b40f8e7baf0243998c8aaae7c1b6614d
   card_type: MainDeckCard
@@ -32214,6 +32223,9 @@
 
     If your opponent''s turn roll was 4 or less, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
 - name: Elimbinator
   db_uuid: f47742a893a8426bad8c5b4f072263a7
   card_type: MainDeckCard
@@ -32226,6 +32238,52 @@
 
     Your opponent''s 1st Breakout roll is -1 for each card you have in play with "Arm" in the name.  Bury the same number of cards in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
+- name: Graveyard Smash
+  db_uuid: 6c4e1124fd8d4bdc991c437f2227eaaf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Bury any number of cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
+- name: Think Fast, Chuckle Nutz
+  db_uuid: 251446f0bbc3435c8a5a41c9531486c9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand; this card copies that card''s text.'
+  tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
+- name: Welcome to Sleepy Hollow
+  db_uuid: 000e784178d3416cbce414846f4d271c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Your opponent''s maximum hand size is -4.'
+  tags: []
+  related_cards:
+    - ba1af0065d3a45f7823ed63f6b5ce426
+    - ed653f444d954936987aec59d4c5e4dd
 - name: The Harlequin Queen
   db_uuid: 5319a7d9980845fb8a17e35df92f1068
   srgpc_url: https://www.srgpc.net/cards/competitors/the-harlequin-queen/

@@ -41064,12 +41064,14 @@
   db_uuid: 0085dbf1061643449bbd68a146b055dd
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags:
+    - Super Lucha
 - name: Baby Chaos
   db_uuid: 96c844fa0345492a992acefb247872a1
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags:
+    - Super Lucha
 - name: Band of Brothers
   db_uuid: 5d5c4a1aff434ebb9359be5625da0fb8
   srg_url: https://supershowthegame.com/product/band-of-brothers-w-pineapple-smash/
@@ -41461,7 +41463,8 @@
   db_uuid: 0fe96044960944f5b77d9e45040934e4
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags: 
+    - Super Lucha
 - name: D2 & The Ring Leader
   db_uuid: 9f02b39088284f38a15781a4bafacce7
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
@@ -41725,7 +41728,8 @@
   strike: 6
   submission: 9
   grapple: 5
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Frenetico
   db_uuid: ed652335019b4eee8341e33a86bad731
   srgpc_url: https://www.srgpc.net/competitor/el-frenetico/
@@ -41739,7 +41743,8 @@
   submission: 7
   grapple: 5
   rules_text: When your target rolls Strike for their turn roll, draw 1 card.
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Ganso Ruso
   db_uuid: 8ce649bcffc94efbb19e5639e0e76472
   srgpc_url: https://www.srgpc.net/competitor/el-ganso-ruso/
@@ -41752,7 +41757,8 @@
   strike: 7
   submission: 10
   grapple: 5
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Jabroni
   db_uuid: 57c6169657c344cf8723858af6e7f422
   srgpc_url: https://www.srgpc.net/competitor/el-jabroni/
@@ -41765,7 +41771,8 @@
   strike: 5
   submission: 6
   grapple: 10
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Leon de Lahore
   db_uuid: 82a3cb85ff544fbb96e18487d156f321
   srgpc_url: https://www.srgpc.net/competitor/el-leon-de-lahore/
@@ -41779,7 +41786,8 @@
   submission: 6
   grapple: 9
   rules_text: During your turn, when you hit a Lead, your next turn roll is +1.
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Super Hombre (V2)
   db_uuid: d149b71b56624078bea5794ee597e7b1
   card_type: SingleCompetitorCard
@@ -41818,7 +41826,8 @@
   db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags:
+    - Super Lucha
 - name: El Super Suns
   db_uuid: a9c1a3fa78c24971ab755caa21ff04f7
   card_type: TornadoCompetitorCard
@@ -41982,7 +41991,8 @@
   db_uuid: 1c2aa28e1b764df69acbf7a80c5f5c87
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags: 
+    - Super Lucha
 - name: Girthquake
   db_uuid: 39ae34a04acf4f8a83f4cc2f5590336d
   card_type: TornadoCompetitorCard
@@ -41999,7 +42009,8 @@
   strike: 6
   submission: 8
   grapple: 7
-  tags: []
+  tags:
+    - Super Lucha
 - name: Goldlust
   db_uuid: 3e9abd47231c419981518fc2ab84a2cc
   srg_url: https://supershowthegame.com/product/goldlust/
@@ -42060,7 +42071,8 @@
   strike: 6
   submission: 10
   grapple: 5
-  tags: []
+  tags:
+    - Super Lucha
 - name: xHidden Threatx
   db_uuid: dfc77bfe1e8c4a8089d3e3a1b54d4b5e
   srgpc_url: https://www.srgpc.net/competitor/xhidden-threatx/
@@ -42435,7 +42447,8 @@
   submission: 6
   grapple: 5
   rules_text: When your opponent stops your Finish, search your deck for 1 La Fenix Finish and add it to your hand, shuffle your deck.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Lady Outlaw
   db_uuid: 7bc2886de7e34870819b0dd6536cdf8b
   srg_url: https://supershowthegame.com/product/lady-outlaw/
@@ -43131,7 +43144,8 @@
   submission: 5
   grapple: 7
   rules_text: 'When you roll Strike for your turn roll: You may discard 1 card from your hand; add 1 card with a lower card number from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Mrs. Marigold
   db_uuid: 7f196339ee714dacab9e0bfac43fbe30
   card_type: SingleCompetitorCard
@@ -43144,7 +43158,8 @@
   submission: 6
   grapple: 5
   rules_text: When your opponent hits a Strike, you may re-roll your next turn roll; if you do not, draw 1 card.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Wendigo
   db_uuid: caae00fadebe4d0fb4d0cbc4ae35c06b
   srg_url: https://supershowthegame.com/product/wendigo/
@@ -44813,6 +44828,7 @@
 - name: Young Meeple
   db_uuid: 79b3b861f1eb4a9ab11fdf5742841708
   card_type: SingleCompetitorCard
+  division: Super Lucha
   power: 8
   technique: 6
   agility: 7
@@ -44820,7 +44836,8 @@
   submission: 5
   grapple: 10
   rules_text: 'When you roll Power, Technique, or Agility for your turn roll: bury 1 card in your hand and draw 1 card.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Catch Sleeper Stretch
   db_uuid: 6d5702935cc34524b20919b78cbc934e
   srgpc_url: https://www.srgpc.net/cards/21/catch-sleeper-stretch/
@@ -46908,7 +46925,8 @@
   submission: 5
   grapple: 9
   rules_text: When you roll Submission for your turn roll, draw 2 cards.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Ninja Hummingbird (V2)
   db_uuid: 66d0f98dfaf143a5987afaed62824d27
   card_type: SingleCompetitorCard
@@ -46920,7 +46938,8 @@
   submission: 7
   grapple: 9
   rules_text: 'Once per turn roll: When your target rolls Power, you may force them to re-roll.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Loeb The Collector
   db_uuid: cb529308bc9847e581b0128f99719f04
   card_type: SingleCompetitorCard
@@ -46932,12 +46951,14 @@
   submission: 9
   grapple: 10
   rules_text: 'When you roll Grapple for your turn roll: When you hit a card, copy the text of a card your opponent has in play until the end of the turn.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: Snake Pitt (V4)
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  tags:
+    - Super Lucha
 - name: St. Macho
   db_uuid: 4a15300ac41346d2a521fca4939c3404
   card_type: SingleCompetitorCard
@@ -46949,7 +46970,8 @@
   submission: 7
   grapple: 5
   rules_text: When your target's turn roll is 5 or less, this turn roll and your next turn roll are +1.
-  tags: []
+  tags:
+    - Super Lucha
 - name: Vik Vik DeDoom
   db_uuid: d4780f9496154143ac792803b32fa4ea
   srgpc_url: https://www.srgpc.net/competitor/vik-vik-dedoom/
@@ -47028,7 +47050,8 @@
   submission: 10
   grapple: 8
   rules_text: 'When you roll Power for your turn roll: Your Strike is +3 and your Agility is +3 during your next turn roll.'
-  tags: []
+  tags:
+    - Super Lucha
 - name: The Dirty Burgs
   db_uuid: fb99cecd0c0e4110a9f2b0358ef4b608
   srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/

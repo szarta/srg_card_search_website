@@ -48267,3 +48267,13 @@
     - Super Lucha
   related_cards:
     - 44a083f3214148959e40c125bb5eb7b2
+- name: Middling Minions
+  db_uuid: f4d12cb103044b868907426757e49f06
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    This card counts as 2 Lead Grapples in play.'
+  tags: []

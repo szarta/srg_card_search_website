@@ -1,0 +1,53 @@
+---
+slug: unique-deck
+title: "Unique"
+date: 2025-11-12
+---
+
+## The Competitor
+
+[[[Unique]]]
+
+### Writeup
+
+This deck was reviewed by Trey and Drew on Stacked Card #19.  Johnny Korea won
+a CAC tournament with this deck.
+
+The nice thing about [[Never Settle for Less Than Elle Diablo]] is you can
+search and discard a dead stop or the spotlight sub finish [[Spitting Blood]].
+
+## Decklist
+
+```deck
+Unique
+Never Settle for Less Than Elle Diablo
+Anarchy's Shovel (Unique)
+Blood Angel's Revenge
+Spitting Blood
+Cosmic Smash
+Pineapple for Sheep
+Friends and Rivals
+Apocalypse
+Rejected!
+Big Body Block
+Elbow Shot
+Reverse Scoop Slam
+Restoration Potion #8
+Enjoy Everything
+Double Throw
+Ready to Rumble
+Learning the House Rules
+Level Up Apron Driver
+All American Headlock
+Savor the Moment
+Spinebreaker
+You're Not Ready
+Dragon Gate Crash
+Sealed Away
+American Dragon Leg Lock
+Muay Thai Strikes
+Back From the Brink
+Neck Vice
+Ax Kick
+Grab Hold of the Ropes
+Freeze! Don't Move

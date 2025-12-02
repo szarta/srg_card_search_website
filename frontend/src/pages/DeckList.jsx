@@ -5,6 +5,7 @@ const articles = [
   { slug: "citizen-x",        title: "Citizen X" },
   { slug: "moonstar",         title: "Moonstar" },
   { slug: "d2",               title: "D2" },
+  { slug: "unique",           title: "Unique" },
   // { slug: "another-deck",      title: "Another Deck Article" },
 ];
 

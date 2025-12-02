@@ -1,6 +1,7 @@
 ---
 slug: unique-deck
 title: "Unique"
+author: Johnny Korea
 date: 2025-11-12
 ---
 
@@ -15,9 +16,20 @@ a CAC tournament with this deck.
 
 The nice thing about [[Never Settle for Less Than Elle Diablo]] is you can
 search and discard a dead stop or the spotlight sub finish [[Spitting Blood]].
+[[Never Settle for Less Than Elle Diablo]] is always good in powerful spotlight
+decks, and good spotlight finishers are the reason people will run 
+[[Impact is Family (V2)]] in open tournaments.
 
 Drew will almost always run [[Big Body Block]] due to most people running
 [[Apocalypse]] and spamming it.
+
+Johnny mentioned he'd normally run 3 [[Restoration Potion #8]] effects, but
+switch up this time due to knowing Ring of Fire stipulation was in top cut.
+He also normally run's 2 [[Destiny's Call (V2)]] effects, but ran [[Muay Thai
+Strikes]] instead.
+
+The [[Anarchy's Shovel (Unique)]] is completely devastating, and the recursion
+in this deck can hurt.
 
 ## Decklist
 

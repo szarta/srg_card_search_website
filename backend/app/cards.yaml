@@ -42239,8 +42239,61 @@
   db_uuid: 1c2aa28e1b764df69acbf7a80c5f5c87
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: When you roll Grapple for your turn roll, add one Stop from your discard pile to your hand.
   tags:
     - Super Lucha
+  related_finishes:
+    - a32b817cce4f4792bbb196778a978c04
+    - 3879b9eb23464e72a80c4fed9891495e
+    - 519412bea177476ab978c112ac03c461
+- name: Calaveras Crash!
+  db_uuid: a32b817cce4f4792bbb196778a978c04
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
+- name: Pandita Muertita!
+  db_uuid: 3879b9eb23464e72a80c4fed9891495e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    Flip 3 cards or add 1 card from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
+- name: Entra Al Laberinto!
+  db_uuid: 519412bea177476ab978c112ac03c461
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power for each Stop you have in play.
+
+    +3 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
 - name: Girthquake
   db_uuid: 39ae34a04acf4f8a83f4cc2f5590336d
   card_type: TornadoCompetitorCard

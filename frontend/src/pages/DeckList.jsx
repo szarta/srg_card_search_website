@@ -9,6 +9,7 @@ const articles = [
   { slug: "alex-kane",        title: "Alex Kane"},
   { slug: "real-beater",      title: "Real Beater"},
   { slug: "postal-nation",    title: "Leader of the Postal Nation"}
+  { slug: "wendigo",          title: "Wendigo"}
   // { slug: "another-deck",      title: "Another Deck Article" },
 ];
 

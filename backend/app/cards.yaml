@@ -47924,3 +47924,57 @@
   grapple: 8
   rules_text: Your Technique skill is +1 for each card in your discard pile with "Swift" or "Microphone" in the name (Max +2).
   tags: []
+- name: Real Beater
+  db_uuid: ee0c785df87947449d12e60e1023e17d
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: At the start of your turn search your deck for "Armbar" and put it into play.
+  tags: []
+  related_finishes:
+    - a1d38276cdb140b8bd7b867f0624fefd
+    - e02917e3d6a440e88ea2ba8ea11449f9
+    - dd93966298c343cd9200757faea0dc11
+- name: Get Rocked!
+  db_uuid: a1d38276cdb140b8bd7b867f0624fefd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power.
+
+    If you do not have "Armbar" in play this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d
+- name: Crank It Out
+  db_uuid: e02917e3d6a440e88ea2ba8ea11449f9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Each time your opponent rolls for a breakout, draw 1 card.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d
+- name: Top 96 No Debate
+  db_uuid: dd93966298c343cd9200757faea0dc11
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d

@@ -43566,11 +43566,6 @@
   grapple: 8
   rules_text: 'At the start of the match, choose 3 words with at least 4 letters: When your opponent hits a card with 1 of those words in the name, draw 1 card.'
   tags: []
-- name: Real Beater
-  db_uuid: 54fccd40ee2e498cbef07530b49a0762
-  card_type: SingleCompetitorCard
-  division: United States
-  tags: []
 - name: Shattered Split
   db_uuid: 627444f08925427b973a23be26369043
   card_type: SingleCompetitorCard
@@ -47927,6 +47922,7 @@
 - name: Real Beater
   db_uuid: ee0c785df87947449d12e60e1023e17d
   card_type: SingleCompetitorCard
+  division: United States
   gender: Male
   power: 6
   technique: 5

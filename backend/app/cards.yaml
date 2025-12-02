@@ -41285,6 +41285,7 @@
   strike: 10
   submission: 7
   grapple: 8
+  rules_text: +1 to Power during turn rolls.
   tags:
     - Super Lucha
   related_finishes:
@@ -48204,3 +48205,65 @@
 
     If stopped, you lose the match via disqualification.'
   tags: []
+- name: El Gato Shinobi
+  db_uuid: 44a083f3214148959e40c125bb5eb7b2
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 5
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: 'When you roll Power for your turn roll: You may re-roll your next turn roll.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - be06a68f6f364206a7dc8b674a2305bb
+    - a40200cdc8314d3b9f89b94c743459ba
+    - 2b6614ab899e4d23b960541fea2cc1da
+- name: The Meownce!
+  db_uuid: be06a68f6f364206a7dc8b674a2305bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    If you re-rolled your turn roll you may re-roll your Finish roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2
+- name: The Cat's Cradle
+  db_uuid: a40200cdc8314d3b9f89b94c743459ba
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2
+- name: Shadow Purriken Jutsu
+  db_uuid: 2b6614ab899e4d23b960541fea2cc1da
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    Discard up to 3 cards from your hand. Your Power is +1 for each card discarded.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2

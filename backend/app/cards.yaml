@@ -16445,9 +16445,9 @@
   deck_card_number: 20
   rules_text: Your opponent cannot make you bury cards from your hand.
   tags: []
-- name: Belly to Bear Belly Suplex
-  db_uuid: 155031198ab3412f8168b991190b0425
-  srgpc_url: https://www.srgpc.net/cards/20/belly-to-bear-belly-suplex/
+- name: Fierce Fisherman Suplex
+  db_uuid: 82c256f957f848ef97a48f839d794e7c
+  srgpc_url: https://www.srgpc.net/cards/20/fierce-fisherman-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup

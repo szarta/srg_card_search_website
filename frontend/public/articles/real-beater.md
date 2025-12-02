@@ -38,13 +38,13 @@ Sheep, Kneel Before My Big American Sledgehammer
 Cosmic Knee in the Ropes
 Savor the Moment
 American Dragon Drop
-Turn Tension Into Power
+Turn the Tension Into Power
 Dragon Gate Crash
 Sealed Away
 Reverse the Pressure
 Standing Moonsault
-Back From the Brink
-Destiny's Call
-Roraring Elbow
+Back From the Brink (Grapple)
+Destiny's Call (V2)
+Roaring Elbow
 Get That Outta Here!
 Freeze! Don't Move

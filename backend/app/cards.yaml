@@ -42074,8 +42074,67 @@
   db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll:
+
+    Draw 1 card and your next turn roll is +1.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 91cbc3a9270b4a1981a1ef4f98336059
+    - 6507893df8284a69b49b1b78c29741c2
+    - 6ce32c9bf35e4c1f8ca66df55074a3e7
+- name: El Suuuper Smash!
+  db_uuid: 91cbc3a9270b4a1981a1ef4f98336059
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
+- name: El Suuuper Slam!
+  db_uuid: 6507893df8284a69b49b1b78c29741c2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
+- name: El Suuuper Spin!
+  db_uuid: 6ce32c9bf35e4c1f8ca66df55074a3e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
 - name: El Super Suns
   db_uuid: a9c1a3fa78c24971ab755caa21ff04f7
   card_type: TornadoCompetitorCard

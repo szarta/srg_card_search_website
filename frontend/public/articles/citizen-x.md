@@ -26,7 +26,7 @@ Arm & Collar Tie Up
 Snap Headlock
 Snap Kick
 Rejected!
-Elevated Armbar
+Elevated Arm Bar
 Forearm Shot
 Restoration Potion #8
 Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug!

@@ -35817,6 +35817,10 @@
 
     For each card your opponent has in play choose 1: Draw 1 card or your opponent buries 1 card in their hand.'
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Destiny Drop
   db_uuid: e360c9e99301481faa45ad5ab6d9158b
   card_type: MainDeckCard
@@ -35827,6 +35831,10 @@
 
     Or you may discard your hand.'
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Every Dog Has Its Day
   db_uuid: 3b8f43c5ee604b46bed7aca4393cbb9d
   card_type: MainDeckCard
@@ -35835,6 +35843,10 @@
   deck_card_number: 30
   rules_text: Look at your opponent's hand or discard pile, choose 1 Finish card, this card copies its text until the end of the turn.
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Paiger Rager
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
   srgpc_url: https://www.srgpc.net/cards/competitors/paiger-rager/
@@ -35847,6 +35859,7 @@
   strike: 10
   submission: 7
   grapple: 6
+  rules_text: When the Crowd Meter is 1 or greater your Breakout rolls are +1.
   tags: []
 - name: The Pain Artist DaVinci Wade
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
@@ -47843,3 +47856,28 @@
   rules_text: When your target increases any number of their skills, draw 2 cards.
   tags:
     - Super Lucha
+- name: Simple Chuck
+  db_uuid: a1d0a7618c4841d5843fbac23092b109
+  srg_url: https://supershowthegame.com/product/simple-chuck/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  rules_text: When you hit a card with 1 line of text, draw 1 card or your next turn roll is +1.
+  tags: []
+- name: Tortured Vigilante
+  db_uuid: c9c7ebf148884c038fa00763434c6244
+  srg_url: https://supershowthegame.com/product/tortured-vigilante/
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 8
+  rules_text: Your Technique skill is +1 for each card in your discard pile with "Swift" or "Microphone" in the name (Max +2).
+  tags: []

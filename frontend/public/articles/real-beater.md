@@ -20,7 +20,7 @@ Pretty Paul Says "Let It Rip"
 Real Beater
 Get Rocked!
 Crank It Out
-Sharpshooter
+Sharpshooter (#30)
 American Double Punch
 Pineapple for Sheep?
 Friends and Rivals

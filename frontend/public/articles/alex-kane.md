@@ -21,7 +21,7 @@ to push strikes against it.
 ```deck
 Alex Kane
 Bomaye Splash!
-The Mark of Kane
+The Mark of Kane Suplex
 Fade 2 Black
 Cold Snap
 Burn Down

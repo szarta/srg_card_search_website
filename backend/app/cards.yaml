@@ -48277,3 +48277,13 @@
 
     This card counts as 2 Lead Grapples in play.'
   tags: []
+- name: Blindside Backbreaker
+  db_uuid: 479d744858fd46358d49e00798ecb0bf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Power skill is greater than your opponent''s Grapple skill, draw 3 cards.'
+  tags: []

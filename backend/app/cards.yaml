@@ -41275,12 +41275,67 @@
 
     When your opponent stops your card, you may discard 2 cards from your hand to place the stopped card on top of your deck.'
   tags: []
-- name: Ariel with Scruffy
+- name: Ariel Lipstick & Scrappers
   db_uuid: 0085dbf1061643449bbd68a146b055dd
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 5
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
   tags:
     - Super Lucha
+  related_finishes:
+    - 9c8602205f2249d5a14086e84102c9e2
+    - b8f03c532e544e06b748933f15ac370d
+    - d32f728e74a64ebcb430ff1e16778111
+- name: Scrappers Is On the Case
+  db_uuid: 9c8602205f2249d5a14086e84102c9e2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Look at your opponent''s hand, they bury all Stop cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
+- name: Mattering Ram!
+  db_uuid: b8f03c532e544e06b748933f15ac370d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +1 to Grapple
+
+    Shuffle any number of cards from your discard pile into your deck; your next turn roll is +1 for each card shuffled in.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
+- name: Time For a Makeover
+  db_uuid: d32f728e74a64ebcb430ff1e16778111
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +2 to Submission
+
+    You may shuffle your hand into your deck and draw the same number of cards +2.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
 - name: Baby Chaos
   db_uuid: 96c844fa0345492a992acefb247872a1
   card_type: SingleCompetitorCard
@@ -42480,6 +42535,55 @@
   rules_text: When you and your target roll the same skill for your turn roll, your next turn roll is +2.
   tags:
     - Super Lucha
+  related_finishes:
+    - 6701871ee8ac4148a639b8fde5ba702e
+    - fddb62b44a0c42a48e8edfb7fdb6d7e4
+    - f2a295c400604481b1336ee8383cfad5
+- name: Double Whammy!
+  db_uuid: 6701871ee8ac4148a639b8fde5ba702e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +4 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
+- name: The Hex Express!
+  db_uuid: fddb62b44a0c42a48e8edfb7fdb6d7e4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If you and your opponent rolled the same skill for your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
+- name: The Zodiac Belt!
+  db_uuid: f2a295c400604481b1336ee8383cfad5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    If you rolled the same skill as your opponent for the turn roll, +4 to Grapple instead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
 - name: xHidden Threatx
   db_uuid: dfc77bfe1e8c4a8089d3e3a1b54d4b5e
   srgpc_url: https://www.srgpc.net/competitor/xhidden-threatx/

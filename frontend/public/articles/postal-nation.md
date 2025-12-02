@@ -1,13 +1,13 @@
 ---
 slug: postal-nation
-title: "Lead of the Postal Nation"
+title: "Leader of the Postal Nation"
 author: Trey Cantrell
 date: 2025-10-05
 ---
 
 ## The Competitor
 
-[[[The Leader of the Postal Nation]]]
+[[[Leader of the Postal Nation]]]
 
 ### Writeup
 

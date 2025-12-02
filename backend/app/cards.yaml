@@ -47974,3 +47974,17 @@
   tags: []
   related_cards:
     - ee0c785df87947449d12e60e1023e17d
+- name: Wonderful Dragon Muggin'
+  db_uuid: 980e893c498344d7a0cb8643486de128
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Draw 1 card.
+
+    Add 1 card from your discard pile to your hand.
+
+    Your next turn roll is +1.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []

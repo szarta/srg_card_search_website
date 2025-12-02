@@ -39459,7 +39459,50 @@
   strike: 5
   submission: 10
   grapple: 8
+  rules_text: When you stop a card, you may flip 2 cards then shuffle 1 card from your discard pile into your deck.
   tags: []
+  related_finishes:
+    - d75378d077304e1b819b3a822e03a091
+    - 7b14f1df3224430598dd05bc76e7a295
+    - 4deed24d3a904064965738de9e2b4d4e
+- name: Anarchy's Shovel (Unique)
+  db_uuid: d75378d077304e1b819b3a822e03a091
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If stopped, discard 1 card from your hand and bury this card or lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
+- name: Blood Angel's Revenge
+  db_uuid: 7b14f1df3224430598dd05bc76e7a295
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Your opponent discards their hand, then randomly adds 3 cards from their discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
+- name: Spitting Blood
+  db_uuid: 4deed24d3a904064965738de9e2b4d4e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: When this card is in your discard pile and you shuffle your deck, your opponent buries 1 card in their hand.
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
 - name: Uranus
   db_uuid: 60f3433ddd5745c9905583b60466a734
   srgpc_url: https://www.srgpc.net/competitor-uranus/

@@ -16,6 +16,9 @@ a CAC tournament with this deck.
 The nice thing about [[Never Settle for Less Than Elle Diablo]] is you can
 search and discard a dead stop or the spotlight sub finish [[Spitting Blood]].
 
+Drew will almost always run [[Big Body Block]] due to most people running
+[[Apocalypse]] and spamming it.
+
 ## Decklist
 
 ```deck
@@ -46,8 +49,8 @@ Dragon Gate Crash
 Sealed Away
 American Dragon Leg Lock
 Muay Thai Strikes
-Back From the Brink
-Neck Vice
+Back From the Brink (Grapple)
+Neck Vise
 Ax Kick
 Grab Hold of the Ropes
 Freeze! Don't Move

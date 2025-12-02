@@ -26023,6 +26023,7 @@
   related_finishes:
     - d924c3b72a6c41c38d8a8677bc063867
     - 44c1662054c845faa37c96f13da62c0f
+    - 683901c278734302b4726c61a3bf4984
     - f39afe7cc2eb42558aeac7b6df6506f9
 - name: Top Rope Dive DDT
   db_uuid: d924c3b72a6c41c38d8a8677bc063867
@@ -26037,6 +26038,20 @@
     Take 3 cards from your discard pile and shuffle them into your deck.
 
     Draw 3 cards. When your opponent is a Female they bury 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 748132a3c93642228eb708ad10f1f1ac
+- name: Balls-Plex
+  db_uuid: 683901c278734302b4726c61a3bf4984
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    When your opponent is a Male Competitor their Power is -2 and their Gimmick is blank.
+
+    When they are not this card is also a Follow Up.'
   tags: []
   related_cards:
     - 748132a3c93642228eb708ad10f1f1ac

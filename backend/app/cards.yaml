@@ -42810,6 +42810,56 @@
   grapple: 9
   rules_text: 'When you roll Power for your turn roll: Search your deck for 1 Joe Hendry card and add it to your hand; shuffle your deck.'
   tags: []
+  related_finishes:
+    - 5ee73edd8abe49c6965270c97e125946
+    - 68be9b3096f84d46bc49656eb9ebcc82
+    - 0c11ccf34cd44a5ebc5d2f9cb63d1b64
+- name: Wave Your Hands
+  db_uuid: 5ee73edd8abe49c6965270c97e125946
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    You may discard this card from your hand to search your deck for "Standing Ovation" and add it to your hand; shuffle your deck.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
+- name: Standing Ovation
+  db_uuid: 68be9b3096f84d46bc49656eb9ebcc82
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s 1st breakout roll is - the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
+- name: Ankle Lock
+  db_uuid: 0c11ccf34cd44a5ebc5d2f9cb63d1b64
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If you rolled Power for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
 - name: Kabuki Kabloow
   db_uuid: 711c8f31d1f448a2afba2bfc60f227ed
   card_type: TornadoCompetitorCard

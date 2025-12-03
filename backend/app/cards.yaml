@@ -48287,3 +48287,13 @@
 
     If your Power skill is greater than your opponent''s Grapple skill, draw 3 cards.'
   tags: []
+- name: Unexpected Shake
+  db_uuid: c86ad3cf27754862924caf5a8ee8510e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    This card counts as 2 Lead Submissions in play.'
+  tags: []

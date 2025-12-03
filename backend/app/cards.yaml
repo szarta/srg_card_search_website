@@ -30064,11 +30064,31 @@
   db_uuid: a581eb463bac433395ccc06f78c365c1
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 5
+  rules_text: 'Once during your turn:
+
+    Discard 1 card from your hand to look at the top 3 cards of your deck and put them back on top in any order.'
   tags: []
 - name: Corrugated Cardboard Villain
   db_uuid: ed1c696106ab4fb4ba80ab10e893e1ad
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 6
+  rules_text: 'If your turn roll is at least 2 greater than your opponent''s, draw 1 card.
+
+    When you bump, discard 1 card from your hand instead of drawing.'
   tags: []
 - name: Daisy Rider
   db_uuid: 8be0afa58eb049048feb204eac5b48d2
@@ -45301,12 +45321,32 @@
 - name: Warlords of the Sea
   db_uuid: cabf020eb091401fa5e705bcd00feadf
   srg_url: https://supershowthegame.com/product/warlords-of-the-sea/
+  srgpc_url: https://www.srgpc.net/cards/competitors/warlords-of-the-sea/
   card_type: TrioCompetitorCard
+  power: 15
+  technique: 24
+  agility: 21
+  strike: 18
+  submission: 27
+  grapple: 30
+  rules_text: At the start of the match, unblank your skill cards.  Your skills are considered 3 higher than your opponent's for your card effects.  When a player would draw any number of cards, both player's draw instead.
   tags: []
 - name: Just Business
   db_uuid: 2d3a5ba6dec64071a6881680c832569b
   srg_url: https://supershowthegame.com/product/just-business/
+  srgpc_url: https://www.srgpc.net/competitor/just-business/
   card_type: TrioCompetitorCard
+  power: 30
+  technique: 15
+  agility: 24
+  strike: 18
+  submission: 27
+  grapple: 21
+  rules_text: 'At the start of the match, choose a skill, once per turn roll:
+
+    You may force a player to re-roll that skill.
+
+    Quadruple the numbers in your "Back in Business".'
   tags: []
 - name: 'Sheep Shearing Potion #91'
   db_uuid: a7a0c8a923e54cf39cde4b30c5f817b1

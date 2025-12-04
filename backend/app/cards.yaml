@@ -42554,6 +42554,53 @@
   rules_text: When you or your target break out, add 1 Strike or Submission from your discard pile to your hand.
   tags:
     - Super Lucha
+  related_finishes:
+    - 6e4a6cfe9dbd49cabb726db900a33b76
+    - cdbeec53ea61405f92ec69d4342a9243
+    - 415d025fc1e14c64a3841268c165d890
+- name: Unidentified Flying Saucer Dive!
+  db_uuid: 6e4a6cfe9dbd49cabb726db900a33b76
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
+- name: Cringe-T, Phone Home!
+  db_uuid: cdbeec53ea61405f92ec69d4342a9243
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Your Technique and Strike are +1 for each Finish in your discard pile.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
+- name: The Grey's Probe!
+  db_uuid: 415d025fc1e14c64a3841268c165d890
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    If you broke out last turn, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
 - name: D2 & The Ring Leader
   db_uuid: 9f02b39088284f38a15781a4bafacce7
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/

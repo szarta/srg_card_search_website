@@ -42,6 +42,53 @@
     When you hit a Follow Up, or your opponent rolled Power for their turn roll: you may play an additional Follow Up this turn.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 2a2f0e802a3e418cb8641973111bdd7e
+    - fc87a98093ef4eb0973be1456dd01135
+    - 3533a8bdb7584bf982f30f7d7dbfc24b
+- name: Bull-istic Missile Dropkick
+  db_uuid: 2a2f0e802a3e418cb8641973111bdd7e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    If your opponent rolled Power for their turn roll, this card is also a Follow Up.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
+- name: El Toro-Nado DDT!
+  db_uuid: fc87a98093ef4eb0973be1456dd01135
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Draw 2 cards from each Follow Up you have in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
+- name: Canal Clutch
+  db_uuid: 3533a8bdb7584bf982f30f7d7dbfc24b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your Technique is +1 for each Follow Up you have in play (Max +5).  When your opponent rolls Power, their next turn roll is -2.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
 - name: Alex Hammerstone
   db_uuid: eb68a4f3acd74fb592885308366529f2
   is_banned: false

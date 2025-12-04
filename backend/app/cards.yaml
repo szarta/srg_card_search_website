@@ -30017,16 +30017,42 @@
   db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: 'Once a turn roll:
+
+    When you roll Agility you may re-roll.'
   tags: []
 - name: Colt Cabana (V2)
   db_uuid: ee6c96e6131446909a2014075f80f2f7
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 9
+  rules_text: When you stop a card, you may re-roll your next turn roll.
   tags: []
 - name: The Consigilere
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a card with "Boss" or "Sheep" in the name, your opponent randomly buries 1 card in their hand.
   tags: []
 - name: Copy Kat (V1)
   db_uuid: 941ba12c956546f4b9abf28336f9d92a
@@ -30223,10 +30249,28 @@
   db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
   srgpc_url: https://www.srgpc.net/cards/competitors/david-starr/
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: Once on each of your turns, you may reveal your hand to your opponent, shuffle 1 card from your hand into your deck and then draw 1 card.
   tags: []
 - name: David Starr (V2)
   db_uuid: cd5a1c194e9b486aac4caac7cea6638d
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  rules_text: 'Once during each of your turns:
+
+    You may reveal 1 card in your hand, shuffle it into your deck and draw 1 card.'
   tags: []
 - name: Dayna Might
   db_uuid: 01fa3c112412460b9999cb45f076fe73
@@ -30612,21 +30656,55 @@
   db_uuid: ebc7f25eaba1461aa7d083ff0807f003
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 10
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 8
+  rules_text: When you hit a card with "Slam" in the name, your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Slam" in the name, choose 1 of those revealed cards and bury it.
   tags: []
 - name: Diamond Danny G
   db_uuid: 251d99d79e864af58762a6926801d0e9
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: When you hit a Submission, flip 2 cards and add 1 Stop from your discard pile to your hand.
   tags: []
 - name: Dick Thunderlips
   db_uuid: 323e4ac05b4a4492b4530097511d113f
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When you hit a Spotlight your next turn roll is +2.
   tags: []
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  rules_text: 'After you flip any number of cards:
+
+    Look at your opponent''s hand, then you may bury 1 card in any player''s discard pile.'
   tags: []
 - name: Dirty Eddy (V1)
   db_uuid: e11da46d6f07469b8bb42e3fff7800b7
@@ -30657,22 +30735,56 @@
 - name: Dosmody the Snowman
   db_uuid: 426cb6e5acba479d81211a14c08f4fda
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: 'When you hit a Finish:
+
+    Your opponent cannot increase their breakout rolls.'
   tags: []
 - name: Downriver Drew
   db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: 'Once per turn roll:
+
+    When you roll Power, you may re-roll.'
   tags: []
 - name: Dr. Emily Booker (V1)
   db_uuid: 836b424a74fd4d6d89eab215f184615e
   card_type: SingleCompetitorCard
   division: United States
-  rules_text: 'When you roll Submission for your turn roll: Look at your opponent''shand and you may switch 1 non-Stop card in their hand with 1 card in their discard pile.'
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Submission for your turn roll: Look at your opponent''s hand and you may switch 1 non-Stop card in their hand with 1 card in their discard pile.'
   tags: []
 - name: Dr. Emily Booker (V2)
   db_uuid: 79c2cee5dffb4d51ac5a70f7f124cada
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
   rules_text: 'During your turn:
 
     When you hit a card with an odd card number, draw 1 card.'
@@ -30680,6 +30792,17 @@
 - name: Drunken Master
   db_uuid: 89a3e95dd0044141836048a654029ee7
   card_type: SingleCompetitorCard
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 6
+  rules_text: 'FRONT: After you flip 3 or more cards, add 1 of the flipped cards to your hand.
+
+    Once during your turn, you may bury 3 cards in each player''s discard pile and turn this card over.
+
+    BACK: Cards in your opponent''s discards pile have blank text.'
   tags: []
 - name: The Duke (V1)
   db_uuid: 1b4a21878c13419a9e643ce6359bae8a
@@ -30814,6 +30937,13 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/
   card_type: SingleCompetitorCard
   division: Global
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: When you hit a card with "Kick", "Dive", or "Sault" in the name, shuffle 1 card from your discard pile into your deck.
   tags: []
 - name: El Super Santa
   db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
@@ -31075,7 +31205,15 @@
   db_uuid: 279f7634d67d4759a912ff9ab8865a4e
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When you roll Technique or Strike for your turn roll, your next turn roll is +1.
+  tags:
+    - Super Lucha
 - name: Firestarter (#28)
   db_uuid: a91e4a805d4e4439bd1a48295c27cfa2
   card_type: MainDeckCard
@@ -31184,6 +31322,13 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/everyones-enemy/
   card_type: SingleCompetitorCard
   division: Hardcore
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: When your opponent forces you to bury or discard any number of cards from your hand, your opponent buries the same number of cards from their hand.
   tags: []
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
@@ -32102,11 +32247,27 @@
   srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: 'Once during your turn: When you hit a card with "Punch" in the name, you may draw 1 card or play an additional card this turn.'
   tags: []
 - name: Gideon Guts (V2)
   db_uuid: d02f496c8aef43e7953af2ce6fe81f22
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: 'When your opponent stops a Gideon Guts Finish: they randomly discard 1 card from their hand.'
   tags: []
 - name: Grande Gallo
   db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
@@ -32126,6 +32287,16 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/great-oniman/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 8
+  grapple: 6
+  rules_text: 'When you have a Strike in play and you roll Strike, you and 1 opponent each bury 1 card in hand.
+
+    When you have a Submission in play and you roll Submission, you may add 1 Submission from your discard pile to your hand.'
   tags: []
 - name: The Great Outdoors
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
@@ -32663,6 +32834,18 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/j-train/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 6
+  rules_text: 'FRONT: Your deck may contain 1 additional Skill Requirement card.
+
+    You may turn this card over to stop any Submission.
+
+    BACK: When this card was turned over, your opponent''s next turn roll is -1, and your next turn roll is +1.'
   tags: []
 - name: Jacob Fatu
   db_uuid: c8f9abd1a3cf4e089549384fd52d0bce
@@ -32898,16 +33081,44 @@
   db_uuid: cfa3283cdd9f40d18785633df6626070
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: 'At the start of the match: Choose another competitor, when you and that competitor both roll Submission or both roll Grapple for your turn roll, the Crowd Meter is +1.'
   tags: []
 - name: Johnny El Dorado
   db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 9
+  rules_text: When your turn roll is at least 5 less than your opponent's, bump instead.
   tags: []
 - name: Johnny Gargano
   db_uuid: 17371174d48f48d59a01492841a75416
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 10
+  rules_text: 'During your turn:
+
+    Your Grapple cards have the added text:
+
+    "Flip 2 cards, and then add 1 Submission card in your discard pile to your hand.'
   tags: []
 - name: Johnny North Korea
   db_uuid: 6fee88b1e0494bec9e0181ab6735a50b
@@ -33035,6 +33246,12 @@
   is_banned: true
   card_type: SingleCompetitorCard
   gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 5
+  grapple: 9
   rules_text: Once during your turn when you hit a card with "Slam" in the name; draw 2 cards or you may play 1 additional card this turn.
   tags: []
 - name: Johnny Supershow (V2)
@@ -33042,6 +33259,12 @@
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 5
+  grapple: 9
   rules_text: 'Once during your turn when you hit a card with "Slam" in the name: Draw 1 card or you may play 1 additional card this turn.'
   tags: []
 - name: Johnny T
@@ -33140,26 +33363,68 @@
   db_uuid: c00569ab32544866b8eb51008e821d17
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: For each Grapple or Submission you have in play, the Crowd Meter is considered +2 for your card effects.
   tags: []
 - name: Jordan Oliver (V1)
   db_uuid: ce62c04bdaf54cc1b72280f22e89589a
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When your opopnent hits a card, your Power, Agility, and Strike are +1 during your next turn roll.
   tags: []
 - name: Jordan Oliver (V2)
   db_uuid: 24a750cd651b4ed0952e5d933524a9f0
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: If you rolled Power for your turn roll, your cards with "Avalanche" in the name are also Leads until the end of the turn.
   tags: []
 - name: Joseph Ritchie
   db_uuid: e5093ca247334348986ed94e04c5bb76
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'At the start of the match: Choose an opponent, when your opponent does not have a Finish in play your skills = their skills.
+
+    Unblank your Skill Requirement cards.'
   tags: []
 - name: JP Warhorse
   db_uuid: 5798171c5d814f3c9f2926be67a2b347
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: When you hit a card with "Stomp", "Charging", "Charge", or "Run" in the name, draw 1 card.
   tags: []
 - name: JPL
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
@@ -33222,11 +33487,27 @@
   db_uuid: b41d30281182409c8d64717d314ab4bc
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: When you hit a Strike, choose 1 card your opponent has in play and bury it.
   tags: []
 - name: Jupiter
   db_uuid: 75d2a722d7674b46958451b843d04078
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 7
+  rules_text: If you rolled Strike for your turn roll, you may play 1 additional card this turn.
   tags: []
 - name: K7 Sniper
   db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
@@ -33272,6 +33553,16 @@
   db_uuid: 9acd6c2f43f649aea388f5fa72c04570
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: 'When you hit a Submission:
+
+    Flip cards until you flip a Strike, add that Strike to your hand.'
   tags: []
 - name: KayJay Impala
   db_uuid: 376f821b06c94e4688ebf91d872b7d6e
@@ -33379,6 +33670,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/kenzie-paige/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Female
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When you hit a Strike, your opponent randomly reveals one card in their hand.  If it is a Stop, bury it. If not, your next turn roll is +1.
   tags: []
 - name: Khloe Mai
   db_uuid: 3c8273a9252a46feb337348e29c30ad3
@@ -33392,6 +33691,9 @@
   strike: 10
   submission: 7
   grapple: 5
+  rules_text: 'When the Crowd Meter increases:
+
+    Draw cards equal to the Crowd Meter +1 or choose 2 cards from your discard pile and randomly bury them.'
   tags: []
 - name: Kid Fresh
   db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
@@ -33405,20 +33707,53 @@
   strike: 8
   submission: 6
   grapple: 7
+  rules_text: When you roll Agility for your turn roll, search your deck for 1 Finish and put it on top of your shuffled deck.
   tags: []
 - name: Kid Thunder
   db_uuid: 223b53a8b2c34a37ac87a18cf0b1bdae
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'FRONT: Your "Thunder Driver" is also #23.
+
+    If you hit a card with "Thunder" or "Lightning" in the name, turn this card over.
+
+    BACK: When you hit a card with "Thunder" in the name, shuffle 2 cards from your discard pile into your deck.
+
+    When you hit a card with "Lightning" in the name, draw 1 card.'
   tags: []
 - name: King Brian Page
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll:
+
+    You may re-roll your next turn roll.'
   tags: []
 - name: King Carcosa
   db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: Your Grapple is +1 for each Strike you have in play (Max +3).
   tags: []
 - name: The King of Cosplay Mikal Mosley (V1)
   db_uuid: fb1e57613abe48419157410bb5bce677
@@ -33517,11 +33852,29 @@
   db_uuid: 7e5c8dfeecc041958080980601611097
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: 'Choose an opponent.
+
+    Once per turn roll: When you and your opponent roll the same skill, add 1 card from your discard pile to your hand.'
   tags: []
 - name: King Kold
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: At the start of the match, choose an opponent.  Their maximum handsize is -3.
   tags: []
 - name: King Kong Dundy
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
@@ -33542,11 +33895,31 @@
   db_uuid: 43ac7d0570b24608a28f525f00156ffe
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'The Crowd Meter starts at Level 1.
+
+    This match has no disqualifications.
+
+    Your "Big Boot" is instead a Finish.'
   tags: []
 - name: The King of Strings
   db_uuid: cc2319413d394caa9da0a045a4141797
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: Your cards are considered to have "Guitar" in the name for your card effects.
   tags: []
 - name: Koby the Kid
   db_uuid: bf301e6c594b4946a34618e4e43af90b
@@ -33613,11 +33986,29 @@
   db_uuid: ccfe5910ae174623b2a7f5b0f96e24d2
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: When you roll Submission for your turn roll, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Kung Fu Donnie Janela
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: 'During your opponent''s turn:
+
+    Their cards with "Chop", "Kick", or "Strike" in the name have blank text.'
   tags: []
 - name: L.A. Park
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
@@ -33665,6 +34056,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/l-e-o-the-law/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'Once a turn: When you hit a L.E.O. the Law Finish, you may force your opponent to re-roll their breakout roll.'
   tags: []
 - name: La Fenix (V1)
   db_uuid: 92d9e53180de40039d33b076e18b9127
@@ -33871,6 +34270,7 @@
   strike: 10
   submission: 5
   grapple: 8
+  rules_text: Your cards with "Elbow" in the name cannot be stopped by Skill Requirements & you can stop cards that cannot be stopped.
   tags: []
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
@@ -34306,26 +34706,68 @@
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
   card_type: SingleCompetitorCard
   division: United States
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: Replace "Once" in the text of your Entrance cards with "3 Times".
   tags: []
 - name: Lonestar
   db_uuid: b9371784bd32450993c3b7574677c3c7
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'Once during your turn: You may discard 1 Strike from your hand to add 1 Follow Up Grapple with "Suplex" or "Breaker" in the name from your discard pile to your hand.'
   tags: []
 - name: Lord Garruth
   db_uuid: 411450337c044fafaa3188e60e721a92
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: 'Once a match:
+
+    You may re-roll your Finish roll, your new roll is +1.'
   tags: []
 - name: Lord of the Dance
   db_uuid: 7959be929d324ad897255b94a99a57b1
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 6
+  grapple: 8
+  rules_text: When the Crowd Meter is 2 or greater, Stops have blank text.
   tags: []
 - name: Lord Thompson
   db_uuid: f63d587175404c10a36bdcd1e89338af
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: 'Your Strike cards have the added text:
+
+    "If stopped, shuffle this card into your deck.".'
   tags: []
 - name: Loudmouth Leo Larynx
   db_uuid: def74dd5530540ce8a9e903bc10fd620
@@ -34422,11 +34864,28 @@
   db_uuid: 72b5e77d43f04fa698236a65d51bde24
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When your opponent has 4 or fewer cards in their deck, their Finish rolls against you are -2.
   tags: []
 - name: Lucky Cat Neko
   db_uuid: ae3cdcd74b344ff18c243ef4db74de12
   card_type: SingleCompetitorCard
   division: United States
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: 'During your turn:
+
+    When you hit a Follow Up or Lucky Cat Neko Finish, your opponent buries 1 card in their hand.'
   tags: []
 - name: Lukewarm Stephen Houston
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
@@ -34445,15 +34904,40 @@
 - name: Lunatic Ginge (V1)
   db_uuid: 989286521bff469094dffc72fdfba974
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: 'When your opponent hits Strike or Grapple Finish: you may discard 2 cards from your hand, if either of those cards had "Suplex" in the name your first breakout roll is +4.'
   tags: []
 - name: Lunatic Ginge (V2)
   db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When your opponent would hit a Finish:
+
+    You may discard up to 3 cards from your hand to add +1 to your 1st Breakout roll for each card discards. If you discarded any cards with "Suplex" in the name, your Breakout roll is +1 more.'
   tags: []
 - name: Lycan
   db_uuid: 6610ac46791b4527b45006f551fe028e
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When your opponent's turn roll is Agility, search your deck for 1 non-Finish Strike, reveal it, and add it to your hand.
   tags: []
 - name: Macho Manny
   db_uuid: a09bc1774f984c6287207df2a01a4eee
@@ -34615,12 +35099,30 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/main-event-brett/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: When the Crowd Meter increases, shuffle cards from your discard pile into your deck equal to the Crowd Meter +1.
   tags: []
 - name: Mallory the Destroyer
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
   srgpc_url: https://www.srgpc.net/cards/competitors/mallory-the-destroyer/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: 'If your opponent is a Female competitor, their Gimmick is blank.
+
+    If not, copy their Gimmick.'
   tags: []
 - name: The Man from I.T.
   db_uuid: 49295df8c3bb48778a446b6eeba6982f
@@ -34668,6 +35170,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/mark-fn-perre/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: 'During your turn: When you hit a Grapple with "Drop" in the name add 1 card from your discard pile to your hand.'
   tags: []
 - name: The Mark Geoff Bravo
   db_uuid: 9a231499dca740c1ac1674b80f8234fd
@@ -34686,11 +35196,29 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/mark-the-shark-v2/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: Once on each of your turns, you may discard 1 Lead card from your hand to draw 1 card.
   tags: []
 - name: Mark the Shark (V2)
   db_uuid: a65cebf0b6ce40158c7d786af90a5e1d
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: 'During your turn:
+
+    When you hit a Lead, draw 1 card.'
   tags: []
 - name: Mars
   db_uuid: c487866114d74ebd9ca474bf13f38fb3
@@ -34856,37 +35384,92 @@
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
 - name: Matt Nelan (V2)
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 6
+  strike: 5
+  submission: 10
+  grapple: 9
+  rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: When you roll Strike your opponent draws 1 card then randomly discards 1 card from their hand.
   tags: []
 - name: Matt Stevens (V1)
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: When you hit a Strike, draw 1 card.
   tags: []
 - name: Matt Stevens (V2)
   db_uuid: 79d6196f1e334e54beba5be194847bc5
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
   rules_text: When you have a Strike in play, your Strike skill is +1.
   tags: []
 - name: Matt Travis
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When you hit a card with "Kick" in the name your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Kick" in the name, choose 1 of those revealed cards and bury it.
   tags: []
 - name: Matty Bar1
   db_uuid: 041f88464da84d039c316094b81a3273
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 6
+  grapple: 5
+  rules_text: Whenever your opponent would discard or bury cards from their hand from a card or Gimmick, they are randomly revealed and buried instead.
   tags: []
 - name: Maul
   db_uuid: d7de2a59d5f04f41968fca33387c4304
@@ -34937,11 +35520,27 @@
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 6
+  grapple: 5
+  rules_text: When you hit a card with "Shot" or "Fire" in the name, draw the bottom card of your deck.
   tags: []
 - name: Mayhem
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: When you flip any number of cards, randomly add 1 of the flipped cards to your hand.
   tags: []
 - name: Meeple's Champion (V1)
   db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
@@ -35082,21 +35681,70 @@
   db_uuid: dde6c34e818d4973a031d0d6373ee395
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: When you roll Submission, your opponent buries 1 card in their hand and you may bury 1 card in your opponent's discard pile.
   tags: []
 - name: Mercury
   db_uuid: 0a5c355b041a4cf6bd2b78d9549d162f
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: When you roll Technique, your opponent draws 1 card then randomly discards 1 card from their hand.
   tags: []
 - name: Merlin von Berlin
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: If you rolled Power for your turn roll, you may play one additional card this turn.
   tags: []
 - name: Meta
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: 'FRONT: Once per turn roll:
+
+    When you bump you may re-roll your turn roll.
+
+    When you bump you may turn this card over.
+
+    BACK: Your opponent does not draw for bumps.'
+  tags: []
+- name: Meta (Back Stats)
+  db_uuid: 9cbeafbe7a9149d2960f47bc2c4bda9c
+  division: Global
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 8
   tags: []
 - name: Mic Riot (V1)
   db_uuid: abbb1208d83947d88e086a4a1018e037
@@ -41967,6 +42615,14 @@
   db_uuid: e161ad4f6b464065a78c1519b7da5da9
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: When you hit a Lead or Follow Up Submission, your next turn roll is +1.
   tags: []
 - name: Deathmatch King Matt Cardona
   db_uuid: b3c837b732a54281aa9169ab1d46d42f
@@ -43446,6 +44102,16 @@
   srg_url: https://supershowthegame.com/product/master-cringe-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 5
+  submission: 8
+  grapple: 9
+  rules_text: 'During your turn:
+
+    When you draw any number of cards from your card effects, your target buries 1 card in their hand.'
   tags: []
 - name: Moonstar
   db_uuid: d300d0adc8fa40e6920db70814656422

@@ -27392,6 +27392,13 @@
   rules_text: 'Once a match: During your opponent''s turn when you have at least 3 fewer cards in your hand than your opponent, you may reveal this card.  Choose Strike, Grapple, or Submission.  Your opponent cannot play cards of the chosen type until the end of the turn.'
   tags:
     - Valiant
+- name: Lifts You Up
+  db_uuid: c8c7ab345a63491580ae1e9121a08d17
+  card_type: SpectacleCard
+  rules_text: 'Once a match:
+
+    Until the end of the turn change the "If stopped" text on your opponent''s card to "If stopped, each player draws 1 card.'
+  tags: []
 - name: Calls for the Bell
   db_uuid: daf84834f807436e9bc123750628e3d7
   card_type: SpectacleCard

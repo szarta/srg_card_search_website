@@ -46875,6 +46875,59 @@
   rules_text: 'When you roll Power, Technique, or Agility for your turn roll: bury 1 card in your hand and draw 1 card.'
   tags:
     - Super Lucha
+  related_finishes:
+    - f736aaf11b3a4b49ad6815a920128995
+    - 37f884b9157544c99a45196203b26b88
+    - a2dd5c74aaf14f9daf5c8d2a663e35ed
+- name: Past Your Bedtime!
+  db_uuid: f736aaf11b3a4b49ad6815a920128995
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    Bury 3 cards in your hand.
+
+    Draw 3 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 79b3b861f1eb4a9ab11fdf5742841708
+- name: Red Rover!
+  db_uuid: 37f884b9157544c99a45196203b26b88
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    Choose a Skill:
+
+    Once: If either player rolls that skill, you may force them to re-roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 79b3b861f1eb4a9ab11fdf5742841708
+- name: I'm Telling Dad!
+  db_uuid: a2dd5c74aaf14f9daf5c8d2a663e35ed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    Draw the bottom card of your deck.
+
+    Your next turn roll is +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 79b3b861f1eb4a9ab11fdf5742841708
 - name: Catch Sleeper Stretch
   db_uuid: 6d5702935cc34524b20919b78cbc934e
   srgpc_url: https://www.srgpc.net/cards/21/catch-sleeper-stretch/
@@ -49096,6 +49149,53 @@
   rules_text: 'When you roll Grapple for your turn roll: When you hit a card, copy the text of a card your opponent has in play until the end of the turn.'
   tags:
     - Super Lucha
+  related_finishes:
+    - d9c094afe5104177bc106c6f8239648c
+    - 67c8d6b9e4cd48ae92d2b3cb47a87798
+    - fe8a2fbee5bf4ebbbd3be8a4b51a616c
+- name: The Murder Mitten!
+  db_uuid: d9c094afe5104177bc106c6f8239648c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +2 to Strike'
+  tags:
+    - Super Lucha
+  related_cards:
+    - cb529308bc9847e581b0128f99719f04
+- name: Show Me Your True Face!
+  db_uuid: 67c8d6b9e4cd48ae92d2b3cb47a87798
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    Look at your opponent''s hand, choose 1 card, and put it into play.
+
+    Copy the text of a card your opponent has in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - cb529308bc9847e581b0128f99719f04
+- name: Circle of the Sean
+  db_uuid: fe8a2fbee5bf4ebbbd3be8a4b51a616c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    If you rolled Grapple for your turn roll, your opponent gets 1 fewer Breakout roll this turn.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - cb529308bc9847e581b0128f99719f04
 - name: Snake Pitt (V4)
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
@@ -49300,6 +49400,55 @@
   rules_text: 'When you roll Power for your turn roll: Your Strike is +3 and your Agility is +3 during your next turn roll.'
   tags:
     - Super Lucha
+  related_finishes:
+    - e637f5f494964bfeab51add3c8928164
+    - 84d0e60fbc1044cc965b8500574bfc17
+    - bb4f102976ef46c886b5db65559c19da
+- name: Cringe Jackhammer Plunge!
+  db_uuid: e637f5f494964bfeab51add3c8928164
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Your Power and Agility are +3 during your next turn roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8e1a2c4a56f141c9b0464681e3d720a7
+- name: Howling Wolf Dive!
+  db_uuid: 84d0e60fbc1044cc965b8500574bfc17
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    If you ended the last turn without playing a card, triple these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8e1a2c4a56f141c9b0464681e3d720a7
+- name: Ode to Drew
+  db_uuid: bb4f102976ef46c886b5db65559c19da
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    Your opponent buries 1 card in their hand, then shuffles their deck.
+
+    Draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8e1a2c4a56f141c9b0464681e3d720a7
 - name: The Dirty Burgs
   db_uuid: fb99cecd0c0e4110a9f2b0358ef4b608
   srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/

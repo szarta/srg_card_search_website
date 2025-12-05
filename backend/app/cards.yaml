@@ -35835,6 +35835,7 @@
   tags: []
 - name: Meta (Back Stats)
   db_uuid: 9cbeafbe7a9149d2960f47bc2c4bda9c
+  card_type: SingleCompetitorCard
   division: Global
   gender: Male
   power: 10

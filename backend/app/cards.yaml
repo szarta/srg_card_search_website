@@ -43007,6 +43007,53 @@
   rules_text: Copy your target's Entrance or your 1st turn roll is +6.
   tags:
     - Super Lucha
+  related_finishes:
+    - 396d4be621d24cb4ab4b2778f892055d
+    - a6c8caace4a944958241553383a2efef
+    - 40e701da69b745c3b4c82b423dc2d928
+- name: Ganso Hammer!
+  db_uuid: 396d4be621d24cb4ab4b2778f892055d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If you have 10 or more cards in your hand, this card is also a Follow Up.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
+- name: Soviet Sickle!
+  db_uuid: a6c8caace4a944958241553383a2efef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Copy the text of a card your opponent has in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
+- name: The Golden Goose
+  db_uuid: 40e701da69b745c3b4c82b423dc2d928
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    If you roll Strike for your Finish roll, your opponent cannot breakout.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
 - name: El Jabroni
   db_uuid: 57c6169657c344cf8723858af6e7f422
   srgpc_url: https://www.srgpc.net/competitor/el-jabroni/
@@ -43022,6 +43069,59 @@
   rules_text: When your Grapple is stopped, put 1 other Grapple from your discard pile on top of your deck.
   tags:
     - Super Lucha
+  related_finishes:
+    - 4ad662c7804e40a69d730c5a8782a3e9
+    - 79ff82bbfa404daeaab42861a4c8504c
+    - 7f45929d2cef44d4bb51a5c0971db31c
+- name: Megadome!
+  db_uuid: 4ad662c7804e40a69d730c5a8782a3e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    Flip 5 cards.
+
+    Add 1 Grapple from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
+- name: Stirring the Pot!
+  db_uuid: 79ff82bbfa404daeaab42861a4c8504c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Shuffle 4 cards from yoru discard pile into your deck.
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
+- name: The Rear Naked Boston Crab!
+  db_uuid: 7f45929d2cef44d4bb51a5c0971db31c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    If the Crowd Meter is 2 or greater:
+
+    This card is also a Grapple for your Gimmick.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
 - name: El Leon de Lahore
   db_uuid: 82a3cb85ff544fbb96e18487d156f321
   srgpc_url: https://www.srgpc.net/competitor/el-leon-de-lahore/
@@ -48493,6 +48593,63 @@
   rules_text: 'Once per turn roll: When your target rolls Power, you may force them to re-roll.'
   tags:
     - Super Lucha
+  related_finishes:
+    - d2c67ee4958540c99f0e2adbedb4bc28
+    - d75e4689f18440259f2f91fd2b603756
+    - 23fa2bae53384a85a495d783233950f7
+- name: Hummingbird Dive!
+  db_uuid: d2c67ee4958540c99f0e2adbedb4bc28
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +4 to Strike
+
+    Search your deck for 1 card and add it to your hand.
+
+    Shuffle your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
+- name: 2-Winged Angel!
+  db_uuid: d75e4689f18440259f2f91fd2b603756
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Flip 2 cards.
+
+    Draw 2 cards.
+
+    Add 2 cards from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
+- name: The Best Nest!
+  db_uuid: 23fa2bae53384a85a495d783233950f7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your next 3 turn rolls are +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
 - name: Loeb The Collector
   db_uuid: cb529308bc9847e581b0128f99719f04
   card_type: SingleCompetitorCard
@@ -48534,7 +48691,8 @@
     +1 to Strike
 
     If your opponent has 7 or more cards in their hand, this card is also a Lead.'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - a9e25560225244d3accd57034587220b
 - name: Jumping Piledriver!
@@ -48548,7 +48706,8 @@
     +1 to Technique
 
     +2 to Agility'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - a9e25560225244d3accd57034587220b
 - name: The Conssstriction!
@@ -48560,7 +48719,8 @@
   rules_text: '+3 to Power
 
     +4 to Submission'
-  tags: []
+  tags:
+    - Super Lucha
   related_cards:
     - a9e25560225244d3accd57034587220b
 - name: St. Macho

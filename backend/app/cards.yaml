@@ -48965,6 +48965,57 @@
   rules_text: When your target's turn roll is 5 or less, this turn roll and your next turn roll are +1.
   tags:
     - Super Lucha
+  related_finishes:
+    - 5997ba4889f745cf989a3b838dad3fd4
+    - 1d425d89129d4455926fe45fa55e1337
+    - 4447d71684514bdda4ec45e56885b872
+- name: Holy Combo!
+  db_uuid: 5997ba4889f745cf989a3b838dad3fd4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    When hit: Discard 1 card from your hand and add that card''s text to this card until the end of the turn.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4a15300ac41346d2a521fca4939c3404
+- name: Dawn of the Mighty!
+  db_uuid: 1d425d89129d4455926fe45fa55e1337
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Draw 1 card.
+
+    If your opponent''s turn roll was 5 or less, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4a15300ac41346d2a521fca4939c3404
+- name: Cross Lock
+  db_uuid: 4447d71684514bdda4ec45e56885b872
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    ADd 1 card from your discard pile to your hand or draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4a15300ac41346d2a521fca4939c3404
 - name: Vik Vik DeDoom
   db_uuid: d4780f9496154143ac792803b32fa4ea
   srgpc_url: https://www.srgpc.net/competitor/vik-vik-dedoom/

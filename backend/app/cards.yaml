@@ -36086,7 +36086,57 @@
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: Your opponent's Skill Requirement cards have blank text.
   tags: []
+  related_finishes:
+    - 4e7d33ea83234708b77b3b7f22f14ca2
+    - 8772cc9257de4de496aea703a6ddc3e7
+    - 94e14839fb4c4e31aab8a4bc278d1807
+- name: Madone a Mia!
+  db_uuid: 4e7d33ea83234708b77b3b7f22f14ca2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Add 2 Skill Requirement cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 314f46dc83ca48b29e58ee500a0f4344
+- name: The Nagging Neckbreaker
+  db_uuid: 8772cc9257de4de496aea703a6ddc3e7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    If your opponent does not have a Skill Requirement card in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 314f46dc83ca48b29e58ee500a0f4344
+- name: Pogo Leg Choke
+  db_uuid: 94e14839fb4c4e31aab8a4bc278d1807
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's 1st and 2nd Breakout rolls are -1 for each Skill Requirement card they have in their discard pile +1.
+  tags: []
+  related_cards:
+    - 314f46dc83ca48b29e58ee500a0f4344
 - name: The Mortician (V1)
   db_uuid: cfc8e0da7777443d9f5530324b665a90
   card_type: SingleCompetitorCard

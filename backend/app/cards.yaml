@@ -45053,6 +45053,61 @@
   rules_text: When your opponent hits a Strike, you may re-roll your next turn roll; if you do not, draw 1 card.
   tags:
     - Super Lucha
+  related_finishes:
+    - dddd4ac1b25a44e1bb075a6834d66b69
+    - 9ab4b2aabfe948c18bf79dd16ca7bd6b
+    - 18fdf39078124cafa8686f239862f55c
+- name: Stem Strike!
+  db_uuid: dddd4ac1b25a44e1bb075a6834d66b69
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    Draw 1 card.
+
+    Your next turn roll is +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 7f196339ee714dacab9e0bfac43fbe30
+- name: Marigold Madness!
+  db_uuid: 9ab4b2aabfe948c18bf79dd16ca7bd6b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If your Finish roll is odd, your opponent''s next 5 turn rolls are -1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 7f196339ee714dacab9e0bfac43fbe30
+- name: Bloomed Out!
+  db_uuid: 18fdf39078124cafa8686f239862f55c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If your Finish roll is even, draw 5 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 7f196339ee714dacab9e0bfac43fbe30
 - name: Wendigo
   db_uuid: caae00fadebe4d0fb4d0cbc4ae35c06b
   srg_url: https://supershowthegame.com/product/wendigo/

@@ -42875,6 +42875,57 @@
   rules_text: When your target's turn roll is 10 or greater, you may re-roll your next turn roll.
   tags:
     - Super Lucha
+  related_finishes:
+    - dc66b32f2ac94aad92342b38f5d685f9
+    - de1c42424251467a8e9482c133441a67
+    - e3e6872ec8654a0ca776d27c7e4a84ed
+- name: Brain Buster!
+  db_uuid: dc66b32f2ac94aad92342b38f5d685f9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you re-rolled your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
+- name: Brain Dump!
+  db_uuid: de1c42424251467a8e9482c133441a67
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +3 to Grapple
+
+    Add 1 card from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
+- name: Cranial Compress!
+  db_uuid: e3e6872ec8654a0ca776d27c7e4a84ed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Add 1 card from in play to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
 - name: El Frenetico
   db_uuid: ed652335019b4eee8341e33a86bad731
   srgpc_url: https://www.srgpc.net/competitor/el-frenetico/

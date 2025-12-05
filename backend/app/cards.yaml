@@ -42,6 +42,53 @@
     When you hit a Follow Up, or your opponent rolled Power for their turn roll: you may play an additional Follow Up this turn.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 2a2f0e802a3e418cb8641973111bdd7e
+    - fc87a98093ef4eb0973be1456dd01135
+    - 3533a8bdb7584bf982f30f7d7dbfc24b
+- name: Bull-istic Missile Dropkick
+  db_uuid: 2a2f0e802a3e418cb8641973111bdd7e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    If your opponent rolled Power for their turn roll, this card is also a Follow Up.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
+- name: El Toro-Nado DDT!
+  db_uuid: fc87a98093ef4eb0973be1456dd01135
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Draw 2 cards from each Follow Up you have in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
+- name: Canal Clutch
+  db_uuid: 3533a8bdb7584bf982f30f7d7dbfc24b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your Technique is +1 for each Follow Up you have in play (Max +5).  When your opponent rolls Power, their next turn roll is -2.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 271b524616d04a08b7c95d67515e2599
 - name: Alex Hammerstone
   db_uuid: eb68a4f3acd74fb592885308366529f2
   is_banned: false
@@ -16445,9 +16492,9 @@
   deck_card_number: 20
   rules_text: Your opponent cannot make you bury cards from your hand.
   tags: []
-- name: Belly to Bear Belly Suplex
-  db_uuid: 155031198ab3412f8168b991190b0425
-  srgpc_url: https://www.srgpc.net/cards/20/belly-to-bear-belly-suplex/
+- name: Fierce Fisherman Suplex
+  db_uuid: 82c256f957f848ef97a48f839d794e7c
+  srgpc_url: https://www.srgpc.net/cards/20/fierce-fisherman-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -26023,6 +26070,7 @@
   related_finishes:
     - d924c3b72a6c41c38d8a8677bc063867
     - 44c1662054c845faa37c96f13da62c0f
+    - 683901c278734302b4726c61a3bf4984
     - f39afe7cc2eb42558aeac7b6df6506f9
 - name: Top Rope Dive DDT
   db_uuid: d924c3b72a6c41c38d8a8677bc063867
@@ -26037,6 +26085,20 @@
     Take 3 cards from your discard pile and shuffle them into your deck.
 
     Draw 3 cards. When your opponent is a Female they bury 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 748132a3c93642228eb708ad10f1f1ac
+- name: Balls-Plex
+  db_uuid: 683901c278734302b4726c61a3bf4984
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    When your opponent is a Male Competitor their Power is -2 and their Gimmick is blank.
+
+    When they are not this card is also a Follow Up.'
   tags: []
   related_cards:
     - 748132a3c93642228eb708ad10f1f1ac
@@ -30002,16 +30064,42 @@
   db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: 'Once a turn roll:
+
+    When you roll Agility you may re-roll.'
   tags: []
 - name: Colt Cabana (V2)
   db_uuid: ee6c96e6131446909a2014075f80f2f7
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 9
+  rules_text: When you stop a card, you may re-roll your next turn roll.
   tags: []
 - name: The Consigilere
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a card with "Boss" or "Sheep" in the name, your opponent randomly buries 1 card in their hand.
   tags: []
 - name: Copy Kat (V1)
   db_uuid: 941ba12c956546f4b9abf28336f9d92a
@@ -30049,11 +30137,31 @@
   db_uuid: a581eb463bac433395ccc06f78c365c1
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 8
+  grapple: 5
+  rules_text: 'Once during your turn:
+
+    Discard 1 card from your hand to look at the top 3 cards of your deck and put them back on top in any order.'
   tags: []
 - name: Corrugated Cardboard Villain
   db_uuid: ed1c696106ab4fb4ba80ab10e893e1ad
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 5
+  submission: 10
+  grapple: 6
+  rules_text: 'If your turn roll is at least 2 greater than your opponent''s, draw 1 card.
+
+    When you bump, discard 1 card from your hand instead of drawing.'
   tags: []
 - name: Daisy Rider
   db_uuid: 8be0afa58eb049048feb204eac5b48d2
@@ -30188,10 +30296,28 @@
   db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
   srgpc_url: https://www.srgpc.net/cards/competitors/david-starr/
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: Once on each of your turns, you may reveal your hand to your opponent, shuffle 1 card from your hand into your deck and then draw 1 card.
   tags: []
 - name: David Starr (V2)
   db_uuid: cd5a1c194e9b486aac4caac7cea6638d
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  rules_text: 'Once during each of your turns:
+
+    You may reveal 1 card in your hand, shuffle it into your deck and draw 1 card.'
   tags: []
 - name: Dayna Might
   db_uuid: 01fa3c112412460b9999cb45f076fe73
@@ -30577,21 +30703,55 @@
   db_uuid: ebc7f25eaba1461aa7d083ff0807f003
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 10
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 8
+  rules_text: When you hit a card with "Slam" in the name, your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Slam" in the name, choose 1 of those revealed cards and bury it.
   tags: []
 - name: Diamond Danny G
   db_uuid: 251d99d79e864af58762a6926801d0e9
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: When you hit a Submission, flip 2 cards and add 1 Stop from your discard pile to your hand.
   tags: []
 - name: Dick Thunderlips
   db_uuid: 323e4ac05b4a4492b4530097511d113f
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When you hit a Spotlight your next turn roll is +2.
   tags: []
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  rules_text: 'After you flip any number of cards:
+
+    Look at your opponent''s hand, then you may bury 1 card in any player''s discard pile.'
   tags: []
 - name: Dirty Eddy (V1)
   db_uuid: e11da46d6f07469b8bb42e3fff7800b7
@@ -30622,22 +30782,56 @@
 - name: Dosmody the Snowman
   db_uuid: 426cb6e5acba479d81211a14c08f4fda
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: 'When you hit a Finish:
+
+    Your opponent cannot increase their breakout rolls.'
   tags: []
 - name: Downriver Drew
   db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: 'Once per turn roll:
+
+    When you roll Power, you may re-roll.'
   tags: []
 - name: Dr. Emily Booker (V1)
   db_uuid: 836b424a74fd4d6d89eab215f184615e
   card_type: SingleCompetitorCard
   division: United States
-  rules_text: 'When you roll Submission for your turn roll: Look at your opponent''shand and you may switch 1 non-Stop card in their hand with 1 card in their discard pile.'
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: 'When you roll Submission for your turn roll: Look at your opponent''s hand and you may switch 1 non-Stop card in their hand with 1 card in their discard pile.'
   tags: []
 - name: Dr. Emily Booker (V2)
   db_uuid: 79c2cee5dffb4d51ac5a70f7f124cada
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
   rules_text: 'During your turn:
 
     When you hit a card with an odd card number, draw 1 card.'
@@ -30645,6 +30839,17 @@
 - name: Drunken Master
   db_uuid: 89a3e95dd0044141836048a654029ee7
   card_type: SingleCompetitorCard
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 6
+  rules_text: 'FRONT: After you flip 3 or more cards, add 1 of the flipped cards to your hand.
+
+    Once during your turn, you may bury 3 cards in each player''s discard pile and turn this card over.
+
+    BACK: Cards in your opponent''s discards pile have blank text.'
   tags: []
 - name: The Duke (V1)
   db_uuid: 1b4a21878c13419a9e643ce6359bae8a
@@ -30779,6 +30984,13 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/
   card_type: SingleCompetitorCard
   division: Global
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: When you hit a card with "Kick", "Dive", or "Sault" in the name, shuffle 1 card from your discard pile into your deck.
   tags: []
 - name: El Super Santa
   db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
@@ -31040,7 +31252,66 @@
   db_uuid: 279f7634d67d4759a912ff9ab8865a4e
   card_type: SingleCompetitorCard
   division: Super Lucha
-  tags: []
+  power: 10
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When you roll Technique or Strike for your turn roll, your next turn roll is +1.
+  tags:
+    - Super Lucha
+  related_finishes:
+    - c6c5d0b8931e447cb5bbf7d68360b3eb
+    - f0b63e3e4c2041ea8b07cff1eff13072
+    - c4a329bcf75b44a2b0c5022f4539f5e1
+- name: The Hot Foot!
+  db_uuid: c6c5d0b8931e447cb5bbf7d68360b3eb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
+- name: El Fuego Flamethrower!
+  db_uuid: f0b63e3e4c2041ea8b07cff1eff13072
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Draw 3 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
+- name: Brand X
+  db_uuid: c4a329bcf75b44a2b0c5022f4539f5e1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    +2 to Submission
+
+    Shuffle up to 10 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
 - name: Firestarter (#28)
   db_uuid: a91e4a805d4e4439bd1a48295c27cfa2
   card_type: MainDeckCard
@@ -31149,6 +31420,13 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/everyones-enemy/
   card_type: SingleCompetitorCard
   division: Hardcore
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: When your opponent forces you to bury or discard any number of cards from your hand, your opponent buries the same number of cards from their hand.
   tags: []
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
@@ -32067,11 +32345,27 @@
   srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: 'Once during your turn: When you hit a card with "Punch" in the name, you may draw 1 card or play an additional card this turn.'
   tags: []
 - name: Gideon Guts (V2)
   db_uuid: d02f496c8aef43e7953af2ce6fe81f22
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 7
+  rules_text: 'When your opponent stops a Gideon Guts Finish: they randomly discard 1 card from their hand.'
   tags: []
 - name: Grande Gallo
   db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
@@ -32091,6 +32385,16 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/great-oniman/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 8
+  grapple: 6
+  rules_text: 'When you have a Strike in play and you roll Strike, you and 1 opponent each bury 1 card in hand.
+
+    When you have a Submission in play and you roll Submission, you may add 1 Submission from your discard pile to your hand.'
   tags: []
 - name: The Great Outdoors
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
@@ -32628,6 +32932,18 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/j-train/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 6
+  rules_text: 'FRONT: Your deck may contain 1 additional Skill Requirement card.
+
+    You may turn this card over to stop any Submission.
+
+    BACK: When this card was turned over, your opponent''s next turn roll is -1, and your next turn roll is +1.'
   tags: []
 - name: Jacob Fatu
   db_uuid: c8f9abd1a3cf4e089549384fd52d0bce
@@ -32863,16 +33179,44 @@
   db_uuid: cfa3283cdd9f40d18785633df6626070
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: 'At the start of the match: Choose another competitor, when you and that competitor both roll Submission or both roll Grapple for your turn roll, the Crowd Meter is +1.'
   tags: []
 - name: Johnny El Dorado
   db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 10
+  grapple: 9
+  rules_text: When your turn roll is at least 5 less than your opponent's, bump instead.
   tags: []
 - name: Johnny Gargano
   db_uuid: 17371174d48f48d59a01492841a75416
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 10
+  rules_text: 'During your turn:
+
+    Your Grapple cards have the added text:
+
+    "Flip 2 cards, and then add 1 Submission card in your discard pile to your hand.'
   tags: []
 - name: Johnny North Korea
   db_uuid: 6fee88b1e0494bec9e0181ab6735a50b
@@ -33000,6 +33344,12 @@
   is_banned: true
   card_type: SingleCompetitorCard
   gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 5
+  grapple: 9
   rules_text: Once during your turn when you hit a card with "Slam" in the name; draw 2 cards or you may play 1 additional card this turn.
   tags: []
 - name: Johnny Supershow (V2)
@@ -33007,6 +33357,12 @@
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 5
+  grapple: 9
   rules_text: 'Once during your turn when you hit a card with "Slam" in the name: Draw 1 card or you may play 1 additional card this turn.'
   tags: []
 - name: Johnny T
@@ -33105,26 +33461,68 @@
   db_uuid: c00569ab32544866b8eb51008e821d17
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: For each Grapple or Submission you have in play, the Crowd Meter is considered +2 for your card effects.
   tags: []
 - name: Jordan Oliver (V1)
   db_uuid: ce62c04bdaf54cc1b72280f22e89589a
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When your opopnent hits a card, your Power, Agility, and Strike are +1 during your next turn roll.
   tags: []
 - name: Jordan Oliver (V2)
   db_uuid: 24a750cd651b4ed0952e5d933524a9f0
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: If you rolled Power for your turn roll, your cards with "Avalanche" in the name are also Leads until the end of the turn.
   tags: []
 - name: Joseph Ritchie
   db_uuid: e5093ca247334348986ed94e04c5bb76
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'At the start of the match: Choose an opponent, when your opponent does not have a Finish in play your skills = their skills.
+
+    Unblank your Skill Requirement cards.'
   tags: []
 - name: JP Warhorse
   db_uuid: 5798171c5d814f3c9f2926be67a2b347
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: When you hit a card with "Stomp", "Charging", "Charge", or "Run" in the name, draw 1 card.
   tags: []
 - name: JPL
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
@@ -33187,11 +33585,27 @@
   db_uuid: b41d30281182409c8d64717d314ab4bc
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: When you hit a Strike, choose 1 card your opponent has in play and bury it.
   tags: []
 - name: Jupiter
   db_uuid: 75d2a722d7674b46958451b843d04078
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 7
+  rules_text: If you rolled Strike for your turn roll, you may play 1 additional card this turn.
   tags: []
 - name: K7 Sniper
   db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
@@ -33237,6 +33651,16 @@
   db_uuid: 9acd6c2f43f649aea388f5fa72c04570
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: 'When you hit a Submission:
+
+    Flip cards until you flip a Strike, add that Strike to your hand.'
   tags: []
 - name: KayJay Impala
   db_uuid: 376f821b06c94e4688ebf91d872b7d6e
@@ -33344,6 +33768,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/kenzie-paige/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Female
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 8
+  grapple: 9
+  rules_text: When you hit a Strike, your opponent randomly reveals one card in their hand.  If it is a Stop, bury it. If not, your next turn roll is +1.
   tags: []
 - name: Khloe Mai
   db_uuid: 3c8273a9252a46feb337348e29c30ad3
@@ -33357,6 +33789,9 @@
   strike: 10
   submission: 7
   grapple: 5
+  rules_text: 'When the Crowd Meter increases:
+
+    Draw cards equal to the Crowd Meter +1 or choose 2 cards from your discard pile and randomly bury them.'
   tags: []
 - name: Kid Fresh
   db_uuid: 3a0b63e9be944473b9b5067b10aeed5a
@@ -33370,20 +33805,53 @@
   strike: 8
   submission: 6
   grapple: 7
+  rules_text: When you roll Agility for your turn roll, search your deck for 1 Finish and put it on top of your shuffled deck.
   tags: []
 - name: Kid Thunder
   db_uuid: 223b53a8b2c34a37ac87a18cf0b1bdae
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'FRONT: Your "Thunder Driver" is also #23.
+
+    If you hit a card with "Thunder" or "Lightning" in the name, turn this card over.
+
+    BACK: When you hit a card with "Thunder" in the name, shuffle 2 cards from your discard pile into your deck.
+
+    When you hit a card with "Lightning" in the name, draw 1 card.'
   tags: []
 - name: King Brian Page
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll:
+
+    You may re-roll your next turn roll.'
   tags: []
 - name: King Carcosa
   db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: Your Grapple is +1 for each Strike you have in play (Max +3).
   tags: []
 - name: The King of Cosplay Mikal Mosley (V1)
   db_uuid: fb1e57613abe48419157410bb5bce677
@@ -33482,11 +33950,29 @@
   db_uuid: 7e5c8dfeecc041958080980601611097
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: 'Choose an opponent.
+
+    Once per turn roll: When you and your opponent roll the same skill, add 1 card from your discard pile to your hand.'
   tags: []
 - name: King Kold
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: At the start of the match, choose an opponent.  Their maximum handsize is -3.
   tags: []
 - name: King Kong Dundy
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
@@ -33507,11 +33993,31 @@
   db_uuid: 43ac7d0570b24608a28f525f00156ffe
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'The Crowd Meter starts at Level 1.
+
+    This match has no disqualifications.
+
+    Your "Big Boot" is instead a Finish.'
   tags: []
 - name: The King of Strings
   db_uuid: cc2319413d394caa9da0a045a4141797
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: Your cards are considered to have "Guitar" in the name for your card effects.
   tags: []
 - name: Koby the Kid
   db_uuid: bf301e6c594b4946a34618e4e43af90b
@@ -33578,11 +34084,29 @@
   db_uuid: ccfe5910ae174623b2a7f5b0f96e24d2
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: When you roll Submission for your turn roll, choose 1 card your opponent has in play and discard it.
   tags: []
 - name: Kung Fu Donnie Janela
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: 'During your opponent''s turn:
+
+    Their cards with "Chop", "Kick", or "Strike" in the name have blank text.'
   tags: []
 - name: L.A. Park
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
@@ -33630,6 +34154,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/l-e-o-the-law/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'Once a turn: When you hit a L.E.O. the Law Finish, you may force your opponent to re-roll their breakout roll.'
   tags: []
 - name: La Fenix (V1)
   db_uuid: 92d9e53180de40039d33b076e18b9127
@@ -33836,6 +34368,7 @@
   strike: 10
   submission: 5
   grapple: 8
+  rules_text: Your cards with "Elbow" in the name cannot be stopped by Skill Requirements & you can stop cards that cannot be stopped.
   tags: []
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
@@ -34271,26 +34804,68 @@
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
   card_type: SingleCompetitorCard
   division: United States
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: Replace "Once" in the text of your Entrance cards with "3 Times".
   tags: []
 - name: Lonestar
   db_uuid: b9371784bd32450993c3b7574677c3c7
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'Once during your turn: You may discard 1 Strike from your hand to add 1 Follow Up Grapple with "Suplex" or "Breaker" in the name from your discard pile to your hand.'
   tags: []
 - name: Lord Garruth
   db_uuid: 411450337c044fafaa3188e60e721a92
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: 'Once a match:
+
+    You may re-roll your Finish roll, your new roll is +1.'
   tags: []
 - name: Lord of the Dance
   db_uuid: 7959be929d324ad897255b94a99a57b1
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 6
+  grapple: 8
+  rules_text: When the Crowd Meter is 2 or greater, Stops have blank text.
   tags: []
 - name: Lord Thompson
   db_uuid: f63d587175404c10a36bdcd1e89338af
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: 'Your Strike cards have the added text:
+
+    "If stopped, shuffle this card into your deck.".'
   tags: []
 - name: Loudmouth Leo Larynx
   db_uuid: def74dd5530540ce8a9e903bc10fd620
@@ -34387,11 +34962,28 @@
   db_uuid: 72b5e77d43f04fa698236a65d51bde24
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When your opponent has 4 or fewer cards in their deck, their Finish rolls against you are -2.
   tags: []
 - name: Lucky Cat Neko
   db_uuid: ae3cdcd74b344ff18c243ef4db74de12
   card_type: SingleCompetitorCard
   division: United States
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: 'During your turn:
+
+    When you hit a Follow Up or Lucky Cat Neko Finish, your opponent buries 1 card in their hand.'
   tags: []
 - name: Lukewarm Stephen Houston
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
@@ -34410,15 +35002,40 @@
 - name: Lunatic Ginge (V1)
   db_uuid: 989286521bff469094dffc72fdfba974
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: 'When your opponent hits Strike or Grapple Finish: you may discard 2 cards from your hand, if either of those cards had "Suplex" in the name your first breakout roll is +4.'
   tags: []
 - name: Lunatic Ginge (V2)
   db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 6
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When your opponent would hit a Finish:
+
+    You may discard up to 3 cards from your hand to add +1 to your 1st Breakout roll for each card discards. If you discarded any cards with "Suplex" in the name, your Breakout roll is +1 more.'
   tags: []
 - name: Lycan
   db_uuid: 6610ac46791b4527b45006f551fe028e
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: When your opponent's turn roll is Agility, search your deck for 1 non-Finish Strike, reveal it, and add it to your hand.
   tags: []
 - name: Macho Manny
   db_uuid: a09bc1774f984c6287207df2a01a4eee
@@ -34580,12 +35197,30 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/main-event-brett/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: When the Crowd Meter increases, shuffle cards from your discard pile into your deck equal to the Crowd Meter +1.
   tags: []
 - name: Mallory the Destroyer
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
   srgpc_url: https://www.srgpc.net/cards/competitors/mallory-the-destroyer/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: 'If your opponent is a Female competitor, their Gimmick is blank.
+
+    If not, copy their Gimmick.'
   tags: []
 - name: The Man from I.T.
   db_uuid: 49295df8c3bb48778a446b6eeba6982f
@@ -34633,6 +35268,14 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/mark-fn-perre/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: 'During your turn: When you hit a Grapple with "Drop" in the name add 1 card from your discard pile to your hand.'
   tags: []
 - name: The Mark Geoff Bravo
   db_uuid: 9a231499dca740c1ac1674b80f8234fd
@@ -34651,11 +35294,29 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/mark-the-shark-v2/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: Once on each of your turns, you may discard 1 Lead card from your hand to draw 1 card.
   tags: []
 - name: Mark the Shark (V2)
   db_uuid: a65cebf0b6ce40158c7d786af90a5e1d
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: 'During your turn:
+
+    When you hit a Lead, draw 1 card.'
   tags: []
 - name: Mars
   db_uuid: c487866114d74ebd9ca474bf13f38fb3
@@ -34821,37 +35482,92 @@
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
 - name: Matt Nelan (V2)
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 6
+  strike: 5
+  submission: 10
+  grapple: 9
+  rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: When you roll Strike your opponent draws 1 card then randomly discards 1 card from their hand.
   tags: []
 - name: Matt Stevens (V1)
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: When you hit a Strike, draw 1 card.
   tags: []
 - name: Matt Stevens (V2)
   db_uuid: 79d6196f1e334e54beba5be194847bc5
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
   rules_text: When you have a Strike in play, your Strike skill is +1.
   tags: []
 - name: Matt Travis
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 6
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When you hit a card with "Kick" in the name your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Kick" in the name, choose 1 of those revealed cards and bury it.
   tags: []
 - name: Matty Bar1
   db_uuid: 041f88464da84d039c316094b81a3273
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 9
+  strike: 10
+  submission: 6
+  grapple: 5
+  rules_text: Whenever your opponent would discard or bury cards from their hand from a card or Gimmick, they are randomly revealed and buried instead.
   tags: []
 - name: Maul
   db_uuid: d7de2a59d5f04f41968fca33387c4304
@@ -34902,11 +35618,27 @@
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 6
+  grapple: 5
+  rules_text: When you hit a card with "Shot" or "Fire" in the name, draw the bottom card of your deck.
   tags: []
 - name: Mayhem
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: When you flip any number of cards, randomly add 1 of the flipped cards to your hand.
   tags: []
 - name: Meeple's Champion (V1)
   db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
@@ -35047,61 +35779,175 @@
   db_uuid: dde6c34e818d4973a031d0d6373ee395
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: When you roll Submission, your opponent buries 1 card in their hand and you may bury 1 card in your opponent's discard pile.
   tags: []
 - name: Mercury
   db_uuid: 0a5c355b041a4cf6bd2b78d9549d162f
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: When you roll Technique, your opponent draws 1 card then randomly discards 1 card from their hand.
   tags: []
 - name: Merlin von Berlin
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: If you rolled Power for your turn roll, you may play one additional card this turn.
   tags: []
 - name: Meta
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: 'FRONT: Once per turn roll:
+
+    When you bump you may re-roll your turn roll.
+
+    When you bump you may turn this card over.
+
+    BACK: Your opponent does not draw for bumps.'
+  tags: []
+- name: Meta (Back Stats)
+  db_uuid: 9cbeafbe7a9149d2960f47bc2c4bda9c
+  division: Global
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 8
   tags: []
 - name: Mic Riot (V1)
   db_uuid: abbb1208d83947d88e086a4a1018e037
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 5
+  submission: 6
+  grapple: 10
+  rules_text: When the Crowd Meter is 5 or greater, your Breakout rolls are +5.
   tags: []
 - name: Mic Riot (V2)
   db_uuid: 80305a3d87ee41b08bbe8af899fe9e32
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: When the Crowd Meter is 5 or greater, your Breakout rolls are +5.
   tags: []
 - name: Midas Black
   db_uuid: 3a7af7898ff3456badabb9e31736478f
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 7
+  submission: 6
+  grapple: 9
   tags: []
 - name: Mike D
   db_uuid: eccdc6e7d1004c1a85ca2cb4a69d0ccb
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 10
+  submission: 9
+  grapple: 6
+  rules_text: You may bury 3 cards in your hand to stop any Follow Up.
   tags: []
 - name: Mike Verna (V1)
   db_uuid: ef7590095e2b41abae70c4f60eb06bc5
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: Your cards with "Super" in the name have the added text, "Your next turn roll is +2."
   tags: []
 - name: Mike Verna (V2)
   db_uuid: ac55fc415cfd407cb44b82c5e74797ea
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: When you hit a card with "Steel" in the name, your next turn roll is +1.
   tags: []
 - name: Mila Mai (V1)
   db_uuid: 763531a5c5ee468690793b8683f59abd
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: 'Once during your turn:
+
+    You may discard a Lead you have in play and your next turn roll is +1.'
   tags: []
 - name: Mila Mai (V2)
   db_uuid: 60081196caac41bb82fb1735e16268f6
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 5
+  rules_text: 'When you roll Technique: Shuffle 1 card with "Cosmic", "Dragon", or "Potion" in the name from your discard pile into your deck and draw 1 card.'
   tags: []
 - name: Mimic
   db_uuid: 924e81a6d29b4983bf9be0918a459760
@@ -35120,6 +35966,14 @@
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 6
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: After your opponent flips any number of cards, they bury 1 card in their hand.
   tags: []
 - name: Mistress of Mayhem J.K. Brawling
   db_uuid: 325738205e8248dcba7efb484c0c37ef
@@ -35802,6 +36656,10 @@
 
     For each card your opponent has in play choose 1: Draw 1 card or your opponent buries 1 card in their hand.'
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Destiny Drop
   db_uuid: e360c9e99301481faa45ad5ab6d9158b
   card_type: MainDeckCard
@@ -35812,6 +36670,10 @@
 
     Or you may discard your hand.'
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Every Dog Has Its Day
   db_uuid: 3b8f43c5ee604b46bed7aca4393cbb9d
   card_type: MainDeckCard
@@ -35820,6 +36682,10 @@
   deck_card_number: 30
   rules_text: Look at your opponent's hand or discard pile, choose 1 Finish card, this card copies its text until the end of the turn.
   tags: []
+  related_cards:
+    - 5f78183903ba49eabae4c4ec9f0ffd11
+    - 64639328a1d9437d8af22c5d648f4b70
+    - 0004458c7d0c4525a667c4280cd54d97
 - name: Paiger Rager
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
   srgpc_url: https://www.srgpc.net/cards/competitors/paiger-rager/
@@ -35832,6 +36698,7 @@
   strike: 10
   submission: 7
   grapple: 6
+  rules_text: When the Crowd Meter is 1 or greater your Breakout rolls are +1.
   tags: []
 - name: The Pain Artist DaVinci Wade
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
@@ -39431,7 +40298,50 @@
   strike: 5
   submission: 10
   grapple: 8
+  rules_text: When you stop a card, you may flip 2 cards then shuffle 1 card from your discard pile into your deck.
   tags: []
+  related_finishes:
+    - d75378d077304e1b819b3a822e03a091
+    - 7b14f1df3224430598dd05bc76e7a295
+    - 4deed24d3a904064965738de9e2b4d4e
+- name: Anarchy's Shovel (Unique)
+  db_uuid: d75378d077304e1b819b3a822e03a091
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If stopped, discard 1 card from your hand and bury this card or lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
+- name: Blood Angel's Revenge
+  db_uuid: 7b14f1df3224430598dd05bc76e7a295
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Your opponent discards their hand, then randomly adds 3 cards from their discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
+- name: Spitting Blood
+  db_uuid: 4deed24d3a904064965738de9e2b4d4e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: When this card is in your discard pile and you shuffle your deck, your opponent buries 1 card in their hand.
+  tags: []
+  related_cards:
+    - 62a71945c90d4824bdc4a8887e0f1a2a
 - name: Uranus
   db_uuid: 60f3433ddd5745c9905583b60466a734
   srgpc_url: https://www.srgpc.net/competitor-uranus/
@@ -41219,12 +42129,68 @@
 
     When your opponent stops your card, you may discard 2 cards from your hand to place the stopped card on top of your deck.'
   tags: []
-- name: Ariel with Scruffy
+- name: Ariel Lipstick & Scrappers
   db_uuid: 0085dbf1061643449bbd68a146b055dd
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 5
+  technique: 6
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: +1 to Power during turn rolls.
   tags:
     - Super Lucha
+  related_finishes:
+    - 9c8602205f2249d5a14086e84102c9e2
+    - b8f03c532e544e06b748933f15ac370d
+    - d32f728e74a64ebcb430ff1e16778111
+- name: Scrappers Is On the Case
+  db_uuid: 9c8602205f2249d5a14086e84102c9e2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Look at your opponent''s hand, they bury all Stop cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
+- name: Mattering Ram!
+  db_uuid: b8f03c532e544e06b748933f15ac370d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +1 to Grapple
+
+    Shuffle any number of cards from your discard pile into your deck; your next turn roll is +1 for each card shuffled in.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
+- name: Time For a Makeover
+  db_uuid: d32f728e74a64ebcb430ff1e16778111
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +2 to Submission
+
+    You may shuffle your hand into your deck and draw the same number of cards +2.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0085dbf1061643449bbd68a146b055dd
 - name: Baby Chaos
   db_uuid: 96c844fa0345492a992acefb247872a1
   card_type: SingleCompetitorCard
@@ -41654,6 +42620,53 @@
   rules_text: When you or your target break out, add 1 Strike or Submission from your discard pile to your hand.
   tags:
     - Super Lucha
+  related_finishes:
+    - 6e4a6cfe9dbd49cabb726db900a33b76
+    - cdbeec53ea61405f92ec69d4342a9243
+    - 415d025fc1e14c64a3841268c165d890
+- name: Unidentified Flying Saucer Dive!
+  db_uuid: 6e4a6cfe9dbd49cabb726db900a33b76
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
+- name: Cringe-T, Phone Home!
+  db_uuid: cdbeec53ea61405f92ec69d4342a9243
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Your Technique and Strike are +1 for each Finish in your discard pile.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
+- name: The Grey's Probe!
+  db_uuid: 415d025fc1e14c64a3841268c165d890
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    If you broke out last turn, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 0fe96044960944f5b77d9e45040934e4
 - name: D2 & The Ring Leader
   db_uuid: 9f02b39088284f38a15781a4bafacce7
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
@@ -41835,6 +42848,14 @@
   db_uuid: e161ad4f6b464065a78c1519b7da5da9
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: When you hit a Lead or Follow Up Submission, your next turn roll is +1.
   tags: []
 - name: Deathmatch King Matt Cardona
   db_uuid: b3c837b732a54281aa9169ab1d46d42f
@@ -41920,6 +42941,57 @@
   rules_text: When your target's turn roll is 10 or greater, you may re-roll your next turn roll.
   tags:
     - Super Lucha
+  related_finishes:
+    - dc66b32f2ac94aad92342b38f5d685f9
+    - de1c42424251467a8e9482c133441a67
+    - e3e6872ec8654a0ca776d27c7e4a84ed
+- name: Brain Buster!
+  db_uuid: dc66b32f2ac94aad92342b38f5d685f9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you re-rolled your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
+- name: Brain Dump!
+  db_uuid: de1c42424251467a8e9482c133441a67
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +3 to Grapple
+
+    Add 1 card from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
+- name: Cranial Compress!
+  db_uuid: e3e6872ec8654a0ca776d27c7e4a84ed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Add 1 card from in play to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 389c3b62d4e5419fad9bbf3037a45aac
 - name: El Frenetico
   db_uuid: ed652335019b4eee8341e33a86bad731
   srgpc_url: https://www.srgpc.net/competitor/el-frenetico/
@@ -41950,6 +43022,53 @@
   rules_text: Copy your target's Entrance or your 1st turn roll is +6.
   tags:
     - Super Lucha
+  related_finishes:
+    - 396d4be621d24cb4ab4b2778f892055d
+    - a6c8caace4a944958241553383a2efef
+    - 40e701da69b745c3b4c82b423dc2d928
+- name: Ganso Hammer!
+  db_uuid: 396d4be621d24cb4ab4b2778f892055d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If you have 10 or more cards in your hand, this card is also a Follow Up.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
+- name: Soviet Sickle!
+  db_uuid: a6c8caace4a944958241553383a2efef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Copy the text of a card your opponent has in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
+- name: The Golden Goose
+  db_uuid: 40e701da69b745c3b4c82b423dc2d928
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    If you roll Strike for your Finish roll, your opponent cannot breakout.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 8ce649bcffc94efbb19e5639e0e76472
 - name: El Jabroni
   db_uuid: 57c6169657c344cf8723858af6e7f422
   srgpc_url: https://www.srgpc.net/competitor/el-jabroni/
@@ -41965,6 +43084,59 @@
   rules_text: When your Grapple is stopped, put 1 other Grapple from your discard pile on top of your deck.
   tags:
     - Super Lucha
+  related_finishes:
+    - 4ad662c7804e40a69d730c5a8782a3e9
+    - 79ff82bbfa404daeaab42861a4c8504c
+    - 7f45929d2cef44d4bb51a5c0971db31c
+- name: Megadome!
+  db_uuid: 4ad662c7804e40a69d730c5a8782a3e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    Flip 5 cards.
+
+    Add 1 Grapple from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
+- name: Stirring the Pot!
+  db_uuid: 79ff82bbfa404daeaab42861a4c8504c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Shuffle 4 cards from yoru discard pile into your deck.
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
+- name: The Rear Naked Boston Crab!
+  db_uuid: 7f45929d2cef44d4bb51a5c0971db31c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    If the Crowd Meter is 2 or greater:
+
+    This card is also a Grapple for your Gimmick.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 57c6169657c344cf8723858af6e7f422
 - name: El Leon de Lahore
   db_uuid: 82a3cb85ff544fbb96e18487d156f321
   srgpc_url: https://www.srgpc.net/competitor/el-leon-de-lahore/
@@ -42018,8 +43190,67 @@
   db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When you roll Power for your turn roll:
+
+    Draw 1 card and your next turn roll is +1.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 91cbc3a9270b4a1981a1ef4f98336059
+    - 6507893df8284a69b49b1b78c29741c2
+    - 6ce32c9bf35e4c1f8ca66df55074a3e7
+- name: El Suuuper Smash!
+  db_uuid: 91cbc3a9270b4a1981a1ef4f98336059
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
+- name: El Suuuper Slam!
+  db_uuid: 6507893df8284a69b49b1b78c29741c2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
+- name: El Suuuper Spin!
+  db_uuid: 6ce32c9bf35e4c1f8ca66df55074a3e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 05c82b62b0484199bd4ba46b8e32d8e9
 - name: El Super Suns
   db_uuid: a9c1a3fa78c24971ab755caa21ff04f7
   card_type: TornadoCompetitorCard
@@ -42183,8 +43414,61 @@
   db_uuid: 1c2aa28e1b764df69acbf7a80c5f5c87
   card_type: SingleCompetitorCard
   division: Super Lucha
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 7
+  grapple: 9
+  rules_text: When you roll Grapple for your turn roll, add one Stop from your discard pile to your hand.
   tags:
     - Super Lucha
+  related_finishes:
+    - a32b817cce4f4792bbb196778a978c04
+    - 3879b9eb23464e72a80c4fed9891495e
+    - 519412bea177476ab978c112ac03c461
+- name: Calaveras Crash!
+  db_uuid: a32b817cce4f4792bbb196778a978c04
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
+- name: Pandita Muertita!
+  db_uuid: 3879b9eb23464e72a80c4fed9891495e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    Flip 3 cards or add 1 card from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
+- name: Entra Al Laberinto!
+  db_uuid: 519412bea177476ab978c112ac03c461
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power for each Stop you have in play.
+
+    +3 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 1c2aa28e1b764df69acbf7a80c5f5c87
 - name: Girthquake
   db_uuid: 39ae34a04acf4f8a83f4cc2f5590336d
   card_type: TornadoCompetitorCard
@@ -42312,6 +43596,55 @@
   rules_text: When you and your target roll the same skill for your turn roll, your next turn roll is +2.
   tags:
     - Super Lucha
+  related_finishes:
+    - 6701871ee8ac4148a639b8fde5ba702e
+    - fddb62b44a0c42a48e8edfb7fdb6d7e4
+    - f2a295c400604481b1336ee8383cfad5
+- name: Double Whammy!
+  db_uuid: 6701871ee8ac4148a639b8fde5ba702e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +4 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
+- name: The Hex Express!
+  db_uuid: fddb62b44a0c42a48e8edfb7fdb6d7e4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If you and your opponent rolled the same skill for your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
+- name: The Zodiac Belt!
+  db_uuid: f2a295c400604481b1336ee8383cfad5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    If you rolled the same skill as your opponent for the turn roll, +4 to Grapple instead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - e515d26515954e709e0f81a86f5231cb
 - name: xHidden Threatx
   db_uuid: dfc77bfe1e8c4a8089d3e3a1b54d4b5e
   srgpc_url: https://www.srgpc.net/competitor/xhidden-threatx/
@@ -42537,6 +43870,56 @@
   grapple: 9
   rules_text: 'When you roll Power for your turn roll: Search your deck for 1 Joe Hendry card and add it to your hand; shuffle your deck.'
   tags: []
+  related_finishes:
+    - 5ee73edd8abe49c6965270c97e125946
+    - 68be9b3096f84d46bc49656eb9ebcc82
+    - 0c11ccf34cd44a5ebc5d2f9cb63d1b64
+- name: Wave Your Hands
+  db_uuid: 5ee73edd8abe49c6965270c97e125946
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    You may discard this card from your hand to search your deck for "Standing Ovation" and add it to your hand; shuffle your deck.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
+- name: Standing Ovation
+  db_uuid: 68be9b3096f84d46bc49656eb9ebcc82
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s 1st breakout roll is - the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
+- name: Ankle Lock
+  db_uuid: 0c11ccf34cd44a5ebc5d2f9cb63d1b64
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If you rolled Power for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 87b26269da2d464da1bbf43c3f7b2d32
 - name: Kabuki Kabloow
   db_uuid: 711c8f31d1f448a2afba2bfc60f227ed
   card_type: TornadoCompetitorCard
@@ -43103,6 +44486,16 @@
   srg_url: https://supershowthegame.com/product/master-cringe-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 5
+  submission: 8
+  grapple: 9
+  rules_text: 'During your turn:
+
+    When you draw any number of cards from your card effects, your target buries 1 card in their hand.'
   tags: []
 - name: Moonstar
   db_uuid: d300d0adc8fa40e6920db70814656422
@@ -43509,11 +44902,6 @@
   submission: 6
   grapple: 8
   rules_text: 'At the start of the match, choose 3 words with at least 4 letters: When your opponent hits a card with 1 of those words in the name, draw 1 card.'
-  tags: []
-- name: Real Beater
-  db_uuid: 54fccd40ee2e498cbef07530b49a0762
-  card_type: SingleCompetitorCard
-  division: United States
   tags: []
 - name: Shattered Split
   db_uuid: 627444f08925427b973a23be26369043
@@ -45048,12 +46436,32 @@
 - name: Warlords of the Sea
   db_uuid: cabf020eb091401fa5e705bcd00feadf
   srg_url: https://supershowthegame.com/product/warlords-of-the-sea/
+  srgpc_url: https://www.srgpc.net/cards/competitors/warlords-of-the-sea/
   card_type: TrioCompetitorCard
+  power: 15
+  technique: 24
+  agility: 21
+  strike: 18
+  submission: 27
+  grapple: 30
+  rules_text: At the start of the match, unblank your skill cards.  Your skills are considered 3 higher than your opponent's for your card effects.  When a player would draw any number of cards, both player's draw instead.
   tags: []
 - name: Just Business
   db_uuid: 2d3a5ba6dec64071a6881680c832569b
   srg_url: https://supershowthegame.com/product/just-business/
+  srgpc_url: https://www.srgpc.net/competitor/just-business/
   card_type: TrioCompetitorCard
+  power: 30
+  technique: 15
+  agility: 24
+  strike: 18
+  submission: 27
+  grapple: 21
+  rules_text: 'At the start of the match, choose a skill, once per turn roll:
+
+    You may force a player to re-roll that skill.
+
+    Quadruple the numbers in your "Back in Business".'
   tags: []
 - name: 'Sheep Shearing Potion #91'
   db_uuid: a7a0c8a923e54cf39cde4b30c5f817b1
@@ -47265,6 +48673,63 @@
   rules_text: 'Once per turn roll: When your target rolls Power, you may force them to re-roll.'
   tags:
     - Super Lucha
+  related_finishes:
+    - d2c67ee4958540c99f0e2adbedb4bc28
+    - d75e4689f18440259f2f91fd2b603756
+    - 23fa2bae53384a85a495d783233950f7
+- name: Hummingbird Dive!
+  db_uuid: d2c67ee4958540c99f0e2adbedb4bc28
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +4 to Strike
+
+    Search your deck for 1 card and add it to your hand.
+
+    Shuffle your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
+- name: 2-Winged Angel!
+  db_uuid: d75e4689f18440259f2f91fd2b603756
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Flip 2 cards.
+
+    Draw 2 cards.
+
+    Add 2 cards from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
+- name: The Best Nest!
+  db_uuid: 23fa2bae53384a85a495d783233950f7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    Your next 3 turn rolls are +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 66d0f98dfaf143a5987afaed62824d27
 - name: Loeb The Collector
   db_uuid: cb529308bc9847e581b0128f99719f04
   card_type: SingleCompetitorCard
@@ -47282,8 +48747,62 @@
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'When you roll Power for your turn roll: +1 to Strike and +5 to Submission until the start of your next turn (Max +5 to each).'
   tags:
     - Super Lucha
+  related_finishes:
+    - 4ac13c8e22f342a9ad9e3d55916d53f6
+    - f0db012fd7924ce6a472e11aeec8823d
+    - 9e7881f9ace64f069142bc317e48932e
+- name: SSSSSnake Bite!
+  db_uuid: 4ac13c8e22f342a9ad9e3d55916d53f6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    If your opponent has 7 or more cards in their hand, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a9e25560225244d3accd57034587220b
+- name: Jumping Piledriver!
+  db_uuid: f0db012fd7924ce6a472e11aeec8823d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +2 to Agility'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a9e25560225244d3accd57034587220b
+- name: The Conssstriction!
+  db_uuid: 9e7881f9ace64f069142bc317e48932e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +4 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - a9e25560225244d3accd57034587220b
 - name: St. Macho
   db_uuid: 4a15300ac41346d2a521fca4939c3404
   card_type: SingleCompetitorCard
@@ -47908,3 +49427,306 @@
   rules_text: When your target increases any number of their skills, draw 2 cards.
   tags:
     - Super Lucha
+  related_finishes:
+    - ac8ce55d23c64699b0e21ec427405c7a
+    - cf61bc6686f24e8285bfe63e36cf6bcf
+    - fee291a465354ed9bc032a1619a103e9
+- name: Top Notch Squatch Drop
+  db_uuid: ac8ce55d23c64699b0e21ec427405c7a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Technique
+
+    +1 to Strike
+
+    If you rolled Agility for your turn roll, your Agility is +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
+- name: Extinction Event
+  db_uuid: cf61bc6686f24e8285bfe63e36cf6bcf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +4 to Grapple
+
+    Your opponent cannot play cards on the next turn.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
+- name: The Abominable Stretch
+  db_uuid: fee291a465354ed9bc032a1619a103e9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If your opponent''s skills are increased, or they increased their skills last turn or turn roll, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
+- name: Simple Chuck
+  db_uuid: a1d0a7618c4841d5843fbac23092b109
+  srg_url: https://supershowthegame.com/product/simple-chuck/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  rules_text: When you hit a card with 1 line of text, draw 1 card or your next turn roll is +1.
+  tags: []
+- name: Tortured Vigilante
+  db_uuid: c9c7ebf148884c038fa00763434c6244
+  srg_url: https://supershowthegame.com/product/tortured-vigilante/
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 8
+  rules_text: Your Technique skill is +1 for each card in your discard pile with "Swift" or "Microphone" in the name (Max +2).
+  tags: []
+- name: Real Beater
+  db_uuid: ee0c785df87947449d12e60e1023e17d
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Male
+  power: 6
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: At the start of your turn search your deck for "Armbar" and put it into play.
+  tags: []
+  related_finishes:
+    - a1d38276cdb140b8bd7b867f0624fefd
+    - e02917e3d6a440e88ea2ba8ea11449f9
+    - dd93966298c343cd9200757faea0dc11
+- name: Get Rocked!
+  db_uuid: a1d38276cdb140b8bd7b867f0624fefd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power.
+
+    If you do not have "Armbar" in play this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d
+- name: Crank It Out
+  db_uuid: e02917e3d6a440e88ea2ba8ea11449f9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Each time your opponent rolls for a breakout, draw 1 card.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d
+- name: Top 96 No Debate
+  db_uuid: dd93966298c343cd9200757faea0dc11
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ee0c785df87947449d12e60e1023e17d
+- name: Wonderful Dragon Muggin'
+  db_uuid: 980e893c498344d7a0cb8643486de128
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Draw 1 card.
+
+    Add 1 card from your discard pile to your hand.
+
+    Your next turn roll is +1.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+- name: El Gato Shinobi
+  db_uuid: 44a083f3214148959e40c125bb5eb7b2
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 5
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: 'When you roll Power for your turn roll: You may re-roll your next turn roll.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - be06a68f6f364206a7dc8b674a2305bb
+    - a40200cdc8314d3b9f89b94c743459ba
+    - 2b6614ab899e4d23b960541fea2cc1da
+- name: The Meownce!
+  db_uuid: be06a68f6f364206a7dc8b674a2305bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    If you re-rolled your turn roll you may re-roll your Finish roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2
+- name: The Cat's Cradle
+  db_uuid: a40200cdc8314d3b9f89b94c743459ba
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2
+- name: Shadow Purriken Jutsu
+  db_uuid: 2b6614ab899e4d23b960541fea2cc1da
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    Discard up to 3 cards from your hand. Your Power is +1 for each card discarded.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 44a083f3214148959e40c125bb5eb7b2
+- name: Middling Minions
+  db_uuid: f4d12cb103044b868907426757e49f06
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    This card counts as 2 Lead Grapples in play.'
+  tags: []
+- name: Blindside Backbreaker
+  db_uuid: 479d744858fd46358d49e00798ecb0bf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    If your Power skill is greater than your opponent''s Grapple skill, draw 3 cards.'
+  tags: []
+- name: Unexpected Shake
+  db_uuid: c86ad3cf27754862924caf5a8ee8510e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Strike.
+
+    This card counts as 2 Lead Submissions in play.'
+  tags: []
+- name: The Swolverine
+  db_uuid: b14da3081ccf4bedad2a5dc5e853f557
+  srg_url: https://supershowthegame.com/product/swolverine/
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When your card is stopped: If you rolled Power for your turn roll, you may shuffle that card into your deck and draw 1 card.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - ee727eaa01394ee79087f1e2864304f7
+    - 4dd39b62a8e144199f243fa19005d66f
+    - a9432fd778d34d5ca0c2ccd364955bc6
+- name: Tornado Claw!
+  db_uuid: ee727eaa01394ee79087f1e2864304f7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Shuffle 1 Lead, 1 Follow Up, and 1 Finish from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557
+- name: Avalanche Drill Claw!
+  db_uuid: 4dd39b62a8e144199f243fa19005d66f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Submission
+
+    Flip up to 5 cards.
+
+    If you rolled Agility for your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557
+- name: Meat Vision!
+  db_uuid: a9432fd778d34d5ca0c2ccd364955bc6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +4 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557

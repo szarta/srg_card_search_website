@@ -44232,6 +44232,57 @@
   rules_text: When your opponent stops your Finish, search your deck for 1 La Fenix Finish and add it to your hand, shuffle your deck.
   tags:
     - Super Lucha
+  related_finishes:
+    - 15851bc2c96e46c48cfca56efbc21abf
+    - b31797be00f4497da27270db447b17fc
+    - 5095837d36ee465a9add4fb94f314c1a
+- name: Fireball!
+  db_uuid: 15851bc2c96e46c48cfca56efbc21abf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 80ae186a6d6a43ee8402b85c112964c1
+- name: Flamestrike!
+  db_uuid: b31797be00f4497da27270db447b17fc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +4 to Grapple
+
+    Draw 1 card and your opponent discards 1 card from their hand for each Strike you have in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 80ae186a6d6a43ee8402b85c112964c1
+- name: Fenix Rising
+  db_uuid: 5095837d36ee465a9add4fb94f314c1a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Your Finish roll is + the Crowd Meter.
+
+    If your opponent breaks out, shuffle this card into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 80ae186a6d6a43ee8402b85c112964c1
 - name: Lady Outlaw
   db_uuid: 7bc2886de7e34870819b0dd6536cdf8b
   srg_url: https://supershowthegame.com/product/lady-outlaw/

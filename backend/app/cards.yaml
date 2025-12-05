@@ -27262,11 +27262,12 @@
 
     When you would lose the match via Disqualification you may ignore that effect and the match continues.'
   tags: []
-  related_finishes:
+  related_cards:
     - 12812fac9b5042c99da9cb3f85421e3b
     - ddbbc94d627240bcb702bc4a137d9c08
-    - 36da459381de4934a044f8c88ce58237
+  related_finishes:
     - eb6f73c0770e4aa2a8a4ce5b42100ca6
+    - 36da459381de4934a044f8c88ce58237
     - 4783476fdbe44b0f9d14ebebf4bff645
     - 79847e06777b4d4f876f30cc82dc2ebf
 - name: Anarchy's Son (V2)
@@ -27286,8 +27287,8 @@
     This match has no Disqualifications.'
   tags: []
   related_finishes:
-    - 36da459381de4934a044f8c88ce58237
     - eb6f73c0770e4aa2a8a4ce5b42100ca6
+    - 36da459381de4934a044f8c88ce58237
     - 4783476fdbe44b0f9d14ebebf4bff645
     - 79847e06777b4d4f876f30cc82dc2ebf
 - name: Smack With a Shovel
@@ -27318,6 +27319,7 @@
   tags: []
 - name: Take a Seat
   db_uuid: 36da459381de4934a044f8c88ce58237
+  srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -27328,9 +27330,13 @@
 
     When this card is in your discard pile and your roll Strike you may discard 1 card.  If stopped you lose the match via Disqualification.'
   tags: []
+  related_cards:
+    - 77ebbb073d5d453c8a1d3c5fc552897e
+    - 183c91a3aa75493fb106835743668d78
 - name: Anarchy's Shovel (Anarchy's Son)
   db_uuid: eb6f73c0770e4aa2a8a4ce5b42100ca6
   srg_url: https://supershowthegame.com/product/anarchys-son/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -27341,9 +27347,13 @@
 
     If stopped, discard 1 card from your hand and bury this card or lose the match via Disqualification.'
   tags: []
-- name: The King's Gambit
+  related_cards:
+    - 77ebbb073d5d453c8a1d3c5fc552897e
+    - 183c91a3aa75493fb106835743668d78
+- name: The King's Gambit (Anarchy's Son)
   db_uuid: 4783476fdbe44b0f9d14ebebf4bff645
   srg_url: https://supershowthegame.com/product/anarchys-son/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -27356,9 +27366,13 @@
 
     Discard up to 4 cards, flip the same number of cards.'
   tags: []
+  related_cards:
+    - 77ebbb073d5d453c8a1d3c5fc552897e
+    - 183c91a3aa75493fb106835743668d78
 - name: Terminate
   db_uuid: 79847e06777b4d4f876f30cc82dc2ebf
   srg_url: https://supershowthegame.com/product/anarchys-son/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -27369,6 +27383,9 @@
 
     Flip cards equal to your Finish roll.'
   tags: []
+  related_cards:
+    - 77ebbb073d5d453c8a1d3c5fc552897e
+    - 183c91a3aa75493fb106835743668d78
 - name: Advise from the Sidelines
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
   card_type: SpectacleCard

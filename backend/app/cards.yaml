@@ -49085,6 +49085,55 @@
   rules_text: When your target increases any number of their skills, draw 2 cards.
   tags:
     - Super Lucha
+  related_finishes:
+    - ac8ce55d23c64699b0e21ec427405c7a
+    - cf61bc6686f24e8285bfe63e36cf6bcf
+    - fee291a465354ed9bc032a1619a103e9
+- name: Top Notch Squatch Drop
+  db_uuid: ac8ce55d23c64699b0e21ec427405c7a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Technique
+
+    +1 to Strike
+
+    If you rolled Agility for your turn roll, your Agility is +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
+- name: Extinction Event
+  db_uuid: cf61bc6686f24e8285bfe63e36cf6bcf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +4 to Grapple
+
+    Your opponent cannot play cards on the next turn.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
+- name: The Abominable Stretch
+  db_uuid: fee291a465354ed9bc032a1619a103e9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If your opponent''s skills are increased, or they increased their skills last turn or turn roll, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4711539d48cc45a78fa29a20ad62ac76
 - name: Simple Chuck
   db_uuid: a1d0a7618c4841d5843fbac23092b109
   srg_url: https://supershowthegame.com/product/simple-chuck/

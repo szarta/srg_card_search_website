@@ -48760,7 +48760,56 @@
   rules_text: When you roll Submission for your turn roll, draw 2 cards.
   tags:
     - Super Lucha
-- name: Ninja Hummingbird (V2)
+  related_finishes:
+    - b03aca65a2364bc38fa5d45da0245311
+    - 09f8abc8b6f54aefb0a187ebbd32e242
+    - f81c0b9011f94f5c96d3edd3b4458676
+- name: Supersonic Lollislap!
+  db_uuid: b03aca65a2364bc38fa5d45da0245311
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Strike
+
+    Look at your opponent''s hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4bcdec3ecc6445fbb9be4aa897d17972
+- name: Glitter Bomb!
+  db_uuid: 09f8abc8b6f54aefb0a187ebbd32e242
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Your Submission is +2 if you have a Stop in play.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4bcdec3ecc6445fbb9be4aa897d17972
+- name: Blinding Star!
+  db_uuid: f81c0b9011f94f5c96d3edd3b4458676
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your next turn roll is +3.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 4bcdec3ecc6445fbb9be4aa897d17972
+- name: Ninja Hummingbird (Super Lucha)
   db_uuid: 66d0f98dfaf143a5987afaed62824d27
   card_type: SingleCompetitorCard
   division: Super Lucha

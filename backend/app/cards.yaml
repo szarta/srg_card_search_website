@@ -49582,3 +49582,71 @@
 
     This card counts as 2 Lead Submissions in play.'
   tags: []
+- name: The Swolverine
+  db_uuid: b14da3081ccf4bedad2a5dc5e853f557
+  srg_url: https://supershowthegame.com/product/swolverine/
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 5
+  grapple: 9
+  rules_text: 'When your card is stopped: If you rolled Power for your turn roll, you may shuffle that card into your deck and draw 1 card.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - ee727eaa01394ee79087f1e2864304f7
+    - 4dd39b62a8e144199f243fa19005d66f
+    - a9432fd778d34d5ca0c2ccd364955bc6
+- name: Tornado Claw!
+  db_uuid: ee727eaa01394ee79087f1e2864304f7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Shuffle 1 Lead, 1 Follow Up, and 1 Finish from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557
+- name: Avalanche Drill Claw!
+  db_uuid: 4dd39b62a8e144199f243fa19005d66f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Submission
+
+    Flip up to 5 cards.
+
+    If you rolled Agility for your turn roll, double these bonuses.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557
+- name: Meat Vision!
+  db_uuid: a9432fd778d34d5ca0c2ccd364955bc6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +4 to Submission'
+  tags:
+    - Super Lucha
+  related_cards:
+    - b14da3081ccf4bedad2a5dc5e853f557

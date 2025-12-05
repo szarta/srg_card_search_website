@@ -44990,6 +44990,55 @@
   rules_text: 'When you roll Strike for your turn roll: You may discard 1 card from your hand; add 1 card with a lower card number from your discard pile to your hand.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 279f0f43434b4957850795e86febc853
+    - 99983e4e7e994f2d83904cd73c79f5c4
+    - 4da772bbdaa943fda5436020a2e91ec7
+- name: Falchion Falsett!
+  db_uuid: 279f0f43434b4957850795e86febc853
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Draw 1 card.
+
+    Your opponent''s 2nd breakout roll is -1.
+
+    Your opponent''s 3rd breakout roll is -2.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 074d9ca5764847d19d8f3158a4b87552
+- name: For My Next Trick, Barrier Breacher!
+  db_uuid: 99983e4e7e994f2d83904cd73c79f5c4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Copy the text of 1 card in your opponent''s discard pile.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 074d9ca5764847d19d8f3158a4b87552
+- name: Sicilian Sun - The Final Act
+  db_uuid: 4da772bbdaa943fda5436020a2e91ec7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +4 to Submission
+
+    Discard 2 cards from your hand, shuffle 2 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 074d9ca5764847d19d8f3158a4b87552
 - name: Mrs. Marigold
   db_uuid: 7f196339ee714dacab9e0bfac43fbe30
   card_type: SingleCompetitorCard

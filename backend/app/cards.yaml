@@ -35835,6 +35835,7 @@
   tags: []
 - name: Meta (Back Stats)
   db_uuid: 9cbeafbe7a9149d2960f47bc2c4bda9c
+  card_type: SingleCompetitorCard
   division: Global
   gender: Male
   power: 10
@@ -40590,6 +40591,11 @@
   strike: 9
   submission: 7
   grapple: 8
+  rules_text: 'When your Lead is stopped, your next turn roll is +1.
+
+    When your Follow Up is stopped, your next turn roll is +2.
+
+    When your Finish is stopped, your next turn roll is +3.'
   tags: []
 - name: Void (V1)
   db_uuid: 32bc1449683540558a8f0606922e3885
@@ -40612,6 +40618,16 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/void-new/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 10
+  rules_text: 'FRONT: When your opponent stops a Void Finish, your opponent''s Gimmick is blank until the Crowd Meter increases. Turn this card over.
+
+    BACK: When your opponent stops a Strike, Submission, or Grapple, their skill of that type is -3 during the next turn roll.'
   tags: []
 - name: Wait for It Chopper
   db_uuid: ebc3e1b4fbf942f5b11c1d60f57185e5
@@ -45757,19 +45773,55 @@
 - name: Mai Girls (Trio)
   db_uuid: 822e8008287c4ac5828d8505e3f9f930
   card_type: TrioCompetitorCard
+  power: 18
+  technique: 21
+  agility: 27
+  strike: 24
+  submission: 30
+  grapple: 15
+  rules_text: 'When you hit a card with "Kick", "Chain", "Arm", or "Dragon" in the name, draw 1 card.
+
+    If it is your turn, shuffle 1 card from your discard pile into your deck and your next turn roll is +3.
+
+    When the Crowd Meter increases, draw 2 cards.'
   tags: []
 - name: Mila Mai & Cupcake
   db_uuid: 62b8b084f1e148a2987cf990e0644848
   srg_url: https://supershowthegame.com/product/mila-mai-cupcake/
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 14
+  agility: 20
+  strike: 16
+  submission: 18
+  grapple: 10
+  rules_text: 'Once during your turn, you may discard a Lead you have in play and your next turn roll is +1.
+
+    If you lose the next turn roll, shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Monster Asylum
   db_uuid: cacdc3a017954906ba8afdae95f823cf
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 12
+  strike: 18
+  submission: 14
+  grapple: 16
+  rules_text: During your opponent's turn they must have 2 Leads in play to play a Follow Up and 2 Follow Ups in play to play a Finish.  After a breakout, choose cards in your opponent's discard pile equal to the Crowd Meter and put them into play.
   tags: []
 - name: Naval Academy
   db_uuid: 098d8224cc37415c8b4becea6a4227f4
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 12
+  agility: 18
+  strike: 10
+  submission: 16
+  grapple: 20
+  rules_text: 'When your opponent moves any number of cards in their discard pile, you may bury the same number of cards in your discard pile.
+
+    When you roll Agility for your turn roll, draw the bottom card of your deck.'
   tags: []
 - name: New Wool Order (Tag V1)
   db_uuid: cf3c4cd74b744e8e956b7425bd0b8e7c
@@ -45853,14 +45905,43 @@
 - name: Oracle and the Beast
   db_uuid: 144d166fb1cc4b9f9d9f053b66c28d3f
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 12
+  strike: 16
+  submission: 18
+  grapple: 14
+  rules_text: 'When you roll Power, look at the top 3 cards of your deck:
+
+    Add 1 card to your hand and randomly bury the others.
+
+    Your 3rd breakout roll is +3.'
   tags: []
 - name: Pang & Shui
   db_uuid: e9b4ece447124afc9484f175f72073a4
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 18
+  agility: 12
+  strike: 10
+  submission: 16
+  grapple: 20
+  rules_text: 'Three times per match:
+
+    You may re-roll your turn roll.
+
+    When you hit a Grapple your opponent discards 1 card from their hand.'
   tags: []
 - name: Pluto & Uranus
   db_uuid: 60e0134eb28d4d5f9f2df99aa0b123bd
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 14
+  agility: 10
+  strike: 16
+  submission: 20
+  grapple: 18
+  rules_text: 'When you roll Grapple for your turn roll: Shuffle 1 card from your hand into your deck and draw 2 cards.'
   tags: []
 - name: Scruffy & Ariel Lipstick
   db_uuid: 7cd009b1562e402ca7b089a02c58bef5

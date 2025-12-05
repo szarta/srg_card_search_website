@@ -2,3 +2,8 @@ __pycache__/
 venv/
 backend/app/images
 helpers/source_images
+augmented_cards.yaml
+helpers/scans
+frontend/node_modules
+frontend/dist
+.venv/

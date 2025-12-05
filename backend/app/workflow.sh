@@ -1,9 +1,16 @@
 #!/bin/bash
 set -e  # Exit on error
 
+# Create log file with timestamp
+LOG_FILE="workflow_$(date +%Y%m%d_%H%M%S).log"
+
+# Function to log and display
+exec > >(tee -a "$LOG_FILE") 2>&1
+
 echo '================================================'
 echo 'SRG Card Database Workflow'
 echo '================================================'
+echo "📝 Logging to: $LOG_FILE"
 echo ''
 
 # Step 1: Git pull
@@ -77,4 +84,6 @@ echo '  - cards.yaml validated'
 echo '  - Mobile database generated: srg_cards_mobile.db'
 echo '  - Database manifest: db_manifest.json'
 echo '  - Image manifest: images_manifest.json'
+echo ''
+echo "📝 Full log saved to: $LOG_FILE"
 echo ''

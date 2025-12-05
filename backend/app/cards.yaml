@@ -39379,7 +39379,7 @@
     - 8eaa9062ab254dc3a982d360be505977
     - 67c80af7d2654cb5bf744cefee698736
     - 8beed0a833584e6ab17b96eb46542464
-    - 87eb2fbedaa44301af37164059438f5a
+    - d8daf9788cef4fd99edd43d23c0b4c82
     - 052f3107fc894070bd6cbdab7d52549f
     - cc97ddd2f6964da9be0038fee59d6132
 - name: The SRG Boss (V2)
@@ -39401,7 +39401,7 @@
     - 8eaa9062ab254dc3a982d360be505977
     - 67c80af7d2654cb5bf744cefee698736
     - 8beed0a833584e6ab17b96eb46542464
-    - 87eb2fbedaa44301af37164059438f5a
+    - d8daf9788cef4fd99edd43d23c0b4c82
     - 052f3107fc894070bd6cbdab7d52549f
     - cc97ddd2f6964da9be0038fee59d6132
 - name: The SRG Boss (V3)
@@ -39422,7 +39422,7 @@
     - 8eaa9062ab254dc3a982d360be505977
     - 67c80af7d2654cb5bf744cefee698736
     - 8beed0a833584e6ab17b96eb46542464
-    - 87eb2fbedaa44301af37164059438f5a
+    - d8daf9788cef4fd99edd43d23c0b4c82
     - 052f3107fc894070bd6cbdab7d52549f
     - cc97ddd2f6964da9be0038fee59d6132
 - name: The SRG Boss (V4)
@@ -39443,7 +39443,7 @@
     - 8eaa9062ab254dc3a982d360be505977
     - 67c80af7d2654cb5bf744cefee698736
     - 8beed0a833584e6ab17b96eb46542464
-    - 87eb2fbedaa44301af37164059438f5a
+    - d8daf9788cef4fd99edd43d23c0b4c82
     - 052f3107fc894070bd6cbdab7d52549f
     - cc97ddd2f6964da9be0038fee59d6132
 - name: The Boss Hammer
@@ -39511,24 +39511,6 @@
   rules_text: '+4 to Technique
 
     If you roll Strike for your Finish roll, your opponent cannot break out.'
-  tags: []
-  related_cards:
-    - 5bb1291d12d94245872efd166cdd72fc
-    - 40ab70187ff14a7f8989d2b248d63b94
-    - 99cde573585c4f14a5f96ba210488578
-    - 4e660d98fc8d4aadbe5ec367a0ef272e
-- name: Power-Mad Toss
-  db_uuid: 87eb2fbedaa44301af37164059438f5a
-  srg_url: https://supershowthegame.com/product/founding-fathers/
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  rules_text: '+1 to Power
-
-    Your opponent flips 1 card.
-
-    Draw 1 card. Bury 1 card in your opponent''s discard pile. When you have "Gut Wrench" in play, triple these bonuses.'
   tags: []
   related_cards:
     - 5bb1291d12d94245872efd166cdd72fc
@@ -43979,7 +43961,7 @@
   tags: []
   related_cards:
     - 87b26269da2d464da1bbf43c3f7b2d32
-- name: Ankle Lock
+- name: Ankle Lock (Joe Hendry)
   db_uuid: 0c11ccf34cd44a5ebc5d2f9cb63d1b64
   card_type: MainDeckCard
   atk_type: Submission
@@ -45275,7 +45257,7 @@
   tags: []
   related_finishes:
     - 44cb89f64a234337a7897fad2983fdc2
-    - c97df853d2d84795bdbe639f97d7bd7f
+    - cc97ddd2f6964da9be0038fee59d6132
     - d8daf9788cef4fd99edd43d23c0b4c82
     - 7d30fd37823749158efb0843310993f1
     - e6e3e7bcfb7f48b9916e7ae5b21cc97d
@@ -45288,17 +45270,7 @@
   deck_card_number: 28
   rules_text: Your Finish roll is + Triple the Crowd Meter.
   tags: []
-- name: Sensei-tional Slam
-  db_uuid: c97df853d2d84795bdbe639f97d7bd7f
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  rules_text: '+1 to Grapple
-
-    Your Finish roll is +1.'
-  tags: []
-- name: Power-Mad Toss
+- name: Power-Mad Toss (Founding Fathers)
   db_uuid: d8daf9788cef4fd99edd43d23c0b4c82
   card_type: MainDeckCard
   atk_type: Grapple
@@ -45312,6 +45284,11 @@
 
     Draw 3 cards.'
   tags: []
+  related_cards:
+    - 5bb1291d12d94245872efd166cdd72fc
+    - 40ab70187ff14a7f8989d2b248d63b94
+    - 99cde573585c4f14a5f96ba210488578
+    - 4e660d98fc8d4aadbe5ec367a0ef272e
 - name: Thinky and The Brain
   db_uuid: dd9c19e211af423fb22f621910a75393
   srg_url: https://supershowthegame.com/product/thinky-and-the-brain/

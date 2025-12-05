@@ -31261,6 +31261,57 @@
   rules_text: When you roll Technique or Strike for your turn roll, your next turn roll is +1.
   tags:
     - Super Lucha
+  related_finishes:
+    - c6c5d0b8931e447cb5bbf7d68360b3eb
+    - f0b63e3e4c2041ea8b07cff1eff13072
+    - c4a329bcf75b44a2b0c5022f4539f5e1
+- name: The Hot Foot!
+  db_uuid: c6c5d0b8931e447cb5bbf7d68360b3eb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
+- name: El Fuego Flamethrower!
+  db_uuid: f0b63e3e4c2041ea8b07cff1eff13072
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Draw 3 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
+- name: Brand X
+  db_uuid: c4a329bcf75b44a2b0c5022f4539f5e1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    +2 to Submission
+
+    Shuffle up to 10 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 279f7634d67d4759a912ff9ab8865a4e
 - name: Firestarter (#28)
   db_uuid: a91e4a805d4e4439bd1a48295c27cfa2
   card_type: MainDeckCard
@@ -48459,8 +48510,59 @@
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
   division: Super Lucha
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'When you roll Power for your turn roll: +1 to Strike and +5 to Submission until the start of your next turn (Max +5 to each).'
   tags:
     - Super Lucha
+  related_finishes:
+    - 4ac13c8e22f342a9ad9e3d55916d53f6
+    - f0db012fd7924ce6a472e11aeec8823d
+    - 9e7881f9ace64f069142bc317e48932e
+- name: SSSSSnake Bite!
+  db_uuid: 4ac13c8e22f342a9ad9e3d55916d53f6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    If your opponent has 7 or more cards in their hand, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - a9e25560225244d3accd57034587220b
+- name: Jumping Piledriver!
+  db_uuid: f0db012fd7924ce6a472e11aeec8823d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +2 to Agility'
+  tags: []
+  related_cards:
+    - a9e25560225244d3accd57034587220b
+- name: The Conssstriction!
+  db_uuid: 9e7881f9ace64f069142bc317e48932e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +4 to Submission'
+  tags: []
+  related_cards:
+    - a9e25560225244d3accd57034587220b
 - name: St. Macho
   db_uuid: 4a15300ac41346d2a521fca4939c3404
   card_type: SingleCompetitorCard

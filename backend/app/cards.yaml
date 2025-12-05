@@ -43557,6 +43557,55 @@
   rules_text: 'When you roll Agility or Strike for your turn roll: You may shuffle 1 Submission from your discard pile into your deck.'
   tags:
     - Super Lucha
+  related_finishes:
+    - 148bfb1a25764019be9d70ccef82407e
+    - ffd07619aa3d42feb4274ef76e7ba2d4
+    - ace54c9d42e04f0ca9298d834977a268
+- name: Efficient Bullet Train Leaves the Rails!
+  db_uuid: 148bfb1a25764019be9d70ccef82407e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Your next turn roll is +1.
+
+    Draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ace62433009947bba25f3f954910f1e6
+- name: Uninviting Cat is Not Waving at You!
+  db_uuid: ffd07619aa3d42feb4274ef76e7ba2d4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ace62433009947bba25f3f954910f1e6
+- name: My Body is a Temple and it is Falling On You!
+  db_uuid: ace54c9d42e04f0ca9298d834977a268
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    +1 to Grapple'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ace62433009947bba25f3f954910f1e6
 - name: Goldlust
   db_uuid: 3e9abd47231c419981518fc2ab84a2cc
   srg_url: https://supershowthegame.com/product/goldlust/

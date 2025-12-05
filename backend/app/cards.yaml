@@ -42198,12 +42198,6 @@
     - Super Lucha
   related_cards:
     - 0085dbf1061643449bbd68a146b055dd
-- name: Baby Chaos
-  db_uuid: 96c844fa0345492a992acefb247872a1
-  card_type: SingleCompetitorCard
-  division: Super Lucha
-  tags:
-    - Super Lucha
 - name: Band of Brothers
   db_uuid: 5d5c4a1aff434ebb9359be5625da0fb8
   srg_url: https://supershowthegame.com/product/band-of-brothers-w-pineapple-smash/

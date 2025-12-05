@@ -42992,6 +42992,61 @@
   rules_text: When your target rolls Strike for their turn roll, draw 1 card.
   tags:
     - Super Lucha
+  related_finishes:
+    - 99ea36a95d504701a5ac0881d884bd60
+    - 97c484bfd91b4ad0963355d03b5cd4b0
+    - fb75c4bc841740019dca313e182dc357
+- name: Hand Plant!
+  db_uuid: 99ea36a95d504701a5ac0881d884bd60
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Draw 3 cards.
+
+    Bury 2 cards in your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ed652335019b4eee8341e33a86bad731
+- name: Dirty Bomb!
+  db_uuid: 97c484bfd91b4ad0963355d03b5cd4b0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    +4 to Grapple
+
+    Discard 6 cards from your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ed652335019b4eee8341e33a86bad731
+- name: El Pogo!
+  db_uuid: fb75c4bc841740019dca313e182dc357
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    If your opponent breaks out, add this card to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - ed652335019b4eee8341e33a86bad731
 - name: El Ganso Ruso
   db_uuid: 8ce649bcffc94efbb19e5639e0e76472
   srgpc_url: https://www.srgpc.net/competitor/el-ganso-ruso/

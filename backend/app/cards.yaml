@@ -43208,6 +43208,55 @@
   rules_text: During your turn, when you hit a Lead, your next turn roll is +1.
   tags:
     - Super Lucha
+  related_finishes:
+    - cd7a5ca489ab4b63945b1034963600e6
+    - 4c89f2ea106d44f493c03372ae13be04
+    - eb5455a0ce054473bbfb352d77a331be
+- name: Punjab Punch!
+  db_uuid: cd7a5ca489ab4b63945b1034963600e6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +3 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 82a3cb85ff544fbb96e18487d156f321
+- name: Pride Slam
+  db_uuid: 4c89f2ea106d44f493c03372ae13be04
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    If you have 2 other Finish cards in your discard pile, this card is also a Lead.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 82a3cb85ff544fbb96e18487d156f321
+- name: The Mane Squeeze!
+  db_uuid: eb5455a0ce054473bbfb352d77a331be
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission
+
+    Flip cards until your flip a Follow Up, add that card to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 82a3cb85ff544fbb96e18487d156f321
 - name: El Super Hombre (V2)
   db_uuid: d149b71b56624078bea5794ee597e7b1
   card_type: SingleCompetitorCard

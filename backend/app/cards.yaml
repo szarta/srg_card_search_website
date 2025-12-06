@@ -524,6 +524,7 @@
 - name: 12 Grapple Matt
   db_uuid: 258cee74f15b452e85bc92754f82dd0e
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
+  srgpc_url: https://www.srgpc.net/competitor-12-grapple-matt/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -542,6 +543,7 @@
 - name: From Out of Nowhere
   db_uuid: 09e71cd6c68b4bf298d92c2ff239807f
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
+  srgpc_url: https://www.srgpc.net/competitor-12-grapple-matt/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -559,6 +561,7 @@
 - name: DDT It!
   db_uuid: ad9bf71f6fbf4867ab715f1c1c289af6
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
+  srgpc_url: https://www.srgpc.net/competitor-12-grapple-matt/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -574,6 +577,7 @@
 - name: Straight Trash
   db_uuid: 405ed37a86044038851fc23caae39086
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
+  srgpc_url: https://www.srgpc.net/competitor-12-grapple-matt/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -586,9 +590,22 @@
   tags: []
   related_cards:
     - 258cee74f15b452e85bc92754f82dd0e
-- name: 4 Leaf Flynn (V1)
+- name: 4 Leaf Flynn (original)
   db_uuid: 5bf284e2d59b41168a6e94f33a195091
+  is_banned: true
   srg_url: https://supershowthegame.com/product/4-leaf-flynn/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 6
+  submission: 7
+  grapple: 10
+  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or add 1 card from your discard pile to your hand.'
+  tags: []
+- name: 4 Leaf Flynn (V1)
+  db_uuid: 30ca8593f4e84ea3b5d8c45c0779e3f3
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -598,12 +615,15 @@
   strike: 6
   submission: 7
   grapple: 10
-  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or 3 times per match: Add 1 card from your discard pile to your hand.'
+  rules_text: 'When you roll Agility for your turn roll: flip 2 cards or 3 times per match:  Add 1 card from your discard pile to your hand.'
   tags: []
   related_finishes:
     - 0bf8b12f88e741c8a772eaa84907f5b9
     - bc0996058a224c84b9ec922e3cdd7ccf
     - d76b3a128b3c43a7b1929a4e27eff816
+    - 83c6e0940bda433fb7fb5890b347eb8c
+    - 940845533093491e80106116c45d4df8
+    - bcfd8647a932431bbbfd4af323ea5b01
 - name: Kiss the Blarney
   db_uuid: 0bf8b12f88e741c8a772eaa84907f5b9
   srg_url: https://supershowthegame.com/product/4-leaf-flynn/
@@ -617,6 +637,9 @@
 
     If you have 0 cards in your deck, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: Finnegan's Wake
   db_uuid: bc0996058a224c84b9ec922e3cdd7ccf
   srg_url: https://supershowthegame.com/product/4-leaf-flynn/
@@ -626,6 +649,9 @@
   deck_card_number: 29
   rules_text: Your opponent's 1st breakout roll is -1 for each Lead you have in play.  Your opponent's second breakout roll is -1 for each Follow Up you have in play.
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: The Lucky Clover
   db_uuid: d76b3a128b3c43a7b1929a4e27eff816
   srg_url: https://supershowthegame.com/product/4-leaf-flynn/
@@ -639,6 +665,9 @@
 
     If stopped, put 3 cards from your discard pile on top of your deck.  If you had 0 cards in your deck put up to 6 cards instead.'
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: 4 Leaf Flynn (V2)
   db_uuid: fee2912bede943978d3d1ab2401a6e38
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
@@ -654,6 +683,9 @@
   rules_text: When you have 4 Follow Ups in play, your Agility is +4.
   tags: []
   related_finishes:
+    - 0bf8b12f88e741c8a772eaa84907f5b9
+    - bc0996058a224c84b9ec922e3cdd7ccf
+    - d76b3a128b3c43a7b1929a4e27eff816
     - 83c6e0940bda433fb7fb5890b347eb8c
     - 940845533093491e80106116c45d4df8
     - bcfd8647a932431bbbfd4af323ea5b01
@@ -668,6 +700,9 @@
 
     If you have 4 Follow Ups in play, your Technique and Agility is +1.'
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: Dublin Down
   db_uuid: 940845533093491e80106116c45d4df8
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
@@ -679,6 +714,9 @@
 
     You may discard your hand to re-roll your finish roll.'
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: The 4 Leaf Clover
   db_uuid: bcfd8647a932431bbbfd4af323ea5b01
   srg_url: https://supershowthegame.com/product/4-leaf-flynn-2/
@@ -694,6 +732,9 @@
 
     Shuffle 4 Follow Ups from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 30ca8593f4e84ea3b5d8c45c0779e3f3
+    - fee2912bede943978d3d1ab2401a6e38
 - name: Abigail Fairy in Training
   db_uuid: c0bfb96bd9054080960a0ecbaeb13e64
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
@@ -726,6 +767,8 @@
 
     +2 to Strike'
   tags: []
+  related_cards:
+    - c0bfb96bd9054080960a0ecbaeb13e64
 - name: Cuddle Time
   db_uuid: 2a38028795434275a8abbfbfa7e26e53
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
@@ -739,6 +782,8 @@
 
     When this card is in your discard pile and you and your opponent roll the same skill for your turn roll, put 1 other Finish card from your discard pile on top of your deck.'
   tags: []
+  related_cards:
+    - c0bfb96bd9054080960a0ecbaeb13e64
 - name: Bedtime Stories
   db_uuid: 603637774747410bbf03072fe705b474
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
@@ -752,6 +797,8 @@
 
     If stopped, you may put 1 Finish from your discard pile on top of your deck.'
   tags: []
+  related_cards:
+    - c0bfb96bd9054080960a0ecbaeb13e64
 - name: The Abominable Big Shot
   db_uuid: 2940ac1fddf54ee5a1245615bd109907
   srgpc_url: https://www.srgpc.net/competitors/the-abominable-big-shot/

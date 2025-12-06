@@ -36151,12 +36151,119 @@
   db_uuid: 952b0cc79573451cbabdfb3a8297bea4
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 8
+  grapple: 10
+  rules_text: When you hit a Spotlight, your opponent's next turn roll is -2 and you reveal the top card of your deck, it is a Spotlight, flip it.
   tags: []
+  related_finishes:
+    - 6dc509f70d104b0cb32f53be04defacd
+    - e11c08c1f9df4519891b138d6dbedfc6
+    - f85b744e4c484b16a4ebcca8b572d8cf
+- name: Anarchy Elbow
+  db_uuid: 6dc509f70d104b0cb32f53be04defacd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    Flip 4 cards.
+
+    Add 1 card with "Light" in the name or a Spotlight card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 952b0cc79573451cbabdfb3a8297bea4
+- name: Blinded By the Light
+  db_uuid: e11c08c1f9df4519891b138d6dbedfc6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    For the rest of the match, your opponent cannot look at your hand and you cannot reveal cards from your hand.
+
+    If this card is flipped, add it to your hand.'
+  tags: []
+  related_cards:
+    - 952b0cc79573451cbabdfb3a8297bea4
+- name: Cryptid Clutch
+  db_uuid: f85b744e4c484b16a4ebcca8b572d8cf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    Your Finish roll is +1 for each card you have in play with "Light" in the name (Max +2).'
+  tags: []
+  related_cards:
+    - 952b0cc79573451cbabdfb3a8297bea4
 - name: The Mouth of Southeast Michigan
   db_uuid: d9c95f93770747aea1e2bc2daa4e826f
+  srg_url: https://supershowthegame.com/product/the-mouth-of-southeast-michigan/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 5
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: When there are no cards in your discard pile, your Strike, Submission, and Grapple skills are +1.
   tags: []
+  related_finishes:
+    - 694a75a84bc54f279fb271b52fbfa749
+    - ab7b6bc2bb1e46f8b1204c77676a69a9
+    - 6ca921ea176140279cfc22b97a13b0e5
+- name: Can I Get an Ooh Yeah?
+  db_uuid: 694a75a84bc54f279fb271b52fbfa749
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Rnadomly bury 4 cards in each player''s discard pile.'
+  tags: []
+  related_cards:
+    - d9c95f93770747aea1e2bc2daa4e826f
+- name: The BFD
+  db_uuid: ab7b6bc2bb1e46f8b1204c77676a69a9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    If your opponent breaks out, randomly bury all cards in play.'
+  tags: []
+  related_cards:
+    - d9c95f93770747aea1e2bc2daa4e826f
+- name: Protect Yah Neck!
+  db_uuid: 6ca921ea176140279cfc22b97a13b0e5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If stopped, randomly bury your discard pile, then this card.'
+  tags: []
+  related_cards:
+    - d9c95f93770747aea1e2bc2daa4e826f
 - name: Mr. A1derful
   db_uuid: ab2e17c9e2ef4e97a6816fb625f0311e
   card_type: SingleCompetitorCard

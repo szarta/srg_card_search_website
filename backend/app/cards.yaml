@@ -23035,9 +23035,11 @@
     - e0315d342ec74a68ba39135d700161ed
     - 48efacee1c4e474e81f7c1319b23c040
     - 1bf740c7c45f49059e36109374b6553f
+    - 8901dab61fdd4731b31527f2a7da8620
 - name: Right Hand Man
   db_uuid: e0315d342ec74a68ba39135d700161ed
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alexander-slamilton/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -23046,9 +23048,13 @@
 
     Your Agility is +1 for each card you have in play with "Slam" in the name (Max +4).'
   tags: []
+  related_cards:
+    - fae93ed792e548029db624a4eb65c08d
+    - 716732d07b1e4881b1f908405391b4a0
 - name: Dueling Choke Slam
   db_uuid: 48efacee1c4e474e81f7c1319b23c040
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alexander-slamilton/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -23057,9 +23063,13 @@
 
     Each player flips 1 card and compares the card #. If you have the higher card #, your opponent gets 1 breakout roll this turn. If your opponent has the higher card #, their breakout rolls are +1.'
   tags: []
+  related_cards:
+    - fae93ed792e548029db624a4eb65c08d
+    - 716732d07b1e4881b1f908405391b4a0
 - name: America, Rise Up!
   db_uuid: 1bf740c7c45f49059e36109374b6553f
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
+  srgpc_url: https://www.srgpc.net/cards/competitors/alexander-slamilton/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -23070,6 +23080,9 @@
 
     Once per turn: if you roll Submission for your finish roll, you may discard 1 card with "America" or "Slam" in the name from your hand to re-roll your finish roll.'
   tags: []
+  related_cards:
+    - fae93ed792e548029db624a4eb65c08d
+    - 716732d07b1e4881b1f908405391b4a0
 - name: Alexander Slamilton Hardercore
   db_uuid: 716732d07b1e4881b1f908405391b4a0
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
@@ -23088,9 +23101,10 @@
     When you hit a card with that in the name, draw 2 cards.  This match has No Disqualifications.'
   tags: []
   related_finishes:
-    - 8901dab61fdd4731b31527f2a7da8620
+    - e0315d342ec74a68ba39135d700161ed
     - 48efacee1c4e474e81f7c1319b23c040
     - 1bf740c7c45f49059e36109374b6553f
+    - 8901dab61fdd4731b31527f2a7da8620
 - name: Sledge of Allegiance
   db_uuid: 8901dab61fdd4731b31527f2a7da8620
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
@@ -23100,6 +23114,9 @@
   deck_card_number: 28
   rules_text: +1 to Submission or If your Strike skill is greater than your opponent's Strike skill, stop any Finish Grapple.
   tags: []
+  related_cards:
+    - fae93ed792e548029db624a4eb65c08d
+    - 716732d07b1e4881b1f908405391b4a0
 - name: Alex Kane
   db_uuid: 34172f8d50054d639928f3736621afd3
   srg_url: https://supershowthegame.com/product/alex-kane/
@@ -23130,6 +23147,8 @@
 
     When this card is in your discard pile, you are considered to have a card in play with "Suplex" in the name.'
   tags: []
+  related_cards:
+    - 34172f8d50054d639928f3736621afd3
 - name: The Mark of Kane Suplex
   db_uuid: e22c647f005640efb5ef2f962d148dcc
   srg_url: https://supershowthegame.com/product/alex-kane/
@@ -23147,6 +23166,8 @@
 
     If you stopped a card last turn, double these bonuses.'
   tags: []
+  related_cards:
+    - 34172f8d50054d639928f3736621afd3
 - name: Fade 2 Black
   db_uuid: 9ebd7bf9187840fe893227160cc19077
   srg_url: https://supershowthegame.com/product/alex-kane/
@@ -23158,6 +23179,8 @@
 
     If you have 5 cards in play with "Suplex" in the name, your opponent cannot break out.'
   tags: []
+  related_cards:
+    - 34172f8d50054d639928f3736621afd3
 - name: Alton Black
   db_uuid: 93f5a9e64bdb493bb0a59222a489272b
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23171,7 +23194,7 @@
   strike: 9
   submission: 7
   grapple: 10
-  rules_text: Your Grapple cards with "Drop", "Slam", "Buster", or "Breaker" in the name have the added text "Your opponent buries 1 random card in their hand.
+  rules_text: Your Grapple cards with "Drop", "Slam", "Buster", or "Breaker" in the name have the added text "Your opponent buries 1 random card in their hand."
   tags: []
   related_finishes:
     - 9c60e82691594ab796e638efe656e3eb
@@ -23190,6 +23213,8 @@
 
     Draw 1 card for each other Strike you have in play.'
   tags: []
+  related_cards:
+    - 93f5a9e64bdb493bb0a59222a489272b
 - name: Total Anarchy
   db_uuid: e157a2159a514656a4b00df7fcc57a70
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23201,6 +23226,8 @@
 
     Each time your opponent rolls they bury 1 random card in their hand.'
   tags: []
+  related_cards:
+    - 93f5a9e64bdb493bb0a59222a489272b
 - name: The Blackout
   db_uuid: 69870b8e30a84704a829ad62667c5256
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23214,6 +23241,8 @@
 
     Your opponent buries 2 cards in their hand.'
   tags: []
+  related_cards:
+    - 93f5a9e64bdb493bb0a59222a489272b
 - name: Amber Nova
   db_uuid: 49d86a1b4f724377adf532d4575ab885
   srgpc_url: https://www.srgpc.net/cards/competitors/amber-nova/
@@ -23379,6 +23408,7 @@
     - 02d84608c0b249eda70fdbcb9c2225b9
 - name: Andreas Fiesta
   db_uuid: 47ab42f483b34d89bedc5b96374ab707
+  srg_url: https://supershowthegame.com/product/andreas-fiesta/
   srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/
   card_type: SingleCompetitorCard
   division: United States
@@ -23397,6 +23427,8 @@
     - ee74a7038b1f495ba9376826ae60e7ec
 - name: Party Time!
   db_uuid: 8a28c56d2def48f3a5cce9174c5023cd
+  srg_url: https://supershowthegame.com/product/andreas-fiesta/
+  srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -23411,6 +23443,8 @@
     - 47ab42f483b34d89bedc5b96374ab707
 - name: The Party Foul
   db_uuid: 44c4ff6684d1410fad27c125885521d1
+  srg_url: https://supershowthegame.com/product/andreas-fiesta/
+  srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -23427,6 +23461,8 @@
     - 47ab42f483b34d89bedc5b96374ab707
 - name: Mind Games (#30)
   db_uuid: ee74a7038b1f495ba9376826ae60e7ec
+  srg_url: https://supershowthegame.com/product/andreas-fiesta/
+  srgpc_url: https://www.srgpc.net/cards/competitors/andreas-fiesta/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -23600,6 +23636,8 @@
     - f24d6f8923f047d283cdf7a80b382854
 - name: Anika al'Namira
   db_uuid: 16b331c7c2df463bad441c6166f0e15f
+  srg_url: https://supershowthegame.com/product/anika/
+  srgpc_url: https://www.srgpc.net/cards/competitors/anika-alnamira-%d8%a2%d9%86%d9%90%d9%83%d8%a7-%d8%a7%d9%84%d9%86%d9%85%d8%b1%d9%8e/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -24701,6 +24739,7 @@
 - name: ANTagonist (V1)
   db_uuid: ce6ad6df80c0437194a6957fdbc70712
   srg_url: https://supershowthegame.com/product/antagonist-aprilfools/
+  srgpc_url: https://www.srgpc.net/cards/competitors/antagonist/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24712,9 +24751,114 @@
   grapple: 6
   rules_text: 'Once per match: When you roll Power for your turn roll: You may bury 1 card in your opponent''s discard pile and your opponent shuffles their hand into their deck and adds the top 3 cards of their deck to their hand.'
   tags: []
+  related_finishes:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+    - aa302f5960b749ff9a4735aa58f1f294
+    - 7196f3bc60de42a186b64b53bd346184
+    - 4e34fac027ae4b06a86c764c8de44434
+- name: Microphone Fury, Joka!
+  db_uuid: 978ec271e1d643208ea1925213955d7d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile, your cards with "Mic" in the name are considered to have "Microphone" in the name.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+- name: Recap of the Universe
+  db_uuid: be464b285f6f43b0a3b79bcb3f5b3143
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you have card #08 in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+- name: Microphone I.E.D.
+  db_uuid: 9d13b1cbf0f8403c8a73329c2dda6a75
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    If your opponent has 7 or fewer cards in their hand, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+    - aa302f5960b749ff9a4735aa58f1f294
+    - 7196f3bc60de42a186b64b53bd346184
+    - 4e34fac027ae4b06a86c764c8de44434
+- name: No Casuals in Ranked, Joka!
+  db_uuid: aa302f5960b749ff9a4735aa58f1f294
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Your opponent''s Power is -1.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+- name: Recap of the Universe
+  db_uuid: 7196f3bc60de42a186b64b53bd346184
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you have card #08 in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+- name: No One Will Survive
+  db_uuid: 4e34fac027ae4b06a86c764c8de44434
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If you have "Cobra Clutch" in play, your opponent gets 1 fewer Breakout roll this turn.
+
+    If you have "Foot on the Ropes" in play, your opponent gets 1 fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
 - name: ANTagonist (V2)
   db_uuid: 34bbf6706bbe426fbf13d2a73ad04b0a
   srg_url: https://supershowthegame.com/product/antagonist-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/antagonist/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -24726,9 +24870,17 @@
   grapple: 6
   rules_text: 'During your turn: When you hit a card with "Microphone" in the name, your opponent shuffles 1 card from their hand into their deck.'
   tags: []
+  related_finishes:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+    - aa302f5960b749ff9a4735aa58f1f294
+    - 7196f3bc60de42a186b64b53bd346184
+    - 4e34fac027ae4b06a86c764c8de44434
 - name: ANTagonist (V3)
   db_uuid: 1ead422993764b97a58f7ea4661c5057
   srg_url: https://supershowthegame.com/product/antagonist/
+  srgpc_url: https://www.srgpc.net/cards/competitors/antagonist/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -24740,6 +24892,13 @@
   grapple: 6
   rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in your opponent''s discard pile, your opponent shuffles their hand into their deck and adds the top 6 cards of their deck to their hand.'
   tags: []
+  related_finishes:
+    - ce6ad6df80c0437194a6957fdbc70712
+    - 34bbf6706bbe426fbf13d2a73ad04b0a
+    - 1ead422993764b97a58f7ea4661c5057
+    - aa302f5960b749ff9a4735aa58f1f294
+    - 7196f3bc60de42a186b64b53bd346184
+    - 4e34fac027ae4b06a86c764c8de44434
 - name: Anthony Gangone (V1)
   db_uuid: 47e01d6194cb412fb771cbeb999305be
   card_type: SingleCompetitorCard

@@ -3314,6 +3314,7 @@
 - name: Citizen X
   db_uuid: 00e44c96da69423b95a40b5d756354b4
   srg_url: https://supershowthegame.com/product/citizen-x/
+  srgpc_url: https://www.srgpc.net/competitors/citizen-x/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -3342,6 +3343,8 @@
 
     Your opponent draws 4 cards, then randomly buries 5 cards in their hand.'
   tags: []
+  related_cards:
+    - 00e44c96da69423b95a40b5d756354b4
 - name: Crash Override
   db_uuid: 042c99db0a8544ceb6221185468668fd
   srg_url: https://supershowthegame.com/product/citizen-x/
@@ -3355,6 +3358,8 @@
 
     Look at your opponent''s hand, they discard all Grapples.'
   tags: []
+  related_cards:
+    - 00e44c96da69423b95a40b5d756354b4
 - name: The LoTEK
   db_uuid: 31651dd912a748a49f6efa29cdd26cf0
   srg_url: https://supershowthegame.com/product/citizen-x/
@@ -3366,9 +3371,12 @@
 
     When this card is in your discard pile and your opponent stops "Cyber Attack", you may add this card to your hand.'
   tags: []
+  related_cards:
+    - 00e44c96da69423b95a40b5d756354b4
 - name: Colby W Cram
   db_uuid: 2b5d9774058b458c94d7a88322d0114d
   srg_url: https://supershowthegame.com/product/colby-w-cram/
+  srgpc_url: https://www.srgpc.net/competitor-colby-w-cram/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -3398,6 +3406,8 @@
 
     Your next turn roll is +1.'
   tags: []
+  related_cards:
+    - 2b5d9774058b458c94d7a88322d0114d
 - name: Insider Trading
   db_uuid: 9daa2734506640ab812e375d4fb8b6c3
   srg_url: https://supershowthegame.com/product/colby-w-cram/
@@ -3411,6 +3421,8 @@
 
     Stop any Submission that cannot be stopped.'
   tags: []
+  related_cards:
+    - 2b5d9774058b458c94d7a88322d0114d
 - name: Blue Chip Sleeper Hold
   db_uuid: f0fbbefd3069497b82f1ddb7e268306b
   srg_url: https://supershowthegame.com/product/colby-w-cram/
@@ -3422,9 +3434,12 @@
 
     If you have more Submissions in play that your opponent, your Finish roll is +1.'
   tags: []
+  related_cards:
+    - 2b5d9774058b458c94d7a88322d0114d
 - name: Combat Chris
   db_uuid: a18b389d56994508909ca56f333cc7a2
   srg_url: https://supershowthegame.com/product/combat-chris/
+  srgpc_url: https://www.srgpc.net/cards/competitors/combat-chris/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -3452,6 +3467,8 @@
 
     If stopped, you may play another card this turn.'
   tags: []
+  related_cards:
+    - a18b389d56994508909ca56f333cc7a2
 - name: Heaven and Earth
   db_uuid: 8fc1219bf0e140d98260dbcd8472db05
   srg_url: https://supershowthegame.com/product/combat-chris/
@@ -3465,6 +3482,8 @@
 
     If stopped, add 1 other card from your discard to your hand.'
   tags: []
+  related_cards:
+    - a18b389d56994508909ca56f333cc7a2
 - name: Old Master's Favorite
   db_uuid: 1cbcbebb2e7942b7aeddf53e9f008489
   srg_url: https://supershowthegame.com/product/combat-chris/
@@ -3478,6 +3497,8 @@
 
     During your opponent''s turn you may discard this card from your hand to add +1 to your breakout roll.'
   tags: []
+  related_cards:
+    - a18b389d56994508909ca56f333cc7a2
 - name: Dread Pirate Tech Support (V1)
   db_uuid: d2b10108b44646b4b6527e2d8b8f6de5
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
@@ -30459,9 +30480,9 @@
   tags: []
 - name: Chugganomics (V2)
   db_uuid: 0205f2be185343c18bf0098ff3edbb64
-  card_type: SingleCompetitorCard
   srg_url: https://supershowthegame.com/product/chugganomics-alt/
   srgpc_url: https://www.srgpc.net/cards/competitors/chugganomics/
+  card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
   power: 5
@@ -30762,6 +30783,13 @@
   rules_text: 'When you roll Submission for your turn roll: Each player draws 1 card, then your opponent randomly discards 1 card from their hand.'
   comments: This is the Danhausen Cosplay version.
   tags: []
+  related_finishes:
+    - 8f2e1b26c1e3456c9b3abfde48b4d902
+    - 94e0b44d813b4877b4e57c5dc3d1ce8c
+    - 615d074e6c954be2a4012ae6b2196f48
+    - 3ea47c3e428e4d8281c65ef1333093e9
+    - dd31d1359ada4592976843656b5198d4
+    - 86b53edd632242ba9fc6286100b20ae3
 - name: Copy Kat (V2)
   db_uuid: 9e57cd60fb34451bbf7426fb315033ca
   card_type: SingleCompetitorCard
@@ -30780,6 +30808,105 @@
     BACK: During your opponent’s turn and turn rolls: Your Grapple skill is + the Crowd Meter (Max +5).'
   comments: This is the Eddy Fury version.
   tags: []
+  related_finishes:
+    - 8f2e1b26c1e3456c9b3abfde48b4d902
+    - 94e0b44d813b4877b4e57c5dc3d1ce8c
+    - 615d074e6c954be2a4012ae6b2196f48
+    - 3ea47c3e428e4d8281c65ef1333093e9
+    - dd31d1359ada4592976843656b5198d4
+    - 86b53edd632242ba9fc6286100b20ae3
+- name: Snake Bitten
+  db_uuid: 8f2e1b26c1e3456c9b3abfde48b4d902
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    When your opponent has 7 or more cards in their hand, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
+- name: Panada Muerta
+  db_uuid: 94e0b44d813b4877b4e57c5dc3d1ce8c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    When this card is in your discard pile and the Crowd Meter is 1 or greater: When your opponent wins a turn roll, your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
+- name: New Moon
+  db_uuid: 615d074e6c954be2a4012ae6b2196f48
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Your opponent''s Gimmick is blank.
+
+    Bury 1 card in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
+- name: Yub-Yub Bird
+  db_uuid: 3ea47c3e428e4d8281c65ef1333093e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Technique is -3.
+
+    Your opponent''s Submission is -2.
+
+    If stopped, unless you discard 1 Strike from your hand, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
+- name: Eevil Ka-Knee-Vil
+  db_uuid: dd31d1359ada4592976843656b5198d4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +3 to Submission
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
+- name: Toil and Trouble
+  db_uuid: 86b53edd632242ba9fc6286100b20ae3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    You may shuffle your hand into your deck and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - 941ba12c956546f4b9abf28336f9d92a
+    - 9e57cd60fb34451bbf7426fb315033ca
 - name: Corporate Collector
   db_uuid: a581eb463bac433395ccc06f78c365c1
   card_type: SingleCompetitorCard

@@ -24752,12 +24752,12 @@
   rules_text: 'Once per match: When you roll Power for your turn roll: You may bury 1 card in your opponent''s discard pile and your opponent shuffles their hand into their deck and adds the top 3 cards of their deck to their hand.'
   tags: []
   related_finishes:
-    - ce6ad6df80c0437194a6957fdbc70712
-    - 34bbf6706bbe426fbf13d2a73ad04b0a
-    - 1ead422993764b97a58f7ea4661c5057
+    - 978ec271e1d643208ea1925213955d7d
+    - 9d13b1cbf0f8403c8a73329c2dda6a75
     - aa302f5960b749ff9a4735aa58f1f294
     - 7196f3bc60de42a186b64b53bd346184
     - 4e34fac027ae4b06a86c764c8de44434
+    - ca3d22163c564bdabd9e1edf389d64cb
 - name: Microphone Fury, Joka!
   db_uuid: 978ec271e1d643208ea1925213955d7d
   card_type: MainDeckCard
@@ -24774,17 +24774,17 @@
     - ce6ad6df80c0437194a6957fdbc70712
     - 34bbf6706bbe426fbf13d2a73ad04b0a
     - 1ead422993764b97a58f7ea4661c5057
-- name: Recap of the Universe
-  db_uuid: be464b285f6f43b0a3b79bcb3f5b3143
+- name: Shut Up, Joka!
+  db_uuid: ca3d22163c564bdabd9e1edf389d64cb
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  rules_text: '+2 to Power
+  rules_text: '+4 to Power
 
-    +2 to Grapple
+    +1 to Grapple
 
-    If you have card #08 in play, double these bonuses.'
+    Stop any Submission with "Microphone" in the name.'
   tags: []
   related_cards:
     - ce6ad6df80c0437194a6957fdbc70712
@@ -24868,12 +24868,12 @@
   rules_text: 'During your turn: When you hit a card with "Microphone" in the name, your opponent shuffles 1 card from their hand into their deck.'
   tags: []
   related_finishes:
-    - ce6ad6df80c0437194a6957fdbc70712
-    - 34bbf6706bbe426fbf13d2a73ad04b0a
-    - 1ead422993764b97a58f7ea4661c5057
+    - 978ec271e1d643208ea1925213955d7d
+    - 9d13b1cbf0f8403c8a73329c2dda6a75
     - aa302f5960b749ff9a4735aa58f1f294
     - 7196f3bc60de42a186b64b53bd346184
     - 4e34fac027ae4b06a86c764c8de44434
+    - ca3d22163c564bdabd9e1edf389d64cb
 - name: ANTagonist (V3)
   db_uuid: 1ead422993764b97a58f7ea4661c5057
   srg_url: https://supershowthegame.com/product/antagonist/
@@ -24890,12 +24890,12 @@
   rules_text: 'When you roll Power for your turn roll: you may bury up to 1 card in your opponent''s discard pile, your opponent shuffles their hand into their deck and adds the top 6 cards of their deck to their hand.'
   tags: []
   related_finishes:
-    - ce6ad6df80c0437194a6957fdbc70712
-    - 34bbf6706bbe426fbf13d2a73ad04b0a
-    - 1ead422993764b97a58f7ea4661c5057
+    - 978ec271e1d643208ea1925213955d7d
+    - 9d13b1cbf0f8403c8a73329c2dda6a75
     - aa302f5960b749ff9a4735aa58f1f294
     - 7196f3bc60de42a186b64b53bd346184
     - 4e34fac027ae4b06a86c764c8de44434
+    - ca3d22163c564bdabd9e1edf389d64cb
 - name: Anthony Gangone (V1)
   db_uuid: 47e01d6194cb412fb771cbeb999305be
   card_type: SingleCompetitorCard

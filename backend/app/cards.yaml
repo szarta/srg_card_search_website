@@ -30460,6 +30460,8 @@
 - name: Chugganomics (V2)
   db_uuid: 0205f2be185343c18bf0098ff3edbb64
   card_type: SingleCompetitorCard
+  srg_url: https://supershowthegame.com/product/chugganomics-alt/
+  srgpc_url: https://www.srgpc.net/cards/competitors/chugganomics/
   division: Hardcore
   gender: Male
   power: 5
@@ -30472,6 +30474,105 @@
 
     Those cards may be played as if they were in your hands.'
   tags: []
+  related_finishes:
+    - 3434a476a30b44ed84bf959bb3acfddd
+    - 2f68cdf597e848e2a7dfc3f61713e633
+    - 70717f4682434026a7beb1f35efe30a3
+    - 11e6fcf2a7ba473cba1e3f4d9bf620a7
+    - d489988192f94a83846ce0a9de8c3d23
+    - 282182c2f8ce4abeb0312088dafcb073
+- name: Botch Chug (V1)
+  db_uuid: 3434a476a30b44ed84bf959bb3acfddd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    When this card is in your discard pile: You and your opponent both play with your hands revealed.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
+- name: Down! The! Hatch! (V1)
+  db_uuid: 2f68cdf597e848e2a7dfc3f61713e633
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    Each player shuffles cards from their discard pile into their deck equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
+- name: Pour One Out (V1)
+  db_uuid: 70717f4682434026a7beb1f35efe30a3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Each player may discard up to 3 cards.  Whoever discards the most gets +5 to their next turn roll.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
+- name: Botch Chug (V2)
+  db_uuid: 11e6fcf2a7ba473cba1e3f4d9bf620a7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    +1 to Strike
+
+    When this card is in your discard pile: You and your opponent both play with your hands revealed.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
+- name: Down! The! Hatch! (V2)
+  db_uuid: d489988192f94a83846ce0a9de8c3d23
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +3 to Grapple
+
+    Each player shuffles cards from their discard pile into their deck equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
+- name: Pour One Out (V2)
+  db_uuid: 282182c2f8ce4abeb0312088dafcb073
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Each player may discard up to 3 cards.  Whoever discards the most gets +5 to their next turn roll.'
+  tags: []
+  related_cards:
+    - d9498c9ce72b440cbb5158e4b492114d
+    - 0205f2be185343c18bf0098ff3edbb64
 - name: CLV
   db_uuid: b4f043464fa64700b5dcfcfc57069e62
   card_type: SingleCompetitorCard

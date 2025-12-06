@@ -3105,6 +3105,7 @@
 - name: Brutus Bison
   db_uuid: df665aceb6fb4424ad89d1368b983b6c
   srg_url: https://supershowthegame.com/product/brutus-bison-2/
+  srgpc_url: https://www.srgpc.net/competitor/brutus-bison/
   card_type: SingleCompetitorCard
   division: United States
   power: 10
@@ -3132,6 +3133,8 @@
 
     Your opponent randomly buries 1 card in their hand for each card you have in play with "Suplex" in the name.'
   tags: []
+  related_cards:
+    - df665aceb6fb4424ad89d1368b983b6c
 - name: Cyclone Suplex
   db_uuid: 6ecbb9ba694a498f87ac987a630a1a5c
   srg_url: https://supershowthegame.com/product/brutus-bison-2/
@@ -3145,6 +3148,8 @@
 
     +1 to Grapple'
   tags: []
+  related_cards:
+    - df665aceb6fb4424ad89d1368b983b6c
 - name: Abomination Arm Lock
   db_uuid: 3e16a0f8d1244ecfb22fdb632cb65a56
   srg_url: https://supershowthegame.com/product/brutus-bison-2/
@@ -3158,6 +3163,8 @@
 
     Add 1 card from your discard pile or from in play to your hand.'
   tags: []
+  related_cards:
+    - df665aceb6fb4424ad89d1368b983b6c
 - name: Alana Antoinnette
   db_uuid: c4732bb7130f49d5830a881f78b0d6a6
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
@@ -29533,6 +29540,7 @@
 - name: Brother Dan
   db_uuid: 73cf2f31cea34d14afdff694aae099e5
   srg_url: https://supershowthegame.com/product/brother-dan/
+  srgpc_url: https://www.srgpc.net/cards/competitors/brother-dan/
   card_type: SingleCompetitorCard
   gender: Male
   power: 7
@@ -29557,6 +29565,8 @@
 
     If your opponent breaks out, you may bury this card.'
   tags: []
+  related_cards:
+    - 73cf2f31cea34d14afdff694aae099e5
 - name: Have You Heard the Good Word
   db_uuid: 0f0c103f4f8543f38263ce3aa82c20c1
   card_type: MainDeckCard
@@ -29569,6 +29579,8 @@
 
     If stopped, your opponent''s next turn rolls are -1.'
   tags: []
+  related_cards:
+    - 73cf2f31cea34d14afdff694aae099e5
 - name: The Sub-Mission
   db_uuid: 73c399f5209147499003b4b6e7718cea
   card_type: MainDeckCard
@@ -29581,6 +29593,8 @@
 
     +1 to Strike'
   tags: []
+  related_cards:
+    - 73cf2f31cea34d14afdff694aae099e5
 - name: Cabana Man Dan
   db_uuid: 6812bd4569e741bf811f9e6eaca8f7a2
   srgpc_url: https://www.srgpc.net/cards/competitors/cabana-man-dan/
@@ -43006,6 +43020,7 @@
 - name: Byrd
   db_uuid: 4174c483ab924b72b21343b1b37be712
   srg_url: https://supershowthegame.com/product/byrd/
+  srgpc_url: https://www.srgpc.net/competitor/byrd/
   card_type: SingleCompetitorCard
   division: United States
   power: 8
@@ -43032,6 +43047,8 @@
 
     If your opponent rolled Strike for their turn roll, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 4174c483ab924b72b21343b1b37be712
 - name: The Bird Brain
   db_uuid: 03e0523ac5ab49d2a2bebe564d7709bf
   card_type: MainDeckCard
@@ -43048,6 +43065,8 @@
 
     Draw 1 card.'
   tags: []
+  related_cards:
+    - 4174c483ab924b72b21343b1b37be712
 - name: Snap the Wing
   db_uuid: f242afc5c30445d0b9b03192c7556715
   card_type: MainDeckCard
@@ -43060,11 +43079,67 @@
 
     For each card you have in play with "Fly", "Bird", "Soar", or "Wing" in the name, draw 1 card or bury 1 card in any players discard pile.'
   tags: []
+  related_cards:
+    - 4174c483ab924b72b21343b1b37be712
 - name: CaLLAMAty
   db_uuid: 1fa9419aea3344768c35252433357797
   srg_url: https://supershowthegame.com/product/calamity/
+  srgpc_url: https://www.srgpc.net/cards/competitors/callamaty/
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 20
+  agility: 12
+  strike: 18
+  submission: 10
+  grapple: 16
+  rules_text: 'Once during your turn: When your opponent stops your Grapple, your opponent flips 2 cards and you may play an additional card this turn.
+
+    When your opponent has 4 or fewer cards in their deck, their Finish rolls are -3.'
   tags: []
+  related_finishes:
+    - 3c63398b819c4b60866ef9b7fad289ac
+    - 82142f8c8e1e4367879244e2f5c003f4
+    - 7ae32f50f2964d489404a9461569af69
+- name: Huanaco Übertada
+  db_uuid: 3c63398b819c4b60866ef9b7fad289ac
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Submission skill is +1 for each card in your opponent's deck.  If your opponent has 4 or fewer cards in their deck, +5 to Agility.
+  tags: []
+  related_cards:
+    - 1fa9419aea3344768c35252433357797
+- name: Quetzalcoatllama Bomb
+  db_uuid: 82142f8c8e1e4367879244e2f5c003f4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    During any turn:
+
+    When your opponent shuffles 2 or more cards from their discard pile into their deck, you may play this card, it can be stopped as normal.'
+  tags: []
+  related_cards:
+    - 1fa9419aea3344768c35252433357797
+- name: The Power of the Sun
+  db_uuid: 7ae32f50f2964d489404a9461569af69
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+7 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s Gimmick is blank.
+
+    This card cannot be blanked.'
+  tags: []
+  related_cards:
+    - 1fa9419aea3344768c35252433357797
 - name: Captain Kiddo
   db_uuid: 66154148618e431ba0dd2c28c08e95d9
   srg_url: https://supershowthegame.com/product/captain-kiddo/

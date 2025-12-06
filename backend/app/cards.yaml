@@ -40465,7 +40465,65 @@
   db_uuid: 8dbd7a4a04414c9ba2fe1604567c8acc
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: When your opponent rolls 10 for their turn roll, your next turn roll is +2.
   tags: []
+  related_cards:
+    - b1a153927a0d4d08b14b81844686f2f7
+    - 624c42bea9d8436bb7b231316286deb4
+    - 6077813338694f9ab7b69f0e1c086138
+- name: 908 Lariat
+  db_uuid: b1a153927a0d4d08b14b81844686f2f7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - 8dbd7a4a04414c9ba2fe1604567c8acc
+- name: Deadlift German Suplex
+  db_uuid: 624c42bea9d8436bb7b231316286deb4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    If your opponent''s turn roll was 10 or greater, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 8dbd7a4a04414c9ba2fe1604567c8acc
+- name: Half Nelson Camel Clutch
+  db_uuid: 6077813338694f9ab7b69f0e1c086138
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Submission
+
+    Flip 3 cards. Shuffle 2 cards from your discard pile into your deck.  Draw 1 card.'
+  tags: []
+  related_cards:
+    - 8dbd7a4a04414c9ba2fe1604567c8acc
 - name: Steve Slambrose
   db_uuid: a1c585eca71546a3820f4410e925a8fe
   card_type: SingleCompetitorCard

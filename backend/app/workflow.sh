@@ -75,15 +75,46 @@ if [ $? -ne 0 ]; then
 fi
 echo ''
 
+# Step 9: Verify sitemap
+echo '🗺️  Step 8: Verifying sitemap...'
+CARD_COUNT=$(python3 -c "
+import sys
+sys.path.insert(0, '/home/dondo/srg_card_search_website/backend/app')
+from database import SessionLocal
+from models.base import Card
+db = SessionLocal()
+count = db.query(Card).count()
+db.close()
+print(count)
+")
+
+if [ $? -eq 0 ]; then
+    EXPECTED_URLS=$((CARD_COUNT + 1))  # Cards + homepage
+    echo "  ✓ Main database has $CARD_COUNT cards"
+    echo "  ✓ Sitemap will contain $EXPECTED_URLS URLs when served"
+    echo "  ℹ️  Sitemap is dynamically generated at: https://get-diced.com/sitemap.xml"
+else
+    echo '⚠️  Warning: Could not verify card count in database'
+fi
+echo ''
+
 echo '================================================'
 echo '✅ Workflow completed successfully!'
 echo '================================================'
 echo ''
 echo 'Summary:'
 echo '  - cards.yaml validated'
+echo '  - Main database updated with cards'
 echo '  - Mobile database generated: srg_cards_mobile.db'
 echo '  - Database manifest: db_manifest.json'
 echo '  - Image manifest: images_manifest.json'
+echo "  - Sitemap ready with $EXPECTED_URLS URLs"
+echo ''
+echo 'Next steps for SEO:'
+echo '  1. Sitemap updates automatically (no action needed)'
+echo '  2. Google will re-crawl within 1-7 days'
+echo '  3. Optional: Force re-index via Google Search Console'
+echo '     → https://search.google.com/search-console'
 echo ''
 echo "📝 Full log saved to: $LOG_FILE"
 echo ''

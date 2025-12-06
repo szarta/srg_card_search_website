@@ -30153,6 +30153,7 @@
   tags: []
 - name: Captain Rustbelt
   db_uuid: d7de64cba4dd40589bfe221b0a7d65e4
+  srg_url: https://supershowthegame.com/product/captain-rustbelt/
   srgpc_url: https://www.srgpc.net/cards/competitors/captain-rustbelt/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -30165,6 +30166,48 @@
   grapple: 7
   rules_text: When you and your opponent roll the same skill for your turn roll, your opponet's turn roll is -2.
   tags: []
+  related_finishes:
+    - 1d829e2051a146e7a106f69a1862c078
+    - 88e5542f1be44cf7a8de0b1bb8004331
+    - ae6632e405ee4ed3bf72adc6560b1fe1
+- name: Goosekiller Poke
+  db_uuid: 1d829e2051a146e7a106f69a1862c078
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    When this card is in your discard pile and you roll 7 for your turn roll, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - d7de64cba4dd40589bfe221b0a7d65e4
+- name: Terminal Tower Bomb
+  db_uuid: 88e5542f1be44cf7a8de0b1bb8004331
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - d7de64cba4dd40589bfe221b0a7d65e4
+- name: The Rustbelt Shooter
+  db_uuid: ae6632e405ee4ed3bf72adc6560b1fe1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +3 to your lowest skill.
+  tags: []
+  related_cards:
+    - d7de64cba4dd40589bfe221b0a7d65e4
 - name: Caveman (V1)
   db_uuid: f2d49aea3af44e0c90c7947680a6e89b
   srgpc_url: https://www.srgpc.net/competitors/caveman-v2/
@@ -43171,6 +43214,8 @@
 
     When this card is in your discard pile, your Gimmick is blank and when you roll Grapple for your turn roll, you may bury this card.'
   tags: []
+  related_cards:
+    - 66154148618e431ba0dd2c28c08e95d9
 - name: Uh-Oh! - Brace for Impact
   db_uuid: 429d0adbe8294e30b367a482db86527c
   card_type: MainDeckCard
@@ -43183,6 +43228,8 @@
 
     +2 to Grapple'
   tags: []
+  related_cards:
+    - 66154148618e431ba0dd2c28c08e95d9
 - name: That's Mine! - The Wicked Seal
   db_uuid: 1aac4d93a70f4f0aa1d5b610b16d4682
   card_type: MainDeckCard
@@ -43195,6 +43242,8 @@
 
     Randomly bury cards in your opponent''s hand until they bury a Strike.'
   tags: []
+  related_cards:
+    - 66154148618e431ba0dd2c28c08e95d9
 - name: Cassandra
   db_uuid: 98f3f8c2a9624054b696f59bc8d89dd9
   srg_url: https://supershowthegame.com/product/cassandra/

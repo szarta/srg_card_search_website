@@ -24804,9 +24804,6 @@
     - ce6ad6df80c0437194a6957fdbc70712
     - 34bbf6706bbe426fbf13d2a73ad04b0a
     - 1ead422993764b97a58f7ea4661c5057
-    - aa302f5960b749ff9a4735aa58f1f294
-    - 7196f3bc60de42a186b64b53bd346184
-    - 4e34fac027ae4b06a86c764c8de44434
 - name: No Casuals in Ranked, Joka!
   db_uuid: aa302f5960b749ff9a4735aa58f1f294
   card_type: MainDeckCard

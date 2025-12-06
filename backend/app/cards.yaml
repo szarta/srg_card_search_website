@@ -1390,6 +1390,8 @@
 
     Draw 1 card'
   tags: []
+  related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Steel Chain Anchors Aweigh
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1405,6 +1407,8 @@
 
     Draw 1 card for each Scallywag Symbol you have revealed on your Entrance and Competitor cards.'
   tags: []
+  related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Death is the Only Great Adventure You Have Left
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1422,6 +1426,8 @@
 
     '
   tags: []
+  related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Never Settle for Less Than Elle Diablo
   db_uuid: 3106fc788f5e4d86b4103d05a5e9d760
   srg_url: https://supershowthegame.com/product/entrance-never-settle-for-less-than-elle-diablo/
@@ -23782,6 +23788,7 @@
   tags: []
 - name: Baanomenal Son Nikola Mai
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
+  srg_url: https://supershowthegame.com/product/baanomenal-son-nikola-mai/
   srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
   card_type: SingleCompetitorCard
   division: Underworld
@@ -23902,6 +23909,73 @@
   grapple: 8
   rules_text: When you hit a card, if that card is the only card you have in play, your opponent randomly discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 1fffe3a99d214f67a3c20f6ddda7cefa
+    - 2afeb6a73be84457aeda305239f26445
+    - 6cb0693a5e3e4056be87445a85c90061
+    - f08369c192c045c0868e79e8546872d8
+- name: Smash Your Coconut! (DQ)
+  db_uuid: 1fffe3a99d214f67a3c20f6ddda7cefa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Your opponent randomly discards 3 cards in their hand.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 5202f9e0a26e4839a84797552a2979b9
+- name: Smash Your Coconut!
+  db_uuid: 2afeb6a73be84457aeda305239f26445
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 5202f9e0a26e4839a84797552a2979b9
+- name: Hot Pot Atomic Drop
+  db_uuid: 6cb0693a5e3e4056be87445a85c90061
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Add 1 Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 5202f9e0a26e4839a84797552a2979b9
+- name: Bagpipe Funeral
+  db_uuid: f08369c192c045c0868e79e8546872d8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    +1 to Grapple
+
+    Each time your opponent rolls for a Breakout roll, look at their hand, choose 1 Submission and discard it.'
+  tags: []
+  related_cards:
+    - 5202f9e0a26e4839a84797552a2979b9
 - name: Joey Janela
   db_uuid: ad44636cda7a4a82bb63a06c9f78db7b
   srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
@@ -24955,6 +25029,7 @@
   tags: []
 - name: Bath Time Booker
   db_uuid: 75537925f3e5419eabfa2191870a6c7a
+  srg_url: https://supershowthegame.com/product/bathtime-booker/
   srgpc_url: https://www.srgpc.net/competitors/bath-time-booker/
   card_type: SingleCompetitorCard
   division: United States
@@ -24967,6 +25042,11 @@
   grapple: 7
   rules_text: When you have 7 or more cards in your hand, your Submission skill is +2.
   tags: []
+  related_finishes:
+    - fd19fc28fb554944ba6e42fa299462b9
+    - 29578dab3f744fc69de65486e2480779
+    - bd2c7131765a4db9b7c6130adfe64048
+    - 6ef438d124644b1fbda4cc5fed5a2f43
 - name: The Beast Michael Kerr (V2)
   db_uuid: d3459a63366446c2bcae03c9ba3132ac
   srgpc_url: https://www.srgpc.net/cards/competitors/the-beast-michael-kerr/
@@ -28921,6 +29001,77 @@
   grapple: 7
   rules_text: When your opponent increases their turn roll, increase your turn roll the same amount.  If that increase came from a card, your roll is +1 additional.
   tags: []
+  related_finishes:
+    - fd19fc28fb554944ba6e42fa299462b9
+    - 29578dab3f744fc69de65486e2480779
+    - bd2c7131765a4db9b7c6130adfe64048
+    - 6ef438d124644b1fbda4cc5fed5a2f43
+- name: Book Drop
+  db_uuid: fd19fc28fb554944ba6e42fa299462b9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    Add 1 card from your discard pile to your hand.
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 01998721b8344b9e955ec78fb3151bbc
+    - 75537925f3e5419eabfa2191870a6c7a
+- name: Bookermania Slam
+  db_uuid: 29578dab3f744fc69de65486e2480779
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Look at your opponent''s hand.
+
+    Choose 2 cards and bury them.'
+  tags: []
+  related_cards:
+    - 01998721b8344b9e955ec78fb3151bbc
+    - 75537925f3e5419eabfa2191870a6c7a
+- name: Rub-a-Dub-Dub
+  db_uuid: bd2c7131765a4db9b7c6130adfe64048
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent forces you to bury a card, draw 1 card.'
+  tags: []
+  related_cards:
+    - 01998721b8344b9e955ec78fb3151bbc
+    - 75537925f3e5419eabfa2191870a6c7a
+- name: Bookermania Running Wild!
+  db_uuid: 6ef438d124644b1fbda4cc5fed5a2f43
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    +1 to Submission
+
+    For the rest of the match, ignore "During your turn" in your Gimmick.'
+  tags: []
+  related_cards:
+    - 01998721b8344b9e955ec78fb3151bbc
+    - 75537925f3e5419eabfa2191870a6c7a
 - name: The Brain Still Standing (V1)
   db_uuid: 7007c64893994620aaa816d370d66df3
   srgpc_url: https://www.srgpc.net/competitors/the-brain-still-standing/
@@ -42238,6 +42389,8 @@
 
     The next time your opponent''s turn roll would be 10 or greater, it is instead -3.'
   tags: []
+  related_cards:
+    - 3e85e823fd544ea7acd81acb9b3e627f
 - name: Hell 95 Chokeslam
   db_uuid: 7d5f66a1cce24326b31774d4a90db47a
   srg_url: https://supershowthegame.com/product/bael/
@@ -42251,6 +42404,8 @@
 
     If stopped, shuffle 2 cards with "Burn", "Choke", "Fire", or "Slam" in the name from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 3e85e823fd544ea7acd81acb9b3e627f
 - name: The Lesser Key of Madness
   db_uuid: 4081ddba01be4c4d89ef1e41ee6eca24
   srg_url: https://supershowthegame.com/product/bael/
@@ -42264,6 +42419,8 @@
 
     +1 to Grapple'
   tags: []
+  related_cards:
+    - 3e85e823fd544ea7acd81acb9b3e627f
 - name: Pretty Boy Snow
   db_uuid: bd6838e089ab42e381bd58b0e0eb8af7
   card_type: TornadoCompetitorCard

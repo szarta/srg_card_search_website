@@ -51397,3 +51397,68 @@
   tags: []
   related_cards:
     - 8a19934212ac445db1c0fc7c09284094
+- name: Baby Chaos
+  db_uuid: 1cad80cc73cc4b2bbb099e3cc31c97f6
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 7
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: When you roll 5 for your turn roll, your opponent's turn roll is -2.
+  tags:
+    - Super Lucha
+  related_finishes:
+    - 54e237b5fa2c48739c038b97a94f6fc5
+    - 0f362dba758c42f3a052ff884b43c6ba
+    - fa512c2979d7477e96417f53b459c808
+- name: Chaos Cannon!
+  db_uuid: 54e237b5fa2c48739c038b97a94f6fc5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Draw 1 card.
+
+    If your opponent''s turn roll was 4 or less, +3 to Technique.'
+  tags: []
+  related_cards:
+    - 1cad80cc73cc4b2bbb099e3cc31c97f6
+- name: Cradle Piledriver
+  db_uuid: 0f362dba758c42f3a052ff884b43c6ba
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Agility
+
+    Look at your opponent''s hand or add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 1cad80cc73cc4b2bbb099e3cc31c97f6
+- name: Pow-Pow-Powda Fresh!
+  db_uuid: fa512c2979d7477e96417f53b459c808
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Submission
+
+    You may randomly bury either player''s discard pile.'
+  tags: []
+  related_cards:
+    - 1cad80cc73cc4b2bbb099e3cc31c97f6

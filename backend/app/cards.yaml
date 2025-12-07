@@ -30669,7 +30669,22 @@
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
+  power: 5
+  technique: 6
+  agility: 8
+  strike: 7
+  submission: 9
+  grapple: 10
+  rules_text: WHen a card in play adds to your skill, that skill is +1 additional.
   tags: []
+  related_finishes:
+    - 4fc236e839df44dbb66bd14e1c7ab0fa
+    - 8370df2b6ff14c8fa38bf66ab9e1bb82
+    - 22f32c7aa17c417bad15a6c7659fc399
+    - ccd45828e4344efea0f2c3a939b700fe
+    - 74288c0149ed4ed9a7a3679036916165
+    - 05761fb289154c2d92fba544016a9773
+    - 085efd6120724b2487722a90c5bb9352
 - name: Collin the Chrononaut
   db_uuid: 8054b1c0587a4d949e9a73b9bdd144ed
   srg_url: https://supershowthegame.com/product/collin-the-chrononaut/
@@ -30909,6 +30924,8 @@
     - 9e57cd60fb34451bbf7426fb315033ca
 - name: Corporate Collector
   db_uuid: a581eb463bac433395ccc06f78c365c1
+  srg_url: https://supershowthegame.com/product/corporate-collector/
+  srgpc_url: https://www.srgpc.net/competitor/corporate-collector/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -30922,6 +30939,129 @@
 
     Discard 1 card from your hand to look at the top 3 cards of your deck and put them back on top in any order.'
   tags: []
+  related_finishes:
+    - 4fc236e839df44dbb66bd14e1c7ab0fa
+    - 8370df2b6ff14c8fa38bf66ab9e1bb82
+    - 22f32c7aa17c417bad15a6c7659fc399
+    - ccd45828e4344efea0f2c3a939b700fe
+    - 74288c0149ed4ed9a7a3679036916165
+    - 05761fb289154c2d92fba544016a9773
+    - 085efd6120724b2487722a90c5bb9352
+- name: Frog Soup Splash
+  db_uuid: 4fc236e839df44dbb66bd14e1c7ab0fa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Agility
+
+    You may decrease these skills for your opponent instead.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: Corporate Backstabber
+  db_uuid: 8370df2b6ff14c8fa38bf66ab9e1bb82
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Reveal the top card of your deck:
+
+    If it is a Strike, your skills are +1.
+
+    If it is a Grapple, copy its text.
+
+    If it is a Submission, your opponent gets 1 Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: Corporate Clutch
+  db_uuid: 22f32c7aa17c417bad15a6c7659fc399
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Draw 2 cards.
+
+    Shuffle up to 6 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: Keep the Change You Filthy Animal
+  db_uuid: ccd45828e4344efea0f2c3a939b700fe
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Strike
+
+    Once per turn: You may discard 1 card from your hand to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: The Murder Mitten
+  db_uuid: 74288c0149ed4ed9a7a3679036916165
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If stopped, you may discard 1 card from your hand to bury this card.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: Loebotomizer
+  db_uuid: 05761fb289154c2d92fba544016a9773
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
+- name: Loebectomy
+  db_uuid: 085efd6120724b2487722a90c5bb9352
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    When this card is in your disard pile, your Power is +1 during turn rolls.'
+  tags: []
+  related_cards:
+    - 5a8e9421d61c484da2bf0feb5106dec7
+    - a581eb463bac433395ccc06f78c365c1
 - name: Corrugated Cardboard Villain
   db_uuid: ed1c696106ab4fb4ba80ab10e893e1ad
   card_type: SingleCompetitorCard

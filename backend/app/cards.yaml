@@ -31077,6 +31077,52 @@
 
     When you bump, discard 1 card from your hand instead of drawing.'
   tags: []
+  related_finishes:
+    - c116545fbab34a51aeaa3b3ed358cc92
+    - f0eb42fb98014d6fa5d31a0953be2ba3
+    - fe0b5ea507784c7bbef1d3ef1609bb2e
+- name: The Plan That Shook Paradise
+  db_uuid: c116545fbab34a51aeaa3b3ed358cc92
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    Or randomly bury your hand and add all other cards you have in play to your hand.'
+  tags: []
+  related_cards:
+    - ed1c696106ab4fb4ba80ab10e893e1ad
+- name: 'To See the Next Part of the Dream
+
+    World of Corrugation'
+  db_uuid: f0eb42fb98014d6fa5d31a0953be2ba3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +4 to Grapple
+
+    Your opponent may add 1 card they have in play to their hand.  If they do not you randomly discard 3 cards from your hand.'
+  tags: []
+  related_cards:
+    - ed1c696106ab4fb4ba80ab10e893e1ad
+- name: Can't Get Rid of Me!
+  db_uuid: fe0b5ea507784c7bbef1d3ef1609bb2e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    If stopped, you may bury 5 cards in your hand to put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - ed1c696106ab4fb4ba80ab10e893e1ad
 - name: Daisy Rider
   db_uuid: 8be0afa58eb049048feb204eac5b48d2
   srgpc_url: https://www.srgpc.net/cards/competitors/daisy-rider/

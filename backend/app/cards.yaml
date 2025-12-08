@@ -34758,6 +34758,7 @@
   tags: []
 - name: Jacque EE (V1)
   db_uuid: 57e69c6fcf8d434b881c2f7821cfd51b
+  is_banned: true
   card_type: SingleCompetitorCard
   gender: Male
   power: 7
@@ -34766,7 +34767,6 @@
   strike: 10
   submission: 6
   grapple: 5
-  is_banned: true
   rules_text: When your opponent moves any number of cards from their discard pile for a card or Gimmick, they randomly bury 1 card in their hand.
   tags: []
 - name: Jacque EE (V2)
@@ -34968,7 +34968,50 @@
   strike: 10
   submission: 5
   grapple: 7
+  rules_text: Finish cards without a Competitor logo, Entrance cards, and Spectacle cards have blank text.
   tags: []
+  related_finishes:
+    - 9785d194b6174d5593f0302906ea850e
+    - 3c52f18ef2594ecd941f6bf6b0db7be9
+    - 1fbb35cc8b9f40b7a06127874335e8da
+- name: The Eiffel Tower
+  db_uuid: 9785d194b6174d5593f0302906ea850e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    When this card is in your discard pile, unblank the text of your Entrance card.'
+  tags: []
+  related_cards:
+    - e7f4079b9154426e94cbc0bf90a6aa18
+- name: The French Revolution
+  db_uuid: 3c52f18ef2594ecd941f6bf6b0db7be9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +2 to your skills for each skill requirement card your opponent has in play.
+  tags: []
+  related_cards:
+    - e7f4079b9154426e94cbc0bf90a6aa18
+- name: The Guillotine
+  db_uuid: 1fbb35cc8b9f40b7a06127874335e8da
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    You may bury 4 cards in your hand to re-roll your Finish roll.
+
+    Stop any Finish Strike that cannot be stopped.'
+  tags: []
+  related_cards:
+    - e7f4079b9154426e94cbc0bf90a6aa18
 - name: Jebediah The Amish Assassin
   db_uuid: bcfd31f67b454a1e9d41d981fb265e5d
   srgpc_url: https://www.srgpc.net/cards/competitors/jebediah-the-amish-assassin/

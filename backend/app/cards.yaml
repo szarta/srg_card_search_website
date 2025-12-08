@@ -45876,6 +45876,8 @@
 
     Your Finish roll is +1 for each other card you have in play with "Kick" or "Hook" in the name (Max +2).'
   tags: []
+  related_cards:
+    - 003693336f2e48878c7fc6ad9c18b6db
 - name: The Goodnight
   db_uuid: 3469c9a707c84f9d96782ea71828545d
   card_type: MainDeckCard
@@ -45888,6 +45890,8 @@
 
     Your lowest skill is +1 for each Lead you have in play.'
   tags: []
+  related_cards:
+    - 003693336f2e48878c7fc6ad9c18b6db
 - name: Alabammy Eye Jammy
   db_uuid: 30580cdc9ef94f43a9d2ae1e6c452189
   card_type: MainDeckCard
@@ -45898,8 +45902,11 @@
 
     When this card is in your discard pile and you rolled Strike for your turn roll, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 003693336f2e48878c7fc6ad9c18b6db
 - name: Human Resources
   db_uuid: b64f5ecb347847ec9f6d6c3ee6704b6e
+  srg_url: https://supershowthegame.com/product/hr/
   srgpc_url: https://www.srgpc.net/competitor/human-resources/
   card_type: SingleCompetitorCard
   division: United States
@@ -45912,6 +45919,52 @@
   grapple: 6
   rules_text: 'When you roll Power for your turn roll: Your opponent buries 1 card in their hand or your opponent''s next turn roll is -1.'
   tags: []
+  related_finishes:
+    - ca6aca98cf80486c8b7b5b175e902fc7
+    - 0c2e2a98d4f443f1ac1fbdc3f4e42a00
+    - d2d7ebb9bcc5459d95906f9ee85b1611
+- name: Heckin' Violation
+  db_uuid: ca6aca98cf80486c8b7b5b175e902fc7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b64f5ecb347847ec9f6d6c3ee6704b6e
+- name: Toss Your Spouse Over the Top
+  db_uuid: 0c2e2a98d4f443f1ac1fbdc3f4e42a00
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If you have 4 Follow Ups in paly, your opponent gets 1 fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - b64f5ecb347847ec9f6d6c3ee6704b6e
+- name: Decision Fatigue
+  db_uuid: d2d7ebb9bcc5459d95906f9ee85b1611
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your opponent chooses: Bury 3 cards in their hand or their 1st Breakout roll is -4.'
+  tags: []
+  related_cards:
+    - b64f5ecb347847ec9f6d6c3ee6704b6e
 - name: Immortal Brick Brothers (V1)
   db_uuid: 70775bc9b92d426384939fcde17c2883
   srg_url: https://supershowthegame.com/product/immortal-brick-brothers/

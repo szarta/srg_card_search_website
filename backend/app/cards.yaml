@@ -3567,6 +3567,7 @@
     - d2b10108b44646b4b6527e2d8b8f6de5
 - name: Gera Gera no Shanghai
   db_uuid: fa04c0bfe4f748ec82e7168ce00d4e82
+  srg_url: https://supershowthegame.com/product/30-gera-gera-no-shanghai/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -26013,6 +26014,7 @@
   tags: []
 - name: GoGo
   db_uuid: e610a36ba3564bef9254adb86d298d99
+  srg_url: https://supershowthegame.com/product/go-go/
   srgpc_url: https://www.srgpc.net/cards/competitors/gogo/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -30211,6 +30213,8 @@
 
     Your opponent''s second breakout roll is -1 for each card you have in play with "Kick" in the name.'
   tags: []
+  related_cards:
+    - b339f906c69c4183b699037dffd6cfa1
 - name: All Steel, No Wool
   db_uuid: ee807116e6ae4c17bc709dad8712029a
   srg_url: https://supershowthegame.com/product/steel-wool/
@@ -30224,6 +30228,8 @@
 
     Once per turn, you may re-roll your Finish roll and your opponent draws 4 cards.'
   tags: []
+  related_cards:
+    - b339f906c69c4183b699037dffd6cfa1
 - name: I Dun Told Yah
   db_uuid: 95dce62414c34823a4c2577c2d771e18
   srg_url: https://supershowthegame.com/product/steel-wool/
@@ -30237,7 +30243,9 @@
 
     If your opponent breaks out, add this card to your hand and your opponent draws 1 card.'
   tags: []
-- name: Sheepshooter
+  related_cards:
+    - b339f906c69c4183b699037dffd6cfa1
+- name: Sheepshooter (Steel Wool)
   db_uuid: 53ed3f4392b14fa9b31ccb3f8bd2be9b
   srg_url: https://supershowthegame.com/product/steel-wool/
   card_type: MainDeckCard
@@ -30250,6 +30258,8 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - b339f906c69c4183b699037dffd6cfa1
 - name: Theo the Greek (V1)
   db_uuid: 831eb73c2ab9435794db4413c7e2521b
   srgpc_url: https://www.srgpc.net/cards/competitors/theo-the-greek-neo/
@@ -33405,6 +33415,7 @@
     - 4e94aa07e53342b8937dfb227671fbe7
 - name: Franklin "Turtle" Clark
   db_uuid: d89414c9e0e943d2844fcdeec92be5e5
+  srg_url: https://supershowthegame.com/product/franklin-turtle-clark/
   srgpc_url: https://www.srgpc.net/competitors/franklin-turtle-clark/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -50528,6 +50539,7 @@
     - 992dac94fa8944afab7d4ac757df2944
 - name: Level Upbreak
   db_uuid: 984d0965c9bc4be0a60615da7488eefd
+  srg_url: https://supershowthegame.com/product/30-level-upbreak/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -52214,3 +52226,84 @@
   tags: []
   related_cards:
     - 1cad80cc73cc4b2bbb099e3cc31c97f6
+- name: Carter Clutch (Technique)
+  db_uuid: 1d1879b8859149399921fff5aac46895
+  srg_url: https://supershowthegame.com/product/30-carter-clutch/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    Draw 1 card.
+
+    If your Finish roll is 6 or less, it is +2. Skill Requirement: Technique 8+'
+  tags: []
+- name: Cross Face
+  db_uuid: 34a0f14251954ecb8877727ef22b203e
+  srg_url: https://supershowthegame.com/product/30-cross-face/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Look at your opponent's hand, choose 2 cards and bury them.
+  tags: []
+- name: Down River Lock (Technique)
+  db_uuid: b461f74e363240609929204b9d9e415c
+  srg_url: https://supershowthegame.com/product/30-down-river-lock/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to your lowest skill.
+
+    Add 1 card from your discard pile to your hand.  Skill Requirement: Technique 8+'
+  tags: []
+- name: Guilllotine Choke (Submission)
+  db_uuid: 34bba7faa5e94ed997ebfaa322adf771
+  srg_url: https://supershowthegame.com/product/30-guillotine-choke/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.  Skill Requirement: Submission 8+'
+  tags: []
+- name: Microphone Check
+  db_uuid: 808f08622de94ce8a27b9db70fc5fdc0
+  srg_url: https://supershowthegame.com/product/30-microphone-check/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    +1 to Submission
+
+    When you have 2 cards with "Microphone" in play, this card is considered to have your Competitor logo.'
+  tags: []
+- name: Sheepshooter (Submission)
+  db_uuid: 1f5265c1f7074d908a08850ce3e542f6
+  srg_url: https://supershowthegame.com/product/30-sheepshooter/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +3 to your lowest skill
+
+    Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
+  tags: []
+- name: Strangle with a Sledgehammer
+  db_uuid: c53b628a6c6e4978b19f7a0f1904bfdb
+  srg_url: https://supershowthegame.com/product/30-strangle-with-a-sledgehammer/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Agility and Submission are +1 for each other card you have in play with "Sledgehammer" in the name.
+  tags: []

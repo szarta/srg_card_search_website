@@ -29799,6 +29799,7 @@
 - name: Hunk Homeland
   db_uuid: e8b36bd067ce45d2a31bbacc24728ada
   srg_url: https://supershowthegame.com/product/hunk-homeland/
+  srgpc_url: https://www.srgpc.net/competitor/the-unreal-american-hunk-homeland/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -29810,6 +29811,10 @@
   grapple: 8
   rules_text: When your opponent hits a card, your Power is +2 until the end of the next turn roll.
   tags: []
+  related_finishes:
+    - a42d06a42cbe49d2b9bd9b646d5642b9
+    - bd1f0be117454e37a12f2cf12469c99f
+    - 1654b7e0d2db4f1ead531d2e40eab18f
 - name: Homelanding Leg Drop!
   db_uuid: a42d06a42cbe49d2b9bd9b646d5642b9
   srg_url: https://supershowthegame.com/product/hunk-homeland/
@@ -29821,6 +29826,8 @@
 
     If your turn roll was 10 or greater, your Finish roll is +2 instead.'
   tags: []
+  related_cards:
+    - e8b36bd067ce45d2a31bbacc24728ada
 - name: Thunder in Paradise
   db_uuid: bd1f0be117454e37a12f2cf12469c99f
   srg_url: https://supershowthegame.com/product/hunk-homeland/
@@ -29832,6 +29839,8 @@
 
     +2 to Grapple'
   tags: []
+  related_cards:
+    - e8b36bd067ce45d2a31bbacc24728ada
 - name: Unreal American Boot Choke
   db_uuid: 1654b7e0d2db4f1ead531d2e40eab18f
   srg_url: https://supershowthegame.com/product/hunk-homeland/
@@ -29845,6 +29854,8 @@
 
     Your opponent buries half the cards in their hand (Rounded Up).'
   tags: []
+  related_cards:
+    - e8b36bd067ce45d2a31bbacc24728ada
 - name: Jean Dre The Gigantic Grenoble
   db_uuid: d0813d6556f143158538ab7ed48e978e
   srg_url: https://supershowthegame.com/product/the-gigantic-grenoble/

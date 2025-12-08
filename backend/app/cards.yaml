@@ -28116,6 +28116,7 @@
   tags: []
 - name: Hobbzilla
   db_uuid: 31b4dedbc96a438a946d76a2368b6f2d
+  srg_url: https://supershowthegame.com/product/hobbzilla/
   srgpc_url: https://www.srgpc.net/cards/competitors/hobbzilla/
   card_type: SingleCompetitorCard
   division: United States
@@ -28128,6 +28129,50 @@
   grapple: 9
   rules_text: 'Once per turn: When your opponent stops a card with "Roll", "Spin", or "Smash" in the name, you may play an additional Lead or Follow Up with "Roll", "Spin", or "Smash" in the name.'
   tags: []
+  related_finishes:
+    - b51fc7af879f4ab7bbaff9fbd2619ff8
+    - b83ba12261d24bb6af2e41df4378f40a
+    - f0304a590e0a4361943695afc75546d2
+- name: The Texas Smash
+  db_uuid: b51fc7af879f4ab7bbaff9fbd2619ff8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If stopped, shuffle 3 cards with "Roll", "Spin", or "Smash" in the name from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 31b4dedbc96a438a946d76a2368b6f2d
+- name: Spinning Rex Breaker
+  db_uuid: b83ba12261d24bb6af2e41df4378f40a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 31b4dedbc96a438a946d76a2368b6f2d
+- name: Death Roll
+  db_uuid: f0304a590e0a4361943695afc75546d2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If your opponent stopped a Submission this turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 31b4dedbc96a438a946d76a2368b6f2d
 - name: Hollywood (V1)
   db_uuid: a7d09cf208d745fdb390e894a653a627
   card_type: SingleCompetitorCard

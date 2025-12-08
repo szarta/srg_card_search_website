@@ -31933,6 +31933,8 @@
   tags: []
 - name: Downriver Drew
   db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
+  srg_url: https://supershowthegame.com/product/downriver-drew/
+  srgpc_url: https://www.srgpc.net/cards/competitors/downriver-drew/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male

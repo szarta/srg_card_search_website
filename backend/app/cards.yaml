@@ -28762,6 +28762,7 @@
 - name: Dr. Jake Hill
   db_uuid: ed3ee94858c249e69bd462512b65c825
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
+  srgpc_url: https://www.srgpc.net/cards/competitors/dr-jake-hill/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -28792,6 +28793,8 @@
 
     If stopped discard 1 card to shuffle this card into your deck.'
   tags: []
+  related_cards:
+    - ed3ee94858c249e69bd462512b65c825
 - name: Meet Mr. Hyde Potion No. 5
   db_uuid: 0604e53d335e4e43a1957b553f2d6d67
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
@@ -28805,6 +28808,8 @@
 
     If this card is flipped you may add it to your hand.'
   tags: []
+  related_cards:
+    - ed3ee94858c249e69bd462512b65c825
 - name: 'Rage Potion #29'
   db_uuid: f8be0c80d3d24c4ea05c36d0ff7a3ba4
   card_type: MainDeckCard
@@ -28815,6 +28820,8 @@
 
     Draw 1 card for each card you have in play with "Potion" in the name.'
   tags: []
+  related_cards:
+    - ed3ee94858c249e69bd462512b65c825
 - name: Superkick Over the Top
   db_uuid: 6069f8d118324728a4d8a741dda84d8c
   card_type: MainDeckCard
@@ -28844,6 +28851,8 @@
 
     When this card is discarded from play for a breakout, put 1 Lead with "Potion" in the name from your discard pile into play.'
   tags: []
+  related_cards:
+    - ed3ee94858c249e69bd462512b65c825
 - name: Love Potion No. 9
   db_uuid: e1169ad0af8f47e6a145428470fd1601
   srg_url: https://supershowthegame.com/product/dr-jake-hill/
@@ -28857,6 +28866,8 @@
 
     If your opponent breaks out, draw cards equal to the Crowd Meter.'
   tags: []
+  related_cards:
+    - ed3ee94858c249e69bd462512b65c825
 - name: Rambo Apocalypse
   db_uuid: 80b626dbcde047a595f325056eaa6907
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/

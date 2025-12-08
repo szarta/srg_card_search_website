@@ -35169,7 +35169,52 @@
   strike: 8
   submission: 7
   grapple: 6
+  rules_text: 'When your opponent''s turn roll is 10: You may reveal 1 card from your hand, shuffle it into your deck, and draw 2 cards.'
   tags: []
+  related_finishes:
+    - 31f5cb576d2b4e5d8b6afc6e44e3d21d
+    - 14fa7fd4ec9a40c889a5986b2e4a3d11
+    - 9b312da39bb34d778e436de7bdf7c757
+- name: Chopitoulas
+  db_uuid: 31f5cb576d2b4e5d8b6afc6e44e3d21d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    If this match has no disqualifications, +5 to Power.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 1aeb79fc58f445b8ab7fe8bc2aebfcec
+- name: French Quarter Pounder
+  db_uuid: 14fa7fd4ec9a40c889a5986b2e4a3d11
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    If this card was revealed for your Gimmick last turn roll, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 1aeb79fc58f445b8ab7fe8bc2aebfcec
+- name: Lullaby of Woe
+  db_uuid: 9b312da39bb34d778e436de7bdf7c757
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If you would shuffle this card into your deck from your hand, you may reveal this card and the match has no disqualifications until the end of your next turn.'
+  tags: []
+  related_cards:
+    - 1aeb79fc58f445b8ab7fe8bc2aebfcec
 - name: J-Flash
   db_uuid: c838aa6d65bd440689ed07eed9e1b94b
   srg_url: https://supershowthegame.com/product/j-flash/

@@ -893,8 +893,10 @@
 - name: Cuddy Warrior
   db_uuid: 51d5df82cf0c4be6bcf83bc723a524e8
   srg_url: https://supershowthegame.com/product/cuddy-warrior/
+  srgpc_url: https://www.srgpc.net/cards/competitors/cuddy-warrior/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
   power: 6
   technique: 10
   agility: 7
@@ -3520,6 +3522,7 @@
     - da8b7c809226422ba2a4c0b03b0f546a
     - 8a2c698512ed4874aa6f19f38e182e21
     - 6bcb9ae282594a7e918a8a5c45622e3a
+    - fa04c0bfe4f748ec82e7168ce00d4e82
 - name: Dread Pirate Tech Support (V2)
   db_uuid: 8dc8327cc95f423aa5b8ac3acf2a4fb4
   card_type: SingleCompetitorCard
@@ -3534,7 +3537,7 @@
   rules_text: 'At the start of the match, choose Technique or Agility.
 
     Once per turn, when you rolled the chosen skill for your turn roll: You may switch 1 card in your hand with 1 card in your discard pile of the same card type (Lead, Follow up, Finish).'
-  comments: This is the Scallywag version
+  comments: This is the Scallywag version (Scallywag Logo)
   tags: []
 - name: Pirate Bay Torrent
   db_uuid: da8b7c809226422ba2a4c0b03b0f546a
@@ -3545,6 +3548,8 @@
   deck_card_number: 28
   rules_text: 'Choose 1 card in your opponent''s discard pile: This card copies its text until the end of the turn.  If you rolled Technique or Agility for your turn roll, you may choose a card in your discard pile instead.'
   tags: []
+  related_cards:
+    - d2b10108b44646b4b6527e2d8b8f6de5
 - name: The Pirate Code
   db_uuid: 8a2c698512ed4874aa6f19f38e182e21
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
@@ -3558,6 +3563,20 @@
 
     If you used your Gimmick this turn, this card is also a Lead.'
   tags: []
+  related_cards:
+    - d2b10108b44646b4b6527e2d8b8f6de5
+- name: Gera Gera no Shanghai
+  db_uuid: fa04c0bfe4f748ec82e7168ce00d4e82
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Power is + your opponent''s Power (max +10).
+
+    When you switch this card from your discard pile to your hand with your Gimmick, you may flip 1 card.'
+  tags: []
+  related_cards:
+    - d2b10108b44646b4b6527e2d8b8f6de5
 - name: Davy Jones' Bit Locker
   db_uuid: 6bcb9ae282594a7e918a8a5c45622e3a
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
@@ -3571,6 +3590,8 @@
 
     After you switch a card in your hand with a card in your discard pile, your opponent randomly adds a card from their discard pile to their hand, and then randomly discards a card from their hand.'
   tags: []
+  related_cards:
+    - d2b10108b44646b4b6527e2d8b8f6de5
 - name: Walk the Plank
   db_uuid: 35d0b197c9a44d699f9670a17871488e
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
@@ -25495,6 +25516,7 @@
   tags: []
 - name: Dangerous Dillon Bias
   db_uuid: fad605db94d44d3bb3fb2fc88e96a53d
+  srg_url: https://supershowthegame.com/product/dangerous-dillon-bias/
   srgpc_url: https://www.srgpc.net/cards/competitors/dangerous-dillon-bias/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -25521,6 +25543,8 @@
 
     If your turn roll was at least 5 greater than your opponent''s, this card is also a Lead.'
   tags: []
+  related_cards:
+    - fad605db94d44d3bb3fb2fc88e96a53d
 - name: 419 Slam
   db_uuid: 0e7dd5fd09fe45d79e988c8d42a893a2
   card_type: MainDeckCard
@@ -25531,6 +25555,8 @@
 
     +2 to Technique'
   tags: []
+  related_cards:
+    - fad605db94d44d3bb3fb2fc88e96a53d
 - name: I Don't Want to Talk About It
   db_uuid: 5b42aee101034aa3a6f1e6a8d41c3503
   card_type: MainDeckCard
@@ -25541,6 +25567,8 @@
 
     When this card is in your discard pile, the Crowd Meter is 1 or greater, and your opponent wins the turn roll, their next turn roll is -1.'
   tags: []
+  related_cards:
+    - fad605db94d44d3bb3fb2fc88e96a53d
 - name: Dizzy Derailed
   db_uuid: 48da9bdffa8744b0af0d37f59d56ba2e
   card_type: SingleCompetitorCard
@@ -27372,9 +27400,11 @@
   tags: []
 - name: Damien
   db_uuid: 03bfb9ac23074c849c4060a007636218
+  srg_url: https://supershowthegame.com/product/damien/
   srgpc_url: https://www.srgpc.net/cards/competitors/damien/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
   power: 9
   technique: 6
   agility: 7
@@ -27383,6 +27413,52 @@
   grapple: 5
   rules_text: When you have 0 cards in play and your opponent has 1 card in play, your turn rolls are +1.  If they have 2 or more cards in play, your turn rolls are +2.
   tags: []
+  related_finishes:
+    - 86f1c7d9a8ba4831bf545e5d2a2f30a6
+    - f2bfba01e89648858fa2c5595bdf2d20
+    - 49e7896302044150b0055eeefb941a0d
+- name: Psychotic Barrage
+  db_uuid: 86f1c7d9a8ba4831bf545e5d2a2f30a6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    When your opponent has at least 2 more cards in play than you, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 03bfb9ac23074c849c4060a007636218
+- name: Tipping Point
+  db_uuid: f2bfba01e89648858fa2c5595bdf2d20
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    You may discard this card from your hand to discard 2 cards you have in play.'
+  tags: []
+  related_cards:
+    - 03bfb9ac23074c849c4060a007636218
+- name: Mental Mind Wreck
+  db_uuid: 49e7896302044150b0055eeefb941a0d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Bury 2 cards in your opponent''s discard pile, then they shuffle 2 cards from their hand into their deck.'
+  tags: []
+  related_cards:
+    - 03bfb9ac23074c849c4060a007636218
 - name: King Grumpy Thunder Jr.
   db_uuid: f5850a95a27f4062a89db7c0e2c2a543
   card_type: SingleCompetitorCard
@@ -30666,6 +30742,7 @@
   tags: []
 - name: The Collector Sean Loeb
   db_uuid: 5a8e9421d61c484da2bf0feb5106dec7
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-collector-sean-loeb/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -31064,6 +31141,8 @@
     - a581eb463bac433395ccc06f78c365c1
 - name: Corrugated Cardboard Villain
   db_uuid: ed1c696106ab4fb4ba80ab10e893e1ad
+  srg_url: https://supershowthegame.com/product/corrugated-cardboard-villain/
+  srgpc_url: https://www.srgpc.net/cards/competitors/corrugated-cardboard-villain/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -31449,6 +31528,7 @@
   tags: []
 - name: Deranged Monarch
   db_uuid: 308de2fea17c4d1a8581fdd591951fef
+  srg_url: https://supershowthegame.com/product/deranged-monarch/
   srgpc_url: https://www.srgpc.net/cards/competitors/deranged-monarch/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -31463,6 +31543,50 @@
 
     BACK: When you hit a card with "King" in the name, your opponent''s next turn roll is -2.'
   tags: []
+  related_finishes:
+    - dd33512dd3e14fac8ba4cf4e72cb9daa
+    - 236dcf5d036a4b91b64b8fd84c83a6d7
+    - e6ecf157dc574b0aa0b6c53b875306c6
+- name: The Coward's Way / Iron Gauntlet
+  db_uuid: dd33512dd3e14fac8ba4cf4e72cb9daa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    Look at your opponent''s hand.
+
+    If your competitor has the Unspeakable One logo:
+
+    Your skills are +1 and if you roll Technique, you may re-roll your Finish roll once this turn.'
+  tags: []
+  related_cards:
+    - 308de2fea17c4d1a8581fdd591951fef
+- name: Dripping Yellow Madness
+  db_uuid: 236dcf5d036a4b91b64b8fd84c83a6d7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'You may use your opponent''s skill of the same type for your Finish roll.
+
+    When this card is in your discard pile, your Follow Up Strikes cannot be stopped by Follow Ups.'
+  tags: []
+  related_cards:
+    - 308de2fea17c4d1a8581fdd591951fef
+- name: The Hastur Lock
+  db_uuid: e6ecf157dc574b0aa0b6c53b875306c6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    Add 2 cards with "King" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 308de2fea17c4d1a8581fdd591951fef
 - name: Derek Neal
   db_uuid: 77fdc45f8ebe46c9a0304eb24e8a9498
   srgpc_url: https://www.srgpc.net/cards/competitors/derek-neal/

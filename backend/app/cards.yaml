@@ -34784,7 +34784,7 @@
   grapple: 5
   rules_text: When your opponent moves any number of cards from their discard pile with their card or Gimmick, they randomly bury 1 card in their hand.  If they moved the card with their Gimmick, your next turn roll is +1.
   tags: []
-  finishes:
+  related_finishes:
     - 7aa1dfd1658941be9c549e4675521c9a
     - 70f48c9c5f7e4b69827e1b734400e755
     - 03bdd58874854746882e0a6b30f9fe06

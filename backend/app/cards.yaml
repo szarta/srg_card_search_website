@@ -52307,3 +52307,59 @@
   deck_card_number: 30
   rules_text: Your Agility and Submission are +1 for each other card you have in play with "Sledgehammer" in the name.
   tags: []
+- name: God of Madness
+  db_uuid: 35aefec0549a48f685abc4f3d031f6d7
+  srg_url: https://supershowthegame.com/product/god-of-madness/
+  srgpc_url: https://www.srgpc.net/competitor/god-of-madness/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'FRONT: Your cards with "Madness" in the name are not Skill Requirement cards.  When you hit a card with "Madness" in the name, you may turn this card over.
+
+    BACK: When you have a card in your discard pile with "Madness" in the name: +1 to Submission and +1 to Agility.
+
+    When you have a card in play with "Madness" in the name: Your opponent''s Strike skill is -1.'
+  tags: []
+  related_finishes:
+    - d4d5b9bb27cd47e3863a1b46acbb6c14
+    - f7ddc919d3ab46c18b74e101f923b5d1
+    - dc3604cbcbf54ddd979f65042750e601
+- name: Stuff and Nonsense
+  db_uuid: d4d5b9bb27cd47e3863a1b46acbb6c14
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'When played, you may discard 1 card with "Madness" in the name from your hand: If you do, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 35aefec0549a48f685abc4f3d031f6d7
+- name: Mass Hysteria
+  db_uuid: f7ddc919d3ab46c18b74e101f923b5d1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Finish rolls are +1 for each Wonderland Gang logo you and your partner have on your competitor cards.
+  tags: []
+  related_cards:
+    - 35aefec0549a48f685abc4f3d031f6d7
+- name: The Gift of Madness
+  db_uuid: dc3604cbcbf54ddd979f65042750e601
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    Your opponent''s Technique is -1.
+
+    Reveal 1 Competitor card with the Wonderland Gang logo and add their Gimmick to yours.'
+  tags: []
+  related_cards:
+    - 35aefec0549a48f685abc4f3d031f6d7

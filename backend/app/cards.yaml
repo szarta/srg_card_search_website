@@ -35597,6 +35597,7 @@
     - 6fee88b1e0494bec9e0181ab6735a50b
 - name: Johnny Korea
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
+  srg_url: https://supershowthegame.com/product/johnny-korea/
   srgpc_url: https://www.srgpc.net/cards/competitors/johnny-korea/
   card_type: SingleCompetitorCard
   division: United States
@@ -35732,6 +35733,8 @@
   tags: []
 - name: Jokerfish (V1)
   db_uuid: 52ba551f1c3c40269d6a8ead69693cc3
+  srg_url: https://supershowthegame.com/product/joker-fish/
+  srgpc_url: https://www.srgpc.net/cards/competitors/jokerfish/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -35743,8 +35746,17 @@
   grapple: 6
   rules_text: 'When you roll Power, Agility, or Submission: Your opponent flips 1 card, then you may bury 1 card in your opponent''s discard pile.'
   tags: []
+  related_finishes:
+    - 777e1b4942524f30a673528add6a6f95
+    - e2d6686f308d4db982585bebeaf2fb64
+    - 2d44e5791120424595d6358e5da85d70
+    - 6f59f72aa6b8488fbc71b6282e250550
+    - 8356922e7c804ffbad6c046937a5af92
+    - 84a11c17f77940849164c1a16be4e7d7
+    - 800549f385ef4605b1a4cc4b56f8dbc8
 - name: Jokerfish (V2)
   db_uuid: d9e5097bbec7440c997cfff511cf0f39
+  srgpc_url: https://www.srgpc.net/cards/competitors/jokerfish/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -35758,8 +35770,17 @@
 
     Your cards #19-21 cannot stop cards.'
   tags: []
+  related_finishes:
+    - 777e1b4942524f30a673528add6a6f95
+    - e2d6686f308d4db982585bebeaf2fb64
+    - 2d44e5791120424595d6358e5da85d70
+    - 6f59f72aa6b8488fbc71b6282e250550
+    - 8356922e7c804ffbad6c046937a5af92
+    - 84a11c17f77940849164c1a16be4e7d7
+    - 800549f385ef4605b1a4cc4b56f8dbc8
 - name: Jokerfish (V3)
   db_uuid: a97d8d2421e84165b130869e43af2695
+  srgpc_url: https://www.srgpc.net/competitor/jokerfish-v2/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -35773,6 +35794,134 @@
 
     Your "Backslide" and "School Boy" have blank text.'
   tags: []
+  related_finishes:
+    - 777e1b4942524f30a673528add6a6f95
+    - e2d6686f308d4db982585bebeaf2fb64
+    - 2d44e5791120424595d6358e5da85d70
+    - 6f59f72aa6b8488fbc71b6282e250550
+    - 8356922e7c804ffbad6c046937a5af92
+    - 84a11c17f77940849164c1a16be4e7d7
+    - 800549f385ef4605b1a4cc4b56f8dbc8
+- name: The Kingmaker (Jokerfish)
+  db_uuid: 777e1b4942524f30a673528add6a6f95
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    If your opponent has 5 or fewer cards in their deck, double these bonuses.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: The Punchline
+  db_uuid: e2d6686f308d4db982585bebeaf2fb64
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If this card is stopped, you may put it into play.
+
+    When this card is in play, your opponent flips 1 extra card for your Gimmick.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: Last Laugh
+  db_uuid: 2d44e5791120424595d6358e5da85d70
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    If this card is stopped, choose 1:
+
+    Put this card into play, add 1 Finish in play to your hand, or add 1 other Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: Turn That Frown Upside Down
+  db_uuid: 6f59f72aa6b8488fbc71b6282e250550
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    If this card is stopped, you may put it into play.
+
+    If you have fewer cards in your hand than your opponent, draw cards until you have the same number of cards in hand.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: Joker Toxin
+  db_uuid: 8356922e7c804ffbad6c046937a5af92
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Strike, Submission, and Grapple are -2.
+
+    The next time your opponent would draw 1 card, you draw instead.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: Agent of Chaos
+  db_uuid: 84a11c17f77940849164c1a16be4e7d7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    If you roll Power for your Finish roll, choose 1: Randomly bury your opponent''s discard pile or your opponent randomly buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
+- name: Mr. J's Fishhook
+  db_uuid: 800549f385ef4605b1a4cc4b56f8dbc8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    +2 to Grapple
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 52ba551f1c3c40269d6a8ead69693cc3
+    - d9e5097bbec7440c997cfff511cf0f39
+    - a97d8d2421e84165b130869e43af2695
 - name: Joulupukki
   db_uuid: c00569ab32544866b8eb51008e821d17
   card_type: SingleCompetitorCard

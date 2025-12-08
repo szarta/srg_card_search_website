@@ -3700,7 +3700,7 @@
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 7
   technique: 10
@@ -26029,7 +26029,7 @@
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 10
   technique: 8
@@ -26048,7 +26048,7 @@
   srg_url: https://supershowthegame.com/product/grim-librarian-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 10
   technique: 8
@@ -27609,7 +27609,7 @@
 - name: Zack Sabre Jr. (V1)
   db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 5
   technique: 10
   agility: 8
@@ -29588,7 +29588,7 @@
   db_uuid: 8b89fe0295184f92a159339ac164756b
   srg_url: https://supershowthegame.com/product/brock-smith/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 5
   technique: 7
@@ -30019,7 +30019,7 @@
   srg_url: https://supershowthegame.com/product/candyman-dan/
   srgpc_url: https://www.srgpc.net/cards/competitors/candyman-dan/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 6
   technique: 10
@@ -34878,7 +34878,7 @@
 - name: Johnny T
   db_uuid: c79de6acd1954441970f9b1901a55e01
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 9
   technique: 6
@@ -37210,6 +37210,7 @@
 - name: Memes Dealer (V2)
   db_uuid: c6cea4fe18774ca5a4f879c8a243821a
   card_type: SingleCompetitorCard
+  division: Underworld
   gender: Male
   power: 9
   technique: 5
@@ -37463,7 +37464,7 @@
 - name: Mimic
   db_uuid: 924e81a6d29b4983bf9be0918a459760
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 5
   technique: 10
@@ -38418,7 +38419,7 @@
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
   srgpc_url: https://www.srgpc.net/cards/competitors/the-perfect-assistant/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Female
   power: 8
   technique: 10
@@ -38750,7 +38751,20 @@
   card_type: SingleCompetitorCard
   division: United States
   tags: []
-- name: Practisite
+- name: Practisite (V2)
+  db_uuid: f908c048e5f84b9caf403a88fd63d15a
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 7
+  rules_text: 'Once per turn roll:
+
+    When your turn roll is at least 3 less than your target''s turn roll, draw 1 card or your target''s next turn roll is -1.'
+  tags: []
+- name: Practisite (V1)
   db_uuid: d3e0aa69a169437081fc6fa67a0979a2
   srgpc_url: https://www.srgpc.net/cards/competitors/practisite/
   card_type: SingleCompetitorCard
@@ -41488,7 +41502,7 @@
   db_uuid: a2895b52164743edbdd083272279e147
   srgpc_url: https://www.srgpc.net/competitors/the-tartan-terror/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 10
   technique: 8
@@ -43002,7 +43016,7 @@
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr-njpw/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 5
   technique: 10
@@ -44574,7 +44588,7 @@
   db_uuid: a371e756c06840968b6a0d030ca4b737
   srgpc_url: https://www.srgpc.net/competitor/draculeena-calliope/
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: World Championship
   power: 8
   technique: 10
   agility: 7
@@ -45084,7 +45098,7 @@
 - name: El Super Hombre (Super Lucha)
   db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: World Championship
   gender: Male
   power: 10
   technique: 6
@@ -45182,7 +45196,7 @@
   srg_url: https://supershowthegame.com/product/fae-dragon/
   srgpc_url: https://www.srgpc.net/competitor/fae-dragon/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 10
   technique: 7
@@ -45804,7 +45818,7 @@
 - name: Joe Hendry
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
   card_type: SingleCompetitorCard
-  division: Global
+  division: Underworld
   gender: Male
   power: 10
   technique: 5
@@ -46558,7 +46572,7 @@
 - name: Mr. Hyde
   db_uuid: ceb9126b162c4be69b9291c088d3fe5b
   card_type: SingleCompetitorCard
-  division: Intergalactic
+  division: Underworld
   power: 5
   technique: 10
   agility: 9
@@ -50989,7 +51003,7 @@
 - name: Snake Pitt (V4)
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   power: 6
   technique: 8
   agility: 7

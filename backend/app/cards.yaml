@@ -35756,6 +35756,7 @@
     - 800549f385ef4605b1a4cc4b56f8dbc8
 - name: Jokerfish (V2)
   db_uuid: d9e5097bbec7440c997cfff511cf0f39
+  srg_url: https://supershowthegame.com/product/joker-fish-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/jokerfish/
   card_type: SingleCompetitorCard
   division: Underworld

@@ -34278,6 +34278,7 @@
   tags: []
 - name: Helen
   db_uuid: cf0fe079e09c452da001e572c73cf568
+  srg_url: https://supershowthegame.com/product/helen-halloween/
   srgpc_url: https://www.srgpc.net/cards/competitors/helen/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -34288,7 +34289,80 @@
   strike: 5
   submission: 10
   grapple: 8
+  rules_text: When your opponent hits a Strike, their next turn roll is -2.
   tags: []
+  related_finishes:
+    - b0b74ed4a76a4328b3d26ddd9aa1f95d
+    - a95d1775e28e48b6a6f3935bf88eba4b
+    - 96348198f3dd4b889e031e600b35ccf2
+    - fc1040caa57247be917d8881467f5cf5
+    - 93d7272dc6164b8f901402212337f3b4
+- name: Athena's Aegis (V2)
+  db_uuid: a95d1775e28e48b6a6f3935bf88eba4b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +4 to Strike
+
+    If your opponent hit a Strike last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - cf0fe079e09c452da001e572c73cf568
+- name: Athena's Aegis (V1)
+  db_uuid: b0b74ed4a76a4328b3d26ddd9aa1f95d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    If your opponent hit a Strike last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - cf0fe079e09c452da001e572c73cf568
+- name: Aphrodite's Kiss
+  db_uuid: 96348198f3dd4b889e031e600b35ccf2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - cf0fe079e09c452da001e572c73cf568
+- name: Hera's Vengeance
+  db_uuid: fc1040caa57247be917d8881467f5cf5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    If stopped, you may choose 1 Strike you have in play and play it again as an additional card this turn.'
+  tags: []
+  related_cards:
+    - cf0fe079e09c452da001e572c73cf568
+- name: Hera's Fury
+  db_uuid: 93d7272dc6164b8f901402212337f3b4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    When this card is in your discard pile: If your opponent hits a Submission, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - cf0fe079e09c452da001e572c73cf568
 - name: High Water
   db_uuid: c12b5c9b4a194269876839cba3a256cf
   srgpc_url: https://www.srgpc.net/cards/competitors/high-water/

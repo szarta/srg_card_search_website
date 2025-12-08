@@ -34756,8 +34756,22 @@
   submission: 5
   grapple: 10
   tags: []
-- name: Jacque EE
+- name: Jacque EE (V1)
+  db_uuid: 57e69c6fcf8d434b881c2f7821cfd51b
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 6
+  grapple: 5
+  is_banned: true
+  rules_text: When your opponent moves any number of cards from their discard pile for a card or Gimmick, they randomly bury 1 card in their hand.
+  tags: []
+- name: Jacque EE (V2)
   db_uuid: 7333bd77424b441891340c35244b2b11
+  srg_url: https://supershowthegame.com/product/jacque-ee/
   srgpc_url: https://www.srgpc.net/cards/competitors/jacque-ee/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -34768,7 +34782,101 @@
   strike: 10
   submission: 6
   grapple: 5
+  rules_text: When your opponent moves any number of cards from their discard pile with their card or Gimmick, they randomly bury 1 card in their hand.  If they moved the card with their Gimmick, your next turn roll is +1.
   tags: []
+  finishes:
+    - 7aa1dfd1658941be9c549e4675521c9a
+    - 70f48c9c5f7e4b69827e1b734400e755
+    - 03bdd58874854746882e0a6b30f9fe06
+    - b4d7ec1e5a5342efa6a1d6abe1f26ffc
+    - 431c9518fd474c35bb223ae2000fe369
+    - 3327d17cb24f4f68bd13500140a935e3
+- name: Going to the Whip (V1)
+  db_uuid: 7aa1dfd1658941be9c549e4675521c9a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Bury 1 card in your opponent''s discard pile. Your opponent buries 1 card in their discard pile.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+- name: Grab the Reins (V1)
+  db_uuid: 70f48c9c5f7e4b69827e1b734400e755
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Your opponent buries cards in their discard pile equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+- name: Photo Finish (V1)
+  db_uuid: 03bdd58874854746882e0a6b30f9fe06
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    If you played a Strike card last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+- name: Going to the Whip (V2)
+  db_uuid: b4d7ec1e5a5342efa6a1d6abe1f26ffc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Bury 1 card in your opponent''s discard pile.
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+- name: Grab the Reins (V2)
+  db_uuid: 431c9518fd474c35bb223ae2000fe369
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Bury cards in your opponent''s discard pile equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+- name: Photo Finish (V2)
+  db_uuid: 3327d17cb24f4f68bd13500140a935e3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 Technique
+
+    +2 to Submission
+
+    If you hit a Strike card last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
 - name: Jamie Senegal
   db_uuid: d7d82141547a44308408d2470732bb64
   srgpc_url: https://www.srgpc.net/cards/competitors/jamie-senegal/

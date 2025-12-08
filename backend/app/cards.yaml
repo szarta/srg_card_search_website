@@ -38753,6 +38753,7 @@
   tags: []
 - name: Practisite (V2)
   db_uuid: f908c048e5f84b9caf403a88fd63d15a
+  card_type: SingleCompetitorCard
   gender: Male
   power: 10
   technique: 6

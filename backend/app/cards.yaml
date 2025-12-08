@@ -24534,6 +24534,7 @@
   tags: []
 - name: Devil's Reject G.P.S.
   db_uuid: bda6621e1c4841e9935454a5a54de480
+  srg_url: https://supershowthegame.com/product/devils-reject-g-p-s/
   srgpc_url: https://www.srgpc.net/cards/competitors/devils-reject-g-p-s/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -24545,6 +24546,10 @@
   grapple: 10
   rules_text: 'Once a turn roll: when your roll is exactly 1 less than your opponent''s turn roll, draw 2 cards then discard 1 card from your hand.'
   tags: []
+  related_finishes:
+    - e071fd8541424d70a73eb7a6c8cdb50a
+    - cbb68e3711454c688e060598482768d2
+    - 0bb83dad2e074fa693a76ab2ebae8daf
 - name: ETA
   db_uuid: e071fd8541424d70a73eb7a6c8cdb50a
   card_type: MainDeckCard
@@ -24557,6 +24562,8 @@
 
     Flip cards until you flip a Finish, add that card to your hand.'
   tags: []
+  related_cards:
+    - bda6621e1c4841e9935454a5a54de480
 - name: Rerouting
   db_uuid: cbb68e3711454c688e060598482768d2
   card_type: MainDeckCard
@@ -24569,6 +24576,8 @@
 
     If you have 4 or more Grapples in play, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - bda6621e1c4841e9935454a5a54de480
 - name: Navigator
   db_uuid: 0bb83dad2e074fa693a76ab2ebae8daf
   card_type: MainDeckCard
@@ -24581,6 +24590,8 @@
 
     Search your deck for 3 cards and put them on top of your shuffled deck.'
   tags: []
+  related_cards:
+    - bda6621e1c4841e9935454a5a54de480
 - name: Maria Marinara
   db_uuid: f31810c01f1d43acac29a2fc067a1b41
   srg_url: https://supershowthegame.com/product/maria-marinara/
@@ -31798,6 +31809,7 @@
   tags: []
 - name: Diamond Danny G
   db_uuid: 251d99d79e864af58762a6926801d0e9
+  srg_url: https://supershowthegame.com/product/diamond-danny-g/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -31809,6 +31821,48 @@
   grapple: 9
   rules_text: When you hit a Submission, flip 2 cards and add 1 Stop from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 3610ea75f13442f09307414cb39300f8
+    - 11a50dbd54bd460c86999b17bbcd34fc
+    - a8785c6cf2b4485598471321862d5add
+- name: Diamond-Studded Knee
+  db_uuid: 3610ea75f13442f09307414cb39300f8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your opponent gets 2 Breakout rolls this turn.
+  tags: []
+  related_cards:
+    - 251d99d79e864af58762a6926801d0e9
+- name: Diamond Danny Cutter
+  db_uuid: 11a50dbd54bd460c86999b17bbcd34fc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    If the Crowd Meter is 2 or greater and you stopped a card last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 251d99d79e864af58762a6926801d0e9
+- name: Diamond Dragon Sleeper
+  db_uuid: a8785c6cf2b4485598471321862d5add
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    Flip 2 cards.  Add 1 Stop from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 251d99d79e864af58762a6926801d0e9
 - name: Dick Thunderlips
   db_uuid: 323e4ac05b4a4492b4530097511d113f
   card_type: SingleCompetitorCard

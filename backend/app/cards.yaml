@@ -35399,6 +35399,8 @@
     - 12048b7630154f6a9f388e612d613e6c
 - name: Johan Sibelius
   db_uuid: cfa3283cdd9f40d18785633df6626070
+  srg_url: https://supershowthegame.com/product/johan-sibelius/
+  srgpc_url: https://www.srgpc.net/cards/competitors/johan-sibelius/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -35458,6 +35460,8 @@
     - cfa3283cdd9f40d18785633df6626070
 - name: Johnny El Dorado
   db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
+  srg_url: https://supershowthegame.com/product/johnny-el-dorado/
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-el-dorado/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -35468,6 +35472,50 @@
   submission: 10
   grapple: 9
   rules_text: When your turn roll is at least 5 less than your opponent's, bump instead.
+  tags: []
+  related_finishes:
+    - 31c2e1b853d74eeabbd68788a7fa159a
+    - 6eb2f60a2ca342a1b79d096e91f9efe1
+    - 45f1ce3c432b4646a8cf7440483579f0
+- name: The Callback
+  db_uuid: 31c2e1b853d74eeabbd68788a7fa159a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile:
+
+    If your opponent''s turn roll is at least 5 greater than yours, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - cea48c22a3cb4ad3ade5a8a0cbf19ac8
+- name: The Final Blow
+  db_uuid: 6eb2f60a2ca342a1b79d096e91f9efe1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your opponent gets 2 Breakout rolls this turn.
+
+    If played after a bump, your opponent''s first Breakout roll is -3.'
+  tags: []
+- name: Off Broadway
+  db_uuid: 45f1ce3c432b4646a8cf7440483579f0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Your Finish rolls are +1 for each Spotlight in your opponent''s discard pile.'
   tags: []
 - name: Johnny Gargano
   db_uuid: 17371174d48f48d59a01492841a75416

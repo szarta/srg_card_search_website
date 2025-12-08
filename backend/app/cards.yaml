@@ -26585,6 +26585,7 @@
   tags: []
 - name: Jesxe
   db_uuid: 20059df60d9f40ccae5f9c892aa17c4a
+  srg_url: https://supershowthegame.com/product/jesxe/
   srgpc_url: https://www.srgpc.net/cards/competitors/jesxe/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -26597,6 +26598,52 @@
   grapple: 7
   rules_text: If your turn roll is exactly 1 less than your opponent's turn roll, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - 38b94438ad3041018b17a8b868e6a8c6
+    - cf9ce0c36d334c3ebd7e2bf3abf4ea1a
+    - 5154a56c26af492b8cef23fac8cba0b2
+- name: Bigger Hammer
+  db_uuid: 38b94438ad3041018b17a8b868e6a8c6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    If your previous turn roll was exactly 1 less than your opponent''s, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 20059df60d9f40ccae5f9c892aa17c4a
+- name: Wango Tango
+  db_uuid: cf9ce0c36d334c3ebd7e2bf3abf4ea1a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    If your opponent''s Breakout roll is exactly 1 less than your Finish roll, their next Breakout roll is -1.'
+  tags: []
+  related_cards:
+    - 20059df60d9f40ccae5f9c892aa17c4a
+- name: Efff Yeah Lock
+  db_uuid: 5154a56c26af492b8cef23fac8cba0b2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    If your opponent''s Breakout roll is exactly 1 less than your Finish roll, they randomly bury 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 20059df60d9f40ccae5f9c892aa17c4a
 - name: D1 (V1)
   db_uuid: 51537506696946a2ad10662229ccd96f
   card_type: SingleCompetitorCard
@@ -35159,6 +35206,7 @@
   tags: []
 - name: Jessica Siren
   db_uuid: 1aeb79fc58f445b8ab7fe8bc2aebfcec
+  srg_url: https://supershowthegame.com/product/jessica-siren/
   srgpc_url: https://www.srgpc.net/cards/competitors/jessica-siren/
   card_type: SingleCompetitorCard
   division: Intergalactic

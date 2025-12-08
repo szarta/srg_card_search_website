@@ -32869,6 +32869,7 @@
     - 4356f9b884184358a9bb01e9c8b012be
 - name: Finland
   db_uuid: ff124a60d2f94fe4ab9fd04b21ddda50
+  srg_url: https://supershowthegame.com/product/finland-new-finish/
   srgpc_url: https://www.srgpc.net/cards/competitors/finland/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -32880,6 +32881,69 @@
   submission: 6
   grapple: 5
   tags: []
+  related_finishes:
+    - de3d54469f054ed48a53a6f06136ac11
+    - b14e53744d674e27a44f71e44d1065b3
+    - 58867833a479490d936d4f72e8b9ac23
+    - a05e6e37f2a240d2bbc14c264a711003
+- name: If You Want Peace, Prepare for War
+  db_uuid: de3d54469f054ed48a53a6f06136ac11
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Your opponent randomly discards 2 cards.
+
+    If you have the Entrance: "Strong Style Enforcers" revealed, double these bonuses.'
+  tags: []
+  related_cards:
+    - ff124a60d2f94fe4ab9fd04b21ddda50
+- name: Black Pentagram Driver
+  db_uuid: b14e53744d674e27a44f71e44d1065b3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you hit a Finland Finish, your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - ff124a60d2f94fe4ab9fd04b21ddda50
+- name: I Hope You Suffer
+  db_uuid: 58867833a479490d936d4f72e8b9ac23
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If you have "Arm Stomp" and "Shoulder Snap" in play, this card cannot be stopped.
+
+    When the Crowd Meter is 4 or greater and you have the Entrance: "Strong Style Enforcers" revealed, your Finish roll is +4.'
+  tags: []
+  related_cards:
+    - ff124a60d2f94fe4ab9fd04b21ddda50
+- name: Lip Gloss and Black
+  db_uuid: a05e6e37f2a240d2bbc14c264a711003
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    You may use the Entrance "Strong Style Enforcers" 2 additional times this match.'
+  tags: []
+  related_cards:
+    - ff124a60d2f94fe4ab9fd04b21ddda50
 - name: Fire Flash
   db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
   srgpc_url: https://www.srgpc.net/cards/competitors/fire-flash/

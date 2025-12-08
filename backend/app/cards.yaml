@@ -23852,7 +23852,7 @@
   srg_url: https://supershowthegame.com/product/baanomenal-son-nikola-mai/
   srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   gender: Male
   power: 9
   technique: 7
@@ -25596,7 +25596,7 @@
 - name: Dough Nation (V1)
   db_uuid: 4727798038a94d549fa5267837d5aa09
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   gender: Male
   power: 10
   technique: 5
@@ -26211,7 +26211,7 @@
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
   srgpc_url: https://www.srgpc.net/cards/competitors/hamish-macdeath/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Hardcore
   gender: Male
   power: 10
   technique: 6
@@ -26913,7 +26913,7 @@
   db_uuid: a7aba02de8f84413b3ff42bc12d2f320
   srgpc_url: https://www.srgpc.net/cards/competitors/italian-bombada/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 7
   technique: 9
   agility: 5
@@ -26971,7 +26971,7 @@
   db_uuid: afec53cb2d714571bc02e2b8fb06ffd8
   srgpc_url: https://www.srgpc.net/cards/competitors/the-salty-sailor/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 9
   technique: 7
   agility: 5
@@ -32439,7 +32439,7 @@
   db_uuid: 961b4051a9df4a1b8cb802f66c4e6f67
   srgpc_url: https://www.srgpc.net/cards/competitors/eva-firecat/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Intergalactic
   gender: Female
   power: 9
   technique: 7
@@ -33497,7 +33497,7 @@
   srg_url: https://supershowthegame.com/product/funtime-bob/
   srgpc_url: https://www.srgpc.net/competitors/funtime-bob-v2/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 8
   technique: 7
@@ -35487,7 +35487,7 @@
 - name: King Kong Dundy
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Hardcore
   gender: Male
   power: 6
   technique: 7
@@ -38754,6 +38754,7 @@
 - name: Practisite (V2)
   db_uuid: f908c048e5f84b9caf403a88fd63d15a
   card_type: SingleCompetitorCard
+  division: Underworld
   gender: Male
   power: 10
   technique: 6
@@ -43376,7 +43377,7 @@
   db_uuid: 1e018f4597504d1cb3f3f2711ee1326a
   srgpc_url: https://www.srgpc.net/competitor/the-master-strategist/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   gender: Male
   power: 6
   technique: 10
@@ -51001,7 +51002,7 @@
     - Super Lucha
   related_cards:
     - cb529308bc9847e581b0128f99719f04
-- name: Snake Pitt (V4)
+- name: Snake Pitt (Super Lucha)
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
   division: Underworld

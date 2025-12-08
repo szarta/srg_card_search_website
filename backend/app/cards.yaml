@@ -35410,6 +35410,52 @@
   grapple: 10
   rules_text: 'At the start of the match: Choose another competitor, when you and that competitor both roll Submission or both roll Grapple for your turn roll, the Crowd Meter is +1.'
   tags: []
+  related_finishes:
+    - f8db877570364c30a3c81ec144cdd42e
+    - 8557b1cbb43244b1b283a27a34fe8a3d
+    - 4d939ade99994471b4b00fc736c79acf
+- name: The Swan on Tounela
+  db_uuid: f8db877570364c30a3c81ec144cdd42e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If the Crowd Meter is 1 or greater, draw 3 cards.'
+  tags: []
+  related_cards:
+    - cfa3283cdd9f40d18785633df6626070
+- name: Finlandia Slam
+  db_uuid: 8557b1cbb43244b1b283a27a34fe8a3d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    When this card is in your discard pile and the Crowd Meter is 3 or greater, your Breakout rolls are +2.'
+  tags: []
+  related_cards:
+    - cfa3283cdd9f40d18785633df6626070
+- name: The Maiden in the Tower
+  db_uuid: 4d939ade99994471b4b00fc736c79acf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Add cards from your discard pile to your hand equal to the Crowd Meter.'
+  tags: []
+  related_cards:
+    - cfa3283cdd9f40d18785633df6626070
 - name: Johnny El Dorado
   db_uuid: cea48c22a3cb4ad3ade5a8a0cbf19ac8
   card_type: SingleCompetitorCard

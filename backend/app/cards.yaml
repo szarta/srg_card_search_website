@@ -31946,6 +31946,52 @@
 
     When you roll Power, you may re-roll.'
   tags: []
+  related_finishes:
+    - bca58e825a084bf6b98917a66d3acb5b
+    - 11394d62b1664c49bdd5c2f7671cd561
+    - b1109b490d814ab1a9751e8de25a86c5
+- name: Hail, Victor!
+  db_uuid: bca58e825a084bf6b98917a66d3acb5b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If you have 3 Grapples & 3 other Strikes in play, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 8eb51cb3025f4fddaf61bd30f807d172
+- name: 'Sliced Bread # Drew'
+  db_uuid: 11394d62b1664c49bdd5c2f7671cd561
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    Shuffle 1 Strike and 1 Grapple from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 8eb51cb3025f4fddaf61bd30f807d172
+- name: Downriver Stretch
+  db_uuid: b1109b490d814ab1a9751e8de25a86c5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent''s Power is 9 or greater, double these bonuses.'
+  tags: []
+  related_cards:
+    - 8eb51cb3025f4fddaf61bd30f807d172
 - name: Dr. Emily Booker (V1)
   db_uuid: 836b424a74fd4d6d89eab215f184615e
   card_type: SingleCompetitorCard

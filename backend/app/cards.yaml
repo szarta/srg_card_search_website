@@ -28351,9 +28351,18 @@
   grapple: 8
   rules_text: After your opponent moves any number of cards from their discard pile to their hand, randomly add 1 card from your discard pile to your hand.  If your opponent's Gimmick moved the cards, you choose the card instead of choosing randomly.
   tags: []
+  related_finishes:
+    - 0707b40ebf0949b69c4e19be0dac0ab3
+    - 4a75602ab00a49d8beab048b06c373dc
+    - 21406aedf1cc449d940246a098e8dd3d
+    - 7a6cddffcc964223911862ca55093420
+    - f045bf472eb74672aa09134b8e483887
+    - d16533e4039844cda2499576db758a3c
+    - 0a6d30e9b49b4c81a7d0142abe65adad
 - name: Jerk of Cirque (V2)
   db_uuid: 37ea70405f104388ac144a15b604e36b
   card_type: SingleCompetitorCard
+  division: Hardcore
   gender: Male
   power: 10
   technique: 5
@@ -28363,6 +28372,129 @@
   grapple: 8
   rules_text: After your opponent moves any number of cards from their discard pile to their hand, add 1 card from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 0707b40ebf0949b69c4e19be0dac0ab3
+    - 4a75602ab00a49d8beab048b06c373dc
+    - 21406aedf1cc449d940246a098e8dd3d
+    - 7a6cddffcc964223911862ca55093420
+    - f045bf472eb74672aa09134b8e483887
+    - d16533e4039844cda2499576db758a3c
+    - 0a6d30e9b49b4c81a7d0142abe65adad
+- name: Cartwheel Kick (V1)
+  db_uuid: 0707b40ebf0949b69c4e19be0dac0ab3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +2 to Strike
+
+    You may discard this card from your hand to stop any Grapple Finish without a Competitor logo.
+
+    When this card is in your discard pile, your opponent''s Finishes without a Competitor logo have blank text.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: Cartwheel Kick (V2)
+  db_uuid: 4a75602ab00a49d8beab048b06c373dc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +2 to Strike
+
+    Stop any Finish Grapple without a Competitor logo.
+
+    When this card is in your discard pile, your opponent''s Finishes without a Competitor logo have blank text.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: The Greatest Show on Earth (V1)
+  db_uuid: 21406aedf1cc449d940246a098e8dd3d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Your opponent shuffles their hand into their deck and adds the top 3 cards of their deck to their hand, then adds 1 random card from their discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: The Greatest Show on Earth (V2)
+  db_uuid: 7a6cddffcc964223911862ca55093420
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Your opponent shuffles their hand into their deck and adds the top 3 cards of their deck to their hand.
+
+    Randomly add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: Cirque du Paine
+  db_uuid: f045bf472eb74672aa09134b8e483887
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Look at your opponent''s hand, choose 2 cards and discard them.
+
+    Add 2 cards from your opponent''s discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: Cirque de Paine
+  db_uuid: d16533e4039844cda2499576db758a3c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Look at your opponent''s hand, choose 2 cards and switch them with the same number of cards in their discard pile.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
+- name: Cirque di Pain
+  db_uuid: 0a6d30e9b49b4c81a7d0142abe65adad
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    You may discard this card from your hand to stop any Strike Finish without a Competitor logo.
+
+    When this card is in your opponent''s discard pile, your opponent''s Finishes without a Competitor logo have blank text.'
+  tags: []
+  related_cards:
+    - 031f54737d3b44a791e52796563e64fb
+    - 37ea70405f104388ac144a15b604e36b
 - name: Jessica Havok
   db_uuid: 2eef1e4ccbf4488b9c3967144b1bac84
   srgpc_url: https://www.srgpc.net/cards/competitors/jessica-havok/

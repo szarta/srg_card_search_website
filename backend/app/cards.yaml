@@ -34124,6 +34124,7 @@
   tags: []
 - name: Harvey Luster
   db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
+  srg_url: https://supershowthegame.com/product/harvey-luster/
   srgpc_url: https://www.srgpc.net/competitors/harvey-luster/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -34134,7 +34135,95 @@
   strike: 8
   submission: 5
   grapple: 10
+  rules_text: When you hit a card with "Hip" or "Bust" in the name, draw 1 card.
   tags: []
+  related_finishes:
+    - 2d308603b7a14b9eacb7ea64cb163a01
+    - 3419c06a8dcb43c3b388ee6a0f65a502
+    - d1de1a6666a34d54bf12d969dce72208
+    - 47cd4f5fc40c41179ca062744b658836
+    - 138855055a174ee985db117c2ea3efb8
+    - 66fbb709566a4ea5b93036ef217d09db
+- name: '#ForTheLadies'
+  db_uuid: 2d308603b7a14b9eacb7ea64cb163a01
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Flip 5 cards, for each Strike flipped: +1 to Agility and Submission.
+
+    Shuffle 1 card from your discard pile into your deck for each Strike flipped.'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
+- name: Luster Blockbuster
+  db_uuid: 3419c06a8dcb43c3b388ee6a0f65a502
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    Your opponent''s 1st and 2nd Breakout rolls are -1 for each card you have in play with "Bust" in the name.'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
+- name: The Ballgazer
+  db_uuid: d1de1a6666a34d54bf12d969dce72208
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Blank your opponent''s Gimmick or copy your opponent''s Gimmick.'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
+- name: Busting Baubles
+  db_uuid: 47cd4f5fc40c41179ca062744b658836
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile:
+
+    During your turn, your Agility is +1 and you are considered to have a card in play with "Bust" in the name.'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
+- name: Director's Cut Buster
+  db_uuid: 138855055a174ee985db117c2ea3efb8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Strike'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
+- name: Never-Ending Friendship
+  db_uuid: 66fbb709566a4ea5b93036ef217d09db
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    Bury any number of Strikes in your discard pile.  If your opponent breaks out, you may play 1 additional Strike this turn as if it were a Lead.'
+  tags: []
+  related_cards:
+    - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Heartache Kid Mr. L.F.F.
   db_uuid: 8d1c80c7bbf34977ae298f810ac15af8
   srgpc_url: https://www.srgpc.net/competitors/heartache-kid-mr-l-f-f/

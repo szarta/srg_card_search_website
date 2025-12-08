@@ -32946,6 +32946,7 @@
     - ff124a60d2f94fe4ab9fd04b21ddda50
 - name: Fire Flash
   db_uuid: 687c36bd47984dfe84c8ee8836d7ad21
+  srg_url: https://supershowthegame.com/product/fire-flash-new/
   srgpc_url: https://www.srgpc.net/cards/competitors/fire-flash/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -32956,11 +32957,83 @@
   strike: 10
   submission: 9
   grapple: 6
+  rules_text: 'When you would flip 5 or fewer cards:
+
+    Instead look at the same number of cards from the top of your deck, then flip or bury them in any order.'
   tags: []
+  related_finishes:
+    - 6f1c5a337dd746d79d53ee02f277383c
+    - 96dba717a30c479390fcf080ab664305
+    - 99f5c14ab4f14b2d8f3a15670f91d545
+    - 89a12ba1eecc49febe095807449f0307
+- name: Seek and Destroy
+  db_uuid: 6f1c5a337dd746d79d53ee02f277383c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    If this card is flipped or buried for your Gimmick, you may revealed it and add it to your hand.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+- name: Fire Flash Kick
+  db_uuid: 96dba717a30c479390fcf080ab664305
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +2 to Agility
+
+    If "Too Sheep" is in play, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+- name: The Calm Before the Storm
+  db_uuid: 99f5c14ab4f14b2d8f3a15670f91d545
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Your opponent gets 1 fewer Breakout roll for each Fire Flash Finish you have in your discard pile.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+- name: The Blink Breaker
+  db_uuid: 89a12ba1eecc49febe095807449f0307
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    If stopped, flip 5 cards and your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
 - name: The Fireball
   db_uuid: f602d739628746ee8620999d09310727
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 6
+  grapple: 7
+  rules_text: When you have more Stops in play than your opponent, your Power, Submission, and Grapple are +1 during your turn and turn rolls.
   tags: []
 - name: The Firestarter Jake Crist
   db_uuid: 12518693612b42238adbe4e7f1562d3c
@@ -33155,8 +33228,158 @@
 
     After you shuffle your deck, flip 3 cards.'
   tags: []
+  related_finishes:
+    - 73a97bd4f06046f5a915e327e97c6860
+    - 8ce1bf4844eb4125ab9123b4a001aea6
+    - 5ac82a5c168049469edf19480eafc1e6
+    - 9cee216ba0784e81ac8080c55823c969
+    - c895be4b82434ac6ae8385375df949ea
+    - 22517b24c41640ecbe5ae7e4f7fcccd2
+    - c90a6acc796744ac8886334d6da0f698
+    - e7ef0be8601248079685ca5457fd4d0c
+    - 4e94aa07e53342b8937dfb227671fbe7
+- name: Road to Victory
+  db_uuid: 73a97bd4f06046f5a915e327e97c6860
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    If stopped, shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Bell Cracker
+  db_uuid: 8ce1bf4844eb4125ab9123b4a001aea6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Your opponent''s Gimmick is blank.
+
+    If you have 0 cards in your deck, double these bonuses.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Philly Special
+  db_uuid: 5ac82a5c168049469edf19480eafc1e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    If this card is flipped for your Gimmick, you may play it as a Follow Up.
+
+    If your opponent breaks out, choose 5 cards in your discard pile and randomly bury them.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Today's Song-A-Day "Light Tubes" By Foxworthy
+  db_uuid: 9cee216ba0784e81ac8080c55823c969
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    You may search your deck for this card as if it were a Submission.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Foxtrot Uniform Charlie Killshot
+  db_uuid: c895be4b82434ac6ae8385375df949ea
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If you have a card with "Table" in the name or this match has no disqualifications:
+
+    +1 to Power
+
+    +3 to Technique'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: 'Philly Special #2'
+  db_uuid: 22517b24c41640ecbe5ae7e4f7fcccd2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    +1 to Grapple
+
+    For the rest of the match: When you would flip any number of cards, you may instead draw 1 card.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Philly-Cheese Stake
+  db_uuid: c90a6acc796744ac8886334d6da0f698
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Add 2 cards with "Disqualification" in the text from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: Betsy Ross Boss Breaker
+  db_uuid: e7ef0be8601248079685ca5457fd4d0c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    Flip 3 cards.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+- name: True Philadelphia Lock
+  db_uuid: 4e94aa07e53342b8937dfb227671fbe7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile and you flip 2 or more Stops, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
 - name: Foxworthy (V2)
   db_uuid: 5c8af70c7d64490aa5ba2bef6a2da540
+  srgpc_url: https://www.srgpc.net/competitor/foxworthy-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -33170,6 +33393,16 @@
 
     Flip 2 cards, then shuffle 2 cards from your discard pile into the deck.'
   tags: []
+  related_finishes:
+    - 73a97bd4f06046f5a915e327e97c6860
+    - 8ce1bf4844eb4125ab9123b4a001aea6
+    - 5ac82a5c168049469edf19480eafc1e6
+    - 9cee216ba0784e81ac8080c55823c969
+    - c895be4b82434ac6ae8385375df949ea
+    - 22517b24c41640ecbe5ae7e4f7fcccd2
+    - c90a6acc796744ac8886334d6da0f698
+    - e7ef0be8601248079685ca5457fd4d0c
+    - 4e94aa07e53342b8937dfb227671fbe7
 - name: Franklin "Turtle" Clark
   db_uuid: d89414c9e0e943d2844fcdeec92be5e5
   srgpc_url: https://www.srgpc.net/competitors/franklin-turtle-clark/

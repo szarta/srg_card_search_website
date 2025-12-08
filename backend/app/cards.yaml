@@ -25874,6 +25874,8 @@
 
     Your opponent discards all Finishes, your opponent''s Gimmick is blank, or shuffle 2 cards from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 38da06ea138f471dacc7ef74cc8c88f1
 - name: The Fall of Humanity
   db_uuid: 17adab7233a54de98f3c544557a263a5
   card_type: MainDeckCard
@@ -25884,6 +25886,8 @@
 
     You may discard any other cards you have in play, your Agility is +1 for each card discarded until the end of the turn.'
   tags: []
+  related_cards:
+    - 38da06ea138f471dacc7ef74cc8c88f1
 - name: Judgment Day
   db_uuid: b2d132ea835f4e2f96e24221468e6cd8
   card_type: MainDeckCard
@@ -25896,6 +25900,8 @@
 
     Once per match when this card is in your discard pile: When you roll Power, discard all cards in play and add this card to your hand.'
   tags: []
+  related_cards:
+    - 38da06ea138f471dacc7ef74cc8c88f1
 - name: Terminate the Masses
   db_uuid: 98ebf0f2d1324b9ea107ad50e28f0611
   card_type: MainDeckCard
@@ -25910,6 +25916,8 @@
 
     If your opponent breaks out, you may add this card to your hand.'
   tags: []
+  related_cards:
+    - 38da06ea138f471dacc7ef74cc8c88f1
 - name: El Pollo Enmascarada (V1)
   db_uuid: 05e30bc628624cbf97a563e9e41f3319
   srgpc_url: https://www.srgpc.net/cards/competitors/el-pollo-enmascarada/
@@ -32656,6 +32664,7 @@
   tags: []
 - name: Fast Hands Cam
   db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
+  srg_url: https://supershowthegame.com/product/fast-hands-cam/
   srgpc_url: https://www.srgpc.net/cards/competitors/fast-hands-cam/
   card_type: SingleCompetitorCard
   division: United States
@@ -32732,7 +32741,7 @@
   tags: []
 - name: Fauxtista (V1)
   db_uuid: 1c3f399dee664720851eb4481be8ebdb
-  srgpc_url: https://www.srgpc.net/competitors/fauxtista-v2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/fauxtista/
   card_type: SingleCompetitorCard
   gender: Male
   power: 8
@@ -32763,6 +32772,8 @@
 
     Your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_cards:
+    - 1c3f399dee664720851eb4481be8ebdb
 - name: Mephisto's Reach
   db_uuid: 150f2eea8e714e99b703b9092151e8f3
   card_type: MainDeckCard
@@ -32775,6 +32786,8 @@
 
     When this card is in your discard pile and you look at your opponent''s hand, your next turn roll is +1.'
   tags: []
+  related_cards:
+    - 1c3f399dee664720851eb4481be8ebdb
 - name: Kylosian Fury
   db_uuid: d4d8751ce83a4930aae1c1e1de3c1d5e
   card_type: MainDeckCard
@@ -32789,8 +32802,11 @@
 
     If stopped, discard 1 card from your hand and you may switch your turn roll to Agility.'
   tags: []
+  related_cards:
+    - 1c3f399dee664720851eb4481be8ebdb
 - name: Fauxtista (V2)
   db_uuid: 4356f9b884184358a9bb01e9c8b012be
+  srg_url: https://supershowthegame.com/product/fauxtista/
   srgpc_url: https://www.srgpc.net/competitors/fauxtista-v2/
   card_type: SingleCompetitorCard
   division: Hardcore

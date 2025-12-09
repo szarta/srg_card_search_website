@@ -37614,6 +37614,12 @@
 
     You may discard 1 Stop from your hand; then your opponent may discard 1 Stop from their hand, if they do not, put 1 non-Stop from your discard pile on top of your deck.'
   tags: []
+  related_finishes:
+    - b896c6ef830543eda136120bf66d02b5
+    - d98097576a584913b85979ee57cb21a5
+    - 37721bff624343efabe0fb975ed9b4ac
+    - 26d4f7415cf74f96936c0c8216fde4d0
+    - 02938b9d7074477f94f5152e880e9dca
 - name: Lobo Suicida (V2)
   db_uuid: a3dc1cd621024041800ecfc693c48b89
   card_type: SingleCompetitorCard

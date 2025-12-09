@@ -39640,6 +39640,82 @@
 
     You may discard a Lead you have in play and your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - af764de4e7a14c3ebc8d3884c209592d
+    - 0ad6f552a76c44b29dfde03f5d61badd
+    - 42eeb64e085643d9b6b1ab091eab2ca0
+    - d28f6a0360ef445f8bccf86bf54bce1b
+    - 331eb7c46bb74edd94b12fe107126221
+- name: Chain Reaction
+  db_uuid: af764de4e7a14c3ebc8d3884c209592d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Flip 1 card.
+
+    If that card is a Lead or Follow Up, this card may copy its text, or +2 to Technique.'
+  tags: []
+  related_cards:
+    - 763531a5c5ee468690793b8683f59abd
+- name: Bahamut's Claw Potion V1
+  db_uuid: 0ad6f552a76c44b29dfde03f5d61badd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Shuffle 1 card from your discard pile into your deck. Draw 1 card for each card you have in play with "Potion" in the name.'
+  tags: []
+  related_cards:
+    - 763531a5c5ee468690793b8683f59abd
+- name: Genetic Stamping
+  db_uuid: 42eeb64e085643d9b6b1ab091eab2ca0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Technique
+
+    If your opponent breaks out, put 1 Lead from your hand or discard pile into play.'
+  tags: []
+  related_cards:
+    - 763531a5c5ee468690793b8683f59abd
+- name: Chaos Waltz
+  db_uuid: d28f6a0360ef445f8bccf86bf54bce1b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    When your opponent plays a Strike Finish, you may disacrd this card to blank its text or to have the Finish target another one of their opponents.'
+  tags: []
+  related_cards:
+    - 763531a5c5ee468690793b8683f59abd
+- name: Cosmic Wool Cutter
+  db_uuid: 331eb7c46bb74edd94b12fe107126221
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Grapple
+
+    Your opponent''s Gimmick is blank.
+
+    Bury 1 card in any player''s discard pile.'
+  tags: []
+  related_cards:
+    - 763531a5c5ee468690793b8683f59abd
 - name: Mila Mai (V2)
   db_uuid: 60081196caac41bb82fb1735e16268f6
   card_type: SingleCompetitorCard
@@ -39653,6 +39729,52 @@
   grapple: 5
   rules_text: 'When you roll Technique: Shuffle 1 card with "Cosmic", "Dragon", or "Potion" in the name from your discard pile into your deck and draw 1 card.'
   tags: []
+  related_finishes:
+    - 1c83c4cc51594b288a56b679719a4e66
+    - 6383f2fcd8234321a54a5e49d18ef37c
+    - cf36d55505d74779aa0f70093e7955b1
+- name: Potion Powered Dragon Smash!
+  db_uuid: 1c83c4cc51594b288a56b679719a4e66
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Once per turn: You may re-roll your Finish roll and your opponent draws 4 cards.'
+  tags: []
+  related_cards:
+    - 60081196caac41bb82fb1735e16268f6
+- name: Cosmic Onslaught Slam
+  db_uuid: 6383f2fcd8234321a54a5e49d18ef37c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to your lowest skill
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 60081196caac41bb82fb1735e16268f6
+- name: Bahamut's Claw Potion (V2)
+  db_uuid: cf36d55505d74779aa0f70093e7955b1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Shuffle 1 card from your discard pile into your deck and draw 1 card for each card you have in play with "Potion" in the name.'
+  tags: []
+  related_cards:
+    - 60081196caac41bb82fb1735e16268f6
 - name: Mimic
   db_uuid: 924e81a6d29b4983bf9be0918a459760
   card_type: SingleCompetitorCard

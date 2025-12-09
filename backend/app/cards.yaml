@@ -26670,6 +26670,7 @@
   tags: []
 - name: Lady Baa Baa (V1)
   db_uuid: 9f7dc2e4f7ac49e882a24a302edf11cf
+  srg_url: https://supershowthegame.com/product/lady-baa-baa/
   srgpc_url: https://www.srgpc.net/cards/competitors/lady-baa-baa/
   card_type: SingleCompetitorCard
   division: United States
@@ -26681,8 +26682,18 @@
   grapple: 10
   rules_text: When you hit a Grapple, draw 1 card.
   tags: []
+  related_finishes:
+    - 41311f5b28b148a488ae8e5512e500aa
+    - 70a6b730a6344d6a8a739111d56a4e60
+    - e6fc667d4cf9420d88e2e6d763a5f778
+    - 6c0f5c453cf542cc8c8f3e449617d8aa
+    - d367737408c444288d1db75d80857023
+    - f2090e8e2e1c4225a550b04d2f67f381
+    - 1ea2d3c8e74447e998d0b3f7f1ba24e7
 - name: Lady Baa Baa (V2)
   db_uuid: 4dc9406afb1d4653ad5f425c11f08895
+  srg_url: https://supershowthegame.com/product/lady-baa-baaog-orange/
+  srgpc_url: https://www.srgpc.net/cards/competitors/lady-baa-baa/
   card_type: SingleCompetitorCard
   division: United States
   power: 6
@@ -26693,6 +26704,121 @@
   grapple: 10
   rules_text: When you flip 2 or more cards your opponent buries 1 card in their hand.
   tags: []
+  related_finishes:
+    - 41311f5b28b148a488ae8e5512e500aa
+    - 70a6b730a6344d6a8a739111d56a4e60
+    - e6fc667d4cf9420d88e2e6d763a5f778
+    - 6c0f5c453cf542cc8c8f3e449617d8aa
+    - d367737408c444288d1db75d80857023
+    - f2090e8e2e1c4225a550b04d2f67f381
+    - 1ea2d3c8e74447e998d0b3f7f1ba24e7
+- name: The Glass Slipper (V1)
+  db_uuid: 41311f5b28b148a488ae8e5512e500aa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Shuffle 4 cards from your discard pile into your deck.
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: Kneel Before the Sheep Queen
+  db_uuid: 70a6b730a6344d6a8a739111d56a4e60
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    When this card is in your discard pile and you stop a card, the stopped card has blanked text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: Ewe-Decator (Lady Baa Baa V1)
+  db_uuid: e6fc667d4cf9420d88e2e6d763a5f778
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Agility
+
+    If you rolled Grapple for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: The Glass Slipper (V2)
+  db_uuid: 6c0f5c453cf542cc8c8f3e449617d8aa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Shuffle 4 cards from your discard pile into your deck.
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: Beauty Killer
+  db_uuid: d367737408c444288d1db75d80857023
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: When this card is flipped, your opponent buries 1 card in their hand and you shuffle up to 3 otehr cards from your discard pile into your deck.
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: The Rack of Lamb
+  db_uuid: f2090e8e2e1c4225a550b04d2f67f381
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    Shuffle any number of cards with "Knee" or "Leg" in the name from your discard pile into your deck.
+
+    Your opponent buries 1 card from their hand for each card shuffled in +1.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
+- name: Ewe-Decator (Lady Baa Baa V2)
+  db_uuid: 1ea2d3c8e74447e998d0b3f7f1ba24e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If you rolled Grapple for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 9f7dc2e4f7ac49e882a24a302edf11cf
+    - 4dc9406afb1d4653ad5f425c11f08895
 - name: Pauly 'The Pidgeon' Piccone
   db_uuid: b67cbc591a314259b7d96010d8c2fe26
   srgpc_url: https://www.srgpc.net/cards/competitors/pauly-the-pigeon-piccone/

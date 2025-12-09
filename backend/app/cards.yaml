@@ -35964,6 +35964,8 @@
   tags: []
 - name: Joseph Ritchie
   db_uuid: e5093ca247334348986ed94e04c5bb76
+  srg_url: https://supershowthegame.com/product/joseph-ritchie/
+  srgpc_url: https://www.srgpc.net/cards/competitors/joseph-ritchie/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -35977,6 +35979,46 @@
 
     Unblank your Skill Requirement cards.'
   tags: []
+  related_finishes:
+    - f464d0e2c2c741658d280e418b085345
+    - 98dbff35baac43c99060d169f8998540
+    - 8cae8a5c26344d94aa244c2bb195b9d2
+- name: Discussion Group Elbow
+  db_uuid: f464d0e2c2c741658d280e418b085345
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to your lowest skill.
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - e5093ca247334348986ed94e04c5bb76
+- name: Airplane Driver
+  db_uuid: 98dbff35baac43c99060d169f8998540
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your Finish roll is 7 or greater, it is +1.
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - e5093ca247334348986ed94e04c5bb76
+- name: End of Discussion
+  db_uuid: 8cae8a5c26344d94aa244c2bb195b9d2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Once per turn:
+
+    You may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - e5093ca247334348986ed94e04c5bb76
 - name: JP Warhorse
   db_uuid: 5798171c5d814f3c9f2926be67a2b347
   card_type: SingleCompetitorCard

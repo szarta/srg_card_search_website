@@ -49040,6 +49040,7 @@
     - d300d0adc8fa40e6920db70814656422
 - name: Mr. Hyde
   db_uuid: ceb9126b162c4be69b9291c088d3fe5b
+  srg_url: https://supershowthegame.com/product/mr-hyde-halloween-competitor/
   card_type: SingleCompetitorCard
   division: Underworld
   power: 5
@@ -49052,6 +49053,50 @@
 
     You may shuffle 1 card with "Potion" in the name that you have in play into your deck to re-roll any roll.'
   tags: []
+  related_finishes:
+    - c65477a3c86f437a8469c402ba30fd30
+    - ae3ba8f49b6b4c12a97c7df4ff2dfcea
+    - 62a286fe3476427eb21f097103f72eb4
+- name: Claws Out
+  db_uuid: c65477a3c86f437a8469c402ba30fd30
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    If your opponent breaks out, you may put 1 card with "Potion" in the name from your discard pile into play.'
+  tags: []
+  related_cards:
+    - ceb9126b162c4be69b9291c088d3fe5b
+- name: The Monster Mash
+  db_uuid: ae3ba8f49b6b4c12a97c7df4ff2dfcea
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Flip 2 cards, randomly add 1 of the flipped cards to your hand.'
+  tags: []
+  related_cards:
+    - ceb9126b162c4be69b9291c088d3fe5b
+- name: Wolfman-Dible Claw
+  db_uuid: 62a286fe3476427eb21f097103f72eb4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    If stopped, put 1 card with "Potion" in the name from your discard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - ceb9126b162c4be69b9291c088d3fe5b
 - name: Phoenix Reborn
   db_uuid: d77ce9c2b17a4083ad3f8b6a1f28a647
   srgpc_url: https://www.srgpc.net/competitor/phoenix-reborn/

@@ -38867,6 +38867,7 @@
   tags: []
 - name: Matt Stevens (V1)
   db_uuid: 87f6c1678eaa4008bbdc8c3df45d36fa
+  srgpc_url: https://www.srgpc.net/cards/competitors/matt-stevens/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -38878,8 +38879,17 @@
   grapple: 7
   rules_text: When you hit a Strike, draw 1 card.
   tags: []
+  related_finishes:
+    - 27ef0ace077e42529f3a41dba7d57b02
+    - d5b1f96448eb47b1afda7082eea05a91
+    - ef3dee8623b24ebba64a990f31003a74
+    - 5b63aea6153a4d0daffb43d31ede78cc
+    - 0b4e6988c37a4a64bfe9138d87c78d0f
+    - b8746d6be6b44e7db89068951598e656
 - name: Matt Stevens (V2)
   db_uuid: 79d6196f1e334e54beba5be194847bc5
+  srg_url: https://supershowthegame.com/product/matt-stevens-hof/
+  srgpc_url: https://www.srgpc.net/cards/competitors/matt-stevens/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -38891,6 +38901,95 @@
   grapple: 7
   rules_text: When you have a Strike in play, your Strike skill is +1.
   tags: []
+  related_finishes:
+    - 27ef0ace077e42529f3a41dba7d57b02
+    - d5b1f96448eb47b1afda7082eea05a91
+    - ef3dee8623b24ebba64a990f31003a74
+    - 5b63aea6153a4d0daffb43d31ede78cc
+    - 0b4e6988c37a4a64bfe9138d87c78d0f
+    - b8746d6be6b44e7db89068951598e656
+- name: Super Dragon Fist to the Heavens!
+  db_uuid: 27ef0ace077e42529f3a41dba7d57b02
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If your opponent breaks out, add this card to your hand.'
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
+- name: Dragon Dagger Bomb
+  db_uuid: d5b1f96448eb47b1afda7082eea05a91
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    Search your deck or discard pile for 1 card with "Bank" in the name and add it to your hand.
+
+    Shuffle your deck.'
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
+- name: You Can Take That to the Bank!
+  db_uuid: ef3dee8623b24ebba64a990f31003a74
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    Draw 1 card.'
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
+- name: Suppressing Fire
+  db_uuid: 5b63aea6153a4d0daffb43d31ede78cc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: When you have "Big Boot" or "Spear" in play, stop any Finish Grapple.
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
+- name: Jack Hunter Stunner
+  db_uuid: 0b4e6988c37a4a64bfe9138d87c78d0f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Search your deck or discard pile for "Big Boot" or "Spear" and add it to your hand.'
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
+- name: Did you Knock?
+  db_uuid: b8746d6be6b44e7db89068951598e656
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: When this card is in your discard pile and your opponent hits a Finish, you may bury this card and your 3rd Breakout roll is +2.
+  tags: []
+  related_cardS:
+    - 87f6c1678eaa4008bbdc8c3df45d36fa
+    - 79d6196f1e334e54beba5be194847bc5
 - name: Matt Travis
   db_uuid: bbcd8404d06a4a0a9e3634d010e76c89
   card_type: SingleCompetitorCard

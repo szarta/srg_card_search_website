@@ -39396,6 +39396,86 @@
 
     BACK: Your opponent does not draw for bumps.'
   tags: []
+  related_finishes:
+    - 26ab74bace184763bf130ecef447355a
+    - ad316b217250457eb24d8bd625361a70
+    - 837e985cf5d14203a06279411e2b2865
+    - d4e6ad31e85e40bbadb8e946724e89cc
+    - 5aa8dcf83576420abbf1aa5d47a7e090
+    - 6763e8dd6af64bf9b2446fa5d870776b
+    - fba2a9e153fe4c50b87c16415da363ed
+- name: Jiraishin
+  db_uuid: 26ab74bace184763bf130ecef447355a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: If you rolled Strike for your turn roll, this card cannot be stopped.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: Flip the Script
+  db_uuid: ad316b217250457eb24d8bd625361a70
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: If you rolled Grapple for your turn roll and your Finish roll is 7 or less, it is +3.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: Fractured Reality
+  db_uuid: 837e985cf5d14203a06279411e2b2865
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If you rolled Submission for your turn roll, your opponent gets 1 Breakout roll this turn.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: Breaking the Fourth
+  db_uuid: d4e6ad31e85e40bbadb8e946724e89cc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: If you rolled Power for your turn roll, your opponent buries cards from their hand until they have 1 card in hand.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: Overture OP
+  db_uuid: 5aa8dcf83576420abbf1aa5d47a7e090
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: When this card is in your discard pile and you roll Agility for your turn roll, you may bury 1 card in your hand and put this card on top of your deck.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: Tap or Snap
+  db_uuid: 6763e8dd6af64bf9b2446fa5d870776b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If you rolled Technique for your turn roll, draw 5 cards.
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
+- name: 'Final Chapter: Shattered Reality'
+  db_uuid: fba2a9e153fe4c50b87c16415da363ed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    When this card is in your discard pile and your opponent would move any cards from their discard pile: Randomly separate their discard pile into 2 piles: Choose 1 pile for them to move their cards from.'
+  tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
 - name: Meta (Back Stats)
   db_uuid: 9cbeafbe7a9149d2960f47bc2c4bda9c
   card_type: SingleCompetitorCard
@@ -39408,6 +39488,8 @@
   submission: 6
   grapple: 8
   tags: []
+  related_cards:
+    - bcf674a4d8bf422e8f844a7639345553
 - name: Mic Riot (V1)
   db_uuid: abbb1208d83947d88e086a4a1018e037
   card_type: SingleCompetitorCard
@@ -42973,6 +43055,8 @@
 
     Your opponent randomly buries 1 card in their hand.  If either player ended their last turn without playing a card, double these bonuses.'
   tags: []
+  related_cards:
+    - 066f269d111b4003ad7c426b77cdea5e
 - name: Arise Chicken, Chicken Arise
   db_uuid: ef13552e5f8f480486920e2ab161937f
   card_type: MainDeckCard
@@ -42985,6 +43069,8 @@
 
     If your opponent ended their last turn without playing a card, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 066f269d111b4003ad7c426b77cdea5e
 - name: Sofa King Painful Hold
   db_uuid: c04d9761d5594463917b59c328b66582
   card_type: MainDeckCard
@@ -42997,6 +43083,8 @@
 
     Your opponent cannot play Leads on their next turn.'
   tags: []
+  related_cards:
+    - 066f269d111b4003ad7c426b77cdea5e
 - name: Spite
   db_uuid: a1b507c0d9c243eaa9b9dbf8777f6db9
   card_type: SingleCompetitorCard

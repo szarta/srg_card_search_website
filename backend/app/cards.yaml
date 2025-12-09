@@ -37600,6 +37600,7 @@
   tags: []
 - name: Lobo Suicida (V1)
   db_uuid: cf93b1f8e4794f98b4282c71d2e29234
+  srg_url: https://supershowthegame.com/product/lobo-suicida/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -37611,7 +37612,7 @@
   grapple: 6
   rules_text: 'When you roll Agility for your turn roll:
 
-    you may discard 1 Stop from your hand; then your opponent may discard 1 Stopfrom their hand, if they do not, put 1 non-Stop from your discard pile on top of your deck.'
+    You may discard 1 Stop from your hand; then your opponent may discard 1 Stop from their hand, if they do not, put 1 non-Stop from your discard pile on top of your deck.'
   tags: []
 - name: Lobo Suicida (V2)
   db_uuid: a3dc1cd621024041800ecfc693c48b89
@@ -37630,6 +37631,91 @@
 
     If you do, put 1 non-Stop from your discard pile on top of your deck.'
   tags: []
+  related_finishes:
+    - b896c6ef830543eda136120bf66d02b5
+    - d98097576a584913b85979ee57cb21a5
+    - 37721bff624343efabe0fb975ed9b4ac
+    - 26d4f7415cf74f96936c0c8216fde4d0
+    - 02938b9d7074477f94f5152e880e9dca
+- name: Howling Blaster Dive (V2)
+  db_uuid: b896c6ef830543eda136120bf66d02b5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, choose 1 Stop and bury it.'
+  tags: []
+  related_cards:
+    - cf93b1f8e4794f98b4282c71d2e29234
+    - a3dc1cd621024041800ecfc693c48b89
+- name: Suicida Pact (V2)
+  db_uuid: d98097576a584913b85979ee57cb21a5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    Choose 1, 2, or 3 cards.
+
+    Each player flips and discards the chosen amount of cards from their hand.'
+  tags: []
+  related_cards:
+    - cf93b1f8e4794f98b4282c71d2e29234
+    - a3dc1cd621024041800ecfc693c48b89
+- name: Going for the Throat
+  db_uuid: 37721bff624343efabe0fb975ed9b4ac
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your opponent''s Gimmick is blank.
+
+    Randomly bury your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - cf93b1f8e4794f98b4282c71d2e29234
+    - a3dc1cd621024041800ecfc693c48b89
+- name: Howling Blaster Dive (V1)
+  db_uuid: 26d4f7415cf74f96936c0c8216fde4d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, choose 1 Stop and bury it.'
+  tags: []
+  related_cards:
+    - cf93b1f8e4794f98b4282c71d2e29234
+    - a3dc1cd621024041800ecfc693c48b89
+- name: Suicida Pact (V1)
+  db_uuid: 02938b9d7074477f94f5152e880e9dca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    Each player flips 3 cards and discards 3 cards from their hand.'
+  tags: []
+  related_cards:
+    - cf93b1f8e4794f98b4282c71d2e29234
+    - a3dc1cd621024041800ecfc693c48b89
 - name: Lone Bear and His Cub
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
   card_type: SingleCompetitorCard

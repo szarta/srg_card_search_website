@@ -38272,6 +38272,7 @@
   tags: []
 - name: Main Event Brett
   db_uuid: b6c2698fbe9c461daeb2837c99cf9b8e
+  srg_url: https://supershowthegame.com/product/main-event-brett/
   srgpc_url: https://www.srgpc.net/cards/competitors/main-event-brett/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -38284,6 +38285,48 @@
   grapple: 10
   rules_text: When the Crowd Meter increases, shuffle cards from your discard pile into your deck equal to the Crowd Meter +1.
   tags: []
+  related_finishes:
+    - 683f63191a8747628a95aedede239e39
+    - 64dba11db50b492580847029cbfb3f83
+    - 382a07d539df4a5aa802a9cc7888e011
+- name: Bat! Bat! Bat! Bat! Bat! Bat! Bat!
+  db_uuid: 683f63191a8747628a95aedede239e39
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your opponent buries 5 cards in their hand. Bury 5 cards in your opponent's discard pile. If stopped, unless the Crowd Meter is 2 or greater, you lose the match via disqualification.
+  tags: []
+  related_cards:
+    - b6c2698fbe9c461daeb2837c99cf9b8e
+- name: Searching for the Perfect Weapon
+  db_uuid: 64dba11db50b492580847029cbfb3f83
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Discard this card from your hand to add 1 Main Event Brett Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b6c2698fbe9c461daeb2837c99cf9b8e
+- name: Battered and Bruised
+  db_uuid: 382a07d539df4a5aa802a9cc7888e011
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    The next time you shuffle your deck, draw 2 cards.'
+  tags: []
+  related_cards:
+    - b6c2698fbe9c461daeb2837c99cf9b8e
 - name: Mallory the Destroyer
   db_uuid: 639d57171cbe4e0ea281fcbc0bb9e037
   srgpc_url: https://www.srgpc.net/cards/competitors/mallory-the-destroyer/

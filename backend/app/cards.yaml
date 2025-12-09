@@ -27214,6 +27214,7 @@
   tags: []
 - name: Kaiser Wolf
   db_uuid: d06978f5f81f477bb9dd27d0287c0008
+  srg_url: https://supershowthegame.com/product/kaiser-wold/
   srgpc_url: https://www.srgpc.net/cards/competitors/kaiser-wolf/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -27225,6 +27226,54 @@
   grapple: 6
   rules_text: When you look at your opponent's hand, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - 94ddda66f70646dd98b3bc70a794cf82
+    - 7eb8305d34bc4d0a897b5946438bcbda
+    - cf97c21fc2404d0ab397629b9dcde9f7
+- name: Tamaska's Bite
+  db_uuid: 94ddda66f70646dd98b3bc70a794cf82
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +2 to Grapple
+
+    If stopped look at your opponent''s hand.'
+  tags: []
+  related_cards:
+    - d06978f5f81f477bb9dd27d0287c0008
+- name: Ookami Alpha Cutter
+  db_uuid: 7eb8305d34bc4d0a897b5946438bcbda
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    If you looked at your opponent''s hand last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - d06978f5f81f477bb9dd27d0287c0008
+- name: Wolfrik's Bane
+  db_uuid: cf97c21fc2404d0ab397629b9dcde9f7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If you looked at your opponent''s hand last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - d06978f5f81f477bb9dd27d0287c0008
 - name: Eddy Fury (V1)
   db_uuid: 8c96f132507449afa563c6735c9c8bd3
   card_type: SingleCompetitorCard
@@ -36079,6 +36128,8 @@
   tags: []
 - name: JPL
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
+  srg_url: https://supershowthegame.com/product/jpl/
+  srgpc_url: https://www.srgpc.net/cards/competitors/jpl/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male

@@ -35925,6 +35925,7 @@
     - a97d8d2421e84165b130869e43af2695
 - name: Joulupukki
   db_uuid: c00569ab32544866b8eb51008e821d17
+  srg_url: https://supershowthegame.com/product/joulupukki/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -35936,6 +35937,50 @@
   grapple: 10
   rules_text: For each Grapple or Submission you have in play, the Crowd Meter is considered +2 for your card effects.
   tags: []
+  related_finishes:
+    - d49ea2d3db2b498c99e6dd5761c12be9
+    - 8e97e18081f04eb183e82224becc7c48
+    - 8dcbba25932845e1aa52cea80fb4d63a
+- name: The Northern Lights
+  db_uuid: d49ea2d3db2b498c99e6dd5761c12be9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    Your Agility is + the Crowd Meter.
+
+    If stopped, draw cards equal to the Crowd Meter +1 (Max +3).'
+  tags: []
+  related_cards:
+    - c00569ab32544866b8eb51008e821d17
+- name: Sleigh Ride
+  db_uuid: 8e97e18081f04eb183e82224becc7c48
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile and you and your opponent both roll Submission or both roll Grapple for your turn roll, add this card to your hand.'
+  tags: []
+  related_cards:
+    - c00569ab32544866b8eb51008e821d17
+- name: Silent Night Symphony
+  db_uuid: 8dcbba25932845e1aa52cea80fb4d63a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Finish roll is + the Crowd Meter (Max +3).
+
+    Unless you and your opponent both roll Submission or both roll Grapple for your turn roll, your opponent''s Breakout rolls are +1 for each card they have in play (Max +3).'
+  tags: []
+  related_cards:
+    - c00569ab32544866b8eb51008e821d17
 - name: Jordan Oliver (V1)
   db_uuid: ce62c04bdaf54cc1b72280f22e89589a
   card_type: SingleCompetitorCard

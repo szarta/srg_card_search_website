@@ -39627,6 +39627,8 @@
   tags: []
 - name: Mila Mai (V1)
   db_uuid: 763531a5c5ee468690793b8683f59abd
+  srg_url: https://supershowthegame.com/product/mila-mai-miso-3/
+  srgpc_url: https://www.srgpc.net/cards/competitors/mila-mai/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -39718,6 +39720,7 @@
     - 763531a5c5ee468690793b8683f59abd
 - name: Mila Mai (V2)
   db_uuid: 60081196caac41bb82fb1735e16268f6
+  srgpc_url: https://www.srgpc.net/cards/competitors/mila-mai-new/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -39885,6 +39888,8 @@
     - 4eecca4ae9e949e5a6f7c251f028b712
 - name: Mombada
   db_uuid: 314f46dc83ca48b29e58ee500a0f4344
+  srg_url: https://supershowthegame.com/product/mombada/
+  srgpc_url: https://www.srgpc.net/cards/competitors/mombada/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -48795,6 +48800,7 @@
 - name: Moxie
   db_uuid: 832a2522203547d99ceef3c759d18c0f
   srg_url: https://supershowthegame.com/product/moxie/
+  srgpc_url: https://www.srgpc.net/competitor-moxie/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 6
@@ -48807,6 +48813,48 @@
 
     BACK: Cards in your opponent''s discard pile have blank card names.'
   tags: []
+  related_finishes:
+    - 02e6aeac8277486ca3f76f4e69509424
+    - 367a848583a44e21abee79725d580e49
+    - 7ef8402f4028459b854888e9e6a5237d
+- name: Stay Down...
+  db_uuid: 02e6aeac8277486ca3f76f4e69509424
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    If stopped, you may play "...Or I''ll Make You!" from your discard pile.'
+  tags: []
+  related_cards:
+    - 832a2522203547d99ceef3c759d18c0f
+- name: You Don't Have the Moxie!
+  db_uuid: 367a848583a44e21abee79725d580e49
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to your Finish roll.
+
+    Flip 2 cards.'
+  tags: []
+  related_cards:
+    - 832a2522203547d99ceef3c759d18c0f
+- name: Or I'll Make You!
+  db_uuid: 7ef8402f4028459b854888e9e6a5237d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    When this card is flipped, randomly bury all other cards in your discard pile.'
+  tags: []
+  related_cards:
+    - 832a2522203547d99ceef3c759d18c0f
 - name: Nirab Woken Dragon God (V1)
   db_uuid: d1e4395c81ca492b8f180aaf5b6431b8
   srgpc_url: https://www.srgpc.net/competitor/nirab-woken-dragon-god/

@@ -36952,6 +36952,7 @@
     - 92d9e53180de40039d33b076e18b9127
 - name: Lauren Santiago
   db_uuid: 7c74c7826eeb4f44b91805c51d1c7ac4
+  srg_url: https://supershowthegame.com/product/lauren-santiago/
   srgpc_url: https://www.srgpc.net/cards/competitors/lauren-santiago/
   card_type: SingleCompetitorCard
   division: Underworld
@@ -36964,6 +36965,54 @@
   grapple: 8
   rules_text: 'When you roll Power for your turn roll: Your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_finishes:
+    - 7b791a3ebf1c4dcfa5933a1e92bc6a27
+    - 8483d6a8eeaf4e2588ee8cb83394e4d9
+    - 25c15de7171145ffadf10c6dae279e45
+- name: Like a Thief in the Night
+  db_uuid: 7b791a3ebf1c4dcfa5933a1e92bc6a27
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Shuffle 5 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 7c74c7826eeb4f44b91805c51d1c7ac4
+- name: Smash and Grab
+  db_uuid: 8483d6a8eeaf4e2588ee8cb83394e4d9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Look at your opponent''s hand and choose 1 card.  This card copies its text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 7c74c7826eeb4f44b91805c51d1c7ac4
+- name: Case the Joint
+  db_uuid: 25c15de7171145ffadf10c6dae279e45
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    When this card is flipped or discarded from your hand:
+
+    Look at the top 3 cards of any player''s deck and put them back on top in any order.'
+  tags: []
+  related_cards:
+    - 7c74c7826eeb4f44b91805c51d1c7ac4
 - name: Lawman Nick
   db_uuid: 2a686043f4ae434ab26a14adaf168625
   srgpc_url: https://www.srgpc.net/cards/competitors/lawman-nick/
@@ -37081,6 +37130,7 @@
     - 9cbb880d1b93435f9db7624ad7eb90c9
 - name: Leader of the Black Sheep
   db_uuid: 52492d03968e461d8a3e1e860491db9a
+  srg_url: https://supershowthegame.com/product/leader-of-the-black-sheep/
   srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-black-sheep/
   card_type: SingleCompetitorCard
   division: World Championship
@@ -37109,6 +37159,8 @@
 
     Stop any Finish Grapple that is also a Lead.'
   tags: []
+  related_cards:
+    - 52492d03968e461d8a3e1e860491db9a
 - name: A Flock for All
   db_uuid: 8b6fca7ac4f2489d9d469377d6a37184
   card_type: MainDeckCard
@@ -37121,6 +37173,8 @@
 
     +1 to Grapple'
   tags: []
+  related_cards:
+    - 52492d03968e461d8a3e1e860491db9a
 - name: Sheep Stretch
   db_uuid: 18d210f50add4f8c9d59f9ff61d961f0
   card_type: MainDeckCard
@@ -37131,6 +37185,8 @@
 
     If your opponent''s 2nd breakout roll is less than their 1st breakout roll, they cannot break out.'
   tags: []
+  related_cards:
+    - 52492d03968e461d8a3e1e860491db9a
 - name: Leader of the Unit JT Dunn
   db_uuid: 0fe383c8e4fe4083bb11149f4564a081
   srgpc_url: https://www.srgpc.net/competitors/leader-of-the-unit-jt-dunn/
@@ -53729,3 +53785,69 @@
   tags: []
   related_cards:
     - 0c01c7f11c0741ae98266aa13d262763
+- name: Lil G
+  db_uuid: c27d16f7227346f7ba58b6cf926557c4
+  srg_url: https://supershowthegame.com/product/lil-g/
+  srgpc_url: https://www.srgpc.net/competitor/lil-g/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: When you roll Technique, your Power is +1 until after you roll Power.
+  tags: []
+  related_finishes:
+    - 6a3a038e311e4bf1b1af4812ad6f673a
+    - a4076a453ec74f0bb98b699a3db86ebf
+    - dc51f95820c0408da7d88bad603e8611
+- name: GS3
+  db_uuid: 6a3a038e311e4bf1b1af4812ad6f673a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If your Power is 6 or greater, +2 to Strike instead.
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - c27d16f7227346f7ba58b6cf926557c4
+- name: The 11-17
+  db_uuid: a4076a453ec74f0bb98b699a3db86ebf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    If you rolled Power for your turn roll, this card is also a Lead.
+
+    You may switch your next turn roll to Technique.'
+  tags: []
+  related_cards:
+    - c27d16f7227346f7ba58b6cf926557c4
+- name: Tril-O-G
+  db_uuid: dc51f95820c0408da7d88bad603e8611
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If your Power is 7 or greater, this card is also a Follow Up.
+
+    Draw cards equal to your Power.'
+  tags: []
+  related_cards:
+    - c27d16f7227346f7ba58b6cf926557c4

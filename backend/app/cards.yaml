@@ -39379,6 +39379,8 @@
   tags: []
 - name: Meta
   db_uuid: bcf674a4d8bf422e8f844a7639345553
+  srg_url: https://supershowthegame.com/product/meta-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/meta/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -39492,6 +39494,8 @@
     - bcf674a4d8bf422e8f844a7639345553
 - name: Mic Riot (V1)
   db_uuid: abbb1208d83947d88e086a4a1018e037
+  srg_url: https://supershowthegame.com/product/mic-riot/
+  srgpc_url: https://www.srgpc.net/cards/competitors/mic-riot/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -39503,8 +39507,13 @@
   grapple: 10
   rules_text: When the Crowd Meter is 5 or greater, your Breakout rolls are +5.
   tags: []
+  related_finishes:
+    - 9c1f38962f0b49be916783a6f3b0dc23
+    - 000865578e51481194b83c2d3d41ceea
+    - 4d9934c66f2c4de7b55c8d7e25afa152
 - name: Mic Riot (V2)
   db_uuid: 80305a3d87ee41b08bbe8af899fe9e32
+  srgpc_url: https://www.srgpc.net/cards/competitors/mic-riot/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -39516,6 +39525,55 @@
   grapple: 8
   rules_text: When the Crowd Meter is 5 or greater, your Breakout rolls are +5.
   tags: []
+  related_finishes:
+    - 9c1f38962f0b49be916783a6f3b0dc23
+    - 000865578e51481194b83c2d3d41ceea
+    - 4d9934c66f2c4de7b55c8d7e25afa152
+- name: Right Time Drop
+  db_uuid: 9c1f38962f0b49be916783a6f3b0dc23
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If stopped, the Crowd Meter is +2.'
+  tags: []
+  related_cards:
+    - abbb1208d83947d88e086a4a1018e037
+    - 80305a3d87ee41b08bbe8af899fe9e32
+- name: Waititi Bomb
+  db_uuid: 000865578e51481194b83c2d3d41ceea
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If the Crowd Meter is 3 or greater, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - abbb1208d83947d88e086a4a1018e037
+    - 80305a3d87ee41b08bbe8af899fe9e32
+- name: Lord of the Rings
+  db_uuid: 4d9934c66f2c4de7b55c8d7e25afa152
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If your opponent breaks out, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - abbb1208d83947d88e086a4a1018e037
+    - 80305a3d87ee41b08bbe8af899fe9e32
 - name: Midas Black
   db_uuid: 3a7af7898ff3456badabb9e31736478f
   card_type: SingleCompetitorCard

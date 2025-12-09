@@ -38359,6 +38359,7 @@
   tags: []
 - name: Mangia
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
+  srg_url: https://supershowthegame.com/product/mangia/
   srgpc_url: https://www.srgpc.net/competitors/mangia/
   card_type: SingleCompetitorCard
   division: United States
@@ -38370,6 +38371,56 @@
   submission: 8
   grapple: 10
   tags: []
+  related_finishes:
+    - ada6ada7309c44d6b9a6038db0eee42a
+    - 51b432a837044f43acbac4eb7ad6429b
+    - 7ce8b2fa96e74466a8eeb684c0ff3780
+- name: The Whack
+  db_uuid: ada6ada7309c44d6b9a6038db0eee42a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    You may shuffle up to 3 cards with "Eat" in the name from your discard pile into your deck, or your opponent''s turn roll is -2.'
+  tags: []
+  related_cards:
+    - 1cbeaf22cad640c99590010e989c8a43
+- name: Let the Pigs Eat
+  db_uuid: 51b432a837044f43acbac4eb7ad6429b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +4 to Strike
+
+    Your opponent puts cards from their hand on top of their deck equal to the Crowd Meter.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 1cbeaf22cad640c99590010e989c8a43
+- name: Funny, Like I Amuse You?
+  db_uuid: 7ce8b2fa96e74466a8eeb684c0ff3780
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile:
+
+    When your opponent stops one of your cards with "Eat" in the name, you may put this card on top of your deck, then put 1 card from your hand on top of your deck.'
+  tags: []
+  related_cards:
+    - 1cbeaf22cad640c99590010e989c8a43
 - name: Marcus Samuel Selmore
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
   srg_url: https://supershowthegame.com/product/marcus-samuel-selmore/

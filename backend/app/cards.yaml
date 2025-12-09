@@ -47660,6 +47660,52 @@
   grapple: 5
   rules_text: When you hit a card with "Bird", "Bite", "Fly", or "Wing" in the name, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - c323c891818a45fabe4686db990184e0
+    - c82d08a5235d4b86950a59968ed3ac01
+    - 00aa5a4728e240cc89eab709ef52c8e2
+- name: Fall Free to your Flying Fate
+  db_uuid: c323c891818a45fabe4686db990184e0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    For each card you have in play with "Bird", "Bite", "Fly", or "Wing" in the name, flip 1 card then add 1 card with "Bird", "Bite", "Fly", or "Wing" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 6ded6a7076cc4621bd998aaee548b55e
+- name: Swinging Full Moon Powerbomb
+  db_uuid: c82d08a5235d4b86950a59968ed3ac01
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Agility
+
+    When this card is in your discard pile: During your turn, when you hit a card with "Bird", "Bite", "Fly" or "Wing" in the name, your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 6ded6a7076cc4621bd998aaee548b55e
+- name: Fangs for the Memories, Welcome to the Bird Clan!
+  db_uuid: 00aa5a4728e240cc89eab709ef52c8e2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    +2 to Grapple
+
+    If you have 6 other cards in play with "Bird", "Bite", "Fly" or "Wing" in the name, double these bonuses.'
+  tags: []
+  related_cards:
+    - 6ded6a7076cc4621bd998aaee548b55e
 - name: Mike Santana
   db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
   srg_url: https://supershowthegame.com/product/00-mike-santana-competitor-set-slammiversary-edition/

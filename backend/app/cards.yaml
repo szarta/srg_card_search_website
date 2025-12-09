@@ -38704,6 +38704,7 @@
   tags: []
 - name: Matt Nelan (V1)
   db_uuid: 6a24d980f7fc4231aac3c2fa529c9576
+  srgpc_url: https://www.srgpc.net/cards/competitors/matt-nelan/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -38725,6 +38726,8 @@
     - 6907942cdd6b4bb6a78e8ce52f5c878a
 - name: Matt Nelan (V2)
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
+  srg_url: https://supershowthegame.com/product/matt-nelan/
+  srgpc_url: https://www.srgpc.net/cards/competitors/matt-nelan/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male

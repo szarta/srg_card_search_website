@@ -40072,9 +40072,67 @@
     - d9c95f93770747aea1e2bc2daa4e826f
 - name: Mr. A1derful
   db_uuid: ab2e17c9e2ef4e97a6816fb625f0311e
+  srg_url: https://supershowthegame.com/product/mr-a1derful/
+  srgpc_url: https://www.srgpc.net/competitors/mr-a1derful/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 9
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: 'When you roll Grapple for your turn roll: Draw 1 card then discard 1 card from your hand.'
   tags: []
+  related_finishes:
+    - 09f369fb748f4b05a425a9947a11c9e9
+    - 5d9e149bca0b4bdc887ad22a1e34ceef
+    - 7796e87ed7274008a9120d4c42a007df
+- name: Long Yard Lariat
+  db_uuid: 09f369fb748f4b05a425a9947a11c9e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    Shuffle up to 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - ab2e17c9e2ef4e97a6816fb625f0311e
+- name: 1-Derplex
+  db_uuid: 5d9e149bca0b4bdc887ad22a1e34ceef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Look at your opponent''s hand, they discard all Finishes.
+
+    Draw 1 card for each Finish discarded +1.'
+  tags: []
+  related_cards:
+    - ab2e17c9e2ef4e97a6816fb625f0311e
+- name: It's One-derful
+  db_uuid: 7796e87ed7274008a9120d4c42a007df
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    Your Finish roll is +1 for each card you have in play with "Wonder" in the name.'
+  tags: []
+  related_cards:
+    - ab2e17c9e2ef4e97a6816fb625f0311e
 - name: Mr. C
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
   card_type: SingleCompetitorCard

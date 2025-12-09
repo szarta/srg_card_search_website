@@ -27265,7 +27265,7 @@
   strike: 6
   submission: 10
   grapple: 8
-  rules_text: When your opponent's turn roll is Submission, sesarch your deck for 1 Lead or Follow Up Submission, reveal it, and add it to your hand.
+  rules_text: When your opponent's turn roll is Submission, search your deck for 1 Lead or Follow Up Submission, reveal it, and add it to your hand.
   tags: []
   related_finishes:
     - 9d1f2d4aadbb4ab8a183bd447d783c66

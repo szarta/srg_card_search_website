@@ -26844,8 +26844,13 @@
   grapple: 9
   rules_text: 'When you roll Power or Strike for your turn roll: Reveal the top card of your deck.  If it is a Finish, add it to your hand.  If not, you may bury it.'
   tags: []
+  related_finishes:
+    - 74e3fc792e7243e4a6154310ef9ad669
+    - 4464df96f86e4e16986f8c9370671bcf
+    - f3d38afaf9b84568b556222e8d07912c
 - name: Matthaias Son of Zeus (V2)
   db_uuid: 0fb5de690e334ce8be4937834aefd0df
+  srg_url: https://supershowthegame.com/product/matthaias-son-of-zeus-new/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 10
@@ -26856,6 +26861,55 @@
   grapple: 9
   rules_text: 'When your roll Power: flip 2 cards or add 1 card with "Lightning" or "Thunder" in the name from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 74e3fc792e7243e4a6154310ef9ad669
+    - 4464df96f86e4e16986f8c9370671bcf
+    - f3d38afaf9b84568b556222e8d07912c
+- name: Thunderbolt and Lightning
+  db_uuid: 74e3fc792e7243e4a6154310ef9ad669
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Your opponent cannot increase their skills or Breakout rolls.'
+  tags: []
+  related_cards:
+    - 7ac80714f1ab41098576a251ee693064
+    - 0fb5de690e334ce8be4937834aefd0df
+- name: Titanomachy
+  db_uuid: 4464df96f86e4e16986f8c9370671bcf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    When this card is revealed for your Gimmick, you may shuffle 2 other Matthaias Son of Zeus cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 7ac80714f1ab41098576a251ee693064
+    - 0fb5de690e334ce8be4937834aefd0df
+- name: The Twelve Labors
+  db_uuid: f3d38afaf9b84568b556222e8d07912c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +5 to Submission
+
+    The text of this card cannot be blanked.'
+  tags: []
+  related_cards:
+    - 7ac80714f1ab41098576a251ee693064
+    - 0fb5de690e334ce8be4937834aefd0df
 - name: D2 (V1)
   db_uuid: bd04b23708fe49728541a20e689cae61
   srg_url: https://supershowthegame.com/product/d2/

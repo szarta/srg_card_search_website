@@ -27036,6 +27036,7 @@
   tags: []
 - name: Lorenzo Manicotti (V1)
   db_uuid: 4bf2907638d84683be82637d1ac34c52
+  srgpc_url: https://www.srgpc.net/cards/competitors/lorenzo-manicotti/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 6
@@ -27046,8 +27047,15 @@
   grapple: 9
   rules_text: Once a turn, after your shuffle your deck for any reason, your opponent buries 1 card in their hand.
   tags: []
+  related_finishes:
+    - a4aa0d8ade614370ae22947ce5aeca4f
+    - 0f5eca061d904cedb07e47684ce6ab59
+    - 5730f4f9836c4708884e9a40a0ee2322
+    - 77199b590cb24ae38a25dfe170c340d9
 - name: Lorenzo Manicotti (V2)
   db_uuid: f08974e57d3b4c2493b417fcbd49acb6
+  srg_url: https://supershowthegame.com/product/lorenzo-manicotti/
+  srgpc_url: https://www.srgpc.net/cards/competitors/lorenzo-manicotti/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 6
@@ -27058,6 +27066,71 @@
   grapple: 9
   rules_text: After you shuffle your deck, your opponent shuffles 1 card from their hand into their deck.
   tags: []
+  related_finishes:
+    - a4aa0d8ade614370ae22947ce5aeca4f
+    - 0f5eca061d904cedb07e47684ce6ab59
+    - 5730f4f9836c4708884e9a40a0ee2322
+    - 77199b590cb24ae38a25dfe170c340d9
+- name: Greetings From Sunnyside
+  db_uuid: a4aa0d8ade614370ae22947ce5aeca4f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    Each player shuffles their hand into their deck and draws the same number of cards.'
+  tags: []
+  related_cards:
+    - 4bf2907638d84683be82637d1ac34c52
+    - f08974e57d3b4c2493b417fcbd49acb6
+- name: Al Dente Bomb
+  db_uuid: 0f5eca061d904cedb07e47684ce6ab59
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    If your opponent breaks out, you may shuffle this card into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 4bf2907638d84683be82637d1ac34c52
+    - f08974e57d3b4c2493b417fcbd49acb6
+- name: Five Boroughs Chokehold (V1)
+  db_uuid: 5730f4f9836c4708884e9a40a0ee2322
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Technique
+
+    Each time your opponent rolls for a Breakout roll, shuffle 2 cards from your discard pile into your deck, then draw 1 card.'
+  tags: []
+  related_cards:
+    - 4bf2907638d84683be82637d1ac34c52
+    - f08974e57d3b4c2493b417fcbd49acb6
+- name: Five Boroughs Chokehold (V2)
+  db_uuid: 77199b590cb24ae38a25dfe170c340d9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    +1 to Submission
+
+    Shuffle 2 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 4bf2907638d84683be82637d1ac34c52
+    - f08974e57d3b4c2493b417fcbd49acb6
 - name: Patient Zero Shawn Grubaugh
   db_uuid: 9c2616f1fc8c48aaa65cc468f99ff45d
   srgpc_url: https://www.srgpc.net/cards/competitors/patient-zero-shawn-grubaugh/
@@ -37777,6 +37850,7 @@
 - name: Lord Thompson
   db_uuid: f63d587175404c10a36bdcd1e89338af
   srg_url: https://supershowthegame.com/product/lord-thompson/
+  srgpc_url: https://www.srgpc.net/cards/competitors/lord-thompson/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

@@ -38715,6 +38715,14 @@
   grapple: 10
   rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
+  related_finishes:
+    - 1bb3519cce4d4ec9b22dc4ea15e55153
+    - 22492b0462874d8a8dc750b0cf43a14b
+    - 816933dfc2ca41e78dfc89db3a166284
+    - 1cbfb769275c4352af95ef9ff956e92e
+    - 6af958ed1e0444e0b9e285e8095bf1ff
+    - 9ea4104c753f45faad0b2ea35f1699be
+    - 6907942cdd6b4bb6a78e8ce52f5c878a
 - name: Matt Nelan (V2)
   db_uuid: 8d6ddda991594deaac7ce826cbda5787
   card_type: SingleCompetitorCard
@@ -38728,6 +38736,119 @@
   grapple: 9
   rules_text: When your opponent increases their turn roll or decreases your turn roll, they randomly bury 1 card in their hand.
   tags: []
+  related_finishes:
+    - 1bb3519cce4d4ec9b22dc4ea15e55153
+    - 22492b0462874d8a8dc750b0cf43a14b
+    - 816933dfc2ca41e78dfc89db3a166284
+    - 1cbfb769275c4352af95ef9ff956e92e
+    - 6af958ed1e0444e0b9e285e8095bf1ff
+    - 9ea4104c753f45faad0b2ea35f1699be
+    - 6907942cdd6b4bb6a78e8ce52f5c878a
+- name: The Original Top Rope Flying Headband Drop
+  db_uuid: 1bb3519cce4d4ec9b22dc4ea15e55153
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    When you have 10 or more cards in your hand, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: F Bomb
+  db_uuid: 22492b0462874d8a8dc750b0cf43a14b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    When this card is in your discard pile, your maximum handsize is + the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: You Know What I Do (V1)
+  db_uuid: 816933dfc2ca41e78dfc89db3a166284
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '-2 to Power
+
+    +2 to Technique
+
+    +4 to Strike'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: You Know What I Do (V2)
+  db_uuid: 1cbfb769275c4352af95ef9ff956e92e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    +2 to Submission
+
+    -1 Grapple'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: Pineapple Smash
+  db_uuid: 6af958ed1e0444e0b9e285e8095bf1ff
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Double your Strike until the end of the turn.
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: Droppin' F Bombs
+  db_uuid: 9ea4104c753f45faad0b2ea35f1699be
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    Draw 1 card from each card you have in play with "Pineapple" in the name.
+
+    If you have 3 cards in play with "Pineapple" in the name, your Finish rolls are +1.'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
+- name: Sweet Surprise!
+  db_uuid: 6907942cdd6b4bb6a78e8ce52f5c878a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.  If stopped, you may play a card with "Pineapple" in the name from your hand or discard pile.'
+  tags: []
+  related_cards:
+    - 6a24d980f7fc4231aac3c2fa529c9576
+    - 8d6ddda991594deaac7ce826cbda5787
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   card_type: SingleCompetitorCard

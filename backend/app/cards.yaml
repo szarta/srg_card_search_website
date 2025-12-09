@@ -27230,6 +27230,7 @@
   tags: []
 - name: Mad Custodian
   db_uuid: a72fb5b1c70b439c97b87350954fd003
+  srg_url: https://supershowthegame.com/product/mad-custodian/
   srgpc_url: https://www.srgpc.net/cards/competitors/mad-custodian/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -27241,6 +27242,48 @@
   grapple: 9
   rules_text: When your opponent stops a card with "Table", "Ladder", "Sweep" or "Trash" in the name, shuffle 1 other card from your discard pile into your deck and draw 1 card.
   tags: []
+  related_finishes:
+    - 4816782b25494a83adbc6f7fbcaae765
+    - 5f8633e2943e4e578b268a45d87ffbaa
+    - 012541e749cd4246be30935707ba87dc
+- name: The Clean Sweep
+  db_uuid: 4816782b25494a83adbc6f7fbcaae765
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +2 to Technique and Agility for each card you have in play with "Sweep" in the name.
+  tags: []
+  related_cards:
+    - a72fb5b1c70b439c97b87350954fd003
+- name: Take Out the Trash
+  db_uuid: 5f8633e2943e4e578b268a45d87ffbaa
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    Shuffle 5 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - a72fb5b1c70b439c97b87350954fd003
+- name: The Mop Bucket
+  db_uuid: 012541e749cd4246be30935707ba87dc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Agility
+
+    If stopped, randomly bury your hand or you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - a72fb5b1c70b439c97b87350954fd003
 - name: The High Roller (V1)
   db_uuid: 3eb9d2113255470eba5bf14fc16036cb
   srgpc_url: https://www.srgpc.net/cards/competitors/the-high-roller/

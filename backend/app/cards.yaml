@@ -26426,6 +26426,7 @@
   tags: []
   related_cards:
     - 3fbecda1ffc64b9fa731e5b06f260e33
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Do Doo Do Doo
   db_uuid: f444d63d1a0f464f8563f7dbefe87771
   card_type: MainDeckCard
@@ -26440,6 +26441,7 @@
   tags: []
   related_cards:
     - 3fbecda1ffc64b9fa731e5b06f260e33
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: The Shark's Fin
   db_uuid: 10980015a5b84f30885050248f00fae3
   card_type: MainDeckCard
@@ -26452,6 +26454,7 @@
   tags: []
   related_cards:
     - 3fbecda1ffc64b9fa731e5b06f260e33
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Doctor Dick Thunderlips
   db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
   srgpc_url: https://www.srgpc.net/cards/competitors/dastardly-dick-thunderlips/
@@ -27264,6 +27267,87 @@
   grapple: 8
   rules_text: When your opponent's turn roll is Submission, sesarch your deck for 1 Lead or Follow Up Submission, reveal it, and add it to your hand.
   tags: []
+  related_finishes:
+    - 9d1f2d4aadbb4ab8a183bd447d783c66
+    - 943853be9a154f509b1fec67e16e5da6
+    - d0802fa1c7ab4b38b6b17be7841fdf1a
+    - bcb6213f3bae4cd289863aea29f7f852
+    - a811f7e2312b44819390df47ba7abb14
+- name: The Finish Line
+  db_uuid: 9d1f2d4aadbb4ab8a183bd447d783c66
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Power
+
+    Take all Submission cards from your discard pile and shuffle them into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - a7aba02de8f84413b3ff42bc12d2f320
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
+- name: Bombada-Bing!
+  db_uuid: 943853be9a154f509b1fec67e16e5da6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Bury all Submissions in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - a7aba02de8f84413b3ff42bc12d2f320
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
+- name: The Winner's Circle
+  db_uuid: d0802fa1c7ab4b38b6b17be7841fdf1a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If your opponent''s turn roll was Submission, this card cannot be stopped.
+
+    Your opponent''s Submission skill is -2 during their 1st and 2nd Breakout rolls.'
+  tags: []
+  related_cards:
+    - a7aba02de8f84413b3ff42bc12d2f320
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
+- name: Bombada-Bomb!
+  db_uuid: bcb6213f3bae4cd289863aea29f7f852
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Add 1 Submission you have in play to your hand.'
+  tags: []
+  related_cards:
+    - a7aba02de8f84413b3ff42bc12d2f320
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
+- name: Down the Stretch
+  db_uuid: a811f7e2312b44819390df47ba7abb14
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If you have 3 Submissions in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - a7aba02de8f84413b3ff42bc12d2f320
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: The Gold Standard (V1)
   db_uuid: bc4f9ccb992748adaedee6795da1720d
   is_banned: true
@@ -35369,6 +35453,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Grab the Reins (V1)
   db_uuid: 70f48c9c5f7e4b69827e1b734400e755
   card_type: MainDeckCard
@@ -35383,6 +35468,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Photo Finish (V1)
   db_uuid: 03bdd58874854746882e0a6b30f9fe06
   card_type: MainDeckCard
@@ -35397,6 +35483,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Going to the Whip (V2)
   db_uuid: b4d7ec1e5a5342efa6a1d6abe1f26ffc
   card_type: MainDeckCard
@@ -35413,6 +35500,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Grab the Reins (V2)
   db_uuid: 431c9518fd474c35bb223ae2000fe369
   card_type: MainDeckCard
@@ -35427,6 +35515,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Photo Finish (V2)
   db_uuid: 3327d17cb24f4f68bd13500140a935e3
   card_type: MainDeckCard
@@ -35441,6 +35530,7 @@
   tags: []
   related_cards:
     - 7333bd77424b441891340c35244b2b11
+    - 6b9d7c1228594225b3f26e68ec5c2fc6
 - name: Jamie Senegal
   db_uuid: d7d82141547a44308408d2470732bb64
   srgpc_url: https://www.srgpc.net/cards/competitors/jamie-senegal/
@@ -40216,6 +40306,11 @@
     - a445e5cd07fc4e27865b040e744e868e
     - f444d63d1a0f464f8563f7dbefe87771
     - 10980015a5b84f30885050248f00fae3
+    - 9d1f2d4aadbb4ab8a183bd447d783c66
+    - 943853be9a154f509b1fec67e16e5da6
+    - d0802fa1c7ab4b38b6b17be7841fdf1a
+    - bcb6213f3bae4cd289863aea29f7f852
+    - a811f7e2312b44819390df47ba7abb14
   comment: Chris Pagillo
 - name: Mr Snap (V1)
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad

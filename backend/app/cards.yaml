@@ -26412,6 +26412,46 @@
   grapple: 10
   rules_text: When you hit a card with "Dive", "Fin" or "Surf" in the name, draw 1 card.
   tags: []
+  related_finishes:
+    - a445e5cd07fc4e27865b040e744e868e
+    - f444d63d1a0f464f8563f7dbefe87771
+    - 10980015a5b84f30885050248f00fae3
+- name: Deep Sea Dive
+  db_uuid: a445e5cd07fc4e27865b040e744e868e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your opponent's 1st and 2nd Breakout rolls are -1 for each card you have in play with "Dive" in the name.
+  tags: []
+  related_cards:
+    - 3fbecda1ffc64b9fa731e5b06f260e33
+- name: Do Doo Do Doo
+  db_uuid: f444d63d1a0f464f8563f7dbefe87771
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 3fbecda1ffc64b9fa731e5b06f260e33
+- name: The Shark's Fin
+  db_uuid: 10980015a5b84f30885050248f00fae3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Each time your opponent rolls for a Breakout roll, draw 1 card.'
+  tags: []
+  related_cards:
+    - 3fbecda1ffc64b9fa731e5b06f260e33
 - name: Doctor Dick Thunderlips
   db_uuid: 6bc2e09bc00f4936b33bbddfccb8fa10
   srgpc_url: https://www.srgpc.net/cards/competitors/dastardly-dick-thunderlips/
@@ -40153,9 +40193,30 @@
   tags: []
 - name: Mr. Match of the Year
   db_uuid: 6b9d7c1228594225b3f26e68ec5c2fc6
+  srg_url: https://supershowthegame.com/product/mr-moty/
+  srgpc_url: https://www.srgpc.net/cards/competitors/mr-match-of-the-year/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 9
+  grapple: 6
+  rules_text: It is considered a Triad match for your card effects.
   tags: []
+  related_finishes:
+    - 7aa1dfd1658941be9c549e4675521c9a
+    - 70f48c9c5f7e4b69827e1b734400e755
+    - 03bdd58874854746882e0a6b30f9fe06
+    - b4d7ec1e5a5342efa6a1d6abe1f26ffc
+    - 431c9518fd474c35bb223ae2000fe369
+    - 3327d17cb24f4f68bd13500140a935e3
+    - a445e5cd07fc4e27865b040e744e868e
+    - f444d63d1a0f464f8563f7dbefe87771
+    - 10980015a5b84f30885050248f00fae3
+  comment: Chris Pagillo
 - name: Mr Snap (V1)
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad
   card_type: SingleCompetitorCard

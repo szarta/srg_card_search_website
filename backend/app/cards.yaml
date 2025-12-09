@@ -37776,6 +37776,7 @@
   tags: []
 - name: Lord Thompson
   db_uuid: f63d587175404c10a36bdcd1e89338af
+  srg_url: https://supershowthegame.com/product/lord-thompson/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -37789,6 +37790,44 @@
 
     "If stopped, shuffle this card into your deck.".'
   tags: []
+  related_finishes:
+    - d68601d3b0c54302ba8a071398dcfce9
+    - b72789ff537c48b9870d7fd5b61cd3cb
+    - 347b64b9577340898df63c93c60c1ea6
+- name: Go Ninja! Go Ninja! Go!
+  db_uuid: d68601d3b0c54302ba8a071398dcfce9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    Flip 4 cards, shuffle 1 Strike from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - f63d587175404c10a36bdcd1e89338af
+- name: Perfectly Executed
+  db_uuid: b72789ff537c48b9870d7fd5b61cd3cb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - f63d587175404c10a36bdcd1e89338af
+- name: Lord Thompson's Throne
+  db_uuid: 347b64b9577340898df63c93c60c1ea6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Submission and Grapple skills are +1 for each Submission your opponent has in play (Max +4).
+  tags: []
+  related_cards:
+    - f63d587175404c10a36bdcd1e89338af
 - name: Loudmouth Leo Larynx
   db_uuid: def74dd5530540ce8a9e903bc10fd620
   card_type: SingleCompetitorCard

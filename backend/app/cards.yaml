@@ -39059,6 +39059,8 @@
   tags: []
 - name: Matty Bar1
   db_uuid: 041f88464da84d039c316094b81a3273
+  srg_url: https://supershowthegame.com/product/matty-barone/
+  srgpc_url: https://www.srgpc.net/competitors/matty-bar1/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -39070,8 +39072,57 @@
   grapple: 5
   rules_text: Whenever your opponent would discard or bury cards from their hand from a card or Gimmick, they are randomly revealed and buried instead.
   tags: []
+  related_finishes:
+    - d3a7654b134b4bf184e878eee64a42c1
+    - 829e2cc8603244e1930254583a514eda
+    - 1d628ecc8cea42efb3314c0128579b98
+- name: The Garden State-Ment
+  db_uuid: d3a7654b134b4bf184e878eee64a42c1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Discard any number of cards from your hand.
+
+    Your opponent discards the same number of cards + the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 041f88464da84d039c316094b81a3273
+- name: Full Collapse
+  db_uuid: 829e2cc8603244e1930254583a514eda
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to your lowest skill
+
+    If you have cards with "Wave", "Line", and "Impact" in play this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 041f88464da84d039c316094b81a3273
+- name: Execute Order 83
+  db_uuid: 1d628ecc8cea42efb3314c0128579b98
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Each player draws cards equal to half your Finish roll (rounded up).'
+  tags: []
+  related_cards:
+    - 041f88464da84d039c316094b81a3273
 - name: Maul
   db_uuid: d7de2a59d5f04f41968fca33387c4304
+  srgpc_url: https://www.srgpc.net/competitors/maul/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -39083,6 +39134,10 @@
   grapple: 7
   rules_text: When your opponent stops a card, they randomly reveal 1 card in their hand; if it is a Stop, they discard it.
   tags: []
+  related_finishes:
+    - 989987059da54195be1f9dd7c83bed4b
+    - bc4ff3de664e48b58889f70bb1298218
+    - fef93b1498324a0f959d6fb4718b117c
 - name: Maul Splash
   db_uuid: 989987059da54195be1f9dd7c83bed4b
   card_type: MainDeckCard
@@ -39095,6 +39150,8 @@
 
     If you rolled Agility for your turn roll, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - d7de2a59d5f04f41968fca33387c4304
 - name: Maul Bomb
   db_uuid: bc4ff3de664e48b58889f70bb1298218
   card_type: MainDeckCard
@@ -39105,6 +39162,8 @@
 
     +3 to Grapple'
   tags: []
+  related_cards:
+    - d7de2a59d5f04f41968fca33387c4304
 - name: It's Time, It's Time, It's Maul Time!
   db_uuid: fef93b1498324a0f959d6fb4718b117c
   card_type: MainDeckCard
@@ -39115,6 +39174,8 @@
 
     Discard up to 3 cards in your hand. Your opponent randomly discards the same number of cards.'
   tags: []
+  related_cards:
+    - d7de2a59d5f04f41968fca33387c4304
 - name: Maverick Jones
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
   card_type: SingleCompetitorCard

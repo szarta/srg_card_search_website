@@ -43134,7 +43134,7 @@
   related_cards:
     - 8fa5113d9e0243899f7ad586a3b7c323
     - e3aae3be45f045b4892fbe79e96b5153
-- name: Armageddon
+- name: Armageddon (RJ Bombshell)
   db_uuid: 1172b1d4ed3e4046a39f292cdb024d01
   card_type: MainDeckCard
   atk_type: Grapple

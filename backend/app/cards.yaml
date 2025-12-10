@@ -35771,6 +35771,7 @@
   tags: []
   related_cards:
     - c838aa6d65bd440689ed07eed9e1b94b
+    - 0c1b1853cc114d119cd55a50f04386f5
 - name: The Flashpoint
   db_uuid: 833f49b1c09e4dc9b305d589d630c04d
   card_type: MainDeckCard
@@ -35785,6 +35786,7 @@
   tags: []
   related_cards:
     - c838aa6d65bd440689ed07eed9e1b94b
+    - 0c1b1853cc114d119cd55a50f04386f5
 - name: Cooldown Lock
   db_uuid: 18f6b68163a747b5ad66ce3eb09fefe1
   card_type: MainDeckCard
@@ -35799,6 +35801,7 @@
   tags: []
   related_cards:
     - c838aa6d65bd440689ed07eed9e1b94b
+    - 0c1b1853cc114d119cd55a50f04386f5
 - name: Jigsaw
   db_uuid: 44a277528d754a41bbb5f404cd32f2bd
   srgpc_url: https://www.srgpc.net/cards/competitors/jigsaw/
@@ -40636,6 +40639,8 @@
 
     If stopped, add 1 stop from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 630ba3b301ff48bbb1bf73b23bda10d1
 - name: Twisted Fate
   db_uuid: 82fe3b41c9c8440bbb10cab07d0a8d28
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
@@ -40649,6 +40654,8 @@
 
     Add 1 other card you have in play to your hand.'
   tags: []
+  related_cards:
+    - 630ba3b301ff48bbb1bf73b23bda10d1
 - name: Pulling the Petals
   db_uuid: 8d7fa73a6dc64a919641015f4a471fcc
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
@@ -40660,6 +40667,8 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - 630ba3b301ff48bbb1bf73b23bda10d1
 - name: Hummingbird Effect
   db_uuid: 6639064ed8d64eb5b866d2267f6dab6d
   srg_url: https://supershowthegame.com/product/ninja-hummingbird/
@@ -40671,6 +40680,8 @@
 
     When this card is in your discard pile and you roll Technique for your turn roll: You may bury your hand then add this card to your hand.'
   tags: []
+  related_cards:
+    - 630ba3b301ff48bbb1bf73b23bda10d1
 - name: Numer01
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e
   srgpc_url: https://www.srgpc.net/cards/competitors/numer01/
@@ -40999,6 +41010,7 @@
     - 0004458c7d0c4525a667c4280cd54d97
 - name: Paiger Rager
   db_uuid: c5f5a8fe49d3423f91cc22e769245c7a
+  srg_url: https://supershowthegame.com/product/paiger-rager/
   srgpc_url: https://www.srgpc.net/cards/competitors/paiger-rager/
   card_type: SingleCompetitorCard
   division: United States
@@ -41011,6 +41023,48 @@
   grapple: 6
   rules_text: When the Crowd Meter is 1 or greater your Breakout rolls are +1.
   tags: []
+  related_finishes:
+    - f2eebbb517074c3198367b5134366522
+    - 8f57f4d5ee724f7e989212a71b79203f
+    - dc609071196f4deb9f9c7d0e88f502eb
+- name: Turn the Paige
+  db_uuid: f2eebbb517074c3198367b5134366522
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    When the Crowd Meter is 2 or greater this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - c5f5a8fe49d3423f91cc22e769245c7a
+- name: The Blank Paige
+  db_uuid: 8f57f4d5ee724f7e989212a71b79203f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Draw 2 cards.
+
+    Your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - c5f5a8fe49d3423f91cc22e769245c7a
+- name: The Last Paige
+  db_uuid: dc609071196f4deb9f9c7d0e88f502eb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +1 to all your skills.
+  tags: []
+  related_cards:
+    - c5f5a8fe49d3423f91cc22e769245c7a
 - name: The Pain Artist DaVinci Wade
   db_uuid: bd7c8123529e42ddbd97f8fc0fb81c18
   srgpc_url: https://www.srgpc.net/cards/competitors/the-pain-artist-davinci-wade/
@@ -49857,6 +49911,7 @@
   tags: []
 - name: Ollie
   db_uuid: 0c1b1853cc114d119cd55a50f04386f5
+  srg_url: https://supershowthegame.com/product/ollie/
   srgpc_url: https://www.srgpc.net/competitor/ollie/
   card_type: SingleCompetitorCard
   division: United States
@@ -49869,6 +49924,10 @@
   grapple: 9
   rules_text: When you roll Agility, flip 3 cards then bury 2 cards in your discard pile.
   tags: []
+  related_finishes:
+    - eaba9c868c11493794592dcd1efb3430
+    - 833f49b1c09e4dc9b305d589d630c04d
+    - 18f6b68163a747b5ad66ce3eb09fefe1
 - name: Pedro Valiant
   db_uuid: ef8dfa451af8437f813ffece624bad4f
   card_type: SingleCompetitorCard

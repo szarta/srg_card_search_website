@@ -41782,6 +41782,8 @@
   tags: []
 - name: Pretty Hair Piercer (V1)
   db_uuid: 3ca21530f41f4a43b0063316172dba00
+  srg_url: https://supershowthegame.com/product/pretty-hair-piercer/
+  srgpc_url: https://www.srgpc.net/cards/competitors/pretty-hair-piercer/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -41793,8 +41795,16 @@
   grapple: 6
   rules_text: When you roll Technique or Submission for your turn roll, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - 35f32c48d45d455286b48ad75f208182
+    - 020e403b78714720a5eb22beed222a70
+    - 8622a333b8e64beea37d04e861c3d3e4
+    - f569e08142c643038504439fa8c256f1
+    - 0058e30c64d5447ca177474adc015ef9
+    - 4fd0c3fada514757aab54f4c897823bf
 - name: Pretty Hair Piercer (V2)
   db_uuid: 692d5eaef3004346b5458de99691e24c
+  srgpc_url: https://www.srgpc.net/competitor/pretty-hair-piercer-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -41806,6 +41816,107 @@
   grapple: 6
   rules_text: If your turn roll was the same skill as your previous turn roll, it is +2.
   tags: []
+  related_finishes:
+    - 35f32c48d45d455286b48ad75f208182
+    - 020e403b78714720a5eb22beed222a70
+    - 8622a333b8e64beea37d04e861c3d3e4
+    - f569e08142c643038504439fa8c256f1
+    - 0058e30c64d5447ca177474adc015ef9
+    - 4fd0c3fada514757aab54f4c897823bf
+- name: The Hair is Better Than the Face
+  db_uuid: 35f32c48d45d455286b48ad75f208182
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    When this card is in your discard pile:
+
+    If you rolled Technique for your last 2 turn rolls or rolled Submission for your last 2 turn rolls, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
+- name: RyOn is Better with an "O" than an "A"
+  db_uuid: 020e403b78714720a5eb22beed222a70
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    Draw cards equal to the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
+- name: When You're Tired of Taking Shovels
+  db_uuid: 8622a333b8e64beea37d04e861c3d3e4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    If your turn roll was exactly 1 greater than your opponent''s, double these bonuses.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
+- name: Lather, Rinse, Repeat
+  db_uuid: f569e08142c643038504439fa8c256f1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    If your opponent breaks out, you may shuffle this card into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
+- name: F-Suave
+  db_uuid: 0058e30c64d5447ca177474adc015ef9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +2 to Grapple
+
+    Your next turn roll is +5.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
+- name: The Split End
+  db_uuid: 4fd0c3fada514757aab54f4c897823bf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Submission
+
+    If stopped, you may change your next turn roll to Technique or Submission.'
+  tags: []
+  related_cards:
+    - 3ca21530f41f4a43b0063316172dba00
+    - 692d5eaef3004346b5458de99691e24c
 - name: Pretzel Wizard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
   card_type: SingleCompetitorCard

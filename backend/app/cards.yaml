@@ -41600,6 +41600,7 @@
   tags: []
 - name: Poco Loco
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
+  srg_url: https://supershowthegame.com/product/poco-loco/
   srgpc_url: https://www.srgpc.net/cards/competitors/poco-loco/
   card_type: SingleCompetitorCard
   division: United States
@@ -41610,7 +41611,52 @@
   strike: 7
   submission: 6
   grapple: 8
+  rules_text: When you roll Agility for your turn roll, shuffle 4 cards from your discard pile into your deck.
   tags: []
+  related_finishes:
+    - 03d14b7199a1474f8d159567d3644918
+    - 0f06ad8a14c54c00a9350644a0b53038
+    - 78c1b38df93049ee8c6f7f9a7f713147
+- name: Loco Motion
+  db_uuid: 03d14b7199a1474f8d159567d3644918
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +3 to Strike
+
+    If stopped, discard 2 cards from your hand.'
+  tags: []
+  related_cards:
+    - d8990075aa4b4d3f857bb00ff06ea3b2
+- name: San Juan Sunrise
+  db_uuid: 0f06ad8a14c54c00a9350644a0b53038
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Flip up to 4 cards and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - d8990075aa4b4d3f857bb00ff06ea3b2
+- name: Puerto Rican Sand Crab
+  db_uuid: 78c1b38df93049ee8c6f7f9a7f713147
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - d8990075aa4b4d3f857bb00ff06ea3b2
 - name: Poland's Prince
   db_uuid: eaa66b2581dd44f0980eaebc34dbfbf5
   srgpc_url: https://www.srgpc.net/cards/competitors/polands-prince/

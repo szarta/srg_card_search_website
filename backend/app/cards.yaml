@@ -40742,7 +40742,122 @@
   db_uuid: 9623ba974511425ebabfd5a904786f80
   srgpc_url: https://www.srgpc.net/cards/competitors/ny-phenom/
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: 'Your NY Phenom Finishes:
+
+    #28 is also #22
+
+    #29 is also #23
+
+    #30 is also #24'
   tags: []
+  related_finishes:
+    - 892b848d62e84cba99d43cb6bf115e5f
+    - c62cbcc4c6ca4398a80f23e45b0b9463
+    - 1a7b41a18ec84ff88d155bebf31462cd
+    - 81bab99156034de1bb1444948766ed41
+    - 996bfb956a53447080ac2999831e13ee
+    - 5e2fc7604be7428f8f79ddf8ff1698ab
+- name: New York State of Mind
+  db_uuid: 892b848d62e84cba99d43cb6bf115e5f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Flip 2 cards.
+
+    Add 1 Grapple and 1 Submission from your discard pile to your hand, or your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
+- name: Grip of the Wise Man
+  db_uuid: c62cbcc4c6ca4398a80f23e45b0b9463
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    Flip 1 card.
+
+    Shuffle 2 cards from your discard pile into your deck. Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
+- name: Madison Square Lock
+  db_uuid: 1a7b41a18ec84ff88d155bebf31462cd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
+- name: Strong Island Chin Music!
+  db_uuid: 81bab99156034de1bb1444948766ed41
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    When your opponent has 0 cards in their deck, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
+- name: The Bronx Bomb
+  db_uuid: 996bfb956a53447080ac2999831e13ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    During your turn:
+
+    When this card is in yoru discard pile: You may replace "Your opponent" with "Either player" in your Gimmick.'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
+- name: Cross Island Cross Face
+  db_uuid: 5e2fc7604be7428f8f79ddf8ff1698ab
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Search your deck for 1 Finish and put it in your discard pile.
+
+    Your Technique, Submission, and Grapple are +1 for each Finish in your discard pile (Max +3).'
+  tags: []
+  related_cards:
+    - 9623ba974511425ebabfd5a904786f80
+    - f2c76632b46d4789a0b79720f3a392a9
 - name: O'Shay Edwards
   db_uuid: 7463c878455c4e76987b260d57741135
   srgpc_url: https://www.srgpc.net/cards/competitors/oshay-edwards/
@@ -50029,7 +50144,7 @@
   card_type: SingleCompetitorCard
   division: United States
   tags: []
-- name: Phenomenal Wiseman JB
+- name: Phenomenal Wiseman
   db_uuid: f2c76632b46d4789a0b79720f3a392a9
   srg_url: https://supershowthegame.com/product/phenomenal-wise-man/
   srgpc_url: https://www.srgpc.net/competitor/phenomenal-wiseman/
@@ -50044,6 +50159,13 @@
   grapple: 8
   rules_text: 'At the start of the match, choose 3 words with at least 4 letters: When your opponent hits a card with 1 of those words in the name, draw 1 card.'
   tags: []
+  related_finishes:
+    - 892b848d62e84cba99d43cb6bf115e5f
+    - c62cbcc4c6ca4398a80f23e45b0b9463
+    - 1a7b41a18ec84ff88d155bebf31462cd
+    - 81bab99156034de1bb1444948766ed41
+    - 996bfb956a53447080ac2999831e13ee
+    - 5e2fc7604be7428f8f79ddf8ff1698ab
 - name: Shattered Split
   db_uuid: 627444f08925427b973a23be26369043
   card_type: SingleCompetitorCard

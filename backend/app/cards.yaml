@@ -41944,6 +41944,8 @@
 
     +4 to Strike'
   tags: []
+  related_cards:
+    - fcb3c164213a49be9ab0ae4a70bdc211
 - name: Brezel Bomb
   db_uuid: fe9ddea24e7544adb7e0e45e6627529f
   card_type: MainDeckCard
@@ -41958,6 +41960,8 @@
 
     If stopped, you may play 2 additional cards this turn.'
   tags: []
+  related_cards:
+    - fcb3c164213a49be9ab0ae4a70bdc211
 - name: Tod Ersticken
   db_uuid: 3fe3c72a858347ceaac98b22b1ec9db1
   card_type: MainDeckCard
@@ -41968,11 +41972,69 @@
 
     When the Crowd Meter is 3 or greater, your opponent cannot breakout.'
   tags: []
+  related_cards:
+    - fcb3c164213a49be9ab0ae4a70bdc211
 - name: Pride
   db_uuid: 09df8a22bc694a29b7465cd9a80ee9f5
+  srg_url: https://supershowthegame.com/product/pride/
+  srgpc_url: https://www.srgpc.net/cards/competitors/pride/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'When you hit a Spotlight: Draw 2 cards then discard 1 card from your hand.'
   tags: []
+  related_finishes:
+    - 16281b934ccc470ea09ed7a43c4e7e51
+    - f7a5d60956b94027bb281292452e8fc2
+    - aa049f5ef34e463db3ec2c3a8fb1e343
+- name: Pride Flare
+  db_uuid: 16281b934ccc470ea09ed7a43c4e7e51
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    If your opponent breaks out, shuffle up to 3 Spotlight cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 09df8a22bc694a29b7465cd9a80ee9f5
+- name: I Decided That
+  db_uuid: f7a5d60956b94027bb281292452e8fc2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile, your maximum handsize is +3.'
+  tags: []
+  related_cards:
+    - 09df8a22bc694a29b7465cd9a80ee9f5
+- name: Welcome to Paradise
+  db_uuid: aa049f5ef34e463db3ec2c3a8fb1e343
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    If you have 3 or more Spotlight cards in play, +2 to Technique.'
+  tags: []
+  related_cards:
+    - 09df8a22bc694a29b7465cd9a80ee9f5
 - name: Primalotta
   db_uuid: 11090ca47d7b45ba98292af07e58f428
   card_type: SingleCompetitorCard

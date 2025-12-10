@@ -40312,7 +40312,7 @@
     - bcb6213f3bae4cd289863aea29f7f852
     - a811f7e2312b44819390df47ba7abb14
   comment: Chris Pagillo
-- name: Mr Snap (V1)
+- name: Mr. Snap (V1)
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad
   card_type: SingleCompetitorCard
   division: World Championship
@@ -40343,6 +40343,8 @@
 
     Shuffle 1 card from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - f9cb3b3b788346eda95fcb066e9305ad
 - name: Severus Snap
   db_uuid: f679e1b1ae774ea194954fcb8f3075a9
   card_type: MainDeckCard
@@ -40355,6 +40357,8 @@
 
     When this card is in yoru discard pile and your opponent flips any number of cards; add it to your hand.'
   tags: []
+  related_cards:
+    - f9cb3b3b788346eda95fcb066e9305ad
 - name: Mr. Snap's Devious Plan
   db_uuid: 7756fa0c42e24affb904183365aab5df
   card_type: MainDeckCard
@@ -40365,11 +40369,67 @@
 
     If your Submission skill is greater than your opponent''s Submission skill: Stop any Finish strike.'
   tags: []
-- name: Mr Snap (V2)
+  related_cards:
+    - f9cb3b3b788346eda95fcb066e9305ad
+- name: Mr. Snap (V2)
   db_uuid: 65f7d712267548c2a549636af572dfcb
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: Your opponent's maximum hand size is -2 for each card you have in play with "Snap" or "Breaker" in the name.
   tags: []
+  related_finishes:
+    - 1361a182b063486abf28572bd9bcb428
+    - 833caf4cac8744cba95551f274025cdf
+    - 2c962636d5c045d5b218f79a6939dfca
+- name: Snap Shot
+  db_uuid: 1361a182b063486abf28572bd9bcb428
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When your opponent has 2 or fewer cards in their hand, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 65f7d712267548c2a549636af572dfcb
+- name: '*Snap*'
+  db_uuid: 833caf4cac8744cba95551f274025cdf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    When your opponent has 2 or fewer cards in their hand, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 65f7d712267548c2a549636af572dfcb
+- name: The Snap Keep
+  db_uuid: 2c962636d5c045d5b218f79a6939dfca
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent''s Gimmick is blank.
+
+    Your opponent buries 1 random card in their hand for each card you have in play with "Snap" or "Breaker" in the name.
+
+    If your opponent breaks out, you may put this card into play.'
+  tags: []
+  related_cards:
+    - 65f7d712267548c2a549636af572dfcb
 - name: Mrs. Bum, Lovely Mone
   db_uuid: a546704b5fb04a0398cd2e0e54c8210c
   card_type: SingleCompetitorCard

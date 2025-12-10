@@ -42932,7 +42932,8 @@
     - d4e8d703c3a64310b24f5ef1b466c23c
 - name: Riggs Simmons (V1)
   db_uuid: d408bb1c9cb94a4882b1beb250beae75
-  srgpc_url: https://www.srgpc.net/competitor/riggs-simmons-v2/
+  srg_url: https://supershowthegame.com/product/riggs-simmons/
+  srgpc_url: https://www.srgpc.net/cards/competitors/riggs-simmons/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -42946,9 +42947,14 @@
 
     If you played a Follow Up, you may discard 1 Follow Up from your hand to play an extra card this turn (that card must be a Follow Up).'
   tags: []
+  related_finishes:
+    - 30cff599787945a0959bb8eaa4e2816d
+    - 5d0f9c7cf260422c8de5e794b3834aaf
+    - a5a30fa426934913bb39c01efee31206
 - name: Riggs Simmons (V2)
   db_uuid: d2ffdea36f394990b9c1d68695118e24
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
+  srgpc_url: https://www.srgpc.net/competitor/riggs-simmons-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -42960,6 +42966,55 @@
   grapple: 9
   rules_text: 'When you roll Technique for your turn roll: Shuffle 2 cards with "Table" in the name from your discard pile into your deck, and your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - 30cff599787945a0959bb8eaa4e2816d
+    - 5d0f9c7cf260422c8de5e794b3834aaf
+    - a5a30fa426934913bb39c01efee31206
+- name: Rigged to Strike
+  db_uuid: 30cff599787945a0959bb8eaa4e2816d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Agility
+
+    +1 to Power'
+  tags: []
+  related_cards:
+    - d408bb1c9cb94a4882b1beb250beae75
+    - d2ffdea36f394990b9c1d68695118e24
+- name: Girder Collapse
+  db_uuid: 5d0f9c7cf260422c8de5e794b3834aaf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    If stopped, take 2 Follow Ups from your discard pile and add them to your hand.'
+  tags: []
+  related_cards:
+    - d408bb1c9cb94a4882b1beb250beae75
+    - d2ffdea36f394990b9c1d68695118e24
+- name: Tear Down
+  db_uuid: a5a30fa426934913bb39c01efee31206
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +3 to Technique
+
+    Draw 3 cards.
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - d408bb1c9cb94a4882b1beb250beae75
+    - d2ffdea36f394990b9c1d68695118e24
 - name: Ring Leader
   db_uuid: f67082e53b084aefbc07e3df08801f6f
   srg_url: https://supershowthegame.com/product/ring-leader/

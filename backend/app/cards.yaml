@@ -42097,9 +42097,63 @@
   tags: []
 - name: Prince of GTS
   db_uuid: dec8fd598a5a46d484d879e0fb268e4b
+  srg_url: https://supershowthegame.com/product/prince-of-gts/
+  srgpc_url: https://www.srgpc.net/cards/competitors/prince-of-gts/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 9
+  submission: 10
+  grapple: 8
+  rules_text: Your Submission skill is +2 during turn rolls.
   tags: []
+  related_finishes:
+    - f00bd255c5ca4bf39ca497d4a35fe28d
+    - 3f105dad14004fb7bac7bfe2195f5db5
+    - 055171a893074fa881e674bb22753845
+- name: Flight of Angels
+  db_uuid: f00bd255c5ca4bf39ca497d4a35fe28d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to your lowest skill
+
+    Add 1 Submission and 1 Grapple from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - dec8fd598a5a46d484d879e0fb268e4b
+- name: Good Night Sweet Prince
+  db_uuid: 3f105dad14004fb7bac7bfe2195f5db5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    If the Crowd Meter is 3 or greater, draw 3 cards.'
+  tags: []
+  related_cards:
+    - dec8fd598a5a46d484d879e0fb268e4b
+- name: Sing Thee to Thy Rest
+  db_uuid: 055171a893074fa881e674bb22753845
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent gets Breakout rolls equal to the Crowd Meter +1 (Max +3).
+  tags: []
+  related_cards:
+    - dec8fd598a5a46d484d879e0fb268e4b
 - name: The Prizefighter
   db_uuid: e31ae16acabb4eac8370b65e6305d9a0
   card_type: SingleCompetitorCard

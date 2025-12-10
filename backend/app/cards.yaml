@@ -45715,6 +45715,8 @@
   tags: []
 - name: Mr. Sunday Night Ron Rumble
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
+  srg_url: https://supershowthegame.com/product/mr-sunday-night/
+  srgpc_url: https://www.srgpc.net/competitor/sunday-night-ron-rumble/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -45886,6 +45888,8 @@
 
     If stopped, you lose the match via disqualification.'
   tags: []
+  related_cards:
+    - dfa3e0991ea3426197f4ded552575d61
 - name: Death of Glamour
   db_uuid: 7a94c4d447f1463c9b16c2440c916476
   card_type: MainDeckCard
@@ -45898,6 +45902,8 @@
 
     If you have a card in play with "Table" in the name, you may re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - dfa3e0991ea3426197f4ded552575d61
 - name: The Hollywood Ending™
   db_uuid: 244bf79f6adc48a28c553e55aa16df6b
   card_type: MainDeckCard
@@ -45912,6 +45918,8 @@
 
     Your opponent''s next 2 turn rolls are -2.'
   tags: []
+  related_cards:
+    - dfa3e0991ea3426197f4ded552575d61
 - name: The Master Strategist
   db_uuid: 1e018f4597504d1cb3f3f2711ee1326a
   srgpc_url: https://www.srgpc.net/competitor/the-master-strategist/
@@ -46010,6 +46018,8 @@
   tags: []
 - name: Mr. Rumble
   db_uuid: 20f71ac49c4b4f29998ebc7e69657087
+  srg_url: https://supershowthegame.com/product/mr-rumble/
+  srgpc_url: https://www.srgpc.net/competitor/mr-rumble/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -46044,6 +46054,10 @@
 
     Draw 2 cards.'
   tags: []
+  related_cards:
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Brickyard Buster
   db_uuid: 4b9d7155db4b467394de380e64845213
   card_type: MainDeckCard
@@ -46056,6 +46070,10 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Wrath of Ron
   db_uuid: 0e47793f06b44dd691e13d7b1d67285b
   card_type: MainDeckCard
@@ -46066,8 +46084,14 @@
 
     Your opponent gets 1 fewer breakout roll this turn.'
   tags: []
+  related_cards:
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Mr. Rumble Unleashed
   db_uuid: cf70eb630fbd4f35b55ca9df52b8c5c0
+  srg_url: https://supershowthegame.com/product/mr-sunday-night/
+  srgpc_url: https://www.srgpc.net/competitor/mr-rumble-unleashed/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -46098,6 +46122,10 @@
 
     You may reveal this card in your hand and bury it along with 2 other cards from your hand to stop any Submission.'
   tags: []
+  related_cards:
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Readiest Moonsault Ever
   db_uuid: e466fe26c2174300ad966f2f222ebc39
   card_type: MainDeckCard
@@ -46108,6 +46136,10 @@
 
     Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.'
   tags: []
+  related_cards:
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Big Daddy Microphone Choke
   db_uuid: 7dbc002153f8415db6512ff14b49168a
   card_type: MainDeckCard
@@ -46118,6 +46150,10 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - cf70eb630fbd4f35b55ca9df52b8c5c0
+    - 20f71ac49c4b4f29998ebc7e69657087
+    - 01294f0b05eb48ddaf8dd763b852a7ad
 - name: Bael
   db_uuid: 3e85e823fd544ea7acd81acb9b3e627f
   srg_url: https://supershowthegame.com/product/bael/
@@ -50018,6 +50054,7 @@
 - name: The Back Stretch
   db_uuid: 8e191d075f8b421eb6fbdfc63a2d1d4d
   srg_url: https://supershowthegame.com/product/the-back-stretch/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-back-stretch/
   card_type: TornadoCompetitorCard
   power: 18
   technique: 16
@@ -50027,6 +50064,21 @@
   grapple: 12
   rules_text: 'When your opponent rolls Submission for their turn roll: they randomly bury 1 card in their hand, and you may bury 2 cards in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - 7333bd77424b441891340c35244b2b11
+    - a7aba02de8f84413b3ff42bc12d2f320
+  related_finishes:
+    - 9d1f2d4aadbb4ab8a183bd447d783c66
+    - 943853be9a154f509b1fec67e16e5da6
+    - d0802fa1c7ab4b38b6b17be7841fdf1a
+    - bcb6213f3bae4cd289863aea29f7f852
+    - a811f7e2312b44819390df47ba7abb14
+    - 7aa1dfd1658941be9c549e4675521c9a
+    - 70f48c9c5f7e4b69827e1b734400e755
+    - 03bdd58874854746882e0a6b30f9fe06
+    - b4d7ec1e5a5342efa6a1d6abe1f26ffc
+    - 431c9518fd474c35bb223ae2000fe369
+    - 3327d17cb24f4f68bd13500140a935e3
 - name: Founding Fathers
   db_uuid: a28b9f5e3a034f3fb375477b6c07ea34
   srg_url: https://supershowthegame.com/product/founding-fathers/

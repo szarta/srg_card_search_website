@@ -42555,8 +42555,9 @@
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
-- name: Rekt
+- name: Rekt Khaos
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
+  srg_url: https://supershowthegame.com/product/rekt/
   srgpc_url: https://www.srgpc.net/cards/competitors/rekt/
   card_type: SingleCompetitorCard
   division: Hardcore
@@ -42567,7 +42568,60 @@
   strike: 6
   submission: 8
   grapple: 5
+  rules_text: 'Once per turn roll:
+
+    When you and your opponent roll the same skill, look at the top 3 cards of your deck.
+
+    Randomly add 1 to your hand, bury 1 and flip the other.'
   tags: []
+  related_finishes:
+    - 36d1a46d780f44c894b58469a3783654
+    - c7c4923a40fd413aba349e2f834aa5b1
+    - 875ebb1e038f48d8bfce4fd9ac7339dc
+- name: Get Rekt
+  db_uuid: 36d1a46d780f44c894b58469a3783654
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    If you and your opponent rolled the same skill for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - b83811d6e476481cbfbf379d4be81a8b
+- name: Rekstorm
+  db_uuid: c7c4923a40fd413aba349e2f834aa5b1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    If this card is flipped for your Gimmick, your opponent randomly discards 1 card in their hand.'
+  tags: []
+  related_cards:
+    - b83811d6e476481cbfbf379d4be81a8b
+- name: Rekless Abandon
+  db_uuid: 875ebb1e038f48d8bfce4fd9ac7339dc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +2 to Submission
+
+    Randomly bury 2 cards in your hand.
+
+    If you and your opponent rolled the same skill for your turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - b83811d6e476481cbfbf379d4be81a8b
 - name: Reverend Good Brain
   db_uuid: 289c8f5092744a71a376e27dd231bd04
   srgpc_url: https://www.srgpc.net/cards/competitors/reverend-good-brain/

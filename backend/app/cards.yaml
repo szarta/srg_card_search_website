@@ -41093,10 +41093,64 @@
   tags: []
 - name: Pat the Thinker
   db_uuid: 582f1c66d042475088de05345806d255
+  srg_url: https://supershowthegame.com/product/pat-the-thinker/
   srgpc_url: https://www.srgpc.net/cards/competitors/pat-the-thinker/
   card_type: SingleCompetitorCard
   division: Hardcore
+  power: 8
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 5
+  grapple: 9
+  rules_text: Ignore the word "Randomly" when any of your cards are affected.
   tags: []
+  related_finishes:
+    - 9dd13f48d99f446da1f3c290f57b8c55
+    - c896238278784da2995822125b7a3278
+    - 07e3259e0cf045aebd5e6277afd8121d
+- name: I Think, Therefore I Am
+  db_uuid: 9dd13f48d99f446da1f3c290f57b8c55
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    When this card is in your discard pile: You may replace "Or" with "And" in the text of your cards and you may ignore "If stopped" in the text of your cards.'
+  tags: []
+  related_cards:
+    - 582f1c66d042475088de05345806d255
+- name: The Battle of Wits
+  db_uuid: c896238278784da2995822125b7a3278
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Each player randomly discards 3 cards from their hand. Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 582f1c66d042475088de05345806d255
+- name: Judge a Man by His Questions Rather Than By His Answers
+  db_uuid: 07e3259e0cf045aebd5e6277afd8121d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    Choose a player to flip their deck into their discard pile or choose a player to randomly bury their discard pile.'
+  tags: []
+  related_cards:
+    - 582f1c66d042475088de05345806d255
 - name: Peppermint T
   db_uuid: 8b779087745046389e96016a9622e1f8
   srgpc_url: https://www.srgpc.net/competitors/peppermint-t/

@@ -27230,9 +27230,11 @@
     - f08974e57d3b4c2493b417fcbd49acb6
 - name: Patient Zero Shawn Grubaugh
   db_uuid: 9c2616f1fc8c48aaa65cc468f99ff45d
+  srg_url: https://supershowthegame.com/product/patient-zero-shawn-grubaugh/
   srgpc_url: https://www.srgpc.net/cards/competitors/patient-zero-shawn-grubaugh/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
   power: 9
   technique: 5
   agility: 6
@@ -27241,6 +27243,46 @@
   grapple: 7
   rules_text: At the start of the match, choose an opponent, their Power is -1 during their turn, turn rolls, and 1st and 2nd breakout rolls.
   tags: []
+  related_finishes:
+    - 38e6bfb9216944e8abb396baf6f417dc
+    - 31f0d608819445d6ac8e5875e38c2f44
+    - d63322accda44b2dacbf78f8a98a1472
+- name: The Chronic Crusher
+  db_uuid: 38e6bfb9216944e8abb396baf6f417dc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - 9c2616f1fc8c48aaa65cc468f99ff45d
+- name: The Widespread Epidemic
+  db_uuid: 31f0d608819445d6ac8e5875e38c2f44
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    If your opponent breaks out, you may play 1 additional Patient Zero Shawn Grubaugh card this turn as if it were a Lead.'
+  tags: []
+  related_cards:
+    - 9c2616f1fc8c48aaa65cc468f99ff45d
+- name: The Outbreak
+  db_uuid: d63322accda44b2dacbf78f8a98a1472
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Your opponent''s Power is -1.'
+  tags: []
+  related_cards:
+    - 9c2616f1fc8c48aaa65cc468f99ff45d
 - name: The Next Supreme
   db_uuid: f45bbd93c4b14c91bb85df10e4a82c31
   srgpc_url: https://www.srgpc.net/cards/competitors/the-next-supreme/

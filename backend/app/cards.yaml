@@ -29632,6 +29632,8 @@
 
     Your Power and Strike are +1 during turn rolls.'
   tags: []
+  related_cards:
+    - 80b626dbcde047a595f325056eaa6907
 - name: Lights! Camera! Stomp!
   db_uuid: 98a849628df54d039b2257380fadae1d
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/
@@ -29647,6 +29649,8 @@
 
     If you stopped a card with your Gimmick last turn, double these bonuses.'
   tags: []
+  related_cards:
+    - 80b626dbcde047a595f325056eaa6907
 - name: Denouement
   db_uuid: 68083df0d3624138be5234518cc0d640
   srg_url: https://supershowthegame.com/product/rambo-apocalypse/
@@ -29662,6 +29666,8 @@
 
     Your finish roll is +1 for each skill requirement card discarded.'
   tags: []
+  related_cards:
+    - 80b626dbcde047a595f325056eaa6907
 - name: Big Match Pete
   db_uuid: 9df6a6d4fdfa4b0f95cb8c64737fa4aa
   srgpc_url: https://www.srgpc.net/cards/competitors/big-match-pete/
@@ -50020,8 +50026,52 @@
   strike: 7
   submission: 8
   grapple: 5
-  rules_text: When  you roll Grapple for your turn roll, you may switch 1 card in your hand with one card in your discard pile that has "Shot", "Bow", "Arrow", or "Trap" in the name.
+  rules_text: When you roll Grapple for your turn roll, you may switch 1 card in your hand with one card in your discard pile that has "Shot", "Bow", "Arrow", or "Trap" in the name.
   tags: []
+  related_finishes:
+    - 763fa47cff1b4d98b235720ed3aff77e
+    - dc6f7753efde42e68c7a8f478986cf3e
+    - 77b7832c9501449083008bf8a0fa8343
+- name: The Hunter's Arrow
+  db_uuid: 763fa47cff1b4d98b235720ed3aff77e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Your opponent randomly discards 1 card from their hand: If they discard a Stop, your Technique is +1.'
+  tags: []
+  related_cards:
+    - cc37ceca4d674cb2ac35e22f4f712b25
+- name: Lack of Respect
+  db_uuid: dc6f7753efde42e68c7a8f478986cf3e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - cc37ceca4d674cb2ac35e22f4f712b25
+- name: Ranger's Trap
+  db_uuid: 77b7832c9501449083008bf8a0fa8343
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    When this card is in your discard pile, your "Bow and Arrow" is also a Finish.'
+  tags: []
+  related_cards:
+    - cc37ceca4d674cb2ac35e22f4f712b25
 - name: Santa Calace
   db_uuid: ec4a5153f73e4145ae00e17b1124a3ed
   card_type: SingleCompetitorCard

@@ -40314,6 +40314,7 @@
   comment: Chris Pagillo
 - name: Mr. Snap (V1)
   db_uuid: f9cb3b3b788346eda95fcb066e9305ad
+  srgpc_url: https://www.srgpc.net/cards/competitors/mr-snap-old/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -40373,6 +40374,8 @@
     - f9cb3b3b788346eda95fcb066e9305ad
 - name: Mr. Snap (V2)
   db_uuid: 65f7d712267548c2a549636af572dfcb
+  srg_url: https://supershowthegame.com/product/mr-snap-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/mr-snap-new/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -40451,6 +40454,8 @@
   tags: []
 - name: MVP (Most Valuable Polverino)
   db_uuid: b724c6a2db604a95971f30f7a424d2de
+  srg_url: https://supershowthegame.com/product/mvp/
+  srgpc_url: https://www.srgpc.net/competitors/mvp-most-valuable-polverino/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -40462,6 +40467,50 @@
   grapple: 8
   rules_text: 'When you roll 6 for your turn roll: Add 1 "MVP" Finish from your discard pile to your hand or your opponent''s next turn roll is -1.'
   tags: []
+  related_finishes:
+    - 1ed871b04c5943a4b9a469b794ccf8d0
+    - c0a766b077e34b1f9bdcb03b4b998d24
+    - e1fcc304806b44aab0ab889522c294c9
+- name: If the Shoe Fits
+  db_uuid: 1ed871b04c5943a4b9a469b794ccf8d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b724c6a2db604a95971f30f7a424d2de
+- name: Next Era Stunner
+  db_uuid: c0a766b077e34b1f9bdcb03b4b998d24
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    +1 to Submission'
+  tags: []
+  related_cards:
+    - b724c6a2db604a95971f30f7a424d2de
+- name: Most Valuable Hold
+  db_uuid: e1fcc304806b44aab0ab889522c294c9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile and you roll Submission for your turn roll draw 1 card.'
+  tags: []
+  related_cards:
+    - b724c6a2db604a95971f30f7a424d2de
 - name: Nadja Mai
   db_uuid: c65b7a1aee3e4237a00987baa88b2a28
   srgpc_url: https://www.srgpc.net/cards/competitors/nadja-mai/

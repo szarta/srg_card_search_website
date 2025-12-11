@@ -44829,6 +44829,7 @@
   tags: []
   related_cards:
     - 3f3f8b5b536443bb8552f182a2bf9fa0
+    - 627444f08925427b973a23be26369043
 - name: Laughing in the Dark
   db_uuid: 4906c1a70d344f00919269174eaba87e
   card_type: MainDeckCard
@@ -44843,6 +44844,7 @@
   tags: []
   related_cards:
     - 3f3f8b5b536443bb8552f182a2bf9fa0
+    - 627444f08925427b973a23be26369043
 - name: Split Personality
   db_uuid: 4171d7464914421e9c36a381ed559aa1
   card_type: MainDeckCard
@@ -44857,6 +44859,7 @@
   tags: []
   related_cards:
     - 3f3f8b5b536443bb8552f182a2bf9fa0
+    - 627444f08925427b973a23be26369043
 - name: Why So Serious?!?
   db_uuid: 0cf6579fa92548cc9b5a6690659c5425
   card_type: MainDeckCard
@@ -44871,6 +44874,7 @@
   tags: []
   related_cards:
     - 3f3f8b5b536443bb8552f182a2bf9fa0
+    - 627444f08925427b973a23be26369043
 - name: The SRG Boss (V1)
   db_uuid: 5bb1291d12d94245872efd166cdd72fc
   srg_url: https://supershowthegame.com/product/the-srg-boss/

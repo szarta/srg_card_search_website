@@ -52174,6 +52174,8 @@
   tags: []
 - name: SRG Mom
   db_uuid: 6a32e401cff74db8937a966a156ae2c3
+  srg_url: https://supershowthegame.com/product/srg-mom/
+  srgpc_url: https://www.srgpc.net/competitor/srg-mom/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -52183,8 +52185,52 @@
   strike: 5
   submission: 10
   grapple: 7
-  rules_text: When your opponent reveals any number of cards from your effect, you may bury 1 of the revealed cards.
+  rules_text: When your opponent reveals any number of cards from your effects, you may bury 1 of the revealed cards.
   tags: []
+  related_finishes:
+    - cbbce89444254eadb9b252d02006640a
+    - bc363c0c6c854f7991558565fb301395
+    - d50515a438af4d8f9ea966f9287b1932
+- name: Chop Chop Lollipop
+  db_uuid: cbbce89444254eadb9b252d02006640a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    If you moved a card from your discard pile to your hand last turn, this card is also a Follow Up.
+
+    When you have "Raise the Dead" in play and your Finish roll is 6 or less, it is +2.'
+  tags: []
+  related_cards:
+    - 6a32e401cff74db8937a966a156ae2c3
+- name: Tuck and Roll, Bombada!
+  db_uuid: bc363c0c6c854f7991558565fb301395
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    Before each Breakout roll, your opponent may reveal 2 cards in their hand to add +1 to a skill on the next Breakout roll.'
+  tags: []
+  related_cards:
+    - 6a32e401cff74db8937a966a156ae2c3
+- name: Highland Sheepshooter
+  db_uuid: d50515a438af4d8f9ea966f9287b1932
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Your opponent randomly reveals 2 cards in their hand. If 1 is a Follow Up or Finish you may have this card copy its text or +2 to Grapple.'
+  tags: []
+  related_cards:
+    - 6a32e401cff74db8937a966a156ae2c3
 - name: Syzygy
   db_uuid: 84cabdff220742dfae1717f690ae850a
   srg_url: https://supershowthegame.com/product/syzygy/

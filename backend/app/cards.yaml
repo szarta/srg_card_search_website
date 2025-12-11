@@ -43320,9 +43320,65 @@
   tags: []
 - name: Romeo 3000
   db_uuid: b5dab595d5cc4b4fa0692a3a5903d639
+  srg_url: https://supershowthegame.com/product/romeo-3000/
+  srgpc_url: https://www.srgpc.net/cards/competitors/romeo-3000/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 8
+  strike: 10
+  submission: 9
+  grapple: 6
+  rules_text: When you and your opponent roll the same skill for your turn roll, draw 1 card.
   tags: []
+  related_finishes:
+    - 212c3c2de1d24270b44f6736444e667d
+    - cfd969a71e9b4eadbda90bb4a50a6a3d
+    - 01a7f245c4264880bbcf54e726fa58e4
+- name: Parting is Such Sweet Sorrow
+  db_uuid: 212c3c2de1d24270b44f6736444e667d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    If you and your opponent rolled the same skill for your turn roll this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - b5dab595d5cc4b4fa0692a3a5903d639
+- name: The House Breaker
+  db_uuid: cfd969a71e9b4eadbda90bb4a50a6a3d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    If you and your opponent rolled the same skill for your turn roll this card is also a Lead.'
+  tags: []
+  related_cards:
+    - b5dab595d5cc4b4fa0692a3a5903d639
+- name: The Tragedy
+  db_uuid: 01a7f245c4264880bbcf54e726fa58e4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile and you and your opponent roll the same skill for your turn roll, shuffle it into your deck.'
+  tags: []
+  related_cards:
+    - b5dab595d5cc4b4fa0692a3a5903d639
 - name: The Ronin Kira Himura
   db_uuid: e37635c90e384afe9f4b6d30b15b40be
   card_type: SingleCompetitorCard
@@ -43470,7 +43526,60 @@
   db_uuid: f89a0c5862fd4971a8fbb2a29565c026
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 7
+  technique: 9
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 8
+  rules_text: 'Once during your turn: You may discard 1 card you have in play and if you played a card this turn you may play an additional card with the same card and move type as the discarded card.'
   tags: []
+  related_finishes:
+    - c1d854137bc640b4896fb751da37600d
+    - cc2c7968125e4c78ae881bacfa060dd8
+    - 77a7e72be7974e639dc11cfab149f15b
+- name: Mana-ton Channelling Punch
+  db_uuid: c1d854137bc640b4896fb751da37600d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    If you used your Gimmick this turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - f89a0c5862fd4971a8fbb2a29565c026
+- name: Mind Shocked
+  db_uuid: cc2c7968125e4c78ae881bacfa060dd8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +3 to Submission
+
+    Look at your opponent''s hand, choose 1 card and put it on top of their deck.
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - f89a0c5862fd4971a8fbb2a29565c026
+- name: When You Wish You Can Win a Turn Roll
+  db_uuid: 77a7e72be7974e639dc11cfab149f15b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If stopped, and you used your Gimmick this turn, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - f89a0c5862fd4971a8fbb2a29565c026
 - name: Sabu
   db_uuid: bb3bee34d3df4e1384ba7c77b2a826f3
   srgpc_url: https://www.srgpc.net/cards/competitors/sabu/

@@ -44260,6 +44260,7 @@
   tags: []
 - name: Shane Tilton
   db_uuid: 5e7ddda9089049ffaa3d37aa6e33c4dc
+  srg_url: https://supershowthegame.com/product/shane-tilton/
   srgpc_url: https://www.srgpc.net/competitors/shane-tilton/
   card_type: SingleCompetitorCard
   division: United States
@@ -44270,7 +44271,58 @@
   strike: 6
   submission: 8
   grapple: 7
+  rules_text: 'Once per Crowd Meter:
+
+    If your opponent has 2 cards in play of the same move type: You may discard 1 card from your hand to stop a card of that type.'
   tags: []
+  related_finishes:
+    - d40c410f978046aab8d5f83af3782111
+    - 17f94dea78234ca3996c4d449c6e07e6
+    - 82eff044cb71455ea2559843524e12ca
+- name: The Blinding Lights of Fame
+  db_uuid: d40c410f978046aab8d5f83af3782111
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Add 1 card from your discard pile to your hand or your opponent cannot play a card on their next turn.'
+  tags: []
+  related_cards:
+    - 5e7ddda9089049ffaa3d37aa6e33c4dc
+- name: Tilt on the World
+  db_uuid: 17f94dea78234ca3996c4d449c6e07e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Flip 2 cards. Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 5e7ddda9089049ffaa3d37aa6e33c4dc
+- name: Social Pressure
+  db_uuid: 82eff044cb71455ea2559843524e12ca
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    Your opponent''s 2nd and 3rd Breakout rolls are -1.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 5e7ddda9089049ffaa3d37aa6e33c4dc
 - name: Shane Strickland
   db_uuid: 17aed6b36bb347bf8eae88195831bf8b
   srgpc_url: https://www.srgpc.net/cards/competitors/shane-strickland/
@@ -56833,6 +56885,50 @@
   grapple: 8
   rules_text: When you hit a card with 1 line of text, draw 1 card or your next turn roll is +1.
   tags: []
+  related_finishes:
+    - a32e0ef577f340cbb5f6c485cb1fe64f
+    - b3db7b16aceb43d9b5dcf3c76a87dd09
+    - effeb3c64ec34ef1a247086e21a75a23
+- name: The Simpathizer
+  db_uuid: a32e0ef577f340cbb5f6c485cb1fe64f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Twice per turn:
+
+    If your turn roll was 11 or greater: If you rolled Strike for your Finish roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - a1d0a7618c4841d5843fbac23092b109
+- name: Simple Domain
+  db_uuid: b3db7b16aceb43d9b5dcf3c76a87dd09
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Power and Submission are +1 for each card you have in play with 1 line of text (Max +3).
+  tags: []
+  related_cards:
+    - a1d0a7618c4841d5843fbac23092b109
+- name: Candy Cremation
+  db_uuid: effeb3c64ec34ef1a247086e21a75a23
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    If you have no other cards in play with more than 1 line of text, your opponent''s Breakout rolls are -2.'
+  tags: []
+  related_cards:
+    - a1d0a7618c4841d5843fbac23092b109
 - name: Tortured Vigilante
   db_uuid: c9c7ebf148884c038fa00763434c6244
   srg_url: https://supershowthegame.com/product/tortured-vigilante/

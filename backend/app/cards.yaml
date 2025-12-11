@@ -43524,6 +43524,8 @@
   tags: []
 - name: Ryton
   db_uuid: f89a0c5862fd4971a8fbb2a29565c026
+  srg_url: https://supershowthegame.com/product/ryton/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ryton/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 7
@@ -44065,6 +44067,7 @@
     - ad4de9bc71a94dc08d89d5ce147cc9a1
 - name: Shade
   db_uuid: 54590750c88a4c3aaa4f2a98cbb6207e
+  srg_url: https://supershowthegame.com/product/shade/
   srgpc_url: https://www.srgpc.net/cards/competitors/shade/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -44075,7 +44078,54 @@
   strike: 10
   submission: 8
   grapple: 6
+  rules_text: When your opponent's turn roll is 9 or 10, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 78502f58be8d4b3dba433b83fa4caf2e
+    - 918464a5506347a091dd1882f1eb14b5
+    - a456b8b75ab4455e9273f2dcf6b931b1
+- name: Specter's Touch
+  db_uuid: 78502f58be8d4b3dba433b83fa4caf2e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Technique
+
+    Once a turn, you may force your opponent to re-roll their first or second Breakout roll.'
+  tags: []
+  related_cards:
+    - 54590750c88a4c3aaa4f2a98cbb6207e
+- name: The Haunting
+  db_uuid: 918464a5506347a091dd1882f1eb14b5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Flip 2 cards.
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 54590750c88a4c3aaa4f2a98cbb6207e
+- name: Specter's Shackles
+  db_uuid: a456b8b75ab4455e9273f2dcf6b931b1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If your Finish roll is 7 or less it is +1.'
+  tags: []
+  related_cards:
+    - 54590750c88a4c3aaa4f2a98cbb6207e
 - name: Shadow Phoenix (V1)
   db_uuid: b6a34c56cfb041e7839acfaf3e0a0eab
   srgpc_url: https://www.srgpc.net/cards/competitors/shadow-phoenix/

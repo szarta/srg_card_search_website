@@ -1021,6 +1021,9 @@
 
     Once per turn: You may reveal 2 Submissions from your hand to re-roll your Finish roll'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: Crash Landing
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1032,6 +1035,9 @@
 
     +2 to Grapple'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: Fear of Diving
   db_uuid: ebda093ef7284c7f9e10da5e35be90ae
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1047,6 +1053,9 @@
 
     If the Crowd Meter is 4 or greater stop any Finish Strike.'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: The Paper Cut
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
   card_type: MainDeckCard
@@ -1061,6 +1070,9 @@
 
     Once per turn: You may discard 1 Submission from your hand to force your opponent to re-roll their breakout roll'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: Cactus Driver 97'
   db_uuid: ba54a7d9874e48169b07969b52f171c6
   srg_url: https://supershowthegame.com/product/death-machine-sami-callihan/
@@ -1072,6 +1084,9 @@
 
     +2 to Strike'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: The Ball Claw
   db_uuid: a38f21dfd9cf4924a668c3396a428844
   card_type: MainDeckCard
@@ -1086,6 +1101,9 @@
 
     If the Crowd Meter is 5 or greater, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - 9fd2c3aee2a04dc2b28c07e043be587c
+    - 33f14ac0cc504bad9a2b0b465163e6d6
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
@@ -45144,7 +45162,60 @@
   strike: 5
   submission: 8
   grapple: 9
+  rules_text: 'When you roll Strike for your turn roll: Draw 1 card and your opponent buries 1 card in their hand, then shuffles their deck.'
   tags: []
+  related_finishes:
+    - d3c623bf278a4dfab9b2cd802b28073e
+    - 32b8eb30c084490d9c55f0300afab3f4
+    - 5458d7f9d40b48d5bd69124ff8a93d87
+- name: Podium and Oppossum Pounding
+  db_uuid: d3c623bf278a4dfab9b2cd802b28073e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    +1 to Grapple
+
+    Draw 1 card.
+
+    Look at your opponent''s hand.
+
+    Your opponent shuffles 2 cards from their hand into their deck.'
+  tags: []
+  related_cards:
+    - 191fdd8ac35641ba930ccdfcea5e94fd
+- name: Totally Violent Chokeslam
+  db_uuid: 32b8eb30c084490d9c55f0300afab3f4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Draw 2 cards. Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 191fdd8ac35641ba930ccdfcea5e94fd
+- name: Quiet Riot
+  db_uuid: 5458d7f9d40b48d5bd69124ff8a93d87
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    The next time your opponent shuffles their deck, draw 2 cards.'
+  tags: []
+  related_cards:
+    - 191fdd8ac35641ba930ccdfcea5e94fd
 - name: Tyler Chaos
   db_uuid: 6d522aa7ac7840d88a5790a5c7c7e5e0
   srgpc_url: https://www.srgpc.net/cards/competitors/tyler-chaos/
@@ -45580,12 +45651,126 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-sehkmet/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: When you hit a Strike, bury 2 cards in any player's discard pile.
   tags: []
+  related_finishes:
+    - fc8f78a8915846e391d5b5e2bc9c5f56
+    - 756cb91b93264111b257de975f386455
+    - 6611a7c46277475998a1d1c8491fa973
+- name: The Red Crown (V1)
+  db_uuid: fc8f78a8915846e391d5b5e2bc9c5f56
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    Your opponent discards cards from their hand equal to triple the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 18c9a0e41d4a4315a4e453bdb39d2be5
+- name: The Pharaoh's Curse (V1)
+  db_uuid: 756cb91b93264111b257de975f386455
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Add 3 Strikes from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 18c9a0e41d4a4315a4e453bdb39d2be5
+- name: Death's Embrace (V1)
+  db_uuid: 6611a7c46277475998a1d1c8491fa973
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Your opponent''s max hand size is 3.
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 18c9a0e41d4a4315a4e453bdb39d2be5
 - name: Vampyr Sehkmet (V2)
   db_uuid: d8612a432fb34af1a9af56350f3af247
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: 'When you hit a Submission:
+
+    Bury 2 cards in any player''s discard pile.'
   tags: []
+  related_finishes:
+    - 653925caddfc4ce5b7049b1f816eb412
+    - 81e7930d92d54e0fa1952bc26286bc75
+    - a0ca6745723a4cb8a6594a2b0679c0ae
+- name: The Red Crown (V2)
+  db_uuid: 653925caddfc4ce5b7049b1f816eb412
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    Your opponent discards cards from their hand equal to triple the Crowd Meter.'
+  tags: []
+  related_cards:
+    - d8612a432fb34af1a9af56350f3af247
+- name: The Pharaoh's Curse (V2)
+  db_uuid: 81e7930d92d54e0fa1952bc26286bc75
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Add 3 Submissions from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - d8612a432fb34af1a9af56350f3af247
+- name: Death's Embrace (V2)
+  db_uuid: a0ca6745723a4cb8a6594a2b0679c0ae
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    Your opponent''s maximum handsize is 3.
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - d8612a432fb34af1a9af56350f3af247
 - name: Vanilla Gorilla (V1)
   db_uuid: 6e44f203e2074096b2f799a345663474
   srg_url: https://supershowthegame.com/product/vanilla-gorilla/
@@ -45717,7 +45902,105 @@
   strike: 6
   submission: 7
   grapple: 5
+  rules_text: 'FRONT: Your deck may contain 1 additional Skill Requirement card.
+
+    You may turn this card over to stop any Grapple.
+
+    When this card was turned over, your opponent''s next turn roll is -2.'
   tags: []
+  related_finishes:
+    - 2e4b9ae37d67452ebac0297ca24030f2
+    - 95203553f16e4235acb67a0d58a31cf3
+    - 64d6e72f41cd46c8aeb34bce38083633
+    - 0d71dbfd73e042108391135674a26842
+    - ecccca8b91e44ab2b09ab0190ebdd7a6
+    - 00b4348f66824932b695c5244e4fdc18
+- name: The Armenian Dream
+  db_uuid: 2e4b9ae37d67452ebac0297ca24030f2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
+- name: The Armenian Nightmare
+  db_uuid: 95203553f16e4235acb67a0d58a31cf3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    +2 to Submission
+
+    Whe nthis card is in your discard pile and the Crowd Meter is 1 or greater, your Breakout rolls are +1.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
+- name: Vick the Brick's Superkick
+  db_uuid: 64d6e72f41cd46c8aeb34bce38083633
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If your Finish roll is 8 or less, your Finish roll is +1.
+
+    If the Crowd Meter is 2 or greater, this card is also a Follow Up.
+
+    If the Crowd Meter is 4 or greater, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
+- name: Forget Me Not
+  db_uuid: 0d71dbfd73e042108391135674a26842
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Flip 3 cards. Bury 2 cards in your discard pile. Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
+- name: The Armenian Hammer
+  db_uuid: ecccca8b91e44ab2b09ab0190ebdd7a6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Your opponent buries 1 random card in their hand. Draw 1 card.
+
+    If this is the first turn of the game, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
+- name: The Brick Wall
+  db_uuid: 00b4348f66824932b695c5244e4fdc18
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    When this card is in your discar dpile and your opponent stops a Follow Up Submission, you may add it to your hand.'
+  tags: []
+  related_cards:
+    - 81fa1f8c73a04f7e8010d951be00e4c0
 - name: Viral
   db_uuid: a35ca200648749e5be284b5904b94523
   srgpc_url: https://www.srgpc.net/cards/competitors/viral/
@@ -45866,12 +46149,114 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/white-lily-new/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 9
+  rules_text: When you stop a card, reveal the top card of your deck.  If it has the same move type as the card you stopped, draw it.  If it is not, put it back on top of your deck or bury it.
   tags: []
+  related_finishes:
+    - df828eb389db4230847b9374d00c8138
+    - a957651e1d694092a2c9f9e7cd914189
+    - a7eb254eeb204cfdacff0a0eb59ff25e
+- name: Sword Technique
+  db_uuid: df828eb389db4230847b9374d00c8138
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    If you stopped a card last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - e1baa91d10a94e23816b04e7809eb08d
+- name: Redirecting Momentum
+  db_uuid: a957651e1d694092a2c9f9e7cd914189
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - e1baa91d10a94e23816b04e7809eb08d
+- name: Break the Chains
+  db_uuid: a7eb254eeb204cfdacff0a0eb59ff25e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +1 to all your skills.
+  tags: []
+  related_cards:
+    - e1baa91d10a94e23816b04e7809eb08d
 - name: White Lily (V2)
   db_uuid: 4ed75f5f784c4491ba68876e871aead4
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 6
+  technique: 9
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 8
+  rules_text: When you hit a card with "Kendo Stick" in the name, put 1 card from your discard pile on top of your deck.
   tags: []
+  related_finishes:
+    - 4f92412e186c4184922ae41b056a8793
+    - 6112fd53210b43928b116ecc8a04194c
+    - 41dd79ccc05a4c21b04da48fc09b699f
+- name: Kendo Slash
+  db_uuid: 4f92412e186c4184922ae41b056a8793
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: "Your Finish roll is +1 for each card you have in play with \"Kendo Stick\n in the name (Max +2)."
+  tags: []
+  related_cards:
+    - 4ed75f5f784c4491ba68876e871aead4
+- name: Where the White Lilies Fall
+  db_uuid: 6112fd53210b43928b116ecc8a04194c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If stopped, shuffle 2 cards with "Kendo Stick" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 4ed75f5f784c4491ba68876e871aead4
+- name: Kendo Petal Sleeper
+  db_uuid: 41dd79ccc05a4c21b04da48fc09b699f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile, the Crowd Meter is considered -2 for all effects.'
+  tags: []
+  related_cards:
+    - 4ed75f5f784c4491ba68876e871aead4
 - name: Whole Lotta Dude Crash Jaxon
   db_uuid: 33f14ac0cc504bad9a2b0b465163e6d6
   srgpc_url: https://www.srgpc.net/competitors/whole-lotta-dude-crash-jaxon/
@@ -45884,7 +46269,15 @@
   strike: 8
   submission: 5
   grapple: 9
+  rules_text: When you stop a Finish, your opponent randomly discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 26d8904b89a44ed481131580376de702
+    - f9a5b8865ff44c9397aed40cc3b11b2a
+    - ebda093ef7284c7f9e10da5e35be90ae
+    - 4fcb3ec9e7144d628ae94a12855ca46e
+    - ba54a7d9874e48169b07969b52f171c6
+    - a38f21dfd9cf4924a668c3396a428844
 - name: Wiser Wizard
   db_uuid: 92aad45d0fa046448ec91a4c4d4cd869
   srgpc_url: https://www.srgpc.net/cards/competitors/wiser-wizard/
@@ -46419,7 +46812,59 @@
   db_uuid: 7ed49e996f284cc8a973dd9118ad4c90
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 5
+  submission: 9
+  grapple: 7
+  rules_text: When you hit a card with "Table", "Ladder", or "Steel Chain" in the name, look at the top 2 cards of your deck, draw 1 and bury the other.
   tags: []
+  related_finishes:
+    - 235169236b9b4ce583b97ef892275d8d
+    - dec2ccd586ef4efc882bd646df1eec67
+    - 07ceb52e5c544efa81cb2aada447cd0f
+- name: X-ecution
+  db_uuid: 235169236b9b4ce583b97ef892275d8d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    Look at your opponent''s hand, for each card you have in play with "Ladder" in the name, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 7ed49e996f284cc8a973dd9118ad4c90
+- name: Adoubement
+  db_uuid: dec2ccd586ef4efc882bd646df1eec67
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    For each card you have in play with "Table" in the name, shuffle 2 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 7ed49e996f284cc8a973dd9118ad4c90
+- name: Hail to the Queen
+  db_uuid: 07ceb52e5c544efa81cb2aada447cd0f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    If you have a card with "Steel Chain" in the name, stop any Finish Strike that cannot be stopped.'
+  tags: []
+  related_cards:
+    - 7ed49e996f284cc8a973dd9118ad4c90
 - name: Zack Sabre Jr. (V2)
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr-njpw/
@@ -46482,12 +46927,122 @@
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 5
+  technique: 8
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: 'When your turn roll is at least 3 less than your opponent''s turn roll:
+
+    Discard 1 card they have in play.'
   tags: []
+  related_finishes:
+    - cc1eb48d6e964eb7948983cfe9bed07b
+    - cf12cdafb5054428a64efc2ea21f5462
+    - 9c624a65ee934ba1ba965501d59329ce
+- name: Kicked in the Chest
+  db_uuid: cc1eb48d6e964eb7948983cfe9bed07b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Look at your opponent''s hand: Discard 1 Stop or Finish.'
+  tags: []
+  related_cards:
+    - eae7c1b5fdc14e27bafc9106566cf89c
+- name: Rage Quit
+  db_uuid: cf12cdafb5054428a64efc2ea21f5462
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +2 to Submission
+
+    If you rolled Power for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - eae7c1b5fdc14e27bafc9106566cf89c
+- name: Spare Some Change
+  db_uuid: 9c624a65ee934ba1ba965501d59329ce
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If stopped, choose 2 cards in your discard pile.  Add 1 to your hand and bury the other.
+  tags: []
+  related_cards:
+    - eae7c1b5fdc14e27bafc9106566cf89c
 - name: Zoey Skye
   db_uuid: 9e7ee531fc2248aa8fa530e82d62e06c
   card_type: SingleCompetitorCard
   division: Global
+  gender: Female
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 7
+  rules_text: When you or your opponent bury 2 or more cards from the discard pile, draw 2 cards.
   tags: []
+  related_finishes:
+    - c242e75397484c979b8fdfb4f3e81d05
+    - d29c8750dbaf491fbcb7e4c825014ecc
+    - 2832e47110f544deaa2b0d7106098fe2
+- name: Skye's the Limit Doublestomp
+  db_uuid: c242e75397484c979b8fdfb4f3e81d05
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Your opponent discards 1 card from their hand.
+
+    If you rolled Agility for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 9e7ee531fc2248aa8fa530e82d62e06c
+- name: Top Rope Flying Crossbody
+  db_uuid: d29c8750dbaf491fbcb7e4c825014ecc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    When this card is in your discard pile, unblank your Gimmick and your Gimmick cannot be blanked.'
+  tags: []
+  related_cards:
+    - 9e7ee531fc2248aa8fa530e82d62e06c
+- name: Backpack Stunner
+  db_uuid: 2832e47110f544deaa2b0d7106098fe2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    Bury up to 2 cards in your discard pile.'
+  tags: []
+  related_cards:
+    - 9e7ee531fc2248aa8fa530e82d62e06c
 - name: Zombie
   db_uuid: 64468c0e28f249d6b26708f00570c064
   srg_url: https://supershowthegame.com/product/zombie/
@@ -47790,6 +48345,15 @@
 - name: Cheer and Fear
   db_uuid: b151d330471547a1ae1c1e81882a96ce
   card_type: TornadoCompetitorCard
+  power: 18
+  technique: 12
+  agility: 14
+  strike: 20
+  submission: 16
+  grapple: 10
+  rules_text: 'Once per turn:
+
+    When your cards with "Power", "Choke", "Dragon", or "Knockdown" in the name are stopped, you may play another cards with "Power", "Choke", "Dragon", or "Knockdown" in the name.'
   tags: []
 - name: Chief Coffey
   db_uuid: 67985c3af162453ebe643a0edd3c11ef
@@ -47949,12 +48513,80 @@
   db_uuid: 0b1899f6a9654f5fb5fecdc5592adb9a
   srg_url: https://supershowthegame.com/product/double-the-fun/
   card_type: TornadoCompetitorCard
+  power: 18
+  technique: 14
+  agility: 12
+  strike: 10
+  submission: 20
+  grapple: 16
+  rules_text: 'Double the numbers in the text of your Submission cards.
+
+    When you hit a card with "Head" or "Back" in the name, your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - 8f2a88bc360a47908bed07415bc862be
+- name: Double Team Supreme
+  db_uuid: 8f2a88bc360a47908bed07415bc862be
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +1 to Grapple and Technique for each card you have in play with "Head" or "Back" in the name.
+  tags: []
+  related_cards:
+    - 0b1899f6a9654f5fb5fecdc5592adb9a
 - name: Double Vision
   db_uuid: 90fca0d1abbc483c9c9d3c83b7d5c939
   srg_url: https://supershowthegame.com/product/double-vision/
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 18
+  agility: 20
+  strike: 12
+  submission: 10
+  grapple: 14
+  rules_text: Double the numbers in your cards with "Swing", "Flip", "Split", or "Catch" in the name.
   tags: []
+  related_finishes:
+    - a7a30ad1f15a42d284713f8dbf749e9d
+    - d6f34158e77e4f25a4e92c747f81e6a4
+    - 2e753d89e9034943b97fdaaaba415109
+- name: Whip to Straddle
+  db_uuid: a7a30ad1f15a42d284713f8dbf749e9d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile and you rolled Power, Technique, and Agility for your turn roll, add this card to your hand.'
+  tags: []
+  related_cards:
+    - 90fca0d1abbc483c9c9d3c83b7d5c939
+- name: Full Twisting Uprise Drop
+  db_uuid: d6f34158e77e4f25a4e92c747f81e6a4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +3 to your Finish roll for each skill card you have in play with "Swing", "Flip", "Split", or "Catch" in the name.
+  tags: []
+  related_cards:
+    - 90fca0d1abbc483c9c9d3c83b7d5c939
+- name: Reverse Bullet Drop
+  db_uuid: 2e753d89e9034943b97fdaaaba415109
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's Breakout rolls are -1 for each card you have in play with "Rope", "Twist", "Turn", or "Wrap" in the name.
+  tags: []
+  related_cards:
+    - 90fca0d1abbc483c9c9d3c83b7d5c939
 - name: Dr. Pauliwood
   db_uuid: d9e9083f2327491e84012142f1b5b414
   srg_url: https://supershowthegame.com/product/dr-pauliwood/
@@ -48142,7 +48774,54 @@
   strike: 5
   submission: 8
   grapple: 10
+  rules_text: After you discard any number of cards from your hand for a card effect or Gimmick, add 1 card from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - dbbb1e5f91e34f1f94b1b7edd5e014c0
+    - 1b8c0dc0903b48c0ba954bdec161f69a
+    - 299b7aea5bbd4004be88ad06ed9529c3
+- name: Disruptor
+  db_uuid: dbbb1e5f91e34f1f94b1b7edd5e014c0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    Each player randomly discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - fc7f7efc0f914eb88a42db65b9778ab6
+- name: Decimator
+  db_uuid: 1b8c0dc0903b48c0ba954bdec161f69a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    +1 to Submission'
+  tags: []
+  related_cards:
+    - fc7f7efc0f914eb88a42db65b9778ab6
+- name: Dismantler
+  db_uuid: 299b7aea5bbd4004be88ad06ed9529c3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Discards any number of cards from your hand, your opponent discards the same number of cards from their hand -1.'
+  tags: []
+  related_cards:
+    - fc7f7efc0f914eb88a42db65b9778ab6
 - name: Derby Dames
   db_uuid: 8d1a2dbdd8f14f0f9cab6b640eeda523
   card_type: TornadoCompetitorCard
@@ -48620,7 +49299,52 @@
   strike: 7
   submission: 10
   grapple: 6
+  rules_text: 'Once during your turn:
+
+    You may discard 2 cards that you have in play and your opponent discards 1 card from their hand.'
   tags: []
+  related_finishes:
+    - f4570d14345b49a0aa09117cc273ac5a
+    - 4af5f85b67ae4a32bd47303d4e1f63ed
+    - 92aae49f097545e99a6f5209ff121417
+- name: Self-Destruct and Reconfigure
+  db_uuid: f4570d14345b49a0aa09117cc273ac5a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Discard your hand, then draw half as many cards as you discarded (rounded down).
+
+    Your Finish roll is +2.'
+  tags: []
+  related_cards:
+    - 86f21ee3774440079127137fb8247cca
+- name: Toxic Sludge Bomb!
+  db_uuid: 4af5f85b67ae4a32bd47303d4e1f63ed
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    For the rest of the match, your opponent''s maximum handsize is -2.'
+  tags: []
+  related_cards:
+    - 86f21ee3774440079127137fb8247cca
+- name: Poisonous Gas
+  db_uuid: 92aae49f097545e99a6f5209ff121417
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Until a player hits a Finish:
+
+    When your opponent wins a turn roll, if they have more than 1 card in their hand, they discard 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 86f21ee3774440079127137fb8247cca
 - name: Everybuddy & A Buddy
   db_uuid: 2c7b85ebf006415fbf53f3f465eeb7f5
   card_type: TornadoCompetitorCard
@@ -50003,7 +50727,46 @@
   strike: 5
   submission: 9
   grapple: 7
+  rules_text: When you flip any card with "Sledgehammer" or "Steel Chain" in the name, add it to your hand.
   tags: []
+  related_finishes:
+    - 1fc13094935e426ab5492d7e5415fe73
+    - 582d1953ca704ca4b223ca6b45dfe6ab
+    - af9a166b17da47299fd20f8dc3830def
+- name: Rammer Jammer Sledgehammer!
+  db_uuid: 1fc13094935e426ab5492d7e5415fe73
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Technique and Strike are +1 for each card you have in play with "Sledgehammer" or "Steel Chain" in the name (Max +3).
+  tags: []
+  related_cards:
+    - 5b6cc3273f03415cbe6635d2a0796f03
+- name: Alabama Destroyer
+  db_uuid: 582d1953ca704ca4b223ca6b45dfe6ab
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Technique
+
+    When this card is in your discard pile: Your cards with "Sledgehammer" or "Steel" in the name are considered to have both "Sledgehammer" and "Steel Chain" in the name.'
+  tags: []
+  related_cards:
+    - 5b6cc3273f03415cbe6635d2a0796f03
+- name: RTR
+  db_uuid: af9a166b17da47299fd20f8dc3830def
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's Technique and Grapple are -3.  If you have a card in play with "Steel Chain" in the name and a card in play with "Sledgehammer" in the name, your opponent gets one fewer Breakout roll this turn.
+  tags: []
+  related_cards:
+    - 5b6cc3273f03415cbe6635d2a0796f03
 - name: The Freak
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
   card_type: SingleCompetitorCard
@@ -50226,6 +50989,7 @@
   strike: 5
   submission: 8
   grapple: 6
+  rules_text: When your opponent stops a card with "Ash", "Death", "Rise", or "Star" in the name, shuffle 1 other card from your discard pile into your deck and draw 1 card.
   tags: []
 - name: Ranger Dangerfield
   db_uuid: cc37ceca4d674cb2ac35e22f4f712b25
@@ -50303,6 +51067,7 @@
   strike: 5
   submission: 8
   grapple: 7
+  rules_text: Your opponent's cards with "Size" or "Bark" in the name have blank text.
   tags: []
 - name: Soto the Goato
   db_uuid: a165b1a7bd3e43958eee8a319ef94074

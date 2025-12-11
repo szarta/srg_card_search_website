@@ -44499,6 +44499,8 @@
   tags: []
 - name: Sire
   db_uuid: 82e001f5073e4abcba395b3f4864f497
+  srg_url: https://supershowthegame.com/product/sire/
+  srgpc_url: https://www.srgpc.net/cards/competitors/sire/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -44508,8 +44510,50 @@
   strike: 6
   submission: 10
   grapple: 5
-  rules_text: If you ended your turn without playing a card, flip1 card.  If it is a non-Finish, play it.
+  rules_text: If you ended your turn without playing a card, flip 1 card.  If it is a non-Finish, play it.
   tags: []
+  related_cards:
+    - 7ec4bb1908fb45f7ab88aa3d7d602c4a
+    - 41cb1aaa6da240c08a4526fcc9846cd2
+    - bd11579fd13144f1bcf07c38a347edcd
+- name: Weapon of Choice
+  db_uuid: 7ec4bb1908fb45f7ab88aa3d7d602c4a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Your opponent discards 1 card from their hand, then randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 82e001f5073e4abcba395b3f4864f497
+- name: Pawn to King 3
+  db_uuid: 41cb1aaa6da240c08a4526fcc9846cd2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Search your deck for 2 cards and put them on top of your shuffled deck.'
+  tags: []
+  related_cards:
+    - 82e001f5073e4abcba395b3f4864f497
+- name: World of Darkness
+  db_uuid: bd11579fd13144f1bcf07c38a347edcd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Your opponent''s Gimmick is blank.
+
+    When this card is in your discard pile, your opponent''s Spotlight cards have blank text.'
+  tags: []
+  related_cards:
+    - 82e001f5073e4abcba395b3f4864f497
 - name: Slash Gordon (V1)
   db_uuid: 01545d3e725d4e83a1c8ec0f2db5cec1
   card_type: SingleCompetitorCard
@@ -44686,6 +44730,8 @@
   tags: []
 - name: Sofa King Eddy Fury
   db_uuid: 066f269d111b4003ad7c426b77cdea5e
+  srg_url: https://supershowthegame.com/product/sofa-king-eddy-fury/
+  srgpc_url: https://www.srgpc.net/competitors/sofa-king-eddy-fury/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -44748,8 +44794,9 @@
   card_type: SingleCompetitorCard
   division: Intergalactic
   tags: []
-- name: Split (V1)
+- name: Split
   db_uuid: 3f3f8b5b536443bb8552f182a2bf9fa0
+  srgpc_url: https://www.srgpc.net/cards/competitors/split/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -52040,6 +52087,8 @@
     - 5e2fc7604be7428f8f79ddf8ff1698ab
 - name: Shattered Split
   db_uuid: 627444f08925427b973a23be26369043
+  srg_url: https://supershowthegame.com/product/split-halloween/
+  srgpc_url: https://www.srgpc.net/competitors/split-v2/
   card_type: SingleCompetitorCard
   division: United States
   power: 9
@@ -52054,6 +52103,58 @@
 
     When you have a card with "Hammer" in the name in play, your Power is +1.'
   tags: []
+  related_finishes:
+    - a1020ad6031c4ab0849e02fe2c9c558f
+    - 4906c1a70d344f00919269174eaba87e
+    - 4171d7464914421e9c36a381ed559aa1
+    - 0cf6579fa92548cc9b5a6690659c5425
+    - db05fb380de241edb0874bb05d0eaaf3
+    - 7556c430502e411ea7f95b7c1b1e5c72
+    - c84c0691d3684cfdb9af91a2506369d3
+- name: Spittin' Fire
+  db_uuid: db05fb380de241edb0874bb05d0eaaf3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +3 to Agility
+
+    Add one other card with "Fire" or "Hammer" in the name from in play to your hand.'
+  tags: []
+  related_cards:
+    - 627444f08925427b973a23be26369043
+- name: Ninny Hammer
+  db_uuid: 7556c430502e411ea7f95b7c1b1e5c72
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    If your opponent rolls Power for their Breakout roll, their next Breakout roll this turn is -3.'
+  tags: []
+  related_cards:
+    - 627444f08925427b973a23be26369043
+- name: The Whoopie Cushion
+  db_uuid: c84c0691d3684cfdb9af91a2506369d3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Flip 4 cards.
+
+    Add 2 cards with "Fire" or "Hammer" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 627444f08925427b973a23be26369043
 - name: Soratonin
   db_uuid: 8e91063f3d584089a7218223a02d0574
   srg_url: https://supershowthegame.com/product/soratonin/

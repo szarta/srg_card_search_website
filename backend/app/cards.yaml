@@ -5436,7 +5436,7 @@
   deck_card_number: 3
   rules_text: 'When your opponent rolls Technique for their turn roll, draw 1 card.
 
-    If your opponent''s next turn roll is Tecnique, draw 1 card.'
+    If your opponent''s next turn roll is Technique, draw 1 card.'
   tags: []
 - name: Hyper Forearm Kicker Hold Choke
   db_uuid: 299efc52318f4b91b8d8d2ff4a1ae7a5
@@ -45565,7 +45565,52 @@
   strike: 8
   submission: 7
   grapple: 10
+  rules_text: When you have 2 Grapples in play, your opponent's 2 loweset skills are -2.
   tags: []
+  related_finishes:
+    - a455593c7f864de0b80dbe48f9e320e2
+    - 4e61d0a8d8b44bfa9c185a8446931d19
+    - 534b18eabf8e46978366e670cb95e726
+- name: The Depths of Uranus
+  db_uuid: a455593c7f864de0b80dbe48f9e320e2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Choose 1 of your opponent''s skills, that skill is -2.
+
+    Add 1 Grapple from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 60f3433ddd5745c9905583b60466a734
+- name: Lord of Rain
+  db_uuid: 4e61d0a8d8b44bfa9c185a8446931d19
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    If stopped, you may put 1 Grapple from your discard pile into play.'
+  tags: []
+  related_cards:
+    - 60f3433ddd5745c9905583b60466a734
+- name: The Diamond Cloud
+  db_uuid: 534b18eabf8e46978366e670cb95e726
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    Your Technique and Submission are +1 for each Grapple you have in play.'
+  tags: []
+  related_cards:
+    - 60f3433ddd5745c9905583b60466a734
 - name: Vampire Hunter Foreman
   db_uuid: 58b34930fa664d1ebf89b1058b14a48a
   srgpc_url: https://www.srgpc.net/competitors/vampire-hunter-foreman/
@@ -45645,7 +45690,52 @@
   strike: 8
   submission: 10
   grapple: 6
+  rules_text: When you hit a Submission, your opponent discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 58ed2404f131445191316a5a46074795
+    - 4d8ff31666ef417d9513e37ceeabfef3
+    - c8c24599466c4a9d8c57db740f3c01b5
+- name: Death's Drop
+  db_uuid: 58ed2404f131445191316a5a46074795
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Add 3 Submissions from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 0e97a0fb8d70423182a7daf7b484f8f8
+- name: Cloverleaf Slam
+  db_uuid: 4d8ff31666ef417d9513e37ceeabfef3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Search your deck for up to 2 cards and put them on top of your shuffled deck.'
+  tags: []
+  related_cards:
+    - 0e97a0fb8d70423182a7daf7b484f8f8
+- name: Sistrum's Embrace
+  db_uuid: c8c24599466c4a9d8c57db740f3c01b5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    Your opponent buries cards in their hand equal to the number of cards in your hand.'
+  tags: []
+  related_cards:
+    - 0e97a0fb8d70423182a7daf7b484f8f8
 - name: Vampyr Sehkmet (V1)
   db_uuid: 18c9a0e41d4a4315a4e453bdb39d2be5
   srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-sehkmet/
@@ -46369,7 +46459,54 @@
   strike: 9
   submission: 6
   grapple: 7
+  rules_text: 'Once a turn:
+
+    When you flip a Strike or Grapple, you may add it to your hand.'
   tags: []
+  related_finishes:
+    - 887f6bacfe28421f972f9805c3705787
+    - 4c5c1070f0fd48a5a0e2d2247adefc3d
+    - 88701c9710a24693ac7aa2a78ff63e61
+- name: Hidden Blade
+  db_uuid: 887f6bacfe28421f972f9805c3705787
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +1 to Grapple
+
+    If you rolled Agility for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - f4d37bc8209e4db5b7eb75f4bdf8aaaf
+- name: Storm Breaker
+  db_uuid: 4c5c1070f0fd48a5a0e2d2247adefc3d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If your opponent has 3 other Submissions in play, stop any Submission.'
+  tags: []
+  related_cards:
+    - f4d37bc8209e4db5b7eb75f4bdf8aaaf
+- name: Ospreay-Style Figure-Four
+  db_uuid: 88701c9710a24693ac7aa2a78ff63e61
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Shuffle 8 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - f4d37bc8209e4db5b7eb75f4bdf8aaaf
 - name: Witch Hunter General
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
   srgpc_url: https://www.srgpc.net/cards/competitors/witch-hunter-general/

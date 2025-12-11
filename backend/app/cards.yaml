@@ -43234,9 +43234,65 @@
   tags: []
 - name: Robbie G
   db_uuid: b23c0ed39537449a884675e3fd2e3fbb
+  srg_url: https://supershowthegame.com/product/robbie-g/
+  srgpc_url: https://www.srgpc.net/cards/competitors/robbie-g/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 10
+  grapple: 6
+  rules_text: 'Once per turn roll: When your opponent rolls 8, draw 1 card or your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - 17a6459390c4428294cb759a3dfdce4f
+    - d5358f1b2b75423a8c95c1c1b7593603
+    - e46388c0fbab46058c891f854b06aaf6
+- name: The John Wayne
+  db_uuid: 17a6459390c4428294cb759a3dfdce4f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Your opponent shuffles their hand into their deck, then adds the top 4 cards of their deck to their hand.'
+  tags: []
+  related_cards:
+    - b23c0ed39537449a884675e3fd2e3fbb
+- name: Veni Vidi Vici
+  db_uuid: d5358f1b2b75423a8c95c1c1b7593603
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    If your opponent breaks out, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - b23c0ed39537449a884675e3fd2e3fbb
+- name: The Marine Sharpshooter
+  db_uuid: e46388c0fbab46058c891f854b06aaf6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    When this card is in your discard pile, your maximum handsize is +4.'
+  tags: []
+  related_cards:
+    - b23c0ed39537449a884675e3fd2e3fbb
 - name: Robert 'The Brain' Dunn (V1)
   db_uuid: 5c61b09db55549b6a957926b3ae14a4b
   card_type: SingleCompetitorCard

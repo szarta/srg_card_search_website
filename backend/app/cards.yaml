@@ -41460,7 +41460,52 @@
   strike: 6
   submission: 8
   grapple: 5
+  rules_text: When your opponent wins a turn roll; your Power, Technique, and Strike skills are +1 during your next turn roll.
   tags: []
+  related_finishes:
+    - b720a2d0b1a647c8b527118cd2f8ad79
+    - f73bb598f0f541f7b5c4ec68e3794ea8
+    - 94b328c6fbbf48948b7f021b8e896a14
+- name: Sacred Ashes
+  db_uuid: b720a2d0b1a647c8b527118cd2f8ad79
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile and your opponent(s) win(s) 2 turn rolls in a row, you may add it to your hand.'
+  tags: []
+  related_cards:
+    - 5384da96ce6740ce9081b60773b99873
+- name: Rising Phoenix
+  db_uuid: f73bb598f0f541f7b5c4ec68e3794ea8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    Draw 3 cards, your opponent buries 1 card in their hand, and your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 5384da96ce6740ce9081b60773b99873
+- name: Rings of Fire
+  db_uuid: 94b328c6fbbf48948b7f021b8e896a14
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    When the Crowd Meter is 3 or higher and your turn roll was at least 2 greater than your opponent''s, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 5384da96ce6740ce9081b60773b99873
 - name: Piglet
   db_uuid: 1069a54e1c674abeb90ce4bb07a37404
   srgpc_url: https://www.srgpc.net/cards/competitors/piglet/
@@ -44128,6 +44173,7 @@
     - 54590750c88a4c3aaa4f2a98cbb6207e
 - name: Shadow Phoenix (V1)
   db_uuid: b6a34c56cfb041e7839acfaf3e0a0eab
+  srg_url: https://supershowthegame.com/product/shadow-phoenix/
   srgpc_url: https://www.srgpc.net/cards/competitors/shadow-phoenix/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -44140,6 +44186,67 @@
   grapple: 7
   rules_text: 'Once per turn roll: When your opponent''s turn roll is Grapple, your turn roll is +2.'
   tags: []
+  related_finishes:
+    - 17a8a1e445784c718465ee921d556bde
+    - 1354290428a84d0abc54a7ba2cd3b01e
+    - 960f3151800846e99ec736ab3d66d91d
+    - 06fcaa263e744f85828ad02f2e749d81
+- name: Persona Clash
+  db_uuid: 17a8a1e445784c718465ee921d556bde
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If your opponent rolled Grapple for their turn roll, this card is also a Follow Up.
+
+    Add 1 card with "Ash" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b6a34c56cfb041e7839acfaf3e0a0eab
+- name: Desecrated Ashes
+  db_uuid: 1354290428a84d0abc54a7ba2cd3b01e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Draw 3 cards.
+
+    If your opponent rolled Grapple for their turn roll, they get 1 fewer Breakout roll this turn.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - b6a34c56cfb041e7839acfaf3e0a0eab
+- name: Hope Fades to Ash
+  db_uuid: 960f3151800846e99ec736ab3d66d91d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Draw 1 card.
+
+    If your opponent rolled Grapple for their turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - b6a34c56cfb041e7839acfaf3e0a0eab
+- name: Final Spark
+  db_uuid: 06fcaa263e744f85828ad02f2e749d81
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    If stopped, add 1 card with "Ash" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b6a34c56cfb041e7839acfaf3e0a0eab
 - name: Shadow Phoenix (V2)
   db_uuid: 84910742683d4cd2af7a57cd571c74cf
   card_type: SingleCompetitorCard
@@ -51343,6 +51450,17 @@
   grapple: 6
   rules_text: When your opponent stops a card with "Ash", "Death", "Rise", or "Star" in the name, shuffle 1 other card from your discard pile into your deck and draw 1 card.
   tags: []
+  related_cards:
+    - 5384da96ce6740ce9081b60773b99873
+    - b6a34c56cfb041e7839acfaf3e0a0eab
+  related_finishes:
+    - 17a8a1e445784c718465ee921d556bde
+    - 1354290428a84d0abc54a7ba2cd3b01e
+    - 960f3151800846e99ec736ab3d66d91d
+    - 06fcaa263e744f85828ad02f2e749d81
+    - b720a2d0b1a647c8b527118cd2f8ad79
+    - f73bb598f0f541f7b5c4ec68e3794ea8
+    - 94b328c6fbbf48948b7f021b8e896a14
 - name: Ranger Dangerfield
   db_uuid: cc37ceca4d674cb2ac35e22f4f712b25
   srg_url: https://supershowthegame.com/product/ranger-dangerfield/

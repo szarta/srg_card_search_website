@@ -30324,7 +30324,7 @@
   rules_text: 'At the start of the match:
 
     Choose an opponent, when you and that opponent roll the same skill and they would win the turn roll, bump instead.'
-  comments: Also known as G.O.A.T. Brock Smith
+  comments: 'AKA: G.O.A.T. Brock Smith'
   tags: []
   related_finishes:
     - 83ffdb669a5a43fab2ac836ec50aa947
@@ -30346,7 +30346,7 @@
   rules_text: 'Once per turn roll:
 
     When you roll Strike, you may re-roll.'
-  comments: 'Also known as #1 GOAT Brock Smith'
+  comments: 'AKA: #1 GOAT Brock Smith'
   tags: []
   related_finishes:
     - 83ffdb669a5a43fab2ac836ec50aa947
@@ -52290,6 +52290,7 @@
 - name: The Starbreaker
   db_uuid: e9f8f5ac87b046d787401602e5730749
   srg_url: https://supershowthegame.com/product/star-breaker/
+  srgpc_url: https://www.srgpc.net/competitor/the-starbreaker/
   card_type: SingleCompetitorCard
   division: United States
   power: 9
@@ -57709,3 +57710,29 @@
   tags: []
   related_cards:
     - c27d16f7227346f7ba58b6cf926557c4
+- name: Death Drop (V2)
+  db_uuid: 14e0925ccb0846e0bcd9e5e78df956dd
+  srg_url: https://supershowthegame.com/product/29-death-drop/
+  srgpc_url: https://www.srgpc.net/cards/29/death-drop-ryg/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  comment: This card comes in variants on the mask of red, black, and green.
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Look at the top 4 cards of your deck, choose 1 and add it to your hand, bury the rest.'
+  tags: []
+- name: Death Drop (V1)
+  db_uuid: 920138df047940a0824be042d36110d7
+  srgpc_url: https://www.srgpc.net/cards/29/death-drop-black/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Flip 5 cards.
+
+    Bury your opponent''s discard pile.'
+  tags: []

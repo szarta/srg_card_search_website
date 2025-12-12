@@ -20055,7 +20055,7 @@
   deck_card_number: 24
   rules_text: Search your deck for 1 Submission, put it on top of your shuffled deck.
   tags: []
-- name: Cyber Attack
+- name: Cyber Attack (Technique, Submission)
   db_uuid: 1c111ffc74784973bdfad552420bc1cd
   srgpc_url: https://www.srgpc.net/cards/24/cyber-attack/
   card_type: MainDeckCard
@@ -20064,7 +20064,9 @@
   deck_card_number: 24
   rules_text: 'Look at your opponent''s hand, choose 1 card and discard it.
 
-    Your opponent''s next turn roll is -2.'
+    Your opponent''s next turn roll is -2.
+
+    Skill Requirement: Technique 10+, Submission 9+'
   tags: []
 - name: Destiny's Call (V1)
   db_uuid: 3d74224802234efb8e29a336db6ed590

@@ -57880,3 +57880,37 @@
   deck_card_number: 28
   rules_text: +4 to your lowest skill.
   tags: []
+- name: Flying Pineapple Smash
+  db_uuid: 4914f6e391ae458497c6bf84c38bb76a
+  srg_url: https://supershowthegame.com/product/28-flying-pineapple-smash/
+  srgpc_url: https://www.srgpc.net/cards/28/flying-pineapple-smash/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Power and Strike are +1 for each other card you have in play with "Pineapple" in the name.
+  tags: []
+- name: Frog Splash (Agility)
+  db_uuid: 21e66fb039c9436592942e9c0c09de9b
+  srg_url: https://supershowthegame.com/product/28-frog-splash/
+  srgpc_url: https://www.srgpc.net/cards/28/frog-splash/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to your lowest skill.
+
+    Add 1 card from your discard pile to your hand.  Skill Requirement: Agility 8+'
+  tags: []
+- name: Lightning Leg Drop
+  db_uuid: a60eac4bb5514eaaaf98328a32aba7d2
+  srg_url: https://supershowthegame.com/product/28-lightning-leg-drop/
+  srgpc_url: https://www.srgpc.net/cards/28/lightning-leg-drop/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +4 to Agility
+  tags: []

@@ -224,6 +224,14 @@
   rules_text: Stop any Lead Submission.
   tags:
     - Old School
+- name: Lock Up (Technique)
+  db_uuid: c76141bd74b54e9c8bbd072e99d0b124
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: +1 to Technique
+  tags: []
 - name: Headlock
   db_uuid: 685b2201f4994f9785f6f966cd4030c7
   srg_url: https://supershowthegame.com/product/03-headlock-os/

@@ -55732,6 +55732,8 @@
     - 9a78c09e97a34569bd49c08839171c8c
 - name: Bearcat Dropkick (Strike)
   db_uuid: 00640b78aeb64edc84f73f8b01bd1c8c
+  srg_url: https://supershowthegame.com/product/28-bearcat-dropkick/
+  srgpc_url: https://www.srgpc.net/cards/28/bearcat-dropkick/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -57845,4 +57847,36 @@
     If you roll the chosen skill for your Finish roll, it is +3.
 
     Reveal the top card of your deck, if it has "Baseball Bat" in the name, you may re-roll your Finish roll.'
+  tags: []
+- name: Atomic Clothesline
+  db_uuid: 14b48b20bf3b4bed9eb962cceebfbfe1
+  srg_url: https://supershowthegame.com/product/28-atomic-clothesline/
+  srgpc_url: https://www.srgpc.net/cards/28/atomic-clothesline/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Bury 5 cards in your opponent's discard pile.  Flip your deck into your discard pile.
+  tags: []
+- name: Atomic Double Knee
+  db_uuid: ec1fc56c461d494da527bc8a2d51cf6b
+  srg_url: https://supershowthegame.com/product/28-atomic-double-knee/
+  srgpc_url: https://www.srgpc.net/cards/28/atomic-double-knee/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Stop "Double Death Drop."
+
+    +1 to your 2 lowest skills.'
+  tags: []
+- name: Atomic Splash
+  db_uuid: d55a1a4dbaf443d396af0339681b8888
+  srg_url: https://supershowthegame.com/product/28-atomic-splash/
+  srgpc_url: https://www.srgpc.net/cards/28/atomic-splash/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +4 to your lowest skill.
   tags: []

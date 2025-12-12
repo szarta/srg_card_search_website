@@ -57826,3 +57826,15 @@
 
     Bury your opponent''s discard pile.'
   tags: []
+- name: Marvelous Baseball Bat Swing
+  db_uuid: 0283154357e447d78de2eac33cd214f2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Choose Strike or Agility.
+
+    If you roll the chosen skill for your Finish roll, it is +3.
+
+    Reveal the top card of your deck, if it has "Baseball Bat" in the name, you may re-roll your Finish roll.'
+  tags: []

@@ -12775,7 +12775,7 @@
 
     If played as a stop, the Crowd Meter is +2 and this card is also a Finish.'
   tags: []
-- name: All American Headlock
+- name: All American Headlock (Grapple)
   db_uuid: 11e103e86aae4fcca8acfd598b210dfa
   srgpc_url: https://www.srgpc.net/cards/15/all-american-headlock/
   card_type: MainDeckCard

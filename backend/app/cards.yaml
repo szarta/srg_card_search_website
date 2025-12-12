@@ -31618,6 +31618,7 @@
   tags: []
   related_cards:
     - 8054b1c0587a4d949e9a73b9bdd144ed
+    - 8c57d96fbf76423384286e0604c7aff7
 - name: Flux Capacitor
   db_uuid: 5e12c423b6454817a6bdcc9073305041
   card_type: MainDeckCard
@@ -31632,6 +31633,7 @@
   tags: []
   related_cards:
     - 8054b1c0587a4d949e9a73b9bdd144ed
+    - 8c57d96fbf76423384286e0604c7aff7
 - name: The Time Warp
   db_uuid: 6f67b3c45eb14949b7461374daa05cef
   card_type: MainDeckCard
@@ -31646,6 +31648,7 @@
   tags: []
   related_cards:
     - 8054b1c0587a4d949e9a73b9bdd144ed
+    - 8c57d96fbf76423384286e0604c7aff7
 - name: Colt Cabana (V1)
   db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
   card_type: SingleCompetitorCard
@@ -34262,7 +34265,7 @@
   tags: []
   related_cards:
     - d89414c9e0e943d2844fcdeec92be5e5
-- name: The Frequent Flyer
+- name: Frequent Flyer
   db_uuid: 8f4d6cf02cf04c15bcb6908883bc5fd0
   srgpc_url: https://www.srgpc.net/cards/competitors/the-frequent-flyer/
   card_type: SingleCompetitorCard
@@ -34274,7 +34277,57 @@
   strike: 8
   submission: 5
   grapple: 6
+  rules_text: 'When your opponent forces you to bury any number of cards from your hand, draw 2 cards.
+
+    When the Crowd Meter is 1 or greater your "Airplane Slam" is also a Finish.'
   tags: []
+  related_finishes:
+    - 236d9c040f6949ef9d6db973d6bd882a
+    - 48a342a8ebaa4d979840652dd7793607
+    - 1b487c3c031c425daae55ab6dccb42cc
+- name: The Passport Stamp
+  db_uuid: 236d9c040f6949ef9d6db973d6bd882a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    After you draw for your Frequent Flyer Gimmick, you may play this card as if it were a Follow Up.  It can be stopped as normal.'
+  tags: []
+  related_cards:
+    - 8f4d6cf02cf04c15bcb6908883bc5fd0
+    - 8c57d96fbf76423384286e0604c7aff7
+- name: Flying Nonstop
+  db_uuid: 48a342a8ebaa4d979840652dd7793607
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Your next turn roll is +1 for each card you have in play with "Flying" or "Airplane" in the name.'
+  tags: []
+  related_cards:
+    - 8f4d6cf02cf04c15bcb6908883bc5fd0
+    - 8c57d96fbf76423384286e0604c7aff7
+- name: The Frequent Flyer Upgrade
+  db_uuid: 1b487c3c031c425daae55ab6dccb42cc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'You may use your opponent''s skill of the same type for your Finish roll.
+
+    Search your deck or discard pile for 2 cards with "Flying" in the name and add them to your hand, shuffle your deck.'
+  tags: []
+  related_cards:
+    - 8f4d6cf02cf04c15bcb6908883bc5fd0
+    - 8c57d96fbf76423384286e0604c7aff7
 - name: Fuhgeddaboutit!
   db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
   srgpc_url: https://www.srgpc.net/competitors/fuhgeddaboutit/
@@ -53394,8 +53447,43 @@
   tags: []
 - name: Time Travel Extraordinaires
   db_uuid: 8c57d96fbf76423384286e0604c7aff7
+  srgpc_url: https://www.srgpc.net/cards/competitors/time-travel-extraordinaires/
   card_type: TornadoCompetitorCard
+  power: 14
+  technique: 20
+  agility: 18
+  strike: 12
+  submission: 10
+  grapple: 16
+  rules_text: 'When you would bury any number of cards from your hand, draw 2 cards.
+
+    When the Crowd Meter is 1 or greater, your "Airplane Slam" is also a Finish.'
   tags: []
+  related_cards:
+    - 8054b1c0587a4d949e9a73b9bdd144ed
+    - 8f4d6cf02cf04c15bcb6908883bc5fd0
+  related_finishes:
+    - 284a8a1a4eb046c6be6657b48433bfc2
+    - 5e12c423b6454817a6bdcc9073305041
+    - 6f67b3c45eb14949b7461374daa05cef
+    - 236d9c040f6949ef9d6db973d6bd882a
+    - 48a342a8ebaa4d979840652dd7793607
+    - 1b487c3c031c425daae55ab6dccb42cc
+    - e367c98fe9d6426d9beef453e964b50f
+- name: Feels Like Time is Flying
+  db_uuid: e367c98fe9d6426d9beef453e964b50f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +2 to Submission
+
+    If you have "Airplane Slame" in play, your opponent gets 1 Breakout roll.'
+  tags: []
+  related_cards:
+    - 8c57d96fbf76423384286e0604c7aff7
 - name: Transatlantic Express
   db_uuid: 290a487c9b5942918a22b35fbdd5c691
   srg_url: https://supershowthegame.com/product/transatlantic-express/
@@ -57718,13 +57806,13 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  comment: This card comes in variants on the mask of red, black, and green.
   rules_text: '+2 to Technique
 
     +1 to Grapple
 
     Look at the top 4 cards of your deck, choose 1 and add it to your hand, bury the rest.'
   tags: []
+  comment: This card comes in variants on the mask of red, black, and green.
 - name: Death Drop (V1)
   db_uuid: 920138df047940a0824be042d36110d7
   srgpc_url: https://www.srgpc.net/cards/29/death-drop-black/

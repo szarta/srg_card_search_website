@@ -7675,7 +7675,7 @@
   deck_card_number: 7
   rules_text: Bury 3 cards in your hand, draw 4 cards.
   tags: []
-- name: Rolling Forearm (V1)
+- name: Rolling Forearm
   db_uuid: 6ad4619cdb2c4c50b6853cd3ee9e0d37
   srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm/
   card_type: MainDeckCard

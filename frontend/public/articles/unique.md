@@ -53,7 +53,7 @@ Double Throw
 Ready to Rumble
 Learning the House Rules
 Level Up Apron Driver
-All American Headlock
+All American Headlock (Grapple)
 Savor the Moment
 Spinebreaker
 You're Not Ready

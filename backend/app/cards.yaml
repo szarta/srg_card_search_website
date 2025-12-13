@@ -34521,6 +34521,48 @@
   submission: 9
   grapple: 6
   tags: []
+  related_finishes:
+    - aa7c532958284acda613d4d41dabc526
+    - 52257e90123c4db9916e129e0ee3d21f
+    - 283941c27d6f4c128e071867fc4eb2d1
+- name: Fury Forearm
+  db_uuid: aa7c532958284acda613d4d41dabc526
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +3 to Power
+  tags: []
+  related_cards:
+    - 0f15d434bd974b2a906aa62268028efb
+- name: The X-Factor
+  db_uuid: 52257e90123c4db9916e129e0ee3d21f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    Copy the text of a Stop your opponent has in play.'
+  tags: []
+  related_cards:
+    - 0f15d434bd974b2a906aa62268028efb
+- name: Gift Wrap
+  db_uuid: 283941c27d6f4c128e071867fc4eb2d1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    If you have no cards in play and your opponent has 2 or more Stops in play, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 0f15d434bd974b2a906aa62268028efb
 - name: GDD (V1)
   db_uuid: 9df52313a2554e1eb4dd9e0eca8632f3
   srgpc_url: https://www.srgpc.net/cards/competitors/gdd/

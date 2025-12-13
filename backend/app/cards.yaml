@@ -40881,7 +40881,61 @@
   db_uuid: fbad14e83e1043c1949a671a30cd2323
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 8
+  grapple: 6
+  rules_text: When your card is stopped, draw 1 card.
   tags: []
+  related_finishes:
+    - 15e358d2b11c41fa9c6b57a345e08bdf
+    - b1ddf573ae4940798e16f841864d1885
+    - ae3038435dd84c42a6f52553bca316d6
+- name: Bullet Catch
+  db_uuid: 15e358d2b11c41fa9c6b57a345e08bdf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    If your opponent stopped your card last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - fbad14e83e1043c1949a671a30cd2323
+- name: Ala-Ka-Slam
+  db_uuid: b1ddf573ae4940798e16f841864d1885
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    When this card is in your discard pile, when you roll Agility, you may shuffle it into your deck.'
+  tags: []
+  related_cards:
+    - fbad14e83e1043c1949a671a30cd2323
+- name: Table of Death
+  db_uuid: ae3038435dd84c42a6f52553bca316d6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    -2 to your opponent''s Submission
+
+    Your opponent buries 1 card in their hand for each Submission you have in play.'
+  tags: []
+  related_cards:
+    - fbad14e83e1043c1949a671a30cd2323
 - name: MVP (Most Valuable Polverino)
   db_uuid: b724c6a2db604a95971f30f7a424d2de
   srg_url: https://supershowthegame.com/product/mvp/

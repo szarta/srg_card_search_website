@@ -9,11 +9,11 @@ date: 2025-10-05
 
 [[[Leader of the Postal Nation]]]
 
-### Writeup
+## Writeup
 
 Drew and Trey reviewed this on Stacked Card #17.  Pretty standard shuffles to
 draw.  Submission search either gets the weakest stop or the most protected finish.
-[[All American Headlock]] - if the stop is dead you can shuffle 2 cards from
+[[All American Headlock (Grapple)]] - if the stop is dead you can shuffle 2 cards from
 discard into deck and draw a card.
 
 
@@ -40,7 +40,7 @@ Getting Over
 Blood in the Water
 Learning the House Rules
 Sheep, Kneel Before My Big American Sledgehammer
-ALl American Headlock
+All American Headlock (Grapple)
 Savor the Moment
 Crowd Pleaser
 Turn the Tension Into Power

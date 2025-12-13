@@ -44,7 +44,7 @@ Panic Slam
 Full Nelson (Technique)
 Atomic Knee Smash
 Multiversal Backbreaker
-Cyber Attack
+Cyber Attack (Technique, Submission)
 Spinning Elbow
 Taunting Impact Suplex
 Seated Finger Lock

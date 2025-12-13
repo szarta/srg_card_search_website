@@ -9,7 +9,7 @@ date: 2025-11-12
 
 [[[Unique]]]
 
-### Writeup
+## Writeup
 
 This deck was reviewed by Trey and Drew on Stacked Card #19.  Johnny Korea won
 a CAC tournament with this deck.
@@ -53,7 +53,7 @@ Double Throw
 Ready to Rumble
 Learning the House Rules
 Level Up Apron Driver
-All American Headlock
+All American Headlock (Grapple)
 Savor the Moment
 Spinebreaker
 You're Not Ready

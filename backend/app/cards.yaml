@@ -40822,7 +40822,61 @@
   db_uuid: 28baaa86f61a4ccf9080632f07c0401f
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Female
+  power: 6
+  technique: 8
+  agility: 10
+  strike: 5
+  submission: 9
+  grapple: 7
+  rules_text: When you have fewer cards in your hand than your opponent and roll Agility for your turn roll, your opponent buries cards in their hand until they have the same number of cards in their hand as you.
   tags: []
+  related_finishes:
+    - 6e8e6a3fadbc4e51a51c0dec657f1bb6
+    - 918da5b3978f4613a2ead327716c4f47
+    - 778d5546d02149f1a22d978c8826c631
+- name: Southern Charm
+  db_uuid: 6e8e6a3fadbc4e51a51c0dec657f1bb6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If your Finish roll is 6 or less, your Finish roll is 10.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 28baaa86f61a4ccf9080632f07c0401f
+- name: Belle Ringer
+  db_uuid: 918da5b3978f4613a2ead327716c4f47
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    +2 to Strike
+
+    Your opponent buries 1 card in their hand.
+
+    If you have more cards in your hand than your opponent, +2 to Grapple and +4 to Strike instead.'
+  tags: []
+  related_cards:
+    - 28baaa86f61a4ccf9080632f07c0401f
+- name: Sweet Arm Lock
+  db_uuid: 778d5546d02149f1a22d978c8826c631
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Your opponent draws cards then randomly buries cards in their hand equal to half the number of cards in your hand (rounded up).'
+  tags: []
+  related_cards:
+    - 28baaa86f61a4ccf9080632f07c0401f
 - name: Ms. Tierious
   db_uuid: fbad14e83e1043c1949a671a30cd2323
   card_type: SingleCompetitorCard

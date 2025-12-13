@@ -40,7 +40,7 @@ Getting Over
 Blood in the Water
 Learning the House Rules
 Sheep, Kneel Before My Big American Sledgehammer
-ALl American Headlock
+All American Headlock (Grapple)
 Savor the Moment
 Crowd Pleaser
 Turn the Tension Into Power

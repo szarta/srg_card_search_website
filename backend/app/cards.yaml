@@ -2491,7 +2491,7 @@
 
     If flipped during your turn roll, add this card to your hand.'
   tags: []
-- name: Belle Ringer
+- name: Belle Ringer (Freedom Belle)
   db_uuid: be15b772d9654017844a855005ed01a3
   srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
   card_type: MainDeckCard
@@ -40907,7 +40907,7 @@
   tags: []
   related_cards:
     - 28baaa86f61a4ccf9080632f07c0401f
-- name: Belle Ringer
+- name: Belle Ringer (Southern Belle)
   db_uuid: 918da5b3978f4613a2ead327716c4f47
   card_type: MainDeckCard
   atk_type: Grapple
@@ -48464,7 +48464,7 @@
   tags: []
   related_cards:
     - 9e7ee531fc2248aa8fa530e82d62e06c
-- name: Backpack Stunner
+- name: Backpack Stunner (Zoey Skye)
   db_uuid: 2832e47110f544deaa2b0d7106098fe2
   card_type: MainDeckCard
   atk_type: Submission

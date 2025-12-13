@@ -40702,7 +40702,63 @@
   db_uuid: a546704b5fb04a0398cd2e0e54c8210c
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 10
+  submission: 7
+  grapple: 8
+  rules_text: 'When your opponent hits a Finish: If they do not have a card of the same move type in play, your Breakout rolls are +2.'
   tags: []
+  related_finishes:
+    - 82446b9245f54efe9b8d30dba27512b5
+    - 5e7b5f493abc4f508663a62d693f557d
+    - 5883e663c6ac48ec90c53641429692e3
+- name: Hot Girl Somersault
+  db_uuid: 82446b9245f54efe9b8d30dba27512b5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Look at your opponent''s hand, choose 2 non-Lead cards and bury them.'
+  tags: []
+  related_cards:
+    - a546704b5fb04a0398cd2e0e54c8210c
+- name: Champions Club
+  db_uuid: 5e7b5f493abc4f508663a62d693f557d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile: If you add to your Breakout roll with your Gimmick, your Breakout roll is +1.'
+  tags: []
+  related_cards:
+    - a546704b5fb04a0398cd2e0e54c8210c
+- name: Black Magic
+  db_uuid: 5883e663c6ac48ec90c53641429692e3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    This card is also considered card #11 for your card effects.
+
+    If you broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - a546704b5fb04a0398cd2e0e54c8210c
 - name: Mrs. Weapon
   db_uuid: 9d5555e50931457794b0ac555adde8b6
   card_type: SingleCompetitorCard

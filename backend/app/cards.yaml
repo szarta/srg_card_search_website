@@ -43982,19 +43982,136 @@
     - b23c0ed39537449a884675e3fd2e3fbb
 - name: Robert 'The Brain' Dunn (V1)
   db_uuid: 5c61b09db55549b6a957926b3ae14a4b
+  srgpc_url: https://www.srgpc.net/cards/competitors/robert-the-brain-dunn/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 10
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 6
+  rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags: []
+  related_finishes:
+    - 8fd1c286a8664a2f955f1fe245929090
+    - 8b7fb3c43aa8436eb615780fef8b61db
+    - 396bd59faaae43bd97f8948161d777d6
+    - 372755ff81c248ef9bf3069f646b2438
+    - d763c447d723413391187e8362e1079f
 - name: Robert 'The Brain' Dunn (V2)
   db_uuid: caf514310b2a453cbd9fbe7a3affc12d
+  srgpc_url: https://www.srgpc.net/cards/competitors/robert-the-brain-dunn/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 8
+  submission: 10
+  grapple: 6
+  rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags: []
+  related_finishes:
+    - 8fd1c286a8664a2f955f1fe245929090
+    - 8b7fb3c43aa8436eb615780fef8b61db
+    - 396bd59faaae43bd97f8948161d777d6
+    - 372755ff81c248ef9bf3069f646b2438
+    - d763c447d723413391187e8362e1079f
 - name: Robert 'The Brain' Dunn (V3)
   db_uuid: b1c536d936c143d7b31a0ce0490f8bd9
+  srgpc_url: https://www.srgpc.net/cards/competitors/robert-the-brain-dunn/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 6
+  rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags: []
+  related_finishes:
+    - 8fd1c286a8664a2f955f1fe245929090
+    - 8b7fb3c43aa8436eb615780fef8b61db
+    - 396bd59faaae43bd97f8948161d777d6
+    - 372755ff81c248ef9bf3069f646b2438
+    - d763c447d723413391187e8362e1079f
+- name: Artful Dodge
+  db_uuid: 8fd1c286a8664a2f955f1fe245929090
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If you re-rolled your last turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
+- name: Turn Buckle Brain Buster
+  db_uuid: 8b7fb3c43aa8436eb615780fef8b61db
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If you re-rolled your last turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
+- name: Guillotine Choke (Robert Dunn)
+  db_uuid: 396bd59faaae43bd97f8948161d777d6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.
+  tags: []
+  related_cards:
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
+- name: The Killer Interview (V1)
+  db_uuid: d763c447d723413391187e8362e1079f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'When this card is in your discard pile: If you re-rolled your turn roll and rolled the same skill, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
+- name: The Killer Interview (V2)
+  db_uuid: 372755ff81c248ef9bf3069f646b2438
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile: If you re-rolled your turn roll and rolled the same skill, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
 - name: Rock Newman
   db_uuid: 330b2b0143044d47b08f54881ff6d293
   card_type: SingleCompetitorCard

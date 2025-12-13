@@ -37678,7 +37678,52 @@
   strike: 8
   submission: 9
   grapple: 10
+  rules_text: Your Stop cards copy the text of the Follow Up Strike or Grapple cards they stop.
   tags: []
+  related_finishes:
+    - 6ea140961bca4e9ba931ddd4aee6128b
+    - 43a7e87f1da64396832ea6d0c2681210
+    - 3bcbab89e4b14ef8b6f309e4d29aa62c
+- name: Unprofessional Elbow
+  db_uuid: 6ea140961bca4e9ba931ddd4aee6128b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Look at the top 4 cards of your deck, add 1 to your hand and bury the others.'
+  tags: []
+  related_cards:
+    - 6d4c99c63ee748328862a9281bff7fe2
+- name: Adam Bomb
+  db_uuid: 43a7e87f1da64396832ea6d0c2681210
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Add 1 Stop card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 6d4c99c63ee748328862a9281bff7fe2
+- name: Lemmy Go
+  db_uuid: 3bcbab89e4b14ef8b6f309e4d29aa62c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    When this card is in your discard pile and you stop a Follow Up Submission, you may add it to your hand.'
+  tags: []
+  related_cards:
+    - 6d4c99c63ee748328862a9281bff7fe2
 - name: Lexi the Punk Rock Pixie (V1)
   db_uuid: a0fe35c7bf294c0f8a0c6a6aeb2a67c4
   srgpc_url: https://www.srgpc.net/cards/competitors/lexi-the-punk-rock-pixie/
@@ -39922,10 +39967,10 @@
   rules_text: When you hit a card with "Steel" in the name, your next turn roll is +1.
   tags: []
 - name: Mila Mai (Banned)
-  card_type: SingleCompetitorCard
   db_uuid: 65f92221e8714df09fe91cef7756836a
   is_banned: true
   srgpc_url: https://www.srgpc.net/2020-vision-mila-mai/
+  card_type: SingleCompetitorCard
   gender: Female
   power: 6
   technique: 7

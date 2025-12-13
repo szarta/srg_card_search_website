@@ -39922,6 +39922,7 @@
   rules_text: When you hit a card with "Steel" in the name, your next turn roll is +1.
   tags: []
 - name: Mila Mai (Banned)
+  card_type: SingleCompetitorCard
   db_uuid: 65f92221e8714df09fe91cef7756836a
   is_banned: true
   srgpc_url: https://www.srgpc.net/2020-vision-mila-mai/

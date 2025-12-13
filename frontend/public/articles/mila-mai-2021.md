@@ -33,7 +33,7 @@ Drawin' Dimes (Strike)
 Call to the Crowd (Agility)
 An Iconic Performance
 Knee Strike
-Switching Takedown
+Swinging Takedown
 Dragon Screw
 Kick Into the Corner
 Surprise Cutter

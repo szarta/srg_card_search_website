@@ -40436,9 +40436,64 @@
     - ab2e17c9e2ef4e97a6816fb625f0311e
 - name: Mr. C
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
+  srgpc_url: https://www.srgpc.net/cards/competitors/mr-c/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 8
+  grapple: 7
+  rules_text: When you roll Power or Strike for your turn roll, you may draw 1 card then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - 51e35a5575c142e2921ae242e8670f29
+    - 43c50ff027924e369a04e8e63312fd0b
+    - 6f0ad83957414ae0b6a052611629dfab
+- name: Card Storm
+  db_uuid: 51e35a5575c142e2921ae242e8670f29
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Strike
+
+    Draw 2 cards then bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - a1088686b5a342cb90fe49b2f3cc7b8c
+- name: Controlling the Deck
+  db_uuid: 43c50ff027924e369a04e8e63312fd0b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    When this card is in your discard pile: After you use your Mr. C Gimmick, you may bury 1 other card in your discard pile.'
+  tags: []
+  related_cards:
+    - a1088686b5a342cb90fe49b2f3cc7b8c
+- name: 52,000 Card Pickup
+  db_uuid: 6f0ad83957414ae0b6a052611629dfab
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    If stopped, bury or discard any number of cards from your hand and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - a1088686b5a342cb90fe49b2f3cc7b8c
 - name: Mr. Poppintwist
   db_uuid: 7c61c4f8ca78491ba66c77a6a2778888
   srgpc_url: https://www.srgpc.net/cards/competitors/mr-poppintwist/

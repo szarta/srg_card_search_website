@@ -40761,8 +40761,63 @@
     - a546704b5fb04a0398cd2e0e54c8210c
 - name: Mrs. Weapon
   db_uuid: 9d5555e50931457794b0ac555adde8b6
+  srgpc_url: https://www.srgpc.net/cards/competitors/mrs-weapon/
   card_type: SingleCompetitorCard
+  gender: Female
+  power: 5
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 6
+  rules_text: When you hit a Strike, your opponent discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 71a5feab31a34e969a7a96a10c269383
+    - 18d0b3ae2a0443f6b69489bf3b4cd471
+    - 0c43d7dcc2cf42c7ae8d1534503d1431
+- name: I Don't Know You
+  db_uuid: 71a5feab31a34e969a7a96a10c269383
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Gimmick is blank.
+
+    If your opponent breaks out, this card remains in play.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 9d5555e50931457794b0ac555adde8b6
+- name: That's My Purse
+  db_uuid: 18d0b3ae2a0443f6b69489bf3b4cd471
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    If "I Don''t Know You" is stopped, you may shuffle this card into your deck from your hand; until the end of the turn, the match cannot end by disqualification.'
+  tags: []
+  related_cards:
+    - 9d5555e50931457794b0ac555adde8b6
+- name: Amy Lock
+  db_uuid: 0c43d7dcc2cf42c7ae8d1534503d1431
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If "I Don''t Know You" is in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 9d5555e50931457794b0ac555adde8b6
 - name: Ms. Southern Belle
   db_uuid: 28baaa86f61a4ccf9080632f07c0401f
   card_type: SingleCompetitorCard

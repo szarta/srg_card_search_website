@@ -42237,11 +42237,118 @@
   tags: []
 - name: 'Press #1 P (V1)'
   db_uuid: 62eb204d6221414d9c816b81d6067761
+  srgpc_url: https://www.srgpc.net/cards/competitors/press-1-p/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: 'During your turn:
+
+    Your Strike cards have the added text: "Flip 2 cards, add 1 Grapple from your discard pile to your hand.
+
+    Your "School Boy" and "Backslide" have blank text.'
   tags: []
+  related_finishes:
+    - f2b73b9a766b4db18640c3e73ff49a4b
+    - 7f4507b78d314b51a0c0e22fc2ee26fd
+    - 559dbb8973bb41e0826115bf00ea12cf
+    - f929236be3f7413e9e5030dd72a99de2
+    - 51f4a3f378ad4ecab1ed478d2983dbce
+    - 9befcead60ac40979480537a30a03b15
+- name: Impact Maker
+  db_uuid: f2b73b9a766b4db18640c3e73ff49a4b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Flip 2 cards, add 1 Grapple from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
+- name: Press 1 P-Ower Bomb
+  db_uuid: 7f4507b78d314b51a0c0e22fc2ee26fd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    If you have a card with "Impact" in the name in play, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
+- name: Driven by Impact
+  db_uuid: 559dbb8973bb41e0826115bf00ea12cf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Draw 1 card or your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
+- name: Head Above the Rest
+  db_uuid: f929236be3f7413e9e5030dd72a99de2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    Search your deck for up to 3 Grapples.  Put 1 in your discard pile, put 1 in your hand, and the other on top of your deck.'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
+- name: Impact Ender
+  db_uuid: 51f4a3f378ad4ecab1ed478d2983dbce
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'ADd 1 card with "Head" or "Table" in the name from your discard pile to your hand.
+
+    +1 to Agility and Grapple for each Strike or card you have in play with "Impact" in the name (Max +3).'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
+- name: 'Press #1 for Pain'
+  db_uuid: 9befcead60ac40979480537a30a03b15
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If your opponent breaks out on their 1st Breakout roll, they discard 3 cards from their hand.  If the Crowd Meter is 3 or greater, your opponent gets 1 fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 62eb204d6221414d9c816b81d6067761
+    - 2f9a9734734748849dc7f70b07e38c47
 - name: Practisite (V2)
   db_uuid: f908c048e5f84b9caf403a88fd63d15a
+  srgpc_url: https://www.srgpc.net/competitors/press-1-p-v2/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -42315,7 +42422,22 @@
   db_uuid: 2f9a9734734748849dc7f70b07e38c47
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 5
+  rules_text: When you hit a card with "Head", "Table", or "Impact" in the name, draw 1 card.
   tags: []
+  related_finishes:
+    - f2b73b9a766b4db18640c3e73ff49a4b
+    - 7f4507b78d314b51a0c0e22fc2ee26fd
+    - 559dbb8973bb41e0826115bf00ea12cf
+    - f929236be3f7413e9e5030dd72a99de2
+    - 51f4a3f378ad4ecab1ed478d2983dbce
+    - 9befcead60ac40979480537a30a03b15
 - name: Pretty Hair Piercer (V1)
   db_uuid: 3ca21530f41f4a43b0063316172dba00
   srg_url: https://supershowthegame.com/product/pretty-hair-piercer/

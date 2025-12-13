@@ -10,13 +10,15 @@ date: 2025-11-12
 [[[Alex Kane]]]
 
 
-### Writeup
+## Writeup
 
 This deck was built by Trey on Stacked Card #19.  Discard from the bottom stops
 for the spotlight finish and extra recursion.
 
 Highly untested and built at 2am, so take with grain of salt.  Opponent's have
 to push strikes against it.
+
+## Decklist
 
 ```deck
 Alex Kane

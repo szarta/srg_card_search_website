@@ -5,17 +5,17 @@ author: Johnathan Thew (Hold the Line Harry)
 date: 2022-02-05
 ---
 
-### The Competitor
+## The Competitor
 
 [[[Mila Mai (Banned)]]]
 
 
-### Writeup
+## Writeup
 
 This deck won deck of the year in 2021.  Notably the competitor is now banned,
 and the author knows nothing of the history, so without further ado...
 
-### Decklist
+## Decklist
 
 ```deck
 Mila Mai (Banned)

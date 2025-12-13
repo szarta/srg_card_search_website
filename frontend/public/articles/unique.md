@@ -9,7 +9,7 @@ date: 2025-11-12
 
 [[[Unique]]]
 
-### Writeup
+## Writeup
 
 This deck was reviewed by Trey and Drew on Stacked Card #19.  Johnny Korea won
 a CAC tournament with this deck.

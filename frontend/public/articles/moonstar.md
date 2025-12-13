@@ -10,7 +10,7 @@ date: 2025-09-30
 [[[Moonstar]]]
 
 
-### Writeup ###
+## Writeup
 
 Went undefeated tonight at the Rip N Ship Arena with this beauty of a deck. The
 list itself felt great and had insane combos. As crazy as it sounds one of the

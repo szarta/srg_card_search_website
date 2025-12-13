@@ -9,7 +9,7 @@ date: 2025-10-05
 
 [[[Leader of the Postal Nation]]]
 
-### Writeup
+## Writeup
 
 Drew and Trey reviewed this on Stacked Card #17.  Pretty standard shuffles to
 draw.  Submission search either gets the weakest stop or the most protected finish.

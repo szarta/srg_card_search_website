@@ -47145,6 +47145,59 @@
   grapple: 6
   rules_text: When you hit a card with "Power" or "Choke" in the name, your opponent buries 1 random card in their hand.
   tags: []
+  related_finishes:
+    - eedb37e05b1a481ea79af1f63e80fee2
+    - 5075ae6504de4d9fab2974b74bea04f7
+    - 5603124c813e4dee802d0ddcd0c6245b
+    - eac4bcff04114d8abd78692b6a077804
+- name: Spell 656
+  db_uuid: eedb37e05b1a481ea79af1f63e80fee2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    When the Crowd Meter is 2 or greater and "School Boy" is in your discard pile, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 0d71d3dff2ad4f23a35055c49935c913
+- name: Apprentice Power Punch
+  db_uuid: 5075ae6504de4d9fab2974b74bea04f7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Shuffle 4 cards with "Power" or "Choke" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 0d71d3dff2ad4f23a35055c49935c913
+- name: My Most Powerful Spell
+  db_uuid: 5603124c813e4dee802d0ddcd0c6245b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +1 to Technique and Grapple for each card you have in play with "Power" or "Choke" in the name.  When this card is in your discard pile and your 3rd Breakout roll is 5 or 6, you may bury this card to re-roll your Breakout roll.
+  tags: []
+  related_cards:
+    - 0d71d3dff2ad4f23a35055c49935c913
+- name: All Choked Up
+  db_uuid: eac4bcff04114d8abd78692b6a077804
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Your opponent randomly buries 1 card in their hand for each card you have in play with "Power" or "Choke" in the name.'
+  tags: []
+  related_cards:
+    - 0d71d3dff2ad4f23a35055c49935c913
 - name: Wooly Bully (V1)
   db_uuid: 5d762e9b0091476e82e97ea73034fefa
   srgpc_url: https://www.srgpc.net/cards/competitors/wooly-bully/

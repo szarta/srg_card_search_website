@@ -42146,7 +42146,59 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/polands-prince/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 8
+  rules_text: When you roll Agility for your turn roll, you may draw 2 cards then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - 41f652928a864a56a24447d2266efd9b
+    - b7c44a3f7c0f4f768b244dab9ce9a45c
+    - fd35dbbfb7a94c8f8381ae7be82ebb4b
+- name: The White Eagle
+  db_uuid: 41f652928a864a56a24447d2266efd9b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Flip 3 cards. Draw 1 card for each Strike flipped.'
+  tags: []
+  related_cards:
+    - eaa66b2581dd44f0980eaebc34dbfbf5
+- name: The Pierogi Press
+  db_uuid: b7c44a3f7c0f4f768b244dab9ce9a45c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Your opponent''s first Breakout roll is -1 for each Follow Up you have in play.'
+  tags: []
+  related_cards:
+    - eaa66b2581dd44f0980eaebc34dbfbf5
+- name: Beer Barrel Polka
+  db_uuid: fd35dbbfb7a94c8f8381ae7be82ebb4b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If you hit a Follow Up Submission last turn, double the Crowd Meter.'
+  tags: []
+  related_cards:
+    - eaa66b2581dd44f0980eaebc34dbfbf5
 - name: The Polverizer (V1)
   db_uuid: 3734dc0ab3994d058db9bee9d9923277
   srg_url: https://supershowthegame.com/product/the-polverizer/

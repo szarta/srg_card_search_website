@@ -42695,9 +42695,62 @@
     - 09df8a22bc694a29b7465cd9a80ee9f5
 - name: Primalotta
   db_uuid: 11090ca47d7b45ba98292af07e58f428
+  srgpc_url: https://www.srgpc.net/cards/competitors/primalotta/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  rules_text: When your turn roll is 11 or greater, your opponent randomly discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - 2642f5d62cac4e61a5d7d97b920f0c9d
+    - 8597ccf3eb3647228e85fed7b752d446
+    - bc2fa705770649e8b035f6531bd9eb73
+- name: Adore Me!
+  db_uuid: 2642f5d62cac4e61a5d7d97b920f0c9d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    If your turn roll was 11 or greater, +2 to Strike.'
+  tags: []
+  related_cards:
+    - 11090ca47d7b45ba98292af07e58f428
+- name: The Reverence
+  db_uuid: 8597ccf3eb3647228e85fed7b752d446
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    When this card is in your discard pile and your opponent would decrease your turn roll, it is instead increased.'
+  tags: []
+  related_cards:
+    - 11090ca47d7b45ba98292af07e58f428
+- name: The High C
+  db_uuid: bc2fa705770649e8b035f6531bd9eb73
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    If your Finish roll is 11 or greater, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - 11090ca47d7b45ba98292af07e58f428
 - name: The Prince of Fashion
   db_uuid: 9f81d2d70a2a404b9058967f1c452e2b
   srg_url: https://supershowthegame.com/product/the-prince-of-fashion/

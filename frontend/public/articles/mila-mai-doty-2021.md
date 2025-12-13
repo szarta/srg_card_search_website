@@ -1,7 +1,7 @@
 ---
 slug: mila-mai-2021
 title: "2021 Deck of the Year Mila Mai"
-author: Johnathan Thew (Hold the Line Harry)
+author: "Johnathan Thew (Hold the Line Harry)"
 date: 2022-02-05
 ---
 

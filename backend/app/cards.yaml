@@ -11455,7 +11455,7 @@
   deck_card_number: 13
   rules_text: If you have another Strike in play, add 1 card from your discard pile to your hand.
   tags: []
-- name: Hurricane Kick
+- name: Hurricane Kick (Agility)
   db_uuid: d887fe719c074e93a36ff717a5b7e920
   srgpc_url: https://www.srgpc.net/cards/13/hurricane-kick/
   card_type: MainDeckCard
@@ -11464,7 +11464,7 @@
   deck_card_number: 13
   rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
 
-    Draw 2 cards.'
+    Draw 2 cards.  Skill Requirement: Agility 8+'
   tags: []
 - name: Kick in the Ropes
   db_uuid: 095264251cae480981abcfcd179702da
@@ -15891,7 +15891,7 @@
 
     or each player buries 1 card in their discard pile.'
   tags: []
-- name: Counter Punching
+- name: Counter Punching (Agility)
   db_uuid: fa47c664aa2f4c7eb750d8176bbfd4e7
   srgpc_url: https://www.srgpc.net/cards/19/counter-punching/
   card_type: MainDeckCard
@@ -15900,7 +15900,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
 
-    +2 to Agility.'
+    +2 to Agility.  Skill Requirement: Agility 8+'
   tags: []
 - name: Death Defying Elbow Drop (V1)
   db_uuid: 0c0a3d3523af430595a897fa757e9c43
@@ -18319,7 +18319,7 @@
   deck_card_number: 22
   rules_text: Flip 2 cards. Add 1 Strike and 1 Grapple from your discard pile to your hand, or your opponent buries 1 card in their hand.
   tags: []
-- name: Daredevil Dive (Agility 8+)
+- name: Daredevil Dive (Agility)
   db_uuid: 311503316e1c4cf6a67f5b792b801503
   srgpc_url: https://www.srgpc.net/cards/22/daredevil-dive/
   card_type: MainDeckCard

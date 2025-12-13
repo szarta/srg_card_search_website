@@ -28196,6 +28196,7 @@
   tags: []
 - name: Zack Sabre Jr. (V1)
   db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
+  srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr/
   card_type: SingleCompetitorCard
   division: Underworld
   power: 5
@@ -28206,6 +28207,38 @@
   grapple: 7
   rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 8e3db67fc80348098e4f8a24d47aab99
+    - 08c1d2a050984c88bb3b7b6231dd2817
+    - f33984defca34a05a6f76e4ed68ecb64
+- name: Sabre-Splx
+  db_uuid: 08c1d2a050984c88bb3b7b6231dd2817
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    +1 to Submission
+
+    If you hit a Submission last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 98d943afc0ad4074a534d4e92ab0b9dc
+- name: Cross Arm Breaker
+  db_uuid: f33984defca34a05a6f76e4ed68ecb64
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Stop any "Strike" with "Flying" or "Splash" in the name.
+
+    Your opponent buries 1 random card in their hand for each card you have in play with "Arm" in the name.'
+  tags: []
+  related_cards:
+    - 98d943afc0ad4074a534d4e92ab0b9dc
 - name: Smiley!
   db_uuid: 54f7aabe1c6346e2811aeed599d8055b
   card_type: SingleCompetitorCard
@@ -34688,6 +34721,8 @@
 
     Draw 1 card for each Stop you have in play.'
   tags: []
+  related_cards:
+    - a4b61c579c2d4ca59b5001ea5503fdef
 - name: Pan de Muerta
   db_uuid: 941e4585235a4778a8f11791502d94fc
   card_type: MainDeckCard
@@ -34700,6 +34735,8 @@
 
     When this card is in your discard pile and your opponent wins a turn roll, your next turn roll is +1.'
   tags: []
+  related_cards:
+    - a4b61c579c2d4ca59b5001ea5503fdef
 - name: Muerta Lock
   db_uuid: cfe3370977a54fd1a722b7a2829cccce
   card_type: MainDeckCard
@@ -34710,6 +34747,8 @@
 
     Add 1 stop from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - a4b61c579c2d4ca59b5001ea5503fdef
 - name: Gideon Guts (V1)
   db_uuid: b0d290415e4e4ab685ecf41d06d6f167
   srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
@@ -40402,6 +40441,7 @@
   tags: []
 - name: Mr. Poppintwist
   db_uuid: 7c61c4f8ca78491ba66c77a6a2778888
+  srgpc_url: https://www.srgpc.net/cards/competitors/mr-poppintwist/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -40413,6 +40453,44 @@
   grapple: 8
   rules_text: When you have 6 or more cards in your hand; your Grapple skill is +2.
   tags: []
+  related_finishes:
+    - b0bec9e32a724a9fbda3f1b8ac95c448
+    - fc037785d3f74567aed85e632deba09b
+    - f4259807d1a64f5db24bd2e4bd76eb93
+- name: Poppintwist Plunge
+  db_uuid: b0bec9e32a724a9fbda3f1b8ac95c448
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 7c61c4f8ca78491ba66c77a6a2778888
+- name: Twist - and - Pop
+  db_uuid: fc037785d3f74567aed85e632deba09b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Draw 4 cards or take 4 cards from your discard pile and shuffle them into your deck.
+  tags: []
+  related_cards:
+    - 7c61c4f8ca78491ba66c77a6a2778888
+- name: Balloon Bender
+  db_uuid: f4259807d1a64f5db24bd2e4bd76eb93
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If this card is stopped, draw 2 cards.'
+  tags: []
+  related_cards:
+    - 7c61c4f8ca78491ba66c77a6a2778888
 - name: Mr. Match of the Year
   db_uuid: 6b9d7c1228594225b3f26e68ec5c2fc6
   srg_url: https://supershowthegame.com/product/mr-moty/
@@ -40488,7 +40566,7 @@
 
     +1 to Technique
 
-    When this card is in yoru discard pile and your opponent flips any number of cards; add it to your hand.'
+    When this card is in your discard pile and your opponent flips any number of cards; add it to your hand.'
   tags: []
   related_cards:
     - f9cb3b3b788346eda95fcb066e9305ad
@@ -40927,7 +41005,7 @@
 
     During your turn:
 
-    When this card is in yoru discard pile: You may replace "Your opponent" with "Either player" in your Gimmick.'
+    When this card is in your discard pile: You may replace "Your opponent" with "Either player" in your Gimmick.'
   tags: []
   related_cards:
     - 9623ba974511425ebabfd5a904786f80
@@ -47502,7 +47580,7 @@
   strike: 6
   submission: 9
   grapple: 7
-  rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from yoru discard pile to your hand.'
+  rules_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your discard pile to your hand.'
   tags: []
   related_finishes:
     - 8e3db67fc80348098e4f8a24d47aab99
@@ -47524,6 +47602,7 @@
   tags: []
   related_cards:
     - 6359a3a6d77d45ae8e05f43c37b5a001
+    - 98d943afc0ad4074a534d4e92ab0b9dc
 - name: Zack Driver
   db_uuid: df4fa4058d284a43862f4f201d056260
   card_type: MainDeckCard
@@ -49721,7 +49800,7 @@
 
     +2 to Agility
 
-    Shuffle 4 cards from yoru discard pile into your deck.
+    Shuffle 4 cards from your discard pile into your deck.
 
     Draw 2 cards.'
   tags:

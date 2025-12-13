@@ -269,8 +269,9 @@ export default function DeckGridFromNames({
   const escapeCSV = (val) => {
     if (val === null || val === undefined) return "";
     let s = Array.isArray(val) || typeof val === "object" ? JSON.stringify(val) : String(val);
-    if (/[",\n]/.test(s)) s = `"${s.replace(/"/g, '""')}"`;
-    return s;
+    // Match Android app CSV scheme: replace commas with --, escape quotes with "", wrap in quotes
+    s = s.replace(/,/g, '--').replace(/"/g, '""');
+    return `"${s}"`;
   };
 
   const toCSV = () => {

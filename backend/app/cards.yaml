@@ -44680,9 +44680,66 @@
     - 76844541603c4065993d0c45c0de838b
 - name: Ruby Renegade
   db_uuid: 7d75b496431a49a88896c8b79066646d
+  srgpc_url: https://www.srgpc.net/cards/competitors/ruby-renegade/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 5
+  rules_text: 'Once on your turn: When you hit a card with "Chicken Wing" or "Elbow" in the name, shuffle 1 card into your deck and draw 1 card.'
   tags: []
+  related_finishes:
+    - 020bffa993404e7d8eb3dcbc7cf0f4fb
+    - f5582968eead479199193148f469c98c
+    - f4a7f62d47ed49689402bcf1c7f63998
+- name: Mystic Falls
+  db_uuid: 020bffa993404e7d8eb3dcbc7cf0f4fb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    If you have a card with "Elbow" in the name in play, this card can only be stopped by a Follow Up.'
+  tags: []
+  related_cards:
+    - 7d75b496431a49a88896c8b79066646d
+- name: Rain Before the Rainbow
+  db_uuid: f5582968eead479199193148f469c98c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    When this card is in your discard pile and you draw for your Gimmick, you may discard 1 card to draw an additional card.'
+  tags: []
+  related_cards:
+    - 7d75b496431a49a88896c8b79066646d
+- name: My Brutality
+  db_uuid: f4a7f62d47ed49689402bcf1c7f63998
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If you have a card with "Elbow" and a card with "Chicken Wing" in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7d75b496431a49a88896c8b79066646d
 - name: Runtime Terror (V1)
   db_uuid: be895fbbb37448009c28ff251d72b650
   card_type: SingleCompetitorCard

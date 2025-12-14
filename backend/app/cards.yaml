@@ -854,6 +854,8 @@
   related_cards:
     - 34920b2f4af2455da98b228debb1e87f
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: Shot Down!
   db_uuid: 2e90fdf49f4846dcab979a85aa2b3cab
   srg_url: https://supershowthegame.com/product/the-big-shot/
@@ -870,6 +872,8 @@
   related_cards:
     - 34920b2f4af2455da98b228debb1e87f
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Last Word
   db_uuid: 4cbdb4a7a01f45048f46ee0fcf3ac1ec
   srg_url: https://supershowthegame.com/product/the-big-shot/
@@ -884,6 +888,8 @@
   related_cards:
     - 34920b2f4af2455da98b228debb1e87f
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Above Average Warrior
   db_uuid: bb8f720590c44fe189ce68af24a73598
   srgpc_url: https://www.srgpc.net/competitors/the-above-average-warrior/
@@ -26939,6 +26945,8 @@
   related_cards:
     - b67cbc591a314259b7d96010d8c2fe26
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Bank Breaker (V2)
   db_uuid: 24fd70fb6a824880a6ffcef531607b3e
   card_type: MainDeckCard
@@ -26954,6 +26962,8 @@
   related_cards:
     - b67cbc591a314259b7d96010d8c2fe26
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Sicilian Neck Tie (V2)
   db_uuid: 070eebb4854147479cd6c0d7ef96cd8f
   card_type: MainDeckCard
@@ -26969,6 +26979,8 @@
   related_cards:
     - b67cbc591a314259b7d96010d8c2fe26
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Bank Breaker (V1)
   db_uuid: 00a74ff9354c4af599b8b4827b1c9eb6
   card_type: MainDeckCard
@@ -26984,6 +26996,8 @@
   related_cards:
     - b67cbc591a314259b7d96010d8c2fe26
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: The Sicilian Neck Tie (V1)
   db_uuid: 4b1735be03884d819c67e3626e3637e7
   card_type: MainDeckCard
@@ -26999,6 +27013,8 @@
   related_cards:
     - b67cbc591a314259b7d96010d8c2fe26
     - 330b2b0143044d47b08f54881ff6d293
+    - 21b065984465423c90b631545f94e0fb
+    - 666536238d51453381fc0f4394b29e34
 - name: Matthaias Son of Zeus (V1)
   db_uuid: 7ac80714f1ab41098576a251ee693064
   card_type: SingleCompetitorCard
@@ -44318,6 +44334,7 @@
     - b1c536d936c143d7b31a0ce0490f8bd9
 - name: Rock Newman
   db_uuid: 330b2b0143044d47b08f54881ff6d293
+  srgpc_url: https://www.srgpc.net/cards/competitors/rock-newman/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -44337,6 +44354,15 @@
     - 070eebb4854147479cd6c0d7ef96cd8f
     - 00a74ff9354c4af599b8b4827b1c9eb6
     - 4b1735be03884d819c67e3626e3637e7
+    - ceb7539d7d62404dbfedfcd5afbce48b
+    - 171fb89bc21b4c47bac16ccb8ad12c88
+    - 0f2a78e5a39e42c19da24a3ec34a096d
+    - 516ad027f6054e83857971ea6ee95f14
+    - 86e70b27c8174a75bdcf36130c5595af
+    - 471cd63142b342c9959c50739cd675e7
+    - acfc6028b21242019134f2d2397f072d
+    - a4e8dfa6c758437d954d0155b9464e57
+    - 399a5b3ec00c457580ca4cd1c62e1436
 - name: Rolling Outlaw
   db_uuid: 09d06a9ded0f4fcd8c197946ec4f2424
   card_type: SingleCompetitorCard
@@ -45685,6 +45711,12 @@
 
     When your opponent has 7 or more cards in their hand, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 8ae46f2366614e28ac5d20571c09d455
+    - 23399bbbb04044748fda782de8e3169c
+    - 2089cbfc2a414f49843cf15b434ea359
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
 - name: Jumping Piledriver
   db_uuid: 171fb89bc21b4c47bac16ccb8ad12c88
   card_type: MainDeckCard
@@ -45697,6 +45729,12 @@
 
     +2 to Agility'
   tags: []
+  related_cards:
+    - 8ae46f2366614e28ac5d20571c09d455
+    - 23399bbbb04044748fda782de8e3169c
+    - 2089cbfc2a414f49843cf15b434ea359
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
 - name: The Constriction
   db_uuid: 0f2a78e5a39e42c19da24a3ec34a096d
   card_type: MainDeckCard
@@ -45707,6 +45745,12 @@
 
     +4 to Submission'
   tags: []
+  related_cards:
+    - 8ae46f2366614e28ac5d20571c09d455
+    - 23399bbbb04044748fda782de8e3169c
+    - 2089cbfc2a414f49843cf15b434ea359
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
 - name: Sofa King Eddy Fury
   db_uuid: 066f269d111b4003ad7c426b77cdea5e
   srg_url: https://supershowthegame.com/product/sofa-king-eddy-fury/
@@ -54621,8 +54665,90 @@
   tags: []
 - name: Newman's Henchmen
   db_uuid: 666536238d51453381fc0f4394b29e34
+  srgpc_url: https://www.srgpc.net/cards/competitors/newmans-henchmen/
   card_type: TrioCompetitorCard
+  power: 21
+  technique: 15
+  agility: 18
+  strike: 30
+  submission: 24
+  grapple: 27
+  rules_text: 'Your turn rolls are +1.
+
+    When you have fewer cards in your hand and in play than your opponent:
+
+    Your turn rolls are instead +3.'
   tags: []
+  related_cards:
+    - 34920b2f4af2455da98b228debb1e87f
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 8ae46f2366614e28ac5d20571c09d455
+    - 21b065984465423c90b631545f94e0fb
+  related_finishes:
+    - acfc6028b21242019134f2d2397f072d
+    - a4e8dfa6c758437d954d0155b9464e57
+    - 399a5b3ec00c457580ca4cd1c62e1436
+    - fbde02856d4c4b70a785ac5242932b26
+    - 2e90fdf49f4846dcab979a85aa2b3cab
+    - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+    - 53376b2b338f4252b224f33f5e919219
+    - 24fd70fb6a824880a6ffcef531607b3e
+    - 070eebb4854147479cd6c0d7ef96cd8f
+    - 00a74ff9354c4af599b8b4827b1c9eb6
+    - 4b1735be03884d819c67e3626e3637e7
+    - ceb7539d7d62404dbfedfcd5afbce48b
+    - 171fb89bc21b4c47bac16ccb8ad12c88
+    - 0f2a78e5a39e42c19da24a3ec34a096d
+    - 471cd63142b342c9959c50739cd675e7
+    - 86e70b27c8174a75bdcf36130c5595af
+    - 516ad027f6054e83857971ea6ee95f14
+- name: Bites Out!
+  db_uuid: acfc6028b21242019134f2d2397f072d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+9 to Power
+
+    +2 to Strike
+
+    If your opponent has 9 or more cards in their hand this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 666536238d51453381fc0f4394b29e34
+    - 330b2b0143044d47b08f54881ff6d293
+- name: Jumping Snake Piledriver
+  db_uuid: a4e8dfa6c758437d954d0155b9464e57
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+6 to Power
+
+    +2 to Agility
+
+    +3 to Grapple
+
+    Your Finish rolls are + the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 666536238d51453381fc0f4394b29e34
+    - 330b2b0143044d47b08f54881ff6d293
+- name: The Last Bite
+  db_uuid: 399a5b3ec00c457580ca4cd1c62e1436
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+10 to Technique
+
+    +10 to Submission
+
+    +4 to Strike'
+  tags: []
+  related_cards:
+    - 666536238d51453381fc0f4394b29e34
+    - 330b2b0143044d47b08f54881ff6d293
 - name: Proving Ground
   db_uuid: d565085ca1b04cebbc9aa18e6d9840c6
   srg_url: https://supershowthegame.com/product/proving-ground/
@@ -57531,8 +57657,81 @@
   tags: []
 - name: Righthand Men
   db_uuid: 21b065984465423c90b631545f94e0fb
+  srgpc_url: https://www.srgpc.net/cards/competitors/right-hand-men/
   card_type: TornadoCompetitorCard
+  power: 16
+  technique: 10
+  agility: 12
+  strike: 20
+  submission: 18
+  grapple: 14
+  rules_text: 'You may replace the word "Grapple" with "Submission" in the text of your cards with "Punch" in the name.
+
+    Triple the numbers of the text in any card with "Punch" in the name.'
   tags: []
+  related_cards:
+    - 34920b2f4af2455da98b228debb1e87f
+    - b67cbc591a314259b7d96010d8c2fe26
+  related_finishes:
+    - 516ad027f6054e83857971ea6ee95f14
+    - 86e70b27c8174a75bdcf36130c5595af
+    - 471cd63142b342c9959c50739cd675e7
+    - fbde02856d4c4b70a785ac5242932b26
+    - 2e90fdf49f4846dcab979a85aa2b3cab
+    - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+    - 53376b2b338f4252b224f33f5e919219
+    - 24fd70fb6a824880a6ffcef531607b3e
+    - 070eebb4854147479cd6c0d7ef96cd8f
+    - 00a74ff9354c4af599b8b4827b1c9eb6
+    - 4b1735be03884d819c67e3626e3637e7
+- name: The Bird Bite
+  db_uuid: 516ad027f6054e83857971ea6ee95f14
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility and Grapple for each card your opponent has in their hand greater than 6.
+
+    If your opponent has 6 or more cards in their hand than you, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 21b065984465423c90b631545f94e0fb
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
+- name: The Bird Shot
+  db_uuid: 86e70b27c8174a75bdcf36130c5595af
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +3 to Grapple
+
+    Your opponent discards 2 random cards from their hand.'
+  tags: []
+  related_cards:
+    - 21b065984465423c90b631545f94e0fb
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
+- name: The Bird Bath
+  db_uuid: 471cd63142b342c9959c50739cd675e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Agility
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Draw 1 card for each card you have in play with "Punch" in the name.'
+  tags: []
+  related_cards:
+    - 21b065984465423c90b631545f94e0fb
+    - 330b2b0143044d47b08f54881ff6d293
+    - 666536238d51453381fc0f4394b29e34
 - name: Beef Mode
   db_uuid: 4ad41a329cc34e20a0a6b3d89665f88d
   srg_url: https://supershowthegame.com/product/beef-mode/

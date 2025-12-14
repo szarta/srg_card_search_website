@@ -44815,14 +44815,126 @@
     - 7d75b496431a49a88896c8b79066646d
 - name: Runtime Terror (V1)
   db_uuid: be895fbbb37448009c28ff251d72b650
+  srgpc_url: https://www.srgpc.net/cards/competitors/runtime-terror/
   card_type: SingleCompetitorCard
   division: Underworld
+  gender: Female
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 5
+  rules_text: When you roll Technique for your turn roll, draw the bottom card of your deck and your next turn roll is +1.
   tags: []
+  related_finishes:
+    - c0f0f6880c534eb583d233c966d149a0
+    - c01af60a5cc44ebe90f59105ec1c86f3
+    - afe404af1fe24ce5b725d0e6b7070ee3
+    - 134eeaa3435f4e7d8afff223b20862f3
+    - eb16c0aeeac047f2a931a5c01bd7117b
+    - 5c990c2574b6460ab92532e3c8ec7fa8
+- name: Hello World
+  db_uuid: c0f0f6880c534eb583d233c966d149a0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    Draw the bottom card of your deck.
+
+    Your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
+- name: It's Not a Bug, It's a Feature
+  db_uuid: c01af60a5cc44ebe90f59105ec1c86f3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique for each Grapple you have in play.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
+- name: Under <Ctrl>
+  db_uuid: afe404af1fe24ce5b725d0e6b7070ee3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's Power and Technique are -2.
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
+- name: System Overrun
+  db_uuid: 134eeaa3435f4e7d8afff223b20862f3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Technique
+
+    When this card is in your discard pile: You may replace "Skill Requirement card(s)" in the text of your cards with "card(s)".'
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
+- name: Payload Press Slam
+  db_uuid: eb16c0aeeac047f2a931a5c01bd7117b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique and +2 to Grapple for each Skill Requirement card you have in play (Max +4).
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
+- name: Runtime's Over
+  db_uuid: 5c990c2574b6460ab92532e3c8ec7fa8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    If you have 5 skill requirement cards in play, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - be895fbbb37448009c28ff251d72b650
+    - 80b6384e29ae4f66bfd3659bc59fbee5
 - name: Runtime Terror (V2)
   db_uuid: 80b6384e29ae4f66bfd3659bc59fbee5
+  srgpc_url: https://www.srgpc.net/competitor/runtime-terror-v2/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 7
+  technique: 8
+  agility: 9
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: Your deck may contain up to 5 Skill Requirement cards.
   tags: []
+  related_finishes:
+    - c0f0f6880c534eb583d233c966d149a0
+    - c01af60a5cc44ebe90f59105ec1c86f3
+    - afe404af1fe24ce5b725d0e6b7070ee3
+    - 134eeaa3435f4e7d8afff223b20862f3
+    - eb16c0aeeac047f2a931a5c01bd7117b
+    - 5c990c2574b6460ab92532e3c8ec7fa8
 - name: RVD
   db_uuid: 276fb52f04234fa9bb6adebf98aa91e6
   srgpc_url: https://www.srgpc.net/cards/competitors/rvd/

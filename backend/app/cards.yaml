@@ -851,6 +851,9 @@
 
     Your opponent buries 5 cards in their hand.'
   tags: []
+  related_cards:
+    - 34920b2f4af2455da98b228debb1e87f
+    - 330b2b0143044d47b08f54881ff6d293
 - name: Shot Down!
   db_uuid: 2e90fdf49f4846dcab979a85aa2b3cab
   srg_url: https://supershowthegame.com/product/the-big-shot/
@@ -864,6 +867,9 @@
 
     Take one card from your discard pile and add it to your hand.'
   tags: []
+  related_cards:
+    - 34920b2f4af2455da98b228debb1e87f
+    - 330b2b0143044d47b08f54881ff6d293
 - name: The Last Word
   db_uuid: 4cbdb4a7a01f45048f46ee0fcf3ac1ec
   srg_url: https://supershowthegame.com/product/the-big-shot/
@@ -875,6 +881,9 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - 34920b2f4af2455da98b228debb1e87f
+    - 330b2b0143044d47b08f54881ff6d293
 - name: The Above Average Warrior
   db_uuid: bb8f720590c44fe189ce68af24a73598
   srgpc_url: https://www.srgpc.net/competitors/the-above-average-warrior/
@@ -26909,6 +26918,87 @@
   grapple: 5
   rules_text: When you roll Strike for your turn roll, search your deck for 1 card with "Punch" in the name and add it to your hand, shuffle your deck.
   tags: []
+  related_finishes:
+    - 53376b2b338f4252b224f33f5e919219
+    - 24fd70fb6a824880a6ffcef531607b3e
+    - 070eebb4854147479cd6c0d7ef96cd8f
+    - 00a74ff9354c4af599b8b4827b1c9eb6
+    - 4b1735be03884d819c67e3626e3637e7
+- name: Dead Man's Hand
+  db_uuid: 53376b2b338f4252b224f33f5e919219
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Power
+
+    If you hit a card with "Punch" in the name last turn, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 330b2b0143044d47b08f54881ff6d293
+- name: The Bank Breaker (V2)
+  db_uuid: 24fd70fb6a824880a6ffcef531607b3e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +4 to Grapple
+
+    Add 2 cards with "Punch" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 330b2b0143044d47b08f54881ff6d293
+- name: The Sicilian Neck Tie (V2)
+  db_uuid: 070eebb4854147479cd6c0d7ef96cd8f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Each time your opponent rolls for a breakout, they bury 1 random card in their hand.'
+  tags: []
+  related_cards:
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 330b2b0143044d47b08f54881ff6d293
+- name: The Bank Breaker (V1)
+  db_uuid: 00a74ff9354c4af599b8b4827b1c9eb6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    +3 to Technique
+
+    Add 2 cards with "Punch" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 330b2b0143044d47b08f54881ff6d293
+- name: The Sicilian Neck Tie (V1)
+  db_uuid: 4b1735be03884d819c67e3626e3637e7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +3 to Technique
+
+    Each time your opponent rolls for a breakout, they bury 1 random card in their hand.'
+  tags: []
+  related_cards:
+    - b67cbc591a314259b7d96010d8c2fe26
+    - 330b2b0143044d47b08f54881ff6d293
 - name: Matthaias Son of Zeus (V1)
   db_uuid: 7ac80714f1ab41098576a251ee693064
   card_type: SingleCompetitorCard
@@ -44230,7 +44320,23 @@
   db_uuid: 330b2b0143044d47b08f54881ff6d293
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 7
+  strike: 5
+  submission: 9
+  grapple: 6
   tags: []
+  related_finishes:
+    - fbde02856d4c4b70a785ac5242932b26
+    - 2e90fdf49f4846dcab979a85aa2b3cab
+    - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
+    - 53376b2b338f4252b224f33f5e919219
+    - 24fd70fb6a824880a6ffcef531607b3e
+    - 070eebb4854147479cd6c0d7ef96cd8f
+    - 00a74ff9354c4af599b8b4827b1c9eb6
+    - 4b1735be03884d819c67e3626e3637e7
 - name: Rolling Outlaw
   db_uuid: 09d06a9ded0f4fcd8c197946ec4f2424
   card_type: SingleCompetitorCard

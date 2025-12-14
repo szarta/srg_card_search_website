@@ -44494,9 +44494,72 @@
   tags: []
 - name: Root Beer Guy
   db_uuid: 858138a8b87c4de4b420fcfefd1d2363
+  srgpc_url: https://www.srgpc.net/competitors/root-beer-guy/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 8
+  rules_text: 'When you bump with Strike, Grapple, or Submission for your turn roll:
+
+    Your opponent may discard a card of that move type from their hand.  If they do not, add 1 card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - ec10613c681e41b580a978f5dd4bba3a
+    - 99c2ed0a50d744e6a03ecc79ed99c13f
+    - f6f5aeba97f548ebabd914d65cd8a786
+- name: Now That's Thick-Headed
+  db_uuid: ec10613c681e41b580a978f5dd4bba3a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Submission
+
+    Look at your opponent''s hand; Discard 1 Strike, 1 Grapple, and 1 Submission.
+
+    If you bumped on the previous turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 858138a8b87c4de4b420fcfefd1d2363
+- name: Uproot the Sass-afras
+  db_uuid: 99c2ed0a50d744e6a03ecc79ed99c13f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    +2 to Grapple
+
+    When this card is in your discard pile and you add it to your hand with your Gimmick, your next turn roll is +4.'
+  tags: []
+  related_cards:
+    - 858138a8b87c4de4b420fcfefd1d2363
+- name: Chuggin' n Muggin'
+  db_uuid: f6f5aeba97f548ebabd914d65cd8a786
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    +2 to Submission
+
+    If you have another card with "Chug" and another card with "Mug" in the name, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 858138a8b87c4de4b420fcfefd1d2363
 - name: Rowdy Ron
   db_uuid: 76844541603c4065993d0c45c0de838b
   card_type: SingleCompetitorCard

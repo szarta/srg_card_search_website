@@ -33186,7 +33186,7 @@
 - name: Ember Wolf (V1)
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
   srg_url: https://supershowthegame.com/product/ember-wolf/
-  srgpc_url: https://www.srgpc.net/competitors/ember-wolf-v2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/ember-wolf/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -33204,6 +33204,9 @@
     - b9eda449f3ec4f3f8ec6ca01d74590a4
     - 81f74f91eadb4eff9cd4a7b9634c5211
     - fc3e3574cfaf4e6eb225379bf90bbb11
+    - fb98c823c0cd44c780d9199f2723033c
+    - 85b70664cbe94aefa6b9e8f6e544e1c9
+    - c8f2be0b716f4d68aa34e1dddc4ec118
 - name: Dream Catcher
   db_uuid: b9eda449f3ec4f3f8ec6ca01d74590a4
   card_type: MainDeckCard
@@ -33214,6 +33217,10 @@
 
     When you have a card with "Chicken Wing" in the name in play, your opponent gets 2 breakout rolls this turn.'
   tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
 - name: Stardust Fall
   db_uuid: 81f74f91eadb4eff9cd4a7b9634c5211
   card_type: MainDeckCard
@@ -33224,6 +33231,10 @@
 
     Shuffle 6 cards from your discard pile into your deck and draw 2 cards.'
   tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
 - name: Rebel Heart
   db_uuid: fc3e3574cfaf4e6eb225379bf90bbb11
   card_type: MainDeckCard
@@ -33236,8 +33247,61 @@
 
     Flip 2 cards, then add 1 Strike from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
+- name: Bad Moon Rising
+  db_uuid: fb98c823c0cd44c780d9199f2723033c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    Draw 1 card for each Submission you have in play.'
+  tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
+- name: Howler Bomb
+  db_uuid: 85b70664cbe94aefa6b9e8f6e544e1c9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
+- name: Wolfgang Clutch
+  db_uuid: c8f2be0b716f4d68aa34e1dddc4ec118
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If you have a card with "Chicken Wing" in the name in play, look at your opponent''s hand, they bury all Submissions.'
+  tags: []
+  related_cards:
+    - a038bb0a150f472cb9acd8a3f7be1778
+    - 70b7bc008c124456b49e4112b209c5db
+    - 7d75b496431a49a88896c8b79066646d
 - name: Ember Wolf (V2)
   db_uuid: 70b7bc008c124456b49e4112b209c5db
+  srgpc_url: https://www.srgpc.net/competitors/ember-wolf-v2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -33253,6 +33317,9 @@
     - b9eda449f3ec4f3f8ec6ca01d74590a4
     - 81f74f91eadb4eff9cd4a7b9634c5211
     - fc3e3574cfaf4e6eb225379bf90bbb11
+    - fb98c823c0cd44c780d9199f2723033c
+    - 85b70664cbe94aefa6b9e8f6e544e1c9
+    - c8f2be0b716f4d68aa34e1dddc4ec118
 - name: Emo Mam
   db_uuid: 621336854c0d4f8d8d02ea15e46fa711
   srgpc_url: https://www.srgpc.net/cards/competitors/emo-mam/
@@ -44696,6 +44763,12 @@
     - 020bffa993404e7d8eb3dcbc7cf0f4fb
     - f5582968eead479199193148f469c98c
     - f4a7f62d47ed49689402bcf1c7f63998
+    - b9eda449f3ec4f3f8ec6ca01d74590a4
+    - 81f74f91eadb4eff9cd4a7b9634c5211
+    - fc3e3574cfaf4e6eb225379bf90bbb11
+    - fb98c823c0cd44c780d9199f2723033c
+    - 85b70664cbe94aefa6b9e8f6e544e1c9
+    - c8f2be0b716f4d68aa34e1dddc4ec118
 - name: Mystic Falls
   db_uuid: 020bffa993404e7d8eb3dcbc7cf0f4fb
   card_type: MainDeckCard

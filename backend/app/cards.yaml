@@ -42690,6 +42690,7 @@
     - 692d5eaef3004346b5458de99691e24c
 - name: Pretzel Wizard
   db_uuid: fcb3c164213a49be9ab0ae4a70bdc211
+  srgpc_url: https://www.srgpc.net/cards/competitors/pretzel-wizard/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

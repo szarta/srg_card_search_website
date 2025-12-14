@@ -43158,9 +43158,70 @@
   tags: []
 - name: The Professor Matthew Smith
   db_uuid: 925317f7c28841d181df7d38d363b0ff
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-professor-matthew-smith/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: When any player stops a card, they discard 2 cards from their hand.
   tags: []
+  related_finishes:
+    - cfb7e6d36e2844d389ef2f967a0d7a6d
+    - 83087445d3e247f4a818ac252dfa8d2d
+    - 98b21e1d19ac4925a3044be2e1fc3370
+- name: Eleanor Driver
+  db_uuid: cfb7e6d36e2844d389ef2f967a0d7a6d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    If stopped, flip 4 cards.'
+  tags: []
+  related_cards:
+    - 925317f7c28841d181df7d38d363b0ff
+- name: The Fourth Horseman
+  db_uuid: 83087445d3e247f4a818ac252dfa8d2d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +3 to Submission
+
+    If cards #4, #14, and #24 are in your discard pile, you may discard this card from your hand and your turn roll is +2.'
+  tags: []
+  related_cards:
+    - 925317f7c28841d181df7d38d363b0ff
+- name: Schooled
+  db_uuid: 98b21e1d19ac4925a3044be2e1fc3370
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    Bury 5 cards in your discard pile.
+
+    Draw 1 card.
+
+    Bury 10 cards in your opponent''s discard pile.
+
+    Your opponent discards 1 card.'
+  tags: []
+  related_cards:
+    - 925317f7c28841d181df7d38d363b0ff
 - name: The Psychiatrist Luna Bellatrix
   db_uuid: b9ba2975954f4804b291b5bb36cef3f0
   srg_url: https://supershowthegame.com/product/luna-bellatrix-new/

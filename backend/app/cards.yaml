@@ -12657,14 +12657,25 @@
   deck_card_number: 14
   rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   tags: []
-- name: Takeover With the Trash Can
+- name: Takeover With the Trash Can (V1)
   db_uuid: 0860276881ab4f3f8e6ad8de1c329f40
-  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can-2/
+  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 14
   rules_text: Flip 3 cards.
+  tags: []
+- name: Takeover With the Trash Can (V2)
+  db_uuid: c90152ed4b2142eca8bcc1294809ea99
+  srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can-2/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Flip 3 cards.
+
+    Add 1 card with "Trash Can" in the name from your discard pile to your hand.'
   tags: []
 - name: Thicker Than Water
   db_uuid: 34ab2a1bed974bfb80e3d14bca70d2ef

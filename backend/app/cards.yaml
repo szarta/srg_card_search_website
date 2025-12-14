@@ -45978,9 +45978,65 @@
     - d83034fb8a4048fd89625212f4aa6d1f
 - name: Shieldmaiden
   db_uuid: 69b89fd47e764b3e80717925ac407b40
+  srg_url: https://supershowthegame.com/product/shield-maiden-sd/
+  srgpc_url: https://www.srgpc.net/cards/competitors/shieldmaiden/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  rules_text: 'When you hit a Grapple, your opponent randomly reveals one card in their hand.  If is a Stop, bury it.
+
+    If not, your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - aaf4a371f2c84e9dafb76a380dbd9982
+    - 8dfb540b47eb43b9bbde55e0dc5f04a2
+    - a48dc9518e8949d7ba18c409e7417a2f
+- name: I Will Smite You!
+  db_uuid: aaf4a371f2c84e9dafb76a380dbd9982
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If you have another Strike in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 69b89fd47e764b3e80717925ac407b40
+- name: Begone Foul Spectre
+  db_uuid: 8dfb540b47eb43b9bbde55e0dc5f04a2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    If your opponent has 2 or more Submissions in play, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 69b89fd47e764b3e80717925ac407b40
+- name: I Am No Man!
+  db_uuid: a48dc9518e8949d7ba18c409e7417a2f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    Put 1 card from your dscard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - 69b89fd47e764b3e80717925ac407b40
 - name: The Shogun
   db_uuid: 2cbcea00301a48aea4c7689af7bba7d6
   card_type: SingleCompetitorCard

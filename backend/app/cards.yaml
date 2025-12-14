@@ -45353,7 +45353,61 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/sami-the-draw-callihan/
   card_type: SingleCompetitorCard
   division: Underworld
+  gender: Male
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 10
+  rules_text: Your opponent does not draw for your card effects.
   tags: []
+  related_finishes:
+    - 3f0e7330fdb7447e8a3f85b8ce4c1fb0
+    - 00b8b67b448b4afa943940b755d9eea4
+    - 70c1560bc5c8424aba5806a595069e77
+- name: Sami's Baseball Bat
+  db_uuid: 3f0e7330fdb7447e8a3f85b8ce4c1fb0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent randomly buries their hand and discard pile.
+
+    If stopped, you lose the match via disqualification.
+
+    When this card is in your discard pile:
+
+    Choose 1 opponent, they cannot draw more than 1 card.'
+  tags: []
+  related_cards:
+    - 20c146c8c0854329807a89143269a8fb
+- name: Cranial Contusion
+  db_uuid: 00b8b67b448b4afa943940b755d9eea4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    Your opponent buries 1 random card in their hand for each card you have in play with "Head" or "Neck" in the name.'
+  tags: []
+  related_cards:
+    - 20c146c8c0854329807a89143269a8fb
+- name: Stretch Muffler
+  db_uuid: 70c1560bc5c8424aba5806a595069e77
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    Shuffle 1 card from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 20c146c8c0854329807a89143269a8fb
 - name: Santa's Little Helper
   db_uuid: 1ff9513294ec45d9b52189d8c6f7005c
   srgpc_url: https://www.srgpc.net/cards/competitors/santas-little-helper/

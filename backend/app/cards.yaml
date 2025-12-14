@@ -44993,9 +44993,70 @@
     - 276fb52f04234fa9bb6adebf98aa91e6
 - name: Ryan
   db_uuid: fc43a93f413d4560993cb36a1128f06b
+  srgpc_url: https://www.srgpc.net/cards/competitors/ryan/
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 8
+  grapple: 5
+  rules_text: 'When you hit a Ryan Finish:
+
+    Your opponent gets 1 fewer Breakout roll this turn.'
   tags: []
+  related_finishes:
+    - b5b527cd92784b4aba51661b7a09c7b5
+    - 32df7c83a76249c2a33285348903f0a2
+    - 08206aa1ba174a43bebe50aa1ccbe72d
+- name: Come Here Boi!
+  db_uuid: b5b527cd92784b4aba51661b7a09c7b5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile, you are considered to have a card with "Table" and "Ladder" in play.'
+  tags: []
+  related_cards:
+    - fc43a93f413d4560993cb36a1128f06b
+- name: Play of the Game
+  db_uuid: 32df7c83a76249c2a33285348903f0a2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    If you stopped a Finish last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - fc43a93f413d4560993cb36a1128f06b
+- name: Get Rekt Kid
+  db_uuid: 08206aa1ba174a43bebe50aa1ccbe72d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Stop any Finish Strike that cannot be stopped.'
+  tags: []
+  related_cards:
+    - fc43a93f413d4560993cb36a1128f06b
 - name: Ryton
   db_uuid: f89a0c5862fd4971a8fbb2a29565c026
   srg_url: https://supershowthegame.com/product/ryton/

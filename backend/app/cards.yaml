@@ -44629,9 +44629,9 @@
   power: 7
   technique: 8
   agility: 10
-  strike: 9
-  submission: 5
-  grapple: 8
+  strike: 5
+  submission: 6
+  grapple: 9
   rules_text: 'When you bump with Strike, Grapple, or Submission for your turn roll:
 
     Your opponent may discard a card of that move type from their hand.  If they do not, add 1 card from your discard pile to your hand.'

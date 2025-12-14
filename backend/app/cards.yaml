@@ -12421,9 +12421,8 @@
 
     Each player reveals 1 card in their hand.'
   tags: []
-- name: Oklahoma Stampede (V1)
+- name: Oklahoma Stampede (Grapple)
   db_uuid: d45705f3ea974566b7a5f1b853184e38
-  srgpc_url: https://www.srgpc.net/cards/14/oklahoma-stampede-power/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -12434,8 +12433,9 @@
 
     Skill requirement: Grapple 8+'
   tags: []
-- name: Oklahoma Stampede (V2)
+- name: Oklahoma Stampede (Power)
   db_uuid: 640e8c055a764df0829c2efc7308ff59
+  srgpc_url: https://www.srgpc.net/cards/14/oklahoma-stampede-power/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup

@@ -46046,7 +46046,58 @@
   db_uuid: 788f9c483d6a4aeda29a5b340fe9b329
   card_type: SingleCompetitorCard
   division: Intergalactic
+  power: 7
+  technique: 5
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: When you hit a Grapple, your opponent discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - cf540c8cf38f4b0899d6a67b8b3f8f8a
+    - 6a7eede87ac5429990c43add7b656cca
+    - 4df4035650a84d9cb81aca856ab64ff9
+- name: Riptide
+  db_uuid: cf540c8cf38f4b0899d6a67b8b3f8f8a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    Search your deck or discard pile for 1 Grapple and add it to your hand.'
+  tags: []
+  related_cards:
+    - 788f9c483d6a4aeda29a5b340fe9b329
+- name: Invertabuster
+  db_uuid: 6a7eede87ac5429990c43add7b656cca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    Your opponent discards 1 card from their hand for each Submission you have in play.'
+  tags: []
+  related_cards:
+    - 788f9c483d6a4aeda29a5b340fe9b329
+- name: Blue Rings
+  db_uuid: 4df4035650a84d9cb81aca856ab64ff9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Technique is +1 for each card your opponent has in their hand.
+
+    Shuffle any number of Grapples from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 788f9c483d6a4aeda29a5b340fe9b329
 - name: Silent J
   db_uuid: 59b9a77484b74fb59ce7b65439490d5e
   card_type: SingleCompetitorCard

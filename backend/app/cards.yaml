@@ -44920,12 +44920,12 @@
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
-  power: 7
-  technique: 8
-  agility: 9
-  strike: 10
-  submission: 5
-  grapple: 6
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 9
+  grapple: 5
   rules_text: Your deck may contain up to 5 Skill Requirement cards.
   tags: []
   related_finishes:

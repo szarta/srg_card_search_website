@@ -56370,7 +56370,7 @@
 
     All Finish Grapples have the added text "Your Finish rolls are +1.".'
   tags: []
-- name: Making Headlines
+- name: Making Headlines (Technique)
   db_uuid: dcff3c48857741b0954d432d7f15a227
   srgpc_url: https://www.srgpc.net/cards/24/making-headlines/
   card_type: MainDeckCard
@@ -56379,7 +56379,7 @@
   deck_card_number: 24
   rules_text: 'Search your deck or discard pile for 3 Submissions: Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.'
+    If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Technique 8+'
   tags: []
 - name: Ring Rat Chickenwing Choke
   db_uuid: eae737efaaff406f9b6a7a6016a0d28b

@@ -45422,15 +45422,134 @@
   tags: []
 - name: Scarlett Graves (V1)
   db_uuid: bbad60422a9c403b97980cc9efab48c1
+  srgpc_url: https://www.srgpc.net/cards/competitors/scarlett-graves/
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Female
+  power: 6
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: 'You may 3 times per match:
+
+    When you roll Power, shuffle 2 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_finishes:
+    - 8b9405f2c2a3449c9bdae57c8d683512
+    - e7e46c622ae54df3944c9c4c012f31d6
+    - 102b4c23eb334594b473f89bd55b1b18
+    - fabf327a45a34adf96134a0e29318479
+    - f2015adf22e347dc99bbfa1bb59ab373
+    - 8fdf933b857e445daaf7fbfbc3955a5e
+- name: Scarlett Fever
+  db_uuid: 8b9405f2c2a3449c9bdae57c8d683512
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: When this card is in your discard pile and the Crowd Meter is 1 or greater, choose 1 opponent and blank their Gimmick.
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: The Scarlett Letter
+  db_uuid: e7e46c622ae54df3944c9c4c012f31d6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    +1 to Agility
+
+    When this card is in your hand, you may discard it and draw 1 card.'
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: Scarlett's Web
+  db_uuid: 102b4c23eb334594b473f89bd55b1b18
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Flip 8 cards.'
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: Kick in the Grave
+  db_uuid: fabf327a45a34adf96134a0e29318479
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    Flip cards until you flip a Stop, add that card to your hand. Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: Scarlett Sunset
+  db_uuid: f2015adf22e347dc99bbfa1bb59ab373
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Flip 3 cards: Your Finish roll is +1 for each Stop flipped.'
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: Grave Danger
+  db_uuid: 8fdf933b857e445daaf7fbfbc3955a5e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    Look at the top 2 cards of your deck, add 2 Stops to your hand. Draw 2 cards.'
+  tags: []
+  related_cards:
+    - bbad60422a9c403b97980cc9efab48c1
+    - 2f1fdc7ea8ff448f902d7ba425e2f167
+- name: Scarlett Graves (V2)
+  db_uuid: 2f1fdc7ea8ff448f902d7ba425e2f167
   srgpc_url: https://www.srgpc.net/competitors/scarlett-graves-2/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 6
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 7
+  grapple: 5
+  rules_text: 'When you roll Power for your turn roll: Shuffle 2 Stops from your discard pile into your deck.'
   tags: []
-- name: Scarlett Graves (V2)
-  db_uuid: 2f1fdc7ea8ff448f902d7ba425e2f167
-  card_type: SingleCompetitorCard
-  division: United States
-  tags: []
+  related_finishes:
+    - 8b9405f2c2a3449c9bdae57c8d683512
+    - e7e46c622ae54df3944c9c4c012f31d6
+    - 102b4c23eb334594b473f89bd55b1b18
+    - fabf327a45a34adf96134a0e29318479
+    - f2015adf22e347dc99bbfa1bb59ab373
+    - 8fdf933b857e445daaf7fbfbc3955a5e
 - name: Scott Prime
   db_uuid: 504e8e4759024076b094608d6b8172a6
   srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/

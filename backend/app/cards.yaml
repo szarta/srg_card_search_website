@@ -41725,7 +41725,63 @@
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
   srgpc_url: https://www.srgpc.net/cards/competitors/the-other-steve/
   card_type: SingleCompetitorCard
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 8
+  grapple: 9
+  rules_text: 'You may reveal 2 different additional Spectacles each game.
+
+    You can only reveal 1 Spectacle per turn.'
   tags: []
+  related_finishes:
+    - f03ad7a4878c474fa5d8ccb58cf36068
+    - e01433ca4ec54622b67d281dd33f24a7
+    - 0007cc969cc247989fc320e446dbcc95
+- name: Seal of Approval
+  db_uuid: f03ad7a4878c474fa5d8ccb58cf36068
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Strike
+
+    When this card is in your discard pile and either player reveals a Spectacle, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 10f56dfe58d14fbf983446223fa1e60e
+- name: Friends in Low Places
+  db_uuid: e01433ca4ec54622b67d281dd33f24a7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your Power is +1 for each Spectacle card each player has revealed.'
+  tags: []
+  related_cards:
+    - 10f56dfe58d14fbf983446223fa1e60e
+- name: Hugageddon
+  db_uuid: 0007cc969cc247989fc320e446dbcc95
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    For each Spectacle card each player has revealed, draw 1 card and your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 10f56dfe58d14fbf983446223fa1e60e
 - name: Over Giver
   db_uuid: ed197a8258854b84b89b11a3b0790896
   srg_url: https://supershowthegame.com/product/over-giver-os/

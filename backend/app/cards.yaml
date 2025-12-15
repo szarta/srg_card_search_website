@@ -47434,7 +47434,61 @@
   db_uuid: 12e3aa0191fb4becb84c789055ae81f1
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 7
+  submission: 6
+  grapple: 8
+  rules_text: 'When you hit a Strike: Your opponent''s next turn roll is -1, and you may flip 2 cards.'
   tags: []
+  related_finishes:
+    - 5f1616b20f49481c95fb1cc5ac4df8a4
+    - 5d2db9acf9ba478487d6460d4a5c52af
+    - 5e2180615e37422b901f1c19ad0c9eb8
+- name: Punched in the Teeth by Love
+  db_uuid: 5f1616b20f49481c95fb1cc5ac4df8a4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If this card is flipped, you may add it to your hand.'
+  tags: []
+  related_cards:
+    - 12e3aa0191fb4becb84c789055ae81f1
+- name: Down at the Whiskey
+  db_uuid: 5d2db9acf9ba478487d6460d4a5c52af
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Your opponent gets 1 fewer Breakout roll for each Syn Finish in your discard pile.'
+  tags: []
+  related_cards:
+    - 12e3aa0191fb4becb84c789055ae81f1
+- name: All Bad Things
+  db_uuid: 5e2180615e37422b901f1c19ad0c9eb8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 12e3aa0191fb4becb84c789055ae81f1
 - name: The Tartan Terror
   db_uuid: a2895b52164743edbdd083272279e147
   srgpc_url: https://www.srgpc.net/competitors/the-tartan-terror/

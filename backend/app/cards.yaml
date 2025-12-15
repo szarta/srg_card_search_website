@@ -46384,9 +46384,64 @@
     - 69b89fd47e764b3e80717925ac407b40
 - name: The Shogun
   db_uuid: 2cbcea00301a48aea4c7689af7bba7d6
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-shogun/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 10
+  technique: 9
+  agility: 7
+  strike: 8
+  submission: 6
+  grapple: 5
+  rules_text: When you roll Strike, draw 1 card.
   tags: []
+  related_finishes:
+    - f03c46509e8e49ba86e13bdc3c4b0e2b
+    - 1b7f5d9cbecd4532b756a746acada0a1
+    - bc5bfb06481c4db2a94eac0197431b59
+- name: Katana!
+  db_uuid: f03c46509e8e49ba86e13bdc3c4b0e2b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and you roll Grapple for your turn roll, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 2cbcea00301a48aea4c7689af7bba7d6
+- name: Seiryu's Suplex
+  db_uuid: 1b7f5d9cbecd4532b756a746acada0a1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 2cbcea00301a48aea4c7689af7bba7d6
+- name: Kuraokami's Coils
+  db_uuid: bc5bfb06481c4db2a94eac0197431b59
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Your opponent randomly buries 1 card in their hand.  Draw 1 card.'
+  tags: []
+  related_cards:
+    - 2cbcea00301a48aea4c7689af7bba7d6
 - name: Shui
   db_uuid: 788f9c483d6a4aeda29a5b340fe9b329
   card_type: SingleCompetitorCard

@@ -47269,6 +47269,7 @@
     - 294600d7a6514933a4fcb4b35e8815c4
 - name: Swim Files (V1)
   db_uuid: b2fd07aa82b94642b426a437ae395596
+  srgpc_url: https://www.srgpc.net/cards/competitors/swim-files/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -47280,8 +47281,13 @@
   grapple: 5
   rules_text: When your opponent stops your Submission, they bury 1 card in their hand. Look at the top card of their deck, you may bury it.
   tags: []
+  related_finishes:
+    - eae101448d1d4f3d8ebf214d48df2b84
+    - 1530bc7bedca4e0182750708d3038aef
+    - 6cf830e791574afd96b700f0724e9f66
 - name: Swim Files (V2)
   db_uuid: 316050b8250c44e3b09fda9cd5c1bc56
+  srgpc_url: https://www.srgpc.net/cards/competitors/swim-files/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -47293,11 +47299,76 @@
   grapple: 5
   rules_text: When you hit a Submission, choose 1 card your opponent has in play and bury it.
   tags: []
+  related_finishes:
+    - eae101448d1d4f3d8ebf214d48df2b84
+    - 1530bc7bedca4e0182750708d3038aef
+    - 6cf830e791574afd96b700f0724e9f66
+- name: 100m Freestyle Stomps
+  db_uuid: eae101448d1d4f3d8ebf214d48df2b84
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish rolls are +1 for each Strike you have in play.
+
+    Your opponent''s Breakout rolls are +1 for each Stop they have in play.
+
+    If stopped, add this card to your hand.'
+  tags: []
+  related_cards:
+    - b2fd07aa82b94642b426a437ae395596
+    - 316050b8250c44e3b09fda9cd5c1bc56
+    - cb728bc586644251946eaba29b9d3698
+- name: Kick Flip Suplex
+  db_uuid: 1530bc7bedca4e0182750708d3038aef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    When your opponent has 0 cards in play, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - b2fd07aa82b94642b426a437ae395596
+    - 316050b8250c44e3b09fda9cd5c1bc56
+    - cb728bc586644251946eaba29b9d3698
+- name: Leyline Stretch
+  db_uuid: 6cf830e791574afd96b700f0724e9f66
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - b2fd07aa82b94642b426a437ae395596
+    - 316050b8250c44e3b09fda9cd5c1bc56
+    - cb728bc586644251946eaba29b9d3698
 - name: Swim 4 It
   db_uuid: cb728bc586644251946eaba29b9d3698
+  srgpc_url: https://www.srgpc.net/competitors/swim-4-it/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
+  power: 8
+  technique: 6
+  agility: 7
+  strike: 9
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a card with "Al13n" or "Cosmic" in the name, choose 1 card your opponent has in play and bury it.
   tags: []
+  related_finishes:
+    - eae101448d1d4f3d8ebf214d48df2b84
+    - 1530bc7bedca4e0182750708d3038aef
+    - 6cf830e791574afd96b700f0724e9f66
 - name: Swoggle
   db_uuid: 3076e579ea384f008e9bc0db1b62dd57
   card_type: SingleCompetitorCard

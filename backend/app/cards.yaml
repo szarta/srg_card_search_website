@@ -45920,7 +45920,65 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/shane-hurricane-helms/
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 10
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: When you shuffle your deck, draw 1 card.
   tags: []
+  related_finishes:
+    - 1881ca4d4b5041509e8bd3cb8505a324
+    - be39311f240a420b8489f550e3363d0b
+    - bcb56ae19f304fa89eda2d00dcba2eae
+- name: Eye of the Hurricane
+  db_uuid: 1881ca4d4b5041509e8bd3cb8505a324
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you roll Agility:
+
+    Shuffle your deck.'
+  tags: []
+  related_cards:
+    - 81a31f579ad848c496f6ba2059f196ca
+- name: Super Powered Choke Slam
+  db_uuid: be39311f240a420b8489f550e3363d0b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Shuffle 1 other card you have in play into your deck.'
+  tags: []
+  related_cards:
+    - 81a31f579ad848c496f6ba2059f196ca
+- name: Category 6 Leg Lock
+  db_uuid: bcb56ae19f304fa89eda2d00dcba2eae
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    Shuffle 6 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 81a31f579ad848c496f6ba2059f196ca
 - name: Shane Tilton
   db_uuid: 5e7ddda9089049ffaa3d37aa6e33c4dc
   srg_url: https://supershowthegame.com/product/shane-tilton/

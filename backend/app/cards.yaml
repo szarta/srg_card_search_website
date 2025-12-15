@@ -46695,9 +46695,64 @@
     - 066f269d111b4003ad7c426b77cdea5e
 - name: Spite
   db_uuid: a1b507c0d9c243eaa9b9dbf8777f6db9
+  srgpc_url: https://www.srgpc.net/cards/competitors/spite/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Female
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 8
+  rules_text: 'When your turn roll is at least 3 less than your opponent''s turn roll: Your opponent is considered to have 1 more Strike, Grapple, and Submission in play for your card effects.'
   tags: []
+  related_finishes:
+    - 05d5d870b8ac4003b7b7435ea9d0f122
+    - b098234070534fedab123980a7b082fd
+    - 1e64116bc39d4b0ea35ffd5e2d67cf7f
+- name: Offense Taken
+  db_uuid: 05d5d870b8ac4003b7b7435ea9d0f122
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - a1b507c0d9c243eaa9b9dbf8777f6db9
+- name: Hang 'em From the Yardarm
+  db_uuid: b098234070534fedab123980a7b082fd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +4 to Submission
+
+    Add 1 card any player has in play back to their hand.'
+  tags: []
+  related_cards:
+    - a1b507c0d9c243eaa9b9dbf8777f6db9
+- name: Bow to the Pirate Queen
+  db_uuid: 1e64116bc39d4b0ea35ffd5e2d67cf7f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +1 to Grapple
+
+    If your opponent has 3 Strikes in play, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - a1b507c0d9c243eaa9b9dbf8777f6db9
 - name: Split
   db_uuid: 3f3f8b5b536443bb8552f182a2bf9fa0
   srgpc_url: https://www.srgpc.net/cards/competitors/split/

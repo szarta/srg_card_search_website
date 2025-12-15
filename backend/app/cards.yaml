@@ -47373,7 +47373,63 @@
   db_uuid: 3076e579ea384f008e9bc0db1b62dd57
   card_type: SingleCompetitorCard
   division: Global
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'When you roll Technique for your turn roll: add 1 Lead from your discard pile to your hand or draw the bottom card of your deck.'
   tags: []
+  related_finishes:
+    - dcca50df702d497597baef30ad1f1e96
+    - 81277a95632d49bebe84cab503dd34a1
+    - 5339bea938ca4ca39d90d472e0a05730
+- name: Tadpole Splash
+  db_uuid: dcca50df702d497597baef30ad1f1e96
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Draw the bottom card of your deck.
+
+    Bury 1 card in your discard pile.'
+  tags: []
+  related_cards:
+    - 3076e579ea384f008e9bc0db1b62dd57
+- name: Celtic Cross
+  db_uuid: 81277a95632d49bebe84cab503dd34a1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    You may discard 1 Lead from your hand to draw 2 cards.'
+  tags: []
+  related_cards:
+    - 3076e579ea384f008e9bc0db1b62dd57
+- name: Sweet Shin Music
+  db_uuid: 5339bea938ca4ca39d90d472e0a05730
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +2 to Submission
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 3076e579ea384f008e9bc0db1b62dd57
 - name: Syn
   db_uuid: 12e3aa0191fb4becb84c789055ae81f1
   card_type: SingleCompetitorCard

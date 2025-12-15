@@ -44322,7 +44322,61 @@
   db_uuid: 8c8c7428500647cfb95b2fc4e7dec82c
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 9
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 8
+  rules_text: Once per match, you may add +6 to your first Breakout roll.
   tags: []
+  related_finishes:
+    - e05ca83d6230421a93dae5363d41e74e
+    - b84b465ccbf54aec92c3d10302bcb39a
+    - 92cee79de5bd41a8a7ef4175c630f80e
+- name: Bow to the Insect King
+  db_uuid: e05ca83d6230421a93dae5363d41e74e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If this is the first turn of the game, this card is also a Lead.
+
+    Your opponent''s Power is -2.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 8c8c7428500647cfb95b2fc4e7dec82c
+- name: Insecticide
+  db_uuid: b84b465ccbf54aec92c3d10302bcb39a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    If stopped, add 1 Submission from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 8c8c7428500647cfb95b2fc4e7dec82c
+- name: The Roach Motel
+  db_uuid: 92cee79de5bd41a8a7ef4175c630f80e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Your opponent buries cards in their hand at randomly equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 8c8c7428500647cfb95b2fc4e7dec82c
 - name: Robbie G
   db_uuid: b23c0ed39537449a884675e3fd2e3fbb
   srg_url: https://supershowthegame.com/product/robbie-g/

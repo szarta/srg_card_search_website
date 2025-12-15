@@ -46075,7 +46075,65 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/sheeples-champion/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 7
+  technique: 9
+  agility: 8
+  strike: 10
+  submission: 5
+  grapple: 6
+  rules_text: +1 to Technique during your Finish and Breakout rolls.
   tags: []
+  related_finishes:
+    - b6814a19ad95486184172ebb46d7cff1
+    - edc4ce1dfdeb4c71993a6ccd2ab28f60
+    - 664d2b109ea24c9c93bfad45b20d4183
+- name: Sheep Shot
+  db_uuid: b6814a19ad95486184172ebb46d7cff1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Flip 1 card.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - f0c3671ff70049f6ae49190df968e6a4
+- name: Ovis Aries
+  db_uuid: edc4ce1dfdeb4c71993a6ccd2ab28f60
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    When the Crowd Meter is 1 or greater, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - f0c3671ff70049f6ae49190df968e6a4
+- name: The Slaughterhouse
+  db_uuid: 664d2b109ea24c9c93bfad45b20d4183
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Once a turn: When your opponent would break out, they must re-roll, they get 3 additional Breakout rolls.'
+  tags: []
+  related_cards:
+    - f0c3671ff70049f6ae49190df968e6a4
 - name: Sheep of the Era (V1)
   db_uuid: d83034fb8a4048fd89625212f4aa6d1f
   srgpc_url: https://www.srgpc.net/competitors/sheep-of-the-era/

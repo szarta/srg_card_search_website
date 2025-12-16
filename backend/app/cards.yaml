@@ -24343,6 +24343,9 @@
 
     If your opponent hit a Follow Up Strike last turn this card is also a Lead.'
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: The Head-On Collision
   db_uuid: 6fc051a1d93345f8b8698b3eb1fcaee8
   srg_url: https://supershowthegame.com/product/the-wreck/
@@ -24356,6 +24359,9 @@
 
     Draw 2 cards.'
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: The ICU
   db_uuid: 15b5b7e6d81e4810a3d31c903cfe3dd0
   srg_url: https://supershowthegame.com/product/the-wreck/
@@ -24370,6 +24376,9 @@
     When this card is in your discard pile, if your opponent hits a Grapple you may shuffle it into your deck.'
   errata_text: This is a Spotlight card.
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: Total Wreckage
   db_uuid: de6f4a8efec94dc392740c1b81724584
   card_type: MainDeckCard
@@ -24378,6 +24387,9 @@
   deck_card_number: 28
   rules_text: Discard any other Strikes that you have in play and any number of Strikes in your hand and your opponent may discard the same number of Grapples/Submissions from their hand; If they do not, your finish roll is +2.
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: Demolition Driver
   db_uuid: 9f1816444c0b449494183c28c0548c2e
   card_type: MainDeckCard
@@ -24392,6 +24404,9 @@
 
     If stopped, you may put 1 Strike from your opponent''s discard pile into play or discard 1 card you have in play.'
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: Crash Test
   db_uuid: 5f99939bc7da4c9baf47c0040056636c
   card_type: MainDeckCard
@@ -24404,6 +24419,9 @@
 
     If you roll Strike, Grapple, or Submission for your finish roll, you may add 1 card you have in play to your hand.'
   tags: []
+  related_cards:
+    - 7a8377ee227f42819a017bb69ad3e181
+    - 9f936d7e3c5f41f18eda93e9644d6726
 - name: Long Balls Larry
   db_uuid: 1a63c5024be045dfb7f6be8b22c050b9
   srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
@@ -27246,6 +27264,8 @@
 
     Your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
 - name: Dark Descent
   db_uuid: 3d42030bc3e34f509248b493264f3c21
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -27259,6 +27279,8 @@
 
     Your Submission skill is +1 for each time you''ve used your D2 Gimmick.'
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
 - name: Destructive Dreamland
   db_uuid: de4ad028468340be8d718a9ef236fee5
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -27270,6 +27292,8 @@
 
     +4 to Submission'
   tags: []
+  related_cards:
+    - bd04b23708fe49728541a20e689cae61
 - name: Face Melter
   db_uuid: ca803bf9b2424e03b03250e5400b3ca9
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/

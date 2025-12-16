@@ -10,7 +10,8 @@ const articles = [
   { slug: "real-beater",      title: "Real Beater"},
   { slug: "postal-nation",    title: "Leader of the Postal Nation"},
   { slug: "wendigo",          title: "Wendigo"},
-  { slug: "mila-mai-2021",    title: "2021 Deck of the Year Mila Mai"}
+  { slug: "mila-mai-2021",    title: "2021 Deck of the Year Mila Mai"},
+  { slug: "hiroshi"           title: "Hiroshi Tanahashi"}
 ];
 
 export default function DeckList() {

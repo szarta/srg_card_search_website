@@ -7,7 +7,7 @@ date: 2023-01-18
 
 ## The Competitor
 
-[[[Horishi Tanahashi]]]
+[[[Hiroshi Tanahashi]]]
 
 
 ## Writeup
@@ -30,7 +30,7 @@ Going Over the Steel Chair
 Dragon Punch
 Dragon Drop
 Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug!
-Back Kick
+Back Kick (V2)
 Back and Forth Action
 Dragon Screw
 Kick Into the Corner

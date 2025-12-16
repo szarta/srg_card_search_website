@@ -40709,6 +40709,69 @@
   grapple: 9
   rules_text: When your opponent stops a card, they flip 1 card, then you bury 1 card in their discard pile.
   tags: []
+- name: Jurassic Juggernaut
+  db_uuid: 6956220082814555af99c5fe19c96635
+  srgpc_url: https://www.srgpc.net/competitor/jurassic-juggernaut/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  rules_text: 'Your are class "Goliath".  Unblank your "Goliath Class Requirement" cards.
+
+    If your Power is greater than your opponent''s Power, they must discard 1 card from their hand to play a Grapple.'
+  tags: []
+  related_finishes:
+    - 84a554c083a84d4eaef583666d80a170
+    - abe5debec8f3446f8cea4004e4b81758
+    - c0863681aeaf404b96ecd51c65ce32f6
+- name: South Boogie Bomb
+  db_uuid: 84a554c083a84d4eaef583666d80a170
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    +3 to Strike
+
+    If stopped, discard 4 cards from your hand.'
+  tags: []
+  related_cards:
+    - 6956220082814555af99c5fe19c96635
+- name: Tomahawk Suplex
+  db_uuid: abe5debec8f3446f8cea4004e4b81758
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Suplex" in the name.'
+  tags: []
+  related_cards:
+    - 6956220082814555af99c5fe19c96635
+- name: Jurassic Rack
+  db_uuid: c0863681aeaf404b96ecd51c65ce32f6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 6956220082814555af99c5fe19c96635
 - name: Moth Man
   db_uuid: 952b0cc79573451cbabdfb3a8297bea4
   card_type: SingleCompetitorCard

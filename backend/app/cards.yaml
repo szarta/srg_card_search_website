@@ -38239,6 +38239,7 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/liger/
   card_type: SingleCompetitorCard
   division: World Championship
+  gender: Male
   power: 9
   technique: 5
   agility: 6
@@ -38247,6 +38248,10 @@
   grapple: 8
   rules_text: Your Power, Agility, and Technique skills are +1 when you have a card with "Lariat" or "Clothesline" in play.
   tags: []
+  related_finishes:
+    - 06cab7e5eca242a380398f9bf6e56720
+    - 2fefc7e8c86546099219e5a545a97d52
+    - 9553321e03a44aafa61f78bf9fd9a92b
 - name: Donkey Lariat
   db_uuid: 06cab7e5eca242a380398f9bf6e56720
   card_type: MainDeckCard
@@ -38257,6 +38262,8 @@
 
     Flip 4 cards, then add 2 cards with "Lariat" or "Clothesline" in the name from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 109e75661c724f3793fd139706a5b8b5
 - name: Cape Killer
   db_uuid: 2fefc7e8c86546099219e5a545a97d52
   card_type: MainDeckCard
@@ -38269,6 +38276,8 @@
 
     Take 1 card with "Lariat" in the name from in play and add it to your hand.'
   tags: []
+  related_cards:
+    - 109e75661c724f3793fd139706a5b8b5
 - name: Liger Tamer
   db_uuid: 9553321e03a44aafa61f78bf9fd9a92b
   card_type: MainDeckCard
@@ -38279,6 +38288,8 @@
 
     If your opponent rolls their lowest skill, their next breakout roll is -3.'
   tags: []
+  related_cards:
+    - 109e75661c724f3793fd139706a5b8b5
 - name: Lily Mai (V1)
   db_uuid: b0f985ab713b4bc29df222f797d3c13e
   srgpc_url: https://www.srgpc.net/competitor/lily-mai-v2/

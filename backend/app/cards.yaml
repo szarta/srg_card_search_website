@@ -46165,6 +46165,10 @@
   grapple: 9
   rules_text: When you hit a card with "Cat" or "Tiger" in the name, add 1 Grapple from your discard pile to your hand or your next turn roll is +1.
   tags: []
+  related_finishes:
+    - ccf4372da41e4476a3fab042e325aebb
+    - 0594926c6a18466ba9145d843f9ee27f
+    - 02d1569e09e8455491f2a99987f3c19d
 - name: Catch Headbutts
   db_uuid: ccf4372da41e4476a3fab042e325aebb
   card_type: MainDeckCard
@@ -46175,6 +46179,8 @@
 
     +2 to Strike'
   tags: []
+  related_cards:
+    - b0fcea9832944b0890b8d622271fea68
 - name: The Bump
   db_uuid: 0594926c6a18466ba9145d843f9ee27f
   card_type: MainDeckCard
@@ -46185,6 +46191,8 @@
 
     +2 to Grapple'
   tags: []
+  related_cards:
+    - b0fcea9832944b0890b8d622271fea68
 - name: The Cat Nap
   db_uuid: 02d1569e09e8455491f2a99987f3c19d
   card_type: MainDeckCard
@@ -46197,6 +46205,8 @@
 
     Your opponent''s Gimmick is blank.'
   tags: []
+  related_cards:
+    - b0fcea9832944b0890b8d622271fea68
 - name: The Screaming Danshee
   db_uuid: 2d3873502620427d979c152bb1d53f3c
   srgpc_url: https://www.srgpc.net/cards/competitors/the-screaming-danshee/

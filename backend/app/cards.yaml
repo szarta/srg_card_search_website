@@ -40700,6 +40700,14 @@
   db_uuid: 94098185bbab40a193461c89ab56ddce
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: When your opponent stops a card, they flip 1 card, then you bury 1 card in their discard pile.
   tags: []
 - name: Moth Man
   db_uuid: 952b0cc79573451cbabdfb3a8297bea4

@@ -33485,6 +33485,10 @@
   grapple: 10
   rules_text: Your opponent cannot force you to bury or discard cards from your hand.
   tags: []
+  related_finishes:
+    - 34a62eb025f3450b86870445ad59af0e
+    - 425fed1a7c7b4138a54168e8793b8370
+    - 1eead2f8f91b4d2d89a81ad55c275aaa
 - name: Authority & Sex-Knee-Ness
   db_uuid: 34a62eb025f3450b86870445ad59af0e
   card_type: MainDeckCard
@@ -33497,6 +33501,8 @@
 
     Your opponent''s maximum handsize is 3.'
   tags: []
+  related_cards:
+    - aa89168b8bb54d60af3e2aa396622bdf
 - name: Go to Sleep
   db_uuid: 425fed1a7c7b4138a54168e8793b8370
   card_type: MainDeckCard
@@ -33513,6 +33519,8 @@
 
     If the Crowd Meter is 3 or greater, add 3 cards you have in play to your hand.'
   tags: []
+  related_cards:
+    - aa89168b8bb54d60af3e2aa396622bdf
 - name: Sexy Dreams
   db_uuid: 1eead2f8f91b4d2d89a81ad55c275aaa
   card_type: MainDeckCard
@@ -33525,6 +33533,8 @@
 
     You may discard this card from your hand and your first breakout roll this turn is + the Crowd Meter.'
   tags: []
+  related_cards:
+    - aa89168b8bb54d60af3e2aa396622bdf
 - name: Eva FireCat
   db_uuid: 961b4051a9df4a1b8cb802f66c4e6f67
   srgpc_url: https://www.srgpc.net/cards/competitors/eva-firecat/

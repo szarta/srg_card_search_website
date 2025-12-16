@@ -34169,6 +34169,8 @@
     - 96dba717a30c479390fcf080ab664305
     - 99f5c14ab4f14b2d8f3a15670f91d545
     - 89a12ba1eecc49febe095807449f0307
+    - aeb8f7686d254990bfd02ab174e00dd6
+    - 7fcd504d34fb4088ae6b6ef5bc8d4640
 - name: Seek and Destroy
   db_uuid: 6f1c5a337dd746d79d53ee02f277383c
   card_type: MainDeckCard
@@ -34183,6 +34185,7 @@
   tags: []
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Fire Flash Kick
   db_uuid: 96dba717a30c479390fcf080ab664305
   card_type: MainDeckCard
@@ -34197,6 +34200,7 @@
   tags: []
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: The Calm Before the Storm
   db_uuid: 99f5c14ab4f14b2d8f3a15670f91d545
   card_type: MainDeckCard
@@ -34211,6 +34215,7 @@
   tags: []
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: The Blink Breaker
   db_uuid: 89a12ba1eecc49febe095807449f0307
   card_type: MainDeckCard
@@ -34225,6 +34230,37 @@
   tags: []
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
+- name: Drumstick Dash!
+  db_uuid: aeb8f7686d254990bfd02ab174e00dd6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +3 to Agility
+
+    If stopped, you may shuffle up to 2 cards from your discard pile into your deck.
+
+    If you are a Tag Team, double these bonuses.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
+- name: Drumstick Choke Clutch
+  db_uuid: 7fcd504d34fb4088ae6b6ef5bc8d4640
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Finish roll is +1 for each other card in play with "Drumstick" or "Flash" in the name (Max +2).
+
+    Randomly reveal 1 card in your hand, if that card has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
+  tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: The Fireball
   db_uuid: f602d739628746ee8620999d09310727
   card_type: SingleCompetitorCard
@@ -55202,6 +55238,14 @@
   db_uuid: ef8dfa451af8437f813ffece624bad4f
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 6
+  grapple: 7
+  rules_text: Triple the numbers in the text of your Entrance cards with "Training with" in the name.
   tags: []
 - name: Phenomenal Wiseman
   db_uuid: f2c76632b46d4789a0b79720f3a392a9
@@ -56534,6 +56578,45 @@
   grapple: 20
   rules_text: When you reveal a card with "Drumstick" or "Guitar" in the name, it is considered to have "Drumstick" and "Guitar" in the name, and your next turn roll is +2.
   tags: []
+  related_cards:
+    - 687c36bd47984dfe84c8ee8836d7ad21
+  related_finishes:
+    - 6f1c5a337dd746d79d53ee02f277383c
+    - 96dba717a30c479390fcf080ab664305
+    - 99f5c14ab4f14b2d8f3a15670f91d545
+    - 89a12ba1eecc49febe095807449f0307
+    - aeb8f7686d254990bfd02ab174e00dd6
+    - 7fcd504d34fb4088ae6b6ef5bc8d4640
+    - 7c06a7e09b0441a8a5629245bc2ab513
+    - 6d5d9d61f9ae45c39d2cf0cabbacd343
+- name: While My Guitar Gently Weeps
+  db_uuid: 7c06a7e09b0441a8a5629245bc2ab513
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Finish roll is +2.
+
+    Bury up to 3 cards in your hand:
+
+    Your opponent randomly buries that number of cards from their hand. Shuffle your deck.'
+  tags: []
+  related_cards:
+    - 4f05f98ff74b4be49e53e2092c28a90a
+- name: Through Fire and Flames
+  db_uuid: 6d5d9d61f9ae45c39d2cf0cabbacd343
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+6 to Power
+
+    +4 to Submission.
+
+    If you have "Hype the Crowd", 3 cards with "Drumstick" in the name, and 3 cards with "Guitar" in the name in play, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Oracle and the Beast
   db_uuid: 144d166fb1cc4b9f9d9f053b66c28d3f
   card_type: TornadoCompetitorCard

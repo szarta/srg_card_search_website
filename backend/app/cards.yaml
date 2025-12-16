@@ -32236,6 +32236,7 @@
   strike: 10
   submission: 5
   grapple: 8
+  rules_text: When you hit a card with "Chair" in the name, reveal the top 3 cards of your opponent's deck.  Bury 1 of them and put the others back in any order.
   tags: []
 - name: The Dangerous Flower
   db_uuid: 34c5ce20f09847719ef1e45862a5efdb
@@ -32249,6 +32250,9 @@
   strike: 10
   submission: 9
   grapple: 7
+  rules_text: 'When you roll Strike for your turn roll:
+
+    Add 1 card with "Kick" in the name from your discard pile to your hand.'
   tags: []
 - name: Danhausen
   db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
@@ -32262,6 +32266,7 @@
   strike: 8
   submission: 5
   grapple: 10
+  rules_text: 'When you roll Power for your turn roll: Each player draws 1 card, then your opponent randomly discards 1 card from their hand.'
   tags: []
 - name: Danny Briggs
   db_uuid: 8bc44c4b3faf4c49b45234f68dfeae29
@@ -32299,6 +32304,9 @@
   strike: 8
   submission: 5
   grapple: 6
+  rules_text: '3 times per match:
+
+    When you roll Agility for your turn or Finish roll, you may bury 1 card in your discard pile and shuffle your hand into your deck and draw 6 cards.'
   tags: []
 - name: Darius Carter
   db_uuid: e072664507f64381bf3c7bf0971a5039
@@ -32312,6 +32320,7 @@
   strike: 9
   submission: 10
   grapple: 8
+  rules_text: You may bury 4 cards in your hand to re-roll your turn roll.
   tags: []
 - name: Dastardly Dick Thunderlips (V1)
   db_uuid: f95778408dbf46dca6c1450f3d8b7967
@@ -32352,6 +32361,7 @@
   strike: 6
   submission: 10
   grapple: 8
+  rules_text: When you roll Submission for your turn roll, your opponent's Gimmick is immediately blanked until the end of this turn roll and their turn roll is -1.
   tags: []
 - name: David Starr (V1)
   db_uuid: 3469fe2dd1a44f7b89d64737fff864d5
@@ -32493,6 +32503,7 @@
   strike: 6
   submission: 9
   grapple: 10
+  rules_text: When your opponent stops a card, they discard 1 card from their hand.
   tags: []
 - name: Deputy Dango
   db_uuid: 38a5391801c4447da6ea182bd53eb6f0
@@ -32621,6 +32632,7 @@
   strike: 9
   submission: 7
   grapple: 10
+  rules_text: 'Your cards with "Buster", "Driver", or "King" in the name have the added text: "Your opponent''s next turn roll is -1.'
   tags: []
 - name: Des the Destroyer
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
@@ -32635,6 +32647,7 @@
   strike: 8
   submission: 7
   grapple: 9
+  rules_text: You are considered to have a card with "Sledgehammer" in the name in play for your card effects.
   tags: []
   related_finishes:
     - addbe4eaa6f24f108292518013d0cd37
@@ -33103,6 +33116,14 @@
   db_uuid: 5855a5840bde47f69a596df2703401ad
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: When your opponent would move a Finish card from their disacrd pile to any location, it is instead buried.
   tags: []
 - name: Effy
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
@@ -33116,6 +33137,7 @@
   strike: 9
   submission: 10
   grapple: 8
+  rules_text: When your opponent hits a Grapple, reveal the bottom card of your deck and add it to your hand.
   tags: []
 - name: El Gato Sombrio (V1)
   db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
@@ -43837,6 +43859,16 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/raygr-dragon-god/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 10
+  rules_text: 'At the start of the match, look at the top 6 cards of your opponent''s deck.
+
+    Discard 3 of those cards, bury 2 of them, and put the last one on top of their deck.'
   tags: []
 - name: Rekt Khaos
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
@@ -45720,7 +45752,17 @@
   srgpc_url: https://www.srgpc.net/competitors/santas-little-llama/
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 6
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 5
+  grapple: 9
   tags: []
+  rules-text: 'Once during your turn:
+
+    When you hit a card, you may play 1 additional card with "Eat" in the name.'
 - name: Scarlett Graves (V1)
   db_uuid: bbad60422a9c403b97980cc9efab48c1
   srgpc_url: https://www.srgpc.net/cards/competitors/scarlett-graves/
@@ -54451,6 +54493,16 @@
   db_uuid: ec4a5153f73e4145ae00e17b1124a3ed
   card_type: SingleCompetitorCard
   division: Intergalactic
+  gender: Male
+  power: 9
+  technique: 7
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 5
+  rules_text: 'Once per match: You may blank the Crowd Meter until the next turn roll.
+
+    Once per match: All players in the match draw 3 cards, then bury all cards they have in play.'
   tags: []
 - name: Scrappers
   db_uuid: d159fc362f2c49e2b730c3806319e5f5
@@ -54866,6 +54918,14 @@
   db_uuid: 3913fe4166ac45be8219d7241b663d19
   card_type: SingleCompetitorCard
   division: United States
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 7
+  rules_text: At the start of the match, switch 2 of your target's skills.
   tags: []
 - name: Ollie
   db_uuid: 0c1b1853cc114d119cd55a50f04386f5
@@ -55504,6 +55564,17 @@
   db_uuid: 5f19defcd3c748128aeda00aa30b087b
   srg_url: https://supershowthegame.com/product/filthadelphia/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 16
+  strike: 14
+  submission: 12
+  grapple: 18
+  rules_text: 'If your Agility is greater than your target''s Agility, their Gimmick is blank.
+
+    If not, when your opponent stops a card, your next turn roll is +2.
+
+    "Blast Into the Light Tubes" is also #16.'
   tags: []
 - name: Maidens of the Storm
   db_uuid: 4d0b8f6efea8405a8af21eb7c39df825
@@ -55653,6 +55724,17 @@
   db_uuid: e750df4ee6c74bc8813b669282ec4939
   srg_url: https://supershowthegame.com/product/revolution/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 12
+  agility: 16
+  strike: 18
+  submission: 14
+  grapple: 10
+  rules_text: 'During your turn:
+
+    When you hit a Submission, flip 2 cards and add a Strike from your discard pile to your hand.
+
+    When you bump, your next turn roll is +3.'
   tags: []
 - name: Ri Ry's
   db_uuid: c6eeabec32fa4541bbe732341a4f9426
@@ -55700,6 +55782,13 @@
   db_uuid: e6f92092bf264401a8cb0e075afddb9f
   srg_url: https://supershowthegame.com/product/sheep-shooters/
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 12
+  strike: 16
+  submission: 18
+  grapple: 14
+  rules_text: 'When you roll Power: Discard 1 card your opponent has in play and then you may look at the top 3 cards of your deck, flip 1, bury 1, and put the other back on top.'
   tags: []
 - name: Sovereignty
   db_uuid: 8c765b7ff3a74128ba913acf84a616f9
@@ -56078,10 +56167,28 @@
 - name: New Wool Order (Tornado V1)
   db_uuid: cf3c4cd74b744e8e956b7425bd0b8e7c
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 10
+  agility: 16
+  strike: 14
+  submission: 18
+  grapple: 20
+  rules_text: 'When you flip any number of stops add up to 3 of those cards to your hand.
+
+    Your maximum handsize is +2 for each card you have in play with "Sheep" or "Hype" in the name.'
   tags: []
 - name: New Wool Order (Tornado V2)
   db_uuid: f471e5cfe73b42c1824744df15eccfd4
   card_type: TornadoCompetitorCard
+  power: 12
+  technique: 10
+  agility: 16
+  strike: 14
+  submission: 18
+  grapple: 20
+  rules_text: 'When you flip any number of stops add up to 3 of those cards to your hand.
+
+    Your maximum handsize is +2 for each card you have in play with "Sheep" or "Hype" in the name.'
   tags: []
 - name: New Wool Order (Trio)
   db_uuid: 3802b52979fd4fb68a5b900d00189a42
@@ -56153,6 +56260,13 @@
 - name: Ninja Firebirds
   db_uuid: 4f05f98ff74b4be49e53e2092c28a90a
   card_type: TornadoCompetitorCard
+  power: 10
+  technique: 16
+  agility: 14
+  strike: 18
+  submission: 12
+  grapple: 20
+  rules_text: When you reveal a card with "Drumstick" or "Guitar" in the name, it is considered to have "Drumstick" and "Guitar" in the name, and your next turn roll is +2.
   tags: []
 - name: Oracle and the Beast
   db_uuid: 144d166fb1cc4b9f9d9f053b66c28d3f
@@ -56772,6 +56886,15 @@
 - name: Twisted Aggression
   db_uuid: 76d756e117e84bf283cd98a70b7a2098
   card_type: TornadoCompetitorCard
+  power: 20
+  technique: 12
+  agility: 10
+  strike: 14
+  submission: 18
+  grapple: 16
+  rules_text: 'When you have 6 or more cards in your hand, your Grapple skill is +2.
+
+    When your opponent rolls Strike for their turn roll, your turn roll is +2.'
   tags: []
 - name: Morada de La Llama
   db_uuid: e9069d90b6094a44b2e831a0baea6133
@@ -57103,11 +57226,29 @@
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
   srg_url: https://supershowthegame.com/product/the-higher-class-v1/
   card_type: TrioCompetitorCard
+  power: 27
+  technique: 30
+  agility: 18
+  strike: 24
+  submission: 21
+  grapple: 15
+  rules_text: 'Once per turn roll:
+
+    When any player rolls 30, look at the top 3 cards of your deck, flip 1, bury 1, and put the other on top of your deck and add 1 Finish from your discard pile to your hand or your opponent''s next turn roll is -3.'
   tags: []
 - name: The Higher Class (V2)
   db_uuid: e18ebfba1579417aaea354b0c4168969
   srg_url: https://supershowthegame.com/product/the-higher-class-v2/
   card_type: TrioCompetitorCard
+  power: 27
+  technique: 30
+  agility: 18
+  strike: 24
+  submission: 21
+  grapple: 15
+  rules_text: 'Once per turn roll:
+
+    When any player rolls 30, look at the top 3 cards of your deck, flip 1, bury 1, and put the other on top of your deck and add 1 Finish from your discard pile to your hand or your opponent''s next turn roll is -3.'
   tags: []
 - name: The Line
   db_uuid: 766bda5233b642a3aa2714637e68de62

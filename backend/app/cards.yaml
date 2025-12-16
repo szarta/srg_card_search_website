@@ -2573,7 +2573,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 9
-  rules_text: You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards.
+  rules_text: 'You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards. Skill Requirement: Power 8+'
   tags: []
 - name: Spinning Heel Kick
   db_uuid: 83b46be5fe38481e9cbbee07353c5861

@@ -42,7 +42,7 @@ Mounted Turnbuckle Punches
 Ambush with the Steel Chair
 Cat Scratch
 Blindside Smash
-Suplex Out of the Ring
+Suplex Out of the Ring (V2)
 American Dragon Leg Lock
 Chair Shot
 Set Up the Steel Chair

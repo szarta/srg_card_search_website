@@ -23434,6 +23434,7 @@
   strike: 10
   submission: 5
   grapple: 6
+  rules_text: When you roll 5 or less, your opponent discards 1 card from their hand.
   tags: []
   related_finishes:
     - 040232a9ce804e3eb4ea2a25283f6298
@@ -33197,6 +33198,9 @@
   strike: 6
   submission: 9
   grapple: 8
+  rules_text: 'Once per turn:
+
+    When your opponent stops a Grapple, you may play 1 Lead or Follow Up Submission.'
   tags: []
 - name: El Phantasmo
   db_uuid: c8788ae573734217b3a4ee2563d998b7
@@ -33242,6 +33246,7 @@
   strike: 8
   submission: 9
   grapple: 5
+  rules_text: When you have a Submission in play, your Submission skill is +1.
   tags: []
 - name: Ember Wolf (V1)
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
@@ -33448,6 +33453,7 @@
   strike: 5
   submission: 10
   grapple: 7
+  rules_text: When you hit a The End Finish, your Finish rolls are + half the Crowd Meter (rounded up).
   tags: []
 - name: The Enforcer
   db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
@@ -33461,6 +33467,9 @@
   strike: 5
   submission: 8
   grapple: 9
+  rules_text: 'Choose an opponent.
+
+    When you and your opponent roll the same skill for the turn roll, choose 1 card they have in play and discard it.'
   tags: []
 - name: Eric Jayden
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
@@ -33700,6 +33709,7 @@
   strike: 10
   submission: 6
   grapple: 5
+  rules_text: When you have more than 10 cards in your hand, your Power, Technique, and Agility are +1 during turn rolls.
   tags: []
 - name: Everyone's Enemy
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
@@ -33961,6 +33971,7 @@
   strike: 10
   submission: 6
   grapple: 5
+  rules_text: 'During your turn: When you hit a Strike or Submission, you may draw 1 card then bury 1 card in your hand.'
   tags: []
   related_finishes:
     - de3d54469f054ed48a53a6f06136ac11
@@ -34128,6 +34139,7 @@
   strike: 8
   submission: 9
   grapple: 6
+  rules_text: 'Once during your turn: You may discard 1 Stop from your hand to draw 1 card.'
   tags: []
 - name: Flame Fighter
   db_uuid: ae2b1fde64e343da8848984231aa5c83
@@ -50969,6 +50981,7 @@
 - name: 2 Cats 2 Purrious
   db_uuid: e11f25b8d9f941d4b12898e591c4a0d1
   srg_url: https://supershowthegame.com/product/2-cats-2-purrious/
+  srgpc_url: https://www.srgpc.net/cards/competitors/2-cats-2-purrious/
   card_type: TornadoCompetitorCard
   power: 10
   technique: 14
@@ -51172,6 +51185,7 @@
 - name: Beauty and the Beatstick
   db_uuid: 180073d7502e46bd957a7379a99afe54
   srg_url: https://supershowthegame.com/product/beauty-and-the-beatstick/
+  srgpc_url: https://www.srgpc.net/cards/competitors/beauty-and-the-beatstick/
   card_type: TornadoCompetitorCard
   power: 18
   technique: 16
@@ -51184,6 +51198,7 @@
 - name: Belinda & Nemesis
   db_uuid: 1aec57ec927945748d95c7c874392841
   srg_url: https://supershowthegame.com/product/belinda-and-nemesis/
+  srgpc_url: https://www.srgpc.net/cards/competitors/belinda-nemesis/
   card_type: TornadoCompetitorCard
   power: 16
   technique: 12
@@ -51198,6 +51213,7 @@
 - name: Big Ballerz
   db_uuid: c939efe58c554a1f90457e25df23c36e
   srg_url: https://supershowthegame.com/product/big-baallerz/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-ballerz/
   card_type: TrioCompetitorCard
   power: 18
   technique: 30
@@ -51210,6 +51226,7 @@
 - name: Big Money
   db_uuid: 8fa7c780ce484084b9eaf58d5d343f0c
   srg_url: https://supershowthegame.com/product/big-money/
+  srgpc_url: https://www.srgpc.net/cards/competitors/big-money/
   card_type: TornadoCompetitorCard
   power: 16
   technique: 12
@@ -51221,6 +51238,7 @@
   tags: []
 - name: Biggest Man in All the Land
   db_uuid: bb68774ff47d4d2493d1a13cea5061f1
+  srgpc_url: https://www.srgpc.net/competitor/the-biggest-man-in-the-land/
   card_type: TrioCompetitorCard
   power: 30
   technique: 21
@@ -51237,6 +51255,7 @@
 - name: Birdbada
   db_uuid: aa9340f3542f4f82a2dd1264ccacd75d
   srg_url: https://supershowthegame.com/product/birdbada-competitor-only/
+  srgpc_url: https://www.srgpc.net/cards/competitors/birdbada/
   card_type: TornadoCompetitorCard
   power: 16
   technique: 14
@@ -51249,6 +51268,7 @@
 - name: Blue Eyed Fiends
   db_uuid: 9f75a5cd8a224aa6a5a7b4c3bfaed380
   srg_url: https://supershowthegame.com/product/blue-eyed-fiends/
+  srgpc_url: https://www.srgpc.net/cards/competitors/blue-eyed-fiends/
   card_type: TornadoCompetitorCard
   power: 18
   technique: 12
@@ -51290,6 +51310,7 @@
 - name: Boss Babies
   db_uuid: 7784adb1e56e4e3e87654a09a6bafa90
   srg_url: https://supershowthegame.com/product/boss-babies/
+  srgpc_url: https://www.srgpc.net/cards/competitors/boss-babies/
   card_type: TornadoCompetitorCard
   power: 10
   technique: 12
@@ -55476,6 +55497,7 @@
 - name: Aegis & Augury
   db_uuid: e497746359bc43f7b455e20233eaa6d1
   srg_url: https://supershowthegame.com/product/aegis-augury/
+  srgpc_url: https://www.srgpc.net/competitor/aegis-augury/
   card_type: TornadoCompetitorCard
   power: 12
   technique: 18
@@ -55551,6 +55573,7 @@
 - name: Cage and Verna
   db_uuid: 4a7e9d221c5143149ba9b86c65fcb7c0
   srg_url: https://supershowthegame.com/product/cage-and-verna/
+  srgpc_url: https://www.srgpc.net/cards/competitors/cage-and-verna/
   card_type: TornadoCompetitorCard
   power: 20
   technique: 10
@@ -55579,6 +55602,7 @@
 - name: Maidens of the Storm
   db_uuid: 4d0b8f6efea8405a8af21eb7c39df825
   srg_url: https://supershowthegame.com/product/maidens-of-the-storm/
+  srgpc_url: https://www.srgpc.net/cards/competitors/maidens-of-the-storm/
   card_type: TornadoCompetitorCard
   power: 12
   technique: 14
@@ -55591,6 +55615,7 @@
 - name: Manicotti Marinara
   db_uuid: 822f5546471347c6b67d0d3367caf406
   srg_url: https://supershowthegame.com/product/manicotti-marinara-competitor-only-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/manicotti-marinara/
   card_type: TornadoCompetitorCard
   power: 10
   technique: 18

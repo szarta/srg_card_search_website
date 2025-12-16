@@ -22736,6 +22736,8 @@
 
     If the Crowd Meter is 3 or greater this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Aki No Sora (V1)
   db_uuid: b4d2966ffba7402198f6ebeada63ae3e
   card_type: MainDeckCard
@@ -22746,6 +22748,8 @@
 
     Bury 4 cards in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Kowareta Yume (V1)
   db_uuid: dcf191a8d82e47448d33c6b7e2587dcc
   card_type: MainDeckCard
@@ -22758,6 +22762,8 @@
 
     Add 2 stop cards from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Eregantona Shi (V2)
   db_uuid: ccd4132dd5fe4388bc4cc5eb4c853f59
   srg_url: https://supershowthegame.com/product/akira-takeda/
@@ -22771,6 +22777,8 @@
 
     Add 2 stop cards from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Aki No Sora (V2)
   db_uuid: 0ddab80167b1434e83bdda12fba1fbf8
   srg_url: https://supershowthegame.com/product/akira-takeda/
@@ -22784,6 +22792,8 @@
 
     If the Crowd Meter is 3 or greater this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Kowareta Yume (V2)
   db_uuid: ebe693d8782848b7a90ab30ba7adcfaa
   srg_url: https://supershowthegame.com/product/akira-takeda/
@@ -22795,6 +22805,8 @@
 
     Bury 4 cards in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - cedb63b1a108434b91062c9a0bf36d03
 - name: Al13n Invader (V1)
   db_uuid: 4e0abf2265bf451dac5e99e1a0d6fbd8
   srg_url: https://supershowthegame.com/product/8-bit-al13n-invader-2/

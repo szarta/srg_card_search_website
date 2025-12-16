@@ -35454,6 +35454,10 @@
   grapple: 7
   rules_text: When you roll Technique for your turn roll, you may search your deck for a Strike and put it on top of your shuffled deck.
   tags: []
+  related_finishes:
+    - ae5b98d6e83f4c1dbbb7b60c3c01bc96
+    - a12f870c170d43bd8f68f456083b0163
+    - f436303959024c4ba9e99d5c84207ba6
 - name: Breakup Music
   db_uuid: ae5b98d6e83f4c1dbbb7b60c3c01bc96
   card_type: MainDeckCard
@@ -35468,6 +35472,8 @@
 
     If the Crowd Meter is 2 or greater, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 8d1c80c7bbf34977ae298f810ac15af8
 - name: Tear Drop Drop
   db_uuid: a12f870c170d43bd8f68f456083b0163
   card_type: MainDeckCard
@@ -35480,6 +35486,8 @@
 
     Shuffle 1 card from your discard pile into your deck.  If your opponent breaks out, you may increase the Crowd Meter by 1.'
   tags: []
+  related_cards:
+    - 8d1c80c7bbf34977ae298f810ac15af8
 - name: The Heartstrings
   db_uuid: f436303959024c4ba9e99d5c84207ba6
   card_type: MainDeckCard
@@ -35492,6 +35500,8 @@
 
     Shuffle up to 3 Strikes from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 8d1c80c7bbf34977ae298f810ac15af8
 - name: Helen
   db_uuid: cf0fe079e09c452da001e572c73cf568
   srg_url: https://supershowthegame.com/product/helen-halloween/
@@ -49350,7 +49360,7 @@
     - 8a9bef4a979a4d31b05a7f15411c0055
 - name: White Lily (V1)
   db_uuid: e1baa91d10a94e23816b04e7809eb08d
-  srgpc_url: https://www.srgpc.net/cards/competitors/white-lily-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/white-lily/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -49408,6 +49418,7 @@
     - e1baa91d10a94e23816b04e7809eb08d
 - name: White Lily (V2)
   db_uuid: 4ed75f5f784c4491ba68876e871aead4
+  srgpc_url: https://www.srgpc.net/cards/competitors/white-lily-new/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female

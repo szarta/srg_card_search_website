@@ -36082,6 +36082,10 @@
   grapple: 10
   rules_text: 'Once a turn roll: When your opponent rolls 9 or 10 for their turn roll, you may re-roll your turn roll.'
   tags: []
+  related_finishes:
+    - 5564f531c57d4525b2cb04bc7238e398
+    - de2d41184d594ddcb92e9915f762ee12
+    - 8b0342d4678147b2841d26f8252a8938
 - name: Blade Runner
   db_uuid: 5564f531c57d4525b2cb04bc7238e398
   card_type: MainDeckCard
@@ -36094,6 +36098,8 @@
 
     If you re-rolled your turn roll, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 68d8df0c31a04446bb8734cbe82be583
 - name: Snap Saito Suplex
   db_uuid: de2d41184d594ddcb92e9915f762ee12
   card_type: MainDeckCard
@@ -36106,6 +36112,8 @@
 
     Add 1 Strike or Submission Finish from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 68d8df0c31a04446bb8734cbe82be583
 - name: TTO
   db_uuid: 8b0342d4678147b2841d26f8252a8938
   card_type: MainDeckCard
@@ -36120,6 +36128,8 @@
 
     Draw 1 card.'
   tags: []
+  related_cards:
+    - 68d8df0c31a04446bb8734cbe82be583
 - name: Jean Constance
   db_uuid: e7f4079b9154426e94cbc0bf90a6aa18
   srg_url: https://supershowthegame.com/product/jean-constance/

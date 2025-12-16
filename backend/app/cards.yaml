@@ -26249,6 +26249,11 @@
   grapple: 6
   rules_text: When your opponent rolls 8 or 9 for their turn roll, their next turn roll is -1.
   tags: []
+  related_finishes:
+    - c1e5f2dbbfc149e99706589c364441b2
+    - 1419effdf26c4bee8a5daa98af6b928e
+    - 9098e135fa384482b7cc49ef6ca1cf24
+    - 545cfc1dd26149a1927ae309692f6aac
 - name: Grumpay, Grumpay Ha!
   db_uuid: c1e5f2dbbfc149e99706589c364441b2
   card_type: MainDeckCard
@@ -26265,6 +26270,8 @@
 
     You may re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - ed9f1e55e6094478bf87e93f209347a4
 - name: Bye Maaaaan
   db_uuid: 1419effdf26c4bee8a5daa98af6b928e
   card_type: MainDeckCard
@@ -26275,6 +26282,8 @@
 
     When your opponent has 5 or more cards in play, this card is also a Lead.'
   tags: []
+  related_cards:
+    - ed9f1e55e6094478bf87e93f209347a4
 - name: Bangin' and Clangin'
   db_uuid: 9098e135fa384482b7cc49ef6ca1cf24
   card_type: MainDeckCard
@@ -26285,6 +26294,8 @@
 
     If this card is stopped, add "Grumpy Day" from your discard pile to your hand and your next turn roll is -2.'
   tags: []
+  related_cards:
+    - ed9f1e55e6094478bf87e93f209347a4
 - name: Grumpy Day
   db_uuid: 545cfc1dd26149a1927ae309692f6aac
   card_type: MainDeckCard
@@ -26297,6 +26308,8 @@
 
     Your opponent adds 1 card from their discard pile to their hand.'
   tags: []
+  related_cards:
+    - ed9f1e55e6094478bf87e93f209347a4
 - name: Hamish MacDeath (V1)
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
   srgpc_url: https://www.srgpc.net/cards/competitors/hamish-macdeath/
@@ -45852,10 +45865,10 @@
   strike: 10
   submission: 5
   grapple: 9
-  tags: []
-  rules-text: 'Once during your turn:
+  rules_text: 'Once during your turn:
 
     When you hit a card, you may play 1 additional card with "Eat" in the name.'
+  tags: []
 - name: Scarlett Graves (V1)
   db_uuid: bbad60422a9c403b97980cc9efab48c1
   srgpc_url: https://www.srgpc.net/cards/competitors/scarlett-graves/

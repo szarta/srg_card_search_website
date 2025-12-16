@@ -55339,6 +55339,10 @@
   grapple: 10
   rules_text: When you roll Submission for your turn roll, shuffle your deck and draw 1 card or your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 71028a4e4fc7461db50750c7f80e06dd
+    - c5b4928e6c1849f281ca9f79c9823dac
+    - 4419b6b2b0cb45d8b265f10c5bcd2d64
 - name: Can You See This!
   db_uuid: 71028a4e4fc7461db50750c7f80e06dd
   card_type: MainDeckCard
@@ -55353,6 +55357,8 @@
 
     If stopped, you may shuffle your deck, then bury or discard any number of cards in your hand to draw the same number of cards.'
   tags: []
+  related_cards:
+    - e9f8f5ac87b046d787401602e5730749
 - name: Hair Buster
   db_uuid: c5b4928e6c1849f281ca9f79c9823dac
   card_type: MainDeckCard
@@ -55369,6 +55375,8 @@
 
     Draw 2 cards.'
   tags: []
+  related_cards:
+    - e9f8f5ac87b046d787401602e5730749
 - name: Philly's Not Special
   db_uuid: 4419b6b2b0cb45d8b265f10c5bcd2d64
   card_type: MainDeckCard
@@ -55381,6 +55389,8 @@
 
     If you rolled Submission for your turn roll, triple these bonuses.'
   tags: []
+  related_cards:
+    - e9f8f5ac87b046d787401602e5730749
 - name: Vacation Commissioner
   db_uuid: 287077390a6f4cf5a7d056e252a2469c
   srgpc_url: https://www.srgpc.net/competitor/vacation-commissioner/
@@ -55976,7 +55986,7 @@
   tags: []
 - name: Sweet Innuendos (V1)
   db_uuid: b3d8e9b2e4344e28b02bd7c2303ebbc0
-  srg_url: https://supershowthegame.com/product/sweet-innuendos-full-set/
+  srgpc_url: https://www.srgpc.net/cards/competitors/sweet-innuendos/
   card_type: TornadoCompetitorCard
   power: 18
   technique: 12

@@ -30,21 +30,21 @@ Armbar
 Rolling Forearm
 Scoop Slam
 Face Stretch
-Back Kick
+Back Kick (V2)
 Sweeping Takedown
 Show of Force
-Al13n Invasion
+Al13n Invasion (Submission)
 Elevated Backbreaker
 Bow and Arrow
-Superkick
+Superkick (V2)
 Suplex
 Choke Hold
-Gut Punch
-Spinebuster
-Head and Arm Vice
+Gut Punch (V2)
+Spinebuster (V2)
+Head and Arm Vice (V2)
 Set Up the Ladder
 Slam Into the Barricade
-Crossbow
-Superman Punch
+Crossbow (V1)
+Superman Punch (V2)
 Side Effect
 Double Armbar

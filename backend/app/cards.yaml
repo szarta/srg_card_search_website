@@ -24219,6 +24219,9 @@
 
     Your Technique and Agility skill are +1 for each Strike you have in play. (Max +3)'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: Hammer Throw
   db_uuid: 722a705060a8454ba390b784f7410952
   card_type: MainDeckCard
@@ -24233,6 +24236,9 @@
 
     If you hit a Strike last turn, double these bonuses.'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: The Engine Block
   db_uuid: 442f3cb5b68b40f098462208eee54aae
   card_type: MainDeckCard
@@ -24245,6 +24251,9 @@
 
     Your Technique and Grapple skills are +1 for each Stop your opponent has in play (Max +3).'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: The Slab
   db_uuid: ee54c3bbea7d41709358265d28247498
   card_type: MainDeckCard
@@ -24255,6 +24264,9 @@
 
     Your opponent randomly buries 2 cards in their hand.'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: Hammer Down
   db_uuid: 2f4f54b34ce94701ae287532b7acaa3b
   card_type: MainDeckCard
@@ -24265,6 +24277,9 @@
 
     For each card in your opponent''s hand, draw 1 card.'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: Broken Wings
   db_uuid: 9c62d7eaaf544f14ae0f069b9a9f71d0
   card_type: MainDeckCard
@@ -24275,6 +24290,9 @@
 
     +3 to Technique'
   tags: []
+  related_cards:
+    - 874d321b095b401987c710035115583f
+    - 2796d89fd2a84687860c89695df92001
 - name: The Wreck (V1)
   db_uuid: 9f936d7e3c5f41f18eda93e9644d6726
   srg_url: https://supershowthegame.com/product/the-wreck/

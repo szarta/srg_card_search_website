@@ -24491,6 +24491,10 @@
   grapple: 9
   rules_text: When you roll Strike, Submission, or Grapple for your turn roll, your opponent randomly reveals 1 card in their hand; if the move type of the card revealed is the same as you rolled, the card is buried.
   tags: []
+  related_finishes:
+    - 70fc21bfd9f54bab8b805090232af569
+    - e34f38926f4e4c9b81366e60324735f1
+    - ebb3661f3e04439587a412855a2fbf7c
 - name: Hit the Post
   db_uuid: 70fc21bfd9f54bab8b805090232af569
   card_type: MainDeckCard
@@ -24499,6 +24503,8 @@
   deck_card_number: 28
   rules_text: Look at your opponent's hand, choose 1 Strike, 1 Submission, 1 Grapple and bury them.
   tags: []
+  related_cards:
+    - f8a15098e9e04c5e948f78558974f233
 - name: Drop It on Two
   db_uuid: e34f38926f4e4c9b81366e60324735f1
   card_type: MainDeckCard
@@ -24513,6 +24519,8 @@
 
     Add 2 cards fro myour discard pile to your hand.'
   tags: []
+  related_cards:
+    - f8a15098e9e04c5e948f78558974f233
 - name: The Hard Break
   db_uuid: ebb3661f3e04439587a412855a2fbf7c
   card_type: MainDeckCard
@@ -24525,6 +24533,8 @@
 
     Your opponent''s Breakout roll cannot be increased.'
   tags: []
+  related_cards:
+    - f8a15098e9e04c5e948f78558974f233
 - name: Chicken Riders
   db_uuid: 9230f2acae874c1ab7ec4d4be053a85c
   card_type: TornadoCompetitorCard

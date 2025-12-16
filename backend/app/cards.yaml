@@ -25786,6 +25786,52 @@
   grapple: 6
   rules_text: When you roll Agility for your turn roll, you may discard 2 cards and draw 2 cards.
   tags: []
+  related_finishes:
+    - c4966258c4e546e79a40900ef80f2ec9
+    - 8b25673aa60f41d9bf976399e815ea01
+    - 5fcac94b705740a5918574d146b2f800
+- name: Poppin' Bottles
+  db_uuid: c4966258c4e546e79a40900ef80f2ec9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike'
+  tags: []
+  related_cards:
+    - 8cc441c7425945b9830ffc49680e1987
+- name: The Velvet Rope
+  db_uuid: 8b25673aa60f41d9bf976399e815ea01
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Your Agility and Grapple is +1 for each card you have in play with "Money" or "Rain" in the name.'
+  tags: []
+  related_cards:
+    - 8cc441c7425945b9830ffc49680e1987
+- name: $TF
+  db_uuid: 5fcac94b705740a5918574d146b2f800
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Draw 2 cards.
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 8cc441c7425945b9830ffc49680e1987
 - name: Dump Sanders
   db_uuid: b2b48a849731415fadfedd06451a6085
   card_type: SingleCompetitorCard
@@ -35868,6 +35914,8 @@
 
     Your Finish roll is +1 for every 3 Strikes you have in play.'
   tags: []
+  related_cards:
+    - c30f8ab941e046cdb7dea5772f96019b
 - name: Desert Eagle
   db_uuid: b9e20805145e4b31b6e5e557f0e6281e
   card_type: MainDeckCard
@@ -35878,6 +35926,8 @@
 
     If you have at least 3 Submissions in play, +4 to Power.'
   tags: []
+  related_cards:
+    - c30f8ab941e046cdb7dea5772f96019b
 - name: Disdain
   db_uuid: 5131d28e012f4e3fabfe5452fbcb1fef
   card_type: MainDeckCard
@@ -35892,6 +35942,8 @@
 
     Shuffle 3 cards from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - c30f8ab941e046cdb7dea5772f96019b
 - name: J Train (V1)
   db_uuid: d47d439957d54e528b89ef8d584e4371
   srgpc_url: https://www.srgpc.net/cards/competitors/j-train/

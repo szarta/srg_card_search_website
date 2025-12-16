@@ -1,13 +1,13 @@
 ---
 slug: mortician
-title: "Mortician (V1)"
+title: "The Mortician (V1)"
 author: Jeffrey Fox
 date: 2022-10-13
 ---
 
 ## The Competitor
 
-[[[Mortician (V1)]]]
+[[[The Mortician (V1)]]]
 
 ## Writeup
 
@@ -17,17 +17,17 @@ Facebook.
 ## Decklist
 
 ```deck
-Mortician (V1)
+The Mortician (V1)
 Time Takeover with The Ultra Cosmic Crusaders
 The Cremation
 Super Snap Powerbomb
-Sharpshooter
+Sharpshooter (#30)
 Snap Punch
 Arm & Collar Tie Up
 Snap Headlock
 Snap Kick
 Super Hip Toss
-Elevated Armbar
+Elevated Arm Bar
 Forearm Shot
 Call to the Crowd
 Strength in Numbers
@@ -35,11 +35,11 @@ Surprise Attack
 Taunting Sheep
 Taunt from the Top Rope
 Schoolyard Beatdown
-Running Suplex
+Running Suplex (Power)
 Bow and Arrow
 Head Shot
-Reverse Head Drop
-Body Brush
+Reverse Head Drop (V2)
+Body Crush (V2)
 Blindside Smash
 Panic Slam
 Back Rake

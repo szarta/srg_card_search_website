@@ -12,7 +12,8 @@ const articles = [
   { slug: "wendigo",          title: "Wendigo"},
   { slug: "mila-mai-2021",    title: "2021 Deck of the Year Mila Mai"},
   { slug: "hiroshi",          title: "Hiroshi Tanahashi"},
-  { slug: "chamomile-t",      title: "Chamomile T"}
+  { slug: "chamomile-t",      title: "Chamomile T"},
+  { slug: "raven",            title: "Raven"}
 ];
 
 export default function DeckList() {

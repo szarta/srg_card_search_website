@@ -35765,6 +35765,52 @@
   grapple: 9
   rules_text: When you hit a card with "Dragon" in the name, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - 0c8a2ebbacdd41c8afb872b8cb08b4d4
+    - 0c257cee404441179bc49f84e610a658
+    - 7610fa6996034fd880bb1874531fe66d
+- name: High Fly Flow
+  db_uuid: 0c8a2ebbacdd41c8afb872b8cb08b4d4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If you hit a card with "Dragon" in the name last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 818d5a2501ce481ca42886e95e7d0943
+- name: Bridging Dragon Suplex
+  db_uuid: 0c257cee404441179bc49f84e610a658
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    If you hit a card with "Dragon" in the name last turn, draw 4 cards.'
+  tags: []
+  related_cards:
+    - 818d5a2501ce481ca42886e95e7d0943
+- name: Texas Clover Hold
+  db_uuid: 7610fa6996034fd880bb1874531fe66d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Each time your opponent rolls for a Breakout roll, they randomly bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 818d5a2501ce481ca42886e95e7d0943
 - name: History Making Matt Pineapple
   db_uuid: 70ec50606f764d35bbbbaf40618177da
   srgpc_url: https://www.srgpc.net/competitors/history-making-matt-pineapple/

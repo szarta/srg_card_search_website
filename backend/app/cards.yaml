@@ -40994,6 +40994,52 @@
   grapple: 9
   rules_text: Your opponent's 1st turn roll is -3, their 2nd turn roll is -2, and their 3rd turn roll is -1.
   tags: []
+  related_finishes:
+    - d384c42aa9e24b669292ed2034ebd1ea
+    - de2645bac75943c0a44e00661bbb7203
+    - eefa2035d974414188ead1db0e51ad9d
+- name: The Cremation
+  db_uuid: d384c42aa9e24b669292ed2034ebd1ea
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile, cards in your opponent''s discard pile have blank text.'
+  tags: []
+  related_cards:
+    - cfc8e0da7777443d9f5530324b665a90
+- name: The Kiss of Death
+  db_uuid: de2645bac75943c0a44e00661bbb7203
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your opponent flips 3 cards.
+
+    Bury 3 cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - cfc8e0da7777443d9f5530324b665a90
+- name: The Last Breath
+  db_uuid: eefa2035d974414188ead1db0e51ad9d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Look at your opponent''s hand, choose 2 cards and shuffle them into their deck.'
+  tags: []
+  related_cards:
+    - cfc8e0da7777443d9f5530324b665a90
 - name: The Mortician (V2)
   db_uuid: 94098185bbab40a193461c89ab56ddce
   card_type: SingleCompetitorCard

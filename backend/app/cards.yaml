@@ -36859,6 +36859,10 @@
   grapple: 5
   rules_text: When your opponent has 8 or more cards in their hand, your Strike and Submission skills are +1.
   tags: []
+  related_finishes:
+    - 201540e5c73d45a19d64f8ef3f513b2d
+    - 56f01ffe3a0d4a8b88ef262be77aea75
+    - 6dab213c9df54b6996af68c511f2e81e
 - name: You're Mad
   db_uuid: 201540e5c73d45a19d64f8ef3f513b2d
   card_type: MainDeckCard
@@ -36869,6 +36873,8 @@
 
     When this card is in your discard pile: Replace "8" with "6" in your Gimmick.'
   tags: []
+  related_cards:
+    - c79de6acd1954441970f9b1901a55e01
 - name: Jam Ham!
   db_uuid: 56f01ffe3a0d4a8b88ef262be77aea75
   card_type: MainDeckCard
@@ -36883,6 +36889,8 @@
 
     Look at your opponent''s hand, choose 1 card and discard it.'
   tags: []
+  related_cards:
+    - c79de6acd1954441970f9b1901a55e01
 - name: I Said, Jam Ham!!!
   db_uuid: 6dab213c9df54b6996af68c511f2e81e
   card_type: MainDeckCard
@@ -36895,6 +36903,8 @@
 
     Add up to 4 cards from your opponent''s discard pile to their hand.'
   tags: []
+  related_cards:
+    - c79de6acd1954441970f9b1901a55e01
 - name: Jokerfish (V1)
   db_uuid: 52ba551f1c3c40269d6a8ead69693cc3
   srg_url: https://supershowthegame.com/product/joker-fish/
@@ -52138,6 +52148,7 @@
 - name: Double Vision
   db_uuid: 90fca0d1abbc483c9c9d3c83b7d5c939
   srg_url: https://supershowthegame.com/product/double-vision/
+  srgpc_url: https://www.srgpc.net/cards/competitors/double-vision/
   card_type: TornadoCompetitorCard
   power: 16
   technique: 18

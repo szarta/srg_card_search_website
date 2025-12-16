@@ -41825,6 +41825,7 @@
   tags: []
   related_cards:
     - 630ba3b301ff48bbb1bf73b23bda10d1
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Twisted Fate
   db_uuid: 82fe3b41c9c8440bbb10cab07d0a8d28
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
@@ -41840,6 +41841,7 @@
   tags: []
   related_cards:
     - 630ba3b301ff48bbb1bf73b23bda10d1
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Pulling the Petals
   db_uuid: 8d7fa73a6dc64a919641015f4a471fcc
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
@@ -41853,6 +41855,7 @@
   tags: []
   related_cards:
     - 630ba3b301ff48bbb1bf73b23bda10d1
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Hummingbird Effect
   db_uuid: 6639064ed8d64eb5b866d2267f6dab6d
   srg_url: https://supershowthegame.com/product/ninja-hummingbird/
@@ -41866,6 +41869,7 @@
   tags: []
   related_cards:
     - 630ba3b301ff48bbb1bf73b23bda10d1
+    - 4f05f98ff74b4be49e53e2092c28a90a
 - name: Numer01
   db_uuid: 719cbdbaba434b719bd7fa7a2892813e
   srgpc_url: https://www.srgpc.net/cards/competitors/numer01/
@@ -56580,6 +56584,7 @@
   tags: []
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
+    - 630ba3b301ff48bbb1bf73b23bda10d1
   related_finishes:
     - 6f1c5a337dd746d79d53ee02f277383c
     - 96dba717a30c479390fcf080ab664305
@@ -56589,6 +56594,10 @@
     - 7fcd504d34fb4088ae6b6ef5bc8d4640
     - 7c06a7e09b0441a8a5629245bc2ab513
     - 6d5d9d61f9ae45c39d2cf0cabbacd343
+    - cfa9f497695e4d4d88524aa911d47562
+    - 82fe3b41c9c8440bbb10cab07d0a8d28
+    - 8d7fa73a6dc64a919641015f4a471fcc
+    - 6639064ed8d64eb5b866d2267f6dab6d
 - name: While My Guitar Gently Weeps
   db_uuid: 7c06a7e09b0441a8a5629245bc2ab513
   card_type: MainDeckCard

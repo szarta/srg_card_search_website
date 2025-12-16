@@ -2565,7 +2565,7 @@
 
     If this is a Ring of Fire match, choose a player; their next turn roll is +1.'
   tags: []
-- name: Strength in Numbers (V1)
+- name: Strength in Numbers (Power)
   db_uuid: bd478dc1d8d94eaeb45e9fd6bda6222c
   srg_url: https://supershowthegame.com/product/09-strength-in-numbers/
   srgpc_url: https://www.srgpc.net/cards/9/strength-in-numbers-power/
@@ -9200,7 +9200,7 @@
   deck_card_number: 9
   rules_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
-- name: Strength in Numbers (V2)
+- name: Strength in Numbers
   db_uuid: 419e8097b8c043ca936ce18a77fefe23
   card_type: MainDeckCard
   atk_type: Submission

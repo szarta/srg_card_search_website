@@ -31505,6 +31505,52 @@
   grapple: 5
   rules_text: When you roll Agility, you may draw 1 card and then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - ffffca1dabb0493f9e79c5c4db2dce28
+    - 7c307191598143dfb4e03b4428ff2f9d
+    - aa50c83b9f924f4ca191f11ab00274ec
+- name: Sleepy Time Punch
+  db_uuid: ffffca1dabb0493f9e79c5c4db2dce28
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Your opponent buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 309e9641dda648c09f80a98fa92efc16
+- name: The Spiced Rack
+  db_uuid: 7c307191598143dfb4e03b4428ff2f9d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +4 to Grapple
+
+    Shuffle up to 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 309e9641dda648c09f80a98fa92efc16
+- name: Honey, It's Over
+  db_uuid: aa50c83b9f924f4ca191f11ab00274ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    If you rolled Agility for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 309e9641dda648c09f80a98fa92efc16
 - name: Cheetah
   db_uuid: 8e7340565e01403d99eb2026d2d49765
   srgpc_url: https://www.srgpc.net/cards/competitors/cheetah/

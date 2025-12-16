@@ -62208,3 +62208,19 @@
   tags: []
   related_cards:
     - ecff166768cf4de8a4bf68f0692529bd
+- name: Super Snap Powerbomb
+  db_uuid: 0028fdb161d64e7ba162b3b8228be9b8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    +1 to Power
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []

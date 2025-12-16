@@ -48955,7 +48955,7 @@
   tags: []
   related_cards:
     - 18c9a0e41d4a4315a4e453bdb39d2be5
-- name: The Pharaoh's Curse (V1)
+- name: The Pharaoh's Curse
   db_uuid: 756cb91b93264111b257de975f386455
   card_type: MainDeckCard
   atk_type: Grapple
@@ -48987,6 +48987,7 @@
     - 18c9a0e41d4a4315a4e453bdb39d2be5
 - name: Vampyr Sehkmet (V2)
   db_uuid: d8612a432fb34af1a9af56350f3af247
+  srgpc_url: https://www.srgpc.net/cards/competitors/vampyr-sehkmet-iku-zo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -49018,7 +49019,7 @@
   tags: []
   related_cards:
     - d8612a432fb34af1a9af56350f3af247
-- name: The Pharaoh's Curse (V2)
+- name: Pharaoh's Curse
   db_uuid: 81e7930d92d54e0fa1952bc26286bc75
   card_type: MainDeckCard
   atk_type: Grapple

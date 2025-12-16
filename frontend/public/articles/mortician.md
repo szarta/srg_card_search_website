@@ -44,8 +44,8 @@ Blindside Smash
 Panic Slam
 Back Rake
 High Impact Forearm Smash
-Powerbomb
+Powerbomb (Power)
 Lariat Knot
 Dropkick
-Spinning Side Slam
-Chicken Wing
+Spinning Side Slam (V2)
+Chicken Wing (V2)

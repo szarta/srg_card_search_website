@@ -943,6 +943,9 @@
 
     If stopped, each player buries 3 cards in their hand.'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
+    - bb8f720590c44fe189ce68af24a73598
 - name: Ultimate Annihilation
   db_uuid: 65378fd23cc2477fa53666f33d895ad0
   srg_url: https://supershowthegame.com/product/cuddy-warrior/
@@ -956,6 +959,9 @@
 
     Each player''s Gimmick is blanked until the end of the match.'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
+    - bb8f720590c44fe189ce68af24a73598
 - name: Ultimate Agony
   db_uuid: cb84282851514afd9bc6465c0d63ebf9
   srg_url: https://supershowthegame.com/product/cuddy-warrior/
@@ -967,6 +973,9 @@
 
     When this card is in your discard pile and you stop a Finish, draw 1 card.'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
+    - bb8f720590c44fe189ce68af24a73598
 - name: Above Average Cuddy Splash
   db_uuid: 5522669972ad41a0b943263d11e6645f
   card_type: MainDeckCard
@@ -979,6 +988,8 @@
 
     Un-blank your Gimmick and Finishes until the end of the match.'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
 - name: Above Average Cuddy Slam
   db_uuid: a8ca9c9a0e664fbead8924cf46acb95a
   card_type: MainDeckCard
@@ -991,6 +1002,8 @@
 
     Draw 1 card.'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
 - name: Above Average Cuddy Crash
   db_uuid: c9ffe2001ba0486a9c921193989c9176
   card_type: MainDeckCard
@@ -1003,6 +1016,8 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - 51d5df82cf0c4be6bcf83bc723a524e8
 - name: Inevitable Ace Austin
   db_uuid: 9fd2c3aee2a04dc2b28c07e043be587c
   srg_url: https://supershowthegame.com/product/ace-austin/
@@ -1154,6 +1169,8 @@
 
     Draw 3 cards then bury 1 card in your hand.'
   tags: []
+  related_cards:
+    - ee611f569485400fa6312512db2ce31e
 - name: Big Vic Driver
   db_uuid: 2933cd72b4a546d2af5b6ae2ef4124f1
   srg_url: https://supershowthegame.com/product/ach/
@@ -1171,6 +1188,8 @@
 
     Choose 1 card and discard it.'
   tags: []
+  related_cards:
+    - ee611f569485400fa6312512db2ce31e
 - name: Muta-Lock
   db_uuid: 27fe7e0441f442c696059ced7ca7aca7
   srg_url: https://supershowthegame.com/product/ach/
@@ -1184,6 +1203,8 @@
 
     Take 3 cards from your discard pile and shuffle them into your deck.'
   tags: []
+  related_cards:
+    - ee611f569485400fa6312512db2ce31e
 - name: Adam Page
   db_uuid: 56608588327c405bb148ae2d2feafecc
   srg_url: https://supershowthegame.com/product/adam-page/
@@ -1216,6 +1237,8 @@
 
     When the Crowd Meter is 5 or greater this card is also a Follow Up'
   tags: []
+  related_cards:
+    - 56608588327c405bb148ae2d2feafecc
 - name: Rite of Passage
   db_uuid: 503c3ebd43a940c181fa2bf187e1ad41
   srg_url: https://supershowthegame.com/product/adam-page/
@@ -1229,6 +1252,8 @@
 
     If your opponent breaks out the Crowd Meter is +2'
   tags: []
+  related_cards:
+    - 56608588327c405bb148ae2d2feafecc
 - name: Half Nelson Suplex
   db_uuid: 4a8ada07bd32499b964de543c6ac5099
   srg_url: https://supershowthegame.com/product/adam-page/
@@ -1238,6 +1263,8 @@
   deck_card_number: 30
   rules_text: +2 to Submission\n+1 to Grapple\nWhen this card is in your discard pile and you hit "Half Nelson Hold" you may add it to your hand.
   tags: []
+  related_cards:
+    - 56608588327c405bb148ae2d2feafecc
 - name: Adam Priest
   db_uuid: c077293c5143451885069856ec9b01e9
   srg_url: https://supershowthegame.com/product/adam-priest/
@@ -1329,6 +1356,8 @@
 
     Each player shuffles their discard pile into their deck.'
   tags: []
+  related_cards:
+    - c55b4d45a80342fd985aae1570e1ab61
 - name: High Tide
   db_uuid: 1786be24bdf54c4fa509e787930bc12d
   srg_url: https://supershowthegame.com/product/agatha-mai/
@@ -1339,6 +1368,7 @@
   rules_text: +3 to Strike\n+1 to Grapple\nStop "Derailed"
   tags: []
   related_cards:
+    - c55b4d45a80342fd985aae1570e1ab61
     - 8734e9fde50c47b7a2e51cbc1adbc6de
 - name: Heave-Ho
   db_uuid: ad2ec46d2e42432aa47ebc834a62b158
@@ -1353,6 +1383,8 @@
 
     Your opponent flips and shuffles the same number of cards.'
   tags: []
+  related_cards:
+    - c55b4d45a80342fd985aae1570e1ab61
 - name: Agatha Mai (V2)
   db_uuid: 08559cdcf0704b188fbe388192e2181e
   card_type: SingleCompetitorCard
@@ -1385,6 +1417,8 @@
 
     +4 to Strike'
   tags: []
+  related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
 - name: Shipwreck Menagerie
   db_uuid: 120a4a3ffc124a21be376a2d5f6df56d
   card_type: MainDeckCard
@@ -1399,6 +1433,8 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
 - name: The Mystic Plunder
   db_uuid: c17faf738dc9453097c7b4301baaafff
   card_type: MainDeckCard
@@ -1413,6 +1449,8 @@
 
     Bury 3 cards in any player''s discard pile.'
   tags: []
+  related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
 - name: Crocodile Chop
   db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1429,6 +1467,7 @@
     Draw 1 card'
   tags: []
   related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
     - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Steel Chain Anchors Aweigh
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
@@ -1446,6 +1485,7 @@
     Draw 1 card for each Scallywag Symbol you have revealed on your Entrance and Competitor cards.'
   tags: []
   related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
     - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Death is the Only Great Adventure You Have Left
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
@@ -1465,6 +1505,7 @@
     '
   tags: []
   related_cards:
+    - 08559cdcf0704b188fbe388192e2181e
     - a01036ebb5bf49e382f6c9668fd04cc7
 - name: Never Settle for Less Than Elle Diablo
   db_uuid: 3106fc788f5e4d86b4103d05a5e9d760

@@ -38129,6 +38129,56 @@
   grapple: 6
   rules_text: When you roll Submission for your turn roll, choose 1 card your opponent has in play and discard it.
   tags: []
+  related_finishes:
+    - ccb0b890fb6a403d949451ee67908daf
+    - 6c3f3bb7036d462da14343fc4fbe8a17
+    - 539c3228192f4dc6a09cdf63490e76fb
+- name: Kamigoye
+  db_uuid: ccb0b890fb6a403d949451ee67908daf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you roll Submission for your turn roll, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - ccfe5910ae174623b2a7f5b0f96e24d2
+- name: Golden Star Bomb
+  db_uuid: 6c3f3bb7036d462da14343fc4fbe8a17
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Draw 1 card.  Flip 1 card.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ccfe5910ae174623b2a7f5b0f96e24d2
+- name: Ibushi-Style Figure-Four
+  db_uuid: 539c3228192f4dc6a09cdf63490e76fb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If your opponent breaks out, you may put this card into play.  When you hit another card, discard this card from play.'
+  tags: []
+  related_cards:
+    - ccfe5910ae174623b2a7f5b0f96e24d2
 - name: Kung Fu Donnie Janela
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
   card_type: SingleCompetitorCard

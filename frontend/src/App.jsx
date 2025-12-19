@@ -10,6 +10,7 @@ import SubmitMissingCard from "./pages/SubmitMissingCard";
 import SubmitMissingImage from "./pages/SubmitMissingImage";
 import CreateList from "./pages/CreateList";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import FinishCalculator from "./pages/FinishCalculator";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -56,6 +57,7 @@ function Layout() {
                 <li><a className="hover:text-srgPurple" href="/create-list">Create List</a></li>
                 <li><a className="hover:text-srgPurple" href="/submit-missing-card">Submit Missing Card</a></li>
                 <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
+                <li><a className="hover:text-srgPurple" href="/finish-calculator">Finish Calculator</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
               </ul>
             </div>
@@ -100,6 +102,7 @@ const router = createBrowserRouter([
       { path: "/create-list", element: <CreateList /> },
       { path: "/submit-missing-card", element: <SubmitMissingCard /> },
       { path: "/submit-missing-image", element: <SubmitMissingImage /> },
+      { path: "/finish-calculator", element: <FinishCalculator /> },
       { path: "/privacy", element: <PrivacyPolicy /> },
     ],
   },

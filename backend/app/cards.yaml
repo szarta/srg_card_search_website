@@ -33946,7 +33946,7 @@
   tags: []
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
-  srgpc_url: https://www.srgpc.net/competitor/evil-ed-the-cheese-head-v2/
+  srgpc_url: https://www.srgpc.net/competitors/evil-ed-the-cheesehead/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -33960,8 +33960,16 @@
 
     When you have 4 cards in play with "Ring", "Fire", or "Cheese" in the name, the Crowd Meter is a "Ring of Fire" match instead.'
   tags: []
+  related_finishes:
+    - 9708085a9bf443a78abde7caeca17237
+    - 7ee62c79c9e1414eb977b3a332fd4785
+    - 11fdbffabdca4a52a02769c3ed80beff
+    - a891785061d84677ab35303a4934d01a
+    - fe38c448f5f140b4a96123f63fc24346
+    - 569dbccfb5274af1ad01fdec455b5193
 - name: Evil Ed the Cheesehead (V2)
   db_uuid: 62e48ff740964254a8e73f3af363ac0f
+  srgpc_url: https://www.srgpc.net/competitor/evil-ed-the-cheese-head-v2/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -33973,6 +33981,113 @@
   grapple: 9
   rules_text: It is considered a Ring of Fire match for your card effects.
   tags: []
+  related_finishes:
+    - 9708085a9bf443a78abde7caeca17237
+    - 7ee62c79c9e1414eb977b3a332fd4785
+    - 11fdbffabdca4a52a02769c3ed80beff
+    - a891785061d84677ab35303a4934d01a
+    - fe38c448f5f140b4a96123f63fc24346
+    - 569dbccfb5274af1ad01fdec455b5193
+- name: Gouda Cheese to the Face
+  db_uuid: 9708085a9bf443a78abde7caeca17237
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    Your opponent flips 5 cards and discards 3 cards from their hand.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
+- name: Drop Cheese Hold
+  db_uuid: 7ee62c79c9e1414eb977b3a332fd4785
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Randomly bury all cards in your discard pile.
+
+    Draw the bottom card of your deck.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
+- name: You Got Fondue'd!
+  db_uuid: 11fdbffabdca4a52a02769c3ed80beff
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +4 to Submission
+
+    Your opponent flips their deck into their discard pile.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
+- name: Evil Ed's Lingering Leg Drop
+  db_uuid: a891785061d84677ab35303a4934d01a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Your opponent flips cards equal to your Finish roll.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
+- name: Evil Ed-Gecution
+  db_uuid: fe38c448f5f140b4a96123f63fc24346
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    Your opponent randomly discards 1 card from their hand. If this is a Ring of Fire match, double these bonuses.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
+- name: The Evil Cheese Grater
+  db_uuid: 569dbccfb5274af1ad01fdec455b5193
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    Stop any Finish Strike that cannot be stopped or does not have a Competitor logo.'
+  tags: []
+  related_cards:
+    - 0f1c0eb5ecb241d9987f1a71697e460b
+    - 62e48ff740964254a8e73f3af363ac0f
 - name: Fast Hands Cam
   db_uuid: 26e572a5ff9b48f59c604d84dce4c0b8
   srg_url: https://supershowthegame.com/product/fast-hands-cam/

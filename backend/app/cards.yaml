@@ -37862,9 +37862,11 @@
 
     When you hit a card with "Lightning" in the name, draw 1 card.'
   tags: []
-- name: King Brian Page
+- name: King Brian Cage
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-brian-cage/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 10
   technique: 6
@@ -37876,6 +37878,50 @@
 
     You may re-roll your next turn roll.'
   tags: []
+  related_finishes:
+    - 3edd63846596493cad8298271e852cd4
+    - 3f8d56227d5f4c80acee99d33406188b
+    - 96909dc2387c4f918b94bf1c5abd1fb2
+- name: King Cage Killer Combo
+  db_uuid: 3edd63846596493cad8298271e852cd4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'This card is also a Finish Grapple.
+
+    This card will only be stopped by 2 Stops.'
+  tags: []
+  related_cards:
+    - 8ddf0b4f072e4799bcb6df6b22e84b18
+- name: King Cage Curls
+  db_uuid: 3f8d56227d5f4c80acee99d33406188b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    If you rolled Power for your turn roll or you re-rolled your turn roll, this card is also a Follow Up and cannot be stopped by "Apocalypse".'
+  tags: []
+  related_cards:
+    - 8ddf0b4f072e4799bcb6df6b22e84b18
+- name: King Cage Clutch
+  db_uuid: 96909dc2387c4f918b94bf1c5abd1fb2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    If you rolled Power for your turn roll or re-rolled your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 8ddf0b4f072e4799bcb6df6b22e84b18
 - name: King Carcosa
   db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
   card_type: SingleCompetitorCard

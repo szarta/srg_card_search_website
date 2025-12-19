@@ -62756,3 +62756,59 @@
 
     Draw 1 card.'
   tags: []
+- name: Orchestra Red
+  db_uuid: ba9c71d333aa487b99d13fe537e7dec2
+  srg_url: https://supershowthegame.com/product/orchestra-red/
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 6
+  rules_text: When either player hits a card, their next turn roll is -2.
+  tags: []
+  related_finishes:
+    - 50da90bfc418464fa169d1d39b6c543b
+    - 51ffd2d4a93f4facb8fab0e1cb50b789
+    - 8a1cb28d55f246b8a02b9c3cdf92b3e3
+- name: Orchestra Climax Finale
+  db_uuid: 50da90bfc418464fa169d1d39b6c543b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If stopped: If the Crowd Meter is 3 or greater, put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - ba9c71d333aa487b99d13fe537e7dec2
+- name: The Big Band Swing
+  db_uuid: 51ffd2d4a93f4facb8fab0e1cb50b789
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Each player buries up to 4 cards in their hand, your Finish roll is +1 to each card you buried.
+
+    Your opponent''s Breakout rolls are +1 for each card they buried.'
+  tags: []
+  related_cards:
+    - ba9c71d333aa487b99d13fe537e7dec2
+- name: Sentai Sleeper
+  db_uuid: 8a1cb28d55f246b8a02b9c3cdf92b3e3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    If this card would be buried or discarded, you may reveal it, and it counts as 2 cards.'
+  tags: []
+  related_cards:
+    - ba9c71d333aa487b99d13fe537e7dec2

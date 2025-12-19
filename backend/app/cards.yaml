@@ -39367,6 +39367,7 @@
   tags: []
 - name: Lukewarm Stephen Houston
   db_uuid: 137e8a7f1895445690ad418e1c097ca3
+  srgpc_url: https://www.srgpc.net/cards/competitors/lukewarm-stephen-houston/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -39379,6 +39380,56 @@
   rules_text: If you rolled Strike for your turn roll, your Finish rolls are +2.
   tags:
     - Old School
+  related_finishes:
+    - f89a236049164f2bb582e65a350fa9ce
+    - cfeb5b1a36234436b5987a52fdd90bca
+    - 229cfe4ce0c445f7b745905fff9b0ace
+- name: Muddy Water Stomps
+  db_uuid: f89a236049164f2bb582e65a350fa9ce
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    Draw 1 card for each Strike you have in play.'
+  tags: []
+  related_cards:
+    - 137e8a7f1895445690ad418e1c097ca3
+- name: Lukewarm Stunner
+  db_uuid: cfeb5b1a36234436b5987a52fdd90bca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    When you hit "Kick" you may reveal this card from your hand and play it as a Follow Up.
+
+    It can be stopped as normal.'
+  tags: []
+  related_cards:
+    - 137e8a7f1895445690ad418e1c097ca3
+- name: Texas Coffee Bean
+  db_uuid: 229cfe4ce0c445f7b745905fff9b0ace
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Submission
+
+    Add "Kick" and 1 card with "Stunner" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 137e8a7f1895445690ad418e1c097ca3
 - name: Lunatic Ginge (V1)
   db_uuid: 989286521bff469094dffc72fdfba974
   card_type: SingleCompetitorCard

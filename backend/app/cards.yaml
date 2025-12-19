@@ -47418,6 +47418,50 @@
   grapple: 6
   rules_text: 'Three times per match, during your turn roll: Your Strike skill is +1 until the end of your next turn.'
   tags: []
+  related_finishes:
+    - 2871386d176f429892ab498c920072e0
+    - bf94c1b9ce4d4a98b1f9e75fcf6c79b3
+    - 860deeba3f7a4493bc5cf5eaad0070c6
+- name: The Last March
+  db_uuid: 2871386d176f429892ab498c920072e0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    You may use your Gimmick 1 additional time this match.
+
+    If your Strike skill is greater than your opponent''s Strike skill, double these bonuses.'
+  tags: []
+  related_cards:
+    - 3b7977fd175c49e98d6bd21be5cd529a
+- name: The Might of Oaks
+  db_uuid: bf94c1b9ce4d4a98b1f9e75fcf6c79b3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you have used your Gimmick 4 times this match, +7 to Power and +7 to Grapple instead.'
+  tags: []
+  related_cards:
+    - 3b7977fd175c49e98d6bd21be5cd529a
+- name: Sleeping Willow
+  db_uuid: 860deeba3f7a4493bc5cf5eaad0070c6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Submission and Grapple skills are +1 for each time you have used your Gimmick this match (Max +5).
+  tags: []
+  related_cards:
+    - 3b7977fd175c49e98d6bd21be5cd529a
 - name: The Silver Marvel
   db_uuid: 8532ee54d4504d4196342d3fc7f0d0c1
   card_type: SingleCompetitorCard

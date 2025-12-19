@@ -37984,6 +37984,7 @@
   tags: []
 - name: King Greatness
   db_uuid: 7e5c8dfeecc041958080980601611097
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-greatness/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -37997,6 +37998,50 @@
 
     Once per turn roll: When you and your opponent roll the same skill, add 1 card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 14ae2f662c1b48a69a390a680255c5c7
+    - ce5278b7ff324db687fe065bd954c8cd
+    - 852835730a164132adba864c7afa3930
+- name: Upon Bended Knee
+  db_uuid: 14ae2f662c1b48a69a390a680255c5c7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    If you rolled the same skill as your opponent for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7e5c8dfeecc041958080980601611097
+- name: Royal Flush
+  db_uuid: ce5278b7ff324db687fe065bd954c8cd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    +2 to Grapple
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 7e5c8dfeecc041958080980601611097
+- name: Great-Vine Ankle Lock
+  db_uuid: 852835730a164132adba864c7afa3930
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If you and your opponent rolled the same skill for your turn roll, your opponent gets 2 breakout rolls this turn.  If that skill was Submission, this card cannot be stopped.
+  tags: []
+  related_cards:
+    - 7e5c8dfeecc041958080980601611097
 - name: King Kold
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
   card_type: SingleCompetitorCard

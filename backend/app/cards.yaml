@@ -29779,6 +29779,8 @@
 
     If stopped, you lose the match via Disqualification.'
   tags: []
+  related_cards:
+    - 076a91a4326049abb39d86bdc9187ceb
 - name: Pulling Strings On My Guitar
   db_uuid: 05a96747f98d418f98b2551c9637334f
   card_type: MainDeckCard
@@ -29789,6 +29791,8 @@
 
     You may play this card as a Lead instead of a Finish: When this card is in play, your opponent cannot add cards from their discard pile to their hand.'
   tags: []
+  related_cards:
+    - 076a91a4326049abb39d86bdc9187ceb
 - name: Rattle, Shake, and Roll!
   db_uuid: 0be4d2117f314c2aaacc6a7e6cfded18
   card_type: MainDeckCard
@@ -29803,6 +29807,8 @@
 
     If you have a card with "Guitar" in the name in play, you may re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - 076a91a4326049abb39d86bdc9187ceb
 - name: The Heartbreaker
   db_uuid: 9d772bb04b9d462ba46019b2a6922d8d
   srgpc_url: https://www.srgpc.net/competitors/the-heartbreaker/
@@ -29818,6 +29824,54 @@
   rules_text: When any number of cards your opponent has in play moves to another location, discard 1 card your opponent has in play.
   tags:
     - Old School
+  related_finishes:
+    - 6a28b31f692b47ae97d6ee37579efeea
+    - 1e4b197aae19484394e2af5574991f9f
+    - 653e5b4d419b4e3b9e09dcc6928acdd1
+- name: Shot Through the Heart
+  db_uuid: 6a28b31f692b47ae97d6ee37579efeea
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Draw 1 card.
+
+    If your opponent does not have a Strike in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 9d772bb04b9d462ba46019b2a6922d8d
+- name: The Heart Stopper
+  db_uuid: 1e4b197aae19484394e2af5574991f9f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If your opponent does not have a Grapple in play, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 9d772bb04b9d462ba46019b2a6922d8d
+- name: The Heart Shooter
+  db_uuid: 653e5b4d419b4e3b9e09dcc6928acdd1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    If your opponent has no Submissions in play, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - 9d772bb04b9d462ba46019b2a6922d8d
 - name: EDM
   db_uuid: a9b14669549e4cae8ac0f5ceb1b63aef
   srg_url: https://supershowthegame.com/product/edm/

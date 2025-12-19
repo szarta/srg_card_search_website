@@ -55692,6 +55692,10 @@
   tags: []
   related_cards:
     - a032262dc42843239904a8ac14ca5caa
+  related_finishes:
+    - 4ecd61812cf8410f80babc7362b913cc
+    - 9a233a2780984264bd6ec1ceb626a143
+    - eae05b7a07dc4a73ba3e25bce7c7c5bc
 - name: Syzygy (Back Stats)
   db_uuid: a032262dc42843239904a8ac14ca5caa
   card_type: SingleCompetitorCard
@@ -55701,6 +55705,42 @@
   strike: 8
   submission: 9
   grapple: 10
+  tags: []
+  related_cards:
+    - 84cabdff220742dfae1717f690ae850a
+- name: Solar Plexus Alignment
+  db_uuid: 4ecd61812cf8410f80babc7362b913cc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'When you roll Strike or Agility for your Finish roll, your Finish roll is +1 for each Set (1 Strike, 1 Grapple, and 1 Submission) you have in play.
+
+    After your opponent breaks out, you may leave any Syzygy Finishes in play.'
+  tags: []
+  related_cards:
+    - 84cabdff220742dfae1717f690ae850a
+- name: Lunar Eclipse Bomb
+  db_uuid: 9a233a2780984264bd6ec1ceb626a143
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'When you roll Power or Grapple for your Finish roll, your Finish roll is +1 for each Set (1 Strike, 1 Grapple, and 1 Submission) you have in play.
+
+    After your opponent breaks out, you may leave any Syzygy Finishes in play.'
+  tags: []
+  related_cards:
+    - 84cabdff220742dfae1717f690ae850a
+- name: The 3 Body Problem
+  db_uuid: eae05b7a07dc4a73ba3e25bce7c7c5bc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'When you roll Technique or Submission for your Finish roll, your Finish roll is +1 for each Set (1 Strike, 1 Grapple, and 1 Submission) you have in play.
+
+    If you have 2 Syzygy Finishes in play, this card cannot be stopped by Follow Ups.'
   tags: []
   related_cards:
     - 84cabdff220742dfae1717f690ae850a

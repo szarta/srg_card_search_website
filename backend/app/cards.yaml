@@ -39404,6 +39404,52 @@
   grapple: 7
   rules_text: When you roll Technique for your turn or Finish roll, look at your opponent's hand, choose 1 Follow Up or Finish and bury it.
   tags: []
+  related_finishes:
+    - 964dee9f96954591b3f99f902ab530db
+    - bacd2cafd6924678a9738cfa1c9537eb
+    - 8c99aa79d2ac40cd8ea7473d6cd7f564
+- name: The Re-Boot
+  db_uuid: 964dee9f96954591b3f99f902ab530db
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Agility
+
+    If your opponent breaks out, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 49295df8c3bb48778a446b6eeba6982f
+- name: Control+Alt+Delete
+  db_uuid: bacd2cafd6924678a9738cfa1c9537eb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 49295df8c3bb48778a446b6eeba6982f
+- name: The Firewall
+  db_uuid: 8c99aa79d2ac40cd8ea7473d6cd7f564
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile your Technique is +1.'
+  tags: []
+  related_cards:
+    - 49295df8c3bb48778a446b6eeba6982f
 - name: Mangia
   db_uuid: 1cbeaf22cad640c99590010e989c8a43
   srg_url: https://supershowthegame.com/product/mangia/

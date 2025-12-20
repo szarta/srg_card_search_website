@@ -45438,6 +45438,8 @@
   grapple: 9
   rules_text: When your opponent hits a Strike they bury 1 card in their hand.
   tags: []
+  related_cards:
+    - 21f1118c05574e1eac13c96c7f808f5a
   related_finishes:
     - 64c1ce61a0444dfead3726701f71db5a
     - 1172b1d4ed3e4046a39f292cdb024d01
@@ -55296,7 +55298,25 @@
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: When your opponent hits a Strike they bury 1 card in their hand.
   tags: []
+  related_cards:
+    - 8fa5113d9e0243899f7ad586a3b7c323
+  related_finishes:
+    - 64c1ce61a0444dfead3726701f71db5a
+    - 1172b1d4ed3e4046a39f292cdb024d01
+    - 2e7beb82223f48538f18ab14aaaf1961
+    - ee388e33d49548a888c64d988b932979
+    - 1ec2445a1ca340749f54db79e24f8b15
+    - 79397cf9495c486c80f4c428b6b1de26
+  comment: This is just an alternate version of RJ Bombshell (V1).
 - name: The Mad Hatter
   db_uuid: e8cc1344fd0740a7a6b6695753fac43d
   srg_url: https://supershowthegame.com/product/madhatter-w-the-dirty-burgs/

@@ -29622,6 +29622,7 @@
   tags: []
 - name: Luna Hallows
   db_uuid: 2484608eb1014b2a8ba2b96948539452
+  srgpc_url: https://www.srgpc.net/cards/competitors/luna-hallows/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -29633,6 +29634,54 @@
   grapple: 7
   rules_text: Once during each of your turns, you may discard 1 Lead you have in play to draw 1 card.
   tags: []
+  related_finishes:
+    - 19e6cd3b1ffe4797a7746d5050a85335
+    - 4c0846bbdd0d44d38725fafd6a35d34e
+    - de439f0ba7dd401593028a588474e977
+- name: Silhouette Mirage
+  db_uuid: 19e6cd3b1ffe4797a7746d5050a85335
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    Draw 1 card.
+
+    If you discarded a card from play this turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 2484608eb1014b2a8ba2b96948539452
+- name: Spellbound Slam
+  db_uuid: 4c0846bbdd0d44d38725fafd6a35d34e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Add 1 Lead from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 2484608eb1014b2a8ba2b96948539452
+- name: Luna Eclipse
+  db_uuid: de439f0ba7dd401593028a588474e977
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Your opponent''s Gimmick is blank.
+
+    Bury 2 cards in any player''s discard pile.'
+  tags: []
+  related_cards:
+    - 2484608eb1014b2a8ba2b96948539452
 - name: El Blanco Diablo (V1)
   db_uuid: fbc6b406877442389762487515cd1b5d
   srgpc_url: https://www.srgpc.net/cards/competitors/el-blanco-diablo/

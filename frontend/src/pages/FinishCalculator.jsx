@@ -331,133 +331,143 @@ export default function FinishCalculator() {
   const statsOrder = ["power", "technique", "agility", "strike", "submission", "grapple"];
 
   return (
-    <div className="max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold text-center mb-8">Finish Calculator</h1>
+    <div className="max-w-6xl mx-auto px-2 sm:px-4">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-4 sm:mb-8">Finish Calculator</h1>
 
       {/* Result Name */}
-      <div className="mb-6">
-        <label className="block font-semibold mb-2">Result Name (optional)</label>
+      <div className="mb-4 sm:mb-6">
+        <label className="block font-semibold mb-2 text-sm sm:text-base">Result Name (optional)</label>
         <input
           type="text"
           value={resultName}
           onChange={(e) => setResultName(e.target.value)}
           placeholder="e.g., Mr. Soleil - Sicilian Sun"
-          className="bg-gray-800 border border-gray-600 rounded px-4 py-2 text-white w-full max-w-md"
+          className="bg-gray-800 border border-gray-600 rounded px-3 sm:px-4 py-2 sm:py-3 text-white w-full text-sm sm:text-base"
         />
-        <p className="text-sm text-gray-400 mt-1">
+        <p className="text-xs sm:text-sm text-gray-400 mt-1">
           Give this calculation a name to identify it when sharing
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8">
         {/* Player Stats */}
-        <div className="bg-gray-800 rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-4">Your Competitor</h2>
+        <div className="bg-gray-800 rounded-lg p-3 sm:p-6">
+          <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Your Competitor</h2>
 
-          <div className="space-y-3">
+          <div className="space-y-3 sm:space-y-4">
             {statsOrder.map(stat => (
-              <div key={stat} className="grid grid-cols-3 gap-4 items-center">
-                <label className={`font-semibold ${statColors[stat]}`}>
+              <div key={stat}>
+                <label className={`font-semibold text-sm sm:text-base block mb-1 ${statColors[stat]}`}>
                   {statLabels[stat]}
                 </label>
-                <input
-                  type="number"
-                  min="1"
-                  max="30"
-                  value={playerStats[stat]}
-                  onChange={(e) => handlePlayerStatChange(stat, e.target.value)}
-                  className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white"
-                />
-                <div className="flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">Bonus:</span>
-                  <input
-                    type="number"
-                    value={finishBonuses[stat]}
-                    onChange={(e) => handleFinishBonusChange(stat, e.target.value)}
-                    className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-20"
-                  />
+                <div className="grid grid-cols-2 gap-2 sm:gap-3">
+                  <div>
+                    <span className="text-gray-400 text-xs block mb-1">Value</span>
+                    <input
+                      type="number"
+                      min="1"
+                      max="30"
+                      value={playerStats[stat]}
+                      onChange={(e) => handlePlayerStatChange(stat, e.target.value)}
+                      className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
+                    />
+                  </div>
+                  <div>
+                    <span className="text-gray-400 text-xs block mb-1">Bonus</span>
+                    <input
+                      type="number"
+                      value={finishBonuses[stat]}
+                      onChange={(e) => handleFinishBonusChange(stat, e.target.value)}
+                      className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
+                    />
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-6">
-            <label className="block font-semibold mb-2">Finish Re-rolls</label>
+          <div className="mt-4 sm:mt-6">
+            <label className="block font-semibold mb-2 text-sm sm:text-base">Finish Re-rolls</label>
             <input
               type="number"
               min="0"
               max="5"
               value={numRerolls}
               onChange={(e) => setNumRerolls(Math.max(0, parseInt(e.target.value) || 0))}
-              className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full"
+              className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
             />
-            <p className="text-sm text-gray-400 mt-1">
+            <p className="text-xs sm:text-sm text-gray-400 mt-1">
               Number of times you can re-roll the finish roll
             </p>
           </div>
         </div>
 
         {/* Opponent Stats */}
-        <div className="bg-gray-800 rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-4">Opponent</h2>
+        <div className="bg-gray-800 rounded-lg p-3 sm:p-6">
+          <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Opponent</h2>
 
-          <div className="space-y-3">
+          <div className="space-y-3 sm:space-y-4">
             {statsOrder.map(stat => (
-              <div key={stat} className="grid grid-cols-3 gap-4 items-center">
-                <label className={`font-semibold ${statColors[stat]}`}>
+              <div key={stat}>
+                <label className={`font-semibold text-sm sm:text-base block mb-1 ${statColors[stat]}`}>
                   {statLabels[stat]}
                 </label>
-                <input
-                  type="number"
-                  min="1"
-                  max="30"
-                  value={opponentStats[stat]}
-                  onChange={(e) => handleOpponentStatChange(stat, e.target.value)}
-                  className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white"
-                />
-                <div className="flex items-center gap-2">
-                  <span className="text-gray-400 text-sm">Modifier:</span>
-                  <input
-                    type="number"
-                    value={opponentModifiers[stat]}
-                    onChange={(e) => handleOpponentModifierChange(stat, e.target.value)}
-                    className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-20"
-                  />
+                <div className="grid grid-cols-2 gap-2 sm:gap-3">
+                  <div>
+                    <span className="text-gray-400 text-xs block mb-1">Value</span>
+                    <input
+                      type="number"
+                      min="1"
+                      max="30"
+                      value={opponentStats[stat]}
+                      onChange={(e) => handleOpponentStatChange(stat, e.target.value)}
+                      className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
+                    />
+                  </div>
+                  <div>
+                    <span className="text-gray-400 text-xs block mb-1">Modifier</span>
+                    <input
+                      type="number"
+                      value={opponentModifiers[stat]}
+                      onChange={(e) => handleOpponentModifierChange(stat, e.target.value)}
+                      className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
+                    />
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-6">
-            <label className="block font-semibold mb-2">Breakout Attempts</label>
+          <div className="mt-4 sm:mt-6">
+            <label className="block font-semibold mb-2 text-sm sm:text-base">Breakout Attempts</label>
             <input
               type="number"
               min="1"
               max="10"
               value={breakoutAttempts}
               onChange={(e) => handleBreakoutAttemptsChange(e.target.value)}
-              className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full"
+              className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
             />
           </div>
 
-          <div className="mt-4">
-            <label className="block font-semibold mb-2">Breakout Penalties</label>
+          <div className="mt-3 sm:mt-4">
+            <label className="block font-semibold mb-2 text-sm sm:text-base">Breakout Penalties</label>
             <div className="space-y-2">
               {breakoutPenalties.map((penalty, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="text-gray-400 text-sm w-24">
+                <div key={idx} className="grid grid-cols-2 gap-2 items-center">
+                  <span className="text-gray-400 text-xs sm:text-sm">
                     Attempt {idx + 1}:
                   </span>
                   <input
                     type="number"
                     value={penalty}
                     onChange={(e) => handleBreakoutPenaltyChange(idx, e.target.value)}
-                    className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-20"
+                    className="bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white w-full text-sm sm:text-base"
                   />
                 </div>
               ))}
             </div>
-            <p className="text-sm text-gray-400 mt-2">
+            <p className="text-xs sm:text-sm text-gray-400 mt-2">
               Penalty to opponent stats for each breakout attempt
             </p>
           </div>
@@ -465,10 +475,10 @@ export default function FinishCalculator() {
       </div>
 
       {/* Calculate Button */}
-      <div className="mt-8 text-center">
+      <div className="mt-6 sm:mt-8 text-center">
         <button
           onClick={calculateResults}
-          className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors"
+          className="bg-purple-600 hover:bg-purple-700 active:bg-purple-800 text-white font-bold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg transition-colors w-full sm:w-auto"
         >
           Calculate
         </button>
@@ -476,31 +486,31 @@ export default function FinishCalculator() {
 
       {/* Results */}
       {results && (
-        <div className="mt-8 bg-gray-800 rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-2 text-center">
+        <div className="mt-6 sm:mt-8 bg-gray-800 rounded-lg p-3 sm:p-6">
+          <h2 className="text-xl sm:text-2xl font-bold mb-2 text-center">
             {resultName ? resultName : "Results"}
           </h2>
           {resultName && (
-            <p className="text-center text-gray-400 mb-4">Results</p>
+            <p className="text-center text-gray-400 mb-3 sm:mb-4 text-sm">Results</p>
           )}
 
-          <div className="overflow-x-auto">
-            <table className="w-full text-center">
+          <div className="overflow-x-auto -mx-3 sm:mx-0">
+            <table className="w-full text-center min-w-[600px]">
               <thead>
                 <tr className="border-b border-gray-600">
-                  <th className="py-3 px-4">Crowd Meter</th>
+                  <th className="py-2 sm:py-3 px-2 sm:px-4 text-xs sm:text-sm">Crowd Meter</th>
                   {results.map(r => (
-                    <th key={r.cm} className="py-3 px-4">CM {r.cm}</th>
+                    <th key={r.cm} className="py-2 sm:py-3 px-2 sm:px-4 text-xs sm:text-sm">CM {r.cm}</th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-gray-700">
-                  <td className="py-3 px-4 font-semibold">Success Rate</td>
+                  <td className="py-2 sm:py-3 px-2 sm:px-4 font-semibold text-xs sm:text-sm">Success Rate</td>
                   {results.map(r => (
                     <td
                       key={r.cm}
-                      className={`py-3 px-4 font-bold ${
+                      className={`py-2 sm:py-3 px-2 sm:px-4 font-bold text-xs sm:text-sm ${
                         r.success >= 0.99 ? 'text-green-400' :
                         r.success >= 0.75 ? 'text-green-300' :
                         r.success >= 0.50 ? 'text-yellow-300' :
@@ -514,9 +524,9 @@ export default function FinishCalculator() {
                   ))}
                 </tr>
                 <tr>
-                  <td className="py-3 px-4 font-semibold text-gray-400">Breakout %</td>
+                  <td className="py-2 sm:py-3 px-2 sm:px-4 font-semibold text-gray-400 text-xs sm:text-sm">Breakout %</td>
                   {results.map(r => (
-                    <td key={r.cm} className="py-3 px-4 text-gray-400">
+                    <td key={r.cm} className="py-2 sm:py-3 px-2 sm:px-4 text-gray-400 text-xs sm:text-sm">
                       {(r.breakout * 100).toFixed(1)}%
                     </td>
                   ))}
@@ -525,17 +535,17 @@ export default function FinishCalculator() {
             </table>
           </div>
 
-          <div className="mt-6 text-sm text-gray-400">
+          <div className="mt-4 sm:mt-6 text-xs sm:text-sm text-gray-400">
             <p><strong>Note:</strong> Success rate shows probability of successfully completing the finish.</p>
             <p className="mt-2">
-              <span className="text-green-400">Green</span>: Strong probability |
-              <span className="text-yellow-300 ml-2">Yellow</span>: Moderate |
-              <span className="text-red-300 ml-2">Red</span>: Low
+              <span className="text-green-400">Green</span>: Strong |
+              <span className="text-yellow-300 ml-1 sm:ml-2">Yellow</span>: Moderate |
+              <span className="text-red-300 ml-1 sm:ml-2">Red</span>: Low
             </p>
-            <div className="mt-4 p-3 bg-gray-700 rounded border border-gray-600">
-              <p className="text-sm text-gray-300">
-                <strong>💡 Share this calculation:</strong> The URL has been updated with all your inputs.
-                Copy and share the link to let others see your calculation!
+            <div className="mt-3 sm:mt-4 p-2 sm:p-3 bg-gray-700 rounded border border-gray-600">
+              <p className="text-xs sm:text-sm text-gray-300">
+                <strong>💡 Share:</strong> The URL has been updated with all your inputs.
+                Copy and share the link!
               </p>
             </div>
           </div>

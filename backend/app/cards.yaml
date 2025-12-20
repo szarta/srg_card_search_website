@@ -44679,6 +44679,52 @@
   grapple: 5
   rules_text: Your skills are considered higher than your opponent's skills for card effects.
   tags: []
+  related_finishes:
+    - 4b84de0e8037433aa699897715bb0761
+    - 9a011df6183c4e21adbfa71700602e5e
+    - 65ea7fd64bfa4c67b48adf62ce9298e6
+- name: A Trip to Dream Land
+  db_uuid: 4b84de0e8037433aa699897715bb0761
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +3 to Grapple
+
+    When this card is in your discard pile: When your opponent moves any number of cards from their discard pile with their Gimmick, they are instead buried.'
+  tags: []
+  related_cards:
+    - c138c28b4b8b48bbb5272e9ceaede716
+- name: Beam Me Up Drop
+  db_uuid: 9a011df6183c4e21adbfa71700602e5e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    Put 1 other card you have in play on top of your shuffled deck.'
+  tags: []
+  related_cards:
+    - c138c28b4b8b48bbb5272e9ceaede716
+- name: Achilles Heel
+  db_uuid: 65ea7fd64bfa4c67b48adf62ce9298e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - c138c28b4b8b48bbb5272e9ceaede716
 - name: Raven
   db_uuid: 6e915bbeb0b148a4a578992b50c63bbe
   srgpc_url: https://www.srgpc.net/cards/competitors/raven/

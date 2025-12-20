@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 // Calculation logic ported from Python
 function calculateBreakoutProbability(
@@ -90,6 +91,9 @@ function calculateBreakoutProbability(
 }
 
 export default function FinishCalculator() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const [resultName, setResultName] = useState("");
   const [playerStats, setPlayerStats] = useState({
     power: 10,
     technique: 9,
@@ -132,6 +136,115 @@ export default function FinishCalculator() {
   const [breakoutPenalties, setBreakoutPenalties] = useState([0, 0, 0]);
 
   const [results, setResults] = useState(null);
+
+  // Load state from URL on mount
+  useEffect(() => {
+    const name = searchParams.get("name") || "";
+    setResultName(name);
+
+    const stats = ["power", "technique", "agility", "strike", "submission", "grapple"];
+
+    // Load player stats
+    const newPlayerStats = {};
+    stats.forEach(stat => {
+      const val = searchParams.get(`p_${stat}`);
+      newPlayerStats[stat] = val ? parseInt(val) : playerStats[stat];
+    });
+    setPlayerStats(newPlayerStats);
+
+    // Load finish bonuses
+    const newBonuses = {};
+    stats.forEach(stat => {
+      const val = searchParams.get(`b_${stat}`);
+      newBonuses[stat] = val ? parseInt(val) : 0;
+    });
+    setFinishBonuses(newBonuses);
+
+    // Load opponent stats
+    const newOppStats = {};
+    stats.forEach(stat => {
+      const val = searchParams.get(`o_${stat}`);
+      newOppStats[stat] = val ? parseInt(val) : opponentStats[stat];
+    });
+    setOpponentStats(newOppStats);
+
+    // Load opponent modifiers
+    const newOppMods = {};
+    stats.forEach(stat => {
+      const val = searchParams.get(`om_${stat}`);
+      newOppMods[stat] = val ? parseInt(val) : 0;
+    });
+    setOpponentModifiers(newOppMods);
+
+    // Load rerolls
+    const rerolls = searchParams.get("rerolls");
+    if (rerolls) setNumRerolls(parseInt(rerolls));
+
+    // Load breakout attempts
+    const attempts = searchParams.get("attempts");
+    if (attempts) {
+      const numAttempts = parseInt(attempts);
+      setBreakoutAttempts(numAttempts);
+
+      // Load penalties
+      const penalties = [];
+      for (let i = 0; i < numAttempts; i++) {
+        const val = searchParams.get(`pen_${i}`);
+        penalties.push(val ? parseInt(val) : 0);
+      }
+      setBreakoutPenalties(penalties);
+    }
+  }, []);
+
+  // Update URL when state changes
+  const updateURL = () => {
+    const params = new URLSearchParams();
+
+    if (resultName) params.set("name", resultName);
+
+    const stats = ["power", "technique", "agility", "strike", "submission", "grapple"];
+
+    // Player stats
+    stats.forEach(stat => {
+      params.set(`p_${stat}`, playerStats[stat]);
+    });
+
+    // Finish bonuses (only if non-zero)
+    stats.forEach(stat => {
+      if (finishBonuses[stat] !== 0) {
+        params.set(`b_${stat}`, finishBonuses[stat]);
+      }
+    });
+
+    // Opponent stats
+    stats.forEach(stat => {
+      params.set(`o_${stat}`, opponentStats[stat]);
+    });
+
+    // Opponent modifiers (only if non-zero)
+    stats.forEach(stat => {
+      if (opponentModifiers[stat] !== 0) {
+        params.set(`om_${stat}`, opponentModifiers[stat]);
+      }
+    });
+
+    // Rerolls (only if non-zero)
+    if (numRerolls > 0) {
+      params.set("rerolls", numRerolls);
+    }
+
+    // Breakout attempts
+    params.set("attempts", breakoutAttempts);
+
+    // Breakout penalties (only if non-zero)
+    breakoutPenalties.forEach((pen, idx) => {
+      if (pen !== 0) {
+        params.set(`pen_${idx}`, pen);
+      }
+    });
+
+    setSearchParams(params, { replace: true });
+  };
 
   const statColors = {
     power: "text-red-400",
@@ -212,6 +325,7 @@ export default function FinishCalculator() {
       });
     }
     setResults(cmResults);
+    updateURL();
   };
 
   const statsOrder = ["power", "technique", "agility", "strike", "submission", "grapple"];
@@ -219,6 +333,21 @@ export default function FinishCalculator() {
   return (
     <div className="max-w-6xl mx-auto">
       <h1 className="text-4xl font-bold text-center mb-8">Finish Calculator</h1>
+
+      {/* Result Name */}
+      <div className="mb-6">
+        <label className="block font-semibold mb-2">Result Name (optional)</label>
+        <input
+          type="text"
+          value={resultName}
+          onChange={(e) => setResultName(e.target.value)}
+          placeholder="e.g., Mr. Soleil - Sicilian Sun"
+          className="bg-gray-800 border border-gray-600 rounded px-4 py-2 text-white w-full max-w-md"
+        />
+        <p className="text-sm text-gray-400 mt-1">
+          Give this calculation a name to identify it when sharing
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Player Stats */}
@@ -348,7 +477,12 @@ export default function FinishCalculator() {
       {/* Results */}
       {results && (
         <div className="mt-8 bg-gray-800 rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-4 text-center">Results</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center">
+            {resultName ? resultName : "Results"}
+          </h2>
+          {resultName && (
+            <p className="text-center text-gray-400 mb-4">Results</p>
+          )}
 
           <div className="overflow-x-auto">
             <table className="w-full text-center">
@@ -398,6 +532,12 @@ export default function FinishCalculator() {
               <span className="text-yellow-300 ml-2">Yellow</span>: Moderate |
               <span className="text-red-300 ml-2">Red</span>: Low
             </p>
+            <div className="mt-4 p-3 bg-gray-700 rounded border border-gray-600">
+              <p className="text-sm text-gray-300">
+                <strong>💡 Share this calculation:</strong> The URL has been updated with all your inputs.
+                Copy and share the link to let others see your calculation!
+              </p>
+            </div>
           </div>
         </div>
       )}

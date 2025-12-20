@@ -42772,6 +42772,54 @@
 
     When a player rolls Power, look at the top 3 cards of their deck, bury 1 an dput the others back on top in any order.'
   tags: []
+  related_finishes:
+    - a4ac7b7816c34163b7af024347b423f7
+    - 5b13cd05eb764826b0725fd4529f2019
+    - 2c07f9431cf840ef81383d4a1829d9a2
+- name: Fates Fury
+  db_uuid: a4ac7b7816c34163b7af024347b423f7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Your opponent randomly buries cards in their hand until they have 3 cards in hand.'
+  tags: []
+  related_cards:
+    - c4a7dc18e187401ba7632cc682b14879
+- name: The Power of Fate
+  db_uuid: 5b13cd05eb764826b0725fd4529f2019
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    +2 to Grapple
+
+    If the Crowd Meter is 4 or greater, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - c4a7dc18e187401ba7632cc682b14879
+- name: You Can't Run From Fate
+  db_uuid: 2c07f9431cf840ef81383d4a1829d9a2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Finish rolls are + the Crowd Meter.
+
+    Your opponent''s Breakout rolls are +1 for each Stop they have in play.
+
+    If stopped, put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - c4a7dc18e187401ba7632cc682b14879
 - name: The "Other" Steve
   db_uuid: 10f56dfe58d14fbf983446223fa1e60e
   srgpc_url: https://www.srgpc.net/cards/competitors/the-other-steve/

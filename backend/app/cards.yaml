@@ -3778,7 +3778,7 @@
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 7
   technique: 10
@@ -3787,7 +3787,6 @@
   submission: 6
   grapple: 8
   rules_text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater than your turn roll, your next turn roll is +2.'
-  comments: 'AKA: Mayor of the Chain Gang'
   tags: []
   related_finishes:
     - b03d33e83bb84557a074ba00c42974a3
@@ -42406,7 +42405,7 @@
   grapple: 9
   rules_text: When you roll Agility for your turn roll, your next turn roll is +2.
   tags: []
-- name: Ninja Hummingbird (V1)
+- name: Ninja Hummingbird
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/
   srgpc_url: https://www.srgpc.net/cards/competitors/ninja-hummingbird/

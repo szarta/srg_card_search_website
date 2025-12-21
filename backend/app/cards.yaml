@@ -36426,6 +36426,52 @@
   grapple: 10
   rules_text: When your opponent stops your Grapple, draw 2 cards.
   tags: []
+  related_finishes:
+    - a59616f78d7f4f58ae32713c086b900b
+    - 2e71faf383d54b38b49b016e057644cd
+    - 041d26f5515d4ddcb328b3aabe5408c4
+- name: Full Moon
+  db_uuid: a59616f78d7f4f58ae32713c086b900b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - c8f9abd1a3cf4e089549384fd52d0bce
+- name: SST
+  db_uuid: 2e71faf383d54b38b49b016e057644cd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile and you hit a Follow Up Grapple, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - c8f9abd1a3cf4e089549384fd52d0bce
+- name: Shapeshifter
+  db_uuid: 041d26f5515d4ddcb328b3aabe5408c4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Your opponent discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - c8f9abd1a3cf4e089549384fd52d0bce
 - name: Jacque EE (Banned)
   db_uuid: 57e69c6fcf8d434b881c2f7821cfd51b
   is_banned: true

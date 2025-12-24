@@ -35659,7 +35659,7 @@
   strike: 9
   submission: 6
   grapple: 5
-  rules_text: Your target's power is -1 the Crowd Meter.
+  rules_text: Your target's power is - the Crowd Meter.
   tags: []
   related_finishes:
     - 175bf8609ec742ab9cec3151a8170cf1
@@ -62117,6 +62117,69 @@
   grapple: 8
   rules_text: Your Technique skill is +1 for each card in your discard pile with "Swift" or "Microphone" in the name (Max +2).
   tags: []
+  related_finishes:
+    - 0e6a63d7e2f84a678157bb76f69f128a
+    - bd0c7fdf862f4a8b9d348726bd366095
+    - bdd87e4c40764169b1d6c66f2c77d8b7
+    - e16a815cef044733a5d9fb6105beeb70
+- name: Microphone to the Blank Space
+  db_uuid: 0e6a63d7e2f84a678157bb76f69f128a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    The next turn of the game is considered the 1st turn of the game for your effects.
+
+    Randomly reveal 1 card in your hand:
+
+    If it has "Microphone" in the name, your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - c9c7ebf148884c038fa00763434c6244
+- name: Bad Blood
+  db_uuid: bd0c7fdf862f4a8b9d348726bd366095
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    If stopped, your next turn roll is +2 and the next turn of the game is considered the 1st turn of the game.'
+  tags: []
+  related_cards:
+    - c9c7ebf148884c038fa00763434c6244
+- name: I Did Something Bad
+  db_uuid: bdd87e4c40764169b1d6c66f2c77d8b7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    If this match has no disqualifications, and your opponent rolled their lowest printed skill and did not break out, they cannot break out this turn.'
+  tags: []
+  related_cards:
+    - c9c7ebf148884c038fa00763434c6244
+- name: So Long, London
+  db_uuid: e16a815cef044733a5d9fb6105beeb70
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - c9c7ebf148884c038fa00763434c6244
 - name: Real Beater
   db_uuid: ee0c785df87947449d12e60e1023e17d
   card_type: SingleCompetitorCard

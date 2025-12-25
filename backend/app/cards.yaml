@@ -25261,6 +25261,7 @@
     - ca3d22163c564bdabd9e1edf389d64cb
 - name: Anthony Gangone (V1)
   db_uuid: 47e01d6194cb412fb771cbeb999305be
+  srgpc_url: https://www.srgpc.net/cards/competitors/anthony-gangone-the-one-above-all/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -25273,6 +25274,53 @@
   rules_text: Your finish rolls are +1.
   comments: This version is referenced as "The One Above All"
   tags: []
+  related_finishes:
+    - 7f8662daabb0489884ac25918f86ade0
+    - f494dc725ff444bbbdcbb746a75aeb44
+    - 80fb96f6c54b4ff59ce4d54196588529
+    - f24fcafedf9342b9a806092a7d020baf
+    - f9f5a2a439ae4315b7e076d0471adaf3
+    - 631b0634e6dc4d428081f2635a2c94e9
+- name: Dreams by the Waterfall
+  db_uuid: 7f8662daabb0489884ac25918f86ade0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: When the Crowd Meter is 1 or greater, your Finish rolls are +1.
+  tags: []
+  related_cards:
+    - 47e01d6194cb412fb771cbeb999305be
+- name: Inkneebriation
+  db_uuid: f494dc725ff444bbbdcbb746a75aeb44
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Your opponent chooses to randomly bury their hand or discard pile.'
+  tags: []
+  related_cards:
+    - 47e01d6194cb412fb771cbeb999305be
+- name: Bridge to Nowhere
+  db_uuid: 80fb96f6c54b4ff59ce4d54196588529
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    Shuffle cards from your discard pile into your deck equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 47e01d6194cb412fb771cbeb999305be
 - name: Anthony Gangone (V2)
   db_uuid: f31f5385413946c78db19561ea68045f
   card_type: SingleCompetitorCard
@@ -25289,6 +25337,57 @@
     When the Crowd Meter is 2 or greater your Finish Cards are also Leads.'
   comments: This version is referenced as "The Rogue"
   tags: []
+  related_finishes:
+    - f24fcafedf9342b9a806092a7d020baf
+    - f9f5a2a439ae4315b7e076d0471adaf3
+    - 631b0634e6dc4d428081f2635a2c94e9
+- name: Knee KO
+  db_uuid: f24fcafedf9342b9a806092a7d020baf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    If your Finish roll is 8 or greater your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - f31f5385413946c78db19561ea68045f
+    - 47e01d6194cb412fb771cbeb999305be
+- name: Knee for Vendetta
+  db_uuid: f9f5a2a439ae4315b7e076d0471adaf3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    +1 to Strike
+
+    Your opponent randomly buries cards in their hand equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - f31f5385413946c78db19561ea68045f
+    - 47e01d6194cb412fb771cbeb999305be
+- name: Inverted Crossface Chicken Wing
+  db_uuid: 631b0634e6dc4d428081f2635a2c94e9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    +1 to Power
+
+    Draw cards equal to double the Crowd Meter.'
+  tags: []
+  related_cards:
+    - f31f5385413946c78db19561ea68045f
+    - 47e01d6194cb412fb771cbeb999305be
 - name: ARFox
   db_uuid: 23174a8ec9fd420d93b19331b116a6b1
   srgpc_url: https://www.srgpc.net/cards/competitors/arfox/

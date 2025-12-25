@@ -23967,6 +23967,52 @@
   grapple: 9
   rules_text: When you hit a Follow Up, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 90f6533bab2542f5ae9a5113ba8956e6
+    - 9671eff28a71451ca4d780fcda74d9da
+    - 2dc0ffbb382d461b8003b25797f3d008
+- name: Terracotta Elbow
+  db_uuid: 90f6533bab2542f5ae9a5113ba8956e6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Draw 1 card for each Follow Up you have in play +1.'
+  tags: []
+  related_cards:
+    - 41cf829b50b649a2bbfcd56484afb428
+- name: Pedigree
+  db_uuid: 9671eff28a71451ca4d780fcda74d9da
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If you have 2 or more Follow Ups in play than your opponent, double these bonuses.'
+  tags: []
+  related_cards:
+    - 41cf829b50b649a2bbfcd56484afb428
+- name: What's the Capital of Thailand?
+  db_uuid: 2dc0ffbb382d461b8003b25797f3d008
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your opponent discards 1 card from their hand for each Follow Up you have in play.'
+  tags: []
+  related_cards:
+    - 41cf829b50b649a2bbfcd56484afb428
 - name: Baanominal One
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
   srgpc_url: https://www.srgpc.net/cards/competitors/baanomenal-one/
@@ -25323,6 +25369,7 @@
     - 47e01d6194cb412fb771cbeb999305be
 - name: Anthony Gangone (V2)
   db_uuid: f31f5385413946c78db19561ea68045f
+  srgpc_url: https://www.srgpc.net/cards/competitors/anthony-gangone-the-rogue/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -25402,6 +25449,22 @@
   grapple: 9
   rules_text: 'During your turn: When your Turn Roll is Agility, your Grapple cards are also Leads.'
   tags: []
+  related_finishes:
+    - e292901e55c5415ca05911c0bb514183
+- name: Lo Mein Pain
+  db_uuid: e292901e55c5415ca05911c0bb514183
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Flip 4 cards. Bury 2 cards in your discard pile.
+
+    When this card is in your discard pile and you roll Agility for your turn roll you may bury this card.'
+  tags: []
+  related_cards:
+    - 23174a8ec9fd420d93b19331b116a6b1
 - name: The Base God Gringo Loco
   db_uuid: ab2ce049ab6b49ce96d50089b770b14c
   srgpc_url: https://www.srgpc.net/competitors/the-base-god-gringo-loco/

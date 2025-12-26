@@ -25833,6 +25833,52 @@
   grapple: 7
   rules_text: When you stop a card, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - 484d54ca733146ef821f12bb50171520
+    - 458c3366e6d046e69c6b7f17147c82cc
+    - c5611af6ebe345b5893d42642001c099
+- name: Flight of Angels
+  db_uuid: 484d54ca733146ef821f12bb50171520
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    When this card is in your discard pile and your opponent stops your card, your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - e38223a08984404b83bd34e9a7f17025
+- name: Hell on High Heels
+  db_uuid: 458c3366e6d046e69c6b7f17147c82cc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    When your opponent rolls a Breakout roll, they bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - e38223a08984404b83bd34e9a7f17025
+- name: Enter Sandman
+  db_uuid: c5611af6ebe345b5893d42642001c099
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Look at your opponent''s hand.
+
+    Choose 1 Follow Up or Finish and bury it.'
+  tags: []
+  related_cards:
+    - e38223a08984404b83bd34e9a7f17025
 - name: Beverly Hills Booker
   db_uuid: 85616c84da2a41b7b65448a08eb7a4ed
   srgpc_url: https://www.srgpc.net/competitors/beverly-hills-booker/

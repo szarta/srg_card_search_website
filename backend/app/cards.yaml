@@ -24438,6 +24438,46 @@
   grapple: 10
   rules_text: 'When you or your opponent hits a card with "Back" in the name: you draw 2 cards and your next turn roll is -2.'
   tags: []
+  related_finishes:
+    - 247dde936cf84664be0ea62a72c4ac5d
+    - f4a8a358191a4c85a1eaadc7da7d7cb4
+    - 089500f6db434a0892886f2c49ee15cb
+- name: It's All in the Reflexes
+  db_uuid: 247dde936cf84664be0ea62a72c4ac5d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    When this card is in your discard pile and your turn roll is 4 or less, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - a1f365ab29b64887b81535a3aaaf80b8
+- name: Back Trouble on Little Spine-Ahh!
+  db_uuid: f4a8a358191a4c85a1eaadc7da7d7cb4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Unless you roll Strike or Technique for your Finish roll, your Finish roll is +1 for each card you have in play with "Back" in the name (Max +3).
+  tags: []
+  related_cards:
+    - a1f365ab29b64887b81535a3aaaf80b8
+- name: Your Neck, Your Back, Tap Out Before They Crack.
+  db_uuid: 089500f6db434a0892886f2c49ee15cb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +3 to Submission'
+  tags: []
+  related_cards:
+    - a1f365ab29b64887b81535a3aaaf80b8
 - name: Bandersnatch
   db_uuid: 5a60042042b64aa1add8fcc29685242e
   srgpc_url: https://www.srgpc.net/cards/competitors/bandersnatch/

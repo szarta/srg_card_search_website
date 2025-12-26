@@ -26282,6 +26282,7 @@
     - 411a3ec208cf4d5794932bb99b35800c
 - name: Boy Howdy (V1)
   db_uuid: 3e7a00225c2e4053b731e165c3f66450
+  srgpc_url: https://www.srgpc.net/cards/competitors/boy-howdy/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -26294,9 +26295,17 @@
   rules_text: At the start of the match add +1 to the Crowd Meter.  If the skill rolled for your 1st or 2nd breakout roll matches your opponent's Finish roll, your roll is +1.
   tags:
     - Old School
+  related_finishes:
+    - a44406312e634cbcb481ced863a1fe37
+    - 54079f18504d4bdeb6df6da96641688d
+    - eb4523eb6c244504b9fabd17323fe6d2
+    - f0715a7458c34528a114c79d53ebb415
+    - 4a007d48dbe549c9877ad222471c3421
+    - 7f6eb1da92cc487d9762003069351085
 - name: Boy Howdy (V2)
   db_uuid: a499fe2c435c496eafc19442a044ec23
   srg_url: https://supershowthegame.com/product/boy-howdy-os/
+  srgpc_url: https://www.srgpc.net/cards/competitors/boy-howdy/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -26309,6 +26318,93 @@
   rules_text: The Crowd Meter is considered +1 for your card effects.
   tags:
     - Old School
+  related_finishes:
+    - a44406312e634cbcb481ced863a1fe37
+    - 54079f18504d4bdeb6df6da96641688d
+    - eb4523eb6c244504b9fabd17323fe6d2
+    - f0715a7458c34528a114c79d53ebb415
+    - 4a007d48dbe549c9877ad222471c3421
+    - 7f6eb1da92cc487d9762003069351085
+- name: Pelicana-Conrana
+  db_uuid: a44406312e634cbcb481ced863a1fe37
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    Your Agility and Strike skills are + the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
+- name: The Crowd Teaser
+  db_uuid: 54079f18504d4bdeb6df6da96641688d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Grapple
+
+    Draw cards equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
+- name: The Pelican Crunch!
+  db_uuid: eb4523eb6c244504b9fabd17323fe6d2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    Randomly add cards from your discard pile to your hand equal to the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
+- name: Pelicanrana
+  db_uuid: f0715a7458c34528a114c79d53ebb415
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to your skills.
+
+    Your opponent gets 2 additional Breakout rolls.'
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
+- name: The Crowd Pleaser
+  db_uuid: 4a007d48dbe549c9877ad222471c3421
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your opponent''s 1st or 2nd Breakout roll is the same skill as your Finish roll, their roll is -1.
+
+    If stopped you may add +1 to the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
+- name: Get Behind the Pelican!
+  db_uuid: 7f6eb1da92cc487d9762003069351085
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: When this card is in your hand and you would bury any number of cards from your hand, you may instead discard this card and draw 1 card.
+  tags: []
+  related_cards:
+    - 3e7a00225c2e4053b731e165c3f66450
+    - a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
   db_uuid: 40d3462c0a884cbaa0cc484870dabb2c
   card_type: SingleCompetitorCard

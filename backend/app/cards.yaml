@@ -26423,7 +26423,7 @@
     - 2f41f8677a3d4e8f8fa282b9f3c5d1d7
     - dfbfc5ad2853414b9f1b64f392b22212
     - b5d45296d8ed4564976696e38cbd2eb7
-- name: Tornado Claw
+- name: Tornado Claw (Brian Cage)
   db_uuid: 2f41f8677a3d4e8f8fa282b9f3c5d1d7
   card_type: MainDeckCard
   atk_type: Strike
@@ -63426,7 +63426,7 @@
     - ee727eaa01394ee79087f1e2864304f7
     - 4dd39b62a8e144199f243fa19005d66f
     - a9432fd778d34d5ca0c2ccd364955bc6
-- name: Tornado Claw!
+- name: Tornado Claw! (Swolverine)
   db_uuid: ee727eaa01394ee79087f1e2864304f7
   card_type: MainDeckCard
   atk_type: Strike

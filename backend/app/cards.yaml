@@ -25912,6 +25912,10 @@
   grapple: 7
   rules_text: 'During your turn: If you have 9 or more cards in play, your Leads and Follow Ups are also finishes.'
   tags: []
+  related_finishes:
+    - e1dabed319a44f648c2757e2aac50346
+    - 06081e62af464ce38b97aaa329a97078
+    - a832e552e82a4b70a5d6358c2514c4a0
 - name: Big Daddy Boughter (V2)
   db_uuid: fb9bb0244bed4be9b393fdd17778a2cb
   card_type: SingleCompetitorCard
@@ -25925,6 +25929,55 @@
   grapple: 7
   rules_text: 'During your turn: If you rolled Agility or Submission for your turn roll, choose 1 stop your opponent has in play and discard it.'
   tags: []
+  related_finishes:
+    - e1dabed319a44f648c2757e2aac50346
+    - 06081e62af464ce38b97aaa329a97078
+    - a832e552e82a4b70a5d6358c2514c4a0
+- name: Hello Gorgeous
+  db_uuid: e1dabed319a44f648c2757e2aac50346
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    +1 to Grapple
+
+    If your opponent breaks out, put 2 Leads from your discard pile into play.'
+  tags: []
+  related_cards:
+    - c532848bb45141a5814f044a590a80f8
+    - fb9bb0244bed4be9b393fdd17778a2cb
+- name: Love Ya Babe
+  db_uuid: 06081e62af464ce38b97aaa329a97078
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'You may discard your hand; if you do, your Finish roll is +1.
+
+    If you have at least 9 other cards in play, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - c532848bb45141a5814f044a590a80f8
+    - fb9bb0244bed4be9b393fdd17778a2cb
+- name: Pay Up Sucka
+  db_uuid: a832e552e82a4b70a5d6358c2514c4a0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile and your opponent stops a Finish, choose 1 card they have in play and discard it.'
+  tags: []
+  related_cards:
+    - c532848bb45141a5814f044a590a80f8
+    - fb9bb0244bed4be9b393fdd17778a2cb
 - name: Big Game Leroy
   db_uuid: b9d9ab11e1104c798637faebafd14825
   srgpc_url: https://www.srgpc.net/cards/competitors/big-game-leroy/

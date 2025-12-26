@@ -26407,6 +26407,7 @@
     - a499fe2c435c496eafc19442a044ec23
 - name: Brian Cage (V1)
   db_uuid: 40d3462c0a884cbaa0cc484870dabb2c
+  srgpc_url: https://www.srgpc.net/cards/competitors/brian-cage-old/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26418,8 +26419,60 @@
   grapple: 9
   rules_text: When you roll Power for your turn roll, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - 2f41f8677a3d4e8f8fa282b9f3c5d1d7
+    - dfbfc5ad2853414b9f1b64f392b22212
+    - b5d45296d8ed4564976696e38cbd2eb7
+- name: Tornado Claw
+  db_uuid: 2f41f8677a3d4e8f8fa282b9f3c5d1d7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Each player shuffles 2 cards from their hand into their deck.
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 40d3462c0a884cbaa0cc484870dabb2c
+    - 12d4949f97d344238c8b1c7cdc719a63
+- name: Drill Claw
+  db_uuid: dfbfc5ad2853414b9f1b64f392b22212
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Your opponent shuffles cards from their hand into their deck until they have 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 40d3462c0a884cbaa0cc484870dabb2c
+    - 12d4949f97d344238c8b1c7cdc719a63
+- name: Weapon X
+  db_uuid: b5d45296d8ed4564976696e38cbd2eb7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 40d3462c0a884cbaa0cc484870dabb2c
+    - 12d4949f97d344238c8b1c7cdc719a63
 - name: Brian Cage (V2)
   db_uuid: 12d4949f97d344238c8b1c7cdc719a63
+  srgpc_url: https://www.srgpc.net/cards/competitors/brian-cage-new/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26431,6 +26484,55 @@
   grapple: 9
   rules_text: 'When you roll Power for your turn roll, choose 1 opponent: their next turn roll is -2.'
   tags: []
+  related_finishes:
+    - 2f41f8677a3d4e8f8fa282b9f3c5d1d7
+    - dfbfc5ad2853414b9f1b64f392b22212
+    - b5d45296d8ed4564976696e38cbd2eb7
+    - 0255c2fca24742c5826b9d30b0f050f9
+    - 46d5aca29dc448d58b5ba682dae1e272
+    - 4107d14e4ac4491f9a17ce74bcaa0e11
+- name: Five Star Elbow Drop
+  db_uuid: 0255c2fca24742c5826b9d30b0f050f9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Shuffle 5 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 12d4949f97d344238c8b1c7cdc719a63
+- name: F'n 5
+  db_uuid: 46d5aca29dc448d58b5ba682dae1e272
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Finish rolls are +1.
+
+    You may draw 5 cards then bury 3 cards in your hand.'
+  tags: []
+  related_cards:
+    - 12d4949f97d344238c8b1c7cdc719a63
+- name: GMSI
+  db_uuid: 4107d14e4ac4491f9a17ce74bcaa0e11
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +4 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 12d4949f97d344238c8b1c7cdc719a63
 - name: Charlie Tiger (V1)
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
   srgpc_url: https://www.srgpc.net/competitors/charlie-tiger-v2/

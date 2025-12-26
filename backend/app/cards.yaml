@@ -26222,6 +26222,7 @@
     - b6944de2e4c1406889adb81ea2f4a8be
 - name: Bobby Ohio
   db_uuid: 411a3ec208cf4d5794932bb99b35800c
+  srgpc_url: https://www.srgpc.net/cards/competitors/bobby-ohio/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -26235,6 +26236,50 @@
 
     When you hit a card with "Slam" in the name, your next turn roll is +1.'
   tags: []
+  related_finishes:
+    - d9da184a24084109ae149a31f93c1683
+    - 00d6104577ad42f0bde8f48931c97984
+    - a1b0e99ac9d64ed8a7152896b1e93f64
+- name: Lights, Camera, Action!
+  db_uuid: d9da184a24084109ae149a31f93c1683
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Technique
+
+    +2 to Strike
+
+    If stopped, discard 1 card from your hand and you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 411a3ec208cf4d5794932bb99b35800c
+- name: Slammin, Slammin, Slammin, Slammin Yo!
+  db_uuid: 00d6104577ad42f0bde8f48931c97984
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Finish roll is +1 for each card you have in play with "Slammin" in the name.
+
+    Shuffle any number of cards with "Slam" in the name from your discard pile to your deck.'
+  tags: []
+  related_cards:
+    - 411a3ec208cf4d5794932bb99b35800c
+- name: O-HI-O
+  db_uuid: a1b0e99ac9d64ed8a7152896b1e93f64
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Add 1 card with "Eat" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 411a3ec208cf4d5794932bb99b35800c
 - name: Boy Howdy (V1)
   db_uuid: 3e7a00225c2e4053b731e165c3f66450
   card_type: SingleCompetitorCard

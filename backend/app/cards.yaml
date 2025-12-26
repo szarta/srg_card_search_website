@@ -25767,6 +25767,58 @@
   grapple: 6
   rules_text: 'Your cards with "Beat" or "Stick" in the name have the added text: "Your opponent buries 1 card in their hand and your next turn roll is +1".'
   tags: []
+  related_finishes:
+    - 832a4a4fc86a438292b6c8f78a8c89ab
+    - 4a6e1eba250441ebbfad39a0dd28a922
+    - cd64f01e7ff547c4853df37c39058a19
+- name: Beatstick Beatdown
+  db_uuid: 832a4a4fc86a438292b6c8f78a8c89ab
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    If you have "Surprise Attack" in play, your opponent gets 1 fewer Breakout roll this turn.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 98eb1b96fced4564a2792083660d3709
+- name: The 50/50
+  db_uuid: 4a6e1eba250441ebbfad39a0dd28a922
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '-3 to Technique
+
+    -2 to Agility
+
+    +1 to Strike
+
+    +4 to Grapple
+
+    If the Crowd Meter is 4 or greater, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 98eb1b96fced4564a2792083660d3709
+- name: You Won't Beat Me!
+  db_uuid: cd64f01e7ff547c4853df37c39058a19
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If you broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 98eb1b96fced4564a2792083660d3709
 - name: Belinda
   db_uuid: e38223a08984404b83bd34e9a7f17025
   srgpc_url: https://www.srgpc.net/cards/competitors/belinda/

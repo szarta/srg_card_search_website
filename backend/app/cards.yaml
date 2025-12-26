@@ -24013,7 +24013,7 @@
   tags: []
   related_cards:
     - 41cf829b50b649a2bbfcd56484afb428
-- name: Baanominal One
+- name: Baanomenal One
   db_uuid: 0f52d4e11c9b43bb975967aade20f0fc
   srgpc_url: https://www.srgpc.net/cards/competitors/baanomenal-one/
   card_type: SingleCompetitorCard
@@ -24027,6 +24027,67 @@
   grapple: 7
   rules_text: Your Technique is +1 during turn rolls.
   tags: []
+  related_finishes:
+    - 2165c344d2234cf385da6c73de53f851
+    - a8b115ffe52d42ecaa701a843d999916
+    - 6ee87357b29e44ab86cea6751cea9450
+    - 505d3704784444a6b2efe2caa101aaeb
+- name: Baa-Nomenal Forearm
+  db_uuid: 2165c344d2234cf385da6c73de53f851
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to your lowest skill
+
+    Add 1 Lead and 1 Follow Up from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 0f52d4e11c9b43bb975967aade20f0fc
+- name: Jack-Rammer
+  db_uuid: a8b115ffe52d42ecaa701a843d999916
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Look at your opponent''s hand
+
+    Choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 0f52d4e11c9b43bb975967aade20f0fc
+- name: S-5
+  db_uuid: 6ee87357b29e44ab86cea6751cea9450
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    If you rolled Agility for your turn roll; look at your opponent''s hand, they bury all Leads.'
+  tags: []
+  related_cards:
+    - 0f52d4e11c9b43bb975967aade20f0fc
+- name: Ewe-Decator (Baanomenal One)
+  db_uuid: 505d3704784444a6b2efe2caa101aaeb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    If you rolled Technique for your turn roll and your Finish roll is 8 or less, it is +1.'
+  tags: []
+  related_cards:
+    - 0f52d4e11c9b43bb975967aade20f0fc
 - name: Baanomenal Son Nikola Mai
   db_uuid: 492abcc803d447eeb36a4406bc46bc3b
   srg_url: https://supershowthegame.com/product/baanomenal-son-nikola-mai/
@@ -24077,7 +24138,7 @@
   tags: []
   related_cards:
     - 492abcc803d447eeb36a4406bc46bc3b
-- name: Ewe-Decator
+- name: Ewe-Decator (Nikola Mai)
   db_uuid: 01048da009d44150bcc7ba96131dce44
   srgpc_url: https://www.srgpc.net/competitors/baanomenal-son-nikola-mai/
   card_type: MainDeckCard

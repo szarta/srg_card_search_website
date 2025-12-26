@@ -53308,6 +53308,7 @@
   tags: []
 - name: Boss Lady Bella
   db_uuid: 5b632c3955d94e508776747ae99737a0
+  srgpc_url: https://www.srgpc.net/competitor/boss-lady-bella/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -53319,6 +53320,52 @@
   grapple: 7
   rules_text: 'If you rolled Submission for your turn roll: You may play 1 additional card this turn.'
   tags: []
+  related_finishes:
+    - ac9d662583a04673b9aea6ae2f9898f5
+    - bf627ef3ad13454098b5a6047def8033
+    - f06fca8e070f4291b58537023eeee3f5
+- name: Boss Lady Spear
+  db_uuid: ac9d662583a04673b9aea6ae2f9898f5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Grapple
+
+    The next time you roll Submission for your turn roll it is +2.'
+  tags: []
+  related_cards:
+    - 5b632c3955d94e508776747ae99737a0
+- name: Babe, It's Over
+  db_uuid: bf627ef3ad13454098b5a6047def8033
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    When this card is in your discard pile and you roll Submission for your turn roll, draw 1 card.'
+  tags: []
+  related_cards:
+    - 5b632c3955d94e508776747ae99737a0
+- name: Boss Armbar
+  db_uuid: f06fca8e070f4291b58537023eeee3f5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    Draw 4 cards, then bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - 5b632c3955d94e508776747ae99737a0
 - name: Brain Power
   db_uuid: e52b1c1ed7b041d5958da830cd3a1a1f
   srg_url: https://supershowthegame.com/product/brain-power/

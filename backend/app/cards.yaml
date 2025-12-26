@@ -24182,6 +24182,54 @@
   grapple: 7
   rules_text: When you stop a card, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 5fdd4b4aea8845e3ab9572c773d8f813
+    - b9661daa39ee402db89020f426d5bd1d
+    - c54613b6765d498e829b31a0ad34ecd5
+- name: Celestial Aerial Ballet
+  db_uuid: 5fdd4b4aea8845e3ab9572c773d8f813
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If you played a Stop on the last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 0e8eca6185214b268fa7ffddb4bdf57b
+- name: No Tricks, Just Bricks
+  db_uuid: b9661daa39ee402db89020f426d5bd1d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    When this card is in your discard pile: If the Crowd Meter is 1 or greater, your opponent cannot move cards from their discard pile to their hand.'
+  tags: []
+  related_cards:
+    - 0e8eca6185214b268fa7ffddb4bdf57b
+- name: Stinky Surprise
+  db_uuid: c54613b6765d498e829b31a0ad34ecd5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 0e8eca6185214b268fa7ffddb4bdf57b
 - name: Backpack Man
   db_uuid: cf6406b30a9644b7b96c432df9a26887
   srgpc_url: https://www.srgpc.net/cards/competitors/backpack-man/

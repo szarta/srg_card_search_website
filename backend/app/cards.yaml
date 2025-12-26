@@ -25990,8 +25990,52 @@
   strike: 8
   submission: 5
   grapple: 7
-  rules_text: Your breakout rolls are +1.
+  rules_text: Your Breakout rolls are +1.
   tags: []
+  related_finishes:
+    - a5d81a23216f4ad08ef098f205f2ee52
+    - 1069442c27364755a066de79aa8dd281
+    - 091068603d8b4f84b8c685a75876698d
+- name: Brutality
+  db_uuid: a5d81a23216f4ad08ef098f205f2ee52
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    Search your deck for 1 Big Game Leroy Finish and add it to your hand.'
+  tags: []
+  related_cards:
+    - b9d9ab11e1104c798637faebafd14825
+- name: Switch-Canrana
+  db_uuid: 1069442c27364755a066de79aa8dd281
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    Add 1 Big Game Leroy Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b9d9ab11e1104c798637faebafd14825
+- name: Sunset Switch
+  db_uuid: 091068603d8b4f84b8c685a75876698d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If any player broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - b9d9ab11e1104c798637faebafd14825
 - name: The Big Guy (V1)
   db_uuid: 6fc63e68196d4ad7a08cf027583aafb2
   srg_url: https://supershowthegame.com/product/the-big-guy/

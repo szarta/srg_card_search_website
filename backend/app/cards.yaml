@@ -30975,6 +30975,50 @@
   grapple: 8
   rules_text: 'When you hit a Submission: Your opponent flips 1 card, and you may bury 1 card in your opponent''s discard pile.'
   tags: []
+  related_finishes:
+    - 8574f0b7cd234ba290c48e8cc581e392
+    - c124ff1866054ee79b281884054ed1b2
+    - 76bb76c2b59747eda0bd54460e8b5f78
+- name: X-Cross
+  db_uuid: 8574f0b7cd234ba290c48e8cc581e392
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    Shuffle any number of Submission cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 079d19f7ea604b82a6af4a9ae7f9f453
+- name: Sacrifice!
+  db_uuid: c124ff1866054ee79b281884054ed1b2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 079d19f7ea604b82a6af4a9ae7f9f453
+- name: Scorpion Claw
+  db_uuid: 76bb76c2b59747eda0bd54460e8b5f78
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Agility
+
+    If your opponent flipped any number of cards last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 079d19f7ea604b82a6af4a9ae7f9f453
 - name: Blossom Tyne
   db_uuid: f2ec0c80a48041b4b40ca7208d7c8a5c
   srgpc_url: https://www.srgpc.net/competitors/blossum-tyne/

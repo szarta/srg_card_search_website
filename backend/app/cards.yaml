@@ -24244,6 +24244,54 @@
   grapple: 7
   rules_text: When you roll Agility for your turn roll, look at your opponent's hand, choose 1 stop and bury it.
   tags: []
+  related_finishes:
+    - 11d006b0e738470da8b6983152687fec
+    - 794efa65542f4ec692b58c3967368b29
+    - 958d306d9b6242e082dff4c387447402
+- name: The Jack-o'-Lantern
+  db_uuid: 11d006b0e738470da8b6983152687fec
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and your opponent hits a Finish, add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - cf6406b30a9644b7b96c432df9a26887
+- name: All Hallows' Eve
+  db_uuid: 794efa65542f4ec692b58c3967368b29
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If you have 2 Finish cards in your discard pile, add +1 to these bonuses.'
+  tags: []
+  related_cards:
+    - cf6406b30a9644b7b96c432df9a26887
+- name: Trick-or-Treat
+  db_uuid: 958d306d9b6242e082dff4c387447402
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Agility
+
+    When your opponent rolls a Breakout roll, draw 1 card or bury 1 card in any players discard pile.'
+  tags: []
+  related_cards:
+    - cf6406b30a9644b7b96c432df9a26887
 - name: Bad Billy Bagpipes
   db_uuid: 5202f9e0a26e4839a84797552a2979b9
   srg_url: https://supershowthegame.com/product/bad-billy-bagpipes/

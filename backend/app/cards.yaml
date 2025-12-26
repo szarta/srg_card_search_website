@@ -24492,6 +24492,50 @@
   grapple: 9
   rules_text: 'When you hit a card with "Chain" or "Jaw" in the name: Reveal the top 3 cards of your deck, add 1 Grapple to your hand and flip the others.'
   tags: []
+  related_finishes:
+    - 661985488ef74d359686c17281610cdf
+    - be03ac55065a4eebbe795e44cae5308b
+    - e9aa3f44cd2a44548676f7d96255819d
+- name: Frumious Jaws
+  db_uuid: 661985488ef74d359686c17281610cdf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish rolls are +1.
+
+    Search your deck for 1 card with "Chain" in the name and discard it.'
+  tags: []
+  related_cards:
+    - 5a60042042b64aa1add8fcc29685242e
+- name: Alice...
+  db_uuid: be03ac55065a4eebbe795e44cae5308b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If stopped, you may play "...In Chains" from your discard pile.'
+  tags: []
+  related_cards:
+    - 5a60042042b64aa1add8fcc29685242e
+- name: '...In Chains'
+  db_uuid: e9aa3f44cd2a44548676f7d96255819d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile, reveal 2 additional cards for your Bandersnatch Gimmick.'
+  tags: []
+  related_cards:
+    - 5a60042042b64aa1add8fcc29685242e
 - name: Poppa Wheelie (V1)
   db_uuid: 874d321b095b401987c710035115583f
   srg_url: https://supershowthegame.com/product/poppa-wheelie/

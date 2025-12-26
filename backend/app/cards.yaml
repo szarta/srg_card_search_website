@@ -1419,6 +1419,7 @@
   tags: []
   related_cards:
     - 08559cdcf0704b188fbe388192e2181e
+    - f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: Shipwreck Menagerie
   db_uuid: 120a4a3ffc124a21be376a2d5f6df56d
   card_type: MainDeckCard
@@ -1435,6 +1436,7 @@
   tags: []
   related_cards:
     - 08559cdcf0704b188fbe388192e2181e
+    - f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: The Mystic Plunder
   db_uuid: c17faf738dc9453097c7b4301baaafff
   card_type: MainDeckCard
@@ -1451,6 +1453,7 @@
   tags: []
   related_cards:
     - 08559cdcf0704b188fbe388192e2181e
+    - f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: Crocodile Chop
   db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1469,6 +1472,7 @@
   related_cards:
     - 08559cdcf0704b188fbe388192e2181e
     - a01036ebb5bf49e382f6c9668fd04cc7
+    - f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: Steel Chain Anchors Aweigh
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1487,6 +1491,7 @@
   related_cards:
     - 08559cdcf0704b188fbe388192e2181e
     - a01036ebb5bf49e382f6c9668fd04cc7
+    - f2ec0c80a48041b4b40ca7208d7c8a5c
 - name: Death is the Only Great Adventure You Have Left
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -31033,6 +31038,13 @@
   grapple: 9
   rules_text: 'Once during your turn roll: if you have at least 2 fewer cards in your hand than your opponent, draw 1 card.'
   tags: []
+  related_finishes:
+    - 040232a9ce804e3eb4ea2a25283f6298
+    - 120a4a3ffc124a21be376a2d5f6df56d
+    - c17faf738dc9453097c7b4301baaafff
+    - 01d7642fbfae4817a4ff1c01f175e9e8
+    - c97d0ef041cd4e33824b7583bd7fc0a1
+    - cd01ac08134342bda5826e44a1ff1c9d
 - name: Blue Line Beast
   db_uuid: 9932fcbfe7ac4e61b445a809154529ba
   srgpc_url: https://www.srgpc.net/cards/competitors/blue-line-beast/
@@ -31047,6 +31059,54 @@
   grapple: 10
   rules_text: When you hit a Grapple, look at the top 3 cards of your opponent's deck, flip 1, bury 1, and put the other back on top of their deck.
   tags: []
+  related_finishes:
+    - b8a914d3edba4da589ad7f89a30706c6
+    - 2bb3a1fe2be24e93b24aea236c141e37
+    - 5fd04b2266144b71915d528838becd69
+- name: Blue Line Beatdown
+  db_uuid: b8a914d3edba4da589ad7f89a30706c6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If you hit a Grapple last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 9932fcbfe7ac4e61b445a809154529ba
+- name: Stop Resisting
+  db_uuid: 2bb3a1fe2be24e93b24aea236c141e37
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 1 card and discard it.'
+  tags: []
+  related_cards:
+    - 9932fcbfe7ac4e61b445a809154529ba
+- name: The Right to Remain Silent
+  db_uuid: 5fd04b2266144b71915d528838becd69
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    When this card is in your discard pile and your opponent hits a Follow Up, draw 1 card.'
+  tags: []
+  related_cards:
+    - 9932fcbfe7ac4e61b445a809154529ba
 - name: The Boatswain's Mate Spencer Vance
   db_uuid: e38cced416cc45e0a9e1367935fd590a
   card_type: SingleCompetitorCard

@@ -30788,6 +30788,50 @@
   grapple: 10
   rules_text: 'At the start of the match: Draw 3 cards, and your 1st turn roll is +3.'
   tags: []
+  related_finishes:
+    - 605f99575b8b4be8853e7c0985a28c80
+    - d5c459b526bb497e95eecd6291170bd4
+    - 5cc8c9f9f3fb4e788648f5257ca6d7e9
+- name: Banker 39
+  db_uuid: 605f99575b8b4be8853e7c0985a28c80
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    If stopped, your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 9df6a6d4fdfa4b0f95cb8c64737fa4aa
+- name: The World Turned Upside Down
+  db_uuid: d5c459b526bb497e95eecd6291170bd4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Agility
+
+    +1 to Submission
+
+    You may randomly put your hand on top of your deck, then draw the bottom 8 cards of your deck.'
+  tags: []
+  related_cards:
+    - 9df6a6d4fdfa4b0f95cb8c64737fa4aa
+- name: Miracle of the House of Brandenburg
+  db_uuid: 5cc8c9f9f3fb4e788648f5257ca6d7e9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 9df6a6d4fdfa4b0f95cb8c64737fa4aa
 - name: Bjorn The Norseman (V1)
   db_uuid: da6ce3bf4d2f4f36840d958baf646f69
   srg_url: https://supershowthegame.com/product/bjorn-the-norseman/

@@ -34262,6 +34262,7 @@
     - 8c57d96fbf76423384286e0604c7aff7
 - name: Colt Cabana (V1)
   db_uuid: 5bb4fee5cc3a4996936776aea3f700cb
+  srgpc_url: https://www.srgpc.net/cards/competitors/colt-cabana-old/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -34275,6 +34276,52 @@
 
     When you roll Agility you may re-roll.'
   tags: []
+  related_finishes:
+    - 12501369984b4bcb97f2fa4352456769
+    - 0c874de421ec47f290cbcf63cef8be2d
+    - 06f7f4fc51e740afa993a3f2a21a95ae
+- name: Bionic Elbow
+  db_uuid: 12501369984b4bcb97f2fa4352456769
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile, if you re-rolled your turn roll for any reason, your turn roll is +1.'
+  tags: []
+  related_cards:
+    - 5bb4fee5cc3a4996936776aea3f700cb
+- name: Colt .45
+  db_uuid: 0c874de421ec47f290cbcf63cef8be2d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+5 to Power
+
+    Take 1 card from each player''s discard pile and place it on top of their deck.'
+  tags: []
+  related_cards:
+    - 5bb4fee5cc3a4996936776aea3f700cb
+- name: Billy Goat's Curse
+  db_uuid: 06f7f4fc51e740afa993a3f2a21a95ae
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    Your opponent''s maximum handsize is 3.'
+  tags: []
+  related_cards:
+    - 5bb4fee5cc3a4996936776aea3f700cb
 - name: Colt Cabana (V2)
   db_uuid: ee6c96e6131446909a2014075f80f2f7
   card_type: SingleCompetitorCard

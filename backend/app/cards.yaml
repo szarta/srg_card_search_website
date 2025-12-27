@@ -23168,7 +23168,8 @@
   submission: 7
   grapple: 8
   rules_text: 'Once per turn roll: if you roll Grapple, draw a card.'
-  tags: []
+  tags:
+    - Finishless
 - name: Ring Admiral Grumpy Thunder
   db_uuid: 899418d2d50c4082a5a5c99455d8de0b
   srgpc_url: https://www.srgpc.net/cards/competitors/ring-admiral-grumpy-thunder-jr/
@@ -27237,7 +27238,8 @@
   submission: 7
   grapple: 6
   rules_text: When you roll Power, shuffle 2 cards with "Chain" in the name from your discard pile into your deck
-  tags: []
+  tags:
+    - Finishless
 - name: Grim Librarian (V1)
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -38246,7 +38248,8 @@
   submission: 6
   grapple: 7
   rules_text: When you roll Grapple for your turn roll; your opponent may discard 1 Stop from their hand.  If they do not, add 1 Stop from your disard pile to your hand.
-  tags: []
+  tags:
+    - Finishless
 - name: Ivelisse "La Sicaria"
   db_uuid: c30f8ab941e046cdb7dea5772f96019b
   srg_url: https://supershowthegame.com/product/ivelisse-la-sicaria/
@@ -52285,6 +52288,55 @@
   grapple: 8
   rules_text: When you hit a card with "Chop" in the name, search your deck for a card with "Chop" in the name and add it to your hand.
   tags: []
+  related_finishes:
+    - 1781ad92ed564d04a9c445573fad1358
+    - d69e3a727d14497880f9b2fdcff2e2d5
+    - 94270efc99d94d3a9c0542e61b1d81d6
+- name: Chop Into the Upside Down
+  db_uuid: 1781ad92ed564d04a9c445573fad1358
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    When this card is in your discard pile, your opponent''s Finish cards are not Leads or Follow Ups.'
+  tags: []
+  related_cards:
+    - ebc3e1b4fbf942f5b11c1d60f57185e5
+    - 67985c3af162453ebe643a0edd3c11ef
+- name: The Waffle Iron
+  db_uuid: d69e3a727d14497880f9b2fdcff2e2d5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    If stopped, you may choose 1 card you have in play with "Chop" in the name and play it again as an additional card this turn.'
+  tags: []
+  related_cards:
+    - ebc3e1b4fbf942f5b11c1d60f57185e5
+    - 67985c3af162453ebe643a0edd3c11ef
+- name: 11 Ways to Russia
+  db_uuid: 94270efc99d94d3a9c0542e61b1d81d6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If you roll exactly 11 for your Finish roll, your opponent cannot break out.'
+  tags: []
+  related_cards:
+    - ebc3e1b4fbf942f5b11c1d60f57185e5
+    - 67985c3af162453ebe643a0edd3c11ef
 - name: Wait for It Hopper
   db_uuid: 7990e5586c24480db646fede33f5a9fe
   srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-hopper/
@@ -52298,7 +52350,8 @@
   submission: 5
   grapple: 9
   rules_text: When you hit a card with "Hop" in the name, search your deck or discard pile for a card with "Hop" in the name and add it to your hand.
-  tags: []
+  tags:
+    - Finishless
 - name: Warehouse
   db_uuid: ef91936ee02e4388ad2a6d37fc105340
   srgpc_url: https://www.srgpc.net/cards/competitors/warehouse/
@@ -53456,7 +53509,8 @@
   submission: 7
   grapple: 10
   rules_text: It is considered a Liger's Den match for your card effects.
-  tags: []
+  tags:
+    - Finishless
 - name: Mr. Sunday Night Ron Rumble
   db_uuid: 01294f0b05eb48ddaf8dd763b852a7ad
   srg_url: https://supershowthegame.com/product/mr-sunday-night/
@@ -54888,6 +54942,10 @@
   grapple: 9
   rules_text: When you hit a card with "Chop" in the name, add 1 card with "Chop" in the name from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 1781ad92ed564d04a9c445573fad1358
+    - d69e3a727d14497880f9b2fdcff2e2d5
+    - 94270efc99d94d3a9c0542e61b1d81d6
 - name: CMC
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
   card_type: SingleCompetitorCard

@@ -19336,7 +19336,7 @@
   rules_text: Search your deck or discard pile for a Grapple, put it on top of your shuffled deck.
   tags:
     - Old School
-- name: Drag Out of the Ring
+- name: Drag Out of the Ring (V1)
   db_uuid: 37101e87902140d68983dce03f1fbb23
   srgpc_url: https://www.srgpc.net/cards/23/drag-out-of-the-ring/
   card_type: MainDeckCard
@@ -19344,6 +19344,16 @@
   play_order: Followup
   deck_card_number: 23
   rules_text: Draw the bottom 2 cards of your deck.
+  tags: []
+- name: Drag Out of the Ring (V2)
+  db_uuid: 89db6ec062d84a5eab2dcfaf84386045
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Draw the bottom 2 cards of your deck.
+
+    Bury 2 cards in your discard pile.'
   tags: []
 - name: Eternal-Conrana
   db_uuid: dd103aa2ba6b4c258d862948f880b00b

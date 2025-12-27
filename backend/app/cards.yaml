@@ -26679,6 +26679,52 @@
 
     Your opponent''s turn ends and the match continues.'
   tags: []
+  related_finishes:
+    - b5ce298f2d4f4c0c9355ce3aeb031149
+    - d1d5842551954205a9e4c70f37d63d17
+    - dd5cda72ddbe4db89b90fc26f48aeece
+- name: Aether & Chaos
+  db_uuid: b5ce298f2d4f4c0c9355ce3aeb031149
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Strike
+
+    If your opponent has 0 cards in play, your opponent randomly discards 3 cards from their hand.'
+  tags: []
+  related_cards:
+    - 7a02f61a23a6463da190bdd8624d93fa
+- name: Sāturni Diēs
+  db_uuid: d1d5842551954205a9e4c70f37d63d17
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Look at your opponent''s hand, your opponent gets 1 fewer Breakout roll for each Finish in their hand.'
+  tags: []
+  related_cards:
+    - 7a02f61a23a6463da190bdd8624d93fa
+- name: The Zodiac Wheel
+  db_uuid: dd5cda72ddbe4db89b90fc26f48aeece
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Look at your opponent''s hand, your Submission skill is +1 for each Finish card in their hand.'
+  tags: []
+  related_cards:
+    - 7a02f61a23a6463da190bdd8624d93fa
 - name: Colossal Mike Law
   db_uuid: 9e917043501e4163bf34be7ba7b6212f
   card_type: SingleCompetitorCard

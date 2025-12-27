@@ -32339,6 +32339,52 @@
   grapple: 10
   rules_text: 'Once a turn: When your opponent buries any number of cards, put 1 card from your discard pile on top of your deck.'
   tags: []
+  related_finishes:
+    - 8ef713f2b45b4c40a9d8e7b899c18166
+    - 2d8a9983db454a97906919cc8c0eb412
+    - 2694e4b0b8964e72a01df69ffb8f32d2
+- name: Rolling Backfist
+  db_uuid: 8ef713f2b45b4c40a9d8e7b899c18166
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Draw 1 card for each Strike you have in play.'
+  tags: []
+  related_cards:
+    - 08e16af4ac6a4a868f83dea0e0cddc63
+- name: Orange Crush
+  db_uuid: 2d8a9983db454a97906919cc8c0eb412
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Flip 3 cards
+
+    Bury 1 card in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 08e16af4ac6a4a868f83dea0e0cddc63
+- name: The Oh Face!
+  db_uuid: 2694e4b0b8964e72a01df69ffb8f32d2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    When this card is in your discard pile and you lose a turn roll, you may bury 1 card in your hand and bury this card, then end the turn.'
+  tags: []
+  related_cards:
+    - 08e16af4ac6a4a868f83dea0e0cddc63
 - name: Hunk Homeland
   db_uuid: e8b36bd067ce45d2a31bbacc24728ada
   srg_url: https://supershowthegame.com/product/hunk-homeland/

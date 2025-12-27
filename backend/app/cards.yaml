@@ -34296,6 +34296,7 @@
   tags: []
   related_cards:
     - 5bb4fee5cc3a4996936776aea3f700cb
+    - ee6c96e6131446909a2014075f80f2f7
 - name: Colt .45
   db_uuid: 0c874de421ec47f290cbcf63cef8be2d
   card_type: MainDeckCard
@@ -34308,6 +34309,7 @@
   tags: []
   related_cards:
     - 5bb4fee5cc3a4996936776aea3f700cb
+    - ee6c96e6131446909a2014075f80f2f7
 - name: Billy Goat's Curse
   db_uuid: 06f7f4fc51e740afa993a3f2a21a95ae
   card_type: MainDeckCard
@@ -34322,8 +34324,10 @@
   tags: []
   related_cards:
     - 5bb4fee5cc3a4996936776aea3f700cb
+    - ee6c96e6131446909a2014075f80f2f7
 - name: Colt Cabana (V2)
   db_uuid: ee6c96e6131446909a2014075f80f2f7
+  srgpc_url: https://www.srgpc.net/cards/competitors/colt-cabana-new/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -34335,6 +34339,55 @@
   grapple: 9
   rules_text: When you stop a card, you may re-roll your next turn roll.
   tags: []
+  related_finishes:
+    - b6c370d7c44244db84358ea795406c55
+    - 0e8cee1a1b984822b8137ffb2d77a667
+    - 52ca0701b3ff4c808c1a81208aa0c6c3
+    - 12501369984b4bcb97f2fa4352456769
+    - 0c874de421ec47f290cbcf63cef8be2d
+    - 06f7f4fc51e740afa993a3f2a21a95ae
+- name: Flying Apple
+  db_uuid: b6c370d7c44244db84358ea795406c55
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and you re-roll your turn roll, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - ee6c96e6131446909a2014075f80f2f7
+- name: Chicago Skyline
+  db_uuid: 0e8cee1a1b984822b8137ffb2d77a667
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Your opponent discards 2 random cards from their hand.  Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - ee6c96e6131446909a2014075f80f2f7
+- name: Superman Pin
+  db_uuid: 52ca0701b3ff4c808c1a81208aa0c6c3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If you re-rolled your turn roll, your opponent gets 1 less Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - ee6c96e6131446909a2014075f80f2f7
 - name: The Consigilere
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
   card_type: SingleCompetitorCard

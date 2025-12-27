@@ -28026,6 +28026,7 @@
     - 20059df60d9f40ccae5f9c892aa17c4a
 - name: D1 (V1)
   db_uuid: 51537506696946a2ad10662229ccd96f
+  srgpc_url: https://www.srgpc.net/cards/competitors/d1/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -28036,8 +28037,16 @@
   grapple: 5
   rules_text: When you hit a Submission draw 1 card.
   tags: []
+  related_finishes:
+    - 69ad98a696574fc29efa21dc25262910
+    - 9621acc8c1454d4f918f99e69f976d1c
+    - 11bd8196188e4360b1e59b796e156800
+    - 5e3727d4830942e098ca17448906aa4c
+    - 83164d07156e48e5b1273ae82ba32931
+    - b5713e4f33ec42548151bd3fd3521477
 - name: D1 (V2)
   db_uuid: baf61519310348b9898c5ace20a8843f
+  srgpc_url: https://www.srgpc.net/cards/competitors/d1/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -28048,6 +28057,95 @@
   grapple: 5
   rules_text: At the start of the match, sesarch your deck for a Lead Submission and put it into play.
   tags: []
+  related_finishes:
+    - 69ad98a696574fc29efa21dc25262910
+    - 9621acc8c1454d4f918f99e69f976d1c
+    - 11bd8196188e4360b1e59b796e156800
+    - 5e3727d4830942e098ca17448906aa4c
+    - 83164d07156e48e5b1273ae82ba32931
+    - b5713e4f33ec42548151bd3fd3521477
+- name: Breath of Fire
+  db_uuid: 69ad98a696574fc29efa21dc25262910
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If you have a Lead Submission in play this card is also a Follow Up.
+
+    The next 2 cards your opponent hits have blank text.'
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
+- name: Spinning Rings of Fire
+  db_uuid: 9621acc8c1454d4f918f99e69f976d1c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Strike
+
+    If you have 3 cards in play with "Fire" in the name, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
+- name: Nighty Night
+  db_uuid: 11bd8196188e4360b1e59b796e156800
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Your opponent skips their next turn.'
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
+- name: Human Cannonball
+  db_uuid: 5e3727d4830942e098ca17448906aa4c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +4 to Strike
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
+- name: Pie in the Face
+  db_uuid: 83164d07156e48e5b1273ae82ba32931
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Look at your opponent''s hand, they bury all Follow Up cards.'
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
+- name: Dark Dreams
+  db_uuid: b5713e4f33ec42548151bd3fd3521477
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent randomly buries cards in their hand until they bury 2 Lead cards.
+  tags: []
+  related_cards:
+    - 51537506696946a2ad10662229ccd96f
+    - baf61519310348b9898c5ace20a8843f
 - name: Lady Baa Baa (V1)
   db_uuid: 9f7dc2e4f7ac49e882a24a302edf11cf
   srg_url: https://supershowthegame.com/product/lady-baa-baa/
@@ -28162,7 +28260,7 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  rules_text: When this card is flipped, your opponent buries 1 card in their hand and you shuffle up to 3 otehr cards from your discard pile into your deck.
+  rules_text: When this card is flipped, your opponent buries 1 card in their hand and you shuffle up to 3 other cards from your discard pile into your deck.
   tags: []
   related_cards:
     - 9f7dc2e4f7ac49e882a24a302edf11cf
@@ -31193,7 +31291,7 @@
 
     +3 to Technique
 
-    Shuffle up to 10 cards with "Block", "Clothesline", or "Tackle" in teh name from your discard pile into your deck.'
+    Shuffle up to 10 cards with "Block", "Clothesline", or "Tackle" in the name from your discard pile into your deck.'
   tags:
     - Old School
   related_cards:
@@ -57724,7 +57822,7 @@
 
     +2 to Grapple
 
-    If you hit a card with "Barricade", "Beatdown", or "Blindside" in teh name last turn, you may re-roll your Finish roll.'
+    If you hit a card with "Barricade", "Beatdown", or "Blindside" in the name last turn, you may re-roll your Finish roll.'
   tags: []
   related_cards:
     - c7cc2a824fab4b5dad84a3f863605373

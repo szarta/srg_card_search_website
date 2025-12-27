@@ -30948,6 +30948,55 @@
   rules_text: When you hit a "Strike" with "Block", "Clothesline" or "Tackle" in the name, draw 1 card and your next turn roll is +2.
   tags:
     - Old School
+  related_finishes:
+    - 8b770874a2d34775880c7a0d96af20ed
+    - b2b9eea35e1141ea9401bb403d273871
+    - a6bc991645c04414ba69afd28a020f52
+- name: 4 Point Tackle
+  db_uuid: 8b770874a2d34775880c7a0d96af20ed
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike'
+  tags:
+    - Old School
+  related_cards:
+    - 4212b765cda246c2a70bb6b346588e5b
+- name: The Woodchuck
+  db_uuid: b2b9eea35e1141ea9401bb403d273871
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    Shuffle up to 10 cards with "Block", "Clothesline", or "Tackle" in teh name from your discard pile into your deck.'
+  tags:
+    - Old School
+  related_cards:
+    - 4212b765cda246c2a70bb6b346588e5b
+- name: The Wood Chipper
+  db_uuid: a6bc991645c04414ba69afd28a020f52
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    If stopped, you lose the match via disqualification unless you have a card in play with "Block", "Clothesline", or "Tackle" in the name.'
+  tags:
+    - Old School
+  related_cards:
+    - 4212b765cda246c2a70bb6b346588e5b
 - name: Dive Bar Bard
   db_uuid: 076a91a4326049abb39d86bdc9187ceb
   card_type: SingleCompetitorCard

@@ -33705,6 +33705,50 @@
   grapple: 8
   rules_text: When your opponent moves any number of cards from their discard pile to any other location, their next turn roll is -1.
   tags: []
+  related_finishes:
+    - 424dd3dbe321448b9be72e091630f649
+    - 3e6d6a620d27462ca3d248acd9e6407a
+    - d5b0a91599c44798b60eace1e372700c
+- name: The Jubjub Bird
+  db_uuid: 424dd3dbe321448b9be72e091630f649
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Technique is -3.
+
+    Your opponent''s Submission is -2.
+
+    When this card is in your discard pile: When your opponent would draw for a card effect, you may put 1 card from their discard pile on top of their deck.'
+  tags: []
+  related_cards:
+    - 7b92ca8e078b45ecb8efdea750aa6a9d
+- name: Through the Looking Glass
+  db_uuid: 3e6d6a620d27462ca3d248acd9e6407a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Finish rolls are +1 for each card you have in play with "Disqualification" in the text (Max +2).
+  tags: []
+  related_cards:
+    - 7b92ca8e078b45ecb8efdea750aa6a9d
+- name: Cheshire Grin
+  db_uuid: d5b0a91599c44798b60eace1e372700c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Your opponent''s Agility is -2.
+
+    You may put 1 card from your opponent''s discard pile on top of their deck.
+
+    Bury 1 card in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 7b92ca8e078b45ecb8efdea750aa6a9d
 - name: Chester the Jester
   db_uuid: 9ef0e6cb61584512900eb71b7aa274a1
   srgpc_url: https://www.srgpc.net/cards/competitors/chester-the-jester/

@@ -3907,7 +3907,7 @@
     - ffd6e8091604499fa481881932e447fb
     - 9f10a21c932044f9bf731ad78a3ccbfb
     - 35d0b197c9a44d699f9670a17871488e
-- name: Release the Kraken
+- name: Release the Kraken (Captain C.J. Sparra)
   db_uuid: ffd6e8091604499fa481881932e447fb
   srg_url: https://supershowthegame.com/product/captain-c-j-sparra/
   card_type: MainDeckCard
@@ -32844,6 +32844,48 @@
   grapple: 8
   rules_text: When your opponent's turn roll is 10, shuffle 2 cards from your discard pile into your deck.
   tags: []
+  related_finishes:
+    - a1fe20e0e1f54a3397e68b6a9c8c1b8b
+    - bd830f46914e451e9ad5967fa2cb17ad
+    - 98ce0f57cf0a4830a4f17023de4a0fa4
+- name: Release the Kraken (Captain Connie)
+  db_uuid: a1fe20e0e1f54a3397e68b6a9c8c1b8b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    If your opponent breaks out, you may discard 1 card from your hand to add this card to your hand.'
+  tags: []
+  related_cards:
+    - 9cf747fb137c4f36a025d5194af5705c
+- name: Storm the Shores
+  db_uuid: bd830f46914e451e9ad5967fa2cb17ad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 9cf747fb137c4f36a025d5194af5705c
+- name: String em' Up
+  db_uuid: 98ce0f57cf0a4830a4f17023de4a0fa4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    If your opponent''s turn roll was 10 or greater, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - 9cf747fb137c4f36a025d5194af5705c
 - name: Captain El Shoes
   db_uuid: 1d055bd6b3664fa987d0f23da3cf3fd1
   srgpc_url: https://www.srgpc.net/competitors/captain-el-shoes/

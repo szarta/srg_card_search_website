@@ -53594,6 +53594,7 @@
   tags: []
 - name: Brimelight
   db_uuid: 2185fb6d71e54ad19fa567ff04464047
+  srgpc_url: https://www.srgpc.net/competitor/brimelight/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -53607,6 +53608,56 @@
 
     You may change your target''s turn roll to 9.'
   tags: []
+  related_finishes:
+    - da1d276c18264d2faad39c194e713876
+    - dcb7dbb4530643f5aabd135a09d19188
+    - 8cfe1d19e20e401eac9c1f6e92fe1a8e
+- name: Show Them the Light
+  db_uuid: da1d276c18264d2faad39c194e713876
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If this is a Tag Team match, double these bonuses.'
+  tags: []
+  related_cards:
+    - 2185fb6d71e54ad19fa567ff04464047
+- name: The Pamphlet Driver
+  db_uuid: dcb7dbb4530643f5aabd135a09d19188
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    If your opponent''s turn roll was 10: They get one fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 2185fb6d71e54ad19fa567ff04464047
+- name: The Mission Statement
+  db_uuid: 8cfe1d19e20e401eac9c1f6e92fe1a8e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission
+
+    If this is a Tag Team or Trios match:
+
+    Once per turn: You may bury 3 cards in your hand to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 2185fb6d71e54ad19fa567ff04464047
 - name: Brony Coven
   db_uuid: 1dae36dc92644db29c58fb55ac773690
   srg_url: https://supershowthegame.com/product/brony-coven/

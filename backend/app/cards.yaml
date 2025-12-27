@@ -65606,3 +65606,13 @@
   tags: []
   related_cards:
     - ba9c71d333aa487b99d13fe537e7dec2
+- name: The Line is Drawn
+  db_uuid: 8d1c2b45d6b947a0a24623c13b0b525d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission'
+  tags: []

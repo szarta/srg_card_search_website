@@ -30589,6 +30589,7 @@
     - Old School
 - name: Bronzeberg
   db_uuid: f3f1d79c227847a584755e0b23843fc9
+  srgpc_url: https://www.srgpc.net/competitors/bronzeberg/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -30599,7 +30600,55 @@
   submission: 6
   grapple: 8
   rules_text: You may bury 3 cards in your hand to stop a Strike.
-  tags: []
+  tags:
+    - Old School
+  related_finishes:
+    - ef552c0c4d3b4534bf7d2f7f104a169d
+    - 2b2a6d4924f74ec5861eef354461d163
+    - e97a4f6eeb7c4764a16a7b29942054cc
+- name: The Battle Javelin
+  db_uuid: ef552c0c4d3b4534bf7d2f7f104a169d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    Look at your opponent''s hand and choose 1 card: Put it on top of their deck.  Instead of a Finish roll, you may play "The Heavy Crazy Hammer" from your hand as an additional card this turn.'
+  tags:
+    - Old School
+  related_cards:
+    - f3f1d79c227847a584755e0b23843fc9
+- name: The Heavy Crazy Hammer
+  db_uuid: 2b2a6d4924f74ec5861eef354461d163
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    If you have "The Battle Javelin" in play, you may re-roll your Finish roll.'
+  tags:
+    - Old School
+  related_cards:
+    - f3f1d79c227847a584755e0b23843fc9
+- name: The Anaconda
+  db_uuid: e97a4f6eeb7c4764a16a7b29942054cc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags:
+    - Old School
+  related_cards:
+    - f3f1d79c227847a584755e0b23843fc9
 - name: Brumeister (V1)
   db_uuid: dbc76881ba8246e99a4550c490f4ecfa
   card_type: SingleCompetitorCard

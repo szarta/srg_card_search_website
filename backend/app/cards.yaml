@@ -30470,7 +30470,7 @@
   tags: []
   related_cards:
     - 6405174e3a3f4c77acbffedf7f0c932c
-- name: The Last Breath
+- name: The Last Breath (Krule)
   db_uuid: d8b05dbd433a4a91a8236bcfb7bf4085
   card_type: MainDeckCard
   atk_type: Submission
@@ -30901,7 +30901,7 @@
   related_cards:
     - c7119d9f0e1d443299252fe35743ae08
     - b220c64e3825487883e0396b0707082d
-- name: Brotherly Love
+- name: Brotherly Love (Cactus Sac)
   db_uuid: a85e42a44ffa4d0280e150498e2bfc14
   card_type: MainDeckCard
   atk_type: Grapple
@@ -43279,7 +43279,7 @@
   tags: []
   related_cards:
     - cfc8e0da7777443d9f5530324b665a90
-- name: The Last Breath
+- name: The Last Breath (The Mortician)
   db_uuid: eefa2035d974414188ead1db0e51ad9d
   card_type: MainDeckCard
   atk_type: Submission
@@ -64825,7 +64825,7 @@
     - 3ae8bf2d06ab4a759027ed82af0d5b87
     - 2f4328a071644d918d4abdfb308eacd1
     - a487ad6102b8487f8ecdabfe96dfc70b
-- name: Rabbit Punch
+- name: Rabbit Punch (Ace Diamond)
   db_uuid: 3ae8bf2d06ab4a759027ed82af0d5b87
   card_type: MainDeckCard
   atk_type: Strike

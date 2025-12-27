@@ -30793,6 +30793,7 @@
     - b83fd4886d314b15b249a4fc97512e25
 - name: Cactus Sac (V1)
   db_uuid: c7119d9f0e1d443299252fe35743ae08
+  srgpc_url: https://www.srgpc.net/cards/competitors/cactus-sac/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -30805,8 +30806,16 @@
   rules_text: At the start of your turn if you have fewer than 5 cards in your hand; draw until you have 5 cards in hand.
   tags:
     - Old School
+  related_finishes:
+    - f02565238a94440f9af980dae8c1f441
+    - 0bca2acefbba4e2a9202449291868311
+    - f8df98e2fe8d4a84b3eb24b0506cce85
+    - 963a14149d934f87b12823be65acb0e4
+    - a85e42a44ffa4d0280e150498e2bfc14
+    - eac557a64a884f5eb507abcc2897614c
 - name: Cactus Sac (V2)
   db_uuid: b220c64e3825487883e0396b0707082d
+  srgpc_url: https://www.srgpc.net/cards/competitors/cactus-sac/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -30819,6 +30828,111 @@
   rules_text: When you stop a Finish, draw 2 cards.
   tags:
     - Old School
+  related_finishes:
+    - f02565238a94440f9af980dae8c1f441
+    - 0bca2acefbba4e2a9202449291868311
+    - f8df98e2fe8d4a84b3eb24b0506cce85
+    - 963a14149d934f87b12823be65acb0e4
+    - a85e42a44ffa4d0280e150498e2bfc14
+    - eac557a64a884f5eb507abcc2897614c
+- name: Just a Little Prick
+  db_uuid: f02565238a94440f9af980dae8c1f441
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    Your Agility is +1 for each card in your hand (Max +5).'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
+- name: Taco Takedown
+  db_uuid: 0bca2acefbba4e2a9202449291868311
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Grapple
+
+    If you stopped a Finish last turn, this card is also a Follow Up.'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
+- name: The Sac Tap
+  db_uuid: f8df98e2fe8d4a84b3eb24b0506cce85
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your opponent''s 1st and 2nd Breakout rolls are -1 for each Finish in their discard pile.'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
+- name: The Prickly Pear
+  db_uuid: 963a14149d934f87b12823be65acb0e4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Draw 2 cards
+
+    Cannot be stopped when you have 3 cards in play with "Corner" in the name.'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
+- name: Brotherly Love
+  db_uuid: a85e42a44ffa4d0280e150498e2bfc14
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    If you drew 3 or more cards this turn this card is also a Lead.'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
+- name: Sac-O Strangle
+  db_uuid: eac557a64a884f5eb507abcc2897614c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Each player buries 4 cards in their hand.'
+  tags:
+    - Old School
+  related_cards:
+    - c7119d9f0e1d443299252fe35743ae08
+    - b220c64e3825487883e0396b0707082d
 - name: Chainsaw Jimmy
   db_uuid: 4212b765cda246c2a70bb6b346588e5b
   srgpc_url: https://www.srgpc.net/cards/competitors/chainsaw-jimmy/

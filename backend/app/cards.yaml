@@ -33763,6 +33763,48 @@
   grapple: 10
   rules_text: When your opponent stops your card they bury 1 card in their hand.
   tags: []
+  related_finishes:
+    - 164456cf1e7c47d2bbe44eb562b95159
+    - 606a81234dec4f7a976af74ac1bbfecc
+    - 9e014bfa2b304b4c9ec1e0ec2f834d0d
+- name: Nothing to Laugh About
+  db_uuid: 164456cf1e7c47d2bbe44eb562b95159
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    If your opponent has 3 or more Stops in play this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 9ef0e6cb61584512900eb71b7aa274a1
+- name: The Fool's Errand
+  db_uuid: 606a81234dec4f7a976af74ac1bbfecc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    If this card is stopped, shuffle 1 card from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 9ef0e6cb61584512900eb71b7aa274a1
+- name: Joking Hazard
+  db_uuid: 9e014bfa2b304b4c9ec1e0ec2f834d0d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    Shuffle 2 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 9ef0e6cb61584512900eb71b7aa274a1
 - name: Chip Day
   db_uuid: 75d2cf5b748242309bab0d36c57360f9
   srgpc_url: https://www.srgpc.net/cards/competitors/chip-day/

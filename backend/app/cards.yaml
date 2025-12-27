@@ -30651,6 +30651,7 @@
     - f3f1d79c227847a584755e0b23843fc9
 - name: Brumeister (V1)
   db_uuid: dbc76881ba8246e99a4550c490f4ecfa
+  srgpc_url: https://www.srgpc.net/cards/competitors/brumeister/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -30672,6 +30673,7 @@
     - 4eaa3b32a4ff492981853408d42f1a59
 - name: Brumeister (V2)
   db_uuid: b83fd4886d314b15b249a4fc97512e25
+  srgpc_url: https://www.srgpc.net/cards/competitors/brumeister/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -32167,6 +32169,48 @@
   grapple: 9
   rules_text: Your Power is +1 (Max +3) for each card you have in play with "Coconut", "Chop", or "Surf" in the name.
   tags: []
+  related_finishes:
+    - 0155c67ad8fd4edbadce84b22d9b8b61
+    - 195ede9976544231b3e8b0c64763a971
+    - b7975e820e1d405c8d766f45193b0a3c
+- name: Flip Flop Chop
+  db_uuid: 0155c67ad8fd4edbadce84b22d9b8b61
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +3 to Strike
+  tags: []
+  related_cards:
+    - 6812bd4569e741bf811f9e6eaca8f7a2
+- name: Banzai Pipeline
+  db_uuid: 195ede9976544231b3e8b0c64763a971
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 6812bd4569e741bf811f9e6eaca8f7a2
+- name: Shipwrecked
+  db_uuid: b7975e820e1d405c8d766f45193b0a3c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    When this card is in your discard pile and your opponent breaks out:
+
+    Put 1 Lead with "Coconut", "Chop", or "Surf" in the name into play.'
+  tags: []
+  related_cards:
+    - 6812bd4569e741bf811f9e6eaca8f7a2
 - name: Caleb Konley
   db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63
   srgpc_url: https://www.srgpc.net/cards/competitors/caleb-konley/

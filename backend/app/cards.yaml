@@ -32900,6 +32900,56 @@
   grapple: 8
   rules_text: 'When you roll Submission for your turn roll:  add 1 Lead from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 5acbaf2374d0482b9a16e7e5790b4ad8
+    - 2945797d5ba94f36a58adc54976a4104
+    - ec8f8da4258044c6a467871bca609593
+- name: Captain Crunch
+  db_uuid: 5acbaf2374d0482b9a16e7e5790b4ad8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    During your turn roll:
+
+    When this card is in your discard pile and you roll Submission, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 1d055bd6b3664fa987d0f23da3cf3fd1
+- name: TKJoe
+  db_uuid: 2945797d5ba94f36a58adc54976a4104
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    If stopped, discard 1 Lead you have in play.'
+  tags: []
+  related_cards:
+    - 1d055bd6b3664fa987d0f23da3cf3fd1
+- name: STFShoe
+  db_uuid: ec8f8da4258044c6a467871bca609593
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    Add 1 Lead from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 1d055bd6b3664fa987d0f23da3cf3fd1
 - name: Steel Wool
   db_uuid: b339f906c69c4183b699037dffd6cfa1
   srg_url: https://supershowthegame.com/product/steel-wool/

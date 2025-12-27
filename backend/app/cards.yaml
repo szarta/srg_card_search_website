@@ -33890,6 +33890,13 @@
   grapple: 6
   rules_text: You and your opponent both play with the top card of your deck revealed.
   tags: []
+  related_finishes:
+    - 3434a476a30b44ed84bf959bb3acfddd
+    - 2f68cdf597e848e2a7dfc3f61713e633
+    - 70717f4682434026a7beb1f35efe30a3
+    - 11e6fcf2a7ba473cba1e3f4d9bf620a7
+    - d489988192f94a83846ce0a9de8c3d23
+    - 282182c2f8ce4abeb0312088dafcb073
 - name: Chugganomics (V2)
   db_uuid: 0205f2be185343c18bf0098ff3edbb64
   srg_url: https://supershowthegame.com/product/chugganomics-alt/
@@ -34019,6 +34026,54 @@
   grapple: 5
   rules_text: When you roll Agility for your turn roll, bury 1 card in any player's discard pile.
   tags: []
+  related_finishes:
+    - a42a2eb6e4924ac6b5e34b1c9104b3e9
+    - 0d2fac38c8164f3fac69690fe521a663
+    - 08907f2739154095b23395a1f31c0755
+- name: Leather Pounce
+  db_uuid: a42a2eb6e4924ac6b5e34b1c9104b3e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Shuffle up to 3 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - b4f043464fa64700b5dcfcfc57069e62
+- name: Book Nook
+  db_uuid: 0d2fac38c8164f3fac69690fe521a663
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    When this card is in your discard pile: If this card is buried for your Gimmick, your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - b4f043464fa64700b5dcfcfc57069e62
+- name: Reading Rainbow & Arrow
+  db_uuid: 08907f2739154095b23395a1f31c0755
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Your opponent''s Agility is -1.'
+  tags: []
+  related_cards:
+    - b4f043464fa64700b5dcfcfc57069e62
 - name: Colby Corino
   db_uuid: 98ccdf9d3677429a87a65cc40119a6a3
   srg_url: https://supershowthegame.com/product/colby-corino/

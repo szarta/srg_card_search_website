@@ -31777,6 +31777,7 @@
     - 71b6b581c7a249958c2e512d3d89afaa
 - name: Brimstone
   db_uuid: 2ae23d6498254dec98147137a5c3f197
+  srgpc_url: https://www.srgpc.net/cards/competitors/brimstone/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -31788,6 +31789,50 @@
   grapple: 6
   rules_text: 'During your turn: If you rolled Power or Technique for your turn roll, choose 1 stop your opponent has in play and discard it.'
   tags: []
+  related_finishes:
+    - 15d6d0f460ca4125a3e609d1fabcf774
+    - ec03456061fe491c89fc24b1bf86d6ee
+    - 3f4fbe1ca7d8439f9bb45efab2b38355
+- name: Attitude Adjustment
+  db_uuid: 15d6d0f460ca4125a3e609d1fabcf774
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    Shuffle 6 cards with "Hell" or "Fire" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 2ae23d6498254dec98147137a5c3f197
+- name: Xibalba, the Entrance to Hell
+  db_uuid: ec03456061fe491c89fc24b1bf86d6ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'For each card you have in play with "Hell" or "Fire" in the name:
+
+    Draw 1 card, your opponent discards 1 card from their hand, and your Grapple skill is +1.'
+  tags: []
+  related_cards:
+    - 2ae23d6498254dec98147137a5c3f197
+- name: Hellfire Choke Hold
+  db_uuid: 3f4fbe1ca7d8439f9bb45efab2b38355
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Stop any Strike with "Rope" in the name.
+
+    Add 1 card with "Hell" or "Fire" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 2ae23d6498254dec98147137a5c3f197
 - name: Brock Smith (V1)
   db_uuid: 0640ec286ebd4c409d6b0fa17ab5711e
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/

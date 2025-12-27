@@ -30663,6 +30663,13 @@
   rules_text: When your Follow Up Submission or Grapple is stopped, reveal the top card of your deck and play it.  If you cannot play it put it in your discard pile.
   tags:
     - Old School
+  related_finishes:
+    - d27ed6f300174baca245f35a79388b55
+    - 05f8dcba077a448c857b4efa884e98e4
+    - ee9ae1a73094463e9496212e297b5603
+    - f872989bcfca4bb5ab2922ca095f5570
+    - ab6ab33cac144db3b2fed0f00a78e17f
+    - 4eaa3b32a4ff492981853408d42f1a59
 - name: Brumeister (V2)
   db_uuid: b83fd4886d314b15b249a4fc97512e25
   card_type: SingleCompetitorCard
@@ -30677,6 +30684,111 @@
   rules_text: When your opponent moves any number of cards from their discard pile with their card effect or Gimmick, discard 1 card they have in play.
   tags:
     - Old School
+  related_finishes:
+    - d27ed6f300174baca245f35a79388b55
+    - 05f8dcba077a448c857b4efa884e98e4
+    - ee9ae1a73094463e9496212e297b5603
+    - f872989bcfca4bb5ab2922ca095f5570
+    - ab6ab33cac144db3b2fed0f00a78e17f
+    - 4eaa3b32a4ff492981853408d42f1a59
+- name: The Bru Stupor
+  db_uuid: d27ed6f300174baca245f35a79388b55
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile and your opponent hits a Finish card, bury it and your next Breakout roll is +1.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
+- name: Hops Infusion
+  db_uuid: 05f8dcba077a448c857b4efa884e98e4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'When this card is revaeled for your Gimmick it is also a Follow Up.
+
+    +3 to Power
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.  Draw 1 card.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
+- name: Beer and Pretzel Lock
+  db_uuid: ee9ae1a73094463e9496212e297b5603
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    Your Power is +1 for each Submission you have in play.
+
+    Draw 1 card and your opponent buries 1 random card in their hand.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
+- name: The Malt Mash
+  db_uuid: f872989bcfca4bb5ab2922ca095f5570
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Shuffle any number of Follow Up Grapples from your discard pile into your deck.
+
+    If stopped, shuffle any number of Follow Up Submissions from your discard pile into your deck.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
+- name: Bottle Capped
+  db_uuid: ab6ab33cac144db3b2fed0f00a78e17f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+5 to Power
+
+    If stopped, put 2 cards from your discard pile on top of your deck.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
+- name: IBU
+  db_uuid: 4eaa3b32a4ff492981853408d42f1a59
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Shuffle 1 card from your discard pile int oyour deck for each Grapple and Submission you have in play.'
+  tags:
+    - Old School
+  related_cards:
+    - dbc76881ba8246e99a4550c490f4ecfa
+    - b83fd4886d314b15b249a4fc97512e25
 - name: Cactus Sac (V1)
   db_uuid: c7119d9f0e1d443299252fe35743ae08
   card_type: SingleCompetitorCard

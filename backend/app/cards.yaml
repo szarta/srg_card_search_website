@@ -61245,6 +61245,16 @@
 
     If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
   tags: []
+- name: Extreme Leg Drop
+  db_uuid: b2071f5e08d44fd68f58285fd627dacc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'Draw 1 card.
+
+    Bury up to 4 cards in your opponent''s discard pile.'
+  tags: []
 - name: Rise to the Occasion
   db_uuid: e79a29233e1c49db8648b3f18c0c181b
   srgpc_url: https://www.srgpc.net/cards/11/rise-to-the-occasion/

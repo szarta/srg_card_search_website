@@ -26727,6 +26727,7 @@
     - 7a02f61a23a6463da190bdd8624d93fa
 - name: Colossal Mike Law
   db_uuid: 9e917043501e4163bf34be7ba7b6212f
+  srgpc_url: https://www.srgpc.net/cards/competitors/colossal-mike-law/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26738,6 +26739,50 @@
   grapple: 9
   rules_text: 'When you roll Power for your turn roll: Your opponent flips 2 cards and you bury up to 2 cards in your opponent''s discard pile.'
   tags: []
+  related_finishes:
+    - 98803504942549e99a5c0ebc523a2007
+    - fc2787583b1f47ba85e4d9da0faa6709
+    - dcf83ba2d954449193ce9daae2682f70
+- name: Colossal Combo
+  db_uuid: 98803504942549e99a5c0ebc523a2007
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    Your opponent randomly reveals 3 cards in their hand, choose 1 card and bury it.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 9e917043501e4163bf34be7ba7b6212f
+- name: Law and Order
+  db_uuid: fc2787583b1f47ba85e4d9da0faa6709
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Finish Submission.
+
+    Put 1 card from your discard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - 9e917043501e4163bf34be7ba7b6212f
+- name: Colossal Choke
+  db_uuid: dcf83ba2d954449193ce9daae2682f70
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Look at your opponent''s hand, choose 1 Follow Up and discard it.'
+  tags: []
+  related_cards:
+    - 9e917043501e4163bf34be7ba7b6212f
 - name: Dangerous Dillon Bias
   db_uuid: fad605db94d44d3bb3fb2fc88e96a53d
   srg_url: https://supershowthegame.com/product/dangerous-dillon-bias/

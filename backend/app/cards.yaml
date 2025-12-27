@@ -27915,6 +27915,7 @@
   tags: []
 - name: D3 (V1)
   db_uuid: 91c51b9ed3e14a0582f050716596dbd6
+  srgpc_url: https://www.srgpc.net/cards/competitors/d3/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -27925,8 +27926,16 @@
   grapple: 9
   rules_text: Your opponent needs 3 cards in play to hit you with a Finish.
   tags: []
+  related_finishes:
+    - 5d22712b4ffc4e3987a9585e7ab9ad42
+    - 63410d5bdf624f40b8ad75f7a5fc9be5
+    - a63f0291a2e940dfac57f3b2f9c6a567
+    - 8d48d27355894911b1e366f70eb93c17
+    - fdef491fff5a4b0caf3ea870b5c0f456
+    - d0c784b4608d492c8453c1e6848f1119
 - name: D3 (V2)
   db_uuid: 6f4af6fa97ce442c84d1e4a689647bb7
+  srgpc_url: https://www.srgpc.net/cards/competitors/d3/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 8
@@ -27937,6 +27946,101 @@
   grapple: 9
   rules_text: When your turn roll is at least 3 greater than your opponent's turn roll, your opponent's Gimmick is blank until the end of the next turn.
   tags: []
+  related_finishes:
+    - 5d22712b4ffc4e3987a9585e7ab9ad42
+    - 63410d5bdf624f40b8ad75f7a5fc9be5
+    - a63f0291a2e940dfac57f3b2f9c6a567
+    - 8d48d27355894911b1e366f70eb93c17
+    - fdef491fff5a4b0caf3ea870b5c0f456
+    - d0c784b4608d492c8453c1e6848f1119
+- name: Contact Juggling
+  db_uuid: 5d22712b4ffc4e3987a9585e7ab9ad42
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +3 to Agility
+
+    If stopped, look at the top 3 cards of our deck, randomly add 1 to your hand, put 1 in your discard pile, and put the other on top of your deck.'
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Multiplexing
+  db_uuid: 63410d5bdf624f40b8ad75f7a5fc9be5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    Draw 3 cards.
+
+    Each time your opponent rolls for a Breakout roll, draw 1 card.'
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Claw
+  db_uuid: a63f0291a2e940dfac57f3b2f9c6a567
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    Look at your opponent''s hand, choose 1 card and put it on top of their deck.
+
+    Your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Stomping Around
+  db_uuid: 8d48d27355894911b1e366f70eb93c17
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Draw 2 cards or your opponent buries 2 random caries in their hand.
+
+    If the Crowd Meter is 1 or greater, choose both options.'
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Funhouse Drop
+  db_uuid: fdef491fff5a4b0caf3ea870b5c0f456
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: If the Crowd Meter is 1 or greater, the Crowd Meter is +1.
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
+- name: Hall of Mirrors
+  db_uuid: d0c784b4608d492c8453c1e6848f1119
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Power
+
+    Add all of your opponent''s Gimmicks to yours.'
+  tags: []
+  related_cards:
+    - 91c51b9ed3e14a0582f050716596dbd6
+    - 6f4af6fa97ce442c84d1e4a689647bb7
 - name: Kenpo Kenny
   db_uuid: e528c01c4ef1460ca9ab29abf8c95795
   srgpc_url: https://www.srgpc.net/cards/competitors/kenpo-kenney/

@@ -33301,6 +33301,56 @@
   grapple: 10
   rules_text: When you roll 10 for your turn roll, add 1 card with "Chair" in the name from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 0cac451988614f77a05f03840ef61309
+    - b6373320866b43cd98c7de2439fbb0ad
+    - a27239ca83ea49779b1abd978b2d504a
+- name: Extraordinary Chair Shot
+  db_uuid: 0cac451988614f77a05f03840ef61309
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Your opponent''s Gimmick is blank.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 1cea3fa2e2ae4fe7bd34ab3fe624d296
+- name: The Folding Chair
+  db_uuid: b6373320866b43cd98c7de2439fbb0ad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 1cea3fa2e2ae4fe7bd34ab3fe624d296
+- name: Extraordinary Sharpshooter
+  db_uuid: a27239ca83ea49779b1abd978b2d504a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Once a turn:
+
+    If your Finish roll is 7 or less, you may re-roll.'
+  tags: []
+  related_cards:
+    - 1cea3fa2e2ae4fe7bd34ab3fe624d296
 - name: Chamomile T
   db_uuid: 309e9641dda648c09f80a98fa92efc16
   srgpc_url: https://www.srgpc.net/cards/competitors/chamomile-t/

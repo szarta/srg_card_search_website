@@ -33641,6 +33641,56 @@
   grapple: 5
   rules_text: 'If you lost the previous turn roll: When you roll Power or Agility for your turn roll, choose 1 card in play and discard it, or bury 1 card in any player''s discard pile.'
   tags: []
+  related_finishes:
+    - 5711d58dba3b4c1686675377160e61eb
+    - e71a475e20f742e6b804e033b6f6b7f3
+    - 62892427750b42c2bfd1adc92f99b9bf
+- name: Yeet the Puff!
+  db_uuid: 5711d58dba3b4c1686675377160e61eb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    Draw 1 card.
+
+    You may discard 1 card in play with "Dog" or "Puppy" in the name to double these bonuses.'
+  tags: []
+  related_cards:
+    - c94f753c62f5406cae60f664dfc182e6
+- name: The Cherry Bomb
+  db_uuid: e71a475e20f742e6b804e033b6f6b7f3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Once per turn roll:
+
+    When this card is in your discard pile, you may discard 1 card you have in play with "Dog" or "Puppy" in the name to re-roll your turn roll.'
+  tags: []
+  related_cards:
+    - c94f753c62f5406cae60f664dfc182e6
+- name: The Tootsie Roll
+  db_uuid: 62892427750b42c2bfd1adc92f99b9bf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +2 to Submission
+
+    Once per turn: If you have a card in play with "Dog" or "Puppy" in the name, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - c94f753c62f5406cae60f664dfc182e6
 - name: Cheshire
   db_uuid: 7b92ca8e078b45ecb8efdea750aa6a9d
   srgpc_url: https://www.srgpc.net/cards/competitors/cheshire/

@@ -33114,7 +33114,7 @@
     - d7de64cba4dd40589bfe221b0a7d65e4
 - name: Caveman (V1)
   db_uuid: f2d49aea3af44e0c90c7947680a6e89b
-  srgpc_url: https://www.srgpc.net/competitors/caveman-v2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/caveman/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -33128,8 +33128,56 @@
 
     Your opponent''s Headbutt cards are blank when played against you.'
   tags: []
+  related_finishes:
+    - 0199454d30f944879d4cd0ce50ba7782
+    - eb142a0750e94fdba8edb221906986da
+    - 2ff8c9d3adaa433585a6aef3e1e54c79
+- name: Dolphin Splash
+  db_uuid: 0199454d30f944879d4cd0ce50ba7782
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Each player randomly buries 2 cards in their hand.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - f2d49aea3af44e0c90c7947680a6e89b
+    - 23c31720ac384b888ba04b4e47cf6649
+- name: Dino-Roll (V1)
+  db_uuid: eb142a0750e94fdba8edb221906986da
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Bury your hand, then draw the same number of cards +1.'
+  tags: []
+  related_cards:
+    - f2d49aea3af44e0c90c7947680a6e89b
+    - 23c31720ac384b888ba04b4e47cf6649
+- name: Chomp!
+  db_uuid: 2ff8c9d3adaa433585a6aef3e1e54c79
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Your opponent buries half the cards in their hand (rounded up).'
+  tags: []
+  related_cards:
+    - f2d49aea3af44e0c90c7947680a6e89b
+    - 23c31720ac384b888ba04b4e47cf6649
 - name: Caveman (V2)
   db_uuid: 23c31720ac384b888ba04b4e47cf6649
+  srgpc_url: https://www.srgpc.net/competitors/caveman-v2/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -33141,6 +33189,55 @@
   grapple: 6
   rules_text: When you have 2 cards in play with "Stick" and 1 card with "Fire" in the name, your opponent's Gimmick is copied and then blanked.
   tags: []
+  related_finishes:
+    - 0199454d30f944879d4cd0ce50ba7782
+    - eb142a0750e94fdba8edb221906986da
+    - 2ff8c9d3adaa433585a6aef3e1e54c79
+    - ac3769c2f0834d4c9207c3856d8311b9
+    - 401371d337bc4371b58bb080a49acbdb
+    - 639fb0a0a7d448e689248d943bf5be85
+- name: Prehistoric Headbutt
+  db_uuid: ac3769c2f0834d4c9207c3856d8311b9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    If your opponent breaks out, put 1 Lead with "Stick" and 1 Lead with "Fire" in the name from your discard pile into play.'
+  tags: []
+  related_cards:
+    - 23c31720ac384b888ba04b4e47cf6649
+- name: Dino-Roll (V2)
+  db_uuid: 401371d337bc4371b58bb080a49acbdb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    Draw 1 card for each card you have in play with "Dino", "Stick", or "Fire" in the name.'
+  tags: []
+  related_cards:
+    - 23c31720ac384b888ba04b4e47cf6649
+- name: Savage Back Claw
+  db_uuid: 639fb0a0a7d448e689248d943bf5be85
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 23c31720ac384b888ba04b4e47cf6649
 - name: Chair Extraordinaire Shawn Spears
   db_uuid: 1cea3fa2e2ae4fe7bd34ab3fe624d296
   srgpc_url: https://www.srgpc.net/cards/competitors/chair-extraordinaire-shawn-spears/

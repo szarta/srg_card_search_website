@@ -28497,6 +28497,9 @@
     - 31147ec233364c6b9d0ce86527b78054
     - a01578496fd84636939dff4762da7ca7
     - 4a39cb20d46e41828607c82a54b4084c
+    - 79ea7f5e5370414c9e889de621d5036c
+    - 3d42030bc3e34f509248b493264f3c21
+    - de4ad028468340be8d718a9ef236fee5
     - ca803bf9b2424e03b03250e5400b3ca9
     - e818072be5314d99a87c057550fb50b3
     - 776fad5b882a45a184765b90af6d6fcd
@@ -28517,6 +28520,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Step Right Up!
   db_uuid: a01578496fd84636939dff4762da7ca7
   srg_url: https://supershowthegame.com/product/d2/
@@ -28531,6 +28535,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Test Your Might
   db_uuid: 4a39cb20d46e41828607c82a54b4084c
   srg_url: https://supershowthegame.com/product/d2/
@@ -28547,6 +28552,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Dizzy Drill
   db_uuid: 79ea7f5e5370414c9e889de621d5036c
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28564,6 +28570,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Dark Descent
   db_uuid: 3d42030bc3e34f509248b493264f3c21
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28579,6 +28586,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Destructive Dreamland
   db_uuid: de4ad028468340be8d718a9ef236fee5
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28592,6 +28600,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Face Melter
   db_uuid: ca803bf9b2424e03b03250e5400b3ca9
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28605,6 +28614,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Psychocidal
   db_uuid: e818072be5314d99a87c057550fb50b3
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
@@ -28621,6 +28631,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Sweet Nightmare (V1)
   db_uuid: 776fad5b882a45a184765b90af6d6fcd
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28636,6 +28647,7 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: Sweet Nightmare (V2)
   db_uuid: d7388c1cd0244dab83c2d2ae0d0738f2
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -28651,8 +28663,10 @@
   tags: []
   related_cards:
     - bd04b23708fe49728541a20e689cae61
+    - bf1ee5c00125450da300bb9f3762511f
 - name: D2 (V2)
   db_uuid: bf1ee5c00125450da300bb9f3762511f
+  srgpc_url: https://www.srgpc.net/cards/competitors/d2/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 6
@@ -28663,6 +28677,17 @@
   grapple: 10
   rules_text: '3 times per match: When your turn roll is exactly 2 less than your opponent''s, you may bump.'
   tags: []
+  related_finishes:
+    - 31147ec233364c6b9d0ce86527b78054
+    - a01578496fd84636939dff4762da7ca7
+    - 4a39cb20d46e41828607c82a54b4084c
+    - 79ea7f5e5370414c9e889de621d5036c
+    - 3d42030bc3e34f509248b493264f3c21
+    - de4ad028468340be8d718a9ef236fee5
+    - ca803bf9b2424e03b03250e5400b3ca9
+    - e818072be5314d99a87c057550fb50b3
+    - 776fad5b882a45a184765b90af6d6fcd
+    - d7388c1cd0244dab83c2d2ae0d0738f2
 - name: Lorenzo Manicotti (V1)
   db_uuid: 4bf2907638d84683be82637d1ac34c52
   srgpc_url: https://www.srgpc.net/cards/competitors/lorenzo-manicotti/

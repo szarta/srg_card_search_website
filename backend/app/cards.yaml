@@ -26535,7 +26535,7 @@
     - 12d4949f97d344238c8b1c7cdc719a63
 - name: Charlie Tiger (V1)
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
-  srgpc_url: https://www.srgpc.net/competitors/charlie-tiger-v2/
+  srg_url: https://www.srgpc.net/cards/competitors/charlie-tiger/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26547,8 +26547,61 @@
   grapple: 9
   rules_text: When your turn roll is at least 5 greater than your opponent's turn roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
   tags: []
+  related_finishes:
+    - 56d370f386274a889e49da04c472be1f
+    - 8741d760fc7f432a87fed1ec3cd8a598
+    - 4d4dbb31d91c409aae238d63ee3ddfc1
+    - d901655325674171875a9f5b0ca7b4e3
+    - 80fe9d0a484849e09035f38e4c9e5c8b
+    - 40b521e592db45519eaf6f2bc2314628
+- name: Roar of the Tiger
+  db_uuid: d901655325674171875a9f5b0ca7b4e3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Search your deck or discard pile for 1 Grapple and put it on top of your shuffled deck.'
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
+- name: Tiger's Blood
+  db_uuid: 80fe9d0a484849e09035f38e4c9e5c8b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
+- name: Tiger's Claw
+  db_uuid: 40b521e592db45519eaf6f2bc2314628
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
 - name: Charlie Tiger  (V2)
   db_uuid: baf608e1f3564c1686dc33531b4d7e92
+  srgpc_url: https://www.srgpc.net/competitors/charlie-tiger-v2/
   card_type: SingleCompetitorCard
   division: Global
   power: 10
@@ -26559,6 +26612,56 @@
   grapple: 9
   rules_text: When you roll Power for your turn roll, your cards with "Armenian" in the name cannot be stopped.
   tags: []
+  related_finishes:
+    - 56d370f386274a889e49da04c472be1f
+    - 8741d760fc7f432a87fed1ec3cd8a598
+    - 4d4dbb31d91c409aae238d63ee3ddfc1
+    - d901655325674171875a9f5b0ca7b4e3
+    - 80fe9d0a484849e09035f38e4c9e5c8b
+    - 40b521e592db45519eaf6f2bc2314628
+- name: Tiger Glock 47
+  db_uuid: 56d370f386274a889e49da04c472be1f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Flip 4 cards.
+
+    Shuffle 7 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
+- name: Armenian Tiger Killer
+  db_uuid: 8741d760fc7f432a87fed1ec3cd8a598
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Armenian" or "Tiger" in the name.'
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
+- name: Armenian Oak Snare
+  db_uuid: 4d4dbb31d91c409aae238d63ee3ddfc1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Finish roll is +1 for each other card you have in play with "Armenian" in the name (Max +2).
+  tags: []
+  related_cards:
+    - 915bcc1758d445fbb884f60d5e99f5ac
+    - baf608e1f3564c1686dc33531b4d7e92
 - name: Chronus
   db_uuid: 7a02f61a23a6463da190bdd8624d93fa
   srgpc_url: https://www.srgpc.net/cards/competitors/chronus/

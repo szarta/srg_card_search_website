@@ -2723,6 +2723,16 @@
 
     Add 1 Strike and 1 Submission from your discard pile to your hand, or draw 1 card.'
   tags: []
+- name: Skull Compression
+  db_uuid: 2982db1cfe7940b7a39cd87667b42fcd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    The Crowd Meter is considered -1 for all Stop text.'
+  tags: []
 - name: Lightning Stifle
   db_uuid: f43f561c54844405b1c60f5e55619c68
   srg_url: https://supershowthegame.com/product/21-lightning-stifle/

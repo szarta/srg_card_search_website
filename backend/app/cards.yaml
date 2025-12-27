@@ -56453,6 +56453,7 @@
   tags: []
 - name: Bruiser Beans
   db_uuid: c7cc2a824fab4b5dad84a3f863605373
+  srgpc_url: https://www.srgpc.net/competitor/bruiser-beans/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -56464,6 +56465,54 @@
   grapple: 7
   rules_text: 'When you hit a card with "Barricade", "Beatdown", or "Blindside" in the name: Discard 2 cards from your hand and add 1 card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - dc203654ddac4ba8a2c813ae1f56e739
+    - 5cd084cceeef4f7fa0516afff2513659
+    - 14792e82613e4cd3b808cb58a7cca206
+- name: Beanie's Big Beatdown
+  db_uuid: dc203654ddac4ba8a2c813ae1f56e739
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - c7cc2a824fab4b5dad84a3f863605373
+- name: Boppi Not Nice!
+  db_uuid: 5cd084cceeef4f7fa0516afff2513659
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If you hit a card with "Barricade", "Beatdown", or "Blindside" in teh name last turn, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - c7cc2a824fab4b5dad84a3f863605373
+- name: You Naked!
+  db_uuid: 14792e82613e4cd3b808cb58a7cca206
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.
+
+    If your opponent has no cards in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - c7cc2a824fab4b5dad84a3f863605373
 - name: Moxie
   db_uuid: 832a2522203547d99ceef3c759d18c0f
   srg_url: https://supershowthegame.com/product/moxie/

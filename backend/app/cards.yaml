@@ -35003,6 +35003,54 @@
   grapple: 8
   rules_text: When you hit a card with "Chair" in the name, reveal the top 3 cards of your opponent's deck.  Bury 1 of them and put the others back in any order.
   tags: []
+  related_finishes:
+    - eb09ae9b7edb4b42a2b96771c8c87455
+    - b906491aa7f84badb0f0d229e5672682
+    - 25930f205a2b489fb50aaaa0ba18f444
+- name: Spur the Horse
+  db_uuid: eb09ae9b7edb4b42a2b96771c8c87455
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +2 to Strike
+
+    Search your deck for 2 cards.  Put 1 on top of yoru deck and the other in your discard pile.'
+  tags: []
+  related_cards:
+    - 8be0afa58eb049048feb204eac5b48d2
+- name: 1, 2, 3... Chair Shot
+  db_uuid: b906491aa7f84badb0f0d229e5672682
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +3 to Agility
+
+    If stopped, discard 1 card from your hand or you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 8be0afa58eb049048feb204eac5b48d2
+- name: Pushing Up Daisies
+  db_uuid: 25930f205a2b489fb50aaaa0ba18f444
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Submission
+
+    When this card is in your discard pile, you cannot lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 8be0afa58eb049048feb204eac5b48d2
 - name: The Dangerous Flower
   db_uuid: 34c5ce20f09847719ef1e45862a5efdb
   srgpc_url: https://www.srgpc.net/cards/competitors/the-dangerous-flower/

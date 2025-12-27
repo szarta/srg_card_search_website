@@ -34015,6 +34015,7 @@
     - 0205f2be185343c18bf0098ff3edbb64
 - name: CLV
   db_uuid: b4f043464fa64700b5dcfcfc57069e62
+  srgpc_url: https://www.srgpc.net/cards/competitors/clv/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -55049,6 +55050,7 @@
     - 94270efc99d94d3a9c0542e61b1d81d6
 - name: CMC
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
+  srgpc_url: https://www.srgpc.net/competitor/cmc/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -55060,6 +55062,60 @@
   grapple: 8
   rules_text: 'When you roll Submission for your turn roll: Draw 1 card then flip 1 card.'
   tags: []
+  related_finishes:
+    - 9b7b89b5f78e4255bfd4887eefca1efc
+    - edf57dcb999546d1b2c6561286f2a4c4
+    - 7d447052cc2c4508a50e650303489095
+- name: Catch My Chancla
+  db_uuid: 9b7b89b5f78e4255bfd4887eefca1efc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 1 card and shuffle it into their deck.'
+  tags: []
+  related_cards:
+    - b647153b60ef4c158f6f47887b8d0bf2
+- name: Pazuzu Bomb
+  db_uuid: edf57dcb999546d1b2c6561286f2a4c4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Draw 2 cards.
+
+    Shuffle up to 6 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - b647153b60ef4c158f6f47887b8d0bf2
+- name: CMCastigo
+  db_uuid: 7d447052cc2c4508a50e650303489095
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Grapple
+
+    Each player discards 1 card from their hand.
+
+    Your opponent randomly discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - b647153b60ef4c158f6f47887b8d0bf2
 - name: Cock-a-Doodle Dick Thunderlips
   db_uuid: 1dcda13fa9d445f1a8347d6f2e54bdae
   srg_url: https://supershowthegame.com/product/cock-a-doodle-dick-thunderlips/

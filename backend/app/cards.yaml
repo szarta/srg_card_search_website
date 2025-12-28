@@ -35081,6 +35081,58 @@
   grapple: 10
   rules_text: 'When you roll Power for your turn roll: Each player draws 1 card, then your opponent randomly discards 1 card from their hand.'
   tags: []
+  related_finishes:
+    - 623339c3f904498bbce86023b4c05fda
+    - d7e70c8840af4b6291bd52b3491509aa
+    - 0b92e41e44154dc1941b63af833ccc7a
+- name: Tequila Superkick
+  db_uuid: 623339c3f904498bbce86023b4c05fda
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Your opponent flips 3 cards.'
+  tags: []
+  related_cards:
+    - c7247d6b75874825b4fb6fa3d9a006e6
+- name: Devotion DDT
+  db_uuid: d7e70c8840af4b6291bd52b3491509aa
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Draw up to 4 cards and your opponent draws the same number of cards.
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - c7247d6b75874825b4fb6fa3d9a006e6
+- name: Very Nice, Very Kneevil
+  db_uuid: 0b92e41e44154dc1941b63af833ccc7a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - c7247d6b75874825b4fb6fa3d9a006e6
 - name: Danny Briggs
   db_uuid: 8bc44c4b3faf4c49b45234f68dfeae29
   srgpc_url: https://www.srgpc.net/cards/competitors/danny-briggs/

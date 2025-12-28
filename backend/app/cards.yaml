@@ -25040,6 +25040,7 @@
   tags: []
 - name: Duff Martin
   db_uuid: 3adafe5c67f745d891f6efe9697db0c7
+  srgpc_url: https://www.srgpc.net/cards/competitors/duff-martin/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

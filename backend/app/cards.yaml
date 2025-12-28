@@ -27855,6 +27855,38 @@
 
     You may force your opponent to re-roll their Finish roll.'
   tags: []
+  related_finishes:
+    - 65d0d0ae35b6409486343c3893772424
+    - 77ad3715eec24b2facad59c5cd644c39
+    - 1b9c4c4abe2141edb86cb543267ba004
+- name: Turning Point
+  db_uuid: 65d0d0ae35b6409486343c3893772424
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Switch Gimmicks with your opponent for the rest of the match.'
+  tags: []
+  related_cards:
+    - 6bc2e09bc00f4936b33bbddfccb8fa10
+- name: Physically Necrosis
+  db_uuid: 77ad3715eec24b2facad59c5cd644c39
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    If stopped, put this card on top of your deck, then put 1 card from your hand on top of your deck.'
+  tags: []
+  related_cards:
+    - 6bc2e09bc00f4936b33bbddfccb8fa10
 - name: Candice LeRae
   db_uuid: 748132a3c93642228eb708ad10f1f1ac
   srg_url: https://supershowthegame.com/product/candice-lerae/
@@ -36252,6 +36284,9 @@
 
     If you re-roll your Finish roll, your Finish roll is +2.'
   tags: []
+  related_cards:
+    - 323e4ac05b4a4492b4530097511d113f 
+    - 6bc2e09bc00f4936b33bbddfccb8fa10
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
   card_type: SingleCompetitorCard

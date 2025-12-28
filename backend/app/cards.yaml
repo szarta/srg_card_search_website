@@ -1358,7 +1358,7 @@
   tags: []
   related_cards:
     - c55b4d45a80342fd985aae1570e1ab61
-- name: High Tide
+- name: High Tide (Agatha Mai)
   db_uuid: 1786be24bdf54c4fa509e787930bc12d
   srg_url: https://supershowthegame.com/product/agatha-mai/
   card_type: MainDeckCard
@@ -27060,6 +27060,7 @@
     - 8cc441c7425945b9830ffc49680e1987
 - name: Dump Sanders
   db_uuid: b2b48a849731415fadfedd06451a6085
+  srgpc_url: https://www.srgpc.net/cards/competitors/dump-sanders/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -27071,6 +27072,52 @@
   grapple: 8
   rules_text: When your opponent hits a Grapple, you may discard 1 card to blank its text.
   tags: []
+  related_finishes:
+    - 94522c334f5b4a84b3dc8a874b1c7fa4
+    - dc8a1b49d53549c2bc7509947d1046ad
+    - 2bee0860c34e434a809d1f59b61f6e62
+- name: Alabama Jam
+  db_uuid: 94522c334f5b4a84b3dc8a874b1c7fa4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If your opponent does not have a Grapple in play, +1 to Strike.'
+  tags: []
+  related_cards:
+    - b2b48a849731415fadfedd06451a6085
+- name: High Tide (Dump Sanders)
+  db_uuid: dc8a1b49d53549c2bc7509947d1046ad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    Add 2 cards with "Roll" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - b2b48a849731415fadfedd06451a6085
+- name: Dumpster Bear Hug
+  db_uuid: 2bee0860c34e434a809d1f59b61f6e62
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    If you have "Bear Hug" in play, your opponent''s Agility is -2.'
+  tags: []
+  related_cards:
+    - b2b48a849731415fadfedd06451a6085
 - name: EC3 (V1)
   db_uuid: d9db7a7d43b84ebd9f88690827d1327b
   card_type: SingleCompetitorCard

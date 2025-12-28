@@ -35248,6 +35248,54 @@
   grapple: 8
   rules_text: You may bury 4 cards in your hand to re-roll your turn roll.
   tags: []
+  related_finishes:
+    - e24ccc8c1b1642ae98fc01ba4d4dad48
+    - 4eed44b78a384bc1aff1a6fc78ca0bce
+    - a68bd021189b4e3c8d2522c02d312c64
+- name: Yakuza Kick
+  db_uuid: e24ccc8c1b1642ae98fc01ba4d4dad48
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Draw 4 cards.'
+  tags: []
+  related_cards:
+    - e072664507f64381bf3c7bf0971a5039
+- name: Royal Sweep
+  db_uuid: 4eed44b78a384bc1aff1a6fc78ca0bce
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    If you have 6 or fewer cards in your hand, your Finish roll is instead +2.'
+  tags: []
+  related_cards:
+    - e072664507f64381bf3c7bf0971a5039
+- name: Royal Sleeper
+  db_uuid: a68bd021189b4e3c8d2522c02d312c64
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    If you re-rolled your turn roll, this card is also a Follow Up.
+
+    Draw 1 card for each Follow Up you have in play.'
+  tags: []
+  related_cards:
+    - e072664507f64381bf3c7bf0971a5039
 - name: Dastardly Dick Thunderlips (V1)
   db_uuid: f95778408dbf46dca6c1450f3d8b7967
   srg_url: https://supershowthegame.com/product/dastardly-dick-thunderlips/

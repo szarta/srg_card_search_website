@@ -56721,6 +56721,22 @@
   grapple: 8
   rules_text: When you hit a Lead or Follow Up Submission, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 08ca68f2a4914f26867340285806cdf2
+- name: The Gu-Lock
+  db_uuid: 08ca68f2a4914f26867340285806cdf2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    When you have 4 other Submission cards in play this card cannot be stopped.
+
+    Your opponent''s next roll is -1 for each other Submission you have in play.'
+  tags: []
+  related_cards:
+    - e161ad4f6b464065a78c1519b7da5da9
 - name: Deathmatch King Matt Cardona
   db_uuid: b3c837b732a54281aa9169ab1d46d42f
   srg_url: https://supershowthegame.com/product/deathmatch-king/

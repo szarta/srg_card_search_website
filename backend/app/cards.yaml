@@ -36757,6 +36757,7 @@
   tags: []
 - name: Duncan Avecilla
   db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0
+  srgpc_url: https://www.srgpc.net/cards/competitors/duncan-avecilla/
   card_type: SingleCompetitorCard
   division: Global
   power: 7
@@ -56996,6 +56997,54 @@
   grapple: 6
   rules_text: Your Submission skill is +1 for each Strike you have in play (Max +2).
   tags: []
+  related_finishes:
+    - 87a38301b02c4a6fb5f9e69c513251f9
+    - 14e66ac372014a7084f21f3e969e7e80
+    - 89b8b131a2274ab587461eee3294be23
+- name: Southside Jamaica Queens Torpedo
+  db_uuid: 87a38301b02c4a6fb5f9e69c513251f9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Draw 1 card for each Strike you have in play.'
+  tags: []
+  related_cards:
+    - fcaef71cfd7342628ffc1485d1957aaf
+- name: Detention!
+  db_uuid: 14e66ac372014a7084f21f3e969e7e80
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +3 to Grapple
+
+    If your opponent breaks out, put 1 Lead or Follow Up from your discard pile into play.'
+  tags: []
+  related_cards:
+    - fcaef71cfd7342628ffc1485d1957aaf
+- name: Fixing Penmanship
+  db_uuid: 89b8b131a2274ab587461eee3294be23
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    If the Crowd Meter is 2 or Greater, your opponent''s Gimmick is blank for the rest of the match.'
+  tags: []
+  related_cards:
+    - fcaef71cfd7342628ffc1485d1957aaf
 - name: El Cerebro
   db_uuid: 389c3b62d4e5419fad9bbf3037a45aac
   srgpc_url: https://www.srgpc.net/competitor/el-cerebro/

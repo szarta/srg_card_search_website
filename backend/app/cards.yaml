@@ -36285,7 +36285,7 @@
     If you re-roll your Finish roll, your Finish roll is +2.'
   tags: []
   related_cards:
-    - 323e4ac05b4a4492b4530097511d113f 
+    - 323e4ac05b4a4492b4530097511d113f
     - 6bc2e09bc00f4936b33bbddfccb8fa10
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
@@ -36430,6 +36430,7 @@
     - f36eb754adea41d9a79b1bb5630ba01c
 - name: Dosmody the Snowman
   db_uuid: 426cb6e5acba479d81211a14c08f4fda
+  srgpc_url: https://www.srgpc.net/competitors/dosmody-the-snowman/
   card_type: SingleCompetitorCard
   gender: Male
   power: 9
@@ -36442,6 +36443,10 @@
 
     Your opponent cannot increase their breakout rolls.'
   tags: []
+  related_finishes:
+    - 8cbd2bdedb7740b488b69aa03b27b2b8
+    - 90b2a5e4058948d6953ee3fce5874767
+    - e5616e131f114f7ab922d75049cc3fd9
 - name: Downriver Drew
   db_uuid: 8eb51cb3025f4fddaf61bd30f807d172
   srg_url: https://supershowthegame.com/product/downriver-drew/
@@ -42640,7 +42645,7 @@
   tags: []
   related_cards:
     - def74dd5530540ce8a9e903bc10fd620
-- name: The Sky Fall
+- name: The Sky Fall (Loudmouth Leo Larynx)
   db_uuid: 861f6ccd96d04377a4bcac8e6d4fd83d
   card_type: MainDeckCard
   atk_type: Strike
@@ -43511,6 +43516,53 @@
 
     When the Crowd Meter is 2 or greater, put 1 Lead and 1 Follow Up from your discard pile into play instead.'
   tags: []
+  related_finishes:
+    - 8cbd2bdedb7740b488b69aa03b27b2b8
+    - 90b2a5e4058948d6953ee3fce5874767
+    - e5616e131f114f7ab922d75049cc3fd9
+- name: The Sky Fall (Master Dosmodious)
+  db_uuid: 8cbd2bdedb7740b488b69aa03b27b2b8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and either player breaks out, you may shuffle it into your deck.'
+  tags: []
+  related_cards:
+    - 0a2b9d6fc8f74186a5088cad2858e64a
+    - 426cb6e5acba479d81211a14c08f4fda
+- name: Power Mad Toss
+  db_uuid: 90b2a5e4058948d6953ee3fce5874767
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    Your opponent flips 1 card, you draw 1 card, then bury 1 card in your opponent''s discard pile.
+
+    When you have "Gut Wrench" in play, triple these bonuses.'
+  tags: []
+  related_cards:
+    - 0a2b9d6fc8f74186a5088cad2858e64a
+    - 426cb6e5acba479d81211a14c08f4fda
+- name: Death Choke (Master Dosmodious)
+  db_uuid: e5616e131f114f7ab922d75049cc3fd9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    When the Crowd Meter is 3 or greater, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - 0a2b9d6fc8f74186a5088cad2858e64a
+    - 426cb6e5acba479d81211a14c08f4fda
 - name: Mastermind
   db_uuid: 31b5d4f1aa0743b4bc3d0622d81b0d92
   srgpc_url: https://www.srgpc.net/cards/competitors/mastermind/

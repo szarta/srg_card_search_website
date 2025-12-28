@@ -35358,6 +35358,7 @@
   related_cards:
     - f95778408dbf46dca6c1450f3d8b7967
     - f30a1db266744fc0b201dbf7d2fd3f90
+    - 323e4ac05b4a4492b4530097511d113f
 - name: Billion-Fold Trichiliocosm Buster
   db_uuid: 55a8ab46b35f4279942a7d3245abb51e
   card_type: MainDeckCard
@@ -35373,6 +35374,7 @@
   related_cards:
     - f95778408dbf46dca6c1450f3d8b7967
     - f30a1db266744fc0b201dbf7d2fd3f90
+    - 323e4ac05b4a4492b4530097511d113f
 - name: Release Control Art Restriction Zero
   db_uuid: bdd44e9db09c4edd9186dd1d158922d2
   card_type: MainDeckCard
@@ -36148,6 +36150,65 @@
   submission: 8
   grapple: 9
   rules_text: When you hit a Spotlight your next turn roll is +2.
+  tags: []
+  related_finishes:
+    - 852c77e809974386bfb8023ff2b70d47
+    - 829558750e004882b6edd66ee7024f64
+    - c28f5da49868464bb43d5ed51ef25bb9
+    - 22fc31f1623c47ddbe0181323885ff64
+    - 55a8ab46b35f4279942a7d3245abb51e
+    - 1b9c4c4abe2141edb86cb543267ba004
+- name: The Pipin' Hot Scoop
+  db_uuid: 852c77e809974386bfb8023ff2b70d47
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish roll is +1 for each Spotlight you have in play.
+
+    If stopped, unless you have at least 6 Spotlight cards in play you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 323e4ac05b4a4492b4530097511d113f
+- name: The D-Roll
+  db_uuid: 829558750e004882b6edd66ee7024f64
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile, it copies the text of each Spotlight you have in play.'
+  tags: []
+  related_cards:
+    - 323e4ac05b4a4492b4530097511d113f
+- name: Top Story
+  db_uuid: c28f5da49868464bb43d5ed51ef25bb9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Finish roll is 8.
+
+    Your opponent''s 3rd Breakout roll is +1.
+
+    Shuffle any number of cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 323e4ac05b4a4492b4530097511d113f
+- name: Stardust Handshake
+  db_uuid: 1b9c4c4abe2141edb86cb543267ba004
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    If you re-roll your Finish roll, your Finish roll is +2.'
   tags: []
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243

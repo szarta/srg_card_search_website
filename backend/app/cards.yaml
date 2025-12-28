@@ -25042,6 +25042,7 @@
   db_uuid: 3adafe5c67f745d891f6efe9697db0c7
   card_type: SingleCompetitorCard
   division: Hardcore
+  gender: Male
   power: 7
   technique: 6
   agility: 10
@@ -25052,6 +25053,10 @@
 
     If they have more cards in their hand than you, you may draw 1 card.'
   tags: []
+  related_finishes:
+    - 041a8d2a068e428c8ec859d0e30505d8
+    - 9c582846ba7c4456807088cebbdb2dc8
+    - a94781f350304b7494036b6062a30a20
 - name: Six Pack Attack
   db_uuid: 041a8d2a068e428c8ec859d0e30505d8
   card_type: MainDeckCard
@@ -25062,6 +25067,8 @@
 
     If you have fewer than 6 cards in your hand, draw 6 cards.'
   tags: []
+  related_cards:
+    - 3adafe5c67f745d891f6efe9697db0c7
 - name: Keg Stand
   db_uuid: 9c582846ba7c4456807088cebbdb2dc8
   card_type: MainDeckCard
@@ -25072,6 +25079,8 @@
 
     If stopped, search your deck for 1 card, add it to your hand, then shuffle.'
   tags: []
+  related_cards:
+    - 3adafe5c67f745d891f6efe9697db0c7
 - name: The Twist Off
   db_uuid: a94781f350304b7494036b6062a30a20
   card_type: MainDeckCard
@@ -25082,6 +25091,8 @@
 
     When this card is in your discard pile, your opponent cannot move Finishes from their discard pile to their hand.'
   tags: []
+  related_cards:
+    - 3adafe5c67f745d891f6efe9697db0c7
 - name: Devil's Reject G.P.S.
   db_uuid: bda6621e1c4841e9935454a5a54de480
   srg_url: https://supershowthegame.com/product/devils-reject-g-p-s/
@@ -36607,6 +36618,7 @@
     - 79c2cee5dffb4d51ac5a70f7f124cada
 - name: Drunken Master
   db_uuid: 89a3e95dd0044141836048a654029ee7
+  srgpc_url: https://www.srgpc.net/cards/competitors/drunken-zen-master/
   card_type: SingleCompetitorCard
   power: 8
   technique: 10

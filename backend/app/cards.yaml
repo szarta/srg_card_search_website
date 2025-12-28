@@ -36620,6 +36620,52 @@
 
     BACK: Cards in your opponent''s discards pile have blank text.'
   tags: []
+  related_finishes:
+    - e778afd4fc134596941db594acc5eaf0
+    - 9c881560fa7546b9914fc774e40f607b
+    - a478a4ab27af4b4ba2ba88c1bbb94e51
+- name: Wakizashi
+  db_uuid: e778afd4fc134596941db594acc5eaf0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    When the Crowd Meter is 5 or greater, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 89a3e95dd0044141836048a654029ee7
+- name: Kanabō
+  db_uuid: 9c881560fa7546b9914fc774e40f607b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 89a3e95dd0044141836048a654029ee7
+- name: ō-Yoroi
+  db_uuid: a478a4ab27af4b4ba2ba88c1bbb94e51
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    When this card is flipped, you may shuffle all other cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 89a3e95dd0044141836048a654029ee7
 - name: The Duke (V1)
   db_uuid: 1b4a21878c13419a9e643ce6359bae8a
   srg_url: https://supershowthegame.com/product/duke/
@@ -56710,6 +56756,7 @@
     - a371e756c06840968b6a0d030ca4b737
 - name: Drew Gulak
   db_uuid: e161ad4f6b464065a78c1519b7da5da9
+  srgpc_url: https://www.srgpc.net/cards/competitors/drew-gulak/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male

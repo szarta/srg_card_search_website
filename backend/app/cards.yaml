@@ -31322,8 +31322,16 @@
   rules_text: When you hit a Strike card, flip 2 cards then take 1 stop card in your discard pile and add it to your hand.
   tags:
     - Old School
+  related_finishes:
+    - 41ab0e1f471e4edda8e1a6f56b3a6f31
+    - 0792f0a744144659aef6bbfcf901b8ac
+    - 9b5b1c73795844029d0eef98032e909f
+    - 04b3ff0781c444e79e0fe3cc13b87f91
+    - 3edd1bd9b56e4f508cf344b7476c372e
+    - b7f0cec237974226b40e85f1969817c8
 - name: El Blanco Diablo (V2)
   db_uuid: 3c782c62e1c346ad9265dfc82d3131ca
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-blanco-diablo/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -31336,6 +31344,105 @@
   rules_text: Your opponent's maximum handsize is -1 for each stop they have in play (Max -5).
   tags:
     - Old School
+  related_finishes:
+    - 41ab0e1f471e4edda8e1a6f56b3a6f31
+    - 0792f0a744144659aef6bbfcf901b8ac
+    - 9b5b1c73795844029d0eef98032e909f
+    - 04b3ff0781c444e79e0fe3cc13b87f91
+    - 3edd1bd9b56e4f508cf344b7476c372e
+    - b7f0cec237974226b40e85f1969817c8
+- name: Black Monday
+  db_uuid: 41ab0e1f471e4edda8e1a6f56b3a6f31
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    For each Stop your opponent has in play, shuffle 1 card from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
+- name: The Devil's Twister
+  db_uuid: 0792f0a744144659aef6bbfcf901b8ac
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    For each stop your opponent has in play, your opponent flips 1 card then buries 1 card in their hand.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
+- name: The Devil's Triangle
+  db_uuid: 9b5b1c73795844029d0eef98032e909f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    If your opponent rolls their 3rd Breakout roll, add 3 cards in play to your hand.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
+- name: The Market Crash
+  db_uuid: 04b3ff0781c444e79e0fe3cc13b87f91
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +1 to Technique
+
+    Flip 2 cards then add 1 Stop card in your discard pile to your hand.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
+- name: El Tornadiablo
+  db_uuid: 3edd1bd9b56e4f508cf344b7476c372e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Your opponent flips 2 cards.  Bury 10 cards in your opponent''s discard pile.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
+- name: The Greater Depression
+  db_uuid: b7f0cec237974226b40e85f1969817c8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Bury 2 cards in your opponent''s discard pile for each Submission card you have in play.'
+  tags:
+    - Old School
+  related_cards:
+    - fbc6b406877442389762487515cd1b5d
+    - 3c782c62e1c346ad9265dfc82d3131ca
 - name: Bronzeberg
   db_uuid: f3f1d79c227847a584755e0b23843fc9
   srgpc_url: https://www.srgpc.net/competitors/bronzeberg/

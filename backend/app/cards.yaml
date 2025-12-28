@@ -36140,6 +36140,7 @@
     - 251d99d79e864af58762a6926801d0e9
 - name: Dick Thunderlips
   db_uuid: 323e4ac05b4a4492b4530097511d113f
+  srgpc_url: https://www.srgpc.net/cards/competitors/dick-thunderlips/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -36227,6 +36228,7 @@
   tags: []
 - name: Dirty Eddy (V1)
   db_uuid: e11da46d6f07469b8bb42e3fff7800b7
+  srgpc_url: https://www.srgpc.net/cards/competitors/dirty-eddy/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -36238,8 +36240,16 @@
   grapple: 10
   rules_text: 'Once during each of your turns: You may reveal 1 card in your hand, shuffle it into your deck and draw 1 card.'
   tags: []
+  related_finishes:
+    - 038624fbe2104032ac6da35543f3dbd8
+    - 98ccabd351ce4bd0844a796045eeab0c
+    - b9d112a7fb6341ffbb8b801acc3daab2
+    - 586692b3d15d4b2189abdfdd80a01aa5
+    - fd91908a81fc4026b036ce3d4014f9a8
+    - dc3007ee381f4eb9ac5890e2c3ebac7f
 - name: Dirty Eddy (V2)
   db_uuid: f36eb754adea41d9a79b1bb5630ba01c
+  srgpc_url: https://www.srgpc.net/cards/competitors/dirty-eddy/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -36251,6 +36261,97 @@
   grapple: 10
   rules_text: 'At the start of the match: If your opponent is a Female, draw 4 cards.  If they are not, choose Power, Technique, or Agility. Your opponent''s skill of the chosen type is -1 during their turn and turn rolls.'
   tags: []
+  related_finishes:
+    - 038624fbe2104032ac6da35543f3dbd8
+    - 98ccabd351ce4bd0844a796045eeab0c
+    - b9d112a7fb6341ffbb8b801acc3daab2
+    - 586692b3d15d4b2189abdfdd80a01aa5
+    - fd91908a81fc4026b036ce3d4014f9a8
+    - dc3007ee381f4eb9ac5890e2c3ebac7f
+- name: Mustache Ryde (V1)
+  db_uuid: 038624fbe2104032ac6da35543f3dbd8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    When this card is revaeled from your hand, draw 1 card.'
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
+- name: What About Me DDT (V1)
+  db_uuid: 98ccabd351ce4bd0844a796045eeab0c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    If you revealed this card for your Gimmick this turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
+- name: Hard Lessons (V1)
+  db_uuid: b9d112a7fb6341ffbb8b801acc3daab2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If your Finish roll is 8 or greater it is +2.
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
+- name: Mustache Ryde (V2)
+  db_uuid: 586692b3d15d4b2189abdfdd80a01aa5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    Choose 1 card your opponent has in their discard pile and add it to their hand.
+
+    Your opponent randomly buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
+- name: What About Me DDT (V2)
+  db_uuid: fd91908a81fc4026b036ce3d4014f9a8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Your opponent draws 6 cards, then buries 9 cards in their hand.'
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
+- name: Hard Lessons (V2)
+  db_uuid: dc3007ee381f4eb9ac5890e2c3ebac7f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Submission'
+  tags: []
+  related_cards:
+    - e11da46d6f07469b8bb42e3fff7800b7
+    - f36eb754adea41d9a79b1bb5630ba01c
 - name: Dosmody the Snowman
   db_uuid: 426cb6e5acba479d81211a14c08f4fda
   card_type: SingleCompetitorCard

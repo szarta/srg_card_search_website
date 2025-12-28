@@ -29646,6 +29646,7 @@
     - d06978f5f81f477bb9dd27d0287c0008
 - name: Eddy Fury (V1)
   db_uuid: 8c96f132507449afa563c6735c9c8bd3
+  srgpc_url: https://www.srgpc.net/cards/competitors/eddy-fury/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 5
@@ -29656,8 +29657,13 @@
   grapple: 10
   rules_text: Your Power is + the Crowd Meter during your turn and turn rolls.
   tags: []
+  related_finishes:
+    - dd01000d9b2642c1a5ca66b3ae957585
+    - d83d00bf6e124785914d41da33e54067
+    - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
 - name: Eddy Fury (V2)
   db_uuid: b3980be255534765ae5208f788838e40
+  srgpc_url: https://www.srgpc.net/cards/competitors/eddy-fury/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 5
@@ -29668,8 +29674,13 @@
   grapple: 10
   rules_text: Your Power is + the Crowd Meter.
   tags: []
+  related_finishes:
+    - dd01000d9b2642c1a5ca66b3ae957585
+    - d83d00bf6e124785914d41da33e54067
+    - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
 - name: Eddy Fury (V3)
   db_uuid: 894eccb4c2544059906d26ee3fc10ad1
+  srgpc_url: https://www.srgpc.net/cards/competitors/eddy-fury/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 5
@@ -29684,6 +29695,54 @@
 
     BACK: Your Power is + the Crowd Meter.'
   tags: []
+  related_finishes:
+    - dd01000d9b2642c1a5ca66b3ae957585
+    - d83d00bf6e124785914d41da33e54067
+    - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+- name: Fist of Fury
+  db_uuid: dd01000d9b2642c1a5ca66b3ae957585
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    If stopped, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 8c96f132507449afa563c6735c9c8bd3
+    - b3980be255534765ae5208f788838e40
+    - 894eccb4c2544059906d26ee3fc10ad1
+- name: The Wild Card
+  db_uuid: d83d00bf6e124785914d41da33e54067
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Choose 1 card your opponent has in play, this card copies its text.'
+  tags: []
+  related_cards:
+    - 8c96f132507449afa563c6735c9c8bd3
+    - b3980be255534765ae5208f788838e40
+    - 894eccb4c2544059906d26ee3fc10ad1
+- name: The Cash Out
+  db_uuid: 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'You may discard this card from your hand to add +2 to your Breakout roll.
+
+    If you do, randomly bury the rest of your hand.'
+  tags: []
+  related_cards:
+    - 8c96f132507449afa563c6735c9c8bd3
+    - b3980be255534765ae5208f788838e40
+    - 894eccb4c2544059906d26ee3fc10ad1
 - name: King Hyena
   db_uuid: d1f6203619c34913b98ebd9cc559c9a4
   card_type: SingleCompetitorCard

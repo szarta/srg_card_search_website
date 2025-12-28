@@ -36018,6 +36018,7 @@
   tags: []
 - name: Diabolik
   db_uuid: ebc7f25eaba1461aa7d083ff0807f003
+  srgpc_url: https://www.srgpc.net/cards/competitors/diabolik/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -36029,6 +36030,56 @@
   grapple: 8
   rules_text: When you hit a card with "Slam" in the name, your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Slam" in the name, choose 1 of those revealed cards and bury it.
   tags: []
+  related_finishes:
+    - 7f16300aad4e4fc48b4a2c6ab460c4d0
+    - 374b01584ba74550a62631e899374129
+    - 3084f3e681da41fe89f404e8418f603f
+- name: Kilt Check
+  db_uuid: 7f16300aad4e4fc48b4a2c6ab460c4d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If your opponent looks at your hand, you may play this card from your hand as if it were a Lead
+
+    (It can be stopped as normal).'
+  tags: []
+  related_cards:
+    - ebc7f25eaba1461aa7d083ff0807f003
+- name: Diabolisis
+  db_uuid: 374b01584ba74550a62631e899374129
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    If your opponent breaks out, put 1 Lead Grapple from your discard pile into play.'
+  tags: []
+  related_cards:
+    - ebc7f25eaba1461aa7d083ff0807f003
+- name: I. Am. Diabolik.
+  db_uuid: 3084f3e681da41fe89f404e8418f603f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Add any number of cards with "Slam" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - ebc7f25eaba1461aa7d083ff0807f003
 - name: Diamond Danny G
   db_uuid: 251d99d79e864af58762a6926801d0e9
   srg_url: https://supershowthegame.com/product/diamond-danny-g/

@@ -36967,6 +36967,50 @@
   grapple: 8
   rules_text: When your opponent hits a Grapple, reveal the bottom card of your deck and add it to your hand.
   tags: []
+  related_finishes:
+    - a1154dc65b3044b692d42dd36188c801
+    - 349527d77645487587bfb04b0bdaaed5
+    - ec06826801bb43dab5f8184444fd2eed
+- name: Hip Plunge
+  db_uuid: a1154dc65b3044b692d42dd36188c801
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    During your turn: If this card is revealed for your Gimmick, you may play it as an additional card this turn.'
+  tags: []
+  related_cards:
+    - a7a0d3d4a80346d8a6a52bb54435ed98
+- name: Effy DDT
+  db_uuid: 349527d77645487587bfb04b0bdaaed5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    If your opponent hit a Submission last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - a7a0d3d4a80346d8a6a52bb54435ed98
+- name: Dragon Queen Sleeper
+  db_uuid: ec06826801bb43dab5f8184444fd2eed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent gets 2 Breakout rolls this turn.
+
+    If your opponent hit a Strike last turn, +2 to Power and +2 to Technique.'
+  tags: []
+  related_cards:
+    - a7a0d3d4a80346d8a6a52bb54435ed98
 - name: El Gato Sombrio (V1)
   db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
   card_type: SingleCompetitorCard

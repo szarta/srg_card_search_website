@@ -35299,6 +35299,7 @@
 - name: Dastardly Dick Thunderlips (V1)
   db_uuid: f95778408dbf46dca6c1450f3d8b7967
   srg_url: https://supershowthegame.com/product/dastardly-dick-thunderlips/
+  srgpc_url: https://www.srgpc.net/cards/competitors/dastardly-dick-thunderlips/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -35313,6 +35314,7 @@
 - name: Dastardly Dick Thunderlips (V2)
   db_uuid: f30a1db266744fc0b201dbf7d2fd3f90
   srg_url: https://supershowthegame.com/product/dastardly-dick-2-0/
+  srgpc_url: https://www.srgpc.net/cards/competitors/dastardly-dick-thunderlips/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -35324,6 +35326,57 @@
   grapple: 7
   rules_text: Your opponent cannot increase or decrease turn rolls.
   tags: []
+  related_finishes:
+    - 22fc31f1623c47ddbe0181323885ff64
+    - 55a8ab46b35f4279942a7d3245abb51e
+    - bdd44e9db09c4edd9186dd1d158922d2
+- name: The Drill That Will Pierce Heavens
+  db_uuid: 22fc31f1623c47ddbe0181323885ff64
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    Add 1 card from your discard pile to your hand.
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - f95778408dbf46dca6c1450f3d8b7967
+    - f30a1db266744fc0b201dbf7d2fd3f90
+- name: Billion-Fold Trichiliocosm Buster
+  db_uuid: 55a8ab46b35f4279942a7d3245abb51e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, choose 2 cards and bury them.'
+  tags: []
+  related_cards:
+    - f95778408dbf46dca6c1450f3d8b7967
+    - f30a1db266744fc0b201dbf7d2fd3f90
+- name: Release Control Art Restriction Zero
+  db_uuid: bdd44e9db09c4edd9186dd1d158922d2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent forces you to bury a card, draw 1 card.'
+  tags: []
+  related_cards:
+    - f95778408dbf46dca6c1450f3d8b7967
+    - f30a1db266744fc0b201dbf7d2fd3f90
 - name: Davey Richards
   db_uuid: e9e692f8a8c248d6aceb81e6232b53db
   srgpc_url: https://www.srgpc.net/cards/competitors/davey-richards/

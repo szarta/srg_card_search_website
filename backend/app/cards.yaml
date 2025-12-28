@@ -35173,6 +35173,67 @@
 
     When you roll Agility for your turn or Finish roll, you may bury 1 card in your discard pile and shuffle your hand into your deck and draw 6 cards.'
   tags: []
+  related_finishes:
+    - b79be514c1c248f8a045e6aa440bb660
+    - 3f9f1280923d4e939382937cec2f34b0
+    - a6b2b9bba15347ada968db83e0e12e23
+    - 03d4f6f63eb14a5a907b4da65c2951ed
+- name: 360 Over the Top Tornillo Dive
+  db_uuid: b79be514c1c248f8a045e6aa440bb660
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +3 to Strike
+
+    Flip 3 cards.
+
+    Bury 2 cards in your hand.'
+  tags: []
+  related_cards:
+    - ade41d5ac0b6435f978ed5505e67ec18
+- name: Salsa Dance
+  db_uuid: 3f9f1280923d4e939382937cec2f34b0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    When this card is in your discard pile and your opponent would move any number of cards from their discard pile to their hand, you may add this card to your hand instead.'
+  tags: []
+  related_cards:
+    - ade41d5ac0b6435f978ed5505e67ec18
+- name: Symbiote DDT
+  db_uuid: a6b2b9bba15347ada968db83e0e12e23
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - ade41d5ac0b6435f978ed5505e67ec18
+- name: Morir Soñado
+  db_uuid: 03d4f6f63eb14a5a907b4da65c2951ed
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    Bury up to 5 cards in your hand, your Submission skill is +1 for each card buried.'
+  tags: []
+  related_cards:
+    - ade41d5ac0b6435f978ed5505e67ec18
 - name: Darius Carter
   db_uuid: e072664507f64381bf3c7bf0971a5039
   srgpc_url: https://www.srgpc.net/cards/competitors/darius-carter/

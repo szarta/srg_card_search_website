@@ -36512,6 +36512,7 @@
     - 8eb51cb3025f4fddaf61bd30f807d172
 - name: Dr. Emily Booker (V1)
   db_uuid: 836b424a74fd4d6d89eab215f184615e
+  srgpc_url: https://www.srgpc.net/cards/competitors/dr-emily-booker/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -36523,8 +36524,13 @@
   grapple: 8
   rules_text: 'When you roll Submission for your turn roll: Look at your opponent''s hand and you may switch 1 non-Stop card in their hand with 1 card in their discard pile.'
   tags: []
+  related_finishes:
+    - 4413468e091948fd947b1d282922ba73
+    - 3886322216ca472d83768951136b0fbd
+    - 40dc97697b0e4654aa648222731658e3
 - name: Dr. Emily Booker (V2)
   db_uuid: 79c2cee5dffb4d51ac5a70f7f124cada
+  srgpc_url: https://www.srgpc.net/cards/competitors/dr-emily-booker/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female
@@ -36538,6 +36544,53 @@
 
     When you hit a card with an odd card number, draw 1 card.'
   tags: []
+  related_finishes:
+    - 4413468e091948fd947b1d282922ba73
+    - 3886322216ca472d83768951136b0fbd
+    - 40dc97697b0e4654aa648222731658e3
+- name: Dental Drill
+  db_uuid: 4413468e091948fd947b1d282922ba73
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Flip cards until you flip a Strike.
+
+    Your Power and Strike are +1 for each card flipped.
+
+    Add 1 card from your discard pile to your hand.  If you have 0 cards in your deck, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 836b424a74fd4d6d89eab215f184615e
+    - 79c2cee5dffb4d51ac5a70f7f124cada
+- name: Dental Chair Drop
+  db_uuid: 3886322216ca472d83768951136b0fbd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 836b424a74fd4d6d89eab215f184615e
+    - 79c2cee5dffb4d51ac5a70f7f124cada
+- name: Full Mouth Extraction
+  db_uuid: 40dc97697b0e4654aa648222731658e3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Strike
+
+    Look at your opponent''s hand.  You may switch up to 6 cards in their hand with the same number of cards in their discard pile.'
+  tags: []
+  related_cards:
+    - 836b424a74fd4d6d89eab215f184615e
+    - 79c2cee5dffb4d51ac5a70f7f124cada
 - name: Drunken Master
   db_uuid: 89a3e95dd0044141836048a654029ee7
   card_type: SingleCompetitorCard

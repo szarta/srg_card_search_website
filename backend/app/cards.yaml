@@ -27120,6 +27120,7 @@
     - b2b48a849731415fadfedd06451a6085
 - name: EC3 (V1)
   db_uuid: d9db7a7d43b84ebd9f88690827d1327b
+  srg_url: https://www.srgpc.net/cards/competitors/ec3/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -27131,8 +27132,52 @@
   grapple: 5
   rules_text: At the start of the match draw 3 cards.  Your first turn roll is +3.
   tags: []
+  related_finishes:
+    - 2f47142a4931482fb7726c047f846591
+    - f114765fcd3647bdbf92ffe18bd91b80
+    - 30d4e95cdbff4e3392c91c82c4126a56
+- name: The EC Splash
+  db_uuid: 2f47142a4931482fb7726c047f846591
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Draw 5 cards.
+  tags: []
+  related_cards:
+    - d9db7a7d43b84ebd9f88690827d1327b
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
+- name: The One Percenter
+  db_uuid: f114765fcd3647bdbf92ffe18bd91b80
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +4 to Grapple
+
+    Your opponent buries cards in their hand until they have one card in hand.'
+  tags: []
+  related_cards:
+    - d9db7a7d43b84ebd9f88690827d1327b
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
+- name: The EC Clutch
+  db_uuid: 30d4e95cdbff4e3392c91c82c4126a56
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    Your opponent buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - d9db7a7d43b84ebd9f88690827d1327b
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
 - name: EC3 (V2)
   db_uuid: bdfad56ca01a4a3e80a02b84a27ba5d2
+  srgpc_url: https://www.srgpc.net/cards/competitors/ec3-new/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -27144,6 +27189,55 @@
   grapple: 5
   rules_text: When your opponent has 3 or fewer cards in their hand, your Power, Technique, and Agility are +1.
   tags: []
+  related_finishes:
+    - 7af27ae329414c42a79789eba7ffddeb
+    - b50ee01efb0946faaeea4f9de5f15601
+    - 2ef739f2e1d74f758c39951a4dbca2d5
+    - 2f47142a4931482fb7726c047f846591
+    - f114765fcd3647bdbf92ffe18bd91b80
+    - 30d4e95cdbff4e3392c91c82c4126a56
+- name: '#Control'
+  db_uuid: 7af27ae329414c42a79789eba7ffddeb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    Your opponent''s maximum handsize is 3.'
+  tags: []
+  related_cards:
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
+- name: '#Freedom'
+  db_uuid: b50ee01efb0946faaeea4f9de5f15601
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +3 to Grapple
+
+    If stopped, your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
+- name: '#Purpose'
+  db_uuid: 2ef739f2e1d74f758c39951a4dbca2d5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    When this card is in your discar dpile, replace "3" with "6" in your Gimmick.'
+  tags: []
+  related_cards:
+    - bdfad56ca01a4a3e80a02b84a27ba5d2
 - name: El Campeon de las Llamas (V1)
   db_uuid: 437b04b0decd4d3f93a90914be435d67
   srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
@@ -31746,6 +31840,9 @@
 
     Your opponent buries 1 random card in their hand.'
   tags: []
+  related_cards:
+    - a9b14669549e4cae8ac0f5ceb1b63aef
+    - 4546e97dd60b4490a4d69f62c2bdaea5
 - name: The Beat Drop
   db_uuid: d851688448d743b887504d08fb4d843b
   card_type: MainDeckCard
@@ -31756,6 +31853,9 @@
 
     Draw 1 card.'
   tags: []
+  related_cards:
+    - a9b14669549e4cae8ac0f5ceb1b63aef
+    - 4546e97dd60b4490a4d69f62c2bdaea5
 - name: Tearin' Up the 1's & 2's
   db_uuid: 29a0cf0aa2c6461293cb11049dc5fbff
   card_type: MainDeckCard
@@ -31766,6 +31866,9 @@
 
     If your opponent breaks out, add this card to your hand.'
   tags: []
+  related_cards:
+    - a9b14669549e4cae8ac0f5ceb1b63aef
+    - 4546e97dd60b4490a4d69f62c2bdaea5
 - name: Dr. Jake Hill
   db_uuid: ed3ee94858c249e69bd462512b65c825
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
@@ -36851,6 +36954,10 @@
 
     Your Technique is + the Crowd Meter (max +3).'
   tags: []
+  related_finishes:
+    - 37e09229ff264057aa229e88053cc49d
+    - d851688448d743b887504d08fb4d843b
+    - 29a0cf0aa2c6461293cb11049dc5fbff
 - name: El Llama Enmascarada Senior
   db_uuid: 65dcddf9188847138f8777529436efb9
   srgpc_url: https://www.srgpc.net/cards/competitors/el-llama-enmascarada-senior/

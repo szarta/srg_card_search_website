@@ -26866,6 +26866,7 @@
     - fad605db94d44d3bb3fb2fc88e96a53d
 - name: Dizzy Derailed
   db_uuid: 48da9bdffa8744b0af0d37f59d56ba2e
+  srgpc_url: https://www.srgpc.net/cards/competitors/dizzy-derailed/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female
@@ -26877,6 +26878,46 @@
   grapple: 8
   rules_text: 'When you roll Agility for your turn roll: flip 2 cards, then add 1 stop from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 721c7d5dc0444fa99a822c9c599dee95
+    - ad9f08f381814eb09a3084a06d5955ac
+    - d3af14f38ee14bbe8932695ff85c7603
+- name: Derailment Stomp
+  db_uuid: 721c7d5dc0444fa99a822c9c599dee95
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    Look at your opponent''s hand, choose 2 Leads and randomly bury them.'
+  tags: []
+  related_cards:
+    - 48da9bdffa8744b0af0d37f59d56ba2e
+- name: The Last Stop
+  db_uuid: ad9f08f381814eb09a3084a06d5955ac
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    If the Crowd Meter is 5 or greater, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 48da9bdffa8744b0af0d37f59d56ba2e
+- name: Derailed From Victory
+  db_uuid: d3af14f38ee14bbe8932695ff85c7603
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Your opponent randomly buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 48da9bdffa8744b0af0d37f59d56ba2e
 - name: Dough Nation (V1)
   db_uuid: 4727798038a94d549fa5267837d5aa09
   card_type: SingleCompetitorCard

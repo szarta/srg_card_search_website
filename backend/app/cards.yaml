@@ -38919,7 +38919,7 @@
   tags: []
   related_cards:
     - 3999aa59d7a6467ea1187669d086576b
-- name: Flyboy
+- name: Flyboy (V1)
   db_uuid: 7a27b8f53e2b41a093fb2e619ab364a9
   srgpc_url: https://www.srgpc.net/cards/competitors/fly-boy/
   card_type: SingleCompetitorCard
@@ -38951,6 +38951,7 @@
   tags: []
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
+    - 7f3630931db04f129a6f6207117f5a91
 - name: Soaring Superplex
   db_uuid: 58f956544ec24bc09bbd5f421628cb34
   card_type: MainDeckCard
@@ -38965,6 +38966,7 @@
   tags: []
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
+    - 7f3630931db04f129a6f6207117f5a91
 - name: Keeping Up Foreign Relations
   db_uuid: 474faff6e2354aaaabb91b84b4e814e6
   card_type: MainDeckCard
@@ -38979,6 +38981,24 @@
   tags: []
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
+    - 7f3630931db04f129a6f6207117f5a91
+- name: Flyboy (V2)
+  db_uuid: 7f3630931db04f129a6f6207117f5a91
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Male
+  power: 5
+  technique: 7
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: When you re-roll your turn roll, draw 1 card and your roll is +1.
+  tags: []
+  related_finishes:
+    - a8b5e469cd0443aaa5265643f70f329a
+    - 58f956544ec24bc09bbd5f421628cb34
+    - 474faff6e2354aaaabb91b84b4e814e6
 - name: Fortress
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
   srgpc_url: https://www.srgpc.net/cards/competitors/fortress/

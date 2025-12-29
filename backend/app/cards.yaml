@@ -27471,8 +27471,16 @@
   rules_text: 'After you or your opponent stop a Follow Up: Add 1 stop from your discard pile to your hand, then look at your opponent''s hand.'
   tags:
     - Old School
+  related_finishes:
+    - 6a715e98d41d445582c24e27b7f70740
+    - c8ba8e4abe754b9dac63c7b1c227b748
+    - 1cd9879a2dbd4db49f975459416f01b2
+    - 9795bd05e8a043f5b9b359428d9cab74
+    - 83f955eab78449749402b378391259dd
+    - 12a6be5c333544c7851c3f419b9d1bbd
 - name: El Pollo Enmascarada (V2)
   db_uuid: 22eac8821a944ccdaf473a001a000be1
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-pollo-enmascarada/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -27485,6 +27493,107 @@
   rules_text: When your opponent rolls 5 or less for their turn roll, look at their hand or the top card of their deck.
   tags:
     - Old School
+  related_finishes:
+    - 6a715e98d41d445582c24e27b7f70740
+    - c8ba8e4abe754b9dac63c7b1c227b748
+    - 1cd9879a2dbd4db49f975459416f01b2
+    - 9795bd05e8a043f5b9b359428d9cab74
+    - 83f955eab78449749402b378391259dd
+    - 12a6be5c333544c7851c3f419b9d1bbd
+- name: Pollo Volando!
+  db_uuid: 6a715e98d41d445582c24e27b7f70740
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    -1 to Power
+
+    If you rolled Agility for your turn roll this card cannot be stopped.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
+- name: Vuelve por más
+  db_uuid: c8ba8e4abe754b9dac63c7b1c227b748
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'When this card is in your discard pile and any player breaks out, you may add it to your hand.
+
+    When the Crowd Meter is 3 or greater this card is also a Lead.  If this card is a Lead, bury your hand.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
+- name: Flexión de la Mente
+  db_uuid: 1cd9879a2dbd4db49f975459416f01b2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Grapple
+
+    +1 to Agility
+
+    Look at the top 6 cards of your deck and put them back on top in any order.  Draw 1 card.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
+- name: Flying Chicken!
+  db_uuid: 2c7f0f28f72048eab2a035f5ddccb0fb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Your opponent''s next turn roll is -3.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
+- name: Back for More!
+  db_uuid: 9795bd05e8a043f5b9b359428d9cab74
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    If your opponent rolled 5 or less for their turn roll, double these bonuses.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
+- name: Bending of the Mind
+  db_uuid: 83f955eab78449749402b378391259dd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    You may force your opponent to flip 1 card or put 1 card from your opponent''s discard pile on top of their deck.'
+  tags:
+    - Old School
+  related_cards:
+    - 05e30bc628624cbf97a563e9e41f3319
+    - 22eac8821a944ccdaf473a001a000be1
 - name: The Face
   db_uuid: 12a6be5c333544c7851c3f419b9d1bbd
   srgpc_url: https://www.srgpc.net/cards/competitors/the-face/

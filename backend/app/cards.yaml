@@ -38933,6 +38933,52 @@
   grapple: 10
   rules_text: Before your opponent would move any number of cards in their discard pile, you bury the same number of cards in their discard pile.
   tags: []
+  related_finishes:
+    - a8b5e469cd0443aaa5265643f70f329a
+    - 58f956544ec24bc09bbd5f421628cb34
+    - 474faff6e2354aaaabb91b84b4e814e6
+- name: Fly-By
+  db_uuid: a8b5e469cd0443aaa5265643f70f329a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    If stopped, shuffle up to 3 cards with "Sky", "Fly", or "Soar" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 7a27b8f53e2b41a093fb2e619ab364a9
+- name: Soaring Superplex
+  db_uuid: 58f956544ec24bc09bbd5f421628cb34
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    Draw 1 card for each card you have in play with "Sky", "Fly", or "Soar" in the name.'
+  tags: []
+  related_cards:
+    - 7a27b8f53e2b41a093fb2e619ab364a9
+- name: Keeping Up Foreign Relations
+  db_uuid: 474faff6e2354aaaabb91b84b4e814e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    If your opponent breaks out, you may put 1 card with "Soar" in the name from your discard pile into play.'
+  tags: []
+  related_cards:
+    - 7a27b8f53e2b41a093fb2e619ab364a9
 - name: Fortress
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
   srgpc_url: https://www.srgpc.net/cards/competitors/fortress/

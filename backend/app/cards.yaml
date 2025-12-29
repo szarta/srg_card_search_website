@@ -37120,8 +37120,9 @@
     - a7a0d3d4a80346d8a6a52bb54435ed98
 - name: El Gato Sombrio (V1)
   db_uuid: 2ec4e4f5034a4aa684d0ab70414a2e83
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-gato-sombrio/
   card_type: SingleCompetitorCard
-  division: Old School
+  division: Global
   gender: Male
   power: 5
   technique: 6
@@ -37132,12 +37133,18 @@
   rules_text: 'FRONT: During your opponent’s turn you may flip this card over to blank the text of any card played.
 
     BACK: When you roll Power for your Breakout Roll, you may switch it to Agility.'
-  tags:
-    - Old School
+  related_finishes:
+    - 75d9d21fa9db4330b3be36f33d7c6933
+    - dc3e5352af1e4df1b6bc9b56585c75ab
+    - e94093ac37374899b608d81a8d268e99
+    - f7efb357299d4afe85c7ec5822784760
+    - bc672df347f24df483ed070128dacc14
+    - 4c1c0466e7dd4aa4a25880d9ac0b9ff4
 - name: El Gato Sombrio (V2)
   db_uuid: 9ea4b8e23ad8424b9b606c5b752cace9
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-gato-sombrio/
   card_type: SingleCompetitorCard
-  division: Global
+  division: Old School
   gender: Male
   power: 5
   technique: 6
@@ -37148,6 +37155,103 @@
   rules_text: When you roll Power for your turn roll, your opponents cards played have blank text until your next turn or next bump.
   tags:
     - Old School
+  related_finishes:
+    - 75d9d21fa9db4330b3be36f33d7c6933
+    - dc3e5352af1e4df1b6bc9b56585c75ab
+    - e94093ac37374899b608d81a8d268e99
+    - f7efb357299d4afe85c7ec5822784760
+    - bc672df347f24df483ed070128dacc14
+    - 4c1c0466e7dd4aa4a25880d9ac0b9ff4
+- name: Cat Nip
+  db_uuid: 75d9d21fa9db4330b3be36f33d7c6933
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    If stopped, you may shuffle this card into your deck.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
+- name: Meowplex
+  db_uuid: dc3e5352af1e4df1b6bc9b56585c75ab
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Technique
+
+    When the Crowd Meter is 3 or greater this card is also a Follow Up.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
+- name: Cat's Cradle
+  db_uuid: e94093ac37374899b608d81a8d268e99
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If you broke out last turn, this card is also a Lead.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
+- name: Shadow Kick
+  db_uuid: f7efb357299d4afe85c7ec5822784760
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +3 to Strike
+
+    When this card is in your discard pile: Your Agility is +3 during your opponent''s turn.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
+- name: Twilight's Hammer
+  db_uuid: bc672df347f24df483ed070128dacc14
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    When the Crowd Meter is 2 or Greater, this card is also a Follow Up.  Draw 1 card.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
+- name: Nightshade
+  db_uuid: 4c1c0466e7dd4aa4a25880d9ac0b9ff4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    If your Submission skill is greater than your opponent''s Submission skill, this card is also a Follow Up.'
+  tags:
+    - Old School
+  related_cards:
+    - 2ec4e4f5034a4aa684d0ab70414a2e83
+    - 9ea4b8e23ad8424b9b606c5b752cace9
 - name: E.L.F.
   db_uuid: 4546e97dd60b4490a4d69f62c2bdaea5
   srgpc_url: https://www.srgpc.net/competitors/e-l-f

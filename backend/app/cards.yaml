@@ -28255,6 +28255,52 @@
   grapple: 8
   rules_text: When you roll Submission, put the bottom card of your deck into your hand.
   tags: []
+  related_finishes:
+    - 5d562ddda47244fb977655f424d5a0fe
+    - 723043b506134469879f014c34064fca
+    - 0eea13be26de4ee89c43edd5c54ff8c3
+- name: Scorpio Sting
+  db_uuid: 5d562ddda47244fb977655f424d5a0fe
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Draw the bottom 2 cards of your deck.'
+  tags: []
+  related_cards:
+    - 8b00ea8e2268466d98265ebb62cc0c64
+- name: Scorpio Slam
+  db_uuid: 723043b506134469879f014c34064fca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Look at the bottom 4 cards of your deck, put 1 in your hand and bury the others.'
+  tags: []
+  related_cards:
+    - 8b00ea8e2268466d98265ebb62cc0c64
+- name: Scorpio Deathlock
+  db_uuid: 0eea13be26de4ee89c43edd5c54ff8c3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If the bottom card of your deck is a Submission, your opponent''s 1st and 2nd Breakout rolls are -1.'
+  tags: []
+  related_cards:
+    - 8b00ea8e2268466d98265ebb62cc0c64
 - name: Fox Assassin (V1)
   db_uuid: f54e8cac51c34f5b88b0b5fee2c87ce7
   srgpc_url: https://www.srgpc.net/cards/competitors/fox-assassin/

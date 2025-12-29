@@ -27475,9 +27475,9 @@
     - 6a715e98d41d445582c24e27b7f70740
     - c8ba8e4abe754b9dac63c7b1c227b748
     - 1cd9879a2dbd4db49f975459416f01b2
+    - 2c7f0f28f72048eab2a035f5ddccb0fb
     - 9795bd05e8a043f5b9b359428d9cab74
     - 83f955eab78449749402b378391259dd
-    - 12a6be5c333544c7851c3f419b9d1bbd
 - name: El Pollo Enmascarada (V2)
   db_uuid: 22eac8821a944ccdaf473a001a000be1
   srgpc_url: https://www.srgpc.net/cards/competitors/el-pollo-enmascarada/
@@ -27497,9 +27497,9 @@
     - 6a715e98d41d445582c24e27b7f70740
     - c8ba8e4abe754b9dac63c7b1c227b748
     - 1cd9879a2dbd4db49f975459416f01b2
+    - 2c7f0f28f72048eab2a035f5ddccb0fb
     - 9795bd05e8a043f5b9b359428d9cab74
     - 83f955eab78449749402b378391259dd
-    - 12a6be5c333544c7851c3f419b9d1bbd
 - name: Pollo Volando!
   db_uuid: 6a715e98d41d445582c24e27b7f70740
   card_type: MainDeckCard

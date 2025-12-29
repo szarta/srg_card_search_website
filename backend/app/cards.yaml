@@ -37133,6 +37133,7 @@
   rules_text: 'FRONT: During your opponent’s turn you may flip this card over to blank the text of any card played.
 
     BACK: When you roll Power for your Breakout Roll, you may switch it to Agility.'
+  tags: []
   related_finishes:
     - 75d9d21fa9db4330b3be36f33d7c6933
     - dc3e5352af1e4df1b6bc9b56585c75ab
@@ -37288,6 +37289,48 @@
 
     When your opponent stops a Grapple, you may play 1 Lead or Follow Up Submission.'
   tags: []
+  related_finishes:
+    - 7fa9db33cd3a4e6bb81021314c92c080
+    - 34601af0b9ef465ea50160ad213e6cff
+    - 3da30268d8b446c3ad9ad85282a2d280
+- name: Huanaco Patada
+  db_uuid: 7fa9db33cd3a4e6bb81021314c92c080
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your skills are +1 for each Strike your opponent has in play.
+
+    Shuffle the same number of cards from your discard pile into your deck.  Draw 1 card.'
+  tags: []
+  related_cards:
+    - 65dcddf9188847138f8777529436efb9
+- name: Alpaca Lucha de Cuello
+  db_uuid: 34601af0b9ef465ea50160ad213e6cff
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    Add all Grapples from your discard pile to your hand.
+
+    If your opponent braeks out, put 1 Grapple from your hand into play.'
+  tags: []
+  related_cards:
+    - 65dcddf9188847138f8777529436efb9
+- name: Urchuchillay Domini
+  db_uuid: 3da30268d8b446c3ad9ad85282a2d280
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to your skills for each Submission you have in play.
+
+    If your opponent played a Stop this turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 65dcddf9188847138f8777529436efb9
 - name: El Phantasmo
   db_uuid: c8788ae573734217b3a4ee2563d998b7
   srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/

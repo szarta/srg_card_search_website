@@ -38854,6 +38854,11 @@
   grapple: 6
   rules_text: After you flip any number of cards, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - add8c672b7b54ba2be01084188d93342
+    - 07bbf555ed2048c78546ec523a50d8e3
+    - 2b128b11ccb44be98caa7b7a10a21890
+    - 55e4f32523b2464088248fa7d0c7d501
 - name: Flora Mother of Llamas
   db_uuid: 3999aa59d7a6467ea1187669d086576b
   srgpc_url: https://www.srgpc.net/cards/competitors/flora-mother-of-llamas/
@@ -45198,6 +45203,7 @@
     - c6cea4fe18774ca5a4f879c8a243821a
 - name: The Mercenary Flip Gordon
   db_uuid: e06405a7f9a54dfe8d429828e3c52b01
+  srgpc_url: https://www.srgpc.net/cards/competitors/mercenary/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -45209,6 +45215,118 @@
   grapple: 6
   rules_text: When you roll Agility, your opponent discards 1 card in their hand.
   tags: []
+  related_finishes:
+    - add8c672b7b54ba2be01084188d93342
+    - 07bbf555ed2048c78546ec523a50d8e3
+    - 2b128b11ccb44be98caa7b7a10a21890
+    - 55e4f32523b2464088248fa7d0c7d501
+    - 3eb946e8fa544fdc9784e1f3eeccf09d
+    - eaccd574d9b34a6e9ca8c49491869956
+    - 71dace1a5cb249f9a116a3348bb3e561
+- name: Kinder Surprise
+  db_uuid: 3eb946e8fa544fdc9784e1f3eeccf09d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 1 card and discard it.'
+  tags: []
+  related_cards:
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Star-Spangled Stunner
+  db_uuid: eaccd574d9b34a6e9ca8c49491869956
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +4 to Grapple
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Salute the Fallen
+  db_uuid: 71dace1a5cb249f9a116a3348bb3e561
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Submission
+
+    If stopped, shuffle 1 Grapple from your discard pile into your deck, then flip up to 3 cards.'
+  tags: []
+  related_cards:
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Air Gordon
+  db_uuid: add8c672b7b54ba2be01084188d93342
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    Look at the top 5 cards of your deck, bury 4 of them, then draw 1 card.'
+  tags: []
+  related_cards:
+    - 23cd4515a4a14ddc9af09390a3a0865c
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Spring Board Superkick
+  db_uuid: 07bbf555ed2048c78546ec523a50d8e3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    +1 to Strike
+
+    When this card is in your discard pile and your opponent rolls Agility you may shuffle it into your deck.'
+  tags: []
+  related_cards:
+    - 23cd4515a4a14ddc9af09390a3a0865c
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Flip 5
+  db_uuid: 2b128b11ccb44be98caa7b7a10a21890
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    During your turn, if this card is flipped you may play it.
+
+    Shuffle 5 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 23cd4515a4a14ddc9af09390a3a0865c
+    - e06405a7f9a54dfe8d429828e3c52b01
+- name: Boston Crab (Flip Gordon)
+  db_uuid: 55e4f32523b2464088248fa7d0c7d501
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    Flip 2 cards, bury 2 cards in your discard pile.'
+  tags: []
+  related_cards:
+    - 23cd4515a4a14ddc9af09390a3a0865c
+    - e06405a7f9a54dfe8d429828e3c52b01
 - name: The Mercinator
   db_uuid: dde6c34e818d4973a031d0d6373ee395
   card_type: SingleCompetitorCard

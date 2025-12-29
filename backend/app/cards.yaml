@@ -38999,6 +38999,42 @@
     - a8b5e469cd0443aaa5265643f70f329a
     - 58f956544ec24bc09bbd5f421628cb34
     - 474faff6e2354aaaabb91b84b4e814e6
+    - 7c7d18a1398642ebb59d1e3b2bb6f9de
+    - 9bc5b957a7574dac8bbe5c345cb8ad18
+- name: The Tailspin
+  db_uuid: 7c7d18a1398642ebb59d1e3b2bb6f9de
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Draw 1 card.
+
+    If you re-rolled your turn roll, triple these bonuses.'
+  tags: []
+  related_cards:
+    - 7f3630931db04f129a6f6207117f5a91
+- name: The Tailhook
+  db_uuid: 9bc5b957a7574dac8bbe5c345cb8ad18
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Each player flips 2 cards.
+
+    Bury 2 cards in both player''s discard piles.'
+  tags: []
+  related_cards:
+    - 7f3630931db04f129a6f6207117f5a91
 - name: Fortress
   db_uuid: 30db51ec9a66447eb781f3663d2b70a5
   srgpc_url: https://www.srgpc.net/cards/competitors/fortress/

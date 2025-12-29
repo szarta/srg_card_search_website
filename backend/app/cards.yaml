@@ -38435,6 +38435,10 @@
   grapple: 9
   rules_text: When you roll Agility for your turn roll, during your opponent's next turn, they randomly reveal a card in their hand until they reveal a playable card; they must play that card.
   tags: []
+  related_finishes:
+    - 11958eb8e5664709a35a42f85fbadd12
+    - 37e230d1036744c3ab1bea286b161e03
+    - 470f474dae5e4ff99c55461fc59faca2
 - name: Fauxtista (V1)
   db_uuid: 1c3f399dee664720851eb4481be8ebdb
   srgpc_url: https://www.srgpc.net/cards/competitors/fauxtista/
@@ -42603,6 +42607,55 @@
   grapple: 9
   rules_text: 'Once a turn: When you hit a L.E.O. the Law Finish, you may force your opponent to re-roll their breakout roll.'
   tags: []
+  related_finishes:
+    - 11958eb8e5664709a35a42f85fbadd12
+    - 37e230d1036744c3ab1bea286b161e03
+    - 470f474dae5e4ff99c55461fc59faca2
+- name: Walk the Line
+  db_uuid: 11958eb8e5664709a35a42f85fbadd12
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    If "Steel Cuffs" is in your discard pile, double these bonuses.'
+  tags: []
+  related_cards:
+    - d972645ab8854914be96f3bf114ac119
+    - 0a72bde2abe84fef92b5695e8ec53a86
+- name: Ride the Lightning
+  db_uuid: 37e230d1036744c3ab1bea286b161e03
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Agility
+
+    +2 to Submission
+
+    Each player flips 4 cards.
+
+    Bury 2 cards in each player''s discard pile.'
+  tags: []
+  related_cards:
+    - d972645ab8854914be96f3bf114ac119
+    - 0a72bde2abe84fef92b5695e8ec53a86
+- name: Steel Cuffs
+  db_uuid: 470f474dae5e4ff99c55461fc59faca2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Agility
+
+    When this card is in your discard pile, your opponent cannot win by Count Out.  If either player breaks out, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - d972645ab8854914be96f3bf114ac119
+    - 0a72bde2abe84fef92b5695e8ec53a86
 - name: La Fenix
   db_uuid: 92d9e53180de40039d33b076e18b9127
   srg_url: https://supershowthegame.com/product/la-fenix-2/

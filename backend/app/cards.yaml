@@ -38873,6 +38873,52 @@
   grapple: 8
   rules_text: Your Power is +1 for each Submission your opponent has in play (Max +4).
   tags: []
+  related_finishes:
+    - 13e5d77263e84ee6af0bacfcb36bae99
+    - 506e49c3ce2e4583a6bcc0d374e9a2f0
+    - d37b0b40c5ad4e44bfdcf7c8feb6a064
+- name: Ira del Llama
+  db_uuid: 13e5d77263e84ee6af0bacfcb36bae99
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    If your opponent breaks out, put 1 Submission from their discard pile into play.'
+  tags: []
+  related_cards:
+    - 3999aa59d7a6467ea1187669d086576b
+- name: La Forza Dell'Alpaca
+  db_uuid: 506e49c3ce2e4583a6bcc0d374e9a2f0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    If your opponent has 4 or more Grapples in play, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 3999aa59d7a6467ea1187669d086576b
+- name: La Vittoriosa Vigogna
+  db_uuid: d37b0b40c5ad4e44bfdcf7c8feb6a064
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Look at your opponent''s hand, they bury all Strike cards.'
+  tags: []
+  related_cards:
+    - 3999aa59d7a6467ea1187669d086576b
 - name: Flyboy
   db_uuid: 7a27b8f53e2b41a093fb2e619ab364a9
   srgpc_url: https://www.srgpc.net/cards/competitors/fly-boy/

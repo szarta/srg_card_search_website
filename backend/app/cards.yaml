@@ -37333,7 +37333,7 @@
     - 65dcddf9188847138f8777529436efb9
 - name: El Phantasmo
   db_uuid: c8788ae573734217b3a4ee2563d998b7
-  srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-phantasmo/
   card_type: SingleCompetitorCard
   division: Global
   power: 5
@@ -37344,6 +37344,52 @@
   grapple: 6
   rules_text: When you hit a card with "Kick", "Dive", or "Sault" in the name, shuffle 1 card from your discard pile into your deck.
   tags: []
+  related_finishes:
+    - 7a33c1b87afc4f8183c68df6b48c3f57
+    - aea00f77c6154ebaa137bede810f354f
+    - ed3350ed672640438e5f95cde9865758
+- name: Sudden Death
+  db_uuid: 7a33c1b87afc4f8183c68df6b48c3f57
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    Look at the top 4 cards of your deck, add 2 to your hand and flip the others.'
+  tags: []
+  related_cards:
+    - c8788ae573734217b3a4ee2563d998b7
+- name: CRII
+  db_uuid: aea00f77c6154ebaa137bede810f354f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    +4 to Grapple'
+  tags: []
+  related_cards:
+    - c8788ae573734217b3a4ee2563d998b7
+- name: Argentine Breaker Rack
+  db_uuid: ed3350ed672640438e5f95cde9865758
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Submission
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - c8788ae573734217b3a4ee2563d998b7
 - name: El Super Santa
   db_uuid: 9c5ed320ddcc4a8bb3e330b1f4e9e395
   srgpc_url: https://www.srgpc.net/competitors/el-super-santa/

@@ -2524,6 +2524,9 @@
   tags: []
   related_cards:
     - 59a06bccbea64d1bb1d6301449190e81
+    - d149b71b56624078bea5794ee597e7b1
+    - b70afdfa287e4ca6be73ee9f03c863ea
+    - 9c5ed320ddcc4a8bb3e330b1f4e9e395
 - name: El Super Slam
   db_uuid: 63034684664a4ac9ba689abb6cc2aa97
   srg_url: https://supershowthegame.com/product/el-super-hombre/
@@ -2537,6 +2540,9 @@
   tags: []
   related_cards:
     - 59a06bccbea64d1bb1d6301449190e81
+    - d149b71b56624078bea5794ee597e7b1
+    - b70afdfa287e4ca6be73ee9f03c863ea
+    - 9c5ed320ddcc4a8bb3e330b1f4e9e395
 - name: El Superhold
   db_uuid: 015aecb201074dbb929a9c9cd8b0ea46
   srg_url: https://supershowthegame.com/product/el-super-hombre/
@@ -2550,6 +2556,9 @@
   tags: []
   related_cards:
     - 59a06bccbea64d1bb1d6301449190e81
+    - d149b71b56624078bea5794ee597e7b1
+    - b70afdfa287e4ca6be73ee9f03c863ea
+    - 9c5ed320ddcc4a8bb3e330b1f4e9e395
 - name: Freedom Belle - Iku Zo
   db_uuid: 13d73960938c418f9f0cecc7145ac830
   srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
@@ -37578,6 +37587,52 @@
   grapple: 5
   rules_text: When you have a Submission in play, your Submission skill is +1.
   tags: []
+  related_finishes:
+    - 89f132de0f28462ba0f87e465782ba2f
+    - caeef6b28bc74b9e82049f4408be0619
+    - d8eaf9fe9c4d4d1db88a9ea387f7c7d3
+- name: The Boyhood Dream
+  db_uuid: 89f132de0f28462ba0f87e465782ba2f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Search your deck or discard pile for 1 card with "Apron" in teh name and add it to your hand.
+
+    Shuffle your deck.'
+  tags: []
+  related_cards:
+    - 2e85f004baa34c31bf8da5098a24f796
+- name: Brainbuster on the Apron
+  db_uuid: caeef6b28bc74b9e82049f4408be0619
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Grapple
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 2e85f004baa34c31bf8da5098a24f796
+- name: Tequila Sunrise
+  db_uuid: d8eaf9fe9c4d4d1db88a9ea387f7c7d3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    If your opponent breaks out, add this card to your hand.'
+  tags: []
+  related_cards:
+    - 2e85f004baa34c31bf8da5098a24f796
 - name: Ember Wolf (V1)
   db_uuid: a038bb0a150f472cb9acd8a3f7be1778
   srg_url: https://supershowthegame.com/product/ember-wolf/
@@ -58042,6 +58097,7 @@
     - 82a3cb85ff544fbb96e18487d156f321
 - name: El Super Hombre (V2)
   db_uuid: d149b71b56624078bea5794ee597e7b1
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-super-hombre/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -58059,6 +58115,7 @@
     - 015aecb201074dbb929a9c9cd8b0ea46
 - name: El Super Hombre (V3)
   db_uuid: b70afdfa287e4ca6be73ee9f03c863ea
+  srgpc_url: https://www.srgpc.net/cards/competitors/el-super-hombre/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -58069,6 +58126,7 @@
   submission: 7
   grapple: 9
   rules_text: 'When you roll Agility for your turn roll: Draw 1 card or your roll is +1.'
+  comments: 10th anniversary edition
   tags: []
   related_finishes:
     - ac693f80214649c9a71bf99186efb3eb

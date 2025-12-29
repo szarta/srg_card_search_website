@@ -23499,6 +23499,7 @@
     - 93f5a9e64bdb493bb0a59222a489272b
 - name: Amber Nova
   db_uuid: 49d86a1b4f724377adf532d4575ab885
+  srg_url: https://supershowthegame.com/product/amber-nova/
   srgpc_url: https://www.srgpc.net/cards/competitors/amber-nova/
   card_type: SingleCompetitorCard
   division: Global
@@ -26047,6 +26048,7 @@
     - fb9bb0244bed4be9b393fdd17778a2cb
 - name: Big Game Leroy
   db_uuid: b9d9ab11e1104c798637faebafd14825
+  srg_url: https://supershowthegame.com/product/big-game-leroy/
   srgpc_url: https://www.srgpc.net/cards/competitors/big-game-leroy/
   card_type: SingleCompetitorCard
   division: Global
@@ -26597,7 +26599,8 @@
     - 12d4949f97d344238c8b1c7cdc719a63
 - name: Charlie Tiger (V1)
   db_uuid: 915bcc1758d445fbb884f60d5e99f5ac
-  srg_url: https://www.srgpc.net/cards/competitors/charlie-tiger/
+  srg_url: https://supershowthegame.com/product/charlie-tiger/
+  srgpc_url: https://www.srgpc.net/cards/competitors/charlie-tiger/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -26663,6 +26666,7 @@
     - baf608e1f3564c1686dc33531b4d7e92
 - name: Charlie Tiger  (V2)
   db_uuid: baf608e1f3564c1686dc33531b4d7e92
+  srg_url: https://supershowthegame.com/product/charlie-tiger-new/
   srgpc_url: https://www.srgpc.net/competitors/charlie-tiger-v2/
   card_type: SingleCompetitorCard
   division: Global
@@ -37226,6 +37230,7 @@
   tags: []
 - name: Effy
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
+  srg_url: https://supershowthegame.com/product/effy/
   srgpc_url: https://www.srgpc.net/cards/competitors/effy/
   card_type: SingleCompetitorCard
   division: Global
@@ -37575,6 +37580,7 @@
     - 015aecb201074dbb929a9c9cd8b0ea46
 - name: Ellis Taylor
   db_uuid: 2e85f004baa34c31bf8da5098a24f796
+  srg_url: https://supershowthegame.com/product/ellis-taylor/
   srgpc_url: https://www.srgpc.net/cards/competitors/ellis-taylor/
   card_type: SingleCompetitorCard
   division: Global
@@ -37858,6 +37864,7 @@
   tags: []
 - name: Eric Jayden
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
+  srg_url: https://supershowthegame.com/product/eric-jayden/
   srgpc_url: https://www.srgpc.net/cards/competitors/eric-jayden/
   card_type: SingleCompetitorCard
   division: Global
@@ -38106,6 +38113,48 @@
   grapple: 5
   rules_text: When you have more than 10 cards in your hand, your Power, Technique, and Agility are +1 during turn rolls.
   tags: []
+  related_finishes:
+    - 4e76113420b443649b7871c6c8a686f3
+    - 3303fa40234f4a74ab89445f61e7123e
+    - 6a6f5bfbc15a484f81cd9c1a4a14e0f7
+- name: Buddy Beatdown
+  db_uuid: 4e76113420b443649b7871c6c8a686f3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Finish roll is +1 for each card in your hand greater than 9.
+  tags: []
+  related_cards:
+    - 7a641f25d38c4438896303135d4e9d56
+- name: Sweep the Buddy Building
+  db_uuid: 3303fa40234f4a74ab89445f61e7123e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +4 to Grapple
+
+    When this card is in your discard pile, your maximum handsize is +4.'
+  tags: []
+  related_cards:
+    - 7a641f25d38c4438896303135d4e9d56
+- name: Brainwashed (Everybuddy)
+  db_uuid: 6a6f5bfbc15a484f81cd9c1a4a14e0f7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Shuffle 5 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 7a641f25d38c4438896303135d4e9d56
 - name: Everyone's Enemy
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
   srgpc_url: https://www.srgpc.net/cards/competitors/everyones-enemy/
@@ -54695,6 +54744,7 @@
     - 4ed75f5f784c4491ba68876e871aead4
 - name: Whole Lotta Dude Crash Jaxon
   db_uuid: 33f14ac0cc504bad9a2b0b465163e6d6
+  srg_url: https://supershowthegame.com/product/crash-jaxon/
   srgpc_url: https://www.srgpc.net/competitors/whole-lotta-dude-crash-jaxon/
   card_type: SingleCompetitorCard
   division: Global
@@ -56659,6 +56709,7 @@
   tags: []
 - name: Boss Lady Bella
   db_uuid: 5b632c3955d94e508776747ae99737a0
+  srg_url: https://supershowthegame.com/product/boss-lady-bella/
   srgpc_url: https://www.srgpc.net/competitor/boss-lady-bella/
   card_type: SingleCompetitorCard
   division: Global
@@ -57110,6 +57161,7 @@
     - 94270efc99d94d3a9c0542e61b1d81d6
 - name: CMC
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
+  srg_url: https://supershowthegame.com/product/cmc/
   srgpc_url: https://www.srgpc.net/competitor/cmc/
   card_type: SingleCompetitorCard
   division: Global
@@ -57705,6 +57757,7 @@
   tags: []
 - name: Dylon
   db_uuid: fcaef71cfd7342628ffc1485d1957aaf
+  srg_url: https://supershowthegame.com/product/dylon/
   srgpc_url: https://www.srgpc.net/competitor/dylon/
   card_type: SingleCompetitorCard
   division: Global
@@ -59620,6 +59673,7 @@
   tags: []
 - name: The Boricua Badass Jeremy Rodriguez
   db_uuid: 09afe21c91b44543b97072e1d1894dab
+  srg_url: https://supershowthegame.com/product/the-boricua-badass-jeremy-rodriguez/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -59633,6 +59687,7 @@
   tags: []
 - name: The Phenomenal Beast Chris Angels
   db_uuid: 3d7652ac29af4c77842e419996e11278
+  srg_url: https://supershowthegame.com/product/the-phenomenal-beast-chris-angels/
   srgpc_url: https://www.srgpc.net/competitor/the-phenomenal-beast-chris-angels/
   card_type: SingleCompetitorCard
   division: Global

@@ -38168,6 +38168,52 @@
   grapple: 7
   rules_text: When your opponent forces you to bury or discard any number of cards from your hand, your opponent buries the same number of cards from their hand.
   tags: []
+  related_finishes:
+    - f989f8c1052d4c44b7fadacff83ad698
+    - 52123bba8ed047afbb0f68628d7265a7
+    - 9d8401a397c242159ed1b01385439f73
+- name: Asai Dropkick
+  db_uuid: f989f8c1052d4c44b7fadacff83ad698
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    If your opponent ended the last turn without playing a card, stop any Finish Grapple.'
+  tags: []
+  related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
+- name: Candy Coated Suicide
+  db_uuid: 52123bba8ed047afbb0f68628d7265a7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Reveal 1, 2, or 3 cards in your hand to your opponent, your opponent may force you to bury those cards.
+
+    If they do, they randomly discard 2 cards from their hand.
+
+    If they did not discard 2 cards, your Finish roll is +2.'
+  tags: []
+  related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
+- name: Redstar
+  db_uuid: 9d8401a397c242159ed1b01385439f73
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    When your opponent would increase their Breakout roll, it is instead decreased.'
+  tags: []
+  related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
   srgpc_url: https://www.srgpc.net/competitors/evil-ed-the-cheesehead/

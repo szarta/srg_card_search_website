@@ -36,7 +36,7 @@ Japanese Arm Drag
 Leg Scissor Sleeper Hold
 Running Lariat
 DDT
-Witch Whirlybird High-Jinks
+Witchy Whirlybird High-Jinks
 Steel City Showdown
 Working Mom Makes Trash Can and Pineapple Champions
 Tree of Woe
@@ -45,7 +45,7 @@ Sealed Away
 American Dragon Leg Lock
 Sheepish Running Knee to the Skull
 Ultra Cosmic Spin
-Choke on the Smoke
+Choke on the Smoke (Submission)
 Dodging Dash
 Taunting Impact Suplex
 Skull Twist

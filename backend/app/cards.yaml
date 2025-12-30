@@ -65617,6 +65617,19 @@
 
     Shuffle your deck.'
   tags: []
+- name: Volcanic Claymore
+  db_uuid: d1052e6b0d5f4721a5425161a65b65cd
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/volcanic-claymore/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    G-G-T
+
+    Draw 1 card.
+
+    Skill Requirement: Grapple 10+, Power 9+'
+  tags:
+    - Entrance Gear
 - name: Pretty Paul Says, "Let It Rip!"
   db_uuid: 5224820cfea446b6938f65d7154bd2f0
   card_type: EntranceCard

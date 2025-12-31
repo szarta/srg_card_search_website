@@ -28329,49 +28329,9 @@
   rules_text: When you roll Technique for your turn roll; choose 1 card any player has in play and add it to their hand.
   tags: []
   related_finishes:
-    - 1a46732214824203b58e73240a1caa0a
-    - 0c218271c98843ae8ad2973d9f249973
-    - 0876bb3607f343babbcab15b9659159a
-- name: 'Jeugusa: Death Strike'
-  db_uuid: 1a46732214824203b58e73240a1caa0a
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Finish
-  deck_card_number: 28
-  rules_text: '+2 to Power
-
-    +2 to Technique
-
-    +1 to Strike'
-  tags: []
-  related_cards:
-    - f54e8cac51c34f5b88b0b5fee2c87ce7
-- name: 'Chong Jagi Paebae: Total Self Defeat'
-  db_uuid: 0c218271c98843ae8ad2973d9f249973
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  rules_text: '+2 to Power
-
-    +2 to Technique
-
-    If the Crowd Meter is 2 or greater and you have 0 cards in play, stop any Finish Submission.'
-  tags: []
-  related_cards:
-    - f54e8cac51c34f5b88b0b5fee2c87ce7
-- name: 'Yeong-Wonhan Gomun: Eternal Torture'
-  db_uuid: 0876bb3607f343babbcab15b9659159a
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Finish
-  deck_card_number: 30
-  rules_text: '+2 to Grapple
-
-    Your opponent buries cards equal to the Crowd Meter +1 or draw cards equal to the Crowd Meter +1.'
-  tags: []
-  related_cards:
-    - f54e8cac51c34f5b88b0b5fee2c87ce7
+    - 9e58305626554e9caf7dc101d5920c3e
+    - b10575053f8a4750a44e1ed4d0a21b5d
+    - e26b1b54b610493b9fbe997986f5f9fa
 - name: D3 (V1)
   db_uuid: 91c51b9ed3e14a0582f050716596dbd6
   srgpc_url: https://www.srgpc.net/cards/competitors/d3/

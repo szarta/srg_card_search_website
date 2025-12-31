@@ -39049,6 +39049,50 @@
   grapple: 10
   rules_text: 'Choose you or your opponent: When that player rolls Agility for their turn roll, look at the top 3 cards of your deck.  Add 1 Stop to your hand and bury the others.'
   tags: []
+  related_finishes:
+    - 8463f5cf2fe24f7385c512ca6efc912b
+    - 119f3f319c414c86a9b02f794f089cf0
+    - cfc5879347f5488d886521c4ffc9668d
+- name: Abombanational Weaponry
+  db_uuid: 8463f5cf2fe24f7385c512ca6efc912b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    Add the bottom 2 cards of your deck to your hand.'
+  tags: []
+  related_cards:
+    - 30db51ec9a66447eb781f3663d2b70a5
+- name: Bastion's Hold
+  db_uuid: 119f3f319c414c86a9b02f794f089cf0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    When this card is in your discard pile, your max handsize is +2.'
+  tags: []
+  related_cards:
+    - 30db51ec9a66447eb781f3663d2b70a5
+- name: Tower of Strength
+  db_uuid: cfc5879347f5488d886521c4ffc9668d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    If you have 2 Fortress Finishes in your discard pile, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - 30db51ec9a66447eb781f3663d2b70a5
 - name: Fox Assassin (V2)
   db_uuid: 483f70a0f19841288d1d8ea046225744
   card_type: SingleCompetitorCard

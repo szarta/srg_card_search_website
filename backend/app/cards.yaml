@@ -39370,6 +39370,17 @@
   grapple: 7
   rules_text: 'Your cards #04, #05, and #06 without Stops are also cards #07, #08, and #09.'
   tags: []
+  related_finishes:
+    - 73a97bd4f06046f5a915e327e97c6860
+    - 8ce1bf4844eb4125ab9123b4a001aea6
+    - 5ac82a5c168049469edf19480eafc1e6
+    - 9cee216ba0784e81ac8080c55823c969
+    - c895be4b82434ac6ae8385375df949ea
+    - 22517b24c41640ecbe5ae7e4f7fcccd2
+    - c90a6acc796744ac8886334d6da0f698
+    - e7ef0be8601248079685ca5457fd4d0c
+    - 4e94aa07e53342b8937dfb227671fbe7
+    - eccf8fde355b403aa65bd87a875f1c5b
 - name: The Cradle of Liberty
   db_uuid: eccf8fde355b403aa65bd87a875f1c5b
   card_type: MainDeckCard

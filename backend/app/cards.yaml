@@ -39181,6 +39181,7 @@
     - c90a6acc796744ac8886334d6da0f698
     - e7ef0be8601248079685ca5457fd4d0c
     - 4e94aa07e53342b8937dfb227671fbe7
+    - eccf8fde355b403aa65bd87a875f1c5b
 - name: Road to Victory
   db_uuid: 73a97bd4f06046f5a915e327e97c6860
   card_type: MainDeckCard
@@ -39194,6 +39195,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Bell Cracker
   db_uuid: 8ce1bf4844eb4125ab9123b4a001aea6
   card_type: MainDeckCard
@@ -39211,6 +39213,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Philly Special
   db_uuid: 5ac82a5c168049469edf19480eafc1e6
   card_type: MainDeckCard
@@ -39226,6 +39229,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Today's Song-A-Day "Light Tubes" By Foxworthy
   db_uuid: 9cee216ba0784e81ac8080c55823c969
   card_type: MainDeckCard
@@ -39239,6 +39243,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Foxtrot Uniform Charlie Killshot
   db_uuid: c895be4b82434ac6ae8385375df949ea
   card_type: MainDeckCard
@@ -39258,6 +39263,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: 'Philly Special #2'
   db_uuid: 22517b24c41640ecbe5ae7e4f7fcccd2
   card_type: MainDeckCard
@@ -39273,6 +39279,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Philly-Cheese Stake
   db_uuid: c90a6acc796744ac8886334d6da0f698
   card_type: MainDeckCard
@@ -39288,6 +39295,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Betsy Ross Boss Breaker
   db_uuid: e7ef0be8601248079685ca5457fd4d0c
   card_type: MainDeckCard
@@ -39305,6 +39313,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: True Philadelphia Lock
   db_uuid: 4e94aa07e53342b8937dfb227671fbe7
   card_type: MainDeckCard
@@ -39320,6 +39329,7 @@
   related_cards:
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Foxworthy (V2)
   db_uuid: 5c8af70c7d64490aa5ba2bef6a2da540
   srgpc_url: https://www.srgpc.net/competitor/foxworthy-v2/
@@ -39346,6 +39356,36 @@
     - c90a6acc796744ac8886334d6da0f698
     - e7ef0be8601248079685ca5457fd4d0c
     - 4e94aa07e53342b8937dfb227671fbe7
+    - eccf8fde355b403aa65bd87a875f1c5b
+- name: Foxworthy (V3)
+  db_uuid: f2a6fa1ed1cb46a49f1fa65e19190a4c
+  card_type: SingleCompetitorCard
+  division: United States
+  gender: Male
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  rules_text: 'Your cards #04, #05, and #06 without Stops are also cards #07, #08, and #09.'
+  tags: []
+- name: The Cradle of Liberty
+  db_uuid: eccf8fde355b403aa65bd87a875f1c5b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    For the rest of the match, you cannot lose via disqualification.'
+  tags: []
+  related_cards:
+    - 518058d6535f46c692afbbfcbb8cc115
+    - 5c8af70c7d64490aa5ba2bef6a2da540
+    - f2a6fa1ed1cb46a49f1fa65e19190a4c
 - name: Franklin "Turtle" Clark
   db_uuid: d89414c9e0e943d2844fcdeec92be5e5
   srg_url: https://supershowthegame.com/product/franklin-turtle-clark/

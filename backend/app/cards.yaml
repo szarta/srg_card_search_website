@@ -39780,6 +39780,13 @@
   grapple: 10
   rules_text: When your opponent's turn roll is at least 3 greater than yours, they bury 1 card in their hand, and you may bury 1 card in their discard pile.
   tags: []
+  related_finishes:
+    - 0581c2ef8de946ad85d712c431315caf
+    - 7e3070a847304f78a2b2c8bca094b38c
+    - ac9e84a30008421096eef5aaad422baa
+    - 584eabcd65ab40faa6aca087b6b4f357
+    - 1acc5a5905f6496389d2dd2124c417af
+    - 608321fd361949109e660ec981315254
 - name: GDD (V2)
   db_uuid: ff1eff85cd864a54a5d66711c475655b
   srgpc_url: https://www.srgpc.net/competitor-gdd-v2/
@@ -39794,6 +39801,103 @@
   grapple: 10
   rules_text: When you roll Grapple for your turn roll, search your deck for 1 card with "Drive" in the name and add it to your hand.
   tags: []
+  related_finishes:
+    - 0581c2ef8de946ad85d712c431315caf
+    - 7e3070a847304f78a2b2c8bca094b38c
+    - ac9e84a30008421096eef5aaad422baa
+    - 584eabcd65ab40faa6aca087b6b4f357
+    - 1acc5a5905f6496389d2dd2124c417af
+    - 608321fd361949109e660ec981315254
+- name: The Big Sack
+  db_uuid: 0581c2ef8de946ad85d712c431315caf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Strike
+
+    Your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
+- name: G.D.D. Day
+  db_uuid: 7e3070a847304f78a2b2c8bca094b38c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    If this card is stopped, shuffle 2 other cards from your discard pile into your deck or draw 1 card.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
+- name: Spoiler Alert
+  db_uuid: ac9e84a30008421096eef5aaad422baa
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    When this card is in your discard pile and your opponent buries any number of cards from their hand, draw 1 card.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
+- name: System Reset
+  db_uuid: 584eabcd65ab40faa6aca087b6b4f357
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +3 to Strike
+
+    Each time your opponent rolls for a breakout, they randomly bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
+- name: Googol Driver
+  db_uuid: 1acc5a5905f6496389d2dd2124c417af
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If you hit a card with "Drive" in the name last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
+- name: The Googol Play
+  db_uuid: 608321fd361949109e660ec981315254
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +4 to Submission
+
+    Add 2 cards with "Drive" in teh name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 9df52313a2554e1eb4dd9e0eca8632f3
+    - ff1eff85cd864a54a5d66711c475655b
 - name: General Manager John Calace (V1)
   db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
   srgpc_url: https://www.srgpc.net/cards/competitors/general-manager-john-calace/

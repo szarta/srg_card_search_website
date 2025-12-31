@@ -39486,6 +39486,52 @@
   grapple: 10
   rules_text: 'When you roll Strike for your turn roll, you may discard 1 card you and your target have in play.  Your "Fuhgeddaboutit!" is also #7 and #8.'
   tags: []
+  related_finishes:
+    - 8111741ec0a64a32b26b42305f9ee56c
+    - c4af629962324b8fbb0ebce2828aa27b
+    - fe5ece50260145c48aa45c4890f2bcca
+- name: The Names Fuhgeddaboutit!.... Remember It!!
+  db_uuid: 8111741ec0a64a32b26b42305f9ee56c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Once per turn:
+
+    You may discard "Fuhgeddaboutit!" from your hand to reroll your Finish roll.'
+  tags: []
+  related_cards:
+    - e4717f091f0e489a9e0b16d29cf73fb1
+- name: Kiss my Gumbo!
+  db_uuid: c4af629962324b8fbb0ebce2828aa27b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    If you have 2 or more cards in play with "Fuhgeddaboutit!" in the name, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - e4717f091f0e489a9e0b16d29cf73fb1
+- name: Don't Touch the Trench Coat
+  db_uuid: fe5ece50260145c48aa45c4890f2bcca
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    If your opponent has 2 other Strikes in play, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - e4717f091f0e489a9e0b16d29cf73fb1
 - name: Funtime Bob (V1)
   db_uuid: b7b746a51bf5436da9c4ba172c7ff504
   srg_url: https://supershowthegame.com/product/funtime-bob/
@@ -63406,6 +63452,10 @@
 
     3 Times Per Match: You may force your opponent to re-roll their turn roll and that roll is -6.'
   tags: []
+  related_cards:
+    - f54e8cac51c34f5b88b0b5fee2c87ce7
+    - 2a686043f4ae434ab26a14adaf168625
+    - 6060f5b0056140c9a39e3128cdebae7f
   related_finishes:
     - 9e58305626554e9caf7dc101d5920c3e
     - b10575053f8a4750a44e1ed4d0a21b5d
@@ -63427,6 +63477,7 @@
   tags: []
   related_cards:
     - 3cc05805288f4e449952b5d86889671f
+    - f54e8cac51c34f5b88b0b5fee2c87ce7
 - name: 'Chong Jagi Paebae: Total Self Defeat'
   db_uuid: b10575053f8a4750a44e1ed4d0a21b5d
   card_type: MainDeckCard
@@ -63441,6 +63492,7 @@
   tags: []
   related_cards:
     - 3cc05805288f4e449952b5d86889671f
+    - f54e8cac51c34f5b88b0b5fee2c87ce7
 - name: Justice is Served
   db_uuid: e26b1b54b610493b9fbe997986f5f9fa
   card_type: MainDeckCard
@@ -63455,6 +63507,7 @@
   tags: []
   related_cards:
     - 3cc05805288f4e449952b5d86889671f
+    - f54e8cac51c34f5b88b0b5fee2c87ce7
 - name: The Higher Class (V1)
   db_uuid: 1d9dad26329f45f9927bc4137f903f82
   srg_url: https://supershowthegame.com/product/the-higher-class-v1/

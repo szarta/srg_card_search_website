@@ -40244,7 +40244,7 @@
     - a4b61c579c2d4ca59b5001ea5503fdef
 - name: Gideon Guts (V1)
   db_uuid: b0d290415e4e4ab685ecf41d06d6f167
-  srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/gideon-guts/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -40256,8 +40256,16 @@
   grapple: 7
   rules_text: 'Once during your turn: When you hit a card with "Punch" in the name, you may draw 1 card or play an additional card this turn.'
   tags: []
+  related_finishes:
+    - c88b7017a9964db4a19321fc17332bf8
+    - c959c59ce79042f18bb6652399c4313a
+    - 2c7a7944f7854bc0bb886a4f9efe4818
+    - d1e064ba8a4b4b92a484d871aaf4eb2f
+    - 4ba6e44a8eb14a33a61db3ab36587b38
+    - 04e65074bfa740d4aed07071109e585b
 - name: Gideon Guts (V2)
   db_uuid: d02f496c8aef43e7953af2ce6fe81f22
+  srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -40269,6 +40277,103 @@
   grapple: 7
   rules_text: 'When your opponent stops a Gideon Guts Finish: they randomly discard 1 card from their hand.'
   tags: []
+  related_finishes:
+    - c88b7017a9964db4a19321fc17332bf8
+    - c959c59ce79042f18bb6652399c4313a
+    - 2c7a7944f7854bc0bb886a4f9efe4818
+    - d1e064ba8a4b4b92a484d871aaf4eb2f
+    - 4ba6e44a8eb14a33a61db3ab36587b38
+    - 04e65074bfa740d4aed07071109e585b
+- name: Conductor of the Dump Train
+  db_uuid: c88b7017a9964db4a19321fc17332bf8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Submission
+
+    If you have 5 cards in play with "Punch" in the name, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
+- name: Strip the Flesh (V1)
+  db_uuid: c959c59ce79042f18bb6652399c4313a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Flip 1 card.
+
+    Shuffle 2 cards with "Punch" in the name from your discard pile into your deck.  Draw 2 cards.'
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
+- name: Salt the Wound
+  db_uuid: 2c7a7944f7854bc0bb886a4f9efe4818
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    If "Strip the Flesh" is in your discard pile, double these bonuses.'
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
+- name: Swing for the Fences
+  db_uuid: d1e064ba8a4b4b92a484d871aaf4eb2f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    +1 to Agility
+
+    If stopped, unless you hit another card this turn, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
+- name: Strip the Flesh (V2)
+  db_uuid: 4ba6e44a8eb14a33a61db3ab36587b38
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    If your opponent stopped your Finish this turn, you may reveal this card from your hand and play it as an additional card this turn.'
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
+- name: Savor the Agony
+  db_uuid: 04e65074bfa740d4aed07071109e585b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If your Finish roll is 8 or less, it is +1.  Shuffle up to 4 cards with "Disqualification" in the text from your discard pile into your deck; Draw 1 card for each card shuffled into your deck.
+  tags: []
+  related_cards:
+    - b0d290415e4e4ab685ecf41d06d6f167
+    - d02f496c8aef43e7953af2ce6fe81f22
 - name: Grande Gallo
   db_uuid: 5b5909d65b2f4aacb60a79706e65f1cc
   srgpc_url: https://www.srgpc.net/cards/competitors/grande-gallo/

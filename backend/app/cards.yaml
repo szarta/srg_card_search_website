@@ -27672,7 +27672,7 @@
     - 371325efd99948a897fe55548b287e4c
     - e29c3153b5b344be80f7387940bb6847
     - e899a562a48d46518d3c2ac96d8c1070
-- name: The Heart Stopper
+- name: The Heart Stopper (General Lee Wong)
   db_uuid: 4211f86d253e480091a57f67eaacb84f
   card_type: MainDeckCard
   atk_type: Strike
@@ -32225,7 +32225,7 @@
   tags: []
   related_cards:
     - 9d772bb04b9d462ba46019b2a6922d8d
-- name: The Heart Stopper
+- name: The Heart Stopper (The Heartbreaker)
   db_uuid: 1e4b197aae19484394e2af5574991f9f
   card_type: MainDeckCard
   atk_type: Grapple

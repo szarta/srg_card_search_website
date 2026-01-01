@@ -27642,8 +27642,16 @@
 
     When your opponent hits a card with a Stop, they bury 1 card in their hand for each other Stop they have in play (Max 2)'
   tags: []
+  related_finishes:
+    - 4211f86d253e480091a57f67eaacb84f
+    - 3338fa96bc264df98dd5b8df6c2d9c7f
+    - f6af13c295ae4398b47fe2e759fcd1a2
+    - 371325efd99948a897fe55548b287e4c
+    - e29c3153b5b344be80f7387940bb6847
+    - e899a562a48d46518d3c2ac96d8c1070
 - name: General Lee Wong (V2)
   db_uuid: ef5f0e0716a54929bba3f278d7f4b354
+  srgpc_url: https://www.srgpc.net/competitor/general-lee-wong-v2/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -27657,6 +27665,101 @@
 
     Draw 3 cards and your next turn roll is +2.'
   tags: []
+  related_finishes:
+    - 4211f86d253e480091a57f67eaacb84f
+    - 3338fa96bc264df98dd5b8df6c2d9c7f
+    - f6af13c295ae4398b47fe2e759fcd1a2
+    - 371325efd99948a897fe55548b287e4c
+    - e29c3153b5b344be80f7387940bb6847
+    - e899a562a48d46518d3c2ac96d8c1070
+- name: The Heart Stopper
+  db_uuid: 4211f86d253e480091a57f67eaacb84f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Grapple
+
+    When played: If your opponent stopped a card last turn, choose Strike, Grapple, or Submission.  This card is that move type until the end of the turn.'
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
+- name: The Sign
+  db_uuid: 3338fa96bc264df98dd5b8df6c2d9c7f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If stopped, your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
+- name: The Chinese Takeout
+  db_uuid: f6af13c295ae4398b47fe2e759fcd1a2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Technique and Agility are +1 for each Stop you have in play (Max +4).
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
+- name: Rolling Flash Kick
+  db_uuid: 371325efd99948a897fe55548b287e4c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +4 to Agility
+
+    You may re-roll your next turn roll.'
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
+- name: Star-Spangled Slam
+  db_uuid: e29c3153b5b344be80f7387940bb6847
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
+- name: 4 Star Backbreaker
+  db_uuid: e899a562a48d46518d3c2ac96d8c1070
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Your opponent randomly reveals 4 cards in their hand, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 1f64e258e37241f49e0661e85a1f56c7
+    - ef5f0e0716a54929bba3f278d7f4b354
 - name: Ginn the Heavy
   db_uuid: 7410d8ae52d44e32aa6dc474105ed663
   srgpc_url: https://www.srgpc.net/cards/competitors/ginn-the-heavy/

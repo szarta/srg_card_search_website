@@ -40140,6 +40140,50 @@
   grapple: 9
   rules_text: Your Power is +1 for each card you have in play with "Heat", "Heel", or "Taunt" in the name (Max +3).
   tags: []
+  related_finishes:
+    - d210a2bc2ef04170a0c6d404dee03244
+    - 7119043a6bf842a0bb51b0b9bd501ff9
+    - 829955c0c6924225ac5f4d423e87b395
+- name: Alpha Omega
+  db_uuid: d210a2bc2ef04170a0c6d404dee03244
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    When you have 4 cards in play with "Heat", "Heel", or "Taunt" in the name, double these bonuses.'
+  tags: []
+  related_cards:
+    - 6ac028b8730a4e77a303e04ddd9efc8a
+- name: In God I Trust
+  db_uuid: 7119043a6bf842a0bb51b0b9bd501ff9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Heat", "Heel", or "Taunt" in the name +1.'
+  tags: []
+  related_cards:
+    - 6ac028b8730a4e77a303e04ddd9efc8a
+- name: The Achilles Heel
+  db_uuid: 829955c0c6924225ac5f4d423e87b395
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If your Power is greater than your opponent''s Power, their Agility is -2.
+
+    Your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - 6ac028b8730a4e77a303e04ddd9efc8a
 - name: Gia de los Muertos (V1)
   db_uuid: a4b61c579c2d4ca59b5001ea5503fdef
   srgpc_url: https://www.srgpc.net/cards/competitors/gia-de-los-muertos/

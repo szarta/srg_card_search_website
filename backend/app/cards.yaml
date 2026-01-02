@@ -30298,6 +30298,95 @@
   grapple: 5
   rules_text: Whenever your opponent buries or discards any number of cards from their hand, draw 1 card.
   tags: []
+  related_finishes:
+    - 08eddb62ff6340398b5f31c31ed71e78
+    - 709bf65bb985438f91e3f9a6ca12dfa1
+    - 77f7182ca396408b94cf5b1d411e45ea
+    - 58a44579c62e4c819760114cb4359481
+    - 4a1044bd72904144b17979eb2e184486
+    - 0072b76250624274992d45fbb024aec4
+- name: Sideshow Slap (V1)
+  db_uuid: 08eddb62ff6340398b5f31c31ed71e78
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
+- name: Shock Value (V1)
+  db_uuid: 709bf65bb985438f91e3f9a6ca12dfa1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Add 1 card from your discard pile to your hand or your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
+- name: Dream Date (V1)
+  db_uuid: 77f7182ca396408b94cf5b1d411e45ea
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    +1 to Submission
+
+    Each player draws 1 card.
+
+    Your opponent randomly buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
+- name: Sideshow Slap (V2)
+  db_uuid: 58a44579c62e4c819760114cb4359481
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +2 to Agility
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
+- name: Shock Value (V2)
+  db_uuid: 4a1044bd72904144b17979eb2e184486
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Add 1 card from your discard pile to your hand and your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
+- name: Dream Date (V2)
+  db_uuid: 0072b76250624274992d45fbb024aec4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    +1 to Submission
+
+    Each player draws 2 cards.
+
+    Your opponent randomly buries 2 card in their hand.'
+  tags: []
+  related_cards:
+    - a29880e47a3640f28bc85a86bed15519
 - name: Katy Kitty (V1)
   db_uuid: 0fc731c613e04c7481649b43cf72d7ae
   srgpc_url: https://www.srgpc.net/cards/competitors/katy-kitty-new/

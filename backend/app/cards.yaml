@@ -40434,6 +40434,44 @@
   grapple: 5
   rules_text: When you and your opponent have a Lead and a Follow Up in play, your Power, Technique, and Agility are +1 during turn rolls.
   tags: []
+  related_finishes:
+    - af906eaad4324d32940c19a337ab535e
+    - 43493f95a9044dd6bbb20d12a3bca3c9
+    - 2374b56d176b421fb7623331b4e597fd
+- name: The Pecker
+  db_uuid: af906eaad4324d32940c19a337ab535e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    Flip 1 card for each card you have in play.'
+  tags: []
+  related_cards:
+    - 5b5909d65b2f4aacb60a79706e65f1cc
+- name: Rumped Honey
+  db_uuid: 43493f95a9044dd6bbb20d12a3bca3c9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 5b5909d65b2f4aacb60a79706e65f1cc
+- name: Gallo-tine Choke
+  db_uuid: 2374b56d176b421fb7623331b4e597fd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If you have no Leads in play, this card cannot be stopped.
+  tags: []
+  related_cards:
+    - 5b5909d65b2f4aacb60a79706e65f1cc
 - name: The Great Oniman
   db_uuid: 2a085c1413b3407fb33e8737e43b732e
   srgpc_url: https://www.srgpc.net/cards/competitors/great-oniman/

@@ -27956,6 +27956,52 @@
   grapple: 8
   rules_text: When you roll Power, look at the top 3 cards of any player's deck and put them back in any order.
   tags: []
+  related_finishes:
+    - a7886abf133b4cf7890930fea6679307
+    - c24ef33c620f43a5a7baf42e077fc76c
+    - bf0d24152a5c4a04b5c38a4b0d4f37f1
+- name: The Palm Reading
+  db_uuid: a7886abf133b4cf7890930fea6679307
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile, you may bury it to look at your opponent''s hand.'
+  tags: []
+  related_cards:
+    - 92712ad7966a404ebfb48b4482912594
+- name: The Wheel of Mis-Fortune
+  db_uuid: c24ef33c620f43a5a7baf42e077fc76c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Your opponent randomly buries 1 card in their hand until they bury a Follow Up card.'
+  tags: []
+  related_cards:
+    - 92712ad7966a404ebfb48b4482912594
+- name: The Hanged Man
+  db_uuid: bf0d24152a5c4a04b5c38a4b0d4f37f1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    +3 to Submission
+
+    Choose 3 cards in any player''s discard pile and put them on top of their deck in any order.'
+  tags: []
+  related_cards:
+    - 92712ad7966a404ebfb48b4482912594
 - name: The Grump
   db_uuid: ed9f1e55e6094478bf87e93f209347a4
   srgpc_url: https://www.srgpc.net/cards/competitors/the-grump/

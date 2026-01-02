@@ -41191,6 +41191,50 @@
 
     BACK: Once per turn roll: When your opponent rolls Strike, flip 1 then add 1 Strike from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - aebaa3e425fe4111ae23ed0e96e260a0
+    - 4a2888b66afd493aa38ac75db14c7c69
+    - d7ed11c6e7894e58b4a9e6565e31a603
+- name: 4:20 to Yuma
+  db_uuid: aebaa3e425fe4111ae23ed0e96e260a0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Grapple
+
+    Draw up to 2 cards.  Bury up to 10 cards in your discard pile.
+
+    Your opponent draws and buries the same number of cards.'
+  tags: []
+  related_cards:
+    - c12b5c9b4a194269876839cba3a256cf
+- name: DDTHC
+  db_uuid: 4a2888b66afd493aa38ac75db14c7c69
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    If your opponent breaks out all players shuffle all cards in play into their deck and you draw 1 card.'
+  tags: []
+  related_cards:
+    - c12b5c9b4a194269876839cba3a256cf
+- name: Hell or Highwater
+  db_uuid: d7ed11c6e7894e58b4a9e6565e31a603
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    If stopped your opponent buries 1 card in their hand and you may bury 1 card in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - c12b5c9b4a194269876839cba3a256cf
 - name: Hiroshi Tanahashi
   db_uuid: 818d5a2501ce481ca42886e95e7d0943
   srgpc_url: https://www.srgpc.net/cards/competitors/hiroshi-tanahashi/

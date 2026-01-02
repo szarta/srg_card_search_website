@@ -564,7 +564,35 @@ def list_cards(
 
     # Sort and paginate
     reverse = sort_order == "desc"
-    items.sort(key=lambda c: (c.name or "").lower(), reverse=reverse)
+
+    # Define category order for primary sorting
+    CATEGORY_ORDER = {
+        CardType.entrance.value: 0,
+        CardType.single_competitor.value: 1,
+        CardType.tornado_competitor.value: 2,
+        CardType.trio_competitor.value: 3,
+        CardType.main_deck.value: 4,
+        CardType.spectacle.value: 5,
+        CardType.crowd_meter.value: 6,
+    }
+
+    def sort_key(card):
+        # Primary sort: category order
+        category_rank = CATEGORY_ORDER.get(card.card_type, 999)
+
+        # Secondary sort: for MainDeckCard use deck_card_number, then name
+        if card.card_type == CardType.main_deck.value:
+            deck_num = getattr(card, 'deck_card_number', None)
+            # None values go to end (using 9999), otherwise use the deck number
+            deck_num_key = 9999 if deck_num is None else deck_num
+            card_name = (card.name or "").lower()
+            return (category_rank, deck_num_key, card_name)
+        else:
+            # For other types: just alphabetical by name
+            card_name = (card.name or "").lower()
+            return (category_rank, 0, card_name)
+
+    items.sort(key=sort_key, reverse=reverse)
 
     total_count = len(items)
     paged = items[offset : offset + limit]

@@ -31128,6 +31128,50 @@
   grapple: 6
   rules_text: Once a turn, you may re-roll your Breakout roll, your new roll is +1.
   tags: []
+  related_finishes:
+    - ae32d869d2ce445f968ba18dcd20cc65
+    - aa8f0deab7914aecb7646f1a31e5ecd9
+    - 45e32bc5a92b467cbe75536a335acc29
+- name: The Path to the Divine
+  db_uuid: ae32d869d2ce445f968ba18dcd20cc65
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Your opponent randomly buries half the cards in their hand (rounded up).'
+  tags: []
+  related_cards:
+    - 61234f2548d14c9dafb688a8e2bdd4a8
+- name: The Heavy Cross
+  db_uuid: aa8f0deab7914aecb7646f1a31e5ecd9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Once a turn; you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 61234f2548d14c9dafb688a8e2bdd4a8
+- name: Lay You Down to Rest
+  db_uuid: 45e32bc5a92b467cbe75536a335acc29
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Add 1 card from your discard pile to your hand.
+
+    Your opponent''s 1st and 2nd Breakout rolls ar -1 for each Follow Up you have in play.'
+  tags: []
+  related_cards:
+    - 61234f2548d14c9dafb688a8e2bdd4a8
 - name: Hobbzilla
   db_uuid: 31b4dedbc96a438a946d76a2368b6f2d
   srg_url: https://supershowthegame.com/product/hobbzilla/

@@ -40581,6 +40581,50 @@
 
     When your opponent rolls Grapple for their turn roll, flip 1 card and add 1 Grapple from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 9ea00ebb0ad143d092233ffbbf0e11f4
+    - 885c5075816b4f328c6cb8fcef6ba5e8
+    - 61858f53042747a0b55c7461e07683b8
+- name: Hailstorm
+  db_uuid: 9ea00ebb0ad143d092233ffbbf0e11f4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    Discard 1 card your opponent has in play.  Your opponent discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 139bab0bee214ab18d8150337869667e
+- name: Flippin' Ain't Easy
+  db_uuid: 885c5075816b4f328c6cb8fcef6ba5e8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    Bury up to 2 cards in your hand and flip up to 4 cards.
+
+    Your opponent buries and flips the same number of cards.'
+  tags: []
+  related_cards:
+    - 139bab0bee214ab18d8150337869667e
+- name: Family Matters
+  db_uuid: 61858f53042747a0b55c7461e07683b8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Each player shuffles their hand into their deck and adds the same number of cards from the top of their deck to their hand.'
+  tags: []
+  related_cards:
+    - 139bab0bee214ab18d8150337869667e
 - name: Hallow King (V1)
   db_uuid: ba1af0065d3a45f7823ed63f6b5ce426
   srgpc_url: https://www.srgpc.net/cards/competitors/hallow-king/

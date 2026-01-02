@@ -40733,7 +40733,8 @@
     When this card is in your discard pile:
 
     During your turn, your Agility is +1 and you are considered to have a card in play with "Bust" in the name.'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Director's Cut Buster
@@ -40745,7 +40746,8 @@
   rules_text: '+3 to Technique
 
     +1 to Strike'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Never-Ending Friendship
@@ -40759,7 +40761,8 @@
     +2 to Submission
 
     Bury any number of Strikes in your discard pile.  If your opponent breaks out, you may play 1 additional Strike this turn as if it were a Lead.'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Heartache Kid Mr. L.F.F.
@@ -59589,7 +59592,15 @@
   submission: 5
   grapple: 10
   rules_text: When your skills are increased, your opponent's Gimmick is blanked.
-  tags: []
+  tags:
+    - Old School
+  related_finishes:
+    - 2d308603b7a14b9eacb7ea64cb163a01
+    - 3419c06a8dcb43c3b388ee6a0f65a502
+    - d1de1a6666a34d54bf12d969dce72208
+    - 47cd4f5fc40c41179ca062744b658836
+    - 138855055a174ee985db117c2ea3efb8
+    - 66fbb709566a4ea5b93036ef217d09db
 - name: Goodnight Express
   db_uuid: d20bfcca68964c50986f2cc3e30f7243
   card_type: TornadoCompetitorCard

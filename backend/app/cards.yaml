@@ -42369,6 +42369,52 @@
 
     Your opponent''s skill of the chosen type is -1 during their turn and turn rolls.'
   tags: []
+  related_finishes:
+    - 7b112322934a4e70ba8bfcde0ced7007
+    - ca21b2e8db4c4bea89672569cbbb2c43
+    - 4f8452b4eca6437a9eefdf57c965305d
+- name: Turn the Other Cheek
+  db_uuid: 7b112322934a4e70ba8bfcde0ced7007
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    Add 1 card from your opponent''s discard pile to their hand.
+
+    Your opponent randomly buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - bcfd31f67b454a1e9d41d981fb265e5d
+- name: The Plow
+  db_uuid: ca21b2e8db4c4bea89672569cbbb2c43
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Your opponent draws 6 cards, then buries 9 cards in their hand.'
+  tags: []
+  related_cards:
+    - bcfd31f67b454a1e9d41d981fb265e5d
+- name: Raising the Barn
+  db_uuid: 4f8452b4eca6437a9eefdf57c965305d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Each player randomly buries their hand, then adds the top 3 cards of their deck to their hand.'
+  tags: []
+  related_cards:
+    - bcfd31f67b454a1e9d41d981fb265e5d
 - name: Jessica Siren
   db_uuid: 1aeb79fc58f445b8ab7fe8bc2aebfcec
   srg_url: https://supershowthegame.com/product/jessica-siren/

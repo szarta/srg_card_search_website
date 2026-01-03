@@ -41518,6 +41518,52 @@
   grapple: 7
   rules_text: Your opponent cannot force you to re-roll any roll and they cannot re-roll any roll.
   tags: []
+  related_finishes:
+    - e29cd4729e524f5dbd39db7d567d219c
+    - 7b66185de7a34ff28c8579c2ae1f9eae
+    - 2f0ebbc9cf8d47a6879b03082cfb77ec
+- name: Kozi Lariat
+  db_uuid: e29cd4729e524f5dbd39db7d567d219c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile, your opponent cannot decrease your rolls or increase their turn rolls.'
+  tags: []
+  related_cards:
+    - 8cb3b634e7d94e4eb9d14084aaee6047
+- name: The 187
+  db_uuid: 7b66185de7a34ff28c8579c2ae1f9eae
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Your opponent discards all cards in play and their Gimmick is blank.'
+  tags: []
+  related_cards:
+    - 8cb3b634e7d94e4eb9d14084aaee6047
+- name: The Notorious STF
+  db_uuid: 2f0ebbc9cf8d47a6879b03082cfb77ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Draw 3 cards or add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 8cb3b634e7d94e4eb9d14084aaee6047
 - name: Hornet (V1)
   db_uuid: 514afe8b058d42a69b1870ba236be431
   card_type: SingleCompetitorCard

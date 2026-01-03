@@ -31789,6 +31789,52 @@
   grapple: 7
   rules_text: 'When you roll Power for your turn roll:  Look at the top 4 cards of your deck. You may reveal 1 Grapple and add it to your hand, shuffle the others into your deck.'
   tags: []
+  related_finishes:
+    - 53ec49a05c9c4d8fad6accb7bebfcdf4
+    - 56647332c4524a7b948caa93bf754f0f
+    - 3ec2f6a94fee4a158534330e4b5e6409
+- name: The Heart's Whisper
+  db_uuid: 53ec49a05c9c4d8fad6accb7bebfcdf4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    If stopped, shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 1c18904ccacf43ab856c9c603373f7d2
+- name: Thousand and One Nights
+  db_uuid: 56647332c4524a7b948caa93bf754f0f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    If this card is revealed for your Gimmick, your next turn roll is +3.'
+  tags: []
+  related_cards:
+    - 1c18904ccacf43ab856c9c603373f7d2
+- name: Night Drag
+  db_uuid: 3ec2f6a94fee4a158534330e4b5e6409
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    Bury any number of cards in your opponent''s discard pile.  Shuffle twice as many cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 1c18904ccacf43ab856c9c603373f7d2
 - name: King Bjorn
   db_uuid: 1ea91ed2c91747f7806571a25debc498
   srg_url: https://supershowthegame.com/product/king-bjorn/

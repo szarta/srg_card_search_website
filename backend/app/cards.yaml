@@ -30628,6 +30628,7 @@
   tags: []
 - name: Joey Ryan
   db_uuid: ff880ca42bb946a5945d9407b31ee671
+  is_banned: true
   card_type: SingleCompetitorCard
   power: 7
   technique: 8
@@ -30636,7 +30637,65 @@
   submission: 9
   grapple: 10
   rules_text: At the start of the match if your opponent is a Female, draw 4 cards.  If it is not, choose Power, Technique, or Agility.  Your opponent's skill of the chosen type is -1 turning their turn and turn rolls.
+  comments: Alternatives are Joey Ryan or Jebediah the Amish Assassin
   tags: []
+  related_finishes:
+    - fcca7503c00c4b4b8052e1717bb60f88
+    - bb97e21dd60a4a64b3d3d5cfdf8e6918
+    - 207b837dfdcc41b08f1bfd19fdbaba00
+    - 9813535826334ea782e986e832f81786
+- name: Sweet Tooth Music
+  db_uuid: fcca7503c00c4b4b8052e1717bb60f88
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    Choose 1 card you ropponent has in their discard pile and add it to their hand.  Your opponent buries 2 randomly cards in tehir hand.'
+  tags: []
+  related_cards:
+    - ff880ca42bb946a5945d9407b31ee671
+- name: Mustache Ride
+  db_uuid: bb97e21dd60a4a64b3d3d5cfdf8e6918
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Technique
+
+    Your opponent draws 6 cards, then buries 9 cards in their hand.'
+  tags: []
+  related_cards:
+    - ff880ca42bb946a5945d9407b31ee671
+- name: YouPorn Plex
+  db_uuid: 207b837dfdcc41b08f1bfd19fdbaba00
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    Your opponent''s Power is -4 during their 1st and 2nd Breakout rolls.'
+  tags: []
+  related_cards:
+    - ff880ca42bb946a5945d9407b31ee671
+- name: End Scene
+  db_uuid: 9813535826334ea782e986e832f81786
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +1 to Technique'
+  tags: []
+  related_cards:
+    - ff880ca42bb946a5945d9407b31ee671
 - name: Zack Sabre Jr. (V1)
   db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr/

@@ -31233,6 +31233,7 @@
     - 31b4dedbc96a438a946d76a2368b6f2d
 - name: Hollywood (V1)
   db_uuid: a7d09cf208d745fdb390e894a653a627
+  srgpc_url: https://www.srgpc.net/cards/competitors/hollywood/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -31245,8 +31246,16 @@
   rules_text: At the start of the match look at the top 10 cards of your deck, put any number of them on top of your deck in any order and randomly bury the others.
   tags:
     - Old School
+  related_finishes:
+    - 7fb5c596d4d34531a108dcd966ae846c
+    - 2f6bf80e15dd453d8f0ed60a50949759
+    - fcb43f43c41a4e3e9ff7d77539633b2b
+    - 23f648a1ee3d4b6f80d633209a966abb
+    - ae0e3c40c1a04860a9bf0a49f4fb6c5f
+    - abdb5af80e7445f5a7ce2d4722d2f0d8
 - name: Hollywood (V2)
   db_uuid: 4572fd94e60b4a8ab8fdee4f03a92e1e
+  srgpc_url: https://www.srgpc.net/cards/competitors/hollywood/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male
@@ -31259,6 +31268,111 @@
   rules_text: Your opponent cannot play cards during their 1st 2 turns.
   tags:
     - Old School
+  related_finishes:
+    - 7fb5c596d4d34531a108dcd966ae846c
+    - 2f6bf80e15dd453d8f0ed60a50949759
+    - fcb43f43c41a4e3e9ff7d77539633b2b
+    - 23f648a1ee3d4b6f80d633209a966abb
+    - ae0e3c40c1a04860a9bf0a49f4fb6c5f
+    - abdb5af80e7445f5a7ce2d4722d2f0d8
+- name: Blockbuster Hit
+  db_uuid: 7fb5c596d4d34531a108dcd966ae846c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    If your opponent has no cards in play, the Crowd Meter is +1.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: Run the Red Carpet
+  db_uuid: 2f6bf80e15dd453d8f0ed60a50949759
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Grapple
+
+    Draw 3 cards.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: Oscar-pus Hold
+  db_uuid: fcb43f43c41a4e3e9ff7d77539633b2b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Your opponent cannot play cards on the next turn.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: The Award Show
+  db_uuid: 23f648a1ee3d4b6f80d633209a966abb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    When the Crowd Meter is 3 or greater this card cannot be stopped.
+
+    If stopped you lose the match via disqualification.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: Walk of Fame
+  db_uuid: ae0e3c40c1a04860a9bf0a49f4fb6c5f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    If your opponent breaks out the Crowd Meter is +1.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
+- name: Who Are You Wearing?
+  db_uuid: abdb5af80e7445f5a7ce2d4722d2f0d8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If stopped your opponent discards cards from their hand equal to the Crowd Meter +1.'
+  tags:
+    - Old School
+  related_cards:
+    - a7d09cf208d745fdb390e894a653a627
+    - 4572fd94e60b4a8ab8fdee4f03a92e1e
 - name: Invisible Man (V2)
   db_uuid: 83aa8315ce3f4a70b5a28fdd5a357c30
   srg_url: https://supershowthegame.com/product/invisibleman/

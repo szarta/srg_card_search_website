@@ -30628,6 +30628,7 @@
   tags: []
 - name: Joey Ryan
   db_uuid: ff880ca42bb946a5945d9407b31ee671
+  srgpc_url: https://www.srgpc.net/cards/competitors/joey-ryan/
   is_banned: true
   card_type: SingleCompetitorCard
   power: 7

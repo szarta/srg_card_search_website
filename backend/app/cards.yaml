@@ -31729,6 +31729,52 @@
   grapple: 9
   rules_text: 'When your opponent stops your card: Reveal the top card of your opponent''s deck.  If it is a stop, you may discard it.  If not, you may bury it.'
   tags: []
+  related_finishes:
+    - 589612ba65dc43a88214e7fb0207dd1c
+    - f420fce502ea463bb6605dd7efa29221
+    - 75959392ad6e4808927f228d3ac75486
+- name: Total Havok
+  db_uuid: 589612ba65dc43a88214e7fb0207dd1c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Strike
+
+    If stopped, your opponent discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 2eef1e4ccbf4488b9c3967144b1bac84
+- name: Death Machine Tombstone
+  db_uuid: f420fce502ea463bb6605dd7efa29221
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    Your Finish rolls are +1 for each Stop your opponent has in play (Max +2).'
+  tags: []
+  related_cards:
+    - 2eef1e4ccbf4488b9c3967144b1bac84
+- name: Crab-tastrophe
+  db_uuid: 75959392ad6e4808927f228d3ac75486
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    Your opponent''s Agility is -2.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 2eef1e4ccbf4488b9c3967144b1bac84
 - name: Jinni
   db_uuid: 1c18904ccacf43ab856c9c603373f7d2
   srgpc_url: https://www.srgpc.net/cards/competitors/jinni/

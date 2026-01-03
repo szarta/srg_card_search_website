@@ -29333,7 +29333,7 @@
   related_cards:
     - bd04b23708fe49728541a20e689cae61
     - bf1ee5c00125450da300bb9f3762511f
-- name: Psychocidal
+- name: Psychocidal (D2)
   db_uuid: e818072be5314d99a87c057550fb50b3
   srg_url: https://supershowthegame.com/product/d2-and-the-ringleader/
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
@@ -41309,6 +41309,14 @@
   grapple: 9
   rules_text: You are considered to have a card with "Pineapple" in the name in play for your card effects.
   tags: []
+  related_finishes:
+    - 1bb3519cce4d4ec9b22dc4ea15e55153
+    - 22492b0462874d8a8dc750b0cf43a14b
+    - 816933dfc2ca41e78dfc89db3a166284
+    - 1cbfb769275c4352af95ef9ff956e92e
+    - 6af958ed1e0444e0b9e285e8095bf1ff
+    - 9ea4104c753f45faad0b2ea35f1699be
+    - 6907942cdd6b4bb6a78e8ce52f5c878a
 - name: Hold the Line Harry
   db_uuid: ad19decd21624f22b678048ab0b463db
   srgpc_url: https://www.srgpc.net/cards/competitors/hold-the-line-harry/
@@ -41323,6 +41331,65 @@
   grapple: 7
   rules_text: When you stop a card; add 1 card that is not a Stop, Finish, or Skill Requirement from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 39957af087b244469b110e8359a1e6c3
+    - 643b59bb151644838237fb78f12cd3df
+    - 5844d5e03b2b4462b9e845cc347c427b
+    - dd223632b635467da08b9e8ad550c6f8
+- name: Ruck in the Corner
+  db_uuid: 39957af087b244469b110e8359a1e6c3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +2 to Submission
+
+    If you have a card with "Spear" in the name in play, look at your opponent''s hand, they bury all Leads.'
+  tags: []
+  related_cards:
+    - ad19decd21624f22b678048ab0b463db
+- name: Flanking Manuever
+  db_uuid: 643b59bb151644838237fb78f12cd3df
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    When this card is in your discard pile: If your opponent hits a Finish, you may add this card to your hand and your 1st Breakout roll is +1.'
+  tags: []
+  related_cards:
+    - ad19decd21624f22b678048ab0b463db
+- name: Psychocidal (Hold the Line Harry)
+  db_uuid: 5844d5e03b2b4462b9e845cc347c427b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    Bury 4 cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - ad19decd21624f22b678048ab0b463db
+- name: The Line-Out Stretch
+  db_uuid: dd223632b635467da08b9e8ad550c6f8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission'
+  tags: []
+  related_cards:
+    - ad19decd21624f22b678048ab0b463db
 - name: Homicide
   db_uuid: 8cb3b634e7d94e4eb9d14084aaee6047
   srgpc_url: https://www.srgpc.net/cards/competitors/homicide/
@@ -45687,6 +45754,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: F Bomb
   db_uuid: 22492b0462874d8a8dc750b0cf43a14b
   card_type: MainDeckCard
@@ -45702,6 +45770,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: You Know What I Do (V1)
   db_uuid: 816933dfc2ca41e78dfc89db3a166284
   card_type: MainDeckCard
@@ -45717,6 +45786,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: You Know What I Do (V2)
   db_uuid: 1cbfb769275c4352af95ef9ff956e92e
   card_type: MainDeckCard
@@ -45734,6 +45804,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: Pineapple Smash
   db_uuid: 6af958ed1e0444e0b9e285e8095bf1ff
   card_type: MainDeckCard
@@ -45745,6 +45816,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: Droppin' F Bombs
   db_uuid: 9ea4104c753f45faad0b2ea35f1699be
   card_type: MainDeckCard
@@ -45762,6 +45834,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: Sweet Surprise!
   db_uuid: 6907942cdd6b4bb6a78e8ce52f5c878a
   card_type: MainDeckCard
@@ -45777,6 +45850,7 @@
   related_cards:
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
+    - 70ec50606f764d35bbbbaf40618177da
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   card_type: SingleCompetitorCard

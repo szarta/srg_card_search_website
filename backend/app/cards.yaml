@@ -38099,7 +38099,7 @@
   deck_card_number: 28
   rules_text: '+3 to Strike
 
-    Search your deck or discard pile for 1 card with "Apron" in teh name and add it to your hand.
+    Search your deck or discard pile for 1 card with "Apron" in the name and add it to your hand.
 
     Shuffle your deck.'
   tags: []
@@ -40383,7 +40383,7 @@
 
     +4 to Submission
 
-    Add 2 cards with "Drive" in teh name from your discard pile to your hand.'
+    Add 2 cards with "Drive" in the name from your discard pile to your hand.'
   tags: []
   related_cards:
     - 9df52313a2554e1eb4dd9e0eca8632f3
@@ -42181,6 +42181,46 @@
   grapple: 8
   rules_text: 'During your turn: When you hit a card with a Stop, draw 1 card.'
   tags: []
+  related_finishes:
+    - ac8afb3e645845ba924fffc04f3d5b5d
+    - 4115e53ff9f04c6f8e48897028f554f8
+    - 2bad5e4fde7f45d2bc011a77813c84a9
+- name: The Beauty Killer
+  db_uuid: ac8afb3e645845ba924fffc04f3d5b5d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    Stop any Finish Grapple without a competitor logo, or that has "If stopped" in the text.'
+  tags: []
+  related_cards:
+    - d7d82141547a44308408d2470732bb64
+- name: Rolling Neckbreaker
+  db_uuid: 4115e53ff9f04c6f8e48897028f554f8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Stop any Finish Submission that has a Spotlight or that cannot be stopped.'
+  tags: []
+  related_cards:
+    - d7d82141547a44308408d2470732bb64
+- name: Scissor Choke
+  db_uuid: 2bad5e4fde7f45d2bc011a77813c84a9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Submission
+
+    Stop any Finish Strike with "via disqualification" in teh text, or any Strike if it is not the 1st card played this turn.'
+  tags: []
+  related_cards:
+    - d7d82141547a44308408d2470732bb64
 - name: Jay Lyon
   db_uuid: 10a05e4e55ff46d5acd1f60c60b297dd
   srgpc_url: https://www.srgpc.net/competitors/jay-lyon/

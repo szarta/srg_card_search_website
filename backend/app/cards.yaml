@@ -28681,6 +28681,54 @@
   grapple: 10
   rules_text: After you flip any number of cards, add a Lead or Follow Up with "Table", "Ladder", or "Steel Chain" in the name from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - f4c1164caf314291810e75fff9e044e4
+    - 23ed4c04491b4159a88ef57e2982ccb4
+    - c326992cd73e4ee48921f3da20fd5a78
+- name: Spinning Storm Kick
+  db_uuid: f4c1164caf314291810e75fff9e044e4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If stopped, you may add 1 card with "Table", "Ladder", or "Steel Chain" from in play to your hand.'
+  tags: []
+  related_cards:
+    - 725f7ba41a2549e99dcb1270b463180c
+- name: Huracán DDT
+  db_uuid: 23ed4c04491b4159a88ef57e2982ccb4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    When this card is flipped by a card with "Table", "Ladder", or "Steel Chain" in the name, you may add it to your hand.'
+  tags: []
+  related_cards:
+    - 725f7ba41a2549e99dcb1270b463180c
+- name: The Silver Dragon
+  db_uuid: c326992cd73e4ee48921f3da20fd5a78
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Flip 1 card.
+
+    Shuffle 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 725f7ba41a2549e99dcb1270b463180c
 - name: Jesxe
   db_uuid: 20059df60d9f40ccae5f9c892aa17c4a
   srg_url: https://supershowthegame.com/product/jesxe/

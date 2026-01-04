@@ -1586,12 +1586,17 @@
   card_type: EntranceCard
   rules_text: 'At the start of the match: Flip 1 card.  Your 1st turn roll is +1.'
   tags: []
-- name: A Round of Scallywager at Captain Con
-  db_uuid: 5add9592fc6b4a7f8c0d39579b53daf8
+- name: A Round of Scallywager
+  db_uuid: c97d501313ee480c9a09d47a2b7a2401
   srg_url: https://supershowthegame.com/product/entrance-a-round-of-scallywager-at-captaincon/
   card_type: EntranceCard
+  rules_text: When you reveal a Spectacle card, your next turn roll is +2.
+  tags: []
+- name: A Round of Scallywager at Captain Con
+  db_uuid: 5add9592fc6b4a7f8c0d39579b53daf8
+  srgpc_url: https://www.srgpc.net/cards/entrances/a-round-of-scallywager-at-captaincon/
+  card_type: EntranceCard
   rules_text: When you or your opponent reveal a Spectacle card, your next turn roll is +1.
-  errata_text: When you or your opponent reveal a Spectacle card, your next turn roll is +2.
   tags: []
 - name: Accompanied by the Combat Clan
   db_uuid: 0fc6754da2be4c1db781823d1726c4de

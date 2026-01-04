@@ -1727,13 +1727,6 @@
   card_type: EntranceCard
   rules_text: 'Once per match: When your roll Agility for your turn roll, your turn roll is +1'
   tags: []
-- name: Fig Hunt With the Major Wrestling Foundation
-  db_uuid: 6e28c84a53004b23bf191d3700824e3f
-  card_type: EntranceCard
-  rules_text: 'Once per match:  If you ended your turn without playing a card, search your deck for card #1, #2, or #3 and add it to your hand.'
-  tags: []
-  related_cards:
-    - 89e7a0350c994ec48801877675193d93
 - name: Fighting Champion's Spirit, End of an Era
   db_uuid: 3d311f960d8248c99ae0e86f7c46e167
   srg_url: https://supershowthegame.com/product/entrance-fighting-champion-spirit-end-of-an-era/
@@ -4300,14 +4293,12 @@
 
     Draw 1 card for each card you have in play with "Disqualification" in the text.'
   tags: []
-- name: Major Bendies
+- name: 'Major Bendies: Fig Hunt With the Major Wrestling Foundation'
   db_uuid: 89e7a0350c994ec48801877675193d93
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
   card_type: EntranceCard
   rules_text: 'Once per match:  If you ended your turn without playing a card, search your deck for card #1, #2, or #3 and add it to your hand.'
   tags: []
-  related_cards:
-    - 6e28c84a53004b23bf191d3700824e3f
 - name: Baseball Bat
   db_uuid: db85062c5b2a4f78bcc98bb6238da171
   srg_url: https://supershowthegame.com/product/01-baseball-bat/

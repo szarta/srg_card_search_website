@@ -65860,6 +65860,17 @@
 
     This card counts as 2 Follow Up Submissions in play.'
   tags: []
+- name: Death by Elbow (#28)
+  db_uuid: 63dee69bb6034a0f8bcd9386d1ae2009
+  srgpc_url: https://www.srgpc.net/cards/28/death-by-elbow/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your skills are +1 for each other card you have in play with "Elbow" in the name.
+
+    When your opponent has 0 cards in play this card cannot be stopped.'
+  tags: []
 - name: Sharpshooter (#30)
   db_uuid: dbfcd2fc470046ae9c39666d91a7958a
   srg_url: https://supershowthegame.com/product/30-sharpshooter/

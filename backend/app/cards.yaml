@@ -44174,6 +44174,52 @@
   grapple: 10
   rules_text: When you have a card with "Snap" and a card with "Shot" in the name in play, your opponent plays with their hand revealed.
   tags: []
+  related_finishes:
+    - bd93630a0e82452cbf0217d683949cf9
+    - 5ad6aae0759b4cf79b5fb27d98babb8d
+    - 7623f48e5ba64be2a0f4e71fde34ec99
+- name: Hair Spray in the Face
+  db_uuid: bd93630a0e82452cbf0217d683949cf9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Submission
+
+    If stopped, you lose the match via disqualification.
+
+    You may discard this card from your hand to add 1 Kaleb with a K Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 58f826bfd837442ba47de9fdacf90df5
+- name: Photobomb
+  db_uuid: 5ad6aae0759b4cf79b5fb27d98babb8d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    If your opponent breaks out, put 2 Lead cards with "Snap" or "Shot" in the name from your discard pile into play.'
+  tags: []
+  related_cards:
+    - 58f826bfd837442ba47de9fdacf90df5
+- name: Satchel Strangle
+  db_uuid: 7623f48e5ba64be2a0f4e71fde34ec99
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    Shuffle 4 cards with "Snap" or "Shot" in the name from your discard pile into your deck.
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 58f826bfd837442ba47de9fdacf90df5
 - name: Kameha Kahn
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
   srgpc_url: https://www.srgpc.net/cards/competitors/kameha-kahn/

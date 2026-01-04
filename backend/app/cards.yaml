@@ -43956,6 +43956,48 @@
   grapple: 6
   rules_text: When you hit a Strike, choose 1 card your opponent has in play and bury it.
   tags: []
+  related_finishes:
+    - 8332ff9f787643159fb407202acc1138
+    - 57380ab45677479aa6c10306e6fd26aa
+    - 017ffaf9055f43b3afe0f8bb65546c7b
+- name: El Dirtay (V1)
+  db_uuid: 8332ff9f787643159fb407202acc1138
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: If Stopped, choose 3 cards your opponent has in play and discard them.
+  tags: []
+  related_cards:
+    - b41d30281182409c8d64717d314ab4bc
+- name: El Dirtay (V2)
+  db_uuid: 57380ab45677479aa6c10306e6fd26aa
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    If stopped, choose 3 cards your opponent has in play and discard them.'
+  tags: []
+  related_cards:
+    - b41d30281182409c8d64717d314ab4bc
+- name: Strong Style Sleeper
+  db_uuid: 017ffaf9055f43b3afe0f8bb65546c7b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Search your deck or discard pile for "Death by Elbow" and add it to your hand.'
+  tags: []
+  related_cards:
+    - b41d30281182409c8d64717d314ab4bc
 - name: Jupiter
   db_uuid: 75d2a722d7674b46958451b843d04078
   card_type: SingleCompetitorCard

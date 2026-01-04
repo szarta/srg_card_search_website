@@ -2495,12 +2495,6 @@
   card_type: EntranceCard
   rules_text: 'At the start of the match: Reveal the top 2 cards of your deck and add them to your hand.  Your opponent draws 1 card.'
   tags: []
-- name: Year of the Witch with Borah Brewington
-  db_uuid: 6549c36c76134ad0b00663f7d6f0d471
-  srg_url: https://supershowthegame.com/product/entrance-year-of-the-witch/
-  card_type: EntranceCard
-  rules_text: Replace "Three times per match" with "Five times per match" in your Gimmick.
-  tags: []
 - name: Having the Higher Ground
   db_uuid: ce333acee07b48e0a3ea941dd889c48e
   card_type: EntranceCard

@@ -36714,7 +36714,7 @@
     - e24ccc8c1b1642ae98fc01ba4d4dad48
     - 4eed44b78a384bc1aff1a6fc78ca0bce
     - a68bd021189b4e3c8d2522c02d312c64
-- name: Yakuza Kick
+- name: Yakuza Kick (Darius Carter)
   db_uuid: e24ccc8c1b1642ae98fc01ba4d4dad48
   card_type: MainDeckCard
   atk_type: Strike
@@ -43726,7 +43726,7 @@
     - f59324641bab43cb97f6f85d2fed17db
     - 15b4bf02b93e4651901256a25717d736
     - ee82d7aa35634b58b83251bd11ec80d1
-- name: Yakuza Kick
+- name: Yakuza Kick (Jordan Oliver)
   db_uuid: 5f2116e03f1247ddb35b8d1517dcd687
   card_type: MainDeckCard
   atk_type: Strike

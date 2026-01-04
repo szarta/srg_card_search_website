@@ -43209,6 +43209,7 @@
 - name: Johnny Supershow (Banned)
   db_uuid: 659e5cb61628456f971e60e2b70760b3
   is_banned: true
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-supershow/
   card_type: SingleCompetitorCard
   gender: Male
   power: 7
@@ -43219,8 +43220,13 @@
   grapple: 9
   rules_text: Once during your turn when you hit a card with "Slam" in the name; draw 2 cards or you may play 1 additional card this turn.
   tags: []
+  related_finishes:
+    - 8bf3fe8ca09343d7add2d57bb198617e
+    - 07fba135a6a447d989573d5327ce070e
+    - dd8ac1fb75e247c18c9be443bb399e20
 - name: Johnny Supershow (V2)
   db_uuid: 4ca508f3c6b44cd88defa9aafb4aefbb
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-supershow/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -43232,8 +43238,58 @@
   grapple: 9
   rules_text: 'Once during your turn when you hit a card with "Slam" in the name: Draw 1 card or you may play 1 additional card this turn.'
   tags: []
+  related_finishes:
+    - 8bf3fe8ca09343d7add2d57bb198617e
+    - 07fba135a6a447d989573d5327ce070e
+    - dd8ac1fb75e247c18c9be443bb399e20
+- name: Starship Pain
+  db_uuid: 8bf3fe8ca09343d7add2d57bb198617e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    If you hit a card with "Slam" in the name this turn this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 659e5cb61628456f971e60e2b70760b3
+    - 4ca508f3c6b44cd88defa9aafb4aefbb
+- name: Moonlight Drive
+  db_uuid: 07fba135a6a447d989573d5327ce070e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    Draw 1 card.
+
+    If you hit a card with "Slam" in the name this turn double these bonuses.'
+  tags: []
+  related_cards:
+    - 659e5cb61628456f971e60e2b70760b3
+    - 4ca508f3c6b44cd88defa9aafb4aefbb
+- name: The Only Vote That Counts
+  db_uuid: dd8ac1fb75e247c18c9be443bb399e20
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If your Finish roll is 8 or less it is +1.
+
+    Shuffle 4 cards with "Slam" in the name from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 659e5cb61628456f971e60e2b70760b3
+    - 4ca508f3c6b44cd88defa9aafb4aefbb
 - name: Johnny T
   db_uuid: c79de6acd1954441970f9b1901a55e01
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-t/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male

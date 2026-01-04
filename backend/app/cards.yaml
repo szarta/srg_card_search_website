@@ -2286,6 +2286,7 @@
   tags: []
 - name: Beastie
   db_uuid: 801a0c1f4da843309daf61a586c1d5d2
+  srgpc_url: https://www.srgpc.net/entrances/ship-beastie/
   card_type: EntranceCard
   rules_text: 'After you roll these skills for your turn roll:
 
@@ -2297,12 +2298,49 @@
     - Scallywag Ship
 - name: PRS-001
   db_uuid: 1469fa4c1cc54012994700bea634d855
+  srgpc_url: https://www.srgpc.net/entrances/ship-prs-001/
   card_type: EntranceCard
   rules_text: 'After you roll these skills for your turn roll:
 
     Technique-Agility-Agility-Agility
 
     Draw 2 cards then discard 1 card from your hand.'
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: The Teapot
+  db_uuid: 0e221cc1e09b4375a7bce1ce3851c2f1
+  srgpc_url: https://www.srgpc.net/entrances/ship-the-teapot/
+  card_type: EntranceCard
+  rules_text: 'After you roll these skills for your turn roll:
+
+    Strike-Submission-Submission-Submission-Grapple
+
+    Add 1 Stop from your discard pile to your hand.'
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: The Triumph
+  db_uuid: 9a66e5a759b74539af15b35a07970d34
+  srgpc_url: https://www.srgpc.net/entrances/ship-the-triumph/
+  card_type: EntranceCard
+  rules_text: 'After you roll these skills for your turn roll:
+
+    Power-Power-Technique-Strike
+
+    Your opponent discards 2 cards from their hand.'
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: The Turtle Dove
+  db_uuid: 6fd7ade319364a3abf4313796448d0eb
+  srgpc_url: https://www.srgpc.net/entrances/ship-the-turtle-dove/
+  card_type: EntranceCard
+  rules_text: 'After you roll these ksill for your turn roll:
+
+    Power-Power-Strike-Strike-Grapple
+
+    Discard 2 cards your opponent has in play.'
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship

@@ -43826,6 +43826,7 @@
     - e5093ca247334348986ed94e04c5bb76
 - name: JP Warhorse
   db_uuid: 5798171c5d814f3c9f2926be67a2b347
+  srgpc_url: https://www.srgpc.net/cards/competitors/jp-warhorse/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -43837,6 +43838,52 @@
   grapple: 10
   rules_text: When you hit a card with "Stomp", "Charging", "Charge", or "Run" in the name, draw 1 card.
   tags: []
+  related_finishes:
+    - 0d062fd1c27541dfb649b11777e447a9
+    - 1ef008e14b8d42db964bb0c5efe2ca23
+    - 8ecdb2f15c22417aae67be3a202b3b07
+- name: Big Ole Elbow Drop
+  db_uuid: 0d062fd1c27541dfb649b11777e447a9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 5798171c5d814f3c9f2926be67a2b347
+- name: Death by Doublestomp
+  db_uuid: 1ef008e14b8d42db964bb0c5efe2ca23
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +2 to Submission
+
+    When this card is in your discard pile and you hit a card with "Stomp", "Charging", "Charge", or "Run" in the name, choose 1 card your opponent has in play and discard it.'
+  tags: []
+  related_cards:
+    - 5798171c5d814f3c9f2926be67a2b347
+- name: Scorpion Death Lock
+  db_uuid: 8ecdb2f15c22417aae67be3a202b3b07
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    Your opponent discards all cards they have in play.'
+  tags: []
+  related_cards:
+    - 5798171c5d814f3c9f2926be67a2b347
 - name: JPL
   db_uuid: c7738a0ba99b4c86b5f8427356ac8bc9
   srg_url: https://supershowthegame.com/product/jpl/

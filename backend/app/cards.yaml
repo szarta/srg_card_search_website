@@ -67247,6 +67247,79 @@
 
     Shuffle your deck.'
   tags: []
+- name: Giant Mode
+  db_uuid: 4bc44421b8f8494a8230072e6b0c6c7e
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/giant-mode/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    Power-Power-Technique-Technique-Technique
+
+    Your opponent discards all cards they have in play.
+
+    Skill Requirement: Power 10+, Grapple 9+'
+  tags:
+    - Entrance Gear
+- name: High-Level Parkour
+  db_uuid: b9290581e7194ab7a571b72adc5af960
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/high-level-parkour/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    Agility-Agility
+
+    Your next turn roll is +2.
+
+    Skill Requirement: Agility 10+, Strike 9+'
+  tags:
+    - Entrance Gear
+- name: Satellite Scan
+  db_uuid: 296a66122216427690d4a75816e3c94a
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/satellite-scan/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    Technique
+
+    Technique
+
+    Strike
+
+    Strike
+
+    Look at your opponent''s hand.
+
+    Skill Requirement: Technique 10+, Submission 9+'
+  tags:
+    - Entrance Gear
+- name: Solar Shotgun
+  db_uuid: 05d2bb41fb0348189598d504dae41c0c
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/solar-shotgun/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    Power-Power-Strike
+
+    Your opponent discards 1 card from their hand.
+
+    Skill Requirement: Strike 10+, Agility 9+'
+  tags:
+    - Entrance Gear
+- name: Summoning Circle
+  db_uuid: 640ffd901b734092a8b181fb197ab391
+  srgpc_url: https://www.srgpc.net/cards/entrance-gears/summoning-circle/
+  card_type: EntranceCard
+  rules_text: 'When you rolled these skills for your turn roll:
+
+    Power-Technique-Agility-Strike-Submission-Grapple
+
+    Add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Submission 10+
+
+    Technique 9+'
+  tags:
+    - Entrance Gear
 - name: Volcanic Claymore
   db_uuid: d1052e6b0d5f4721a5425161a65b65cd
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/volcanic-claymore/

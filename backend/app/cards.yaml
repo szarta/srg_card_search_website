@@ -2282,6 +2282,19 @@
 
     During your turn: When you hit one of those cards, draw 1 card.'
   tags: []
+- name: Beastie
+  card_type: EntranceCard
+  rules_text: "After you roll these skills for your turn roll:\nPower-Technique-Agility-Submission-Grapple-Grapple\nAdd 2 Finishes from your discard pile to your hand."
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: PRS-001
+  card_type: EntranceCard
+  rules_text: "After you roll these skills for your turn roll:\nTechnique-Agility-Agility-Agility\nDraw 2 cards then discard 1 card from your hand."
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+
 - name: Strike Training with The Big Shot
   db_uuid: b19b154c672b4a90ad9003c67f5762af
   card_type: EntranceCard

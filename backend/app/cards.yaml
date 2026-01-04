@@ -44011,6 +44011,50 @@
   grapple: 7
   rules_text: If you rolled Strike for your turn roll, you may play 1 additional card this turn.
   tags: []
+  related_finishes:
+    - ea8aac9cc9154a6986fc6cb2c5352b50
+    - 6a1eeac0dfa943ecaa7b6a89c755240b
+    - ed566b56755a4a8aa6a716683098bdb0
+- name: The Lightning Bolt
+  db_uuid: ea8aac9cc9154a6986fc6cb2c5352b50
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    If you rolled Strike for your turn roll and hit another card this turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 75d2a722d7674b46958451b843d04078
+- name: The Gravitational Pull
+  db_uuid: 6a1eeac0dfa943ecaa7b6a89c755240b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    Draw 3 cards, then each player discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 75d2a722d7674b46958451b843d04078
+- name: The Great Red Storm
+  db_uuid: ed566b56755a4a8aa6a716683098bdb0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If you hit another card this turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 75d2a722d7674b46958451b843d04078
 - name: K7 Sniper
   db_uuid: b7cf7839b9db4a9f86dcf04f768cbf54
   srgpc_url: https://www.srgpc.net/cards/competitors/k7-sniper/

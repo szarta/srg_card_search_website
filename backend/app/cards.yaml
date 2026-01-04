@@ -2232,6 +2232,106 @@
 
     When you hit one of those cards, your next turn roll is +1.'
   tags: []
+- name: Grapple Training With The Masked Llama
+  db_uuid: 6bee9cdbbd0c44eda43528436251273f
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    Lock Up
+
+    Hip Toss
+
+    Scoop Slam
+
+    Arm Drag
+
+    DDT
+
+    Suplex
+
+    Neckbreaker
+
+    Backbreaker
+
+    Fallaway Slam
+
+    During your turn: When you hit one of those cards, draw 1 card.'
+  tags: []
+- name: Power Training with Rock Newman
+  db_uuid: b4087adfd0474e0f9cae98f867944aea
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    Lock Up
+
+    Hip Toss
+
+    Scoop Slam
+
+    Arm Drag
+
+    Falling Powerslam
+
+    Suplex
+
+    Neckbreaker
+
+    Backbreaker
+
+    Fallaway Slam
+
+    During your turn: When you hit one of those cards, draw 1 card.'
+  tags: []
+- name: Strike Training with Big Shot
+  db_uuid: b19b154c672b4a90ad9003c67f5762af
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    Punch
+
+    Kick
+
+    Forearm Shot
+
+    Headbutt
+
+    Running Lariat
+
+    Shoulder Block
+
+    Elbow Strikes
+
+    Clothesline
+
+    Dropkick
+
+    During your turn: When you hit one of those cards, draw 1 card.'
+  tags: []
+- name: Submission Training with The Rising Sun
+  db_uuid: 50ea6c905265437c8f986389d0d0d467
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    Headlock
+
+    Armbar
+
+    Face Stretch
+
+    Rear Chin Lock
+
+    Bow and Arrow
+
+    Sleeper Hold
+
+    Leg Lock
+
+    Strangle Hold
+
+    Double Armbar
+
+    During your turn: When you hit one of those cards, draw 1 card.'
+  tags: []
 - name: Valiant Teamwork
   db_uuid: 011e1cbf8ac74e8e8366692ccaf468d3
   srg_url: https://supershowthegame.com/product/00-valiant-team-work/

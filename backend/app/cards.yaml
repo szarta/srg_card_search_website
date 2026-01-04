@@ -25428,6 +25428,7 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/kaily-sweet-pea-perre/
   card_type: SingleCompetitorCard
   division: United States
+  gender: Female
   power: 7
   technique: 6
   agility: 10
@@ -25436,6 +25437,54 @@
   grapple: 5
   rules_text: When you roll Agility for your turn roll, your opponent's next turn roll is -2.
   tags: []
+  related_finishes:
+    - 0237987cc0e9412bbd18b08b03dc433e
+    - d94f4194deae4481b69daa65682e15cc
+    - f3f5d194c0ca494092170d1d59e078ec
+- name: Two Peas in a Punch
+  db_uuid: 0237987cc0e9412bbd18b08b03dc433e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Strike
+
+    If stopped, you may play an additional card this turn.'
+  tags: []
+  related_cards:
+    - a000e409a8cf4a9fa77d73bb9787ef3f
+- name: Mushy Peas
+  db_uuid: d94f4194deae4481b69daa65682e15cc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - a000e409a8cf4a9fa77d73bb9787ef3f
+- name: Wasabi Peas & Bento Knee's
+  db_uuid: f3f5d194c0ca494092170d1d59e078ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - a000e409a8cf4a9fa77d73bb9787ef3f
 - name: The Xecutioner (V1)
   db_uuid: bda15f5890984f34b63f0f32193ac0cc
   card_type: SingleCompetitorCard

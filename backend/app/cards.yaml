@@ -58678,6 +58678,67 @@
 
     Add 1 Strike from your discard pile to your hand and your next turn roll is +2.'
   tags: []
+- name: The Big Three
+  db_uuid: 431440f1c91441b7b495d0e1b9ad1a0e
+  card_type: TrioCompetitorCard
+  power: 27
+  technique: 30
+  agility: 15
+  strike: 24
+  submission: 21
+  grapple: 18
+  rules_text: 'When you roll Technique or Agility for your turn roll, your next roll is + Triple the Crowd Meter (Max +6).
+
+    Once per match: When you roll Technique or Agility for a Breakout roll and would not break out, you break out and draw 3 cards.'
+  tags: []
+  related_finishes:
+    - 32d6f5668f6c455fa09fc85ec3a5ac17
+    - 347162eef2084c63af054200919c4439
+    - 4455e5c590454a74afe4c430583870d8
+- name: Gear Shift Gatling
+  db_uuid: 32d6f5668f6c455fa09fc85ec3a5ac17
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+9 to Agility
+
+    +2 to Strike
+
+    Draw 3 cards.
+
+    If your Gimmick is blank, unblank your Gimmick and it cannot be blanked for the rest of the match.'
+  tags: []
+  related_cards:
+    - 431440f1c91441b7b495d0e1b9ad1a0e
+- name: Dattebyeo Maaaaan!!!
+  db_uuid: 347162eef2084c63af054200919c4439
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+14 to Agility
+
+    +6 to Grapple
+
+    Your opponent randomly buries their discard pile.'
+  tags: []
+  related_cards:
+    - 431440f1c91441b7b495d0e1b9ad1a0e
+- name: Hollow Victory
+  db_uuid: 4455e5c590454a74afe4c430583870d8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+13 to Agility
+
+    +3 to Submission
+
+    If your opponent''s 1st or 2nd Breakout roll is the same as your Finish roll, they cannot break out on that roll.'
+  tags: []
+  related_cards:
+    - 431440f1c91441b7b495d0e1b9ad1a0e
 - name: 3 Best Friends
   db_uuid: 8e3678bb4935499dae171ac41c0aabea
   card_type: TrioCompetitorCard

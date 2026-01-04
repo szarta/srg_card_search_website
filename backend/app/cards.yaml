@@ -70276,3 +70276,13 @@
   deck_card_number: 30
   rules_text: Your opponent's Power, Technique, and Agility are -1.  Blank all Spotlights for the rest of the match.  If stopped, you lose the match via disqualification.
   tags: []
+- name: Pamphlet
+  db_uuid: 5187930b4bf744a9bc9bc3acc0c33401
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Your next turn roll is +3.
+
+    If either player rolls Agility for their turn roll, their roll is +1.'
+  tags: []

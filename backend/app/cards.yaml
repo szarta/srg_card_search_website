@@ -70286,3 +70286,17 @@
 
     If either player rolls Agility for their turn roll, their roll is +1.'
   tags: []
+- name: Impact Bomb (Submission)
+  db_uuid: 024fdce22d404154b4a8560d6cc1d0da
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If this is a Trio match triple these bonuses.
+
+    Add 1 Submission you have in play to your hand.'
+  tags: []

@@ -43599,6 +43599,7 @@
     - c00569ab32544866b8eb51008e821d17
 - name: Jordan Oliver (V1)
   db_uuid: ce62c04bdaf54cc1b72280f22e89589a
+  srgpc_url: https://www.srgpc.net/cards/competitors/jordan-oliver/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -43610,8 +43611,16 @@
   grapple: 9
   rules_text: When your opopnent hits a card, your Power, Agility, and Strike are +1 during your next turn roll.
   tags: []
+  related_finishes:
+    - 5f2116e03f1247ddb35b8d1517dcd687
+    - 709d5346f41e4bb8a22406bfb2eb06f5
+    - 61327d8f9fe840618fa4c49bb7ba3fb7
+    - f59324641bab43cb97f6f85d2fed17db
+    - 15b4bf02b93e4651901256a25717d736
+    - ee82d7aa35634b58b83251bd11ec80d1
 - name: Jordan Oliver (V2)
   db_uuid: 24a750cd651b4ed0952e5d933524a9f0
+  srgpc_url: https://www.srgpc.net/competitors/jordan-oliver-v2/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -43623,6 +43632,103 @@
   grapple: 5
   rules_text: If you rolled Power for your turn roll, your cards with "Avalanche" in the name are also Leads until the end of the turn.
   tags: []
+  related_finishes:
+    - 5f2116e03f1247ddb35b8d1517dcd687
+    - 709d5346f41e4bb8a22406bfb2eb06f5
+    - 61327d8f9fe840618fa4c49bb7ba3fb7
+    - f59324641bab43cb97f6f85d2fed17db
+    - 15b4bf02b93e4651901256a25717d736
+    - ee82d7aa35634b58b83251bd11ec80d1
+- name: Yakuza Kick
+  db_uuid: 5f2116e03f1247ddb35b8d1517dcd687
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
+- name: Clout Cutter
+  db_uuid: 709d5346f41e4bb8a22406bfb2eb06f5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    +1 to Power for each card you have in play with "High", "Smoke", or "Burn" in the name.'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
+- name: Torture Crab
+  db_uuid: 61327d8f9fe840618fa4c49bb7ba3fb7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Shuffle 4 cards from your discard pile into your deck.  Draw 2 cards.'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
+- name: Avalanche Frankensteiner
+  db_uuid: f59324641bab43cb97f6f85d2fed17db
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    Draw 1 card for each Lead you have in play.'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
+- name: Avalanche Acid Bomb
+  db_uuid: 15b4bf02b93e4651901256a25717d736
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +3 to Grapple
+
+    Draw cards equal to the Crowd Meter +1 (Max +5).'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
+- name: Torture Avalanche Crab
+  db_uuid: ee82d7aa35634b58b83251bd11ec80d1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    The next time you roll Technique for your turn roll, it is +4.'
+  tags: []
+  related_cards:
+    - ce62c04bdaf54cc1b72280f22e89589a
+    - 24a750cd651b4ed0952e5d933524a9f0
 - name: Joseph Ritchie
   db_uuid: e5093ca247334348986ed94e04c5bb76
   srg_url: https://supershowthegame.com/product/joseph-ritchie/

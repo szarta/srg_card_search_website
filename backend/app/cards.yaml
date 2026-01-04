@@ -2282,7 +2282,7 @@
 
     During your turn: When you hit one of those cards, draw 1 card.'
   tags: []
-- name: Strike Training with Big Shot
+- name: Strike Training with The Big Shot
   db_uuid: b19b154c672b4a90ad9003c67f5762af
   card_type: EntranceCard
   rules_text: 'If your deck contains:

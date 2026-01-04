@@ -45134,6 +45134,50 @@
   grapple: 6
   rules_text: When your opponent stops your card, each player flips 4 cards.
   tags: []
+  related_finishes:
+    - d2a0aa20842341dfb90f590064d22c65
+    - c644d27d88e14ee4847e036be45d3d66
+    - 91a6ee9f6406487bb8057b3fa3486ab1
+- name: The Luminous Stone
+  db_uuid: d2a0aa20842341dfb90f590064d22c65
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    If stopped, look at the top 7 cards of your opponent''s deck and put them back on top in any order.'
+  tags: []
+  related_cards:
+    - 088fca386b3e47fcb5b1087f3b7def31
+- name: The Fallen Star
+  db_uuid: c644d27d88e14ee4847e036be45d3d66
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    If flipped, add this card to your hand and shuffle 7 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 088fca386b3e47fcb5b1087f3b7def31
+- name: The Witch's Sabbath
+  db_uuid: 91a6ee9f6406487bb8057b3fa3486ab1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    +1 to Submission
+
+    If stopped, look at the top 7 cards of your deck and put them back on top in any order.'
+  tags: []
+  related_cards:
+    - 088fca386b3e47fcb5b1087f3b7def31
 - name: Lissa Langnatt (V2)
   db_uuid: be79480b8275486690374aef3496dbef
   card_type: SingleCompetitorCard

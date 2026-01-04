@@ -41640,7 +41640,7 @@
   strike: 10
   submission: 5
   grapple: 6
-  rules_text: 'FRONT: Once per turn roll: When your opponent rolls Strike, search your deck for a Strike and add it to you rhand, then turn this card over.
+  rules_text: 'FRONT: Once per turn roll: When your opponent rolls Strike, search your deck for a Strike and add it to your hand, then turn this card over.
 
     BACK: Once per turn roll: When your opponent rolls Strike, flip 1 then add 1 Strike from your discard pile to your hand.'
   tags: []
@@ -43010,6 +43010,8 @@
 
     If played after a bump, your opponent''s first Breakout roll is -3.'
   tags: []
+  related_cards:
+    - cea48c22a3cb4ad3ade5a8a0cbf19ac8
 - name: Off Broadway
   db_uuid: 45f1ce3c432b4646a8cf7440483579f0
   card_type: MainDeckCard
@@ -43022,8 +43024,11 @@
 
     Your Finish rolls are +1 for each Spotlight in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - cea48c22a3cb4ad3ade5a8a0cbf19ac8
 - name: Johnny Gargano
   db_uuid: 17371174d48f48d59a01492841a75416
+  srgpc_url: https://www.srgpc.net/cards/competitors/johnny-gargano/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -43039,6 +43044,46 @@
 
     "Flip 2 cards, and then add 1 Submission card in your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - e6f9156fd19e47ed8cc87b00c293633f
+    - c57c2a4e53054e86ae02b8b1a31ba7e7
+    - 8e7c82d3248841f1adf26c3359aece2f
+- name: Slingshot Spear
+  db_uuid: e6f9156fd19e47ed8cc87b00c293633f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Shuffle 4 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 17371174d48f48d59a01492841a75416
+- name: Hurts Donut
+  db_uuid: c57c2a4e53054e86ae02b8b1a31ba7e7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    Flip 2 cards, and then add 1 Submission card in your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 17371174d48f48d59a01492841a75416
+- name: Gargan-No Escape
+  db_uuid: 8e7c82d3248841f1adf26c3359aece2f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent gets 2 Breakout rolls this turn.
+  tags: []
+  related_cards:
+    - 17371174d48f48d59a01492841a75416
 - name: Johnny North Korea
   db_uuid: 6fee88b1e0494bec9e0181ab6735a50b
   srg_url: https://supershowthegame.com/product/johnny-north-korea/

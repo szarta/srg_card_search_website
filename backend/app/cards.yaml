@@ -1524,6 +1524,15 @@
     - a01036ebb5bf49e382f6c9668fd04cc7
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+- name: The Royal Family's Own Tyler Rich
+  db_uuid: f106ad353db54acb87774bc79eaffae0
+  card_type: EntranceCard
+  rules_text: 'Once a match:
+
+    Choose a Stipulation:
+
+    It is considered that Stipulation until the end of the turn for your effects.'
+  tags: []
 - name: Seek and Ye Shall Find
   db_uuid: 6592903ccf7d4c69ae99dd92e062adb9
   card_type: EntranceCard

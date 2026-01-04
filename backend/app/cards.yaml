@@ -1569,6 +1569,7 @@
 - name: 2 for the Supershow
   db_uuid: cc6fbc06c4ac4d8480f3a5367a0120a0
   srg_url: https://supershowthegame.com/product/2-for-the-supershow/
+  srgpc_url: https://www.srgpc.net/cards/entrances/2-for-the-supershow/
   card_type: EntranceCard
   rules_text: 'If this is a match with a stipulation: Before the start of the match, search your deck for card #2 and add it to your hand.'
   tags: []
@@ -2181,6 +2182,7 @@
 - name: Agility Training With EDM
   db_uuid: d096673eac8e460ebc788e21339ea808
   srg_url: https://supershowthegame.com/product/agility-training-with-edm/
+  srgpc_url: https://www.srgpc.net/cards/entrances/agility-training-with-edm/
   card_type: EntranceCard
   rules_text: 'If your deck contains:
 
@@ -4462,6 +4464,7 @@
   tags: []
 - name: Double Cross
   db_uuid: 0241e7dc17f34790a8aa1f9a20f39231
+  srg_url: https://supershowthegame.com/product/01-double-cross/
   srgpc_url: https://www.srgpc.net/cards/1/double-cross/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4573,6 +4576,7 @@
     - Old School
 - name: Chortling Low Blow
   db_uuid: 4df82af2be2c487e8d07878c5234f3ad
+  srg_url: https://supershowthegame.com/product/01-chortling-low-blow/
   srgpc_url: https://www.srgpc.net/cards/1/chortling-low-blow/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4627,6 +4631,7 @@
   tags: []
 - name: Finger Poke of Doom
   db_uuid: fa4bfc0754fc48b085da6318ec4ca3d1
+  srg_url: https://supershowthegame.com/product/01-finger-poke-of-doom/
   srgpc_url: https://www.srgpc.net/cards/1/finger-poke-of-doom/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4665,6 +4670,7 @@
   tags: []
 - name: Knuckle Sandwich
   db_uuid: 6685aa34bcca4023ac467f534c6f6572
+  srg_url: https://supershowthegame.com/product/01-knuckle-sandwich/
   srgpc_url: https://www.srgpc.net/cards/1/knuckle-sandwich/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4685,6 +4691,7 @@
   tags: []
 - name: Knuckle Up
   db_uuid: 59898401c0c14b109c6434cabdf761bc
+  srg_url: https://supershowthegame.com/product/01-knuckle-up/
   srgpc_url: https://www.srgpc.net/cards/1/knuckle-up/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4705,6 +4712,7 @@
   tags: []
 - name: Leap Frog
   db_uuid: b84f3c950bff4f3daaeaa23624b1974d
+  srg_url: https://supershowthegame.com/product/01-leap-frog/
   srgpc_url: https://www.srgpc.net/cards/1/leap-frog/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4717,6 +4725,7 @@
     - Old School
 - name: Legendary Punch
   db_uuid: 0b90c34a72d44946a888d4e0ad5dccd7
+  srg_url: https://supershowthegame.com/product/01-legenadary-punch/
   srgpc_url: https://www.srgpc.net/cards/1/legendary-punch/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4801,6 +4810,7 @@
     - Old School
 - name: Pineapple
   db_uuid: 92f6f0f603704da080ac361b0b223811
+  srg_url: https://supershowthegame.com/product/01-pineapple/
   srgpc_url: https://www.srgpc.net/cards/1/pineapple/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4810,6 +4820,7 @@
   tags: []
 - name: Rib Jab
   db_uuid: 4203911218f6497c84825c9ab234a596
+  srg_url: https://supershowthegame.com/product/01-rib-jab/
   srgpc_url: https://www.srgpc.net/cards/1/rib-jab/
   card_type: MainDeckCard
   atk_type: Strike
@@ -45109,7 +45120,7 @@
   grapple: 7
   rules_text: After you flip any number of cards, look at your opponent's hand, then take 1 card from your discard pile and shuffle it into your deck.
   tags: []
-- name: Lissa Langnatt
+- name: Lissa Langnatt (V1)
   db_uuid: 088fca386b3e47fcb5b1087f3b7def31
   srgpc_url: https://www.srgpc.net/cards/competitors/lissa-langnatt/
   card_type: SingleCompetitorCard
@@ -45123,6 +45134,62 @@
   grapple: 6
   rules_text: When your opponent stops your card, each player flips 4 cards.
   tags: []
+- name: Lissa Langnatt (V2)
+  db_uuid: be79480b8275486690374aef3496dbef
+  card_type: SingleCompetitorCard
+  gender: Female
+  power: 9
+  technique: 5
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 6
+  rules_text: When your card is stopped, draw 2 cards and your opponent reveals the top card of their deck; if it is a Finish, they bury it, if not they add it to their hand.
+  tags: []
+  related_finishes:
+    - b9efdf928db54347869040e16f741389
+    - 81deb0aedcc74e8b8c9927b457564e12
+    - 84c658554b454493b7fe8198eae59622
+- name: The Ride From Asgard
+  db_uuid: b9efdf928db54347869040e16f741389
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    The next time you would flip any number of cards, add the flipped cards to your hand.'
+  tags: []
+  related_cards:
+    - be79480b8275486690374aef3496dbef
+- name: The Longest Night
+  db_uuid: 81deb0aedcc74e8b8c9927b457564e12
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +2 to Technique and Grapple for each card in your discard pile with "If stopped" in the text.
+  tags: []
+  related_cards:
+    - be79480b8275486690374aef3496dbef
+- name: The Wild Hunt
+  db_uuid: 84c658554b454493b7fe8198eae59622
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    The next time you flip any number of cards, add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - be79480b8275486690374aef3496dbef
 - name: Little Guido
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
   srgpc_url: https://www.srgpc.net/cards/competitors/little-guido/

@@ -30628,8 +30628,8 @@
   tags: []
 - name: Joey Ryan
   db_uuid: ff880ca42bb946a5945d9407b31ee671
-  srgpc_url: https://www.srgpc.net/cards/competitors/joey-ryan/
   is_banned: true
+  srgpc_url: https://www.srgpc.net/cards/competitors/joey-ryan/
   card_type: SingleCompetitorCard
   power: 7
   technique: 8
@@ -69533,4 +69533,28 @@
   rules_text: '+2 to Power
 
     +3 to Submission'
+  tags: []
+- name: Viledriver
+  db_uuid: 65adf4ffaea6454cbcf65025a1a1f69e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    +1 to Agility
+
+    +1 to Strike
+
+    If your opponent has not Stops in play, double these bonuses.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+- name: FTL
+  db_uuid: ee0defe517514f26860c5b695dbdd159
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's Power, Technique, and Agility are -1.  Blank all Spotlights for the rest of the match.  If stopped, you lose the match via disqualification.
   tags: []

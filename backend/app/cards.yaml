@@ -1524,6 +1524,13 @@
     - a01036ebb5bf49e382f6c9668fd04cc7
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+- name: Seek and Ye Shall Find
+  db_uuid: 6592903ccf7d4c69ae99dd92e062adb9
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If you ended your turn without playing a card, put 1 card with "Dive" in the name from your discard pile on top of your deck.'
+  tags: []
 - name: Never Settle for Less Than Elle Diablo
   db_uuid: 3106fc788f5e4d86b4103d05a5e9d760
   srg_url: https://supershowthegame.com/product/entrance-never-settle-for-less-than-elle-diablo/

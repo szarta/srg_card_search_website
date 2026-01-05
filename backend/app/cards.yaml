@@ -70481,3 +70481,32 @@
 
     Add 1 Submission you have in play to your hand.'
   tags: []
+- name: Top Rope Superplex
+  db_uuid: 1cf71c989c624ae5bb545318e37671b2
+  srg_url: https://supershowthegame.com/product/29-top-rope-superplex/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Each player buries 4 cards in their hand.
+
+    +1 to all your skills.'
+  tags: []
+- name: Super Snap Powerbomb
+  db_uuid: a05e1807cb014732861485484d4f6d24
+  srg_url: https://supershowthegame.com/product/29-super-snap-powerbomb/
+  srgpc_url: https://www.srgpc.net/cards/29/super-snap-powerbomb/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []

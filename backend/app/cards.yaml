@@ -146,9 +146,15 @@
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: +1 to Technique\n+4 to Submission\nYour finish roll is +1 for each card you have in play with "Spine" in the name.
+  rules_text: '+1 to Technique
+
+    +4 to Submission
+
+    Your Finish roll is +1 for each card you have in play with "Spine" in the name.'
   release_set: Unknown
   tags: []
+  wants_keywords:
+    - Spine
 - name: The Rising Sun
   db_uuid: 83a18825be1b4a83bcbc1392a5bcb585
   srg_url: https://supershowthegame.com/product/the-rising-sun/
@@ -348,6 +354,8 @@
     - 376f821b06c94e4688ebf91d872b7d6e
     - 8660f7591692453d871422bfec5a7f52
     - cc1f76c2186a4f5eb3ba93baf87df3d3
+  wants_keywords:
+    - Kick
 - name: Southern State Steel Chain
   db_uuid: 98dc503d4fc440e1828186024e0db7d8
   srg_url: https://supershowthegame.com/product/28-southern-state-steel-chain/
@@ -561,6 +569,8 @@
   tags: []
   related_cards:
     - 258cee74f15b452e85bc92754f82dd0e
+  wants_keywords:
+    - Trash Can
 - name: DDT It!
   db_uuid: ad9bf71f6fbf4867ab715f1c1c289af6
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
@@ -577,6 +587,8 @@
   tags: []
   related_cards:
     - 258cee74f15b452e85bc92754f82dd0e
+  wants_keywords:
+    - Trash Can
 - name: Straight Trash
   db_uuid: 405ed37a86044038851fc23caae39086
   srg_url: https://supershowthegame.com/product/12-grapple-matt/
@@ -593,6 +605,8 @@
   tags: []
   related_cards:
     - 258cee74f15b452e85bc92754f82dd0e
+  wants_keywords:
+    - Trash
 - name: 4 Leaf Flynn (Banned)
   db_uuid: 5bf284e2d59b41168a6e94f33a195091
   is_banned: true
@@ -715,7 +729,7 @@
   deck_card_number: 29
   rules_text: '+2 to Power.
 
-    You may discard your hand to re-roll your finish roll.'
+    You may discard your hand to re-roll your Finish roll.'
   tags: []
   related_cards:
     - 30ca8593f4e84ea3b5d8c45c0779e3f3
@@ -1224,6 +1238,9 @@
     - 201afe1b89a94760b58e40faa52db6c2
     - 503c3ebd43a940c181fa2bf187e1ad41
     - 4a8ada07bd32499b964de543c6ac5099
+  wants_keywords:
+    - Lariat
+    - Clothesline
 - name: Buckshot Lariat
   db_uuid: 201afe1b89a94760b58e40faa52db6c2
   srg_url: https://supershowthegame.com/product/adam-page/
@@ -1284,6 +1301,8 @@
     - 68f25c8d00de476fb5d349180706cc39
     - 66e3b16cedb742cba0b484f063812459
     - 53f2706a3ff849c3a47e4f8a5369db1b
+  wants_keywords:
+    - Suplex
 - name: Loaded Arm Deathlock
   db_uuid: 68f25c8d00de476fb5d349180706cc39
   srg_url: https://supershowthegame.com/product/adam-priest/
@@ -1299,6 +1318,8 @@
   tags: []
   related_cards:
     - c077293c5143451885069856ec9b01e9
+  wants_keywords:
+    - Lock
 - name: Snap German
   db_uuid: 66e3b16cedb742cba0b484f063812459
   srg_url: https://supershowthegame.com/product/adam-priest/
@@ -1540,6 +1561,8 @@
 
     If you ended your turn without playing a card, put 1 card with "Dive" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Dive
 - name: Never Settle for Less Than Elle Diablo
   db_uuid: 3106fc788f5e4d86b4103d05a5e9d760
   srg_url: https://supershowthegame.com/product/entrance-never-settle-for-less-than-elle-diablo/
@@ -1678,6 +1701,8 @@
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, put 1 card with "Swing" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Swing
 - name: Behind the Scenes Interviewer
   db_uuid: bbd28f5b4a664c8e872f7b110fbeafe8
   srg_url: https://supershowthegame.com/product/behind-the-scenes-interviewer/
@@ -1702,6 +1727,8 @@
   card_type: EntranceCard
   rules_text: 'At the start of the match, draw 1 card, flip 1 card, and your first turn roll is +1.  Once a match:  When you have no other cards in play, your next card with "Kick" in the name cannot be sopped.'
   tags: []
+  wants_keywords:
+    - Kick
 - name: The Code of Lucha Libre
   db_uuid: 0368412dc7454f70ae7acb5abe9d8673
   srg_url: https://supershowthegame.com/product/entrance-the-code-of-lucha-libre/
@@ -1738,6 +1765,8 @@
 
     If your opponent revealed "Fate Is On Your Side", look at the top 3 cards of your deck and put them on top in any order.'
   tags: []
+  wants_keywords:
+    - L.F.F
 - name: Fast-Rising Rivalry
   db_uuid: 1febaf4eb764453eb8906335055d5bc0
   srg_url: https://supershowthegame.com/product/entrance-fast-rising-rivarly/
@@ -1907,12 +1936,16 @@
 
     If this is a Main Event match, add that card to your hand instead.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Managed by Super Genie
   db_uuid: dce2ffa867f74675a65581cf9e1bab09
   srg_url: https://supershowthegame.com/product/entrance-managed-by-super-genie/
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, put 1 card with "Dive" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Dive
 - name: Movie Night with The Philosopher (V1)
   db_uuid: 2ce0a7e85f25468fb1ef96bb44ed0fd9
   srg_url: https://supershowthegame.com/product/entrance-movie-night-with-the-philosopher/
@@ -2137,6 +2170,8 @@
   card_type: EntranceCard
   rules_text: 'Once per game: If you ended your turn without playing a card, search your deck for 1 Lead or Follow Up with "Buster" in the name and put it on top of your shuffled deck.'
   tags: []
+  wants_keywords:
+    - Buster
 - name: Wedding Trashers
   db_uuid: 8432fe3575204066bb9c706024b797bc
   srg_url: https://supershowthegame.com/product/entrance-wedding-thrashers/
@@ -2651,6 +2686,8 @@
   card_type: EntranceCard
   rules_text: Your and your target's Spectacle cards without "L.F.F." in the name are blank.  All finishes can be stopped.
   tags: []
+  wants_keywords:
+    - L.F.F.
 - name: Without Me, There is No You.
   db_uuid: bc308ebcef124a4ea8b3ca108477a314
   srg_url: https://supershowthegame.com/product/entrance-without-me-there-is-no-you/
@@ -2662,6 +2699,8 @@
   card_type: EntranceCard
   rules_text: 'Twice per match: When you reveal the top card of your deck, and it does not have "Bat" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []
+  wants_keywords:
+    - Bat
 - name: El Super Hombre (V1)
   db_uuid: 59a06bccbea64d1bb1d6301449190e81
   srg_url: https://supershowthegame.com/product/el-super-hombre/
@@ -2681,6 +2720,8 @@
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
+  wants_keywords:
+    - Super
 - name: El Super Smash (#28)
   db_uuid: ac693f80214649c9a71bf99186efb3eb
   srg_url: https://supershowthegame.com/product/el-super-hombre/
@@ -3240,6 +3281,9 @@
     - b6987823bf204fe8b1e170840d0d277d
     - 5cff784c580d42cf93f34c57fb88a9bf
     - e9db919e62d6440db8d6fe7dc0384cc7
+  wants_keywords:
+    - Seal
+    - Taunt
 - name: The Art Attack
   db_uuid: b6987823bf204fe8b1e170840d0d277d
   srg_url: https://supershowthegame.com/product/art-the-seal/
@@ -3287,6 +3331,8 @@
   tags: []
   related_cards:
     - abec1bc1bede476cb22839213ccb31b9
+  wants_keywords:
+    - Taunt
 - name: Big Jim Bias
   db_uuid: 9af9c9c9ba454cbc8ea6bd87eb0adc9a
   srg_url: https://supershowthegame.com/product/big-jim-bias/
@@ -3435,6 +3481,8 @@
     - 74eb93d4eb7f4500986b1074fea219a4
     - 6ecbb9ba694a498f87ac987a630a1a5c
     - 3e16a0f8d1244ecfb22fdb632cb65a56
+  wants_keywords:
+    - Suplex
 - name: Brutal Beatdown
   db_uuid: 74eb93d4eb7f4500986b1074fea219a4
   srg_url: https://supershowthegame.com/product/brutus-bison-2/
@@ -3450,6 +3498,8 @@
   tags: []
   related_cards:
     - df665aceb6fb4424ad89d1368b983b6c
+  wants_keywords:
+    - Suplex
 - name: Cyclone Suplex
   db_uuid: 6ecbb9ba694a498f87ac987a630a1a5c
   srg_url: https://supershowthegame.com/product/brutus-bison-2/
@@ -3480,6 +3530,8 @@
   tags: []
   related_cards:
     - df665aceb6fb4424ad89d1368b983b6c
+  wants_keywords:
+    - German Suplex
 - name: Alanna Antoinette
   db_uuid: c4732bb7130f49d5830a881f78b0d6a6
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
@@ -4481,6 +4533,8 @@
   deck_card_number: 1
   rules_text: 'Stop any Lead Grapple.  Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Heading Out
   db_uuid: dcfc1125c118453084b1e13f8faf2643
   srgpc_url: https://www.srgpc.net/cards/1/heading-out/
@@ -4522,6 +4576,8 @@
 
     If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
   tags: []
+  wants_keywords:
+    - Table
 - name: I'm Just Getting Started
   db_uuid: 2b54e392daba4c21b09ce6d7825be25a
   srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
@@ -4580,7 +4636,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
-  rules_text: If you roll Submission for your finish roll, it is +1.  If this is a Steel Chain match, you may shuffle 2 cards from your discard pile into your deck.
+  rules_text: If you roll Submission for your Finish roll, it is +1.  If this is a Steel Chain match, you may shuffle 2 cards from your discard pile into your deck.
   tags: []
 - name: Cheap Shot
   db_uuid: 29dd4a3038eb447ebe4c04bcd497f5df
@@ -4649,6 +4705,8 @@
   deck_card_number: 1
   rules_text: 'Stop any Lead Grapple. Randomly reveal 1 card in your hand: If that card has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Eye Poke
   db_uuid: fde614e178a24892be0a7776c924eb73
   srgpc_url: https://www.srgpc.net/cards/1/eye-poke/
@@ -4704,7 +4762,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
-  rules_text: If you roll Technique for your finish roll, your roll is +1.
+  rules_text: If you roll Technique for your Finish roll, your roll is +1.
   tags: []
 - name: Knuckle Sandwich
   db_uuid: 6685aa34bcca4023ac467f534c6f6572
@@ -4727,6 +4785,8 @@
   deck_card_number: 1
   rules_text: Stop any Grapple with "Over the Top" in the name.
   tags: []
+  wants_keywords:
+    - Over the Top
 - name: Knuckle Up
   db_uuid: 59898401c0c14b109c6434cabdf761bc
   srg_url: https://supershowthegame.com/product/01-knuckle-up/
@@ -5198,6 +5258,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Head Grab
   db_uuid: 5e98f22d8ade433e9d2f1fab0492d3ed
   srgpc_url: https://www.srgpc.net/cards/2/head-grab/
@@ -5334,6 +5396,8 @@
   deck_card_number: 2
   rules_text: Stop any Submission with "Over the Top" in the name.
   tags: []
+  wants_keywords:
+    - Over the Top
 - name: Shake Down
   db_uuid: 3bd20b48d0ba44b7b669b365602757b5
   srgpc_url: https://www.srgpc.net/cards/2/shake-down/
@@ -5401,7 +5465,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
-  rules_text: If you roll Agility for your finish roll, it is +1.
+  rules_text: If you roll Agility for your Finish roll, it is +1.
   tags: []
 - name: Swift Arm Wrestling
   db_uuid: d9ea3f4ffdfd430ba4a8e3e721bad716
@@ -5430,7 +5494,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 2
-  rules_text: If you roll Grapple for your finish roll, your roll is +1.
+  rules_text: If you roll Grapple for your Finish roll, your roll is +1.
   tags: []
 - name: Walk Through Fire
   db_uuid: e005bae3477845d9b798ee01412a06ed
@@ -5810,6 +5874,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Money Talks
   db_uuid: 585e2399924f4dcfa3bca197ed946455
   srgpc_url: https://www.srgpc.net/cards/3/money-talks/
@@ -5940,6 +6006,8 @@
   deck_card_number: 3
   rules_text: Stop any Strike with "Over the Top" in the name.
   tags: []
+  wants_keywords:
+    - Over the Top
 - name: Swinging Headlock
   db_uuid: 1947547588ee4358804575a807de5bd1
   srgpc_url: https://www.srgpc.net/cards/3/swinging-headlock/
@@ -6021,6 +6089,8 @@
 
     Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Taking You To School
   db_uuid: c9587149b6cb43a8ac36ac3c7228e345
   srgpc_url: https://www.srgpc.net/cards/4/taking-you-to-school/
@@ -6172,6 +6242,8 @@
 
     Randomly reveal 1 card in your hand: If that card has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Going Over the Kendo Stick
   db_uuid: 60fb564aae5148d9818222d749c32576
   srgpc_url: https://www.srgpc.net/cards/4/going-over-the-kendo-stick-v2/
@@ -6205,6 +6277,8 @@
 
     Draw 1 card. Discard 1 card your opponent has in play.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Haymaker Punch
   db_uuid: 52bee32fa1d04c2087aee6235b5b22c9
   srgpc_url: https://www.srgpc.net/cards/4/haymaker-punch
@@ -6309,6 +6383,8 @@
 
     Shuffle 1 card with "Table" in the name from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Old School
   db_uuid: fe9458e285ac4322a3e646931880758e
   srgpc_url: https://www.srgpc.net/cards/4/old-school/
@@ -6402,6 +6478,8 @@
 
     Put 1 card with "Trash Can" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Spin Kick
   db_uuid: e1f168ab92c8495594ecde2ea5b737c4
   srgpc_url: https://www.srgpc.net/cards/4/spin-kick/
@@ -6643,6 +6721,8 @@
 
     Shuffle 1 card with "Steel Chain" in the name from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Double Underhook DDT
   db_uuid: 66fb036e95b84f9989c50d03164418cf
   srgpc_url: https://www.srgpc.net/cards/5/double-underhook-ddt/
@@ -6711,6 +6791,8 @@
 
     Randomly reveal 1 card in your hand: if it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Going Over the Steel Chair
   db_uuid: 302ff41064c24ed88daf585cbe60cabe
   srgpc_url: https://www.srgpc.net/cards/5/going-over-the-steel-chair-v2/
@@ -6744,6 +6826,8 @@
 
     Draw 1 card. Shuffle 1 card from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: The Grump Train
   db_uuid: df4692cbb5c84a5e9b76ffd49afbbbcc
   srgpc_url: https://www.srgpc.net/cards/5/the-grump-train/
@@ -6969,6 +7053,8 @@
 
     Put 1 card with "Sledgehammer" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Swing DDT
   db_uuid: c78f960127fe460598ba805fb555584f
   srgpc_url: https://www.srgpc.net/cards/5/swing-ddt/
@@ -7307,6 +7393,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Going Over the Ring Steps
   db_uuid: 716d1055d99c4a1888764642aa7d6109
   srgpc_url: https://www.srgpc.net/cards/6/going-over-the-ring-steps-v2/
@@ -7329,6 +7417,8 @@
 
     Draw 1 card. Your opponent randomly buries 1 card in their hand.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Going Over the Steel Chain
   db_uuid: 957862a452f74b7ea02ff75562ef6461
   srgpc_url: https://www.srgpc.net/cards/6/going-over-the-steel-chain/
@@ -7441,6 +7531,8 @@
 
     Put 1 card with "Pineapple" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Shoulder Buster
   db_uuid: e22bf860d2794d1398902aa9e8c63f4c
   srgpc_url: https://www.srgpc.net/cards/6/shoulder-buster/
@@ -7463,6 +7555,8 @@
 
     Shuffle 1 card with "Ladder" in the name from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Ladder
 - name: Sleeper Bomb
   db_uuid: 1185da00a9954f3690d25ea9b05f8506
   srg_url: https://supershowthegame.com/product/06-sleeper-bomb/
@@ -7605,6 +7699,9 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Bat
+    - Baseball Bat
 - name: Blinding Potion No. 7
   db_uuid: 5f0e6868fb3548a8b2edec12b58a65cb
   srgpc_url: https://www.srgpc.net/cards/7/blinding-potion-no-7/
@@ -7646,6 +7743,8 @@
 
     Add 1 card with "Cat" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Cat
 - name: Charging Elbow
   db_uuid: 0954b5bfbd4748a792f8b52c93937ca6
   srgpc_url: https://www.srgpc.net/cards/7/charging-elbow/
@@ -7726,6 +7825,8 @@
 
     Randomly reveal 1 card in your hand: if it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Elbow Drop
   db_uuid: 3dcc8886aaf2402f82a98f13d5d26bd1
   srgpc_url: https://www.srgpc.net/cards/7/elbow-drop/
@@ -7828,6 +7929,8 @@
 
     When your opponent increases their turn roll, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Kendo Stick
 - name: Knife Edge Chop
   db_uuid: d383bb3c29fc4f8c9a6f24a74a314523
   srgpc_url: https://www.srgpc.net/cards/7/knife-edge-chop/
@@ -7847,6 +7950,8 @@
   deck_card_number: 7
   rules_text: Search your deck for 1 card with "Ladder" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Ladder
 - name: Long Boat Leap
   db_uuid: 101a0600c73c4e169bc66031f56fb92a
   srgpc_url: https://www.srgpc.net/cards/7/long-boat-leap/
@@ -7867,6 +7972,8 @@
   deck_card_number: 7
   rules_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck, or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Making an Impact
   db_uuid: cee9c4abd2d2493397ba54997b27c888
   srgpc_url: https://www.srgpc.net/cards/7/making-an-impact/
@@ -7918,6 +8025,8 @@
 
     Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Posing With the Crowd
   db_uuid: 50ce06f771d046f7b9e8de262598c018
   srgpc_url: https://www.srgpc.net/cards/7/posing-with-the-crowd/
@@ -7943,6 +8052,8 @@
 
     Your opponent cannot move this card from in play.'
   tags: []
+  wants_keywords:
+    - Potion
 - name: Pulverizing Pinball
   db_uuid: f8723a55640a48a99c10d14dceaf6390
   srgpc_url: https://www.srgpc.net/cards/7/pulverizing-pinball/
@@ -8362,6 +8473,8 @@
   deck_card_number: 8
   rules_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck, or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Crowd's Got My Back
   db_uuid: 7569f1c2952545be944c05c526493fcf
   srgpc_url: https://www.srgpc.net/cards/8/crowds-got-my-back/
@@ -8396,6 +8509,8 @@
 
     Add 1 card with "Dog" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Dog
 - name: Double Leg Takedown
   db_uuid: 017eaa53489f4076b9e2dcf019ee30bf
   srgpc_url: https://www.srgpc.net/cards/8/double-leg-takedown/
@@ -8486,6 +8601,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Gut Buster
   db_uuid: b867f891bb1e45c1ae0af0235c796bc9
   srgpc_url: https://www.srgpc.net/cards/8/gut-buster/
@@ -8665,6 +8782,8 @@
 
     Your opponent cannot move this card from in play.'
   tags: []
+  wants_keywords:
+    - Seal
 - name: Slam Off the Ring
   db_uuid: 8c618067926a4b0383dfffa6fadb09db
   srgpc_url: https://www.srgpc.net/cards/8/slam-off-the-ring/
@@ -8694,6 +8813,8 @@
 
     When your opponent increases their turn roll, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Steel Chair
 - name: Stunning Suplex
   db_uuid: 9e956bdee37347e793cd1590c112a36f
   srgpc_url: https://www.srgpc.net/cards/8/stunning-suplex/
@@ -8792,6 +8913,8 @@
   deck_card_number: 8
   rules_text: Search your deck for 1 card with "Table" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Table
 - name: Takedown
   db_uuid: 9d0fecd8355749659b71c83b001e69de
   srgpc_url: https://www.srgpc.net/cards/8/takedown/
@@ -8884,6 +9007,8 @@
 
     Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Turbo Top Spin
   db_uuid: 435be60f10634c9cacc4c1f1e15e26fb
   srgpc_url: https://www.srgpc.net/cards/8/turbo-top-spin/
@@ -9325,6 +9450,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Norwegian Scapegoat Slam
   db_uuid: 3bc5207b590944acb9fa934e45c1084c
   srgpc_url: https://www.srgpc.net/cards/9/norwegian-scapegoat-slam/
@@ -9391,6 +9518,8 @@
 
     When your opponent increases their turn roll, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Ring Steps
 - name: Rolling Headlock
   db_uuid: 0d8a3553822c4eab9b3ff8a52022a152
   srgpc_url: https://www.srgpc.net/cards/9/rolling-headlock/
@@ -9433,6 +9562,8 @@
 
     Add 1 card with "Sheep" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Sheep
 - name: Sledgehammer Uprising
   db_uuid: 149c47939a5d4cfdb06c89f233503e7f
   srgpc_url: https://www.srgpc.net/cards/9/sledgehammer-uprising/
@@ -9444,6 +9575,8 @@
 
     Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Spit Fire Chariot
   db_uuid: 0be595fb7e6e4f96a766d8bbdbb28f10
   srgpc_url: https://www.srgpc.net/cards/9/spit-fire-chariot/
@@ -9491,6 +9624,8 @@
   deck_card_number: 9
   rules_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Strength in Numbers
   db_uuid: 419e8097b8c043ca936ce18a77fefe23
   card_type: MainDeckCard
@@ -9903,6 +10038,9 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Bat
+    - Baseball Bat
 - name: Gathering the Kendo Stick
   db_uuid: e665fba28393434d826769cd0bd208d5
   srgpc_url: https://www.srgpc.net/cards/10/gathering-the-kendo-stick/
@@ -9912,6 +10050,8 @@
   deck_card_number: 10
   rules_text: Your opponent's next turn roll is -1 for each card you have in play with "Kendo Stick" in the name.
   tags: []
+  wants_keywords:
+    - Kendo Stick
 - name: Gathering the Ladder
   db_uuid: bf3d3d5573d64b3e9c6196f8b6ce8d31
   srgpc_url: https://www.srgpc.net/cards/10/gathering-the-ladder/
@@ -9921,6 +10061,8 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each card you have in play with "Ladder" in the name.
   tags: []
+  wants_keywords:
+    - Ladder
 - name: Gathering the Pineapple
   db_uuid: 15ce98d81c7c40c8821f44e56eac11f2
   srgpc_url: https://www.srgpc.net/cards/10/gathering-the-pineapple/
@@ -9930,6 +10072,8 @@
   deck_card_number: 10
   rules_text: Shuffle 1 Strike from your discard pile into your deck for each card you have in play with "Pineapple" in the name.
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Gathering the Drumsticks
   db_uuid: 7682dd45cdeb4cfd952567b276f80639
   srgpc_url: https://www.srgpc.net/cards/10/gathering-the-drumstick/
@@ -9939,6 +10083,8 @@
   deck_card_number: 10
   rules_text: 'Draw 1 card for each other card you have in play with "Drumstick" in the name.  Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Gut Shot (V1)
   db_uuid: 9d53927d6209468eaf707ae62060f7fe
   srgpc_url: https://www.srgpc.net/cards/10/gut-shot/
@@ -10159,6 +10305,8 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each card you have in play with "Steel Chain" in the name.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Sucker Punch (Strike)
   db_uuid: 7b3feabbf1274a3cb65d7c03341f7fdb
   srgpc_url: https://www.srgpc.net/cards/10/sucker-punch/
@@ -10438,6 +10586,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Gathering the Steel Chair
   db_uuid: 8d60c3fca47b4f5895e150b4548c906c
   srgpc_url: https://www.srgpc.net/cards/11/gathering-the-steel-chair/
@@ -10447,6 +10597,8 @@
   deck_card_number: 11
   rules_text: Your opponent's next turn roll is -1 for each card you have in play with "Steel Chair" in the name.
   tags: []
+  wants_keywords:
+    - Steel Chair
 - name: Gathering the Table
   db_uuid: c71fe122381f44fa9c135a78e31e0b46
   card_type: MainDeckCard
@@ -10455,6 +10607,8 @@
   deck_card_number: 11
   rules_text: Your next turn roll is +1 for each card you have in play with "Table" in the name.
   tags: []
+  wants_keywords:
+    - Table
 - name: Gathering the Trash Can
   db_uuid: bb5e863815e841249ce5d7547bc3330f
   srgpc_url: https://www.srgpc.net/cards/11/gathering-the-trash-can/
@@ -10464,6 +10618,8 @@
   deck_card_number: 11
   rules_text: Shuffle 1 Grapple from your discard pile into your deck for each card you have in play with "Trash Can" in the name.
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Getting Over
   db_uuid: 41a1efe5f30e4aba87d3c192c7f24a6b
   srgpc_url: https://www.srgpc.net/cards/11/getting-over/
@@ -10718,6 +10874,8 @@
   deck_card_number: 11
   rules_text: Your next turn roll is +1 for each card you have in play with "Steel Chain" in the name.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Suplex Into the Ropes
   db_uuid: 81a9c83cf2e84c47b377d0ca15bf4583
   srgpc_url: https://www.srgpc.net/cards/11/suplex-into-the-ropes/
@@ -10998,6 +11156,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Gathering the Ring Steps
   db_uuid: fc28af76c28f49a78ffe60466ec364c2
   srgpc_url: https://www.srgpc.net/cards/12/gathering-the-ring-steps/
@@ -11007,6 +11167,8 @@
   deck_card_number: 12
   rules_text: Your opponent's next turn roll is -1 for each card you have in play with "Ring Step" in the name.
   tags: []
+  wants_keywords:
+    - Ring Step
 - name: Gathering the Sheep
   db_uuid: 15d3cc099c9a413ab3bdc9818072f3fb
   srgpc_url: https://www.srgpc.net/cards/12/gathering-the-sheep/
@@ -11016,6 +11178,8 @@
   deck_card_number: 12
   rules_text: Shuffle 1 Submission from your discard pile into your deck for each card you have in play with "Sheep" in the name.
   tags: []
+  wants_keywords:
+    - Sheep
 - name: Gathering the Sledgehammer
   db_uuid: 2e71ea7abb184e6cba90d56f9173dec6
   srgpc_url: https://www.srgpc.net/cards/12/gathering-the-sledgehammer/
@@ -11025,6 +11189,8 @@
   deck_card_number: 12
   rules_text: Shuffle 1 Submission from your discard pile into your deck for each card you have in play with "Sledgehammer" in the name.
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Gathering the Steel Chain
   db_uuid: 466e1e01b9544df2832fcce78d12894d
   srgpc_url: https://www.srgpc.net/cards/12/gathering-the-steel-chain/
@@ -11034,6 +11200,8 @@
   deck_card_number: 12
   rules_text: Your next turn roll is +1 for each card you have in play with "Steel Chain" in the name.
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Grind it Out
   db_uuid: a589027e6f084424a94de065ef741053
   srgpc_url: https://www.srgpc.net/cards/12/grind-it-out/
@@ -11420,6 +11588,8 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Catch the Baseball Bat
   db_uuid: b2f1ac1ff5f74af08c8c023e13254d90
   card_type: MainDeckCard
@@ -11430,6 +11600,8 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: American Air Assault
   db_uuid: 495df9f58c564dc889ef0815853a4a78
   srgpc_url: https://www.srgpc.net/cards/13/american-air-assault/
@@ -11502,6 +11674,8 @@
   deck_card_number: 13
   rules_text: If your Strike skill is at least 4 greater than your opponent's Strike skill or this match has "Chain" in the name, stop any Grapple.
   tags: []
+  wants_keywords:
+    - Chain
 - name: Charging Spear (Strike)
   db_uuid: 12f9cb40b0f9400281f9ca96ab56b638
   srgpc_url: https://www.srgpc.net/cards/13/charging-spear/
@@ -11566,6 +11740,8 @@
   deck_card_number: 13
   rules_text: If your Agility skill is greater than your opponent's Agility skill, stop any Grapple. Rnadomly reveal 1 card in your hand; if it has "Drumstick" in the name, bury 1 card in any player's discard pile.
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Drumstick Takeover
   db_uuid: ff8b564832954c228ea4301432a9dbee
   srgpc_url: https://www.srgpc.net/cards/13/drumstick-takeover/
@@ -11575,6 +11751,8 @@
   deck_card_number: 13
   rules_text: If your Strike skill is greater than your opponent's Strike skill, stop any Grapple. Randomly reveal 1 card in your hand; if it has "Drumstick" in the name, bury 1 card in any player's discard pile.
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Duck 1 Take 1
   db_uuid: d69fcd5666884f83a2d6d88210c737b1
   srgpc_url: https://www.srgpc.net/cards/13/duck-1-take-1/
@@ -11989,6 +12167,8 @@
   deck_card_number: 13
   rules_text: If your Strike skill is at least 4 greater than your opponent's Strike skill, or this match has "Ladder" in the name, stop any Grapple.
   tags: []
+  wants_keywords:
+    - Ladder
 - name: Slingshot Stomp (Submission)
   db_uuid: 15c2381d802d46bb8bea9562313fb44a
   srgpc_url: https://www.srgpc.net/cards/13/slingshot-stomp/
@@ -12133,6 +12313,8 @@
 
     Add 1 card with "Pineapple" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Tandem Chin Kicks
   db_uuid: fe9c7dd4d9ec487e9733c405bee321a2
   srgpc_url: https://www.srgpc.net/cards/13/tandem-chin-kicks/
@@ -12366,6 +12548,8 @@
 
     Randomly reveal 1 card in your hand; if it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Catch the Ropes (Agility)
   db_uuid: 3aebaea664064346b166bff127e16ffc
   srgpc_url: https://www.srgpc.net/cards/14/catch-the-ropes/
@@ -12586,6 +12770,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Head Scissor Takedown
   db_uuid: 80f1be665cd44eb28b47fc7306fe5911
   srgpc_url: https://www.srgpc.net/cards/14/head-scissor-takedown/
@@ -12595,6 +12781,8 @@
   deck_card_number: 14
   rules_text: If your Grapple skill is at least 4 greater than your opponent's Grapple skill or this match has "Chain" in the name, stop any Submission.
   tags: []
+  wants_keywords:
+    - Chain
 - name: Heel Sweep
   db_uuid: 490e65a4366e45c3aa27395ffe5dc2f6
   srgpc_url: https://www.srgpc.net/cards/14/heel-sweep/
@@ -12983,6 +13171,8 @@
 
     Add 1 card with "Trash Can" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Thicker Than Water
   db_uuid: 34ab2a1bed974bfb80e3d14bca70d2ef
   srgpc_url: https://www.srgpc.net/cards/14/thicker-than-water/
@@ -13001,6 +13191,8 @@
   deck_card_number: 14
   rules_text: If your Grapple skill is at least 4 greater than your opponent's Grapple skill, or this match has "Table" in the name, stop any Submission.
   tags: []
+  wants_keywords:
+    - Table
 - name: Toss Your Dad Over the Top
   db_uuid: 6d46cbc369c949a680d16031bd1b9b2a
   srgpc_url: https://www.srgpc.net/cards/14/toss-your-dad-over-the-top/
@@ -13553,6 +13745,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Mind Warp
   db_uuid: dacb1bc83a214ed884494e1422793c71
   srgpc_url: https://www.srgpc.net/cards/15/mind-warp/
@@ -13814,6 +14008,8 @@
   deck_card_number: 15
   rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, stop any Strike.  Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Veteran Maneuver
   db_uuid: 68cef7f90216452782ae68420a32428c
   srgpc_url: https://www.srgpc.net/cards/15/veteran-maneuver/
@@ -13854,6 +14050,8 @@
   deck_card_number: 15
   rules_text: If your Submission skill is at least 4 greater than your opponent's Submission skill, or this match has "Chain" in the name, stop any Strike.
   tags: []
+  wants_keywords:
+    - Chain
 - name: A Powerful Impact
   db_uuid: add3a3df0dfc4f31a300804f64faaf77
   srgpc_url: https://www.srgpc.net/cards/16/a-powerful-impact/
@@ -13905,6 +14103,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Ambush With the Kendo Stick
   db_uuid: 838149742d0741de8526fca045aebfdf
   card_type: MainDeckCard
@@ -13915,6 +14115,8 @@
 
     You may add 1 other card you have in play with "Kendo Stick" in the name to your hand.'
   tags: []
+  wants_keywords:
+    - Kendo Stick
 - name: Ambush With the Ladder
   db_uuid: 307bdef9aae242978b7159e0ceb5ee84
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-ladder/
@@ -13926,6 +14128,8 @@
 
     Add 1 card with "Ladder" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Ladder
 - name: Ambush with a Baseball Bat
   db_uuid: aa5303536f70414c9d0a128af12c3973
   card_type: MainDeckCard
@@ -13936,6 +14140,8 @@
 
     Reveal the top card of your deck: if it has "Baseball Bat" in the name, add that card to your hand and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: It's Chaos & Pandemonium
   db_uuid: 8f05c5341bff4e8291ae13ab2e6f2998
   srg_url: https://supershowthegame.com/product/16-chaos-and-pandemonium/
@@ -13946,7 +14152,7 @@
   deck_card_number: 16
   rules_text: 'If you have another Strike in play, shuffle 1 Strike from your discard pile into your deck and draw 1 card.
 
-    If you have "Pier Six Brawl" in play, your finish rolls are +1.'
+    If you have "Pier Six Brawl" in play, your Finish rolls are +1.'
   tags: []
 - name: Ambush With the Pineapple
   db_uuid: 908b73252093428082c760ea9dc88473
@@ -13957,6 +14163,8 @@
   deck_card_number: 16
   rules_text: Draw 1 card for each card you have in play with "Pineapple" in the name, then bury 1 card in your hand.
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Big Boot
   db_uuid: 79896f24ec054d17af40008cebf456ae
   srgpc_url: https://www.srgpc.net/cards/16/big-boot/
@@ -14307,6 +14515,8 @@
 
     Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Knee to the Chin
   db_uuid: aa55db4eb5134aa8be120f3f8fe80041
   srgpc_url: https://www.srgpc.net/cards/16/knee-to-the-face/
@@ -14662,6 +14872,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Ambush With the Steel Chair
   db_uuid: 9fcfaa0ef8c44924ab8d82609338c49e
   srgpc_url: https://www.srgpc.net/cards/17/ambush-with-the-steel-chair/
@@ -14673,6 +14885,8 @@
 
     You may add 1 other card you have in play with "Steel Chair" in the name to your hand.'
   tags: []
+  wants_keywords:
+    - Steel Chair
 - name: Ambush With the Table
   db_uuid: d8bfc1b3254e41b38d3f1d054f565aa7
   card_type: MainDeckCard
@@ -14683,6 +14897,8 @@
 
     Add 1 card with "Table" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Ambush With the Trash Can
   db_uuid: 741612a1d23d4c36be003865fd3227ca
   srgpc_url: https://www.srgpc.net/cards/17/ambush-with-the-trash-can/
@@ -14692,6 +14908,8 @@
   deck_card_number: 17
   rules_text: Draw 1 card for each card you have in play with "Trash Can" in the name, then bury 1 card in your hand.
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Back in Business
   db_uuid: 46f3d7685cb6497c95099231476edf21
   srgpc_url: https://www.srgpc.net/cards/17/back-in-business/
@@ -15247,6 +15465,8 @@
 
     Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: Suplex
   db_uuid: 3d0ceabd95b54540ba9b83ec2a78acc4
   srgpc_url: https://www.srgpc.net/cards/17/suplex/
@@ -15387,6 +15607,8 @@
 
     You may add 1 other card you have in play with "Ring Step" in the name to your hand.'
   tags: []
+  wants_keywords:
+    - Ring Step
 - name: Ambush With the Sledgehammer
   db_uuid: cff980d722a1413cb5d120435b693eeb
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-sledgehammer/
@@ -15396,6 +15618,8 @@
   deck_card_number: 18
   rules_text: Draw 1 card for each card you have in play with "Sledgehammer" in the name, then bury 1 card in your hand.
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Ambush With the Steel Chain
   db_uuid: 836ce42e15a44974a82d9731dfa2950e
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-steel-chain/
@@ -15407,6 +15631,8 @@
 
     Add 1 card with "Steel Chain" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Steel Chain
 - name: American Arm Stretch
   db_uuid: 735186ddfc59430fa27c34c1558162f1
   srgpc_url: https://www.srgpc.net/cards/18/american-arm-stretch/
@@ -15430,6 +15656,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Back Bender
   db_uuid: 5166d51c90274d9d8ed02dcf0c70a92b
   srgpc_url: https://www.srgpc.net/cards/18/back-bender/
@@ -16146,6 +16374,8 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Blindside Kick
   db_uuid: 150a02faff9842b1b5862dc74e737650
   srgpc_url: https://www.srgpc.net/cards/19/blindside-kick/
@@ -16299,6 +16529,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Finger Stomp
   db_uuid: 45d3fecd7df942d1a18f22b96844391c
   srgpc_url: https://www.srgpc.net/cards/19/finger-stomp/
@@ -16369,6 +16601,8 @@
   deck_card_number: 19
   rules_text: If you have a card with "Kendo Stick" in the name in play and your opponent has another Grapple in play, stop any Grapple.
   tags: []
+  wants_keywords:
+    - Kendo Stick
 - name: Hold the Pineapple
   db_uuid: 0fdc7f47bb1c4531b6484c95be92cbed
   srgpc_url: https://www.srgpc.net/cards/19/hold-the-pineapple/
@@ -16380,6 +16614,8 @@
 
     Discard 1 card your opponent has in play.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Isolate and Attack (Strike)
   db_uuid: 0fc3b4ee34244f48a7bd75e4d38c351b
   srgpc_url: https://www.srgpc.net/cards/19/isolate-and-attack/
@@ -17158,6 +17394,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: High Impact Back Drop (Strike)
   db_uuid: cd5501e9ef644b63ba9ae92ee448157e
   srgpc_url: https://www.srgpc.net/cards/20/high-impact-back-drop/
@@ -17180,6 +17418,8 @@
   deck_card_number: 20
   rules_text: If you have a card with "Steel Chair" in the name in play and your opponent has another Submission in play, stop any Submission.
   tags: []
+  wants_keywords:
+    - Steel Chair
 - name: Hold the Trash Can
   db_uuid: cd22f710c8234b8e9288c42439366ea0
   srgpc_url: https://www.srgpc.net/cards/20/hold-the-trash-can/
@@ -17191,6 +17431,8 @@
 
     Shuffle 1 card from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Hurricanrana
   db_uuid: 3936e1072eb64e4ab600ba3f6107697a
   srgpc_url: https://www.srgpc.net/cards/20/hurricanrana/
@@ -17971,6 +18213,8 @@
   deck_card_number: 21
   rules_text: If you have a card with "Ring Step" in the name in play and your opponent has another Strike in play, stop any Strike.
   tags: []
+  wants_keywords:
+    - Ring Step
 - name: Hold the Sledgehammer
   db_uuid: bad763d66e314400ba74cf517e0ade6e
   srgpc_url: https://www.srgpc.net/cards/21/knockdown-the-sledgehammer/
@@ -17982,6 +18226,8 @@
 
     Your opponent randomly buries 1 card in their hand.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Hold the Steel Chain
   db_uuid: 0f023daa9abf45b182c093d37f151ede
   srgpc_url: https://www.srgpc.net/cards/21/hold-the-steel-chain/
@@ -17991,6 +18237,8 @@
   deck_card_number: 21
   rules_text: If you have a card with "Chain" in the name in play and your opponent has another Strike in play, stop any Strike.
   tags: []
+  wants_keywords:
+    - Chain
 - name: Judo Choke
   db_uuid: d5967af4d9374e7fbda1fc595d704d97
   srgpc_url: https://www.srgpc.net/cards/21/judo-choke/
@@ -18118,6 +18366,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Mind Grab
   db_uuid: 1d9e7778d82c4e8680fabde4565ccee3
   srgpc_url: https://www.srgpc.net/cards/21/mind-grab/
@@ -19034,6 +19284,9 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Bat
+    - Baseball Bat
 - name: Set Up the Drumsticks
   db_uuid: 5f8048a149044ea4b996d0c319cacf36
   srgpc_url: https://www.srgpc.net/cards/22/set-up-the-drumsticks/
@@ -19043,6 +19296,8 @@
   deck_card_number: 22
   rules_text: 'Flip 5 cards. Add 2 cards with "Drumstick" in the name from your discard pile to your hand. Randomly reveal 1 card in your hand: If it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Set Up the Kendo Stick
   db_uuid: d35f7c01c3594459b381bdf47a9c3791
   srgpc_url: https://www.srgpc.net/cards/22/set-up-the-kendo-stick/
@@ -19942,6 +20197,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Set Up the Steel Chair
   db_uuid: 2bb6f0b8707f4221a34681270cd04b41
   srgpc_url: https://www.srgpc.net/cards/23/set-up-the-steel-chair/
@@ -20833,6 +21090,8 @@
   deck_card_number: 24
   rules_text: "Flip 5 cards.  Add 2 cards with \"Microphone\" in the name from your discard pile to your hand. \nRandomly reveal 1 card in your hand: If it has \"Microphone\" in the name, your next turn roll is +1."
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Set Up the Ring Steps
   db_uuid: 90d6d175f3bf4886a3e92c7c1b055292
   srgpc_url: https://www.srgpc.net/cards/24/set-up-the-ring-steps/
@@ -21126,6 +21385,8 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Bash in the Corner
   db_uuid: 42b81bfb4b6e408ba32e79dd3c09ad96
   srgpc_url: https://www.srgpc.net/cards/25/bash-in-the-corner/
@@ -21148,6 +21409,8 @@
 
     Randomly reveal 1 card in your hand; If that card has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Backlash With the Kendo Stick
   db_uuid: dc03b771bf9841cdbde79d4b44d583ab
   card_type: MainDeckCard
@@ -21180,6 +21443,8 @@
 
     Draw 2 cards, discard 1 card your opponent has in play.'
   tags: []
+  wants_keywords:
+    - Pineapple
 - name: Boss Beats
   db_uuid: a584ef6f4006424f896fd794e9041625
   srg_url: https://supershowthegame.com/product/25-boss-beats/
@@ -21718,6 +21983,8 @@
 
     Randomly reveal 1 card in your hand: if it has "Guitar" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Backlash With the Steel Chair
   db_uuid: 017b1e1526544759ba955c29b3ae9fa3
   srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-steel-chair-v2/
@@ -21750,6 +22017,8 @@
 
     Draw 2 cards, shuffle 1 card from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Trash Can
 - name: Backslide
   db_uuid: 7549343d055948a489ed68e87f106550
   srg_url: https://supershowthegame.com/product/26-backslide/
@@ -22368,6 +22637,8 @@
 
     Randomly reveal 1 card in your hand: If it has "Microphone" in the name, your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Microphone
 - name: Backlash With the Ring Steps
   db_uuid: d04ee5b9ee8d4c65a168cf191c5d011e
   srgpc_url: https://www.srgpc.net/cards/27/backlash-with-the-ring-steps-v2/
@@ -22401,6 +22672,8 @@
 
     Draw 2 cards, your opponent randomly buries 1 card in their hand.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Blatant Chokehold
   db_uuid: b5dcb780c89240679d217257a4ebdc78
   srgpc_url: https://www.srgpc.net/cards/27/blatant-chokehold/
@@ -23170,6 +23443,8 @@
     - 11d2807d16b840f09b6438700aceb983
     - 9cbd447b98ce4787bded7620df4517b9
     - dd3dae2839c7402d8cbb1745a5d41d05
+  wants_keywords:
+    - Cosmic
 - name: Al13n Invader (V3)
   db_uuid: ed3de20d902c45da89fcb3dae4445739
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
@@ -23278,6 +23553,8 @@
 
     Once per turn: if you have a Submission in play with "Cosmic" in the name: You may re-roll your Finish roll.'
   tags: []
+  wants_keywords:
+    - Cosmic
 - name: Cosmic Crush
   db_uuid: 9cbd447b98ce4787bded7620df4517b9
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
@@ -23291,6 +23568,8 @@
 
     Add 1 card with "Cosmic" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Cosmic
 - name: Cosmic Wormhole
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
@@ -23304,6 +23583,8 @@
 
     When this card is in your discard pile and either player breaks out, you may discard 1 card in your hand with "Cosmic" in the name to add this card to your hand.'
   tags: []
+  wants_keywords:
+    - Cosmic
 - name: 64 Bit Casey
   db_uuid: f4a9e71c2fb446c192037af4278e7311
   card_type: SingleCompetitorCard
@@ -23413,6 +23694,9 @@
     - db514f39965c4affa3127cd9eb032e07
     - 2295359c44694120b2708595f6c91168
     - cf262ea5be394c2387e3b66f38889264
+  wants_keywords:
+    - Buster
+    - Call
 - name: Sledgie's Blind Justice
   db_uuid: db514f39965c4affa3127cd9eb032e07
   card_type: MainDeckCard
@@ -23467,6 +23751,9 @@
     - 48efacee1c4e474e81f7c1319b23c040
     - 1bf740c7c45f49059e36109374b6553f
     - 8901dab61fdd4731b31527f2a7da8620
+  wants_keywords:
+    - Slam
+    - America
 - name: Right Hand Man
   db_uuid: e0315d342ec74a68ba39135d700161ed
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
@@ -23482,6 +23769,9 @@
   related_cards:
     - fae93ed792e548029db624a4eb65c08d
     - 716732d07b1e4881b1f908405391b4a0
+  wants_keywords:
+    - America
+    - Slam
 - name: Dueling Choke Slam
   db_uuid: 48efacee1c4e474e81f7c1319b23c040
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
@@ -23509,11 +23799,14 @@
 
     +2 to Agility
 
-    Once per turn: if you roll Submission for your finish roll, you may discard 1 card with "America" or "Slam" in the name from your hand to re-roll your finish roll.'
+    Once per turn: if you roll Submission for your Finish roll, you may discard 1 card with "America" or "Slam" in the name from your hand to re-roll your Finish roll.'
   tags: []
   related_cards:
     - fae93ed792e548029db624a4eb65c08d
     - 716732d07b1e4881b1f908405391b4a0
+  wants_keywords:
+    - America
+    - Slam
 - name: Alexander Slamilton Hardercore
   db_uuid: 716732d07b1e4881b1f908405391b4a0
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
@@ -23527,7 +23820,7 @@
   strike: 10
   submission: 5
   grapple: 7
-  rules_text: 'Chose 1: "Kendo Stick", "Ring Step", or "Sledgehammer".
+  rules_text: 'Choose 1: "Kendo Stick", "Ring Step", or "Sledgehammer".
 
     When you hit a card with that in the name, draw 2 cards.  This match has No Disqualifications.'
   tags: []
@@ -23536,6 +23829,10 @@
     - 48efacee1c4e474e81f7c1319b23c040
     - 1bf740c7c45f49059e36109374b6553f
     - 8901dab61fdd4731b31527f2a7da8620
+  wants_keywords:
+    - Kendo Stick
+    - Ring Step
+    - Sledgehammer
 - name: Sledge of Allegiance
   db_uuid: 8901dab61fdd4731b31527f2a7da8620
   srg_url: https://supershowthegame.com/product/alexander-slamilton-hardercore/
@@ -23567,6 +23864,8 @@
     - a11de26094be4e019f8bc3b08d20266f
     - e22c647f005640efb5ef2f962d148dcc
     - 9ebd7bf9187840fe893227160cc19077
+  wants_keywords:
+    - Suplex
 - name: Bomaye Splash!
   db_uuid: a11de26094be4e019f8bc3b08d20266f
   srg_url: https://supershowthegame.com/product/alex-kane/
@@ -23580,6 +23879,8 @@
   tags: []
   related_cards:
     - 34172f8d50054d639928f3736621afd3
+  wants_keywords:
+    - Suplex
 - name: The Mark of Kane Suplex
   db_uuid: e22c647f005640efb5ef2f962d148dcc
   srg_url: https://supershowthegame.com/product/alex-kane/
@@ -23612,6 +23913,8 @@
   tags: []
   related_cards:
     - 34172f8d50054d639928f3736621afd3
+  wants_keywords:
+    - Suplex
 - name: Alton Black
   db_uuid: 93f5a9e64bdb493bb0a59222a489272b
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23631,6 +23934,11 @@
     - 9c60e82691594ab796e638efe656e3eb
     - e157a2159a514656a4b00df7fcc57a70
     - 69870b8e30a84704a829ad62667c5256
+  wants_keywords:
+    - Drop
+    - Slam
+    - Buster
+    - Breaker
 - name: B.F.B.
   db_uuid: 9c60e82691594ab796e638efe656e3eb
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23659,6 +23967,10 @@
   tags: []
   related_cards:
     - 93f5a9e64bdb493bb0a59222a489272b
+  wants_keywords:
+    - Drop
+    - Slam
+    - Breaker
 - name: The Blackout
   db_uuid: 69870b8e30a84704a829ad62667c5256
   srg_url: https://supershowthegame.com/product/alton-black/
@@ -23693,6 +24005,8 @@
     - 022a90319b034c3896ed9318ea5eed1f
     - 50187b39981d44f399ba5ca371c52ed2
     - 6fb0d05d97134a74a85f41af342ed1c8
+  wants_keywords:
+    - Wrench
 - name: Nova-Strike
   db_uuid: 022a90319b034c3896ed9318ea5eed1f
   card_type: MainDeckCard
@@ -23709,6 +24023,8 @@
   tags: []
   related_cards:
     - 49d86a1b4f724377adf532d4575ab885
+  wants_keywords:
+    - Wrench
 - name: Nova-Plex
   db_uuid: 50187b39981d44f399ba5ca371c52ed2
   card_type: MainDeckCard
@@ -23723,6 +24039,8 @@
   tags: []
   related_cards:
     - 49d86a1b4f724377adf532d4575ab885
+  wants_keywords:
+    - Wrench
 - name: Nova-Wrench
   db_uuid: 6fb0d05d97134a74a85f41af342ed1c8
   card_type: MainDeckCard
@@ -24160,6 +24478,8 @@
   tags: []
   related_cards:
     - 51aff101c37346fba003d6e1f21105b1
+  wants_keywords:
+    - Old School
 - name: School Boy Legend
   db_uuid: 7aa4e25251b24afba2f2e5e8230bf5ba
   card_type: MainDeckCard
@@ -24675,6 +24995,8 @@
     - 247dde936cf84664be0ea62a72c4ac5d
     - f4a8a358191a4c85a1eaadc7da7d7cb4
     - 089500f6db434a0892886f2c49ee15cb
+  wants_keywords:
+    - Back
 - name: It's All in the Reflexes
   db_uuid: 247dde936cf84664be0ea62a72c4ac5d
   card_type: MainDeckCard
@@ -24699,6 +25021,8 @@
   tags: []
   related_cards:
     - a1f365ab29b64887b81535a3aaaf80b8
+  wants_keywords:
+    - Back
 - name: Your Neck, Your Back, Tap Out Before They Crack.
   db_uuid: 089500f6db434a0892886f2c49ee15cb
   card_type: MainDeckCard
@@ -24729,6 +25053,9 @@
     - 661985488ef74d359686c17281610cdf
     - be03ac55065a4eebbe795e44cae5308b
     - e9aa3f44cd2a44548676f7d96255819d
+  wants_keywords:
+    - Chain
+    - Jaw
 - name: Frumious Jaws
   db_uuid: 661985488ef74d359686c17281610cdf
   card_type: MainDeckCard
@@ -24741,6 +25068,8 @@
   tags: []
   related_cards:
     - 5a60042042b64aa1add8fcc29685242e
+  wants_keywords:
+    - Chain
 - name: Alice...
   db_uuid: be03ac55065a4eebbe795e44cae5308b
   card_type: MainDeckCard
@@ -24987,7 +25316,7 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  rules_text: Discard any other Strikes that you have in play and any number of Strikes in your hand and your opponent may discard the same number of Grapples/Submissions from their hand; If they do not, your finish roll is +2.
+  rules_text: Discard any other Strikes that you have in play and any number of Strikes in your hand and your opponent may discard the same number of Grapples/Submissions from their hand; If they do not, your Finish roll is +2.
   tags: []
   related_cards:
     - 7a8377ee227f42819a017bb69ad3e181
@@ -25019,7 +25348,7 @@
 
     +1 to Agility
 
-    If you roll Strike, Grapple, or Submission for your finish roll, you may add 1 card you have in play to your hand.'
+    If you roll Strike, Grapple, or Submission for your Finish roll, you may add 1 card you have in play to your hand.'
   tags: []
   related_cards:
     - 7a8377ee227f42819a017bb69ad3e181
@@ -25042,6 +25371,11 @@
     - 5c0c27bf60cd45ff80c84b026cb3be1f
     - b090f142e6fd4500a322ffbeb07046c5
     - b30735b37f834747bb038cc4f9553f2e
+  wants_keywords:
+    - Run
+    - Swing
+    - Hit
+    - Stretch
 - name: The Strike Out
   db_uuid: 5c0c27bf60cd45ff80c84b026cb3be1f
   srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
@@ -25064,6 +25398,10 @@
   tags: []
   related_cards:
     - 1a63c5024be045dfb7f6be8b22c050b9
+  wants_keywords:
+    - Single
+    - Double
+    - Triple
 - name: The 7th Inning Stretch
   db_uuid: b30735b37f834747bb038cc4f9553f2e
   srgpc_url: https://www.srgpc.net/cards/competitors/long-balls-larry/
@@ -25081,6 +25419,11 @@
   tags: []
   related_cards:
     - 1a63c5024be045dfb7f6be8b22c050b9
+  wants_keywords:
+    - Run
+    - Swing
+    - Hit
+    - Stretch
 - name: DJ Outlaw
   db_uuid: f8a15098e9e04c5e948f78558974f233
   card_type: SingleCompetitorCard
@@ -25511,6 +25854,10 @@
   rules_text: When you hit a card with "Hang", "Head", or "Rope" in the name, your opponent's maximum handsize is -4 until the end of the turn.
   tags:
     - Old School
+  wants_keywords:
+    - Hang
+    - Head
+    - Rope
 - name: Velvet Assassin (V1)
   db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
   srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/
@@ -25554,6 +25901,8 @@
     - 4daa3bd7a7b34d81be876c573cae97ea
     - 0ce11aaa2de9428e92fdfbe7fc6e4993
     - 7464384727b942af9c51d2e5b61ce0f0
+  wants_keywords:
+    - Chop
 - name: Choppin' At the Bits
   db_uuid: 4daa3bd7a7b34d81be876c573cae97ea
   card_type: MainDeckCard
@@ -25580,6 +25929,9 @@
   tags: []
   related_cards:
     - 1b4cca9a54f346c2af1ffc58ca1b5d0c
+  wants_keywords:
+    - Knee
+    - Leg
 - name: Figure-80 Leg Lock
   db_uuid: 7464384727b942af9c51d2e5b61ce0f0
   card_type: MainDeckCard
@@ -25631,6 +25983,11 @@
     - bc8f5dfdd9b3406a9078459fa065f6f2
     - 94690264163e431dbfcf6941e06ba837
     - 4e68b0da643743aca4c32b23225d48c8
+  wants_keywords:
+    - Steel
+    - Wrench
+    - Burn
+    - Fire
 - name: Punch the Clock
   db_uuid: bc8f5dfdd9b3406a9078459fa065f6f2
   card_type: MainDeckCard
@@ -25718,6 +26075,9 @@
     - ce6ad6df80c0437194a6957fdbc70712
     - 34bbf6706bbe426fbf13d2a73ad04b0a
     - 1ead422993764b97a58f7ea4661c5057
+  wants_keywords:
+    - Mic
+    - Microphone
 - name: Shut Up, Joka!
   db_uuid: ca3d22163c564bdabd9e1edf389d64cb
   card_type: MainDeckCard
@@ -25734,6 +26094,8 @@
     - ce6ad6df80c0437194a6957fdbc70712
     - 34bbf6706bbe426fbf13d2a73ad04b0a
     - 1ead422993764b97a58f7ea4661c5057
+  wants_keywords:
+    - Microphone
 - name: Microphone I.E.D.
   db_uuid: 9d13b1cbf0f8403c8a73329c2dda6a75
   card_type: MainDeckCard
@@ -25818,6 +26180,8 @@
     - 7196f3bc60de42a186b64b53bd346184
     - 4e34fac027ae4b06a86c764c8de44434
     - ca3d22163c564bdabd9e1edf389d64cb
+  wants_keywords:
+    - Microphone
 - name: ANTagonist (V3)
   db_uuid: 1ead422993764b97a58f7ea4661c5057
   srg_url: https://supershowthegame.com/product/antagonist/
@@ -25852,7 +26216,7 @@
   strike: 9
   submission: 8
   grapple: 7
-  rules_text: Your finish rolls are +1.
+  rules_text: Your Finish rolls are +1.
   comments: This version is referenced as "The One Above All"
   tags: []
   related_finishes:
@@ -26065,6 +26429,9 @@
     - 832a4a4fc86a438292b6c8f78a8c89ab
     - 4a6e1eba250441ebbfad39a0dd28a922
     - cd64f01e7ff547c4853df37c39058a19
+  wants_keywords:
+    - Beat
+    - Stick
 - name: Beatstick Beatdown
   db_uuid: 832a4a4fc86a438292b6c8f78a8c89ab
   card_type: MainDeckCard
@@ -26373,6 +26740,8 @@
     - 4121220a49614076acc18a21d524bdac
     - eeff033a227d4ce29f87420e1610f6f4
     - 705d88de1c9642219fc8a5faec85ee81
+  wants_keywords:
+    - Kendo Stick
 - name: Kendo Slice Party
   db_uuid: f352a54c645a41daaa6440578d4eeba0
   srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
@@ -26437,6 +26806,8 @@
   related_cards:
     - 6fc63e68196d4ad7a08cf027583aafb2
     - d2d8b06199b34b018a2b957e89f21b35
+  wants_keywords:
+    - Kendo Stick
 - name: Pinkie Toe Hold
   db_uuid: 705d88de1c9642219fc8a5faec85ee81
   srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
@@ -26468,6 +26839,8 @@
     - 5d55c58ae6d941649db2481e5af3ec63
     - 6bb3bfe25727423a8d2997dde18e7e26
     - 21aeef2b755d4262a2fb908bb3b53553
+  wants_keywords:
+    - Kendo Stick
 - name: The Biggest Man in the Landing
   db_uuid: 5d55c58ae6d941649db2481e5af3ec63
   card_type: MainDeckCard
@@ -26484,6 +26857,8 @@
   tags: []
   related_cards:
     - b6944de2e4c1406889adb81ea2f4a8be
+  wants_keywords:
+    - Kendo Stick
 - name: Then to 2025
   db_uuid: 6bb3bfe25727423a8d2997dde18e7e26
   card_type: MainDeckCard
@@ -26494,6 +26869,8 @@
   tags: []
   related_cards:
     - b6944de2e4c1406889adb81ea2f4a8be
+  wants_keywords:
+    - Kendo Stick
 - name: The House of Gains
   db_uuid: 21aeef2b755d4262a2fb908bb3b53553
   card_type: MainDeckCard
@@ -26510,6 +26887,8 @@
   tags: []
   related_cards:
     - b6944de2e4c1406889adb81ea2f4a8be
+  wants_keywords:
+    - Kendo Stick
 - name: Bobby Ohio
   db_uuid: 411a3ec208cf4d5794932bb99b35800c
   srgpc_url: https://www.srgpc.net/cards/competitors/bobby-ohio/
@@ -26530,6 +26909,9 @@
     - d9da184a24084109ae149a31f93c1683
     - 00d6104577ad42f0bde8f48931c97984
     - a1b0e99ac9d64ed8a7152896b1e93f64
+  wants_keywords:
+    - Eat
+    - Slam
 - name: Lights, Camera, Action!
   db_uuid: d9da184a24084109ae149a31f93c1683
   card_type: MainDeckCard
@@ -26556,6 +26938,9 @@
   tags: []
   related_cards:
     - 411a3ec208cf4d5794932bb99b35800c
+  wants_keywords:
+    - Slammin
+    - Slam
 - name: O-HI-O
   db_uuid: a1b0e99ac9d64ed8a7152896b1e93f64
   card_type: MainDeckCard
@@ -26570,6 +26955,8 @@
   tags: []
   related_cards:
     - 411a3ec208cf4d5794932bb99b35800c
+  wants_keywords:
+    - Eat
 - name: Boy Howdy (V1)
   db_uuid: 3e7a00225c2e4053b731e165c3f66450
   srgpc_url: https://www.srgpc.net/cards/competitors/boy-howdy/
@@ -26845,6 +27232,10 @@
     - d901655325674171875a9f5b0ca7b4e3
     - 80fe9d0a484849e09035f38e4c9e5c8b
     - 40b521e592db45519eaf6f2bc2314628
+  wants_keywords:
+    - Tiger
+    - Cat
+    - Claw
 - name: Roar of the Tiger
   db_uuid: d901655325674171875a9f5b0ca7b4e3
   card_type: MainDeckCard
@@ -26911,6 +27302,8 @@
     - d901655325674171875a9f5b0ca7b4e3
     - 80fe9d0a484849e09035f38e4c9e5c8b
     - 40b521e592db45519eaf6f2bc2314628
+  wants_keywords:
+    - Armenian
 - name: Tiger Glock 47
   db_uuid: 56d370f386274a889e49da04c472be1f
   card_type: MainDeckCard
@@ -26943,6 +27336,9 @@
   related_cards:
     - 915bcc1758d445fbb884f60d5e99f5ac
     - baf608e1f3564c1686dc33531b4d7e92
+  wants_keywords:
+    - Armenian
+    - Tiger
 - name: Armenian Oak Snare
   db_uuid: 4d4dbb31d91c409aae238d63ee3ddfc1
   card_type: MainDeckCard
@@ -26954,6 +27350,8 @@
   related_cards:
     - 915bcc1758d445fbb884f60d5e99f5ac
     - baf608e1f3564c1686dc33531b4d7e92
+  wants_keywords:
+    - Armenian
 - name: Chronus
   db_uuid: 7a02f61a23a6463da190bdd8624d93fa
   srgpc_url: https://www.srgpc.net/cards/competitors/chronus/
@@ -27281,6 +27679,9 @@
   tags: []
   related_cards:
     - 8cc441c7425945b9830ffc49680e1987
+  wants_keywords:
+    - Money
+    - Rain
 - name: $TF
   db_uuid: 5fcac94b705740a5918574d146b2f800
   card_type: MainDeckCard
@@ -27343,6 +27744,8 @@
   tags: []
   related_cards:
     - b2b48a849731415fadfedd06451a6085
+  wants_keywords:
+    - Roll
 - name: Dumpster Bear Hug
   db_uuid: 2bee0860c34e434a809d1f59b61f6e62
   card_type: MainDeckCard
@@ -27499,6 +27902,9 @@
     - f6eab710928d4649927f73627a70239b
     - 2198d0feb49643b4868a4259be6c8601
     - c2125724080b4d058c693cb3439bd719
+  wants_keywords:
+    - Rolling
+    - Kick
 - name: El Campeon de las Llamas (V2)
   db_uuid: ac35ccf29d134fda8ad7448adad2de52
   srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
@@ -27521,6 +27927,9 @@
     - f6eab710928d4649927f73627a70239b
     - 2198d0feb49643b4868a4259be6c8601
     - c2125724080b4d058c693cb3439bd719
+  wants_keywords:
+    - Rolling
+    - Kick
 - name: Gooooooaaaaal Kick!
   db_uuid: 33df8a82a10d4c2baf337ec45a5631bb
   srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
@@ -27536,6 +27945,8 @@
   related_cards:
     - 437b04b0decd4d3f93a90914be435d67
     - ac35ccf29d134fda8ad7448adad2de52
+  wants_keywords:
+    - Kick
 - name: Pasar y Disparar
   db_uuid: d99b39bc372843ceb5fa171a8a5dfbbb
   srg_url: https://supershowthegame.com/product/campeon-de-las-llamas/
@@ -27568,6 +27979,9 @@
   related_cards:
     - 437b04b0decd4d3f93a90914be435d67
     - ac35ccf29d134fda8ad7448adad2de52
+  wants_keywords:
+    - Rolling
+    - Kick
 - name: Stud Kick to the Bush
   db_uuid: f6eab710928d4649927f73627a70239b
   srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
@@ -27581,6 +27995,8 @@
   related_cards:
     - 437b04b0decd4d3f93a90914be435d67
     - ac35ccf29d134fda8ad7448adad2de52
+  wants_keywords:
+    - Kick
 - name: Super Flipping Llama Shot
   db_uuid: 2198d0feb49643b4868a4259be6c8601
   srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
@@ -27600,6 +28016,9 @@
   related_cards:
     - 437b04b0decd4d3f93a90914be435d67
     - ac35ccf29d134fda8ad7448adad2de52
+  wants_keywords:
+    - Table
+    - Fire
 - name: To Honor the Flame
   db_uuid: c2125724080b4d058c693cb3439bd719
   srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
@@ -28062,6 +28481,8 @@
   rules_text: When you roll Power, shuffle 2 cards with "Chain" in the name from your discard pile into your deck
   tags:
     - Finishless
+  wants_keywords:
+    - Chain
 - name: Grim Librarian (V1)
   db_uuid: eea0b5bfc97b49dd8dacc7c787ad62a3
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -28151,6 +28572,8 @@
     - eea0b5bfc97b49dd8dacc7c787ad62a3
     - b95f873118b944b0b07a8af9c8731752
     - d5edc30f9dc04838bc821938c31f0312
+  wants_keywords:
+    - School
 - name: The Final Chapter
   db_uuid: 64b48dd07372438ca90eb9b8f4a8d627
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -28386,6 +28809,9 @@
   grapple: 5
   rules_text: Your Grapple skill is +1 for each card in play with "Chain" or "Terror" in the name (Max +4).
   tags: []
+  wants_keywords:
+    - Chain
+    - Terror
 - name: Leader of the Postal Nation
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
@@ -28479,6 +28905,8 @@
     - cdadd459469a472193cbbb83e912621b
     - a5ba07e9346e4414bebe1b8e4d50dab2
     - 7c409dfbe5b441b9acdc10ce29e480d1
+  wants_keywords:
+    - Face
 - name: Sugar Plum
   db_uuid: 62051250500340faa65458bd603c6806
   card_type: SingleCompetitorCard
@@ -28510,6 +28938,10 @@
     - a445e5cd07fc4e27865b040e744e868e
     - f444d63d1a0f464f8563f7dbefe87771
     - 10980015a5b84f30885050248f00fae3
+  wants_keywords:
+    - Dive
+    - Fin
+    - Surf
 - name: Deep Sea Dive
   db_uuid: a445e5cd07fc4e27865b040e744e868e
   card_type: MainDeckCard
@@ -28521,6 +28953,8 @@
   related_cards:
     - 3fbecda1ffc64b9fa731e5b06f260e33
     - 6b9d7c1228594225b3f26e68ec5c2fc6
+  wants_keywords:
+    - Dive
 - name: Do Doo Do Doo
   db_uuid: f444d63d1a0f464f8563f7dbefe87771
   card_type: MainDeckCard
@@ -28894,6 +29328,10 @@
   grapple: 6
   rules_text: 'Once on your turn: When you hit a card with "Stomp", "Strike", or "Elbow" in the name, you may play an additional card this turn or your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Stomp
+    - Strike
+    - Elbow
 - name: Huracán Gonzalez
   db_uuid: 725f7ba41a2549e99dcb1270b463180c
   srgpc_url: https://www.srgpc.net/cards/competitors/huracan-gonzalez/
@@ -28911,6 +29349,10 @@
     - f4c1164caf314291810e75fff9e044e4
     - 23ed4c04491b4159a88ef57e2982ccb4
     - c326992cd73e4ee48921f3da20fd5a78
+  wants_keywords:
+    - Table
+    - Ladder
+    - Steel Chain
 - name: Spinning Storm Kick
   db_uuid: f4c1164caf314291810e75fff9e044e4
   card_type: MainDeckCard
@@ -28939,6 +29381,10 @@
   tags: []
   related_cards:
     - 725f7ba41a2549e99dcb1270b463180c
+  wants_keywords:
+    - Table
+    - Ladder
+    - Steel Chain
 - name: The Silver Dragon
   db_uuid: c326992cd73e4ee48921f3da20fd5a78
   card_type: MainDeckCard
@@ -29084,6 +29530,8 @@
   related_cards:
     - 51537506696946a2ad10662229ccd96f
     - baf61519310348b9898c5ace20a8843f
+  wants_keywords:
+    - Fire
 - name: Nighty Night
   db_uuid: 11bd8196188e4360b1e59b796e156800
   card_type: MainDeckCard
@@ -29274,6 +29722,9 @@
   related_cards:
     - 9f7dc2e4f7ac49e882a24a302edf11cf
     - 4dc9406afb1d4653ad5f425c11f08895
+  wants_keywords:
+    - Knee
+    - Leg
 - name: Ewe-Decator (Lady Baa Baa V2)
   db_uuid: 1ea2d3c8e74447e998d0b3f7f1ba24e7
   card_type: MainDeckCard
@@ -29308,6 +29759,8 @@
     - 070eebb4854147479cd6c0d7ef96cd8f
     - 00a74ff9354c4af599b8b4827b1c9eb6
     - 4b1735be03884d819c67e3626e3637e7
+  wants_keywords:
+    - Punch
 - name: Dead Man's Hand
   db_uuid: 53376b2b338f4252b224f33f5e919219
   card_type: MainDeckCard
@@ -29325,6 +29778,8 @@
     - 330b2b0143044d47b08f54881ff6d293
     - 21b065984465423c90b631545f94e0fb
     - 666536238d51453381fc0f4394b29e34
+  wants_keywords:
+    - Punch
 - name: The Bank Breaker (V2)
   db_uuid: 24fd70fb6a824880a6ffcef531607b3e
   card_type: MainDeckCard
@@ -29342,6 +29797,8 @@
     - 330b2b0143044d47b08f54881ff6d293
     - 21b065984465423c90b631545f94e0fb
     - 666536238d51453381fc0f4394b29e34
+  wants_keywords:
+    - Punch
 - name: The Sicilian Neck Tie (V2)
   db_uuid: 070eebb4854147479cd6c0d7ef96cd8f
   card_type: MainDeckCard
@@ -29376,6 +29833,8 @@
     - 330b2b0143044d47b08f54881ff6d293
     - 21b065984465423c90b631545f94e0fb
     - 666536238d51453381fc0f4394b29e34
+  wants_keywords:
+    - Punch
 - name: The Sicilian Neck Tie (V1)
   db_uuid: 4b1735be03884d819c67e3626e3637e7
   card_type: MainDeckCard
@@ -29426,6 +29885,9 @@
     - 74e3fc792e7243e4a6154310ef9ad669
     - 4464df96f86e4e16986f8c9370671bcf
     - f3d38afaf9b84568b556222e8d07912c
+  wants_keywords:
+    - Lightning
+    - Thunder
 - name: Thunderbolt and Lightning
   db_uuid: 74e3fc792e7243e4a6154310ef9ad669
   card_type: MainDeckCard
@@ -29496,6 +29958,8 @@
     - e818072be5314d99a87c057550fb50b3
     - 776fad5b882a45a184765b90af6d6fcd
     - d7388c1cd0244dab83c2d2ae0d0738f2
+  wants_keywords:
+    - Hammer
 - name: Thud!
   db_uuid: 31147ec233364c6b9d0ce86527b78054
   srg_url: https://supershowthegame.com/product/d2/
@@ -29513,6 +29977,11 @@
   related_cards:
     - bd04b23708fe49728541a20e689cae61
     - bf1ee5c00125450da300bb9f3762511f
+  wants_keywords:
+    - Hammer
+    - Smash
+    - High
+    - Strike
 - name: Step Right Up!
   db_uuid: a01578496fd84636939dff4762da7ca7
   srg_url: https://supershowthegame.com/product/d2/
@@ -29528,6 +29997,11 @@
   related_cards:
     - bd04b23708fe49728541a20e689cae61
     - bf1ee5c00125450da300bb9f3762511f
+  wants_keywords:
+    - High
+    - Strike
+    - Smash
+    - Hammer
 - name: Test Your Might
   db_uuid: 4a39cb20d46e41828607c82a54b4084c
   srg_url: https://supershowthegame.com/product/d2/
@@ -30015,6 +30489,11 @@
     - 4816782b25494a83adbc6f7fbcaae765
     - 5f8633e2943e4e578b268a45d87ffbaa
     - 012541e749cd4246be30935707ba87dc
+  wants_keywords:
+    - Table
+    - Ladder
+    - Sweep
+    - Trash
 - name: The Clean Sweep
   db_uuid: 4816782b25494a83adbc6f7fbcaae765
   card_type: MainDeckCard
@@ -30025,6 +30504,8 @@
   tags: []
   related_cards:
     - a72fb5b1c70b439c97b87350954fd003
+  wants_keywords:
+    - Sweep
 - name: Take Out the Trash
   db_uuid: 5f8633e2943e4e578b268a45d87ffbaa
   card_type: MainDeckCard
@@ -30223,6 +30704,9 @@
   grapple: 5
   rules_text: When you hit a card with "Punch" or "Armenian" in the name, your opponent buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Punch
+    - Armenian
 - name: Kaiser Wolf
   db_uuid: d06978f5f81f477bb9dd27d0287c0008
   srg_url: https://supershowthegame.com/product/kaiser-wold/
@@ -30547,6 +31031,8 @@
   grapple: 7
   rules_text: 'When you roll Agility for your turn roll: Your cards with "Flying" in the name cannot be stopped.'
   tags: []
+  wants_keywords:
+    - Flying
 - name: Rob Graves
   db_uuid: 0249f279219841f193bbe597ef7a3c02
   card_type: SingleCompetitorCard
@@ -30760,6 +31246,9 @@
   grapple: 5
   rules_text: When you hit a card with "America" or "Boot" in the name, draw 1 card.
   tags: []
+  wants_keywords:
+    - America
+    - Boot
 - name: Black Lipstick
   db_uuid: ee1179b3778240f09d9cd167420d9e1f
   srg_url: https://supershowthegame.com/product/black-lipstick/
@@ -30839,6 +31328,8 @@
 
     Your Submissions with "Hold" in the name have the added text "Your opponent''s next roll is -3."'
   tags: []
+  wants_keywords:
+    - Hold
 - name: Freak Show (V2)
   db_uuid: e71495473c384a3d9c61ad1b753b3184
   card_type: TrioCompetitorCard
@@ -30852,6 +31343,8 @@
 
     Your Submissions with "Hold" in the name have the added text "Your opponent''s next roll is -3"'
   tags: []
+  wants_keywords:
+    - Hold
 - name: Joey Ryan
   db_uuid: ff880ca42bb946a5945d9407b31ee671
   is_banned: true
@@ -30962,12 +31455,16 @@
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: 'Stop any "Strike" with "Flying" or "Splash" in the name.
+  rules_text: 'Stop any Strike with "Flying" or "Splash" in the name.
 
     Your opponent buries 1 random card in their hand for each card you have in play with "Arm" in the name.'
   tags: []
   related_cards:
     - 98d943afc0ad4074a534d4e92ab0b9dc
+  wants_keywords:
+    - Flying
+    - Splash
+    - Arm
 - name: Smiley!
   db_uuid: 54f7aabe1c6346e2811aeed599d8055b
   card_type: SingleCompetitorCard
@@ -30984,6 +31481,9 @@
 
     When you roll Agility for your turn roll; you may search your deck or discard pile for 1 card with "Flying" or "Top Rope" in the name.  Put that card on top of your deck.'
   tags: []
+  wants_keywords:
+    - Flying
+    - Top Rope
 - name: Smiley! (Back Stats)
   db_uuid: 791665e646e2401cbcd86f01a35c1522
   card_type: SingleCompetitorCard
@@ -31525,6 +32025,10 @@
     - b51fc7af879f4ab7bbaff9fbd2619ff8
     - b83ba12261d24bb6af2e41df4378f40a
     - f0304a590e0a4361943695afc75546d2
+  wants_keywords:
+    - Roll
+    - Spin
+    - Smash
 - name: The Texas Smash
   db_uuid: b51fc7af879f4ab7bbaff9fbd2619ff8
   card_type: MainDeckCard
@@ -31539,6 +32043,10 @@
   tags: []
   related_cards:
     - 31b4dedbc96a438a946d76a2368b6f2d
+  wants_keywords:
+    - Roll
+    - Spin
+    - Smash
 - name: Spinning Rex Breaker
   db_uuid: b83ba12261d24bb6af2e41df4378f40a
   card_type: MainDeckCard
@@ -32231,6 +32739,8 @@
     - aa7406be327d4e76adc65536cf71d17c
     - 15c6191f5c6346e2a2730ac243661c2e
     - d8b05dbd433a4a91a8236bcfb7bf4085
+  wants_keywords:
+    - Steel Chain
 - name: Broken Chains
   db_uuid: aa7406be327d4e76adc65536cf71d17c
   card_type: MainDeckCard
@@ -32259,6 +32769,8 @@
   tags: []
   related_cards:
     - 6405174e3a3f4c77acbffedf7f0c932c
+  wants_keywords:
+    - Steel Chain
 - name: The Last Breath (Krule)
   db_uuid: d8b05dbd433a4a91a8236bcfb7bf4085
   card_type: MainDeckCard
@@ -32285,6 +32797,10 @@
   grapple: 7
   rules_text: When you roll Technique, flip 1 card and add 1 card with "Head", "Neck", or "Cut" in the name from your discard pile to your hand.
   tags: []
+  wants_keywords:
+    - Head
+    - Neck
+    - Cut
 - name: Luna Hallows
   db_uuid: 2484608eb1014b2a8ba2b96948539452
   srgpc_url: https://www.srgpc.net/cards/competitors/luna-hallows/
@@ -32797,6 +33313,8 @@
   related_cards:
     - c7119d9f0e1d443299252fe35743ae08
     - b220c64e3825487883e0396b0707082d
+  wants_keywords:
+    - Corner
 - name: Brotherly Love (Cactus Sac)
   db_uuid: a85e42a44ffa4d0280e150498e2bfc14
   card_type: MainDeckCard
@@ -32841,13 +33359,17 @@
   strike: 9
   submission: 6
   grapple: 10
-  rules_text: When you hit a "Strike" with "Block", "Clothesline" or "Tackle" in the name, draw 1 card and your next turn roll is +2.
+  rules_text: When you hit a Strike with "Block", "Clothesline" or "Tackle" in the name, draw 1 card and your next turn roll is +2.
   tags:
     - Old School
   related_finishes:
     - 8b770874a2d34775880c7a0d96af20ed
     - b2b9eea35e1141ea9401bb403d273871
     - a6bc991645c04414ba69afd28a020f52
+  wants_keywords:
+    - Block
+    - Clothesline
+    - Tackle
 - name: 4 Point Tackle
   db_uuid: 8b770874a2d34775880c7a0d96af20ed
   card_type: MainDeckCard
@@ -32878,6 +33400,10 @@
     - Old School
   related_cards:
     - 4212b765cda246c2a70bb6b346588e5b
+  wants_keywords:
+    - Block
+    - Clothesline
+    - Tackle
 - name: The Wood Chipper
   db_uuid: a6bc991645c04414ba69afd28a020f52
   card_type: MainDeckCard
@@ -32893,6 +33419,10 @@
     - Old School
   related_cards:
     - 4212b765cda246c2a70bb6b346588e5b
+  wants_keywords:
+    - Block
+    - Clothesline
+    - Tackle
 - name: Dive Bar Bard
   db_uuid: 076a91a4326049abb39d86bdc9187ceb
   card_type: SingleCompetitorCard
@@ -32911,6 +33441,9 @@
     - 06e4ef562cbe4f1cb84246f46a723ebb
     - 05a96747f98d418f98b2551c9637334f
     - 0be4d2117f314c2aaacc6a7e6cfded18
+  wants_keywords:
+    - Sing
+    - Guitar
 - name: Lute Shot
   db_uuid: 06e4ef562cbe4f1cb84246f46a723ebb
   card_type: MainDeckCard
@@ -32955,6 +33488,8 @@
   tags: []
   related_cards:
     - 076a91a4326049abb39d86bdc9187ceb
+  wants_keywords:
+    - Guitar
 - name: The Heartbreaker
   db_uuid: 9d772bb04b9d462ba46019b2a6922d8d
   srgpc_url: https://www.srgpc.net/competitors/the-heartbreaker/
@@ -33096,6 +33631,8 @@
     - 0604e53d335e4e43a1957b553f2d6d67
     - f8be0c80d3d24c4ea05c36d0ff7a3ba4
     - e1169ad0af8f47e6a145428470fd1601
+  wants_keywords:
+    - Potion
 - name: Speed Potion No. 2
   db_uuid: 9642481fde484687bdd6b33a2ba3914d
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
@@ -33138,6 +33675,8 @@
   tags: []
   related_cards:
     - ed3ee94858c249e69bd462512b65c825
+  wants_keywords:
+    - Potion
 - name: Superkick Over the Top
   db_uuid: 6069f8d118324728a4d8a741dda84d8c
   card_type: MainDeckCard
@@ -33169,6 +33708,8 @@
   tags: []
   related_cards:
     - ed3ee94858c249e69bd462512b65c825
+  wants_keywords:
+    - Potion
 - name: Love Potion No. 9
   db_uuid: e1169ad0af8f47e6a145428470fd1601
   srg_url: https://supershowthegame.com/product/dr-jake-hill/
@@ -33249,7 +33790,7 @@
 
     Discard all cards your opponent has in play.
 
-    Your finish roll is +1 for each skill requirement card discarded.'
+    Your Finish roll is +1 for each skill requirement card discarded.'
   tags: []
   related_cards:
     - 80b626dbcde047a595f325056eaa6907
@@ -33596,6 +34137,8 @@
 
     When you have 3 cards in play with "Drop" in the name, this match has no disqualification.'
   tags: []
+  wants_keywords:
+    - Drop
 - name: Bookermania
   db_uuid: 01998721b8344b9e955ec78fb3151bbc
   card_type: SingleCompetitorCard
@@ -33832,6 +34375,10 @@
     - 8c71b37310a746e99ccc3ba8477da89e
     - 670350643b0049f1bf0b2f6091c0732a
     - ed3f7b3645aa4f5cbb8dd40ed1ffe216
+  wants_keywords:
+    - Crowd
+    - Elbow
+    - Slam
 - name: The Soundcheck
   db_uuid: e7f190b908f841e48a2761b3c1de8ff0
   srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
@@ -33877,6 +34424,10 @@
   tags: []
   related_cards:
     - 7349f9255a09467696401a2869c7fa29
+  wants_keywords:
+    - Crowd
+    - Elbow
+    - Slam
 - name: The Encore
   db_uuid: 670350643b0049f1bf0b2f6091c0732a
   srg_url: https://supershowthegame.com/product/everything-halloween/
@@ -33913,6 +34464,9 @@
   tags: []
   related_cards:
     - 7349f9255a09467696401a2869c7fa29
+  wants_keywords:
+    - Crowd
+    - Elbow
 - name: Brian Wait_4_It Schmidt
   db_uuid: 71b6b581c7a249958c2e512d3d89afaa
   srg_url: https://supershowthegame.com/product/brian-wait_4_it-schmidt-2/
@@ -33992,6 +34546,9 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+  wants_keywords:
+    - Boss
+    - Sheep
 - name: The Big Fudge Lock
   db_uuid: a7935782a2d947e49b44f1fba2a8ff57
   card_type: MainDeckCard
@@ -34038,6 +34595,9 @@
   tags: []
   related_cards:
     - 2ae23d6498254dec98147137a5c3f197
+  wants_keywords:
+    - Hell
+    - Fire
 - name: Xibalba, the Entrance to Hell
   db_uuid: ec03456061fe491c89fc24b1bf86d6ee
   card_type: MainDeckCard
@@ -34050,6 +34610,9 @@
   tags: []
   related_cards:
     - 2ae23d6498254dec98147137a5c3f197
+  wants_keywords:
+    - Hell
+    - Fire
 - name: Hellfire Choke Hold
   db_uuid: 3f4fbe1ca7d8439f9bb45efab2b38355
   card_type: MainDeckCard
@@ -34064,6 +34627,10 @@
   tags: []
   related_cards:
     - 2ae23d6498254dec98147137a5c3f197
+  wants_keywords:
+    - Rope
+    - Hell
+    - Fire
 - name: Brock Smith (V1)
   db_uuid: 0640ec286ebd4c409d6b0fa17ab5711e
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
@@ -34241,6 +34808,10 @@
     - 0155c67ad8fd4edbadce84b22d9b8b61
     - 195ede9976544231b3e8b0c64763a971
     - b7975e820e1d405c8d766f45193b0a3c
+  wants_keywords:
+    - Coconut
+    - Chop
+    - Surf
 - name: Flip Flop Chop
   db_uuid: 0155c67ad8fd4edbadce84b22d9b8b61
   card_type: MainDeckCard
@@ -34279,6 +34850,10 @@
   tags: []
   related_cards:
     - 6812bd4569e741bf811f9e6eaca8f7a2
+  wants_keywords:
+    - Coconut
+    - Chop
+    - Surf
 - name: Caleb Konley
   db_uuid: 08e16af4ac6a4a868f83dea0e0cddc63
   srgpc_url: https://www.srgpc.net/cards/competitors/caleb-konley/
@@ -34568,6 +35143,8 @@
   tags: []
   related_cards:
     - 304260416f464f6ca6b6af362f945a21
+  wants_keywords:
+    - Arm Drag
 - name: Salamander Sleeper
   db_uuid: 0754bbd4adc44ad09413421b105a7944
   srg_url: https://supershowthegame.com/product/sticky-the-salamander/
@@ -34595,12 +35172,14 @@
   strike: 8
   submission: 6
   grapple: 10
-  rules_text: 'Your stop cards with "DDT" in the name have the added text: "Stop any Finish Submission".'
+  rules_text: 'Your Stop cards with "DDT" in the name have the added text: "Stop any Finish Submission".'
   tags: []
   related_finishes:
     - ccacfddded574bdcae3248b1c6c4c245
     - 9da2a54f40a74f0ba000e5a42d9df87b
     - 597e7fa12e79443d94b6121b5d4bf4ee
+  wants_keywords:
+    - DDT
 - name: Boa!
   db_uuid: ccacfddded574bdcae3248b1c6c4c245
   card_type: MainDeckCard
@@ -34923,6 +35502,10 @@
     - ee807116e6ae4c17bc709dad8712029a
     - 95dce62414c34823a4c2577c2d771e18
     - 53ed3f4392b14fa9b31ccb3f8bd2be9b
+  wants_keywords:
+    - Steel
+    - Kick
+    - Sheep
 - name: Steel Wool's Superkick
   db_uuid: 595b7bc4492643deaa2b16239d8d7cb8
   srg_url: https://supershowthegame.com/product/steel-wool/
@@ -34936,6 +35519,9 @@
   tags: []
   related_cards:
     - b339f906c69c4183b699037dffd6cfa1
+  wants_keywords:
+    - Steel
+    - Kick
 - name: All Steel, No Wool
   db_uuid: ee807116e6ae4c17bc709dad8712029a
   srg_url: https://supershowthegame.com/product/steel-wool/
@@ -34995,6 +35581,8 @@
   grapple: 10
   rules_text: Once during your turn when you hit a card with "Lock" in the name; draw 1 card or you may play 1 additional card this turn.
   tags: []
+  wants_keywords:
+    - Lock
 - name: Theo the Greek (V2)
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
   srgpc_url: https://www.srgpc.net/competitors/theo-the-greek-neo-v2/
@@ -35150,6 +35738,9 @@
     - ac3769c2f0834d4c9207c3856d8311b9
     - 401371d337bc4371b58bb080a49acbdb
     - 639fb0a0a7d448e689248d943bf5be85
+  wants_keywords:
+    - Stick
+    - Fire
 - name: Prehistoric Headbutt
   db_uuid: ac3769c2f0834d4c9207c3856d8311b9
   card_type: MainDeckCard
@@ -35164,6 +35755,9 @@
   tags: []
   related_cards:
     - 23c31720ac384b888ba04b4e47cf6649
+  wants_keywords:
+    - Stick
+    - Fire
 - name: Dino-Roll (V2)
   db_uuid: 401371d337bc4371b58bb080a49acbdb
   card_type: MainDeckCard
@@ -35178,6 +35772,10 @@
   tags: []
   related_cards:
     - 23c31720ac384b888ba04b4e47cf6649
+  wants_keywords:
+    - Dino
+    - Stick
+    - Fire
 - name: Savage Back Claw
   db_uuid: 639fb0a0a7d448e689248d943bf5be85
   card_type: MainDeckCard
@@ -35210,6 +35808,8 @@
     - 0cac451988614f77a05f03840ef61309
     - b6373320866b43cd98c7de2439fbb0ad
     - a27239ca83ea49779b1abd978b2d504a
+  wants_keywords:
+    - Chair
 - name: Extraordinary Chair Shot
   db_uuid: 0cac451988614f77a05f03840ef61309
   card_type: MainDeckCard
@@ -35393,6 +35993,10 @@
     - 5f9ddc7babd2483faa4519694b33d001
     - 56100fd216824f7f85e2a5525deec5a5
     - 8cc9b5fd3bf74c6a98d6808a0000ea4a
+  wants_keywords:
+    - Roll
+    - Chop
+    - Cut
 - name: The Recipe for Success
   db_uuid: 5f9ddc7babd2483faa4519694b33d001
   card_type: MainDeckCard
@@ -35405,6 +36009,10 @@
 
     Shuffle 5 cards with "Roll", "Chop" or "Cut" in the name from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Roll
+    - Chop
+    - Cut
 - name: The Rolling Pin
   db_uuid: 56100fd216824f7f85e2a5525deec5a5
   card_type: MainDeckCard
@@ -35429,6 +36037,10 @@
 
     If you have 5 cards in play with "Roll", "Chop", or "Cut" in the name, double these bonuses.'
   tags: []
+  wants_keywords:
+    - Roll
+    - Chop
+    - Cut
 - name: Cherry Glamazon
   db_uuid: c94f753c62f5406cae60f664dfc182e6
   srgpc_url: https://www.srgpc.net/cards/competitors/cherry-glamazon/
@@ -35463,6 +36075,9 @@
   tags: []
   related_cards:
     - c94f753c62f5406cae60f664dfc182e6
+  wants_keywords:
+    - Dog
+    - Puppy
 - name: The Cherry Bomb
   db_uuid: e71a475e20f742e6b804e033b6f6b7f3
   card_type: MainDeckCard
@@ -35479,6 +36094,9 @@
   tags: []
   related_cards:
     - c94f753c62f5406cae60f664dfc182e6
+  wants_keywords:
+    - Dog
+    - Puppy
 - name: The Tootsie Roll
   db_uuid: 62892427750b42c2bfd1adc92f99b9bf
   card_type: MainDeckCard
@@ -35493,6 +36111,9 @@
   tags: []
   related_cards:
     - c94f753c62f5406cae60f664dfc182e6
+  wants_keywords:
+    - Dog
+    - Puppy
 - name: Cheshire
   db_uuid: 7b92ca8e078b45ecb8efdea750aa6a9d
   srgpc_url: https://www.srgpc.net/cards/competitors/cheshire/
@@ -36110,6 +36731,9 @@
   grapple: 5
   rules_text: When you hit a card with "Boss" or "Sheep" in the name, your opponent randomly buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Boss
+    - Sheep
 - name: Copy Kat (V1)
   db_uuid: 941ba12c956546f4b9abf28336f9d92a
   card_type: SingleCompetitorCard
@@ -36469,6 +37093,8 @@
     - eb09ae9b7edb4b42a2b96771c8c87455
     - b906491aa7f84badb0f0d229e5672682
     - 25930f205a2b489fb50aaaa0ba18f444
+  wants_keywords:
+    - Chair
 - name: Spur the Horse
   db_uuid: eb09ae9b7edb4b42a2b96771c8c87455
   card_type: MainDeckCard
@@ -36529,6 +37155,8 @@
 
     Add 1 card with "Kick" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Kick
 - name: Danhausen
   db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
   srgpc_url: https://www.srgpc.net/cards/competitors/danhausen/
@@ -37189,6 +37817,8 @@
     - dd33512dd3e14fac8ba4cf4e72cb9daa
     - 236dcf5d036a4b91b64b8fd84c83a6d7
     - e6ecf157dc574b0aa0b6c53b875306c6
+  wants_keywords:
+    - King
 - name: The Coward's Way / Iron Gauntlet
   db_uuid: dd33512dd3e14fac8ba4cf4e72cb9daa
   card_type: MainDeckCard
@@ -37229,6 +37859,8 @@
   tags: []
   related_cards:
     - 308de2fea17c4d1a8581fdd591951fef
+  wants_keywords:
+    - King
 - name: Derek Neal
   db_uuid: 77fdc45f8ebe46c9a0304eb24e8a9498
   srgpc_url: https://www.srgpc.net/cards/competitors/derek-neal/
@@ -37247,6 +37879,10 @@
     - b7781694be3a41849847efd5a462964c
     - 3537ee468e8c4ac19229400865621650
     - 6866568ea6a947478813395989ace5a3
+  wants_keywords:
+    - Buster
+    - Driver
+    - King
 - name: Haymaker
   db_uuid: b7781694be3a41849847efd5a462964c
   card_type: MainDeckCard
@@ -37275,6 +37911,8 @@
   tags: []
   related_cards:
     - 77fdc45f8ebe46c9a0304eb24e8a9498
+  wants_keywords:
+    - Buster
 - name: Tiger Driver (Derek Neal)
   db_uuid: 6866568ea6a947478813395989ace5a3
   card_type: MainDeckCard
@@ -37289,6 +37927,8 @@
   tags: []
   related_cards:
     - 77fdc45f8ebe46c9a0304eb24e8a9498
+  wants_keywords:
+    - King
 - name: Des the Destroyer
   db_uuid: 63c51da5b7fd43b4b4e51fd4f0f0c55f
   srg_url: https://supershowthegame.com/product/everything-halloween/
@@ -37308,6 +37948,8 @@
     - addbe4eaa6f24f108292518013d0cd37
     - d37525f8853547ab8d103f066ba7c32e
     - 16c181aa48c84f898646e36f71943e6e
+  wants_keywords:
+    - Sledgehammer
 - name: Desolate Destruction
   db_uuid: addbe4eaa6f24f108292518013d0cd37
   card_type: MainDeckCard
@@ -37324,6 +37966,8 @@
   tags: []
   related_cards:
     - 63c51da5b7fd43b4b4e51fd4f0f0c55f
+  wants_keywords:
+    - Hammer
 - name: Descent of the Hammer
   db_uuid: d37525f8853547ab8d103f066ba7c32e
   card_type: MainDeckCard
@@ -37338,6 +37982,8 @@
   tags: []
   related_cards:
     - 63c51da5b7fd43b4b4e51fd4f0f0c55f
+  wants_keywords:
+    - Hammer
 - name: Hammer of Despair
   db_uuid: 16c181aa48c84f898646e36f71943e6e
   card_type: MainDeckCard
@@ -37350,6 +37996,8 @@
   tags: []
   related_cards:
     - 63c51da5b7fd43b4b4e51fd4f0f0c55f
+  wants_keywords:
+    - Hammer
 - name: The Devil's Advocate (V1)
   db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
@@ -37491,6 +38139,8 @@
     - 7f16300aad4e4fc48b4a2c6ab460c4d0
     - 374b01584ba74550a62631e899374129
     - 3084f3e681da41fe89f404e8418f603f
+  wants_keywords:
+    - Slam
 - name: Kilt Check
   db_uuid: 7f16300aad4e4fc48b4a2c6ab460c4d0
   card_type: MainDeckCard
@@ -37537,6 +38187,8 @@
   tags: []
   related_cards:
     - ebc7f25eaba1461aa7d083ff0807f003
+  wants_keywords:
+    - Slam
 - name: Diamond Danny G
   db_uuid: 251d99d79e864af58762a6926801d0e9
   srg_url: https://supershowthegame.com/product/diamond-danny-g/
@@ -38064,6 +38716,8 @@
 
     You may reveal 1 additional Entrance with "L.F.F." in the name.'
   tags: []
+  wants_keywords:
+    - L.F.F.
 - name: Duncan Avecilla
   db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0
   srgpc_url: https://www.srgpc.net/cards/competitors/duncan-avecilla/
@@ -38087,6 +38741,9 @@
     - 583ce65671864a5699baf0f730b974b4
     - 3143d64b2c2e415b81f1b42b8c7f5786
     - 12048b7630154f6a9f388e612d613e6c
+  wants_keywords:
+    - Sweep
+    - Choke
 - name: The Dweeb
   db_uuid: 5855a5840bde47f69a596df2703401ad
   card_type: SingleCompetitorCard
@@ -38389,6 +39046,10 @@
     - 7a33c1b87afc4f8183c68df6b48c3f57
     - aea00f77c6154ebaa137bede810f354f
     - ed3350ed672640438e5f95cde9865758
+  wants_keywords:
+    - Kick
+    - Dive
+    - Sault
 - name: Sudden Death
   db_uuid: 7a33c1b87afc4f8183c68df6b48c3f57
   card_type: MainDeckCard
@@ -38450,6 +39111,8 @@
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
+  wants_keywords:
+    - Super
 - name: Ellis Taylor
   db_uuid: 2e85f004baa34c31bf8da5098a24f796
   srg_url: https://supershowthegame.com/product/ellis-taylor/
@@ -38483,6 +39146,8 @@
   tags: []
   related_cards:
     - 2e85f004baa34c31bf8da5098a24f796
+  wants_keywords:
+    - Apron
 - name: Brainbuster on the Apron
   db_uuid: caeef6b28bc74b9e82049f4408be0619
   card_type: MainDeckCard
@@ -38549,6 +39214,8 @@
     - a038bb0a150f472cb9acd8a3f7be1778
     - 70b7bc008c124456b49e4112b209c5db
     - 7d75b496431a49a88896c8b79066646d
+  wants_keywords:
+    - Chicken Wing
 - name: Stardust Fall
   db_uuid: 81f74f91eadb4eff9cd4a7b9634c5211
   card_type: MainDeckCard
@@ -38627,6 +39294,8 @@
     - a038bb0a150f472cb9acd8a3f7be1778
     - 70b7bc008c124456b49e4112b209c5db
     - 7d75b496431a49a88896c8b79066646d
+  wants_keywords:
+    - Chicken Wing
 - name: Ember Wolf (V2)
   db_uuid: 70b7bc008c124456b49e4112b209c5db
   srgpc_url: https://www.srgpc.net/competitors/ember-wolf-v2/
@@ -38957,6 +39626,8 @@
 
     Shuffle 3 cards from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Breaker
 - name: Li Grand Zombi
   db_uuid: 4662ce13d4994da689e9a694cf190401
   card_type: MainDeckCard
@@ -39109,6 +39780,10 @@
     - a891785061d84677ab35303a4934d01a
     - fe38c448f5f140b4a96123f63fc24346
     - 569dbccfb5274af1ad01fdec455b5193
+  wants_keywords:
+    - Ring
+    - Fire
+    - Cheese
 - name: Evil Ed the Cheesehead (V2)
   db_uuid: 62e48ff740964254a8e73f3af363ac0f
   srgpc_url: https://www.srgpc.net/competitor/evil-ed-the-cheese-head-v2/
@@ -39251,6 +39926,10 @@
     - 2c0944b9d5fd4ba7a3ad14f502e4f74f
     - 006f404466e141e8aa7398915c5e971d
     - 67a103c6e77542e2a27991fd9f685c9f
+  wants_keywords:
+    - Lightning
+    - Hand
+    - Punch
 - name: Ironhanded Punch From the Heavens!
   db_uuid: 2c0944b9d5fd4ba7a3ad14f502e4f74f
   card_type: MainDeckCard
@@ -39265,6 +39944,10 @@
   tags: []
   related_cards:
     - 26e572a5ff9b48f59c604d84dce4c0b8
+  wants_keywords:
+    - Lightning
+    - Hand
+    - Punch
 - name: Lightning-Fast Drop
   db_uuid: 006f404466e141e8aa7398915c5e971d
   card_type: MainDeckCard
@@ -39631,6 +40314,9 @@
   related_cards:
     - 687c36bd47984dfe84c8ee8836d7ad21
     - 4f05f98ff74b4be49e53e2092c28a90a
+  wants_keywords:
+    - Drumstick
+    - Flash
 - name: The Fireball
   db_uuid: f602d739628746ee8620999d09310727
   card_type: SingleCompetitorCard
@@ -39700,6 +40386,8 @@
 
     Your opponent discards 1 card from their hand. Bury 1 card in your discard pile. When you have another Grapple with "Fire" in the name in play, triple these bonuses.'
   tags: []
+  wants_keywords:
+    - Fire
 - name: Confined Space Entrapment
   db_uuid: 04a5edcddd224619ba79547528df0460
   card_type: MainDeckCard
@@ -39824,6 +40512,10 @@
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
     - 7f3630931db04f129a6f6207117f5a91
+  wants_keywords:
+    - Sky
+    - Fly
+    - Soar
 - name: Soaring Superplex
   db_uuid: 58f956544ec24bc09bbd5f421628cb34
   card_type: MainDeckCard
@@ -39839,6 +40531,10 @@
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
     - 7f3630931db04f129a6f6207117f5a91
+  wants_keywords:
+    - Sky
+    - Fly
+    - Soar
 - name: Keeping Up Foreign Relations
   db_uuid: 474faff6e2354aaaabb91b84b4e814e6
   card_type: MainDeckCard
@@ -39854,6 +40550,8 @@
   related_cards:
     - 7a27b8f53e2b41a093fb2e619ab364a9
     - 7f3630931db04f129a6f6207117f5a91
+  wants_keywords:
+    - Soar
 - name: Flyboy (V2)
   db_uuid: 7f3630931db04f129a6f6207117f5a91
   card_type: SingleCompetitorCard
@@ -40132,6 +40830,8 @@
     - 518058d6535f46c692afbbfcbb8cc115
     - 5c8af70c7d64490aa5ba2bef6a2da540
     - f2a6fa1ed1cb46a49f1fa65e19190a4c
+  wants_keywords:
+    - Table
 - name: 'Philly Special #2'
   db_uuid: 22517b24c41640ecbe5ae7e4f7fcccd2
   card_type: MainDeckCard
@@ -40378,6 +41078,9 @@
   related_cards:
     - 8f4d6cf02cf04c15bcb6908883bc5fd0
     - 8c57d96fbf76423384286e0604c7aff7
+  wants_keywords:
+    - Flying
+    - Airplane
 - name: The Frequent Flyer Upgrade
   db_uuid: 1b487c3c031c425daae55ab6dccb42cc
   card_type: MainDeckCard
@@ -40391,6 +41094,8 @@
   related_cards:
     - 8f4d6cf02cf04c15bcb6908883bc5fd0
     - 8c57d96fbf76423384286e0604c7aff7
+  wants_keywords:
+    - Flying
 - name: Fuhgeddaboutit!
   db_uuid: e4717f091f0e489a9e0b16d29cf73fb1
   srgpc_url: https://www.srgpc.net/competitors/fuhgeddaboutit/
@@ -40439,6 +41144,8 @@
   tags: []
   related_cards:
     - e4717f091f0e489a9e0b16d29cf73fb1
+  wants_keywords:
+    - Fuhgeddaboutit!
 - name: Don't Touch the Trench Coat
   db_uuid: fe5ece50260145c48aa45c4890f2bcca
   card_type: MainDeckCard
@@ -40513,6 +41220,8 @@
     - 05b615c9b8d04c27bd885554930bbbd1
     - 513410876cee4349b7958ea10442a644
     - 83c20a0096834cce9a0ce4890323cee2
+  wants_keywords:
+    - Chug
 - name: Now Say Goodnight
   db_uuid: 862dfcea091a497d9196c79e1f23c6d4
   card_type: MainDeckCard
@@ -40559,6 +41268,9 @@
 
     Add 1 card with "Chug" in the name from your discard pile to your hand. You may play 1 additional card with "Chug" or "Funtime" in the name this turn.'
   tags: []
+  wants_keywords:
+    - Chug
+    - Funtime
 - name: Funtime Driver
   db_uuid: 513410876cee4349b7958ea10442a644
   card_type: MainDeckCard
@@ -40579,6 +41291,8 @@
   deck_card_number: 30
   rules_text: Your Finish roll is +1 for each card you have in play with "Chug" in the name (Max +2).
   tags: []
+  wants_keywords:
+    - Chug
 - name: Gabby Ortiz
   db_uuid: 0f15d434bd974b2a906aa62268028efb
   srgpc_url: https://www.srgpc.net/cards/competitors/gabby-ortiz/
@@ -40676,6 +41390,8 @@
     - 584eabcd65ab40faa6aca087b6b4f357
     - 1acc5a5905f6496389d2dd2124c417af
     - 608321fd361949109e660ec981315254
+  wants_keywords:
+    - Drive
 - name: The Big Sack
   db_uuid: 0581c2ef8de946ad85d712c431315caf
   card_type: MainDeckCard
@@ -40751,6 +41467,8 @@
   related_cards:
     - 9df52313a2554e1eb4dd9e0eca8632f3
     - ff1eff85cd864a54a5d66711c475655b
+  wants_keywords:
+    - Drive
 - name: The Googol Play
   db_uuid: 608321fd361949109e660ec981315254
   card_type: MainDeckCard
@@ -40766,6 +41484,8 @@
   related_cards:
     - 9df52313a2554e1eb4dd9e0eca8632f3
     - ff1eff85cd864a54a5d66711c475655b
+  wants_keywords:
+    - Drive
 - name: General Manager John Calace (V1)
   db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
   srgpc_url: https://www.srgpc.net/cards/competitors/general-manager-john-calace/
@@ -40811,6 +41531,10 @@
     - 6c66f931266b49bfb7ca54e3d1ffa194
     - e6e3e7bcfb7f48b9916e7ae5b21cc97d
     - 7d30fd37823749158efb0843310993f1
+  wants_keywords:
+    - Bar
+    - Shot
+    - Bender
 - name: Skol-Line
   db_uuid: 044e4a87082a40598f5795d540f51591
   card_type: MainDeckCard
@@ -40876,6 +41600,9 @@
     - c4a11e2c1cc1428c82d6c46a4f1f3646
     - 027a8e6e5826403fa92ea3a76a1985b5
     - a28b9f5e3a034f3fb375477b6c07ea34
+  wants_keywords:
+    - Bender
+    - Shot
 - name: Death Choke
   db_uuid: 7d30fd37823749158efb0843310993f1
   card_type: MainDeckCard
@@ -40909,6 +41636,10 @@
     - d210a2bc2ef04170a0c6d404dee03244
     - 7119043a6bf842a0bb51b0b9bd501ff9
     - 829955c0c6924225ac5f4d423e87b395
+  wants_keywords:
+    - Heat
+    - Heel
+    - Taunt
 - name: Alpha Omega
   db_uuid: d210a2bc2ef04170a0c6d404dee03244
   card_type: MainDeckCard
@@ -40923,6 +41654,10 @@
   tags: []
   related_cards:
     - 6ac028b8730a4e77a303e04ddd9efc8a
+  wants_keywords:
+    - Heat
+    - Heel
+    - Taunt
 - name: In God I Trust
   db_uuid: 7119043a6bf842a0bb51b0b9bd501ff9
   card_type: MainDeckCard
@@ -40935,6 +41670,10 @@
   tags: []
   related_cards:
     - 6ac028b8730a4e77a303e04ddd9efc8a
+  wants_keywords:
+    - Heat
+    - Heel
+    - Taunt
 - name: The Achilles Heel
   db_uuid: 829955c0c6924225ac5f4d423e87b395
   card_type: MainDeckCard
@@ -41007,6 +41746,9 @@
   tags: []
   related_cards:
     - a4b61c579c2d4ca59b5001ea5503fdef
+  wants_keywords:
+    - Hold
+    - Lock
 - name: Gideon Guts (V1)
   db_uuid: b0d290415e4e4ab685ecf41d06d6f167
   srgpc_url: https://www.srgpc.net/cards/competitors/gideon-guts/
@@ -41028,6 +41770,8 @@
     - d1e064ba8a4b4b92a484d871aaf4eb2f
     - 4ba6e44a8eb14a33a61db3ab36587b38
     - 04e65074bfa740d4aed07071109e585b
+  wants_keywords:
+    - Punch
 - name: Gideon Guts (V2)
   db_uuid: d02f496c8aef43e7953af2ce6fe81f22
   srgpc_url: https://www.srgpc.net/competitors/gideon-guts-v2/
@@ -41064,6 +41808,8 @@
   related_cards:
     - b0d290415e4e4ab685ecf41d06d6f167
     - d02f496c8aef43e7953af2ce6fe81f22
+  wants_keywords:
+    - Punch
 - name: Strip the Flesh (V1)
   db_uuid: c959c59ce79042f18bb6652399c4313a
   card_type: MainDeckCard
@@ -41081,6 +41827,8 @@
   related_cards:
     - b0d290415e4e4ab685ecf41d06d6f167
     - d02f496c8aef43e7953af2ce6fe81f22
+  wants_keywords:
+    - Punch
 - name: Salt the Wound
   db_uuid: 2c7a7944f7854bc0bb886a4f9efe4818
   card_type: MainDeckCard
@@ -41320,6 +42068,10 @@
     - 6c4e1124fd8d4bdc991c437f2227eaaf
     - 251446f0bbc3435c8a5a41c9531486c9
     - 000e784178d3416cbce414846f4d271c
+  wants_keywords:
+    - Head
+    - Arm
+    - Back
 - name: Hallow King (V2)
   db_uuid: ed653f444d954936987aec59d4c5e4dd
   srgpc_url: https://www.srgpc.net/competitor/hallow-king-v2/
@@ -41359,6 +42111,10 @@
   related_cards:
     - ba1af0065d3a45f7823ed63f6b5ce426
     - ed653f444d954936987aec59d4c5e4dd
+  wants_keywords:
+    - Head
+    - Arm
+    - Back
 - name: Decapitator
   db_uuid: d53b3112fad44ad6936c95f2c3a38c44
   card_type: MainDeckCard
@@ -41374,6 +42130,8 @@
   related_cards:
     - ba1af0065d3a45f7823ed63f6b5ce426
     - ed653f444d954936987aec59d4c5e4dd
+  wants_keywords:
+    - Head
 - name: Backbreaker from the Dead
   db_uuid: b40f8e7baf0243998c8aaae7c1b6614d
   card_type: MainDeckCard
@@ -41404,6 +42162,8 @@
   related_cards:
     - ba1af0065d3a45f7823ed63f6b5ce426
     - ed653f444d954936987aec59d4c5e4dd
+  wants_keywords:
+    - Arm
 - name: Graveyard Smash
   db_uuid: 6c4e1124fd8d4bdc991c437f2227eaaf
   card_type: MainDeckCard
@@ -41483,6 +42243,9 @@
     - 47cd4f5fc40c41179ca062744b658836
     - 138855055a174ee985db117c2ea3efb8
     - 66fbb709566a4ea5b93036ef217d09db
+  wants_keywords:
+    - Hip
+    - Bust
 - name: '#ForTheLadies'
   db_uuid: 2d308603b7a14b9eacb7ea64cb163a01
   card_type: MainDeckCard
@@ -41507,6 +42270,8 @@
   tags: []
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
+  wants_keywords:
+    - Bust
 - name: The Ballgazer
   db_uuid: d1de1a6666a34d54bf12d969dce72208
   card_type: MainDeckCard
@@ -41538,6 +42303,8 @@
     - Old School
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
+  wants_keywords:
+    - Bust
 - name: Director's Cut Buster
   db_uuid: 138855055a174ee985db117c2ea3efb8
   card_type: MainDeckCard
@@ -41793,6 +42560,8 @@
     - 0c8a2ebbacdd41c8afb872b8cb08b4d4
     - 0c257cee404441179bc49f84e610a658
     - 7610fa6996034fd880bb1874531fe66d
+  wants_keywords:
+    - Dragon
 - name: High Fly Flow
   db_uuid: 0c8a2ebbacdd41c8afb872b8cb08b4d4
   card_type: MainDeckCard
@@ -41809,6 +42578,8 @@
   tags: []
   related_cards:
     - 818d5a2501ce481ca42886e95e7d0943
+  wants_keywords:
+    - Dragon
 - name: Bridging Dragon Suplex
   db_uuid: 0c257cee404441179bc49f84e610a658
   card_type: MainDeckCard
@@ -41823,6 +42594,8 @@
   tags: []
   related_cards:
     - 818d5a2501ce481ca42886e95e7d0943
+  wants_keywords:
+    - Dragon
 - name: Texas Clover Hold
   db_uuid: 7610fa6996034fd880bb1874531fe66d
   card_type: MainDeckCard
@@ -41857,6 +42630,8 @@
     - 6af958ed1e0444e0b9e285e8095bf1ff
     - 9ea4104c753f45faad0b2ea35f1699be
     - 6907942cdd6b4bb6a78e8ce52f5c878a
+  wants_keywords:
+    - Pineapple
 - name: Hold the Line Harry
   db_uuid: ad19decd21624f22b678048ab0b463db
   srgpc_url: https://www.srgpc.net/cards/competitors/hold-the-line-harry/
@@ -41890,6 +42665,8 @@
   tags: []
   related_cards:
     - ad19decd21624f22b678048ab0b463db
+  wants_keywords:
+    - Spear
 - name: Flanking Manuever
   db_uuid: 643b59bb151644838237fb78f12cd3df
   card_type: MainDeckCard
@@ -43190,6 +43967,9 @@
     - 9fb294805bd349d1bdbc1d0ed177ab08
     - e5df92fe21cf48afb545fc5d2c5ce0d9
     - afd7087140664e3fbf8655aeb87e6d14
+  wants_keywords:
+    - Bomb
+    - America
 - name: We Will Not Hesitate to Slap America
   db_uuid: 9fb294805bd349d1bdbc1d0ed177ab08
   srg_url: https://supershowthegame.com/product/johnny-north-korea/
@@ -43218,6 +43998,8 @@
   tags: []
   related_cards:
     - 6fee88b1e0494bec9e0181ab6735a50b
+  wants_keywords:
+    - Bomb
 - name: Best Korean Bombardment
   db_uuid: afd7087140664e3fbf8655aeb87e6d14
   srg_url: https://supershowthegame.com/product/johnny-north-korea/
@@ -43232,6 +44014,9 @@
   tags: []
   related_cards:
     - 6fee88b1e0494bec9e0181ab6735a50b
+  wants_keywords:
+    - Bomb
+    - America
 - name: Johnny Korea
   db_uuid: c7c67bea6ff64c3b81cc812363c23ac4
   srg_url: https://supershowthegame.com/product/johnny-korea/
@@ -43311,6 +44096,8 @@
     - 8bf3fe8ca09343d7add2d57bb198617e
     - 07fba135a6a447d989573d5327ce070e
     - dd8ac1fb75e247c18c9be443bb399e20
+  wants_keywords:
+    - Slam
 - name: Johnny Supershow (V2)
   db_uuid: 4ca508f3c6b44cd88defa9aafb4aefbb
   srgpc_url: https://www.srgpc.net/cards/competitors/johnny-supershow/
@@ -43329,6 +44116,8 @@
     - 8bf3fe8ca09343d7add2d57bb198617e
     - 07fba135a6a447d989573d5327ce070e
     - dd8ac1fb75e247c18c9be443bb399e20
+  wants_keywords:
+    - Slam
 - name: Starship Pain
   db_uuid: 8bf3fe8ca09343d7add2d57bb198617e
   card_type: MainDeckCard
@@ -43344,6 +44133,8 @@
   related_cards:
     - 659e5cb61628456f971e60e2b70760b3
     - 4ca508f3c6b44cd88defa9aafb4aefbb
+  wants_keywords:
+    - Slam
 - name: Moonlight Drive
   db_uuid: 07fba135a6a447d989573d5327ce070e
   card_type: MainDeckCard
@@ -43361,6 +44152,8 @@
   related_cards:
     - 659e5cb61628456f971e60e2b70760b3
     - 4ca508f3c6b44cd88defa9aafb4aefbb
+  wants_keywords:
+    - Slam
 - name: The Only Vote That Counts
   db_uuid: dd8ac1fb75e247c18c9be443bb399e20
   card_type: MainDeckCard
@@ -43374,6 +44167,8 @@
   related_cards:
     - 659e5cb61628456f971e60e2b70760b3
     - 4ca508f3c6b44cd88defa9aafb4aefbb
+  wants_keywords:
+    - Slam
 - name: Johnny T
   db_uuid: c79de6acd1954441970f9b1901a55e01
   srgpc_url: https://www.srgpc.net/cards/competitors/johnny-t/
@@ -43726,6 +44521,8 @@
     - f59324641bab43cb97f6f85d2fed17db
     - 15b4bf02b93e4651901256a25717d736
     - ee82d7aa35634b58b83251bd11ec80d1
+  wants_keywords:
+    - Avalanche
 - name: Yakuza Kick (Jordan Oliver)
   db_uuid: 5f2116e03f1247ddb35b8d1517dcd687
   card_type: MainDeckCard
@@ -43756,6 +44553,10 @@
   related_cards:
     - ce62c04bdaf54cc1b72280f22e89589a
     - 24a750cd651b4ed0952e5d933524a9f0
+  wants_keywords:
+    - High
+    - Smoke
+    - Burn
 - name: Torture Crab
   db_uuid: 61327d8f9fe840618fa4c49bb7ba3fb7
   card_type: MainDeckCard
@@ -43891,6 +44692,11 @@
     - 0d062fd1c27541dfb649b11777e447a9
     - 1ef008e14b8d42db964bb0c5efe2ca23
     - 8ecdb2f15c22417aae67be3a202b3b07
+  wants_keywords:
+    - Stomp
+    - Charging
+    - Charge
+    - Run
 - name: Big Ole Elbow Drop
   db_uuid: 0d062fd1c27541dfb649b11777e447a9
   card_type: MainDeckCard
@@ -43919,6 +44725,11 @@
   tags: []
   related_cards:
     - 5798171c5d814f3c9f2926be67a2b347
+  wants_keywords:
+    - Stomp
+    - Charging
+    - Charge
+    - Run
 - name: Scorpion Death Lock
   db_uuid: 8ecdb2f15c22417aae67be3a202b3b07
   card_type: MainDeckCard
@@ -43952,6 +44763,8 @@
     - 44fcb705791b4502b869be5e874e736c
     - 39e761549e134d85b8935c3b07f23050
     - a4e8c3d3c9234b32add7e3b6bdac66f1
+  wants_keywords:
+    - Drop
 - name: Los Tres Golpes
   db_uuid: 44fcb705791b4502b869be5e874e736c
   card_type: MainDeckCard
@@ -43964,6 +44777,8 @@
   tags: []
   related_cards:
     - c7738a0ba99b4c86b5f8427356ac8bc9
+  wants_keywords:
+    - Drop
 - name: Drop the Tostones in the Fryer
   db_uuid: 39e761549e134d85b8935c3b07f23050
   card_type: MainDeckCard
@@ -43976,6 +44791,8 @@
   tags: []
   related_cards:
     - c7738a0ba99b4c86b5f8427356ac8bc9
+  wants_keywords:
+    - Drop
 - name: Sancocho Sleeper
   db_uuid: a4e8c3d3c9234b32add7e3b6bdac66f1
   card_type: MainDeckCard
@@ -43992,6 +44809,8 @@
   tags: []
   related_cards:
     - c7738a0ba99b4c86b5f8427356ac8bc9
+  wants_keywords:
+    - Drop
 - name: JT Dunn
   db_uuid: b41d30281182409c8d64717d314ab4bc
   card_type: SingleCompetitorCard
@@ -44178,6 +44997,9 @@
     - bd93630a0e82452cbf0217d683949cf9
     - 5ad6aae0759b4cf79b5fb27d98babb8d
     - 7623f48e5ba64be2a0f4e71fde34ec99
+  wants_keywords:
+    - Snap
+    - Shot
 - name: Hair Spray in the Face
   db_uuid: bd93630a0e82452cbf0217d683949cf9
   card_type: MainDeckCard
@@ -44204,6 +45026,9 @@
   tags: []
   related_cards:
     - 58f826bfd837442ba47de9fdacf90df5
+  wants_keywords:
+    - Snap
+    - Shot
 - name: Satchel Strangle
   db_uuid: 7623f48e5ba64be2a0f4e71fde34ec99
   card_type: MainDeckCard
@@ -44220,6 +45045,9 @@
   tags: []
   related_cards:
     - 58f826bfd837442ba47de9fdacf90df5
+  wants_keywords:
+    - Snap
+    - Shot
 - name: Kameha Kahn
   db_uuid: 3f12cb9b2b344981b91ef65c8cc4d30f
   srgpc_url: https://www.srgpc.net/cards/competitors/kameha-kahn/
@@ -44287,6 +45115,9 @@
   grapple: 8
   rules_text: When you roll Technique or Strike for your turn roll, add 1 Lead or Follow Up Strike with "Dropkick" or "Lariat" in the name from your discard pile to your hand.
   tags: []
+  wants_keywords:
+    - Dropkick
+    - Lariat
 - name: Ken Broadway
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
   srgpc_url: https://www.srgpc.net/cards/competitors/ken-broadway/
@@ -44416,6 +45247,9 @@
 
     When you hit a card with "Lightning" in the name, draw 1 card.'
   tags: []
+  wants_keywords:
+    - Thunder
+    - Lightning
 - name: King Brian Cage
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
   srgpc_url: https://www.srgpc.net/cards/competitors/king-brian-cage/
@@ -44700,6 +45534,8 @@
   grapple: 5
   rules_text: Your cards are considered to have "Guitar" in the name for your card effects.
   tags: []
+  wants_keywords:
+    - Guitar
 - name: Koby the Kid
   db_uuid: bf301e6c594b4946a34618e4e43af90b
   srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/
@@ -44839,6 +45675,10 @@
 
     Their cards with "Chop", "Kick", or "Strike" in the name have blank text.'
   tags: []
+  wants_keywords:
+    - Chop
+    - Kick
+    - Strike
 - name: L.A. Park
   db_uuid: 91e5b6e04a8541fab99cd2cd854f8c9f
   srg_url: https://supershowthegame.com/product/la-park/
@@ -44854,6 +45694,8 @@
   grapple: 9
   rules_text: 'During your turn: Double the numbers in your cards with "Chair" in the name.'
   tags: []
+  wants_keywords:
+    - Chair
 - name: L.E.D. (V1)
   db_uuid: 8ef681256e174839a3a0249b8aa564fb
   card_type: SingleCompetitorCard
@@ -44962,6 +45804,10 @@
     - 1d40ee21bb324a2ab48e58fe3d516e7e
     - f716f46119bc4cad95c0b781a7656db3
     - 5e800622faa74783b0c1e63727d9675c
+  wants_keywords:
+    - Ash
+    - Fire
+    - Burn
 - name: Phoenix Down
   db_uuid: 1d40ee21bb324a2ab48e58fe3d516e7e
   card_type: MainDeckCard
@@ -44988,6 +45834,10 @@
   tags: []
   related_cards:
     - 92d9e53180de40039d33b076e18b9127
+  wants_keywords:
+    - Ash
+    - Burn
+    - Fire
 - name: Ashes to Ashes
   db_uuid: 5e800622faa74783b0c1e63727d9675c
   card_type: MainDeckCard
@@ -45131,6 +45981,10 @@
 
     If you have 10 or more cards with "Bird", "Face", or "Flying" in the name in your discard pile, your opponent gets one breakout roll this turn.'
   tags: []
+  wants_keywords:
+    - Bird
+    - Face
+    - Flying
 - name: Flying Penguin Press
   db_uuid: 8bdeea11ec03410c9bac08475db23b0e
   srg_url: https://supershowthegame.com/product/le-penguin/
@@ -45200,6 +46054,10 @@
     - 04b507534c4a4b0393bb92fb25f53c2d
     - 8b6fca7ac4f2489d9d469377d6a37184
     - 18d210f50add4f8c9d59f9ff61d961f0
+  wants_keywords:
+    - Sheep
+    - Flock
+    - Stun
 - name: With a Cheerful Heart
   db_uuid: 04b507534c4a4b0393bb92fb25f53c2d
   card_type: MainDeckCard
@@ -45253,6 +46111,8 @@
   grapple: 8
   rules_text: Your cards with "Elbow" in the name cannot be stopped by Skill Requirements & you can stop cards that cannot be stopped.
   tags: []
+  wants_keywords:
+    - Elbow
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
   srgpc_url: https://www.srgpc.net/cards/competitors/lemmy-adam/
@@ -45454,6 +46314,9 @@
   tags: []
   related_cards:
     - 109e75661c724f3793fd139706a5b8b5
+  wants_keywords:
+    - Lariat
+    - Clothesline
 - name: Cape Killer
   db_uuid: 2fefc7e8c86546099219e5a545a97d52
   card_type: MainDeckCard
@@ -45468,6 +46331,8 @@
   tags: []
   related_cards:
     - 109e75661c724f3793fd139706a5b8b5
+  wants_keywords:
+    - Lariat
 - name: Liger Tamer
   db_uuid: 9553321e03a44aafa61f78bf9fd9a92b
   card_type: MainDeckCard
@@ -45519,6 +46384,8 @@
     - b0f985ab713b4bc29df222f797d3c13e
     - e2bac1fd8d714ca8a1864b32dc79cb04
     - b25eb5160c88425cb1a8e36cb04dc9db
+  wants_keywords:
+    - Kick
 - name: Kick Start Mai Heart
   db_uuid: 86b83497a4ad4706a25404de414db971
   card_type: MainDeckCard
@@ -45535,6 +46402,8 @@
     - b0f985ab713b4bc29df222f797d3c13e
     - e2bac1fd8d714ca8a1864b32dc79cb04
     - b25eb5160c88425cb1a8e36cb04dc9db
+  wants_keywords:
+    - Kick
 - name: Just for Kicks
   db_uuid: 18ec5506b17f4b4aa3d0d48085889f0d
   card_type: MainDeckCard
@@ -45621,6 +46490,9 @@
     - 5243a9d14313427296de1c79353e5c49
     - a929bcd28b474a08963a265f4f35547d
     - a5c21097ae6f4bb1ab2755b331957779
+  wants_keywords:
+    - Kick
+    - Dragon
 - name: Lio Rush
   db_uuid: f690e8d4cf87413ebd0bbf7cdd12973f
   srgpc_url: https://www.srgpc.net/cards/competitors/lio-rush/
@@ -45959,6 +46831,9 @@
   grapple: 8
   rules_text: 'Once during your turn: You may discard 1 Strike from your hand to add 1 Follow Up Grapple with "Suplex" or "Breaker" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Suplex
+    - Breaker
 - name: Lord Garruth
   db_uuid: 411450337c044fafaa3188e60e721a92
   card_type: SingleCompetitorCard
@@ -46074,6 +46949,10 @@
   tags: []
   related_cards:
     - def74dd5530540ce8a9e903bc10fd620
+  wants_keywords:
+    - Hype
+    - Crowd
+    - Taunt
 - name: The Sky Fall (Loudmouth Leo Larynx)
   db_uuid: 861f6ccd96d04377a4bcac8e6d4fd83d
   card_type: MainDeckCard
@@ -46118,6 +46997,8 @@
   tags: []
   related_cards:
     - def74dd5530540ce8a9e903bc10fd620
+  wants_keywords:
+    - Taunt
 - name: I Scream, You Scream!
   db_uuid: 07ed20d2f1534c058dc7542838a3d89a
   card_type: MainDeckCard
@@ -46224,6 +47105,8 @@
   tags: []
   related_cards:
     - 137e8a7f1895445690ad418e1c097ca3
+  wants_keywords:
+    - Stunner
 - name: Lunatic Ginge (V1)
   db_uuid: 989286521bff469094dffc72fdfba974
   card_type: SingleCompetitorCard
@@ -46236,6 +47119,8 @@
   grapple: 8
   rules_text: 'When your opponent hits Strike or Grapple Finish: you may discard 2 cards from your hand, if either of those cards had "Suplex" in the name your first breakout roll is +4.'
   tags: []
+  wants_keywords:
+    - Suplex
 - name: Lunatic Ginge (V2)
   db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
   card_type: SingleCompetitorCard
@@ -46250,6 +47135,8 @@
 
     You may discard up to 3 cards from your hand to add +1 to your 1st Breakout roll for each card discards. If you discarded any cards with "Suplex" in the name, your Breakout roll is +1 more.'
   tags: []
+  wants_keywords:
+    - Suplex
 - name: Lycan
   db_uuid: 6610ac46791b4527b45006f551fe028e
   card_type: SingleCompetitorCard
@@ -46616,6 +47503,8 @@
     - ada6ada7309c44d6b9a6038db0eee42a
     - 51b432a837044f43acbac4eb7ad6429b
     - 7ce8b2fa96e74466a8eeb684c0ff3780
+  wants_keywords:
+    - Eat
 - name: The Whack
   db_uuid: ada6ada7309c44d6b9a6038db0eee42a
   card_type: MainDeckCard
@@ -46630,6 +47519,8 @@
   tags: []
   related_cards:
     - 1cbeaf22cad640c99590010e989c8a43
+  wants_keywords:
+    - Eat
 - name: Let the Pigs Eat
   db_uuid: 51b432a837044f43acbac4eb7ad6429b
   card_type: MainDeckCard
@@ -46662,6 +47553,8 @@
   tags: []
   related_cards:
     - 1cbeaf22cad640c99590010e989c8a43
+  wants_keywords:
+    - Eat
 - name: Marcus Samuel Selmore
   db_uuid: 749f53f3b17942139d09aa4a05ca90a9
   srg_url: https://supershowthegame.com/product/marcus-samuel-selmore/
@@ -46690,6 +47583,8 @@
   grapple: 10
   rules_text: 'During your turn: When you hit a Grapple with "Drop" in the name add 1 card from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Drop
 - name: The Mark Geoff Bravo
   db_uuid: 9a231499dca740c1ac1674b80f8234fd
   srgpc_url: https://www.srgpc.net/cards/competitors/the-mark-geoff-bravo/
@@ -46761,6 +47656,9 @@
   grapple: 8
   rules_text: Your cards with "Snap" or "Finger Lock" in the name have the added text, "Your opponent buries 1 random card in their hand." When you have 4 of those cards in play, your opponent's Gimmick is blank.
   tags: []
+  wants_keywords:
+    - Snap
+    - Finger Lock
 - name: Masked Beetle
   db_uuid: 652f4cdb84a5453b852723eaa0ddc994
   srg_url: https://supershowthegame.com/product/masked-beetle/
@@ -46782,6 +47680,9 @@
     - d887a761dfa8430d813fed1f8b41b161
     - d128993fb2054d62b8f415932c7a3299
     - 1a31cdd41d944ab4aa6e014bab8e9cf3
+  wants_keywords:
+    - Punch
+    - Kick
 - name: Justice Kick
   db_uuid: d887a761dfa8430d813fed1f8b41b161
   card_type: MainDeckCard
@@ -46812,6 +47713,9 @@
   tags: []
   related_cards:
     - 652f4cdb84a5453b852723eaa0ddc994
+  wants_keywords:
+    - Punch
+    - Kick
 - name: Ishimori S. Lock
   db_uuid: 1a31cdd41d944ab4aa6e014bab8e9cf3
   card_type: MainDeckCard
@@ -46826,6 +47730,9 @@
   tags: []
   related_cards:
     - 652f4cdb84a5453b852723eaa0ddc994
+  wants_keywords:
+    - Punch
+    - Kick
 - name: The Masked Llama (V1)
   db_uuid: c7b112a959164f1ab5a4018303136e61
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
@@ -47147,6 +48054,8 @@
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
     - 70ec50606f764d35bbbbaf40618177da
+  wants_keywords:
+    - Pineapple
 - name: Sweet Surprise!
   db_uuid: 6907942cdd6b4bb6a78e8ce52f5c878a
   card_type: MainDeckCard
@@ -47163,6 +48072,8 @@
     - 6a24d980f7fc4231aac3c2fa529c9576
     - 8d6ddda991594deaac7ce826cbda5787
     - 70ec50606f764d35bbbbaf40618177da
+  wants_keywords:
+    - Pineapple
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
   card_type: SingleCompetitorCard
@@ -47231,7 +48142,7 @@
 
     If your opponent breaks out, add this card to your hand.'
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
 - name: Dragon Dagger Bomb
@@ -47246,9 +48157,11 @@
 
     Shuffle your deck.'
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
+  wants_keywords:
+    - Bank
 - name: You Can Take That to the Bank!
   db_uuid: ef3dee8623b24ebba64a990f31003a74
   card_type: MainDeckCard
@@ -47261,7 +48174,7 @@
 
     Draw 1 card.'
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
 - name: Suppressing Fire
@@ -47272,7 +48185,7 @@
   deck_card_number: 28
   rules_text: When you have "Big Boot" or "Spear" in play, stop any Finish Grapple.
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
 - name: Jack Hunter Stunner
@@ -47287,7 +48200,7 @@
 
     Search your deck or discard pile for "Big Boot" or "Spear" and add it to your hand.'
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
 - name: Did you Knock?
@@ -47298,7 +48211,7 @@
   deck_card_number: 30
   rules_text: When this card is in your discard pile and your opponent hits a Finish, you may bury this card and your 3rd Breakout roll is +2.
   tags: []
-  related_cardS:
+  related_cards:
     - 87f6c1678eaa4008bbdc8c3df45d36fa
     - 79d6196f1e334e54beba5be194847bc5
 - name: Matt Travis
@@ -47314,6 +48227,8 @@
   grapple: 8
   rules_text: When you hit a card with "Kick" in the name your opponent randomly reveals cards in their hand equal to the number of other cards you have in play with "Kick" in the name, choose 1 of those revealed cards and bury it.
   tags: []
+  wants_keywords:
+    - Kick
 - name: Matty Bar1
   db_uuid: 041f88464da84d039c316094b81a3273
   srg_url: https://supershowthegame.com/product/matty-barone/
@@ -47446,6 +48361,9 @@
   grapple: 5
   rules_text: When you hit a card with "Shot" or "Fire" in the name, draw the bottom card of your deck.
   tags: []
+  wants_keywords:
+    - Shot
+    - Fire
 - name: Mayhem
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
   card_type: SingleCompetitorCard
@@ -47472,6 +48390,8 @@
   grapple: 10
   rules_text: 'During your turn: When you hit a card with "Drop" in the name, discard 1 other card in play.'
   tags: []
+  wants_keywords:
+    - Drop
 - name: Meeple's Champion (V2)
   db_uuid: fe65f8f490b14ffdaca7c80756e652f6
   card_type: SingleCompetitorCard
@@ -47485,6 +48405,9 @@
   grapple: 10
   rules_text: When you hit a card with "Board" or "Game" in the name, you may put 1 Lead or Follow Up from your discard pile into play.
   tags: []
+  wants_keywords:
+    - Board
+    - Game
 - name: The Meeple's Unholy Union
   db_uuid: 44630c22a56448b9a0f6af124078364d
   card_type: SingleCompetitorCard
@@ -47990,6 +48913,8 @@
   grapple: 9
   rules_text: Your cards with "Super" in the name have the added text, "Your next turn roll is +2."
   tags: []
+  wants_keywords:
+    - Super
 - name: Mike Verna (V2)
   db_uuid: ac55fc415cfd407cb44b82c5e74797ea
   card_type: SingleCompetitorCard
@@ -48003,6 +48928,8 @@
   grapple: 9
   rules_text: When you hit a card with "Steel" in the name, your next turn roll is +1.
   tags: []
+  wants_keywords:
+    - Steel
 - name: Mila Mai (Banned)
   db_uuid: 65f92221e8714df09fe91cef7756836a
   is_banned: true
@@ -48076,6 +49003,8 @@
   tags: []
   related_cards:
     - 763531a5c5ee468690793b8683f59abd
+  wants_keywords:
+    - Potion
 - name: Genetic Stamping
   db_uuid: 42eeb64e085643d9b6b1ab091eab2ca0
   card_type: MainDeckCard
@@ -48134,6 +49063,10 @@
     - 1c83c4cc51594b288a56b679719a4e66
     - 6383f2fcd8234321a54a5e49d18ef37c
     - cf36d55505d74779aa0f70093e7955b1
+  wants_keywords:
+    - Cosmic
+    - Dragon
+    - Potion
 - name: Potion Powered Dragon Smash!
   db_uuid: 1c83c4cc51594b288a56b679719a4e66
   card_type: MainDeckCard
@@ -48176,6 +49109,8 @@
   tags: []
   related_cards:
     - 60081196caac41bb82fb1735e16268f6
+  wants_keywords:
+    - Potion
 - name: Mimic
   db_uuid: 924e81a6d29b4983bf9be0918a459760
   card_type: SingleCompetitorCard
@@ -48462,6 +49397,8 @@
   tags: []
   related_cards:
     - 6956220082814555af99c5fe19c96635
+  wants_keywords:
+    - Suplex
 - name: Jurassic Rack
   db_uuid: c0863681aeaf404b96ecd51c65ce32f6
   card_type: MainDeckCard
@@ -48509,6 +49446,8 @@
   tags: []
   related_cards:
     - 952b0cc79573451cbabdfb3a8297bea4
+  wants_keywords:
+    - Light
 - name: Blinded By the Light
   db_uuid: e11c08c1f9df4519891b138d6dbedfc6
   card_type: MainDeckCard
@@ -48535,6 +49474,8 @@
   tags: []
   related_cards:
     - 952b0cc79573451cbabdfb3a8297bea4
+  wants_keywords:
+    - Light
 - name: The Mouth of Southeast Michigan
   db_uuid: d9c95f93770747aea1e2bc2daa4e826f
   srg_url: https://supershowthegame.com/product/the-mouth-of-southeast-michigan/
@@ -48656,6 +49597,8 @@
   tags: []
   related_cards:
     - ab2e17c9e2ef4e97a6816fb625f0311e
+  wants_keywords:
+    - Wonder
 - name: Mr. C
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
   srgpc_url: https://www.srgpc.net/cards/competitors/mr-c/
@@ -48817,6 +49760,9 @@
     - cb02d0b68eaa4c329b468a34c3c9a536
     - f679e1b1ae774ea194954fcb8f3075a9
     - 7756fa0c42e24affb904183365aab5df
+  wants_keywords:
+    - Snap
+    - Finger Lock
 - name: The Malefactor
   db_uuid: cb02d0b68eaa4c329b468a34c3c9a536
   card_type: MainDeckCard
@@ -48878,6 +49824,9 @@
     - 1361a182b063486abf28572bd9bcb428
     - 833caf4cac8744cba95551f274025cdf
     - 2c962636d5c045d5b218f79a6939dfca
+  wants_keywords:
+    - Snap
+    - Breaker
 - name: Snap Shot
   db_uuid: 1361a182b063486abf28572bd9bcb428
   card_type: MainDeckCard
@@ -48920,6 +49869,9 @@
   tags: []
   related_cards:
     - 65f7d712267548c2a549636af572dfcb
+  wants_keywords:
+    - Snap
+    - Breaker
 - name: Mrs. Bum, Lovely Mone
   db_uuid: a546704b5fb04a0398cd2e0e54c8210c
   card_type: SingleCompetitorCard
@@ -49291,6 +50243,10 @@
 
     This match has no disqualifications.'
   tags: []
+  wants_keywords:
+    - Kendo Stick
+    - Steel Chair
+    - Trash Can
 - name: Night Terror
   db_uuid: 3ff32d2089504028b07d301071f12f2f
   srgpc_url: https://www.srgpc.net/cards/competitors/night-terror/
@@ -50591,6 +51547,8 @@
 
     You may discard up to 3 cards from your hand to add +1 to your 1st breakout roll for each card discarded.  If you discarded any cards with "Suplex" in the name, your breakout roll is +1 more.'
   tags: []
+  wants_keywords:
+    - Suplex
 - name: The Polverizer (V2)
   db_uuid: 9494b4b5640b4b6083c40fe69c8ae2cb
   card_type: SingleCompetitorCard
@@ -50604,6 +51562,8 @@
   grapple: 9
   rules_text: 'During your 1st breakout Roll: You may discard 3 cards from your hand and your breakout roll is +3. If you discarded any cards with "Suplex" in the name, your breakout roll is +1 more.'
   tags: []
+  wants_keywords:
+    - Suplex
 - name: The PPLZ Casual
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
   srgpc_url: https://www.srgpc.net/cards/competitors/pplz-casual//
@@ -50673,6 +51633,8 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+  wants_keywords:
+    - Impact
 - name: Driven by Impact
   db_uuid: 559dbb8973bb41e0826115bf00ea12cf
   card_type: MainDeckCard
@@ -50709,13 +51671,17 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  rules_text: 'ADd 1 card with "Head" or "Table" in the name from your discard pile to your hand.
+  rules_text: 'Add 1 card with "Head" or "Table" in the name from your discard pile to your hand.
 
     +1 to Agility and Grapple for each Strike or card you have in play with "Impact" in the name (Max +3).'
   tags: []
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+  wants_keywords:
+    - Head
+    - Table
+    - Impact
 - name: 'Press #1 for Pain'
   db_uuid: 9befcead60ac40979480537a30a03b15
   card_type: MainDeckCard
@@ -50821,6 +51787,10 @@
     - f929236be3f7413e9e5030dd72a99de2
     - 51f4a3f378ad4ecab1ed478d2983dbce
     - 9befcead60ac40979480537a30a03b15
+  wants_keywords:
+    - Head
+    - Table
+    - Impact
 - name: Pretty Hair Piercer (V1)
   db_uuid: 3ca21530f41f4a43b0063316172dba00
   srg_url: https://supershowthegame.com/product/pretty-hair-piercer/
@@ -50976,6 +51946,9 @@
     - 9014a0be07c842ba920f6e3aae9e5712
     - fe9ddea24e7544adb7e0e45e6627529f
     - 3fe3c72a858347ceaac98b22b1ec9db1
+  wants_keywords:
+    - Twist
+    - Shake
 - name: Das Shake Out
   db_uuid: 9014a0be07c842ba920f6e3aae9e5712
   card_type: MainDeckCard
@@ -51154,6 +52127,8 @@
     - cdadd459469a472193cbbb83e912621b
     - a5ba07e9346e4414bebe1b8e4d50dab2
     - 7c409dfbe5b441b9acdc10ce29e480d1
+  wants_keywords:
+    - Face
 - name: The Beauty Shot
   db_uuid: cdadd459469a472193cbbb83e912621b
   card_type: MainDeckCard
@@ -51166,6 +52141,8 @@
 
     When you have 4 cards in play with "Face" in the name, this card can''t be stopped.'
   tags: []
+  wants_keywords:
+    - Face
 - name: Unprettier
   db_uuid: a5ba07e9346e4414bebe1b8e4d50dab2
   card_type: MainDeckCard
@@ -51190,6 +52167,8 @@
 
     When this card is in your discard pile your opponent''s with "Face" in the name have blank text.'
   tags: []
+  wants_keywords:
+    - Face
 - name: Prince of GTS
   db_uuid: dec8fd598a5a46d484d879e0fb268e4b
   srg_url: https://supershowthegame.com/product/prince-of-gts/
@@ -51705,6 +52684,10 @@
     - 4f88027d1b6a4f268e142b4ab59ecb2d
     - cca9ab03da1e4800b688bff224917e5b
     - 79abad884e74407d902a6718297c24d3
+  wants_keywords:
+    - Kendo Stick
+    - Steel Chair
+    - Trash Can
 - name: Spinning Lariat
   db_uuid: 4f88027d1b6a4f268e142b4ab59ecb2d
   card_type: MainDeckCard
@@ -52181,6 +53164,8 @@
     - 30cff599787945a0959bb8eaa4e2816d
     - 5d0f9c7cf260422c8de5e794b3834aaf
     - a5a30fa426934913bb39c01efee31206
+  wants_keywords:
+    - Table
 - name: Rigged to Strike
   db_uuid: 30cff599787945a0959bb8eaa4e2816d
   card_type: MainDeckCard
@@ -52247,6 +53232,8 @@
     - 08b55c0aa6a642f29450176b1bf28e02
     - f432342e593e41e2a21f18b0b39250ee
     - 1d87556c2fa24e64807d0f615ed711f4
+  wants_keywords:
+    - Ring
 - name: Spitting Rings of Fire
   db_uuid: 08b55c0aa6a642f29450176b1bf28e02
   card_type: MainDeckCard
@@ -52261,6 +53248,8 @@
   tags: []
   related_cards:
     - f67082e53b084aefbc07e3df08801f6f
+  wants_keywords:
+    - Fire
 - name: Gathering the Freak Show
   db_uuid: f432342e593e41e2a21f18b0b39250ee
   card_type: MainDeckCard
@@ -52332,6 +53321,10 @@
     - ee388e33d49548a888c64d988b932979
     - 1ec2445a1ca340749f54db79e24f8b15
     - 79397cf9495c486c80f4c428b6b1de26
+  wants_keywords:
+    - Atomic
+    - Bomb
+    - Explode
 - name: Renegade Spear
   db_uuid: 64c1ce61a0444dfead3726701f71db5a
   card_type: MainDeckCard
@@ -52736,6 +53729,8 @@
   tags: []
   related_cards:
     - 09d06a9ded0f4fcd8c197946ec4f2424
+  wants_keywords:
+    - Rolling
 - name: Wicked Pissa DDT
   db_uuid: 29b4c9b79d354ca09ba730c8227797ad
   card_type: MainDeckCard
@@ -52752,6 +53747,8 @@
   tags: []
   related_cards:
     - 09d06a9ded0f4fcd8c197946ec4f2424
+  wants_keywords:
+    - Roll
 - name: Crab Roll
   db_uuid: 17b8277574264e70a3b24e3c09937b36
   card_type: MainDeckCard
@@ -52768,6 +53765,8 @@
   tags: []
   related_cards:
     - 09d06a9ded0f4fcd8c197946ec4f2424
+  wants_keywords:
+    - Rolling
 - name: Romeo 3000
   db_uuid: b5dab595d5cc4b4fa0692a3a5903d639
   srg_url: https://supershowthegame.com/product/romeo-3000/
@@ -52910,6 +53909,9 @@
   tags: []
   related_cards:
     - 858138a8b87c4de4b420fcfefd1d2363
+  wants_keywords:
+    - Chug
+    - Mug
 - name: Rowdy Ron
   db_uuid: 76844541603c4065993d0c45c0de838b
   card_type: SingleCompetitorCard
@@ -52927,6 +53929,9 @@
     - 46c8bcd9651046b9a42cca66a76a8693
     - 729ea115eb06416c9439367d1194ee86
     - 4ef2ef1d12924d958dc8cf6cd300de1a
+  wants_keywords:
+    - Tar
+    - Heel
 - name: The Rising Star Splash
   db_uuid: 46c8bcd9651046b9a42cca66a76a8693
   card_type: MainDeckCard
@@ -52991,6 +53996,9 @@
     - fb98c823c0cd44c780d9199f2723033c
     - 85b70664cbe94aefa6b9e8f6e544e1c9
     - c8f2be0b716f4d68aa34e1dddc4ec118
+  wants_keywords:
+    - Chicken Wing
+    - Elbow
 - name: Mystic Falls
   db_uuid: 020bffa993404e7d8eb3dcbc7cf0f4fb
   card_type: MainDeckCard
@@ -53005,6 +54013,8 @@
   tags: []
   related_cards:
     - 7d75b496431a49a88896c8b79066646d
+  wants_keywords:
+    - Elbow
 - name: Rain Before the Rainbow
   db_uuid: f5582968eead479199193148f469c98c
   card_type: MainDeckCard
@@ -53175,6 +54185,8 @@
     - 8a0aa5d3a3254f17ac3da53e9faf2d13
     - 6123438277bb40f2bb067f88b48ce2dd
     - 7b099b38ba004142bc750f0c68f5b85f
+  wants_keywords:
+    - High
 - name: Five Star Frog Splash
   db_uuid: 8a0aa5d3a3254f17ac3da53e9faf2d13
   card_type: MainDeckCard
@@ -53357,6 +54369,10 @@
     - 6ce2528d7e164b64be745bc7922bb564
     - 8fcb804d0aed4d0fa0180724ccd82a92
     - 3f7b071f969647bab710d8811763d78b
+  wants_keywords:
+    - Death
+    - Dive
+    - Chair
 - name: Triple Jump Moonsault
   db_uuid: 6ce2528d7e164b64be745bc7922bb564
   card_type: MainDeckCard
@@ -53381,6 +54397,9 @@
 
     When this card is in your discard pile, your Follow Ups with "Death" or "Dive" in the name are also Leads.'
   tags: []
+  wants_keywords:
+    - Death
+    - Dive
 - name: Arabian Death Clutch
   db_uuid: 3f7b071f969647bab710d8811763d78b
   card_type: MainDeckCard
@@ -53542,6 +54561,8 @@
   grapple: 7
   rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw 2 cards, and your opponent buries 1 card from their hand.
   tags: []
+  wants_keywords:
+    - Kick
 - name: Sami Callihan "Death Machine" (V1)
   db_uuid: 3ebc8a70bd834b31b85381984de3ea5c
   srgpc_url: https://www.srgpc.net/cards/competitors/the-death-machine-sami-callihan-wr-version/
@@ -53618,6 +54639,9 @@
   tags: []
   related_cards:
     - 20c146c8c0854329807a89143269a8fb
+  wants_keywords:
+    - Head
+    - Neck
 - name: Stretch Muffler
   db_uuid: 70c1560bc5c8424aba5806a595069e77
   card_type: MainDeckCard
@@ -53660,6 +54684,8 @@
 
     When you hit a card, you may play 1 additional card with "Eat" in the name.'
   tags: []
+  wants_keywords:
+    - Eat
 - name: Scarlett Graves (V1)
   db_uuid: bbad60422a9c403b97980cc9efab48c1
   srgpc_url: https://www.srgpc.net/cards/competitors/scarlett-graves/
@@ -53911,6 +54937,9 @@
     - ccf4372da41e4476a3fab042e325aebb
     - 0594926c6a18466ba9145d843f9ee27f
     - 02d1569e09e8455491f2a99987f3c19d
+  wants_keywords:
+    - Cat
+    - Tiger
 - name: Catch Headbutts
   db_uuid: ccf4372da41e4476a3fab042e325aebb
   card_type: MainDeckCard
@@ -53984,6 +55013,9 @@
     - e56291bed5814c36b104f9847cab8770
     - 019f6efb60964ff78d3531e2d2784b97
     - fc8f8d6ed1d54aec9e3033b603b236bc
+  wants_keywords:
+    - Spin
+    - Stretch
 - name: Spinning Yoga Fire Fist
   db_uuid: e56291bed5814c36b104f9847cab8770
   card_type: MainDeckCard
@@ -54119,6 +55151,8 @@
   tags: []
   related_cards:
     - b6a34c56cfb041e7839acfaf3e0a0eab
+  wants_keywords:
+    - Ash
 - name: Desecrated Ashes
   db_uuid: 1354290428a84d0abc54a7ba2cd3b01e
   card_type: MainDeckCard
@@ -54163,6 +55197,8 @@
   tags: []
   related_cards:
     - b6a34c56cfb041e7839acfaf3e0a0eab
+  wants_keywords:
+    - Ash
 - name: Shadow Phoenix (V2)
   db_uuid: 84910742683d4cd2af7a57cd571c74cf
   card_type: SingleCompetitorCard
@@ -54327,6 +55363,9 @@
 
     Your Agility is +1 for each card you have in play with "Irish" in the name (Max +3).'
   tags: []
+  wants_keywords:
+    - Luck
+    - Irish
 - name: Sheeple's Champion
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
   srgpc_url: https://www.srgpc.net/cards/competitors/sheeples-champion/
@@ -55278,6 +56317,9 @@
     - d8daf9788cef4fd99edd43d23c0b4c82
     - 052f3107fc894070bd6cbdab7d52549f
     - cc97ddd2f6964da9be0038fee59d6132
+  wants_keywords:
+    - Boss
+    - Chop
 - name: The Boss Hammer
   db_uuid: dc2ccd83babb45c1b44616489c3fe841
   srg_url: https://supershowthegame.com/product/the-srg-boss/
@@ -55457,6 +56499,9 @@
   grapple: 9
   rules_text: When you have 2 cards with "Slam" or "Suplex" in the name in play, and your opponent hits a card; your opponent randomly buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Slam
+    - Suplex
 - name: The Stone
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
   card_type: SingleCompetitorCard
@@ -55489,6 +56534,8 @@
   tags: []
   related_cards:
     - d4c9a7cc966c44feb7d2f09d6b8ccb04
+  wants_keywords:
+    - Spine
 - name: The Boulder Bottom
   db_uuid: 5301501fe19545d8b11a5cfb42bc081c
   card_type: MainDeckCard
@@ -55727,6 +56774,9 @@
     - eae101448d1d4f3d8ebf214d48df2b84
     - 1530bc7bedca4e0182750708d3038aef
     - 6cf830e791574afd96b700f0724e9f66
+  wants_keywords:
+    - Al13n
+    - Cosmic
 - name: Swoggle
   db_uuid: 3076e579ea384f008e9bc0db1b62dd57
   card_type: SingleCompetitorCard
@@ -55861,6 +56911,8 @@
   grapple: 9
   rules_text: When you hit a card with "Leg" in the name, draw 2 cards then bury 1 card in your hand.
   tags: []
+  wants_keywords:
+    - Leg
 - name: Terra
   db_uuid: 90b0c96882754a4dbd175e313f4991b2
   srgpc_url: https://www.srgpc.net/cards/competitors/terra/
@@ -55945,6 +56997,9 @@
   grapple: 7
   rules_text: When you hit a card with "Smash" or "Buster" in the name, you may shuffle 1 card you have in play into your deck.
   tags: []
+  wants_keywords:
+    - Smash
+    - Buster
 - name: THE Phil Birch
   db_uuid: 2ac859ee5b724848b5d34e70740c4f50
   srgpc_url: https://www.srgpc.net/competitors/the-phil-birch/
@@ -55959,6 +57014,9 @@
   grapple: 8
   rules_text: When you hit a card with "Big" or "Microphone" in the name, you may shuffle 1 card you have in play into your deck.
   tags: []
+  wants_keywords:
+    - Big
+    - Microphone
 - name: Titan
   db_uuid: 0a4ae4fdea654848ac7a8467bc9f74f2
   srgpc_url: https://www.srgpc.net/cards/competitors/titan/
@@ -56001,6 +57059,10 @@
   grapple: 7
   rules_text: 'Your cards with "Kick", "Drop", and "Boot" in the name have the added text: "Your opponent''s next turn roll is -1."'
   tags: []
+  wants_keywords:
+    - Kick
+    - Drop
+    - Boot
 - name: 'TJ Marconi Public Enemy #1'
   db_uuid: 8f726675283f40eabe2c99539ef6e394
   srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi-public-enemy-no-1/
@@ -56015,6 +57077,10 @@
   grapple: 7
   rules_text: Your cards with "Kick", "Drop", or "Boot" in the name have the added text "Your next turn roll is +1."
   tags: []
+  wants_keywords:
+    - Kick
+    - Drop
+    - Boot
 - name: Tommy Stillwell
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
   srgpc_url: https://www.srgpc.net/cards/competitors/tommy-stillwell/
@@ -56256,6 +57322,10 @@
     - 47497fa28156476db595e5cb268680d4
     - f6eeb443067744d4a02db8975f713e4f
     - 3157393dd3c644d8bcfe8adac34b01a3
+  wants_keywords:
+    - Chin
+    - Jaw
+    - Face
 - name: Chin It, To Win It
   db_uuid: f4d585c112ed42aaa04ee7bb8b34d518
   srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
@@ -56290,6 +57360,8 @@
   related_cards:
     - 1886db488a2540c18d7fc450b201f9b0
     - 4e2a4a8022b0485e8449750cb411d793
+  wants_keywords:
+    - Chin
 - name: The Dude Abides
   db_uuid: 4dff266459db4276af3124b7e70918ea
   srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
@@ -56304,6 +57376,8 @@
   related_cards:
     - 1886db488a2540c18d7fc450b201f9b0
     - 4e2a4a8022b0485e8449750cb411d793
+  wants_keywords:
+    - Chin
 - name: Chin-Shasa
   db_uuid: 47497fa28156476db595e5cb268680d4
   srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
@@ -56346,6 +57420,9 @@
   related_cards:
     - 1886db488a2540c18d7fc450b201f9b0
     - 4e2a4a8022b0485e8449750cb411d793
+  wants_keywords:
+    - Chin
+    - Jaw
 - name: Uncle Bradley
   db_uuid: ffd691775c394d1da1bf0fbd218453d9
   srgpc_url: https://www.srgpc.net/cards/competitors/uncle-bradley/
@@ -56379,6 +57456,8 @@
     - b260fe4c61ba4fb5825acb70b881e3f2
     - 926dc07eb2044b6e9875b5f30e3a4ef2
     - b521171538b145e0b52dc4b2351e0950
+  wants_keywords:
+    - Table
 - name: Desolation Row
   db_uuid: b260fe4c61ba4fb5825acb70b881e3f2
   card_type: MainDeckCard
@@ -56419,6 +57498,8 @@
   tags: []
   related_cards:
     - 0beebc490ed0447f9a1323c470f94454
+  wants_keywords:
+    - Table
 - name: The Underhoss
   db_uuid: 80d48aba45684fb29c71c0095125c481
   srgpc_url: https://www.srgpc.net/competitor/the-underhoss/
@@ -56447,6 +57528,11 @@
   grapple: 8
   rules_text: When you hit a card with "Stomp", "Run", "Charge", or "Charging" in the name, your opponent's next turn roll is -1.
   tags: []
+  wants_keywords:
+    - Stomp
+    - Run
+    - Charge
+    - Charging
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   srgpc_url: https://www.srgpc.net/cards/competitors/unique/
@@ -56580,6 +57666,10 @@
     - 7d2a8c7f528148929f3c0c2c80549531
     - c7f4ca34a5fc4646a38409dbf8ba3727
     - c2bb4874e41441bebeb34e665d68dec6
+  wants_keywords:
+    - Table
+    - Ladder
+    - Steel Chain
 - name: The Union Strike
   db_uuid: 7d2a8c7f528148929f3c0c2c80549531
   card_type: MainDeckCard
@@ -56857,6 +57947,9 @@
     - 1f9056945c8848d58e196b21f1646d14
     - 50492533e70b42cf86755fb91b3f28c3
     - c127492da6e641dd86a96b5dc8d99987
+  wants_keywords:
+    - Jump
+    - Swing
 - name: Gorilla Warfare
   db_uuid: d30d1ac481954768a9edde8a12586221
   srg_url: https://supershowthegame.com/product/vanilla-gorilla/
@@ -57109,6 +58202,8 @@
     - 1781ad92ed564d04a9c445573fad1358
     - d69e3a727d14497880f9b2fdcff2e2d5
     - 94270efc99d94d3a9c0542e61b1d81d6
+  wants_keywords:
+    - Chop
 - name: Chop Into the Upside Down
   db_uuid: 1781ad92ed564d04a9c445573fad1358
   card_type: MainDeckCard
@@ -57139,6 +58234,8 @@
   related_cards:
     - ebc3e1b4fbf942f5b11c1d60f57185e5
     - 67985c3af162453ebe643a0edd3c11ef
+  wants_keywords:
+    - Chop
 - name: 11 Ways to Russia
   db_uuid: 94270efc99d94d3a9c0542e61b1d81d6
   card_type: MainDeckCard
@@ -57169,6 +58266,8 @@
   rules_text: When you hit a card with "Hop" in the name, search your deck or discard pile for a card with "Hop" in the name and add it to your hand.
   tags:
     - Finishless
+  wants_keywords:
+    - Hop
 - name: Warehouse
   db_uuid: ef91936ee02e4388ad2a6d37fc105340
   srgpc_url: https://www.srgpc.net/cards/competitors/warehouse/
@@ -57310,16 +58409,20 @@
     - 4f92412e186c4184922ae41b056a8793
     - 6112fd53210b43928b116ecc8a04194c
     - 41dd79ccc05a4c21b04da48fc09b699f
+  wants_keywords:
+    - Kendo Stick
 - name: Kendo Slash
   db_uuid: 4f92412e186c4184922ae41b056a8793
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  rules_text: "Your Finish roll is +1 for each card you have in play with \"Kendo Stick\n in the name (Max +2)."
+  rules_text: Your Finish roll is +1 for each card you have in play with "Kendo Stick" in the name (Max +2).
   tags: []
   related_cards:
     - 4ed75f5f784c4491ba68876e871aead4
+  wants_keywords:
+    - Kendo Stick
 - name: Where the White Lilies Fall
   db_uuid: 6112fd53210b43928b116ecc8a04194c
   card_type: MainDeckCard
@@ -57334,6 +58437,8 @@
   tags: []
   related_cards:
     - 4ed75f5f784c4491ba68876e871aead4
+  wants_keywords:
+    - Kendo Stick
 - name: Kendo Petal Sleeper
   db_uuid: 41dd79ccc05a4c21b04da48fc09b699f
   card_type: MainDeckCard
@@ -57586,6 +58691,9 @@
     - 5075ae6504de4d9fab2974b74bea04f7
     - 5603124c813e4dee802d0ddcd0c6245b
     - eac4bcff04114d8abd78692b6a077804
+  wants_keywords:
+    - Power
+    - Choke
 - name: Spell 656
   db_uuid: eedb37e05b1a481ea79af1f63e80fee2
   card_type: MainDeckCard
@@ -57612,6 +58720,9 @@
   tags: []
   related_cards:
     - 0d71d3dff2ad4f23a35055c49935c913
+  wants_keywords:
+    - Power
+    - Choke
 - name: My Most Powerful Spell
   db_uuid: 5603124c813e4dee802d0ddcd0c6245b
   card_type: MainDeckCard
@@ -57622,6 +58733,9 @@
   tags: []
   related_cards:
     - 0d71d3dff2ad4f23a35055c49935c913
+  wants_keywords:
+    - Power
+    - Choke
 - name: All Choked Up
   db_uuid: eac4bcff04114d8abd78692b6a077804
   card_type: MainDeckCard
@@ -57634,6 +58748,9 @@
   tags: []
   related_cards:
     - 0d71d3dff2ad4f23a35055c49935c913
+  wants_keywords:
+    - Power
+    - Choke
 - name: Wooly Bully (V1)
   db_uuid: 5d762e9b0091476e82e97ea73034fefa
   srgpc_url: https://www.srgpc.net/cards/competitors/wooly-bully/
@@ -57802,6 +58919,8 @@
 
     Draw 1, bury 1 and flip the other.'
   tags: []
+  wants_keywords:
+    - Knee
 - name: YamatoHama
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   srgpc_url: https://www.srgpc.net/cards/competitors/yamatohama/
@@ -57908,6 +59027,11 @@
     - 6fe34f3ae57e4e9bbf754943478861c7
     - dab57e0309074daebf0f8381ce6d6d5b
     - 9cff8c4c10444a07bff08dded78873fb
+  wants_keywords:
+    - Strike
+    - Dive
+    - Goal
+    - Run
 - name: Goal Kick (V1)
   db_uuid: 12cb9ad1a6e74944b146da53c023dab6
   card_type: MainDeckCard
@@ -58017,6 +59141,10 @@
     - 235169236b9b4ce583b97ef892275d8d
     - dec2ccd586ef4efc882bd646df1eec67
     - 07ceb52e5c544efa81cb2aada447cd0f
+  wants_keywords:
+    - Table
+    - Ladder
+    - Steel Chain
 - name: X-ecution
   db_uuid: 235169236b9b4ce583b97ef892275d8d
   card_type: MainDeckCard
@@ -58031,6 +59159,8 @@
   tags: []
   related_cards:
     - 7ed49e996f284cc8a973dd9118ad4c90
+  wants_keywords:
+    - Ladder
 - name: Adoubement
   db_uuid: dec2ccd586ef4efc882bd646df1eec67
   card_type: MainDeckCard
@@ -58045,6 +59175,8 @@
   tags: []
   related_cards:
     - 7ed49e996f284cc8a973dd9118ad4c90
+  wants_keywords:
+    - Table
 - name: Hail to the Queen
   db_uuid: 07ceb52e5c544efa81cb2aada447cd0f
   card_type: MainDeckCard
@@ -58057,6 +59189,8 @@
   tags: []
   related_cards:
     - 7ed49e996f284cc8a973dd9118ad4c90
+  wants_keywords:
+    - Steel Chain
 - name: Zack Sabre Jr. (V2)
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr-njpw/
@@ -58116,6 +59250,8 @@
   tags: []
   related_cards:
     - 6359a3a6d77d45ae8e05f43c37b5a001
+  wants_keywords:
+    - Arm
 - name: Zero Win Champion
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   card_type: SingleCompetitorCard
@@ -58351,6 +59487,8 @@
     - 3f78feea50be406f816e6c57857b74fa
     - e466fe26c2174300ad966f2f222ebc39
     - 7dbc002153f8415db6512ff14b49168a
+  wants_keywords:
+    - Mic
 - name: The Centipede
   db_uuid: 66505c423e1743d1a463ecf873c5c426
   srg_url: https://supershowthegame.com/product/the-centipede/
@@ -58520,6 +59658,8 @@
   tags: []
   related_cards:
     - dfa3e0991ea3426197f4ded552575d61
+  wants_keywords:
+    - Table
 - name: The Hollywood Ending™
   db_uuid: 244bf79f6adc48a28c553e55aa16df6b
   card_type: MainDeckCard
@@ -58789,6 +59929,11 @@
     - b41de21b2cd148979317d7e3c9d15d36
     - 7d5f66a1cce24326b31774d4a90db47a
     - 4081ddba01be4c4d89ef1e41ee6eca24
+  wants_keywords:
+    - Burn
+    - Choke
+    - Fire
+    - Slam
 - name: Blessed by the Burn
   db_uuid: b41de21b2cd148979317d7e3c9d15d36
   srg_url: https://supershowthegame.com/product/bael/
@@ -58819,6 +59964,11 @@
   tags: []
   related_cards:
     - 3e85e823fd544ea7acd81acb9b3e627f
+  wants_keywords:
+    - Burn
+    - Choke
+    - Fire
+    - Slam
 - name: The Lesser Key of Madness
   db_uuid: 4081ddba01be4c4d89ef1e41ee6eca24
   srg_url: https://supershowthegame.com/product/bael/
@@ -59091,6 +60241,8 @@
 
     When you have a card in play with "King" in the name, your turn rolls are +3.'
   tags: []
+  wants_keywords:
+    - King
 - name: AC Underlords
   db_uuid: 8465c8ff96d54d8ba7730dc39430e511
   card_type: TornadoCompetitorCard
@@ -59102,6 +60254,12 @@
   grapple: 12
   rules_text: When you hit a card with "Kick", "Taunt", "Break", "Steel", or "Trash" in the name, your opponent's next turn roll is -2.
   tags: []
+  wants_keywords:
+    - Kick
+    - Taunt
+    - Break
+    - Steel
+    - Trash
 - name: Alpaca Protection Agency
   db_uuid: f6b76009bcb4461994a9d8bd57dd9ac4
   card_type: TornadoCompetitorCard
@@ -59205,6 +60363,10 @@
 
     Your breakout and Finish rolls are + the Crowd Meter.'
   tags: []
+  wants_keywords:
+    - Pineapple
+    - Bar
+    - Trash
 - name: Barnyard Mafia
   db_uuid: 8bb9434ee8d94f09b0cbfe92418dce82
   srg_url: https://supershowthegame.com/product/barnyard-mafia/
@@ -59236,6 +60398,9 @@
   grapple: 18
   rules_text: Once during your turn when you play a card with "Drop" or "Splash" in the name you may play another card with "Drop" or "Splash" in the name.
   tags: []
+  wants_keywords:
+    - Drop
+    - Splash
 - name: Beauty and the Beatstick
   db_uuid: 180073d7502e46bd957a7379a99afe54
   srg_url: https://supershowthegame.com/product/beauty-and-the-beatstick/
@@ -59277,6 +60442,10 @@
   grapple: 21
   rules_text: 'When you have a card with "Boot", "Corner", or "Dragon" in the name in play: Your Strike, Submission, and Grapple skills are +3.'
   tags: []
+  wants_keywords:
+    - Boot
+    - Corner
+    - Dragon
 - name: Big Money
   db_uuid: 8fa7c780ce484084b9eaf58d5d343f0c
   srg_url: https://supershowthegame.com/product/big-money/
@@ -59319,6 +60488,8 @@
   grapple: 12
   rules_text: 'When you hit a card with "Punch" in the name: You may add 1 Submission you have in play to your hand or shuffle 1 Submission from your discard pile into your deck.'
   tags: []
+  wants_keywords:
+    - Punch
 - name: Blue Eyed Fiends
   db_uuid: 9f75a5cd8a224aa6a5a7b4c3bfaed380
   srg_url: https://supershowthegame.com/product/blue-eyed-fiends/
@@ -59334,6 +60505,11 @@
 
     When your opponent plays a Finish, you may discard a card with "Drop" or "Suplex" in the name to get +2 to your next Breakout roll.'
   tags: []
+  wants_keywords:
+    - Kick
+    - Boot
+    - Drop
+    - Suplex
 - name: Bootleggers Club
   db_uuid: 1f47228fa7374a83a9b3c28df42acc87
   srg_url: https://supershowthegame.com/product/boot-leggers/
@@ -59449,6 +60625,9 @@
 
     When you hit a card with "Power" or "Choke" in the name your opponent buries 1 random card in their hand.'
   tags: []
+  wants_keywords:
+    - Power
+    - Choke
 - name: Brain Trust
   db_uuid: cb0720bf4a1d4f98b9c6421beb0bae5b
   srg_url: https://supershowthegame.com/product/brain-trust/
@@ -59558,6 +60737,8 @@
 
     Your opponent''s Entrance cards without "L.F.F." in the name have blank text.'
   tags: []
+  wants_keywords:
+    - L.F.F.
 - name: Byrd
   db_uuid: 4174c483ab924b72b21343b1b37be712
   srg_url: https://supershowthegame.com/product/byrd/
@@ -59576,6 +60757,10 @@
     - e27b1484ae444a2796c14ee1efc0dea6
     - 03e0523ac5ab49d2a2bebe564d7709bf
     - f242afc5c30445d0b9b03192c7556715
+  wants_keywords:
+    - Bird
+    - Fly
+    - Soar
 - name: Soaring Pecker Drop
   db_uuid: e27b1484ae444a2796c14ee1efc0dea6
   card_type: MainDeckCard
@@ -59622,6 +60807,11 @@
   tags: []
   related_cards:
     - 4174c483ab924b72b21343b1b37be712
+  wants_keywords:
+    - Fly
+    - Bird
+    - Soar
+    - Wing
 - name: CaLLAMAty
   db_uuid: 1fa9419aea3344768c35252433357797
   srg_url: https://supershowthegame.com/product/calamity/
@@ -59808,6 +60998,11 @@
 
     When your cards with "Power", "Choke", "Dragon", or "Knockdown" in the name are stopped, you may play another cards with "Power", "Choke", "Dragon", or "Knockdown" in the name.'
   tags: []
+  wants_keywords:
+    - Power
+    - Choke
+    - Dragon
+    - Knockdown
 - name: Chief Coffey
   db_uuid: 67985c3af162453ebe643a0edd3c11ef
   srgpc_url: https://www.srgpc.net/competitor/chief-coffey/
@@ -59826,6 +61021,8 @@
     - 1781ad92ed564d04a9c445573fad1358
     - d69e3a727d14497880f9b2fdcff2e2d5
     - 94270efc99d94d3a9c0542e61b1d81d6
+  wants_keywords:
+    - Chop
 - name: CMC
   db_uuid: b647153b60ef4c158f6f47887b8d0bf2
   srg_url: https://supershowthegame.com/product/cmc/
@@ -60053,6 +61250,9 @@
   tags: []
   related_finishes:
     - 8f2a88bc360a47908bed07415bc862be
+  wants_keywords:
+    - Head
+    - Back
 - name: Double Team Supreme
   db_uuid: 8f2a88bc360a47908bed07415bc862be
   card_type: MainDeckCard
@@ -60063,6 +61263,9 @@
   tags: []
   related_cards:
     - 0b1899f6a9654f5fb5fecdc5592adb9a
+  wants_keywords:
+    - Head
+    - Back
 - name: Double Vision
   db_uuid: 90fca0d1abbc483c9c9d3c83b7d5c939
   srg_url: https://supershowthegame.com/product/double-vision/
@@ -60080,6 +61283,11 @@
     - a7a30ad1f15a42d284713f8dbf749e9d
     - d6f34158e77e4f25a4e92c747f81e6a4
     - 2e753d89e9034943b97fdaaaba415109
+  wants_keywords:
+    - Swing
+    - Flip
+    - Split
+    - Catch
 - name: Whip to Straddle
   db_uuid: a7a30ad1f15a42d284713f8dbf749e9d
   card_type: MainDeckCard
@@ -60106,6 +61314,11 @@
   tags: []
   related_cards:
     - 90fca0d1abbc483c9c9d3c83b7d5c939
+  wants_keywords:
+    - Swing
+    - Flip
+    - Split
+    - Catch
 - name: Reverse Bullet Drop
   db_uuid: 2e753d89e9034943b97fdaaaba415109
   card_type: MainDeckCard
@@ -60116,6 +61329,11 @@
   tags: []
   related_cards:
     - 90fca0d1abbc483c9c9d3c83b7d5c939
+  wants_keywords:
+    - Rope
+    - Twist
+    - Turn
+    - Wrap
 - name: Dr. Pauliwood
   db_uuid: d9e9083f2327491e84012142f1b5b414
   srg_url: https://supershowthegame.com/product/dr-pauliwood/
@@ -60137,6 +61355,10 @@
     - 4f37f7cd46b74f448fc105ca71b1dd22
     - 7f9a0a5542174ab19da630602c5046f3
     - 8586aca44bfd4186a3283b5f2d54e356
+  wants_keywords:
+    - Crack
+    - Neck
+    - Spine
 - name: Tool-Assisted Adjustment
   db_uuid: c862e531f7ce43d4a24a3b4e36878c45
   card_type: MainDeckCard
@@ -60161,6 +61383,10 @@
   tags: []
   related_cards:
     - d9e9083f2327491e84012142f1b5b414
+  wants_keywords:
+    - Crack
+    - Neck
+    - Spine
 - name: Spinal-Suplexation
   db_uuid: 7f9a0a5542174ab19da630602c5046f3
   card_type: MainDeckCard
@@ -60175,6 +61401,8 @@
   tags: []
   related_cards:
     - d9e9083f2327491e84012142f1b5b414
+  wants_keywords:
+    - Table
 - name: Snappin' & Trappin'
   db_uuid: 8586aca44bfd4186a3283b5f2d54e356
   card_type: MainDeckCard
@@ -60406,6 +61634,9 @@
 
     When you hit a card with "Drop" or "Dive" in the name your opponent discards 1 card in their hand.  When you have 3 cards with "Drop" or "Dive" in the name in play, your opponent''s Gimmick is blank.'
   tags: []
+  wants_keywords:
+    - Drop
+    - Dive
 - name: Duo Decimal System
   db_uuid: fcf6365c9f444981bdfff76f7cf8385b
   srg_url: https://supershowthegame.com/product/duo-decimal-system/
@@ -60930,6 +62161,9 @@
 
     Your Breakout rolls are +1.'
   tags: []
+  wants_keywords:
+    - Super
+    - Sun
 - name: Emphaseizing
   db_uuid: 86f21ee3774440079127137fb8247cca
   srgpc_url: https://www.srgpc.net/competitor/emphaseizing/
@@ -61015,6 +62249,10 @@
 
     Your "Double Death Drop" has blank text.'
   tags: []
+  wants_keywords:
+    - Impact
+    - Drop
+    - Rope
 - name: Ferda Boys
   db_uuid: 8c3167cde90842a5973d7cc7e001452b
   srg_url: https://supershowthegame.com/product/ferda-boys/
@@ -61114,6 +62352,10 @@
   grapple: 30
   rules_text: 'Your cards with "Steel", "Power", and "Buster" in the name have the added text: "Draw 2 cards, then each player buries one card in their hand." If you have 3 or more cards with "Steel", "Power", or "Buster" in the name in play, your opponent randomly buries that card.'
   tags: []
+  wants_keywords:
+    - Steel
+    - Power
+    - Buster
 - name: First Family of Khaos
   db_uuid: 5a1916022d9146cd91bcfe7cfe675be3
   card_type: TornadoCompetitorCard
@@ -61266,6 +62508,11 @@
   grapple: 20
   rules_text: 'Your cards with "Belly", "Gut", or "Rib" in the name have the added text: "Draw 2 cards." Double the numbers in the text of your cards with "Chin" in the name.'
   tags: []
+  wants_keywords:
+    - Belly
+    - Gut
+    - Rib
+    - Chin
 - name: Gogawa
   db_uuid: ace62433009947bba25f3f954910f1e6
   srgpc_url: https://www.srgpc.net/competitor/gogawa/
@@ -61435,6 +62682,10 @@
 
     +3 to Grapple for each card you have in play with "Twist" in the name (Max +9)'
   tags: []
+  wants_keywords:
+    - Roll
+    - Twist
+    - Chug
 - name: Hex
   db_uuid: e515d26515954e709e0f81a86f5231cb
   srgpc_url: https://www.srgpc.net/competitor/hex/
@@ -61553,6 +62804,9 @@
   tags: []
   related_cards:
     - 003693336f2e48878c7fc6ad9c18b6db
+  wants_keywords:
+    - Kick
+    - Hook
 - name: The Goodnight
   db_uuid: 3469c9a707c84f9d96782ea71828545d
   card_type: MainDeckCard
@@ -61679,6 +62933,8 @@
   grapple: 24
   rules_text: 'Your cards with "Impact" in the name have the added text: "Add 1 non Finish card and 1 Finish card from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Impact
 - name: Isaac
   db_uuid: e5d58cd478394fe0882ce3e1b410041e
   srgpc_url: https://www.srgpc.net/competitor/isaac/
@@ -61716,6 +62972,8 @@
   tags: []
   related_cards:
     - e5d58cd478394fe0882ce3e1b410041e
+  wants_keywords:
+    - Flying
 - name: Brimstone Piledriver
   db_uuid: 400dc798a0fe41cba1f4569b5831c1d7
   srgpc_url: https://www.srgpc.net/competitor/isaac/
@@ -61746,6 +63004,8 @@
   tags: []
   related_cards:
     - e5d58cd478394fe0882ce3e1b410041e
+  wants_keywords:
+    - Key
 - name: Jacque EE & Mombada
   db_uuid: 3fa19028e85843cc8f816578d0bb2b58
   card_type: TornadoCompetitorCard
@@ -61771,6 +63031,35 @@
   grapple: 10
   rules_text: When your opponent hits a card with "Alligator", "Anaconda", "Bat", "Bear", "Bird", "Cat", "Crab", "Cheetah", "Dog", "Duck", "Fish", "Frog", "Goat", "Gorilla", "Hog", "Llama", "Lion", "Mouse", "Monkey", "Octopus", "Penguin", "Pig", "Rabbit", "Seal", "Sheep", "Snake", "Tiger", or "Turtle" in the name, that card has blank text and their next turn roll is -1.
   tags: []
+  wants_keywords:
+    - Alligator
+    - Anaconda
+    - Bat
+    - Bear
+    - Bird
+    - Cat
+    - Crab
+    - Cheetah
+    - Dog
+    - Duck
+    - Fish
+    - Frog
+    - Goat
+    - Gorilla
+    - Hog
+    - Llama
+    - Lion
+    - Mouse
+    - Monkey
+    - Octopus
+    - Penguin
+    - Pig
+    - Rabbit
+    - Seal
+    - Sheep
+    - Snake
+    - Tiger
+    - Turtle
 - name: Joe Hendry
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
   card_type: SingleCompetitorCard
@@ -61862,6 +63151,10 @@
     - 44cadffe375742e8bfec2e194e4d590b
     - 8fe3ccc40fc049269197762ded5a6382
     - 1448dec87daa43dda048a50c348dd4f6
+  wants_keywords:
+    - Strike
+    - Spin
+    - Split
 - name: Gutter Ball Punch
   db_uuid: 44cadffe375742e8bfec2e194e4d590b
   card_type: MainDeckCard
@@ -61936,6 +63229,13 @@
     - 42f4864306d740f58efb4ea9fc35818f
     - 0907130733b24e94b8124000d36a84e2
     - 207f2b7ed58a4b92946205eb394e4f55
+  wants_keywords:
+    - Cat
+    - Scratch
+    - Run
+    - Stomp
+    - Charge
+    - Charging
 - name: The Shining Spear
   db_uuid: 42f4864306d740f58efb4ea9fc35818f
   srg_url: https://supershowthegame.com/product/kitty-corn-2/
@@ -61950,6 +63250,10 @@
   tags: []
   related_cards:
     - c81420517af242c78e431d4daa0cd7ca
+  wants_keywords:
+    - Charge
+    - Charging
+    - Run
 - name: Catch Me If You Can
   db_uuid: 0907130733b24e94b8124000d36a84e2
   srg_url: https://supershowthegame.com/product/kitty-corn-2/
@@ -61978,6 +63282,8 @@
   tags: []
   related_cards:
     - c81420517af242c78e431d4daa0cd7ca
+  wants_keywords:
+    - Stomp
 - name: KO Princess
   db_uuid: 6b713d264ee6403481e104781ecab700
   card_type: SingleCompetitorCard
@@ -62105,6 +63411,8 @@
 
     Your Finish and breakout rolls are +2 for each card you have in play with "Leg" in the name (Max +6).'
   tags: []
+  wants_keywords:
+    - Leg
 - name: Lil' G
   db_uuid: 496ad29ce2d1416396e74a12026172b2
   srg_url: https://supershowthegame.com/product/lil-g/
@@ -62148,6 +63456,12 @@
     - 841038f531984bd0899a626cc3f820f8
     - 68c0e08262964b17baa39c93ea6433eb
     - 5bd10cf85a5d445d993a16851fbc5c84
+  wants_keywords:
+    - Bar
+    - Shot
+    - Sheep
+    - Frog
+    - Bender
 - name: Lord Graves
   db_uuid: 6ded6a7076cc4621bd998aaee548b55e
   srg_url: https://supershowthegame.com/product/lord-graves-master-of-the-frozen-shadows-halloween-competitor/
@@ -62166,6 +63480,11 @@
     - c323c891818a45fabe4686db990184e0
     - c82d08a5235d4b86950a59968ed3ac01
     - 00aa5a4728e240cc89eab709ef52c8e2
+  wants_keywords:
+    - Bird
+    - Bite
+    - Fly
+    - Wing
 - name: Fall Free to your Flying Fate
   db_uuid: c323c891818a45fabe4686db990184e0
   card_type: MainDeckCard
@@ -62180,6 +63499,11 @@
   tags: []
   related_cards:
     - 6ded6a7076cc4621bd998aaee548b55e
+  wants_keywords:
+    - Bird
+    - Bite
+    - Fly
+    - Wing
 - name: Swinging Full Moon Powerbomb
   db_uuid: c82d08a5235d4b86950a59968ed3ac01
   card_type: MainDeckCard
@@ -62192,6 +63516,11 @@
   tags: []
   related_cards:
     - 6ded6a7076cc4621bd998aaee548b55e
+  wants_keywords:
+    - Bird
+    - Bite
+    - Fly
+    - Wing
 - name: Fangs for the Memories, Welcome to the Bird Clan!
   db_uuid: 00aa5a4728e240cc89eab709ef52c8e2
   card_type: MainDeckCard
@@ -62208,6 +63537,11 @@
   tags: []
   related_cards:
     - 6ded6a7076cc4621bd998aaee548b55e
+  wants_keywords:
+    - Bird
+    - Bite
+    - Fly
+    - Wing
 - name: Mike Santana
   db_uuid: ab42b20b29f64d29954f90ab0ac00bb8
   srg_url: https://supershowthegame.com/product/00-mike-santana-competitor-set-slammiversary-edition/
@@ -62314,9 +63648,16 @@
     +2 to Grapple
 
     If your opponent does not have a card with "Disqualification" in the name in play, double these bonuses.'
+  errata_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If your opponent does not have a card with "Disqualification" in the text in play, double these bonuses.'
   tags: []
   related_cards:
     - 1d9b3cf7c70a4e2884608942d3901999
+  wants_keywords:
+    - Disqualification
 - name: Candyshop Lock
   db_uuid: 5161f54c17674788a7f23b3effb7a897
   card_type: MainDeckCard
@@ -62346,6 +63687,8 @@
 
     When you hit a Grapple with "Guitar" in the name, add 1 card from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Guitar
 - name: The Boricua Badass Jeremy Rodriguez
   db_uuid: 09afe21c91b44543b97072e1d1894dab
   srg_url: https://supershowthegame.com/product/the-boricua-badass-jeremy-rodriguez/
@@ -62393,6 +63736,10 @@
     - dc203654ddac4ba8a2c813ae1f56e739
     - 5cd084cceeef4f7fa0516afff2513659
     - 14792e82613e4cd3b808cb58a7cca206
+  wants_keywords:
+    - Barricade
+    - Beatdown
+    - Blindside
 - name: Beanie's Big Beatdown
   db_uuid: dc203654ddac4ba8a2c813ae1f56e739
   card_type: MainDeckCard
@@ -62421,6 +63768,10 @@
   tags: []
   related_cards:
     - c7cc2a824fab4b5dad84a3f863605373
+  wants_keywords:
+    - Barricade
+    - Beatdown
+    - Blindside
 - name: You Naked!
   db_uuid: 14792e82613e4cd3b808cb58a7cca206
   card_type: MainDeckCard
@@ -62532,6 +63883,9 @@
     - 1fc13094935e426ab5492d7e5415fe73
     - 582d1953ca704ca4b223ca6b45dfe6ab
     - af9a166b17da47299fd20f8dc3830def
+  wants_keywords:
+    - Sledgehammer
+    - Steel Chain
 - name: Rammer Jammer Sledgehammer!
   db_uuid: 1fc13094935e426ab5492d7e5415fe73
   card_type: MainDeckCard
@@ -62542,6 +63896,9 @@
   tags: []
   related_cards:
     - 5b6cc3273f03415cbe6635d2a0796f03
+  wants_keywords:
+    - Sledgehammer
+    - Steel Chain
 - name: Alabama Destroyer
   db_uuid: 582d1953ca704ca4b223ca6b45dfe6ab
   card_type: MainDeckCard
@@ -62556,6 +63913,9 @@
   tags: []
   related_cards:
     - 5b6cc3273f03415cbe6635d2a0796f03
+  wants_keywords:
+    - Sledgehammer
+    - Steel Chain
 - name: RTR
   db_uuid: af9a166b17da47299fd20f8dc3830def
   card_type: MainDeckCard
@@ -62566,6 +63926,9 @@
   tags: []
   related_cards:
     - 5b6cc3273f03415cbe6635d2a0796f03
+  wants_keywords:
+    - Sledgehammer
+    - Steel Chain
 - name: The Freak
   db_uuid: 21f1118c05574e1eac13c96c7f808f5a
   card_type: SingleCompetitorCard
@@ -62610,6 +63973,9 @@
     - a56dfdb6d62a496faef0dc5764debf0d
     - 6302f528b5ab4b95a6afaa92a49d9195
     - 68c627255a0345efba8e0f6b5f8f4092
+  wants_keywords:
+    - Mad
+    - Hat
 - name: What's The Hatter with Me?
   db_uuid: a56dfdb6d62a496faef0dc5764debf0d
   card_type: MainDeckCard
@@ -62628,6 +63994,9 @@
   tags: []
   related_cards:
     - e8cc1344fd0740a7a6b6695753fac43d
+  wants_keywords:
+    - Mad
+    - Hat
 - name: Mad Tea Party
   db_uuid: 6302f528b5ab4b95a6afaa92a49d9195
   card_type: MainDeckCard
@@ -62721,6 +64090,9 @@
   tags: []
   related_cards:
     - d300d0adc8fa40e6920db70814656422
+  wants_keywords:
+    - Moon
+    - Star
 - name: That's the Lunar Theory!
   db_uuid: 0ec69dddbba84b5a90e8e6a5be3d757b
   card_type: MainDeckCard
@@ -62754,6 +64126,8 @@
     - c65477a3c86f437a8469c402ba30fd30
     - ae3ba8f49b6b4c12a97c7df4ff2dfcea
     - 62a286fe3476427eb21f097103f72eb4
+  wants_keywords:
+    - Potion
 - name: Claws Out
   db_uuid: c65477a3c86f437a8469c402ba30fd30
   card_type: MainDeckCard
@@ -62766,6 +64140,8 @@
   tags: []
   related_cards:
     - ceb9126b162c4be69b9291c088d3fe5b
+  wants_keywords:
+    - Potion
 - name: The Monster Mash
   db_uuid: ae3ba8f49b6b4c12a97c7df4ff2dfcea
   card_type: MainDeckCard
@@ -62794,6 +64170,8 @@
   tags: []
   related_cards:
     - ceb9126b162c4be69b9291c088d3fe5b
+  wants_keywords:
+    - Potion
 - name: Phoenix Reborn
   db_uuid: d77ce9c2b17a4083ad3f8b6a1f28a647
   srgpc_url: https://www.srgpc.net/competitor/phoenix-reborn/
@@ -62819,6 +64197,11 @@
     - b720a2d0b1a647c8b527118cd2f8ad79
     - f73bb598f0f541f7b5c4ec68e3794ea8
     - 94b328c6fbbf48948b7f021b8e896a14
+  wants_keywords:
+    - Ash
+    - Death
+    - Rise
+    - Star
 - name: Ranger Dangerfield
   db_uuid: cc37ceca4d674cb2ac35e22f4f712b25
   srg_url: https://supershowthegame.com/product/ranger-dangerfield/
@@ -62838,6 +64221,11 @@
     - 763fa47cff1b4d98b235720ed3aff77e
     - dc6f7753efde42e68c7a8f478986cf3e
     - 77b7832c9501449083008bf8a0fa8343
+  wants_keywords:
+    - Shot
+    - Bow
+    - Arrow
+    - Trap
 - name: The Hunter's Arrow
   db_uuid: 763fa47cff1b4d98b235720ed3aff77e
   card_type: MainDeckCard
@@ -62907,6 +64295,9 @@
   grapple: 7
   rules_text: Your opponent's cards with "Size" or "Bark" in the name have blank text.
   tags: []
+  wants_keywords:
+    - Size
+    - Bark
 - name: Soto the Goato
   db_uuid: a165b1a7bd3e43958eee8a319ef94074
   srg_url: https://supershowthegame.com/product/soto-the-goato/
@@ -63348,6 +64739,8 @@
   grapple: 7
   rules_text: Triple the numbers in the text of your Entrance cards with "Training with" in the name.
   tags: []
+  wants_keywords:
+    - Training With
 - name: Phenomenal Wiseman
   db_uuid: f2c76632b46d4789a0b79720f3a392a9
   srg_url: https://supershowthegame.com/product/phenomenal-wise-man/
@@ -63396,6 +64789,9 @@
     - db05fb380de241edb0874bb05d0eaaf3
     - 7556c430502e411ea7f95b7c1b1e5c72
     - c84c0691d3684cfdb9af91a2506369d3
+  wants_keywords:
+    - Fire
+    - Hammer
 - name: Spittin' Fire
   db_uuid: db05fb380de241edb0874bb05d0eaaf3
   card_type: MainDeckCard
@@ -63410,6 +64806,9 @@
   tags: []
   related_cards:
     - 627444f08925427b973a23be26369043
+  wants_keywords:
+    - Fire
+    - Hammer
 - name: Ninny Hammer
   db_uuid: 7556c430502e411ea7f95b7c1b1e5c72
   card_type: MainDeckCard
@@ -63440,6 +64839,9 @@
   tags: []
   related_cards:
     - 627444f08925427b973a23be26369043
+  wants_keywords:
+    - Fire
+    - Hammer
 - name: Soratonin
   db_uuid: 8e91063f3d584089a7218223a02d0574
   srg_url: https://supershowthegame.com/product/soratonin/
@@ -63596,6 +64998,9 @@
   grapple: 8
   rules_text: When you hit a card with "Bird" or "Press" in the name, your opponent discards 1 card from their hand.
   tags: []
+  wants_keywords:
+    - Bird
+    - Press
 - name: The SRG Boss (The Greatest American Who Ever Lived)
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   card_type: SingleCompetitorCard
@@ -64009,6 +65414,10 @@
   grapple: 18
   rules_text: 'Your cards with "Super", "Power", or "Steel" in the name have the added text: "Shuffle 1 card from your discard pile into your deck and your next turn roll is +2.'
   tags: []
+  wants_keywords:
+    - Super
+    - Power
+    - Steel
 - name: Filthadelphia
   db_uuid: 5f19defcd3c748128aeda00aa30b087b
   srg_url: https://supershowthegame.com/product/filthadelphia/
@@ -64328,6 +65737,9 @@
   related_cards:
     - b3d8e9b2e4344e28b02bd7c2303ebbc0
     - 2a812c8ba41943f89f576a7d8a9876d9
+  wants_keywords:
+    - Hip
+    - Leg
 - name: Bubblegum Slam
   db_uuid: a80cf450bf9544668244d358c48a6de5
   card_type: MainDeckCard
@@ -64345,6 +65757,9 @@
   related_cards:
     - b3d8e9b2e4344e28b02bd7c2303ebbc0
     - 2a812c8ba41943f89f576a7d8a9876d9
+  wants_keywords:
+    - Hip
+    - Leg
 - name: She-Unit
   db_uuid: f732a1be9495475a8bba7a8a12462037
   card_type: MainDeckCard
@@ -64360,6 +65775,9 @@
   related_cards:
     - b3d8e9b2e4344e28b02bd7c2303ebbc0
     - 2a812c8ba41943f89f576a7d8a9876d9
+  wants_keywords:
+    - Hip
+    - Leg
 - name: Tassa & Tuossa
   db_uuid: 288faa0fcb6f4c46b1fcb50e4abecf13
   srg_url: https://supershowthegame.com/product/tessa-tuossa/
@@ -64392,6 +65810,8 @@
 
     When you hit a Grapple, bury 2 cards in any player''s discard pile.'
   tags: []
+  wants_keywords:
+    - Flying
 - name: The Betrayal
   db_uuid: 31ad8ed1ff964097bda6a1707333cb74
   srg_url: https://supershowthegame.com/product/the-betrayal/
@@ -64406,6 +65826,8 @@
 
     When your opponent stops a card with "Super" in the name, they randomly bury 2 cards in their hand.'
   tags: []
+  wants_keywords:
+    - Super
 - name: The Boss's Favorite Tag Team
   db_uuid: b4776c966fa84854a6af85a7178db968
   srg_url: https://supershowthegame.com/product/the-bosss-favorite-tag-team/
@@ -64420,6 +65842,8 @@
 
     When you hit a card with "Drop" in the name, your opponent discards 1 card in their hand. When you have 3 cards with "Drop" in the name in play, your opponent''s Gimmick is blank.'
   tags: []
+  wants_keywords:
+    - Drop
 - name: The Corner Office
   db_uuid: e74c88478e7e4cd8bac37bfbf046abab
   srg_url: https://supershowthegame.com/product/the-corner-office/
@@ -64498,6 +65922,10 @@
   grapple: 10
   rules_text: If you lose a turn roll, your next turn roll is +1 for each card you have in play with "Sheep", "Cult", or "Flock" in the name (Max +4).
   tags: []
+  wants_keywords:
+    - Sheep
+    - Cult
+    - Flock
 - name: The Money Makers
   db_uuid: d70874fdf31049e7a996f0464698c8ce
   srg_url: https://supershowthegame.com/product/the-money-makers/
@@ -64546,6 +65974,10 @@
     - 5243a9d14313427296de1c79353e5c49
     - a929bcd28b474a08963a265f4f35547d
     - a5c21097ae6f4bb1ab2755b331957779
+  wants_keywords:
+    - Kick
+    - Chain
+    - Arm
 - name: Kick to the Curb
   db_uuid: 426cd9207d104cadaeb13b7a932754df
   card_type: MainDeckCard
@@ -64577,6 +66009,11 @@
 
     When the Crowd Meter increases, draw 2 cards.'
   tags: []
+  wants_keywords:
+    - Kick
+    - Chain
+    - Arm
+    - Dragon
 - name: Mila Mai & Cupcake
   db_uuid: 62b8b084f1e148a2987cf990e0644848
   srg_url: https://supershowthegame.com/product/mila-mai-cupcake/
@@ -64628,6 +66065,9 @@
 
     Your maximum handsize is +2 for each card you have in play with "Sheep" or "Hype" in the name.'
   tags: []
+  wants_keywords:
+    - Sheep
+    - Hype
 - name: New Wool Order (Tornado V2)
   db_uuid: f471e5cfe73b42c1824744df15eccfd4
   card_type: TornadoCompetitorCard
@@ -64641,6 +66081,9 @@
 
     Your maximum handsize is +2 for each card you have in play with "Sheep" or "Hype" in the name.'
   tags: []
+  wants_keywords:
+    - Sheep
+    - Hype
 - name: New Wool Order (Trio)
   db_uuid: 3802b52979fd4fb68a5b900d00189a42
   srg_url: https://supershowthegame.com/product/new-wool-order-trio/
@@ -64735,6 +66178,9 @@
     - 82fe3b41c9c8440bbb10cab07d0a8d28
     - 8d7fa73a6dc64a919641015f4a471fcc
     - 6639064ed8d64eb5b866d2267f6dab6d
+  wants_keywords:
+    - Drumstick
+    - Guitar
 - name: While My Guitar Gently Weeps
   db_uuid: 7c06a7e09b0441a8a5629245bc2ab513
   card_type: MainDeckCard
@@ -64763,6 +66209,9 @@
   tags: []
   related_cards:
     - 4f05f98ff74b4be49e53e2092c28a90a
+  wants_keywords:
+    - Drumstick
+    - Guitar
 - name: Oracle and the Beast
   db_uuid: 144d166fb1cc4b9f9d9f053b66c28d3f
   card_type: TornadoCompetitorCard
@@ -65015,6 +66464,8 @@
   tags: []
   related_cards:
     - 8a9bef4a979a4d31b05a7f15411c0055
+  wants_keywords:
+    - Back
 - name: Swaggy D (Tornado)
   db_uuid: 6f93006e9cc84aa3a493c002f31fc2e3
   card_type: TornadoCompetitorCard
@@ -65074,6 +66525,8 @@
   grapple: 20
   rules_text: 'When you roll Grapple for your turn roll: Draw 1 card for each card you have in play with "Show" in the name +2.'
   tags: []
+  wants_keywords:
+    - Show
 - name: The Philly Cheese Cannolis
   db_uuid: 9fc086238afd47b88bfddcd7f6ba2d88
   srg_url: https://supershowthegame.com/product/the-philly-cheese-cannolis/
@@ -65090,6 +66543,8 @@
 
     Flip 3 cards, then add 1 card from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Boss
 - name: The Soulesweavers
   db_uuid: ed4fefe3bc48470abca295e19ca61100
   srg_url: https://supershowthegame.com/product/the-soulesweavers/
@@ -65136,6 +66591,10 @@
   grapple: 10
   rules_text: 'When any player hits a card with "Al13n", "Sky", or "Cosmic" in the name, look at the top 3 cards of your deck: Add 1 to your hand, bury the others, and your next turn roll is +1.'
   tags: []
+  wants_keywords:
+    - Al13n
+    - Sky
+    - Cosmic
 - name: The Weapons
   db_uuid: 30a00ffc9f644b08ae1f0fceea017a61
   card_type: TornadoCompetitorCard
@@ -65149,6 +66608,10 @@
 
     Your opponent cannot double the number in their cards.'
   tags: []
+  wants_keywords:
+    - Roundhouse
+    - Sweep
+    - Takedown
 - name: Tiki Twins
   db_uuid: 48eb92f2a252455b8891e2b77900dab9
   card_type: TornadoCompetitorCard
@@ -65236,6 +66699,11 @@
   grapple: 14
   rules_text: When you hit a card with "Kick", "Boot", "Sheep", or "Drop" in the name, bury a card in either player's discard pile and your next turn roll is +2.
   tags: []
+  wants_keywords:
+    - Kick
+    - Boot
+    - Sheep
+    - Drop
 - name: Union Safety Reps
   db_uuid: 56d2caa296fc4cf1bf3aa14ddfe3bc31
   card_type: TornadoCompetitorCard
@@ -65260,6 +66728,9 @@
     - 7d2a8c7f528148929f3c0c2c80549531
     - c7f4ca34a5fc4646a38409dbf8ba3727
     - c2bb4874e41441bebeb34e665d68dec6
+  wants_keywords:
+    - Fire
+    - Union
 - name: Union Strong Strike!
   db_uuid: fd5d3181cebf4b63bf5093ba84231a0e
   card_type: MainDeckCard
@@ -65276,6 +66747,8 @@
   tags: []
   related_cards:
     - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+  wants_keywords:
+    - Union
 - name: Slammed with Paperwork
   db_uuid: 9c6f3672dff046f4817d569ec3574224
   card_type: MainDeckCard
@@ -65290,6 +66763,8 @@
   tags: []
   related_cards:
     - 56d2caa296fc4cf1bf3aa14ddfe3bc31
+  wants_keywords:
+    - Union
 - name: Surprise Safety Inspection
   db_uuid: f6cd115d30d54ab9b14b3015703b5315
   card_type: MainDeckCard
@@ -65365,6 +66840,9 @@
   grapple: 16
   rules_text: When your opponent increases their turn roll, add 1 card from your discard pile to your hand, if that card had "Cat" or "Pineapple" in the name, draw 1 card.
   tags: []
+  wants_keywords:
+    - Cat
+    - Pineapple
 - name: Young Bucks
   db_uuid: df327e182b1e45e68befa76d52371699
   card_type: TornadoCompetitorCard
@@ -65538,6 +67016,8 @@
 
     Your cards with "Shovel" in the name are also #14 #19 and #22.'
   tags: []
+  wants_keywords:
+    - Shovel
 - name: Southern Hospitality
   db_uuid: 723f21b13472491898c22de91325ca8e
   srg_url: https://supershowthegame.com/product/southern-hospitality/
@@ -65566,6 +67046,8 @@
 
     Look at the top 3 cards of your deck, add 2 to your hand and shuffle the other into your deck.'
   tags: []
+  wants_keywords:
+    - Rolling
 - name: Star Spangled Slammers
   db_uuid: f8d5d3497f7f4c7b91cc6672ab5a78b0
   srg_url: https://supershowthegame.com/product/star-spangled-slammers/
@@ -65582,6 +67064,8 @@
 
     Your cards with "America" in the name have the added text: "Draw 2 cards".'
   tags: []
+  wants_keywords:
+    - America
 - name: Team Valiant
   db_uuid: 142e85dc05264c7d9e0e9be3d8cdd523
   srg_url: https://supershowthegame.com/product/team-valiant-new/
@@ -65679,6 +67163,8 @@
     - f17df0c2772e4a62819e90e7c90ed893
     - df4a7e8e8f6a4b8caa87c2234938f6ee
     - 00ba26808be048f1812d581a65b46adb
+  wants_keywords:
+    - Shot
 - name: 'Jeugusa: Death Strike'
   db_uuid: 9e58305626554e9caf7dc101d5920c3e
   card_type: MainDeckCard
@@ -65791,6 +67277,9 @@
   grapple: 27
   rules_text: 'Your cards with "Lariat" or "Clothesline" in the name have the added text: "Your Breakout rolls are +3 (Max +9). If stopped: Put 1 Lead or Follow Up with "Lariat" or "Clothesline" in the name from your discard pile on top of your deck, and your next turn roll is +3.'
   tags: []
+  wants_keywords:
+    - Lariat
+    - Clothesline
 - name: The Refinery
   db_uuid: 9d702f23e40940ddb50ba58f995a6cd8
   srg_url: https://supershowthegame.com/product/the-refinery/
@@ -65803,6 +67292,8 @@
   grapple: 15
   rules_text: Your opponent's Gimmick, Finish cards in their discard pile, and Entrance cards without "L.F.F." in the name are blank.
   tags: []
+  wants_keywords:
+    - L.F.F
 - name: The Sheepish Inquisition
   db_uuid: f65df52d4a1c487d964cfff2ffccd179
   srg_url: https://supershowthegame.com/product/the-sheepish-inquisition/
@@ -65817,6 +67308,10 @@
 
     If you lose a turn roll, your next turn roll is +2 for each card you have in play with "Sheep", "Cult", or "Flock" in the name (Max +6).'
   tags: []
+  wants_keywords:
+    - Sheep
+    - Cult
+    - Flock
 - name: The Ultra Cosmic Crusaders
   db_uuid: f48240eef9e4433489c6bdd307c494ee
   card_type: TrioCompetitorCard
@@ -65832,6 +67327,9 @@
 
     Your Power is +1."'
   tags: []
+  wants_keywords:
+    - Cosmic
+    - Planet
 - name: Think Tank
   db_uuid: b43b392972bb4474853849d4a01c6a4b
   srg_url: https://supershowthegame.com/product/think-tank/
@@ -66094,6 +67592,8 @@
 
     When your opponent has 0 cards in play this card cannot be stopped.'
   tags: []
+  wants_keywords:
+    - Elbow
 - name: Sharpshooter (#30)
   db_uuid: dbfcd2fc470046ae9c39666d91a7958a
   srg_url: https://supershowthegame.com/product/30-sharpshooter/
@@ -66155,6 +67655,8 @@
 
     If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Double Knee Buster
   db_uuid: f36c6322fbde49409eaf66207f903d46
   srgpc_url: https://www.srgpc.net/cards/3/double-knee-buster/
@@ -66208,6 +67710,8 @@
 
     If this match has "Table" in the name, choose 1 card your opponent has in play and discard it.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Chop The Back Of The Head
   db_uuid: b5eae2db374c4b898d10241588b42307
   srgpc_url: https://www.srgpc.net/cards/4/chop-the-back-of-the-head/
@@ -66462,6 +67966,8 @@
   deck_card_number: 7
   rules_text: Search your deck for 1 card with "Table" in the name, add it to your hand or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Table
 - name: Split Fire Story
   db_uuid: a2e993d0dd1b46ac8c07c66d70fc1af8
   srgpc_url: https://www.srgpc.net/cards/7/split-fire-story/
@@ -66514,6 +68020,8 @@
   deck_card_number: 9
   rules_text: Search your deck for 1 card with "Table" in the name, add it to your hand or each player buries 1 card in their hand.
   tags: []
+  wants_keywords:
+    - Table
 - name: Fin Uprising
   db_uuid: e341d32db41249a1b70edb8cc8e60de2
   srgpc_url: https://www.srgpc.net/cards/9/fin-uprising/
@@ -66525,6 +68033,8 @@
 
     Your opponent cannot move this card from in play.'
   tags: []
+  wants_keywords:
+    - Fin
 - name: I Hear Sheep Voices in My Head
   db_uuid: d9854fb647f642ed89480d1fea9cb515
   srgpc_url: https://www.srgpc.net/cards/9/i-hear-sheep-voices-in-my-head/
@@ -66579,6 +68089,8 @@
   deck_card_number: 10
   rules_text: Shuffle 1 card with "Potion" in the name from your discard pile into your deck for each card you have in play with "Potion" in the name.
   tags: []
+  wants_keywords:
+    - Potion
 - name: Stomp the Taste Out of Your Mouth (Agility)
   db_uuid: 40fd23bcd9664887b452f54364ead911
   srgpc_url: https://www.srgpc.net/cards/10/stomp-the-taste-out-of-your-mouth/
@@ -66602,6 +68114,8 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each card you have in play with "Table" in the name.
   tags: []
+  wants_keywords:
+    - Table
 - name: Unchained Wizard Knee
   db_uuid: c84b65709dfe4a4f94528198171f5c41
   srg_url: https://supershowthegame.com/product/10-unchained-wizard-knee/
@@ -66685,6 +68199,8 @@
   deck_card_number: 12
   rules_text: Your next turn roll is +1 for each card you have in play with "Table" in the name.
   tags: []
+  wants_keywords:
+    - Table
 - name: Banhammer Block
   db_uuid: 80036b2ff1e94500bbf84fd45101cde4
   srgpc_url: https://www.srgpc.net/card/13/banhammer-block/
@@ -66715,6 +68231,8 @@
   deck_card_number: 13
   rules_text: If your Agility skill is at least 4 greater than your opponent's Agility skill, or this match has "Table" in the name, stop any Grapple.
   tags: []
+  wants_keywords:
+    - Table
 - name: Learning The House Rules
   db_uuid: 59e634f8a2ae4b8dab81176bfac5a327
   srgpc_url: https://www.srgpc.net/cards/13/learning-the-house-rules/
@@ -66906,6 +68424,8 @@
   deck_card_number: 15
   rules_text: If your Technique skill is at least 4 greater than your opponent's Technique skill, or this match has "Table" in the name, stop any Strike.
   tags: []
+  wants_keywords:
+    - Table
 - name: That's Cheesy Chinlock
   db_uuid: 45c53e81d31746ef9fc933464c5f2104
   srgpc_url: https://www.srgpc.net/cards/15/thats-cheesey-chinlock/
@@ -66990,6 +68510,8 @@
 
     Add 1 card with "Table" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Jaw-Breaking Knee
   db_uuid: aa0fc6db52f046fe891b266e00f864e2
   srgpc_url: https://www.srgpc.net/cards/16/jaw-breaking-knee/
@@ -67118,6 +68640,8 @@
 
     Add 1 card with "Table" in the name from your discard pile to your hand.'
   tags: []
+  wants_keywords:
+    - Table
 - name: Thunderous Rib Cracker
   db_uuid: 8d6d8774c9c14e47a1b178add7376669
   srgpc_url: https://www.srgpc.net/cards/18/thunderous-rib-cracker/
@@ -67183,6 +68707,8 @@
   deck_card_number: 20
   rules_text: If you have a card in play with "Table" in the name and your opponent has another Submission in play, stop any Submission.
   tags: []
+  wants_keywords:
+    - Table
 - name: Old School Shoulder Breaker
   db_uuid: d84eea58cf254ddead5bb47036a30e11
   srgpc_url: https://www.srgpc.net/cards/20/old-school-shoulder-breaker/
@@ -67822,6 +69348,8 @@
 
     If you have 2 cards in play with "Table" in the name, this card is considered to have your competitor logo.'
   tags: []
+  wants_keywords:
+    - Table
 - name: A Powerful Drumstick Sealing
   db_uuid: bf538f397cad4ea5a09ad3fb02738c8b
   card_type: MainDeckCard
@@ -67836,6 +69364,8 @@
 
     When you have 2 cards with "Drumstick" in the name in play, this card is considered to have your Competitor logo.'
   tags: []
+  wants_keywords:
+    - Drumstick
 - name: Tooth and Nailed
   db_uuid: 24ec5d67706246339c11e414ce25f97c
   card_type: MainDeckCard
@@ -67861,6 +69391,8 @@
   deck_card_number: 29
   rules_text: Your Power and Grapple are +1 for each other card you have in play with "Table" in the name.
   tags: []
+  wants_keywords:
+    - Table
 - name: Dropple-Ganger
   db_uuid: 68d9d4bf73654a46a9da169e4f1676fb
   card_type: MainDeckCard
@@ -67888,6 +69420,9 @@
 
     If you have 2 cards in play with "Level" or "Dungeon" in the name: this card cannot be stopped by printed Finish cards and your opponent cannot prevent you from playing this card.'
   tags: []
+  wants_keywords:
+    - Level
+    - Dungeon
 - name: Treasure Trap
   db_uuid: 9a78c09e97a34569bd49c08839171c8c
   card_type: MainDeckCard
@@ -67913,6 +69448,8 @@
   deck_card_number: 30
   rules_text: Your Grapple and Submission are +1 for each other card you have in play with "Table" in the name.
   tags: []
+  wants_keywords:
+    - Table
 - name: Fire Hammer Slam
   db_uuid: 94c2903feafa44089dc0a3af51d7569e
   srg_url: https://supershowthegame.com/product/20-fire-hammer-slam/
@@ -68066,6 +69603,8 @@
 
     If you ended your turn without playing a card, put one card with "Sonic" in the name from your discard pile on top of your deck.'
   tags: []
+  wants_keywords:
+    - Sonic
 - name: Barbed Wire
   db_uuid: 3664a1c045e94c5bae452d620348b20b
   srg_url: https://supershowthegame.com/product/03-barbed-wire/
@@ -68077,6 +69616,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Going Over the Barbed Wire
   db_uuid: fe6b8282199d4e22a973819332299506
   srg_url: https://supershowthegame.com/product/06-going-over-the-barbed-wire/
@@ -68088,6 +69629,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Barbed Wire Uprising
   db_uuid: c924f2292c824217a576f2db13a9baa3
   srg_url: https://supershowthegame.com/product/09-barbed-wire-uprising/
@@ -68099,6 +69642,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Gathering the Barbed Wire
   db_uuid: 588668ba6ac1402b83160b75aa968f04
   srg_url: https://supershowthegame.com/product/12-gathering-the-barbed-wire/
@@ -68110,6 +69655,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Barbed Wire Takeover
   db_uuid: 8b6711008d5f4868abb588ffd6f80648
   srg_url: https://supershowthegame.com/product/15-barbed-wire-takeover/
@@ -68121,6 +69668,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Catch the Barbed Wire
   db_uuid: c476747aa19a40f8ac45fd00986d0997
   srg_url: https://supershowthegame.com/product/15-catch-the-barbed-wire/
@@ -68132,6 +69681,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Ambush with the Barbed Wire
   db_uuid: 8151f46a15064e0e90c1a7700c65839d
   srg_url: https://supershowthegame.com/product/18-ambush-with-the-barbed-wire/
@@ -68143,6 +69694,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Barbed Wire Knockdown
   db_uuid: fdd014244d3b482e97ca2d2570fd6dc7
   srg_url: https://supershowthegame.com/product/21-barbed-wire-knockdown/
@@ -68154,6 +69707,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Set Up the Barbed Wire
   db_uuid: 4934d12ecce0456caf0807da4a7d9b12
   srg_url: https://supershowthegame.com/product/24-set-up-the-barbed-wire/
@@ -68165,6 +69720,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Barbed Wire Backlash
   db_uuid: 16e10c69ddfa48ad8e4bfc2c4c7058b4
   srg_url: https://supershowthegame.com/product/27-barbed-wire-backlash/
@@ -68176,6 +69733,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: Vicious Barbed Wire Suplex
   db_uuid: 1a01989d2fa04576927111dc527441e7
   srg_url: https://supershowthegame.com/product/30-vicious-barbed-wire-suplex/
@@ -68187,6 +69746,8 @@
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: This Is Where the Fun Begins
   db_uuid: ec14de5d3bc444be8e8d5b0f9be47668
   srg_url: https://supershowthegame.com/product/entrance-this-is-where-the-fun-begins/
@@ -68195,6 +69756,8 @@
 
     When you reveal the top card of your deck, and it does not have "Barbed Wire" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []
+  wants_keywords:
+    - Barbed Wire
 - name: The Year of the Witch with Borah Brewington
   db_uuid: 9e7bd58c7c754fd0a18d2cd4fe547b12
   srgpc_url: https://www.srgpc.net/entrance/the-year-of-the-witch-with-borah-brewington/
@@ -68559,7 +70122,7 @@
 
     +2 to Submission
 
-    ADd 1 card from your discard pile to your hand or draw 1 card.'
+    Add 1 card from your discard pile to your hand or draw 1 card.'
   tags:
     - Super Lucha
   related_cards:
@@ -68708,6 +70271,8 @@
 
     "Blast Into the Light Tubes" is also a Finish.'
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Righthand Men
   db_uuid: 21b065984465423c90b631545f94e0fb
   srgpc_url: https://www.srgpc.net/cards/competitors/right-hand-men/
@@ -68737,6 +70302,8 @@
     - 070eebb4854147479cd6c0d7ef96cd8f
     - 00a74ff9354c4af599b8b4827b1c9eb6
     - 4b1735be03884d819c67e3626e3637e7
+  wants_keywords:
+    - Punch
 - name: The Bird Bite
   db_uuid: 516ad027f6054e83857971ea6ee95f14
   card_type: MainDeckCard
@@ -68785,6 +70352,8 @@
     - 21b065984465423c90b631545f94e0fb
     - 330b2b0143044d47b08f54881ff6d293
     - 666536238d51453381fc0f4394b29e34
+  wants_keywords:
+    - Punch
 - name: Beef Mode
   db_uuid: 4ad41a329cc34e20a0a6b3d89665f88d
   srg_url: https://supershowthegame.com/product/beef-mode/
@@ -69005,6 +70574,8 @@
 
     It is considered Crowd Meter 2 for your card effects with "Chain" in the name.'
   tags: []
+  wants_keywords:
+    - Chain
 - name: Never Give Up With Tia Lupita
   db_uuid: dae3b3218c1d44a8a9661a36f1836f8f
   card_type: EntranceCard
@@ -69100,6 +70671,11 @@
     - Super Lucha
   related_cards:
     - b0c907179ca64ae19373d3bd697081ef
+  wants_keywords:
+    - Surf
+    - Wing
+    - Pinguino
+    - Bird
 - name: Rosa
   db_uuid: 8afc71160a9b48f6bcbe5671f96e042d
   srg_url: https://supershowthegame.com/product/rosa/
@@ -69420,6 +70996,9 @@
     - bd0c7fdf862f4a8b9d348726bd366095
     - bdd87e4c40764169b1d6c66f2c77d8b7
     - e16a815cef044733a5d9fb6105beeb70
+  wants_keywords:
+    - Swift
+    - Microphone
 - name: Microphone to the Blank Space
   db_uuid: 0e6a63d7e2f84a678157bb76f69f128a
   card_type: MainDeckCard
@@ -69438,6 +71017,8 @@
   tags: []
   related_cards:
     - c9c7ebf148884c038fa00763434c6244
+  wants_keywords:
+    - Microphone
 - name: Bad Blood
   db_uuid: bd0c7fdf862f4a8b9d348726bd366095
   card_type: MainDeckCard
@@ -69749,7 +71330,7 @@
 
     +3 to Technique
 
-    ADd 2 cards from your discard pile to your hand.'
+    Add 2 cards from your discard pile to your hand.'
   tags: []
   related_cards:
     - 8a19934212ac445db1c0fc7c09284094
@@ -69913,6 +71494,8 @@
   deck_card_number: 30
   rules_text: Your Agility and Submission are +1 for each other card you have in play with "Sledgehammer" in the name.
   tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: God of Madness
   db_uuid: 35aefec0549a48f685abc4f3d031f6d7
   srg_url: https://supershowthegame.com/product/god-of-madness/
@@ -69935,6 +71518,8 @@
     - d4d5b9bb27cd47e3863a1b46acbb6c14
     - f7ddc919d3ab46c18b74e101f923b5d1
     - dc3604cbcbf54ddd979f65042750e601
+  wants_keywords:
+    - Madness
 - name: Stuff and Nonsense
   db_uuid: d4d5b9bb27cd47e3863a1b46acbb6c14
   card_type: MainDeckCard
@@ -69945,6 +71530,8 @@
   tags: []
   related_cards:
     - 35aefec0549a48f685abc4f3d031f6d7
+  wants_keywords:
+    - Madness
 - name: Mass Hysteria
   db_uuid: f7ddc919d3ab46c18b74e101f923b5d1
   card_type: MainDeckCard
@@ -70015,6 +71602,8 @@
   tags: []
   related_cards:
     - 0c01c7f11c0741ae98266aa13d262763
+  wants_keywords:
+    - Suplex
 - name: Wrong Side of the Track
   db_uuid: 04729f8465474b75896f2715818ff654
   card_type: MainDeckCard
@@ -70133,6 +71722,8 @@
 
     Reveal the top card of your deck, if it has "Baseball Bat" in the name, you may re-roll your Finish roll.'
   tags: []
+  wants_keywords:
+    - Baseball Bat
 - name: Atomic Clothesline
   db_uuid: 14b48b20bf3b4bed9eb962cceebfbfe1
   srg_url: https://supershowthegame.com/product/28-atomic-clothesline/
@@ -70175,6 +71766,7 @@
   deck_card_number: 28
   rules_text: Your Power and Strike are +1 for each other card you have in play with "Pineapple" in the name.
   tags: []
+  wants_keywords: Pineapple
 - name: Frog Splash (Agility)
   db_uuid: 21e66fb039c9436592942e9c0c09de9b
   srg_url: https://supershowthegame.com/product/28-frog-splash/
@@ -70210,6 +71802,8 @@
   grapple: 14
   rules_text: Double the numbers in your cards with "Double" in the name.
   tags: []
+  wants_keywords:
+    - Double
 - name: The Hex Boys
   db_uuid: d292034e67704a56a803bc27a34714ad
   card_type: TornadoCompetitorCard
@@ -70221,6 +71815,12 @@
   grapple: 18
   rules_text: 'When you hit a card with "Witch", "Potion", "Spell", "Magic", or "Cringe" in the name, choose 1: Shuffle 1 Finish from your discard pile into your deck or your next turn roll is +4.'
   tags: []
+  wants_keywords:
+    - Witch
+    - Potion
+    - Spell
+    - Magic
+    - Cringe
 - name: The Phenomenal Beast Chris Angels & Dylon
   db_uuid: cdfcc221281a4eafa0a1fa723f7d311e
   card_type: TornadoCompetitorCard

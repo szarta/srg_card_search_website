@@ -72138,3 +72138,31 @@
     If you have a card with "Table" in the name in play, your opponent buries 3 random cards.'
   comments: This card is Tag Team only.
   tags: []
+- name: Moonsault Leg Drop (Agility)
+  db_uuid: 0e34e6bb7dad4bc1b725eb8b12262685
+  srgpc_url: https://www.srgpc.net/cards/28/moonsault-leg-drop/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    Draw 1 card
+
+    If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
+  tags: []
+- name: Frog Splash (Agility)
+  db_uuid: e19d9626fccd422b8f98306398809693
+  srgpc_url: https://www.srgpc.net/cards/28/frog-splash/
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to your lowest skill.
+
+    Add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Agility 8+'
+  tags: []

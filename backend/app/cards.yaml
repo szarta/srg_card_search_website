@@ -33687,6 +33687,7 @@
   tags: []
 - name: Top Rope Superplex
   db_uuid: ef525bfc0b664c8498c6978d3f1333f6
+  srg_url: https://supershowthegame.com/product/29-top-rope-superplex/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -71953,6 +71954,8 @@
     - ecff166768cf4de8a4bf68f0692529bd
 - name: Super Snap Powerbomb
   db_uuid: 0028fdb161d64e7ba162b3b8228be9b8
+  srg_url: https://supershowthegame.com/product/29-super-snap-powerbomb/
+  srgpc_url: https://www.srgpc.net/cards/29/super-snap-powerbomb/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -72081,35 +72084,6 @@
 
     Add 1 Submission you have in play to your hand.'
   tags: []
-- name: Top Rope Superplex
-  db_uuid: 1cf71c989c624ae5bb545318e37671b2
-  srg_url: https://supershowthegame.com/product/29-top-rope-superplex/
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  rules_text: 'Each player buries 4 cards in their hand.
-
-    +1 to all your skills.'
-  tags: []
-- name: Super Snap Powerbomb
-  db_uuid: a05e1807cb014732861485484d4f6d24
-  srg_url: https://supershowthegame.com/product/29-super-snap-powerbomb/
-  srgpc_url: https://www.srgpc.net/cards/29/super-snap-powerbomb/
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Finish
-  deck_card_number: 29
-  rules_text: '+1 to Power
-
-    +1 to Agility
-
-    +1 to Grapple
-
-    Shuffle 3 cards from your discard pile into your deck.
-
-    Draw 1 card.'
-  tags: []
 - name: Super Steel Chain-Plex
   db_uuid: 7c9fe053618f49d6bd83969b40e7a4eb
   srgpc_url: https://www.srgpc.net/cards/29/super-steel-chain-plex/
@@ -72150,21 +72124,6 @@
     Draw 1 card
 
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
-  tags: []
-- name: Frog Splash (Agility)
-  db_uuid: e19d9626fccd422b8f98306398809693
-  srgpc_url: https://www.srgpc.net/cards/28/frog-splash/
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Finish
-  deck_card_number: 28
-  rules_text: '+1 to Agility
-
-    +3 to your lowest skill.
-
-    Add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Agility 8+'
   tags: []
 - name: Guitar to Head
   db_uuid: 8817f1d6c9a44023a650d0bec9c93eff

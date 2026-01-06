@@ -45094,6 +45094,54 @@
   grapple: 6
   rules_text: 'Ignore the word "Finish" in the text of your "Superman Punch". Those cards are also #13 and #19. "Superman Punch" is also a Follow Up if you have another "Superman Punch" in play.'
   tags: []
+  related_finishes:
+    - 560396b093274802ab7c60517301ee70
+    - 80edadbc3526405aa393d4872323117c
+    - 30fb5cc0dc3c4f799537cf451de45a9e
+- name: Spear of My Ancestors
+  db_uuid: 560396b093274802ab7c60517301ee70
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +3 to Agility
+
+    Your Finish roll is +1 if you have "Superman Punch" in play.'
+  tags: []
+  related_cards:
+    - 3f12cb9b2b344981b91ef65c8cc4d30f
+- name: High Chief Urange
+  db_uuid: 80edadbc3526405aa393d4872323117c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 3f12cb9b2b344981b91ef65c8cc4d30f
+- name: Blood Oath Choke
+  db_uuid: 30fb5cc0dc3c4f799537cf451de45a9e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 3f12cb9b2b344981b91ef65c8cc4d30f
 - name: Katy Kitty (V2)
   db_uuid: 9acd6c2f43f649aea388f5fa72c04570
   card_type: SingleCompetitorCard

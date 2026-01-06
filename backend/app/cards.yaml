@@ -29375,6 +29375,50 @@
     - Stomp
     - Strike
     - Elbow
+  related_finishes:
+    - 4eed880ff23543a382ddde469afc443c
+    - 86982bd030054e609879363aca3f7003
+    - 47af2f48475949adbf81845d41fb3067
+- name: Six Hands
+  db_uuid: 4eed880ff23543a382ddde469afc443c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If you have 6 other Strikes in play this card cannot be stopped.
+
+    If not, your opponent buries 3 cards in their hand, and you buy 3 cards in your discard pile.'
+  tags: []
+  related_cards:
+    - e528c01c4ef1460ca9ab29abf8c95795
+- name: Dance in the Dark
+  db_uuid: 86982bd030054e609879363aca3f7003
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Your opponent buries 2 random cards in their hand.'
+  tags: []
+  related_cards:
+    - e528c01c4ef1460ca9ab29abf8c95795
+- name: Horse Bite Punch
+  db_uuid: 47af2f48475949adbf81845d41fb3067
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    +2 to Submission
+
+    Your opponent''s next turn roll is -3.'
+  tags: []
+  related_cards:
+    - e528c01c4ef1460ca9ab29abf8c95795
 - name: Huracán Gonzalez
   db_uuid: 725f7ba41a2549e99dcb1270b463180c
   srgpc_url: https://www.srgpc.net/cards/competitors/huracan-gonzalez/

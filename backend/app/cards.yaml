@@ -45301,6 +45301,55 @@
   wants_keywords:
     - Dropkick
     - Lariat
+  related_finishes:
+    - a2f71b3e02b84dcf9244464e87b998bb
+    - d16e0f42040c43f4885ae76fba9768ce
+    - 028b99a4bf5846b0a73a78e1a4726258
+- name: Rainmaker
+  db_uuid: a2f71b3e02b84dcf9244464e87b998bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    If your opponent breaks out, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - ef3da0aa20f646bc8d33957331a170da
+- name: Tombstone Piledriver
+  db_uuid: d16e0f42040c43f4885ae76fba9768ce
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you hit a card with "Dropkick" or "Lariat" in the name last turn, double these bonuses.'
+  tags: []
+  wants_keywords:
+    - Dropkick
+    - Lariat
+  related_cards:
+    - ef3da0aa20f646bc8d33957331a170da
+- name: Money Clip
+  db_uuid: 028b99a4bf5846b0a73a78e1a4726258
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - ef3da0aa20f646bc8d33957331a170da
 - name: Ken Broadway
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
   srgpc_url: https://www.srgpc.net/cards/competitors/ken-broadway/

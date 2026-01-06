@@ -2380,9 +2380,14 @@
   tags:
     - Scallywag Ship
 - name: The Matterhorn
+  db_uuid: 0ac08e65ee854ccb88599e9a0831564f
   srgpc_url: https://www.srgpc.net/category/entrances/entrance-ships/
   card_type: EntranceCard
-  rules_text: "After you roll these skills for your turn roll:\nTechnique-Technique-Strike-Grapple\nShuffle 2 cards from your discard pile into your deck."
+  rules_text: 'After you roll these skills for your turn roll:
+
+    Technique-Technique-Strike-Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
@@ -45432,6 +45437,67 @@
   grapple: 10
   rules_text: 'When you roll Grapple: Choose 1 card your opponent has in play and put it in their discard pile.'
   tags: []
+  related_finishes:
+    - 096434923b7749f69f72ab640b1347f3
+    - 85366b9657344448946a143c7a2d0fc1
+    - 8ea618326fdf4144bc1cd2f74ef69263
+    - 156e0e9f43ac45a4b21b136f67faf1b4
+- name: Hadouken
+  db_uuid: 096434923b7749f69f72ab640b1347f3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    When this card is in your discard pile and you roll Power for your turn roll, you may bury this card and your turn roll is +3.'
+  tags: []
+  related_cards:
+    - a65f29782caf41678005bafaf83802cc
+- name: V Trigger
+  db_uuid: 85366b9657344448946a143c7a2d0fc1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If your Finish roll is 7 or less it is +2.
+
+    When this card is in your discard pile, when you roll Grapple for your turn roll: you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - a65f29782caf41678005bafaf83802cc
+- name: One-Winged Angel
+  db_uuid: 8ea618326fdf4144bc1cd2f74ef69263
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    Flip 1 card.  Draw 1 card.
+
+    Add 1 card from your discard pile to your hand.  Your opponent buries 1 random card in their hand.'
+  tags: []
+  related_cards:
+    - a65f29782caf41678005bafaf83802cc
+- name: Forearm Chainsaw
+  db_uuid: 156e0e9f43ac45a4b21b136f67faf1b4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    Your opponent buries 2 random cards in their hand and 2 random cards in their discard pile.'
+  tags: []
+  related_cards:
+    - a65f29782caf41678005bafaf83802cc
 - name: Kenta
   db_uuid: c5956ba466a341ad8e89c6a23ed5a839
   srgpc_url: https://www.srgpc.net/cards/competitors/kenta/

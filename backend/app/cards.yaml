@@ -72166,3 +72166,13 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+- name: Guitar to Head
+  db_uuid: 8817f1d6c9a44023a650d0bec9c93eff
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 25
+  rules_text: 'Stop any Grapple.
+
+    The Crowd Meter is considered -1 for all Stop text.'
+  tags: []

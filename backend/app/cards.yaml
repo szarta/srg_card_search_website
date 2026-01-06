@@ -31207,6 +31207,7 @@
   tags: []
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
+    - 9acd6c2f43f649aea388f5fa72c04570
   wants_keywords:
     - Dog
     - Breaker
@@ -31223,6 +31224,7 @@
   tags: []
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
+    - 9acd6c2f43f649aea388f5fa72c04570
 - name: The Mouse Trap
   db_uuid: 3eea2cc1919b4701a6f7ee90498b1544
   card_type: MainDeckCard
@@ -31239,6 +31241,7 @@
   tags: []
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
+    - 9acd6c2f43f649aea388f5fa72c04570
 - name: Damien
   db_uuid: 03bfb9ac23074c849c4060a007636218
   srg_url: https://supershowthegame.com/product/damien/
@@ -45210,6 +45213,53 @@
 
     Flip cards until you flip a Strike, add that Strike to your hand.'
   tags: []
+  related_finishes:
+    - b6689f1c03574a0bb890976c6fad8a72
+    - 910078d24473497d95f76fc6bec19f81
+    - 7c0d8995c32c49949dcdc6ba70d2b178
+    - daf08f3b564f446bb9e3d80b58971b2e
+    - ddbe2d6099b34ca981a6cc4b17673da9
+    - 3eea2cc1919b4701a6f7ee90498b1544
+- name: Meowsic of the Night
+  db_uuid: b6689f1c03574a0bb890976c6fad8a72
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Strike
+
+    Shuffle up to 6 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 9acd6c2f43f649aea388f5fa72c04570
+- name: Black Number 1
+  db_uuid: 910078d24473497d95f76fc6bec19f81
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Submission
+
+    If this card is flipped, choose 1 card your opponent has in play and discard it.'
+  tags: []
+  related_cards:
+    - 9acd6c2f43f649aea388f5fa72c04570
+- name: Harvest of Samhain
+  db_uuid: 7c0d8995c32c49949dcdc6ba70d2b178
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    Your next turn roll is +3.'
+  tags: []
+  related_cards:
+    - 9acd6c2f43f649aea388f5fa72c04570
 - name: KayJay Impala
   db_uuid: 376f821b06c94e4688ebf91d872b7d6e
   srgpc_url: https://www.srgpc.net/cards/competitors/kayjay-impala/

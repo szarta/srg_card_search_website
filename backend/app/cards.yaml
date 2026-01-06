@@ -45630,7 +45630,7 @@
     - 583ce65671864a5699baf0f730b974b4
     - 3143d64b2c2e415b81f1b42b8c7f5786
     - 12048b7630154f6a9f388e612d613e6c
-- name: Kenzie Page
+- name: Kenzie Paige
   db_uuid: 84b60d0aecfa4ddd80a546a12ad8317d
   srgpc_url: https://www.srgpc.net/cards/competitors/kenzie-paige/
   card_type: SingleCompetitorCard
@@ -45644,6 +45644,50 @@
   grapple: 9
   rules_text: When you hit a Strike, your opponent randomly reveals one card in their hand.  If it is a Stop, bury it. If not, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - 5764b4ab6f4248569e61c9ee21d43ebb
+    - caa904b88c244c28aa16336eb1192434
+    - 562fee87138547b39a0604da8fd031c6
+- name: Petty Pump Kick
+  db_uuid: 5764b4ab6f4248569e61c9ee21d43ebb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent has 2 or more Grapples in play, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 84b60d0aecfa4ddd80a546a12ad8317d
+- name: The Front Paige Superkick
+  db_uuid: caa904b88c244c28aa16336eb1192434
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    Put 1 card from your discard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - 84b60d0aecfa4ddd80a546a12ad8317d
+- name: Kenzie Cutter
+  db_uuid: 562fee87138547b39a0604da8fd031c6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    If you have another Submission in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 84b60d0aecfa4ddd80a546a12ad8317d
 - name: Khloe Mai
   db_uuid: 3c8273a9252a46feb337348e29c30ad3
   srgpc_url: https://www.srgpc.net/cards/competitors/khloe-mai/

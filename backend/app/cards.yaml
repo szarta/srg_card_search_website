@@ -22403,7 +22403,25 @@
 
     Your opponent''s maximum handsize is -1.'
   tags: []
-- name: School Boy
+- name: School Boy (V1)
+  db_uuid: 219cb59cd25b4a80979f707afa7c9bb3
+  srgpc_url: https://www.srgpc.net/cards/26/school-boy/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'This card is also a Finish.
+
+    Draw 2 cards.  If your Finish roll is 8 or greater, it is -3.'
+  errata_text: 'This card is also a Finish.
+
+    Draw 2 cards.  Your Finish rolls are -3.
+
+    If this is a Tag Team match, they are -6.
+
+    If it is a Trios match, they are -9.'
+  tags: []
+- name: School Boy (V2)
   db_uuid: abfe83415b9f439296c8000f2deda7b1
   srgpc_url: https://www.srgpc.net/cards/26/school-boy/
   card_type: MainDeckCard

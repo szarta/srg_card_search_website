@@ -13945,15 +13945,28 @@
   deck_card_number: 15
   rules_text: Bury 3 cards in your opponent's discard pile.
   tags: []
-- name: Takeover With the Sledgehammer
+- name: Takeover With the Sledgehammer (V1)
   db_uuid: 11264dcdf90249ad88b24abde6063a02
-  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer-v2/
+  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 15
   rules_text: Flip 3 cards.
   tags: []
+- name: Takeover with the Sledgehammer (V2)
+  db_uuid: c2137fa2893a4dbfb991ae211adc00f2
+  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer-v2/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Flip 3 cards.
+
+    Add 1 card with "Sledgehammer" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Sledgehammer
 - name: Takeover With the Steel Chain
   db_uuid: dde8e160e0d8458dbbad8b2b630b2992
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-steel-chain/
@@ -16846,7 +16859,7 @@
 
     Skill Requirement: Strike 8+'
   tags: []
-- name: Punch into the Turnbuckle
+- name: Punch into the Turnbuckle (Agility)
   db_uuid: d2ffe1617c734e8fb50e0c0d98396a44
   srgpc_url: https://www.srgpc.net/cards/19/punch-into-the-turnbuckle/
   card_type: MainDeckCard
@@ -16855,7 +16868,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
 
-    +2 to Strike.'
+    +2 to Strike.  Skill Requirement: Agility 8+'
   tags: []
 - name: Rain Down
   db_uuid: 3bf913cbb85f4a8ebdee84b5426d1745

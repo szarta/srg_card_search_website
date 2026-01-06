@@ -45298,13 +45298,13 @@
   grapple: 8
   rules_text: When you roll Technique or Strike for your turn roll, add 1 Lead or Follow Up Strike with "Dropkick" or "Lariat" in the name from your discard pile to your hand.
   tags: []
-  wants_keywords:
-    - Dropkick
-    - Lariat
   related_finishes:
     - a2f71b3e02b84dcf9244464e87b998bb
     - d16e0f42040c43f4885ae76fba9768ce
     - 028b99a4bf5846b0a73a78e1a4726258
+  wants_keywords:
+    - Dropkick
+    - Lariat
 - name: Rainmaker
   db_uuid: a2f71b3e02b84dcf9244464e87b998bb
   card_type: MainDeckCard
@@ -45333,11 +45333,11 @@
 
     If you hit a card with "Dropkick" or "Lariat" in the name last turn, double these bonuses.'
   tags: []
+  related_cards:
+    - ef3da0aa20f646bc8d33957331a170da
   wants_keywords:
     - Dropkick
     - Lariat
-  related_cards:
-    - ef3da0aa20f646bc8d33957331a170da
 - name: Money Clip
   db_uuid: 028b99a4bf5846b0a73a78e1a4726258
   card_type: MainDeckCard
@@ -45364,6 +45364,52 @@
   grapple: 9
   rules_text: 'Once per turn roll: bury 4 cards in your hand, +2 to all your skills.'
   tags: []
+  related_finishes:
+    - 739f8aedbd734ec5b1f2022bcc942e0f
+    - 18202e88430c4e9aa6263f77353c11cd
+    - 27466600365640aeb58ff369c0629f66
+- name: Currency Kick
+  db_uuid: 739f8aedbd734ec5b1f2022bcc942e0f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    Draw cards until you have 10 cards in your hand, then bury 3 cards in your hand.'
+  tags: []
+  related_cards:
+    - 8ee42abf6c0449f499a32a3422df0725
+- name: Cashflowsion
+  db_uuid: 18202e88430c4e9aa6263f77353c11cd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    When you used your Gimmick on the previous turn roll, this card is also a Follow Up.
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 8ee42abf6c0449f499a32a3422df0725
+- name: The Money Grind
+  db_uuid: 27466600365640aeb58ff369c0629f66
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Flip 4 cards.
+
+    Take 7 cards from your discard pile and shuffle them into your deck.'
+  tags: []
+  related_cards:
+    - 8ee42abf6c0449f499a32a3422df0725
 - name: Kenny Omega
   db_uuid: a65f29782caf41678005bafaf83802cc
   srgpc_url: https://www.srgpc.net/cards/competitors/kenny-omega/

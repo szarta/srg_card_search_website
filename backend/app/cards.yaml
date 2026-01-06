@@ -70510,3 +70510,31 @@
 
     Draw 1 card.'
   tags: []
+- name: Super Steel Chain-Plex
+  db_uuid: 7c9fe053618f49d6bd83969b40e7a4eb
+  srgpc_url: https://www.srgpc.net/cards/29/super-steel-chain-plex/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    Look at the top 4 cards of your deck.
+
+    Add 2 cards to your hand and flip the others.
+
+    If this match has "Chain" in the name, +2 to Grapple.'
+  tags: []
+- name: Double Death Drop
+  db_uuid: b87e168076e34d26b6f7c562e1dec54c
+  srg_url: https://supershowthegame.com/product/29-double-death-drop/
+  srgpc_url: https://www.srgpc.net/cards/29/double-death-drop/
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+6 to your two lowest skills.
+
+    If you have a card with "Table" in the name in play, your opponent buries 3 random cards.'
+  comments: This card is Tag Team only.
+  tags: []

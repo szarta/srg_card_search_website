@@ -2379,6 +2379,13 @@
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
+- name: The Matterhorn
+  srgpc_url: https://www.srgpc.net/category/entrances/entrance-ships/
+  card_type: EntranceCard
+  rules_text: "After you roll these skills for your turn roll:\nTechnique-Technique-Strike-Grapple\nShuffle 2 cards from your discard pile into your deck."
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
 - name: Strike Training with The Big Shot
   db_uuid: b19b154c672b4a90ad9003c67f5762af
   card_type: EntranceCard
@@ -45352,6 +45359,7 @@
     - ef3da0aa20f646bc8d33957331a170da
 - name: Ken Broadway
   db_uuid: 8ee42abf6c0449f499a32a3422df0725
+  srg_url: https://supershowthegame.com/product/ken-broadway/
   srgpc_url: https://www.srgpc.net/cards/competitors/ken-broadway/
   card_type: SingleCompetitorCard
   division: Global

@@ -31180,7 +31180,7 @@
     - a29880e47a3640f28bc85a86bed15519
 - name: Katy Kitty (V1)
   db_uuid: 0fc731c613e04c7481649b43cf72d7ae
-  srgpc_url: https://www.srgpc.net/cards/competitors/katy-kitty-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/katy-kitty-old/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -31191,6 +31191,54 @@
   grapple: 8
   rules_text: When you roll Agility, flip 3 cards or add 1 Strike from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - daf08f3b564f446bb9e3d80b58971b2e
+    - ddbe2d6099b34ca981a6cc4b17673da9
+    - 3eea2cc1919b4701a6f7ee90498b1544
+- name: Sweet Chin Meowsic
+  db_uuid: daf08f3b564f446bb9e3d80b58971b2e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Stop any non-Lead Grapple with "Dog" or "Breaker" in the name.
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Chin" in the name.'
+  tags: []
+  related_cards:
+    - 0fc731c613e04c7481649b43cf72d7ae
+  wants_keywords:
+    - Dog
+    - Breaker
+    - Chin
+- name: Purrricanrana
+  db_uuid: ddbe2d6099b34ca981a6cc4b17673da9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    You may discard up to 4 cards from your hand and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - 0fc731c613e04c7481649b43cf72d7ae
+- name: The Mouse Trap
+  db_uuid: 3eea2cc1919b4701a6f7ee90498b1544
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Flip 1 card.  Draw 1 card.
+
+    If you hit a strike last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 0fc731c613e04c7481649b43cf72d7ae
 - name: Damien
   db_uuid: 03bfb9ac23074c849c4060a007636218
   srg_url: https://supershowthegame.com/product/damien/
@@ -45093,7 +45141,8 @@
   submission: 7
   grapple: 6
   rules_text: 'Ignore the word "Finish" in the text of your "Superman Punch". Those cards are also #13 and #19. "Superman Punch" is also a Follow Up if you have another "Superman Punch" in play.'
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - 560396b093274802ab7c60517301ee70
     - 80edadbc3526405aa393d4872323117c
@@ -45109,7 +45158,8 @@
     +3 to Agility
 
     Your Finish roll is +1 if you have "Superman Punch" in play.'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 3f12cb9b2b344981b91ef65c8cc4d30f
 - name: High Chief Urange
@@ -45123,7 +45173,8 @@
     +3 to Grapple
 
     Your opponent buries 2 cards in their hand.'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 3f12cb9b2b344981b91ef65c8cc4d30f
 - name: Blood Oath Choke
@@ -45139,11 +45190,13 @@
     Shuffle 2 cards from your discard pile into your deck.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Old School
   related_cards:
     - 3f12cb9b2b344981b91ef65c8cc4d30f
 - name: Katy Kitty (V2)
   db_uuid: 9acd6c2f43f649aea388f5fa72c04570
+  srgpc_url: https://www.srgpc.net/cards/competitors/katy-kitty-new/
   card_type: SingleCompetitorCard
   division: United States
   gender: Female

@@ -29371,14 +29371,14 @@
   grapple: 6
   rules_text: 'Once on your turn: When you hit a card with "Stomp", "Strike", or "Elbow" in the name, you may play an additional card this turn or your next turn roll is +1.'
   tags: []
-  wants_keywords:
-    - Stomp
-    - Strike
-    - Elbow
   related_finishes:
     - 4eed880ff23543a382ddde469afc443c
     - 86982bd030054e609879363aca3f7003
     - 47af2f48475949adbf81845d41fb3067
+  wants_keywords:
+    - Stomp
+    - Strike
+    - Elbow
 - name: Six Hands
   db_uuid: 4eed880ff23543a382ddde469afc443c
   card_type: MainDeckCard
@@ -45556,6 +45556,56 @@
   grapple: 7
   rules_text: Your Strike skill is +2 during turn rolls.
   tags: []
+  related_finishes:
+    - da03344a3a5247c6a7b51c4062d394a0
+    - 2158681e57224ab5aaff160c678f416b
+    - aa655e4bed4d440da0f44eec2df8a82c
+- name: Busaiku Knee
+  db_uuid: da03344a3a5247c6a7b51c4062d394a0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    Draw 1 card.
+
+    If you rolled Strike for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - c5956ba466a341ad8e89c6a23ed5a839
+- name: Go 2 Sleep
+  db_uuid: 2158681e57224ab5aaff160c678f416b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    Your opponent buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - c5956ba466a341ad8e89c6a23ed5a839
+- name: Game Over
+  db_uuid: aa655e4bed4d440da0f44eec2df8a82c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    When the Crowd Meter is 3 or greater, this card cannot be stopped by Leads.'
+  tags: []
+  related_cards:
+    - c5956ba466a341ad8e89c6a23ed5a839
 - name: The Kenway
   db_uuid: cc1f76c2186a4f5eb3ba93baf87df3d3
   srgpc_url: https://www.srgpc.net/cards/competitors/the-kenway/

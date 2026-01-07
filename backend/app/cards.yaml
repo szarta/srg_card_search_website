@@ -32928,6 +32928,7 @@
     - 1ea91ed2c91747f7806571a25debc498
 - name: King Pink
   db_uuid: 71989d2b62a44dafb3f0ad94537395c7
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-pink/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -32943,13 +32944,30 @@
     - 68d0a278d41040de9bbfda20325c27af
     - 28f4aecdfc1d499780e6c85f114186b0
     - 8fcf043251224145af4dc3c11d7d8af7
-- name: Pink Splash
+    - da7bfdb1ff244f6f81d7aa32337aeabf
+- name: Pink Splash (V2)
   db_uuid: 68d0a278d41040de9bbfda20325c27af
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
   rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    +1 to Submission
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 71989d2b62a44dafb3f0ad94537395c7
+- name: Pink Splash (V1)
+  db_uuid: da7bfdb1ff244f6f81d7aa32337aeabf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
 
     +1 to Strike
 
@@ -46535,6 +46553,7 @@
     - ad7d8a1ad1f94531ba438895bbdc4fd7
 - name: King of New York
   db_uuid: 43ac7d0570b24608a28f525f00156ffe
+  srgpc_url: https://www.srgpc.net/competitors/king-of-new-york/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male

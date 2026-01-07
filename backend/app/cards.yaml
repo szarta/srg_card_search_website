@@ -64620,6 +64620,7 @@
     - Stomp
 - name: KO Princess
   db_uuid: 6b713d264ee6403481e104781ecab700
+  srgpc_url: https://www.srgpc.net/competitor/ko-princess/
   card_type: SingleCompetitorCard
   division: Global
   gender: Female
@@ -64632,7 +64633,7 @@
   rules_text: Your opponent's breakout rolls are -1.
   tags: []
   related_finishes:
-    - c2947aaf8d414442b06212662c72a879
+    - d807803e5544497ca5aa5d3414ea7c33
     - 4dea307721734fdd9f44ce6ce7148f66
     - cbb7011029d94802bd41917df68fa933
 - name: Royal Knockout

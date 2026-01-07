@@ -46395,6 +46395,7 @@
     - 7e5c8dfeecc041958080980601611097
 - name: King Kold
   db_uuid: 8e4c95768fd74c74a55c02d182690cbe
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-kold/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -46476,6 +46477,7 @@
     - Breaker
 - name: King Kong Dundy
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-kong-dundy/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

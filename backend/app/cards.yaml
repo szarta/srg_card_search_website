@@ -33150,7 +33150,7 @@
     - Head
     - Neck
     - Cut
-- name: Le Guillotine (#28)
+- name: Le Guillotine Leg Drop
   db_uuid: 3b6fd5ec1b2e498cb1f5069b1c04db2f
   card_type: MainDeckCard
   atk_type: Strike
@@ -33168,7 +33168,7 @@
     - Head
     - Neck
     - Cut
-- name: L'execution
+- name: L'exécution
   db_uuid: 5bf5c36b5c034c01b019249a20409cb9
   card_type: MainDeckCard
   atk_type: Grapple

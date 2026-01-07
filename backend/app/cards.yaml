@@ -33005,6 +33005,7 @@
     - 71989d2b62a44dafb3f0ad94537395c7
 - name: Krampus
   db_uuid: 9aea25a1ebc64c38bcae52df7777e63e
+  srgpc_url: https://www.srgpc.net/cards/competitors/krampus/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 10
@@ -46752,6 +46753,7 @@
     - ccfe5910ae174623b2a7f5b0f96e24d2
 - name: Kung Fu Donnie Janela
   db_uuid: eb966f76d489467491d6db0fa58ba0bf
+  srgpc_url: https://www.srgpc.net/cards/competitors/kung-fu-donnie-janela/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -46870,7 +46872,7 @@
     - 91e5b6e04a8541fab99cd2cd854f8c9f
   wants_keywords:
     - Steel Chair
-- name: La Autentica Chairman
+- name: La Autèntica Chairman
   db_uuid: 90852144596544269e72102f2e045016
   card_type: MainDeckCard
   atk_type: Submission

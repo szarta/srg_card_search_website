@@ -30957,6 +30957,7 @@
     - 894eccb4c2544059906d26ee3fc10ad1
 - name: King Hyena
   db_uuid: d1f6203619c34913b98ebd9cc559c9a4
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-hyena/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -31405,6 +31406,7 @@
     - 03bfb9ac23074c849c4060a007636218
 - name: King Grumpy Thunder Jr.
   db_uuid: f5850a95a27f4062a89db7c0e2c2a543
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-grumpy-thunder-jr/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -46182,6 +46184,7 @@
     - 8ddf0b4f072e4799bcb6df6b22e84b18
 - name: King Carcosa
   db_uuid: 6b1250e67fe74b9f9ca653ea9329e276
+  srgpc_url: https://www.srgpc.net/cards/competitors/king-carcosa/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

@@ -46890,6 +46890,7 @@
     - 91e5b6e04a8541fab99cd2cd854f8c9f
 - name: L.E.D. (V1)
   db_uuid: 8ef681256e174839a3a0249b8aa564fb
+  srgpc_url: https://www.srgpc.net/cards/competitors/l-e-d/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -46947,6 +46948,7 @@
     - 8ef681256e174839a3a0249b8aa564fb
 - name: L.E.D. (V2)
   db_uuid: d854a32accd5403b9a4be851ff31a292
+  srgpc_url: https://www.srgpc.net/cards/competitors/l-e-d-iku-zo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female

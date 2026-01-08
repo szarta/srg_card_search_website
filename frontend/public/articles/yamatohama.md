@@ -22,7 +22,7 @@ Yamatohama
 Yori-Kiri
 Saitama Tsunami Slam
 Fisherman's Throw
-Never Settle for Less with Elle Diablo
+Never Settle for Less Than Elle Diablo
 Heading Out
 Grapple for Position
 Bob & Weave
@@ -33,20 +33,20 @@ Drawin' Dimes
 A Simple Call
 Head Scratch
 Brawling & Punching
-Double Wirst Twist
+Double Wrist Twist
 Ready to Rumble
-High Impact Knee Chomp
-Colossal Smash
-Knee Breaker
+High Impact Knee Chop
+Colossal Smash (Power, Grapple)
+Knee Breaker (V2)
 Springboard Kick
 Spinebreaker
 You're Not Ready
 Chest Buster
-Press Slam
+Press Slam (Power)
 Kneeling Dragon Sleeper
 Top Rope Dropkick
-Tiger Driver
-Destiny's Call
+Tiger Driver (#23)
+Destiny's Call (V2)
 Bladder Punch
 Catch Cutter
 Freeze! Don't Move

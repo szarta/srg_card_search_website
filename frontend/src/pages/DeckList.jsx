@@ -15,7 +15,8 @@ const articles = [
   { slug: "chamomile-t",      title: "Chamomile T"},
   { slug: "raven",            title: "Raven"},
   { slug: "mortician",        title: "Mortician (V1)"},
-  { slug: "effy",             title: "Effy"}
+  { slug: "effy",             title: "Effy"},
+  { slug: "yamatohama",       title: "Yamatohama"}
 ];
 
 export default function DeckList() {

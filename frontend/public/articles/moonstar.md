@@ -95,7 +95,7 @@ Philly Cheese Grater
 Razor Whip
 Lucha, Rinse, Repeat!
 Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Agility)
-Brawling and Punching
+Brawling & Punching
 Getting Over
 Hold It Right There!
 Lucha Mode

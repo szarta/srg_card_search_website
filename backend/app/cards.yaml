@@ -30794,6 +30794,52 @@
   wants_keywords:
     - Punch
     - Armenian
+  related_finishes:
+    - 25dfe98b60ee43e7b25017a52dcf1e6e
+    - 1db5ed7996d24a0aafa9106820c191e6
+    - 9d0118cf4f8444519c0c28b4dc6fd604
+- name: The Armenian Teardrop
+  db_uuid: 25dfe98b60ee43e7b25017a52dcf1e6e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 5a74b42a67f04dc49ab389fa85990732
+- name: The Armenian Khachkah
+  db_uuid: 1db5ed7996d24a0aafa9106820c191e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    When this card is in your discard pile, your opponent buries randomly for your Gimmick.'
+  tags: []
+  related_cards:
+    - 5a74b42a67f04dc49ab389fa85990732
+- name: Walls of Haykaberd
+  db_uuid: 9d0118cf4f8444519c0c28b4dc6fd604
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Submission
+
+    When this card is in your discard pile and your opponent stops a Follow Up Submission you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 5a74b42a67f04dc49ab389fa85990732
 - name: Kaiser Wolf
   db_uuid: d06978f5f81f477bb9dd27d0287c0008
   srg_url: https://supershowthegame.com/product/kaiser-wold/

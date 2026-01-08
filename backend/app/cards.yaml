@@ -1071,6 +1071,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: Crash Landing
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1085,6 +1086,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: Fear of Diving
   db_uuid: ebda093ef7284c7f9e10da5e35be90ae
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1103,6 +1105,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: The Paper Cut
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
   card_type: MainDeckCard
@@ -1120,6 +1123,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: Cactus Driver 97'
   db_uuid: ba54a7d9874e48169b07969b52f171c6
   srg_url: https://supershowthegame.com/product/death-machine-sami-callihan/
@@ -1134,6 +1138,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: The Ball Claw
   db_uuid: a38f21dfd9cf4924a668c3396a428844
   card_type: MainDeckCard
@@ -1151,6 +1156,7 @@
   related_cards:
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
+    - 0fe383c8e4fe4083bb11149f4564a081
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
@@ -47497,6 +47503,13 @@
   tags: []
   wants_keywords:
     - Elbow
+  related_finishes:
+    - 26d8904b89a44ed481131580376de702
+    - f9a5b8865ff44c9397aed40cc3b11b2a
+    - ebda093ef7284c7f9e10da5e35be90ae
+    - 4fcb3ec9e7144d628ae94a12855ca46e
+    - ba54a7d9874e48169b07969b52f171c6
+    - a38f21dfd9cf4924a668c3396a428844
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
   srgpc_url: https://www.srgpc.net/cards/competitors/lemmy-adam/

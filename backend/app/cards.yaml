@@ -9873,7 +9873,7 @@
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
-- name: Brawling and Punching
+- name: "Brawling & Punching"
   db_uuid: 39672cf20bdd44629686934a9368f4e4
   srgpc_url: https://www.srgpc.net/cards/10/brawling-punching/
   card_type: MainDeckCard

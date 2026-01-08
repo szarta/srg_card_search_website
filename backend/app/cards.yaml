@@ -1449,6 +1449,7 @@
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: Shipwreck Menagerie
   db_uuid: 120a4a3ffc124a21be376a2d5f6df56d
   card_type: MainDeckCard
@@ -1468,6 +1469,7 @@
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: The Mystic Plunder
   db_uuid: c17faf738dc9453097c7b4301baaafff
   card_type: MainDeckCard
@@ -1487,6 +1489,7 @@
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: Crocodile Chop
   db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1508,6 +1511,7 @@
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: Steel Chain Anchors Aweigh
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1529,6 +1533,7 @@
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: Death is the Only Great Adventure You Have Left
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1551,6 +1556,7 @@
     - a01036ebb5bf49e382f6c9668fd04cc7
     - 221d8474bf084404ac43c826c2491184
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
+    - cc97ddd2f6964da9be0038fee59d6132
 - name: The Royal Family's Own Tyler Rich
   db_uuid: f106ad353db54acb87774bc79eaffae0
   card_type: EntranceCard
@@ -2334,6 +2340,18 @@
     Power-Technique-Agility-Submission-Grapple-Grapple
 
     Add 2 Finishes from your discard pile to your hand.'
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: The Sky Tyrant
+  db_uuid: 8e44a830b7d8486f9e46fa3cb4d0b68c
+  card_type: EntranceCard
+  comments: Only usable by Competitors with Scallywag logo
+  tags:
+    - Scallywag Ship
+- name: The Crown of Loch Noir
+  db_uuid: 08731670c8474d098bd623c47b86d499
+  card_type: EntranceCard
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
@@ -9873,7 +9891,7 @@
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
-- name: "Brawling & Punching"
+- name: Brawling & Punching
   db_uuid: 39672cf20bdd44629686934a9368f4e4
   srgpc_url: https://www.srgpc.net/cards/10/brawling-punching/
   card_type: MainDeckCard
@@ -30797,13 +30815,13 @@
   grapple: 5
   rules_text: When you hit a card with "Punch" or "Armenian" in the name, your opponent buries 1 card in their hand.
   tags: []
-  wants_keywords:
-    - Punch
-    - Armenian
   related_finishes:
     - 25dfe98b60ee43e7b25017a52dcf1e6e
     - 1db5ed7996d24a0aafa9106820c191e6
     - 9d0118cf4f8444519c0c28b4dc6fd604
+  wants_keywords:
+    - Punch
+    - Armenian
 - name: The Armenian Teardrop
   db_uuid: 25dfe98b60ee43e7b25017a52dcf1e6e
   card_type: MainDeckCard
@@ -40163,6 +40181,23 @@
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
     - 9d8401a397c242159ed1b01385439f73
+- name: Everyone's Enemy (Scallywag)
+  db_uuid: a447d6f29dfb49bea3c66717163ca459
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: When your opponent forces you to bury or discard any number of cards from your hand, your opponent buries the same number of cards from their hand.
+  tags: []
+  related_finishes:
+    - 040232a9ce804e3eb4ea2a25283f6298
+    - 120a4a3ffc124a21be376a2d5f6df56d
+    - c17faf738dc9453097c7b4301baaafff
+    - 01d7642fbfae4817a4ff1c01f175e9e8
+    - c97d0ef041cd4e33824b7583bd7fc0a1
+    - cd01ac08134342bda5826e44a1ff1c9d
 - name: Asai Dropkick
   db_uuid: f989f8c1052d4c44b7fadacff83ad698
   card_type: MainDeckCard
@@ -47501,8 +47536,6 @@
   grapple: 8
   rules_text: Your cards with "Elbow" in the name cannot be stopped by Skill Requirements & you can stop cards that cannot be stopped.
   tags: []
-  wants_keywords:
-    - Elbow
   related_finishes:
     - 26d8904b89a44ed481131580376de702
     - f9a5b8865ff44c9397aed40cc3b11b2a
@@ -47510,6 +47543,8 @@
     - 4fcb3ec9e7144d628ae94a12855ca46e
     - ba54a7d9874e48169b07969b52f171c6
     - a38f21dfd9cf4924a668c3396a428844
+  wants_keywords:
+    - Elbow
 - name: Lemmy Adam
   db_uuid: 6d4c99c63ee748328862a9281bff7fe2
   srgpc_url: https://www.srgpc.net/cards/competitors/lemmy-adam/
@@ -53505,6 +53540,19 @@
   tags: []
   related_cards:
     - 11090ca47d7b45ba98292af07e58f428
+- name: Prince of the Seas Logan Lagoon
+  db_uuid: 9327c43c2433458b8957329a05ab6ac3
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 8
+  grapple: 10
+  rules_text: 'During your turn:
+
+    When you hit a card with a Stop, your next roll is +1.'
+  tags: []
 - name: The Prince of Fashion
   db_uuid: 9f81d2d70a2a404b9058967f1c452e2b
   srg_url: https://supershowthegame.com/product/the-prince-of-fashion/

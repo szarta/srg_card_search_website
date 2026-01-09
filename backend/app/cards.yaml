@@ -42912,8 +42912,7 @@
     When this card is in your discard pile:
 
     During your turn, your Agility is +1 and you are considered to have a card in play with "Bust" in the name.'
-  tags:
-    - Old School
+  tags: []
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
   wants_keywords:
@@ -42927,8 +42926,7 @@
   rules_text: '+3 to Technique
 
     +1 to Strike'
-  tags:
-    - Old School
+  tags: []
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Never-Ending Friendship
@@ -42942,8 +42940,7 @@
     +2 to Submission
 
     Bury any number of Strikes in your discard pile.  If your opponent breaks out, you may play 1 additional Strike this turn as if it were a Lead.'
-  tags:
-    - Old School
+  tags: []
   related_cards:
     - 5a5e5428ddba4775b3d2735f25ec4abf
 - name: Heartache Kid Mr. L.F.F.
@@ -65654,8 +65651,7 @@
   submission: 5
   grapple: 10
   rules_text: When your skills are increased, your opponent's Gimmick is blanked.
-  tags:
-    - Old School
+  tags: []
   related_finishes:
     - 2d308603b7a14b9eacb7ea64cb163a01
     - 3419c06a8dcb43c3b388ee6a0f65a502

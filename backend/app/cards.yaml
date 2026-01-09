@@ -48530,6 +48530,7 @@
     - 411450337c044fafaa3188e60e721a92
 - name: Lord of the Dance
   db_uuid: 7959be929d324ad897255b94a99a57b1
+  srgpc_url: https://www.srgpc.net/competitors/lord-of-the-dance/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -48749,8 +48750,9 @@
   tags: []
   related_cards:
     - def74dd5530540ce8a9e903bc10fd620
-- name: Luchamaniacal Uberstar
+- name: Luchamaniacal Überstar
   db_uuid: 72b5e77d43f04fa698236a65d51bde24
+  srgpc_url: https://www.srgpc.net/cards/competitors/luchamaniacal-uberstar/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -48767,7 +48769,7 @@
     - b179503b69234ab38fecc0b4121d59bb
     - a6f438d540cb4cf7bcb28ec2472ee451
     - f4af5b8c0bf34dfba07a668e76424a55
-- name: Luchagasmic Ubersault
+- name: Luchagasmic Übersault
   db_uuid: 4bcc08d20f454e5f8005f260068304af
   card_type: MainDeckCard
   atk_type: Strike
@@ -48809,7 +48811,7 @@
 
     Search your opponent''s deck for 3 cards and put them into their discard pile, then shuffle their deck.
 
-    If you win the match, your opponent should acknowledge that Uberstar is the only True Luchador.'
+    If you win the match, your opponent should acknowledge that Überstar is the only True Luchador.'
   tags: []
   related_cards:
     - 72b5e77d43f04fa698236a65d51bde24

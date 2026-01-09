@@ -49089,6 +49089,7 @@
     - b397df77cb2e41dfb0158888cbd7bc9b
 - name: Lycan
   db_uuid: 6610ac46791b4527b45006f551fe028e
+  srgpc_url: https://www.srgpc.net/cards/competitors/lycan/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 7
@@ -49177,7 +49178,7 @@
   tags: []
   related_cards:
     - a09bc1774f984c6287207df2a01a4eee
-- name: Nap Time!
+- name: Nap Time! (V1)
   db_uuid: ff0ac97f72cf46b4a4861e37f540e231
   card_type: MainDeckCard
   atk_type: Grapple
@@ -49191,7 +49192,7 @@
   tags: []
   related_cards:
     - a09bc1774f984c6287207df2a01a4eee
-- name: The Sasketchewan Spinning Nerve Hold
+- name: The Sasketchewan Spinning Nerve Hold (V1)
   db_uuid: f51220f40c7248d7bb50d2a67bc67728
   card_type: MainDeckCard
   atk_type: Submission
@@ -49205,6 +49206,30 @@
   tags: []
   related_cards:
     - a09bc1774f984c6287207df2a01a4eee
+- name: Nap Time! (V2)
+  db_uuid: d9565c0167304dc4a11a39d9c223644e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent re-rolled their last turn roll, this card is also a Follow Up.'
+  tags: []
+- name: The Sasketchewan Spinning Nerve Hold (V2)
+  db_uuid: e5c31549c9914d599937847c821ff703
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent re-rolls their turn roll, their turn roll is -1.'
+  tags: []
 - name: Mack-a-Tack
   db_uuid: 202418b1360d433daf406ee61bfd8e2f
   srgpc_url: https://www.srgpc.net/cards/competitors/mack-a-tack/

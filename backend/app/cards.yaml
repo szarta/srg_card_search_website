@@ -2352,12 +2352,24 @@
 - name: The Sky Tyrant
   db_uuid: 8e44a830b7d8486f9e46fa3cb4d0b68c
   card_type: EntranceCard
+  rules_text: 'After you roll these skills for your turn roll:
+
+    Technique-Agility-Submission-Grapple
+
+    Search your deck for up to 3 cards and put them into your discard pile.
+
+    Shuffle your deck and draw 1 card.'
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
 - name: The Crown of Loch Noir
   db_uuid: 08731670c8474d098bd623c47b86d499
   card_type: EntranceCard
+  rules_text: 'After you roll these skills for your turn roll:
+
+    Technique-Technique
+
+    Your turn roll is +1.'
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
@@ -14523,7 +14535,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up in play, draw 1 card and you may play 1 additional card this turn.
   tags: []
-- name: Head Shot
+- name: Head Shot (V1)
   db_uuid: 1b050c63a9a2448eba53b144acf1e3b9
   srgpc_url: https://www.srgpc.net/cards/16/head-shot/
   card_type: MainDeckCard
@@ -14531,6 +14543,16 @@
   play_order: Followup
   deck_card_number: 16
   rules_text: If you have another Strike in play your next turn roll is +2.
+  tags: []
+- name: Head Shot (V2)
+  db_uuid: 1d38e0929dc14b168e0b57945261ea7f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'If you have another Strike in play your next turn roll is +2.
+
+    If this match has no disqualifications, your next turn roll is +1.'
   tags: []
 - name: Head to Head
   db_uuid: b69a09da5ee646ce89e79a525ca3ca0b
@@ -19038,13 +19060,21 @@
   deck_card_number: 22
   rules_text: Your opponent buries 2 cards in their hand. If this is a Tag Team match draw 1 card.
   tags: []
-- name: Double Knee Strike
+- name: Double Knee Strike (V1)
   db_uuid: bca1bde690854f0aad1826b70ee0edb8
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
   rules_text: Draw the bottom 2 cards of your deck.
+  tags: []
+- name: Double Knee Strike (V2)
+  db_uuid: 369ac39f418f4449856dd2c35ab33c6a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: Draw the bottom 2 cards of your deck.  Bury 2 cards in your discard pile.
   tags: []
 - name: Eternal Conk
   db_uuid: 3e71a541162e41d6b9e5a8e196310108
@@ -51125,8 +51155,6 @@
   grapple: 10
   rules_text: 'During your turn: When you hit a card with "Drop" in the name, discard 1 other card in play.'
   tags: []
-  wants_keywords:
-    - Drop
   related_finishes:
     - d7eab0f0fa72491d8f30c43868b5b64f
     - e9cb45033e004269b5302680800b1a4a
@@ -51137,6 +51165,8 @@
     - 834d9c4b7bd648d1aae08e77a62423b9
     - 68bacacd097c475681ab4b77c2195e01
     - 01e368d626c24b39a63a2604c087917e
+  wants_keywords:
+    - Drop
 - name: Meeple's Champion (V2)
   db_uuid: fe65f8f490b14ffdaca7c80756e652f6
   srgpc_url: https://www.srgpc.net/competitor/meeples-champion-v2/
@@ -51151,9 +51181,6 @@
   grapple: 10
   rules_text: When you hit a card with "Board" or "Game" in the name, you may put 1 Lead or Follow Up from your discard pile into play.
   tags: []
-  wants_keywords:
-    - Board
-    - Game
   related_finishes:
     - d7eab0f0fa72491d8f30c43868b5b64f
     - e9cb45033e004269b5302680800b1a4a
@@ -51164,6 +51191,9 @@
     - 834d9c4b7bd648d1aae08e77a62423b9
     - 68bacacd097c475681ab4b77c2195e01
     - 01e368d626c24b39a63a2604c087917e
+  wants_keywords:
+    - Board
+    - Game
 - name: The Meeple's Unholy Union
   db_uuid: 44630c22a56448b9a0f6af124078364d
   srgpc_url: https://www.srgpc.net/competitors/the-meeples-unholy-union/

@@ -225,7 +225,7 @@
   deck_card_number: 2
   rules_text: Stop any Lead Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Lock Up (Technique)
   db_uuid: c76141bd74b54e9c8bbd072e99d0b124
   card_type: MainDeckCard
@@ -244,7 +244,7 @@
   deck_card_number: 3
   rules_text: Stop any Lead Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Kick
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
   srg_url: https://supershowthegame.com/product/04-kick/
@@ -255,7 +255,7 @@
   deck_card_number: 4
   rules_text: Stop any Follow Up Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Hip Toss
   db_uuid: f8197b5661294828847dd5e1865a2cfb
   srg_url: https://supershowthegame.com/product/05-hip-toss-os/
@@ -266,7 +266,7 @@
   deck_card_number: 5
   rules_text: Stop any Follow Up Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Armbar
   db_uuid: cda286cadae54ff0bbaa5aa168598f05
   srg_url: https://supershowthegame.com/product/06-armbar-os/
@@ -277,7 +277,7 @@
   deck_card_number: 6
   rules_text: Stop any Follow Up Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Aaron Dallas
   db_uuid: ca03f4b01d5d409fbd3a75a8e58d83a1
   srg_url: https://supershowthegame.com/product/aaron-dallas/
@@ -2584,7 +2584,7 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Japanese Arm Drag
   db_uuid: 5f1ea69b034041d1863e4a7af3c8a936
   srg_url: https://supershowthegame.com/product/11-japanese-arm-drag/
@@ -2595,7 +2595,7 @@
   deck_card_number: 11
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Arm Stomp
   db_uuid: 62cf9e40d92c4d0da09cb4185c8540f0
   srg_url: https://supershowthegame.com/product/12-arm-stomp/
@@ -2606,7 +2606,7 @@
   deck_card_number: 12
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Kick Into The Corner
   db_uuid: 7fb5d6c7305d4e5792358063e2a88c1f
   srg_url: https://supershowthegame.com/product/13-kick-into-the-corner/
@@ -2617,7 +2617,7 @@
   deck_card_number: 13
   rules_text: If your Agility skill is greater than your opponent's Agility skill, stop any Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Circling Up with The Real Beaters
   db_uuid: c5b127a934604c208d50e693526a238a
   srg_url: https://supershowthegame.com/product/circling-up-with-the-real-beaters/
@@ -3055,7 +3055,7 @@
   deck_card_number: 11
   rules_text: Your next turn roll is +1 for each Grapple you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Reflective Parry
   db_uuid: 7b6bc01e61d847cc85a33cb82842034b
   srgpc_url: https://www.srgpc.net/cards/23/reflective-parry/
@@ -3203,7 +3203,7 @@
 
     Each player draws 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Armenian Supershow
   db_uuid: c9aabd80eb24472398f6f2dc7134e599
   srg_url: https://supershowthegame.com/product/23-armenian-supershow/
@@ -3252,7 +3252,7 @@
   deck_card_number: 12
   rules_text: Your next turn roll is +1 for each Submission you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Elevated Ankle Breaker
   db_uuid: 9bc22d747f884500a389bcb4fdbe4915
   srg_url: https://supershowthegame.com/product/24-elevated-ankle-breaker/
@@ -3315,7 +3315,7 @@
   deck_card_number: 19
   rules_text: If your opponent has another Grapple in play, stop any Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Art the Seal
   db_uuid: abec1bc1bede476cb22839213ccb31b9
   srg_url: https://supershowthegame.com/product/art-the-seal/
@@ -4435,7 +4435,7 @@
   deck_card_number: 22
   rules_text: Your opponent randomly reveals 3 cards in their hand and discards all revealed stops.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Bowl-o-Rama Slam (Agility)
   db_uuid: b634a91a2bd1427d8612fd090db9707c
   srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
@@ -4476,7 +4476,8 @@
   deck_card_number: 10
   rules_text: Draw 1 card for each Strike you have in play, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Matt Cardona
   db_uuid: 83157bf772eb4e63a71b6994a41eee52
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
@@ -4721,7 +4722,8 @@
   deck_card_number: 1
   rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead Grapple.  Look at the top card of your opponent's deck, you may flip it.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Chortling Low Blow
   db_uuid: 4df82af2be2c487e8d07878c5234f3ad
   srg_url: https://supershowthegame.com/product/01-chortling-low-blow/
@@ -4874,7 +4876,7 @@
 
     If your next turn roll is Agility, it is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Legendary Punch
   db_uuid: 0b90c34a72d44946a888d4e0ad5dccd7
   srg_url: https://supershowthegame.com/product/01-legenadary-punch/
@@ -4907,7 +4909,8 @@
 
     If it is a Strike, add it to your hand and your next turn roll is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Machine Gun Chops
   db_uuid: bdd8608725bb44e8a7d019bab502019a
   srgpc_url: https://www.srgpc.net/cards/1/machine-gun-chops/
@@ -4919,7 +4922,7 @@
 
     Your opponent''s maximum handsize is -1.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Mule Kick
   db_uuid: f9f3672839fe429c9b08ae8d9ef9363e
   srgpc_url: https://www.srgpc.net/cards/1/mule-kick/
@@ -4929,7 +4932,8 @@
   deck_card_number: 1
   rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: One-Two Punch
   db_uuid: 5b921f7c79994f3cbaeb750e385a8ae4
   srgpc_url: https://www.srgpc.net/cards/1/one-two-punch/
@@ -4959,7 +4963,7 @@
   deck_card_number: 1
   rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead Grapple. Draw 1 card, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Pineapple
   db_uuid: 92f6f0f603704da080ac361b0b223811
   srg_url: https://supershowthegame.com/product/01-pineapple/
@@ -4990,7 +4994,7 @@
   deck_card_number: 1
   rules_text: Stop any Lead Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Punch (Agility)
   db_uuid: eff8c4aadc30499db366f1b22cb502cc
   card_type: MainDeckCard
@@ -5068,7 +5072,7 @@
   deck_card_number: 1
   rules_text: Your opponent's gimmick is blank until their next turn.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Tackle
   db_uuid: 8e3a846830b3442091d4e1b29d725e11
   srgpc_url: https://www.srgpc.net/cards/1/tackle/
@@ -5106,7 +5110,7 @@
   deck_card_number: 1
   rules_text: +1 to Strike during turn rolls. If your next turn roll is Strike it is +2.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Wind Up
   db_uuid: 66ddd578606049c1bd3f3c2e0ea12c1c
   srgpc_url: https://www.srgpc.net/cards/1/wind-up/
@@ -5143,7 +5147,7 @@
   deck_card_number: 2
   rules_text: Your maximum handsize is +1. Your opponent's maximum handsize is -1.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: All American Stomps
   db_uuid: 0f3aad3696544af1891a5454f59ba2a3
   srgpc_url: https://www.srgpc.net/cards/2/all-american-stomps/
@@ -5175,7 +5179,8 @@
 
     If it is a Grapple, add it to your hand and your next turn roll is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Brain Games
   db_uuid: ad92c033f9914182859309b9398d9507
   srgpc_url: https://www.srgpc.net/cards/2/brain-games/
@@ -5218,7 +5223,7 @@
 
     If your next turn roll is Technique, it is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Charge Into the Corner
   db_uuid: 1d4ba5e0f640428aa7f0d0912083733b
   srgpc_url: https://www.srgpc.net/cards/2/charge-into-the-corner/
@@ -5237,7 +5242,7 @@
   deck_card_number: 2
   rules_text: If your opponent does not have a Lead Submission in play, stop any Lead Submission. Draw 1 card then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Close Combat
   db_uuid: 52f8867bea8e4a89ab6b5abf43fdbe34
   srgpc_url: https://www.srgpc.net/cards/2/close-combat/
@@ -5300,7 +5305,7 @@
 
     If your next turn roll is Grapple it is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Guitar Riff
   db_uuid: b11a7e7978884c6ba2cbc2f2e94e66fe
   srgpc_url: https://www.srgpc.net/cards/2/guitar-riff/
@@ -5373,7 +5378,7 @@
   deck_card_number: 2
   rules_text: Your opponent's Gimmick is blank until their next turn.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Momentum Swing
   db_uuid: 655c5f7ae5bc47b596d6cb7dcbde9cb0
   srgpc_url: https://www.srgpc.net/cards/2/momentum-swing/
@@ -5609,7 +5614,8 @@
 
     Look at the top card of your opponent''s deck, you may flip it.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Toss From The Turnbuckle
   db_uuid: 2c230f5b46df476cacf45605d3c893ab
   srgpc_url: https://www.srgpc.net/cards/2/toss-from-the-turnbuckle/
@@ -5619,7 +5625,8 @@
   deck_card_number: 2
   rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Trash Can
   db_uuid: 6edea4576aaf4d348653a69616f7180b
   srgpc_url: https://www.srgpc.net/cards/2/trash-can/
@@ -5685,7 +5692,7 @@
   deck_card_number: 3
   rules_text: Your maximum handsize is +1.  Your opponent's maximum handsize is -1.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Bob & Weave
   db_uuid: 9c89a299c9f9413fbe3329704698f977
   srg_url: https://supershowthegame.com/product/02-bob-weave/
@@ -5750,7 +5757,7 @@
 
     If your next turn roll is Submission it is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Double Headlock
   db_uuid: 270f8415997947569504d6bb11ebc23d
   srgpc_url: https://www.srgpc.net/cards/3/double-headlock/
@@ -5885,7 +5892,8 @@
 
     Look at the top card of your opponent''s deck, you may flip it.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Knee to the Back
   db_uuid: 67431b96dc0744689bea566532fbafb3
   srgpc_url: https://www.srgpc.net/cards/3/knee-to-the-back/
@@ -5895,7 +5903,8 @@
   deck_card_number: 3
   rules_text: Draw the bottom card of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Koji Clutch
   db_uuid: 26508c9e8952499686aca584091e4cc3
   srgpc_url: https://www.srgpc.net/cards/3/koji-clutch
@@ -5906,7 +5915,8 @@
   rules_text: 'If your opponent does not have a Lead Strike in play, stop any Lead Strike.
 
     Draw 1 card, then bury 1 card in your hand.'
-  tags: []
+  tags:
+    - Old School Wave 2
 - name: Lockjaw
   db_uuid: 30249467b3ff48dcb6b971e9b5d7182f
   srgpc_url: https://www.srgpc.net/cards/3/lockjaw/
@@ -6089,7 +6099,7 @@
   deck_card_number: 3
   rules_text: Your opponent's Gimmick is blank until their next turn.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Test of Strength
   db_uuid: f7cceff2fee242cabb5e4a3cdcd67794
   srgpc_url: https://www.srgpc.net/cards/3/test-of-strength/
@@ -6101,7 +6111,7 @@
 
     If your next turn roll is Power, it is +2.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Twist and Tangle
   db_uuid: 4a79c2512645422c839734f6364da829
   srgpc_url: https://www.srgpc.net/cards/3/twist-and-tangle/
@@ -6122,7 +6132,8 @@
   deck_card_number: 3
   rules_text: Flip 1 card, if it's a Submission, add it to your hand and your next turn roll is +2.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Wear Down
   db_uuid: b20ea0ad5bc144fdac9d9e985017e960
   srgpc_url: https://www.srgpc.net/cards/3/wear-down/
@@ -6353,7 +6364,7 @@
   deck_card_number: 4
   rules_text: Flip cards until you flip a Strike, add that Strike to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Irish Whip (V2)
   db_uuid: 1319e48b298446929fb93c3fe7926ce4
   card_type: MainDeckCard
@@ -6383,7 +6394,7 @@
   deck_card_number: 4
   rules_text: If your opponent does not have a Follow Up Grapple in play, stop any Follow Up Grapple. Draw 1 card, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Kick (Strike)
   db_uuid: aeda5fdd8c814f599ea38889c81ef3b1
   srgpc_url: https://www.srgpc.net/cards/4/kick-strike/
@@ -6394,8 +6405,7 @@
   rules_text: '+1 to Strike.
 
     Skill Requirement: Strike 8+'
-  tags:
-    - Old School
+  tags: []
 - name: Kicks to the Gut
   db_uuid: e6fb4cd801174c2b93fe9e9418c0e8ac
   srgpc_url: https://www.srgpc.net/cards/4/kicks-to-the-gut
@@ -6448,7 +6458,8 @@
   deck_card_number: 4
   rules_text: Reveal cards from the top of your deck until you reveal a Stop, add that card to your hand and shuffle the others into your deck.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: PAX a Punch
   db_uuid: ee229e09a660412ea40e8e11d5863d90
   srg_url: https://supershowthegame.com/product/04-pax-a-punch/
@@ -6509,7 +6520,7 @@
   deck_card_number: 4
   rules_text: You may play 1 additional Strike this turn; if your Agility skill is greater than your opponent's Agility skill, you may play any additional card this turn instead.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Skull Smash
   db_uuid: 108ffb6dd61945788d07145250d4653d
   srgpc_url: https://www.srgpc.net/cards/4/skull-smash
@@ -6554,7 +6565,8 @@
 
     If your Strike skill is greater than your opponent''s Strike skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Standing Senton
   db_uuid: 714aa64211834a5f832859c9886c23e4
   srgpc_url: https://www.srgpc.net/cards/4/standing-senton/
@@ -6566,7 +6578,8 @@
 
     If your Agility skill is greater than your opponent''s Agility skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Steel-Tipped Boot (V1)
   db_uuid: ddc034caeb6e401ba27c871da492c4fc
   srgpc_url: https://www.srgpc.net/cards/4/steel-tipped-boot-v2/
@@ -6617,7 +6630,7 @@
   deck_card_number: 4
   rules_text: 'You may play 1 additional Strike this turn: if your Strike skill is greater than your opponent''s Strike skill, you may play any additional card this turn instead.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Thumb to the Eye
   db_uuid: 89f8067473014d94a009ea8b77b5f8b8
   srgpc_url: https://www.srgpc.net/cards/4/thumb-to-the-eye/
@@ -6683,7 +6696,8 @@
 
     If your Power skill is greater than your opponent''s Power skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Barricade Buster
   db_uuid: 979a771877f94e7c81e9cb8b1b77d230
   srg_url: https://supershowthegame.com/product/05-barricade-buster/
@@ -6717,7 +6731,8 @@
 
     Add that card to your hand and shuffle the others into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Calling on the Fire Brigade
   db_uuid: 8f70e66b273e4adba693d167f11b3e39
   srgpc_url: https://www.srgpc.net/cards/5/calling-on-the-fire-brigade/
@@ -6786,7 +6801,7 @@
   deck_card_number: 5
   rules_text: 'You may play 1 additional Grapple this turn: If your Grapple skill is greater than your opponent''s Grapple skill, you may play any additional card this turn instead.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Drop Out of the Ring
   db_uuid: 4beac484473a49d7898613e58dda461a
   srgpc_url: https://www.srgpc.net/cards/5/drop-out-of-the-ring/
@@ -6925,7 +6940,7 @@
   deck_card_number: 5
   rules_text: 'You may play 1 additional Grapple this turn: If your Power skill is greater than your opponent''s Power skill, you may play any additional card this turn instead.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Legendary Lockdown
   db_uuid: 31a28355b6814593b440d723981b119f
   srg_url: https://supershowthegame.com/product/05-legendary-lockdown/
@@ -6980,7 +6995,8 @@
 
     If your Grapple skill is greater than your opponent''s Grapple skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Power Up
   db_uuid: bc0f9b98ace24e62b14a5438b2e3f3f6
   srgpc_url: https://www.srgpc.net/cards/5/power-up/
@@ -7062,7 +7078,7 @@
 
     Each player draws 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Surfboard Slam
   db_uuid: 1c0d8d7c9af74cfe8ff39892ced39cc4
   srg_url: https://supershowthegame.com/product/05-surfboard-slam/
@@ -7095,7 +7111,7 @@
   deck_card_number: 5
   rules_text: If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission. Draw 1 card, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Swing and a Sledgehammer
   db_uuid: 283de487289f43ac8f438f83cea75a3e
   srgpc_url: https://www.srgpc.net/cards/5/swing-and-a-sledgehammer/
@@ -7127,7 +7143,7 @@
   deck_card_number: 5
   rules_text: Flip cards until your flip a Grapple, add that Grapple to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Throw Into the Corner (V2)
   db_uuid: d665c73c80504452bf799fef68fd1e56
   card_type: MainDeckCard
@@ -7188,7 +7204,7 @@
   deck_card_number: 6
   rules_text: 'You may play 1 additional Submission this turn: If your Technique skill is greater than your opponent''s Technique skill, you may play any additional card this turn instead.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Arm Tangle
   db_uuid: 18a512f82c314c5886c35e896ce27741
   srgpc_url: https://www.srgpc.net/cards/6/arm-tangle/
@@ -7209,7 +7225,7 @@
   deck_card_number: 6
   rules_text: If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike. Draw 1 card, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Armlock Over the Apron
   db_uuid: 98b751726e2349e687482b6c0813e1ed
   srgpc_url: https://www.srgpc.net/cards/6/armlock-over-the-apron/
@@ -7219,7 +7235,7 @@
   deck_card_number: 6
   rules_text: You may play 1 additional Submission this turn; If your Submission skill is greater than your opponent's Submission skill, you may play any additional card this turn.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Blink
   db_uuid: 66a8fa9ceef141bdac634eb92b71beb3
   srgpc_url: https://www.srgpc.net/cards/6/blink/
@@ -7329,7 +7345,7 @@
   deck_card_number: 6
   rules_text: Flip cards until you flip a Submission, add that Submission to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Drag to the Center (V2)
   db_uuid: e7986c1225a0404192bd7fa5dba6d4e7
   card_type: MainDeckCard
@@ -7349,7 +7365,7 @@
 
     Each player draws 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Elevated Sleeper Hold
   db_uuid: 40b65529fcf04470a834b3c146da6ff4
   srgpc_url: https://www.srgpc.net/cards/6/elevated-sleeper-hold/
@@ -7435,7 +7451,8 @@
 
     If your Submission skill is greater than your opponent''s Submission skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Going Over the Microphone
   db_uuid: a6b9d090256a4c5095fadee8fe99084f
   srgpc_url: https://www.srgpc.net/cards/6/going-over-the-microphone/
@@ -7551,7 +7568,8 @@
 
     If your Technique skill is greater than your opponent''s Technique skill, this card cannot be stopped.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Philly Cheese Grater
   db_uuid: 733b1c9814ec4d23810076342f130635
   srgpc_url: https://www.srgpc.net/cards/6/philly-cheese-grater/
@@ -7681,7 +7699,8 @@
   deck_card_number: 6
   rules_text: Reveal cards from the top of your deck until you reveal a Stop, add that card to your hand and shuffle the others into your deck.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Wrap Around Wrist Lock
   db_uuid: 1863c003eba044b382ffc46278dd96b5
   srgpc_url: https://www.srgpc.net/cards/6/wrap-around-wrist-lock/
@@ -7948,7 +7967,7 @@
 
     When this card is in your discard pile and you roll Agility for your turn roll, you may add it to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Jumping Stomp
   db_uuid: 89f32ba6499a426d9b731c62f68c70f7
   srgpc_url: https://www.srgpc.net/cards/7/jumping-stomp/
@@ -7960,7 +7979,7 @@
 
     When this card is in your discard pile: When you roll Agility for your turn roll, you may put this card on top of your deck.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Kabuki
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
   srgpc_url: https://www.srgpc.net/cards/7/kabuki/
@@ -7994,7 +8013,7 @@
   deck_card_number: 7
   rules_text: Flip 2 cards or take 1 Follow Up from your discard pile and add it to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Ladder Uprising
   db_uuid: 2af58ceb7d284d3ab73c4fc88864c04c
   srgpc_url: https://www.srgpc.net/cards/7/ladder-uprising/
@@ -8094,7 +8113,7 @@
 
     Your maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Potion Uprising
   db_uuid: 9b059306ce624967ad27124a4d864c6e
   srgpc_url: https://www.srgpc.net/cards/7/potion-uprising/
@@ -8202,7 +8221,8 @@
 
     Shuffle 2 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Skull Punch
   db_uuid: 046871f823a645f6b514bfc4408c92a2
   srgpc_url: https://www.srgpc.net/cards/7/skull-punch/
@@ -8234,7 +8254,8 @@
 
     Your opponent reveals 1 card in their hand and buries it.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Standing Dropkick
   db_uuid: c97ea70d1df749f9873f3a85bad5af5a
   srgpc_url: https://www.srgpc.net/cards/7/standing-dropkick/
@@ -8246,7 +8267,7 @@
 
     When this card is in your discard pile and you roll Strike for your turn roll, you may add it to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Stomp in the Ropes
   db_uuid: 0a46f650115348f897ab665088cfabf5
   srgpc_url: https://www.srgpc.net/cards/7/stomp-in-the-ropes/
@@ -8258,7 +8279,7 @@
 
     When your opponent''s Gimmick would move any number of cards from their discard pile to any location, they are instead buried.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Surprise Hit (V1)
   db_uuid: 466176151ead41faab01e638ac550443
   srgpc_url: https://www.srgpc.net/cards/7/surprise-hit-v2/
@@ -8361,7 +8382,8 @@
 
     When your opponent''s Gimmick would move cards in their discard pile to any location, bury the cards instead.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Unacceptable Impact
   db_uuid: d25674b488a94ec7a5c4a6bb87623425
   srgpc_url: https://www.srgpc.net/cards/7/unacceptable-impact/
@@ -8416,7 +8438,8 @@
 
     When your opponent''s Gimmick would move cards in their discard pile to any location, bury the cards instead.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Airplane Spin
   db_uuid: 952ce1bfcc2e44e184ff066b66cbec68
   srgpc_url: https://www.srgpc.net/cards/8/airplane-spin/
@@ -8446,7 +8469,7 @@
   deck_card_number: 8
   rules_text: Flip 2 cards for each Lead you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Big Belly Suplex
   db_uuid: 13cf23c5fb354ce997e06905fcd54a45
   srgpc_url: https://www.srgpc.net/cards/8/big-belly-suplex/
@@ -8542,7 +8565,7 @@
 
     Your maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Diversion Drop
   db_uuid: 3322e541a84940838069802daf69270e
   srgpc_url: https://www.srgpc.net/cards/8/diversion-drop/
@@ -8643,7 +8666,7 @@
 
     When this card is in your discard pile and you roll Grapple for your turn roll, you may add it to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Guitar Uprising
   db_uuid: d2db83eedae445afa3dbf03483c6ed7b
   srgpc_url: https://www.srgpc.net/cards/8/guitar-uprising/
@@ -8668,7 +8691,7 @@
 
     When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Half-and-Half Suplex
   db_uuid: 2b813cf6984b4e6fbab456dd72f2ce3b
   srgpc_url: https://www.srgpc.net/cards/8/half-and-half-suplex/
@@ -8680,7 +8703,8 @@
 
     Your opponent reveals 1 card in their hand and buries it.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Jumping Suplex
   db_uuid: 6e50946143724e42a569e6d551a00f4a
   srgpc_url: https://www.srgpc.net/cards/8/jumping-suplex/
@@ -8690,7 +8714,7 @@
   deck_card_number: 8
   rules_text: The next time you roll Power for your turn roll, it is +2. When your opponent's Gimmick would move any number of cards from their discard pile to any location, they are instead buried.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Kabloow (V1)
   db_uuid: 4f5b73c6a84b465e89503efd000bfb11
   srgpc_url: https://www.srgpc.net/cards/8/kabloow/
@@ -8764,7 +8788,8 @@
 
     Shuffle 2 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Once More, With Feeling
   db_uuid: 89cd851ecd554ff9947dc12e66e241f4
   srgpc_url: https://www.srgpc.net/cards/8/once-more-with-feeling/
@@ -9029,7 +9054,7 @@
 
     When this card is in your discard pile: When you roll Power for your turn roll, you may put this card on top of your deck.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Tornado Chin Takedown (Grapple)
   db_uuid: 3c568a5653024a46ac9c591d15ba39f2
   srgpc_url: https://www.srgpc.net/cards/8/tornado-chin-takedown/
@@ -9232,7 +9257,7 @@
 
     When this card is in your discard pile: When you roll Technique for your turn roll, you may put this card on top of your deck.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Submission)
   db_uuid: f7c98b41634a4272be29f4bf8a37bc9f
   srgpc_url: https://www.srgpc.net/cards/9/chugga-chugga-chugga-chugga-chugga-chugga-chug-submission/
@@ -9339,7 +9364,7 @@
   deck_card_number: 9
   rules_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Submission from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Face Lift
   db_uuid: b78ef94a0e9a42a2baabc9a13cb28318
   srgpc_url: https://www.srgpc.net/cards/9/face-lift/
@@ -9369,7 +9394,8 @@
 
     Your opponent reveals 1 card in their hand and buries it.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Feeding Off the Crowd
   db_uuid: d928a2ccf4684c40a29a84a071a4361b
   srgpc_url: https://www.srgpc.net/cards/9/feeding-off-the-crowd/
@@ -9418,7 +9444,8 @@
 
     Shuffle 2 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Head Crush (V2)
   db_uuid: 9eb6cd7a7e3f47a798df2e9e9139623f
   card_type: MainDeckCard
@@ -9528,7 +9555,8 @@
 
     When your opponent''s Gimmick would move cards in their discard pile to any location, bury the cards instead.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Restoration Hand Shake
   db_uuid: ed6069fb980543e99c81de6e935d39e1
   srgpc_url: https://www.srgpc.net/cards/9/restoration-hand-shake
@@ -9585,7 +9613,7 @@
 
     When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Second Wind (V1)
   db_uuid: 70a21e643efe41ffbf9bf52ce9ad50af
   srgpc_url: https://www.srgpc.net/cards/9/second-wind-v2/
@@ -9659,7 +9687,7 @@
   deck_card_number: 9
   rules_text: Flip 2 cards or take 1 Follow Up from your discard pile and add it to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Stare Down
   db_uuid: f09fbf28f99c433ea44a384fbabdcac1
   srgpc_url: https://www.srgpc.net/cards/9/stare-down/
@@ -9697,7 +9725,7 @@
   deck_card_number: 9
   rules_text: The next time you roll Technique for your turn roll, it is +2. When your opponent's Gimmick would move any number of cards from their discard pile to any location, they are instead buried.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Submerge
   db_uuid: 89b7a3de1c354c20b2732998a1a7afd2
   srgpc_url: https://www.srgpc.net/cards/9/submerge/
@@ -9770,7 +9798,7 @@
 
     Your maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Wrist Lock (V1)
   db_uuid: 7b85fc98888f4c2fb9e61e6f9e79897a
   srg_url: https://supershowthegame.com/product/09-wrist-lock/
@@ -9965,7 +9993,7 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each Strike you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Chop to the Chest
   db_uuid: 7512f3831bdc407a8662a438a8959aec
   srgpc_url: https://www.srgpc.net/cards/10/chop-to-the-chest/
@@ -9975,7 +10003,7 @@
   deck_card_number: 10
   rules_text: Draw 1 card for each other Strike you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Chug From a Trash Can
   db_uuid: 27ca3fa5407c455c9fae6ef0e8820218
   srgpc_url: https://www.srgpc.net/cards/10/chug-from-a-trash-can/
@@ -10005,7 +10033,7 @@
   deck_card_number: 10
   rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Elbow to the Back
   db_uuid: 5dbfd3f1837a4a59ba5d512932ed0a79
   srgpc_url: https://www.srgpc.net/cards/10/elbow-to-the-back/
@@ -10017,7 +10045,8 @@
 
     Add 1 card to your hand, put the others back on the top or bottom of your deck in any order.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Enjoy Everything
   db_uuid: b3966e9db8ec46b3abd0921f281b77c0
   srgpc_url: https://www.srgpc.net/cards/10/enjoy-everything/
@@ -10227,7 +10256,8 @@
 
     You may flip any number of them, put the rest back on top in any order.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Kickback
   db_uuid: 13d3f206beec4be2b0b3f48427afbc3e
   srgpc_url: https://www.srgpc.net/cards/10/kickback/
@@ -10321,7 +10351,7 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Slap
   db_uuid: fe5e38698525485ea10e79fa1ec4f091
   srgpc_url: https://www.srgpc.net/cards/10/slap/
@@ -10349,7 +10379,7 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play, put 1 Finish Strike from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Steel Chain Punch
   db_uuid: 3838803665c74184aa4b3e8abf3b6fb9
   srgpc_url: https://www.srgpc.net/cards/10/steel-chain-punch/
@@ -10476,7 +10506,7 @@
   deck_card_number: 11
   rules_text: If you have another Lead in play, put 1 Finish Grapple from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Barrel of Monkeys
   db_uuid: b39135f34a1148e4a4b3e7dbe2b280e0
   srgpc_url: https://www.srgpc.net/cards/11/barrel-of-monkeys/
@@ -10593,7 +10623,7 @@
   deck_card_number: 11
   rules_text: Draw 1 card for each other Grapple you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Evening Up the Odds (Grapple)
   db_uuid: c0828ae2627a46bdb10824f36fbb1dc3
   srgpc_url: https://www.srgpc.net/cards/11/evening-up-the-odds/
@@ -10618,7 +10648,8 @@
 
     Add 1 card to your hand, put the others back on the top or bottom in any order.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Fisherman Buster
   db_uuid: 7324de4b18f348e9a7767c6eef279227
   srgpc_url: https://www.srgpc.net/cards/11/fisherman-buster/
@@ -10628,7 +10659,8 @@
   deck_card_number: 11
   rules_text: If you have another Lead in play, look at the top 3 cards of your opponent's deck. You may flip any number of them. Put the rest back on top in any order.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Gathering the Guitar
   db_uuid: 38c2d7bb526143dc95312006851ee36a
   srgpc_url: https://www.srgpc.net/cards/11/gathering-the-table/
@@ -10701,7 +10733,7 @@
   deck_card_number: 11
   rules_text: Your opponent's next turn roll is -1 for each other Lead you have in play.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Hello There
   db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
   srgpc_url: https://www.srgpc.net/cards/11/hello-there/
@@ -10740,7 +10772,7 @@
   deck_card_number: 11
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Legendary Looney Larping
   db_uuid: d9a355ebe9d74dd3a708206d0e14d46f
   srgpc_url: https://www.srgpc.net/cards/11/legendary-looney-larping/
@@ -10759,7 +10791,8 @@
   deck_card_number: 11
   rules_text: Draw 1 card for each Grapple you have in play, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Pouring It On (Technique)
   db_uuid: ba7c9b81d71c4d819b1af6f0b0ec68e5
   srgpc_url: https://www.srgpc.net/cards/11/pouring-it-on/
@@ -11056,7 +11089,7 @@
   deck_card_number: 12
   rules_text: Draw 1 card for each other Submission you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Arm Triangle (V1)
   db_uuid: 294b3521294e40998b86855213fd9473
   srgpc_url: https://www.srgpc.net/cards/12/arm-triangle-v2/
@@ -11111,7 +11144,8 @@
   deck_card_number: 12
   rules_text: Draw 1 card for each Submission you have in play, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Chicken Wing Crunch
   db_uuid: 90449e1418524da39dbce76f0947b2b8
   srgpc_url: https://www.srgpc.net/cards/12/chicken-wing-crunch/
@@ -11151,7 +11185,8 @@
 
     Add 1 card to your hand, put the others back on top or bottom of your deck in any order.'
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Dragon Screw
   db_uuid: 44db037fe3a8426ab2acba8b27933317
   srgpc_url: https://www.srgpc.net/cards/12/dragon-screw/
@@ -11170,7 +11205,8 @@
   deck_card_number: 12
   rules_text: If you have another Lead in play, look at the top 3 cards of your opponent's deck.  You may flip any number of them, put the rest back on top in any order.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Figure 4 Headlock
   db_uuid: 68bc0868f9ed4ec084574076fcd62bd8
   srgpc_url: https://www.srgpc.net/12-figure-4-headlock/
@@ -11189,7 +11225,7 @@
   deck_card_number: 12
   rules_text: If you have another Lead in play, put 1 Finish Submission from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Finger Lock Smash
   db_uuid: fc3f3f94d5584d7690ddc6412c062acb
   srgpc_url: https://www.srgpc.net/cards/12/finger-lock-smash/
@@ -11294,7 +11330,7 @@
   deck_card_number: 12
   rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: High Impact Choke
   db_uuid: e9d09554bd49443c93d040dfbb6b02f0
   srgpc_url: https://www.srgpc.net/cards/12/high-impact-choke/
@@ -11519,7 +11555,7 @@
   deck_card_number: 12
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Sundown Clutch
   db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
   srgpc_url: https://www.srgpc.net/cards/12/sundown-clutch/
@@ -11685,7 +11721,8 @@
   deck_card_number: 13
   rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Strike skill is greater than your opponent's Strike skill, stop any Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Boot to the Head
   db_uuid: b8175340989a4f8e9d9ba17deddfc0c7
   srgpc_url: https://www.srgpc.net/cards/13/boot-to-the-head/
@@ -12013,7 +12050,8 @@
   deck_card_number: 13
   rules_text: Add 1 Stop from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Kick Out of the Corner
   db_uuid: 456d0f5bfded45c283176adac4d7df91
   card_type: MainDeckCard
@@ -12024,7 +12062,7 @@
 
     If the Crowd Meter is 1 or greater and your Agility skill is greater than your opponents Agility skill, stop any Grapple.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Kidney Punch
   db_uuid: 4a8fb2f9c2bb4b94b145db24ac69a0de
   srgpc_url: https://www.srgpc.net/cards/13/kidney-punch/
@@ -12080,7 +12118,7 @@
   deck_card_number: 13
   rules_text: Look at the top 3 cards of your deck. Add 1 to your hand and bury the others.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Machine Gun Kicks
   db_uuid: f6ed9704d51a443e9642b127d444d960
   srgpc_url: https://www.srgpc.net/cards/13/machine-gun-kicks/
@@ -12108,7 +12146,8 @@
   deck_card_number: 13
   rules_text: Draw the bottom 2 cards of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
+    - Old School Wave 2
 - name: Mudhole Stomp
   db_uuid: f342f41e3c03433d96f40c7c4d9d2cdf
   srgpc_url: https://www.srgpc.net/cards/13/mudhole-stomp/
@@ -12191,7 +12230,7 @@
   deck_card_number: 13
   rules_text: If your Strike skill is greater than your opponent's Strike skill, stop any Grapple.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Schoolyard Beatdown
   db_uuid: 3a7a9ec83e884aab93012969d93d868f
   srgpc_url: https://www.srgpc.net/cards/13/schoolyard-beatdown/
@@ -12245,7 +12284,7 @@
   deck_card_number: 13
   rules_text: Draw cards equal to the Crowd Meter +1.
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Spinning Leg Lariat
   db_uuid: 3afe98c09ca64da58a244f3967ce0152
   srgpc_url: https://www.srgpc.net/cards/13/spinning-leg-lariat/
@@ -12257,7 +12296,7 @@
 
     The Crowd Meter is considered +1 for your effects.'
   tags:
-    - Old School
+    - Old School Wave 2
 - name: Splash (V1)
   db_uuid: 03d50027282f43efab49dc4ad1619f93
   srgpc_url: https://www.srgpc.net/cards/13/splash/
@@ -12673,7 +12712,7 @@
   deck_card_number: 14
   rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Grapple skill is greater than your opponent's Grapple skill, stop any Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Dangerous Slam
   db_uuid: aae536d617944eb8aff4133f0bcc5e47
   srgpc_url: https://www.srgpc.net/cards/14/dangerous-slam/
@@ -12705,7 +12744,7 @@
   deck_card_number: 14
   rules_text: If your Grapple skill is greater than your opponent's Grapple skill, stop any Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Delayed Atomic Drop
   db_uuid: bc0fd01e83ca4e4a9116a5b7e17e29ee
   srgpc_url: https://www.srgpc.net/cards/14/delayed-atomic-drop/
@@ -12715,7 +12754,7 @@
   deck_card_number: 14
   rules_text: Look at the top 3 cards of your deck, add 1 to your hand and bury the others.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Deranger
   db_uuid: df08d68cf0d141f199fffd6ade89ae5b
   srgpc_url: https://www.srgpc.net/cards/14/deranger/
@@ -12777,7 +12816,7 @@
   deck_card_number: 14
   rules_text: If your Power skill is greater than your opponent's Power skill, stop any Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Fisherman Suplex
   db_uuid: 1fcdaa5ac7814c0a97dcb2288e2e385b
   srgpc_url: https://www.srgpc.net/cards/14/fisherman-suplex/
@@ -13073,7 +13112,7 @@
   deck_card_number: 14
   rules_text: Draw the bottom 2 cards of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Sidewalk Slam
   db_uuid: fecbc4e795b64f4fa2dfede88382b4cd
   srgpc_url: https://www.srgpc.net/cards/14/sidewalk-slam/
@@ -13163,7 +13202,7 @@
   deck_card_number: 14
   rules_text: Add 1 Stop from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Springboard Stunner (Strike)
   db_uuid: f3c251dc6ed4452a8786cc4f5289b262
   card_type: MainDeckCard
@@ -13502,7 +13541,7 @@
   deck_card_number: 15
   rules_text: Draw the bottom 2 cards of your deck, then bury 1 card in your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Bootlegger
   db_uuid: 9f35fd3588694a779d0ba201b00ef334
   srgpc_url: https://www.srgpc.net/cards/15/bootlegger/
@@ -13523,7 +13562,7 @@
   deck_card_number: 15
   rules_text: If your Submission skill is greater than your opponent's Submission skill, stop any Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Capture Sleeper Hold (Technique)
   db_uuid: 052248bcf06740aeb41439fec8491033
   srgpc_url: https://www.srgpc.net/cards/15/capture-sleeper-hold/
@@ -13652,7 +13691,7 @@
   deck_card_number: 15
   rules_text: Look at the top 3 cards of your deck, add 1 to your hand and bury the others.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Full Nelson - Lariat
   db_uuid: 3c5b58beafcf454692ff93881e93f7ef
   srgpc_url: https://www.srgpc.net/cards/15/full-nelson-lariat/
@@ -13851,7 +13890,7 @@
   deck_card_number: 15
   rules_text: Draw 1 card or if the Crowd Meter is 1 or greater and your Submission skill is greater than your opponent's Submission skill, stop any Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Rope Break (Power)
   db_uuid: 6c66c8d3e2914481bfd9f713ad147732
   srgpc_url: https://www.srgpc.net/cards/15/rope-break/
@@ -13894,7 +13933,7 @@
   deck_card_number: 15
   rules_text: If your Technique skill is greater than your opponent's Technique skill, stop any Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Single Leg Torture Rack
   db_uuid: b20d03161a09413295974431d453682d
   srgpc_url: https://www.srgpc.net/cards/15/single-leg-torture-rack/
@@ -13904,7 +13943,7 @@
   deck_card_number: 15
   rules_text: Add 1 Stop from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Skull Shake
   db_uuid: 8219dd4eec8b47378860d9904da2bbf7
   srgpc_url: https://www.srgpc.net/cards/15/skull-shake/
@@ -14241,7 +14280,7 @@
   deck_card_number: 16
   rules_text: Draw 1 card for each other Strike you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Blindside Punch
   db_uuid: 0313d0b654fb4f2ebd271621049574d7
   srgpc_url: https://www.srgpc.net/cards/16/blindside-punch/
@@ -14292,7 +14331,7 @@
   deck_card_number: 16
   rules_text: If you have another Strike in play, look at the top 3 cards of your deck, add 1 to your hand and put the others back on top or bottom of your deck in any order.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Cosmic Dragon Knee
   db_uuid: 7f95a0203e0744ea9ad4c79d51fda577
   srgpc_url: https://www.srgpc.net/cards/16/cosmic-dragon-knee/
@@ -14342,7 +14381,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up in play your next turn roll is +2.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Diving Fist Drop
   db_uuid: 0c6338c085ca47609bad6c1b54bc6a89
   srgpc_url: https://www.srgpc.net/cards/16/diving-fist-drop/
@@ -14488,7 +14527,7 @@
   deck_card_number: 16
   rules_text: If you have another Strike in play, look at the top 3 cards of your opponent's deck. You may flip any number of them.  Put the others back on top in any order.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Flying Lariat (V1)
   db_uuid: 703acc4adba641c0b750a20072d761c0
   srgpc_url: https://www.srgpc.net/cards/16/flying-lariat-v2/
@@ -14657,7 +14696,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Shoulder Block
   db_uuid: 0f155a4dda1242de8d45dc5a019f0ca0
   srgpc_url: https://www.srgpc.net/cards/16/shoulder-block/
@@ -14875,7 +14914,7 @@
   deck_card_number: 16
   rules_text: If you have another Follow Up in play, put 1 card from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Top Rope Press
   db_uuid: 454585f3cf564e5b86ca064c30880dab
   srgpc_url: https://www.srgpc.net/cards/16/top-rope-press/
@@ -15096,7 +15135,7 @@
   deck_card_number: 17
   rules_text: If you have another Grapple in play, look at the top 3 cards of your opponent's deck. You may flip any number of them, put the others back on top in any order.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Diving Chin Drop
   db_uuid: e1a2e50589504b8f805c01c813de122a
   srgpc_url: https://www.srgpc.net/cards/17/diving-chin-drop/
@@ -15232,7 +15271,7 @@
   deck_card_number: 17
   rules_text: If you have another Follow Up in play, put 1 card from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Hanging Head Drop
   db_uuid: 64508f44a169466daa265a0779bfd300
   srgpc_url: https://www.srgpc.net/cards/17/hanging-head-drop/
@@ -15420,7 +15459,7 @@
   deck_card_number: 17
   rules_text: Draw 1 card for each other Grapple you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Screwdriver
   db_uuid: 456ccc4caaea427887c814db1a050067
   srgpc_url: https://srgpc.net/cards/17/screwdriver/
@@ -15473,7 +15512,7 @@
   deck_card_number: 17
   rules_text: If you have another Follow Up in play your next turn roll is +2.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Snap Tag
   db_uuid: 20de4ea2fed44e5d9ac9cb1267bafe31
   srgpc_url: https://www.srgpc.net/cards/17/snap-tag/
@@ -15502,7 +15541,7 @@
 
     Add 1 to your hand and put the others back on the top or bottom of your deck in any order.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Spanish Fly
   db_uuid: cb1a31774a6241b9b124c6e84a1109be
   srgpc_url: https://www.srgpc.net/cards/17/spanish-fly/
@@ -15521,7 +15560,7 @@
   deck_card_number: 17
   rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Stalling Suplex
   db_uuid: 26ada6097e3f4210bf1c9e4ec9fecfa4
   srgpc_url: https://www.srgpc.net/cards/17/stalling-suplex/
@@ -15672,7 +15711,7 @@
   deck_card_number: 18
   rules_text: If you have another Follow Up in play, put 1 card from your discard pile on top of your deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Ambush With the Ring Steps
   db_uuid: 5f54740ddfd740549edcfed0c90aa29e
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-ring-steps/
@@ -15753,7 +15792,7 @@
   deck_card_number: 18
   rules_text: If you have another Submission in play, look at the top 3 cards of your opopnent's deck, you may flip any number of them, put the others back on top in any order.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Berserker Dragon Rack
   db_uuid: 70d0fcda73894f7ebc517ef911523c48
   srgpc_url: https://www.srgpc.net/cards/18/berserker-dragon-rack/
@@ -15944,7 +15983,7 @@
   deck_card_number: 18
   rules_text: If you have another Follow Up in play your next turn roll is +2.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Head Crunch
   db_uuid: 4bdf6a555cf548f2a62dc2aaf16dc404
   srgpc_url: https://www.srgpc.net/cards/18/head-crunch/
@@ -16114,7 +16153,7 @@
   deck_card_number: 18
   rules_text: If you have another Submission in play, look at the top 3 cards of your deck.  Add 1 to your hand and put the others back on the top or bottom of your deck in any order.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Raid, Pillage, Plunder!
   db_uuid: 9af181175e344f1cbf7547ba901db706
   srgpc_url: https://www.srgpc.net/cards/18/raid-pillage-plunder-2/
@@ -16279,7 +16318,7 @@
   deck_card_number: 18
   rules_text: Draw 1 card for each other Submission you have in play.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Swinging Full Nelson
   db_uuid: 93bebf246f1d403dad1ed4db2c6a38e7
   srgpc_url: https://www.srgpc.net/cards/18/swinging-full-nelson/
@@ -16364,7 +16403,7 @@
   deck_card_number: 18
   rules_text: If you have another Follow Up in play, add 1 Finish from your discard pile to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Work the Leg
   db_uuid: f07e65b8ff3c4dbb86eebe0419ef192b
   srgpc_url: https://www.srgpc.net/cards/18/work-the-leg/
@@ -16562,7 +16601,7 @@
   deck_card_number: 19
   rules_text: Choose 1 or your skills; that skill is +1 during your turn and turn rolls.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Diving Headbutt
   db_uuid: aedf3e9b40f443a4a03b27a6a3b4f4fc
   srgpc_url: https://www.srgpc.net/cards/19/diving-headbutt/
@@ -16717,7 +16756,7 @@
 
     Draw 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Kick to the Head
   db_uuid: 98e8f4755d09437789683e66d554df7b
   srgpc_url: https://www.srgpc.net/cards/19/kick-to-the-head/
@@ -17050,7 +17089,7 @@
   deck_card_number: 19
   rules_text: Choose 2 cards your opponent has in play and discard them.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Spear
   db_uuid: 08f93887b1b94730956eec9d5f585935
   srgpc_url: https://www.srgpc.net/cards/19/spear/
@@ -17062,7 +17101,7 @@
 
     Discard 1 card your opponent has in play.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Spinning Clothesline
   db_uuid: 6d10cf457eb345f5b0592b2732479587
   srgpc_url: https://www.srgpc.net/cards/19/spinning-clothesline/
@@ -17191,7 +17230,7 @@
 
     Shuffle your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Trash-Bash-Smash
   db_uuid: 18ace5401c9341dbb1d2c7d4af2db6de
   srgpc_url: https://www.srgpc.net/cards/19/trash-bash-smash/
@@ -17429,7 +17468,7 @@
 
     Discard 1 card your opponent has in play.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Face Drop
   db_uuid: ed5cf4ca0e894ade85a603607a9b0693
   srgpc_url: https://www.srgpc.net/cards/20/face-drop/
@@ -17448,7 +17487,7 @@
   deck_card_number: 20
   rules_text: 'Choose 1 of your skills: that skill is +1 during your turn and turn rolls.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Full Nelson Slam
   db_uuid: 55c21d26ec0344dba65c1679e7176f50
   srgpc_url: https://www.srgpc.net/cards/20/full-nelson-slam/
@@ -17528,7 +17567,7 @@
   deck_card_number: 20
   rules_text: Choose 2 cards your opponent has in play and discard them.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Irish Spinebreaker
   db_uuid: bfaea3fadce0443595b5c7b1e5ff32f6
   srgpc_url: https://www.srgpc.net/cards/20/irish-spinebreaker/
@@ -17592,7 +17631,7 @@
   deck_card_number: 20
   rules_text: If your opponent has another Submission in play, stop any Submission.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Never Backing Down
   db_uuid: c129fe5ea83c4caa97af3118a23e00a1
   card_type: MainDeckCard
@@ -17745,7 +17784,7 @@
 
     Draw 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Slam Out of the Ring
   db_uuid: 81dc3e518aaa4998a1d2ece11c417b23
   srgpc_url: https://www.srgpc.net/cards/20/slam-out-of-the-ring/
@@ -17805,7 +17844,7 @@
 
     Shuffle your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Sunshine Buster
   db_uuid: e994f5d689024f61a883a1d668438e0b
   srgpc_url: https://www.srgpc.net/cards/20/sunshine-buster/
@@ -18152,7 +18191,7 @@
   deck_card_number: 21
   rules_text: Choose 2 cards your opponent has in play and discard them.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Elbow Buster
   db_uuid: 3243db183881488e86786d9c383d0d7b
   srgpc_url: https://www.srgpc.net/cards/21/elbow-buster/
@@ -18229,7 +18268,7 @@
 
     Draw 1 card.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Head and Arm Vice (V1)
   db_uuid: 6c091a30f945425f985df86c8533572b
   srgpc_url: https://www.srgpc.net/cards/21/head-and-arm-vice/
@@ -18262,7 +18301,7 @@
 
     Discard 1 card your opponent has in play.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Head Twist
   db_uuid: 553dd8b1f03d4c109300c865436e79f7
   srgpc_url: https://www.srgpc.net/cards/21/head-twist/
@@ -18400,7 +18439,7 @@
   deck_card_number: 21
   rules_text: If your opponent has another Strike card in play, stop any Strike.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Leg Scissors
   db_uuid: 1bdf3a83e0784c0d97854daa2557392f
   srgpc_url: https://www.srgpc.net/cards/21/leg-scissors/
@@ -18577,7 +18616,7 @@
 
     Shuffle your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Shoulder Assault
   db_uuid: 40c6341d71314bcdba7fe3199634be0f
   srgpc_url: https://www.srgpc.net/cards/21/shoulder-assault/
@@ -18626,7 +18665,7 @@
   deck_card_number: 21
   rules_text: 'Choose 1 of your skills: That skill is +1 during your turn and turn rolls.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: 'Stone Skin Potion #21 (V2)'
   db_uuid: 0c31c2726f1d406b871a4912d2aa5c99
   srgpc_url: https://www.srgpc.net/cards/21/stone-skin-potion-21-2/
@@ -18930,7 +18969,7 @@
   deck_card_number: 22
   rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Clothesline Over the Top Rope
   db_uuid: e7673ba0474049f38229a78f4495d455
   srgpc_url: https://www.srgpc.net/cards/22/clothesline-over-the-top-rope/
@@ -18992,7 +19031,7 @@
   deck_card_number: 22
   rules_text: Draw 3 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Diving Knee Drop (Strike)
   db_uuid: 6119d008eaaa4f57b9a9087178909feb
   srgpc_url: https://www.srgpc.net/cards/22/diving-knee-drop/
@@ -19028,7 +19067,7 @@
 
     Shuffle up to 6 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Double Jump Knee Strike
   db_uuid: 50229c75e12049f19aa6f2425d12c47d
   srgpc_url: https://www.srgpc.net/cards/22/double-knee-strike/
@@ -19120,7 +19159,7 @@
   deck_card_number: 22
   rules_text: Search your deck or discard pile for 1 Strike, put it on top of your shuffled deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: High Impact Forearm Smash
   db_uuid: 2d982259fe324a51a5b55eeb8de4f736
   srgpc_url: https://www.srgpc.net/cards/22/high-impact-forearm-smash/
@@ -19555,7 +19594,7 @@
 
     Add 1 card from your discard pile to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Taking Candy From a Man!
   db_uuid: 3f53ab0fef934963b1c29d880378b6f0
   srgpc_url: https://www.srgpc.net/cards/22/taking-candy-from-a-man/
@@ -19748,7 +19787,7 @@
   deck_card_number: 23
   rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Backpack Stunner
   db_uuid: 27d82c02fd3243c3adaeece475b62d62
   srgpc_url: https://www.srgpc.net/cards/23/backpack-stunner/
@@ -19881,7 +19920,7 @@
   deck_card_number: 23
   rules_text: Search your deck or discard pile for a Grapple, put it on top of your shuffled deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Drag Out of the Ring (V1)
   db_uuid: 37101e87902140d68983dce03f1fbb23
   srgpc_url: https://www.srgpc.net/cards/23/drag-out-of-the-ring/
@@ -20191,7 +20230,7 @@
 
     Add 1 card from your discard pile to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Pizza Toss (Power)
   db_uuid: 187971b3e7dd4e1ea94a4e388139a2b6
   srgpc_url: https://www.srgpc.net/cards/23/pizza-toss/
@@ -20216,7 +20255,7 @@
 
     Shuffle up to 6 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Powerbomb (Power)
   db_uuid: 73d02e53f7f745a0aba77497b5898f5d
   srgpc_url: https://www.srgpc.net/cards/23/powerbomb/
@@ -20392,7 +20431,7 @@
   deck_card_number: 23
   rules_text: Draw 3 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Super Sonic Slam
   db_uuid: b8c91f7ca1a64dfaa8f68b5681e00933
   srgpc_url: https://www.srgpc.net/cards/23/super-sonic-slam/
@@ -20461,7 +20500,7 @@
   deck_card_number: 23
   rules_text: Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Top Rope Drop
   db_uuid: 88b3f3705fd544cf876553cf9103cdd7
   srgpc_url: https://www.srgpc.net/cards/23/top-rope-drop/
@@ -20643,7 +20682,7 @@
   deck_card_number: 24
   rules_text: Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Bulldog Choke
   db_uuid: ec17bac0447d4848a0cb90a96a502ef9
   srgpc_url: https://www.srgpc.net/cards/24/bulldog-choke/
@@ -20718,7 +20757,7 @@
   deck_card_number: 24
   rules_text: Search your deck or discard pile for 1 Submission, put it on top of your shuffled deck.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Crossbow (V2)
   db_uuid: 1520cc8877ce469cad7b69f8de85484f
   card_type: MainDeckCard
@@ -20905,7 +20944,7 @@
   deck_card_number: 24
   rules_text: Draw 3 cards.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Hold 'Em And Hog Tie 'Em
   db_uuid: ceb9bdd8d57c49f49a129d1904ddf274
   srgpc_url: https://www.srgpc.net/cards/24/hold-em-and-hog-tie-em/
@@ -21234,7 +21273,7 @@
 
     Add 1 card from your discard pile to your hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Straightjacket Choke
   db_uuid: 110cfb4efaef4e02a5ea49ccb920d415
   srgpc_url: https://www.srgpc.net/cards/24/straightjacket-choke/
@@ -21246,7 +21285,7 @@
 
     Shuffle up to 6 cards from your discard pile into your deck.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Strangle Hold
   db_uuid: 124a1a8b34ba43c69b79c5868bbaf0cc
   srgpc_url: https://www.srgpc.net/cards/24/strangle-hold/
@@ -21256,7 +21295,7 @@
   deck_card_number: 24
   rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Super Dragon Leg Twist (Submission)
   db_uuid: 5f1b5cb33c2c4ecd8915002f5a69961e
   srgpc_url: https://www.srgpc.net/cards/24/super-dragon-leg-twist/
@@ -21644,7 +21683,7 @@
   deck_card_number: 25
   rules_text: Stop any Grapple card.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Elbow to the Face
   db_uuid: 8d55705bf5c9439f90a199405c5c3875
   srgpc_url: https://www.srgpc.net/cards/25/elbow-to-the-face/
@@ -21656,7 +21695,7 @@
 
     Your next turn roll is +1.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Gamengiri
   db_uuid: 098b843196b3432a84a4c4b184df905e
   srgpc_url: https://www.srgpc.net/cards/25/gamengiri/
@@ -21668,7 +21707,7 @@
 
     You may re-roll your next turn roll.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Head Stomp (V1)
   db_uuid: 1b911719eecb49e7ae10343b3ab1c913
   srgpc_url: https://www.srgpc.net/cards/25/head-stomp-v2/
@@ -21732,7 +21771,7 @@
   deck_card_number: 25
   rules_text: Each opponent's Gimmick is blank.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Lunge Punch
   db_uuid: c4eafe4f020a4014be35ac77d34a14f1
   srgpc_url: https://www.srgpc.net/cards/25/lunge-punch/
@@ -21822,7 +21861,7 @@
 
     Your opponent randomly buries 2 cards in their hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Shotgun Kick
   db_uuid: 7b9a65cc871e43da941d8a30f01113cb
   srgpc_url: https://www.srgpc.net/cards/25/shotgun-kick/
@@ -21876,7 +21915,7 @@
 
     Each player''s maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Strike a Pose, Snap a Selfie
   db_uuid: 829c591a0f1d4b358521ebcb9ae79c24
   srgpc_url: https://www.srgpc.net/cards/25/strike-a-pose-snap-a-selfie/
@@ -22133,7 +22172,7 @@
 
     Your opponent randomly buries 2 cards in their hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Boss Toss
   db_uuid: a397c49383af4d25ae65f5403f9d4cb2
   srgpc_url: https://www.srgpc.net/cards/26/boss-toss/
@@ -22246,7 +22285,7 @@
   deck_card_number: 26
   rules_text: Your opponent's Gimmick is blank.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Dirty Tactics
   db_uuid: 88ccf0b256634675ad22a37b06070cc8
   srgpc_url: https://www.srgpc.net/cards/26/dirty-tactics/
@@ -22380,7 +22419,7 @@
   deck_card_number: 26
   rules_text: Stop any Submission card.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Finishing Off The Buddy Building
   db_uuid: 479919d069a64fd18c98ba9ad2508a03
   srgpc_url: https://www.srgpc.net/cards/26/finishing-off-the-buddy-building/
@@ -22476,7 +22515,7 @@
 
     Each player''s maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Roll Through
   db_uuid: c46c1d9c3900428f91150a6aec763cf6
   srgpc_url: https://www.srgpc.net/cards/26/roll-through/
@@ -22556,7 +22595,7 @@
 
     Your next turn roll is +1.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Snap DDT (#26)
   db_uuid: 555e5e9756ca4bf19d797bb8b469a0f1
   srg_url: https://supershowthegame.com/product/26-snap-ddt/
@@ -22616,7 +22655,7 @@
 
     You may re-roll your next turn roll.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Sunset Flip
   db_uuid: 3075cfddb10043ddabf973a8785af7c0
   srgpc_url: https://www.srgpc.net/cards/26/sunset-flip/
@@ -22786,7 +22825,7 @@
   deck_card_number: 27
   rules_text: Your opponent's Gimmick is blank.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Boston Crab
   db_uuid: 7c0c16f90aa14db5a4bb88fa9e584219
   srgpc_url: https://www.srgpc.net/cards/27/boston-crab/
@@ -22798,7 +22837,7 @@
 
     You may re-roll your next turn roll.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Chicken Wing (V1)
   db_uuid: 4dd6e0a7ece74564844f4b230cce4a69
   srgpc_url: https://www.srgpc.net/cards/27/chicken-wing-2/
@@ -22847,7 +22886,8 @@
   rules_text: 'Look at your opponent''s hand, choose 1 card and bury it.
 
     Your next turn roll is +1.'
-  tags: []
+  tags:
+    - Old School Wave 1
 - name: Diving Choke
   db_uuid: bea521ab20944c69a87ac4fab183e259
   srgpc_url: https://www.srgpc.net/cards/27/diving-choke/
@@ -22868,7 +22908,7 @@
   deck_card_number: 27
   rules_text: Stop any Strike card.
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Double Body Bender
   db_uuid: e280c041b6464f53967d65b3c7c17217
   srgpc_url: https://www.srgpc.net/cards/27/double-body-bender/
@@ -23049,7 +23089,7 @@
 
     Your opponent randomly buries 2 cards in their hand.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: King's Clutch
   db_uuid: a38160d99d954d29abbe9a256793f2bf
   srgpc_url: https://www.srgpc.net/cards/27/kings-clutch/
@@ -23094,7 +23134,7 @@
 
     Each player''s maximum handsize is +1.'
   tags:
-    - Old School
+    - Old School Wave 1
 - name: Rolling Armbar
   db_uuid: ee907792472a4d3d8e690fd399ae04f7
   srgpc_url: https://www.srgpc.net/cards/27/rolling-armbar/

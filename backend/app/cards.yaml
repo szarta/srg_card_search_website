@@ -40233,6 +40233,7 @@
     - 9d8401a397c242159ed1b01385439f73
 - name: Everyone's Enemy (Scallywag)
   db_uuid: a447d6f29dfb49bea3c66717163ca459
+  card_type: SingleCompetitorCard
   power: 8
   technique: 6
   agility: 10

@@ -51691,6 +51691,56 @@
   grapple: 5
   rules_text: When you roll Technique, your opponent draws 1 card then randomly discards 1 card from their hand.
   tags: []
+  related_finishes:
+    - b3c87cd23268426fbfa23ac3c33c082e
+    - 918bbe9f36db423ebf9d1f93d7c5ced7
+    - a7a56494342244dc828029fb4e9c35b2
+- name: The Retrograde
+  db_uuid: b3c87cd23268426fbfa23ac3c33c082e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Draw 2 cards.
+
+    Your opponent''s maximum handsize is 3.'
+  tags: []
+  related_cards:
+    - 0a5c355b041a4cf6bd2b78d9549d162f
+- name: The Mariner's Mission
+  db_uuid: 918bbe9f36db423ebf9d1f93d7c5ced7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +2 to Grapple
+
+    Each player flips 4 cards.'
+  tags: []
+  related_cards:
+    - 0a5c355b041a4cf6bd2b78d9549d162f
+- name: Apollodorus Spider
+  db_uuid: a7a56494342244dc828029fb4e9c35b2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +3 to Grapple
+
+    Your opponent draws 2 cards, then randomly discards 3 cards from their hand.'
+  tags: []
+  related_cards:
+    - 0a5c355b041a4cf6bd2b78d9549d162f
 - name: Merlin von Berlin
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
   card_type: SingleCompetitorCard

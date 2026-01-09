@@ -29259,7 +29259,7 @@
   related_finishes:
     - 9e58305626554e9caf7dc101d5920c3e
     - b10575053f8a4750a44e1ed4d0a21b5d
-    - e26b1b54b610493b9fbe997986f5f9fa
+    - c37e48abe151472d939bdf1ce733222e
 - name: D3 (V1)
   db_uuid: 91c51b9ed3e14a0582f050716596dbd6
   srgpc_url: https://www.srgpc.net/cards/competitors/d3/
@@ -70179,6 +70179,19 @@
     +2 to Technique
 
     If the Crowd Meter is 2 or greater and you have 0 cards in play, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 3cc05805288f4e449952b5d86889671f
+    - f54e8cac51c34f5b88b0b5fee2c87ce7
+- name: 'Yeong-Wonhan Gomun: Eternal Torture'
+  db_uuid: c37e48abe151472d939bdf1ce733222e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    Your opponent buries cards equal to the Crowd Meter +1 or draw cards equal to the Crowd Meter +1.'
   tags: []
   related_cards:
     - 3cc05805288f4e449952b5d86889671f

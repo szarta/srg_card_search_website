@@ -25817,6 +25817,7 @@
   tags: []
 - name: Medieval Prankster
   db_uuid: e755c2ad5f77435e81fd8ab9e8d8607a
+  srgpc_url: https://www.srgpc.net/cards/competitors/medieval-prankster/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 5
@@ -25827,6 +25828,54 @@
   grapple: 7
   rules_text: When your card is stopped, you may switch it with a card in your hand of the same card and move type, that card is stopped instead.
   tags: []
+  related_finishes:
+    - f0d39efe552a4e598e2f86ba449ba345
+    - 4de7c17392464a43ba757d4614607678
+    - d47b00fb708146c3978384dd75572358
+- name: 1 Jump, 1 Whistle & 1 Fart
+  db_uuid: f0d39efe552a4e598e2f86ba449ba345
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    +1 to Submission
+
+    Choose 1 card in your discard pile and shuffle it into your hand.'
+  tags: []
+  related_cards:
+    - e755c2ad5f77435e81fd8ab9e8d8607a
+- name: I Got Your Nose!
+  db_uuid: 4de7c17392464a43ba757d4614607678
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    Look at your opponent''s hand, choose 3 cards and put them back in your opponent''s hand.'
+  tags: []
+  related_cards:
+    - e755c2ad5f77435e81fd8ab9e8d8607a
+- name: Le Petour
+  db_uuid: d47b00fb708146c3978384dd75572358
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +1 to Submission
+
+    Reveal your discard pile to your opponent.'
+  tags: []
+  related_cards:
+    - e755c2ad5f77435e81fd8ab9e8d8607a
 - name: Style-O
   db_uuid: 3a339cbb71034a018931acc6c0779192
   card_type: SingleCompetitorCard
@@ -49162,6 +49211,8 @@
     - a091ae67a3f04efc91322bd1170d0279
     - ff0ac97f72cf46b4a4861e37f540e231
     - f51220f40c7248d7bb50d2a67bc67728
+    - d9565c0167304dc4a11a39d9c223644e
+    - e5c31549c9914d599937847c821ff703
 - name: Macho Manny Elbow Drop
   db_uuid: a091ae67a3f04efc91322bd1170d0279
   card_type: MainDeckCard
@@ -49218,6 +49269,8 @@
 
     If your opponent re-rolled their last turn roll, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - a09bc1774f984c6287207df2a01a4eee
 - name: The Sasketchewan Spinning Nerve Hold (V2)
   db_uuid: e5c31549c9914d599937847c821ff703
   card_type: MainDeckCard
@@ -49230,6 +49283,8 @@
 
     When this card is in your discard pile and your opponent re-rolls their turn roll, their turn roll is -1.'
   tags: []
+  related_cards:
+    - a09bc1774f984c6287207df2a01a4eee
 - name: Mack-a-Tack
   db_uuid: 202418b1360d433daf406ee61bfd8e2f
   srgpc_url: https://www.srgpc.net/cards/competitors/mack-a-tack/
@@ -50549,6 +50604,7 @@
     - Pineapple
 - name: Matt Riddle
   db_uuid: aa1e474b9d2441aea8bf0a42e28083a1
+  srgpc_url: https://www.srgpc.net/cards/competitors/matt-riddle/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -50925,6 +50981,7 @@
     - d7de2a59d5f04f41968fca33387c4304
 - name: Maverick Jones
   db_uuid: 2623ddc1710a4c7a957df30c6fe44b88
+  srgpc_url: https://www.srgpc.net/cards/competitors/maverick-jones/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -50996,6 +51053,7 @@
     - 2623ddc1710a4c7a957df30c6fe44b88
 - name: Mayhem
   db_uuid: 1fa9269b638b43ffa7d853907bf75f2d
+  srgpc_url: https://www.srgpc.net/cards/competitors/mayhem/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -51055,6 +51113,7 @@
     - 1fa9269b638b43ffa7d853907bf75f2d
 - name: Meeple's Champion (V1)
   db_uuid: 7d6b5c3f0cfd4d7eba9f32935aa9664c
+  srgpc_url: https://www.srgpc.net/cards/competitors/meeples-champion/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -51068,8 +51127,19 @@
   tags: []
   wants_keywords:
     - Drop
+  related_finishes:
+    - d7eab0f0fa72491d8f30c43868b5b64f
+    - e9cb45033e004269b5302680800b1a4a
+    - 6f547588c3514bb88467f99aa0cc1f2c
+    - 68e5f2566e494db4b9d7bc39b002ef81
+    - cfb81b9b00444b03aeb782da3538c96d
+    - 3f58e20fb0c544a4b957e07faedfbc39
+    - 834d9c4b7bd648d1aae08e77a62423b9
+    - 68bacacd097c475681ab4b77c2195e01
+    - 01e368d626c24b39a63a2604c087917e
 - name: Meeple's Champion (V2)
   db_uuid: fe65f8f490b14ffdaca7c80756e652f6
+  srgpc_url: https://www.srgpc.net/competitor/meeples-champion-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -51084,8 +51154,19 @@
   wants_keywords:
     - Board
     - Game
+  related_finishes:
+    - d7eab0f0fa72491d8f30c43868b5b64f
+    - e9cb45033e004269b5302680800b1a4a
+    - 6f547588c3514bb88467f99aa0cc1f2c
+    - 68e5f2566e494db4b9d7bc39b002ef81
+    - cfb81b9b00444b03aeb782da3538c96d
+    - 3f58e20fb0c544a4b957e07faedfbc39
+    - 834d9c4b7bd648d1aae08e77a62423b9
+    - 68bacacd097c475681ab4b77c2195e01
+    - 01e368d626c24b39a63a2604c087917e
 - name: The Meeple's Unholy Union
   db_uuid: 44630c22a56448b9a0f6af124078364d
+  srgpc_url: https://www.srgpc.net/competitors/the-meeples-unholy-union/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Ambiguous
@@ -51097,6 +51178,16 @@
   grapple: 10
   rules_text: When your opponent uses their Gimmick from a roll, hitting a card, or added text, copy that effect.
   tags: []
+  related_finishes:
+    - d7eab0f0fa72491d8f30c43868b5b64f
+    - e9cb45033e004269b5302680800b1a4a
+    - 6f547588c3514bb88467f99aa0cc1f2c
+    - 68e5f2566e494db4b9d7bc39b002ef81
+    - cfb81b9b00444b03aeb782da3538c96d
+    - 3f58e20fb0c544a4b957e07faedfbc39
+    - 834d9c4b7bd648d1aae08e77a62423b9
+    - 68bacacd097c475681ab4b77c2195e01
+    - 01e368d626c24b39a63a2604c087917e
 - name: The Victory Point
   db_uuid: d7eab0f0fa72491d8f30c43868b5b64f
   card_type: MainDeckCard
@@ -51107,6 +51198,10 @@
 
     If you have 7 or more cards in play than your opponent, stop any Finish Grapple.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: Board Control
   db_uuid: e9cb45033e004269b5302680800b1a4a
   card_type: MainDeckCard
@@ -51119,6 +51214,10 @@
 
     If stopped, you may put this card into play or discard 1 card your opponent has in play.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: Game Changer Drop
   db_uuid: 6f547588c3514bb88467f99aa0cc1f2c
   card_type: MainDeckCard
@@ -51131,6 +51230,10 @@
 
     Your Agility is +1 for each card you have in play with "Board" or "Game" in the name.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
   wants_keywords:
     - Board
     - Game
@@ -51144,6 +51247,10 @@
 
     When this card is in your discard pile:  Your "Meeple''s Champion" cards have the added text "Your Finish rolls are +1 and if stopped, you lose the match via disqualification."'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: Meeple Raises an Army
   db_uuid: cfb81b9b00444b03aeb782da3538c96d
   card_type: MainDeckCard
@@ -51160,6 +51267,10 @@
 
     If you used your Gimmick last turn or turn roll, double these bonuses.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: Don't Be a Scab
   db_uuid: 3f58e20fb0c544a4b957e07faedfbc39
   card_type: MainDeckCard
@@ -51172,6 +51283,10 @@
 
     Your opponent''s maximum handsize is 3.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: The Power Play
   db_uuid: 834d9c4b7bd648d1aae08e77a62423b9
   card_type: MainDeckCard
@@ -51184,6 +51299,10 @@
 
     Your opponent discards 1 card from their hand for each card you have in play with "Drop" in the name.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
   wants_keywords:
     - Drop
 - name: The T-50
@@ -51198,6 +51317,10 @@
 
     Once per turn: You may force your opponent to re-roll a Breakout roll.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: The Board Battle
   db_uuid: 01e368d626c24b39a63a2604c087917e
   card_type: MainDeckCard
@@ -51210,6 +51333,10 @@
 
     Your opponent flips the same number of cards.'
   tags: []
+  related_cards:
+    - 7d6b5c3f0cfd4d7eba9f32935aa9664c
+    - fe65f8f490b14ffdaca7c80756e652f6
+    - 44630c22a56448b9a0f6af124078364d
 - name: Memes Dealer (V1)
   db_uuid: 2812975b494f480eb69153836f76e68a
   card_type: SingleCompetitorCard

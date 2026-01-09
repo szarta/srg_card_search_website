@@ -48829,6 +48829,7 @@
     - 72b5e77d43f04fa698236a65d51bde24
 - name: Lucky Cat Neko
   db_uuid: ae3cdcd74b344ff18c243ef4db74de12
+  srgpc_url: https://www.srgpc.net/cards/competitors/lucky-cat-neko/
   card_type: SingleCompetitorCard
   division: United States
   power: 6
@@ -55116,6 +55117,7 @@
 - name: The Psychiatrist Luna Bellatrix
   db_uuid: b9ba2975954f4804b291b5bb36cef3f0
   srg_url: https://supershowthegame.com/product/luna-bellatrix-new/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-psychiatrist-luna-bellatrix/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Female
@@ -73406,18 +73408,6 @@
   tags: []
   related_cards:
     - 4ad41a329cc34e20a0a6b3d89665f88d
-- name: Luna Bellatrix
-  db_uuid: d90fee46244b40f8a966ed1be71aeb7f
-  srg_url: https://supershowthegame.com/product/luna-bellatrix-new/
-  card_type: SingleCompetitorCard
-  power: 8
-  technique: 5
-  agility: 7
-  strike: 10
-  submission: 6
-  grapple: 9
-  rules_text: When your turn roll is 1 less than your target's turn roll, your target randomly buries 1 card in their hand.
-  tags: []
 - name: Zach the Highest One
   db_uuid: 2a98a1c0a7d547829ef36758becd91c8
   card_type: SingleCompetitorCard

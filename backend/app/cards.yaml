@@ -29043,7 +29043,7 @@
   related_cards:
     - 3fbecda1ffc64b9fa731e5b06f260e33
     - 6b9d7c1228594225b3f26e68ec5c2fc6
-- name: The Shark's Fin
+- name: The Shark's Fin (Shaggy Shark)
   db_uuid: 10980015a5b84f30885050248f00fae3
   card_type: MainDeckCard
   atk_type: Submission
@@ -47405,6 +47405,7 @@
   tags: []
   related_cards:
     - 2a686043f4ae434ab26a14adaf168625
+    - 3cc05805288f4e449952b5d86889671f
 - name: Le Penguin (V1)
   db_uuid: 9cbb880d1b93435f9db7624ad7eb90c9
   srg_url: https://supershowthegame.com/product/le-penguin/
@@ -49834,7 +49835,7 @@
   related_cards:
     - f9ad1426f01248fa90316c0410fd524b
     - a65cebf0b6ce40158c7d786af90a5e1d
-- name: The Shark's Fin
+- name: The Shark's Fin (Mark the Shark)
   db_uuid: e86991d6fbba4b56b514368426828095
   card_type: MainDeckCard
   atk_type: Submission
@@ -70146,10 +70147,10 @@
   related_finishes:
     - 9e58305626554e9caf7dc101d5920c3e
     - b10575053f8a4750a44e1ed4d0a21b5d
-    - e26b1b54b610493b9fbe997986f5f9fa
     - f17df0c2772e4a62819e90e7c90ed893
     - df4a7e8e8f6a4b8caa87c2234938f6ee
     - 00ba26808be048f1812d581a65b46adb
+    - 9ba25c0ed57947d8b35ea9f30da70094
   wants_keywords:
     - Shot
 - name: 'Jeugusa: Death Strike'
@@ -70178,21 +70179,6 @@
     +2 to Technique
 
     If the Crowd Meter is 2 or greater and you have 0 cards in play, stop any Finish Submission.'
-  tags: []
-  related_cards:
-    - 3cc05805288f4e449952b5d86889671f
-    - f54e8cac51c34f5b88b0b5fee2c87ce7
-- name: Justice is Served
-  db_uuid: e26b1b54b610493b9fbe997986f5f9fa
-  card_type: MainDeckCard
-  atk_type: Submission
-  play_order: Finish
-  deck_card_number: 30
-  rules_text: '+2 to Technique
-
-    +3 to Agility
-
-    Draw 2 cards. Your opponent buries 1 card in their hand.'
   tags: []
   related_cards:
     - 3cc05805288f4e449952b5d86889671f

@@ -48346,6 +48346,7 @@
     - a3dc1cd621024041800ecfc693c48b89
 - name: Lone Bear and Cub
   db_uuid: 4acf043a506344ebbf95aa8c006b1dde
+  srgpc_url: https://www.srgpc.net/cards/competitors/lone-bear-and-cub/
   card_type: SingleCompetitorCard
   division: United States
   power: 5
@@ -48400,6 +48401,7 @@
     - 4acf043a506344ebbf95aa8c006b1dde
 - name: Lonestar
   db_uuid: b9371784bd32450993c3b7574677c3c7
+  srgpc_url: https://www.srgpc.net/cards/competitors/lonestar/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -48467,6 +48469,7 @@
     - Breaker
 - name: Lord Garruth
   db_uuid: 411450337c044fafaa3188e60e721a92
+  srgpc_url: https://www.srgpc.net/cards/competitors/lord-garruth/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 9

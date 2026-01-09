@@ -48966,6 +48966,7 @@
     - Stunner
 - name: Lunatic Ginge (V1)
   db_uuid: 989286521bff469094dffc72fdfba974
+  srgpc_url: https://www.srgpc.net/cards/competitors/lunatic-ginge/
   card_type: SingleCompetitorCard
   gender: Male
   power: 7
@@ -48976,10 +48977,17 @@
   grapple: 8
   rules_text: 'When your opponent hits Strike or Grapple Finish: you may discard 2 cards from your hand, if either of those cards had "Suplex" in the name your first breakout roll is +4.'
   tags: []
+  related_finishes:
+    - 7d619f0160d84ba4917c3080288fe93b
+    - 295bf075e14549a0a05999904d244a94
+    - 0d1be16ed20948a89396659750d4c278
+    - 19d33bbbd9c14a0db7e30e80a6467ba3
+    - 9aad4044cb3e4cbc834271b9a0440299
   wants_keywords:
     - Suplex
 - name: Lunatic Ginge (V2)
   db_uuid: b397df77cb2e41dfb0158888cbd7bc9b
+  srgpc_url: https://www.srgpc.net/cards/competitors/lunatic-ginge/
   card_type: SingleCompetitorCard
   gender: Male
   power: 8
@@ -48997,6 +49005,7 @@
     - 295bf075e14549a0a05999904d244a94
     - 0d1be16ed20948a89396659750d4c278
     - 19d33bbbd9c14a0db7e30e80a6467ba3
+    - 9aad4044cb3e4cbc834271b9a0440299
   wants_keywords:
     - Suplex
 - name: Wild Airline
@@ -49012,6 +49021,7 @@
     Draw the bottom 2 cards of your deck.'
   tags: []
   related_cards:
+    - 989286521bff469094dffc72fdfba974
     - b397df77cb2e41dfb0158888cbd7bc9b
 - name: Jackknife Suplex
   db_uuid: 295bf075e14549a0a05999904d244a94
@@ -49026,6 +49036,7 @@
     When this card is in your discard pile and you hit a card with "Suplex" in the name, you may shuffle this card into your deck.'
   tags: []
   related_cards:
+    - 989286521bff469094dffc72fdfba974
     - b397df77cb2e41dfb0158888cbd7bc9b
   wants_keywords:
     - Suplex
@@ -49042,10 +49053,26 @@
     When you have a card in play with "Suplex" in the name, your opponent gets 2 Breakout rolls.'
   tags: []
   related_cards:
+    - 989286521bff469094dffc72fdfba974
     - b397df77cb2e41dfb0158888cbd7bc9b
   wants_keywords:
     - Suplex
-- name: Forced Into Gear
+- name: Forced Into Gear (V1)
+  db_uuid: 9aad4044cb3e4cbc834271b9a0440299
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    You may discard a card from your hand to blank the text of a Strike played until the end of the turn.'
+  tags: []
+  related_cards:
+    - 989286521bff469094dffc72fdfba974
+    - b397df77cb2e41dfb0158888cbd7bc9b
+- name: Forced Into Gear (V2)
   db_uuid: 19d33bbbd9c14a0db7e30e80a6467ba3
   card_type: MainDeckCard
   atk_type: Submission
@@ -49058,6 +49085,7 @@
     You may discard this card from your hand to blank the text of a Strike.'
   tags: []
   related_cards:
+    - 989286521bff469094dffc72fdfba974
     - b397df77cb2e41dfb0158888cbd7bc9b
 - name: Lycan
   db_uuid: 6610ac46791b4527b45006f551fe028e

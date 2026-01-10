@@ -29112,6 +29112,7 @@
     - 417d1d704f49439c8c8e4f3bd703a880
 - name: Mighty Marcel
   db_uuid: 7b2f88b0914c49d996c823ddd1be50ac
+  srgpc_url: https://www.srgpc.net/cards/competitors/mighty-marcel/
   card_type: SingleCompetitorCard
   division: United States
   power: 7
@@ -29122,6 +29123,52 @@
   grapple: 9
   rules_text: When you roll 10 for your first turn roll, your opponent's turn roll is -1.
   tags: []
+  related_finishes:
+    - 9e226f92467347f7bc91903eacc1bd9b
+    - 478ed4272fb14d5fa681c315d8cd76bd
+    - 13239153a02e46c1a5a1571c4b6a4aae
+- name: Ooooh Yeah!
+  db_uuid: 9e226f92467347f7bc91903eacc1bd9b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 7b2f88b0914c49d996c823ddd1be50ac
+- name: True Champion
+  db_uuid: 478ed4272fb14d5fa681c315d8cd76bd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If your turn roll is 2 greater than your opponent''s, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 7b2f88b0914c49d996c823ddd1be50ac
+- name: To Infinity and Beyond
+  db_uuid: 13239153a02e46c1a5a1571c4b6a4aae
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile and your turn roll is at least 4 greater than your opponent''s, add this card to your hand.'
+  tags: []
+  related_cards:
+    - 7b2f88b0914c49d996c823ddd1be50ac
 - name: Fashion Philes
   db_uuid: e362c7871e8149699281d25ae76e7ef1
   card_type: TornadoCompetitorCard

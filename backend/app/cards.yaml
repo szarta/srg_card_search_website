@@ -245,6 +245,14 @@
   rules_text: Stop any Lead Strike.
   tags:
     - Old School Wave 1
+- name: Headlock (Power)
+  db_uuid: a19133aed0644668ad0a227ef642162f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: +1 to Power
+  tags: []
 - name: Kick
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
   srg_url: https://supershowthegame.com/product/04-kick/
@@ -55078,10 +55086,10 @@
     - b322c969168d4d7d9c3762bbc844d358
 - name: Peter Lionheart (V1)
   db_uuid: 73701ef7f615485d82c628fa90f4ce68
+  is_banned: true
   srg_url: https://supershowthegame.com/product/peter-lionheart/
   srgpc_url: https://www.srgpc.net/cards/competitors/peter-lionheart/
   card_type: SingleCompetitorCard
-  division: United States
   gender: Male
   power: 8
   technique: 9
@@ -55103,6 +55111,40 @@
   submission: 6
   grapple: 5
   rules_text: When the Crowd Meter is 1 or less your opponents Finish cards have blank text.
+  tags: []
+- name: King's Landing
+  db_uuid: 76cc8690ba7e4db1ac6e6e2053ee4d08
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +3 to Submission'
+  tags: []
+- name: Lionplex
+  db_uuid: 1831aa95d22242f387b3b4f191989746
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    If the last turn was your opponent''s turn, +2 to Power and +4 to Grapple instead.'
+  tags: []
+- name: King's Embrace
+  db_uuid: 21ee0b57c578487cb68e2dbc210b1c06
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile, if the Crowd Meter is 1 or greater and your opponent won the last turn roll, your next turn roll is +1.'
   tags: []
 - name: The Phantasm
   db_uuid: b893411fa9304bc1a3c34615e6c3c10d

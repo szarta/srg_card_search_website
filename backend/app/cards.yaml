@@ -76408,3 +76408,63 @@
 
     The Crowd Meter is considered -1 for all Stop text.'
   tags: []
+- name: Mayor of the Chain Gang
+  db_uuid: 05d2c7245f2048528f7367e5ca8a137e
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 8
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: 'This match has no disqualifications.
+
+    When you hit a card with "Steel Chain" in the name, you may re-roll your next turn roll.'
+  tags: []
+  wants_keywords:
+    - Steel Chain
+  related_finishes:
+    - 381daba8b58446359f15dee65318f6cb
+    - ce3b8ee0332b4c9580e74b948ea86e9a
+    - 91871b5d535548db9b15b73ae97124e9
+- name: Steel Chain Whip
+  db_uuid: 381daba8b58446359f15dee65318f6cb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Add 1 card with "Steel Chain" in the name from your discard pile to your hand.
+
+    Your Finish rolls are +1 for each other card you have in play with "Steel Chain" in the name (Max +2).'
+  tags: []
+  wants_keywords:
+    - Steel Chain
+  related_cards:
+    - 05d2c7245f2048528f7367e5ca8a137e
+- name: Ill Intent
+  db_uuid: ce3b8ee0332b4c9580e74b948ea86e9a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    If you re-rolled your turn roll, stop any Finish Submission.'
+  tags: []
+  related_cards:
+    - 05d2c7245f2048528f7367e5ca8a137e
+- name: Steel Chain Choke
+  db_uuid: 91871b5d535548db9b15b73ae97124e9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Shuffle up to 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 05d2c7245f2048528f7367e5ca8a137e

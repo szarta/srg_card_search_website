@@ -56664,6 +56664,105 @@
 
     Discard 3 of those cards, bury 2 of them, and put the last one on top of their deck.'
   tags: []
+  related_finishes:
+    - 21f90120dcc1496bb0ef590032d8080f
+    - 54592d93a4824323b639056a071203ee
+    - 9ff06707f48f4756ac17394a1f86b2de
+    - 454953f060f7421da5ba82a0228be98c
+    - b2599bea39804dae967a670a6a855c54
+    - 141ff3291f3a49ef84fa835993dbfe2a
+- name: Dragon Fire
+  db_uuid: 21f90120dcc1496bb0ef590032d8080f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Technique
+
+    +3 to Strike
+
+    If your opponent rolls 10 for their Breakout roll, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
+- name: Dragon God Suplex
+  db_uuid: 54592d93a4824323b639056a071203ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    If stopped, bury this card and draw 2 cards.'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
+- name: The Dragon Choke
+  db_uuid: 9ff06707f48f4756ac17394a1f86b2de
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility for each Grapple you have in play (Max 5).
+
+    Stop any Finish Strike with "Disqualification" in the text.'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
+- name: Glorious Purpose
+  db_uuid: 454953f060f7421da5ba82a0228be98c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +2 to Grapple
+
+    If your opponent has at least 3 more cards in their discard pile than you, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
+- name: Say My Name
+  db_uuid: b2599bea39804dae967a670a6a855c54
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Strike
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
+- name: Trickster's Fury
+  db_uuid: 141ff3291f3a49ef84fa835993dbfe2a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +3 to Submission
+
+    Draw the bottom card of your deck.
+
+    For the rest of the match: You cannot lose the match via disqualification or countout.'
+  tags: []
+  related_cards:
+    - 6f0c54f9e3074538baff7a1171fa4fb2
+    - d1e4395c81ca492b8f180aaf5b6431b8
 - name: Rekt Khaos
   db_uuid: b83811d6e476481cbfbf379d4be81a8b
   srg_url: https://supershowthegame.com/product/rekt/
@@ -67864,6 +67963,13 @@
   grapple: 5
   rules_text: When your opponent hits a card with a Stop, draw 1 card for each other Stop they have in play (Max 2).
   tags: []
+  related_finishes:
+    - 21f90120dcc1496bb0ef590032d8080f
+    - 54592d93a4824323b639056a071203ee
+    - 9ff06707f48f4756ac17394a1f86b2de
+    - 454953f060f7421da5ba82a0228be98c
+    - b2599bea39804dae967a670a6a855c54
+    - 141ff3291f3a49ef84fa835993dbfe2a
 - name: Nirab Woken Dragon God (V2)
   db_uuid: bfefc5f5bee84743a9cfa9f191e36874
   card_type: SingleCompetitorCard

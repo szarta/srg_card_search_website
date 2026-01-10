@@ -484,7 +484,7 @@
     - b36a163260f2481b9fe93ca951a27f8a
     - 6b71fa12b14c4464bbad53ad3995915d
     - 988a1e53a2124782a0f3addf54f5215b
-- name: Infrared
+- name: Infrared (Amazing Red)
   db_uuid: b36a163260f2481b9fe93ca951a27f8a
   srg_url: https://supershowthegame.com/product/amazing-red/
   srgpc_url: https://www.srgpc.net/cards/competitors/amazing-red/
@@ -53849,7 +53849,7 @@
     - 1524d303f0b14907baec968b36309565
     - 3768a510e90c42c1b51bbe730400070f
     - 6e81929c23f6432c8fd1f0778af85875
-- name: Infrared
+- name: Infrared (New Face of Chaos)
   db_uuid: 1524d303f0b14907baec968b36309565
   card_type: MainDeckCard
   atk_type: Strike

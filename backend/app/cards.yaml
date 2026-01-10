@@ -54208,6 +54208,7 @@
 
     When this card is in your discard pile and your opponent''s turn roll is 10, add this card to your hand.'
   tags: []
+  related_cards:
     - 719cbdbaba434b719bd7fa7a2892813e
 - name: NY Phenom
   db_uuid: 9623ba974511425ebabfd5a904786f80

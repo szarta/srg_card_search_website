@@ -52182,12 +52182,12 @@
   grapple: 9
   rules_text: When you hit a card with "Steel" in the name, your next turn roll is +1.
   tags: []
-  wants_keywords:
-    - Steel
   related_finishes:
     - 838fbc8d5d614e5693fc4a590ca98fd6
     - 4859adbc3d3d487aaf4103dba5318d62
     - 1519ae8b75744a92b091117ad6add3c6
+  wants_keywords:
+    - Steel
 - name: Punch of Steel
   db_uuid: 73797d4bdb3b4f3783965e84d54cd7de
   card_type: MainDeckCard
@@ -52214,12 +52214,12 @@
 
     Your opponent''s 1st and 2nd Breakout rolls are -1 for each card you have in play with:  "Super", "Steel", or "Power" in the name.'
   tags: []
+  related_cards:
+    - ef7590095e2b41abae70c4f60eb06bc5
   wants_keywords:
     - Super
     - Steel
     - Power
-  related_cards:
-    - ef7590095e2b41abae70c4f60eb06bc5
 - name: The Steel Curtain
   db_uuid: ed37e6fd98c3462ab4729ae089aaa476
   card_type: MainDeckCard
@@ -52246,10 +52246,10 @@
 
     Draw 1 card for each card you have in play with "Steel" in the name.'
   tags: []
-  wants_keywords:
-    - Steel
   related_cards:
     - ac55fc415cfd407cb44b82c5e74797ea
+  wants_keywords:
+    - Steel
 - name: Super Doomsday
   db_uuid: 4859adbc3d3d487aaf4103dba5318d62
   card_type: MainDeckCard
@@ -52262,10 +52262,10 @@
 
     Your opponent buries 1 card in their hand for each card you have in play with "Steel" in the name.'
   tags: []
-  wants_keywords:
-    - Steel
   related_cards:
     - ac55fc415cfd407cb44b82c5e74797ea
+  wants_keywords:
+    - Steel
 - name: The Steel Mill
   db_uuid: 1519ae8b75744a92b091117ad6add3c6
   card_type: MainDeckCard
@@ -52278,10 +52278,10 @@
 
     Shuffle 1 card from your discard pile into your deck for each card you have in play with "Steel" in the name.'
   tags: []
-  wants_keywords:
-    - Steel
   related_cards:
     - ac55fc415cfd407cb44b82c5e74797ea
+  wants_keywords:
+    - Steel
 - name: Mila Mai (Banned)
   db_uuid: 65f92221e8714df09fe91cef7756836a
   is_banned: true
@@ -52465,6 +52465,7 @@
     - Potion
 - name: Mimic
   db_uuid: 924e81a6d29b4983bf9be0918a459760
+  srgpc_url: https://www.srgpc.net/cards/competitors/mimic/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -52476,6 +52477,48 @@
   grapple: 7
   rules_text: When your opponent increases their skills, your skills are also increased the same amount.
   tags: []
+  related_finishes:
+    - a7d30b53ad2b4df8bfa5d123f494faef
+    - 6db3ab4f495a4f6db026f47b652e6da3
+    - c9aba36f02be4694bc978f7cf1c49096
+- name: The Cage Breaker
+  db_uuid: a7d30b53ad2b4df8bfa5d123f494faef
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Choose 1 card in your opponent''s discard pile, this card copies its text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 924e81a6d29b4983bf9be0918a459760
+- name: Doppel-Banger
+  db_uuid: 6db3ab4f495a4f6db026f47b652e6da3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Choose 1 card your opponent has in play, this card copies its text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 924e81a6d29b4983bf9be0918a459760
+- name: Simulacrum Clutch
+  db_uuid: c9aba36f02be4694bc978f7cf1c49096
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    Look at your opponent''s hand and choose 1 card.  This card copies its text until the end of the turn and your opponent discards a card.'
+  tags: []
+  related_cards:
+    - 924e81a6d29b4983bf9be0918a459760
 - name: Miss Super Nova
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd
   card_type: SingleCompetitorCard

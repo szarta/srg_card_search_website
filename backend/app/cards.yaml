@@ -53914,6 +53914,49 @@
     - Kendo Stick
     - Steel Chair
     - Trash Can
+  related_finishes:
+    - 4823f3376e3b4303ac4afd6941df8f8e
+    - 95170b75170d40fcad2adcd38b14452c
+    - e55ab8deb5a94a27896117ded88bd224
+- name: Balcony Dive
+  db_uuid: 4823f3376e3b4303ac4afd6941df8f8e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    Draw 4 cards.'
+  tags: []
+  related_cards:
+    - 26929d68478c48fab8b5c6be88ad8e96
+- name: 187 With a Steel Chair
+  db_uuid: 95170b75170d40fcad2adcd38b14452c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +4 to Grapple'
+  tags: []
+  related_cards:
+    - 26929d68478c48fab8b5c6be88ad8e96
+- name: Trash Can of Plunder
+  db_uuid: e55ab8deb5a94a27896117ded88bd224
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If stopped, add 1 card with "Kendo Stick" and 1 card with "Trash Can" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Kendo Stick
+    - Trash Can
+  related_cards:
+    - 26929d68478c48fab8b5c6be88ad8e96
 - name: Night Terror
   db_uuid: 3ff32d2089504028b07d301071f12f2f
   srgpc_url: https://www.srgpc.net/cards/competitors/night-terror/

@@ -53970,6 +53970,46 @@
   grapple: 9
   rules_text: At the start of the match choose an opponent and blank their Gimmick.
   tags: []
+  related_finishes:
+    - 03a94dd8d4bc4e968726c7e75c84a63c
+    - fdc036afb3f148188dad6575896642f5
+    - 12deb73ad45144bb901e2f374a42fd91
+- name: The Sleep Walk
+  db_uuid: 03a94dd8d4bc4e968726c7e75c84a63c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Submission
+
+    Search your deck for 1 card, add it to your hand, then shuffle.'
+  tags: []
+  related_cards:
+    - 3ff32d2089504028b07d301071f12f2f
+- name: The Bump in the Night
+  db_uuid: fdc036afb3f148188dad6575896642f5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If played after a bump, this card cannot be stopped.
+
+    Bury 3 cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 3ff32d2089504028b07d301071f12f2f
+- name: A Cold Sweat
+  db_uuid: 12deb73ad45144bb901e2f374a42fd91
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    When The Bump in the Night is in your discard pile and the Crowd Meter is 1 or greater, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 3ff32d2089504028b07d301071f12f2f
 - name: Nightmare King
   db_uuid: 18c894fdf2ff4833a9f557629568e1b6
   srgpc_url: https://www.srgpc.net/cards/competitors/nightmare-king/

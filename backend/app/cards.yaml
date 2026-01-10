@@ -55036,6 +55036,46 @@
   grapple: 10
   rules_text: When your opponent rolls 10, they randomly bury 1 card in their hand.
   tags: []
+  related_finishes:
+    - c6d564da697c45d996e65fad99033cb9
+    - b009f40e1ba948aca882e38786a15441
+    - d3939b264ab64a0fb76f277d58f03980
+- name: The Perfect Hit
+  db_uuid: c6d564da697c45d996e65fad99033cb9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    Your opponent buries 1 random card in their hand.  If you rolled 10 for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - b322c969168d4d7d9c3762bbc844d358
+- name: Ten Fold
+  db_uuid: b009f40e1ba948aca882e38786a15441
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your opponent flips 5 cards, then randomly buries 5 cards in their hand.
+  tags: []
+  related_cards:
+    - b322c969168d4d7d9c3762bbc844d358
+- name: X Lock
+  db_uuid: d3939b264ab64a0fb76f277d58f03980
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Submission
+
+    If you have 9 other Submissions in play your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - b322c969168d4d7d9c3762bbc844d358
 - name: Peter Lionheart (V1)
   db_uuid: 73701ef7f615485d82c628fa90f4ce68
   srg_url: https://supershowthegame.com/product/peter-lionheart/
@@ -76429,12 +76469,12 @@
 
     When you hit a card with "Steel Chain" in the name, you may re-roll your next turn roll.'
   tags: []
-  wants_keywords:
-    - Steel Chain
   related_finishes:
     - 381daba8b58446359f15dee65318f6cb
     - ce3b8ee0332b4c9580e74b948ea86e9a
     - 91871b5d535548db9b15b73ae97124e9
+  wants_keywords:
+    - Steel Chain
 - name: Steel Chain Whip
   db_uuid: 381daba8b58446359f15dee65318f6cb
   card_type: MainDeckCard
@@ -76445,10 +76485,10 @@
 
     Your Finish rolls are +1 for each other card you have in play with "Steel Chain" in the name (Max +2).'
   tags: []
-  wants_keywords:
-    - Steel Chain
   related_cards:
     - 05d2c7245f2048528f7367e5ca8a137e
+  wants_keywords:
+    - Steel Chain
 - name: Ill Intent
   db_uuid: ce3b8ee0332b4c9580e74b948ea86e9a
   card_type: MainDeckCard

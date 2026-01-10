@@ -16,7 +16,8 @@ const articles = [
   { slug: "raven",            title: "Raven"},
   { slug: "mortician",        title: "Mortician (V1)"},
   { slug: "effy",             title: "Effy"},
-  { slug: "yamatohama",       title: "Yamatohama"}
+  { slug: "yamatohama",       title: "Yamatohama"},
+  { slug: "riggs-simmons",    title: "Riggs Simmons (V1)"},
 ];
 
 export default function DeckList() {

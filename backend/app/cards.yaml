@@ -36658,6 +36658,7 @@
   tags: []
   related_cards:
     - 309e9641dda648c09f80a98fa92efc16
+    - 8b779087745046389e96016a9622e1f8
 - name: The Spiced Rack
   db_uuid: 7c307191598143dfb4e03b4428ff2f9d
   card_type: MainDeckCard
@@ -36672,6 +36673,7 @@
   tags: []
   related_cards:
     - 309e9641dda648c09f80a98fa92efc16
+    - 8b779087745046389e96016a9622e1f8
 - name: Honey, It's Over
   db_uuid: aa50c83b9f924f4ca191f11ab00274ec
   card_type: MainDeckCard
@@ -36686,6 +36688,7 @@
   tags: []
   related_cards:
     - 309e9641dda648c09f80a98fa92efc16
+    - 8b779087745046389e96016a9622e1f8
 - name: Cheetah
   db_uuid: 8e7340565e01403d99eb2026d2d49765
   srgpc_url: https://www.srgpc.net/cards/competitors/cheetah/
@@ -54959,6 +54962,10 @@
   grapple: 5
   rules_text: When you roll Agility for your turn roll, draw 1 card and discard 1 card from your hand.
   tags: []
+  related_finishes:
+    - ffffca1dabb0493f9e79c5c4db2dce28
+    - 7c307191598143dfb4e03b4428ff2f9d
+    - aa50c83b9f924f4ca191f11ab00274ec
 - name: The Perfect Assistant
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
   srgpc_url: https://www.srgpc.net/cards/competitors/the-perfect-assistant/

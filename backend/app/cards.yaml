@@ -54841,6 +54841,50 @@
 
     You may re-roll your turn roll.'
   tags: []
+  related_finishes:
+    - c3b58f63cc274b1e90c4f41906c6c006
+    - 47a9bdfb606f4bb68d0ff5a599d09970
+    - 8b5ed1aed7694782b3a25a2ab213bee3
+- name: The Fault Line
+  db_uuid: c3b58f63cc274b1e90c4f41906c6c006
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Strike
+
+    If stopped, you may re-roll your next turn roll.'
+  tags: []
+  related_cards:
+    - 67774251b6ed4a2a89c50ff7c5a0e129
+- name: Earth Divine
+  db_uuid: 47a9bdfb606f4bb68d0ff5a599d09970
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If you re-rolled your turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 67774251b6ed4a2a89c50ff7c5a0e129
+- name: Geode Crusher
+  db_uuid: 8b5ed1aed7694782b3a25a2ab213bee3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 67774251b6ed4a2a89c50ff7c5a0e129
 - name: Pat the Thinker
   db_uuid: 582f1c66d042475088de05345806d255
   srg_url: https://supershowthegame.com/product/pat-the-thinker/

@@ -1,6 +1,6 @@
 ---
 slug: riggs-simmons
-title: "Alex Kane"
+title: "Riggs Simmons (V1)"
 author: Keith Strader (King Kold)
 date: 2019-02-18
 ---
@@ -26,7 +26,7 @@ Arm & Collar Tie Up
 Snap Headlock
 Snap Kick
 Super Hip Toss
-Elevated Armbar
+Elevated Arm Bar
 Knife Edge Chop
 Scoop Slam
 Face Stretch

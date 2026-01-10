@@ -53726,6 +53726,48 @@
   grapple: 7
   rules_text: When you roll Grapple for your turn roll, choose odd or even. Your opponent randomly reveals a card in their hand, if it is the chosen type they discard it. If not, you may draw 1 card then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - 084041d0300b4f218e58d2b4e5b5e315
+    - 1931a78fbace4c5dbe6f1b4e13f2c5d6
+    - 4dc48b2e50414f6388b8a8aac9fb0ed3
+- name: The Yeeti
+  db_uuid: 084041d0300b4f218e58d2b4e5b5e315
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: If your opponent has an odd number of cards in their hand, they get 2 Breakout rolls this turn.  If not, your Finish roll is +1.
+  tags: []
+  related_cards:
+    - f21af76d53d64bc48ad430cb5ebae5bf
+- name: The Aurora
+  db_uuid: 1931a78fbace4c5dbe6f1b4e13f2c5d6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - f21af76d53d64bc48ad430cb5ebae5bf
+- name: Pick Your Poisson
+  db_uuid: 4dc48b2e50414f6388b8a8aac9fb0ed3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If stopped, you may add 1 card from your discard pile to your hand or your next turn roll is +3.'
+  tags: []
+  related_cards:
+    - f21af76d53d64bc48ad430cb5ebae5bf
 - name: Neptune
   db_uuid: c42a2ced9d3541b9a257556fe7233471
   srgpc_url: https://www.srgpc.net/cards/competitors/neptune/

@@ -53666,6 +53666,52 @@
   grapple: 9
   rules_text: When you hit a Grapple, choose 1 card your opponent has in play and bury it.
   tags: []
+  related_finishes:
+    - 748c664fa39e48d7a4467a3c9976abd2
+    - aaa6e7cedb764a10b988b66c4787456e
+    - 9195f6557ff44549bfedb3f275b585b6
+- name: Cataclysmic Force
+  db_uuid: 748c664fa39e48d7a4467a3c9976abd2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish rolls are +1 for each Follow Up you have in play.
+
+    Your opponent''s Breakout rolls are +1 for each Lead they have in play.
+
+    If stopped, add this card to your hand.'
+  tags: []
+  related_cards:
+    - c65b7a1aee3e4237a00987baa88b2a28
+- name: Dragon Destroyer
+  db_uuid: aaa6e7cedb764a10b988b66c4787456e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Technique
+
+    When this card is in your discard pile:
+
+    When your opponent would bury a card for your Nadja Mai Gimmick, you may discard that card instead.'
+  tags: []
+  related_cards:
+    - c65b7a1aee3e4237a00987baa88b2a28
+- name: Soul Punisher
+  db_uuid: 9195f6557ff44549bfedb3f275b585b6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Technique
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - c65b7a1aee3e4237a00987baa88b2a28
 - name: Nanouk
   db_uuid: f21af76d53d64bc48ad430cb5ebae5bf
   srgpc_url: https://www.srgpc.net/cards/competitors/nanouk/

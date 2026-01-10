@@ -54166,6 +54166,49 @@
   grapple: 5
   rules_text: When your opponent's turn roll is 10 your turn roll is +2.
   tags: []
+  related_finishes:
+    - 9ba334faba144c1986e8f78a39236d6a
+    - 8e6bc7333bff4cc688172ed5f98f6f8c
+    - f6137708289243d4951fff204461ec97
+- name: The Hack
+  db_uuid: 9ba334faba144c1986e8f78a39236d6a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +1 to Technique
+
+    If your opponent''s turn roll was 10, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 719cbdbaba434b719bd7fa7a2892813e
+- name: 068 068 084
+  db_uuid: 8e6bc7333bff4cc688172ed5f98f6f8c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 719cbdbaba434b719bd7fa7a2892813e
+- name: Override
+  db_uuid: f6137708289243d4951fff204461ec97
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    When this card is in your discard pile and your opponent''s turn roll is 10, add this card to your hand.'
+  tags: []
+    - 719cbdbaba434b719bd7fa7a2892813e
 - name: NY Phenom
   db_uuid: 9623ba974511425ebabfd5a904786f80
   srgpc_url: https://www.srgpc.net/cards/competitors/ny-phenom/

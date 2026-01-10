@@ -53842,6 +53842,56 @@
   grapple: 10
   rules_text: When you roll Grapple, randomly add a card form your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 1524d303f0b14907baec968b36309565
+    - 3768a510e90c42c1b51bbe730400070f
+    - 6e81929c23f6432c8fd1f0778af85875
+- name: Infrared
+  db_uuid: 1524d303f0b14907baec968b36309565
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 7d54ebad1e594e788f676f9d1634aa85
+- name: Dementia Driver
+  db_uuid: 3768a510e90c42c1b51bbe730400070f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    If stopped, choose 2 cards in your discard pile.
+
+    Shuffle all other cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 7d54ebad1e594e788f676f9d1634aa85
+- name: Sal Bandini Armbar
+  db_uuid: 6e81929c23f6432c8fd1f0778af85875
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Flip 5 cards.
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 7d54ebad1e594e788f676f9d1634aa85
 - name: New Jack
   db_uuid: 26929d68478c48fab8b5c6be88ad8e96
   srgpc_url: https://www.srgpc.net/cards/competitors/new-jack/

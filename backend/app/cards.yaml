@@ -51743,6 +51743,7 @@
     - 0a5c355b041a4cf6bd2b78d9549d162f
 - name: Merlin von Berlin
   db_uuid: dc9085f6ecfa4c50aa45d770b149caef
+  srgpc_url: https://www.srgpc.net/cards/competitors/merlin-von-berlin/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -51754,6 +51755,81 @@
   grapple: 5
   rules_text: If you rolled Power for your turn roll, you may play one additional card this turn.
   tags: []
+  related_finishes:
+    - 3c01ce8540ea4a55ad3f710ad9ba3cbe
+    - bb9b16d04420433ba1e35db3175bf91d
+    - ddb7901510544bf1b79aa2cbfc61d725
+    - 89c76d332d7943dfbf693ecb6bd51469
+    - b6ee7dcb0564452180c3f4fa720a28b3
+    - 9014a0be07c842ba920f6e3aae9e5712
+    - fe9ddea24e7544adb7e0e45e6627529f
+    - 3fe3c72a858347ceaac98b22b1ec9db1
+- name: Autobahn Annihilator
+  db_uuid: 3c01ce8540ea4a55ad3f710ad9ba3cbe
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If you hit another card this turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - dc9085f6ecfa4c50aa45d770b149caef
+- name: The Berlin Airlift
+  db_uuid: bb9b16d04420433ba1e35db3175bf91d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    Each player shuffles their hand into their deck, then draws 4 cards.'
+  tags: []
+  related_cards:
+    - dc9085f6ecfa4c50aa45d770b149caef
+- name: The Berlin Airlift (Gencon Exclusive)
+  db_uuid: ddb7901510544bf1b79aa2cbfc61d725
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    Each player shuffles their hand into their deck, then draws 5 cards.'
+  tags: []
+  related_cards:
+    - dc9085f6ecfa4c50aa45d770b149caef
+- name: The Shake 'n Break
+  db_uuid: 89c76d332d7943dfbf693ecb6bd51469
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    If you hit a Submission this turn, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - dc9085f6ecfa4c50aa45d770b149caef
+- name: The Shake 'n Break (Gencon Exclusive)
+  db_uuid: b6ee7dcb0564452180c3f4fa720a28b3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Technique
+
+    If you hit another card this turn, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - dc9085f6ecfa4c50aa45d770b149caef
 - name: Meta
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   srg_url: https://supershowthegame.com/product/meta-new/
@@ -55037,6 +55113,7 @@
   tags: []
   related_cards:
     - fcb3c164213a49be9ab0ae4a70bdc211
+    - dc9085f6ecfa4c50aa45d770b149caef
 - name: Brezel Bomb
   db_uuid: fe9ddea24e7544adb7e0e45e6627529f
   card_type: MainDeckCard
@@ -55053,6 +55130,7 @@
   tags: []
   related_cards:
     - fcb3c164213a49be9ab0ae4a70bdc211
+    - dc9085f6ecfa4c50aa45d770b149caef
 - name: Tod Ersticken
   db_uuid: 3fe3c72a858347ceaac98b22b1ec9db1
   card_type: MainDeckCard
@@ -55065,6 +55143,7 @@
   tags: []
   related_cards:
     - fcb3c164213a49be9ab0ae4a70bdc211
+    - dc9085f6ecfa4c50aa45d770b149caef
 - name: Pride
   db_uuid: 09df8a22bc694a29b7465cd9a80ee9f5
   srg_url: https://supershowthegame.com/product/pride/

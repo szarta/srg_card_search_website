@@ -25,7 +25,7 @@ Ken Broadway
 Currency Kick
 Cashflowsion
 Sharpshooter (#30)
-Vinny the Voice
+Ring Announcer
 Test of Strength
 Arm & Collar Tie Up
 Snap Punch

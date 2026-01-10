@@ -52134,7 +52134,7 @@
   tags: []
   related_cards:
     - eccdc6e7d1004c1a85ca2cb4a69d0ccb
-- name: Extinction Event
+- name: Extinction Event (Mike D)
   db_uuid: 324a010783c446b6ab33d4b368583710
   card_type: MainDeckCard
   atk_type: Submission
@@ -74384,7 +74384,7 @@
     - Super Lucha
   related_cards:
     - 4711539d48cc45a78fa29a20ad62ac76
-- name: Extinction Event
+- name: Extinction Event (The Macho Squatcho)
   db_uuid: cf61bc6686f24e8285bfe63e36cf6bcf
   card_type: MainDeckCard
   atk_type: Grapple

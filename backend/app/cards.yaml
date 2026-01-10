@@ -53782,6 +53782,52 @@
   grapple: 8
   rules_text: When your opponent stops your Submission, draw 2 cards.
   tags: []
+  related_finishes:
+    - 42612827e75046d1b619a5e67fd8e237
+    - c5d129f486774d0593c9fc596a1c5a85
+    - 9270052c62cd49d3878e4832f0442054
+- name: Neptune's Trident
+  db_uuid: 42612827e75046d1b619a5e67fd8e237
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    If your opponent stops your Submission, you may immediately play this card as if it were a Follow Up.'
+  tags: []
+  related_cards:
+    - c42a2ced9d3541b9a257556fe7233471
+- name: The Frozen Fallout
+  db_uuid: c5d129f486774d0593c9fc596a1c5a85
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Shuffle 4 cards from your discard pile into your deck and your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - c42a2ced9d3541b9a257556fe7233471
+- name: Anima Mundi
+  db_uuid: 9270052c62cd49d3878e4832f0442054
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    Draw 4 cards.'
+  tags: []
+  related_cards:
+    - c42a2ced9d3541b9a257556fe7233471
 - name: New Face of Chaos
   db_uuid: 7d54ebad1e594e788f676f9d1634aa85
   srgpc_url: https://www.srgpc.net/cards/competitors/new-face-of-chaos/

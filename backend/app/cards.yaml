@@ -52566,6 +52566,7 @@
     - 924e81a6d29b4983bf9be0918a459760
 - name: Miss Super Nova
   db_uuid: c9c881e1b63847c1ac8339e89311f1cd
+  srgpc_url: https://www.srgpc.net/cards/competitors/miss-super-nova/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -52577,6 +52578,48 @@
   grapple: 9
   rules_text: After your opponent flips any number of cards, they bury 1 card in their hand.
   tags: []
+  related_finishes:
+    - 9d0c5b7d3dd044b7b059e56706ab3e73
+    - ed91add38dbc43148538a92c616dd627
+    - f2b3cffd73fe487591e484f63faeb004
+- name: The Shock Wave
+  db_uuid: 9d0c5b7d3dd044b7b059e56706ab3e73
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile:  When your opponent decreases your turn roll, your turn roll is +2.'
+  tags: []
+  related_cards:
+    - c9c881e1b63847c1ac8339e89311f1cd
+- name: Stellar Explosion
+  db_uuid: ed91add38dbc43148538a92c616dd627
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    If stopped, your opponent flips 1 card and buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - c9c881e1b63847c1ac8339e89311f1cd
+- name: Carbon Fusion
+  db_uuid: f2b3cffd73fe487591e484f63faeb004
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    Each time you opponent rolls for a Breakout roll, they flip 1 card and bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - c9c881e1b63847c1ac8339e89311f1cd
 - name: Mistress of Mayhem J.K. Brawling
   db_uuid: 325738205e8248dcba7efb484c0c37ef
   card_type: SingleCompetitorCard

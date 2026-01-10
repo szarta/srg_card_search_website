@@ -52088,6 +52088,7 @@
   tags: []
 - name: Mike D
   db_uuid: eccdc6e7d1004c1a85ca2cb4a69d0ccb
+  srgpc_url: https://www.srgpc.net/cards/competitors/mike-d/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -52099,6 +52100,54 @@
   grapple: 6
   rules_text: You may bury 3 cards in your hand to stop any Follow Up.
   tags: []
+  related_finishes:
+    - 04e4e8ace8c947a1943e7c26d1d7dd6a
+    - fc3e964276e84d5b90217873972025d4
+    - 324a010783c446b6ab33d4b368583710
+- name: Feel My Struggle
+  db_uuid: 04e4e8ace8c947a1943e7c26d1d7dd6a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    When played, you may discard a Strike from your hand.  This card copies that card''s text until the end of the turn.'
+  tags: []
+  related_cards:
+    - eccdc6e7d1004c1a85ca2cb4a69d0ccb
+- name: Law Breaker
+  db_uuid: fc3e964276e84d5b90217873972025d4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Your opponent flips 2 cards for each other card you have in play.
+
+    Bury 1 card in your opponent''s discard pile for each other card you have in play.'
+  tags: []
+  related_cards:
+    - eccdc6e7d1004c1a85ca2cb4a69d0ccb
+- name: Extinction Event
+  db_uuid: 324a010783c446b6ab33d4b368583710
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    If you hit another card this turn, or have "Spinning Clothesline" in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - eccdc6e7d1004c1a85ca2cb4a69d0ccb
 - name: Mike Verna (V1)
   db_uuid: ef7590095e2b41abae70c4f60eb06bc5
   card_type: SingleCompetitorCard

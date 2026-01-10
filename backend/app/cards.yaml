@@ -2507,6 +2507,14 @@
   deck_card_number: 7
   rules_text: Your opponent buries 1 card in their hand or your next turn roll is +1.
   tags: []
+- name: Supersonic Clothesline
+  db_uuid: 20c41d2be357440bbd8cf2ba6de4e7b9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Look at your opponent's hand.  Bury 1 card in each player's discard pile.
+  tags: []
 - name: Terror Spin
   db_uuid: 494e6954d9b74d42941349e07a03135a
   srg_url: https://supershowthegame.com/product/07-terror-spin/

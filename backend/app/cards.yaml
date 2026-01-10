@@ -52150,6 +52150,7 @@
     - eccdc6e7d1004c1a85ca2cb4a69d0ccb
 - name: Mike Verna (V1)
   db_uuid: ef7590095e2b41abae70c4f60eb06bc5
+  srgpc_url: https://www.srgpc.net/cards/competitors/mike-verna-old/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -52161,10 +52162,15 @@
   grapple: 9
   rules_text: Your cards with "Super" in the name have the added text, "Your next turn roll is +2."
   tags: []
+  related_finishes:
+    - 73797d4bdb3b4f3783965e84d54cd7de
+    - 687f5c2914cb4f54be14c28a9f86ac9f
+    - ed37e6fd98c3462ab4729ae089aaa476
   wants_keywords:
     - Super
 - name: Mike Verna (V2)
   db_uuid: ac55fc415cfd407cb44b82c5e74797ea
+  srgpc_url: https://www.srgpc.net/cards/competitors/mike-verna-new/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -52178,6 +52184,104 @@
   tags: []
   wants_keywords:
     - Steel
+  related_finishes:
+    - 838fbc8d5d614e5693fc4a590ca98fd6
+    - 4859adbc3d3d487aaf4103dba5318d62
+    - 1519ae8b75744a92b091117ad6add3c6
+- name: Punch of Steel
+  db_uuid: 73797d4bdb3b4f3783965e84d54cd7de
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    When you have "Superman Punch" in play, stop any Finish Grapple.'
+  tags: []
+  related_cards:
+    - ef7590095e2b41abae70c4f60eb06bc5
+- name: Doomsday
+  db_uuid: 687f5c2914cb4f54be14c28a9f86ac9f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Your opponent''s 1st and 2nd Breakout rolls are -1 for each card you have in play with:  "Super", "Steel", or "Power" in the name.'
+  tags: []
+  wants_keywords:
+    - Super
+    - Steel
+    - Power
+  related_cards:
+    - ef7590095e2b41abae70c4f60eb06bc5
+- name: The Steel Curtain
+  db_uuid: ed37e6fd98c3462ab4729ae089aaa476
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    When your opponent has 0 Submissions in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - ef7590095e2b41abae70c4f60eb06bc5
+- name: Super Steel Punch
+  db_uuid: 838fbc8d5d614e5693fc4a590ca98fd6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Draw 1 card for each card you have in play with "Steel" in the name.'
+  tags: []
+  wants_keywords:
+    - Steel
+  related_cards:
+    - ac55fc415cfd407cb44b82c5e74797ea
+- name: Super Doomsday
+  db_uuid: 4859adbc3d3d487aaf4103dba5318d62
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Steel" in the name.'
+  tags: []
+  wants_keywords:
+    - Steel
+  related_cards:
+    - ac55fc415cfd407cb44b82c5e74797ea
+- name: The Steel Mill
+  db_uuid: 1519ae8b75744a92b091117ad6add3c6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    Shuffle 1 card from your discard pile into your deck for each card you have in play with "Steel" in the name.'
+  tags: []
+  wants_keywords:
+    - Steel
+  related_cards:
+    - ac55fc415cfd407cb44b82c5e74797ea
 - name: Mila Mai (Banned)
   db_uuid: 65f92221e8714df09fe91cef7756836a
   is_banned: true

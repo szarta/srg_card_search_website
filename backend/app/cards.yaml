@@ -54024,6 +54024,52 @@
   grapple: 9
   rules_text: When you roll Agility for your turn roll, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - eb47824bff164a34bf329bcfbf3bb75e
+    - a8446c9ea1aa46f3a436ac208e10cd73
+    - 742db6646d7e426595765edc8de9abb9
+- name: The Nightmare Clothesline
+  db_uuid: eb47824bff164a34bf329bcfbf3bb75e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    Each player shuffles 2 cards from their hand into their deck.  Draw 3 cards.'
+  tags: []
+  related_cards:
+    - 18c894fdf2ff4833a9f557629568e1b6
+- name: The Nightmare Claw
+  db_uuid: a8446c9ea1aa46f3a436ac208e10cd73
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Your opponent shuffles cards from their hand into their deck until the have 2 cards in hand.'
+  tags: []
+  related_cards:
+    - 18c894fdf2ff4833a9f557629568e1b6
+- name: Nightmare Deadlock
+  db_uuid: 742db6646d7e426595765edc8de9abb9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +3 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 18c894fdf2ff4833a9f557629568e1b6
 - name: Ninja Hummingbird
   db_uuid: 630ba3b301ff48bbb1bf73b23bda10d1
   srg_url: https://supershowthegame.com/product/ninja-hummingbird-full-art/

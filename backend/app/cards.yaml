@@ -59403,10 +59403,58 @@
   strike: 10
   submission: 5
   grapple: 7
-  rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw 2 cards, and your opponent buries 1 card from their hand.
+  rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw 2 cards, and your opponent buries 1 card from their hand."
   tags: []
   wants_keywords:
     - Kick
+  related_finishes:
+    - 460e3213b23049e29503ccf4716458a3
+    - 790372c4eabd482dbfb086cb80772d0d
+    - 4bacc27955e0447d990ab3ef16101d99
+- name: Le Mule Kick
+  db_uuid: 460e3213b23049e29503ccf4716458a3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    You may discard a card with "Kick" in the name from your hand.
+
+    If you do this card is also a Follow Up.
+
+    Draw 1 card.  Your opponent buries 2 cards in their hand.'
+  tags: []
+  wants_keywords:
+    - Kick
+  related_cards:
+    - 65d69cb7f158408d94b44b307d969cde
+- name: Hee-Haw See-Saw
+  db_uuid: 790372c4eabd482dbfb086cb80772d0d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    +2 to Technique
+
+    Draw 2 cards and your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 65d69cb7f158408d94b44b307d969cde
+- name: Kiss It
+  db_uuid: 4bacc27955e0447d990ab3ef16101d99
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Reveal the bottom cards of your deck and add it to your hand.'
+  tags: []
+  related_cards:
+    - 65d69cb7f158408d94b44b307d969cde
 - name: Sami Callihan "Death Machine" (V1)
   db_uuid: 3ebc8a70bd834b31b85381984de3ea5c
   srgpc_url: https://www.srgpc.net/cards/competitors/the-death-machine-sami-callihan-wr-version/
@@ -68619,12 +68667,12 @@
 
     When you hit a Grapple with "Guitar" in the name, add 1 card from your discard pile to your hand.'
   tags: []
-  wants_keywords:
-    - Guitar
   related_finishes:
     - bcbafc8bd68c402990d039f3878e7d36
     - 3d1406e1962c48bb91afe7b8aa4b3892
     - d7f3c47c51ae43ffb53d056ecef4adfd
+  wants_keywords:
+    - Guitar
 - name: Everyone's Favorite Part
   db_uuid: bcbafc8bd68c402990d039f3878e7d36
   card_type: MainDeckCard
@@ -68635,10 +68683,10 @@
 
     Your finish roll is +1 for each card with "Guitar" in the name flipped.'
   tags: []
-  wants_keywords:
-    - Guitar
   related_cards:
     - d2d94474f54c430197061e0c2531012c
+  wants_keywords:
+    - Guitar
 - name: Take Me Home Driver
   db_uuid: 3d1406e1962c48bb91afe7b8aa4b3892
   card_type: MainDeckCard

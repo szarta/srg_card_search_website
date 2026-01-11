@@ -59268,7 +59268,7 @@
     - ff2a915ef87046cfa33cbd4561b68c73
 - name: Sage the Wiccan Witch (V1)
   db_uuid: 04ee2101e644473f9327c2333d8183c8
-  srgpc_url: https://www.srgpc.net/cards/competitors/sage-the-wiccan-witch-iku-zo/
+  srgpc_url: https://www.srgpc.net/cards/competitors/sage-the-wiccan-witch/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female
@@ -59290,6 +59290,7 @@
     - ff2a915ef87046cfa33cbd4561b68c73
 - name: Sage the Wiccan Witch (V2)
   db_uuid: a378da2c21714848b68236126756ca50
+  srgpc_url: https://www.srgpc.net/cards/competitors/sage-the-wiccan-witch-iku-zo/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Female

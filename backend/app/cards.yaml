@@ -56975,6 +56975,52 @@
   grapple: 8
   rules_text: When your opponent's turn roll is Strike, your turn roll is +2.
   tags: []
+  related_finishes:
+    - 20389c4a1d664dc9a3fd2579c7f4e100
+    - 3fe1064755f14f1c8c9822fc1da43edc
+    - 3f4acb35f8724f7a9a5845a009d2991a
+- name: Anger Overload
+  db_uuid: 20389c4a1d664dc9a3fd2579c7f4e100
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If this card is stopped, add 1 other card with "Anger" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Anger
+  related_cards:
+    - 3f06685328d74f4fa8c64f77a0add3df
+- name: Anger Management
+  db_uuid: 3fe1064755f14f1c8c9822fc1da43edc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your opponent rolled Strike for their turn roll, this card is also a Follow Up.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 3f06685328d74f4fa8c64f77a0add3df
+- name: Riot Control
+  db_uuid: 3f4acb35f8724f7a9a5845a009d2991a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent rolled Strike for their turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 3f06685328d74f4fa8c64f77a0add3df
 - name: Rahz El Dazzel
   db_uuid: e1b8cc42d0774c118785d02b296909f3
   srgpc_url: https://www.srgpc.net/cards/competitors/rahz-el-dazzel/

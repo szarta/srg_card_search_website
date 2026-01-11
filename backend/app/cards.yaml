@@ -59260,6 +59260,12 @@
 
     When you roll Power for your Turn Roll, add 1 card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 2b02699126e24231992f676db15290c5
+    - 8be49c901dd348b8a4f3df749ae5e1d7
+    - 808ba25516244898996d93ca33500c35
+    - 0b1099b9116c465bb003708c3524877f
+    - ff2a915ef87046cfa33cbd4561b68c73
 - name: Sage the Wiccan Witch (V1)
   db_uuid: 04ee2101e644473f9327c2333d8183c8
   srgpc_url: https://www.srgpc.net/cards/competitors/sage-the-wiccan-witch-iku-zo/
@@ -59319,6 +59325,7 @@
     - a378da2c21714848b68236126756ca50
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
+    - 4113ec43d646463d9a610b57e58cfe33
 - name: Seven Wonders (V2)
   db_uuid: 8be49c901dd348b8a4f3df749ae5e1d7
   card_type: MainDeckCard
@@ -59333,6 +59340,7 @@
     - a378da2c21714848b68236126756ca50
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
+    - 4113ec43d646463d9a610b57e58cfe33
 - name: The Book of Spells (V1)
   db_uuid: 808ba25516244898996d93ca33500c35
   card_type: MainDeckCard
@@ -59347,6 +59355,7 @@
     - a378da2c21714848b68236126756ca50
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
+    - 4113ec43d646463d9a610b57e58cfe33
 - name: The Book of Spells (V2)
   db_uuid: 0b1099b9116c465bb003708c3524877f
   card_type: MainDeckCard
@@ -59363,6 +59372,7 @@
     - a378da2c21714848b68236126756ca50
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
+    - 4113ec43d646463d9a610b57e58cfe33
 - name: The Witch's Brew
   db_uuid: ff2a915ef87046cfa33cbd4561b68c73
   card_type: MainDeckCard
@@ -59379,6 +59389,7 @@
     - a378da2c21714848b68236126756ca50
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
+    - 4113ec43d646463d9a610b57e58cfe33
 - name: Sam LeMule
   db_uuid: 65d69cb7f158408d94b44b307d969cde
   srgpc_url: https://www.srgpc.net/cards/competitors/sam-lemule/

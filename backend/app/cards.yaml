@@ -55886,7 +55886,6 @@
     - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Practisite (V2)
   db_uuid: f908c048e5f84b9caf403a88fd63d15a
-  srgpc_url: https://www.srgpc.net/competitors/press-1-p-v2/
   card_type: SingleCompetitorCard
   division: Underworld
   gender: Male
@@ -55900,6 +55899,50 @@
 
     When your turn roll is at least 3 less than your target''s turn roll, draw 1 card or your target''s next turn roll is -1.'
   tags: []
+  related_finishes:
+    - d52c46c7958141348ee4f411feed2cf1
+    - e368c15aa8e348deacb0f3d6bf3072d6
+    - 1aaabf35865c4caea09d08fcdd1a9fa3
+- name: Atlanta United Foot Club
+  db_uuid: d52c46c7958141348ee4f411feed2cf1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +5 to Agility'
+  tags: []
+  related_cards:
+    - f908c048e5f84b9caf403a88fd63d15a
+- name: Five Stripe Slam
+  db_uuid: e368c15aa8e348deacb0f3d6bf3072d6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Shuffle 5 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - f908c048e5f84b9caf403a88fd63d15a
+- name: Arm-Bitrator
+  db_uuid: 1aaabf35865c4caea09d08fcdd1a9fa3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    +1 to Submission'
+  tags: []
+  related_cards:
+    - f908c048e5f84b9caf403a88fd63d15a
 - name: Practisite (V1)
   db_uuid: d3e0aa69a169437081fc6fa67a0979a2
   srgpc_url: https://www.srgpc.net/cards/competitors/practisite/

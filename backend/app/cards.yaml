@@ -55484,6 +55484,12 @@
     - 8d7e3617fe4f4ac7809fabfec353bdbd
     - 45b4377f66d548f2921986518a984392
     - 810d264bc8ae4f04b29fc687712a8a55
+    - f2b73b9a766b4db18640c3e73ff49a4b
+    - 7f4507b78d314b51a0c0e22fc2ee26fd
+    - 559dbb8973bb41e0826115bf00ea12cf
+    - f929236be3f7413e9e5030dd72a99de2
+    - 51f4a3f378ad4ecab1ed478d2983dbce
+    - 9befcead60ac40979480537a30a03b15
 - name: End of an Era
   db_uuid: 8d7e3617fe4f4ac7809fabfec353bdbd
   card_type: MainDeckCard
@@ -55546,6 +55552,50 @@
 
     Shuffle 1 card from your hand into your deck and draw 2 cards.'
   tags: []
+  related_finishes:
+    - 34cdafe4d41c4972ab77f1958e98a581
+    - 69b5a527933b44d48a627368575ab265
+    - 07f80675a98a4be990dc7e4f90affcca
+- name: The Horn of Plenty
+  db_uuid: 34cdafe4d41c4972ab77f1958e98a581
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    If stopped, you may bury this card.'
+  tags: []
+  related_cards:
+    - 30d964459f7942bf84b6bb57a23b356a
+- name: Underworld Abduction
+  db_uuid: 69b5a527933b44d48a627368575ab265
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +4 to Grapple'
+  tags: []
+  related_cards:
+    - 30d964459f7942bf84b6bb57a23b356a
+- name: Into the Abyss
+  db_uuid: 07f80675a98a4be990dc7e4f90affcca
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    Look at your opponent''s hand, choose 1 card and bury it.'
+  tags: []
+  related_cards:
+    - 30d964459f7942bf84b6bb57a23b356a
 - name: Poco Loco
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
   srg_url: https://supershowthegame.com/product/poco-loco/
@@ -55751,6 +55801,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Press 1 P-Ower Bomb
   db_uuid: 7f4507b78d314b51a0c0e22fc2ee26fd
   card_type: MainDeckCard
@@ -55766,6 +55817,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
   wants_keywords:
     - Impact
 - name: Driven by Impact
@@ -55783,6 +55835,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Head Above the Rest
   db_uuid: f929236be3f7413e9e5030dd72a99de2
   card_type: MainDeckCard
@@ -55798,6 +55851,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Impact Ender
   db_uuid: 51f4a3f378ad4ecab1ed478d2983dbce
   card_type: MainDeckCard
@@ -55811,6 +55865,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
   wants_keywords:
     - Head
     - Table
@@ -55828,6 +55883,7 @@
   related_cards:
     - 62eb204d6221414d9c816b81d6067761
     - 2f9a9734734748849dc7f70b07e38c47
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Practisite (V2)
   db_uuid: f908c048e5f84b9caf403a88fd63d15a
   srgpc_url: https://www.srgpc.net/competitors/press-1-p-v2/

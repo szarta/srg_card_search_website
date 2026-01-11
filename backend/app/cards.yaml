@@ -55251,6 +55251,52 @@
   grapple: 9
   rules_text: 'When your opponent''s turn roll is Power: Search your deck for 1 non-Finish Grapple, reveal it, and add it to your hand.'
   tags: []
+  related_finishes:
+    - be41068d11054cffa9fde2781538a8a7
+    - f648f39549a5450298f2adf4989f6bee
+    - a4b46faeede54f32b6e44386d67fea4f
+- name: Tusk Thrust
+  db_uuid: be41068d11054cffa9fde2781538a8a7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    Add 1 Grapple you have in play to your hand.'
+  tags: []
+  related_cards:
+    - 1069a54e1c674abeb90ce4bb07a37404
+- name: The Piggy Bank
+  db_uuid: f648f39549a5450298f2adf4989f6bee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your opponent rolled Power for their turn roll, this card cannot be stopped.
+
+    Your opponent''s Power is -2.'
+  tags: []
+  related_cards:
+    - 1069a54e1c674abeb90ce4bb07a37404
+- name: Swine on the Spine
+  db_uuid: a4b46faeede54f32b6e44386d67fea4f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Shuffle all Grapple cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 1069a54e1c674abeb90ce4bb07a37404
 - name: Pixel
   db_uuid: c60c1ad29cb0440481fc29ae1c863a37
   srgpc_url: https://www.srgpc.net/cards/competitors/pixel/

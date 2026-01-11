@@ -31878,13 +31878,13 @@
   grapple: 5
   rules_text: When you hit a card with "America" or "Boot" in the name, draw 1 card.
   tags: []
-  wants_keywords:
-    - America
-    - Boot
   related_finishes:
     - 3bb57ae552a847e88ae13d4d79c73fec
     - 479bb9745ba44e749358b16103ecf4e3
     - 1c886f2cd537455a81a9e11c50e4a5c5
+  wants_keywords:
+    - America
+    - Boot
 - name: American Leg Drop
   db_uuid: 3bb57ae552a847e88ae13d4d79c73fec
   card_type: MainDeckCard
@@ -31897,10 +31897,10 @@
 
     If you have a card in play with "Boot" in the name, you may re-roll your Finish roll.'
   tags: []
-  wants_keywords:
-    - Boot
   related_cards:
     - 368ad45ddb934241ae50758867e8c8f3
+  wants_keywords:
+    - Boot
 - name: Ultimate American Drop
   db_uuid: 479bb9745ba44e749358b16103ecf4e3
   card_type: MainDeckCard
@@ -57676,6 +57676,56 @@
   grapple: 10
   rules_text: When you bury any number of cards in your hand, your next turn roll is +1 for each card buried.
   tags: []
+  related_finishes:
+    - 6b6d225dbdaf49498918a9e86eed2cdc
+    - df6c0bcbb7784e38b55f58d2d0f10cb2
+    - 85f31559f892402794c83b819a10d7ec
+- name: Gore!
+  db_uuid: 6b6d225dbdaf49498918a9e86eed2cdc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If the Crowd Meter is 5 or greater, stop any Finish Grapple.'
+  tags: []
+  related_cards:
+    - 98dd6f69389340bbadb5b192792ea1f6
+- name: Rhino Driver
+  db_uuid: df6c0bcbb7784e38b55f58d2d0f10cb2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    Bury any number of cards in your hand.
+
+    Shuffle twice as many cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 98dd6f69389340bbadb5b192792ea1f6
+- name: Double A Spinebuster
+  db_uuid: 85f31559f892402794c83b819a10d7ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 98dd6f69389340bbadb5b192792ea1f6
 - name: Ricochet
   db_uuid: be4591ac738748c29cf9fef3179e6c94
   srgpc_url: https://www.srgpc.net/cards/competitors/ricochet/

@@ -1459,6 +1459,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: Shipwreck Menagerie
   db_uuid: 120a4a3ffc124a21be376a2d5f6df56d
   card_type: MainDeckCard
@@ -1480,6 +1482,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: The Mystic Plunder
   db_uuid: c17faf738dc9453097c7b4301baaafff
   card_type: MainDeckCard
@@ -1501,6 +1505,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: Crocodile Chop
   db_uuid: 01d7642fbfae4817a4ff1c01f175e9e8
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1524,6 +1530,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: Steel Chain Anchors Aweigh
   db_uuid: c97d0ef041cd4e33824b7583bd7fc0a1
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1547,6 +1555,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: Death is the Only Great Adventure You Have Left
   db_uuid: cd01ac08134342bda5826e44a1ff1c9d
   srg_url: https://supershowthegame.com/product/bartholomew-hooke/
@@ -1571,6 +1581,8 @@
     - 8dc8327cc95f423aa5b8ac3acf2a4fb4
     - cc97ddd2f6964da9be0038fee59d6132
     - 749f53f3b17942139d09aa4a05ca90a9
+    - 9327c43c2433458b8957329a05ab6ac3
+    - 19c81a08844f41168571930dd9142b4d
 - name: The Royal Family's Own Tyler Rich
   db_uuid: f106ad353db54acb87774bc79eaffae0
   card_type: EntranceCard
@@ -56356,6 +56368,13 @@
 
     When you hit a card with a Stop, your next roll is +1.'
   tags: []
+  related_finishes:
+    - 040232a9ce804e3eb4ea2a25283f6298
+    - 120a4a3ffc124a21be376a2d5f6df56d
+    - c17faf738dc9453097c7b4301baaafff
+    - 01d7642fbfae4817a4ff1c01f175e9e8
+    - c97d0ef041cd4e33824b7583bd7fc0a1
+    - cd01ac08134342bda5826e44a1ff1c9d
 - name: The Prince of Fashion
   db_uuid: 9f81d2d70a2a404b9058967f1c452e2b
   srg_url: https://supershowthegame.com/product/the-prince-of-fashion/
@@ -56547,6 +56566,13 @@
   grapple: 5
   rules_text: 'When you roll Technique for your turn roll: Your opponent randomly reveals a card in their hand; if it is a Stop, they discard it.'
   tags: []
+  related_finishes:
+    - 040232a9ce804e3eb4ea2a25283f6298
+    - 120a4a3ffc124a21be376a2d5f6df56d
+    - c17faf738dc9453097c7b4301baaafff
+    - 01d7642fbfae4817a4ff1c01f175e9e8
+    - c97d0ef041cd4e33824b7583bd7fc0a1
+    - cd01ac08134342bda5826e44a1ff1c9d
 - name: The Professor Matthew Smith
   db_uuid: 925317f7c28841d181df7d38d363b0ff
   srgpc_url: https://www.srgpc.net/cards/competitors/the-professor-matthew-smith/
@@ -56872,6 +56898,69 @@
   grapple: 5
   rules_text: When you roll Technique or Grapple for your turn roll, you may draw 1 card then bury 1 card in your hand.
   tags: []
+  related_finishes:
+    - 69b80b7d70544f01b0e477d74649e1db
+    - 0dbc26a3fe7b4ebd83076f3fffa95a4e
+    - ed214d7909264c13963b973cad068801
+    - ccb41536e45c4643990646efaa75a7ec
+- name: Death by Cupcake!
+  db_uuid: 69b80b7d70544f01b0e477d74649e1db
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile:
+
+    After you use your Queen of Cupcakes Penelope Mai Gimmick, you may bury 1 other card in your discard pile.'
+  tags: []
+  related_cards:
+    - f3191d334cc544f7a70a6206e3c20c12
+- name: Poison Cupcake
+  db_uuid: 0dbc26a3fe7b4ebd83076f3fffa95a4e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +1 to Strike
+
+    Draw the bottom 2 cards of your deck.'
+  tags: []
+  related_cards:
+    - f3191d334cc544f7a70a6206e3c20c12
+- name: Sugar Crash
+  db_uuid: ed214d7909264c13963b973cad068801
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Draw 2 cards then bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - f3191d334cc544f7a70a6206e3c20c12
+- name: Sweet Surrender
+  db_uuid: ccb41536e45c4643990646efaa75a7ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Grapple
+
+    If stopped, bury or discard any number of cards from your hand and draw the same number of cards.'
+  tags: []
+  related_cards:
+    - f3191d334cc544f7a70a6206e3c20c12
 - name: Rage
   db_uuid: 3f06685328d74f4fa8c64f77a0add3df
   srgpc_url: https://www.srgpc.net/cards/competitors/rage/

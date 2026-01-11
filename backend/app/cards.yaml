@@ -40499,7 +40499,7 @@
   tags: []
   related_cards:
     - 7a641f25d38c4438896303135d4e9d56
-- name: Everyone's Enemy
+- name: Everyone's Enemy (V1)
   db_uuid: 2862f5de471b45539cbc9fedbe11aeb5
   srgpc_url: https://www.srgpc.net/cards/competitors/everyones-enemy/
   card_type: SingleCompetitorCard
@@ -40516,6 +40516,67 @@
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
     - 9d8401a397c242159ed1b01385439f73
+- name: Everyone's Enemy (V2)
+  db_uuid: a6edec7629c74333afc0be9086e933d7
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: You cannot be prevented from Double Teaming, Saving, rolling Breakout rolls, breaking out, drawing cards, playing cards, or stopping cards.
+  tags: []
+  related_finishes:
+    - 0d39e14830bb450494a19a7a88bd5af3
+    - 985d4ae92cf44670b5ac5b7791ef4398
+    - de9f7a189ea04ec3a494ec706a43f2c1
+- name: Gold Ship Special!
+  db_uuid: 0d39e14830bb450494a19a7a88bd5af3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +2 to Strike
+
+    If your Gimmick is blanked by a card:  This card cannot be stopped.  Draw 2 cards.'
+  tags: []
+  related_cards:
+    - a6edec7629c74333afc0be9086e933d7
+- name: Danse Macabre
+  db_uuid: 985d4ae92cf44670b5ac5b7791ef4398
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +3 to Grapple
+
+    If your opponent ended their last turn without playing a card, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - a6edec7629c74333afc0be9086e933d7
+- name: Fatal Crush
+  db_uuid: de9f7a189ea04ec3a494ec706a43f2c1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    +1 to Grapple
+
+    Your opponent cannot play cards on their next turn.'
+  tags: []
+  related_cards:
+    - a6edec7629c74333afc0be9086e933d7
 - name: Everyone's Enemy (Scallywag)
   db_uuid: a447d6f29dfb49bea3c66717163ca459
   card_type: SingleCompetitorCard
@@ -56991,10 +57052,10 @@
 
     If this card is stopped, add 1 other card with "Anger" in the name from your discard pile to your hand.'
   tags: []
-  wants_keywords:
-    - Anger
   related_cards:
     - 3f06685328d74f4fa8c64f77a0add3df
+  wants_keywords:
+    - Anger
 - name: Anger Management
   db_uuid: 3fe1064755f14f1c8c9822fc1da43edc
   card_type: MainDeckCard
@@ -57034,6 +57095,38 @@
   submission: 7
   grapple: 6
   rules_text: 'When you have a Strike, Grapple, and Submission in play: Your Strike, Grapple, and Submission skills are +1.'
+  tags: []
+- name: Shoot the Duck
+  db_uuid: aa6c1ebb14e54453ab782e16c0bac3e2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: WHen this card is in your discard pile and you roll Agility for your turn roll, you may bury your hand then add this card to your hand.
+  tags: []
+- name: The Bedazzeler
+  db_uuid: 9ec181eaffa0439ab1f4006ce0af846a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    +2 to Grapple
+
+    Draw 2 cards for each move type you have in play, including this card (Strike, Grapple, or Submission).'
+  tags: []
+- name: The Figure Sk8
+  db_uuid: c9d136dec5284617816a00d7c33bb9e8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Technique
+
+    Your opponent flips 4 cards, then bury four cards in your opponent''s discard pile.'
   tags: []
 - name: Random Guy
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c

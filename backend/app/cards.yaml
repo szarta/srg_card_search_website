@@ -1080,6 +1080,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: Crash Landing
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1095,6 +1096,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: Fear of Diving
   db_uuid: ebda093ef7284c7f9e10da5e35be90ae
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1114,6 +1116,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: The Paper Cut
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
   card_type: MainDeckCard
@@ -1132,6 +1135,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: Cactus Driver 97'
   db_uuid: ba54a7d9874e48169b07969b52f171c6
   srg_url: https://supershowthegame.com/product/death-machine-sami-callihan/
@@ -1147,6 +1151,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: The Ball Claw
   db_uuid: a38f21dfd9cf4924a668c3396a428844
   card_type: MainDeckCard
@@ -1165,6 +1170,7 @@
     - 9fd2c3aee2a04dc2b28c07e043be587c
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
+    - 3ebc8a70bd834b31b85381984de3ea5c
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
@@ -59405,12 +59411,12 @@
   grapple: 7
   rules_text: Your Follow Up Strikes with "Kick" in the name have the added text "Draw 2 cards, and your opponent buries 1 card from their hand."
   tags: []
-  wants_keywords:
-    - Kick
   related_finishes:
     - 460e3213b23049e29503ccf4716458a3
     - 790372c4eabd482dbfb086cb80772d0d
     - 4bacc27955e0447d990ab3ef16101d99
+  wants_keywords:
+    - Kick
 - name: Le Mule Kick
   db_uuid: 460e3213b23049e29503ccf4716458a3
   card_type: MainDeckCard
@@ -59425,10 +59431,10 @@
 
     Draw 1 card.  Your opponent buries 2 cards in their hand.'
   tags: []
-  wants_keywords:
-    - Kick
   related_cards:
     - 65d69cb7f158408d94b44b307d969cde
+  wants_keywords:
+    - Kick
 - name: Hee-Haw See-Saw
   db_uuid: 790372c4eabd482dbfb086cb80772d0d
   card_type: MainDeckCard
@@ -59469,6 +59475,13 @@
   grapple: 10
   rules_text: When you would flip a set number of cards, you may instead have your opponent flip the same number of cards.
   tags: []
+  related_finishes:
+    - 26d8904b89a44ed481131580376de702
+    - f9a5b8865ff44c9397aed40cc3b11b2a
+    - ebda093ef7284c7f9e10da5e35be90ae
+    - 4fcb3ec9e7144d628ae94a12855ca46e
+    - ba54a7d9874e48169b07969b52f171c6
+    - a38f21dfd9cf4924a668c3396a428844
 - name: Sami Callihan "Death Machine" (V2)
   db_uuid: c38c2c3ef1154d008cb129120a95bdb6
   srgpc_url: https://www.srgpc.net/cards/competitors/death-machine-sami-callihan/
@@ -59483,6 +59496,54 @@
   grapple: 10
   rules_text: You do not bury or discard cards from your hand for your own card effects.
   tags: []
+  related_finishes:
+    - f8b2e446b04a46e0b151cec124a51653
+    - adb17f78fea847419ffca5a1e0a807ed
+    - 6b560feeb1854b7bbd9d04919c79fab9
+- name: <Wooo> John Calace!
+  db_uuid: f8b2e446b04a46e0b151cec124a51653
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +3 to Agility
+
+    Your opponent''s next 3 turn rolls are -1.'
+  tags: []
+  related_cards:
+    - c38c2c3ef1154d008cb129120a95bdb6
+- name: Cactus Driver '97 (Sami Callihan)
+  db_uuid: adb17f78fea847419ffca5a1e0a807ed
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - c38c2c3ef1154d008cb129120a95bdb6
+- name: Rake the Eyes
+  db_uuid: 6b560feeb1854b7bbd9d04919c79fab9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    Look at your opponent''s hand.
+
+    Choose 2 cards and discard them.'
+  tags: []
+  related_cards:
+    - c38c2c3ef1154d008cb129120a95bdb6
 - name: Sami "The Draw" Callihan
   db_uuid: 20c146c8c0854329807a89143269a8fb
   srgpc_url: https://www.srgpc.net/cards/competitors/sami-the-draw-callihan/

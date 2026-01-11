@@ -59314,7 +59314,7 @@
     - 808ba25516244898996d93ca33500c35
     - 0b1099b9116c465bb003708c3524877f
     - ff2a915ef87046cfa33cbd4561b68c73
-- name: Seven Wonders (V1)
+- name: The Seven Wonders (V1)
   db_uuid: 2b02699126e24231992f676db15290c5
   card_type: MainDeckCard
   atk_type: Strike
@@ -59327,7 +59327,7 @@
     - 04ee2101e644473f9327c2333d8183c8
     - ee1179b3778240f09d9cd167420d9e1f
     - 4113ec43d646463d9a610b57e58cfe33
-- name: Seven Wonders (V2)
+- name: The Seven Wonders (V2)
   db_uuid: 8be49c901dd348b8a4f3df749ae5e1d7
   card_type: MainDeckCard
   atk_type: Strike

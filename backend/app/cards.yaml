@@ -57096,6 +57096,10 @@
   grapple: 6
   rules_text: 'When you have a Strike, Grapple, and Submission in play: Your Strike, Grapple, and Submission skills are +1.'
   tags: []
+  related_finishes:
+    - aa6c1ebb14e54453ab782e16c0bac3e2
+    - 9ec181eaffa0439ab1f4006ce0af846a
+    - c9d136dec5284617816a00d7c33bb9e8
 - name: Shoot the Duck
   db_uuid: aa6c1ebb14e54453ab782e16c0bac3e2
   card_type: MainDeckCard
@@ -57104,6 +57108,8 @@
   deck_card_number: 28
   rules_text: WHen this card is in your discard pile and you roll Agility for your turn roll, you may bury your hand then add this card to your hand.
   tags: []
+  related_cards:
+    - e1b8cc42d0774c118785d02b296909f3
 - name: The Bedazzeler
   db_uuid: 9ec181eaffa0439ab1f4006ce0af846a
   card_type: MainDeckCard
@@ -57116,6 +57122,8 @@
 
     Draw 2 cards for each move type you have in play, including this card (Strike, Grapple, or Submission).'
   tags: []
+  related_cards:
+    - e1b8cc42d0774c118785d02b296909f3
 - name: The Figure Sk8
   db_uuid: c9d136dec5284617816a00d7c33bb9e8
   card_type: MainDeckCard
@@ -57128,6 +57136,8 @@
 
     Your opponent flips 4 cards, then bury four cards in your opponent''s discard pile.'
   tags: []
+  related_cards:
+    - e1b8cc42d0774c118785d02b296909f3
 - name: Random Guy
   db_uuid: 483a9b0e19864ba0b39d35eab674d18c
   srgpc_url: https://www.srgpc.net/cards/competitors/random-guy/

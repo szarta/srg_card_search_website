@@ -59621,6 +59621,54 @@
   grapple: 6
   rules_text: 'Once per match: Your opponent may reveal their hand and you may discard 2 cards from it. If they do not, search your deck for 2 cards and add them to your hand.'
   tags: []
+  related_finishes:
+    - 05f3d6fa84af4a9faba54b60457f98dd
+    - 951510ef05854c2789ed2e8bf617285b
+    - 586fd1e6821846ec9f7a0337d87510db
+- name: Knock Your Teeth Out
+  db_uuid: 05f3d6fa84af4a9faba54b60457f98dd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Your opponent randomly discards 2 cards from their hand.
+
+    Shuffle up to 12 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 1ff9513294ec45d9b52189d8c6f7005c
+- name: Surprise Hug Attack
+  db_uuid: 951510ef05854c2789ed2e8bf617285b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    If the Crowd Meter is 1 or greater and you used your Gimmick this turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 1ff9513294ec45d9b52189d8c6f7005c
+- name: Checking the List
+  db_uuid: 586fd1e6821846ec9f7a0337d87510db
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Draw 1 card.  Your opponent discards 1 card from their hand.
+
+    If you have "You''ve Been Naughty" in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 1ff9513294ec45d9b52189d8c6f7005c
 - name: Santa's Little Llama
   db_uuid: 9c53d33649a64c25bbef794fb6c24f29
   srgpc_url: https://www.srgpc.net/competitors/santas-little-llama/

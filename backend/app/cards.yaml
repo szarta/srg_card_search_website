@@ -68609,6 +68609,52 @@
   tags: []
   wants_keywords:
     - Guitar
+  related_finishes:
+    - bcbafc8bd68c402990d039f3878e7d36
+    - 3d1406e1962c48bb91afe7b8aa4b3892
+    - d7f3c47c51ae43ffb53d056ecef4adfd
+- name: Everyone's Favorite Part
+  db_uuid: bcbafc8bd68c402990d039f3878e7d36
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Flip 5 cards.
+
+    Your finish roll is +1 for each card with "Guitar" in the name flipped.'
+  tags: []
+  wants_keywords:
+    - Guitar
+  related_cards:
+    - d2d94474f54c430197061e0c2531012c
+- name: Take Me Home Driver
+  db_uuid: 3d1406e1962c48bb91afe7b8aa4b3892
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - d2d94474f54c430197061e0c2531012c
+- name: Lucy's Legs
+  db_uuid: d7f3c47c51ae43ffb53d056ecef4adfd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Each player shuffles their deck.  Put 1 card from your discard pile on top of your deck.'
+  tags: []
+  related_cards:
+    - d2d94474f54c430197061e0c2531012c
 - name: The Boricua Badass Jeremy Rodriguez
   db_uuid: 09afe21c91b44543b97072e1d1894dab
   srg_url: https://supershowthegame.com/product/the-boricua-badass-jeremy-rodriguez/

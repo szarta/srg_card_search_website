@@ -55480,6 +55480,56 @@
   grapple: 5
   rules_text: 'When you roll Grapple for your turn roll: Your opponent cannot draw cards until the start of their next turn.'
   tags: []
+  related_finishes:
+    - 8d7e3617fe4f4ac7809fabfec353bdbd
+    - 45b4377f66d548f2921986518a984392
+    - 810d264bc8ae4f04b29fc687712a8a55
+- name: End of an Era
+  db_uuid: 8d7e3617fe4f4ac7809fabfec353bdbd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    Copy the text of a Lead in your discard pile or add 1 Lead from your discard pile to your hand.  If the Crowd Meter is 3 or greater, choose both.'
+  tags: []
+  related_cards:
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
+- name: Press 1 P-ile Driver
+  db_uuid: 45b4377f66d548f2921986518a984392
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +2 to Agility
+
+    Your opponent buries 1 card in their hand.
+
+    Bury 3 cards in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
+- name: Era-Lock
+  db_uuid: 810d264bc8ae4f04b29fc687712a8a55
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Grapple
+
+    Your opponent randomly discards 1 card from their hand until they discard 1 card without a Stop.'
+  tags: []
+  related_cards:
+    - 2a1ae85ae5c84ea0a72d5cc44553199c
 - name: Pluto
   db_uuid: 30d964459f7942bf84b6bb57a23b356a
   srgpc_url: https://www.srgpc.net/cards/competitors/pluto/

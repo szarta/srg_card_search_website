@@ -46257,7 +46257,7 @@
   tags: []
   related_cards:
     - c5956ba466a341ad8e89c6a23ed5a839
-- name: Game Over
+- name: Game Over (Kenta)
   db_uuid: aa655e4bed4d440da0f44eec2df8a82c
   card_type: MainDeckCard
   atk_type: Submission
@@ -55311,6 +55311,52 @@
   grapple: 5
   rules_text: When you roll Strike for your turn roll, you may bury 1 card in your hand to draw 2 cards.
   tags: []
+  related_finishes:
+    - b1a3ceddf4664092923a6d9ab86ab114
+    - 57387bef55ca4d38adfffc01385dabc3
+    - 3831e3c44ab643bea6ea9efdf6388679
+- name: Button Mash
+  db_uuid: b1a3ceddf4664092923a6d9ab86ab114
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    If stopped search your deck for 1 Finish card and put it on top of your shuffled deck.'
+  tags: []
+  related_cards:
+    - c60c1ad29cb0440481fc29ae1c863a37
+- name: The High Score
+  db_uuid: 57387bef55ca4d38adfffc01385dabc3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    Choose 2 Finish cards in your discard pile, add 1 to your hand, shuffle the other into your deck.'
+  tags: []
+  related_cards:
+    - c60c1ad29cb0440481fc29ae1c863a37
+- name: Game Over (Pixel)
+  db_uuid: 3831e3c44ab643bea6ea9efdf6388679
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    When the Crowd Meter is 3 or greater this card cannot be stopped by Leads.'
+  tags: []
+  related_cards:
+    - c60c1ad29cb0440481fc29ae1c863a37
 - name: Plant Based Bruiser
   db_uuid: a9a384dd112246d58b8c359460d56ddc
   srgpc_url: https://www.srgpc.net/cards/competitors/plant-based-bruiser/

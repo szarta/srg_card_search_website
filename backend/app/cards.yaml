@@ -55120,6 +55120,10 @@
   grapple: 5
   rules_text: When the Crowd Meter is 1 or less your opponents Finish cards have blank text.
   tags: []
+  related_finishes:
+    - 76cc8690ba7e4db1ac6e6e2053ee4d08
+    - 1831aa95d22242f387b3b4f191989746
+    - 21ee0b57c578487cb68e2dbc210b1c06
 - name: King's Landing
   db_uuid: 76cc8690ba7e4db1ac6e6e2053ee4d08
   card_type: MainDeckCard
@@ -55130,6 +55134,8 @@
 
     +3 to Submission'
   tags: []
+  related_cards:
+    - 72ca0ec381b44e6cafbb6992e89eb2ba
 - name: Lionplex
   db_uuid: 1831aa95d22242f387b3b4f191989746
   card_type: MainDeckCard
@@ -55142,6 +55148,8 @@
 
     If the last turn was your opponent''s turn, +2 to Power and +4 to Grapple instead.'
   tags: []
+  related_cards:
+    - 72ca0ec381b44e6cafbb6992e89eb2ba
 - name: King's Embrace
   db_uuid: 21ee0b57c578487cb68e2dbc210b1c06
   card_type: MainDeckCard
@@ -55154,6 +55162,8 @@
 
     When this card is in your discard pile, if the Crowd Meter is 1 or greater and your opponent won the last turn roll, your next turn roll is +1.'
   tags: []
+  related_cards:
+    - 72ca0ec381b44e6cafbb6992e89eb2ba
 - name: The Phantasm
   db_uuid: b893411fa9304bc1a3c34615e6c3c10d
   card_type: SingleCompetitorCard

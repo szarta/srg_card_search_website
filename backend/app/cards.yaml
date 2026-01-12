@@ -50665,6 +50665,7 @@
     - c7b112a959164f1ab5a4018303136e61
     - e50493d2f25143e3ada268231a196148
     - 8a9bef4a979a4d31b05a7f15411c0055
+    - 9c53d33649a64c25bbef794fb6c24f29
 - name: Alpaca Driver
   db_uuid: fca77d98c237423d88b380e01b45d49a
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
@@ -50680,6 +50681,7 @@
     - c7b112a959164f1ab5a4018303136e61
     - e50493d2f25143e3ada268231a196148
     - 8a9bef4a979a4d31b05a7f15411c0055
+    - 9c53d33649a64c25bbef794fb6c24f29
 - name: Goat Monkey Grip
   db_uuid: 6371c23c781846bcb9146ba355bf97fd
   srg_url: https://supershowthegame.com/product/masked-llama-sd/
@@ -50695,6 +50697,7 @@
     - c7b112a959164f1ab5a4018303136e61
     - e50493d2f25143e3ada268231a196148
     - 8a9bef4a979a4d31b05a7f15411c0055
+    - 9c53d33649a64c25bbef794fb6c24f29
 - name: The Master Chef L.M.P.
   db_uuid: 4392e41a99c04747a5f80e5078ffddc4
   srgpc_url: https://www.srgpc.net/cards/competitors/the-master-chef-l-m-p/
@@ -59685,6 +59688,10 @@
 
     When you hit a card, you may play 1 additional card with "Eat" in the name.'
   tags: []
+  related_finishes:
+    - 50b05f057ff1441a9618c6f7e1b7354b
+    - fca77d98c237423d88b380e01b45d49a
+    - 6371c23c781846bcb9146ba355bf97fd
   wants_keywords:
     - Eat
 - name: Scarlett Graves (V1)
@@ -60348,6 +60355,50 @@
   grapple: 8
   rules_text: When you bump, your next turn roll is +2.
   tags: []
+  related_finishes:
+    - 57783400558942febbfca73d0b45d3bf
+    - 38f0ca50a172499fbb9b709a9ef20a16
+    - 5ce55a53b2c345789968e10ee6268c6d
+- name: Bomaye
+  db_uuid: 57783400558942febbfca73d0b45d3bf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Technique
+
+    +1 to Agility'
+  tags: []
+  related_cards:
+    - 17aed6b36bb347bf8eae88195831bf8b
+- name: Kill Shot
+  db_uuid: 38f0ca50a172499fbb9b709a9ef20a16
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Powr
+
+    +1 to Grapple
+
+    If you bumped on the previous turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 17aed6b36bb347bf8eae88195831bf8b
+- name: Fade to Black
+  db_uuid: 5ce55a53b2c345789968e10ee6268c6d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'If your Finish roll is 7 or less, it is +2.
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 17aed6b36bb347bf8eae88195831bf8b
 - name: Shea McCoy
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
   srgpc_url: https://www.srgpc.net/cards/competitors/shea-mccoy/

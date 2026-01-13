@@ -60418,6 +60418,58 @@
   wants_keywords:
     - Luck
     - Irish
+  related_finishes:
+    - 697309026524491289be984389065ef8
+    - 5b731b6e7eae48f7a3db8b2ac4f2eb8c
+    - 6837e500f67d42108e2960a328ec6497
+- name: The Luck of the Irish
+  db_uuid: 697309026524491289be984389065ef8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    If you have a card with "Luck" or "Irish" in the name, this card is also a Follow Up.'
+  tags: []
+  wants_keywords:
+    - Luck
+    - Irish
+  related_cards:
+    - be55d4aa4cfd4ed18b77690f51f47bfa
+- name: The Irish Grapevine
+  db_uuid: 5b731b6e7eae48f7a3db8b2ac4f2eb8c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    If your opponent breaks out, add 2 cards with "Luck" or "Irish" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Luck
+    - Irish
+  related_cards:
+    - be55d4aa4cfd4ed18b77690f51f47bfa
+- name: Your Luck's Run Out
+  db_uuid: 6837e500f67d42108e2960a328ec6497
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Agility
+
+    If this card is flipped, draw 1 card, your next turn roll is +1, and add this card to your hand.'
+  tags: []
+  related_cards:
+    - be55d4aa4cfd4ed18b77690f51f47bfa
 - name: Sheeple's Champion
   db_uuid: f0c3671ff70049f6ae49190df968e6a4
   srgpc_url: https://www.srgpc.net/cards/competitors/sheeples-champion/

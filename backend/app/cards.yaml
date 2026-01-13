@@ -32213,13 +32213,13 @@
 
     When you roll Agility for your turn roll; you may search your deck or discard pile for 1 card with "Flying" or "Top Rope" in the name.  Put that card on top of your deck.'
   tags: []
-  wants_keywords:
-    - Flying
-    - Top Rope
   related_finishes:
     - f344e9d968214aae947046f8a352a3d0
     - 59da2a1b91424f808452c972d67ef9c2
     - a956f7573f274f679fa3314b7edca695
+  wants_keywords:
+    - Flying
+    - Top Rope
 - name: A Trip to Psycho-Land
   db_uuid: f344e9d968214aae947046f8a352a3d0
   card_type: MainDeckCard
@@ -70369,6 +70369,7 @@
 - name: Soratonin
   db_uuid: 8e91063f3d584089a7218223a02d0574
   srg_url: https://supershowthegame.com/product/soratonin/
+  srgpc_url: https://www.srgpc.net/cards/competitors/soratonin/
   card_type: SingleCompetitorCard
   division: United States
   power: 8
@@ -70379,6 +70380,44 @@
   grapple: 7
   rules_text: After a breakout, search your deck or discard pile for a Soratonin Finish and add it to your hand.
   tags: []
+  related_finishes:
+    - 99b54a6c55f14ebb807dfb3975c3705e
+    - 1e3bef96bf854a8984d86f21f7cec0f1
+    - ba08f6e5feba423e88b2e6e79b4385b4
+- name: Two Days Slow
+  db_uuid: 99b54a6c55f14ebb807dfb3975c3705e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    If this card is stopped, draw 4 cards.'
+  tags: []
+  related_cards:
+    - 8e91063f3d584089a7218223a02d0574
+- name: I Wish to Hat You
+  db_uuid: 1e3bef96bf854a8984d86f21f7cec0f1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If stopped, your opponent randomly buries half their hand (rounded up) +1.
+
+    Your Finish roll is -2.'
+  tags: []
+  related_cards:
+    - 8e91063f3d584089a7218223a02d0574
+- name: We're All Mad Here
+  db_uuid: ba08f6e5feba423e88b2e6e79b4385b4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: When the Crowd Meter is 2 or greater and "Two Days Slow" and "I Wish to Hat You" are in your discard pile, this card cannot be stopped.
+  tags: []
+  related_cards:
+    - 8e91063f3d584089a7218223a02d0574
 - name: SRG Mom
   db_uuid: 6a32e401cff74db8937a966a156ae2c3
   srg_url: https://supershowthegame.com/product/srg-mom/

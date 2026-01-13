@@ -62608,6 +62608,60 @@
   wants_keywords:
     - Smash
     - Buster
+  related_finishes:
+    - 423c25056126406f800a5799e0c988a9
+    - 3ae2ed6f42064bf4a543c603c4ea17a3
+    - 43971a1fa254417e950984c707669e4b
+- name: Imperial Sugar Rush
+  db_uuid: 423c25056126406f800a5799e0c988a9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +2 to Strike
+
+    Discard 1 card your opponent has in play for each card you have in play with "Rush" in the name.'
+  tags: []
+  related_cards:
+    - c0881aba76014c88b5f720f463f48d64
+  wants_keywords:
+    - Rush
+- name: Fiesta Siesta
+  db_uuid: 3ae2ed6f42064bf4a543c603c4ea17a3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your opponent randomly buries 1 card in their hand for each card you have in play with "Rush", "Smash", or "Buster" in the name.'
+  tags: []
+  wants_keywords:
+    - Rush
+    - Smash
+    - Buster
+  related_cards:
+    - c0881aba76014c88b5f720f463f48d64
+- name: ACL Buster
+  db_uuid: 43971a1fa254417e950984c707669e4b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Flip 3 cards.'
+  tags: []
+  related_cards:
+    - c0881aba76014c88b5f720f463f48d64
 - name: THE Phil Birch
   db_uuid: 2ac859ee5b724848b5d34e70740c4f50
   srgpc_url: https://www.srgpc.net/competitors/the-phil-birch/

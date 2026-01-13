@@ -35295,6 +35295,7 @@
     - 9932fcbfe7ac4e61b445a809154529ba
 - name: The Boatswain's Mate Spencer Vance
   db_uuid: e38cced416cc45e0a9e1367935fd590a
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-boatswains-mate-spencer-vance/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -35310,6 +35311,58 @@
   tags: []
   wants_keywords:
     - Drop
+  related_finishes:
+    - 8dde20be77334b48b694511b5ff67846
+    - c037a636a5bd4383886a1957f24c6801
+    - b79d3a8aecf74338896f279a4821656a
+- name: Marlin Spike
+  db_uuid: 8dde20be77334b48b694511b5ff67846
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +4 to Agility
+
+    If your opponent rolls 10 for their Breakout roll, you lose the match via disqualification.
+
+    Stop any Grapple with "Chain" in the name.'
+  tags: []
+  wants_keywords:
+    - Chain
+  related_cards:
+    - e38cced416cc45e0a9e1367935fd590a
+- name: 3 Fathom Drop
+  db_uuid: c037a636a5bd4383886a1957f24c6801
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    You may discard this card from your hand to add 1 other The Boatswain''s Mate Spencer Vance Finish from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - e38cced416cc45e0a9e1367935fd590a
+- name: Boatswain Knot
+  db_uuid: b79d3a8aecf74338896f279a4821656a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Grapple
+
+    If the Crowd Meter is 2, your opponent gets 2 Breakout rolls.
+
+    If the Crowd Meter is 3 or 4, your opponent gets 1 Breakout roll.
+
+    If the Crowd Meter is 5, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - e38cced416cc45e0a9e1367935fd590a
 - name: Bookermania
   db_uuid: 01998721b8344b9e955ec78fb3151bbc
   card_type: SingleCompetitorCard

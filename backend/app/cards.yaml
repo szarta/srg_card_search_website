@@ -69785,6 +69785,7 @@
 - name: Soto the Goato
   db_uuid: a165b1a7bd3e43958eee8a319ef94074
   srg_url: https://supershowthegame.com/product/soto-the-goato/
+  srgpc_url: https://www.srgpc.net/competitor/soto-the-goato/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -69796,6 +69797,48 @@
   grapple: 9
   rules_text: When you have more Grapples in play than your target, your Technique, Agility, and Submission skills are +1 during your turn and turn rolls.
   tags: []
+  related_finishes:
+    - ad220769dea44910817d891983d09c55
+    - c25d05aeb3724734b49bd0019afac00b
+    - 83dc661c65ee40dba52c7b1c87be0f6b
+- name: Goated Dropkick
+  db_uuid: ad220769dea44910817d891983d09c55
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Once per turn: You may force your opponent to re-roll a Breakout roll.'
+  tags: []
+  related_cards:
+    - a165b1a7bd3e43958eee8a319ef94074
+- name: Goated Drop
+  db_uuid: c25d05aeb3724734b49bd0019afac00b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +1 to Grapple
+
+    When this card is in your discard pile and you roll Technique for your turn roll, draw 1 card.'
+  tags: []
+  related_cards:
+    - a165b1a7bd3e43958eee8a319ef94074
+- name: Goatlock
+  db_uuid: 83dc661c65ee40dba52c7b1c87be0f6b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - a165b1a7bd3e43958eee8a319ef94074
 - name: Rey Zerblade
   db_uuid: 3e6ec7e5fe33421d83a699ac956a6858
   srg_url: https://supershowthegame.com/product/ray-zerblade/

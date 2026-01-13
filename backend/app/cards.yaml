@@ -39285,7 +39285,7 @@
 - name: The Devil's Advocate (V1)
   db_uuid: 9f81b363d31a478a8a6bf9b903ceee15
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
-  srgpc_url: https://www.srgpc.net/competitors/the-devils-advocate-2/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-devils-advocate/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -39308,6 +39308,7 @@
     - 8342a426d98c451aa81e2f2883bf3f5d
 - name: The Devil's Advocate (V2)
   db_uuid: 4683a1e9b5604a58b42b90904e40734e
+  srgpc_url: https://www.srgpc.net/competitors/the-devils-advocate-2/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -39607,6 +39608,7 @@
     - 6bc2e09bc00f4936b33bbddfccb8fa10
 - name: The Director of Operations
   db_uuid: c13a2cfe42b54d8c86b23d5e2ff3f243
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-director-of-operations/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -39620,6 +39622,54 @@
 
     Look at your opponent''s hand, then you may bury 1 card in any player''s discard pile.'
   tags: []
+  related_finishes:
+    - ad2bbd7b60074eaf92af721eb70c307b
+    - 44cac0ee1e0e45aa9ae780e2702284e5
+    - fb0a5d4713d4489992abb24c3752f8c5
+- name: Tech Wizard
+  db_uuid: ad2bbd7b60074eaf92af721eb70c307b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Shuffle 1 card from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - c13a2cfe42b54d8c86b23d5e2ff3f243
+- name: Disaster Recovery
+  db_uuid: 44cac0ee1e0e45aa9ae780e2702284e5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    If this card is flipped during your turn, you may play it.
+
+    Shuffle 3 cards from your discard pile into your deck.  Draw 1 card.'
+  tags: []
+  related_cards:
+    - c13a2cfe42b54d8c86b23d5e2ff3f243
+- name: Turn It Off and On Again
+  db_uuid: fb0a5d4713d4489992abb24c3752f8c5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your opponent cannot increase their Breakout roll.'
+  tags: []
+  related_cards:
+    - c13a2cfe42b54d8c86b23d5e2ff3f243
 - name: Dirty Eddy (V1)
   db_uuid: e11da46d6f07469b8bb42e3fff7800b7
   srgpc_url: https://www.srgpc.net/cards/competitors/dirty-eddy/

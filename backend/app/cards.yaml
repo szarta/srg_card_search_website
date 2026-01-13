@@ -29274,6 +29274,7 @@
     - Face
 - name: Sugar Plum
   db_uuid: 62051250500340faa65458bd603c6806
+  srgpc_url: https://www.srgpc.net/cards/competitors/sugar-plum/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 7
@@ -29286,6 +29287,52 @@
 
     Reveal the top 2 cards of your deck, randomly add 1 to your hand and bury the other.'
   tags: []
+  related_finishes:
+    - a1bf8ad3ce1849bc981ef1b76b3e2ac5
+    - b35b4911a1284691bee00edd51561eb9
+    - 4e1b8a88669f40939fef3d3f62be37e2
+- name: The Nut Cracker
+  db_uuid: a1bf8ad3ce1849bc981ef1b76b3e2ac5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 62051250500340faa65458bd603c6806
+- name: Dance of the Sugar Plum
+  db_uuid: b35b4911a1284691bee00edd51561eb9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Grapple
+
+    If stopped, shuffle 3 cards from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - 62051250500340faa65458bd603c6806
+- name: A Swim in Swan Lake
+  db_uuid: 4e1b8a88669f40939fef3d3f62be37e2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    If this card is revealed for your Gimmick, draw 1 card.'
+  tags: []
+  related_cards:
+    - 62051250500340faa65458bd603c6806
 - name: Shaggy Shark
   db_uuid: 3fbecda1ffc64b9fa731e5b06f260e33
   srgpc_url: https://www.srgpc.net/cards/competitors/shaggy-shark/

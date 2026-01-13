@@ -29115,8 +29115,16 @@
 
     When your opponent rolls Technique for their turn roll, you may force them to re-roll.'
   tags: []
+  related_finishes:
+    - a89c630968fc4efe81af1290245c19bd
+    - 351741fe50a14070a2f3fcd7da1f6016
+    - 12376fe4a1b74ed6a7ee694b4202a217
+    - 68f6615027ed4e54a3f9e66e54b46562
+    - 58c173cfd81042bb9898fa88564f915f
+    - da41b938cc2d45b79fd1ef64906bcdb0
 - name: Terror Skull (V2)
   db_uuid: b83c210cc53b47149809da23f9374071
+  srgpc_url: https://www.srgpc.net/cards/competitors/terror-skull/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 10
@@ -29130,6 +29138,110 @@
   wants_keywords:
     - Chain
     - Terror
+  related_finishes:
+    - a89c630968fc4efe81af1290245c19bd
+    - 351741fe50a14070a2f3fcd7da1f6016
+    - 12376fe4a1b74ed6a7ee694b4202a217
+    - 68f6615027ed4e54a3f9e66e54b46562
+    - 58c173cfd81042bb9898fa88564f915f
+    - da41b938cc2d45b79fd1ef64906bcdb0
+- name: The Reign of Terror
+  db_uuid: a89c630968fc4efe81af1290245c19bd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Grapple
+
+    If your opponent rolled Technique for their turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
+- name: Terror Rising
+  db_uuid: 351741fe50a14070a2f3fcd7da1f6016
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
+- name: Skull Crusher
+  db_uuid: 12376fe4a1b74ed6a7ee694b4202a217
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Your opponent discards 1 card in their hand for each card you have in play with "Head" or "Skull" in the name.'
+  tags: []
+  wants_keywords:
+    - Head
+    - Skull
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
+- name: Terror-Bite
+  db_uuid: 68f6615027ed4e54a3f9e66e54b46562
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Your opponent''s 1st and 2nd Breakout rolls are -1 for each card you have in play with "Head" or "Skull" in the name.'
+  tags: []
+  wants_keywords:
+    - Head
+    - Skull
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
+- name: The Wave of Terror
+  db_uuid: 58c173cfd81042bb9898fa88564f915f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile, your opponent''s Technique is -1 during turn rolls.'
+  tags: []
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
+- name: Terrorfied
+  db_uuid: da41b938cc2d45b79fd1ef64906bcdb0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Chain" or "Terror in the name.'
+  tags: []
+  wants_keywords:
+    - Chain
+    - Terror
+  related_cards:
+    - 2bf53422f8854fad970f8184079c9cc8
+    - b83c210cc53b47149809da23f9374071
 - name: Leader of the Postal Nation
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/

@@ -1081,6 +1081,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: Crash Landing
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1097,6 +1098,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: Fear of Diving
   db_uuid: ebda093ef7284c7f9e10da5e35be90ae
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1117,6 +1119,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: The Paper Cut
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
   card_type: MainDeckCard
@@ -1136,6 +1139,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: Cactus Driver 97'
   db_uuid: ba54a7d9874e48169b07969b52f171c6
   srg_url: https://supershowthegame.com/product/death-machine-sami-callihan/
@@ -1152,6 +1156,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: The Ball Claw
   db_uuid: a38f21dfd9cf4924a668c3396a428844
   card_type: MainDeckCard
@@ -1171,6 +1176,7 @@
     - 33f14ac0cc504bad9a2b0b465163e6d6
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
+    - ab2ce049ab6b49ce96d50089b770b14c
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
@@ -26695,6 +26701,13 @@
   grapple: 9
   rules_text: 'When you roll Grapple for your turn roll: Shuffle 1 card that is not a stop from your discard pile into your deck.'
   tags: []
+  related_finishes:
+    - 26d8904b89a44ed481131580376de702
+    - f9a5b8865ff44c9397aed40cc3b11b2a
+    - ebda093ef7284c7f9e10da5e35be90ae
+    - 4fcb3ec9e7144d628ae94a12855ca46e
+    - ba54a7d9874e48169b07969b52f171c6
+    - a38f21dfd9cf4924a668c3396a428844
 - name: Bath Time Booker
   db_uuid: 75537925f3e5419eabfa2191870a6c7a
   srg_url: https://supershowthegame.com/product/bathtime-booker/
@@ -26729,6 +26742,10 @@
   grapple: 8
   rules_text: When you roll Power, you may look at the top 3 cards of your deck. Flip 1, Bury 1, and put the other back on top.
   tags: []
+  related_finishes:
+    - 9b312e499dc44fd193677d7c532d0054
+    - 570d7c4256a84ac09fd237e47fa1415c
+    - 1378ac4306614f91b199cf54d5a4f8ee
 - name: Beatstick Brandon
   db_uuid: 98eb1b96fced4564a2792083660d3709
   srgpc_url: https://www.srgpc.net/cards/competitors/beatstick-brandon/
@@ -62605,13 +62622,13 @@
   grapple: 7
   rules_text: When you hit a card with "Smash" or "Buster" in the name, you may shuffle 1 card you have in play into your deck.
   tags: []
-  wants_keywords:
-    - Smash
-    - Buster
   related_finishes:
     - 423c25056126406f800a5799e0c988a9
     - 3ae2ed6f42064bf4a543c603c4ea17a3
     - 43971a1fa254417e950984c707669e4b
+  wants_keywords:
+    - Smash
+    - Buster
 - name: Imperial Sugar Rush
   db_uuid: 423c25056126406f800a5799e0c988a9
   card_type: MainDeckCard
@@ -62642,12 +62659,12 @@
 
     Your opponent randomly buries 1 card in their hand for each card you have in play with "Rush", "Smash", or "Buster" in the name.'
   tags: []
+  related_cards:
+    - c0881aba76014c88b5f720f463f48d64
   wants_keywords:
     - Rush
     - Smash
     - Buster
-  related_cards:
-    - c0881aba76014c88b5f720f463f48d64
 - name: ACL Buster
   db_uuid: 43971a1fa254417e950984c707669e4b
   card_type: MainDeckCard
@@ -65419,6 +65436,7 @@
     - 66129944904b4d68a3e33c57d11f9914
 - name: The Beast Michael Kerr (V1)
   db_uuid: 8deec12ca2ec43a0b0979fc5576e004f
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-beast-michael-kerr/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -65434,6 +65452,57 @@
 
     BACK: When your opponent''s Power is 10 or greater, your Power is +1.'
   tags: []
+  related_finishes:
+    - 9b312e499dc44fd193677d7c532d0054
+    - 570d7c4256a84ac09fd237e47fa1415c
+    - 1378ac4306614f91b199cf54d5a4f8ee
+- name: Look Alive, Sunshine
+  db_uuid: 9b312e499dc44fd193677d7c532d0054
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If the Crowd Meter is 3 or greater, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 8deec12ca2ec43a0b0979fc5576e004f
+    - d3459a63366446c2bcae03c9ba3132ac
+- name: Beast Bomb
+  db_uuid: 570d7c4256a84ac09fd237e47fa1415c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    If your opponent''s Power is less than 10, double these bonuses.'
+  tags: []
+  related_cards:
+    - 8deec12ca2ec43a0b0979fc5576e004f
+    - d3459a63366446c2bcae03c9ba3132ac
+- name: Steel City Lock
+  db_uuid: 1378ac4306614f91b199cf54d5a4f8ee
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Technique
+
+    +2 to Submission
+
+    If you have 4 cards with "Steel" in the name in play, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 8deec12ca2ec43a0b0979fc5576e004f
+    - d3459a63366446c2bcae03c9ba3132ac
+  wants_keywords:
+    - Steel
 - name: Mr. Rumble
   db_uuid: 20f71ac49c4b4f29998ebc7e69657087
   srg_url: https://supershowthegame.com/product/mr-rumble/

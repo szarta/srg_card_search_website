@@ -26025,6 +26025,7 @@
     - e755c2ad5f77435e81fd8ab9e8d8607a
 - name: Style-O
   db_uuid: 3a339cbb71034a018931acc6c0779192
+  srgpc_url: https://www.srgpc.net/cards/competitors/style-o/
   card_type: SingleCompetitorCard
   division: Intergalactic
   power: 9
@@ -26035,6 +26036,54 @@
   grapple: 7
   rules_text: If your opponent ends their turn without playing a card, your next turn roll is +3.
   tags: []
+  related_finishes:
+    - 416fd9600f6142108ebe2e1f4f4f1951
+    - 2e275a87e35c4481a38106aebf1f3fbb
+    - 10f22447bf87426198ded6663db643e6
+- name: Shooting Style Press
+  db_uuid: 416fd9600f6142108ebe2e1f4f4f1951
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Add 1 card from your discard pile to your hand.
+
+    If your opponent ended their turn without playing a card, double these bonuses.'
+  tags: []
+  related_cards:
+    - 3a339cbb71034a018931acc6c0779192
+- name: Style Buster
+  db_uuid: 2e275a87e35c4481a38106aebf1f3fbb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    If your opponent ended their last turn without playing a card, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 3a339cbb71034a018931acc6c0779192
+- name: O-Mega Rack
+  db_uuid: 10f22447bf87426198ded6663db643e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    If your opponent ended their turn without play a card, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 3a339cbb71034a018931acc6c0779192
 - name: Kaily Sweet Pea Perre
   db_uuid: a000e409a8cf4a9fa77d73bb9787ef3f
   srgpc_url: https://www.srgpc.net/cards/competitors/kaily-sweet-pea-perre/
@@ -36040,6 +36089,7 @@
 - name: Sticky "the Salamander" Sailboat
   db_uuid: 304260416f464f6ca6b6af362f945a21
   srg_url: https://supershowthegame.com/product/sticky-the-salamander/
+  srgpc_url: https://www.srgpc.net/competitor/sticky-the-salamander-sailboat/
   card_type: SingleCompetitorCard
   division: World Championship
   gender: Male
@@ -61792,13 +61842,13 @@
   grapple: 9
   rules_text: When you have 2 cards with "Slam" or "Suplex" in the name in play, and your opponent hits a card; your opponent randomly buries 1 card in their hand.
   tags: []
-  wants_keywords:
-    - Slam
-    - Suplex
   related_finishes:
     - 4f1ce1a458e54afca12d5571c87718ea
     - 37ba45e8b5af464f9c68dea0e42604ae
     - 607258fc38b644ddbf413a481f5a90a4
+  wants_keywords:
+    - Slam
+    - Suplex
 - name: Slambrose Smash
   db_uuid: 4f1ce1a458e54afca12d5571c87718ea
   card_type: MainDeckCard
@@ -61811,11 +61861,11 @@
 
     If stopped, you may put 1 Lead or Follow Up with "Slam" or "Suplex" in the name from your discard pile into play.'
   tags: []
+  related_cards:
+    - a1c585eca71546a3820f4410e925a8fe
   wants_keywords:
     - Slam
     - Suplex
-  related_cards:
-    - a1c585eca71546a3820f4410e925a8fe
 - name: Slambrose Slam
   db_uuid: 37ba45e8b5af464f9c68dea0e42604ae
   card_type: MainDeckCard
@@ -61828,11 +61878,11 @@
 
     If your opponent breaks out, put 1 card with "Slam" or "Suplex" in the name from your discard pile into play.'
   tags: []
+  related_cards:
+    - a1c585eca71546a3820f4410e925a8fe
   wants_keywords:
     - Slam
     - Suplex
-  related_cards:
-    - a1c585eca71546a3820f4410e925a8fe
 - name: Slambrose Stretch
   db_uuid: 607258fc38b644ddbf413a481f5a90a4
   card_type: MainDeckCard
@@ -69956,6 +70006,7 @@
     - 3e6ec7e5fe33421d83a699ac956a6858
 - name: Stung
   db_uuid: 4fca7d06fac844ef810d022629b265ff
+  srgpc_url: https://www.srgpc.net/cards/competitors/stung/
   card_type: SingleCompetitorCard
   division: Old School
   gender: Male

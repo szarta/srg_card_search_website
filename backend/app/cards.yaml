@@ -61795,6 +61795,58 @@
   wants_keywords:
     - Slam
     - Suplex
+  related_finishes:
+    - 4f1ce1a458e54afca12d5571c87718ea
+    - 37ba45e8b5af464f9c68dea0e42604ae
+    - 607258fc38b644ddbf413a481f5a90a4
+- name: Slambrose Smash
+  db_uuid: 4f1ce1a458e54afca12d5571c87718ea
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    If stopped, you may put 1 Lead or Follow Up with "Slam" or "Suplex" in the name from your discard pile into play.'
+  tags: []
+  wants_keywords:
+    - Slam
+    - Suplex
+  related_cards:
+    - a1c585eca71546a3820f4410e925a8fe
+- name: Slambrose Slam
+  db_uuid: 37ba45e8b5af464f9c68dea0e42604ae
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    If your opponent breaks out, put 1 card with "Slam" or "Suplex" in the name from your discard pile into play.'
+  tags: []
+  wants_keywords:
+    - Slam
+    - Suplex
+  related_cards:
+    - a1c585eca71546a3820f4410e925a8fe
+- name: Slambrose Stretch
+  db_uuid: 607258fc38b644ddbf413a481f5a90a4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Shuffle any number of cards with "Slam" or "Suplex" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - a1c585eca71546a3820f4410e925a8fe
 - name: The Stone
   db_uuid: d4c9a7cc966c44feb7d2f09d6b8ccb04
   card_type: SingleCompetitorCard

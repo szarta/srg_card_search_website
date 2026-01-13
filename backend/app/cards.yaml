@@ -32198,6 +32198,7 @@
     - Arm
 - name: Smiley!
   db_uuid: 54f7aabe1c6346e2811aeed599d8055b
+  srgpc_url: https://www.srgpc.net/cards/competitors/smiley/
   card_type: SingleCompetitorCard
   division: Global
   power: 8
@@ -32215,6 +32216,52 @@
   wants_keywords:
     - Flying
     - Top Rope
+  related_finishes:
+    - f344e9d968214aae947046f8a352a3d0
+    - 59da2a1b91424f808452c972d67ef9c2
+    - a956f7573f274f679fa3314b7edca695
+- name: A Trip to Psycho-Land
+  db_uuid: f344e9d968214aae947046f8a352a3d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    Draw 4 cards.
+
+    Each player randomly buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 54f7aabe1c6346e2811aeed599d8055b
+- name: No Smiling Matter
+  db_uuid: 59da2a1b91424f808452c972d67ef9c2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - 54f7aabe1c6346e2811aeed599d8055b
+- name: Psycho-Therapy
+  db_uuid: a956f7573f274f679fa3314b7edca695
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent draws 3 cards.
+
+    Your opponent buries cards in their hand until they have 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 54f7aabe1c6346e2811aeed599d8055b
 - name: Smiley! (Back Stats)
   db_uuid: 791665e646e2401cbcd86f01a35c1522
   card_type: SingleCompetitorCard
@@ -61003,8 +61050,8 @@
   rules_text: 'When your opponent stops a Submission:
 
     They bury 1 card in their hand, then look at the top card of their deck, you may bury it.'
-  tags: []
   comments: Due to some controversy, Swim Files is preferred over this competitor.
+  tags: []
   related_finishes:
     - 4b2066fd097249078a09928cba9145dd
     - 19e92dd2aa744c4a9a403548082c0b44

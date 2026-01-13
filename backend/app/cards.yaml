@@ -35309,12 +35309,12 @@
 
     When you have 3 cards in play with "Drop" in the name, this match has no disqualification.'
   tags: []
-  wants_keywords:
-    - Drop
   related_finishes:
     - 8dde20be77334b48b694511b5ff67846
     - c037a636a5bd4383886a1957f24c6801
     - b79d3a8aecf74338896f279a4821656a
+  wants_keywords:
+    - Drop
 - name: Marlin Spike
   db_uuid: 8dde20be77334b48b694511b5ff67846
   card_type: MainDeckCard
@@ -35329,10 +35329,10 @@
 
     Stop any Grapple with "Chain" in the name.'
   tags: []
-  wants_keywords:
-    - Chain
   related_cards:
     - e38cced416cc45e0a9e1367935fd590a
+  wants_keywords:
+    - Chain
 - name: 3 Fathom Drop
   db_uuid: c037a636a5bd4383886a1957f24c6801
   card_type: MainDeckCard
@@ -69610,6 +69610,7 @@
 - name: The Boricua Badass Jeremy Rodriguez
   db_uuid: 09afe21c91b44543b97072e1d1894dab
   srg_url: https://supershowthegame.com/product/the-boricua-badass-jeremy-rodriguez/
+  srgpc_url: https://www.srgpc.net/competitor/the-borricua-badass-jeremy-rodriguez/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -69621,6 +69622,54 @@
   grapple: 9
   rules_text: 'When you roll Power or Grapple for your turn roll: you may force your opponent to re-roll their turn roll.'
   tags: []
+  related_finishes:
+    - cdf885c32d114c85aacd5fbbd7b57398
+    - 5a296caaa2994a08ab46b2904c234116
+    - 58f8192b05834d72be7cd924117f4fd6
+- name: Coqui Cannon
+  db_uuid: cdf885c32d114c85aacd5fbbd7b57398
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_cards:
+    - 09afe21c91b44543b97072e1d1894dab
+- name: Boricualiner
+  db_uuid: 5a296caaa2994a08ab46b2904c234116
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 09afe21c91b44543b97072e1d1894dab
+- name: Bend-Ejo
+  db_uuid: 58f8192b05834d72be7cd924117f4fd6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 09afe21c91b44543b97072e1d1894dab
 - name: The Phenomenal Beast Chris Angels
   db_uuid: 3d7652ac29af4c77842e419996e11278
   srg_url: https://supershowthegame.com/product/the-phenomenal-beast-chris-angels/

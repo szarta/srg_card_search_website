@@ -29102,6 +29102,7 @@
     - aa604e7ca9b047619e658e3c8ba5301e
 - name: Terror Skull (V1)
   db_uuid: 2bf53422f8854fad970f8184079c9cc8
+  srg_url: https://supershowthegame.com/product/terror-skull/
   srgpc_url: https://www.srgpc.net/cards/competitors/terror-skull/
   card_type: SingleCompetitorCard
   division: United States
@@ -29136,9 +29137,6 @@
   grapple: 5
   rules_text: Your Grapple skill is +1 for each card in play with "Chain" or "Terror" in the name (Max +4).
   tags: []
-  wants_keywords:
-    - Chain
-    - Terror
   related_finishes:
     - a89c630968fc4efe81af1290245c19bd
     - 351741fe50a14070a2f3fcd7da1f6016
@@ -29146,6 +29144,9 @@
     - 68f6615027ed4e54a3f9e66e54b46562
     - 58c173cfd81042bb9898fa88564f915f
     - da41b938cc2d45b79fd1ef64906bcdb0
+  wants_keywords:
+    - Chain
+    - Terror
 - name: The Reign of Terror
   db_uuid: a89c630968fc4efe81af1290245c19bd
   card_type: MainDeckCard
@@ -29186,12 +29187,12 @@
 
     Your opponent discards 1 card in their hand for each card you have in play with "Head" or "Skull" in the name.'
   tags: []
-  wants_keywords:
-    - Head
-    - Skull
   related_cards:
     - 2bf53422f8854fad970f8184079c9cc8
     - b83c210cc53b47149809da23f9374071
+  wants_keywords:
+    - Head
+    - Skull
 - name: Terror-Bite
   db_uuid: 68f6615027ed4e54a3f9e66e54b46562
   card_type: MainDeckCard
@@ -29204,12 +29205,12 @@
 
     Your opponent''s 1st and 2nd Breakout rolls are -1 for each card you have in play with "Head" or "Skull" in the name.'
   tags: []
-  wants_keywords:
-    - Head
-    - Skull
   related_cards:
     - 2bf53422f8854fad970f8184079c9cc8
     - b83c210cc53b47149809da23f9374071
+  wants_keywords:
+    - Head
+    - Skull
 - name: The Wave of Terror
   db_uuid: 58c173cfd81042bb9898fa88564f915f
   card_type: MainDeckCard
@@ -29237,12 +29238,12 @@
 
     Your opponent discards 1 card from their hand for each card you have in play with "Chain" or "Terror in the name.'
   tags: []
-  wants_keywords:
-    - Chain
-    - Terror
   related_cards:
     - 2bf53422f8854fad970f8184079c9cc8
     - b83c210cc53b47149809da23f9374071
+  wants_keywords:
+    - Chain
+    - Terror
 - name: Leader of the Postal Nation
   db_uuid: 417d1d704f49439c8c8e4f3bd703a880
   srg_url: https://supershowthegame.com/product/leader-of-the-postal-nation/
@@ -62498,6 +62499,8 @@
 
     Draw cards equal to the Crowd Meter +1.'
   tags: []
+  related_cards:
+    - 90b0c96882754a4dbd175e313f4991b2
 - name: Terra Incognita
   db_uuid: 39966367676f445d86af6e9a1e63fbaa
   card_type: MainDeckCard
@@ -62510,6 +62513,8 @@
 
     Your opponent buries 1 card in their hand for each Grapple you have in play.'
   tags: []
+  related_cards:
+    - 90b0c96882754a4dbd175e313f4991b2
 - name: Terraform
   db_uuid: 22c005afb8d944d4a55b8efdeb89eae7
   card_type: MainDeckCard
@@ -62524,6 +62529,8 @@
 
     Add 3 Grapples from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 90b0c96882754a4dbd175e313f4991b2
 - name: Tetsuya Naito
   db_uuid: ef4b285b0236403a9be1a821b7e5bda5
   srgpc_url: https://www.srgpc.net/cards/competitors/tetsuya-naito/
@@ -62538,6 +62545,52 @@
   grapple: 9
   rules_text: When your opponent rolls Technique for their turn roll, you may bump.
   tags: []
+  related_finishes:
+    - a5bb3a33f5fa42398706258182ab7bd8
+    - 12fb623378014befb2d3463088c682b5
+    - 5dd5acf53b994bf4b9d0f4c05c6e3ea2
+- name: Jumping Elbow Attack
+  db_uuid: a5bb3a33f5fa42398706258182ab7bd8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Bury 1 card in your discard pile.
+
+    Draw 1 card.
+
+    If you bumped on the previous turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - ef4b285b0236403a9be1a821b7e5bda5
+- name: Destino
+  db_uuid: 12fb623378014befb2d3463088c682b5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: If your opponent rolled Technique for their turn roll, this card is also a Follow Up.
+  tags: []
+  related_cards:
+    - ef4b285b0236403a9be1a821b7e5bda5
+- name: Pluma Blanca
+  db_uuid: 5dd5acf53b994bf4b9d0f4c05c6e3ea2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    Once per turn:  If you bumped on the previous turn roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - ef4b285b0236403a9be1a821b7e5bda5
 - name: Texas Juggernaut
   db_uuid: c0881aba76014c88b5f720f463f48d64
   srgpc_url: https://www.srgpc.net/cards/competitors/texas-juggernaut/

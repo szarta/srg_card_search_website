@@ -40035,8 +40035,15 @@
   grapple: 9
   rules_text: When you and another player roll the same skill; you may have both players shuffle their hand into their deck and draw 4 cards.
   tags: []
+  related_finishes:
+    - 3c3dd387d23740c6ba2fae08f3bd416a
+    - 955e6c491ac8496cb15ccd913b89dcb2
+    - e85218299032478c9842e000ba0b8338
+    - 308d7bd927254f0988dc7fa9d8058e39
+    - adc02c6fbdd34e9cbbccb082625402a4
 - name: The Duke (V2)
   db_uuid: 80cde7c7b2a640c58bb9294beb87d0d3
+  srg_url: https://supershowthegame.com/product/duke/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -40052,6 +40059,93 @@
   tags: []
   wants_keywords:
     - L.F.F.
+  related_finishes:
+    - 3c3dd387d23740c6ba2fae08f3bd416a
+    - 955e6c491ac8496cb15ccd913b89dcb2
+    - e85218299032478c9842e000ba0b8338
+    - 308d7bd927254f0988dc7fa9d8058e39
+    - adc02c6fbdd34e9cbbccb082625402a4
+- name: Here I Come
+  db_uuid: 3c3dd387d23740c6ba2fae08f3bd416a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile and you and another player roll the same skill for your turn roll, you may bury this card.'
+  tags: []
+  related_cards:
+    - 80cde7c7b2a640c58bb9294beb87d0d3
+    - 1b4a21878c13419a9e643ce6359bae8a
+- name: Tango Takedown
+  db_uuid: 955e6c491ac8496cb15ccd913b89dcb2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    If your opponent rolled the same skill for your turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 80cde7c7b2a640c58bb9294beb87d0d3
+    - 1b4a21878c13419a9e643ce6359bae8a
+- name: Wicked Waltz
+  db_uuid: e85218299032478c9842e000ba0b8338
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    Draw 1 card.
+
+    If you rolled the same skill as your opponent, double these bonuses.'
+  tags: []
+  related_cards:
+    - 80cde7c7b2a640c58bb9294beb87d0d3
+    - 1b4a21878c13419a9e643ce6359bae8a
+- name: Old School Fixin'
+  db_uuid: 308d7bd927254f0988dc7fa9d8058e39
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    +1 to Grapple
+
+    Draw 1 card for each card you have in play with "Save", "Fix", or "Old School" in the name.'
+  tags: []
+  related_cards:
+    - 80cde7c7b2a640c58bb9294beb87d0d3
+    - 1b4a21878c13419a9e643ce6359bae8a
+  wants_keywords:
+    - Save
+    - Fix
+    - Old School
+- name: The Offer
+  db_uuid: adc02c6fbdd34e9cbbccb082625402a4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    If stopped, your opponent''s Gimmick is blank until the Crowd Meter increases.'
+  tags: []
+  related_cards:
+    - 80cde7c7b2a640c58bb9294beb87d0d3
+    - 1b4a21878c13419a9e643ce6359bae8a
 - name: Duncan Avecilla
   db_uuid: 80f9f38a75fc48f2b356fe043cafe2d0
   srgpc_url: https://www.srgpc.net/cards/competitors/duncan-avecilla/

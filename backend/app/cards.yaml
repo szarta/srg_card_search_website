@@ -29124,6 +29124,7 @@
     - da41b938cc2d45b79fd1ef64906bcdb0
 - name: Terror Skull (V2)
   db_uuid: b83c210cc53b47149809da23f9374071
+  srg_url: https://supershowthegame.com/product/terror-skull-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/terror-skull/
   card_type: SingleCompetitorCard
   division: Hardcore

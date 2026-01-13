@@ -3671,7 +3671,7 @@
   tags: []
   related_cards:
     - c4732bb7130f49d5830a881f78b0d6a6
-- name: The Reign of Terror
+- name: The Reign of Terror (Alana Antoinette)
   db_uuid: 1a6c7ef85ca54ac991d99363f5fa8597
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
   card_type: MainDeckCard
@@ -29147,7 +29147,7 @@
   wants_keywords:
     - Chain
     - Terror
-- name: The Reign of Terror
+- name: The Reign of Terror (Terror Skull)
   db_uuid: a89c630968fc4efe81af1290245c19bd
   card_type: MainDeckCard
   atk_type: Strike

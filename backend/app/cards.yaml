@@ -60990,6 +60990,7 @@
     - 82e001f5073e4abcba395b3f4864f497
 - name: Slash Gordon (V1)
   db_uuid: 01545d3e725d4e83a1c8ec0f2db5cec1
+  srgpc_url: https://www.srgpc.net/cards/competitors/slash-gordon/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -61003,8 +61004,15 @@
 
     They bury 1 card in their hand, then look at the top card of their deck, you may bury it.'
   tags: []
+  related_finishes:
+    - 4b2066fd097249078a09928cba9145dd
+    - 19e92dd2aa744c4a9a403548082c0b44
+    - 3e62138fa6ba4a12aa29be44baa43287
+    - 0d49f3a1c85140379990de9395b9f63b
+    - 8394d98ce5cc4c5fb4a9a126fc5ba8a1
 - name: Slash Gordon (V2)
   db_uuid: 663e4007f7934425aff807769fd734b1
+  srgpc_url: https://www.srgpc.net/cards/competitors/slash-gordon/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -61016,6 +61024,91 @@
   grapple: 5
   rules_text: When you hit a Submission, choose 1 card your opponent has in play and bury it.
   tags: []
+  related_finishes:
+    - 4b2066fd097249078a09928cba9145dd
+    - 19e92dd2aa744c4a9a403548082c0b44
+    - 3e62138fa6ba4a12aa29be44baa43287
+    - 0d49f3a1c85140379990de9395b9f63b
+    - 8394d98ce5cc4c5fb4a9a126fc5ba8a1
+- name: Wild Stomps (V2)
+  db_uuid: 4b2066fd097249078a09928cba9145dd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish rolls are +1 for each Strike you have in play.
+
+    Your opponent''s breakout rolls are +1 for each Stop they have in play.
+
+    If stopped, add this card to your hand.'
+  tags: []
+  related_cards:
+    - 01545d3e725d4e83a1c8ec0f2db5cec1
+    - 663e4007f7934425aff807769fd734b1
+- name: Helm Breaker
+  db_uuid: 19e92dd2aa744c4a9a403548082c0b44
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    When your opponent has 0 cards in play this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 01545d3e725d4e83a1c8ec0f2db5cec1
+    - 663e4007f7934425aff807769fd734b1
+- name: Hype-r Extension (V2)
+  db_uuid: 3e62138fa6ba4a12aa29be44baa43287
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 Technique
+
+    +1 Agility
+
+    +2 to Strike
+
+    Your opponent''s 3rd Breakout roll is +1.'
+  tags: []
+  related_cards:
+    - 01545d3e725d4e83a1c8ec0f2db5cec1
+    - 663e4007f7934425aff807769fd734b1
+- name: Wild Stomps (V1)
+  db_uuid: 0d49f3a1c85140379990de9395b9f63b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Finish rolls are +1 for each Strike you have in play.
+
+    Your opponent''s breakout rolls are +1 for each card they have in play.
+
+    If stopped, add this card to your hand.'
+  tags: []
+  related_cards:
+    - 01545d3e725d4e83a1c8ec0f2db5cec1
+    - 663e4007f7934425aff807769fd734b1
+- name: Hype-r Extension (V1)
+  db_uuid: 8394d98ce5cc4c5fb4a9a126fc5ba8a1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 Technique
+
+    +1 Agility
+
+    +2 to Strike
+
+    Your opponent''s 2nd Breakout roll is +1. Their 3rd Breakout roll is +2.'
+  tags: []
+  related_cards:
+    - 01545d3e725d4e83a1c8ec0f2db5cec1
+    - 663e4007f7934425aff807769fd734b1
 - name: Slime Girl
   db_uuid: e03d8c8283804088a9ff5bac13d02c99
   card_type: SingleCompetitorCard

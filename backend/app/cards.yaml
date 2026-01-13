@@ -35726,6 +35726,7 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+    - 8abad8aab1c3448688681884ea4a8eb3
 - name: Royal Ramble Roll
   db_uuid: ffaaeb756a3b419080577d93480d972f
   card_type: MainDeckCard
@@ -35740,6 +35741,7 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+    - 8abad8aab1c3448688681884ea4a8eb3
 - name: Legend, Waitforit, and I Hope You're Not Lactose Intolerant, Because the Second Part is... Dary Lock!
   db_uuid: 46d8872f29a244ebb898ee4b5ccb5228
   card_type: MainDeckCard
@@ -35754,6 +35756,7 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+    - 8abad8aab1c3448688681884ea4a8eb3
 - name: 14 Ways to Victory
   db_uuid: c784130b85204c23926b089a18a6f566
   card_type: MainDeckCard
@@ -35770,6 +35773,7 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+    - 8abad8aab1c3448688681884ea4a8eb3
   wants_keywords:
     - Boss
     - Sheep
@@ -35787,6 +35791,7 @@
   tags: []
   related_cards:
     - 71b6b581c7a249958c2e512d3d89afaa
+    - 8abad8aab1c3448688681884ea4a8eb3
 - name: Brimstone
   db_uuid: 2ae23d6498254dec98147137a5c3f197
   srgpc_url: https://www.srgpc.net/cards/competitors/brimstone/
@@ -37948,6 +37953,7 @@
     - ee6c96e6131446909a2014075f80f2f7
 - name: The Consigilere
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
+  srgpc_url: https://www.srgpc.net/competitors/the-consigliere/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -37959,6 +37965,12 @@
   grapple: 5
   rules_text: When you hit a card with "Boss" or "Sheep" in the name, your opponent randomly buries 1 card in their hand.
   tags: []
+  related_finishes:
+    - ba0833354d4d40519d9175ef1e17a806
+    - ffaaeb756a3b419080577d93480d972f
+    - 46d8872f29a244ebb898ee4b5ccb5228
+    - c784130b85204c23926b089a18a6f566
+    - a7935782a2d947e49b44f1fba2a8ff57
   wants_keywords:
     - Boss
     - Sheep
@@ -38383,8 +38395,52 @@
 
     Add 1 card with "Kick" in the name from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 452a68a34f684832b11e8a3e4bf6fa7a
+    - bcfa5e5610ef4340b6956dd5a115e57c
+    - 4f4343ff6c9249e49399f1fc8946e102
   wants_keywords:
     - Kick
+- name: Running Flower
+  db_uuid: 452a68a34f684832b11e8a3e4bf6fa7a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    Draw 1 card for each card you have in play with "Kick" in the name.'
+  tags: []
+  related_cards:
+    - 34c5ce20f09847719ef1e45862a5efdb
+  wants_keywords:
+    - Kick
+- name: Tiger Lily Driver
+  db_uuid: bcfa5e5610ef4340b6956dd5a115e57c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +3 to Technique'
+  tags: []
+  related_cards:
+    - 34c5ce20f09847719ef1e45862a5efdb
+- name: Hydrangea
+  db_uuid: 4f4343ff6c9249e49399f1fc8946e102
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    When this card is in your discard pile, choose an opponent.  They can not move a card from their discard pile to their hand with their Gimmick.'
+  tags: []
+  related_cards:
+    - 34c5ce20f09847719ef1e45862a5efdb
 - name: Danhausen
   db_uuid: c7247d6b75874825b4fb6fa3d9a006e6
   srgpc_url: https://www.srgpc.net/cards/competitors/danhausen/

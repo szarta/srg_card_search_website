@@ -78812,8 +78812,9 @@
   tags: []
   related_cards:
     - 05d2c7245f2048528f7367e5ca8a137e
-- name: Beast Unchained
+- name: Beast Unchained Match
   db_uuid: 097c50ca47d74f26b06490ab41ca43bb
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/beast-unchained/
   card_type: CrowdMeterCard
   rules_text: 'No Disqualifications
 
@@ -78833,6 +78834,7 @@
     - Chain
 - name: Birdcage Match Crowd Meter 0
   db_uuid: ff477b057a0e49ea82747db85f293df2
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs
 
@@ -78868,6 +78870,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 2
   db_uuid: 5028e4a1f35249618d3e028acb657de3
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78883,6 +78886,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 3
   db_uuid: 519ebed69d36411187109d4a884beb07
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78898,6 +78902,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 4
   db_uuid: b83bcd43cb0e47cb90f7dcde773a4d1e
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78915,6 +78920,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 5
   db_uuid: e5f60e4445ce45ddad1308343ab9afac
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78930,6 +78936,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 6
   db_uuid: 73dbce28e9cd421da3189e5de3d398ee
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78945,6 +78952,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Birdcage Match Crowd Meter 7
   db_uuid: ab0786482ce644b9a061540809032c69
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/birdcage-match/
   card_type: CrowdMeterCard
   rules_text: 'No Count Outs.
 
@@ -78960,6 +78968,7 @@
     - ff477b057a0e49ea82747db85f293df2
 - name: Buddy Building Match
   db_uuid: 88d724c83c574e098513685bfc2b549c
+  srgpc_url: https://www.srgpc.net/cards/crowd-meters/buddy-building-match/
   card_type: CrowdMeterCard
   rules_text: 'No Disqualifications.
 

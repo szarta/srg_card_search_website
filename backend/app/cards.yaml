@@ -28605,6 +28605,69 @@
 
     When your Strike or Submission is stopped, bury 2 cards from your hand.'
   tags: []
+  related_finishes:
+    - 9d8d1f59eaac4f039aacb5d7459132e2
+    - eb4a7de134644d219afbc2acf497efa8
+    - a6ade1869f4c4bc8b5a816a83a89d678
+    - 4e15c24f5efd47b58c29f5fd59a4c444
+- name: Thunder Fist
+  db_uuid: 9d8d1f59eaac4f039aacb5d7459132e2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    If you have 2 other Strikes in play, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 12a6be5c333544c7851c3f419b9d1bbd
+- name: The M.E.S.
+  db_uuid: eb4a7de134644d219afbc2acf497efa8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Look at your opponent''s hand.
+
+    Choose 1 card and put it on top of your opponent''s deck.
+
+    If the Crowd Meter is 3 or greater, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 12a6be5c333544c7851c3f419b9d1bbd
+- name: Hard Times Breed Better Men
+  db_uuid: a6ade1869f4c4bc8b5a816a83a89d678
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile, you do not bury cards for your Gimmick.'
+  tags: []
+  related_cards:
+    - 12a6be5c333544c7851c3f419b9d1bbd
+- name: The STF
+  db_uuid: 4e15c24f5efd47b58c29f5fd59a4c444
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If your opponent breaks out, shuffle 1 Lead and 1 Follow Up from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 12a6be5c333544c7851c3f419b9d1bbd
 - name: General Lee Wong (V1)
   db_uuid: 1f64e258e37241f49e0661e85a1f56c7
   srg_url: https://supershowthegame.com/product/general-lee-wong/

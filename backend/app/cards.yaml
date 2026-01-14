@@ -40057,14 +40057,14 @@
 
     You may reveal 1 additional Entrance with "L.F.F." in the name.'
   tags: []
-  wants_keywords:
-    - L.F.F.
   related_finishes:
     - 3c3dd387d23740c6ba2fae08f3bd416a
     - 955e6c491ac8496cb15ccd913b89dcb2
     - e85218299032478c9842e000ba0b8338
     - 308d7bd927254f0988dc7fa9d8058e39
     - adc02c6fbdd34e9cbbccb082625402a4
+  wants_keywords:
+    - L.F.F.
 - name: Here I Come
   db_uuid: 3c3dd387d23740c6ba2fae08f3bd416a
   card_type: MainDeckCard
@@ -40174,6 +40174,7 @@
     - Choke
 - name: The Dweeb
   db_uuid: 5855a5840bde47f69a596df2703401ad
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-dweeb/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -40183,8 +40184,50 @@
   strike: 6
   submission: 7
   grapple: 8
-  rules_text: When your opponent would move a Finish card from their disacrd pile to any location, it is instead buried.
+  rules_text: When your opponent would move a Finish card from their discard pile to any location, it is instead buried.
   tags: []
+  related_finishes:
+    - d0c613e0bd5548f2a8cab45e3f66029d
+    - 33ca2741055f4dbb9d287354ce9162c1
+    - 4101226e2de9481abf7a94563c1240ec
+- name: Catastrophic Leap
+  db_uuid: d0c613e0bd5548f2a8cab45e3f66029d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +3 to Strike
+
+    Draw 1 card for each Finish your opponent has in their discard pile +1.'
+  tags: []
+  related_cards:
+    - 5855a5840bde47f69a596df2703401ad
+- name: 1:05 to Boston
+  db_uuid: 33ca2741055f4dbb9d287354ce9162c1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Add 1 card from your discard pile to your hand for each Finish your opponent has in their discard pile +1.'
+  tags: []
+  related_cards:
+    - 5855a5840bde47f69a596df2703401ad
+- name: Respect the Dweeb!
+  db_uuid: 4101226e2de9481abf7a94563c1240ec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent randomly discards 1 card from their hand for each Finish they have in their discard pile +1.
+  tags: []
+  related_cards:
+    - 5855a5840bde47f69a596df2703401ad
 - name: Effy
   db_uuid: a7a0d3d4a80346d8a6a52bb54435ed98
   srg_url: https://supershowthegame.com/product/effy/
@@ -53146,7 +53189,7 @@
   deck_card_number: 29
   rules_text: '+4 to Grapple
 
-    When your opponent plays a Strike Finish, you may disacrd this card to blank its text or to have the Finish target another one of their opponents.'
+    When your opponent plays a Strike Finish, you may discard this card to blank its text or to have the Finish target another one of their opponents.'
   tags: []
   related_cards:
     - 763531a5c5ee468690793b8683f59abd

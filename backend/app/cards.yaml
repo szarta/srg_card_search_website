@@ -3677,7 +3677,7 @@
   tags: []
   related_cards:
     - c4732bb7130f49d5830a881f78b0d6a6
-- name: The Reign of Terror (Alana Antoinette)
+- name: The Reign of Terror (Alanna Antoinette)
   db_uuid: 1a6c7ef85ca54ac991d99363f5fa8597
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
   card_type: MainDeckCard
@@ -14597,7 +14597,7 @@
 
     If this is a Triad match, your opponent''s turn roll is -2.'
   tags: []
-- name: Ground and Pound
+- name: Ground and Pound (#16)
   db_uuid: 10f9eb34ba4d4dc0a92abb2225a8c03f
   srgpc_url: https://www.srgpc.net/cards/16/ground-and-pound/
   card_type: MainDeckCard
@@ -40987,7 +40987,7 @@
     - e422b5e2c5044a4a827810ef098d5be8
     - d6bffb89d97f4b809936da4c8b3496d5
     - 382bd4af49e94b4a8aa63028e03fc3d9
-- name: Ground and Pound
+- name: Ground and Pound (The Enforcer)
   db_uuid: e422b5e2c5044a4a827810ef098d5be8
   card_type: MainDeckCard
   atk_type: Strike

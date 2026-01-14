@@ -78812,3 +78812,370 @@
   tags: []
   related_cards:
     - 05d2c7245f2048528f7367e5ca8a137e
+- name: Beast Unchained
+  db_uuid: 097c50ca47d74f26b06490ab41ca43bb
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 8
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).
+
+    When you win a turn roll, both plays draw 1 card.
+
+    When you bump, flip 1 card.
+
+    Cards with "Chain" in the name have the added text:  "Your opponent''s next turn roll is -1."'
+  tags: []
+  wants_keywords:
+    - Chain
+- name: Birdcage Match Crowd Meter 0
+  db_uuid: ff477b057a0e49ea82747db85f293df2
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs
+
+    No Disqualifications
+
+    Maximum Handsize 6
+
+    The Crowd Meter only increases after 6 turn rolls.'
+  comments: This stipulation is meant to be played with 6 people.  It begins with 2 people and increases as the Crowd Meter increases.  Bump Out is always in effect with this Crowd Meter.
+  tags: []
+  related_cards:
+    - e61f33cf73d34ca9a6c5df44210f1abe
+    - 5028e4a1f35249618d3e028acb657de3
+    - 519ebed69d36411187109d4a884beb07
+    - b83bcd43cb0e47cb90f7dcde773a4d1e
+    - e5f60e4445ce45ddad1308343ab9afac
+    - 73dbce28e9cd421da3189e5de3d398ee
+    - ab0786482ce644b9a061540809032c69
+- name: Birdcage Match Crowd Meter 1
+  db_uuid: e61f33cf73d34ca9a6c5df44210f1abe
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 7.
+
+    The Crowd Meter only increases after 6 turn rolls.
+
+    The next entrant draws 2 additional cards and enters the match, their first turn roll is +2.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 2
+  db_uuid: 5028e4a1f35249618d3e028acb657de3
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 8.
+
+    The Crowd Meter only increases after 6 turn rolls.
+
+    The next entrant draws 3 additional cards and enters the match, their first turn roll is +2.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 3
+  db_uuid: 519ebed69d36411187109d4a884beb07
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 9.
+
+    The Crowd Meter only increases after 6 turn rolls.
+
+    The next entrant draws 4 additional cards and enters the match, their first turn roll is +2.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 4
+  db_uuid: b83bcd43cb0e47cb90f7dcde773a4d1e
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 10.
+
+    The Crowd Meter only increases after 6 turn rolls.
+
+    All Finish rolls are +1.
+
+    The next entrant draws 5 additional cards and enters the match, their first turn roll is +2.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 5
+  db_uuid: e5f60e4445ce45ddad1308343ab9afac
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 10.
+
+    The Crowd Meter increases as normal.
+
+    All Finish rolls are +2.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 6
+  db_uuid: 73dbce28e9cd421da3189e5de3d398ee
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 10.
+
+    The Crowd Meter increases as normal.
+
+    All Finish rolls are +3.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Birdcage Match Crowd Meter 7
+  db_uuid: ab0786482ce644b9a061540809032c69
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs.
+
+    No Disqualifications.
+
+    Maximum Handsize 10.
+
+    All Finish rolls are +4.
+
+    All Finishes are also Follow Ups.'
+  tags: []
+  related_cards:
+    - ff477b057a0e49ea82747db85f293df2
+- name: Buddy Building Match
+  db_uuid: 88d724c83c574e098513685bfc2b549c
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Maximum Handsize 14.
+
+    Finishes do not cause a Finish roll.
+
+    Skills cannot be increased.
+
+    Special Finish: When a player has cards #28, #29, and #30 in play, they win the match via Pinfall.
+
+    When any number of cards are discarded or buried from play, the Crowd Meter increases.
+
+    At Crowd Meter 5, cards in play cannot be buried or discarded.'
+  comments: The match can end via Finish roll if you blank or swap the meter mid-match.
+  tags: []
+- name: Ladder Up
+  db_uuid: 1a7efcff683945e785b30d275cd85590
+  card_type: CrowdMeterCard
+  rules_text: 'When any player ends their turn without playing a card after rolling their highest skill, or hits:
+
+    "Going Over the Ladder"
+
+    "Ambush With the Ladder"
+
+    "Knockdown with the Ladder"
+
+    "Backlash with the Ladder"
+
+    "Leg Drop Off the Ladder"
+
+    or a Finish, they may turn this card over.'
+  comments: This card is integral to the Claim the Throne match stipulation.  Ladder Up is the front side, Ladder Down is the back.
+  tags: []
+  related_cards:
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+    - 9dbab5f162c34f94a149ecf9c3b60383
+- name: Ladder Down
+  db_uuid: 9ca0c2b4ad014b109d46add2b7a6ba09
+  card_type: CrowdMeterCard
+  rules_text: 'When any player ends their turn without playing a card after rolling their highest skill, or hits:
+
+    "Ladder"
+
+    "Ladder Uprising"
+
+    "Gathering the Ladder"
+
+    "Takeover with the Ladder"
+
+    "Set Up the Ladder"
+
+    or a Finish, they may turn this card over.'
+  comments: This card is integral to the Claim the Throne match stipulation.  Ladder Up is the front side, Ladder Down is the back.
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9dbab5f162c34f94a149ecf9c3b60383
+- name: Claim the Throne Crowd Meter 0
+  db_uuid: 9dbab5f162c34f94a149ecf9c3b60383
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    At the stat of the match, reveal the Claim the Throne "Ladder Down" card.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 1
+  db_uuid: 4bebe8e91cf1419fb4848d5007839ffb
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +1.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 2
+  db_uuid: 8ed4d78da03c439895bfdb708d524550
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +2.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 3
+  db_uuid: 3ea2e46529de468e96207ba721bf1620
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +3.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 4
+  db_uuid: 018f2c95bd764f539333d6e6be6668c5
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +4.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.
+
+    Your opponent cannot be saved on their first Breakout roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 5
+  db_uuid: 9ab4e81b2c264e4baf1d1c60391900b5
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +5.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.
+
+    Your opponent cannot be saved on their first or second Breakout roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 6
+  db_uuid: 09e59794d740466ca05bccb72477ea18
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +6.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.
+
+    Your opponent cannot be saved on their first or second Breakout roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Claim the Throne Crowd Meter 7
+  db_uuid: 4a722e0afda74e23b83baac3cc1b64de
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications.
+
+    No Count Outs.
+
+    Max Handsize 12
+
+    Finish rolls are +8.
+
+    Finish Submissions do not cause a Finish roll.
+
+    If the Claim the Throne "Ladder Down" is revealed, Finishes do not cause a Finish roll.
+
+    Your opponent cannot be saved on their first or second Breakout roll.'
+  tags: []
+  related_cards:
+    - 1a7efcff683945e785b30d275cd85590
+    - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Dark Match
+  db_uuid: 0ac0c133b4114b4596bba51037f00996
+  card_type: CrowdMeterCard
+  rules_text: 'Max Handsize: 10
+
+    Cards in your discard pile are not revealed to other players unless they are moved by an effect that specifies a card or move type.  Spotlight cards have blank text.  Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
+  tags: []

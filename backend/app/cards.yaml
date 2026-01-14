@@ -40920,6 +40920,48 @@
 
     When you and your opponent roll the same skill for the turn roll, choose 1 card they have in play and discard it.'
   tags: []
+  related_finishes:
+    - e422b5e2c5044a4a827810ef098d5be8
+    - d6bffb89d97f4b809936da4c8b3496d5
+    - 382bd4af49e94b4a8aa63028e03fc3d9
+- name: Ground and Pound
+  db_uuid: e422b5e2c5044a4a827810ef098d5be8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Strike
+
+    When your opponent wins two turn rolls in a row, you may bury this card and add 1 Strike from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 12481b2f1ff0489da31a2f0cada0c68b
+- name: Training Day
+  db_uuid: d6bffb89d97f4b809936da4c8b3496d5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    If your opponent has 0 cards in play, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - 12481b2f1ff0489da31a2f0cada0c68b
+- name: Crossed Pistols
+  db_uuid: 382bd4af49e94b4a8aa63028e03fc3d9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Add 1 card you have in play or in your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 12481b2f1ff0489da31a2f0cada0c68b
 - name: Eric Jayden
   db_uuid: aa89168b8bb54d60af3e2aa396622bdf
   srg_url: https://supershowthegame.com/product/eric-jayden/

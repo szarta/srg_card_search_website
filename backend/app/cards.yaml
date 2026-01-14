@@ -71391,6 +71391,52 @@
   wants_keywords:
     - Bird
     - Press
+  related_finishes:
+    - acf7ce2ca968482fb3c400de773dd69e
+    - da53919f75a04f728b34d5d397f773a9
+    - 8a50b9bc7b2d4982816cacae223a26eb
+- name: First Impressions!
+  db_uuid: acf7ce2ca968482fb3c400de773dd69e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +3 to Strike
+
+    When this card is in your discard pile, your 1st Breakout roll each turn is +2.'
+  tags: []
+  related_cards:
+    - 0918f14ad10747579672a1976e96a3ae
+- name: Stop the Press, We Got a Story!
+  db_uuid: da53919f75a04f728b34d5d397f773a9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 0918f14ad10747579672a1976e96a3ae
+- name: Putting on the Pressure
+  db_uuid: 8a50b9bc7b2d4982816cacae223a26eb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +3 to Submission
+
+    Search your deck for a Stop and add it to your hand.'
+  tags: []
+  related_cards:
+    - 0918f14ad10747579672a1976e96a3ae
 - name: The SRG Boss (The Greatest American Who Ever Lived)
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   card_type: SingleCompetitorCard

@@ -42020,6 +42020,7 @@
     - Flash
 - name: The Fireball
   db_uuid: f602d739628746ee8620999d09310727
+  srgpc_url: https://www.srgpc.net/cards/competitors/fireball/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -42031,6 +42032,50 @@
   grapple: 7
   rules_text: When you have more Stops in play than your opponent, your Power, Submission, and Grapple are +1 during your turn and turn rolls.
   tags: []
+  related_finishes:
+    - 2c9b9665ca9f463babe7321b78c9d197
+    - ba616b2ef7cd4346b3c1a05298ddf4e9
+    - b8e444446eeb47d7a29d646667e7ba00
+- name: Rebel Rebel
+  db_uuid: 2c9b9665ca9f463babe7321b78c9d197
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    Shuffle 3 Stops from your discard pile to your deck.
+
+    If this card is stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - f602d739628746ee8620999d09310727
+- name: Killer Queen
+  db_uuid: ba616b2ef7cd4346b3c1a05298ddf4e9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    Flip 2 cards.  Add 2 stops from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - f602d739628746ee8620999d09310727
+- name: Under Pressure
+  db_uuid: b8e444446eeb47d7a29d646667e7ba00
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Their 1st Breakout roll is -2.
+
+    Their 2nd Breakout roll is -1.'
+  tags: []
+  related_cards:
+    - f602d739628746ee8620999d09310727
 - name: The Firestarter Jake Crist
   db_uuid: 12518693612b42238adbe4e7f1562d3c
   srgpc_url: https://www.srgpc.net/competitors/the-firestarter-jake-crist/

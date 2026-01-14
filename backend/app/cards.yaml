@@ -3013,7 +3013,7 @@
 
     Add 2 cards from your discard pile to your hand.'
   tags: []
-- name: Field of Fire
+- name: Field of Fire (Strike, Agility)
   db_uuid: afb62adff6df452bb855c1307f1d85d8
   srg_url: https://supershowthegame.com/product/16-field-of-fire/
   srgpc_url: https://www.srgpc.net/cards/16/field-of-fire/
@@ -3023,7 +3023,7 @@
   deck_card_number: 16
   rules_text: 'Your opponent discards 1 card from their hand for each strike you have in play.
 
-    Your next turn roll is +1 for each strike you have in play.'
+    Your next turn roll is +1 for each Strike you have in play.  Skill Requirement:  Strike 10+, Agility 9+'
   tags: []
 - name: 'Restoration Potion #8'
   db_uuid: d0c314cb65a94de78da5b21a9286b3d5
@@ -16987,7 +16987,7 @@
   deck_card_number: 19
   rules_text: Your opponent's Spotlights are blank.
   tags: []
-- name: Poison Stars
+- name: Poison Stars (Agility, Strike)
   db_uuid: d3fc42e3a9c145749b4b2216e410dfa3
   srgpc_url: https://www.srgpc.net/cards/19/poison-stars/
   card_type: MainDeckCard
@@ -16996,7 +16996,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
-    Your opponent''s Gimmick is blank.'
+    Your opponent''''s Gimmick is blank.  Skill Requirement: Agility 10+, Strike 9+'
   tags: []
 - name: Power Punching
   db_uuid: 518c88dc8f0e4902b9342cb3b40280e7
@@ -22284,7 +22284,7 @@
 
     If you stopped a Finish, the Crowd Meter is +1.'
   tags: []
-- name: Burning Blade
+- name: Burning Blade (Grapple, Power)
   db_uuid: 013dda2e7b1a419494a982ea6434d622
   srgpc_url: https://www.srgpc.net/cards/26/burning-blade/
   card_type: MainDeckCard
@@ -22295,7 +22295,7 @@
 
     Draw 1 card.
 
-    This card is also a Follow Up.  Skill Requirement: Grapple 10, Power 9'
+    This card is also a Follow Up.  Skill Requirement: Grapple 10+, Power 9+'
   tags: []
 - name: Butterfly Suplex
   db_uuid: 1517fa38945d40749a4a3ccc1de79749

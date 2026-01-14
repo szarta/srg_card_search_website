@@ -40858,6 +40858,52 @@
   grapple: 7
   rules_text: When you hit a The End Finish, your Finish rolls are + half the Crowd Meter (rounded up).
   tags: []
+  related_finishes:
+    - 0108376a625445e4b1a8d55750c3222f
+    - 89495641a2834c0b82912469462f224b
+    - a4bf170e24544a12bca9d5090d1d5ac0
+- name: Razor Talon
+  db_uuid: 0108376a625445e4b1a8d55750c3222f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you rolled Agility or Strike for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - d12bb5eef1d7482fa310367b3bb07602
+- name: Midnight Sun
+  db_uuid: 89495641a2834c0b82912469462f224b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If the Crowd Meter is 2 or greater, your opponent gets 1 fewer Breakout roll.'
+  tags: []
+  related_cards:
+    - d12bb5eef1d7482fa310367b3bb07602
+- name: Death's Sweet Embrace
+  db_uuid: a4bf170e24544a12bca9d5090d1d5ac0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    If your opponent breaks out, shuffle this card into your deck, and the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - d12bb5eef1d7482fa310367b3bb07602
 - name: The Enforcer
   db_uuid: 12481b2f1ff0489da31a2f0cada0c68b
   srgpc_url: https://www.srgpc.net/cards/competitors/the-enforcer/
@@ -71388,13 +71434,13 @@
   grapple: 8
   rules_text: When you hit a card with "Bird" or "Press" in the name, your opponent discards 1 card from their hand.
   tags: []
-  wants_keywords:
-    - Bird
-    - Press
   related_finishes:
     - acf7ce2ca968482fb3c400de773dd69e
     - da53919f75a04f728b34d5d397f773a9
     - 8a50b9bc7b2d4982816cacae223a26eb
+  wants_keywords:
+    - Bird
+    - Press
 - name: First Impressions!
   db_uuid: acf7ce2ca968482fb3c400de773dd69e
   card_type: MainDeckCard

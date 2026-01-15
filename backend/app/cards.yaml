@@ -48480,6 +48480,7 @@
     - 43ac7d0570b24608a28f525f00156ffe
 - name: The King of Strings
   db_uuid: cc2319413d394caa9da0a045a4141797
+  srgpc_url: https://www.srgpc.net/competitor/the-king-of-strings/
   card_type: SingleCompetitorCard
   division: United States
   gender: Male
@@ -48493,6 +48494,54 @@
   tags: []
   wants_keywords:
     - Guitar
+  related_finishes:
+    - 1f06b881598944fc85ae31844adf695b
+    - bac8ef4c59094277b6aec0408eba3478
+    - 8c3d1f6feded41b9bf18bc2b3bf2eb51
+- name: Obvious Guitar Smash
+  db_uuid: 1f06b881598944fc85ae31844adf695b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Submission
+
+    Add 1 other card you have in play with "Guitar" in the name to your hand.'
+  tags: []
+  related_cards:
+    - cc2319413d394caa9da0a045a4141797
+- name: Dangerous Hips Toss
+  db_uuid: bac8ef4c59094277b6aec0408eba3478
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    Shuffle up to 2 cards with "Guitar" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - cc2319413d394caa9da0a045a4141797
+- name: Out of Tune
+  db_uuid: 8c3d1f6feded41b9bf18bc2b3bf2eb51
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Once per turn:  If you rolled Technique for your Finish roll, you may re-roll.'
+  tags: []
+  related_cards:
+    - cc2319413d394caa9da0a045a4141797
 - name: Koby the Kid
   db_uuid: bf301e6c594b4946a34618e4e43af90b
   srgpc_url: https://www.srgpc.net/cards/competitors/koby-the-kid/

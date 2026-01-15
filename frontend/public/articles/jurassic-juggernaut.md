@@ -21,7 +21,7 @@ It is a highly aggressive deck.
 ## Decklist
 
 ```deck
-The Jurassic Juggernaut
+Jurassic Juggernaut
 Giant Mode
 Yellow Card
 Overpowered
@@ -36,17 +36,17 @@ Running Leg Drop
 Exploder Suplex
 Handful of Hair
 Skull Busting Boot
-Colossal Smash
+Colossal Smash (Power, Grapple)
 Romero Special
 Guitar Swing
 Cosmic Suplex
-Drop Twist Clutch
+Mop Twist Clutch
 Trash-Bash-Smash
 Inverted Suplex
 Duck the Leg
 Ultra Cosmic Titanic Slam
 Avalanche Driver
-Vicious Triple Suplex
+Vicious Triple Suplex (V2)
 Butt Stomp
 Taunting Impact Suplex
 Backlash with the Ring Steps

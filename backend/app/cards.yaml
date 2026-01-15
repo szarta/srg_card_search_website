@@ -44986,6 +44986,9 @@
     - 1e435578314140719b20721df98ffb8f
     - d812d27cf4904c5799af3b671628dd5d
     - 876046689cb74c1c8f99cfd7549c28fa
+    - 7ec735b3b50e4ca3b815ca11d23f9d19
+    - b705e0f690834a84b51a06481889e9fd
+    - 868b9a06bc154e19a4d3f44b142a79de
 - name: Eagle Strike
   db_uuid: 1e435578314140719b20721df98ffb8f
   card_type: MainDeckCard
@@ -45036,6 +45039,8 @@
 
     Once a turn: If you have a card with "Boot" in the name in play you may re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
   wants_keywords:
     - Boot
 - name: Ultimate Press Drop
@@ -45050,6 +45055,8 @@
 
     When this card is in your discard pile, once per turn roll you may discard 1 Follow Up to re-roll.'
   tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
 - name: Howitzer Cannon
   db_uuid: 868b9a06bc154e19a4d3f44b142a79de
   card_type: MainDeckCard
@@ -45064,6 +45071,8 @@
 
     If the Crowd Meter is 4 or greater, this card is also a Lead.'
   tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
 - name: Invisible Man (V1)
   db_uuid: 534355d64b334f64b7598bbb93785bcb
   srg_url: https://supershowthegame.com/product/invisible-man/

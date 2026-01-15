@@ -33465,6 +33465,60 @@
   grapple: 9
   rules_text: 'When you roll Submission for your turn roll: Draw 1 card or your opponent buries 1 card in their hand.'
   tags: []
+  related_finishes:
+    - 102e3b6283dc4cb797e725b81c271a8b
+    - 5fbf508766bb48d3955368c2e8e41b93
+    - f0444e1315b94d9ca5fc75142b2988d5
+- name: I Break Your Back!
+  db_uuid: 102e3b6283dc4cb797e725b81c271a8b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Add 1 card with "Stomp" and 1 card with "Clutch" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 82bf4e462d294a03a1220d12ce0eb848
+  wants_keywords:
+    - Stomp
+    - Clutch
+- name: Cast Into Exile
+  db_uuid: 5fbf508766bb48d3955368c2e8e41b93
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If your Power and Grapple skills are greater than your opponent''s Power and Grapple skills, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - 82bf4e462d294a03a1220d12ce0eb848
+- name: Make You Humble
+  db_uuid: f0444e1315b94d9ca5fc75142b2988d5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If you have a card with "Clutch" in the name and a card with "Stomp" in the name in play, your opponent gets 1 fewer Breakout roll.'
+  tags: []
+  related_cards:
+    - 82bf4e462d294a03a1220d12ce0eb848
+  wants_keywords:
+    - Stomp
+    - Clutch
 - name: Jerk of Cirque (V1)
   db_uuid: 031f54737d3b44a791e52796563e64fb
   srg_url: https://supershowthegame.com/product/jerk-of-cirque/

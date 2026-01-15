@@ -44982,6 +44982,88 @@
 
     BACK: When this card was turned over, your next turn roll is +2.'
   tags: []
+  related_finishes:
+    - 1e435578314140719b20721df98ffb8f
+    - d812d27cf4904c5799af3b671628dd5d
+    - 876046689cb74c1c8f99cfd7549c28fa
+- name: Eagle Strike
+  db_uuid: 1e435578314140719b20721df98ffb8f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    If your opopnent has a greater number of cards in their hand than you, they randomly bury 1 card in their hand until they have the same number of cards as you.'
+  tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
+- name: Lion Bomb
+  db_uuid: d812d27cf4904c5799af3b671628dd5d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to Grapple
+
+    Bury up to 2 cards in your hand, then take the same number of cards from your discard pile and add them to your hand.'
+  tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
+- name: Stone Cross
+  db_uuid: 876046689cb74c1c8f99cfd7549c28fa
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    When this card is in your discard pile you may bury exactly 6 cards in your hand to add it to your hand.'
+  tags: []
+  related_cards:
+    - 89174df957434c11b42ee945d9626972
+- name: Immortal Leg Drop
+  db_uuid: 7ec735b3b50e4ca3b815ca11d23f9d19
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Once a turn: If you have a card with "Boot" in the name in play you may re-roll your Finish roll.'
+  tags: []
+  wants_keywords:
+    - Boot
+- name: Ultimate Press Drop
+  db_uuid: b705e0f690834a84b51a06481889e9fd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    +2 to Submission
+
+    When this card is in your discard pile, once per turn roll you may discard 1 Follow Up to re-roll.'
+  tags: []
+- name: Howitzer Cannon
+  db_uuid: 868b9a06bc154e19a4d3f44b142a79de
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If the Crowd Meter is 2 or greater, this card is also a Follow Up.
+
+    If the Crowd Meter is 4 or greater, this card is also a Lead.'
+  tags: []
 - name: Invisible Man (V1)
   db_uuid: 534355d64b334f64b7598bbb93785bcb
   srg_url: https://supershowthegame.com/product/invisible-man/

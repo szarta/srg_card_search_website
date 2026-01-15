@@ -1082,6 +1082,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: Crash Landing
   db_uuid: f9a5b8865ff44c9397aed40cc3b11b2a
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1099,6 +1100,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: Fear of Diving
   db_uuid: ebda093ef7284c7f9e10da5e35be90ae
   srg_url: https://supershowthegame.com/product/crash-jaxon/
@@ -1120,6 +1122,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: The Paper Cut
   db_uuid: 4fcb3ec9e7144d628ae94a12855ca46e
   card_type: MainDeckCard
@@ -1140,6 +1143,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: Cactus Driver 97'
   db_uuid: ba54a7d9874e48169b07969b52f171c6
   srg_url: https://supershowthegame.com/product/death-machine-sami-callihan/
@@ -1157,6 +1161,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: The Ball Claw
   db_uuid: a38f21dfd9cf4924a668c3396a428844
   card_type: MainDeckCard
@@ -1177,6 +1182,7 @@
     - 0fe383c8e4fe4083bb11149f4564a081
     - 3ebc8a70bd834b31b85381984de3ea5c
     - ab2ce049ab6b49ce96d50089b770b14c
+    - 12518693612b42238adbe4e7f1562d3c
 - name: ACH
   db_uuid: ee611f569485400fa6312512db2ce31e
   srg_url: https://supershowthegame.com/product/ach/
@@ -28589,6 +28595,7 @@
     - 22eac8821a944ccdaf473a001a000be1
 - name: The Face
   db_uuid: 12a6be5c333544c7851c3f419b9d1bbd
+  srg_url: https://supershowthegame.com/product/the-face/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-face/
   card_type: SingleCompetitorCard
   division: United States
@@ -31095,6 +31102,46 @@
 
     When you roll Technique for your turn roll, add 1 card from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 7ad7c5dc5ad74946bda122243834dba0
+    - 395e666caa52440f9d4504f67cc66fca
+    - 33b66606501c420a8251d33edefa2424
+- name: The Price Point
+  db_uuid: 7ad7c5dc5ad74946bda122243834dba0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Strike'
+  tags: []
+  related_cards:
+    - 29b3e5e107ca46fc9e766b37fa0cf857
+- name: The Uneven Exchange
+  db_uuid: 395e666caa52440f9d4504f67cc66fca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    Draw 4 cards.'
+  tags: []
+  related_cards:
+    - 29b3e5e107ca46fc9e766b37fa0cf857
+- name: The 49er Arm Grinder
+  db_uuid: 33b66606501c420a8251d33edefa2424
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your opponent's 1st and 2nd Breakout rolls are -1 for each card you have in play with "Arm" in the name.
+  tags: []
+  related_cards:
+    - 29b3e5e107ca46fc9e766b37fa0cf857
+  wants_keywords:
+    - Arm
 - name: Varius
   db_uuid: 5097d05f3632489d910adf649a49738c
   srgpc_url: https://www.srgpc.net/cards/competitors/varius/
@@ -38016,6 +38063,7 @@
     - ee6c96e6131446909a2014075f80f2f7
 - name: The Consigilere
   db_uuid: 8abad8aab1c3448688681884ea4a8eb3
+  srg_url: https://supershowthegame.com/product/the-consigliere/
   srgpc_url: https://www.srgpc.net/competitors/the-consigliere/
   card_type: SingleCompetitorCard
   division: Intergalactic
@@ -40237,6 +40285,7 @@
     - Choke
 - name: The Dweeb
   db_uuid: 5855a5840bde47f69a596df2703401ad
+  srg_url: https://supershowthegame.com/product/the-dweeb/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-dweeb/
   card_type: SingleCompetitorCard
   division: United States
@@ -42090,6 +42139,13 @@
   grapple: 6
   rules_text: 'Once during your turn: You may discard 1 Stop from your hand to draw 1 card.'
   tags: []
+  related_finishes:
+    - 26d8904b89a44ed481131580376de702
+    - f9a5b8865ff44c9397aed40cc3b11b2a
+    - ebda093ef7284c7f9e10da5e35be90ae
+    - 4fcb3ec9e7144d628ae94a12855ca46e
+    - ba54a7d9874e48169b07969b52f171c6
+    - a38f21dfd9cf4924a668c3396a428844
 - name: Flame Fighter
   db_uuid: ae2b1fde64e343da8848984231aa5c83
   srgpc_url: https://www.srgpc.net/competitors/flame-fighter/
@@ -70280,6 +70336,7 @@
   tags: []
 - name: The Franchise
   db_uuid: 5b6cc3273f03415cbe6635d2a0796f03
+  srg_url: https://supershowthegame.com/product/the-franchise/
   srgpc_url: https://www.srgpc.net/competitor/the-franchise/
   card_type: SingleCompetitorCard
   division: Hardcore

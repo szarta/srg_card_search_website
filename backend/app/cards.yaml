@@ -48514,6 +48514,8 @@
   tags: []
   related_cards:
     - cc2319413d394caa9da0a045a4141797
+  wants_keywords:
+    - Guitar
 - name: Dangerous Hips Toss
   db_uuid: bac8ef4c59094277b6aec0408eba3478
   card_type: MainDeckCard
@@ -48528,6 +48530,8 @@
   tags: []
   related_cards:
     - cc2319413d394caa9da0a045a4141797
+  wants_keywords:
+    - Guitar
 - name: Out of Tune
   db_uuid: 8c3d1f6feded41b9bf18bc2b3bf2eb51
   card_type: MainDeckCard

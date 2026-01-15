@@ -43807,6 +43807,7 @@
     - 2a085c1413b3407fb33e8737e43b732e
 - name: The Great Outdoors
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
+  srg_url: https://supershowthegame.com/product/the-great-outdoors/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-great-outdoors/
   card_type: SingleCompetitorCard
   division: United States
@@ -43819,6 +43820,54 @@
   grapple: 9
   rules_text: 'When you roll Submission for your turn roll: You and your opponent reveal the top cards of your decks.  If your opponent''s card # is greater, they flip their card, if not, add your revealed card to your hand.'
   tags: []
+  related_finishes:
+    - 20650361f1cb4f22bccdda493bfd1c0c
+    - b261adc3442c45ce86c089fde0670645
+    - 4858bb34e1544e829362c244609759d4
+- name: Parks and Wrecks
+  db_uuid: 20650361f1cb4f22bccdda493bfd1c0c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    If you have "Devious Drop" in play, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - eedfad784cc74ef18b85af6ba1df2055
+- name: A-O River
+  db_uuid: b261adc3442c45ce86c089fde0670645
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Agility
+
+    If stopped, you may have each player shuffle their hand into their deck, then add the top 5 cards of their deck to their hand.'
+  tags: []
+  related_cards:
+    - eedfad784cc74ef18b85af6ba1df2055
+- name: Nature's Wrath
+  db_uuid: 4858bb34e1544e829362c244609759d4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Strike
+
+    Flip 3 cards.  Shuffle 3 cards from your discard pile into your deck.
+
+    Draw 2 cards.  If you have "Devious Drop" in play, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - eedfad784cc74ef18b85af6ba1df2055
 - name: Grinch Pitt
   db_uuid: 18ec1811ed0f4626b8ff2009207e9e7c
   srgpc_url: https://www.srgpc.net/competitors/grinch-pitt/

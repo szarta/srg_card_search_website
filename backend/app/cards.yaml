@@ -47994,6 +47994,7 @@
     - 6b1250e67fe74b9f9ca653ea9329e276
 - name: The King of Cosplay Mikal Mosley (V1)
   db_uuid: fb1e57613abe48419157410bb5bce677
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48093,6 +48094,7 @@
     - fb1e57613abe48419157410bb5bce677
 - name: The King of Cosplay Mikal Mosley (V2)
   db_uuid: b16922b7a21042738523cac808b2f8ea
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48113,6 +48115,7 @@
     - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V3)
   db_uuid: 28da6b168039468b89f78710aaec5d00
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48133,6 +48136,7 @@
     - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V4)
   db_uuid: 345f7d47cf234eb3a981772c526c907d
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48153,6 +48157,7 @@
     - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V5)
   db_uuid: 3124ae029b5b4f198da1205746f0e8a9
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48173,6 +48178,7 @@
     - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V6)
   db_uuid: 69230ad7b2ad47338be6f6f01306fcf9
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male
@@ -48193,6 +48199,7 @@
     - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V7)
   db_uuid: 30bff9a4cd32426c85ef7d851eda5f2e
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-king-of-cosplay-mikal-mosley/
   card_type: SingleCompetitorCard
   division: Global
   gender: Male

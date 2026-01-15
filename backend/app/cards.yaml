@@ -44861,6 +44861,52 @@
   grapple: 5
   rules_text: When you roll Technique or Agility for your turn roll and you have fewer cards in your hand than your opponent, draw 1 card and your opponent buries 1 card in their hand.
   tags: []
+  related_finishes:
+    - fea6b272e19d48a8824a8e8e645ca49e
+    - d9f309d773cf4696aa3c2fd60f0ec961
+    - 9bc94b434fcc41ba9b1c9ed4490be043
+- name: The Jacklighting
+  db_uuid: fea6b272e19d48a8824a8e8e645ca49e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    When you have the same number of cards in your hand as your opponent this card cannot be stopped.
+
+    If stopped you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 947eaf142185488ca4a44d377af47b72
+- name: From Dusk to Dawn
+  db_uuid: d9f309d773cf4696aa3c2fd60f0ec961
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +4 to Grapple
+
+    If you have fewer cards in your hand than your opponent draw cards until you have the same number of cards in your hand.'
+  tags: []
+  related_cards:
+    - 947eaf142185488ca4a44d377af47b72
+- name: Taxidermy
+  db_uuid: 9bc94b434fcc41ba9b1c9ed4490be043
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Technique
+
+    If you have fewer cards in your hand than your opponent, they bury cards in their hand at random until they have the same number of cards in hand.'
+  tags: []
+  related_cards:
+    - 947eaf142185488ca4a44d377af47b72
 - name: The Hypnotist Hanz Mesmer
   db_uuid: 8d99533f1c7d4a1a9ac20cd0854eb757
   srg_url: https://supershowthegame.com/product/the-hypnotist-hanz-mesmer/

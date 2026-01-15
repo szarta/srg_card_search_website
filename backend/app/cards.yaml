@@ -48007,6 +48007,90 @@
 
     Choose 1 and add its Gimmick to yours.'
   tags: []
+  related_cards:
+    - b16922b7a21042738523cac808b2f8ea
+    - 28da6b168039468b89f78710aaec5d00
+    - 345f7d47cf234eb3a981772c526c907d
+    - 3124ae029b5b4f198da1205746f0e8a9
+    - 69230ad7b2ad47338be6f6f01306fcf9
+    - 30bff9a4cd32426c85ef7d851eda5f2e
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
+- name: Black Heart Slam
+  db_uuid: 18b8a4324251434184287f51a848880b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    Your opponent randomly discards 1 card from their hand.
+
+    Your opponent''s Gimmick is blank.'
+  tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+    - b16922b7a21042738523cac808b2f8ea
+    - 28da6b168039468b89f78710aaec5d00
+    - 345f7d47cf234eb3a981772c526c907d
+    - 3124ae029b5b4f198da1205746f0e8a9
+    - 69230ad7b2ad47338be6f6f01306fcf9
+    - 30bff9a4cd32426c85ef7d851eda5f2e
+- name: Mikal-fied Pedigree
+  db_uuid: 81fbbe1e2f1248e19c7438f0f5e17dd8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Agility
+
+    +2 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+    - b16922b7a21042738523cac808b2f8ea
+    - 28da6b168039468b89f78710aaec5d00
+    - 345f7d47cf234eb3a981772c526c907d
+    - 3124ae029b5b4f198da1205746f0e8a9
+    - 69230ad7b2ad47338be6f6f01306fcf9
+    - 30bff9a4cd32426c85ef7d851eda5f2e
+- name: Mid Summer Nights Scream
+  db_uuid: fb612b5847cf48c1bf81b0bb467502cf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +3 to Submission'
+  tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+    - b16922b7a21042738523cac808b2f8ea
+    - 28da6b168039468b89f78710aaec5d00
+    - 345f7d47cf234eb3a981772c526c907d
+    - 3124ae029b5b4f198da1205746f0e8a9
+    - 69230ad7b2ad47338be6f6f01306fcf9
+    - 30bff9a4cd32426c85ef7d851eda5f2e
+- name: Sack of All Trades
+  db_uuid: ba78c46b0a984be3bc5addc25b8fc0d5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    Reveal any number of Mikal Mosley Competitor cards.  Choose 1 Mikal Mosley revealed Competitor card equal to the Crowd Meter +1 and add their Gimmick to yours for the rest of the match.'
+  tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
 - name: The King of Cosplay Mikal Mosley (V2)
   db_uuid: b16922b7a21042738523cac808b2f8ea
   card_type: SingleCompetitorCard
@@ -48020,6 +48104,13 @@
   grapple: 8
   rules_text: When your opponent rolls Power for their turn roll, they discard 1 card from their hand.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V3)
   db_uuid: 28da6b168039468b89f78710aaec5d00
   card_type: SingleCompetitorCard
@@ -48033,6 +48124,13 @@
   grapple: 8
   rules_text: When your opponent rolls Agility for their turn roll, they flip 1 card and you draw 1 card.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V4)
   db_uuid: 345f7d47cf234eb3a981772c526c907d
   card_type: SingleCompetitorCard
@@ -48046,6 +48144,13 @@
   grapple: 8
   rules_text: When your opponent rolls Strike for their turn roll, your next turn roll is +1.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V5)
   db_uuid: 3124ae029b5b4f198da1205746f0e8a9
   card_type: SingleCompetitorCard
@@ -48059,6 +48164,13 @@
   grapple: 8
   rules_text: When your opponent rolls Submission for their turn roll, their roll is -1.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V6)
   db_uuid: 69230ad7b2ad47338be6f6f01306fcf9
   card_type: SingleCompetitorCard
@@ -48072,6 +48184,13 @@
   grapple: 8
   rules_text: When your opponent rolls Grapple for their turn roll, their Gimmick is immediately blanked until the end of the turn roll.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: The King of Cosplay Mikal Mosley (V7)
   db_uuid: 30bff9a4cd32426c85ef7d851eda5f2e
   card_type: SingleCompetitorCard
@@ -48085,6 +48204,13 @@
   grapple: 8
   rules_text: When your opponent rolls Technique for their turn roll, you may discard 1 card from your hand to randomly add 1 card from your discard pile to your hand.
   tags: []
+  related_cards:
+    - fb1e57613abe48419157410bb5bce677
+  related_finishes:
+    - 18b8a4324251434184287f51a848880b
+    - 81fbbe1e2f1248e19c7438f0f5e17dd8
+    - fb612b5847cf48c1bf81b0bb467502cf
+    - ba78c46b0a984be3bc5addc25b8fc0d5
 - name: King Greatness
   db_uuid: 7e5c8dfeecc041958080980601611097
   srgpc_url: https://www.srgpc.net/cards/competitors/king-greatness/

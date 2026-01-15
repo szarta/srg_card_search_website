@@ -43757,6 +43757,54 @@
 
     When you have a Submission in play and you roll Submission, you may add 1 Submission from your discard pile to your hand.'
   tags: []
+  related_finishes:
+    - 9739c70b80b64d62b35bf53055442890
+    - 78187d9b66b342ef8a30c3d2c4667d5c
+    - 67e3773fe0a54e5d99fe2e2e79b01c06
+- name: Onigiri
+  db_uuid: 9739c70b80b64d62b35bf53055442890
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +2 to Grapple
+
+    -1 to Agility
+
+    Draw 10 cards, then bury 8 cards in your hand.'
+  tags: []
+  related_cards:
+    - 2a085c1413b3407fb33e8737e43b732e
+- name: Trip to Jigoku
+  db_uuid: 78187d9b66b342ef8a30c3d2c4667d5c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If you roll Strike for your Finish roll, your opponent''s 1st Breakout roll is -8.
+
+    If you roll Submission for your Finish roll, their 1st and 2nd Breakout rolls are -5.'
+  tags: []
+  related_cards:
+    - 2a085c1413b3407fb33e8737e43b732e
+- name: Ude no Wana ni Manjigatame
+  db_uuid: 67e3773fe0a54e5d99fe2e2e79b01c06
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    The next time your opponent rolls 8 or 10, their roll is -5.'
+  tags: []
+  related_cards:
+    - 2a085c1413b3407fb33e8737e43b732e
 - name: The Great Outdoors
   db_uuid: eedfad784cc74ef18b85af6ba1df2055
   srgpc_url: https://www.srgpc.net/cards/competitors/the-great-outdoors/

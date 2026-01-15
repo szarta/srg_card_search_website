@@ -44120,6 +44120,48 @@
   grapple: 7
   rules_text: When your turn roll is exactly 2 greater than your opponent's turn roll, flip 2 cards; if it is exactly 2 less, bury 2 cards in your discard pile.
   tags: []
+  related_finishes:
+    - 7da584d3fcd14427b0872c6c02437dfb
+    - 3b314e0d596e4472aa86ee5ff4c9d177
+    - 7a8b56f2fd4c4849a4ec3d7d31e118d0
+- name: Mallet Smash
+  db_uuid: 7da584d3fcd14427b0872c6c02437dfb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Strike
+
+    If this card was flipped or buried for your Gimmick, flip or bury 1 additional card.'
+  tags: []
+  related_cards:
+    - 5319a7d9980845fb8a17e35df92f1068
+- name: Laughing Woman
+  db_uuid: 3b314e0d596e4472aa86ee5ff4c9d177
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Flip 2 cards or bury 2 cards in your discard pile.'
+  tags: []
+  related_cards:
+    - 5319a7d9980845fb8a17e35df92f1068
+- name: Joker's Wild
+  db_uuid: 7a8b56f2fd4c4849a4ec3d7d31e118d0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If your turn roll was 2 greater than your opponent''s, your opponent gets 2 Breakout rolls this turn.'
+  tags: []
+  related_cards:
+    - 5319a7d9980845fb8a17e35df92f1068
 - name: Harvey Luster
   db_uuid: 5a5e5428ddba4775b3d2735f25ec4abf
   srg_url: https://supershowthegame.com/product/harvey-luster/

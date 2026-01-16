@@ -61983,6 +61983,56 @@
 
     Put 1 non-Finish without a Skill Requirement from your discard pile on top of your deck.'
   tags: []
+  related_finishes:
+    - 3f5e8c5e86194e5e9c75fb5a80c04098
+    - 389e67beda904e198c2b44baa6cf7efe
+    - 56562ab71eff45459964330c832f360d
+- name: Danshee's Wail
+  db_uuid: 3f5e8c5e86194e5e9c75fb5a80c04098
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Your opponent discards 1 card from their hand.
+
+    If you shuffled your deck last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 2d3873502620427d979c152bb1d53f3c
+- name: Shattered Reality
+  db_uuid: 389e67beda904e198c2b44baa6cf7efe
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    When this card is in your discard pile and the Crowd Meter is 3 or greater:
+
+    When you use your The Screaming Danshee Gimmick, you may put any card on top of your deck instead.'
+  tags: []
+  related_cards:
+    - 2d3873502620427d979c152bb1d53f3c
+- name: Danlock
+  db_uuid: 56562ab71eff45459964330c832f360d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    If stopped, you may discard 1 card from your hand to shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 2d3873502620427d979c152bb1d53f3c
 - name: Sgt. Yoga
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
   srgpc_url: https://www.srgpc.net/competitors/sgt-yoga/

@@ -57065,6 +57065,7 @@
     - 72ca0ec381b44e6cafbb6992e89eb2ba
 - name: The Phantasm
   db_uuid: b893411fa9304bc1a3c34615e6c3c10d
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-phantasm/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -57753,7 +57754,7 @@
     - Suplex
 - name: The PPLZ Casual
   db_uuid: 2c23f74d12db4d0ea64af6aeac5f51ee
-  srgpc_url: https://www.srgpc.net/cards/competitors/pplz-casual/
+  srgpc_url: https://www.srgpc.net/competitors/the-pplz-casual/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male

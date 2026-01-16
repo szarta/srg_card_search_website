@@ -60551,6 +60551,7 @@
     - b5dab595d5cc4b4fa0692a3a5903d639
 - name: The Ronin Kira Himura
   db_uuid: e37635c90e384afe9f4b6d30b15b40be
+  srgpc_url: https://www.srgpc.net/competitor/the-ronin-kira-himura/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -60562,6 +60563,54 @@
   grapple: 6
   rules_text: When you roll Agility for your turn roll, shuffle 1 card from your hand and 1 card from your discard pile into your deck.  Draw 1 card.
   tags: []
+  related_finishes:
+    - 7ab8205d615a444c8b4aec9023eb2081
+    - 408e2993fdd8475ea6aef0dfef94ceae
+    - 579dec2e619a471f8660f6856efa8764
+- name: Bushido Cutter
+  db_uuid: 7ab8205d615a444c8b4aec9023eb2081
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Grapple
+
+    If either player broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - e37635c90e384afe9f4b6d30b15b40be
+- name: Samurai Spirit
+  db_uuid: 408e2993fdd8475ea6aef0dfef94ceae
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Once per turn:
+
+    You may re-roll your Finish roll and your opponent draws 4 cards.'
+  tags: []
+  related_cards:
+    - e37635c90e384afe9f4b6d30b15b40be
+- name: Katana Grip
+  db_uuid: 579dec2e619a471f8660f6856efa8764
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    Each time your opponent rolls for a Breakout roll, they bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - e37635c90e384afe9f4b6d30b15b40be
 - name: Root Beer Guy
   db_uuid: 858138a8b87c4de4b420fcfefd1d2363
   srgpc_url: https://www.srgpc.net/competitors/root-beer-guy/

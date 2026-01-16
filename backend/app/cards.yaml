@@ -64304,7 +64304,7 @@
   wants_keywords:
     - Big
     - Microphone
-- name: THE Hollywood Headshot (TM)
+- name: THE Hollywood Headshot™
   db_uuid: 451ccf4ced0649b08acba5f7fed7cf00
   card_type: MainDeckCard
   atk_type: Strike
@@ -64322,7 +64322,7 @@
     - 2ac859ee5b724848b5d34e70740c4f50
   wants_keywords:
     - Microphone
-- name: THE Big Top Cut (TM)
+- name: THE Big Top Cut™
   db_uuid: 7d82ee07dd5e4aabbdaaf6239d46de56
   card_type: MainDeckCard
   atk_type: Grapple
@@ -64336,7 +64336,7 @@
   tags: []
   related_cards:
     - 2ac859ee5b724848b5d34e70740c4f50
-- name: THE Broken Branches (TM)
+- name: THE Broken Branches™
   db_uuid: 7a5445b978b245538172a9240e4a94f2
   card_type: MainDeckCard
   atk_type: Submission

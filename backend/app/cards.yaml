@@ -31214,6 +31214,58 @@
   grapple: 10
   rules_text: When you roll Grapple, flip 3 cards or add 1 Grapple from your discard pile to your hand.
   tags: []
+  related_finishes:
+    - 5abdf746a7f448f782f0dba342e5154
+    - be7cff0bdffe4514ae96a799b9c832e6
+    - 3d08e1e0e480446498e3da15dc1d252a
+- name: Man Overboard
+  db_uuid: 5abdf746a7f448f782f0dba342e51543
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Draw 1 card.  Your opponent buries 1 random card in their hand.
+
+    If you hit a Grapple last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - afec53cb2d714571bc02e2b8fb06ffd8
+- name: Drop the Anchor
+  db_uuid: be7cff0bdffe4514ae96a799b9c832e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Stop any Follow Up or Finish Submission with "Hold" or "Knot" in the name.
+
+    Your opponent buries 1 card in their hand for each card you have in play with "Drop" in the name.'
+  tags: []
+  related_cards:
+    - afec53cb2d714571bc02e2b8fb06ffd8
+  wants_keywords:
+    - Hold
+    - Knot
+    - Drop
+- name: Knowing the Ropes
+  db_uuid: 3d08e1e0e480446498e3da15dc1d252a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +3 to Submsision
+
+    When you have 3 other Submissions in play include 1 with "Rope" in the name, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - afec53cb2d714571bc02e2b8fb06ffd8
+  wants_keywords:
+    - Rope
 - name: Mad Custodian
   db_uuid: a72fb5b1c70b439c97b87350954fd003
   srg_url: https://supershowthegame.com/product/mad-custodian/
@@ -32486,7 +32538,7 @@
   deck_card_number: 28
   rules_text: '+4 to Strike
 
-    Choose 1 card you ropponent has in their discard pile and add it to their hand.  Your opponent buries 2 randomly cards in tehir hand.'
+    Choose 1 card you ropponent has in their discard pile and add it to their hand.  Your opponent buries 2 randomly cards in their hand.'
   tags: []
   related_cards:
     - ff880ca42bb946a5945d9407b31ee671
@@ -45547,7 +45599,7 @@
   deck_card_number: 30
   rules_text: '+5 to Submission
 
-    Stop any Finish Strike with "via disqualification" in teh text, or any Strike if it is not the 1st card played this turn.'
+    Stop any Finish Strike with "via disqualification" in the text, or any Strike if it is not the 1st card played this turn.'
   tags: []
   related_cards:
     - d7d82141547a44308408d2470732bb64

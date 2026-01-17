@@ -65196,11 +65196,11 @@
   deck_card_number: 29
   rules_text: +1 to Agility and Submission for each card you have in play with "Trash" or "Work" in the name.
   tags: []
+  related_cards:
+    - cd74ed7f79184db582a82ecd92058c28
   wants_keywords:
     - Work
     - Trash
-  related_cards:
-    - cd74ed7f79184db582a82ecd92058c28
 - name: The Recycler
   db_uuid: 04e00b60812c42ea9092634a73877c61
   card_type: MainDeckCard
@@ -65213,11 +65213,11 @@
 
     If you have 3 or more cards in play with "Work" or "Trash" in the name, your opponent gets 1 Breakout roll this turn.'
   tags: []
+  related_cards:
+    - cd74ed7f79184db582a82ecd92058c28
   wants_keywords:
     - Work
     - Trash
-  related_cards:
-    - cd74ed7f79184db582a82ecd92058c28
 - name: Trent?
   db_uuid: 902a282a6c6f4317b4cf87e0a4eed30d
   srgpc_url: https://www.srgpc.net/cards/competitors/trent/
@@ -65232,6 +65232,50 @@
   grapple: 9
   rules_text: Once on your turn, if you have fewer cards in your hand than your opponent you may draw 1 card.
   tags: []
+  related_finishes:
+    - 3250f420d7364ae6a42f68bd2f4a1fdf
+    - d919c8cac4d24238b5ae27086af898fe
+    - db5b00111455460c87992eb688e6e25b
+- name: The Gobstopper
+  db_uuid: 3250f420d7364ae6a42f68bd2f4a1fdf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    When this card is in your discard pile, if you drew 1 or more cards this turn, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 902a282a6c6f4317b4cf87e0a4eed30d
+- name: The Dudebuster
+  db_uuid: d919c8cac4d24238b5ae27086af898fe
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Grapple
+
+    Shuffle any number of cards from your hand into your deck, then draw the same number of cards.'
+  tags: []
+  related_cards:
+    - 902a282a6c6f4317b4cf87e0a4eed30d
+- name: Double Leg Death Lock
+  db_uuid: db5b00111455460c87992eb688e6e25b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Technique
+
+    Shuffle any number of cards from your discard pile into your deck, then bury the same number of cards from your hand.'
+  tags: []
+  related_cards:
+    - 902a282a6c6f4317b4cf87e0a4eed30d
 - name: True American Guy Gregory Patrick Scott
   db_uuid: 6d08f346a2584887a329443b00b9f02f
   srgpc_url: https://www.srgpc.net/cards/competitors/true-american-guy-gregory-patrick-scott/

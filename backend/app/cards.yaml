@@ -62952,6 +62952,52 @@
 
     BACK: When you bury any number of cards in your hand; your opponent buries 1 card in their hand.'
   tags: []
+  related_finishes:
+    - 6cdaf8471dfc45e78bae2b17394e5a92
+    - 083cdf3387b24f8a846453587be0718f
+    - cd526b52a8e54ad09b93efef10e4e7f6
+- name: Marvel Thrust Kick
+  db_uuid: 6cdaf8471dfc45e78bae2b17394e5a92
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If your opponent breaks out; bury this card and draw 1 card.'
+  tags: []
+  related_cards:
+    - 8532ee54d4504d4196342d3fc7f0d0c1
+- name: The Marvel Driver
+  db_uuid: 083cdf3387b24f8a846453587be0718f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 8532ee54d4504d4196342d3fc7f0d0c1
+- name: Marvel Delta Lock
+  db_uuid: cd526b52a8e54ad09b93efef10e4e7f6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    Your opponent''s 1st and 2nd Breakout rolls are -1.'
+  tags: []
+  related_cards:
+    - 8532ee54d4504d4196342d3fc7f0d0c1
 - name: The Silver Marvel (Back Stats)
   db_uuid: 9601fc057af74102ab22d084c8797510
   card_type: SingleCompetitorCard
@@ -64240,6 +64286,54 @@
   grapple: 9
   rules_text: When you hit a card with "Leg" in the name, draw 2 cards then bury 1 card in your hand.
   tags: []
+  wants_keywords:
+    - Leg
+  related_finishes:
+    - 16889a9f3d454b62b5ccf1ffe0733b3d
+    - df1807691e8f4345831b0b1eb96499c6
+    - 24952622bc694ef6ba806a28884a2206
+- name: Allegedly, Scottish Kung Fu
+  db_uuid: 16889a9f3d454b62b5ccf1ffe0733b3d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Once per turn:
+
+    Your opponent may randomly bury their hand to add the text "Your opponent may re-roll their first Breakout roll" to this card.'
+  tags: []
+  related_cards:
+    - a2895b52164743edbdd083272279e147
+- name: Mad Plaid
+  db_uuid: df1807691e8f4345831b0b1eb96499c6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +2 to Submission
+
+    When this card is in your discard pile, this match has no disqualifications.'
+  tags: []
+  related_cards:
+    - a2895b52164743edbdd083272279e147
+- name: Enter the Haggis
+  db_uuid: 24952622bc694ef6ba806a28884a2206
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +1 to Submission for each card you have in play with "Leg" in the name (Max +3).'
+  tags: []
+  related_cards:
+    - a2895b52164743edbdd083272279e147
   wants_keywords:
     - Leg
 - name: Terra

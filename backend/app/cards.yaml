@@ -64934,6 +64934,50 @@
   grapple: 7
   rules_text: Your opponent's maximum handsize is -2. When your opponent has more Stops in play than you, their maximum handsize is -2.
   tags: []
+  related_finishes:
+    - 8b68fc6c874e4b0497f1e5101fb7e23b
+    - 733c09d9fca14fb89e800958e1eb17b8
+    - 8e382f7967dd4b0d8e8adc3774ffce4a
+- name: Went for the Head
+  db_uuid: 8b68fc6c874e4b0497f1e5101fb7e23b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Your opponent discards 1 card from their hand to each Stop they have in play.'
+  tags: []
+  related_cards:
+    - 0e42a47bc46d470a9c8db554bb0edf6b
+- name: Balancing the Universe
+  db_uuid: 733c09d9fca14fb89e800958e1eb17b8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Each player''s maximum handsize is -2.
+
+    Your Finish roll is +1 for each card discarded for maximum handsize this turn.'
+  tags: []
+  related_cards:
+    - 0e42a47bc46d470a9c8db554bb0edf6b
+- name: No Resurrections This Time
+  db_uuid: 8e382f7967dd4b0d8e8adc3774ffce4a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Submission
+
+    If your opponent has 5 Stops in play, you win the match via Pinfall.'
+  tags: []
+  related_cards:
+    - 0e42a47bc46d470a9c8db554bb0edf6b
 - name: TJ Marconi
   db_uuid: e14019134fab4819bfd60e35943ce375
   srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi/

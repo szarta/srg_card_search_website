@@ -65190,6 +65190,46 @@
   grapple: 7
   rules_text: When your opponent hits a Grapple, draw 1 card and your next turn roll is +1.
   tags: []
+  related_finishes:
+    - e16704aac8a647748529247da9030764
+    - dc4ae091ea5e49199a01735a0d63ecea
+    - d0dffaa4655d4190a6a0f5885302449d
+- name: Swine Flew
+  db_uuid: e16704aac8a647748529247da9030764
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    Your Finish roll is +1 for each Grapple your opponent has in play (Max +2).'
+  tags: []
+  related_cards:
+    - 80d48aba45684fb29c71c0095125c481
+- name: Goin' Ham
+  db_uuid: dc4ae091ea5e49199a01735a0d63ecea
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your Agility and Garpple are +1 for each Grapple your opponent has in play.
+
+    If your opponent hit a Follow Up Strike last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 80d48aba45684fb29c71c0095125c481
+- name: Torture Rack of Ribs
+  db_uuid: d0dffaa4655d4190a6a0f5885302449d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+5 to Agility
+
+    If stopped, draw 1 card.'
+  tags: []
+  related_cards:
+    - 80d48aba45684fb29c71c0095125c481
 - name: Unicorn Princess
   db_uuid: 834c8775accf428380910277cbe27413
   srgpc_url: https://www.srgpc.net/cards/competitors/unicorn-princess/

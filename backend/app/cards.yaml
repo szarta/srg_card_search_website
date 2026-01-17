@@ -65546,6 +65546,56 @@
   grapple: 6
   rules_text: +1 to Power.
   tags: []
+  related_finishes:
+    - 6b02a038d22e4c2d9af227d644cd9cb0
+    - a8e08f5d32d547d38928536ee4989bb2
+    - 86e3f187e6a4414aa47949dba6068764
+- name: It's High Noon
+  db_uuid: 6b02a038d22e4c2d9af227d644cd9cb0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Strike
+
+    If your Finish roll is 12 or greater, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - 6868fc4520954fd4a3ca756d11b59d18
+- name: As Thy Days Are
+  db_uuid: a8e08f5d32d547d38928536ee4989bb2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    If your opponent rolls Power for their turn roll, this card cannot be stopped by Follow Ups.'
+  tags: []
+  related_cards:
+    - 6868fc4520954fd4a3ca756d11b59d18
+- name: You Let Us In
+  db_uuid: 86e3f187e6a4414aa47949dba6068764
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If this is a Tag Team match,
+
+    +3 to Agility
+
+    +3 to Grapple instead.'
+  tags: []
+  related_cards:
+    - 6868fc4520954fd4a3ca756d11b59d18
 - name: Ultimate Grump
   db_uuid: 26cdda7245744396ae988697babdef2f
   srgpc_url: https://www.srgpc.net/cards/competitors/ultimate-grump/

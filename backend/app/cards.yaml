@@ -37185,8 +37185,6 @@
   grapple: 10
   rules_text: Once during your turn when you hit a card with "Lock" in the name; draw 1 card or you may play 1 additional card this turn.
   tags: []
-  wants_keywords:
-    - Lock
   related_finishes:
     - b4f708de247e434db1ca45a745362b12
     - da4e826bbdb94fcd98a0b19ed4e34d36
@@ -37194,6 +37192,8 @@
     - 852c31233fab4f5a998cc7657c6ba55f
     - 28600c49c3a74f3cad9631c2af2f689d
     - 0048a53f49f5429eb09ad62ac673aea5
+  wants_keywords:
+    - Lock
 - name: Theo the Greek Neo (V2)
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
   srgpc_url: https://www.srgpc.net/competitors/theo-the-greek-neo-v2/
@@ -37227,11 +37227,11 @@
 
     If you hit a card with "Lock" in the name this turn, this card is also a Follow Up.'
   tags: []
-  wants_keywords:
-    - Lock
   related_cards:
     - 831eb73c2ab9435794db4413c7e2521b
     - 2751c0c3d26947fdb910924c50726fcd
+  wants_keywords:
+    - Lock
 - name: Into Oblivion
   db_uuid: da4e826bbdb94fcd98a0b19ed4e34d36
   card_type: MainDeckCard
@@ -37244,11 +37244,11 @@
 
     Shuffle 4 cards with "Lock" in the name from your discard pile into your deck.'
   tags: []
-  wants_keywords:
-    - Lock
   related_cards:
     - 831eb73c2ab9435794db4413c7e2521b
     - 2751c0c3d26947fdb910924c50726fcd
+  wants_keywords:
+    - Lock
 - name: Depths of Hades
   db_uuid: cf3685942fc44ec69b410aeca1797bf0
   card_type: MainDeckCard
@@ -37263,11 +37263,11 @@
 
     If you played a card with "Lock" in the name this turn, double these bonuses.'
   tags: []
-  wants_keywords:
-    - Lock
   related_cards:
     - 831eb73c2ab9435794db4413c7e2521b
     - 2751c0c3d26947fdb910924c50726fcd
+  wants_keywords:
+    - Lock
 - name: Apollo's Arrow
   db_uuid: 852c31233fab4f5a998cc7657c6ba55f
   card_type: MainDeckCard
@@ -64835,6 +64835,91 @@
   grapple: 8
   rules_text: When your opponent hits a Lead card, you may discard 1 card to blank its text.
   tags: []
+  related_finishes:
+    - 2e878bc817dd4c10998a8d3f73553fef
+    - 4e1a44fb00cb4cb3888382e8e65a706c
+    - 04b5da08661c4e239a620c6254e631bf
+    - e33ac1d938e94121ba5a1acd5a328fc3
+    - 3e5b7403c33d426a9251974746d3d690
+    - ab6f556066854742be959754514ce6f7
+- name: The Chopping Block (V2)
+  db_uuid: 2e878bc817dd4c10998a8d3f73553fef
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    If your opponent has 3 or more Leads in play, their 1st and 2nd Breakout rolls are -2.'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
+- name: To the Dungeons (V2)
+  db_uuid: 4e1a44fb00cb4cb3888382e8e65a706c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
+- name: By Order of the Queen (V2)
+  db_uuid: 04b5da08661c4e239a620c6254e631bf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Your opponent randomly buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
+- name: The Chopping Block (V1)
+  db_uuid: e33ac1d938e94121ba5a1acd5a328fc3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    If your opponent has 3 or more Leads in play, their 1st and 2nd Breakout rolls are -2.'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
+- name: To the Dungeons (V1)
+  db_uuid: 3e5b7403c33d426a9251974746d3d690
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
+- name: By Order of the Queen (V1)
+  db_uuid: ab6f556066854742be959754514ce6f7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your opponent randomly buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 0a4ae4fdea654848ac7a8467bc9f74f2
 - name: Titan of the Northeast
   db_uuid: 0e42a47bc46d470a9c8db554bb0edf6b
   srgpc_url: https://www.srgpc.net/cards/competitors/titan-of-the-northeast/

@@ -64909,6 +64909,52 @@
   grapple: 9
   rules_text: 'When you roll Agility for your turn roll: Look at your opponent''s hand, choose 1 Lead and bury it.'
   tags: []
+  related_finishes:
+    - 16afb76d9ad84ce691ce8e005ff9afdf
+    - 29793603fbc245f38706cad9a8726e1e
+    - f1953be7518d4d3f99ce3e500df3f551
+- name: Temple of the Dog
+  db_uuid: 16afb76d9ad84ce691ce8e005ff9afdf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile, your opponent cannot increase their skills with their Gimmick.'
+  tags: []
+  related_cards:
+    - 30a3349b5bfa4d608ac989f90a253dc5
+- name: Hanging by a Moment
+  db_uuid: 29793603fbc245f38706cad9a8726e1e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, discard or bury 1 Follow Up or Finish.'
+  tags: []
+  related_cards:
+    - 30a3349b5bfa4d608ac989f90a253dc5
+- name: School's Out for Slumber
+  db_uuid: f1953be7518d4d3f99ce3e500df3f551
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Each time your opponent rolls for a Breakout roll, they randomly bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 30a3349b5bfa4d608ac989f90a253dc5
 - name: Uncle Awesome (V1)
   db_uuid: 4e2a4a8022b0485e8449750cb411d793
   srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/

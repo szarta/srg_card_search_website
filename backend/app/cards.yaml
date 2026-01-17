@@ -64996,6 +64996,10 @@
     - Kick
     - Drop
     - Boot
+  related_finishes:
+    - b201cb0ba6b5402abe10960b8338f52a
+    - 98251b85d0f647a4a9e3b2e89983ab2c
+    - af82fb2920f446c98b7b583e9dfd4c42
 - name: 'TJ Marconi Public Enemy #1'
   db_uuid: 8f726675283f40eabe2c99539ef6e394
   srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi-public-enemy-no-1/
@@ -65014,6 +65018,78 @@
     - Kick
     - Drop
     - Boot
+  related_finishes:
+    - b201cb0ba6b5402abe10960b8338f52a
+    - 98251b85d0f647a4a9e3b2e89983ab2c
+    - af82fb2920f446c98b7b583e9dfd4c42
+    - dec856be5e304f7db5afa8e2621b2c1f
+- name: Welcome to My Boot Party
+  db_uuid: b201cb0ba6b5402abe10960b8338f52a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    Flip 6 cards.
+
+    Add 6 cards with "Kick" or "Boot" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Kick
+    - Boot
+  related_cards:
+    - e14019134fab4819bfd60e35943ce375
+    - 8f726675283f40eabe2c99539ef6e394
+- name: Total Recall
+  db_uuid: 98251b85d0f647a4a9e3b2e89983ab2c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your opponent''s next roll is -2 for each card you have in play with "Drop" or "Slam" in the name.
+
+    Draw 2 cards.'
+  tags: []
+  wants_keywords:
+    - Drop
+    - Slam
+  related_cards:
+    - e14019134fab4819bfd60e35943ce375
+    - 8f726675283f40eabe2c99539ef6e394
+- name: Boot Crush
+  db_uuid: af82fb2920f446c98b7b583e9dfd4c42
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your opponent buries 4 cards in their hand.'
+  tags: []
+  related_cards:
+    - e14019134fab4819bfd60e35943ce375
+    - 8f726675283f40eabe2c99539ef6e394
+- name: Ego Drop Over the Top
+  db_uuid: dec856be5e304f7db5afa8e2621b2c1f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    Flip 8 cards.
+
+    Shuffle any number of cards with "Kick", "Drop", or "Boot" in the name from your discard pile into your deck.'
+  tags: []
+  wants_keywords:
+    - Kick
+    - Drop
+    - Boot
+  related_cards:
+    - e14019134fab4819bfd60e35943ce375
 - name: Tommy Stillwell
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
   srgpc_url: https://www.srgpc.net/cards/competitors/tommy-stillwell/

@@ -26193,10 +26193,6 @@
   rules_text: When you hit a card with "Hang", "Head", or "Rope" in the name, your opponent's maximum handsize is -4 until the end of the turn.
   tags:
     - Old School
-  wants_keywords:
-    - Hang
-    - Head
-    - Rope
   related_finishes:
     - 33081eaf7cdc4e96b2a3366631b75822
     - 315dae6943f74b86b1f467989bdadc70
@@ -26204,6 +26200,10 @@
     - 0a15df24bc754e939dd601526a1cf9be
     - f9e2c72e6e12426abb50b50486390448
     - b9e806a3d02a42caa7968cd907f5cef4
+  wants_keywords:
+    - Hang
+    - Head
+    - Rope
 - name: The Beheading
   db_uuid: 33081eaf7cdc4e96b2a3366631b75822
   card_type: MainDeckCard
@@ -26231,11 +26231,11 @@
 
     Each time your opponent rolls for a Breakout roll, they discard 1 card from their hand for each card you have in play with "Break" in the name.'
   tags: []
-  wants_keywords:
-    - Break
   related_cards:
     - bda15f5890984f34b63f0f32193ac0cc
     - ebf4fa6ed095448b8fcbab78ea0423c9
+  wants_keywords:
+    - Break
 - name: The Hangman's Rope
   db_uuid: cfdc72337b634b6f962a9e16ab34b7a8
   card_type: MainDeckCard
@@ -26248,13 +26248,13 @@
 
     Your Grapple skill is +1 for each card you have in play with "Rope" in the name.'
   tags: []
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
   wants_keywords:
     - Hang
     - Head
     - Rope
-  related_cards:
-    - bda15f5890984f34b63f0f32193ac0cc
-    - ebf4fa6ed095448b8fcbab78ea0423c9
 - name: Guillotine Lariat
   db_uuid: 0a15df24bc754e939dd601526a1cf9be
   card_type: MainDeckCard
@@ -37171,7 +37171,7 @@
   tags: []
   related_cards:
     - b339f906c69c4183b699037dffd6cfa1
-- name: Theo the Greek (V1)
+- name: Theo the Greek Neo (V1)
   db_uuid: 831eb73c2ab9435794db4413c7e2521b
   srgpc_url: https://www.srgpc.net/cards/competitors/theo-the-greek-neo/
   card_type: SingleCompetitorCard
@@ -37187,7 +37187,14 @@
   tags: []
   wants_keywords:
     - Lock
-- name: Theo the Greek (V2)
+  related_finishes:
+    - b4f708de247e434db1ca45a745362b12
+    - da4e826bbdb94fcd98a0b19ed4e34d36
+    - cf3685942fc44ec69b410aeca1797bf0
+    - 852c31233fab4f5a998cc7657c6ba55f
+    - 28600c49c3a74f3cad9631c2af2f689d
+    - 0048a53f49f5429eb09ad62ac673aea5
+- name: Theo the Greek Neo (V2)
   db_uuid: 2751c0c3d26947fdb910924c50726fcd
   srgpc_url: https://www.srgpc.net/competitors/theo-the-greek-neo-v2/
   card_type: SingleCompetitorCard
@@ -37201,6 +37208,109 @@
   grapple: 10
   rules_text: You are considered to have fewer cards in your hand than your opponent.
   tags: []
+  related_finishes:
+    - b4f708de247e434db1ca45a745362b12
+    - da4e826bbdb94fcd98a0b19ed4e34d36
+    - cf3685942fc44ec69b410aeca1797bf0
+    - 852c31233fab4f5a998cc7657c6ba55f
+    - 28600c49c3a74f3cad9631c2af2f689d
+    - 0048a53f49f5429eb09ad62ac673aea5
+- name: Spartan Kick
+  db_uuid: b4f708de247e434db1ca45a745362b12
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If you hit a card with "Lock" in the name this turn, this card is also a Follow Up.'
+  tags: []
+  wants_keywords:
+    - Lock
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
+- name: Into Oblivion
+  db_uuid: da4e826bbdb94fcd98a0b19ed4e34d36
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Shuffle 4 cards with "Lock" in the name from your discard pile into your deck.'
+  tags: []
+  wants_keywords:
+    - Lock
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
+- name: Depths of Hades
+  db_uuid: cf3685942fc44ec69b410aeca1797bf0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Draw 1 card.
+
+    If you played a card with "Lock" in the name this turn, double these bonuses.'
+  tags: []
+  wants_keywords:
+    - Lock
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
+- name: Apollo's Arrow
+  db_uuid: 852c31233fab4f5a998cc7657c6ba55f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +2 to Strike
+
+    If you have fewer cards in your hand than your opponent, draw 3 cards.'
+  tags: []
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
+- name: Spartan Slam
+  db_uuid: 28600c49c3a74f3cad9631c2af2f689d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    If you have fewer cards in your hand than your opponent, their 1st and 2nd Breakout rolls are -2.'
+  tags: []
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
+- name: Olympian Obliteration
+  db_uuid: 0048a53f49f5429eb09ad62ac673aea5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    If stopped, and you have fewer cards in your hand than your opponent, discard up to 2 Grapples they have in play.'
+  tags: []
+  related_cards:
+    - 831eb73c2ab9435794db4413c7e2521b
+    - 2751c0c3d26947fdb910924c50726fcd
 - name: Captain Rustbelt
   db_uuid: d7de64cba4dd40589bfe221b0a7d65e4
   srg_url: https://supershowthegame.com/product/captain-rustbelt/

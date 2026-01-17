@@ -64992,14 +64992,14 @@
   grapple: 7
   rules_text: 'Your cards with "Kick", "Drop", and "Boot" in the name have the added text: "Your opponent''s next turn roll is -1."'
   tags: []
-  wants_keywords:
-    - Kick
-    - Drop
-    - Boot
   related_finishes:
     - b201cb0ba6b5402abe10960b8338f52a
     - 98251b85d0f647a4a9e3b2e89983ab2c
     - af82fb2920f446c98b7b583e9dfd4c42
+  wants_keywords:
+    - Kick
+    - Drop
+    - Boot
 - name: 'TJ Marconi Public Enemy #1'
   db_uuid: 8f726675283f40eabe2c99539ef6e394
   srgpc_url: https://www.srgpc.net/cards/competitors/tj-marconi-public-enemy-no-1/
@@ -65014,15 +65014,15 @@
   grapple: 7
   rules_text: Your cards with "Kick", "Drop", or "Boot" in the name have the added text "Your next turn roll is +1."
   tags: []
-  wants_keywords:
-    - Kick
-    - Drop
-    - Boot
   related_finishes:
     - b201cb0ba6b5402abe10960b8338f52a
     - 98251b85d0f647a4a9e3b2e89983ab2c
     - af82fb2920f446c98b7b583e9dfd4c42
     - dec856be5e304f7db5afa8e2621b2c1f
+  wants_keywords:
+    - Kick
+    - Drop
+    - Boot
 - name: Welcome to My Boot Party
   db_uuid: b201cb0ba6b5402abe10960b8338f52a
   card_type: MainDeckCard
@@ -65037,12 +65037,12 @@
 
     Add 6 cards with "Kick" or "Boot" in the name from your discard pile to your hand.'
   tags: []
-  wants_keywords:
-    - Kick
-    - Boot
   related_cards:
     - e14019134fab4819bfd60e35943ce375
     - 8f726675283f40eabe2c99539ef6e394
+  wants_keywords:
+    - Kick
+    - Boot
 - name: Total Recall
   db_uuid: 98251b85d0f647a4a9e3b2e89983ab2c
   card_type: MainDeckCard
@@ -65053,12 +65053,12 @@
 
     Draw 2 cards.'
   tags: []
-  wants_keywords:
-    - Drop
-    - Slam
   related_cards:
     - e14019134fab4819bfd60e35943ce375
     - 8f726675283f40eabe2c99539ef6e394
+  wants_keywords:
+    - Drop
+    - Slam
 - name: Boot Crush
   db_uuid: af82fb2920f446c98b7b583e9dfd4c42
   card_type: MainDeckCard
@@ -65084,12 +65084,12 @@
 
     Shuffle any number of cards with "Kick", "Drop", or "Boot" in the name from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - e14019134fab4819bfd60e35943ce375
   wants_keywords:
     - Kick
     - Drop
     - Boot
-  related_cards:
-    - e14019134fab4819bfd60e35943ce375
 - name: Tommy Stillwell
   db_uuid: 2e4a3c658deb43499e6e3e398d0def13
   srgpc_url: https://www.srgpc.net/cards/competitors/tommy-stillwell/
@@ -65104,6 +65104,58 @@
   grapple: 10
   rules_text: When you bury or discard any number of cards from your hand from a card effect or Gimmick, draw 1 card.
   tags: []
+  related_finishes:
+    - 8ada46baf6ca4a37b6c61e147540fcf4
+    - 86fe008722cc4ca2802c0ba3f8953f10
+    - 54046e6623ef4277af5f02896b9c08ea
+- name: Copperhead Road
+  db_uuid: 8ada46baf6ca4a37b6c61e147540fcf4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +3 to Strike
+
+    Draw 2 cards.
+
+    Bury 1 card in your hand.'
+  tags: []
+  related_cards:
+    - 2e4a3c658deb43499e6e3e398d0def13
+- name: Stampede Buster
+  db_uuid: 86fe008722cc4ca2802c0ba3f8953f10
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +3 to Submission
+
+    Discard 1 card from your hand.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 2e4a3c658deb43499e6e3e398d0def13
+- name: Midnight Special
+  db_uuid: 54046e6623ef4277af5f02896b9c08ea
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +3 to Submission
+
+    Each player discards 2 cards from their hand.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 2e4a3c658deb43499e6e3e398d0def13
 - name: Trashman
   db_uuid: cd74ed7f79184db582a82ecd92058c28
   srgpc_url: https://www.srgpc.net/cards/competitors/trashman/

@@ -73440,6 +73440,10 @@
   grapple: 6
   rules_text: When you roll Strike, Submission, or Grapple for your turn roll, your opponent randomly reveals 1 card in their hand; if the move type of the card revealed is the same as the skill you rolled, draw 1 card.
   tags: []
+  related_finishes:
+    - 3d328b373687407ebd2fa02e9bd86886
+    - ab6c1a8baf994a7a9ca4f5344e8bbd39
+    - 41018171070549a3a2fe292762dd39ec
 - name: The Jackpot
   db_uuid: 3d328b373687407ebd2fa02e9bd86886
   card_type: MainDeckCard
@@ -73456,6 +73460,8 @@
 
     If you rolled Submission for your Finish roll, you may re-roll and double these bonuses.'
   tags: []
+  related_cards:
+    - f4a3aea48e544fac9e4edf24b5d07235
 - name: The Winnerooni
   db_uuid: ab6c1a8baf994a7a9ca4f5344e8bbd39
   card_type: MainDeckCard
@@ -73468,6 +73474,8 @@
 
     Shuffle up to 5 cards from your discard pile into your deck. Draw the top card and bottom card of your deck.'
   tags: []
+  related_cards:
+    - f4a3aea48e544fac9e4edf24b5d07235
 - name: The Lucky Break
   db_uuid: 41018171070549a3a2fe292762dd39ec
   card_type: MainDeckCard
@@ -73480,6 +73488,8 @@
 
     Your opponent randomly reveals 5 cards in their hand: choose two Stops and discard them.'
   tags: []
+  related_cards:
+    - f4a3aea48e544fac9e4edf24b5d07235
 - name: The Back Stretch
   db_uuid: 8e191d075f8b421eb6fbdfc63a2d1d4d
   srg_url: https://supershowthegame.com/product/the-back-stretch/

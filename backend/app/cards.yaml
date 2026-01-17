@@ -62939,6 +62939,7 @@
     - 3b7977fd175c49e98d6bd21be5cd529a
 - name: The Silver Marvel
   db_uuid: 8532ee54d4504d4196342d3fc7f0d0c1
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-silver-marvel/
   card_type: SingleCompetitorCard
   power: 6
   technique: 9
@@ -64286,12 +64287,12 @@
   grapple: 9
   rules_text: When you hit a card with "Leg" in the name, draw 2 cards then bury 1 card in your hand.
   tags: []
-  wants_keywords:
-    - Leg
   related_finishes:
     - 16889a9f3d454b62b5ccf1ffe0733b3d
     - df1807691e8f4345831b0b1eb96499c6
     - 24952622bc694ef6ba806a28884a2206
+  wants_keywords:
+    - Leg
 - name: Allegedly, Scottish Kung Fu
   db_uuid: 16889a9f3d454b62b5ccf1ffe0733b3d
   card_type: MainDeckCard
@@ -64734,6 +64735,54 @@
 
     When your opponent''s turn roll is 8, draw 1 card or your opponent buries 1 card in their hand.'
   tags: []
+  related_finishes:
+    - 215ad9fe8c9e418db8d0ecdd1a033f2c
+    - d7d0946483a2494fb55ed10ce423b719
+    - daa54d6f61eb42e0a2636b03975f4adb
+- name: Pride Punch 87
+  db_uuid: 215ad9fe8c9e418db8d0ecdd1a033f2c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Agility
+
+    When this card is in your discard pile:
+
+    If your opponent''s turn roll would be 9, you may bury this card and their turn roll is instead -1.'
+  tags: []
+  related_cards:
+    - 07f8e7d0b2d341a08c7fa0df4aae777b
+- name: Highlander Slam
+  db_uuid: d7d0946483a2494fb55ed10ce423b719
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Agility
+
+    If your opponent rolled 8 for their turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 07f8e7d0b2d341a08c7fa0df4aae777b
+- name: Retro Wave
+  db_uuid: daa54d6f61eb42e0a2636b03975f4adb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Strike
+
+    +2 to Submission
+
+    Flip 2 cards.  Shuffle 2 carsd from your discard pile into your deck.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 07f8e7d0b2d341a08c7fa0df4aae777b
 - name: TVA Commissioner Drew Madsen
   db_uuid: 191fdd8ac35641ba930ccdfcea5e94fd
   srgpc_url: https://www.srgpc.net/cards/competitors/tva-commissioner-drew-madsen/

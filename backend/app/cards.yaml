@@ -65290,6 +65290,54 @@
   grapple: 5
   rules_text: When you bump, your opponent discards 1 random card from their hand.
   tags: []
+  related_finishes:
+    - e953115e11d1449db08eec53c04059a5
+    - 4a40cf3524284956998c323cfd792201
+    - 904d13c27f2a4bfc993e94495a42ff3a
+- name: ETD
+  db_uuid: e953115e11d1449db08eec53c04059a5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Your opponent randomly discards 2 random cards from their hand.'
+  tags: []
+  related_cards:
+    - 6d08f346a2584887a329443b00b9f02f
+- name: Straight and Narrow
+  db_uuid: 4a40cf3524284956998c323cfd792201
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    When this card is in your discard pile and the Crowd Meter is 1 or greater, choose an opponent:
+
+    They do not draw when you bump.'
+  tags: []
+  related_cards:
+    - 6d08f346a2584887a329443b00b9f02f
+- name: The Motivator
+  db_uuid: 904d13c27f2a4bfc993e94495a42ff3a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    If you and another player bumped twice in a row on the previous turn rolls, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 6d08f346a2584887a329443b00b9f02f
 - name: The True Survivor
   db_uuid: 07f8e7d0b2d341a08c7fa0df4aae777b
   srgpc_url: https://www.srgpc.net/cards/competitors/the-true-survivor/

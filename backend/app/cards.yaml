@@ -26160,6 +26160,7 @@
     - a000e409a8cf4a9fa77d73bb9787ef3f
 - name: The Xecutioner (V1)
   db_uuid: bda15f5890984f34b63f0f32193ac0cc
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-xecutioner/
   card_type: SingleCompetitorCard
   division: Old School
   power: 9
@@ -26171,8 +26172,16 @@
   rules_text: After you flip 2 or more cards, bury 1 of the flipped cards or draw 2 cards and bury 1 card in your hand.
   tags:
     - Old School
+  related_finishes:
+    - 33081eaf7cdc4e96b2a3366631b75822
+    - 315dae6943f74b86b1f467989bdadc70
+    - cfdc72337b634b6f962a9e16ab34b7a8
+    - 0a15df24bc754e939dd601526a1cf9be
+    - f9e2c72e6e12426abb50b50486390448
+    - b9e806a3d02a42caa7968cd907f5cef4
 - name: The Xecutioner (V2)
   db_uuid: ebf4fa6ed095448b8fcbab78ea0423c9
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-xecutioner/
   card_type: SingleCompetitorCard
   division: Old School
   power: 9
@@ -26188,6 +26197,109 @@
     - Hang
     - Head
     - Rope
+  related_finishes:
+    - 33081eaf7cdc4e96b2a3366631b75822
+    - 315dae6943f74b86b1f467989bdadc70
+    - cfdc72337b634b6f962a9e16ab34b7a8
+    - 0a15df24bc754e939dd601526a1cf9be
+    - f9e2c72e6e12426abb50b50486390448
+    - b9e806a3d02a42caa7968cd907f5cef4
+- name: The Beheading
+  db_uuid: 33081eaf7cdc4e96b2a3366631b75822
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    If your opponent has 5 or fewer cards in hand, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
+- name: The Breaking Wheel
+  db_uuid: 315dae6943f74b86b1f467989bdadc70
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    Each time your opponent rolls for a Breakout roll, they discard 1 card from their hand for each card you have in play with "Break" in the name.'
+  tags: []
+  wants_keywords:
+    - Break
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
+- name: The Hangman's Rope
+  db_uuid: cfdc72337b634b6f962a9e16ab34b7a8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your Technique skill is +1 for each card you have in play with "Hang" in the name.
+
+    Your Submission skill is +1 for each card you have in play with "Head" in the name.
+
+    Your Grapple skill is +1 for each card you have in play with "Rope" in the name.'
+  tags: []
+  wants_keywords:
+    - Hang
+    - Head
+    - Rope
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
+- name: Guillotine Lariat
+  db_uuid: 0a15df24bc754e939dd601526a1cf9be
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +1 to Power
+
+    If this card is flipped you may add it to your hand.'
+  tags: []
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
+- name: Head in a Basket
+  db_uuid: f9e2c72e6e12426abb50b50486390448
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +2 to Technique
+
+    Take 5 cards from your discard pile and shuffle them into your deck, or add 2 Finish cards from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
+- name: The Hangman's Noose
+  db_uuid: b9e806a3d02a42caa7968cd907f5cef4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +4 to Submission
+
+    Each time your opponent rolls for a Breakout roll, take 3 cards from your discard pile and shuffle them into your deck, then flip 2 cards.'
+  tags: []
+  related_cards:
+    - bda15f5890984f34b63f0f32193ac0cc
+    - ebf4fa6ed095448b8fcbab78ea0423c9
 - name: Velvet Assassin (V1)
   db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
   srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/

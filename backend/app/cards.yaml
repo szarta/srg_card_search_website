@@ -65482,6 +65482,56 @@
   grapple: 5
   rules_text: When your opponent buries any number of cards in their hand, your next turn roll is +1.
   tags: []
+  related_finishes:
+    - df099958fb9943a5a5ad0bb413c324b6
+    - cb469e2ad1f44bfba5fefe32a539cb4a
+    - 919ada318eae42f7b2cded18af4eb7a6
+- name: Ready for Burial
+  db_uuid: df099958fb9943a5a5ad0bb413c324b6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    Your opponent buries 2 cards in their hand.
+
+    Add 1 card from your discard pile to your hand.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 6d522aa7ac7840d88a5790a5c7c7e5e0
+- name: Buried in Chaos
+  db_uuid: cb469e2ad1f44bfba5fefe32a539cb4a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    Your opponent buries 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 6d522aa7ac7840d88a5790a5c7c7e5e0
+- name: Blinded by Chaos
+  db_uuid: 919ada318eae42f7b2cded18af4eb7a6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple'
+  tags: []
+  related_cards:
+    - 6d522aa7ac7840d88a5790a5c7c7e5e0
 - name: Tytan
   db_uuid: 6868fc4520954fd4a3ca756d11b59d18
   srgpc_url: https://www.srgpc.net/competitor/tytan/

@@ -26302,6 +26302,7 @@
     - ebf4fa6ed095448b8fcbab78ea0423c9
 - name: Velvet Assassin (V1)
   db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
+  srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-old/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 9
@@ -26310,8 +26311,56 @@
   strike: 10
   submission: 7
   grapple: 5
-  rules_text: When you bump, choose 1 card your opponent has in play and discard it or bury 1 card in their discard pile
+  rules_text: When you bump, choose 1 card your opponent has in play and discard it or bury 1 card in their discard pile.
   tags: []
+  related_finishes:
+    - 6f70d0766ce042e1beaf3d66780dcae1
+    - 74fec106b92b4993819474e2d569998d
+    - 0f3d0097ada94feaa1d24121a19c5f67
+- name: Brutal Takeout
+  db_uuid: 6f70d0766ce042e1beaf3d66780dcae1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Submission
+
+    If stopped, discard all cards each player has in play.'
+  tags: []
+  related_cards:
+    - 7c1e4bdc6c3d41de95d16905e1daaf7c
+- name: 5 Star Back Breaker
+  db_uuid: 74fec106b92b4993819474e2d569998d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Grapple
+
+    When your opponent has 0 cards in play, +3 to Technique and +4 to Grapple instead.'
+  tags: []
+  related_cards:
+    - 7c1e4bdc6c3d41de95d16905e1daaf7c
+- name: The Great Figure 8
+  db_uuid: 0f3d0097ada94feaa1d24121a19c5f67
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile and your opponent rolls 8 for their turn roll, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 7c1e4bdc6c3d41de95d16905e1daaf7c
 - name: Velvet Assassin (V2)
   db_uuid: c652098659ee4aae959ed55e4842cc74
   srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/

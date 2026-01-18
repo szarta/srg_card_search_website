@@ -66064,6 +66064,50 @@
     - Run
     - Charge
     - Charging
+  related_finishes:
+    - fb1f07b41ba94d1c8bf434fd24631103
+    - 597a60a5834e44499eb312f0112e9605
+    - 3daefa02a4d04d32a997029a9e7c66c8
+- name: The Shining Spear
+  db_uuid: fb1f07b41ba94d1c8bf434fd24631103
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    If you have at least 2 cards with "Charge", "Charging", or "Run" in the name in play, your opponent gets 1 Breakout roll this turn.'
+  tags: []
+  wants_keywords:
+    - Run
+    - Charge
+    - Charging
+  related_cards:
+    - 834c8775accf428380910277cbe27413
+- name: Sonic Rainbow
+  db_uuid: 597a60a5834e44499eb312f0112e9605
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    If you have fewer cards in your hand than your opponent, your opponent randomly buries cards in their hand until you have the same number of cards in hand.'
+  tags: []
+  related_cards:
+    - 834c8775accf428380910277cbe27413
+- name: Stompie Stomp Hooves
+  db_uuid: 3daefa02a4d04d32a997029a9e7c66c8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Finish rolls are +1 for each other card you have in play with "Stomp" in the name.
+  tags: []
+  related_cards:
+    - 834c8775accf428380910277cbe27413
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   srgpc_url: https://www.srgpc.net/cards/competitors/unique/

@@ -81656,3 +81656,37 @@
   tags: []
   related_cards:
     - 09d3371999ae456eb35d7a9b5658958e
+- name: Genesis Chin Lock
+  db_uuid: 6c4411031f4c4fcf9deae56fb02615d7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
+  tags: []
+- name: Snap German Suplex
+  db_uuid: 3666d14c9c2f4cc990eb87a550472600
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
+  tags: []
+- name: Mancer Eye Gouge
+  db_uuid: edc295abe72346a5bfbb8d4cae323199
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
+  tags: []
+- name: Call Your Shot
+  db_uuid: 3a6101badfc0459dbbbfac47c981fcdf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'You may discard 1 card from your hand.
+
+    Copy the text of 1 card in your discard pile until the end of the turn.'
+  tags: []

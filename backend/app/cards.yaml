@@ -26302,7 +26302,6 @@
     - ebf4fa6ed095448b8fcbab78ea0423c9
 - name: Velvet Assassin (V1)
   db_uuid: 7c1e4bdc6c3d41de95d16905e1daaf7c
-  srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 9
@@ -26315,6 +26314,7 @@
   tags: []
 - name: Velvet Assassin (V2)
   db_uuid: c652098659ee4aae959ed55e4842cc74
+  srgpc_url: https://www.srgpc.net/cards/competitors/velvet-assassin-new/
   card_type: SingleCompetitorCard
   division: United States
   power: 8
@@ -26324,6 +26324,44 @@
   submission: 7
   grapple: 5
   rules_text: 'When you bump: Choose 1 card your opponent has in play and discard it, or your next turn roll is +1.'
+  tags: []
+  related_finishes:
+    - 47441c12fc774aa2bdbae8cf7d523cb6
+    - 6f134083776b40b393481f07834c5b1f
+    - 57dfea4b6043495b9ecad0cd894802d8
+- name: The Iron Fist
+  db_uuid: 47441c12fc774aa2bdbae8cf7d523cb6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    If stopped, and your opopnent has no Follow Ups in play, shuffle this card into your deck.'
+  tags: []
+- name: The Velvet Glove
+  db_uuid: 6f134083776b40b393481f07834c5b1f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Submission'
+  tags: []
+- name: The Velvet Dream
+  db_uuid: 57dfea4b6043495b9ecad0cd894802d8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If your opponent breaks out, you may put this card into play.
+
+    When you bump, discard this card from play.'
   tags: []
 - name: Dickie Finesse
   db_uuid: 1b4cca9a54f346c2af1ffc58ca1b5d0c

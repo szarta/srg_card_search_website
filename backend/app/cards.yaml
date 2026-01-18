@@ -66108,6 +66108,8 @@
   tags: []
   related_cards:
     - 834c8775accf428380910277cbe27413
+  wants_keywords:
+    - Stomp
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   srgpc_url: https://www.srgpc.net/cards/competitors/unique/

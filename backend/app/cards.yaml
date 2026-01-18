@@ -66082,6 +66082,7 @@
   tags: []
   related_cards:
     - 834c8775accf428380910277cbe27413
+    - c81420517af242c78e431d4daa0cd7ca
 - name: Unique
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   srgpc_url: https://www.srgpc.net/cards/competitors/unique/
@@ -71877,6 +71878,7 @@
     - 42f4864306d740f58efb4ea9fc35818f
     - 0907130733b24e94b8124000d36a84e2
     - 207f2b7ed58a4b92946205eb394e4f55
+    - 597a60a5834e44499eb312f0112e9605
   wants_keywords:
     - Cat
     - Scratch

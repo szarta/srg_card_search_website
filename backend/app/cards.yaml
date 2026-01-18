@@ -32251,12 +32251,12 @@
   grapple: 7
   rules_text: 'When you roll Agility for your turn roll: Your cards with "Flying" in the name cannot be stopped.'
   tags: []
-  wants_keywords:
-    - Flying
   related_finishes:
     - 5191031278f2423ea1c0f5baabdf5cea
     - 898429e8f2754fd7971d2a71a5faaaa5
     - 5afa5b1afea74cc99a619c8094ce9775
+  wants_keywords:
+    - Flying
 - name: Chaos Theory
   db_uuid: 5191031278f2423ea1c0f5baabdf5cea
   card_type: MainDeckCard
@@ -66881,6 +66881,42 @@
 
     When your Finish is stopped, your next turn roll is +3.'
   tags: []
+  related_finishes:
+    - 46b02edb1d844f229a4d96f47169d598
+    - 3df1415f20a44576b0b93ec2b778d55a
+    - 5044cc211c2b4de9a5279535ce1ca3cc
+- name: Kiyori
+  db_uuid: 46b02edb1d844f229a4d96f47169d598
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Each time your opponent rolls for a Breakout roll, draw 2 cards and your opponent discards 2 cards.
+  tags: []
+  related_cards:
+    - a35ca200648749e5be284b5904b94523
+- name: Rouse Hunger
+  db_uuid: 3df1415f20a44576b0b93ec2b778d55a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Choose Strike, Submission, or Grapple.  Reveal the top 5 cards of your deck, discard all cards of the chosen type and add the others to your hand.
+
+    Your Power is +2 for each card discarded until the end of the turn.'
+  tags: []
+  related_cards:
+    - a35ca200648749e5be284b5904b94523
+- name: The Heretic / The Crow
+  db_uuid: 5044cc211c2b4de9a5279535ce1ca3cc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If you have more Stops in play than your opponent, your Finish roll is +1 for each Stop you have in play greater than your opponent (Max +2).
+  tags: []
+  related_cards:
+    - a35ca200648749e5be284b5904b94523
 - name: Void (V1)
   db_uuid: 32bc1449683540558a8f0606922e3885
   srgpc_url: https://www.srgpc.net/cards/competitors/void-old/

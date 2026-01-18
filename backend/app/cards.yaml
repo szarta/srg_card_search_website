@@ -66933,6 +66933,56 @@
 
     BACK: Once per match, when you have 3 Void Finishes in your discard pile, and the Crowd Meter is 2 or greater, you may add 1 of those cards to your hand.'
   tags: []
+  related_finishes:
+    - f6b3a928a6fc499a9e25361ba136e5f4
+    - 20a66a64319e4c20ba683f675be1c89e
+    - 797fc19620554f35b98c72633a213bb1
+- name: Void Stomp
+  db_uuid: f6b3a928a6fc499a9e25361ba136e5f4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand, choose 2 cards.
+
+    Discard one of those cards, and bury the other.'
+  tags: []
+  related_cards:
+    - 32bc1449683540558a8f0606922e3885
+- name: Void Cutter
+  db_uuid: 20a66a64319e4c20ba683f675be1c89e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    Your opponent randomly buries their hand, and draws the same number of cards -2.'
+  tags: []
+  related_cards:
+    - 32bc1449683540558a8f0606922e3885
+- name: Into the Void
+  db_uuid: 797fc19620554f35b98c72633a213bb1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +3 to Submission
+
+    Your opponent gets 1 fewer Breakout roll this turn for each Void (V1) card you have in your discard pile.'
+  tags: []
+  related_cards:
+    - 32bc1449683540558a8f0606922e3885
 - name: Void (V2)
   db_uuid: 30112e84fc814802a4d4ec817e143e69
   srgpc_url: https://www.srgpc.net/cards/competitors/void-new/
@@ -66949,6 +66999,54 @@
 
     BACK: When your opponent stops a Strike, Submission, or Grapple, their skill of that type is -3 during the next turn roll.'
   tags: []
+  related_finishes:
+    - f69ebf12bedc49f1917452977dc64656
+    - 4d93d8d9982540e892b167c4158a489b
+    - de16d8363cb54af594b6af506152d20f
+- name: The Deadly Voidarm
+  db_uuid: f69ebf12bedc49f1917452977dc64656
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    If your opponent''s first Breakout roll is 10, it is -5.
+
+    When this card is put into your discard pile, unblank your Gimmick.'
+  tags: []
+  related_cards:
+    - 30112e84fc814802a4d4ec817e143e69
+- name: Void Slam
+  db_uuid: 4d93d8d9982540e892b167c4158a489b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    When your opponent rolls for a Breakout roll, they randomly bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 30112e84fc814802a4d4ec817e143e69
+- name: Void Deathlock
+  db_uuid: de16d8363cb54af594b6af506152d20f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    If stopped, you may randomly play a Void (V2) Finish card from your discard pile as if it were a Lead.'
+  tags: []
+  related_cards:
+    - 30112e84fc814802a4d4ec817e143e69
 - name: Wait for It Chopper
   db_uuid: ebc3e1b4fbf942f5b11c1d60f57185e5
   srgpc_url: https://www.srgpc.net/cards/competitors/wait-for-it-chopper/

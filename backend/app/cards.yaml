@@ -21771,7 +21771,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 25
-  rules_text: 'Loko at your opponent''s hand, choose 1 card and bury it.
+  rules_text: 'Look at your opponent''s hand, choose 1 card and bury it.
 
     Your next turn roll is +1.'
   tags:
@@ -32253,6 +32253,52 @@
   tags: []
   wants_keywords:
     - Flying
+  related_finishes:
+    - 5191031278f2423ea1c0f5baabdf5cea
+    - 898429e8f2754fd7971d2a71a5faaaa5
+    - 5afa5b1afea74cc99a619c8094ce9775
+- name: Chaos Theory
+  db_uuid: 5191031278f2423ea1c0f5baabdf5cea
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Strike
+
+    Randomly bury any number of cards in your hand, your opponent buries twice the number of cards from their hand.  Draw 1 card.'
+  tags: []
+  related_cards:
+    - 77fe6f7ba5eb4399bcbbe80d9d889767
+- name: The Butterfly Effect
+  db_uuid: 898429e8f2754fd7971d2a71a5faaaa5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    If stopped, you may randomly bury 1 card in your hand then put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - 77fe6f7ba5eb4399bcbbe80d9d889767
+- name: Ripple in Time
+  db_uuid: 5afa5b1afea74cc99a619c8094ce9775
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Submission
+
+    If stopped, look at the top 4 cards of your deck and add 1 to your hand, randomly bury the others.'
+  tags: []
+  related_cards:
+    - 77fe6f7ba5eb4399bcbbe80d9d889767
 - name: Rob Graves
   db_uuid: 0249f279219841f193bbe597ef7a3c02
   srgpc_url: https://www.srgpc.net/cards/competitors/rob-graves/
@@ -66057,7 +66103,7 @@
 
     Your next turn roll is +2.
 
-    Loko at your opponent''s hand, choose 1 Stop and discard it.'
+    Look at your opponent''s hand, choose 1 Stop and discard it.'
   tags: []
   related_cards:
     - ffd691775c394d1da1bf0fbd218453d9

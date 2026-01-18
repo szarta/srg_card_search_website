@@ -31313,6 +31313,52 @@
   grapple: 8
   rules_text: When your opponent stops your Follow Up or Finish, choose 1 card they have in play and discard it.
   tags: []
+  related_finishes:
+    - e05531e62afd49cf9159e375253cf9fb
+    - c2e76da1e1c9457f9931e48dd665139f
+    - 164fecf83341458fac69fb64773fde7f
+- name: Pure Massacre
+  db_uuid: e05531e62afd49cf9159e375253cf9fb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    If stopped, your opponent discards all cards they have in play.'
+  tags: []
+  related_cards:
+    - 5097d05f3632489d910adf649a49738c
+- name: Avenging Blade
+  db_uuid: c2e76da1e1c9457f9931e48dd665139f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Draw 1 card for each card your opponent has in play.'
+  tags: []
+  related_cards:
+    - 5097d05f3632489d910adf649a49738c
+- name: Absence of Light
+  db_uuid: 164fecf83341458fac69fb64773fde7f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +1 to Submission
+
+    Your opponent buries cards in their hand equal to the number of Finish cards in both players discards piles +1.'
+  tags: []
+  related_cards:
+    - 5097d05f3632489d910adf649a49738c
 - name: The Salty Sailor
   db_uuid: afec53cb2d714571bc02e2b8fb06ffd8
   srgpc_url: https://www.srgpc.net/cards/competitors/the-salty-sailor/
@@ -66059,15 +66105,15 @@
   grapple: 8
   rules_text: When you hit a card with "Stomp", "Run", "Charge", or "Charging" in the name, your opponent's next turn roll is -1.
   tags: []
+  related_finishes:
+    - 42f4864306d740f58efb4ea9fc35818f
+    - 597a60a5834e44499eb312f0112e9605
+    - 207f2b7ed58a4b92946205eb394e4f55
   wants_keywords:
     - Stomp
     - Run
     - Charge
     - Charging
-  related_finishes:
-    - 42f4864306d740f58efb4ea9fc35818f
-    - 597a60a5834e44499eb312f0112e9605
-    - 207f2b7ed58a4b92946205eb394e4f55
 - name: Sonic Rainbow
   db_uuid: 597a60a5834e44499eb312f0112e9605
   card_type: MainDeckCard

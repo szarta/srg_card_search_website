@@ -81690,3 +81690,63 @@
 
     Copy the text of 1 card in your discard pile until the end of the turn.'
   tags: []
+- name: Nic Nemeth
+  db_uuid: 192be5ede94a4727b1865fcdd845743f
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 6
+  technique: 10
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'Once per turn roll:
+
+    When you and your target roll the same skill, you may discard 1 card from your hand to draw 2 cards.'
+  tags: []
+  related_finishes:
+    - 5dd5cc865944457bb529df5cae87ea47
+    - 4627f6cad7e44f299024b7969c670969
+    - 381a6cd0b59d4d0ca50498db470d4058
+- name: The Superkick
+  db_uuid: 5dd5cc865944457bb529df5cae87ea47
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    Once per match:  You may play this card as if it were also a Follow Up.'
+  tags: []
+  related_cards:
+    - 192be5ede94a4727b1865fcdd845743f
+- name: Danger Zone
+  db_uuid: 4627f6cad7e44f299024b7969c670969
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    +3 to Submission
+
+    If you and your opponent rolled the same skill for your turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 192be5ede94a4727b1865fcdd845743f
+- name: The Sleeper
+  db_uuid: 381a6cd0b59d4d0ca50498db470d4058
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    If you rolled the same skill as your opponent for your turn roll, +1 to Grapple and +5 to Submission.'
+  tags: []
+  related_cards:
+    - 192be5ede94a4727b1865fcdd845743f

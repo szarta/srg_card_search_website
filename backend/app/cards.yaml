@@ -65614,6 +65614,50 @@
 
     BACK: Once per turn, when you hit a Ultimate Grump Finish, you may re-roll your Finish roll.'
   tags: []
+  related_finishes:
+    - 81784000fff3439a8c3c9c334e8b77fe
+    - d46f71a83c714b0eb5ac89e68efeabd9
+    - 9c771faecc114519a83916f68df01c28
+- name: The Ultimate Final Flash Splash
+  db_uuid: 81784000fff3439a8c3c9c334e8b77fe
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to all your skills.
+
+    If stopped, your opponent may bury 2 cards in their hand.  If they do not, bury this card.'
+  tags: []
+  related_cards:
+    - 26cdda7245744396ae988697babdef2f
+- name: Spirit Bomb Press to the Heavens
+  db_uuid: d46f71a83c714b0eb5ac89e68efeabd9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Grapple
+
+    When this card is in your discard pile: After you break out, you may put this card on top of your deck.'
+  tags: []
+  related_cards:
+    - 26cdda7245744396ae988697babdef2f
+- name: Over 9000 Haunt Haunt Haunts
+  db_uuid: 9c771faecc114519a83916f68df01c28
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +2 to Grapple
+
+    If your Finish roll is 9 or greater, your opponent buries 3 cards in their hand.'
+  tags: []
+  related_cards:
+    - 26cdda7245744396ae988697babdef2f
 - name: The Ultimate Phighter
   db_uuid: 30a3349b5bfa4d608ac989f90a253dc5
   srgpc_url: https://www.srgpc.net/cards/competitors/the-ultimate-phighter/

@@ -65876,6 +65876,58 @@
   grapple: 8
   rules_text: When your opponent buries any number of cards in their discard pile, you may bury 1 card in your discard pile.
   tags: []
+  related_finishes:
+    - 6a699b644b234cb2adf102bb4ad60056
+    - be32df00678a4b4889f2d522d7dcd37d
+    - 48cc9654a9c74d01943f0cb1eb0d7d67
+- name: Well, Ackchyually...
+  db_uuid: 6a699b644b234cb2adf102bb4ad60056
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Stop "Rejected" or "Seven Seals".
+
+    Your opponent randomly buries their discard pile.'
+  tags: []
+  related_cards:
+    - ffd691775c394d1da1bf0fbd218453d9
+- name: American Canadian Destroyer
+  db_uuid: be32df00678a4b4889f2d522d7dcd37d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Grapple
+
+    Cannot be stopped by "Al13n Invasion".
+
+    When this card is buried for your Gimmick, draw 1 card or choose 1 Stop your opponent has in play and discard it.'
+  tags: []
+  related_cards:
+    - ffd691775c394d1da1bf0fbd218453d9
+- name: Troll Nelson
+  db_uuid: 48cc9654a9c74d01943f0cb1eb0d7d67
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Submission
+
+    Your next turn roll is +2.
+
+    Loko at your opponent''s hand, choose 1 Stop and discard it.'
+  tags: []
+  related_cards:
+    - ffd691775c394d1da1bf0fbd218453d9
 - name: The Uncaged Beast
   db_uuid: 0beebc490ed0447f9a1323c470f94454
   srg_url: https://supershowthegame.com/product/uncaged-beast/

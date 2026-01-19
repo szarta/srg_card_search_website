@@ -32127,6 +32127,50 @@
   grapple: 5
   rules_text: When you roll Strike for your turn roll, draw 1 card.
   tags: []
+  related_finishes:
+    - f52c5a000f504ddab36b38aa59ca8c2e
+    - 4cf7e48d41404b48b5200ed1fc2d2bec
+    - 190a00d6c01a4dd59d12a95060b9b6e2
+- name: Whip-a-Roo
+  db_uuid: f52c5a000f504ddab36b38aa59ca8c2e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    If stopped, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 166ea57a5a424cf7a39a182734f15632
+- name: Whiplash
+  db_uuid: 4cf7e48d41404b48b5200ed1fc2d2bec
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +4 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 166ea57a5a424cf7a39a182734f15632
+- name: Whipper-Snapper
+  db_uuid: 190a00d6c01a4dd59d12a95060b9b6e2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    +2 to Submission
+
+    Your opponent discards 1 random card from their hand.'
+  tags: []
+  related_cards:
+    - 166ea57a5a424cf7a39a182734f15632
 - name: Rainbow Girl (V2)
   db_uuid: 9abc29f439ee4b68a288d6c24555ceb0
   srgpc_url: https://www.srgpc.net/competitor/rainbow-girl-v2/

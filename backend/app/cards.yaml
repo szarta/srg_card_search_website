@@ -55096,9 +55096,13 @@
   rules_text: Your opponent's 1st turn roll is -3, their 2nd turn roll is -2, and their 3rd turn roll is -1.
   tags: []
   related_finishes:
+    - 1c2bac5be4f142ccb153902d4518f5fe
+    - 984c0dd4b3ea436d97e3c86e71b1a03e
+    - 9a371227a92a4bd99d3bae5582b01461
     - d384c42aa9e24b669292ed2034ebd1ea
     - de2645bac75943c0a44e00661bbb7203
     - eefa2035d974414188ead1db0e51ad9d
+    - a470ad71edc6470e9b90d0c97449dd8f
 - name: The Cremation
   db_uuid: d384c42aa9e24b669292ed2034ebd1ea
   card_type: MainDeckCard
@@ -55112,8 +55116,9 @@
     When this card is in your discard pile, cards in your opponent''s discard pile have blank text.'
   tags: []
   related_cards:
+    - 94098185bbab40a193461c89ab56ddce
     - cfc8e0da7777443d9f5530324b665a90
-- name: The Kiss of Death
+- name: The Kiss of Death (V1)
   db_uuid: de2645bac75943c0a44e00661bbb7203
   card_type: MainDeckCard
   atk_type: Grapple
@@ -55128,6 +55133,24 @@
     Bury 3 cards in your opponent''s discard pile.'
   tags: []
   related_cards:
+    - 94098185bbab40a193461c89ab56ddce
+    - cfc8e0da7777443d9f5530324b665a90
+- name: The Kiss of Death (V2)
+  db_uuid: a470ad71edc6470e9b90d0c97449dd8f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Your opponent flips 6 cards.
+
+    Choose 6 cards in your opponent''s discard pile and randomly bury them.'
+  tags: []
+  related_cards:
+    - 94098185bbab40a193461c89ab56ddce
     - cfc8e0da7777443d9f5530324b665a90
 - name: The Last Breath (The Mortician)
   db_uuid: eefa2035d974414188ead1db0e51ad9d
@@ -55140,6 +55163,7 @@
     Look at your opponent''s hand, choose 2 cards and shuffle them into their deck.'
   tags: []
   related_cards:
+    - 94098185bbab40a193461c89ab56ddce
     - cfc8e0da7777443d9f5530324b665a90
 - name: The Mortician (V2)
   db_uuid: 94098185bbab40a193461c89ab56ddce
@@ -55154,6 +55178,61 @@
   grapple: 9
   rules_text: When your opponent stops a card, they flip 1 card, then you bury 1 card in their discard pile.
   tags: []
+  related_finishes:
+    - 1c2bac5be4f142ccb153902d4518f5fe
+    - 984c0dd4b3ea436d97e3c86e71b1a03e
+    - 9a371227a92a4bd99d3bae5582b01461
+    - d384c42aa9e24b669292ed2034ebd1ea
+    - de2645bac75943c0a44e00661bbb7203
+    - eefa2035d974414188ead1db0e51ad9d
+    - a470ad71edc6470e9b90d0c97449dd8f
+- name: Death's Doorstep
+  db_uuid: 1c2bac5be4f142ccb153902d4518f5fe
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +3 to Strike
+
+    The next turn is considered the first turn of the game.'
+  tags: []
+  related_cards:
+    - 94098185bbab40a193461c89ab56ddce
+    - cfc8e0da7777443d9f5530324b665a90
+- name: The Autopsy
+  db_uuid: 984c0dd4b3ea436d97e3c86e71b1a03e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Agility
+
+    Search your opponent''s hand or deck for 1 card and discard it.'
+  tags: []
+  related_cards:
+    - 94098185bbab40a193461c89ab56ddce
+    - cfc8e0da7777443d9f5530324b665a90
+- name: The Embalmment
+  db_uuid: 9a371227a92a4bd99d3bae5582b01461
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    Your opponent discards 1 card from their hand for each blank card in their discard pile (Max 6).
+
+    If this is the 1st turn of the game, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 94098185bbab40a193461c89ab56ddce
+    - cfc8e0da7777443d9f5530324b665a90
 - name: Jurassic Juggernaut
   db_uuid: 6956220082814555af99c5fe19c96635
   srgpc_url: https://www.srgpc.net/competitor/jurassic-juggernaut/
@@ -67969,8 +68048,6 @@
 
     Draw 1, bury 1 and flip the other.'
   tags: []
-  wants_keywords:
-    - Knee
   related_finishes:
     - 4a0a8f7c93014eb7a46f599127f84460
     - 77262c21426b4e24a698a5a78fe4bad6
@@ -67978,6 +68055,8 @@
     - 6460b099bc21461f950851b77b8547b9
     - 96ded31781e44ad186d2d035217e66e1
     - 61a28d62b29744d5b8311511c8239d03
+  wants_keywords:
+    - Knee
 - name: YamatoHama
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   srgpc_url: https://www.srgpc.net/cards/competitors/yamatohama/

@@ -26966,6 +26966,8 @@
   grapple: 6
   rules_text: 'Your cards with "Beat" or "Stick" in the name have the added text: "Your opponent buries 1 card in their hand and your next turn roll is +1".'
   tags: []
+  related_cards:
+    - 180073d7502e46bd957a7379a99afe54
   related_finishes:
     - 832a4a4fc86a438292b6c8f78a8c89ab
     - 4a6e1eba250441ebbfad39a0dd28a922
@@ -26989,6 +26991,7 @@
   tags: []
   related_cards:
     - 98eb1b96fced4564a2792083660d3709
+    - 180073d7502e46bd957a7379a99afe54
 - name: The 50/50
   db_uuid: 4a6e1eba250441ebbfad39a0dd28a922
   card_type: MainDeckCard
@@ -27007,6 +27010,7 @@
   tags: []
   related_cards:
     - 98eb1b96fced4564a2792083660d3709
+    - 180073d7502e46bd957a7379a99afe54
 - name: You Won't Beat Me!
   db_uuid: cd64f01e7ff547c4853df37c39058a19
   card_type: MainDeckCard
@@ -27021,6 +27025,7 @@
   tags: []
   related_cards:
     - 98eb1b96fced4564a2792083660d3709
+    - 180073d7502e46bd957a7379a99afe54
 - name: Belinda
   db_uuid: e38223a08984404b83bd34e9a7f17025
   srgpc_url: https://www.srgpc.net/cards/competitors/belinda/
@@ -27035,6 +27040,8 @@
   grapple: 7
   rules_text: When you stop a card, your opponent's next turn roll is -1.
   tags: []
+  related_cards:
+    - 1aec57ec927945748d95c7c874392841
   related_finishes:
     - 484d54ca733146ef821f12bb50171520
     - 458c3366e6d046e69c6b7f17147c82cc
@@ -27051,6 +27058,7 @@
   tags: []
   related_cards:
     - e38223a08984404b83bd34e9a7f17025
+    - 1aec57ec927945748d95c7c874392841
 - name: Hell on High Heels
   db_uuid: 458c3366e6d046e69c6b7f17147c82cc
   card_type: MainDeckCard
@@ -27065,6 +27073,7 @@
   tags: []
   related_cards:
     - e38223a08984404b83bd34e9a7f17025
+    - 1aec57ec927945748d95c7c874392841
 - name: Enter Sandman
   db_uuid: c5611af6ebe345b5893d42642001c099
   card_type: MainDeckCard
@@ -27081,6 +27090,7 @@
   tags: []
   related_cards:
     - e38223a08984404b83bd34e9a7f17025
+    - 1aec57ec927945748d95c7c874392841
 - name: Beverly Hills Booker
   db_uuid: 85616c84da2a41b7b65448a08eb7a4ed
   srgpc_url: https://www.srgpc.net/competitors/beverly-hills-booker/
@@ -31732,6 +31742,8 @@
   grapple: 7
   rules_text: When you hit a Grapple, flip cards until you flip a Submission, add that Submission to your hand.
   tags: []
+  related_cards:
+    - 180073d7502e46bd957a7379a99afe54
   related_finishes:
     - 9d37e294086d4d31b6f98088a019f509
     - 7dd0bd38be854d79ae80cb716015397d
@@ -31748,6 +31760,7 @@
   tags: []
   related_cards:
     - bf2ee4518b64409cac022a79d7412d54
+    - 180073d7502e46bd957a7379a99afe54
 - name: Loading 16%
   db_uuid: 7dd0bd38be854d79ae80cb716015397d
   card_type: MainDeckCard
@@ -31762,6 +31775,7 @@
   tags: []
   related_cards:
     - bf2ee4518b64409cac022a79d7412d54
+    - 180073d7502e46bd957a7379a99afe54
 - name: Yes, Daddy!
   db_uuid: dfaf23a29b3b4728abe32400dc3ac94e
   card_type: MainDeckCard
@@ -31776,6 +31790,7 @@
   tags: []
   related_cards:
     - bf2ee4518b64409cac022a79d7412d54
+    - 180073d7502e46bd957a7379a99afe54
 - name: Leader of the Armenian Army
   db_uuid: 5a74b42a67f04dc49ab389fa85990732
   srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-armenian-army/
@@ -69808,6 +69823,16 @@
   grapple: 12
   rules_text: After you flip any number of cards, add 1 card with "Kendo Stick" from your discard pile to your hand, and your opponent randomly buries 1 card in their hand.
   tags: []
+  related_cards:
+    - bf2ee4518b64409cac022a79d7412d54
+    - 98eb1b96fced4564a2792083660d3709
+  related_finishes:
+    - 832a4a4fc86a438292b6c8f78a8c89ab
+    - 4a6e1eba250441ebbfad39a0dd28a922
+    - cd64f01e7ff547c4853df37c39058a19
+    - 9d37e294086d4d31b6f98088a019f509
+    - 7dd0bd38be854d79ae80cb716015397d
+    - dfaf23a29b3b4728abe32400dc3ac94e
 - name: Belinda & Nemesis
   db_uuid: 1aec57ec927945748d95c7c874392841
   srg_url: https://supershowthegame.com/product/belinda-and-nemesis/
@@ -69823,6 +69848,57 @@
 
     When you stop a card with a Follow Up, your next turn roll is +1.'
   tags: []
+  related_cards:
+    - e38223a08984404b83bd34e9a7f17025
+  related_finishes:
+    - 484d54ca733146ef821f12bb50171520
+    - 458c3366e6d046e69c6b7f17147c82cc
+    - c5611af6ebe345b5893d42642001c099
+    - 862409790ea743cf8831d20a0c808d8e
+    - ba3d3325d7b849f7bd656d4eceb56869
+    - 7005008ad7944d178a75579baadfa038
+- name: Flight of Angels & Procyons
+  db_uuid: 862409790ea743cf8831d20a0c808d8e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+8 to Strike
+
+    When this card is in your discard pile and your opponent stops your card, your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 1aec57ec927945748d95c7c874392841
+- name: Hell on High Heels and Trash Can Meals
+  db_uuid: ba3d3325d7b849f7bd656d4eceb56869
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Technique
+
+    +1 to Agility
+
+    +4 to Grapple
+
+    Each time your opponent rolls for a Breakout roll, they randomly bury 1 card in their hand.'
+  tags: []
+  related_cards:
+    - 1aec57ec927945748d95c7c874392841
+- name: Enter Trash Can Man
+  db_uuid: 7005008ad7944d178a75579baadfa038
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +4 to Technique
+
+    Look at your opponent''s hand, choose 1 Follow Up and Finish and bury them.'
+  tags: []
+  related_cards:
+    - 1aec57ec927945748d95c7c874392841
 - name: Big Ballerz
   db_uuid: c939efe58c554a1f90457e25df23c36e
   srg_url: https://supershowthegame.com/product/big-baallerz/

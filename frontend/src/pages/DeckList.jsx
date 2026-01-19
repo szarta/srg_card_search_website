@@ -20,7 +20,7 @@ const articles = [
   { slug: "riggs-simmons",          title: "Riggs Simmons (V1)"},
   { slug: "ken-broadway",           title: "Ken Broadway"},
   { slug: "jurassic-juggernaut",    title: "Jurassic Juggernaut"},
-  { slug: "numer01"                 title: "Numer01"},
+  { slug: "numer01",                title: "Numer01"},
 ];
 
 export default function DeckList() {

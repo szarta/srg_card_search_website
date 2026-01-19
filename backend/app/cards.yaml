@@ -68390,6 +68390,7 @@
     - Arm
 - name: Zero Win Champion
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
+  srgpc_url: https://www.srgpc.net/competitors/zero-win-champion/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Male
@@ -68578,6 +68579,7 @@
     - 64468c0e28f249d6b26708f00570c064
 - name: Zonda
   db_uuid: c3fe9806c9c14f4f844a8c904c2969ab
+  srgpc_url: https://www.srgpc.net/cards/competitors/zonda/
   card_type: SingleCompetitorCard
   division: Intergalactic
   gender: Ambiguous
@@ -68589,6 +68591,54 @@
   grapple: 8
   rules_text: 'Once per turn roll: When your opponent rolls Grapple, you may force them to re-roll.'
   tags: []
+  related_finishes:
+    - e2b430f7b66f495e930e51e3b560fa70
+    - fa84d51397c44f62aebd72d001596fc6
+    - f1debd813d454201a25c188aa2eaeeec
+- name: Magnetosonic Wave
+  db_uuid: e2b430f7b66f495e930e51e3b560fa70
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +1 to your skills.'
+  tags: []
+  related_cards:
+    - c3fe9806c9c14f4f844a8c904c2969ab
+- name: Typhoon Tip
+  db_uuid: fa84d51397c44f62aebd72d001596fc6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    +1 to Submission
+
+    Draw 1 card.
+
+    If your Grapple skill is greater than your opponent''s Grapple skill, triple these bonuses.'
+  tags: []
+  related_cards:
+    - c3fe9806c9c14f4f844a8c904c2969ab
+- name: Climate Crisis
+  db_uuid: f1debd813d454201a25c188aa2eaeeec
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Strike
+
+    +2 to Submission
+
+    When this card is in your discard pile and your opponent re-rolls their turn roll, their roll is -1.'
+  tags: []
+  related_cards:
+    - c3fe9806c9c14f4f844a8c904c2969ab
 - name: The Zookeeper
   db_uuid: 008a69befa074a0f99556e773fdc4315
   card_type: SingleCompetitorCard

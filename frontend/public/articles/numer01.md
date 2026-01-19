@@ -35,7 +35,7 @@ Knee Lift
 Sweeping Takedown
 Leg Trap
 Kick Into the Corner
-Arm Breaker
+Rib Breaker
 Crossarm Chickenwing (Technique)
 Shoulder Block
 Slingshot Suplex

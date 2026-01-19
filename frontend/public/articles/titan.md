@@ -34,7 +34,7 @@ Armbar
 Jump Kick
 Scoop Slam
 Rolling Headlock
-Back Kick
+Back Kick (V1)
 Sweeping Takedown
 Leg Trap
 Running Lariat
@@ -46,9 +46,9 @@ Sleeper Hold
 Elbow Strikes
 Press Slam (Power)
 Leg Lock
-Flying Knee Strike
+Flying Knee Strike (V2)
 Set Up the Table
 Nerve Hold
-Superkick
+Dropkick
 Fallaway Slam
 Double Armbar

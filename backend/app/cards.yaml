@@ -67845,6 +67845,7 @@
     - e2f4f5e7315442059b7057b0333e0e23
 - name: xROYCE (V1)
   db_uuid: 8ce90a57c8a3456c87e0407099515e87
+  srgpc_url: https://www.srgpc.net/cards/competitors/xroyce/
   card_type: SingleCompetitorCard
   division: Hardcore
   gender: Male
@@ -67858,8 +67859,104 @@
 
     If your turn roll is at least 3 less than your opponent''s, look at the top 3 cards of your deck, draw 1 of those cards, bury 1 and flip the other.'
   tags: []
+  related_finishes:
+    - 4a0a8f7c93014eb7a46f599127f84460
+    - 77262c21426b4e24a698a5a78fe4bad6
+    - fe82df5996e74bb4b1cecb779522f12a
+    - 6460b099bc21461f950851b77b8547b9
+    - 96ded31781e44ad186d2d035217e66e1
+    - 61a28d62b29744d5b8311511c8239d03
+- name: Vicious Running Knee
+  db_uuid: 4a0a8f7c93014eb7a46f599127f84460
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Strike
+
+    If your turn roll was at least 3 less than your opponent''s, stop any Finish Grapple.'
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
+- name: It's Clobbering Time
+  db_uuid: 77262c21426b4e24a698a5a78fe4bad6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +4 to Strike
+
+    If this card is stopped, your opponent''s next turn roll is +3.'
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
+- name: Dark Souls
+  db_uuid: fe82df5996e74bb4b1cecb779522f12a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    When the Crowd Meter is 2 or greater and your broke out last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
+- name: Hardcore Running Knee
+  db_uuid: 6460b099bc21461f950851b77b8547b9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: ''
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
+- name: X-Drop
+  db_uuid: 96ded31781e44ad186d2d035217e66e1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Grapple
+
+    Look at the top 4 cards of your deck.  Add 1 to your hand and randomly bury the others.'
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
+- name: X-Shooter
+  db_uuid: 61a28d62b29744d5b8311511c8239d03
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 1d95016390584633a75af97a73f0e46e
+    - 8ce90a57c8a3456c87e0407099515e87
 - name: xROYCE (V2)
   db_uuid: 1d95016390584633a75af97a73f0e46e
+  srgpc_url: https://www.srgpc.net/competitors/xroyce-v2/
   card_type: SingleCompetitorCard
   division: Hardcore
   power: 7
@@ -67874,6 +67971,13 @@
   tags: []
   wants_keywords:
     - Knee
+  related_finishes:
+    - 4a0a8f7c93014eb7a46f599127f84460
+    - 77262c21426b4e24a698a5a78fe4bad6
+    - fe82df5996e74bb4b1cecb779522f12a
+    - 6460b099bc21461f950851b77b8547b9
+    - 96ded31781e44ad186d2d035217e66e1
+    - 61a28d62b29744d5b8311511c8239d03
 - name: YamatoHama
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   srgpc_url: https://www.srgpc.net/cards/competitors/yamatohama/

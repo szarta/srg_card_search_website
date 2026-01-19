@@ -13681,7 +13681,7 @@
 
     Skill Requirement: Submission 8+'
   tags: []
-- name: Crossarm Chickenwing (Agility)
+- name: Crossarm Chickenwing (Technique)
   db_uuid: c583520d1c4e4faf91ac3407095f2727
   srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing/
   card_type: MainDeckCard
@@ -13692,7 +13692,7 @@
 
     +2 to your next turn roll.
 
-    Skill Requirement: Agility 8+'
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Double Arm Lock
   db_uuid: 070685fedcd5456b9423f37f6b5a9e68

@@ -25714,6 +25714,7 @@
     - f8a15098e9e04c5e948f78558974f233
 - name: Chicken Riders
   db_uuid: 9230f2acae874c1ab7ec4d4be053a85c
+  srgpc_url: https://www.srgpc.net/competitor/chicken-riders/
   card_type: TornadoCompetitorCard
   power: 10
   technique: 12
@@ -32530,6 +32531,7 @@
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
     - 9acd6c2f43f649aea388f5fa72c04570
+    - e11f25b8d9f941d4b12898e591c4a0d1
   wants_keywords:
     - Dog
     - Breaker
@@ -32547,6 +32549,7 @@
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
     - 9acd6c2f43f649aea388f5fa72c04570
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: The Mouse Trap
   db_uuid: 3eea2cc1919b4701a6f7ee90498b1544
   card_type: MainDeckCard
@@ -32564,6 +32567,7 @@
   related_cards:
     - 0fc731c613e04c7481649b43cf72d7ae
     - 9acd6c2f43f649aea388f5fa72c04570
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: Damien
   db_uuid: 03bfb9ac23074c849c4060a007636218
   srg_url: https://supershowthegame.com/product/damien/
@@ -37890,6 +37894,9 @@
 
     During your turn, when this card is in your discard pile and your Agility is 11 or greater, you may shuffle it into your deck.'
   tags: []
+  related_cards:
+    - 8e7340565e01403d99eb2026d2d49765
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: Burning Savannah
   db_uuid: b90f24cc0eb34610a6b78bf653a922e5
   card_type: MainDeckCard
@@ -37902,6 +37909,9 @@
 
     Or if this is the first turn of the game, this card is also a Lead. If stopped, draw 3 cards.'
   tags: []
+  related_cards:
+    - 8e7340565e01403d99eb2026d2d49765
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: Maul and Mangle
   db_uuid: 1dd44fcb5df141a8bf5a30c78207e87d
   card_type: MainDeckCard
@@ -37914,6 +37924,9 @@
 
     If your opponent''s Agility is 9 or less, +3 to Power and +3 to Submission instead.'
   tags: []
+  related_cards:
+    - 8e7340565e01403d99eb2026d2d49765
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: Cherie Von Danish
   db_uuid: ee000b1dc146472c8ad39a71ad5616ae
   srg_url: https://supershowthegame.com/product/cherry-von-danish/
@@ -69422,6 +69435,65 @@
 
     Add 1 Strike from your discard pile to your hand and your next turn roll is +2.'
   tags: []
+  related_cards:
+    - 8e7340565e01403d99eb2026d2d49765
+    - 0fc731c613e04c7481649b43cf72d7ae
+  related_finishes:
+    - 966629d870a045f4890de383d8b27957
+    - b90f24cc0eb34610a6b78bf653a922e5
+    - 1dd44fcb5df141a8bf5a30c78207e87d
+    - daf08f3b564f446bb9e3d80b58971b2e
+    - ddbe2d6099b34ca981a6cc4b17673da9
+    - 3eea2cc1919b4701a6f7ee90498b1544
+    - fa4ae9636ebc4b5c99158ef7593c66cd
+    - 56b94d4195da446e8304c2fc7d4ccefb
+    - a6d166bac7eb45efbacf2c0ed6bf4dc8
+- name: Cat Tower
+  db_uuid: fa4ae9636ebc4b5c99158ef7593c66cd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+5 to Power
+
+    +2 to Strike
+
+    If your opponent breaks out, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - e11f25b8d9f941d4b12898e591c4a0d1
+- name: Cat-a-Pult
+  db_uuid: 56b94d4195da446e8304c2fc7d4ccefb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+6 to Power
+
+    +1 to Strike
+
+    When this card is in your discard pile and you roll Agility for your turn roll, your turn roll is +1.'
+  tags: []
+  related_cards:
+    - e11f25b8d9f941d4b12898e591c4a0d1
+- name: Biiiiig Stretch
+  db_uuid: a6d166bac7eb45efbacf2c0ed6bf4dc8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +2 to Technique
+
+    +2 to Agility
+
+    +2 to Submission
+
+    Your opponent''s Agility is -1.'
+  tags: []
+  related_cards:
+    - e11f25b8d9f941d4b12898e591c4a0d1
 - name: The Big Three
   db_uuid: 431440f1c91441b7b495d0e1b9ad1a0e
   card_type: TrioCompetitorCard

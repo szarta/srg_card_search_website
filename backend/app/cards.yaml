@@ -67797,6 +67797,52 @@
   grapple: 7
   rules_text: 'When you roll Submission for your turn roll: Look at the bottom 3 cards of your deck. You may reveal 1 Submission and add it to your hand, randomly bury the others.'
   tags: []
+  related_finishes:
+    - 8abdb8dd1cec4027a31bbcc5ec19ac89
+    - 310f9e93f21d49bb99da0efd440ee7b8
+    - 2d240466781140658791cd21f4e271bf
+- name: Chopper Prop
+  db_uuid: 8abdb8dd1cec4027a31bbcc5ec19ac89
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent gets 1 Breakout roll this turn.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - e2f4f5e7315442059b7057b0333e0e23
+- name: The Ship is Sinking
+  db_uuid: 310f9e93f21d49bb99da0efd440ee7b8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    When this card is in your discard pile and the Crowd Meter is 2 or greater, the match has no disqualifications.'
+  tags: []
+  related_cards:
+    - e2f4f5e7315442059b7057b0333e0e23
+- name: Tied in the Ropes
+  db_uuid: 2d240466781140658791cd21f4e271bf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +2 to Grapple
+
+    If your opponent breaks out, you may discard 1 card from your hand to bury this card.'
+  tags: []
+  related_cards:
+    - e2f4f5e7315442059b7057b0333e0e23
 - name: xROYCE (V1)
   db_uuid: 8ce90a57c8a3456c87e0407099515e87
   card_type: SingleCompetitorCard

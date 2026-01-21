@@ -47,9 +47,9 @@ Spinebreaker
 You're Not Ready
 Blindside Smash
 Panic Slam
-Rack Rake
+Back Rake
 Splash in the Corner
-Tiger Driver
+Tiger Driver (#23)
 Super Dragon Leg Twist (Submission)
 Gamengiri
 Stunner

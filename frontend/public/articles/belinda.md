@@ -21,6 +21,7 @@ competitive.
 
 ## Decklist
 
+```deck
 Belinda
 I Don't Think So! My Bar, My Rules
 Flight of Angels

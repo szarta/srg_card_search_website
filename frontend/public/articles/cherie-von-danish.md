@@ -16,9 +16,7 @@ Observed this deck on: https://www.youtube.com/watch?v=pkxmjItjH34 around the
 
 Played against Ref Dave playing (post-nerf) 64-bit Casey.
 
-Cards I did not see in the match: #19, #21, #22, #25.  The #1 looked like
-[[Chop Down]], but was hard to hear with commentator noise, thematically it was
-probably a [[Snap Punch]], but I left it blank due to being unsure.
+Cards I did not see in the match: #19, #21, #22, #25.  
 
 Filling in the empty cards is left as an exercise to the reader unless Yaz
 contacts me with the details.
@@ -31,6 +29,7 @@ Ringside Ruckus with the Floats
 The Recipe for Success
 The Rolling Pin
 The Sweet Spot
+Chop Down
 Arm & Collar Tie Up
 Snap Headlock
 Apocalypse

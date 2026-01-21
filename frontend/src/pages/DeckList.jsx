@@ -6,6 +6,7 @@ const articles = [
   { slug: "moonstar",               title: "Moonstar" },
   { slug: "d2",                     title: "D2" },
   { slug: "d3",                     title: "D3" },
+  { slug: "belinda",                title: "Belinda Single Player Deck"},
   { slug: "unique",                 title: "Unique" },
   { slug: "alex-kane",              title: "Alex Kane"},
   { slug: "real-beater",            title: "Real Beater"},

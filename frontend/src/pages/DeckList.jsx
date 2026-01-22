@@ -24,7 +24,8 @@ const articles = [
   { slug: "jurassic-juggernaut",    title: "Jurassic Juggernaut"},
   { slug: "numer01",                title: "Numer01"},
   { slug: "titan",                  title: "Titan"},
-  { slug: "cherie-von-danish",      title: "Cherie Von Danish"}
+  { slug: "cherie-von-danish",      title: "Cherie Von Danish"},
+  { slug: "big-rig-deck",           title: "Big Rig Daddy Dig"}
 ];
 
 export default function DeckList() {

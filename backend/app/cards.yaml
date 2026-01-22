@@ -15754,7 +15754,7 @@
   deck_card_number: 18
   rules_text: Flip 2 cards for each other Follow Up you have in play.
   tags: []
-- name: Barbed Wire Baseball Battle Axe or Charcuterie Cheese
+- name: Barbed Wire Baseball Battle Axe of Charcuterie Cheese
   db_uuid: a909d0ce0f2a4d0f875c6e2d065d87ab
   card_type: MainDeckCard
   atk_type: Submission

@@ -26,7 +26,8 @@ const articles = [
   { slug: "titan",                  title: "Titan"},
   { slug: "cherie-von-danish",      title: "Cherie Von Danish"},
   { slug: "big-rig-daddy-dig",      title: "Big Rig Daddy Dig"},
-  { slug: "mr-hyde",                title: "Mr. Hyde (Sunshine CAC)"}
+  { slug: "mr-hyde",                title: "Mr. Hyde (Sunshine CAC)"},
+  { slug: "king-pink",              title: "King Pink"}
 ];
 
 export default function DeckList() {

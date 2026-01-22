@@ -38,12 +38,12 @@ Sheep Shearing Potion #91
 Cosmic Big Business
 Stunning Shining Potion #43
 Lucky Bird and Cat Call
-Double Down on the Hits
+Double Down on the Hits (Technique)
 Stretch Over the Knee
 Skullduggery Potion #19
 Hook the Top Rope
 Well Scouted
-Daredevil Dive
+Daredevil Dive (Agility)
 Jackhammer
 Blindside Bombing
 Roaring Elbow

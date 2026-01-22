@@ -35366,6 +35366,7 @@
     - 37e09229ff264057aa229e88053cc49d
     - d851688448d743b887504d08fb4d843b
     - 29a0cf0aa2c6461293cb11049dc5fbff
+    - 79728c0583d748cc8946cac114bb86da
 - name: The Dub Step
   db_uuid: 37e09229ff264057aa229e88053cc49d
   card_type: MainDeckCard
@@ -35379,13 +35380,28 @@
   related_cards:
     - a9b14669549e4cae8ac0f5ceb1b63aef
     - 4546e97dd60b4490a4d69f62c2bdaea5
-- name: The Beat Drop
+- name: The Beat Drop (V1)
   db_uuid: d851688448d743b887504d08fb4d843b
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   rules_text: '+4 to Power
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - a9b14669549e4cae8ac0f5ceb1b63aef
+    - 4546e97dd60b4490a4d69f62c2bdaea5
+- name: The Beat Drop (V2)
+  db_uuid: 79728c0583d748cc8946cac114bb86da
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    +4 to Power
 
     Draw 1 card.'
   tags: []
@@ -41190,6 +41206,7 @@
     - 37e09229ff264057aa229e88053cc49d
     - d851688448d743b887504d08fb4d843b
     - 29a0cf0aa2c6461293cb11049dc5fbff
+    - 79728c0583d748cc8946cac114bb86da
 - name: El Llama Enmascarada Senior
   db_uuid: 65dcddf9188847138f8777529436efb9
   srgpc_url: https://www.srgpc.net/cards/competitors/el-llama-enmascarada-senior/

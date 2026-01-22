@@ -1,5 +1,5 @@
 ---
-slug: big-rig-deck
+slug: big-rig-daddy-dig
 title: "Big Rig Daddy Dig"
 author: Ronnie Rombs
 date: 2026-01-21

@@ -82759,3 +82759,121 @@
   tags: []
   related_cards:
     - 192be5ede94a4727b1865fcdd845743f
+- name: Darby Dog Collar Match Crowd Meter 0
+  db_uuid: 816f487f5eb04c95ac14b0776a93f0f6
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Breakout rolls are +1.
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle
+- name: Darby Dog Collar Match Crowd Meter 1
+  db_uuid: 8516f77e95974da7a39f4229384ee9ef
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle
+- name: Darby Dog Collar Match Crowd Meter 2
+  db_uuid: 80db9ff216764733ba25103eb5bdcc67
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Finish Rolls are +2.
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle
+- name: Darby Dog Collar Match Crowd Meter 3
+  db_uuid: ca20a353ea914435bc05a420440ced89
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Finish Rolls are +3.
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle
+- name: Darby Dog Collar Match Crowd Meter 4
+  db_uuid: 94267c088f84497abf31f9a00120da1c
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Finish Rolls are +4.
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle
+- name: Darby Dog Collar Match Crowd Meter 5
+  db_uuid: 1c2c279aa2354d9bafb8de35b82e6c37
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 7
+
+    Finish Rolls are +5.
+
+    Each player gets 1 additional Breakout roll.
+
+    Your opponent gets 1 fewer Breakout roll for each card you have in play with "Corner" or "Turnbuckle" in the name.
+
+    When you hit a card with "Corner" or "Turnbuckle" in the name, put 1 card from your discard pile on top of your deck.'
+  tags: []
+  wants_keywords:
+    - Corner
+    - Turnbuckle

@@ -82942,3 +82942,16 @@
 
     When a player rolls their highest skill for their 3rd Breakout roll, they break out.'
   tags: []
+- name: Steel Cage Match
+  db_uuid: 009c420db81a44029354e9814712286b
+  card_type: CrowdMeterCard
+  rules_text: 'Max Handsize: 6
+
+    No Disqualifications
+
+    Cards in the discard pile cannot be moved to any other location.
+
+    Special finish: a player escapes the cage when they have no playable cards in hand and no cards in their deck.
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'''
+  tags: []

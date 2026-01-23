@@ -82892,3 +82892,53 @@
 
     Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter.'
   tags: []
+- name: Main Event Crowd Meter 0
+  db_uuid: c8012d4f179f4e4b9f01296b46c4273e
+  card_type: CrowdMeterCard
+  rules_text: '+1 to Breakout rolls
+
+    After a Breakout, each player shuffles 1 card from their discard pile into their deck.'
+  tags: []
+- name: Main Event Crowd Meter 1
+  db_uuid: ccf2d3461a834b42802eb29c28577283
+  card_type: CrowdMeterCard
+  rules_text: 'When a player rolls their highest skill for a Breakout roll, they break out.
+
+    After a breakout, each player shuffles 2 cards from their discard pile into their deck.'
+  tags: []
+- name: Main Event Crowd Meter 2
+  db_uuid: 10bb36d6533246699051d928c4e7abf0
+  card_type: CrowdMeterCard
+  rules_text: '+1 to Finish rolls.
+
+    When a player rolls their highest skill for a Breakout roll, they break out.
+
+    After a breakout, each player flips 3 cards, then shuffles 3 cards from their discard pile into their deck.'
+  tags: []
+- name: Main Event Crowd Meter 3
+  db_uuid: c9b1fdbba7de4ae2a796111d4730e035
+  card_type: CrowdMeterCard
+  rules_text: '+2 to Finish rolls.
+
+    When a player rolls their highest skill for their 2nd or 3rd Breakout roll, they break out.
+
+    After a breakout, each player shuffles 4 cards from their discard pile into their deck, then draws 1 card.'
+  tags: []
+- name: Main Event Crowd Meter 4
+  db_uuid: 083b5ef885ef4299a6c00fc06b0c10dc
+  card_type: CrowdMeterCard
+  rules_text: '+3 to Finish rolls.
+
+    Finish cards are also Follow Ups.
+
+    When a player rolls their highest skill for their 2nd or 3rd Breakout roll, they break out.'
+  tags: []
+- name: Main Event Crowd Meter 5
+  db_uuid: db0a0dceeaab4ac7b793a5a689af1c5b
+  card_type: CrowdMeterCard
+  rules_text: '+6 to Finish rolls.
+
+    Finish cards are also Follow Ups.
+
+    When a player rolls their highest skill for their 3rd Breakout roll, they break out.'
+  tags: []

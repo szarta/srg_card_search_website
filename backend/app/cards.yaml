@@ -1471,6 +1471,7 @@
     +4 to Strike'
   tags: []
   related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
     - 08559cdcf0704b188fbe388192e2181e
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
@@ -1494,6 +1495,7 @@
     Add 1 card from your discard pile to your hand.'
   tags: []
   related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
     - 08559cdcf0704b188fbe388192e2181e
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
@@ -1517,6 +1519,7 @@
     Bury 3 cards in any player''s discard pile.'
   tags: []
   related_cards:
+    - a01036ebb5bf49e382f6c9668fd04cc7
     - 08559cdcf0704b188fbe388192e2181e
     - f2ec0c80a48041b4b40ca7208d7c8a5c
     - 221d8474bf084404ac43c826c2491184
@@ -3716,6 +3719,9 @@
   rules_text: 'When you hit a card, your opponent randomly reveals a card in their hand: if it is a stop, draw 2 cards.'
   tags: []
   related_finishes:
+    - 040232a9ce804e3eb4ea2a25283f6298
+    - 120a4a3ffc124a21be376a2d5f6df56d
+    - c17faf738dc9453097c7b4301baaafff
     - 01d7642fbfae4817a4ff1c01f175e9e8
     - c97d0ef041cd4e33824b7583bd7fc0a1
     - cd01ac08134342bda5826e44a1ff1c9d

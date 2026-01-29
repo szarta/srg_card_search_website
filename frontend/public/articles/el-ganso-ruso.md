@@ -31,12 +31,12 @@ Cosmic Collection
 Catch Chicken Wing
 Big Body Block
 Pulverizing Pinball
-Pump Up the Crowd
-Chugga Chugga
-Brawling and Punching
+Pump Up the Crowd (V2)
+Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug!
+Brawling & Punching
 Double Wrist Twist
-Raise the Dead
-Ura Zuki
+Raise the Dead (Grapple, Technique)
+Ura-zuki (Technique)
 Legendary Acknowledgement
 Cosmic Knee in the Ropes
 Ripcord Lariat

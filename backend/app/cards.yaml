@@ -83257,6 +83257,8 @@
 
     When you reveal the bottom card of your deck, and it does not have "Holiday" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []
+  wants_keywords:
+    - Holiday
 - name: Holiday Wrapping Paper
   db_uuid: 4c02c2628e5d42d28b0f946e609574eb
   card_type: MainDeckCard
@@ -83269,6 +83271,8 @@
 
     If it has "Wrapping Paper" in the name, add that card to your hand.'
   tags: []
+  wants_keywords:
+    - Wrapping Paper
 - name: Going Over the Holiday Wrapping Paper
   db_uuid: c6c2f5e621bc402b976d482f555a7104
   card_type: MainDeckCard
@@ -83281,3 +83285,151 @@
 
     If it has "Wrapping Paper" in the name, add that card to your hand.'
   tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Holiday Wrapping Paper Swing
+  db_uuid: 53d9d006aff44162a1949a5ea2eca314
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Choose Technique or Strike, the chosen skill is +3.
+
+    Reveal the bottom card of your deck, if it has "Holiday" in the name, you may choose both skills.'
+  tags: []
+  wants_keywords:
+    - Holiday
+- name: Backlash with the Holiday Wrapping Paper
+  db_uuid: 173986fa378641b5881cd3c5bc9acac6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 25
+  rules_text: 'Stop any Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Set Up the Holiday Wrapping Paper
+  db_uuid: 66cc664ed50a4b2d81de32aa184c1996
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top or bottom card of your deck.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Hold the Holiday Wrapping Paper
+  db_uuid: 68a7288b6f7a47c0ae91209e0f3e330a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Ambush With the Holiday Wrapping Paper
+  db_uuid: 81dadffd2280408383e180532abd766f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'You may shuffle 1 card with "Holiday" in the name from your discard pile into your deck for each Strike you have in play.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Turn Up the Holiday Wrapping Paper
+  db_uuid: 3884f43d1cfc472db0dee6ad499d4b75
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'Choose 2 cards in your discard pile:
+
+    Randomly put 1 on top of your deck and bury the other.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Takeover with the Holiday Wrapping Paper
+  db_uuid: e55db901180d459fb0ce229044358fdd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Catch the Holiday Wrapping Paper
+  db_uuid: cdfeac893117413cbdcb4851d08dd5e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill, stop any Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Wrapping Paper
+- name: Gathering the Holiday Wrapping Paper
+  db_uuid: cae5087146344eff8bdebaedb793cbd8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: 'Draw 1 card for each card you have in play with "Holiday" in the name.  Bury 1 card in your hand.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Holiday
+    - Wrapping Paper
+- name: Holiday Wrapping Paper Uprising
+  db_uuid: 5e67ecd2a0fa4a82bd1817f79815b025
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'Bury 1 card with "Holiday" in the name in your discard pile.
+
+    Your next turn roll is +1.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+  wants_keywords:
+    - Holiday
+    - Wrapping Paper

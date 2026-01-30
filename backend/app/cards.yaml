@@ -16511,7 +16511,7 @@
 
     If this is a Triad match, your opponent''s next turn roll is -2.'
   tags: []
-- name: You're Not Ready
+- name: You're Not Ready (V1)
   db_uuid: 0100a2f0cb604367864f8e3a40bef90f
   srg_url: https://supershowthegame.com/product/18-youre-not-ready/
   srgpc_url: https://www.srgpc.net/cards/18/youre-not-ready/
@@ -16520,6 +16520,16 @@
   play_order: Followup
   deck_card_number: 18
   rules_text: 'Search your deck or discard pile for "Ready to Rumble" and add it to your hand.  You may play that card as an additional card this turn.
+
+    If you have "Ready to Rumble" in play, your opponent''s Gimmick is blank.'
+  tags: []
+- name: You're Not Ready (V2)
+  db_uuid: 3eaa0f63d2be497bb831af2c7adb81bf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'Search your deck or discard pile for "Ready to Rumble" and add it to your hand or you may play that card as an additional card this turn.
 
     If you have "Ready to Rumble" in play, your opponent''s Gimmick is blank.'
   tags: []
@@ -19800,6 +19810,54 @@
     If this is a Ring of Fire match, your opponent flips 3 cards.
 
     Skill Requirement: Power 8+'
+  tags: []
+- name: Atomic Backstabber
+  db_uuid: 06c49b570477472fa3c9ddeef199b61e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater, this card is also a Finish.'
+  tags: []
+- name: Coconut Cutter
+  db_uuid: b0aa2e6ac83645f4a826aeae15912b8f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    Draw 1 card.
+
+    If either player rolls Power for their Finish roll, their roll is -1.'
+  tags: []
+- name: Skull Driver
+  db_uuid: 756307e41db64c3aa2a02ad429e25956
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top and bottom card of your deck.
+
+    If either player rolls Grapple for their Breakout roll, their roll is -1.'
+  tags: []
+- name: Swing and a Spinebuster
+  db_uuid: 8fceb27a3cd5474bb314ddf0552a9471
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 1 Follow Up and discard it.
+
+    If either player rolls Power for their Breakout roll, their roll is -1.'
   tags: []
 - name: High-Flying Takedown
   db_uuid: 03be84b23e10435bb42dfda47f7771af
@@ -39116,7 +39174,7 @@
 
     +2 to Strike
 
-    Search your deck for 2 cards.  Put 1 on top of yoru deck and the other in your discard pile.'
+    Search your deck for 2 cards.  Put 1 on top of your deck and the other in your discard pile.'
   tags: []
   related_cards:
     - 8be0afa58eb049048feb204eac5b48d2
@@ -56999,7 +57057,7 @@
   grapple: 6
   rules_text: 'Once per turn roll:
 
-    When a player rolls Power, look at the top 3 cards of their deck, bury 1 an dput the others back on top in any order.'
+    When a player rolls Power, look at the top 3 cards of their deck, bury 1 and put the others back on top in any order.'
   tags: []
   related_finishes:
     - a4ac7b7816c34163b7af024347b423f7
@@ -78849,16 +78907,64 @@
 
     Draw 1 card.'
   tags: []
-- name: Catch These Hands
+- name: Butterfly Kick
+  db_uuid: 45acbef9f5f24d219f9c5a969192bea1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top and bottom card of your deck.
+
+    If either play rolls Strike for their Breakout roll, their roll is -1.'
+  tags: []
+- name: Machine Gun Punches
+  db_uuid: f711725414114c1c86544ad64a6b8645
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 1 Follow Up and discard it.
+
+    If either player rolls Agility for their Breakout roll, their roll is -1.'
+  tags: []
+- name: Soaring Corner Avalanche
+  db_uuid: 513dd00c2a734859b6ea8f37f75be350
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    Draw 1 card.
+
+    If either player rolls Agility for their Finish roll, their roll is -1.'
+  tags: []
+- name: Ultimate Splash
+  db_uuid: edf885fe55694c40802bea50025d17d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater, this card is also a Finish.'
+  tags: []
+- name: Catch These Hands (Agility)
   db_uuid: e1ebc8040a8d4cb5b0bfa19b839cd705
   srgpc_url: https://www.srgpc.net/cards/22/catch-these-hands/
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  rules_text: 'Choose a skill: Your opponent''s skill of that type is -1.
+  rules_text: 'Choose a skill: Your opponent''''s skill of that type is -1.
 
-    The next time you roll that skill draw 1 card.'
+    The next time you roll that skill draw 1 card.  Skill Requirement: Agility 8+'
   tags: []
 - name: Chokeslam Lariat Through The Table
   db_uuid: 71fe7b60ced74238bb449024527c1a80
@@ -79037,6 +79143,54 @@
   rules_text: 'Add 2 cards from your discard pile to your hand.
 
     If either player rolls Grapple for their Finish roll, their Finish roll is -1.'
+  tags: []
+- name: Dynamic Knee Breaker
+  db_uuid: 4db9d1e056e74e798952fe1bc1faadd2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Your opponent buries 1 card in their hand.
+
+    Un-blank your Finishes.
+
+    If the Crowd Meter is 5 or greater, this card is also a Finish.'
+  tags: []
+- name: Short Arm Sleeper Hold
+  db_uuid: b7949d2e371c491fba71874df4e8ae6e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Bury 3 cards in your discard pile.
+
+    Draw the top and bottom card of your deck.
+
+    If either player rolls Submission for their Breakout roll, their roll is -1.'
+  tags: []
+- name: Tazmanian Chin Choke
+  db_uuid: 0baf3b0485814a7dbb13ac878106d6c8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Cannot be stopped by Follow Ups.
+
+    Draw 1 card.
+
+    If either player rolls Technique for their Finish roll, their roll is -1.'
+  tags: []
+- name: Trapezius Claw
+  db_uuid: 127f838292624e9ba8fd0a04825e371a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 1 Follow Up and discard it.
+
+    If either player rolls Technique for their Breakout roll, their roll is -1.'
   tags: []
 - name: American Union Arm Bender
   db_uuid: a0fbc43b8e8f421094fc267ea115a057
@@ -82960,4 +83114,64 @@
     Special finish: a player escapes the cage when they have no playable cards in hand and no cards in their deck.
 
     Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'''
+  tags: []
+- name: Soaring Dropkick
+  db_uuid: ef3af8bc2a6a4058aced639e24e2f872
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
+
+    This card counts as 2 Follow up Strikes in play.'
+  tags: []
+- name: Gas Money
+  db_uuid: 90edf0770e114d23b533ca16e14c9fdb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'If your Agility skill is greater than your opponent''s Agility skill, stop any Grapple.
+
+    This card counts as 2 Follow Up Strikes in play.'
+  tags: []
+- name: Double German Suplex
+  db_uuid: 12c920efe70e4512951cf54e77d566f5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
+
+    This card counts as 2 Follow Up Grapples in play.'
+  tags: []
+- name: Union-Sanctioned Fire Bomb
+  db_uuid: 14a26104217748708c129de022b03142
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Submission.
+
+    This card counts as 2 Follow Up Grapples in play.'
+  tags: []
+- name: Bird-Brained Headlock
+  db_uuid: 2237258edd664c26819dc9c9f3c9afa7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, stop any Strike.
+
+    This card counts as 2 Follow Up Submissions in play.'
+  tags: []
+- name: Ddddetroit Brainwash Breaker
+  db_uuid: f10d184884e24deaa4188a03f32a8843
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
+
+    This card counts as 2 Follow Up Submissions in play.'
   tags: []

@@ -83250,3 +83250,34 @@
 
     This card counts as 2 Follow Up Submissions in play.'
   tags: []
+- name: Having the Holiday Spirit
+  db_uuid: 6e80f776a46e41229f637f7c379ba22f
+  card_type: EntranceCard
+  rules_text: 'Twice per match:
+
+    When you reveal the bottom card of your deck, and it does not have "Holiday" in the name, you may shuffle your deck and reveal another card instead.'
+  tags: []
+- name: Holiday Wrapping Paper
+  db_uuid: 4c02c2628e5d42d28b0f946e609574eb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'Stop any Lead Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []
+- name: Going Over the Holiday Wrapping Paper
+  db_uuid: c6c2f5e621bc402b976d482f555a7104
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Stop any Follow Up Grapple.
+
+    Reveal the bottom card of your deck:
+
+    If it has "Wrapping Paper" in the name, add that card to your hand.'
+  tags: []

@@ -25792,6 +25792,81 @@
 
     For your turn rolls: Shuffle 3 cards from your discard pile into your deck, draw 3 cards, flip 2 cards, add 2 cards from your discard pile to your hand and your next turn roll is +4.'
   tags: []
+- name: Santa Belle and Mr. Lawse
+  db_uuid: 258b2a4961234253aab9f481e1a5391b
+  card_type: TornadoCompetitorCard
+  power: 10
+  technique: 20
+  agility: 18
+  strike: 14
+  submission: 12
+  grapple: 16
+  rules_text: 'Once per Crowd Meter:
+
+    Each player draws 2 cards.
+
+    When the Crowd Meter is even:
+
+    When you bump, you and your target draw 1 card.
+
+    When the Crowd Meter is odd:
+
+    Your target''s maximum handsize is -2.'
+  tags: []
+  related_finishes:
+    - 9fc7c0b4f054465c8b4b0208faac6712
+    - c5140ff8c65c4ad9b1905407bf9aa538
+    - 5e1dc6f6956d4ae1937f814fe6637d1f
+- name: Merry Orbital Lawbardment
+  db_uuid: 9fc7c0b4f054465c8b4b0208faac6712
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    +5 to Submission
+
+    Each player adds 2 cards from their discard pile to their hand.
+
+    Your opponent''s maximum handsize is -1 for the rest of the match.'
+  tags: []
+  related_cards:
+    - 258b2a4961234253aab9f481e1a5391b
+- name: Christmas Holiday Shopping Frenzy
+  db_uuid: c5140ff8c65c4ad9b1905407bf9aa538
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Agility
+
+    +2 to Grapple
+
+    If your opponent''s Breakout roll is 10 or less, draw 1 card.
+
+    If the Crowd Meter is even, double these numbers.'
+  tags: []
+  related_cards:
+    - 258b2a4961234253aab9f481e1a5391b
+- name: December 26th
+  db_uuid: 5e1dc6f6956d4ae1937f814fe6637d1f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +7 to Submission
+
+    Once:
+
+    If the Crowd Meter is odd, you may force your opponent to re-roll a Breakout roll.'
+  tags: []
+  related_cards:
+    - 258b2a4961234253aab9f481e1a5391b
 - name: Boss Lady Bella & Rockstar Joey Sins
   db_uuid: b09979a9860d4c0b934ea6a59f14ea6a
   card_type: TornadoCompetitorCard

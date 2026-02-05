@@ -7,7 +7,7 @@ date: 2025-02-04
 
 ## The Competitor
 
-[[[Above Average Warrior]]]
+[[[The Above Average Warrior]]]
 
 ## Writeup
 
@@ -17,7 +17,7 @@ Sundown Moon won with this deck in Old School format Old School CAC at Captain C
 ## Decklist
 
 ```deck
-Above Average Warrior
+The Above Average Warrior
 Above Average Cuddy Splash
 Above Average Cuddy Slam
 Above Average Cuddy Crash
@@ -37,7 +37,7 @@ Running Lariat
 DDT
 Swinging Single Leg Crab
 Mounted Turnbuckle Punches
-Powerbomb Over the Top
+Powerbomb Over the Top Rope
 Royal Stretch
 Elbow Strikes
 Neckbreaker

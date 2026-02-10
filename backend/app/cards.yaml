@@ -42178,6 +42178,9 @@
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
     - 9d8401a397c242159ed1b01385439f73
+    - 0d39e14830bb450494a19a7a88bd5af3
+    - 985d4ae92cf44670b5ac5b7791ef4398
+    - de9f7a189ea04ec3a494ec706a43f2c1
     - 18fef181133943919d92b0ac2e7704f4
 - name: Everyone's Enemy (V2)
   db_uuid: a6edec7629c74333afc0be9086e933d7
@@ -42191,6 +42194,9 @@
   rules_text: You cannot be prevented from Double Teaming, Saving, rolling Breakout rolls, breaking out, drawing cards, playing cards, or stopping cards.
   tags: []
   related_finishes:
+    - f989f8c1052d4c44b7fadacff83ad698
+    - 52123bba8ed047afbb0f68628d7265a7
+    - 9d8401a397c242159ed1b01385439f73
     - 0d39e14830bb450494a19a7a88bd5af3
     - 985d4ae92cf44670b5ac5b7791ef4398
     - de9f7a189ea04ec3a494ec706a43f2c1

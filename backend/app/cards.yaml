@@ -42211,6 +42211,9 @@
 
     +When your opponent would force you to bury this card from your hand, you may instead reveal and play it as if it were a Lead (It can be stopped as normal).'
   tags: []
+  related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
+    - a6edec7629c74333afc0be9086e933d7
 - name: Gold Ship Special!
   db_uuid: 0d39e14830bb450494a19a7a88bd5af3
   card_type: MainDeckCard
@@ -42226,6 +42229,7 @@
     If your Gimmick is blanked by a card:  This card cannot be stopped.  Draw 2 cards.'
   tags: []
   related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
     - a6edec7629c74333afc0be9086e933d7
 - name: Danse Macabre
   db_uuid: 985d4ae92cf44670b5ac5b7791ef4398
@@ -42242,6 +42246,7 @@
     If your opponent ended their last turn without playing a card, this card is also a Lead.'
   tags: []
   related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
     - a6edec7629c74333afc0be9086e933d7
 - name: Fatal Crush
   db_uuid: de9f7a189ea04ec3a494ec706a43f2c1
@@ -42256,6 +42261,7 @@
     Your opponent cannot play cards on their next turn.'
   tags: []
   related_cards:
+    - 2862f5de471b45539cbc9fedbe11aeb5
     - a6edec7629c74333afc0be9086e933d7
 - name: Everyone's Enemy (Scallywag)
   db_uuid: a447d6f29dfb49bea3c66717163ca459
@@ -42289,6 +42295,7 @@
   tags: []
   related_cards:
     - 2862f5de471b45539cbc9fedbe11aeb5
+    - a6edec7629c74333afc0be9086e933d7
 - name: Candy Coated Suicide
   db_uuid: 52123bba8ed047afbb0f68628d7265a7
   card_type: MainDeckCard
@@ -42303,6 +42310,7 @@
   tags: []
   related_cards:
     - 2862f5de471b45539cbc9fedbe11aeb5
+    - a6edec7629c74333afc0be9086e933d7
 - name: Redstar
   db_uuid: 9d8401a397c242159ed1b01385439f73
   card_type: MainDeckCard
@@ -42317,6 +42325,7 @@
   tags: []
   related_cards:
     - 2862f5de471b45539cbc9fedbe11aeb5
+    - a6edec7629c74333afc0be9086e933d7
 - name: Evil Ed the Cheesehead (V1)
   db_uuid: 0f1c0eb5ecb241d9987f1a71697e460b
   srgpc_url: https://www.srgpc.net/competitors/evil-ed-the-cheesehead/

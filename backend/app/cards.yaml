@@ -42178,6 +42178,7 @@
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
     - 9d8401a397c242159ed1b01385439f73
+    - 18fef181133943919d92b0ac2e7704f4
 - name: Everyone's Enemy (V2)
   db_uuid: a6edec7629c74333afc0be9086e933d7
   card_type: SingleCompetitorCard
@@ -42193,6 +42194,17 @@
     - 0d39e14830bb450494a19a7a88bd5af3
     - 985d4ae92cf44670b5ac5b7791ef4398
     - de9f7a189ea04ec3a494ec706a43f2c1
+    - 18fef181133943919d92b0ac2e7704f4
+- name: One Foot in the Grave
+  db_uuid: 18fef181133943919d92b0ac2e7704f4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +When your opponent would force you to bury this card from your hand, you may instead reveal and play it as if it were a Lead (It can be stopped as normal).'
+  tags: []
 - name: Gold Ship Special!
   db_uuid: 0d39e14830bb450494a19a7a88bd5af3
   card_type: MainDeckCard

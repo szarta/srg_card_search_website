@@ -1,5 +1,5 @@
 ---
-slug: deerfield-bullgizer
+slug: deerfield-bullgizer-deck
 title: "Deerfield Bullgizer"
 author: Le Penguin
 date: 2026-02-11
@@ -16,7 +16,7 @@ it with Everyone's Enemy but otherwise it is brutal to play against.
 
 ## Decklist
 
-```decklist
+```deck
 Deerfield Bullgizer
 Quantum Quake
 Shipwreck Menagerie

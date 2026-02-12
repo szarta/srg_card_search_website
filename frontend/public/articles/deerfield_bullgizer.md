@@ -11,7 +11,7 @@ date: 2026-02-11
 
 ## Writeup
 
-Reviewed as deck of the week 02-11-2026.  Was played for CaptainCon, Steve beat
+Reviewed as deck of the week.  It was played for CaptainCon, Steve beat
 it with Everyone's Enemy but otherwise it is brutal to play against.
 
 ## Decklist
@@ -47,4 +47,4 @@ Butterflying Brain Buster
 Headlock Kick
 Face It, You're Barking Up the Wrong Tree
 Dog Collar Throw
-Smash Into the Turnbuckle
+Smush Into the Turnbuckle

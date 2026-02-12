@@ -17,7 +17,6 @@ first week of January 2026.
 ## Decklist
 
 ```deck
-
 Yamatohama
 Yori-Kiri
 Saitama Tsunami Slam

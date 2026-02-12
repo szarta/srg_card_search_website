@@ -20,7 +20,6 @@ discard into deck and draw a card.
 ## Decklist
 
 ```deck
-
 Leader of the Postal Nation
 Impact is Family (V2)
 The Mailman Always Delivers

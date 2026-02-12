@@ -29,7 +29,8 @@ const articles = [
   { slug: "mr-hyde",                title: "Mr. Hyde (Sunshine CAC)"},
   { slug: "king-pink",              title: "King Pink"},
   { slug: "el-ganso-ruso",          title: "El Ganso Ruso"},
-  { slug: "above-average-warrior",  title: "Above Average Warrior (Old School)"}
+  { slug: "above-average-warrior",  title: "Above Average Warrior (Old School)"},
+  { slug: "deerfield-bullgizer",    title: "Deerfield Bullgizer"}
 ];
 
 export default function DeckList() {

@@ -83633,3 +83633,38 @@
 
     +2 to Strike'
   tags: []
+- name: BDE
+  db_uuid: 9250669c660241358c53355906796a66
+  srg_url: https://supershowthegame.com/product/bde/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 5
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: Cards in your discard pile are randomly buried.
+  tags: []
+- name: Viral Cutter
+  db_uuid: adc3e50f68b14007a1c515a4cee1ecc3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    If the Crowd Meter is 5 or greater, this card is also a Lead.'
+  tags: []
+- name: Viral Moment
+  db_uuid: 3125863d98d547aead29c85e427c7660
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If your opponent breaks out, the Crowd Meter is +4.
+  tags: []

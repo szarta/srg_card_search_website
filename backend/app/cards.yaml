@@ -83472,16 +83472,16 @@
   related_cards:
     - d22f300a2da6416b9dc580d04a8374df
     - 15780ea434644deb837025c723801a38
+  related_finishes:
+    - 48f5bb088ff043dea9612612859fb1db
+    - 007ff4f3d9994b1c97c0aee27c374d33
+    - 6108d576eafa4c94a228027ff5037202
   wants_keywords:
     - Choke
     - Collar
     - Death
     - Kill
     - Turnbuckle
-  related_finishes:
-    - 48f5bb088ff043dea9612612859fb1db
-    - 007ff4f3d9994b1c97c0aee27c374d33
-    - 6108d576eafa4c94a228027ff5037202
 - name: Killer Kelly
   db_uuid: d22f300a2da6416b9dc580d04a8374df
   card_type: SingleCompetitorCard
@@ -83562,3 +83562,74 @@
     - e6236522e07744d9a64f5566316157de
     - 15780ea434644deb837025c723801a38
     - d22f300a2da6416b9dc580d04a8374df
+- name: Paul Walter Hauser
+  db_uuid: 046b4763c6b34f79aadd93e0e36412f9
+  srg_url: https://supershowthegame.com/product/paul-walter-hauser/
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 9
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 10
+  rules_text: 'If you rolled Power, Strike, or Grapple for your turn roll: When you hit a Grapple or Strike, draw 1 card.'
+  tags: []
+  related_finishes:
+    - 39fad95157294e0c89f9f83717521af2
+    - c807b505a1f7449fa791ad051524f480
+    - 653fa9e5afcd41939e367e92782fc63f
+- name: Emmy Winning Chair Shot
+  db_uuid: 39fad95157294e0c89f9f83717521af2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile, if you hit a card with "Black Bird", "Cobra", or "Sting" in the name, you may add this card to your hand.
+
+    If stopped and you are not Paul Walter Hauser, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 046b4763c6b34f79aadd93e0e36412f9
+- name: Haus Arrest
+  db_uuid: c807b505a1f7449fa791ad051524f480
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +1 to Submission
+
+    If you rolled Grapple for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 046b4763c6b34f79aadd93e0e36412f9
+- name: Crowd Participation
+  db_uuid: 653fa9e5afcd41939e367e92782fc63f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Draw cards or shuffle cards from your discard pile into your deck equal to the Crowd Meter +1.'
+  tags: []
+  related_cards:
+    - 046b4763c6b34f79aadd93e0e36412f9
+- name: Knee of Glory
+  db_uuid: 24ad1db62d0a4a1baac63d319e5535c2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your Power is + the Crowd Meter.
+
+    +2 to Technique
+
+    +2 to Strike'
+  tags: []

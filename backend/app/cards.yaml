@@ -12133,7 +12133,7 @@
   deck_card_number: 13
   rules_text: Search your deck for 1 Strike and put it on top of your shuffled deck.
   tags: []
-- name: Lion Punch
+- name: High-Flying Lucha Splash
   db_uuid: 37e65838ad8648ac99f4883bf5801169
   card_type: MainDeckCard
   atk_type: Strike

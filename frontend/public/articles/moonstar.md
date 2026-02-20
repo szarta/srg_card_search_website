@@ -104,7 +104,7 @@ Legendary Acknowledgement
 All Star Falling Star Assault
 Crowd Pleaser
 Imperial Stretch
-Poison Stars
+Poison Stars (Agility, Strike)
 Hook the Top Rope
 Well Scouted
 Moonsault

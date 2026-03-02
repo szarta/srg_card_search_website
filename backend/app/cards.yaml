@@ -31530,6 +31530,69 @@
     - 29b3e5e107ca46fc9e766b37fa0cf857
   wants_keywords:
     - Arm
+- name: The Gold Standard (V3)
+  db_uuid: 87513ca437054060ab73e60297242359
+  card_type: SingleCompetitorCard
+  division: United States
+  power: 6
+  technique: 10
+  agility: 7
+  strike: 5
+  submission: 9
+  grapple: 8
+  rules_text: '3 times per match:
+
+    When your opponent stops a card with "Arm" or "Break" in the name, you may put that card into play and your next turn roll is +2.'
+  tags: []
+  related_finishes:
+    - 4f09a0c1a78848c885e9f0d025fdfa4e
+    - d1e52d7ce67840538b9430f719996d91
+    - 6a2d7a624f404e93b68c2de2fd399ab7
+  wants_keywords:
+    - Arm
+    - Break
+- name: The Midas Touch
+  db_uuid: 4f09a0c1a78848c885e9f0d025fdfa4e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +1 to Strike
+
+    If stopped, flip 3 cards or shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 87513ca437054060ab73e60297242359
+- name: The Boon Breaker
+  db_uuid: d1e52d7ce67840538b9430f719996d91
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your opponent''s Gimmick is blank.
+
+    If you roll Power or Grapple for your Finish roll, your Finish roll is +2.'
+  tags: []
+  related_cards:
+    - 87513ca437054060ab73e60297242359
+- name: Fortune's Fall
+  db_uuid: 6a2d7a624f404e93b68c2de2fd399ab7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +1 to Agility
+
+    You may use your Gimmick 1 additional time this match.'
+  tags: []
+  related_cards:
+    - 87513ca437054060ab73e60297242359
 - name: Varius
   db_uuid: 5097d05f3632489d910adf649a49738c
   srgpc_url: https://www.srgpc.net/cards/competitors/varius/

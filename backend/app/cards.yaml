@@ -83731,3 +83731,61 @@
   deck_card_number: 30
   rules_text: If your opponent breaks out, the Crowd Meter is +4.
   tags: []
+- name: Aurora, Ace of the Air
+  db_uuid: 118a839bd2574376acc5489f6ef6e9c3
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 7
+  grapple: 8
+  rules_text: When your opponent stops your Strike or Grapple, look at the top 2 cards of your deck, add 1 to your hand and bury the other.
+  tags: []
+  related_finishes:
+    - 469ff31de2be4bd692010d42ff737a28
+    - 0abbc1d5b266407297c1bd54442806a4
+    - 59b7cc4f23394fa89fe4338b3bcbbc92
+- name: Talon Ng Buwan
+  db_uuid: 469ff31de2be4bd692010d42ff737a28
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If you have a card with "Sault" in teh name in play, your Finish roll is +1.
+
+    If you have a card with "Sky" in teh name in play, once per turn: You may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 118a839bd2574376acc5489f6ef6e9c3
+  wants_keywords:
+    - Sault
+    - Sky
+- name: High Flying Sumiklot
+  db_uuid: 0abbc1d5b266407297c1bd54442806a4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 118a839bd2574376acc5489f6ef6e9c3
+- name: The Ace Lock
+  db_uuid: 59b7cc4f23394fa89fe4338b3bcbbc92
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 118a839bd2574376acc5489f6ef6e9c3

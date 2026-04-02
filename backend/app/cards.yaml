@@ -855,7 +855,8 @@
   submission: 7
   grapple: 8
   rules_text: 'Once per turn roll: if your opponent rolls Submission, you may force them to re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - fbde02856d4c4b70a785ac5242932b26
     - 2e90fdf49f4846dcab979a85aa2b3cab
@@ -2733,7 +2734,8 @@
   submission: 7
   grapple: 10
   rules_text: 'Once per turn roll: When you roll Strike, Submission, or Grapple, reveal the top card of your deck.  If the move type matches the rolled skill, add it to your hand.  If not, you may flip it.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - e22393623b474346a39e93dae92f620d
     - af7fb58dea1c4a499ed16767c916ec08
@@ -3922,7 +3924,8 @@
   submission: 6
   grapple: 5
   rules_text: When your turn roll is at least 4 greater than your opponent's, draw 1 card.  When it is at least 4 less than your opponent's, draw 2 cards.
-  tags: []
+  tags:
+    - T-50 (booked)
   related_finishes:
     - 1f850d62a7654ca087604065017d9d3c
     - 8fc1219bf0e140d98260dbcd8472db05
@@ -4101,7 +4104,8 @@
   submission: 7
   grapple: 8
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent buries 1 card in their hand.
-  tags: []
+  tags:
+    - T-50
   related_cards:
     - ee1179b3778240f09d9cd167420d9e1f
   related_finishes:
@@ -4189,7 +4193,8 @@
   submission: 6
   grapple: 8
   rules_text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater than your turn roll, your next turn roll is +2.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - b03d33e83bb84557a074ba00c42974a3
     - 9d528129fcb841e6b0e0006fedbe07c6
@@ -4318,6 +4323,7 @@
   rules_text: When a card or Gimmick causes you to bury any number of cards, shuffle your deck then draw 1 card.
   tags:
     - Old School
+    - T-50
   related_finishes:
     - a7b8fd24d8714c8b832ddc8f2d34ccc4
     - 0713670115ea4923acd28a226a8f7c3f
@@ -4340,6 +4346,7 @@
   rules_text: When you bump, you may have either player shuffle their hand into their deck and then add the top 4 cards of their deck to their hand.
   tags:
     - Old School
+    - T-50
   related_finishes:
     - a7b8fd24d8714c8b832ddc8f2d34ccc4
     - 0713670115ea4923acd28a226a8f7c3f
@@ -24461,7 +24468,8 @@
   submission: 10
   grapple: 9
   rules_text: When your turn roll is at least 3 greater than your opponent's turn roll, draw 1 card.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 8a28c56d2def48f3a5cce9174c5023cd
     - 44c4ff6684d1410fad27c125885521d1
@@ -25085,7 +25093,8 @@
   submission: 6
   grapple: 7
   rules_text: When you roll Agility for your turn roll, look at your opponent's hand, choose 1 stop and bury it.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 11d006b0e738470da8b6983152687fec
     - 794efa65542f4ec692b58c3967368b29
@@ -25724,7 +25733,8 @@
   submission: 7
   grapple: 9
   rules_text: When you roll Strike, Submission, or Grapple for your turn roll, your opponent randomly reveals 1 card in their hand; if the move type of the card revealed is the same as you rolled, the card is buried.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 70fc21bfd9f54bab8b805090232af569
     - e34f38926f4e4c9b81366e60324735f1
@@ -25948,7 +25958,8 @@
   rules_text: 'Once during your opponent''s turn;
 
     If they have more cards in their hand than you, you may draw 1 card.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 041a8d2a068e428c8ec859d0e30505d8
     - 9c582846ba7c4456807088cebbdb2dc8
@@ -27907,7 +27918,8 @@
   submission: 5
   grapple: 9
   rules_text: When your turn roll is at least 5 greater than your opponent's turn roll, your cards with "Tiger", "Cat", or "Claw" in the name cannot be stopped.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 56d370f386274a889e49da04c472be1f
     - 8741d760fc7f432a87fed1ec3cd8a598
@@ -27977,7 +27989,8 @@
   submission: 5
   grapple: 9
   rules_text: When you roll Power for your turn roll, your cards with "Armenian" in the name cannot be stopped.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 56d370f386274a889e49da04c472be1f
     - 8741d760fc7f432a87fed1ec3cd8a598
@@ -29243,7 +29256,8 @@
   submission: 6
   grapple: 7
   rules_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll their turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
@@ -29262,7 +29276,8 @@
   submission: 6
   grapple: 7
   rules_text: 'Once per turn roll, when you roll Technique: You may choose any player to re-roll their turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
@@ -29280,7 +29295,8 @@
   submission: 6
   grapple: 7
   rules_text: 'When you or your opponent roll Technique: you may draw 1 card then bury 1 card in your hand.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
@@ -29544,7 +29560,8 @@
   rules_text: 'Once per turn roll:
 
     When your opponent rolls Technique for their turn roll, you may force them to re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - a89c630968fc4efe81af1290245c19bd
     - 351741fe50a14070a2f3fcd7da1f6016
@@ -35208,6 +35225,7 @@
   rules_text: At the start of your turn if you have fewer than 5 cards in your hand; draw until you have 5 cards in hand.
   tags:
     - Old School
+    - T-50
   related_finishes:
     - f02565238a94440f9af980dae8c1f441
     - 0bca2acefbba4e2a9202449291868311
@@ -36300,7 +36318,8 @@
   submission: 6
   grapple: 10
   rules_text: When your card is stopped, you may re-roll your next turn roll.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f0a4569e14c048dd9b3a64a236733013
     - 4a4ed7d23f0a4253a9494592f398e316
@@ -36407,7 +36426,8 @@
   submission: 6
   grapple: 10
   rules_text: 'Once per turn roll: When you or your target roll 8, you may re-roll your turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f0a4569e14c048dd9b3a64a236733013
     - 4a4ed7d23f0a4253a9494592f398e316
@@ -36712,7 +36732,8 @@
 
     Choose an opponent, when you and that opponent roll the same skill and they would win the turn roll, bump instead.'
   comments: 'AKA: G.O.A.T. Brock Smith'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 83ffdb669a5a43fab2ac836ec50aa947
     - d4d377c0fb1749449bf2437424b7b977
@@ -36734,7 +36755,8 @@
 
     When you roll Strike, you may re-roll.'
   comments: 'AKA: #1 GOAT Brock Smith'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 83ffdb669a5a43fab2ac836ec50aa947
     - d4d377c0fb1749449bf2437424b7b977
@@ -37845,7 +37867,8 @@
   rules_text: 'During your turn, choose another single competitor in play and add their Gimmick to yours until the start of your next turn.
 
     Your opponent''s Headbutt cards are blank when played against you.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 0199454d30f944879d4cd0ce50ba7782
     - eb142a0750e94fdba8edb221906986da
@@ -37906,7 +37929,8 @@
   submission: 7
   grapple: 6
   rules_text: When you have 2 cards in play with "Stick" and 1 card with "Fire" in the name, your opponent's Gimmick is copied and then blanked.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 0199454d30f944879d4cd0ce50ba7782
     - eb142a0750e94fdba8edb221906986da
@@ -38795,7 +38819,8 @@
   rules_text: 'Once a turn roll:
 
     When you roll Agility you may re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 12501369984b4bcb97f2fa4352456769
     - 0c874de421ec47f290cbcf63cef8be2d
@@ -38858,7 +38883,8 @@
   submission: 10
   grapple: 9
   rules_text: When you stop a card, you may re-roll your next turn roll.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - b6c370d7c44244db84358ea795406c55
     - 0e8cee1a1b984822b8137ffb2d77a667
@@ -40789,7 +40815,8 @@
   rules_text: 'Once per turn roll:
 
     When you roll Power, you may re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - bca58e825a084bf6b98917a66d3acb5b
     - 11394d62b1664c49bdd5c2f7671cd561
@@ -40992,7 +41019,8 @@
   submission: 7
   grapple: 9
   rules_text: When you and another player roll the same skill; you may have both players shuffle their hand into their deck and draw 4 cards.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 3c3dd387d23740c6ba2fae08f3bd416a
     - 955e6c491ac8496cb15ccd913b89dcb2
@@ -41014,7 +41042,8 @@
   rules_text: 'Ignore "Once a Match" on your "Backed by the Grandmachine" Entrance.
 
     You may reveal 1 additional Entrance with "L.F.F." in the name.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 3c3dd387d23740c6ba2fae08f3bd416a
     - 955e6c491ac8496cb15ccd913b89dcb2
@@ -42229,7 +42258,8 @@
   submission: 5
   grapple: 7
   rules_text: When your opponent forces you to bury or discard any number of cards from your hand, your opponent buries the same number of cards from their hand.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
@@ -42248,7 +42278,8 @@
   submission: 5
   grapple: 7
   rules_text: You cannot be prevented from Double Teaming, Saving, rolling Breakout rolls, breaking out, drawing cards, playing cards, or stopping cards.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f989f8c1052d4c44b7fadacff83ad698
     - 52123bba8ed047afbb0f68628d7265a7
@@ -42631,7 +42662,8 @@
   submission: 10
   grapple: 9
   rules_text: 'When you roll Agility for your turn roll: Look at your opponent''s hand, choose 1 card, and put it on top of their deck.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - dbc7b6210a004525acd013fcc293d872
     - 150f2eea8e714e99b703b9092151e8f3
@@ -42698,7 +42730,8 @@
   submission: 10
   grapple: 8
   rules_text: When you roll Submission for your turn roll, your opponent's Gimmick is immediately blanked until the end of this turn roll and their turn roll is -1.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - a34e3f53db5e417ca7c0d0436dd72991
     - f70687bc993448fcb354c27184c42bad
@@ -43295,7 +43328,8 @@
   submission: 5
   grapple: 10
   rules_text: 'Choose you or your opponent: When that player rolls Agility for their turn roll, look at the top 3 cards of your deck.  Add 1 Stop to your hand and bury the others.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 8463f5cf2fe24f7385c512ca6efc912b
     - 119f3f319c414c86a9b02f794f089cf0
@@ -46352,7 +46386,8 @@
   submission: 5
   grapple: 10
   rules_text: 'Once a turn roll: When your opponent rolls 9 or 10 for their turn roll, you may re-roll your turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 5564f531c57d4525b2cb04bc7238e398
     - de2d41184d594ddcb92e9915f762ee12
@@ -46791,7 +46826,8 @@
   submission: 10
   grapple: 9
   rules_text: When your turn roll is at least 5 less than your opponent's, bump instead.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 31c2e1b853d74eeabbd68788a7fa159a
     - 6eb2f60a2ca342a1b79d096e91f9efe1
@@ -46981,7 +47017,8 @@
   submission: 10
   grapple: 5
   rules_text: When your turn roll is at least 2 less than your opopnent's, your next turn roll is +1.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - a9cb06a84ac64e7194ffc8c64c51d74f
     - 4b80eaa3299c4e2eb4929997ffb2b7e1
@@ -47193,7 +47230,8 @@
   submission: 7
   grapple: 6
   rules_text: 'When you roll Power, Agility, or Submission: Your opponent flips 1 card, then you may bury 1 card in your opponent''s discard pile.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 777e1b4942524f30a673528add6a6f95
     - e2d6686f308d4db982585bebeaf2fb64
@@ -48366,7 +48404,8 @@
   submission: 6
   grapple: 7
   rules_text: Your Strike skill is +2 during turn rolls.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - da03344a3a5247c6a7b51c4062d394a0
     - 2158681e57224ab5aaff160c678f416b
@@ -48710,7 +48749,8 @@
   rules_text: 'When you roll Power for your turn roll:
 
     You may re-roll your next turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 3edd63846596493cad8298271e852cd4
     - 3f8d56227d5f4c80acee99d33406188b
@@ -49054,7 +49094,8 @@
   rules_text: 'Choose an opponent.
 
     Once per turn roll: When you and your opponent roll the same skill, add 1 card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 14ae2f662c1b48a69a390a680255c5c7
     - ce5278b7ff324db687fe065bd954c8cd
@@ -50383,7 +50424,8 @@
   submission: 7
   grapple: 8
   rules_text: Your Power, Agility, and Technique skills are +1 when you have a card with "Lariat" or "Clothesline" in play.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 06cab7e5eca242a380398f9bf6e56720
     - 2fefc7e8c86546099219e5a545a97d52
@@ -51912,7 +51954,8 @@
   rules_text: 'When you bump, your opponent discards 1 card instead of drawing.
 
     Once a turn roll: If you would bump, and you bumped on the last turn roll, choose a player to re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 972242fd64d7423487c0bb7104f8613d
     - 89098f19702347379cfcbac9dba4e8e7
@@ -52271,7 +52314,8 @@
   rules_text: 'If your opponent is a Female competitor, their Gimmick is blank.
 
     If not, copy their Gimmick.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - d5a630d855ed4b09acbbc1597b326d99
     - 305a8bffd5134958b3c90b3e7434580d
@@ -52333,7 +52377,8 @@
   submission: 8
   grapple: 7
   rules_text: When you roll Technique for your turn or Finish roll, look at your opponent's hand, choose 1 Follow Up or Finish and bury it.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 964dee9f96954591b3f99f902ab530db
     - bacd2cafd6924678a9738cfa1c9537eb
@@ -52547,7 +52592,8 @@
 
     When they are in your discard pile they have blank text.'
   comments: This character is universally booked in all Project Spider divisions (so it's not technically banned, just not realistically playable for tournament play?).
-  tags: []
+  tags:
+    - T-50 (booked)
   related_finishes:
     - b32c8e6993f944de95147d333f4f7696
     - 2440a8e20bd542e09dafca7cebfc0896
@@ -52785,7 +52831,8 @@
   submission: 10
   grapple: 8
   rules_text: Your cards with "Snap" or "Finger Lock" in the name have the added text, "Your opponent buries 1 random card in their hand." When you have 4 of those cards in play, your opponent's Gimmick is blank.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - bc3c944538654085b6cfb20c5d6ccc96
     - e3ac91b30d4743da8c39cdcbaaf0dc45
@@ -53031,7 +53078,8 @@
   submission: 8
   grapple: 5
   rules_text: When your opponent hits a Submission, you may re-roll your next turn roll; if you do not, draw 1 card.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - bbb10d93263f425998f9384929bf37a5
     - 9b3200185ce943bbbcfdd498b63cc59a
@@ -53947,7 +53995,8 @@
   submission: 5
   grapple: 10
   rules_text: When your opponent uses their Gimmick from a roll, hitting a card, or added text, copy that effect.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - d7eab0f0fa72491d8f30c43868b5b64f
     - e9cb45033e004269b5302680800b1a4a
@@ -55188,7 +55237,8 @@
   submission: 10
   grapple: 9
   rules_text: After your opponent flips any number of cards, they bury 1 card in their hand.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 9d0c5b7d3dd044b7b059e56706ab3e73
     - ed91add38dbc43148538a92c616dd627
@@ -55928,7 +55978,8 @@
   submission: 10
   grapple: 8
   rules_text: Your cards with "Snap" or "Finger Lock" in the name have the added text, "Your opponent buries 1 random card in their hand." When you have 4 of those cards in play; your opponent's Gimmick is blank.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - cb02d0b68eaa4c329b468a34c3c9a536
     - f679e1b1ae774ea194954fcb8f3075a9
@@ -55992,7 +56043,8 @@
   submission: 9
   grapple: 7
   rules_text: Your opponent's maximum hand size is -2 for each card you have in play with "Snap" or "Breaker" in the name.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 1361a182b063486abf28572bd9bcb428
     - 833caf4cac8744cba95551f274025cdf
@@ -56177,7 +56229,8 @@
   submission: 9
   grapple: 7
   rules_text: When you have fewer cards in your hand than your opponent and roll Agility for your turn roll, your opponent buries cards in their hand until they have the same number of cards in their hand as you.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 6e8e6a3fadbc4e51a51c0dec657f1bb6
     - 918da5b3978f4613a2ead327716c4f47
@@ -56659,7 +56712,8 @@
   submission: 5
   grapple: 9
   rules_text: At the start of the match choose an opponent and blank their Gimmick.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 03a94dd8d4bc4e968726c7e75c84a63c
     - fdc036afb3f148188dad6575896642f5
@@ -57096,7 +57150,8 @@
   rules_text: 'Once during your turn roll:
 
     When you and your opponent roll the same skill, you may force them to re-roll and that roll is -1.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f40e2d3134604cc7bb71b9de326f0766
     - 2ee319d937d74b53bad1a7016c3e78aa
@@ -57216,7 +57271,8 @@
   rules_text: 'Once per turn roll:
 
     When a player rolls Power, look at the top 3 cards of their deck, bury 1 and put the others back on top in any order.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - a4ac7b7816c34163b7af024347b423f7
     - 5b13cd05eb764826b0725fd4529f2019
@@ -57942,7 +57998,8 @@
   rules_text: 'When you roll your lowest skill for your turn roll:
 
     During the next turn your opponent''s cards are considered to have blank text (unless you play a Finish card).'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 9531c57bfc85450b85feb6d992cb0020
     - 7e25eb35ef114a8cafbdeb775b4dd8e1
@@ -58285,7 +58342,8 @@
   submission: 10
   grapple: 5
   rules_text: 'When you roll Grapple for your turn roll: Your opponent cannot draw cards until the start of their next turn.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 8d7e3617fe4f4ac7809fabfec353bdbd
     - 45b4377f66d548f2921986518a984392
@@ -59217,7 +59275,8 @@
   submission: 7
   grapple: 6
   rules_text: When your turn roll is 11 or greater, your opponent randomly discards 1 card from their hand.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 2642f5d62cac4e61a5d7d97b920f0c9d
     - 8597ccf3eb3647228e85fed7b752d446
@@ -59357,7 +59416,8 @@
   submission: 10
   grapple: 8
   rules_text: Your Submission skill is +2 during turn rolls.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - f00bd255c5ca4bf39ca497d4a35fe28d
     - 3f105dad14004fb7bac7bfe2195f5db5
@@ -60363,7 +60423,8 @@
   submission: 7
   grapple: 5
   rules_text: 'Once per turn roll: When you roll Agility or Grapple, you may force your opponent to re-roll their turn roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - d856d3905f1744be9ac933082dc122f0
     - a169d4193f754869800b7470e68645bf
@@ -60598,7 +60659,8 @@
   rules_text: 'When your turn roll is at least 3 less than your opponent''s turn roll:
 
     Look at the top 2 cards of your deck, add 1 to your hand, put the other back on top or bury it.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - b8d2707e485e40d08d0f29e5efaa8552
     - c042f762f1a545d082db24282f08e3c2
@@ -60656,7 +60718,8 @@
   submission: 7
   grapple: 8
   rules_text: When you rolled Technique, Agility, or Grapple for your turn roll, and your target won the turn roll, your next turn roll is +2.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 13f953f5083e47c3809878657bc32397
     - 92caeadaad1c473c86a47cbe09de6661
@@ -61814,7 +61877,8 @@
   submission: 5
   grapple: 6
   rules_text: When you have a card with "High" in the name in play, your Power, Technique, and Agility are +1.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 8a0aa5d3a3254f17ac3da53e9faf2d13
     - 6123438277bb40f2bb067f88b48ce2dd
@@ -62630,7 +62694,8 @@
   submission: 9
   grapple: 10
   rules_text: When you roll Technique for your turn roll or Finish roll, you may switch it to Power.
-  tags: []
+  tags:
+    - T-50
   related_cards:
     - 4eecca4ae9e949e5a6f7c251f028b712
   related_finishes:
@@ -63645,7 +63710,8 @@
   submission: 9
   grapple: 7
   rules_text: 'Once per turn roll: When your opponent rolls Strike, you may force them to re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - c9332e574aca4a3eb07c9926b756ae72
     - ff8196ee2611419db18c574156d34301
@@ -64068,7 +64134,8 @@
   submission: 5
   grapple: 10
   rules_text: When you have fewer cards in your hand than your opponent, your Power, Agility, and Technique are +1.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -64085,7 +64152,8 @@
   submission: 5
   grapple: 10
   rules_text: 'When your opponent has a Strike, Submission, and Grapple in play: Your Strike, Submission, and Grapple skills are +1.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -64108,7 +64176,8 @@
     Grapples in play, +1 to Power
 
     Submissions in play, +1 to Technique.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -65224,7 +65293,8 @@
   submission: 6
   grapple: 9
   rules_text: When your opponent rolls Technique for their turn roll, you may bump.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - a5bb3a33f5fa42398706258182ab7bd8
     - 12fb623378014befb2d3463088c682b5
@@ -65821,7 +65891,8 @@
   submission: 6
   grapple: 9
   rules_text: Once on your turn, if you have fewer cards in your hand than your opponent you may draw 1 card.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 3250f420d7364ae6a42f68bd2f4a1fdf
     - d919c8cac4d24238b5ae27086af898fe
@@ -66005,7 +66076,8 @@
   submission: 8
   grapple: 9
   rules_text: 'When you roll Strike for your turn roll: Draw 1 card and your opponent buries 1 card in their hand, then shuffles their deck.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - d3c623bf278a4dfab9b2cd802b28073e
     - 32b8eb30c084490d9c55f0300afab3f4
@@ -66135,7 +66207,8 @@
   submission: 9
   grapple: 6
   rules_text: +1 to Power.
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 6b02a038d22e4c2d9af227d644cd9cb0
     - a8e08f5d32d547d38928536ee4989bb2
@@ -66261,7 +66334,8 @@
   submission: 6
   grapple: 9
   rules_text: 'When you roll Agility for your turn roll: Look at your opponent''s hand, choose 1 Lead and bury it.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 16afb76d9ad84ce691ce8e005ff9afdf
     - 29793603fbc245f38706cad9a8726e1e
@@ -68811,7 +68885,8 @@
   submission: 5
   grapple: 10
   rules_text: 'Once a turn roll, when your turn roll is at least 3 less than your opponent''s: add 1 non-Finish card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - 407e4118737e4f4591bfad143ac0f1e9
     - ca72c89d57d14238bdddc5a70b834d1f
@@ -68878,7 +68953,8 @@
   submission: 7
   grapple: 8
   rules_text: 'Once per turn roll: When your opponent rolls Grapple, you may force them to re-roll.'
-  tags: []
+  tags:
+    - T-50
   related_finishes:
     - e2b430f7b66f495e930e51e3b560fa70
     - fa84d51397c44f62aebd72d001596fc6
@@ -70826,7 +70902,7 @@
   strike: 9
   submission: 7
   grapple: 5
-  rules_text: 'At the start of the match: You may reveal ad additional Scallywag Entrance Ship, or if your opponent has a Scallywag Entrance revealed, copy and blank that card.'
+  rules_text: 'At the start of the match: You may reveal an additional Scallywag Entrance Ship, or if your opponent has a Scallywag Entrance revealed, copy and blank that card.'
   tags: []
   related_finishes:
     - 040232a9ce804e3eb4ea2a25283f6298

@@ -765,7 +765,7 @@
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   srgpc_url: https://www.srgpc.net/cards/competitors/abigail-fairy-in-training/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Intergalactic
   gender: Female
   power: 7
   technique: 10
@@ -30184,7 +30184,7 @@
   db_uuid: 6f4af6fa97ce442c84d1e4a689647bb7
   srgpc_url: https://www.srgpc.net/cards/competitors/d3/
   card_type: SingleCompetitorCard
-  division: Hardcore
+  division: Intergalactic
   power: 8
   technique: 5
   agility: 6
@@ -31159,7 +31159,8 @@
   submission: 5
   grapple: 10
   rules_text: '3 times per match: When your turn roll is exactly 2 less than your opponent''s, you may bump.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 31147ec233364c6b9d0ce86527b78054
     - a01578496fd84636939dff4762da7ca7
@@ -36440,7 +36441,7 @@
   db_uuid: 7349f9255a09467696401a2869c7fa29
   srgpc_url: https://www.srgpc.net/cards/competitors/brett-the-metal-head/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Hardcore
   gender: Male
   power: 8
   technique: 5
@@ -36826,6 +36827,7 @@
   srg_url: https://supershowthegame.com/product/brother-dan/
   srgpc_url: https://www.srgpc.net/cards/competitors/brother-dan/
   card_type: SingleCompetitorCard
+  division: Hardcore
   gender: Male
   power: 7
   technique: 6
@@ -40787,6 +40789,7 @@
   db_uuid: 426cb6e5acba479d81211a14c08f4fda
   srgpc_url: https://www.srgpc.net/competitors/dosmody-the-snowman/
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Male
   power: 9
   technique: 8
@@ -42274,6 +42277,7 @@
 - name: Everyone's Enemy (V2)
   db_uuid: a6edec7629c74333afc0be9086e933d7
   card_type: SingleCompetitorCard
+  division: Intergalactic
   power: 8
   technique: 6
   agility: 10
@@ -42356,6 +42360,7 @@
 - name: Everyone's Enemy (Scallywag)
   db_uuid: a447d6f29dfb49bea3c66717163ca459
   card_type: SingleCompetitorCard
+  division: Intergalactic
   power: 8
   technique: 6
   agility: 10
@@ -42657,6 +42662,7 @@
   db_uuid: 1c3f399dee664720851eb4481be8ebdb
   srgpc_url: https://www.srgpc.net/cards/competitors/fauxtista/
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Male
   power: 8
   technique: 6
@@ -50746,6 +50752,7 @@
 - name: Lissa Langnatt (V2)
   db_uuid: be79480b8275486690374aef3496dbef
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Female
   power: 9
   technique: 5
@@ -52513,7 +52520,8 @@
   submission: 5
   grapple: 8
   rules_text: 'When your opponent rolls 9 or 10 for their turn roll: draw 1 card then bury 1 card in your hand.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 040232a9ce804e3eb4ea2a25283f6298
     - 120a4a3ffc124a21be376a2d5f6df56d
@@ -56963,6 +56971,7 @@
   db_uuid: 9623ba974511425ebabfd5a904786f80
   srgpc_url: https://www.srgpc.net/cards/competitors/ny-phenom/
   card_type: SingleCompetitorCard
+  division: Hardcore
   gender: Male
   power: 10
   technique: 7
@@ -59329,6 +59338,7 @@
 - name: Prince of the Seas Logan Lagoon
   db_uuid: 9327c43c2433458b8957329a05ab6ac3
   card_type: SingleCompetitorCard
+  division: Intergalactic
   power: 7
   technique: 6
   agility: 9
@@ -61752,7 +61762,7 @@
   db_uuid: be895fbbb37448009c28ff251d72b650
   srgpc_url: https://www.srgpc.net/cards/competitors/runtime-terror/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Intergalactic
   gender: Female
   power: 8
   technique: 6
@@ -63469,6 +63479,7 @@
 - name: Sheep of the Era (V2)
   db_uuid: 8d1d99f53cfe444c83ca6e03df7b6084
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Male
   power: 6
   technique: 10
@@ -66149,7 +66160,8 @@
   submission: 7
   grapple: 5
   rules_text: When your opponent buries any number of cards in their hand, your next turn roll is +1.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - df099958fb9943a5a5ad0bb413c324b6
     - cb469e2ad1f44bfba5fefe32a539cb4a
@@ -66757,6 +66769,7 @@
   db_uuid: 62a71945c90d4824bdc4a8887e0f1a2a
   srgpc_url: https://www.srgpc.net/cards/competitors/unique/
   card_type: SingleCompetitorCard
+  division: Hardcore
   gender: Female
   power: 6
   technique: 7
@@ -66765,7 +66778,8 @@
   submission: 10
   grapple: 8
   rules_text: When you stop a card, you may flip 2 cards then shuffle 1 card from your discard pile into your deck.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - d75378d077304e1b819b3a822e03a091
     - 7b14f1df3224430598dd05bc76e7a295
@@ -73756,7 +73770,7 @@
   db_uuid: c7cc2a824fab4b5dad84a3f863605373
   srgpc_url: https://www.srgpc.net/competitor/bruiser-beans/
   card_type: SingleCompetitorCard
-  division: Global
+  division: Hardcore
   gender: Female
   power: 9
   technique: 5
@@ -81909,6 +81923,7 @@
   srg_url: https://supershowthegame.com/product/god-of-madness/
   srgpc_url: https://www.srgpc.net/competitor/god-of-madness/
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Male
   power: 6
   technique: 5
@@ -82382,6 +82397,7 @@
   db_uuid: ba9c71d333aa487b99d13fe537e7dec2
   srg_url: https://supershowthegame.com/product/orchestra-red/
   card_type: SingleCompetitorCard
+  division: Intergalactic
   power: 10
   technique: 7
   agility: 8

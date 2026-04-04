@@ -160,7 +160,7 @@
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-rising-sun/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 5
   technique: 9
@@ -37669,7 +37669,7 @@
   db_uuid: 831eb73c2ab9435794db4413c7e2521b
   srgpc_url: https://www.srgpc.net/cards/competitors/theo-the-greek-neo/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 7
   technique: 5
@@ -37678,7 +37678,8 @@
   submission: 8
   grapple: 10
   rules_text: Once during your turn when you hit a card with "Lock" in the name; draw 1 card or you may play 1 additional card this turn.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - b4f708de247e434db1ca45a745362b12
     - da4e826bbdb94fcd98a0b19ed4e34d36
@@ -38203,7 +38204,7 @@
   srg_url: https://supershowthegame.com/product/cherry-von-danish/
   srgpc_url: https://www.srgpc.net/cards/competitors/cherie-von-danish/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Female
   power: 6
   technique: 10
@@ -42049,7 +42050,7 @@
 - name: Firestarter
   db_uuid: 279f7634d67d4759a912ff9ab8865a4e
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   power: 10
   technique: 5
   agility: 9
@@ -43898,7 +43899,8 @@
   submission: 10
   grapple: 6
   rules_text: When you roll Technique or Grapple for your turn roll, your next turn roll is +1.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 862dfcea091a497d9196c79e1f23c6d4
     - 88529c7c0327402baea3a3a300eb076c
@@ -44216,7 +44218,7 @@
   db_uuid: c3a4f97f97024dc7aba6e6321cf47bd2
   srgpc_url: https://www.srgpc.net/cards/competitors/general-manager-john-calace/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 9
   technique: 7
@@ -44239,7 +44241,7 @@
 - name: General Manager John Calace (V2)
   db_uuid: c4a11e2c1cc1428c82d6c46a4f1f3646
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 9
   technique: 7
@@ -50174,7 +50176,7 @@
   srg_url: https://supershowthegame.com/product/leader-of-the-black-sheep/
   srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-black-sheep/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   gender: Male
   power: 8
   technique: 10
@@ -50183,7 +50185,8 @@
   submission: 7
   grapple: 5
   rules_text: 'When you roll Strike for your turn roll: Shuffle 1 card with "Sheep", "Flock", or "Stun" in the name from your discard pile into your deck and draw 1 card.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 04b507534c4a4b0393bb92fb25f53c2d
     - 8b6fca7ac4f2489d9d469377d6a37184
@@ -54186,7 +54189,8 @@
   submission: 10
   grapple: 6
   rules_text: 'Once during your opponent''s turn: You may reveal 1 card in your hand, shuffle it into your deck, and draw 1 card.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - bba81de85eb34b8399ef81c81c4630c4
     - 0d3f9f79818f4fea97fa3afc157322ad
@@ -54204,7 +54208,8 @@
   submission: 10
   grapple: 6
   rules_text: When your opponent shuffles their deck, draw 2 cards.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - bba81de85eb34b8399ef81c81c4630c4
     - 0d3f9f79818f4fea97fa3afc157322ad
@@ -57293,6 +57298,7 @@
     When a player rolls Power, look at the top 3 cards of their deck, bury 1 and put the others back on top in any order.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - a4ac7b7816c34163b7af024347b423f7
     - 5b13cd05eb764826b0725fd4529f2019
@@ -59827,7 +59833,8 @@
   submission: 6
   grapple: 10
   rules_text: When you roll Agility for your turn roll, draw 1 card and your opponent's next turn roll is -1.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - aeefdfb6835a4e0f863f8307fde32da9
     - 90f44b38e1b94fd7b68f8f93e2863c3b
@@ -64495,7 +64502,8 @@
   submission: 8
   grapple: 7
   rules_text: When you roll Strike or Submission for your turn roll, your next turn roll is +1.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - dc2ccd83babb45c1b44616489c3fe841
     - 8eaa9062ab254dc3a982d360be505977
@@ -68450,7 +68458,7 @@
   db_uuid: 2b02cdb188af4611b79c7a0e616ad692
   srgpc_url: https://www.srgpc.net/cards/competitors/yamatohama/
   card_type: SingleCompetitorCard
-  division: United States
+  division: Underworld
   gender: Male
   power: 10
   technique: 5
@@ -71670,7 +71678,7 @@
   db_uuid: 8ce649bcffc94efbb19e5639e0e76472
   srgpc_url: https://www.srgpc.net/competitor/el-ganso-ruso/
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   gender: Male
   power: 8
   technique: 9
@@ -72503,7 +72511,7 @@
   db_uuid: e515d26515954e709e0f81a86f5231cb
   srgpc_url: https://www.srgpc.net/competitor/hex/
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   gender: Male
   power: 7
   technique: 9
@@ -74802,7 +74810,8 @@
   submission: 8
   grapple: 6
   rules_text: 'Once during any player''s turn: When your opponent adds any number of cards to their hand, draw 1 card.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - deee3ddf48a344adb90d1cea84281c8a
     - 49555c8a04b9488782e57fbef7d34fd1
@@ -75289,7 +75298,7 @@
 - name: The SRG Boss (The Greatest American Who Ever Lived)
   db_uuid: 8f2c00bb6fdd44a4aa6742ddd90650eb
   card_type: SingleCompetitorCard
-  division: United States
+  division: Underworld
   power: 9
   technique: 5
   agility: 6
@@ -75297,7 +75306,8 @@
   submission: 8
   grapple: 7
   rules_text: 'At the start of the match reveal any number of Singles Competitors with the SRG Boss (V1) logo: Choose 1 and add their Gimmick to yours.'
-  tags: []
+  tags:
+    - Hall of Fame
 - name: The Starbreaker
   db_uuid: e9f8f5ac87b046d787401602e5730749
   srg_url: https://supershowthegame.com/product/star-breaker/
@@ -82572,6 +82582,7 @@
 - name: Mayor of the Chain Gang
   db_uuid: 05d2c7245f2048528f7367e5ca8a137e
   card_type: SingleCompetitorCard
+  division: Underworld
   gender: Male
   power: 8
   technique: 10

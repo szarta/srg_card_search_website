@@ -927,6 +927,7 @@
   rules_text: When you would roll 7 for your turn roll, your turn roll is instead +1.
   tags:
     - Old School
+    - Hall of Fame
   related_finishes:
     - a09f74e867e347f18db66908165ba744
     - 65378fd23cc2477fa53666f33d895ad0
@@ -26315,7 +26316,7 @@
   grapple: 7
   rules_text: After you flip 2 or more cards, bury 1 of the flipped cards or draw 2 cards and bury 1 card in your hand.
   tags:
-    - Old School
+    - Hall of Fame
   related_finishes:
     - 33081eaf7cdc4e96b2a3366631b75822
     - 315dae6943f74b86b1f467989bdadc70
@@ -35250,6 +35251,7 @@
   rules_text: When you stop a Finish, draw 2 cards.
   tags:
     - Old School
+    - Hall of Fame
   related_finishes:
     - f02565238a94440f9af980dae8c1f441
     - 0bca2acefbba4e2a9202449291868311
@@ -37019,7 +37021,8 @@
   submission: 5
   grapple: 8
   rules_text: When your opponent hits a card, your Power is +2 until the end of the next turn roll.
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - a42d06a42cbe49d2b9bd9b646d5642b9
     - bd1f0be117454e37a12f2cf12469c99f
@@ -37079,7 +37082,9 @@
   submission: 8
   grapple: 7
   rules_text: You may reveal 6 cards in your hand and randomly bury them to stop any card played against you.
-  tags: []
+  tags:
+    - Old School
+    - Hall of Fame
   related_finishes:
     - 9a1a53eaec6244aaa7f6073137b19344
     - 256d671f7e4e4cc885841fa0e26d7b0e
@@ -37265,7 +37270,8 @@
   submission: 6
   grapple: 10
   rules_text: 'Your Stop cards with "DDT" in the name have the added text: "Stop any Finish Submission".'
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - ccacfddded574bdcae3248b1c6c4c245
     - 9da2a54f40a74f0ba000e5a42d9df87b
@@ -48058,8 +48064,7 @@
   submission: 7
   grapple: 6
   rules_text: 'Ignore the word "Finish" in the text of your "Superman Punch". Those cards are also #13 and #19. "Superman Punch" is also a Follow Up if you have another "Superman Punch" in play.'
-  tags:
-    - Old School
+  tags: []
   related_finishes:
     - 560396b093274802ab7c60517301ee70
     - 80edadbc3526405aa393d4872323117c
@@ -53766,7 +53771,8 @@
   submission: 5
   grapple: 7
   rules_text: When your opponent stops a card, they randomly reveal 1 card in their hand; if it is a Stop, they discard it.
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - 989987059da54195be1f9dd7c83bed4b
     - bc4ff3de664e48b58889f70bb1298218
@@ -62814,7 +62820,8 @@
   submission: 10
   grapple: 9
   rules_text: When you hit a card with "Cat" or "Tiger" in the name, add 1 Grapple from your discard pile to your hand or your next turn roll is +1.
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - ccf4372da41e4476a3fab042e325aebb
     - 0594926c6a18466ba9145d843f9ee27f
@@ -69324,7 +69331,8 @@
   rules_text: '3 Times Per Match:
 
     When your opponent would play a Finish against you, your opponent cannot play a Finish against you this turn instead.'
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - 361704afcd9e4ba6bc204db30252de31
     - 90917cc937924e419d9f2ef214bccaf2
@@ -71536,6 +71544,7 @@
   rules_text: When your target's turn roll is 10 or greater, you may re-roll your next turn roll.
   tags:
     - Super Lucha
+    - Hall of Fame
   related_finishes:
     - dc66b32f2ac94aad92342b38f5d685f9
     - de1c42424251467a8e9482c133441a67
@@ -74475,7 +74484,8 @@
   submission: 6
   grapple: 10
   rules_text: 'Once per turn roll: When you would bump, you may discard 1 Lead you have in play to add +1 to your turn roll instead.'
-  tags: []
+  tags:
+    - Old School
   related_finishes:
     - 702a84ff557244c79b427f838f143fea
     - 2a8b395cd9bd47f4a72b66471574d331

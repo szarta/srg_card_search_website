@@ -14247,6 +14247,14 @@
   tags: []
   wants_keywords:
     - Chain
+- name: Ax Bomber
+  db_uuid: 8854c55820e44dc3a031cede7af0289a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: If you have another Follow Up in play, draw 1 card or add 1 Strike from your discard pile to your hand.
+  tags: []
 - name: A Powerful Impact
   db_uuid: add3a3df0dfc4f31a300804f64faaf77
   srgpc_url: https://www.srgpc.net/cards/16/a-powerful-impact/
@@ -20720,6 +20728,16 @@
   rules_text: 'Add 1 card from your discard pile to your hand.
 
     Your tag team partner adds 1 card from their discard pile to their hand.'
+  tags: []
+- name: Baseball Bat & Thumbtacks
+  db_uuid: 52202964693645858779371d94ccd202
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Shuffle up to 5 cards from your discard pile into your deck.
+
+    The next time you would lose a turn roll, you may force your opponent to re-roll their turn roll and their roll is -1.'
   tags: []
 - name: A Wolf in Sheep's Clothing
   db_uuid: c0c080c6aef243c18c6415af69470150
@@ -79358,6 +79376,16 @@
 
     If stopped, you lose the match via disqualification.'
   tags: []
+- name: Barbed Wire Baseball Bat
+  db_uuid: a90fabe533534842b6b665cb8fefa642
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Shuffle up to 5 cards from your discard pile into your deck.
+
+    The next time you would bump, your turn roll is instead +1.'
+  tags: []
 - name: Alley-Oop
   db_uuid: 77a600d8c7b345a787ffa45201d4eea6
   srgpc_url: https://www.srgpc.net/cards/23/alley-oop/
@@ -81060,6 +81088,16 @@
   db_uuid: dae3b3218c1d44a8a9661a36f1836f8f
   card_type: EntranceCard
   rules_text: Finishes with "Cannot Breakout" in the text instead have blank text.
+  tags: []
+- name: Thumbtacks in Barbed Wire
+  db_uuid: b36e240f7ea640a19e5a0581fb2ead52
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Shuffle up to 5 cards from your discard pile into your deck.
+
+    The next time you would lose a turn roll, you may re-roll your turn roll and your roll is +1.'
   tags: []
 - name: Stomp Your Block Off (Strike)
   db_uuid: 7427d162ea8b47cfb667db3694fd70fd

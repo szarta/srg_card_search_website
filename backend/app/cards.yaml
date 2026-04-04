@@ -24,6 +24,70 @@
   comments: ''
   release_set: Unknown
   tags: []
+- name: Soborno
+  db_uuid: aebe9e8baa0046ddbde13690b7c18455
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 7
+  rules_text: When you roll Strike, Grapple, or Submission for your turn roll, you may discard a card of that move type and your turn roll is +1.
+  tags:
+    - Super Lucha
+  related_finishes:
+    - e5ff1a81186d437cbd28c6d54db9f441
+    - 60fb5d2078ba403fbcfbbd24064b3000
+    - 675a40b9718e43b094fa0ef40ae697e0
+- name: Coin Flip
+  db_uuid: e5ff1a81186d437cbd28c6d54db9f441
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +3 to Submission
+
+    +2 to Grapple
+
+    If you roll Power, Technique, or Agility for your Finish roll, your Finish roll is 7.
+
+    Draw 1 card.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - aebe9e8baa0046ddbde13690b7c18455
+- name: Dollar Driver
+  db_uuid: 60fb5d2078ba403fbcfbbd24064b3000
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    If you roll Strike, Submission, or Grapple: You may discard up to 2 cards of that move type, and your Finish roll is +1 for each card discarded.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - aebe9e8baa0046ddbde13690b7c18455
+- name: El Cochinito
+  db_uuid: 675a40b9718e43b094fa0ef40ae697e0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Your Power is +1 for each card in your hand greater than 5 (Max +5).'
+  tags:
+    - Super Lucha
+  related_cards:
+    - aebe9e8baa0046ddbde13690b7c18455
 - name: El Toro Guapo
   db_uuid: 271b524616d04a08b7c95d67515e2599
   card_type: SingleCompetitorCard
@@ -83533,6 +83597,16 @@
   rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
 
     This card counts as 2 Follow Up Submissions in play.'
+  tags: []
+- name: The Internet Championship
+  db_uuid: bf2127c98b074541917f396058f7a3a0
+  card_type: EntranceCard
+  rules_text: At the start of the match, look at the top 4 cards of your deck; put any of them back on the top or bottom of your deck in any order. If your opponent does not have The Internet Championship revealed, draw 1 card.
+  tags: []
+- name: Make a Spectacle with Mr. Poppintwist
+  db_uuid: 04d0656602ef4914bd197e7da900c17d
+  card_type: EntranceCard
+  rules_text: Your first turn roll is +1 for each signature on this card (Max +3).
   tags: []
 - name: Having the Holiday Spirit
   db_uuid: 6e80f776a46e41229f637f7c379ba22f

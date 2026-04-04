@@ -3270,6 +3270,14 @@
 
     Add 1 Grapple and 1 Strike from your discard pile to your hand, or draw 1 card.'
   tags: []
+- name: Kneeling Chin Hold
+  db_uuid: 53fed339ac5c44a68c252187ab183a5d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: If you have another Follow Up in play, draw 1 card or add 1 Submission from your discard pile to your hand.
+  tags: []
 - name: Cat Scratch
   db_uuid: e8d2328e6e114b2ead86a2e97a6b4abc
   srg_url: https://supershowthegame.com/product/18-cat-scratch/
@@ -4169,6 +4177,14 @@
   related_cards:
     - 37f9036514b94c4b82fefbb482b5a1a9
     - ee1179b3778240f09d9cd167420d9e1f
+- name: Manhattan Drop
+  db_uuid: e814cd0fffe1425289b7749040285e80
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: If you have another Follow Up in play, draw 1 card or add 1 Grapple from your discard pile to your hand.
+  tags: []
 - name: Armageddon (Grapple)
   db_uuid: f367e0909b42409fa03fc3eb66df8c63
   srg_url: https://supershowthegame.com/product/17-armageddon/

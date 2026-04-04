@@ -28469,7 +28469,8 @@
   submission: 7
   grapple: 5
   rules_text: At the start of the match draw 3 cards.  Your first turn roll is +3.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 2f47142a4931482fb7726c047f846591
     - f114765fcd3647bdbf92ffe18bd91b80
@@ -36882,6 +36883,7 @@
   db_uuid: 6812bd4569e741bf811f9e6eaca8f7a2
   srgpc_url: https://www.srgpc.net/cards/competitors/cabana-man-dan/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 5
   technique: 6
@@ -37575,7 +37577,7 @@
   db_uuid: b339f906c69c4183b699037dffd6cfa1
   srg_url: https://supershowthegame.com/product/steel-wool/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Global
   gender: Male
   power: 9
   technique: 5
@@ -38446,6 +38448,7 @@
   db_uuid: 75d2cf5b748242309bab0d36c57360f9
   srgpc_url: https://www.srgpc.net/cards/competitors/chip-day/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 6
   technique: 7
@@ -48320,7 +48323,7 @@
   db_uuid: a65f29782caf41678005bafaf83802cc
   srgpc_url: https://www.srgpc.net/cards/competitors/kenny-omega/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Global
   gender: Male
   power: 5
   technique: 8
@@ -50222,6 +50225,7 @@
   db_uuid: 0fe383c8e4fe4083bb11149f4564a081
   srgpc_url: https://www.srgpc.net/competitors/leader-of-the-unit-jt-dunn/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 7
   technique: 9
@@ -55575,6 +55579,7 @@
   db_uuid: 6956220082814555af99c5fe19c96635
   srgpc_url: https://www.srgpc.net/competitor/jurassic-juggernaut/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 10
   technique: 5
@@ -60587,7 +60592,7 @@
   db_uuid: be4591ac738748c29cf9fef3179e6c94
   srgpc_url: https://www.srgpc.net/cards/competitors/ricochet/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Global
   gender: Male
   power: 6
   technique: 9
@@ -60596,7 +60601,8 @@
   submission: 5
   grapple: 9
   rules_text: After you flip any number of cards, draw 1 card.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 1229394321584078bb29c3d96b8f4ecc
     - f722667dfb484068aa2e5fc944a2e6fd
@@ -80889,6 +80895,7 @@
   db_uuid: 5c50247e9da54a7f9c39315f0707c497
   srg_url: https://supershowthegame.com/product/gangrel/
   card_type: SingleCompetitorCard
+  division: Global
   power: 9
   technique: 7
   agility: 5
@@ -82295,6 +82302,7 @@
   db_uuid: ecff166768cf4de8a4bf68f0692529bd
   srg_url: https://supershowthegame.com/product/ace-diamond/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 8
   technique: 7
@@ -83002,6 +83010,7 @@
 - name: Indi Hartwell
   db_uuid: 09d3371999ae456eb35d7a9b5658958e
   card_type: SingleCompetitorCard
+  division: Global
   gender: Female
   power: 9
   technique: 7
@@ -83624,6 +83633,7 @@
 - name: Killer Kelly
   db_uuid: d22f300a2da6416b9dc580d04a8374df
   card_type: SingleCompetitorCard
+  division: Global
   gender: Female
   power: 8
   technique: 7
@@ -83640,6 +83650,7 @@
 - name: Myron Reed
   db_uuid: 15780ea434644deb837025c723801a38
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 7
   technique: 8
@@ -83705,6 +83716,7 @@
   db_uuid: 046b4763c6b34f79aadd93e0e36412f9
   srg_url: https://supershowthegame.com/product/paul-walter-hauser/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 9
   technique: 5
@@ -83776,6 +83788,7 @@
   db_uuid: 9250669c660241358c53355906796a66
   srg_url: https://supershowthegame.com/product/bde/
   card_type: SingleCompetitorCard
+  division: Global
   gender: Male
   power: 5
   technique: 6
@@ -83865,3 +83878,61 @@
   tags: []
   related_cards:
     - 118a839bd2574376acc5489f6ef6e9c3
+- name: Brian Myers
+  db_uuid: 6fb339329f8742adace2dcaca0b0c0e1
+  srgpc_url: https://www.srgpc.net/competitor-brian-myers/
+  card_type: SingleCompetitorCard
+  division: Global
+  gender: Male
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 8
+  rules_text: 'When your opponent hits a card: If they do not have another card with the same move type in play, draw 1 card.'
+  tags: []
+  related_finishes:
+    - 2dd7acb181ec4e77a4e2f204c93c25de
+    - a020f149790a4f4d970ee34b5cde0cf3
+    - 3f93b208b84d49b4942cc1bf2715c40c
+- name: Heat-Seeking Elbow
+  db_uuid: 2dd7acb181ec4e77a4e2f204c93c25de
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    Draw 1 card for each move type your opponent has in play.'
+  tags: []
+  related_cards:
+    - 6fb339329f8742adace2dcaca0b0c0e1
+- name: Major Spear
+  db_uuid: a020f149790a4f4d970ee34b5cde0cf3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Grapple
+
+    Your opponent gets 1 Breakout roll this turn; For each move type they have in play, they get 1 additional Breakout roll (max +2).'
+  tags: []
+  related_cards:
+    - 6fb339329f8742adace2dcaca0b0c0e1
+- name: Roster Cut
+  db_uuid: 3f93b208b84d49b4942cc1bf2715c40c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 6fb339329f8742adace2dcaca0b0c0e1

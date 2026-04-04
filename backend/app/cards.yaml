@@ -487,7 +487,8 @@
   grapple: 7
   rules_text: When you roll Power for your turn roll draw 2 cards.
   release_set: Unknown
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - b36a163260f2481b9fe93ca951a27f8a
     - 6b71fa12b14c4464bbad53ad3995915d
@@ -2737,6 +2738,7 @@
   rules_text: 'Once per turn roll: When you roll Strike, Submission, or Grapple, reveal the top card of your deck.  If the move type matches the rolled skill, add it to your hand.  If not, you may flip it.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - e22393623b474346a39e93dae92f620d
     - af7fb58dea1c4a499ed16767c916ec08
@@ -4107,6 +4109,7 @@
   rules_text: When you roll Power for your turn roll, draw 1 card and your opponent buries 1 card in their hand.
   tags:
     - T-50
+    - Hall of Fame
   related_cards:
     - ee1179b3778240f09d9cd167420d9e1f
   related_finishes:
@@ -4196,6 +4199,7 @@
   rules_text: 'Once per turn roll: When your opponent''s turn roll is at least 3 greater than your turn roll, your next turn roll is +2.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - b03d33e83bb84557a074ba00c42974a3
     - 9d528129fcb841e6b0e0006fedbe07c6
@@ -4325,6 +4329,7 @@
   tags:
     - Old School
     - T-50
+    - Hall of Fame
   related_finishes:
     - a7b8fd24d8714c8b832ddc8f2d34ccc4
     - 0713670115ea4923acd28a226a8f7c3f
@@ -23505,7 +23510,8 @@
   submission: 5
   grapple: 7
   rules_text: +1 Agility on turn rolls.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 336fecf3b6564bd88b0cdd2f1b92b354
     - 14bcf3aca242404cb309594e2bbb2d7b
@@ -23986,7 +23992,8 @@
   submission: 10
   grapple: 6
   rules_text: Your Grapple skill is +1 for each card you have in your discard pile with "Buster" or "Call" in the name (Max +2).
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - db514f39965c4affa3127cd9eb032e07
     - 2295359c44694120b2708595f6c91168
@@ -29429,7 +29436,8 @@
   submission: 7
   grapple: 6
   rules_text: When your opponent rolls 8 or 9 for their turn roll, their next turn roll is -1.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - c1e5f2dbbfc149e99706589c364441b2
     - 1419effdf26c4bee8a5daa98af6b928e
@@ -44429,7 +44437,8 @@
   submission: 7
   grapple: 9
   rules_text: When you Stop a card draw 1 card.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - d63a8570cfc249ba80ecb9bcd700c040
     - 941e4585235a4778a8f11791502d94fc
@@ -47177,7 +47186,7 @@
   db_uuid: c79de6acd1954441970f9b1901a55e01
   srgpc_url: https://www.srgpc.net/cards/competitors/johnny-t/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 9
   technique: 6
@@ -51879,7 +51888,8 @@
   submission: 8
   grapple: 9
   rules_text: Once a turn roll, if your opponent won the last turn roll, you may have your opponent re-roll their turn roll.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - a091ae67a3f04efc91322bd1170d0279
     - ff0ac97f72cf46b4a4861e37f540e231
@@ -52398,6 +52408,7 @@
   rules_text: When you roll Technique for your turn or Finish roll, look at your opponent's hand, choose 1 Follow Up or Finish and bury it.
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - 964dee9f96954591b3f99f902ab530db
     - bacd2cafd6924678a9738cfa1c9537eb
@@ -56374,7 +56385,8 @@
   submission: 6
   grapple: 8
   rules_text: 'When you roll 6 for your turn roll: Add 1 "MVP" Finish from your discard pile to your hand or your opponent''s next turn roll is -1.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 1ed871b04c5943a4b9a469b794ccf8d0
     - c0a766b077e34b1f9bdcb03b4b998d24
@@ -60690,6 +60702,7 @@
     Look at the top 2 cards of your deck, add 1 to your hand, put the other back on top or bury it.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - b8d2707e485e40d08d0f29e5efaa8552
     - c042f762f1a545d082db24282f08e3c2
@@ -61225,7 +61238,8 @@
   submission: 9
   grapple: 6
   rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -61245,7 +61259,8 @@
   submission: 10
   grapple: 6
   rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -61265,7 +61280,8 @@
   submission: 9
   grapple: 6
   rules_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -62091,7 +62107,8 @@
   submission: 8
   grapple: 6
   rules_text: Your cards with "Death", "Dive", or "Chair" in the name have the added text "Draw 2 cards."
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 6ce2528d7e164b64be745bc7922bb564
     - 8fcb804d0aed4d0fa0180724ccd82a92
@@ -64167,6 +64184,7 @@
   rules_text: When you have fewer cards in your hand than your opponent, your Power, Agility, and Technique are +1.
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -64185,6 +64203,7 @@
   rules_text: 'When your opponent has a Strike, Submission, and Grapple in play: Your Strike, Submission, and Grapple skills are +1.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -64209,6 +64228,7 @@
     Submissions in play, +1 to Technique.'
   tags:
     - T-50
+    - Hall of Fame
   related_finishes:
     - ceb7539d7d62404dbfedfcd5afbce48b
     - 171fb89bc21b4c47bac16ccb8ad12c88
@@ -64390,7 +64410,7 @@
   db_uuid: 3f3f8b5b536443bb8552f182a2bf9fa0
   srgpc_url: https://www.srgpc.net/cards/competitors/split/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   gender: Male
   power: 9
   technique: 5
@@ -71349,7 +71369,8 @@
   rules_text: 'You cannot be disqualified.
 
     When you hit a card with "Disqualification" in the text, draw 2 cards.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 96925c47a74240b3b5d628e72c7668df
     - 96cb6e7c88a34b43ac8d9de699f50b69
@@ -74234,7 +74255,7 @@
   db_uuid: ceb9126b162c4be69b9291c088d3fe5b
   srg_url: https://supershowthegame.com/product/mr-hyde-halloween-competitor/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 5
   technique: 10
   agility: 9
@@ -74244,7 +74265,8 @@
   rules_text: 'Once per turn or turn roll:
 
     You may shuffle 1 card with "Potion" in the name that you have in play into your deck to re-roll any roll.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - c65477a3c86f437a8469c402ba30fd30
     - ae3ba8f49b6b4c12a97c7df4ff2dfcea
@@ -80459,7 +80481,7 @@
 - name: Snake Pitt (Super Lucha)
   db_uuid: a9e25560225244d3accd57034587220b
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 6
   technique: 8
   agility: 7
@@ -81425,6 +81447,7 @@
   db_uuid: c9c7ebf148884c038fa00763434c6244
   srg_url: https://supershowthegame.com/product/tortured-vigilante/
   card_type: SingleCompetitorCard
+  division: World Championship
   power: 7
   technique: 6
   agility: 9
@@ -81793,7 +81816,7 @@
 - name: Baby Chaos
   db_uuid: 1cad80cc73cc4b2bbb099e3cc31c97f6
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: World Championship
   power: 7
   technique: 5
   agility: 6
@@ -81803,6 +81826,7 @@
   rules_text: When you roll 5 for your turn roll, your opponent's turn roll is -2.
   tags:
     - Super Lucha
+    - Hall of Fame
   related_finishes:
     - 54e237b5fa2c48739c038b97a94f6fc5
     - 0f362dba758c42f3a052ff884b43c6ba
@@ -83142,6 +83166,7 @@
 - name: Nic Nemeth
   db_uuid: 192be5ede94a4727b1865fcdd845743f
   card_type: SingleCompetitorCard
+  division: Underworld
   gender: Male
   power: 6
   technique: 10

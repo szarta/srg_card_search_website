@@ -84126,3 +84126,69 @@
   tags: []
   related_cards:
     - 6fb339329f8742adace2dcaca0b0c0e1
+- name: Smart Mark Sterling
+  db_uuid: a9091bdff29143e3a4352eb281739624
+  card_type: SingleCompetitorCard
+  division: Global
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 6
+  submission: 8
+  grapple: 9
+  rules_text: 'During your turn roll:
+
+    When you roll Technique: Choose odd or even and reveal the top or bottom card of your deck; if it matches the number parity, add it to your hand, if not, you may bury it.'
+  tags: []
+  related_finishes:
+    - 2208f798086442dabc4dd297783354d6
+    - 3f7967b8bb2f4bd79ce7279622c72344
+    - 289dbe666c1e482b8648655046f76938
+- name: Objection!
+  db_uuid: 2208f798086442dabc4dd297783354d6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +2 to Strike
+
+    Stop any Finish Grapple.
+
+    If stopped, you lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - a9091bdff29143e3a4352eb281739624
+- name: The Indictment
+  db_uuid: 3f7967b8bb2f4bd79ce7279622c72344
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    +1 to Grapple
+
+    +1 to Agility for each card your opponent has in play (Max +3).'
+  tags: []
+  related_cards:
+    - a9091bdff29143e3a4352eb281739624
+- name: The Closing Statements
+  db_uuid: 289dbe666c1e482b8648655046f76938
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    This card is also a Grapple and an odd number for your effects.'
+  tags: []
+  related_cards:
+    - a9091bdff29143e3a4352eb281739624

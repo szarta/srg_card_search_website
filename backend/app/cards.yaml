@@ -84192,3 +84192,67 @@
   tags: []
   related_cards:
     - a9091bdff29143e3a4352eb281739624
+- name: Specialties 4 Hire Jeffrey Alan
+  db_uuid: 888d8910c06e4c428626a5da62f28582
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 8
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 6
+  grapple: 7
+  rules_text: 'When you roll Submission for your turn roll, choose a card #: Your target randomly reveals 2 cards in their hand; if they reveal the chosen card #, they discard it.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - b3d69c150187488fa5abf229b86809a5
+    - 84bc3e347ae34254b610fca5615606cb
+    - c9ec08691dde4a48890fe4eb70d067c3
+- name: Idaho Potato Drop!
+  db_uuid: b3d69c150187488fa5abf229b86809a5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 888d8910c06e4c428626a5da62f28582
+- name: Sitout Chokeslam!
+  db_uuid: 84bc3e347ae34254b610fca5615606cb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    +2 to Grapple
+
+    Your opponent randomly reveals 2 cards in their hand, choose 1 and discard it.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 888d8910c06e4c428626a5da62f28582
+- name: The Sleeper Hold!
+  db_uuid: c9ec08691dde4a48890fe4eb70d067c3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    For the rest of the match, when your opponent reveals a card for your Gimmick, they reveal 2 additional cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 888d8910c06e4c428626a5da62f28582

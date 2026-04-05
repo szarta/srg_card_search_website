@@ -1671,6 +1671,13 @@
     - 749f53f3b17942139d09aa4a05ca90a9
     - 9327c43c2433458b8957329a05ab6ac3
     - 19c81a08844f41168571930dd9142b4d
+- name: Calling in Kanik
+  db_uuid: 043060c38ea24c07a361760340332804
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    If your Finish roll is 6 or less, it is +2.'
+  tags: []
 - name: The Royal Family's Own Tyler Rich
   db_uuid: f106ad353db54acb87774bc79eaffae0
   card_type: EntranceCard
@@ -65184,7 +65191,7 @@
   wants_keywords:
     - Al13n
     - Cosmic
-- name: Swoggle
+- name: Swoggle (V1)
   db_uuid: 3076e579ea384f008e9bc0db1b62dd57
   card_type: SingleCompetitorCard
   division: Global
@@ -65201,6 +65208,69 @@
     - dcca50df702d497597baef30ad1f1e96
     - 81277a95632d49bebe84cab503dd34a1
     - 5339bea938ca4ca39d90d472e0a05730
+- name: Swoggle (V2)
+  db_uuid: d173063d5bcb4dadb5c32b4a80e5ad10
+  card_type: SingleCompetitorCard
+  division: Global
+  gender: Male
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 8
+  submission: 6
+  grapple: 9
+  rules_text: 'Once per match:
+
+    You may force your opponent to re-roll their Finish roll; that roll is -1. Your "Low Blow" is also card #01 and #07.'
+  tags: []
+  related_finishes:
+    - 3747de1858eb4f9c913bf87be95b36e4
+    - d614788bbf914d7a9a81476f2b3db69a
+    - 4ce01786ac2544e488d4ab52bd6e36c1
+- name: Leprechaun Bomb
+  db_uuid: 3747de1858eb4f9c913bf87be95b36e4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Strike
+
+    When this card is in your discard pile and your opponent re-rolls, or you hit "Low Blow", add this card to your hand.'
+  tags: []
+  related_cards:
+    - d173063d5bcb4dadb5c32b4a80e5ad10
+- name: Swoggle Crusher
+  db_uuid: d614788bbf914d7a9a81476f2b3db69a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Strike
+
+    +1 to Submission
+
+    If you broke out last turn, or you have "Low Blow" in play, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - d173063d5bcb4dadb5c32b4a80e5ad10
+- name: Stink Face
+  db_uuid: 4ce01786ac2544e488d4ab52bd6e36c1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    If you roll Technique for your Finish roll; your opponent randomly buries their hand.
+
+    Your Finish roll is +1 for each "Low Blow" you have in play.'
+  tags: []
+  related_cards:
+    - d173063d5bcb4dadb5c32b4a80e5ad10
 - name: Tadpole Splash
   db_uuid: dcca50df702d497597baef30ad1f1e96
   card_type: MainDeckCard

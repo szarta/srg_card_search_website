@@ -84502,3 +84502,74 @@
   tags: []
   related_cards:
     - 5d4860d52ea44637ae58ec96c421d362
+- name: Presidential Gal Al
+  db_uuid: 5d4860d52ea44637ae58ec96c421d362
+  card_type: SingleCompetitorCard
+  division: United States
+  power: 8
+  technique: 9
+  agility: 5
+  strike: 7
+  submission: 6
+  grapple: 10
+  rules_text: When you hit a card with "America" or "Union" in the name, your opponent cannot play a Lead during their next turn.
+  tags: []
+  wants_keywords:
+    - America
+    - Union
+  related_finishes:
+    - 9e1bfcf231b14dfb8dfc0f9705c7c7b4
+    - cd82ad3f007948f29c7cb381dd04f9b1
+    - e2128540d7bc4467a419142f3f78dea4
+- name: State of the Union
+  db_uuid: 9e1bfcf231b14dfb8dfc0f9705c7c7b4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    If you have 3 other cards in play with "Union" in the name, your opponent gets 1 fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362
+  wants_keywords:
+    - Union
+- name: Founders' Rememberance
+  db_uuid: cd82ad3f007948f29c7cb381dd04f9b1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Strike
+
+    +1 to Submission
+
+    Search your deck or discard pile for up to 3 cards with "America" or "Union" in the name; put 1 in your hand, 1 on top of your deck, and bury the other.'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362
+  wants_keywords:
+    - America
+    - Union
+- name: Did It Better at the Podium
+  db_uuid: e2128540d7bc4467a419142f3f78dea4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Agility
+
+    Shuffle all cards with "America" or "Union" in the name from each player''s discard pile into their deck.
+
+    Each player draws 1 card.'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362
+  wants_keywords:
+    - America
+    - Union

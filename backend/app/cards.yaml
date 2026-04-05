@@ -84256,3 +84256,69 @@
     - Super Lucha
   related_cards:
     - 888d8910c06e4c428626a5da62f28582
+- name: Kheezy McKheezy
+  db_uuid: 6f09a90f8a1a49e190ea4cae1f5fe6d6
+  card_type: SingleCompetitorCard
+  division: Super Lucha
+  power: 9
+  technique: 7
+  agility: 5
+  strike: 10
+  submission: 8
+  grapple: 6
+  rules_text: 'During the turn roll: You may discard a card from your hand to immediately blank your opponent''s Gimmick.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - 166b0998a615405b8d1a7c6301c61e22
+    - 241b197763454dc7a3938b8f2f163c9f
+    - 4ce03d25e105431c9ea60bae62135d81
+- name: Lindbergh Cheese Splash!
+  db_uuid: 166b0998a615405b8d1a7c6301c61e22
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +4 to Agility
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 6f09a90f8a1a49e190ea4cae1f5fe6d6
+- name: Fondue Pool of Death!
+  db_uuid: 241b197763454dc7a3938b8f2f163c9f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +3 to Grapple
+
+    Each time your opponent rolls for a Breakout roll, draw 1 card.
+
+    If your opponent rolled their 3rd breakout roll: add 1 card from your discard pile to your hand.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 6f09a90f8a1a49e190ea4cae1f5fe6d6
+- name: Stink Pitt!
+  db_uuid: 4ce03d25e105431c9ea60bae62135d81
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +3 to Agility
+
+    Your opponent discards cards from their hand equal to the Crowd Meter +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 6f09a90f8a1a49e190ea4cae1f5fe6d6

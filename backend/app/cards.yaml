@@ -84448,3 +84448,57 @@
   tags: []
   related_cards:
     - 5974c52a325c4776a969c3fe92751d3e
+- name: Ultra Dracula
+  db_uuid: 5d4860d52ea44637ae58ec96c421d362
+  card_type: SingleCompetitorCard
+  division: Intergalactic
+  power: 10
+  technique: 6
+  agility: 9
+  strike: 7
+  submission: 8
+  grapple: 5
+  rules_text: 'You are class Summoner, unblank your "Skill Requirement: Submission 10+, Technique 9+" cards.
+
+    When hit: Your opponent''s cards with "Bat", "Chain", "Chair", "Cut", "Fire", "Stick", "Table", "Tack", "Tubes", or "Wire" in the name have blank text.'
+  tags: []
+  related_finishes:
+    - 41c83e5da1b749f6879099fbbee2676f
+    - 591e4a25f48e4d2684d02dc9c786b5f3
+    - 61b05c4b1dd84a50a40279227f3a428c
+- name: Tear in Half
+  db_uuid: 41c83e5da1b749f6879099fbbee2676f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+10 to Power
+
+    Your opponent buries half their hand, flips half their deck, and their 1st Breakout roll is halved (all rounded up).'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362
+- name: Gravestone DDT
+  db_uuid: 591e4a25f48e4d2684d02dc9c786b5f3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +3 to Grapple'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362
+- name: Swarm of Rats
+  db_uuid: 61b05c4b1dd84a50a40279227f3a428c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent''s 1st Breakout roll is -1 for each other card you have in play.
+
+    Your opponent''s 2nd Breakout roll is -1 for each card they have in play.'
+  tags: []
+  related_cards:
+    - 5d4860d52ea44637ae58ec96c421d362

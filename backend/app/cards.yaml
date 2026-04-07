@@ -54312,6 +54312,8 @@
     - 0d3f9f79818f4fea97fa3afc157322ad
     - 23f349f3569b433bbe7d11ac2507f744
     - e6625519e94d4ec1972993c60c9b2bec
+    - 99e9abaa3ace456bb81c8d7880d72283
+    - 62feb996f5b34704b36b0b3edfceaa57
 - name: Memes Dealer (V2)
   db_uuid: c6cea4fe18774ca5a4f879c8a243821a
   card_type: SingleCompetitorCard
@@ -54331,6 +54333,8 @@
     - 0d3f9f79818f4fea97fa3afc157322ad
     - 23f349f3569b433bbe7d11ac2507f744
     - e6625519e94d4ec1972993c60c9b2bec
+    - 99e9abaa3ace456bb81c8d7880d72283
+    - 62feb996f5b34704b36b0b3edfceaa57
 - name: Drop the Ban Hammer
   db_uuid: bba81de85eb34b8399ef81c81c4630c4
   card_type: MainDeckCard
@@ -54383,6 +54387,40 @@
   rules_text: '+2 to Technique
 
     If stopped, your opponent''s Gimmick is blank until the Crowd Meter increases.'
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
+- name: Arthur Fist
+  db_uuid: 99e9abaa3ace456bb81c8d7880d72283
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    Look at your opponent''s hand, choose 1 card, and shuffle it into their deck.'
+  tags: []
+  related_cards:
+    - 2812975b494f480eb69153836f76e68a
+    - c6cea4fe18774ca5a4f879c8a243821a
+- name: Grumpy Cat Nips
+  db_uuid: 62feb996f5b34704b36b0b3edfceaa57
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    Roll your Finish roll twice:
+
+    Take the average of the 2 results (rounded up).
+
+    Your opponent shuffles their deck.'
   tags: []
   related_cards:
     - 2812975b494f480eb69153836f76e68a

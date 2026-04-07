@@ -12817,7 +12817,7 @@
 
     If this is a Steel Cage match, draw 2 cards.'
   tags: []
-- name: Chickenwing Suplex
+- name: Jurassic Dino Drop
   db_uuid: 175dbd0a37ae488ba3de1b1076b975c5
   card_type: MainDeckCard
   atk_type: Grapple
@@ -13754,7 +13754,7 @@
   deck_card_number: 15
   rules_text: If you have another Submission in play, add 1 card from your discard pile to your hand.
   tags: []
-- name: The Cobra Clutch
+- name: Super Sleeper of Ultimate Lucha
   db_uuid: 6b980bd4791a4bb3b2728cf00bc38296
   card_type: MainDeckCard
   atk_type: Submission
@@ -18179,6 +18179,17 @@
   deck_card_number: 20
   rules_text: Your opponent cannot Double-Team with or Save other players.
   tags: []
+- name: Chicken Wing of Crunchiness!
+  db_uuid: 8c35ecca5dd9433aa076b7b5a12113a7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Finish Strike.
+
+    Draw 2 cards.'
+  tags:
+    - Super Lucha
 - name: A Powerful Hand Buster
   db_uuid: fc5de0a5e2b84c16b13e3cf24c0fb490
   srgpc_url: https://www.srgpc.net/cards/21/a-powerful-hand-buster/
@@ -19089,7 +19100,7 @@
 
     Your Tag Team partner adds 1 card from their discard pile to their hand.'
   tags: []
-- name: Bulldozer of Demolotion
+- name: Bulldozer of Demolition
   db_uuid: 7e71d03cf200438a80e28126a4143258
   srgpc_url: https://www.srgpc.net/cards/22/bulldozer-of-demolotion/
   card_type: MainDeckCard
@@ -21281,7 +21292,7 @@
 
     If your opponent moves this card from in play, add 1 Finish or 1 Submission from your discard pile to your hand.'
   tags: []
-- name: La Magica Mystifca
+- name: Mystical Magic
   db_uuid: 2f51b6e9e93948bcaefc324c7d55f079
   srgpc_url: https://www.srgpc.net/cards/24/la-magica-mystifca/
   card_type: MainDeckCard
@@ -33575,7 +33586,8 @@
   rules_text: 'Once a match:
 
     Until the end of the turn change the "If stopped" text on your opponent''s card to "If stopped, each player draws 1 card.'
-  tags: []
+  tags:
+    - Valiant
 - name: Calls for the Bell
   db_uuid: daf84834f807436e9bc123750628e3d7
   card_type: SpectacleCard
@@ -77994,6 +78006,15 @@
   deck_card_number: 13
   rules_text: If your Agility skill is greater than your opponent's Agility skill, stop any Follow Up or Finish Grapple, even if it cannot be stopped.
   tags: []
+- name: High Flying Lucha Splash
+  db_uuid: 4149eb2e9e32444aad30fe32fed1c050
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
+  tags:
+    - Super Lucha
 - name: Crowd Pleaser
   db_uuid: 9454f68580e642c2984909ddccc1f74e
   srg_url: https://supershowthegame.com/product/17-crowd-pleaser/

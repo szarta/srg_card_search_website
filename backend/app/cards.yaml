@@ -2899,6 +2899,7 @@
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
+    - 0110a42912a14654909036fbf5903406
   wants_keywords:
     - Super
 - name: El Super Smash (#28)
@@ -2927,6 +2928,21 @@
   rules_text: '+4 to Technique
 
     +1 to Grapple'
+  tags: []
+  related_cards:
+    - 59a06bccbea64d1bb1d6301449190e81
+    - d149b71b56624078bea5794ee597e7b1
+    - b70afdfa287e4ca6be73ee9f03c863ea
+    - 9c5ed320ddcc4a8bb3e330b1f4e9e395
+- name: El Super Hold
+  db_uuid: 0110a42912a14654909036fbf5903406
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +3 to Submission'
   tags: []
   related_cards:
     - 59a06bccbea64d1bb1d6301449190e81
@@ -72125,6 +72141,7 @@
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
+    - 0110a42912a14654909036fbf5903406
 - name: El Super Hombre (V3)
   db_uuid: b70afdfa287e4ca6be73ee9f03c863ea
   srgpc_url: https://www.srgpc.net/cards/competitors/el-super-hombre/
@@ -72144,6 +72161,7 @@
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
     - 015aecb201074dbb929a9c9cd8b0ea46
+    - 0110a42912a14654909036fbf5903406
 - name: El Super Hombre (Super Lucha)
   db_uuid: 05c82b62b0484199bd4ba46b8e32d8e9
   card_type: SingleCompetitorCard

@@ -279,6 +279,16 @@
   tags: []
   related_cards:
     - 83a18825be1b4a83bcbc1392a5bcb585
+- name: Cleanse Piledriver
+  db_uuid: 130caabed2a3440b9ff1013d1520459f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'Stop any Lead Submission.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
+  tags: []
 - name: Lock Up
   db_uuid: 2f5237eb21a748a6a9f3b02a26ab497c
   srg_url: https://supershowthegame.com/product/02-lock-up/
@@ -3028,6 +3038,16 @@
   deck_card_number: 30
   rules_text: "+2 to Submission\n+1 to Grapple\nYour opponent buries 1 card in their hand.\nIf you have more cards in your hand than your opponent,\n+4 to Submission and\n +2 to Grapple instead."
   tags: []
+- name: One Free Shot
+  db_uuid: c751192b27f5478fbf2de3bd0edb9d45
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'Stop any Lead Grapple.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
+  tags: []
 - name: Flying Super Snap Face Punch
   db_uuid: 02d0c29e92174921b1cc6ee2f2b88d7d
   srg_url: https://supershowthegame.com/product/01-flying-super-snap-face-punch/
@@ -3097,6 +3117,16 @@
   play_order: Followup
   deck_card_number: 13
   rules_text: Your opponent flips 2 cards. You may bury 2 cards in your opponent's discard pile.
+  tags: []
+- name: $tretch Money
+  db_uuid: dcfeb517699242ffbd803cccf167960f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'Stop any Lead Strike.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
   tags: []
 - name: Overheat
   db_uuid: 0d9a4e918bae464a902b27736e0961e5
@@ -83539,6 +83569,182 @@
     - 5dd5cc865944457bb529df5cae87ea47
     - 4627f6cad7e44f299024b7969c670969
     - 381a6cd0b59d4d0ca50498db470d4058
+- name: The Wanted Man Nic Nemeth
+  db_uuid: 1e1e1df3cb824e1ea1398141ce285341
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 6
+  rules_text: Your Grapple skill is +1 for each Grapple you have in play (Max +3).
+  tags: []
+  related_finishes:
+    - 656156913c26446a8cd9b843d19d3571
+    - a3c2a120bbba4aefb09c9fc535813bb9
+    - 1cb836503568470d968d7cb71435dd3a
+- name: Danger Zone (V2)
+  db_uuid: 656156913c26446a8cd9b843d19d3571
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility for each Grapple you have in play.
+
+    If you have 3 Follow Up Grapples in play, you may re-roll your Finish roll, and that roll is +1.'
+  tags: []
+  related_cards:
+    - 1e1e1df3cb824e1ea1398141ce285341
+- name: Superkick (Nic Nemeth)
+  db_uuid: a3c2a120bbba4aefb09c9fc535813bb9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Strike
+
+    Look at your opponent''s hand, they discard all Strikes.'
+  tags: []
+  related_cards:
+    - 1e1e1df3cb824e1ea1398141ce285341
+- name: The Sleeper (Nic Nemeth)
+  db_uuid: 1cb836503568470d968d7cb71435dd3a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Grapple
+
+    When this card is in your discard pile, you are considered to have a Follow Up Grapple in play for your effects.'
+  tags: []
+  related_cards:
+    - 1e1e1df3cb824e1ea1398141ce285341
+- name: Caught in the Turkey Suit
+  db_uuid: 4950669e815b4050be2c9d4b7f44b64a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your opponent''s Power is -1.
+
+    When this card is in your discard pile:
+
+    If you roll the same skill as your target for your turn roll, you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 641ac56f4764487a9259f7ed71817d24
+- name: Nic Calls His Shot
+  db_uuid: 3d1ac61e0d5e4feb95139fb797a5e7de
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +3 to Agility
+
+    Look at your opponent''s hand and discard pile, choose 1 card; this card copies that cards text until the end of the turn.'
+  tags: []
+  related_cards:
+    - 641ac56f4764487a9259f7ed71817d24
+- name: My Big Brother
+  db_uuid: edd8988616e54aaf88a5a1974516758b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Technique
+
+    +4 to Agility
+
+    If you rolled the same skill as your target for your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - 641ac56f4764487a9259f7ed71817d24
+- name: Trey Miguel
+  db_uuid: b799daaf7da44f2798d0a43d8b8cc2be
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 8
+  submission: 7
+  grapple: 6
+  rules_text: 'After you flip any number of cards: You may re-roll your next turn roll.'
+  tags: []
+  related_finishes:
+    - e99f48e71dba4340aa104eec70ccf18e
+    - df9e7c43e7d94d5ea2a7749c283d3802
+    - 261f23bba4ec402085068d3c7902bc3b
+- name: Flying High
+  db_uuid: e99f48e71dba4340aa104eec70ccf18e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +2 to Strike
+
+    Flip 2 cards.
+
+    Shuffle up to 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - b799daaf7da44f2798d0a43d8b8cc2be
+- name: The Rolling Trey
+  db_uuid: df9e7c43e7d94d5ea2a7749c283d3802
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    +3 to Grapple
+
+    If you re-rolled your turn roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - b799daaf7da44f2798d0a43d8b8cc2be
+- name: RSCL Lock
+  db_uuid: 261f23bba4ec402085068d3c7902bc3b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    +1 to Grapple
+
+    During your turn:
+
+    If this card is flipped, you may play it as an additional card this turn.'
+  tags: []
+  related_cards:
+    - b799daaf7da44f2798d0a43d8b8cc2be
+- name: The Nemeths
+  db_uuid: 641ac56f4764487a9259f7ed71817d24
+  card_type: TornadoCompetitorCard
+  power: 10
+  technique: 18
+  agility: 12
+  strike: 16
+  submission: 14
+  grapple: 20
+  rules_text: 'When you and your target roll the same skill for your turn roll: Draw 2 cards and your target discard 1 card from their hand.'
+  tags: []
+  related_finishes:
+    - 4950669e815b4050be2c9d4b7f44b64a
+    - 3d1ac61e0d5e4feb95139fb797a5e7de
+    - edd8988616e54aaf88a5a1974516758b
 - name: The Superkick
   db_uuid: 5dd5cc865944457bb529df5cae87ea47
   card_type: MainDeckCard
@@ -83553,7 +83759,7 @@
   tags: []
   related_cards:
     - 192be5ede94a4727b1865fcdd845743f
-- name: Danger Zone
+- name: Danger Zone (V1)
   db_uuid: 4627f6cad7e44f299024b7969c670969
   card_type: MainDeckCard
   atk_type: Grapple

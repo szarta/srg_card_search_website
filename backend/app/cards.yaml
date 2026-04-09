@@ -2708,6 +2708,16 @@
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
     - Old School Wave 1
+- name: Over the Shoulder Boulder Throw
+  db_uuid: 50ff8bfcedfa4c698a26d5f12021c47f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: 'Your opponent''s next turn roll is -1 for each other Grapple you have in play.
+
+    The next time your opponent''s Gimmick or Entrance would force you to bury or discard cards from your hand, you draw 2 cards instead.'
+  tags: []
 - name: Japanese Arm Drag
   db_uuid: 5f1ea69b034041d1863e4a7af3c8a936
   srg_url: https://supershowthegame.com/product/11-japanese-arm-drag/
@@ -3288,6 +3298,16 @@
   rules_text: 'Flip 3 cards.
 
     Choose 3 cards in your discard pile, your opponent puts one in your hand, buries another, and the last stays in your discard pile.'
+  tags: []
+- name: Low Flying Elbow
+  db_uuid: f668aecb6e5a43d5adcbd53b2bc5d4f1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: 'Your opponent''s next turn roll is -1 for each other Strike you have in play.
+
+    The next time your opponent''s Gimmick or Entrance would force you to bury or discard cards from your hand, you draw 2 cards instead.'
   tags: []
 - name: Can You Afford This? (V1)
   db_uuid: a74d29fd1f9143d08bdd9a83fd4a1982
@@ -40193,6 +40213,8 @@
 
     Shuffle your deck.'
   tags: []
+  related_cards:
+    - 38a5391801c4447da6ea182bd53eb6f0
 - name: The Falcon Arrow
   db_uuid: 28568f2882f84f6cb10c4f9ca33a7b89
   card_type: MainDeckCard
@@ -40205,6 +40227,8 @@
 
     If stopped, shuffle your deck.'
   tags: []
+  related_cards:
+    - 38a5391801c4447da6ea182bd53eb6f0
 - name: The Tap Dance
   db_uuid: 32f220dcec55470da21b540b5104dbdd
   card_type: MainDeckCard
@@ -40217,6 +40241,8 @@
 
     Each time your opponent rolls for a breakout roll, shuffle 1 card from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 38a5391801c4447da6ea182bd53eb6f0
 - name: Deranged Monarch
   db_uuid: 308de2fea17c4d1a8581fdd591951fef
   srg_url: https://supershowthegame.com/product/deranged-monarch/
@@ -57376,6 +57402,8 @@
 
     If either player re-rolled their previous turn roll, this card is also a Lead.'
   tags: []
+  related_cards:
+    - b8dfb42ba0ec49889c7c8b44b4132f4f
 - name: Down the Runway
   db_uuid: 2ee319d937d74b53bad1a7016c3e78aa
   card_type: MainDeckCard
@@ -57390,6 +57418,8 @@
 
     If either player re-rolled their turn roll, double these bonuses.'
   tags: []
+  related_cards:
+    - b8dfb42ba0ec49889c7c8b44b4132f4f
 - name: The Lookbook
   db_uuid: 0b5818f8983045689264a87daabaa318
   card_type: MainDeckCard
@@ -57402,6 +57432,8 @@
 
     Choose Strike, Grapple, or Submission and look at your opponent''s hand.  Draw cards equal to the number of cards in their hand of the chosen type.'
   tags: []
+  related_cards:
+    - b8dfb42ba0ec49889c7c8b44b4132f4f
 - name: The Ol' Skull and Bones
   db_uuid: 8d0a3ebd5ed54e0e9144958d689ac395
   srgpc_url: https://www.srgpc.net/cards/competitors/the-ol-skull-and-bones/
@@ -78911,6 +78943,16 @@
   rules_text: 'Search your deck for a Finish Strike and add it to your hand.
 
     Shuffle your deck.'
+  tags: []
+- name: Pixel-Perfect Plex
+  db_uuid: eee4703983314573a954166931fa8348
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Stop any Finish Submission without a Competitor logo.
+
+    Your opponent cannot discard this card from play.'
   tags: []
 - name: A Wolf in Sheep's Holding (Power)
   db_uuid: 99800450889847ecb650e50df3c1c99e

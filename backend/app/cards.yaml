@@ -3331,6 +3331,24 @@
 
     If this is a Liger''s Den Match, draw the bottom card of your deck.'
   tags: []
+- name: Trap in the Ladders
+  db_uuid: efb82aaa60c749abb37c336707bf0d6d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: If your Technique skill is at least 4 greater than your opponent's Technique skill, or this match has "Ladder" in the name, stop any Strike.
+  tags: []
+- name: Cut You Off
+  db_uuid: 75cb31916a1640ba937cfab86ce52389
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Stop any Finish Strike without a Competitor logo.
+
+    Your opponent cannot discard this card from play.'
+  tags: []
 - name: Soul Burn
   db_uuid: 3ae31d64263c410d90b0c0ffb11d6b04
   srgpc_url: https://www.srgpc.net/cards/15/soul-burn/
@@ -3377,6 +3395,18 @@
 
     Add 1 Grapple and 1 Strike from your discard pile to your hand, or draw 1 card.'
   tags: []
+- name: Bird Pressed to Death
+  db_uuid: a053394ea3a444d3afcfad1742f82a97
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Ladder" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Ladder
 - name: Kneeling Chin Hold
   db_uuid: 53fed339ac5c44a68c252187ab183a5d
   card_type: MainDeckCard
@@ -3448,6 +3478,16 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+- name: Hold the Ladder
+  db_uuid: fdb157d7a15b400abb00a9598d3592cc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: If you have a card in play with "Ladder" in the name and your opponent has another Grapple in play, stop any Grapple.
+  tags: []
+  wants_keywords:
+    - Ladder
 - name: Boulder Smash
   db_uuid: 99f1a008a4fb4a05873aa4117052418a
   srg_url: https://supershowthegame.com/product/19-boulder-smash/
@@ -4582,6 +4622,16 @@
   play_order: Followup
   deck_card_number: 19
   rules_text: If your opponent has another Grapple in play, stop any Grapple.  Each player buries 1 card in their opponent's discard pile.
+  tags: []
+- name: Rope Ladder from the Jumbotron
+  db_uuid: aef9375c26324249ba45a5edb6c8a7c6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'The Crowd Meter is +1.
+
+    If this card is flipped, you may add it to your hand.'
   tags: []
 - name: Hook the Top Rope
   db_uuid: e855d6b79b3c4ff5853098e1cac5538b

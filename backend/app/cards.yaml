@@ -84948,3 +84948,49 @@
   wants_keywords:
     - America
     - Union
+- name: L.F.F. Under-World Title Belt
+  db_uuid: fae3c232c18c4afeae73889a67b7a3a0
+  card_type: EntranceCard
+  rules_text: 'At the start of the match choose: Power, Technique, or Agility.
+
+    When you roll the chosen skill, draw 1 card.
+
+    If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
+  tags:
+    - Belt
+- name: L.F.F. Trio's Title Belt
+  db_uuid: 7a757331b4424faf81892a0d66e71b38
+  card_type: EntranceCard
+  rules_text: 'At the start of the match choose: Strike, Grapple, or Submission.
+
+    When you roll the chosen skill, draw 1 card.
+
+    If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
+  tags:
+    - Belt
+- name: L.F.F. Tornado Title Belt
+  db_uuid: 530a594bbd4d489a934c74a78d9e16c4
+  card_type: EntranceCard
+  rules_text: 'At the start of the match choose: Power, Technique, or Agility.
+
+    The chosen skill is +2.
+
+    If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
+  tags:
+    - Belt
+- name: L.F.F. Tag Team Title Belt
+  db_uuid: 00a1006d58e0489682ce350415011d4c
+  card_type: EntranceCard
+  rules_text: 'At the start of the match, draw 2 cards.
+
+    If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
+  tags:
+    - Belt
+- name: L.F.F. Heavyweight Title Belt
+  db_uuid: 6cd8cba67378413e98004f09303a4f14
+  card_type: EntranceCard
+  rules_text: 'At the start of the match choose: Strike, Grapple, or Submission. The chosen skill is +2.
+
+    If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
+  tags:
+    - Belt

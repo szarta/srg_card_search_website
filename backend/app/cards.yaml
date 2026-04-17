@@ -50446,6 +50446,7 @@
 - name: Leader of the Black Sheep (V2)
   db_uuid: 878b99961c7b41d491e9f1cab60d1df6
   card_type: SingleCompetitorCard
+  division: Intergalactic
   technique: 8
   agility: 10
   strike: 9
@@ -80214,6 +80215,7 @@
 - name: Memic
   db_uuid: 992dac94fa8944afab7d4ac757df2944
   card_type: SingleCompetitorCard
+  division: Intergalactic
   gender: Male
   power: 5
   technique: 10

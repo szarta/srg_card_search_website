@@ -3140,7 +3140,7 @@
 
     Each player discards the bottom card of their deck.
 
-    If this is a Triad amtch, you may add those cards to each player''s hand.'
+    If this is a Triad match, you may add those cards to each player''s hand.'
   tags: []
 - name: Sheepish Running Knee to the Skull
   db_uuid: 6c2a798ae96140fa933e1257f229036c
@@ -5124,7 +5124,7 @@
 
     If your opponent''s next turn roll is Strike, draw 1 card.'
   tags: []
-- name: Ladder
+- name: Ladder (V1)
   db_uuid: 5142c0badc96442aa242eb91668da4d7
   srgpc_url: https://www.srgpc.net/cards/1/ladder/
   card_type: MainDeckCard
@@ -69542,7 +69542,7 @@
   deck_card_number: 29
   rules_text: '+1 to Power
 
-    Your Finish roll is +1 for each Follow Up Strike or Follow Up Grapple your have in play (Max +2)'
+    Your Finish roll is +1 for each Follow Up Strike or Follow Up Grapple you have in play (Max +2)'
   tags: []
   related_cards:
     - e0cbf404d2494892a95d1f8fd58dfaa3
@@ -83611,7 +83611,7 @@
   tags: []
   related_cards:
     - 1e1e1df3cb824e1ea1398141ce285341
-- name: The Sleeper (Nic Nemeth)
+- name: The Sleeper (V2)
   db_uuid: 1cb836503568470d968d7cb71435dd3a
   card_type: MainDeckCard
   atk_type: Submission
@@ -83775,7 +83775,7 @@
   tags: []
   related_cards:
     - 192be5ede94a4727b1865fcdd845743f
-- name: The Sleeper
+- name: The Sleeper (V1)
   db_uuid: 381a6cd0b59d4d0ca50498db470d4058
   card_type: MainDeckCard
   atk_type: Submission
@@ -84994,3 +84994,275 @@
     If you lose the match by Pin, Submission, or Special Finish, your opponent wins this card.'
   tags:
     - Belt
+- name: Leg Drop Off the Ladder
+  db_uuid: 1058cc731d0f4785bdf97e27de64bfcb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Agility and Strike are +1 for each other card you have in play with "Ladder" in the name.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Unsealed Powerbomb Through the Ladder
+  db_uuid: 39d3eec601ab400eb7f99f834c41d56d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you have 2 cards in play with "Ladder" in the name, this card is considered to have your Competitor logo.'
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Figure Four Ladder Lock
+  db_uuid: 525be933cd054aaa8665f6fa84d07807
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Grapple and Submission are +1 for each other card you have in play with "Ladder" in the name.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: King-Sized Dirt Bomb
+  db_uuid: 3ba7c012aa4949a1ad55d5f4638cfed7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'Flip 2 cards for each Follow Up you have in play.
+
+    Add 1 card with "Ladder" in the name from your discard pile to your hand.'
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Hip Toss Off the Ladder
+  db_uuid: be0cc1194a63443792094c2d22733a3e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: If your Power skill is at least 4 greater than your opponent's Power skill, or this match has "Ladder" in the name, stop any Submission.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Climbing the Union Ladder
+  db_uuid: 4be9397d450b41e78e0ce9ecf83c5020
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: Your next turn roll is +1 for each card you have in paly with "Ladder" in the name.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: On Top of the Ladder
+  db_uuid: 3d1efdccb85d449487a0bacf55c977c6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: Your next turn roll is +1 for each card you have in play with "Ladder" in the name.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Bombard With the Ladder
+  db_uuid: 2e515788e9d545d6848827f2250f7903
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Search your deck for 1 card with "Ladder" in the name and add it to your hand, or each player buries 1 card in their hand.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Board to Tears
+  db_uuid: ccfc8335d24f4f1a9dfa45d6a0cd3eb4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: Search your deck for 1 card with "Ladder" in the name and add it to your hand, or each player buries 1 card in their hand.
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Spinning Crackback
+  db_uuid: 2207ee69a24b4cd99f2d32060f825871
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Strike.
+
+    Draw 1 card.
+
+    Discard 1 card your opponent has in play.'
+  tags: []
+- name: Swift Spear
+  db_uuid: 39ad99952b2140c589e745db03615110
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'If the Crowd Meter is 2 or greater, stop any Follow Up Submission.
+
+    Draw 1 card.
+
+    Discard 1 card your opponent has in play.'
+  tags: []
+- name: Old School Ladder Lock
+  db_uuid: 81fa6b1cc40a4d2c8b190d3e8b80546d
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'If you roll Strike for your Finish roll, it is +1.
+
+    If this match has "Ladder" in the name, your opponent randomly buries 1 card in their hand.'
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Seismic Suplex
+  db_uuid: a2fa354ddccf4c949702c4250d0b86ba
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'If you roll Strike for your Finish roll, it is +1.
+
+    If this match has "Ladder" in the name, your opponent randomly buries 1 card in their hand.'
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Ladder (V2)
+  db_uuid: de5f62bc85af4fafa86cdbba5e9fad07
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'If you roll Strike for your Finish roll, your roll is +1.
+
+    If this match has "Ladder" in the name, your opponent randomly buries 1 card in their hand.'
+  tags: []
+  wants_keywords:
+    - Ladder
+- name: Amos the Iron Worker (V3)
+  db_uuid: fe7b892e451848ca9d8fcdd2ed95ec04
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  rules_text: 'When you hit a card with "Ladder" in the name: Shuffle up to 2 cards from your discard pile into your deck, or draw 1 card.'
+  tags: []
+  related_finishes:
+    - f182b92d07f94814b280639238d53cbf
+    - ceae470b56984e6d92b2cc77b27382a2
+    - f6afa4c65cb0431d956fb64dcabbbd0a
+  wants_keywords:
+    - Ladder
+- name: Propeller Ladder Spin
+  db_uuid: f182b92d07f94814b280639238d53cbf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +3 to Agility
+
+    Ignore "or" in the text of your Gimmick.'
+  tags: []
+  related_cards:
+    - fe7b892e451848ca9d8fcdd2ed95ec04
+- name: Powerbomb Through the Ladder
+  db_uuid: ceae470b56984e6d92b2cc77b27382a2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Power
+
+    +3 to Grapple
+
+    Once per turn:
+
+    If you have 3 other cards in play with "Ladder" in the name, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - fe7b892e451848ca9d8fcdd2ed95ec04
+  wants_keywords:
+    - Ladder
+- name: Union Nap Break
+  db_uuid: f6afa4c65cb0431d956fb64dcabbbd0a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    +2 to Grapple
+
+    In a Singles match without a Stipulation:
+
+    If your opponent breaks out, the Crowd Meter is +1, and you may replace the Crowd Meter with the "Ladder" match Crowd Meter of the same level.'
+  tags: []
+  related_cards:
+    - fe7b892e451848ca9d8fcdd2ed95ec04
+- name: Taunting Chicken Wing
+  db_uuid: a1ef1a3dbe444d53b52c4e9b167ba7d3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'The Crowd Meter is +1.
+
+    If this card is flipped, you may add it to your hand.'
+  tags: []
+- name: Catch in the Jaws of the Ladder
+  db_uuid: bcd2c2be4bc2424b815860bd59eab817
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Flip 4 cards.  Add 1 Grapple from your discard pile to your hand.
+
+    All Finish Strikes have the added text: "Your Finish rolls are +1."'
+  tags: []
+- name: Power Dragon Sleeper
+  db_uuid: 28b5d5f14bee4dee951bff4fcf4825ad
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Flip 4 cards.  Add 1 Submission from your discard pile to your hand.
+
+    All Finish Strikes have the added text: "Your Finish rolls are +1."'
+  tags: []
+- name: That's Madness
+  db_uuid: e3a7b3b6dedf4382873e6c9462cbe1d7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Submission.  Draw 2 cards.
+
+    Discard 1 card your opponent has in play.'
+  tags: []
+- name: Protect Your Neck
+  db_uuid: a486ba7d1d8d475db4b28721ced1b2db
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Finish Strike.  Draw 2 cards.
+
+    Discard 1 card your opponent has in play.'
+  tags: []

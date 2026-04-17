@@ -50419,7 +50419,7 @@
   tags: []
   related_cards:
     - 9cbb880d1b93435f9db7624ad7eb90c9
-- name: Leader of the Black Sheep
+- name: Leader of the Black Sheep (V1)
   db_uuid: 52492d03968e461d8a3e1e860491db9a
   srg_url: https://supershowthegame.com/product/leader-of-the-black-sheep/
   srgpc_url: https://www.srgpc.net/cards/competitors/leader-of-the-black-sheep/
@@ -50443,6 +50443,62 @@
     - Sheep
     - Flock
     - Stun
+- name: Leader of the Black Sheep (V2)
+  db_uuid: 878b99961c7b41d491e9f1cab60d1df6
+  card_type: SingleCompetitorCard
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 7
+  grapple: 5
+  rules_text: The maximum number of cards your opponent can draw for any card effect or Gimmick is 1 card.
+  tags: []
+  related_finishes:
+    - 6088a36c6c53406398b2631d23a41334
+    - aeb918fc786e48e5ab35c0ec7e174078
+    - 86d0c5050ad84f48a272d6c35fbf0838
+- name: Black Sheep Smash
+  db_uuid: 6088a36c6c53406398b2631d23a41334
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    Each player draws cards equal to their minimum handsize.'
+  tags: []
+  related_cards:
+    - 878b99961c7b41d491e9f1cab60d1df6
+- name: The Baanishment
+  db_uuid: aeb918fc786e48e5ab35c0ec7e174078
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +4 to Grapple
+
+    Your opponent discards 2 cards from their hand.'
+  tags: []
+  related_cards:
+    - 878b99961c7b41d491e9f1cab60d1df6
+- name: Eternal Lambnation
+  db_uuid: 86d0c5050ad84f48a272d6c35fbf0838
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +3 to Grapple
+
+    Each player draws cards until they have at least 1 card greater than their minimum handsize (Max 14).'
+  tags: []
+  related_cards:
+    - 878b99961c7b41d491e9f1cab60d1df6
 - name: With a Cheerful Heart
   db_uuid: 04b507534c4a4b0393bb92fb25f53c2d
   card_type: MainDeckCard

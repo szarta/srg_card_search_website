@@ -20539,7 +20539,7 @@
     Skill Requirement: Grapple 8+'
   tags: []
 - name: Legendary American Sheep Union Break (Power)
-  db_uuid: f2822cf1bee942458ba4620c75dccbab
+  db_uuid: 8856e506dc864d38a52841065641a3a0
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup

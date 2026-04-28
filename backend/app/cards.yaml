@@ -20521,7 +20521,7 @@
 
     Take 2 cards from your discard pile, shuffle them into your deck, then draw 2 cards.'
   tags: []
-- name: Legendary American Sheep Union Break (Submission)
+- name: Legendary American Sheep Union Break (Grapple)
   db_uuid: f2822cf1bee942458ba4620c75dccbab
   srgpc_url: https://www.srgpc.net/cards/23/legendary-american-sheep-union-break/
   card_type: MainDeckCard
@@ -20537,6 +20537,22 @@
     Add the bottom 3 cards of your deck to your hand.
 
     Skill Requirement: Grapple 8+'
+  tags: []
+- name: Legendary American Sheep Union Break (Power)
+  db_uuid: f2822cf1bee942458ba4620c75dccbab
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Your maximum handsize is +3.
+
+    Choose one:
+
+    Draw 3 cards.
+
+    Add the bottom 3 cards of your deck to your hand.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Lucha Light House of Pain
   db_uuid: 2b3297c85ca94b79b4620fce31b7f112

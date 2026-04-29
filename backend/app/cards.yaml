@@ -3166,6 +3166,14 @@
 
     Your next turn roll is +1 for each Strike you have in play.  Skill Requirement:  Strike 10+, Agility 9+'
   tags: []
+- name: Swashbuckle Barrage
+  db_uuid: e08816c561e54dd1b872e3cd0e46b772
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: For each Strike you have in play, choose up to 1 non-Finish card in your opponent's discard pile and put it into play.
+  tags: []
 - name: 'Restoration Potion #8'
   db_uuid: d0c314cb65a94de78da5b21a9286b3d5
   srg_url: https://supershowthegame.com/product/08-restoration-potion-8/
@@ -77868,9 +77876,8 @@
   tags: []
   wants_keywords:
     - America
-- name: Team Valiant
+- name: Team Valiant (V1)
   db_uuid: 142e85dc05264c7d9e0e9be3d8cdd523
-  srg_url: https://supershowthegame.com/product/team-valiant-new/
   card_type: TrioCompetitorCard
   power: 15
   technique: 27
@@ -77882,6 +77889,95 @@
 
     When you win a turn roll; draw 1 additional card.'
   tags: []
+  related_finishes:
+    - ea1ad7eac33845c28f76e2fa652d32c4
+    - 1ec11b50090d42da8af1caa412515130
+    - 8b78fadc67ed4046a39eeb6fdd6b12a6
+- name: Team Valiant (V2)
+  db_uuid: f22cb4df56ae49fb9429f58055d15b66
+  card_type: TrioCompetitorCard
+  power: 15
+  technique: 27
+  agility: 21
+  strike: 24
+  submission: 18
+  grapple: 30
+  rules_text: 'Your Power is +5.
+
+    When you win a turn roll; draw 1 additional card.'
+  tags: []
+  related_finishes:
+    - ea1ad7eac33845c28f76e2fa652d32c4
+    - 1ec11b50090d42da8af1caa412515130
+    - 8b78fadc67ed4046a39eeb6fdd6b12a6
+- name: Team Valiant (V3)
+  db_uuid: df45462a2b1d4fa6b098d52858848f3b
+  srg_url: https://supershowthegame.com/product/team-valiant-new/
+  card_type: TrioCompetitorCard
+  power: 15
+  technique: 27
+  agility: 21
+  strike: 24
+  submission: 18
+  grapple: 30
+  rules_text: 'Your Power is +5.
+
+    When you win a turn roll; draw 1 additional card.'
+  tags: []
+  related_finishes:
+    - ea1ad7eac33845c28f76e2fa652d32c4
+    - 1ec11b50090d42da8af1caa412515130
+    - 8b78fadc67ed4046a39eeb6fdd6b12a6
+- name: Running Banzai Hoof Tackle
+  db_uuid: ea1ad7eac33845c28f76e2fa652d32c4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +6 to Agility
+
+    +6 to Strike
+
+    If your opponent stopped a Strike this turn, you may play this card as if it were a Lead.'
+  tags: []
+  related_cards:
+    - df45462a2b1d4fa6b098d52858848f3b
+    - f22cb4df56ae49fb9429f58055d15b66
+    - 142e85dc05264c7d9e0e9be3d8cdd523
+- name: El Super Alpaca Bomb
+  db_uuid: 1ec11b50090d42da8af1caa412515130
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+10 to Power
+
+    +2 to Technique
+
+    +2 to Agility'
+  tags: []
+  related_cards:
+    - df45462a2b1d4fa6b098d52858848f3b
+    - f22cb4df56ae49fb9429f58055d15b66
+    - 142e85dc05264c7d9e0e9be3d8cdd523
+- name: Black Hole Horizon
+  db_uuid: 8b78fadc67ed4046a39eeb6fdd6b12a6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+4 to Power
+
+    +12 to Submission
+
+    When this card is in your discard pile, your Power is +1 during your turn rolls.'
+  tags: []
+  related_cards:
+    - df45462a2b1d4fa6b098d52858848f3b
+    - f22cb4df56ae49fb9429f58055d15b66
+    - 142e85dc05264c7d9e0e9be3d8cdd523
 - name: The Coven
   db_uuid: eb5da999d11a4098b4b432f124c53067
   srg_url: https://supershowthegame.com/product/coven-trio/

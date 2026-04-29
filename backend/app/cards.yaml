@@ -54556,9 +54556,9 @@
 - name: Sips Knee
   db_uuid: e6625519e94d4ec1972993c60c9b2bec
   card_type: MainDeckCard
-  atk_type: Grapple
+  atk_type: Strike
   play_order: Finish
-  deck_card_number: 29
+  deck_card_number: 28
   rules_text: 'Each player shuffles their deck.
 
     +1 to Agility

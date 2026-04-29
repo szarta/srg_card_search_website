@@ -85340,3 +85340,15 @@
 
     Discard 1 card your opponent has in play.'
   tags: []
+- name: Popa Press Slam (Power)
+  db_uuid: 34cc3de073f14d2ab8f6b8327d84f595
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    Draw 1 card.
+
+    If your Finish roll is 6 or less, it is +2.  Skill Requirement: Power 8+'
+  tags: []

@@ -85448,3 +85448,59 @@
 
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Power 8+'
   tags: []
+- name: Just Doug
+  db_uuid: 4a85789d266a4feb92c2beb5ca0197cc
+  srgpc_url: https://www.srgpc.net/competitor-just-doug/
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: If your target ends their turn without playing a card, and they have 4 or more cards in their hand, they randomly discard 1 card from their hand.
+  tags: []
+  related_finishes:
+    - 1c10bb2af5d14b32a1c6d678ef6ff124
+    - 51ade960092c4cdbae8c57ae74c1dc96
+    - e78394f89d5249b3b11105608c43211c
+- name: Don't Be a B!+(#
+  db_uuid: 1c10bb2af5d14b32a1c6d678ef6ff124
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: This card is also a Grapple and Submission for your opponent's effects. Your Finish roll is +3.
+  tags: []
+  related_cards:
+    - 4a85789d266a4feb92c2beb5ca0197cc
+- name: Damnit Doug
+  db_uuid: 51ade960092c4cdbae8c57ae74c1dc96
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    Look at your opponent''s hand.
+
+    Choose 1 card and put it into play. Copy the text of a card your opponent has in play.'
+  tags: []
+  related_cards:
+    - 4a85789d266a4feb92c2beb5ca0197cc
+- name: Faraday Cage
+  db_uuid: e78394f89d5249b3b11105608c43211c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +2 to Technique
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 4a85789d266a4feb92c2beb5ca0197cc

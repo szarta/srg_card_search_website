@@ -7156,6 +7156,7 @@
   rules_text: 'You may play 1 additional Grapple this turn: If your Grapple skill is greater than your opponent''s Grapple skill, you may play any additional card this turn instead.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Drop Out of the Ring
   db_uuid: 4beac484473a49d7898613e58dda461a
   srgpc_url: https://www.srgpc.net/cards/5/drop-out-of-the-ring/
@@ -7295,6 +7296,15 @@
   rules_text: 'You may play 1 additional Grapple this turn: If your Power skill is greater than your opponent''s Power skill, you may play any additional card this turn instead.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Rising Carry
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: "If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.\nLook at the top card of your opponent's deck, you may flip it."
+  tags:
+    - Old School Wave 3
 - name: Legendary Lockdown
   db_uuid: 31a28355b6814593b440d723981b119f
   srg_url: https://supershowthegame.com/product/05-legendary-lockdown/
@@ -7466,6 +7476,15 @@
   rules_text: If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission. Draw 1 card, then bury 1 card in your hand.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Toss Over the Rope
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: "If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.\nDiscard 1 Follow Up your opponent has in play."
+  tags:
+    - Old School Wave 3
 - name: Swing and a Sledgehammer
   db_uuid: 283de487289f43ac8f438f83cea75a3e
   srgpc_url: https://www.srgpc.net/cards/5/swing-and-a-sledgehammer/
@@ -7559,6 +7578,7 @@
   rules_text: 'You may play 1 additional Submission this turn: If your Technique skill is greater than your opponent''s Technique skill, you may play any additional card this turn instead.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Arm Tangle
   db_uuid: 18a512f82c314c5886c35e896ce27741
   srgpc_url: https://www.srgpc.net/cards/6/arm-tangle/
@@ -7580,6 +7600,7 @@
   rules_text: If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike. Draw 1 card, then bury 1 card in your hand.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Armlock Over the Apron
   db_uuid: 98b751726e2349e687482b6c0813e1ed
   srgpc_url: https://www.srgpc.net/cards/6/armlock-over-the-apron/
@@ -7590,6 +7611,23 @@
   rules_text: You may play 1 additional Submission this turn; If your Submission skill is greater than your opponent's Submission skill, you may play any additional card this turn.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Catch the Leg
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: "If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.\nLook at the top card of your opponent's deck, you may flip it."
+  tags:
+    - Old School Wave 3
+- name: Stump Puller
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: "If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.\nDiscard 1 Follow Up your opponent has in play."
+  tags:
+    - Old School Wave 3
 - name: Blink
   db_uuid: 66a8fa9ceef141bdac634eb92b71beb3
   srgpc_url: https://www.srgpc.net/cards/6/blink/
@@ -8063,7 +8101,8 @@
   play_order: Lead
   deck_card_number: 6
   rules_text: 'Your opponent randomly reveals 2 cards in their hand: they choose 1 of those cards and buries it.'
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Young Dumb, Young Dumb, Young Dumb, and Broke!
   db_uuid: f846de0a09244f2bb7e49e75ab94bc18
   srgpc_url: https://www.srgpc.net/cards/6/young-dumb-young-dumb-young-dumb-and-broke/
@@ -8075,6 +8114,14 @@
 
     Add 1 Ellis Taylor, Jordan Oliver, or Charlie Tiger card from your discard pile to your hand.'
   tags: []
+- name: Charging Knee
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Strike for your turn roll, you may put this card on top of your deck."
+  tags:
+    - Old School Wave 3
 - name: Back Elbow
   db_uuid: b7083110c10d42898b9d6622d35da1b3
   srgpc_url: https://www.srgpc.net/cards/7/back-elbow/
@@ -8334,6 +8381,7 @@
     When this card is in your discard pile: When you roll Agility for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Kabuki
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
   srgpc_url: https://www.srgpc.net/cards/7/kabuki/
@@ -8468,6 +8516,7 @@
     Your maximum handsize is +1.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Potion Uprising
   db_uuid: 9b059306ce624967ad27124a4d864c6e
   srgpc_url: https://www.srgpc.net/cards/7/potion-uprising/
@@ -8634,6 +8683,7 @@
     When your opponent''s Gimmick would move any number of cards from their discard pile to any location, they are instead buried.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Surprise Hit (V1)
   db_uuid: 466176151ead41faab01e638ac550443
   srgpc_url: https://www.srgpc.net/cards/7/surprise-hit-v2/
@@ -8920,6 +8970,7 @@
     Your maximum handsize is +1.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Diversion Drop
   db_uuid: 3322e541a84940838069802daf69270e
   srgpc_url: https://www.srgpc.net/cards/8/diversion-drop/
@@ -8950,7 +9001,8 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Grapple from your discard pile on top of your deck.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Dragon Drop
   db_uuid: e23ef6218f714ce6890e13960d031fb5
   srgpc_url: https://www.srgpc.net/cards/8/dragon-drop/
@@ -9069,6 +9121,15 @@
   rules_text: The next time you roll Power for your turn roll, it is +2. When your opponent's Gimmick would move any number of cards from their discard pile to any location, they are instead buried.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: "Old School Yeeting"
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: "Look at the bottom 2 cards of your deck, add 1 to your hand.\nYour opponent's maximum handsize is -1."
+  tags:
+    - Old School Wave 3
 - name: Kabloow (V1)
   db_uuid: 4f5b73c6a84b465e89503efd000bfb11
   srgpc_url: https://www.srgpc.net/cards/8/kabloow/
@@ -9316,6 +9377,14 @@
 
     If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Grapple 8+'
   tags: []
+- name: "Swing the Crowd"
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: "The Crowd Meter is considered +1 for card effects.\nDraw 1 card."
+  tags:
+    - Old School Wave 3
 - name: Swing Around the Ring
   db_uuid: e2dc29143f57497aa9372b2943791a0a
   srgpc_url: https://www.srgpc.net/cards/8/swing-around-the-ring/
@@ -9409,6 +9478,7 @@
     When this card is in your discard pile: When you roll Power for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Tornado Chin Takedown (Grapple)
   db_uuid: 3c568a5653024a46ac9c591d15ba39f2
   srgpc_url: https://www.srgpc.net/cards/8/tornado-chin-takedown/
@@ -9612,6 +9682,7 @@
     When this card is in your discard pile: When you roll Technique for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Submission)
   db_uuid: f7c98b41634a4272be29f4bf8a37bc9f
   srgpc_url: https://www.srgpc.net/cards/9/chugga-chugga-chugga-chugga-chugga-chugga-chug-submission/
@@ -19383,6 +19454,7 @@
     Put up to 4 cards from your opponent''s discard pile on top of their deck.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Corner Clothesline
   db_uuid: 5716c2579d2e40ffa768a14b42df323c
   srgpc_url: https://www.srgpc.net/cards/22/corner-clothesline/
@@ -78413,6 +78485,14 @@
   deck_card_number: 15
   rules_text: If your Technique skill is greater than your opponent's Technique skill, stop any Follow Up Strike or Finish Strike even if it cannot be stopped.
   tags: []
+- name: Jumping Elbow
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: "Look at the bottom 2 cards of your deck, add 1 to your hand.\nYour opponent's maximum handsize is -1."
+  tags:
+    - Old School Wave 3
 - name: Bird's Eye View Kick
   db_uuid: 0b72959b72734b81be7bc8b86967869c
   srgpc_url: https://www.srgpc.net/cards/7/birds-eye-view-kick/
@@ -78434,6 +78514,14 @@
 
     This card counts as 2 Lead Strikes in play.'
   tags: []
+- name: Crucifix Roll Up
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Grapple for your turn roll, you may put this card on top of your deck."
+  tags:
+    - Old School Wave 3
 - name: Chug-Chug-Chug!
   db_uuid: 93766c996abf4f4c94d3479e78232e3b
   srgpc_url: https://www.srgpc.net/cards/8/chug-chug-chug/

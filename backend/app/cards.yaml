@@ -2761,6 +2761,7 @@
   rules_text: If your Agility skill is greater than your opponent's Agility skill, stop any Grapple.
   tags:
     - Old School Wave 1
+    - Old School Wave 3
 - name: Circling Up with The Real Beaters
   db_uuid: c5b127a934604c208d50e693526a238a
   srg_url: https://supershowthegame.com/product/circling-up-with-the-real-beaters/
@@ -9682,6 +9683,17 @@
   deck_card_number: 9
   rules_text: Draw 1 card or put 1 Grapple from your discard pile on top of your deck.
   tags: []
+- name: Knee Compression
+  db_uuid: 81fc62d11055460b830a577b3fb7d021
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Look at the bottom 2 cards of your deck, add 1 to your hand.
+
+    Your opponent''s maximum handsize is -1.'
+  tags:
+    - Old School Wave 3
 - name: Chicken Wing Cutter
   db_uuid: c7fe80e54d7e400cbbb15d933ad678ad
   srgpc_url: https://www.srgpc.net/cards/9/chicken-wing-cutter/
@@ -10172,6 +10184,28 @@
   rules_text: The next time you roll Technique for your turn roll, it is +2. When your opponent's Gimmick would move any number of cards from their discard pile to any location, they are instead buried.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Stretch the Clothesline
+  db_uuid: 0074dc2b1c7b4f47a9cef3a106ad4114
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'The Crowd Meter is considered +1 for card effects.
+
+    Draw 1 card.'
+  tags:
+    - Old School Wave 3
+- name: Submission Contest
+  db_uuid: 5acd5c3cbd7647cea6a6a3d159b6f51e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    When this card is in your discard pile: When you roll Submission for your turn roll, you may put this card on top of your deck.'
+  tags: []
 - name: Submerge
   db_uuid: 89b7a3de1c354c20b2732998a1a7afd2
   srgpc_url: https://www.srgpc.net/cards/9/submerge/
@@ -10245,6 +10279,7 @@
     Your maximum handsize is +1.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Wrist Lock (V1)
   db_uuid: 7b85fc98888f4c2fb9e61e6f9e79897a
   srg_url: https://supershowthegame.com/product/09-wrist-lock/
@@ -10290,6 +10325,14 @@
   play_order: Lead
   deck_card_number: 10
   rules_text: Shuffle 1 card from your discard pile into your deck for each Stop your opponent has in play.
+  tags: []
+- name: Blocking Elbows
+  db_uuid: d330e64fd506439abe11b5a36859f5b8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: If you have 3 other Leads in play, add 1 card from your discard pile to your hand, and your next turn roll is +1.
   tags: []
 - name: All American Block
   db_uuid: a739099170b74aafbfa3fd71527c91bb
@@ -10402,7 +10445,8 @@
   play_order: Lead
   deck_card_number: 10
   rules_text: Shuffle 1 card from your discard pile into your deck for each other Lead you have in play.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Butt Bump
   db_uuid: 2073c5f04bcc4c26bbb05ed6975e4734
   srgpc_url: https://www.srgpc.net/cards/10/butt-bump/
@@ -10450,6 +10494,7 @@
   rules_text: Draw 1 card for each other Strike you have in play.
   tags:
     - Old School Wave 1
+    - Old School Wave 3
 - name: Chug From a Trash Can
   db_uuid: 27ca3fa5407c455c9fae6ef0e8820218
   srgpc_url: https://www.srgpc.net/cards/10/chug-from-a-trash-can/
@@ -10480,6 +10525,7 @@
   rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Elbow to the Back
   db_uuid: 5dbfd3f1837a4a59ba5d512932ed0a79
   srgpc_url: https://www.srgpc.net/cards/10/elbow-to-the-back/
@@ -10798,6 +10844,7 @@
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Slap
   db_uuid: fe5e38698525485ea10e79fa1ec4f091
   srgpc_url: https://www.srgpc.net/cards/10/slap/
@@ -10826,6 +10873,7 @@
   rules_text: If you have another Lead in play, put 1 Finish Strike from your discard pile on top of your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Steel Chain Punch
   db_uuid: 3838803665c74184aa4b3e8abf3b6fb9
   srgpc_url: https://www.srgpc.net/cards/10/steel-chain-punch/
@@ -10953,6 +11001,7 @@
   rules_text: If you have another Lead in play, put 1 Finish Grapple from your discard pile on top of your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Barrel of Monkeys
   db_uuid: b39135f34a1148e4a4b3e7dbe2b280e0
   srgpc_url: https://www.srgpc.net/cards/11/barrel-of-monkeys/
@@ -11070,6 +11119,7 @@
   rules_text: Draw 1 card for each other Grapple you have in play.
   tags:
     - Old School Wave 1
+    - Old School Wave 3
 - name: Evening Up the Odds (Grapple)
   db_uuid: c0828ae2627a46bdb10824f36fbb1dc3
   srgpc_url: https://www.srgpc.net/cards/11/evening-up-the-odds/
@@ -11180,6 +11230,16 @@
   rules_text: Your opponent's next turn roll is -1 for each other Lead you have in play.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Jumping Spear
+  db_uuid: da9bef844b9b423a81c3bdebf29850c4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: If you have 3 other Leads in play, add 1 card from your discard pile to your hand, and your next turn roll is +1.
+  tags:
+    - Old School Wave 3
 - name: Hello There
   db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
   srgpc_url: https://www.srgpc.net/cards/11/hello-there/
@@ -11219,6 +11279,7 @@
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Legendary Looney Larping
   db_uuid: d9a355ebe9d74dd3a708206d0e14d46f
   srgpc_url: https://www.srgpc.net/cards/11/legendary-looney-larping/
@@ -11388,7 +11449,8 @@
   play_order: Lead
   deck_card_number: 11
   rules_text: Shuffle 1 card from your discard pile into your deck for each other Lead you have in play.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Stalking My Prey
   db_uuid: ab7b9b46c8d94f8f9ca6e63e7133d28c
   srgpc_url: https://www.srgpc.net/cards/11/stalking-my-prey/
@@ -11499,7 +11561,8 @@
   play_order: Lead
   deck_card_number: 12
   rules_text: Shuffle 1 card from your discard pile into your deck for each other Lead you have in play.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: All You Can Eat Ribs and Pork Chops
   db_uuid: c112eebe9d0b4c9d96ee72dabaf3aa1d
   srgpc_url: https://www.srgpc.net/cards/12/all-you-can-eat-ribs-and-pork-chops/
@@ -11536,6 +11599,7 @@
   rules_text: Draw 1 card for each other Submission you have in play.
   tags:
     - Old School Wave 1
+    - Old School Wave 3
 - name: Arm Triangle (V1)
   db_uuid: 294b3521294e40998b86855213fd9473
   srgpc_url: https://www.srgpc.net/cards/12/arm-triangle-v2/
@@ -11672,6 +11736,7 @@
   rules_text: If you have another Lead in play, put 1 Finish Submission from your discard pile on top of your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Finger Lock Smash
   db_uuid: fc3f3f94d5584d7690ddc6412c062acb
   srgpc_url: https://www.srgpc.net/cards/12/finger-lock-smash/
@@ -11777,6 +11842,16 @@
   rules_text: Your opponent's next turn roll is -1 for each Lead you have in play.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Illegal Rope Leverage
+  db_uuid: cb11963b80664bad91bd832aaa0143cb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: If you have 3 other Leads in play, add 1 card from your discard pile to your hand, and your next turn roll is +1.
+  tags:
+    - Old School Wave 3
 - name: High Impact Choke
   db_uuid: e9d09554bd49443c93d040dfbb6b02f0
   srgpc_url: https://www.srgpc.net/cards/12/high-impact-choke/
@@ -12002,6 +12077,7 @@
   rules_text: If you have another Lead in play, shuffle 2 cards from your discard pile into your deck.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Sundown Clutch
   db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
   srgpc_url: https://www.srgpc.net/cards/12/sundown-clutch/
@@ -12300,7 +12376,8 @@
   rules_text: 'If any player played a Stop card last turn this card is also a Lead.
 
     When this card is in your discard pile, if your opponent stops a Strike, you may add it to your hand.'
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Enzuigiri (Strike)
   db_uuid: 1ce5dc9c3d9749db80cdbc265e5876a8
   srgpc_url: https://www.srgpc.net/cards/13/enzuigiri-strike/
@@ -12509,6 +12586,16 @@
     If the Crowd Meter is 1 or greater and your Agility skill is greater than your opponents Agility skill, stop any Grapple.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Flying Fist Drop
+  db_uuid: 5f6a8cb4b55c4c98866fb2e6a650e480
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: If the Crowd Meter is 1 or greater, add 1 card from your discard pile to your hand.
+  tags:
+    - Old School Wave 3
 - name: Kidney Punch
   db_uuid: 4a8fb2f9c2bb4b94b145db24ac69a0de
   srgpc_url: https://www.srgpc.net/cards/13/kidney-punch/

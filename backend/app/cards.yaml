@@ -4970,6 +4970,17 @@
   deck_card_number: 1
   rules_text: If you roll Submission for your Finish roll, it is +1.  If this is a Steel Chain match, you may shuffle 2 cards from your discard pile into your deck.
   tags: []
+- name: Cobra Kick
+  db_uuid: 059ccf0a8c2947c7ae7e50bc2621ece8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'If your opponent does not have a Lead Grapple in play, stop any Lead Grapple.
+
+    Discard 1 Lead your opponent has in play.'
+  tags:
+    - Old School Wave 3
 - name: Cheap Shot
   db_uuid: 29dd4a3038eb447ebe4c04bcd497f5df
   srg_url: https://supershowthegame.com/product/1-cheap-shot/
@@ -4979,7 +4990,8 @@
   play_order: Lead
   deck_card_number: 1
   rules_text: Your opponent buries 1 card in their hand.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Chop Down
   db_uuid: 8639a08886224895ab9d8163ddc8a674
   srg_url: https://supershowthegame.com/product/01-chop-down/
@@ -5200,6 +5212,16 @@
     Your opponent''s maximum handsize is -1.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Old School Tackle
+  db_uuid: 448de8f652124ba287444b5a5a261b05
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead Grapple.  Flip 1 card.
+  tags:
+    - Old School Wave 3
 - name: Mule Kick
   db_uuid: f9f3672839fe429c9b08ae8d9ef9363e
   srgpc_url: https://www.srgpc.net/cards/1/mule-kick/
@@ -5241,6 +5263,7 @@
   rules_text: If your opponent does not have a Lead Grapple in play, stop any Lead Grapple. Draw 1 card, then bury 1 card in your hand.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Pineapple
   db_uuid: 92f6f0f603704da080ac361b0b223811
   srg_url: https://supershowthegame.com/product/01-pineapple/
@@ -5350,6 +5373,7 @@
   rules_text: Your opponent's gimmick is blank until their next turn.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Tackle
   db_uuid: 8e3a846830b3442091d4e1b29d725e11
   srgpc_url: https://www.srgpc.net/cards/1/tackle/
@@ -5425,6 +5449,7 @@
   rules_text: Your maximum handsize is +1. Your opponent's maximum handsize is -1.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: All American Stomps
   db_uuid: 0f3aad3696544af1891a5454f59ba2a3
   srgpc_url: https://www.srgpc.net/cards/2/all-american-stomps/
@@ -5509,7 +5534,8 @@
   play_order: Lead
   deck_card_number: 2
   rules_text: Your opponent buries 1 card in their hand.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Clean Break
   db_uuid: 9abad33a2f534742bc358b520b8bdeb2
   srgpc_url: https://www.srgpc.net/cards/2/clean-break
@@ -5520,6 +5546,17 @@
   rules_text: If your opponent does not have a Lead Submission in play, stop any Lead Submission. Draw 1 card then bury 1 card in your hand.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Drop Onto the Top Rope
+  db_uuid: 9b9c64d9caa84f4ea4976b2b34dc7366
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'If your opponent does not have a Lead Submission in play, stop any Lead Submission.
+
+    Flip 1 card.'
+  tags: []
 - name: Close Combat
   db_uuid: 52f8867bea8e4a89ab6b5abf43fdbe34
   srgpc_url: https://www.srgpc.net/cards/2/close-combat/
@@ -5656,6 +5693,7 @@
   rules_text: Your opponent's Gimmick is blank until their next turn.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Momentum Swing
   db_uuid: 655c5f7ae5bc47b596d6cb7dcbde9cb0
   srgpc_url: https://www.srgpc.net/cards/2/momentum-swing/
@@ -5970,6 +6008,17 @@
   rules_text: Your maximum handsize is +1.  Your opponent's maximum handsize is -1.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
+- name: Encasing Clutch
+  db_uuid: 6bb28591f8f04586a0593a7d987323f5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'If your opponent does not have a Lead Strike in play, stop any Lead Strike.
+
+    Discard 1 Lead your opponent has in play.'
+  tags: []
 - name: Bob & Weave
   db_uuid: 9c89a299c9f9413fbe3329704698f977
   srg_url: https://supershowthegame.com/product/02-bob-weave/
@@ -6061,7 +6110,19 @@
   play_order: Lead
   deck_card_number: 3
   rules_text: Your opponent buries 1 card in their hand.
-  tags: []
+  tags:
+    - Old School Wave 3
+- name: Forearm Turn
+  db_uuid: 773d806203394fc8890855b0c9dd5d22
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'If your opponent does not have a Lead Strike in play, stop any Lead Strike.
+
+    Flip 1 card.'
+  tags:
+    - Old School Wave 3
 - name: Face Twist
   db_uuid: 053684b6253a42868b0a21014188206e
   srgpc_url: https://www.srgpc.net/cards/3/face-twist
@@ -6194,6 +6255,7 @@
     Draw 1 card, then bury 1 card in your hand.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Lockjaw
   db_uuid: 30249467b3ff48dcb6b971e9b5d7182f
   srgpc_url: https://www.srgpc.net/cards/3/lockjaw/
@@ -6377,6 +6439,7 @@
   rules_text: Your opponent's Gimmick is blank until their next turn.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Test of Strength
   db_uuid: f7cceff2fee242cabb5e4a3cdcd67794
   srgpc_url: https://www.srgpc.net/cards/3/test-of-strength/
@@ -6433,6 +6496,16 @@
   tags: []
   wants_keywords:
     - Baseball Bat
+- name: Backhand Chop
+  db_uuid: b654479ae618485ebd0885092f68762b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'If your opponent does not have a Follow Up Grapple in play, stop any Follow Up Grapple.
+
+    Look at the top card of your opponent''s deck, you may flip it.'
+  tags: []
 - name: Taking You To School
   db_uuid: c9587149b6cb43a8ac36ac3c7228e345
   srgpc_url: https://www.srgpc.net/cards/4/taking-you-to-school/
@@ -6672,6 +6745,7 @@
   rules_text: If your opponent does not have a Follow Up Grapple in play, stop any Follow Up Grapple. Draw 1 card, then bury 1 card in your hand.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Kick (Strike)
   db_uuid: aeda5fdd8c814f599ea38889c81ef3b1
   srgpc_url: https://www.srgpc.net/cards/4/kick-strike/
@@ -6798,6 +6872,7 @@
   rules_text: You may play 1 additional Strike this turn; if your Agility skill is greater than your opponent's Agility skill, you may play any additional card this turn instead.
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Skull Smash
   db_uuid: 108ffb6dd61945788d07145250d4653d
   srgpc_url: https://www.srgpc.net/cards/4/skull-smash
@@ -6830,7 +6905,8 @@
   play_order: Lead
   deck_card_number: 4
   rules_text: Your opponent randomly reveals 2 cards in their hand; they choose 1 of those cards and bury it.
-  tags: []
+  tags:
+    - Old School Wave 3
 - name: Spinning Thrust Kick
   db_uuid: 40162b81318e4c0ab8ad15cdd920c5dd
   srgpc_url: https://www.srgpc.net/cards/4/spinning-thrust-kick/
@@ -6908,6 +6984,7 @@
   rules_text: 'You may play 1 additional Strike this turn: if your Strike skill is greater than your opponent''s Strike skill, you may play any additional card this turn instead.'
   tags:
     - Old School Wave 2
+    - Old School Wave 3
 - name: Thumb to the Eye
   db_uuid: 89f8067473014d94a009ea8b77b5f8b8
   srgpc_url: https://www.srgpc.net/cards/4/thumb-to-the-eye/
@@ -78527,6 +78604,17 @@
 
     Add 1 other card of the same card or move type as the flipped card from your discard pile to your hand.'
   tags: []
+- name: Goozle
+  db_uuid: 4badf15638494a2594ba48651fea500b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'If your opponent does not have a Lead Submission in play, stop any Lead Submission.
+
+    Discard 1 Lead your opponent has in play.'
+  tags:
+    - Old School Wave 3
 - name: Try Again
   db_uuid: de4db64048ee467a8bae18686d674646
   srg_url: https://supershowthegame.com/product/02-try-again/
@@ -78617,6 +78705,17 @@
   tags: []
   wants_keywords:
     - Table
+- name: Catch Clothesline
+  db_uuid: c1d4147c33c64d01a351bcf4ee5402e7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'If your opponent does not have a Follow Up Grapple in play, stop any Follow Up Grapple.
+
+    Discard 1 Follow Up your opponent has in play.'
+  tags:
+    - Old School Wave 3
 - name: Chop The Back Of The Head
   db_uuid: b5eae2db374c4b898d10241588b42307
   srgpc_url: https://www.srgpc.net/cards/4/chop-the-back-of-the-head/

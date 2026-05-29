@@ -7298,11 +7298,14 @@
     - Old School Wave 2
     - Old School Wave 3
 - name: Rising Carry
+  db_uuid: 1e268a591cf447fd9d3f0a70ca17ca15
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 5
-  rules_text: "If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.\nLook at the top card of your opponent's deck, you may flip it."
+  rules_text: 'If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.
+
+    Look at the top card of your opponent''s deck, you may flip it.'
   tags:
     - Old School Wave 3
 - name: Legendary Lockdown
@@ -7478,11 +7481,14 @@
     - Old School Wave 2
     - Old School Wave 3
 - name: Toss Over the Rope
+  db_uuid: d58db1f18d344e7fa452abf66231b477
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 5
-  rules_text: "If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.\nDiscard 1 Follow Up your opponent has in play."
+  rules_text: 'If your opponent does not have a Follow Up Submission in play, stop any Follow Up Submission.
+
+    Discard 1 Follow Up your opponent has in play.'
   tags:
     - Old School Wave 3
 - name: Swing and a Sledgehammer
@@ -7613,19 +7619,25 @@
     - Old School Wave 2
     - Old School Wave 3
 - name: Catch the Leg
+  db_uuid: 8ee422f24bbe447198cc88629b281bb1
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
-  rules_text: "If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.\nLook at the top card of your opponent's deck, you may flip it."
+  rules_text: 'If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.
+
+    Look at the top card of your opponent''s deck, you may flip it.'
   tags:
     - Old School Wave 3
 - name: Stump Puller
+  db_uuid: e6e91c7a4dd8484c8d2c64628e927b35
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
-  rules_text: "If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.\nDiscard 1 Follow Up your opponent has in play."
+  rules_text: 'If your opponent does not have a Follow Up Strike in play, stop any Follow Up Strike.
+
+    Discard 1 Follow Up your opponent has in play.'
   tags:
     - Old School Wave 3
 - name: Blink
@@ -8115,11 +8127,14 @@
     Add 1 Ellis Taylor, Jordan Oliver, or Charlie Tiger card from your discard pile to your hand.'
   tags: []
 - name: Charging Knee
+  db_uuid: 544b051a837b410dac61b476dc54bf57
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
   deck_card_number: 7
-  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Strike for your turn roll, you may put this card on top of your deck."
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    When this card is in your discard pile: When you roll Strike for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 3
 - name: Back Elbow
@@ -9122,12 +9137,15 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: "Old School Yeeting"
+- name: Old School Yeeting
+  db_uuid: eeff684f04ef47058f17abfaea8a47d0
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: "Look at the bottom 2 cards of your deck, add 1 to your hand.\nYour opponent's maximum handsize is -1."
+  rules_text: 'Look at the bottom 2 cards of your deck, add 1 to your hand.
+
+    Your opponent''s maximum handsize is -1.'
   tags:
     - Old School Wave 3
 - name: Kabloow (V1)
@@ -9377,12 +9395,15 @@
 
     If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Grapple 8+'
   tags: []
-- name: "Swing the Crowd"
+- name: Swing the Crowd
+  db_uuid: 178e37258d1a4430b5406a3b83fa2ff2
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: "The Crowd Meter is considered +1 for card effects.\nDraw 1 card."
+  rules_text: 'The Crowd Meter is considered +1 for card effects.
+
+    Draw 1 card.'
   tags:
     - Old School Wave 3
 - name: Swing Around the Ring
@@ -78486,11 +78507,14 @@
   rules_text: If your Technique skill is greater than your opponent's Technique skill, stop any Follow Up Strike or Finish Strike even if it cannot be stopped.
   tags: []
 - name: Jumping Elbow
+  db_uuid: 5b7e8fc5247f468092686eaee0321578
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
   deck_card_number: 7
-  rules_text: "Look at the bottom 2 cards of your deck, add 1 to your hand.\nYour opponent's maximum handsize is -1."
+  rules_text: 'Look at the bottom 2 cards of your deck, add 1 to your hand.
+
+    Your opponent''s maximum handsize is -1.'
   tags:
     - Old School Wave 3
 - name: Bird's Eye View Kick
@@ -78515,11 +78539,14 @@
     This card counts as 2 Lead Strikes in play.'
   tags: []
 - name: Crucifix Roll Up
+  db_uuid: 62841d13465e4afbb8900d1ecb6a0ea2
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: "Shuffle 1 card from your discard pile into your deck.\nWhen this card is in your discard pile: When you roll Grapple for your turn roll, you may put this card on top of your deck."
+  rules_text: 'Shuffle 1 card from your discard pile into your deck.
+
+    When this card is in your discard pile: When you roll Grapple for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 3
 - name: Chug-Chug-Chug!

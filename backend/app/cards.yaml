@@ -21991,7 +21991,7 @@
   deck_card_number: 24
   rules_text: Take 2 cards from your discard pile and shuffle them into your deck, then draw 2 cards.
   tags: []
-- name: Over the Top Headlock
+- name: Over the Top Headlock (V1)
   db_uuid: aa640ffe35a54a518767951f10c41d91
   srgpc_url: https://www.srgpc.net/cards/24/over-the-top-headlock/
   card_type: MainDeckCard
@@ -21999,6 +21999,16 @@
   play_order: Followup
   deck_card_number: 24
   rules_text: Draw the bottom 2 cards of your deck.
+  tags: []
+- name: Over the Top Headlock (V2)
+  db_uuid: 4a264719987f4bcbb7fa61d5545f4cb0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Draw the bottom 2 cards of your deck.
+
+    Bury 2 cards in your discard pile.'
   tags: []
 - name: Pin to the Wall
   db_uuid: da0099e73b9344f9a3197a13652623ec
@@ -63409,6 +63419,46 @@
   tags: []
   related_cards:
     - 20c146c8c0854329807a89143269a8fb
+- name: Sami Callihan (WR)
+  db_uuid: 6cb70ff083db4b25a3d4f5cafccf3d68
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 9
+  grapple: 8
+  rules_text: 'At the start of the match, choose 1:
+
+    Your opponent does not draw for your card effects or you do not bury or discard cards from your hand for your own card effects.'
+  tags: []
+- name: Jessica Havok (WR)
+  db_uuid: 9b57a29878da4cd7bf0a2bf261a553fa
+  card_type: SingleCompetitorCard
+  gender: Female
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: 'When your opponent stops your card: Reveal the top card of your opponent''s deck. If it is a Stop, you may discard it. If not, you may bury it.'
+  tags: []
+- name: Jessica Havok (V2)
+  db_uuid: ae9ab6e586984fd18f0cd6864809b467
+  card_type: SingleCompetitorCard
+  gender: Female
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: 'Once during your turn:
+
+    You may discard 4 cards from your hand to put the bottom card of your deck on top of your deck.'
+  tags: []
 - name: Santa's Little Helper
   db_uuid: 1ff9513294ec45d9b52189d8c6f7005c
   srgpc_url: https://www.srgpc.net/cards/competitors/santas-little-helper/
@@ -78854,6 +78904,16 @@
   play_order: Followup
   deck_card_number: 13
   rules_text: If your Agility skill is greater than your opponent's Agility skill, stop any Follow Up or Finish Grapple, even if it cannot be stopped.
+  tags: []
+- name: Over the Top, But Not Out
+  db_uuid: e90ddb5e35854ec6b68504c8c6b0c252
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'Each player randomly buries 3 cards in their hand.
+
+    Draw 1 card.'
   tags: []
 - name: High Flying Lucha Splash
   db_uuid: 4149eb2e9e32444aad30fe32fed1c050

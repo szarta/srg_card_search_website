@@ -86490,3 +86490,14 @@
 
     Skill Requirement: Strike 16+'
   tags: []
+- name: Super Steel Chain Hold
+  db_uuid: 96825e75eabd468b9fb5630fad6ac474
+  srg_url: https://supershowthegame.com/product/30-super-steel-chain-hold/
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Technique and Submission are +1 for each other card you have in play with "Steel Chain" in the name.
+  tags: []
+  wants_keywords:
+    - Steel Chain

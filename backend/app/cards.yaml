@@ -86478,3 +86478,15 @@
   rules_text: 'When you roll Power for your turn roll: shuffle up to 2 cards from your discard pile into your deck, and your next turn roll is +1.'
   tags:
     - Old School
+- name: The Cardiac Arrest (Strike)
+  db_uuid: f448bfba718140d78b92c7691d1d64f4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, their 1st breakout roll is -4.
+
+    If your Strike skill is greater than your opponent''s Strike skill, their 2nd breakout roll is -4.
+
+    Skill Requirement: Strike 16+'
+  tags: []

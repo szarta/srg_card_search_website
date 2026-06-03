@@ -86715,3 +86715,169 @@
   tags: []
   wants_keywords:
     - Steel Chain
+- name: Flying Through the Stars With the Sabers of Light
+  db_uuid: 2dfd268aaafc420d83e34055f7510eda
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your lowest skill is +1 for each Saber of Light card you have in play.
+
+    Once per turn:
+
+    If you have another Saber of Light card in play, you may discard 1 card from your hand to re-roll your Finish roll.'
+  tags:
+    - Saber of Light
+- name: Blocking with the Saber of Light
+  db_uuid: ed5aecfb2e8b4973bd52299d0ddc35d7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: The Final Blow
+  db_uuid: 92f45387f9154f40b1294e7a142a96c9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'If you have 3 other Saber of Light cards in play, this card is a Finish instead.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: A Beacon of Hope
+  db_uuid: 8679328f1b434a419e77ecf0124db535
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Rhythmic Ready Stance
+  db_uuid: 87e225468cdf4814823927790fbcd7a9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'If you have another Saber of Light card in play, your next turn roll is +3.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: A Forceful Display
+  db_uuid: 05687a041eaf4b3db4de14143aea198f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Flip 1 card.
+
+    Put 1 card from your discard pile on top of your deck.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: All Who Gain Power Are Afraid to Lose It
+  db_uuid: d7ec642128614edf88b907590adae44b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Union Light Printer Jam Resolver
+  db_uuid: e657ca0ecc3b4f519acda4b1337eb140
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Prepare for War
+  db_uuid: e14786d3f1d24f42a261de452c0d9890
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: 'If you have another Saber of Light in play, put 1 Grapple from your discard pile on top of your deck.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Weapons are Part of My Religion
+  db_uuid: d99ccac03d7c4bcbb7a069ffc2528548
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'Add 1 Finish from your discard pile to your hand.
+
+    If your next turn roll is 10, your opponent''s turn roll is -1.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Dive Over the Competition
+  db_uuid: de3839308b384e248c74b2fa713a0e55
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'Stop any Follow Up Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: The Rule of 2
+  db_uuid: f8332c3908a8403dbf4f62cca5598eb0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'Stop any Lead Submission.
+
+    If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
+  tags:
+    - Saber of Light
+  wants_keywords:
+    - Training With
+- name: Saber of Light Training With Pang
+  db_uuid: 795528a6f5bd49e7abb574c8fa88e040
+  card_type: EntranceCard
+  rules_text: You are considered to have a Saber of Light in play for your card effects.
+  tags:
+    - Saber of Light

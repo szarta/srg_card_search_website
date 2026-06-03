@@ -86610,6 +86610,50 @@
   rules_text: When your card is stopped, you may flip 2 cards or bury 2 other cards in your discard pile.
   tags:
     - Old School
+  related_finishes:
+    - bfe6608b60734937a1c5641938383f8a
+    - 9d65d00572eb4bbbbe05c684f968545d
+    - 872aa32857f74dd7a014c750a7a934de
+- name: The Crown of Chaos
+  db_uuid: bfe6608b60734937a1c5641938383f8a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Power
+
+    When this card is in your discard pile: you may make your turn roll -1, and if your turn roll was 2 less than your target''s, draw 1 card.'
+  tags: []
+  related_cards:
+    - cfbd07805a96492a8c39e554a67b3997
+- name: Giggle Bomb
+  db_uuid: 9d65d00572eb4bbbbe05c684f968545d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+5 to Strike
+
+    +1 to Grapple
+
+    Discard 1 card from your hand.  Flip 1 card.'
+  tags: []
+  related_cards:
+    - cfbd07805a96492a8c39e554a67b3997
+- name: The Smooch and Snooze
+  db_uuid: 872aa32857f74dd7a014c750a7a934de
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Flip up to 3 cards.
+
+    When you flip any number of cards, add 1 of the flipped cards to your hand.
+
+    If your opponent breaks out, you may put this card into play.'
+  tags: []
+  related_cards:
+    - cfbd07805a96492a8c39e554a67b3997
 - name: Lawman Nick (Old School)
   db_uuid: 499707d2d91a478594faa237568a3183
   card_type: SingleCompetitorCard
@@ -86622,6 +86666,54 @@
   rules_text: When your Finish roll is 7 or less (before the Crowd Meter is added), it is +2.
   tags:
     - Old School
+  related_finishes:
+    - 529db9183a254f3ca9ecc5dfc14fea7c
+    - 28d9e3e7c3034b4aa8a71d46a888c51f
+    - 49ba22ee146f42af894d7fd64eced05a
+- name: The Long Arm of the Law
+  db_uuid: 529db9183a254f3ca9ecc5dfc14fea7c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile: If your target re-rolls their turn roll, you may discard 1 card from your hand to shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 499707d2d91a478594faa237568a3183
+- name: The Irons in the Fire
+  db_uuid: 28d9e3e7c3034b4aa8a71d46a888c51f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    Add 1 card with "Clothesline" or "Lariat" from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 499707d2d91a478594faa237568a3183
+  wants_keywords:
+    - Clothesline
+    - Lariat
+- name: The Final Round Up
+  db_uuid: 49ba22ee146f42af894d7fd64eced05a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: If stopped, add 1 card with "Clothesline" or "Lariat" in the name from your discard pile to your hand.  If your opponent breaks out, you may put 1 card with "Clothesline" or "Lariat" from your hand into play.
+  tags: []
+  related_cards:
+    - 499707d2d91a478594faa237568a3183
+  wants_keywords:
+    - Clothesline
+    - Lariat
 - name: El Scorpio (Old School)
   db_uuid: 2990ff6ba3fa49e1bb0db18e876f22b8
   card_type: SingleCompetitorCard

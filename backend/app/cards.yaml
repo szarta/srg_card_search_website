@@ -47791,7 +47791,7 @@
   tags: []
   related_cards:
     - cea48c22a3cb4ad3ade5a8a0cbf19ac8
-- name: The Final Blow
+- name: The Final Blow (Lawman Nick)
   db_uuid: 6eb2f60a2ca342a1b79d096e91f9efe1
   card_type: MainDeckCard
   atk_type: Grapple
@@ -86977,7 +86977,7 @@
     - Saber of Light
   wants_keywords:
     - Training With
-- name: The Final Blow
+- name: The Final Blow (#23)
   db_uuid: 92f45387f9154f40b1294e7a142a96c9
   card_type: MainDeckCard
   atk_type: Grapple

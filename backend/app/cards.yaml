@@ -86558,6 +86558,46 @@
   rules_text: When you increase your Power or Submission, the other skill is also increased the same amount.
   tags:
     - Old School
+  related_finishes:
+    - f7bcf5adf9c04452854e9294858b7811
+    - cd8064959d294d0d9ae8bbb6366d70ef
+    - c7be5bb910f847579b2c187721694322
+- name: The Rebel Yell!
+  db_uuid: f7bcf5adf9c04452854e9294858b7811
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    When this card is in your discard pile, and you and your target have an equal number of Stops in play, your Power is +1 during turn rolls.'
+  tags: []
+  related_cards:
+    - ecfddbb19fbb45d2847e30dc6a027832
+- name: Mercury Poison
+  db_uuid: cd8064959d294d0d9ae8bbb6366d70ef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Grapple
+
+    If stopped, you may choose 1 Stop your opponent has in play and discard it.'
+  tags: []
+  related_cards:
+    - ecfddbb19fbb45d2847e30dc6a027832
+- name: Pressure on People
+  db_uuid: c7be5bb910f847579b2c187721694322
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    Draw 1 card for each Stop your opponent has in play.'
+  tags: []
+  related_cards:
+    - ecfddbb19fbb45d2847e30dc6a027832
 - name: The Harlequin Queen (Old School)
   db_uuid: cfbd07805a96492a8c39e554a67b3997
   card_type: SingleCompetitorCard
@@ -86606,6 +86646,60 @@
   rules_text: You may ignore the "If Stopped" text on all non-"Stop" cards.
   tags:
     - Old School
+  related_finishes:
+    - c46ce1faf2174cc5b31b61cc07c940d6
+    - 155c419b0e5845419811725de915c11e
+    - 0ad7ae8ea4404ec886aecda52d0345d4
+- name: Kaboom!
+  db_uuid: c46ce1faf2174cc5b31b61cc07c940d6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +3 to Agility
+
+    During your turn:
+
+    If this card is flipped, you may play it as an additional card this turn.'
+  tags: []
+  related_cards:
+    - 5601d511bde4440d97c3b12e376fd669
+- name: The Powder Keg
+  db_uuid: 155c419b0e5845419811725de915c11e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your Power and Technique are + the Crowd Meter.
+
+    You may discard this card from your hand to blank the "If Stopped" text on a card played by your target.'
+  tags: []
+  related_cards:
+    - 5601d511bde4440d97c3b12e376fd669
+- name: Final Detonation
+  db_uuid: 0ad7ae8ea4404ec886aecda52d0345d4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    +2 to Submission
+
+    Copy the "If stopped" text of a card your opponent has in play.
+
+    If the Crowd Meter is 5 or greater, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 5601d511bde4440d97c3b12e376fd669
 - name: Chester the Jester (Old School)
   db_uuid: 8c7170af50464d439712a1550df4b25a
   card_type: SingleCompetitorCard
@@ -86620,6 +86714,56 @@
     Your target''s Gimmick is immediately blanked until the end of the next turn.'
   tags:
     - Old School
+  related_finishes:
+    - 38c81349c36b4fc889a1f82cca841cda
+    - a89d91a3fe874296add5fb14b05d2218
+    - ebee8019c95d4d939c734e33378f8ec9
+- name: Joke's On You
+  db_uuid: 38c81349c36b4fc889a1f82cca841cda
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    Your opponent buries 2 cards in their hand.
+
+    If you win the next turn roll, you may bump instead.'
+  tags: []
+  related_cards:
+    - 8c7170af50464d439712a1550df4b25a
+- name: Backwoods Buster
+  db_uuid: a89d91a3fe874296add5fb14b05d2218
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    +1 to Agility
+
+    If you bumped on the last turn roll: Double these bonuses, or this card is a Lead.'
+  tags: []
+  related_cards:
+    - 8c7170af50464d439712a1550df4b25a
+- name: Who's Laughing Now?
+  db_uuid: ebee8019c95d4d939c734e33378f8ec9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Agility
+
+    +1 to Submission
+
+    Look at your opponent''s hand, choose 1 Submission and discard it.
+
+    Add 1 Follow Up Strike from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 8c7170af50464d439712a1550df4b25a
 - name: Eleeta
   db_uuid: 2d0c0239efa34b248fc45c9c622fb557
   card_type: SingleCompetitorCard

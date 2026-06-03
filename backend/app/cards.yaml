@@ -48795,6 +48795,17 @@
   tags: []
   related_cards:
     - b41d30281182409c8d64717d314ab4bc
+- name: "Death by Elbow (JT Dunn)"
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your skills are +1 for each other card you have in play with "Elbow" in the name.
+
+    When your opponent has 0 cards in play this card cannot be stopped.'
+  tags: []
+  wants_keywords:
+    - Elbow
 - name: Jupiter
   db_uuid: 75d2a722d7674b46958451b843d04078
   card_type: SingleCompetitorCard

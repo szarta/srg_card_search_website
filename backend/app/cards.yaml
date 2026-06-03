@@ -916,7 +916,7 @@
     - fbde02856d4c4b70a785ac5242932b26
     - 2e90fdf49f4846dcab979a85aa2b3cab
     - 4cbdb4a7a01f45048f46ee0fcf3ac1ec
-- name: The Big Shot
+- name: The Big Shot (V1)
   db_uuid: 34920b2f4af2455da98b228debb1e87f
   srg_url: https://supershowthegame.com/product/the-big-shot/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-big-shot/
@@ -988,6 +988,76 @@
     - 330b2b0143044d47b08f54881ff6d293
     - 21b065984465423c90b631545f94e0fb
     - 666536238d51453381fc0f4394b29e34
+- name: The Big Shot (V2)
+  db_uuid: 4c59dca707f641e7bb45e2aa533c1ba6
+  card_type: SingleCompetitorCard
+  gender: Male
+  power: 9
+  technique: 6
+  agility: 5
+  strike: 10
+  submission: 8
+  grapple: 7
+  rules_text: 'During your turn:
+
+    When your opponent stops your card with "Punch" in the name, draw 1 card, and your opponent randomly discards 1 card from their hand.'
+  tags: []
+  related_finishes:
+    - 2da1afba9876478ca4d27b0810bef5c9
+    - 1148fe9862c04b9c9c548482cd3a7dca
+    - bb11d5bcd26b4a64acfe76852596b038
+  wants_keywords:
+    - Punch
+- name: One Punch, Man!
+  db_uuid: 2da1afba9876478ca4d27b0810bef5c9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +2 to Agility
+
+    +1 to Strike
+
+    When this card is in your discard pile: Your Agility is +1 for each card in your discard pile with "Punch" in the name (Max +2).'
+  tags: []
+  related_cards:
+    - 4c59dca707f641e7bb45e2aa533c1ba6
+  wants_keywords:
+    - Punch
+- name: Rock-Solid Knockout
+  db_uuid: 1148fe9862c04b9c9c548482cd3a7dca
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Technique
+
+    +2 to Agility
+
+    If you have 5 cards in play with "Punch" in the name, this card cannot be stopped, and your opponent gets 1 Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 4c59dca707f641e7bb45e2aa533c1ba6
+  wants_keywords:
+    - Punch
+- name: The Knockout Clause
+  db_uuid: bb11d5bcd26b4a64acfe76852596b038
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Agility
+
+    +1 to Grapple
+
+    If your opponent re-rolled their turn roll, stop any Finish Strike even if it cannot be stopped.'
+  tags: []
+  related_cards:
+    - 4c59dca707f641e7bb45e2aa533c1ba6
 - name: The Above Average Warrior
   db_uuid: bb8f720590c44fe189ce68af24a73598
   srgpc_url: https://www.srgpc.net/competitors/the-above-average-warrior/
@@ -3466,6 +3536,36 @@
 
     If this is a Steel Cage match, flip 3 cards.'
   tags: []
+- name: Jurassic Chokeslam
+  db_uuid: 21125f12c22b4086919eb14911780474
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    When Submissions are stopped, they have blank text until the end of the turn.'
+  tags: []
+- name: Jurassic Clothesline
+  db_uuid: 3fda3cd6417b429d834ef95572c9d9f3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    When Grapples are stopped, they have blank text until the end of the turn.'
+  tags: []
+- name: Jurassic Crush
+  db_uuid: 4c2e124efe254e4597eb5696e7d34ff6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    When Strikes are stopped, they have blank text until the end of the turn.'
+  tags: []
 - name: Drive Into the Planet
   db_uuid: d3c51fc0c20c4fb8b709b1fafbd001f2
   srg_url: https://supershowthegame.com/product/20-drive-into-the-planet/
@@ -4743,6 +4843,14 @@
   play_order: Lead
   deck_card_number: 7
   rules_text: Draw 1 card or shuffle up to 3 cards from your discard pile into your deck.
+  tags: []
+- name: I Was Made for the Spotlight
+  db_uuid: e21a54a0092849c8bc7fc633214b73b8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Search your deck for a Spotlight card and add it to your hand.
   tags: []
 - name: Running Leg Drop
   db_uuid: 9d524bcb76a842bb8044674f68fbd58b
@@ -14757,7 +14865,7 @@
   rules_text: Draw 1 card for each Stop you have in play.
   tags:
     - Super Lucha
-- name: Steel Chain Wrapped Sledgehammer Beatdown
+- name: Steel Chain Wrapped Sledgehammer Beatdown (Power)
   db_uuid: 13890aa2cf1340fe8debb2e159e096a3
   card_type: MainDeckCard
   atk_type: Strike
@@ -14765,7 +14873,9 @@
   deck_card_number: 16
   rules_text: 'Your Grapple skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.'
+    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.
+
+    Skill Requirement: Power 8+'
   tags: []
 - name: Ambush With the Drumsticks
   db_uuid: fff0816a2267421b9ebef17b5f84a5b1
@@ -63673,7 +63783,7 @@
     - fabf327a45a34adf96134a0e29318479
     - f2015adf22e347dc99bbfa1bb59ab373
     - 8fdf933b857e445daaf7fbfbc3955a5e
-- name: Scott Prime
+- name: Scott Prime (V1)
   db_uuid: 504e8e4759024076b094608d6b8172a6
   srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
   card_type: SingleCompetitorCard
@@ -63686,6 +63796,28 @@
   submission: 9
   grapple: 10
   rules_text: When you roll Technique for your turn roll or Finish roll, you may switch it to Power.
+  tags:
+    - T-50
+  related_cards:
+    - 4eecca4ae9e949e5a6f7c251f028b712
+  related_finishes:
+    - 5d960f8662294f49aaecb66de0a8addf
+    - 35dda180e39f46a89892d2dbed0db1da
+    - 50ea91b703fb48f3acf9fb1167bf4644
+    - 7992fbf3c6ec4352b58c7e7556f8a1a6
+    - 4e883a63fcf0423f981af027260c3156
+- name: Scott Prime (V2)
+  db_uuid: fe3b3d76b2334b528c57bd0375ea82cd
+  card_type: SingleCompetitorCard
+  division: World Championship
+  gender: Male
+  power: 7
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 9
+  grapple: 10
+  rules_text: When you roll Agility for your turn roll or Finish roll, you may switch it to Power.
   tags:
     - T-50
   related_cards:
@@ -63714,6 +63846,7 @@
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 4eecca4ae9e949e5a6f7c251f028b712
+    - fe3b3d76b2334b528c57bd0375ea82cd
 - name: Salt in the Eyes
   db_uuid: 35dda180e39f46a89892d2dbed0db1da
   card_type: MainDeckCard
@@ -63729,6 +63862,7 @@
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 4eecca4ae9e949e5a6f7c251f028b712
+    - fe3b3d76b2334b528c57bd0375ea82cd
 - name: Five Star Heart Punch
   db_uuid: 50ea91b703fb48f3acf9fb1167bf4644
   srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
@@ -63745,6 +63879,7 @@
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 4eecca4ae9e949e5a6f7c251f028b712
+    - fe3b3d76b2334b528c57bd0375ea82cd
 - name: The Match of the Year (Scott Prime)
   db_uuid: 7992fbf3c6ec4352b58c7e7556f8a1a6
   card_type: MainDeckCard
@@ -63762,6 +63897,7 @@
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 4eecca4ae9e949e5a6f7c251f028b712
+    - fe3b3d76b2334b528c57bd0375ea82cd
 - name: The Primal Scream
   db_uuid: 4e883a63fcf0423f981af027260c3156
   srgpc_url: https://www.srgpc.net/cards/competitors/scott-prime/
@@ -63778,6 +63914,7 @@
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 4eecca4ae9e949e5a6f7c251f028b712
+    - fe3b3d76b2334b528c57bd0375ea82cd
 - name: Scrapyard Cat
   db_uuid: b0fcea9832944b0890b8d622271fea68
   srgpc_url: https://www.srgpc.net/competitors/scrapyard-cat/
@@ -79569,6 +79706,16 @@
 
     When this card is discarded from play for a Breakout, your opponent randomly discards 1 card from their hand.'
   tags: []
+- name: Extreme Chinlock
+  db_uuid: 5af5e40fc1b6445182df321e763d9443
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'Draw 1 card.
+
+    Bury up to 4 cards in your opponent''s discard pile.'
+  tags: []
 - name: Back Shots Off the Table
   db_uuid: 72b0a6a2732b4fa18b97d8d87de93a49
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -81268,6 +81415,13 @@
   rules_text: 'Search your deck for a Finish Grapple and add it to your hand.
 
     Shuffle your deck.'
+  tags: []
+- name: Welcome to New York
+  db_uuid: 9055c0f5bdf54707bc79d2b5b40866c0
+  card_type: EntranceCard
+  rules_text: 'At the start of the match:
+
+    You may bury 1 card in your hand: If you do, the match is increased to Crowd Meter 1.'
   tags: []
 - name: Giant Mode
   db_uuid: 4bc44421b8f8494a8230072e6b0c6c7e

@@ -48795,7 +48795,8 @@
   tags: []
   related_cards:
     - b41d30281182409c8d64717d314ab4bc
-- name: "Death by Elbow (JT Dunn)"
+- name: Death by Elbow (JT Dunn)
+  db_uuid: deaa1adf5172416a9a4d41fdef3e94dc
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish

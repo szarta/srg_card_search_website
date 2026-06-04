@@ -24686,6 +24686,9 @@
 
     +2 to Strike'
   tags: []
+  related_cards:
+    - 4e0abf2265bf451dac5e99e1a0d6fbd8
+    - ad37a60fc4184a49bc0cbdc7a693e909
 - name: '"Weather Balloon"'
   db_uuid: 5c5cdd1b02824536a0c79896fb7560ec
   srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
@@ -24700,6 +24703,9 @@
 
     Draw 2 cards.'
   tags: []
+  related_cards:
+    - 4e0abf2265bf451dac5e99e1a0d6fbd8
+    - ad37a60fc4184a49bc0cbdc7a693e909
 - name: Al13n Infestation
   db_uuid: 9bd1b410d4bc443eae2f2e2bc7526108
   srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
@@ -24714,6 +24720,9 @@
 
     When this card is in your discard pile: Your opponent cannot increase their skills with their Gimmick.'
   tags: []
+  related_cards:
+    - 4e0abf2265bf451dac5e99e1a0d6fbd8
+    - ad37a60fc4184a49bc0cbdc7a693e909
 - name: Unidentified Flying Elbow
   db_uuid: 91db923bc32149539a544f86c5375c38
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
@@ -24923,6 +24932,8 @@
 
     If stopped, unless you have 10 or more cards in hand, you lose the match via disqualification.'
   tags: []
+  related_cards:
+    - 899418d2d50c4082a5a5c99455d8de0b
 - name: 'Absolute Justice: Buster Call'
   db_uuid: 2295359c44694120b2708595f6c91168
   card_type: MainDeckCard
@@ -24933,6 +24944,8 @@
 
     Once per turn: If this match has no disqualifications, you may re-roll your Finish roll.'
   tags: []
+  related_cards:
+    - 899418d2d50c4082a5a5c99455d8de0b
 - name: 'Domain Expansion: Grumpsville'
   db_uuid: cf262ea5be394c2387e3b66f38889264
   card_type: MainDeckCard
@@ -24943,6 +24956,8 @@
 
     If your opponent rolls their lowest printed skill and they did not breakout, they cannot breakout this turn.'
   tags: []
+  related_cards:
+    - 899418d2d50c4082a5a5c99455d8de0b
 - name: Alexander Slamilton
   db_uuid: fae93ed792e548029db624a4eb65c08d
   srg_url: https://supershowthegame.com/product/alexander-slamilton/
@@ -26173,6 +26188,8 @@
 
     Discard 2 cards from your hand.'
   tags: []
+  related_cards:
+    - ad44636cda7a4a82bb63a06c9f78db7b
 - name: Party Package
   db_uuid: 8cbe22e90ad54f26aefaf0ca72dad0b5
   srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
@@ -26182,6 +26199,8 @@
   deck_card_number: 29
   rules_text: Your Power and Agility are +1 for every 4 cards in your hand.  Draw 2 cards.
   tags: []
+  related_cards:
+    - ad44636cda7a4a82bb63a06c9f78db7b
 - name: South Beach Crab
   db_uuid: dd51f419336348cc86358608c3f2f6b1
   srg_url: https://supershowthegame.com/product/bad-boy-joey-janela/
@@ -26191,6 +26210,8 @@
   deck_card_number: 30
   rules_text: Your Technique and Submission are + double the Crowd Meter.
   tags: []
+  related_cards:
+    - ad44636cda7a4a82bb63a06c9f78db7b
 - name: Bak Hurten
   db_uuid: a1f365ab29b64887b81535a3aaaf80b8
   srgpc_url: https://www.srgpc.net/cards/competitors/bak-hurten/
@@ -27008,6 +27029,8 @@
 
     Draw the bottom card of your deck.'
   tags: []
+  related_cards:
+    - f31810c01f1d43acac29a2fc067a1b41
 - name: The House Edge
   db_uuid: ce3ba53d4d474310ad25276bbcd86bd8
   srg_url: https://supershowthegame.com/product/maria-marinara/
@@ -27021,6 +27044,8 @@
 
     When this card is in your discard pile and your opponent adds any number of cards from their discard pile to their hand, your next turn roll is +2.'
   tags: []
+  related_cards:
+    - f31810c01f1d43acac29a2fc067a1b41
 - name: Sleeping With The 7 Fishes
   db_uuid: ff491e2bfc05414eab5c9d75165ca5cf
   srg_url: https://supershowthegame.com/product/maria-marinara/
@@ -27034,6 +27059,8 @@
 
     Bury 3 cards in any player''s discard pile.'
   tags: []
+  related_cards:
+    - f31810c01f1d43acac29a2fc067a1b41
 - name: Medieval Prankster
   db_uuid: e755c2ad5f77435e81fd8ab9e8d8607a
   srgpc_url: https://www.srgpc.net/cards/competitors/medieval-prankster/
@@ -27448,6 +27475,8 @@
 
     If stopped, and your opopnent has no Follow Ups in play, shuffle this card into your deck.'
   tags: []
+  related_cards:
+    - c652098659ee4aae959ed55e4842cc74
 - name: The Velvet Glove
   db_uuid: 6f134083776b40b393481f07834c5b1f
   card_type: MainDeckCard
@@ -27460,6 +27489,8 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - c652098659ee4aae959ed55e4842cc74
 - name: The Velvet Dream
   db_uuid: 57dfea4b6043495b9ecad0cd894802d8
   card_type: MainDeckCard
@@ -27472,6 +27503,8 @@
 
     When you bump, discard this card from play.'
   tags: []
+  related_cards:
+    - c652098659ee4aae959ed55e4842cc74
 - name: Dickie Finesse
   db_uuid: 1b4cca9a54f346c2af1ffc58ca1b5d0c
   srg_url: https://supershowthegame.com/product/dickie-finesse-os/
@@ -40848,6 +40881,8 @@
 
     Choose 1: Your opponent buries 2 cards in their hand, or buries 1 card in their hand at random.'
   tags: []
+  related_cards:
+    - 01fa3c112412460b9999cb45f076fe73
 - name: TNT
   db_uuid: 1ab3036539354fefa75a4c60850860c9
   card_type: MainDeckCard
@@ -40856,6 +40891,8 @@
   deck_card_number: 29
   rules_text: If stopped, you may put this card on top of your deck.
   tags: []
+  related_cards:
+    - 01fa3c112412460b9999cb45f076fe73
 - name: The Short Fuse
   db_uuid: ffd4a3d89fff455295906b980ca7ed30
   card_type: MainDeckCard
@@ -40868,6 +40905,8 @@
 
     If stopped, shuffle up to 3 Submission cards from your discard pile into your deck.'
   tags: []
+  related_cards:
+    - 01fa3c112412460b9999cb45f076fe73
 - name: Chris Bey
   db_uuid: 74487f754b23449a8c30288b39a1782f
   srg_url: https://supershowthegame.com/product/chris-bey/
@@ -40896,6 +40935,8 @@
   deck_card_number: 28
   rules_text: "+3 to Technique\nDuring your turn roll:\n If this card is flipped, you may play it."
   tags: []
+  related_cards:
+    - 74487f754b23449a8c30288b39a1782f
 - name: Ultimate Finesse
   db_uuid: 41e8cb91055d4ecbb08c9abd85f47294
   srg_url: https://supershowthegame.com/product/chris-bey/
@@ -40907,6 +40948,8 @@
 
     If your opponent has 2 or fewer cards in their hand, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - 74487f754b23449a8c30288b39a1782f
 - name: The Top Floor
   db_uuid: 3a66fb8a3b1647d490d53b1ec7a746a2
   srg_url: https://supershowthegame.com/product/chris-bey/
@@ -40918,6 +40961,8 @@
 
     +2 to Submission'
   tags: []
+  related_cards:
+    - 74487f754b23449a8c30288b39a1782f
 - name: Deerfield Bullgizer
   db_uuid: 221d8474bf084404ac43c826c2491184
   srgpc_url: https://www.srgpc.net/competitors/deerfield-bullgizer/
@@ -41259,6 +41304,9 @@
 
     If you rolled Power for your turn roll, this card cannot be stopped.'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: The Split Decision
   db_uuid: d531713293534f309d3619a2aa5ffa38
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
@@ -41272,6 +41320,9 @@
 
     Your opponent randomly buries half the number of cards in their hand (rounded up).'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: The Final Verdict
   db_uuid: dbc465008a264ab2a46d73742f164ca9
   srg_url: https://supershowthegame.com/product/the-devils-advocate/
@@ -41287,6 +41338,9 @@
 
     Take 2 cards from your discard pile and add them to your hand.'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: Objection! (The Devil's Advocate)
   db_uuid: a8e17c72a2864939a66e2596330a5307
   card_type: MainDeckCard
@@ -41301,6 +41355,9 @@
 
     Your next turn roll is +1. If your turn roll was exactly 1 greater than your opponent''s, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: The Judgement Hammer
   db_uuid: b25709afc4c04a3d87d3d3eaddd736fa
   card_type: MainDeckCard
@@ -41313,6 +41370,9 @@
 
     If your turn roll was exactly 1 greater than your opponent''s, double these bonuses.'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: Cross-Examination
   db_uuid: 8342a426d98c451aa81e2f2883bf3f5d
   card_type: MainDeckCard
@@ -41325,6 +41385,9 @@
 
     Name a card: Your opponent reveals their hand and if that card is in their hand, they discard it and get 1 fewer breakout roll this turn.'
   tags: []
+  related_cards:
+    - 9f81b363d31a478a8a6bf9b903ceee15
+    - 4683a1e9b5604a58b42b90904e40734e
 - name: Diabolik
   db_uuid: ebc7f25eaba1461aa7d083ff0807f003
   srgpc_url: https://www.srgpc.net/cards/competitors/diabolik/
@@ -79276,7 +79339,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: If your Finish Roll is 7 or less it is +2.
-  tags: []
+  tags:
+    - Generic
 - name: The Plot Twist
   db_uuid: 3994f5c4852b46f48b7f9af1827ff4fa
   card_type: MainDeckCard
@@ -83426,7 +83490,8 @@
     +3 to your lowest skill
 
     Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
-  tags: []
+  tags:
+    - Generic
 - name: Strangle with a Sledgehammer
   db_uuid: c53b628a6c6e4978b19f7a0f1904bfdb
   srg_url: https://supershowthegame.com/product/30-strangle-with-a-sledgehammer/

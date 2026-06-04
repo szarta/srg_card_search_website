@@ -48858,6 +48858,18 @@
   tags: []
   related_cards:
     - b41d30281182409c8d64717d314ab4bc
+- name: Death by Elbow (JT Dunn)
+  db_uuid: deaa1adf5172416a9a4d41fdef3e94dc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Your skills are +1 for each other card you have in play with "Elbow" in the name.
+
+    When your opponent has 0 cards in play this card cannot be stopped.'
+  tags: []
+  wants_keywords:
+    - Elbow
 - name: Jupiter
   db_uuid: 75d2a722d7674b46958451b843d04078
   card_type: SingleCompetitorCard
@@ -66964,7 +66976,7 @@
   wants_keywords:
     - Kick
     - Boot
-- name: Total Recall
+- name: Total Recall (TJ Marconi)
   db_uuid: 98251b85d0f647a4a9e3b2e89983ab2c
   card_type: MainDeckCard
   atk_type: Grapple
@@ -87182,3 +87194,37 @@
   rules_text: You are considered to have a Saber of Light in play for your card effects.
   tags:
     - Saber of Light
+- name: Total Recall (#29)
+  db_uuid: e7e82ddc89284d25bac9a36960c18c13
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your opponent''s next roll is -2 for each card you have in play with "Drop" or "Slam" in the name.
+
+    Draw 2 cards.'
+  tags: []
+  wants_keywords:
+    - Drop
+    - Slam
+- name: Shining Wizard
+  db_uuid: 5379161d50d5479daad33ff37fa836d1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Power and Agility are +1 for each card you have in play with "Head" or "Knee" in the name.
+  tags: []
+  wants_keywords:
+    - Head
+    - Knee
+- name: Full Mounted Choke Hold
+  db_uuid: 3bf76d23cafa4f228b3340ba9d5cb004
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'When the card Body Scissors is in play this card cannot be stopped.
+
+    Look at your opponent''s hand, choose 1 Follow Up and bury it.'
+  tags: []

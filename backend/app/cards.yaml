@@ -84821,6 +84821,7 @@
   tags: []
 - name: Dr. Sleep
   db_uuid: 9bd2e6dfb6ae481caeb05659c5d734f5
+  card_type: SingleCompetitorCard
   division: Global
   power: 7
   technique: 10
@@ -84882,6 +84883,7 @@
     - 9bd2e6dfb6ae481caeb05659c5d734f5
 - name: Brent Oakley
   db_uuid: 47da2d2bd8dc4a9e80070d2d567e85b4
+  card_type: SingleCompetitorCard
   division: Global
   power: 9
   technique: 6

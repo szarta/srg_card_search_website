@@ -48140,7 +48140,7 @@
   strike: 10
   submission: 8
   grapple: 9
-  rules_text: When your opopnent hits a card, your Power, Agility, and Strike are +1 during your next turn roll.
+  rules_text: When your opponent hits a card, your Power, Agility, and Strike are +1 during your next turn roll.
   tags: []
   related_finishes:
     - 5f2116e03f1247ddb35b8d1517dcd687
@@ -63035,6 +63035,7 @@
 - name: Jessica Havok (WR)
   db_uuid: 9b57a29878da4cd7bf0a2bf261a553fa
   card_type: SingleCompetitorCard
+  division: Global
   power: 10
   technique: 5
   agility: 6
@@ -63046,6 +63047,7 @@
 - name: Jessica Havok (V2)
   db_uuid: ae9ab6e586984fd18f0cd6864809b467
   card_type: SingleCompetitorCard
+  division: Global
   power: 10
   technique: 6
   agility: 5
@@ -83951,6 +83953,7 @@
 - name: The Wanted Man Nic Nemeth
   db_uuid: 1e1e1df3cb824e1ea1398141ce285341
   card_type: SingleCompetitorCard
+  division: Global
   power: 5
   technique: 10
   agility: 7
@@ -84048,6 +84051,7 @@
 - name: Trey Miguel
   db_uuid: b799daaf7da44f2798d0a43d8b8cc2be
   card_type: SingleCompetitorCard
+  division: Global
   power: 5
   technique: 9
   agility: 10

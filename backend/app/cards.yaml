@@ -24770,7 +24770,7 @@
 - name: 64 Bit Casey
   db_uuid: f4a9e71c2fb446c192037af4278e7311
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 9
   technique: 5
   agility: 6
@@ -37527,7 +37527,7 @@
   db_uuid: 8b89fe0295184f92a159339ac164756b
   srg_url: https://supershowthegame.com/product/brock-smith/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 5
   technique: 7
   agility: 10
@@ -38352,7 +38352,7 @@
   db_uuid: b339f906c69c4183b699037dffd6cfa1
   srg_url: https://supershowthegame.com/product/steel-wool/
   card_type: SingleCompetitorCard
-  division: Global
+  division: Underworld
   power: 9
   technique: 5
   agility: 8
@@ -39027,7 +39027,7 @@
   db_uuid: c94f753c62f5406cae60f664dfc182e6
   srgpc_url: https://www.srgpc.net/cards/competitors/cherry-glamazon/
   card_type: SingleCompetitorCard
-  division: United States
+  division: Underworld
   power: 9
   technique: 6
   agility: 10
@@ -50489,7 +50489,7 @@
   srg_url: https://supershowthegame.com/product/la-fenix-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/la-fenix/
   card_type: SingleCompetitorCard
-  division: Intergalactic
+  division: Underworld
   power: 8
   technique: 9
   agility: 7
@@ -51474,7 +51474,7 @@
   db_uuid: 1cf1f13bf01a404ea9117d3483eb2984
   srgpc_url: https://www.srgpc.net/cards/competitors/little-guido/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 5
   technique: 10
   agility: 8
@@ -58427,7 +58427,7 @@
   db_uuid: 583629e3e0fe43c28fbdd39f40a61ff8
   srgpc_url: https://www.srgpc.net/cards/competitors/the-perfect-assistant/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 8
   technique: 10
   agility: 9
@@ -63524,7 +63524,7 @@
   db_uuid: ad4de9bc71a94dc08d89d5ce147cc9a1
   srgpc_url: https://www.srgpc.net/competitors/sgt-yoga/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 9
   technique: 6
   agility: 5
@@ -68581,7 +68581,7 @@
   db_uuid: a63011dbda754ac2b6052aa5b4f7c9c4
   srgpc_url: https://www.srgpc.net/cards/competitors/witch-hunter-general/
   card_type: SingleCompetitorCard
-  division: Intergalactic
+  division: Underworld
   power: 10
   technique: 9
   agility: 5
@@ -69357,7 +69357,7 @@
   db_uuid: eae7c1b5fdc14e27bafc9106566cf89c
   srgpc_url: https://www.srgpc.net/competitors/zero-win-champion/
   card_type: SingleCompetitorCard
-  division: Intergalactic
+  division: Underworld
   power: 5
   technique: 8
   agility: 9
@@ -72083,7 +72083,7 @@
   db_uuid: 389c3b62d4e5419fad9bbf3037a45aac
   srgpc_url: https://www.srgpc.net/competitor/el-cerebro/
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   power: 10
   technique: 7
   agility: 8
@@ -75933,7 +75933,7 @@
   db_uuid: f4a3aea48e544fac9e4edf24b5d07235
   srgpc_url: https://www.srgpc.net/competitor/winning-ticket/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Underworld
   power: 7
   technique: 10
   agility: 9
@@ -82370,7 +82370,7 @@
 - name: El Gato Shinobi
   db_uuid: 44a083f3214148959e40c125bb5eb7b2
   card_type: SingleCompetitorCard
-  division: Super Lucha
+  division: Underworld
   power: 5
   technique: 6
   agility: 9

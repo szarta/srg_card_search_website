@@ -85,6 +85,31 @@ To run frontend:
     npm run dev
 
 
+# Production / Server Reload #
+
+The site runs on `get-diced.com` (ssh `dondo@get-diced.com`), with the project
+at `/home/dondo/srg_card_search_website`. The backend runs as a systemd service
+(FastAPI via gunicorn + uvicorn workers on 127.0.0.1:8000), and the frontend is
+a static build served by nginx.
+
+After pulling new code:
+
+To reload the backend:
+
+    sudo systemctl restart srg-backend
+
+Verify it is running:
+
+    ps aux | grep uvicorn
+
+To reload the frontend (rebuild the static bundle nginx serves):
+
+    cd frontend
+    npm install        # only if dependencies changed
+    npm run build
+    sudo nginx -t && sudo systemctl reload nginx
+
+
 # Contributions/Thanks #
 
 

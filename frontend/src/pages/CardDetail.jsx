@@ -275,12 +275,6 @@ export default function CardDetail() {
           <td className="py-2">{card.division}</td>
         </tr>
       )}
-      {card.gender && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Gender</td>
-          <td className="py-2">{card.gender}</td>
-        </tr>
-      )}
       {card.rules_text && (
         <tr>
           <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>

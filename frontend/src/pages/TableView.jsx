@@ -32,7 +32,6 @@ export default function TableView(props) {
       deckCardNumberMin: obj.deckCardNumberMin || "1",
       deckCardNumberMax: obj.deckCardNumberMax || "27",
       division: obj.division || "",
-      gender: obj.gender || "",
       power: obj.power || "",
       agility: obj.agility || "",
       strike: obj.strike || "",
@@ -49,7 +48,6 @@ export default function TableView(props) {
     if (filters.cardType) q.append("card_type", filters.cardType);
     if (filters.atkType) q.append("atk_type", filters.atkType);
     if (filters.division) q.append("division", filters.division);
-    if (filters.gender) q.append("gender", filters.gender); // only applies to Singles; harmless otherwise
 
     if (filters.playOrder) {
       const po = filters.playOrder === "Follow Up" ? "Followup" : filters.playOrder;
@@ -163,7 +161,6 @@ export default function TableView(props) {
       "comments",
       "comment",
       "srgpc_url",
-      "gender", // keep hidden in UI, include in CSV if present
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
@@ -191,9 +188,6 @@ export default function TableView(props) {
 
 const buildExportColumns = () => {
   const cols = [...columns];
-  if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "gender")) && !cols.includes("gender")) {
-    cols.push("gender");
-  }
   if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) && !cols.includes("deck_card_number")) {
     cols.push("deck_card_number");
   }
@@ -268,10 +262,6 @@ const downloadHTMLNoCSS = (filenameBase = "srg_cards") => {
     // CSV columns = visible columns + include hidden-but-useful fields when present
     const csvColumns = (() => {
       const cols = [...columns];
-      // include gender if present anywhere
-      if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "gender")) && !cols.includes("gender")) {
-        cols.push("gender");
-      }
       // ensure deck_card_number is exported when present, even if not visible
       if (rows.some(r => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) && !cols.includes("deck_card_number")) {
         cols.push("deck_card_number");

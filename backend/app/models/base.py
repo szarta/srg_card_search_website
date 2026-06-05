@@ -24,12 +24,6 @@ import uuid
 Base = declarative_base()
 
 
-class Gender(str, enum.Enum):
-    male = "Male"
-    female = "Female"
-    ambiguous = "Ambiguous"
-
-
 class CardType(str, enum.Enum):
     main_deck = "MainDeckCard"
     single_competitor = "SingleCompetitorCard"
@@ -142,7 +136,6 @@ class CompetitorCard(Card):
 class SingleCompetitorCard(CompetitorCard):
     __tablename__ = "single_competitor_cards"
     db_uuid = Column(String, ForeignKey("competitor_cards.db_uuid"), primary_key=True)
-    gender = Column(Enum(Gender, name="gender_enum"), nullable=True)
 
     __mapper_args__ = {
         "polymorphic_identity": "SingleCompetitorCard",

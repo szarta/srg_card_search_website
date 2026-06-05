@@ -92,7 +92,6 @@ def create_database(db_path: str):
     cursor.execute("""
         CREATE TABLE single_competitor_cards (
             db_uuid TEXT PRIMARY KEY NOT NULL,
-            gender TEXT,
             FOREIGN KEY (db_uuid) REFERENCES competitor_cards(db_uuid) ON DELETE CASCADE
         )
     """)
@@ -188,7 +187,6 @@ def create_database(db_path: str):
         "CREATE INDEX idx_main_deck_play_order ON main_deck_cards(play_order)"
     )
     cursor.execute("CREATE INDEX idx_competitor_division ON competitor_cards(division)")
-    cursor.execute("CREATE INDEX idx_single_gender ON single_competitor_cards(gender)")
 
     conn.commit()
     conn.close()
@@ -284,10 +282,10 @@ def insert_single_competitor_card(cursor, entry):
     insert_competitor_card(cursor, entry)
     cursor.execute(
         """
-        INSERT OR REPLACE INTO single_competitor_cards (db_uuid, gender)
-        VALUES (?, ?)
+        INSERT OR REPLACE INTO single_competitor_cards (db_uuid)
+        VALUES (?)
     """,
-        (entry["db_uuid"], entry.get("gender")),
+        (entry["db_uuid"],),
     )
 
 

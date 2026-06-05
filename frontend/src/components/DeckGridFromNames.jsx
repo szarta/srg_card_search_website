@@ -115,51 +115,6 @@ export default function DeckGridFromNames({
           }
         }
 
-        const COMP_TYPES = new Set([
-          "SingleCompetitorCard",
-          "TornadoCompetitorCard",
-          "TrioCompetitorCard",
-        ]);
-        const toEnrich = fetched
-          .filter(
-            (r) =>
-              r &&
-              COMP_TYPES.has(r.card_type) &&
-              !Object.prototype.hasOwnProperty.call(r, "gender")
-          )
-          .map((r) => r.name)
-          .filter(Boolean);
-
-        if (toEnrich.length) {
-          try {
-            const resp = await fetch("/cards/by-names", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ names: Array.from(new Set(toEnrich)) }),
-            });
-            if (resp.ok) {
-              const data = await resp.json();
-              const enrichMap = new Map();
-              for (const r of Array.isArray(data?.rows) ? data.rows : []) {
-                if (r?.name) enrichMap.set(String(r.name).toLowerCase(), r);
-              }
-              for (let i = 0; i < fetched.length; i++) {
-                const row = fetched[i];
-                if (!row || !row.name) continue;
-                if (
-                  COMP_TYPES.has(row.card_type) &&
-                  !Object.prototype.hasOwnProperty.call(row, "gender")
-                ) {
-                  const got = enrichMap.get(String(row.name).toLowerCase());
-                  if (got) {
-                    fetched[i] = { ...got, ...row, gender: got.gender ?? row.gender };
-                  }
-                }
-              }
-            }
-          } catch {}
-        }
-
         if (!cancelled) {
           setCards(fetched);
           setNotFound(missing);
@@ -193,7 +148,6 @@ export default function DeckGridFromNames({
       "comments",
       "comment",
       "srgpc_url",
-      "gender",
     ]);
 
     const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
@@ -234,19 +188,6 @@ export default function DeckGridFromNames({
   const buildExportColumns = () => {
     const rows = effectiveRows;
     const cols = [...columns];
-
-    const COMP_TYPES = new Set([
-      "SingleCompetitorCard",
-      "TornadoCompetitorCard",
-      "TrioCompetitorCard",
-    ]);
-    if (
-      (rows.some((r) => Object.prototype.hasOwnProperty.call(r, "gender")) ||
-        rows.some((r) => COMP_TYPES.has(r?.card_type))) &&
-      !cols.includes("gender")
-    ) {
-      cols.push("gender");
-    }
 
     if (
       rows.some((r) => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) &&

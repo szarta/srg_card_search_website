@@ -18,7 +18,6 @@ from models.base import (
     CardType,
     AttackSubtype,
     PlayOrderSubtype,
-    Gender,
 )
 from database import SessionLocal
 from schemas.card_schema import Card as CardSchema, PaginatedCardResponse
@@ -78,7 +77,6 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "grapple": getattr(card, "grapple", None),
         "technique": getattr(card, "technique", None),
         "division": getattr(card, "division", None),
-        "gender": getattr(card, "gender", None),
     }
 
     if include_relationships:
@@ -378,7 +376,6 @@ def _query_single_competitors(
     is_banned,
     release_set,
     division,
-    gender,
     power,
     agility,
     strike,
@@ -399,8 +396,6 @@ def _query_single_competitors(
         )
     if division:
         sq = sq.filter(SingleCompetitorCard.division.ilike(f"%{division}%"))
-    if gender is not None:
-        sq = sq.filter(SingleCompetitorCard.gender == gender)
 
     sq = _apply_stat_filters(
         sq, SingleCompetitorCard, power, agility, strike, submission, grapple, technique
@@ -516,7 +511,6 @@ def list_cards(
     grapple: Optional[int] = Query(None),
     technique: Optional[int] = Query(None),
     division: Optional[str] = Query(None, min_length=0, max_length=100),
-    gender: Optional[Gender] = Query(None),
 ):
     """
     Robust list endpoint with reduced complexity.
@@ -532,7 +526,6 @@ def list_cards(
         is_banned,
         release_set,
         division,
-        gender,
         power,
         agility,
         strike,

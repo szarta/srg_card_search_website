@@ -18,7 +18,6 @@ const FILTER_KEYS = [
   "grapple",
   "technique",
   "division",     // NEW
-  "gender",       // NEW
 ];
 
 const DEFAULT_LIMIT = 20;
@@ -41,7 +40,6 @@ export default function Home() {
     grapple: "",
     technique: "",
     division: "",   // NEW
-    gender: "",     // NEW
   });
 
   const [page, setPage] = useState(1);
@@ -112,9 +110,8 @@ export default function Home() {
         }
       });
 
-      // NEW: forward division & gender to backend
+      // NEW: forward division to backend
       if (f.division) params.append("division", f.division);
-      if (f.gender)   params.append("gender", f.gender); // Male | Female | Ambiguous
 
       params.append("limit", String(lNum));
       params.append("offset", String((pNum - 1) * lNum));

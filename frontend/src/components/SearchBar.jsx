@@ -10,7 +10,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [deckCardNumberMin, setDeckCardNumberMin] = useState("1");
   const [deckCardNumberMax, setDeckCardNumberMax] = useState("27");
   const [division, setDivision] = useState("");
-  const [gender, setGender] = useState(""); // "", "Male", "Female", "Ambiguous"
 
   // Competitor stats
   const [power, setPower] = useState("");
@@ -39,7 +38,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     setTechnique(defaultValues.technique ?? "");
     setPageSize(parseInt(defaultValues.limit ?? 20, 10) || 20);
     setDivision(defaultValues.division ?? "");
-    setGender(defaultValues.gender ?? "");
   }, [defaultValues]);
 
   const submitWith = (extra = {}) => {
@@ -57,7 +55,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       grapple,
       technique,
       division,
-      gender,
       limit: pageSize,
       ...extra, // allow overrides
     });
@@ -88,7 +85,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     add("grapple", grapple);
     add("technique", technique);
     add("division", division);
-    add("gender", gender);
     // Keep current page size as a courtesy; TableView ignores pagination but might want to reflect "limit" in URL.
     add("limit", pageSize);
     navigate(`/table?${sp.toString()}`);
@@ -138,9 +134,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
             setGrapple("");
             setTechnique("");
             setDivision("");
-          }
-          if (v !== "SingleCompetitorCard") {
-            setGender("");
           }
         }}
         className="bg-gray-900 text-white border border-gray-700 rounded p-2"
@@ -246,23 +239,6 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
             onChange={(e) => setDivision(e.target.value)}
             placeholder="e.g., United States"
             />
-        </div>
-        )}
-
-        {/* Gender: SingleCompetitor only */}
-        {cardType === "SingleCompetitorCard" && (
-        <div className="flex flex-col">
-            <label className="text-sm font-medium">Gender</label>
-            <select
-            className="bg-gray-900 text-white border border-gray-700 rounded p-2"
-            value={gender}
-            onChange={(e) => setGender(e.target.value)}
-            >
-            <option value="">Any</option>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Ambiguous">Ambiguous</option>
-            </select>
         </div>
         )}
 

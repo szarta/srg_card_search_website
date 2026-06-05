@@ -6,7 +6,7 @@ See LICENSE.txt for details.
 from __future__ import annotations
 from pydantic import BaseModel
 from typing import List, Optional
-from models.base import CardType, AttackSubtype, PlayOrderSubtype, Gender
+from models.base import CardType, AttackSubtype, PlayOrderSubtype
 
 
 class Card(BaseModel):
@@ -34,7 +34,6 @@ class Card(BaseModel):
     technique: Optional[int] = None
 
     division: Optional[str] = None
-    gender: Optional[Gender] = None
 
     class Config:
         from_attributes = True

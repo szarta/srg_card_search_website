@@ -3089,6 +3089,17 @@
   deck_card_number: 30
   rules_text: "+2 to Submission\n+1 to Grapple\nYour opponent buries 1 card in their hand.\nIf you have more cards in your hand than your opponent,\n+4 to Submission and\n +2 to Grapple instead."
   tags: []
+- name: Scoot Over Goose!
+  db_uuid: 1cd35e5378df4aeda5f4bcc19b2ff2fd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'Your next turn roll is +2.
+
+    Bury 1 card in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: One Free Shot
   db_uuid: c751192b27f5478fbf2de3bd0edb9d45
   card_type: MainDeckCard
@@ -5506,6 +5517,17 @@
   deck_card_number: 1
   rules_text: Stop any Lead Grapple or each player buries 1 card in their hand and if this a Ring of Fire match, your opponent flips 1 card.
   tags: []
+- name: An Impressive Bird Call!
+  db_uuid: d681833c9d7140778a44e6abdecd271a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'Your next turn roll is +2.
+
+    Bury 1 card in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: 2 Handed Toss
   db_uuid: 5fa232c20b704bd79d0a2f7ec2adedf5
   srgpc_url: https://www.srgpc.net/cards/2/2-handed-toss/
@@ -6044,6 +6066,17 @@
   deck_card_number: 3
   rules_text: Draw 1 card.
   tags: []
+- name: Norwegian Stinker Hold
+  db_uuid: 44a0f1403d43467ba674bd1d4ab66924
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'Your next turn roll is +2.
+
+    Bury 1 card in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: I'm Always the Hammer
   db_uuid: 691be4e2a3694817a1e3c81ec0438d96
   srgpc_url: https://www.srgpc.net/cards/3/im-always-the-hammer/
@@ -6559,6 +6592,17 @@
   deck_card_number: 3
   rules_text: Bury 2 cards in your opponent's discard pile.
   tags: []
+- name: Big Belly Punches
+  db_uuid: e84ca3e1192e49f1a23abf961754b9e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Follow Up Grapple.
+
+    Bury 1 Strike in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: Going Over the Baseball Bat
   db_uuid: 395b41d64e274618824156cd67b8bfcd
   srg_url: https://supershowthegame.com/product/04-going-over-the-baseball-bat/
@@ -7106,6 +7150,17 @@
 
     Draw 1 card. Your opponent randomly buries 1 card in their hand.'
   tags: []
+- name: Spin It to Win It
+  db_uuid: 032116f5b74e4d8fa75293380d1ae2f5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'If the Crowd Meter is 1 or greater, stop any Follow Up Submission.
+
+    Bury 1 Grapple in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: American Triple Skull Slam
   db_uuid: eb377f32850b46f5b6972f3186e94770
   srgpc_url: https://www.srgpc.net/cards/5/american-triple-skull-slam/
@@ -7629,6 +7684,17 @@
 
     If your Power skill is greater than your opponent''s Power skill, put that card on top of your deck instead.'
   tags: []
+- name: Metallic Tyranny
+  db_uuid: 0c5ea5db51c9469498b2b23405e5c339
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'if the Crowd Meter is 1 or greater, stop any Follow Up Strike.
+
+    Bury 1 Submission in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: A Welcomed Distraction
   db_uuid: 1b3e9ce9896645a6a0c35411a1295485
   srg_url: https://supershowthegame.com/product/06-a-welcomed-distraction/
@@ -8213,6 +8279,15 @@
     When this card is in your discard pile: When you roll Strike for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 3
+- name: Kneecap Soup!
+  db_uuid: feb26fe575c74330a7dcc9d8b18e0859
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: Draw 1 card or add 1 Follow Up from your discard pile to your hand.
+  tags:
+    - Super Lucha
 - name: Back Elbow
   db_uuid: b7083110c10d42898b9d6622d35da1b3
   srgpc_url: https://www.srgpc.net/cards/7/back-elbow/
@@ -8922,6 +8997,15 @@
 
     If your opponent forces you to discard any number of cards from your hand, shuffle up to 3 cards from your discard pile into your deck.'
   tags: []
+- name: Enter El Leon
+  db_uuid: 204fabf856e940dabc5f7c0027436846
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: Draw 1 card or add 1 Follow Up from your discard pile to your hand.
+  tags:
+    - Super Lucha
 - name: Air Raid Crash
   db_uuid: f60c818851f6456c9da8bf4389827808
   srgpc_url: https://www.srgpc.net/cards/8/air-raid-crash/
@@ -9650,6 +9734,15 @@
   deck_card_number: 9
   rules_text: Discard 2 cards from your hand.  Add 2 Submissions from your discard pile to your hand.
   tags: []
+- name: Sheepish Swarming Potion
+  db_uuid: d3f0bac16a624b0a8955bc5fe0ff7a65
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Draw 1 card or add 1 Follow Up from your discard pile to your hand.
+  tags:
+    - Super Lucha
 - name: The King's Gambit
   db_uuid: 652f58d1a6304da1892f117cede1834f
   srg_url: https://supershowthegame.com/product/09-the-kings-gambit/
@@ -10392,6 +10485,15 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play, shuffle 1 Strike from your discard pile into your deck and draw 1 card.
   tags: []
+- name: The Cooler of Destiny!
+  db_uuid: cfebc8faa30640abb1836441a768957d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  rules_text: If you have another Lead in play, look at the top 3 cards of your deck; put 1 in your hand, and flip the others.
+  tags:
+    - Super Lucha
 - name: Out of Control
   db_uuid: 5ea9591d4cdc400abb5bff758641badc
   srgpc_url: https://www.srgpc.net/cards/10/out-of-control/
@@ -11021,6 +11123,15 @@
   deck_card_number: 10
   rules_text: If you have another Lead in play, draw the bottom card of your deck.
   tags: []
+- name: Eagle Vision!
+  db_uuid: 23d6a98e082a4eff802a5edd5271c27f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: If you have another Lead in play, look at the top 3 cards of your deck; put 1 in your hand, and flip the others.
+  tags:
+    - Super Lucha
 - name: 2 Handed Slam
   db_uuid: 70770f5964b544a5bd324530ad563868
   srgpc_url: https://www.srgpc.net/cards/11/2-handed-slam/
@@ -11626,8 +11737,17 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
-  rules_text: 'If you have "3/4 Wirst Lock" in play: Your Submission skill is +1 and this card is also a Follow Up.'
+  rules_text: 'If you have "3/4 Wrist Lock" in play: Your Submission skill is +1 and this card is also a Follow Up.'
   tags: []
+- name: Goose Neck Twist
+  db_uuid: fb37c940719948dc8a0c3a6dc73d3347
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: If you have another Lead in play, look at the top 3 cards of your deck; put 1 in your hand, and flip the others.
+  tags:
+    - Super Lucha
 - name: Abdominal Twist
   db_uuid: 654c1610495f402782bd662bd3c08109
   srgpc_url: https://www.srgpc.net/cards/12/abdominal-twist/
@@ -12245,6 +12365,15 @@
 
     If this is a Steel Cage match and this card is flipped, flip 1 card.'
   tags: []
+- name: Hypersonic Boot
+  db_uuid: 103b39256022418b983b6ed21b47166f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: If you have a Stop in play, draw 2 cards.
+  tags:
+    - Super Lucha
 - name: Ain't That a Kick in the Head
   db_uuid: 2ba96c4023104e3c937e37156fae66a4
   srgpc_url: https://www.srgpc.net/cards/13/aint-that-a-kick-in-the-head/

@@ -40690,7 +40690,7 @@
   srg_url: https://supershowthegame.com/product/chris-bey/
   srgpc_url: https://www.srgpc.net/competitor-chris-bey/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Global
   power: 6
   technique: 7
   agility: 9
@@ -84794,7 +84794,7 @@
 
     +2 to Strike'
   tags: []
-- name: BDE
+- name: BDE (V1)
   db_uuid: 9250669c660241358c53355906796a66
   srg_url: https://supershowthegame.com/product/bde/
   card_type: SingleCompetitorCard
@@ -84806,6 +84806,124 @@
   submission: 7
   grapple: 9
   rules_text: Cards in your discard pile are randomly buried.
+  tags: []
+- name: BDE (V2)
+  db_uuid: 4a9ae4770c874bbfb1a190482a004ea3
+  card_type: SingleCompetitorCard
+  division: Global
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  rules_text: 'When you roll Submission: Draw 1 card for each move type you have in play (Strike, Grapple, and Submission).'
+  tags: []
+- name: Dr. Sleep
+  db_uuid: 9bd2e6dfb6ae481caeb05659c5d734f5
+  division: Global
+  power: 7
+  technique: 10
+  agility: 5
+  strike: 9
+  submission: 8
+  grapple: 6
+  rules_text: When you hit a "Anthony Gangone, The One Above All" or "The Rogue Anthony Gangone" Finish, the Crowd Meter is +1.
+  tags: []
+  related_finishes:
+    - d809ef6c50ba46d1bb86d90cfc8eb780
+    - c0e761547caa412eae59abf936393068
+    - db759ccf104a420fb93beb89936ba9bb
+- name: Mood Swing
+  db_uuid: d809ef6c50ba46d1bb86d90cfc8eb780
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +1 to Strike
+
+    If stopped, search your deck or discard pile for a Finish card and add it to your hand.
+
+    Shuffle your deck.'
+  tags: []
+  related_cards:
+    - 9bd2e6dfb6ae481caeb05659c5d734f5
+- name: Bermuda Triangle
+  db_uuid: c0e761547caa412eae59abf936393068
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Agility
+
+    +2 to Grapple
+
+    Reveal your hand to your opponent.'
+  tags: []
+  related_cards:
+    - 9bd2e6dfb6ae481caeb05659c5d734f5
+- name: Sleep Paralysis
+  db_uuid: db759ccf104a420fb93beb89936ba9bb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Grapple
+
+    Your opponent''s Agility is -1.
+
+    Your opponent''s Gimmick is blank until they hit a card.'
+  tags: []
+  related_cards:
+    - 9bd2e6dfb6ae481caeb05659c5d734f5
+- name: Brent Oakley
+  db_uuid: 47da2d2bd8dc4a9e80070d2d567e85b4
+  division: Global
+  power: 9
+  technique: 6
+  agility: 7
+  strike: 8
+  submission: 5
+  grapple: 10
+  rules_text: 'When you roll Submission:
+
+    Draw 1 card for each card type you have in play (Lead, Follow Up, and Finish).'
+  tags: []
+- name: A2M
+  db_uuid: 4457a14e23624cacaa3c82705198ed84
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Technique
+
+    Your opponent''s Technique is -2.'
+  tags: []
+- name: Face Down Ass Up
+  db_uuid: 709929cbd01a4a199ee59f9ed77c5b50
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to your lowest printed skill.
+
+    If your opponent breaks out: you may discard 1 card from your hand to put this card into play.'
+  tags: []
+- name: The Butt Chug
+  db_uuid: 491b141b5aa44d9b80b89a47800ea6cd
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +1 to Submission
+
+    Draw up to 3 cards and discard the same number of cards; your next turn roll is +1 for each card drawn.'
   tags: []
 - name: Viral Cutter
   db_uuid: adc3e50f68b14007a1c515a4cee1ecc3
@@ -85709,6 +85827,7 @@
 - name: Chris Bey (Greatest Story Ever Told)
   db_uuid: 52787724f33243a4a597b78a394e6813
   card_type: SingleCompetitorCard
+  division: Global
   power: 6
   technique: 7
   agility: 9

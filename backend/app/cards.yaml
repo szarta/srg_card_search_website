@@ -24546,7 +24546,8 @@
     Your opponent randomly discards 1 card from their hand.
 
     If stopped, you lose the match via disqualification.'
-  tags: []
+  tags:
+    - Logoless
 - name: Styles Cash
   db_uuid: 14bcf3aca242404cb309594e2bbb2d7b
   card_type: MainDeckCard
@@ -33359,7 +33360,7 @@
   db_uuid: 9abc29f439ee4b68a288d6c24555ceb0
   srgpc_url: https://www.srgpc.net/competitor/rainbow-girl-v2/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Intergalactic
   power: 6
   technique: 10
   agility: 9
@@ -36635,7 +36636,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: When the Crowd Meter is 4 or greater, this card is also a Follow Up.
-  tags: []
+  tags:
+    - Logoless
 - name: Top Rope Superplex
   db_uuid: ef525bfc0b664c8498c6978d3f1333f6
   srg_url: https://supershowthegame.com/product/29-top-rope-superplex/
@@ -47056,6 +47058,7 @@
   related_cards:
     - 7333bd77424b441891340c35244b2b11
     - 6b9d7c1228594225b3f26e68ec5c2fc6
+    - b4842c45d6e24964bced1e7e2216debb
 - name: Photo Finish (V1)
   db_uuid: 03bdd58874854746882e0a6b30f9fe06
   card_type: MainDeckCard
@@ -56200,6 +56203,7 @@
   tags: []
   related_cards:
     - 314f46dc83ca48b29e58ee500a0f4344
+    - b4842c45d6e24964bced1e7e2216debb
 - name: The Mortician (V1)
   db_uuid: cfc8e0da7777443d9f5530324b665a90
   card_type: SingleCompetitorCard
@@ -76921,6 +76925,7 @@
 - name: The Paddock
   db_uuid: b4842c45d6e24964bced1e7e2216debb
   srg_url: https://supershowthegame.com/product/the-paddock/
+  srgpc_url: https://www.srgpc.net/cards/competitors/the-paddock/
   card_type: TornadoCompetitorCard
   power: 14
   technique: 16
@@ -76929,6 +76934,26 @@
   submission: 12
   grapple: 10
   rules_text: When your opponent moves any number of cards from their discard pile for a card or Gimmick, they randomly bury 1 card in their hand.
+  tags: []
+  related_cards:
+    - 314f46dc83ca48b29e58ee500a0f4344
+    - 7333bd77424b441891340c35244b2b11
+  related_finishes:
+    - 70f48c9c5f7e4b69827e1b734400e755
+    - 94e14839fb4c4e31aab8a4bc278d1807
+- name: Getting a Leg Up
+  db_uuid: 187ccfd679f049cc94fca059387e448b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    When this card is in your discard pile:
+
+    Your opponent''s skill cards have blank text.'
   tags: []
 - name: Mai Girls (Tornado)
   db_uuid: b25eb5160c88425cb1a8e36cb04dc9db
@@ -78710,7 +78735,7 @@
   deck_card_number: 30
   rules_text: If your Finish Roll is 7 or less it is +2.
   tags:
-    - Generic
+    - Logoless
 - name: The Plot Twist
   db_uuid: 3994f5c4852b46f48b7f9af1827ff4fa
   card_type: MainDeckCard
@@ -82854,7 +82879,7 @@
 
     Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
   tags:
-    - Generic
+    - Logoless
 - name: Strangle with a Sledgehammer
   db_uuid: c53b628a6c6e4978b19f7a0f1904bfdb
   srg_url: https://supershowthegame.com/product/30-strangle-with-a-sledgehammer/
@@ -83123,7 +83148,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: +4 to your lowest skill.
-  tags: []
+  tags:
+    - Logoless
 - name: Flying Pineapple Smash
   db_uuid: 4914f6e391ae458497c6bf84c38bb76a
   srg_url: https://supershowthegame.com/product/28-flying-pineapple-smash/
@@ -83148,7 +83174,8 @@
     +3 to your lowest skill.
 
     Add 1 card from your discard pile to your hand.  Skill Requirement: Agility 8+'
-  tags: []
+  tags:
+    - Logoless
 - name: Lightning Leg Drop
   db_uuid: a60eac4bb5514eaaaf98328a32aba7d2
   srg_url: https://supershowthegame.com/product/28-lightning-leg-drop/
@@ -83492,7 +83519,8 @@
     Draw 1 card
 
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
-  tags: []
+  tags:
+    - Logoless
 - name: Guitar to Head
   db_uuid: 8817f1d6c9a44023a650d0bec9c93eff
   card_type: MainDeckCard
@@ -86674,7 +86702,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: Your Power and Agility are +1 for each card you have in play with "Head" or "Knee" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Head
     - Knee

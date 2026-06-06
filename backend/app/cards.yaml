@@ -76941,6 +76941,7 @@
   related_finishes:
     - 70f48c9c5f7e4b69827e1b734400e755
     - 94e14839fb4c4e31aab8a4bc278d1807
+    - 187ccfd679f049cc94fca059387e448b
 - name: Getting a Leg Up
   db_uuid: 187ccfd679f049cc94fca059387e448b
   card_type: MainDeckCard
@@ -76955,6 +76956,8 @@
 
     Your opponent''s skill cards have blank text.'
   tags: []
+  related_cards:
+    - b4842c45d6e24964bced1e7e2216debb
 - name: Mai Girls (Tornado)
   db_uuid: b25eb5160c88425cb1a8e36cb04dc9db
   card_type: TornadoCompetitorCard

@@ -13108,7 +13108,7 @@
 
     Look at your opponent''s hand.'
   tags: []
-- name: Takeover with the Kendo Stick
+- name: Takeover with the Kendo Stick (V1)
   db_uuid: 85ca3029225048888debcb1681bc1400
   srgpc_url: https://www.srgpc.net/cards/13/takeover-with-the-kendo-stick-v2/
   card_type: MainDeckCard
@@ -13116,6 +13116,14 @@
   play_order: Followup
   deck_card_number: 13
   rules_text: Bury 3 cards in your opponent's discard pile.
+  tags: []
+- name: Takeover with the Kendo Stick (V2)
+  db_uuid: 58c12c4a6ded4067b2d874f371bcb75e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: Bury 3 cards in your opponent's discard pile.  The Crowd Meter is considered -1 for all effects.
   tags: []
 - name: Takeover with the Ladder
   db_uuid: 536c92cd6b6c435c8254b37874f8e820

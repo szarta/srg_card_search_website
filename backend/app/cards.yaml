@@ -1884,7 +1884,7 @@
   card_type: EntranceCard
   rules_text: Your maximum handsize is +2.
   tags: []
-- name: Backstage Interview with The ACCW
+- name: Backstage Interview With The ACCW
   db_uuid: c1fce9cb862b4448a0171ef3f6520e0e
   srg_url: https://supershowthegame.com/product/entrance-backstage-interview-with-accw/
   card_type: EntranceCard
@@ -2089,7 +2089,7 @@
   card_type: EntranceCard
   rules_text: 'Twice per match: When you would bump, you may re-roll your turn roll.'
   tags: []
-- name: Leverage Your Hand With the Unionverse
+- name: Leverage Your Hand With The Unionverse
   db_uuid: ac0d9a06f00e42dfb4861963b34f397f
   srg_url: https://supershowthegame.com/product/entrance-leverage-your-hand-with-the-unionverse/
   card_type: EntranceCard
@@ -2141,7 +2141,7 @@
   tags: []
   wants_keywords:
     - Dive
-- name: Movie Night with The Philosopher (V1)
+- name: Movie Night With The Philosopher (V1)
   db_uuid: 2ce0a7e85f25468fb1ef96bb44ed0fd9
   srg_url: https://supershowthegame.com/product/entrance-movie-night-with-the-philosopher/
   card_type: EntranceCard
@@ -2151,7 +2151,7 @@
 
     Your "Finger Poke of Doom" has the added text: "Your next turn roll is +2."'
   tags: []
-- name: Movie Night with The Philosopher (V2)
+- name: Movie Night With The Philosopher (V2)
   db_uuid: 12a54a6758104b0ca896511b907fbb1d
   card_type: EntranceCard
   rules_text: 'At the start of the match, your opponent may allow you to search your deck for card #1 or #11 and put it on top of your shuffled deck.
@@ -2190,7 +2190,7 @@
   card_type: EntranceCard
   rules_text: 'Once a match: You may stop 1 non-Follow Up Finish that does not have a competitor logo (even if it cannot be stopped), draw 1 card.'
   tags: []
-- name: Playin' With the Boys
+- name: Playin' With The Boys
   db_uuid: e83aeb194eb640a9b2f3353b9fbde88c
   srg_url: https://supershowthegame.com/product/entrance-playin-with-the-boys/
   card_type: EntranceCard
@@ -2250,7 +2250,7 @@
   card_type: EntranceCard
   rules_text: 'Once a match: If you ended your turn without playing a card, search your deck for 1 card with "Disqualification" in the text and put it on top of your shuffled deck.'
   tags: []
-- name: Ringside Ruckus with The Floats
+- name: Ringside Ruckus With The Floats
   db_uuid: 2e6547672591482e9af2b5369fc7ca67
   srg_url: https://supershowthegame.com/product/entrance-ringside-ruckus-with-the-floats/
   card_type: EntranceCard
@@ -2276,7 +2276,7 @@
 
     You get 1 additional breakout roll.'
   tags: []
-- name: Runway Walk-In With the Sweetz
+- name: Runway Walk-In With The Sweetz
   db_uuid: b722a87efaea43e79f51bc15d7f2e867
   srg_url: https://supershowthegame.com/product/entrance-runway-walk-in-with-the-sweetz/
   card_type: EntranceCard
@@ -2292,7 +2292,7 @@
 
     When you roll Submission for your turn roll, your turn roll is +1.'
   tags: []
-- name: Spectacular Run-In With the Dread Pirate Crew
+- name: Spectacular Run-In With The Dread Pirate Crew
   db_uuid: 4ae2b2d6e940402daeec3f88e9ec22ec
   srg_url: https://supershowthegame.com/product/spectacular-run-in-with-the-dread-pirate-crew/
   card_type: EntranceCard
@@ -2344,7 +2344,7 @@
 
     If you lost 3 turn rolls in a row, your next turn roll is +3.'
   tags: []
-- name: Time Takeover with The Ultra Cosmic Crusaders
+- name: Time Takeover With The Ultra Cosmic Crusaders
   db_uuid: 4a9913a3bebb4365978549135b7b4418
   srg_url: https://supershowthegame.com/product/entrance-time-takeover-with-the-ultra-cosmic-crusaders/
   card_type: EntranceCard
@@ -2610,7 +2610,7 @@
   comments: Only usable by Competitors with Scallywag logo
   tags:
     - Scallywag Ship
-- name: Strike Training with The Big Shot
+- name: Strike Training With The Big Shot
   db_uuid: b19b154c672b4a90ad9003c67f5762af
   card_type: EntranceCard
   rules_text: 'If your deck contains:
@@ -2635,7 +2635,7 @@
 
     During your turn: When you hit one of those cards, draw 1 card.'
   tags: []
-- name: Submission Training with The Rising Sun
+- name: Submission Training With The Rising Sun
   db_uuid: 50ea6c905265437c8f986389d0d0d467
   card_type: EntranceCard
   rules_text: 'If your deck contains:
@@ -2814,7 +2814,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 3
-- name: Circling Up with The Real Beaters
+- name: Circling Up With The Real Beaters
   db_uuid: c5b127a934604c208d50e693526a238a
   srg_url: https://supershowthegame.com/product/circling-up-with-the-real-beaters/
   card_type: EntranceCard
@@ -2826,7 +2826,7 @@
   card_type: EntranceCard
   rules_text: 'Once per match: If you ended your turn without playing a card, you and your target bury half the cards in your hand (rounded down).'
   tags: []
-- name: An Undisputed Tag Victory with The Animal Kingdom
+- name: An Undisputed Tag Victory With The Animal Kingdom
   db_uuid: 6e482c28a188452f94b2fc5a3c7dbb46
   srg_url: https://supershowthegame.com/product/entrance-an-undisputed-tag-victory-with-the-animal-kingdom/
   card_type: EntranceCard
@@ -4936,7 +4936,7 @@
 
     Draw 1 card for each card you have in play with "Disqualification" in the text.'
   tags: []
-- name: 'Major Bendies: Fig Hunt With the Major Wrestling Foundation'
+- name: 'Major Bendies: Fig Hunt With The Major Wrestling Foundation'
   db_uuid: 89e7a0350c994ec48801877675193d93
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
   card_type: EntranceCard
@@ -6779,7 +6779,7 @@
   tags: []
   wants_keywords:
     - Drumstick
-- name: Going Over the Kendo Stick
+- name: Going Over the Kendo Stick (V1)
   db_uuid: 60fb564aae5148d9818222d749c32576
   srgpc_url: https://www.srgpc.net/cards/4/going-over-the-kendo-stick-v2/
   card_type: MainDeckCard
@@ -6789,6 +6789,16 @@
   rules_text: 'If the Crowd Meter is 1 or less, stop any Follow Up Grapple.
 
     Draw 1 card or choose 1 card your opponent has in play and discard it.'
+  tags: []
+- name: Going Over the Kendo Stick (V2)
+  db_uuid: 06b6f96c375f47a9a60042da2cfccf51
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'If the Crowd Meter is 1 or less, stop any Follow Up Grapple.
+
+    Draw 1 card, discard 1 card your opponent has in play.'
   tags: []
 - name: Going Over the Ladder
   db_uuid: a75811e7ff374a4db6aaac1548b7fe37
@@ -7348,7 +7358,7 @@
   tags: []
   wants_keywords:
     - Guitar
-- name: Going Over the Steel Chair
+- name: Going Over the Steel Chair (V1)
   db_uuid: 302ff41064c24ed88daf585cbe60cabe
   srgpc_url: https://www.srgpc.net/cards/5/going-over-the-steel-chair-v2/
   card_type: MainDeckCard
@@ -7358,6 +7368,16 @@
   rules_text: 'If the Crowd Meter is 1 or less, stop any Follow Up Submission.
 
     Draw 1 card or shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Going Over the Steel Chair (V2)
+  db_uuid: 6bf9ea0644ba4b2da691cddb8c6aee94
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'If the Crowd Meter is 1 or less, stop any Follow up Submission.
+
+    Draw 1 card, shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Going Over the Table
   db_uuid: 9997bb6bbe5b44e1880af04476f66a60
@@ -8604,7 +8624,7 @@
 
     If this is a Steel Cage match, flip 1 card.'
   tags: []
-- name: Low Blow with the Chain
+- name: Low Blow With The Chain
   db_uuid: d3e0f4ae49c6443d8c3b2edd8ca20a2a
   srgpc_url: https://www.srgpc.net/cards/7/low-blow-with-the-chain/
   card_type: MainDeckCard
@@ -8668,7 +8688,7 @@
   tags: []
   wants_keywords:
     - Pineapple
-- name: Posing With the Crowd
+- name: Posing With The Crowd
   db_uuid: 50ce06f771d046f7b9e8de262598c018
   srgpc_url: https://www.srgpc.net/cards/7/posing-with-the-crowd/
   card_type: MainDeckCard
@@ -9120,7 +9140,7 @@
   deck_card_number: 8
   rules_text: Shuffle your deck and draw 1 card or add 2 cards with "Disqualification" in the text from your discard pile to your hand.
   tags: []
-- name: Choking with the Chain
+- name: Choking With The Chain
   db_uuid: 7b6be7437582464799ced60a7dffb981
   srgpc_url: https://www.srgpc.net/cards/8/choking-with-the-chain/
   card_type: MainDeckCard
@@ -9957,7 +9977,7 @@
 
     Draw 3 cards.'
   tags: []
-- name: 'Escape Potion #9'
+- name: 'Escape Potion #9 (V1)'
   db_uuid: a695ccc133714ed6aaa1caaefa61705f
   srgpc_url: https://www.srgpc.net/cards/9/escape-potion-9-v2/
   card_type: MainDeckCard
@@ -9970,7 +9990,15 @@
 
     Shuffle your deck.'
   tags: []
-- name: Embossed Steel Surfboard
+- name: 'Escape Potion #9 (V2)'
+  db_uuid: d502d59fae77495c92418d08ec238e8a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: Search your deck for up to 3 cards and put them into your discard pile.  Shuffle your deck.
+  tags: []
+- name: Embossed Steel Surfboard (V1)
   db_uuid: 4bc64c5f6d124047b23ace96346ebd49
   srgpc_url: https://www.srgpc.net/cards/9/embossed-steel-surfboard/
   card_type: MainDeckCard
@@ -9980,6 +10008,16 @@
   rules_text: 'If you have fewer cards in your hand than your opponent, add 1 card from your discard pile to your hand.
 
     If this is a Steel Cage match, flip 1 card.'
+  tags: []
+- name: Embossed Steel Surfboard (V2)
+  db_uuid: cd828ce872574ba68b58c85903e7c9e6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 9
+  rules_text: 'If you have fewer cards in your hand than your opponent, add 1 card from your discard pile to your hand.
+
+    If this is a Liger''s Den match, you may flip 1 card.'
   tags: []
 - name: Eye Rake
   db_uuid: e9a79ab3491c43918784474d50dbd2be
@@ -13108,7 +13146,7 @@
 
     Look at your opponent''s hand.'
   tags: []
-- name: Takeover with the Kendo Stick (V1)
+- name: Takeover With The Kendo Stick (V1)
   db_uuid: 85ca3029225048888debcb1681bc1400
   srgpc_url: https://www.srgpc.net/cards/13/takeover-with-the-kendo-stick-v2/
   card_type: MainDeckCard
@@ -13117,7 +13155,7 @@
   deck_card_number: 13
   rules_text: Bury 3 cards in your opponent's discard pile.
   tags: []
-- name: Takeover with the Kendo Stick (V2)
+- name: Takeover With The Kendo Stick (V2)
   db_uuid: 58c12c4a6ded4067b2d874f371bcb75e
   card_type: MainDeckCard
   atk_type: Strike
@@ -13125,7 +13163,7 @@
   deck_card_number: 13
   rules_text: Bury 3 cards in your opponent's discard pile.  The Crowd Meter is considered -1 for all effects.
   tags: []
-- name: Takeover with the Ladder
+- name: Takeover With The Ladder
   db_uuid: 536c92cd6b6c435c8254b37874f8e820
   srgpc_url: https://www.srgpc.net/cards/13/takeover-with-the-ladder/
   card_type: MainDeckCard
@@ -13134,7 +13172,7 @@
   deck_card_number: 13
   rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   tags: []
-- name: Takeover with the Pineapple (V1)
+- name: Takeover With The Pineapple (V1)
   db_uuid: 38f5ab67df404b56a7381f60561d314c
   srgpc_url: https://www.srgpc.net/cards/13/takeover-with-the-pineapple-v2/
   card_type: MainDeckCard
@@ -13143,7 +13181,7 @@
   deck_card_number: 13
   rules_text: Flip 3 cards.
   tags: []
-- name: Takeover with the Pineapple (V2)
+- name: Takeover With The Pineapple (V2)
   db_uuid: 232304ed765845d1926508ee15e9232b
   card_type: MainDeckCard
   atk_type: Strike
@@ -13982,7 +14020,7 @@
     When this card is in your discard pile and your opponent stops a Grapple, add this card to your hand.'
   tags:
     - Old School Wave 3
-- name: Takeover With the Steel Chair
+- name: Takeover With The Steel Chair
   db_uuid: 2be35a3f9b4c44b89dd396bdde9c1811
   srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-steel-chair-v2/
   card_type: MainDeckCard
@@ -13991,7 +14029,7 @@
   deck_card_number: 14
   rules_text: Bury 3 cards in your opponent's discard pile.
   tags: []
-- name: Takeover With the Table
+- name: Takeover With The Table
   db_uuid: 9a34fb22e17a48eaa428df3a474f332a
   srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-table/
   card_type: MainDeckCard
@@ -14000,7 +14038,7 @@
   deck_card_number: 14
   rules_text: Take 3 cards from your discard pile and shuffle them into your deck.
   tags: []
-- name: Takeover With the Trash Can (V1)
+- name: Takeover With The Trash Can (V1)
   db_uuid: 0860276881ab4f3f8e6ad8de1c329f40
   srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can/
   card_type: MainDeckCard
@@ -14009,7 +14047,7 @@
   deck_card_number: 14
   rules_text: Flip 3 cards.
   tags: []
-- name: Takeover With the Trash Can (V2)
+- name: Takeover With The Trash Can (V2)
   db_uuid: c90152ed4b2142eca8bcc1294809ea99
   srgpc_url: https://www.srgpc.net/cards/14/takeover-with-the-trash-can-2/
   card_type: MainDeckCard
@@ -14802,7 +14840,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: Takeover With the Ring Steps
+- name: Takeover With The Ring Steps
   db_uuid: a176d7c027f7451f9747987c3c7a4959
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-ring-steps-v2/
   card_type: MainDeckCard
@@ -14811,7 +14849,7 @@
   deck_card_number: 15
   rules_text: Bury 3 cards in your opponent's discard pile.
   tags: []
-- name: Takeover With the Sledgehammer (V1)
+- name: Takeover With The Sledgehammer (V1)
   db_uuid: 11264dcdf90249ad88b24abde6063a02
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer/
   card_type: MainDeckCard
@@ -14820,7 +14858,7 @@
   deck_card_number: 15
   rules_text: Flip 3 cards.
   tags: []
-- name: Takeover with the Sledgehammer (V2)
+- name: Takeover With The Sledgehammer (V2)
   db_uuid: c2137fa2893a4dbfb991ae211adc00f2
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer-v2/
   card_type: MainDeckCard
@@ -14833,7 +14871,7 @@
   tags: []
   wants_keywords:
     - Sledgehammer
-- name: Takeover With the Steel Chain
+- name: Takeover With The Steel Chain
   db_uuid: dde8e160e0d8458dbbad8b2b630b2992
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-steel-chain/
   card_type: MainDeckCard
@@ -14981,7 +15019,7 @@
 
     Skill Requirement: Power 8+'
   tags: []
-- name: Ambush With the Drumsticks
+- name: Ambush With The Drumsticks
   db_uuid: fff0816a2267421b9ebef17b5f84a5b1
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-kendo-stick/
   card_type: MainDeckCard
@@ -14994,7 +15032,7 @@
   tags: []
   wants_keywords:
     - Drumstick
-- name: Ambush With the Kendo Stick
+- name: Ambush With The Kendo Stick
   db_uuid: 838149742d0741de8526fca045aebfdf
   card_type: MainDeckCard
   atk_type: Strike
@@ -15006,7 +15044,7 @@
   tags: []
   wants_keywords:
     - Kendo Stick
-- name: Ambush With the Ladder
+- name: Ambush With The Ladder
   db_uuid: 307bdef9aae242978b7159e0ceb5ee84
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-ladder/
   card_type: MainDeckCard
@@ -15043,7 +15081,7 @@
 
     If you have "Pier Six Brawl" in play, your Finish rolls are +1.'
   tags: []
-- name: Ambush With the Pineapple
+- name: Ambush With The Pineapple
   db_uuid: 908b73252093428082c760ea9dc88473
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-pineapple/
   card_type: MainDeckCard
@@ -15785,7 +15823,7 @@
   deck_card_number: 17
   rules_text: Your next turn roll is +1 for each Lead your opponent has in play.
   tags: []
-- name: Ambush With the Guitar
+- name: Ambush With The Guitar
   db_uuid: 1fa42b6c25a84ec7b2361bf21d3062da
   srgpc_url: https://www.srgpc.net/cards/17/ambush-with-the-table/
   card_type: MainDeckCard
@@ -15798,7 +15836,7 @@
   tags: []
   wants_keywords:
     - Guitar
-- name: Ambush With the Steel Chair
+- name: Ambush With The Steel Chair
   db_uuid: 9fcfaa0ef8c44924ab8d82609338c49e
   srgpc_url: https://www.srgpc.net/cards/17/ambush-with-the-steel-chair/
   card_type: MainDeckCard
@@ -15811,7 +15849,7 @@
   tags: []
   wants_keywords:
     - Steel Chair
-- name: Ambush With the Table
+- name: Ambush With The Table
   db_uuid: d8bfc1b3254e41b38d3f1d054f565aa7
   card_type: MainDeckCard
   atk_type: Grapple
@@ -15823,7 +15861,7 @@
   tags: []
   wants_keywords:
     - Table
-- name: Ambush With the Trash Can
+- name: Ambush With The Trash Can
   db_uuid: 741612a1d23d4c36be003865fd3227ca
   srgpc_url: https://www.srgpc.net/cards/17/ambush-with-the-trash-can/
   card_type: MainDeckCard
@@ -16536,7 +16574,7 @@
   rules_text: If you have another Follow Up in play, put 1 card from your discard pile on top of your deck.
   tags:
     - Old School Wave 1
-- name: Ambush With the Ring Steps
+- name: Ambush With The Ring Steps
   db_uuid: 5f54740ddfd740549edcfed0c90aa29e
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-ring-steps/
   card_type: MainDeckCard
@@ -16549,7 +16587,7 @@
   tags: []
   wants_keywords:
     - Ring Step
-- name: Ambush With the Sledgehammer
+- name: Ambush With The Sledgehammer
   db_uuid: cff980d722a1413cb5d120435b693eeb
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-sledgehammer/
   card_type: MainDeckCard
@@ -16560,7 +16598,7 @@
   tags: []
   wants_keywords:
     - Sledgehammer
-- name: Ambush With the Steel Chain
+- name: Ambush With The Steel Chain
   db_uuid: 836ce42e15a44974a82d9731dfa2950e
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-steel-chain/
   card_type: MainDeckCard
@@ -16584,7 +16622,7 @@
 
     If this is a Steel Cage match, you may discard 1 card from your hand.'
   tags: []
-- name: Ambush with the Microphone
+- name: Ambush With The Microphone
   db_uuid: 71ed55fc614247c18180a00e4d899600
   srg_url: https://supershowthegame.com/product/18-ambush-with-the-microphone/
   srgpc_url: https://www.srgpc.net/cards/18/ambush-with-the-microphone/
@@ -17229,7 +17267,7 @@
 
     If you have another Follow Up in play, your Tag Team partner draws the bottom card of their deck.'
   tags: []
-- name: Trap With the Cage Door (Technique)
+- name: Trap With The Cage Door (Technique)
   db_uuid: d2ee7f06ecb5438381bd019c3638ecc6
   srgpc_url: https://www.srgpc.net/cards/18/trap-with-the-cage-door/
   card_type: MainDeckCard
@@ -22620,7 +22658,7 @@
 
     Each player buries 1 card in their opponent''s discard pile.'
   tags: []
-- name: Backlash With the Drumstick
+- name: Backlash With The Drumstick
   db_uuid: e3cf7a89aacd45269a2473e80f7e04d0
   srgpc_url: https://www.srgpc.net/cards/25/backlash-with-the-kendo-stick-v2/
   card_type: MainDeckCard
@@ -22633,7 +22671,7 @@
   tags: []
   wants_keywords:
     - Drumstick
-- name: Backlash With the Kendo Stick
+- name: Backlash With The Kendo Stick
   db_uuid: dc03b771bf9841cdbde79d4b44d583ab
   card_type: MainDeckCard
   atk_type: Strike
@@ -22643,7 +22681,7 @@
 
     Draw 2 cards or discard 1 card your opponent has in play.'
   tags: []
-- name: Backlash With the Ladder
+- name: Backlash With The Ladder
   db_uuid: c74ab0024bfb41c2b0708763d2f382a4
   srgpc_url: https://www.srgpc.net/cards/25/backlash-with-the-ladder/
   card_type: MainDeckCard
@@ -22654,7 +22692,7 @@
 
     Draw 2 cards, discard 1 card your opponent has in play.'
   tags: []
-- name: Backlash With the Pineapple
+- name: Backlash With The Pineapple
   db_uuid: a0d28bbe23ef46e9bbf6e54cba50ee35
   srgpc_url: https://www.srgpc.net/cards/25/backlash-with-the-pineapple/
   card_type: MainDeckCard
@@ -23222,7 +23260,7 @@
 
     Each player draws 1 card.'
   tags: []
-- name: Backlash With the Guitar
+- name: Backlash With The Guitar
   db_uuid: c34133affb3944f494e4fca142af69fa
   srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-table/
   card_type: MainDeckCard
@@ -23235,7 +23273,7 @@
   tags: []
   wants_keywords:
     - Guitar
-- name: Backlash With the Steel Chair
+- name: Backlash With The Steel Chair
   db_uuid: 017b1e1526544759ba955c29b3ae9fa3
   srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-steel-chair-v2/
   card_type: MainDeckCard
@@ -23246,7 +23284,7 @@
 
     Draw 2 cards or shuffle 1 card from your discard pile into your deck.'
   tags: []
-- name: Backlash With the Table
+- name: Backlash With The Table
   db_uuid: c40c366f6db845e8bba9ba0ed13db1b9
   card_type: MainDeckCard
   atk_type: Grapple
@@ -23256,7 +23294,7 @@
 
     Draw 2 cards, shuffle 1 card from your discard pile into your deck.'
   tags: []
-- name: Backlash With the Trash Can
+- name: Backlash With The Trash Can
   db_uuid: ee4ad97e515c41c3896bbef266d6634f
   srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-trash-can/
   card_type: MainDeckCard
@@ -23933,7 +23971,7 @@
 
     The player with fewest cards in hand draws 1 card.'
   tags: []
-- name: Backlash With the Microphone
+- name: Backlash With The Microphone
   db_uuid: f24397a15ca747e597302cf8e2a63d85
   srgpc_url: https://www.srgpc.net/cards/27/backlash-with-the-microphone
   card_type: MainDeckCard
@@ -23946,7 +23984,7 @@
   tags: []
   wants_keywords:
     - Microphone
-- name: Backlash With the Ring Steps
+- name: Backlash With The Ring Steps
   db_uuid: d04ee5b9ee8d4c65a168cf191c5d011e
   srgpc_url: https://www.srgpc.net/cards/27/backlash-with-the-ring-steps-v2/
   card_type: MainDeckCard
@@ -23957,7 +23995,7 @@
 
     Draw 2 cards or your opponent randomly buries 1 card in their hand.'
   tags: []
-- name: Backlash With the Steel Chain
+- name: Backlash With The Steel Chain
   db_uuid: 1b1d4906d3144e00a5c3c64b3e5757f8
   srgpc_url: https://www.srgpc.net/cards/27/cradle-with-the-steel-chain/
   card_type: MainDeckCard
@@ -23968,7 +24006,7 @@
 
     Draw 2 cards.  Your opponent buries 1 random card in their hand.'
   tags: []
-- name: Backlash With the Sledgehammer
+- name: Backlash With The Sledgehammer
   db_uuid: b86367853be34213bab45fce8d654b0d
   srgpc_url: https://www.srgpc.net/cards/27/backlash-with-the-sledgehammer/
   card_type: MainDeckCard
@@ -53673,7 +53711,7 @@
   tags: []
   related_cards:
     - dba1d61db20b496486642845a978d752
-- name: Snap with the Umbrella
+- name: Snap With The Umbrella
   db_uuid: 12544c655f994f86ad76a04de1238fcb
   card_type: MainDeckCard
   atk_type: Strike
@@ -78521,15 +78559,6 @@
 
     Draw 1 card.'
   tags: []
-- name: High Flying Lucha Splash
-  db_uuid: 4149eb2e9e32444aad30fe32fed1c050
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 13
-  rules_text: If you have a Stop in play, add 1 card from your discard pile to your hand.
-  tags:
-    - Super Lucha
 - name: Crowd Pleaser
   db_uuid: 9454f68580e642c2984909ddccc1f74e
   srg_url: https://supershowthegame.com/product/17-crowd-pleaser/
@@ -80024,7 +80053,7 @@
 
     If this card is flipped by "Set up the Table", add it to your hand.'
   tags: []
-- name: Beat with the Microphone
+- name: Beat With The Microphone
   db_uuid: 42bb47d5f8cd44e79dfb8364d6522e9b
   srgpc_url: https://www.srgpc.net/cards/22/beat-with-the-microphone/
   card_type: MainDeckCard
@@ -80422,7 +80451,7 @@
 
     If your Submission skill is greater than your opponent''s Technique skill, draw 3 cards.'
   tags: []
-- name: Cradle with the Steel Chair
+- name: Cradle With The Steel Chair
   db_uuid: 098bfa921180406fa795dffa9b5749b7
   srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
   srgpc_url: https://www.srgpc.net/cards/24/cradle-with-the-steel-chair/
@@ -80665,7 +80694,7 @@
 
     Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
   tags: []
-- name: Cradle With the Steel Chain
+- name: Cradle With The Steel Chain
   db_uuid: 68d2116c59be4a4e85d359fcd68028f5
   srg_url: https://supershowthegame.com/product/long-island-table-top-promo-bundle-deal/
   card_type: MainDeckCard
@@ -80842,7 +80871,7 @@
   tags: []
   related_cards:
     - 992dac94fa8944afab7d4ac757df2944
-- name: Crush With the Table
+- name: Crush With The Table
   db_uuid: 3e46783da4dc4c299b339d5a6a0cead7
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   card_type: MainDeckCard
@@ -81093,7 +81122,7 @@
   tags: []
   wants_keywords:
     - Barbed Wire
-- name: Ambush with the Barbed Wire
+- name: Ambush With The Barbed Wire
   db_uuid: 8151f46a15064e0e90c1a7700c65839d
   srg_url: https://supershowthegame.com/product/18-ambush-with-the-barbed-wire/
   card_type: MainDeckCard
@@ -81961,7 +81990,7 @@
     If you rolled your printed 5 skill for a Finish roll, you may re-roll.'
   tags:
     - Super Lucha
-- name: Decent with the Steel Chain
+- name: Decent With The Steel Chain
   db_uuid: a4086134e01f4725b4022d2b8fbf4780
   card_type: EntranceCard
   rules_text: 'During your turn:
@@ -84652,7 +84681,7 @@
   tags: []
   wants_keywords:
     - Holiday
-- name: Backlash with the Holiday Wrapping Paper
+- name: Backlash With The Holiday Wrapping Paper
   db_uuid: 173986fa378641b5881cd3c5bc9acac6
   card_type: MainDeckCard
   atk_type: Strike
@@ -84696,7 +84725,7 @@
   tags: []
   wants_keywords:
     - Wrapping Paper
-- name: Ambush With the Holiday Wrapping Paper
+- name: Ambush With The Holiday Wrapping Paper
   db_uuid: 81dadffd2280408383e180532abd766f
   card_type: MainDeckCard
   atk_type: Strike
@@ -84726,7 +84755,7 @@
   tags: []
   wants_keywords:
     - Wrapping Paper
-- name: Takeover with the Holiday Wrapping Paper
+- name: Takeover With The Holiday Wrapping Paper
   db_uuid: e55db901180d459fb0ce229044358fdd
   card_type: MainDeckCard
   atk_type: Strike
@@ -85735,7 +85764,7 @@
   tags: []
   wants_keywords:
     - Ladder
-- name: Bombard With the Ladder
+- name: Bombard With The Ladder
   db_uuid: 2e515788e9d545d6848827f2250f7903
   card_type: MainDeckCard
   atk_type: Submission
@@ -86527,7 +86556,7 @@
   tags: []
   wants_keywords:
     - Steel Chain
-- name: Flying Through the Stars With the Sabers of Light
+- name: Flying Through the Stars With The Sabers of Light
   db_uuid: 2dfd268aaafc420d83e34055f7510eda
   card_type: MainDeckCard
   atk_type: Grapple
@@ -86540,7 +86569,7 @@
     If you have another Saber of Light card in play, you may discard 1 card from your hand to re-roll your Finish roll.'
   tags:
     - Saber of Light
-- name: Blocking with the Saber of Light
+- name: Blocking With The Saber of Light
   db_uuid: ed5aecfb2e8b4973bd52299d0ddc35d7
   card_type: MainDeckCard
   atk_type: Grapple

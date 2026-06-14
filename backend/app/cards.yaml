@@ -83697,7 +83697,8 @@
     Shuffle 3 cards from your discard pile into your deck.
 
     Draw 1 card.'
-  tags: []
+  tags:
+    - Logoless
 - name: Orchestra Red
   db_uuid: ba9c71d333aa487b99d13fe537e7dec2
   srg_url: https://supershowthegame.com/product/orchestra-red/
@@ -83884,6 +83885,89 @@
   rules_text: When the Crowd Meter is 4 or greater, this card is also a Follow Up.
   tags:
     - Logoless
+- name: Roll Up
+  db_uuid: 89d798b1025543ec88269c3cb78a9e99
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'When the card "Bulldog Takedown" is in play this card cannot be stopped.
+
+    Draw 3 cards.'
+  tags:
+    - Logoless
+- name: Sky-High Powerbomb
+  db_uuid: a10ee7a9182c4f1c890cf31213f3850c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Your highest skill is +1.
+
+    Your opponent''s Gimmick is blank.'
+  tags:
+    - Logoless
+- name: Slam Through a Table
+  db_uuid: b1389d659af8409a86a0f5bc8953cf0a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Power and Grapple are +1 for each other card you have in play with "Table" in the name.
+  tags:
+    - Logoless
+  wants_keywords:
+    - Table
+- name: Stunning Steel Chair Drop
+  db_uuid: 479b00804cde4f36845a1c89e6cc5949
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Agility and Grapple are +1 for each other card you have in play with "Steel Chair" in the name.
+  tags:
+    - Logoless
+  wants_keywords:
+    - Steel Chair
+- name: Super Diving Face Drop Out of Nowhere!
+  db_uuid: 7efaeabb27684e549d48f72d06a340b9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: When the Crowd Meter is 4 or greater this card is also a Follow Up.
+  tags:
+    - Logoless
+- name: Super Snap Brainbuster
+  db_uuid: b3a189a4043e4bd2899e5857f16c42fe
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    +1 to Strike
+
+    Bury 3 cards in your opponent''s discard pile, your opponent buries 1 card in their hand.'
+  tags:
+    - Logoless
+- name: Surprise Guitar Smash
+  db_uuid: 9f7280ee873b49c9b0ddb33757e47173
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    When you have 2 cards with "Guitar" in the name in play, this card is considered to have your competitor logo.'
+  tags:
+    - Logoless
 - name: Super Steel Chain-Plex
   db_uuid: 7c9fe053618f49d6bd83969b40e7a4eb
   srgpc_url: https://www.srgpc.net/cards/29/super-steel-chain-plex/
@@ -83898,7 +83982,8 @@
     Add 2 cards to your hand and flip the others.
 
     If this match has "Chain" in the name, +2 to Grapple.'
-  tags: []
+  tags:
+    - Logoless
 - name: Double Death Drop
   db_uuid: b87e168076e34d26b6f7c562e1dec54c
   srg_url: https://supershowthegame.com/product/29-double-death-drop/

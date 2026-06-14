@@ -86415,7 +86415,7 @@
   grapple: 7
   rules_text: When you increase your Power or Submission, the other skill is also increased the same amount.
   tags:
-    - Old School
+    - Old School Wave 3
   related_finishes:
     - f7bcf5adf9c04452854e9294858b7811
     - cd8064959d294d0d9ae8bbb6366d70ef
@@ -86467,7 +86467,7 @@
   grapple: 5
   rules_text: When your card is stopped, you may flip 2 cards or bury 2 other cards in your discard pile.
   tags:
-    - Old School
+    - Old School Wave 3
   related_finishes:
     - bfe6608b60734937a1c5641938383f8a
     - 9d65d00572eb4bbbbe05c684f968545d
@@ -86523,7 +86523,7 @@
   grapple: 10
   rules_text: When your Finish roll is 7 or less (before the Crowd Meter is added), it is +2.
   tags:
-    - Old School
+    - Old School Wave 3
   related_finishes:
     - 529db9183a254f3ca9ecc5dfc14fea7c
     - 28d9e3e7c3034b4aa8a71d46a888c51f
@@ -86583,7 +86583,53 @@
   grapple: 7
   rules_text: When you roll Technique for your turn roll, your Follow Ups are also Leads until the end of the turn.
   tags:
-    - Old School
+    - Old School Wave 3
+  related_finishes:
+    - cfdba0d30f0f47fba14214993ada7283
+    - da3206d346904de1b43f3ad26f2af6e1
+    - 52d0b196bcd643d6b858663ac0bdea5c
+- name: The Tail Strike
+  db_uuid: cfdba0d30f0f47fba14214993ada7283
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Power
+
+    +2 to Agility
+
+    If you rolled Technique for your turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 2990ff6ba3fa49e1bb0db18e876f22b8
+- name: Scorpio Death Drive
+  db_uuid: da3206d346904de1b43f3ad26f2af6e1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Bury 1 card in your discard pile.'
+  tags: []
+  related_cards:
+    - 2990ff6ba3fa49e1bb0db18e876f22b8
+- name: The Venomous Vise
+  db_uuid: 52d0b196bcd643d6b858663ac0bdea5c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Submission
+
+    If you have 3 Leads in play, you may play this card as if it were also a Follow Up.'
+  tags: []
+  related_cards:
+    - 2990ff6ba3fa49e1bb0db18e876f22b8
 - name: Dayna Might (Old School)
   db_uuid: 5601d511bde4440d97c3b12e376fd669
   card_type: SingleCompetitorCard
@@ -86595,7 +86641,7 @@
   grapple: 9
   rules_text: You may ignore the "If Stopped" text on all non-"Stop" cards.
   tags:
-    - Old School
+    - Old School Wave 3
   related_finishes:
     - c46ce1faf2174cc5b31b61cc07c940d6
     - 155c419b0e5845419811725de915c11e
@@ -86663,7 +86709,7 @@
 
     Your target''s Gimmick is immediately blanked until the end of the next turn.'
   tags:
-    - Old School
+    - Old School Wave 3
   related_finishes:
     - 38c81349c36b4fc889a1f82cca841cda
     - a89d91a3fe874296add5fb14b05d2218

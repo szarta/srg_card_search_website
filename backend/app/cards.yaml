@@ -83660,6 +83660,17 @@
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
   tags:
     - Logoless
+- name: El Retumbar
+  db_uuid: 60e7e8c9559e418b962160b79a2073b5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 25
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Add 1 Follow Up Strike from your discard pile to your hand.'
+  tags:
+    - Super Lucha
 - name: Guitar to Head
   db_uuid: 8817f1d6c9a44023a650d0bec9c93eff
   card_type: MainDeckCard
@@ -85598,7 +85609,7 @@
   deck_card_number: 29
   rules_text: 'Your Finish roll is +1.
 
-    Add 2 cards from yoru discard pile to your hand.'
+    Add 2 cards from your discard pile to your hand.'
   tags: []
   related_cards:
     - 5974c52a325c4776a969c3fe92751d3e
@@ -86028,6 +86039,17 @@
 
     All Finish Strikes have the added text: "Your Finish rolls are +1."'
   tags: []
+- name: It's A Giant Wrench!
+  db_uuid: a4ae61c4fb764b559728c645794f6953
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Your next 3 turn rolls are +1.'
+  tags:
+    - Super Lucha
 - name: Power Dragon Sleeper
   db_uuid: 28b5d5f14bee4dee951bff4fcf4825ad
   card_type: MainDeckCard

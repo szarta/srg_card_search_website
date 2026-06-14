@@ -86771,7 +86771,47 @@
   grapple: 7
   rules_text: 'When your roll is 12 or greater: You may put 1 Strike or Grapple from your discard pile on top of your deck.'
   tags:
-    - Old School
+    - Old School Wave 3
+  related_finishes:
+    - 89e755feb35148ef9f1d1f26b98967e9
+    - 247f2a52c929485095b908eb0fe5bff7
+    - d525c61d835f4252b7e4472271e78961
+- name: Eleeta-Sault
+  db_uuid: 89e755feb35148ef9f1d1f26b98967e9
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Technique
+
+    +1 to Strike
+
+    If your turn roll was 12 or greater, your opponent gets 1 fewer breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 2d0c0239efa34b248fc45c9c622fb557
+- name: The Twist of Fusion
+  db_uuid: 247f2a52c929485095b908eb0fe5bff7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: The next time you roll Grapple, it is +5.
+  tags: []
+  related_cards:
+    - 2d0c0239efa34b248fc45c9c622fb557
+- name: The Half Life
+  db_uuid: d525c61d835f4252b7e4472271e78961
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Power
+
+    Your opponent''s 1st Breakout roll is halved (rounded up).'
+  tags: []
+  related_cards:
+    - 2d0c0239efa34b248fc45c9c622fb557
 - name: Right Angle
   db_uuid: 5458f089c53a434fad93140b1c08d1c9
   card_type: SingleCompetitorCard
@@ -86783,7 +86823,7 @@
   grapple: 10
   rules_text: When the Crowd Meter is 1 or greater, your Follow Ups with "Lock" or "Suplex" in the name are also Leads.
   tags:
-    - Old School
+    - Old School Wave 3
 - name: Hue Manatee
   db_uuid: 7b634ef493c0485686a77e71a382cea2
   card_type: SingleCompetitorCard
@@ -86795,7 +86835,51 @@
   grapple: 9
   rules_text: Your Power and Technique are +3 during your opponent's turn.
   tags:
-    - Old School
+    - Old School Wave 3
+  related_finishes:
+    - d812aa0727de403aa18765390d4d9b7c
+    - 2318593925bc46b29ac201c53a51f276
+    - 77633729c3ba4cbf992d6f3dedff99f8
+- name: Oh, The Hue Manatee!
+  db_uuid: d812aa0727de403aa18765390d4d9b7c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    Your Strike and Grapple are + the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 7b634ef493c0485686a77e71a382cea2
+- name: Pulling Piledriver
+  db_uuid: 2318593925bc46b29ac201c53a51f276
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Strike
+
+    If you have another card in play with "You lose the match via disqualification" in the text, you may re-roll your Finish roll, and that roll is +1.'
+  tags: []
+  related_cards:
+    - 7b634ef493c0485686a77e71a382cea2
+- name: Hue Manatee's Reach
+  db_uuid: 77633729c3ba4cbf992d6f3dedff99f8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'Your opponent''s 1st Breakout roll is -2 for each card you have in play with "You lose the match via disqualification" in the text.
+
+    If stopped, you may put this card into play.'
+  tags: []
+  related_cards:
+    - 7b634ef493c0485686a77e71a382cea2
 - name: Ms. Satisfaction
   db_uuid: 5a4a080ca41a4839890ee9e1c44ad171
   card_type: SingleCompetitorCard
@@ -86807,7 +86891,55 @@
   grapple: 9
   rules_text: 'When you roll Strike for your turn roll: If you hit a Follow Up, you may copy the effect of a card with the same move type you have in play.'
   tags:
-    - Old School
+    - Old School Wave 3
+  related_finishes:
+    - 8d03c1e380374094a914b0f1ddedcca0
+    - a7071ad850ba444ab53a4c5b6c674759
+    - 661c2164479e4c879e6e91b245b49dc9
+- name: First-Call Kick
+  db_uuid: 8d03c1e380374094a914b0f1ddedcca0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +3 to Agility
+
+    If you stoppped a card last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 5a4a080ca41a4839890ee9e1c44ad171
+- name: Handle Time
+  db_uuid: a7071ad850ba444ab53a4c5b6c674759
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    Copy the text of 1 card you have in play.'
+  tags: []
+  related_cards:
+    - 5a4a080ca41a4839890ee9e1c44ad171
+- name: Expected Wait Time
+  db_uuid: 661c2164479e4c879e6e91b245b49dc9
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    Your opponent can''t play cards on the next 2 turns.'
+  tags: []
+  related_cards:
+    - 5a4a080ca41a4839890ee9e1c44ad171
 - name: Novakane
   db_uuid: 6c7c141c726641d9ba7426601a92ddc0
   card_type: SingleCompetitorCard
@@ -86819,7 +86951,57 @@
   grapple: 7
   rules_text: When you have 2 Follow Ups in play, your opponent's Gimmick is blank.
   tags:
-    - Old School
+    - Old School Wave 3
+  related_finishes:
+    - 3ceb23a64714495d98bc3d45215e1b11
+    - 0ffa9dc7d341495fb28a00ef84081527
+    - 9eb5f333fb0a40088f3d1570f7380c75
+- name: The Dental Drill
+  db_uuid: 3ceb23a64714495d98bc3d45215e1b11
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +1 to Strike
+
+    You may add 1 Follow Up from in play to your hand.'
+  tags: []
+  related_cards:
+    - 6c7c141c726641d9ba7426601a92ddc0
+- name: Chokeslam to Healthcare
+  db_uuid: 0ffa9dc7d341495fb28a00ef84081527
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your Finish roll is +1.
+
+    If you have 6 or more Follow Ups in play, double these bonuses.'
+  tags: []
+  related_cards:
+    - 6c7c141c726641d9ba7426601a92ddc0
+- name: Put You Under and Yank 'Em!
+  db_uuid: 9eb5f333fb0a40088f3d1570f7380c75
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    Look at your opponent''s hand.
+
+    Choose 1 card your opponent has in their hand or in play and discard it.'
+  tags: []
+  related_cards:
+    - 6c7c141c726641d9ba7426601a92ddc0
 - name: Elroy Majestico Jr.
   db_uuid: e866ae48340545e69a3530a17e68bc1b
   card_type: SingleCompetitorCard

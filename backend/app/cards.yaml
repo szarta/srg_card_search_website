@@ -34484,7 +34484,8 @@
     When this card is flipped, add it to your hand.
 
     If this card is stopped you lose the match via Disqualification.'
-  tags: []
+  tags:
+    - Logoless
 - name: Smash With A Trash Can
   db_uuid: ddbbc94d627240bcb702bc4a137d9c08
   srg_url: https://supershowthegame.com/product/28-smash-with-a-trash-can/
@@ -34495,7 +34496,32 @@
   rules_text: '+5 to Strike
 
     If this card is stopped you lose the match via Disqualification.'
-  tags: []
+  tags:
+    - Logoless
+- name: Snap Superkick
+  db_uuid: 251b0a546b484f50ae8d71acac396b0c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: +4 to Strike
+  tags:
+    - Logoless
+- name: Spear Through The Cage
+  db_uuid: 6d65c29adff24b8caa918fceba183a28
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    Look at the top 4 cards of your deck.
+
+    Add 2 cards to your hand and flip the others.
+
+    If this is a Steel Cage match or Liger''s Den match, +2 to Strike.'
+  tags:
+    - Logoless
 - name: Take a Seat
   db_uuid: 36da459381de4934a044f8c88ce58237
   srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
@@ -78898,9 +78924,23 @@
   rules_text: 'Your skills are +1 for each other card you have in play with "Elbow" in the name.
 
     When your opponent has 0 cards in play this card cannot be stopped.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Elbow
+- name: Doomsday Machine (Power)
+  db_uuid: 9643cdf7f800456d8495a6e39410dbd2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'If your opponent''s first Breakout roll is 20 or greater, their roll is -5.
+
+    Your Finish roll is +2 for each "Irish Whip", "Drag to the Center", or "Throw Into the Corner" you have in play.
+
+    Skill Requirement: Power 16+'
+  tags:
+    - Logoless
 - name: Sharpshooter (#30)
   db_uuid: dbfcd2fc470046ae9c39666d91a7958a
   srg_url: https://supershowthegame.com/product/30-sharpshooter/
@@ -80901,7 +80941,19 @@
     If your Finish roll is 6 or less, it is +2.
 
     Skill Requirement: Strike 8+'
-  tags: []
+  tags:
+    - Logoless
+- name: Beat & Batter With The Kendo Stick
+  db_uuid: 63118ae7468047ab910e79aca98967cb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your Technique and Strike are +1 for each other card you have in play with "Kendo Stick" in the name.
+  tags:
+    - Logoless
+  wants_keywords:
+    - Kendo Stick
 - name: Splash Through the Table
   db_uuid: ac963b55d4124150bdece95f2be7744e
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -80914,7 +80966,8 @@
     +1 to Strike
 
     If you have 2 cards in play with "Table" in the name, this card is considered to have your competitor logo.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Table
 - name: A Powerful Drumstick Sealing
@@ -80930,7 +80983,8 @@
     +1 to Strike
 
     When you have 2 cards with "Drumstick" in the name in play, this card is considered to have your Competitor logo.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Drumstick
 - name: Tooth and Nailed
@@ -83289,7 +83343,8 @@
     If you roll the chosen skill for your Finish roll, it is +3.
 
     Reveal the top card of your deck, if it has "Baseball Bat" in the name, you may re-roll your Finish roll.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Baseball Bat
 - name: Atomic Clothesline
@@ -83301,7 +83356,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: Bury 5 cards in your opponent's discard pile.  Flip your deck into your discard pile.
-  tags: []
+  tags:
+    - Logoless
 - name: Atomic Double Knee
   db_uuid: ec1fc56c461d494da527bc8a2d51cf6b
   srg_url: https://supershowthegame.com/product/28-atomic-double-knee/
@@ -83313,7 +83369,17 @@
   rules_text: 'Stop "Double Death Drop."
 
     +1 to your 2 lowest skills.'
-  tags: []
+  tags:
+    - Logoless
+- name: Atomic Leg Drop
+  db_uuid: 9ca8effe071b4c90a2f670e22efd4c1a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: Your opponent buries cards in their discard pile equal to your Finish roll.
+  tags:
+    - Logoless
 - name: Atomic Splash
   db_uuid: d55a1a4dbaf443d396af0339681b8888
   srg_url: https://supershowthegame.com/product/28-atomic-splash/
@@ -83334,7 +83400,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: Your Power and Strike are +1 for each other card you have in play with "Pineapple" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords: Pineapple
 - name: Frog Splash (Agility)
   db_uuid: 21e66fb039c9436592942e9c0c09de9b
@@ -83360,7 +83427,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: +4 to Agility
-  tags: []
+  tags:
+    - Logoless
 - name: Grim Cringe
   db_uuid: c5e0e30eaa8c4377ad21355b5ca0f607
   card_type: TornadoCompetitorCard
@@ -83694,6 +83762,32 @@
     Draw 1 card
 
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
+  tags:
+    - Logoless
+- name: Raging Roundhouse (Strike)
+  db_uuid: 7936f5b0481f4112bbfe1c5ed1bff2a0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    +3 to your lowest skill.
+
+    Add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Strike 8+'
+  tags:
+    - Logoless
+- name: Senton Splash
+  db_uuid: 1518fd517fd7405dba4b7246768395ca
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'When the card "Trust Drop" is in play this card cannot be stopped.
+
+    Your opponent buries 3 cards in their hand.'
   tags:
     - Logoless
 - name: El Retumbar
@@ -84824,7 +84918,8 @@
   rules_text: 'Choose Technique or Strike, the chosen skill is +3.
 
     Reveal the bottom card of your deck, if it has "Holiday" in the name, you may choose both skills.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Holiday
 - name: Backlash With The Holiday Wrapping Paper
@@ -85841,7 +85936,8 @@
   play_order: Finish
   deck_card_number: 28
   rules_text: Your Agility and Strike are +1 for each other card you have in play with "Ladder" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Ladder
 - name: Unsealed Powerbomb Through the Ladder
@@ -86914,3 +87010,53 @@
 
     Look at your opponent''s hand, choose 1 Follow Up and bury it.'
   tags: []
+- name: Stocking Stuffer Stomping
+  db_uuid: 5bf62cdf79084fa3ace1838a337c4a97
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: 'Look at your opponent''s hand.
+
+    Choose 4 cards and discard them.
+
+    Your opponent randomly adds 4 cards from their discard pile to their hand.'
+  tags:
+    - Logoless
+- name: Top Rope Flying Elbow Drop
+  db_uuid: c3939e387fd74403907c45aa853e1085
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Technique'
+  tags:
+    - Logoless
+- name: Top Rope Flying Headband Drop
+  db_uuid: 0cdc76d3bd1543f6b513fdafa75d7cb3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +1 to Strike
+
+    When you have 12 or more cards in your hand, this card cannot be stopped.'
+  tags:
+    - Logoless
+- name: The Whip Heard Around the World
+  db_uuid: f1dc295c35c44fbdbdafc4082a3f040c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Strike
+
+    Look at the top 4 cards of your deck, add 2 cards to your hand and flip the others.
+
+    If this match has "Chain" in the name, +2 to Agility'
+  tags:
+    - Logoless

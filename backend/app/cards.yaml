@@ -3120,6 +3120,21 @@
   deck_card_number: 1
   rules_text: If this is the first turn of the game, this card cannot be stopped.
   tags: []
+- name: Ultimate Dynamic Lucha Cooking Time! (Submission)
+  db_uuid: 4af3675ed3b941e49fb6cd1cb416ef92
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Flip 2 cards.
+
+    Add 1 card from your discard pile to your hand.
+
+    Draw 2 cards.
+
+    Skill Requirement: Submission 8+'
+  tags:
+    - Super Lucha
 - name: Half Boston Crab
   db_uuid: 35860c66fb2a43049146f5b1553404b0
   srg_url: https://supershowthegame.com/product/24-half-boston-crab/
@@ -3228,6 +3243,17 @@
 
     Your next turn roll is +1 for each Strike you have in play.  Skill Requirement:  Strike 10+, Agility 9+'
   tags: []
+- name: Unwrap Some Sling-Cheese! (Technique)
+  db_uuid: 97c4cca31c864ad786827d6863d509a4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
+
+    Skill Requirement: Technique 8+'
+  tags:
+    - Super Lucha
 - name: Swashbuckle Barrage
   db_uuid: e08816c561e54dd1b872e3cd0e46b772
   card_type: MainDeckCard
@@ -3284,6 +3310,17 @@
 
     If this is a Triad match, you may add those cards to each player''s hand.'
   tags: []
+- name: Hammer Time Knee Knocker (Agility)
+  db_uuid: 69e1cc1248c142198e2744aec1358fab
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
+
+    Skill Requirement: Agility 8+'
+  tags:
+    - Super Lucha
 - name: American Dragon Drop
   db_uuid: da4ed6a0dc0b4430a9455df55e55f33a
   srg_url: https://supershowthegame.com/product/17-american-dragon-drop/
@@ -3307,6 +3344,21 @@
   rules_text: Your next turn roll is +1 for each Grapple you have in play.
   tags:
     - Old School Wave 1
+- name: Protoplasmic Slam (Grapple)
+  db_uuid: 8293e63a85ea45a6bc9c489d5d345ae3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Flip 2 cards.
+
+    Add 1 card from your discard pile to your hand.
+
+    Draw 2 cards.
+
+    Skill Requirement: Grapple 8+'
+  tags:
+    - Super Lucha
 - name: Reflective Parry
   db_uuid: 7b6bc01e61d847cc85a33cb82842034b
   srgpc_url: https://www.srgpc.net/cards/23/reflective-parry/
@@ -3507,6 +3559,17 @@
   tags: []
   wants_keywords:
     - Ladder
+- name: Shred It and Forget It! (Power)
+  db_uuid: 5454c1aefd1b4b589fae0cbefcfe90e5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
+
+    Skill Requirement: Power 8+'
+  tags:
+    - Super Lucha
 - name: Kneeling Chin Hold
   db_uuid: 53fed339ac5c44a68c252187ab183a5d
   card_type: MainDeckCard
@@ -4781,6 +4844,21 @@
   deck_card_number: 25
   rules_text: Stop any Lead Grapple or Finish Grapple.  Bury up to 3 cards in your opponent's discard pile.
   tags: []
+- name: Over the Top Dance Off! (Strike)
+  db_uuid: 7acb7dc837bf44fab219449a9b092ecf
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Flip 2 cards.
+
+    Add 1 card from your discard pile to your hand.
+
+    Draw 2 cards.
+
+    Skill Requirement: Strike 8+'
+  tags:
+    - Super Lucha
 - name: Moonsault
   db_uuid: e11192eb755d4fcdb8caccd2b31a7326
   srg_url: https://supershowthegame.com/product/22-moonsault/

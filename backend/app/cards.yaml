@@ -11542,7 +11542,7 @@
   rules_text: If you have 3 other Leads in play, add 1 card from your discard pile to your hand, and your next turn roll is +1.
   tags:
     - Old School Wave 3
-- name: Hello There
+- name: Hello There (V1)
   db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
   srgpc_url: https://www.srgpc.net/cards/11/hello-there/
   card_type: MainDeckCard
@@ -11552,6 +11552,16 @@
   rules_text: 'If you have another Grapple in play, put 1 Grapple from your discard pile on top of your deck.
 
     If this is a Steel Cage match and this card is flipped, flip 1 card.'
+  tags: []
+- name: Hello There (V2)
+  db_uuid: a4851e03dc654898aefe5947d8ae7be2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  rules_text: 'If you have another Grapple in play, put 1 Grapple from your discard pile on top of your deck.
+
+    If this is a Liger''s Den match, draw the bottom card of your deck.'
   tags: []
 - name: Judo Takedown
   db_uuid: 1c3e1ff206644e4b8902815f8fe09217
@@ -59312,7 +59322,7 @@
   tags: []
   related_cards:
     - 30d964459f7942bf84b6bb57a23b356a
-- name: Into the Abyss
+- name: Into the Abyss (Pluto)
   db_uuid: 07f80675a98a4be990dc7e4f90affcca
   card_type: MainDeckCard
   atk_type: Submission
@@ -59326,6 +59336,17 @@
   tags: []
   related_cards:
     - 30d964459f7942bf84b6bb57a23b356a
+- name: Into the Abyss! (#26)
+  db_uuid: 14a648f5c4524f078f8b89fa758672bb
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
+
+    Add 1 Follow Up Grapple from your discard pile to your hand.'
+  tags:
+    - Super Lucha
 - name: Poco Loco
   db_uuid: d8990075aa4b4d3f857bb00ff06ea3b2
   srg_url: https://supershowthegame.com/product/poco-loco/

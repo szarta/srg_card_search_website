@@ -12480,7 +12480,7 @@
   deck_card_number: 12
   rules_text: If your opponent has a Stop in play, choose 1 card your opponent has in play and discard it.
   tags: []
-- name: You Can't Cage Me
+- name: You Can't Cage Me (V1)
   db_uuid: b00da4f1238b41b8aece8e4d6c59f894
   srgpc_url: https://www.srgpc.net/cards/12/you-cant-cage-me/
   card_type: MainDeckCard
@@ -12490,6 +12490,16 @@
   rules_text: 'If you have another Submission in play, put 1 Submission from your discard pile on top of your deck.
 
     If this is a Steel Cage match and this card is flipped, flip 1 card.'
+  tags: []
+- name: You Can't Cage Me (V2)
+  db_uuid: 74a859bda7714facb607354c6273a1ff
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'If you have another Submission in play, put 1 Submission from your discard pile on top of your deck.
+
+    If this is a Liger''s Den match, draw the bottom card of your deck.'
   tags: []
 - name: Hypersonic Boot
   db_uuid: 103b39256022418b983b6ed21b47166f
@@ -17862,6 +17872,14 @@
     Skill Requirement: Agility 8+'
   tags: []
 - name: Missile Drop Kick (V1)
+  db_uuid: e0531bc865434ca4b6db7c19366d4636
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: Draw 1 card. Flip 1 card. Your next turn roll is +1.
+  tags: []
+- name: Missile Drop Kick (V2)
   db_uuid: 804ce043b2974ba4a945c158973a5ef4
   srg_url: https://supershowthegame.com/product/19-missle-drop-kick/
   srgpc_url: https://www.srgpc.net/cards/19/missile-drop-kick/
@@ -17873,7 +17891,7 @@
 
     Your next turn roll is +1.'
   tags: []
-- name: Missile Drop Kick (V2)
+- name: Missile Drop Kick (V3)
   db_uuid: 60370aa92efc42139f03ed2fcff64492
   srgpc_url: https://www.srgpc.net/cards/19/missile-drop-kick-v2/
   card_type: MainDeckCard
@@ -18904,6 +18922,16 @@
 
     Skill Requirement: Power 8+'
   tags: []
+- name: Super Shoulder Breaker
+  db_uuid: 16ade5b3ef2e4713b596450e3ab48c3a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'Your opponent discards all Submissions they have in play.
+
+    Your next turn roll is +3.'
+  tags: []
 - name: Super Shoulder Breaker (Grapple)
   db_uuid: 6d80f5514d134c35939ab2762f8f26d8
   srgpc_url: https://www.srgpc.net/cards/20/super-shoulder-breaker-v2/
@@ -19824,6 +19852,14 @@
   play_order: Followup
   deck_card_number: 21
   rules_text: If your opponent has another Strike in play, stop any Strike. Each player buries 1 card in their opponent's discard pile.
+  tags: []
+- name: American Sledgehammer Shot
+  db_uuid: ad95b96207cb4ce296b4bfeeff39f142
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Discard up to 3 cards from your hand: add the same number of cards from your discard pile to your hand.'
   tags: []
 - name: Splash Off The Corner
   db_uuid: 95776c5fc6c844909d699950f273d32b

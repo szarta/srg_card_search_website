@@ -83130,6 +83130,91 @@
   tags: []
   related_cards:
     - 1cad80cc73cc4b2bbb099e3cc31c97f6
+- name: Barbaric Bear Hug
+  db_uuid: ca17e65212d548129b913267de30cf25
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Look at the top 4 cards of your deck, add 2 cards to your hand and flip the others.
+
+    If this match has "Chain" in the name, +2 to Technique.'
+  tags:
+    - Logoless
+- name: Camel Clutch
+  db_uuid: f4521408b3904cffb867467aedf2c436
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Submission
+
+    Your opponent buries 1 card in their hand.'
+  tags:
+    - Logoless
+- name: Crippling Crossface (Power)
+  db_uuid: 444a4df533a9446e93210c38de3a8475
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    +1 to Submission
+
+    When you have 8 or more cards in your hand, your opponent gets 2 Breakout rolls this turn. Skill Requirement: Power 8+'
+  tags:
+    - Logoless
+- name: Crush With The Ring Step
+  db_uuid: f5fe914f2af94600a78b15fc24afe3de
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: Your Power and Submission are +1 for each other card you ahve in play with "Ring Step" in the name.
+  tags:
+    - Logoless
+  wants_keywords:
+    - Ring Step
+- name: Dangerous Ankle Lock
+  db_uuid: 9bbba4b97458410d95dee1314459dfdf
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Technique
+
+    Look at the top 4 cards of your deck, add 2 cards to your hand and flip the others.
+
+    If this is a Steel Cage or Liger''s Den match, +2 to Submission.'
+  tags:
+    - Logoless
+- name: Figure Four Leg Lock
+  db_uuid: e988b842ebd64ba7ab2bec40f4ffa54b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +4 to Submission.
+  tags:
+    - Logoless
+- name: Sheepy-Sheepy Baa-Baa
+  db_uuid: e3654f366fcf4c149c568928f90955e0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    Draw 1 card.
+
+    If your Finish roll is 6 or less, it is +2.'
+  tags:
+    - Logoless
 - name: Carter Clutch (Technique)
   db_uuid: 1d1879b8859149399921fff5aac46895
   srg_url: https://supershowthegame.com/product/30-carter-clutch/

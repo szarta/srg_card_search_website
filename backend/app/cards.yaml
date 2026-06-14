@@ -2383,6 +2383,31 @@
 
     Once per match: If you ended your turn without playing a card, you may bury 3 cards in your opponent''s discard pile.'
   tags: []
+- name: Predictive Training with Gropar the Great and Powerful
+  db_uuid: 685a4ab67c924cfc9b04defdfbd506f7
+  card_type: EntranceCard
+  rules_text: 'If your deck contains:
+
+    "Punch"
+
+    "Lock Up"
+
+    "Headlock"
+
+    "Kick"
+
+    "Hip Toss"
+
+    "Armbar"
+
+    "Dropkick"
+
+    "Fallaway Slam"
+
+    and "Double Armbar":
+
+    When you hit one of those cards, you may draw 1 card, then bury a card in your hand.'
+  tags: []
 - name: Technique Training with Harrietta
   db_uuid: 9972981b93014568b8693bfcb169e3d5
   srg_url: https://supershowthegame.com/product/technique-training-with-harrieta/
@@ -2867,6 +2892,69 @@
   card_type: EntranceCard
   rules_text: You are considered your own tag team partner for your card effects.
   tags: []
+- name: Lux Dazzlewing
+  db_uuid: b13241e11eb6432c80a1439583af6695
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 9
+  strike: 8
+  submission: 5
+  grapple: 6
+  rules_text: 'During your turn:
+
+    When you hit a card with "Over the Top" in the name or text, draw 2 cards, and your next turn roll is +1.'
+  tags: []
+  related_finishes:
+    - 4e7f714581ca4501a60ca78317007cb3
+    - 3700c45a1d0a40e99e28163153a8a8dd
+    - 54beff8c50e643648bd5006023f0a843
+  wants_keywords:
+    - Over the Top
+- name: The Grand Plume
+  db_uuid: 4e7f714581ca4501a60ca78317007cb3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Strike
+
+    Your Finish roll is +1 for each card you have in paly with "Over the Top" in the name.'
+  tags: []
+  related_cards:
+    - b13241e11eb6432c80a1439583af6695
+  wants_keywords:
+    - Over the Top
+- name: Flare Fall Dramatics
+  db_uuid: 3700c45a1d0a40e99e28163153a8a8dd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Strike
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If you roll Strike, Submission, or Grapple: You may discard cards of that move type with "Over the Top" in the name or text and your Finish roll is +1 for each card discarded.'
+  tags: []
+  related_cards:
+    - b13241e11eb6432c80a1439583af6695
+  wants_keywords:
+    - Over the Top
+- name: The Velvet Talon
+  db_uuid: 54beff8c50e643648bd5006023f0a843
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: 'When this card is in play or your discard pile: Your Submission is +1 for each card you have in play with "Over the Top" in the name.'
+  tags: []
+  related_cards:
+    - b13241e11eb6432c80a1439583af6695
+  wants_keywords:
+    - Over the Top
 - name: Candy MaM
   db_uuid: e1e8ae66adc2457a8d87a4a1d9820442
   srg_url: https://supershowthegame.com/product/candymam-val-alt-art-w-backed-by-the-rack/

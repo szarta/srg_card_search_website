@@ -36933,7 +36933,8 @@
   rules_text: 'Each player buries 4 cards in their hand.
 
     +1 to all your skills.'
-  tags: []
+  tags:
+    - Logoless
 - name: Replication Potion No. 30
   db_uuid: 349601cfd009410da846a1e860aa6856
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
@@ -83781,7 +83782,8 @@
     If your opponent has not Stops in play, double these bonuses.
 
     If stopped, you lose the match via disqualification.'
-  tags: []
+  tags:
+    - Logoless
 - name: FTL
   db_uuid: ee0defe517514f26860c5b695dbdd159
   card_type: MainDeckCard
@@ -83966,6 +83968,52 @@
     +1 to Grapple
 
     When you have 2 cards with "Guitar" in the name in play, this card is considered to have your competitor logo.'
+  tags:
+    - Logoless
+- name: The Big Finish
+  db_uuid: 69eed4c711a548b8b4711b9569786260
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Finish roll is +1 for each "Swift Kick", "Drop Out of the Ring" or "Grab Hold" you have in play.
+  tags:
+    - Logoless
+- name: The Big Wave
+  db_uuid: d033fec1ffbd4afe911ca3d510c9eaaf
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Flip cards equal to double your Finish roll.
+
+    Bury cards in your discard pile equal to the Crowd Meter +2.'
+  tags:
+    - Logoless
+- name: The Filibuster
+  db_uuid: 2a5ea318d1804cafb56b5a8163ba6943
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    Draw 1 card for each Follow Up you have in play, or your opponent buries 1 card in their hand for each Follow Up you have in play.'
+  tags:
+    - Logoless
+- name: Thunder Driver (Grapple)
+  db_uuid: 85f8fb36a57a4df4b65b8c5ce247553b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Grapple
+
+    +3 to your lowest skill
+
+    Add 1 card from your discard piel to your hand.
+
+    Skill Requirement: Grapple 8+'
   tags:
     - Logoless
 - name: Super Steel Chain-Plex
@@ -87394,7 +87442,8 @@
     If your Strike skill is greater than your opponent''s Strike skill, their 2nd breakout roll is -4.
 
     Skill Requirement: Strike 16+'
-  tags: []
+  tags:
+    - Logoless
 - name: Super Steel Chain Hold
   db_uuid: 96825e75eabd468b9fb5630fad6ac474
   srg_url: https://supershowthegame.com/product/30-super-steel-chain-hold/
@@ -87581,7 +87630,8 @@
   rules_text: 'Your opponent''s next roll is -2 for each card you have in play with "Drop" or "Slam" in the name.
 
     Draw 2 cards.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Drop
     - Slam

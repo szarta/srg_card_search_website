@@ -2865,7 +2865,8 @@
   play_order: Finish
   deck_card_number: 29
   rules_text: +4 to Grapple
-  tags: []
+  tags:
+    - Logoless
 - name: Chip's Stable Leveling Up
   db_uuid: 07125f93c19f46db867e15900ce0ef88
   srg_url: https://supershowthegame.com/product/entrance-chips-stable-leveling-up/
@@ -83407,7 +83408,8 @@
     +1 to Grapple
 
     Look at the top 4 cards of your deck, choose 1 and add it to your hand, bury the rest.'
-  tags: []
+  tags:
+    - Logoless
   comment: This card comes in variants on the mask of red, black, and green.
 - name: Death Drop (V1)
   db_uuid: 920138df047940a0824be042d36110d7
@@ -83419,7 +83421,8 @@
   rules_text: 'Flip 5 cards.
 
     Bury your opponent''s discard pile.'
-  tags: []
+  tags:
+    - Logoless
 - name: Marvelous Baseball Bat Swing
   db_uuid: 0283154357e447d78de2eac33cd214f2
   card_type: MainDeckCard
@@ -83808,8 +83811,79 @@
 
     If this is a Trio match triple these bonuses.
 
-    Add 1 Submission you have in play to your hand.'
-  tags: []
+    Add 1 Submission you have in play to your hand. Skill Requirement: Submission 8+'
+  tags:
+    - Logoless
+- name: Jack Knife Powerbomb (Power)
+  db_uuid: 5f062df25b7c4807988b7488534bd529
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +3 to your lowest skill.
+
+    Add 1 card from your discard pile to your hand.
+
+    Skill Requirement: Power 8+'
+  tags:
+    - Logoless
+- name: Lariat Bomb
+  db_uuid: e0e5e556d6514095baaac5b69b699850
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Grapple
+
+    +1 to Submission
+
+    Draw 4 cards, then bury 4 cards in your hand.'
+  tags:
+    - Logoless
+- name: Oklahoma F5
+  db_uuid: ce94de81922e47a9998451a770f079d3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +4 to Power
+  tags:
+    - Logoless
+- name: Over the Top Trash Can Jam
+  db_uuid: ca70ecc8300e4781918c670ba64f548c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Your Technique and Grapple are +1 for each other card you have in play with "Trash Can" in the name.
+  tags:
+    - Logoless
+  wants_keywords:
+    - Trash Can
+- name: Powerslam
+  db_uuid: edf293f1acd549deb705aa05e8ebceae
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: 'Flip 5 cards.
+
+    Bury your opponent''s discard pile.'
+  tags:
+    - Logoless
+- name: Press Slam Over the Top
+  db_uuid: 8e28c549556749488f9ab5da9a45bee5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: When the Crowd Meter is 4 or greater, this card is also a Follow Up.
+  tags:
+    - Logoless
 - name: Super Steel Chain-Plex
   db_uuid: 7c9fe053618f49d6bd83969b40e7a4eb
   srgpc_url: https://www.srgpc.net/cards/29/super-steel-chain-plex/
@@ -83837,7 +83911,21 @@
 
     If you have a card with "Table" in the name in play, your opponent buries 3 random cards.'
   comments: This card is Tag Team only.
-  tags: []
+  tags:
+    - Logoless
+- name: Drag to the Underworld
+  db_uuid: fb324e0fce0c466198ba4b61ee2e3aa5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    Look at the top 4 cards of your deck, add 2 cards to your hand and flip the others.
+
+    If this is a Steel Cage or Liger''s Den match, +2 to Grapple.'
+  tags:
+    - Logoless
 - name: Moonsault Leg Drop (Agility)
   db_uuid: 0e34e6bb7dad4bc1b725eb8b12262685
   srgpc_url: https://www.srgpc.net/cards/28/moonsault-leg-drop/
@@ -84456,7 +84544,8 @@
   rules_text: 'You may discard 1 card from your hand.
 
     Copy the text of 1 card in your discard pile until the end of the turn.'
-  tags: []
+  tags:
+    - Logoless
 - name: Nic Nemeth
   db_uuid: 192be5ede94a4727b1865fcdd845743f
   card_type: SingleCompetitorCard
@@ -86311,7 +86400,8 @@
     Draw 1 card.
 
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Power 8+'
-  tags: []
+  tags:
+    - Logoless
 - name: Just Doug
   db_uuid: 4a85789d266a4feb92c2beb5ca0197cc
   srgpc_url: https://www.srgpc.net/competitor-just-doug/

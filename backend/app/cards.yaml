@@ -79048,7 +79048,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Copy the text of a card in your opponent's discard pile.
-  tags: []
+  tags:
+    - Logoless
 - name: Till I Collapse
   db_uuid: 4e27aad6eaad43eaae226cfe5074668d
   srgpc_url: https://www.srgpc.net/cards/2/till-i-collapse/
@@ -81130,7 +81131,8 @@
   rules_text: 'Your lowest printed skill is +4.
 
     If you have 2 cards in play with "Level" or "Dungeon" in the name: this card cannot be stopped by printed Finish cards and your opponent cannot prevent you from playing this card.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Level
     - Dungeon
@@ -81158,7 +81160,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Your Grapple and Submission are +1 for each other card you have in play with "Table" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Table
 - name: Fire Hammer Slam
@@ -81463,7 +81466,8 @@
   rules_text: 'Choose Technique or Submission. If you roll that skill for your Finish roll, it is +3.
 
     Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Barbed Wire
 - name: This Is Where the Fun Begins
@@ -83138,7 +83142,8 @@
     Draw 1 card.
 
     If your Finish roll is 6 or less, it is +2. Skill Requirement: Technique 8+'
-  tags: []
+  tags:
+    - Logoless
 - name: Cross Face
   db_uuid: 34a0f14251954ecb8877727ef22b203e
   srg_url: https://supershowthegame.com/product/30-cross-face/
@@ -83147,7 +83152,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Look at your opponent's hand, choose 2 cards and bury them.
-  tags: []
+  tags:
+    - Logoless
 - name: Down River Lock (Technique)
   db_uuid: b461f74e363240609929204b9d9e415c
   srg_url: https://supershowthegame.com/product/30-down-river-lock/
@@ -83160,7 +83166,8 @@
     +3 to your lowest skill.
 
     Add 1 card from your discard pile to your hand.  Skill Requirement: Technique 8+'
-  tags: []
+  tags:
+    - Logoless
 - name: Guilllotine Choke (Submission)
   db_uuid: 34bba7faa5e94ed997ebfaa322adf771
   srg_url: https://supershowthegame.com/product/30-guillotine-choke/
@@ -83184,7 +83191,8 @@
     +1 to Submission
 
     When you have 2 cards with "Microphone" in play, this card is considered to have your Competitor logo.'
-  tags: []
+  tags:
+    - Logoless
 - name: Sheepshooter (Submission)
   db_uuid: 1f5265c1f7074d908a08850ce3e542f6
   srg_url: https://supershowthegame.com/product/30-sheepshooter/
@@ -83199,7 +83207,7 @@
     Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
   tags:
     - Logoless
-- name: Strangle with a Sledgehammer
+- name: Strangle With A Sledgehammer
   db_uuid: c53b628a6c6e4978b19f7a0f1904bfdb
   srg_url: https://supershowthegame.com/product/30-strangle-with-a-sledgehammer/
   card_type: MainDeckCard
@@ -83207,7 +83215,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Your Agility and Submission are +1 for each other card you have in play with "Sledgehammer" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Sledgehammer
 - name: God of Madness
@@ -83791,7 +83800,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Your opponent's Power, Technique, and Agility are -1.  Blank all Spotlights for the rest of the match.  If stopped, you lose the match via disqualification.
-  tags: []
+  tags:
+    - Logoless
 - name: Pamphlet
   db_uuid: 5187930b4bf744a9bc9bc3acc0c33401
   card_type: MainDeckCard
@@ -86271,7 +86281,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Your Grapple and Submission are +1 for each other card you have in play with "Ladder" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Ladder
 - name: King-Sized Dirt Bomb
@@ -87452,7 +87463,8 @@
   play_order: Finish
   deck_card_number: 30
   rules_text: Your Technique and Submission are +1 for each other card you have in play with "Steel Chain" in the name.
-  tags: []
+  tags:
+    - Logoless
   wants_keywords:
     - Steel Chain
 - name: Flying Through the Stars With The Sabers of Light
@@ -87656,7 +87668,8 @@
   rules_text: 'When the card Body Scissors is in play this card cannot be stopped.
 
     Look at your opponent''s hand, choose 1 Follow Up and bury it.'
-  tags: []
+  tags:
+    - Logoless
 - name: Stocking Stuffer Stomping
   db_uuid: 5bf62cdf79084fa3ace1838a337c4a97
   card_type: MainDeckCard

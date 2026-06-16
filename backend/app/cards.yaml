@@ -81215,6 +81215,10 @@
 
     Shuffle your deck.'
   tags: []
+- name: Always Live With WTF Nation Radio
+  card_type: EntranceCard
+  rules_text: "Once per match:\nYour Finish cards are considered to have your competitor logo until the end of the turn.\nIf your competitor has the WTF Radio logo ignore \"Once per match\" on this card and your first turn roll is +1."
+
 - name: Welcome to New York
   db_uuid: 9055c0f5bdf54707bc79d2b5b40866c0
   card_type: EntranceCard
@@ -83733,6 +83737,63 @@
 
     Once per turn roll: when your opponent rolls Grapple, you may force them to re-roll.'
   tags: []
+- name: CQ The Specialist
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 5
+  strike: 7
+  submission: 9
+  grapple: 10
+  rules_text: "Your target's Finish rolls are -1."
+  tags:
+    - Finishless
+- name: King The Refueler
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 9
+  strike: 6
+  submission: 8
+  grapple: 10
+  rules_text: "When your opponent stops a card, their Stop has blank text."
+  tags:
+    - Finishless
+- name: Jose The Cook
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 6
+  submission: 9
+  grapple: 10
+  rules_text: "Your Finish rolls are +1."
+  tags:
+    - Finishless
+- name: Joe The Liaison
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 6
+  strike: 7
+  submission: 9
+  grapple: 8
+  rules_text: "When your opponent stops your card, your next turn roll is +2."
+  tags:
+    - Finishless
+- name: Jake The Doc
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 8
+  rules_text: "When your opponent hits a Strike, their next turn roll is -2."
+  tags:
+    - Finishless
+
+
 - name: Ace Diamond
   db_uuid: ecff166768cf4de8a4bf68f0692529bd
   srg_url: https://supershowthegame.com/product/ace-diamond/

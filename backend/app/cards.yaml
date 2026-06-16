@@ -33362,6 +33362,7 @@
     - dd01000d9b2642c1a5ca66b3ae957585
     - d83d00bf6e124785914d41da33e54067
     - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+    - f457711e76944e83ad5b0f62e50a1a6f
 - name: Eddy Fury (V2)
   db_uuid: b3980be255534765ae5208f788838e40
   srgpc_url: https://www.srgpc.net/cards/competitors/eddy-fury/
@@ -33379,6 +33380,7 @@
     - dd01000d9b2642c1a5ca66b3ae957585
     - d83d00bf6e124785914d41da33e54067
     - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+    - f457711e76944e83ad5b0f62e50a1a6f
 - name: Eddy Fury (V3)
   db_uuid: 894eccb4c2544059906d26ee3fc10ad1
   srgpc_url: https://www.srgpc.net/cards/competitors/eddy-fury/
@@ -33400,6 +33402,23 @@
     - dd01000d9b2642c1a5ca66b3ae957585
     - d83d00bf6e124785914d41da33e54067
     - 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+    - f457711e76944e83ad5b0f62e50a1a6f
+- name: Flying Fist of Fury
+  db_uuid: f457711e76944e83ad5b0f62e50a1a6f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    Your opponent gets a number of Breakout rolls equal to the Crowd Meter (Minimum 1, Maximum 3).
+
+    If your opponent rolls 5 for all their Breakout rolls, you immediately lose the match via disqualification.'
+  tags: []
+  related_cards:
+    - 8c96f132507449afa563c6735c9c8bd3
+    - b3980be255534765ae5208f788838e40
+    - 894eccb4c2544059906d26ee3fc10ad1
 - name: Fist of Fury
   db_uuid: dd01000d9b2642c1a5ca66b3ae957585
   card_type: MainDeckCard

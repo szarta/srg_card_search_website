@@ -5103,6 +5103,13 @@
 
     Draw 1 card for each card you have in play with "Disqualification" in the text.'
   tags: []
+- name: Making An Entrance At Grand Gathering
+  db_uuid: 38ff9567ebbc4392ae973fdefa73c6f4
+  card_type: EntranceCard
+  rules_text: 'Once per match:
+
+    The next Follow Up you play is also a Lead until the end of the turn.'
+  tags: []
 - name: 'Major Bendies: Fig Hunt With The Major Wrestling Foundation'
   db_uuid: 89e7a0350c994ec48801877675193d93
   srg_url: https://supershowthegame.com/product/matt-cardona-pre-order/
@@ -87952,3 +87959,69 @@
   tags: []
   related_cards:
     - 5d256305732d4c1bb9df684e30854d71
+- name: The East End Enforcer
+  db_uuid: e1c622913f79416a899b8fd39ac0b9f9
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 10
+  grapple: 9
+  rules_text: Your Agility is +1 for each card in your discard pile with "Bulldog" or "King" in the name (Max +2).
+  tags: []
+  related_finishes:
+    - 135ece50abe2445789c38de0c7972d80
+    - d60185c790524ae898da5a864a391496
+    - f062a7d53a7941d098d01e799e0fa23a
+  wants_keywords:
+    - Bulldog
+    - King
+- name: Pub Brawl Special
+  db_uuid: 135ece50abe2445789c38de0c7972d80
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Technique
+
+    +2 to Strike
+
+    If you and your opponent rolled the same skill for your turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - e1c622913f79416a899b8fd39ac0b9f9
+- name: The Union Jack Hammer
+  db_uuid: d60185c790524ae898da5a864a391496
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +2 to Strike
+
+    If your opponent breaks out, and you have a card in your discard pile with "King" in the name, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - e1c622913f79416a899b8fd39ac0b9f9
+  wants_keywords:
+    - King
+- name: Lock Stock
+  db_uuid: f062a7d53a7941d098d01e799e0fa23a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    If your Agility is greater than your opponent''s Agility, stop any Finish Strike.'
+  tags: []
+  related_cards:
+    - e1c622913f79416a899b8fd39ac0b9f9

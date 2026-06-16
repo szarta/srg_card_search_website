@@ -87893,3 +87893,62 @@
     If this match has "Chain" in the name, +2 to Agility'
   tags:
     - Logoless
+- name: The Chosen One
+  db_uuid: 5d256305732d4c1bb9df684e30854d71
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 8
+  strike: 5
+  submission: 9
+  grapple: 10
+  rules_text: When you reveal any Strikes or Grapples, you may bury 1 of those cards to draw 1 card and give your opponent -1 to their next turn roll.
+  tags: []
+  related_finishes:
+    - fadd3d0744784d1fa357b562c42d2f70
+    - d032ef133c014e039bfe5de37b5c69a1
+    - 19e70391c40147ff94de15a0a302d93e
+- name: E.T.F.
+  db_uuid: fadd3d0744784d1fa357b562c42d2f70
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    When this card is in your discard pile, and you reveal a Submission you may shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - 5d256305732d4c1bb9df684e30854d71
+- name: Crown of Thorns
+  db_uuid: d032ef133c014e039bfe5de37b5c69a1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Strike
+
+    If this match has no disqualifications, +2 to Strike.'
+  tags: []
+  related_cards:
+    - 5d256305732d4c1bb9df684e30854d71
+- name: Capital Pains
+  db_uuid: 19e70391c40147ff94de15a0a302d93e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    Each time your opponent rolls for a breakout, you may reveal 1 card in your hand.'
+  tags: []
+  related_cards:
+    - 5d256305732d4c1bb9df684e30854d71

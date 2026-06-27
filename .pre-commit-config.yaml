@@ -25,3 +25,19 @@ repos:
     hooks:
       - id: xenon
         args: ["--max-average=B", "--max-modules=C", "--max-absolute=C"]
+  # knots complexity gate — covers Python and the React frontend (jsx/ts/tsx).
+  # Uses the locally-installed knots binary (pipx/cargo); run `knots --version`
+  # to confirm it's on PATH. Once knots ships a release with the jsx/ts/tsx
+  # types_or fix, this can switch to the upstream knots-pre-commit mirror repo.
+  - repo: local
+    hooks:
+      - id: knots
+        name: knots complexity gate
+        entry: knots
+        args:
+          - --mccabe-threshold=20
+          - --cognitive-threshold=25
+          - --nesting-threshold=6
+        language: system
+        types_or: [python, javascript, jsx, ts, tsx]
+        exclude: '(^|/)(venv|node_modules|dist)/'

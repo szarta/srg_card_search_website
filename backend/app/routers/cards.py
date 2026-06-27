@@ -219,33 +219,19 @@ class UuidsRequest(BaseModel):
     uuids: List[str]
 
 
-@router.post("/cards/by-uuids")
-def cards_by_uuids(payload: UuidsRequest, db: Session = Depends(get_db)):
-    """
-    Resolve a list of card UUIDs to full card rows, preserving the order of the input.
-    Returns any missing UUIDs for the UI to display.
-    """
-    if not payload.uuids:
-        return {"rows": [], "missing": []}
-
-    # Remove duplicates while preserving order
+def _dedup_preserve_order(items):
+    """Remove duplicates while preserving first-seen order."""
     seen = set()
-    ordered_uuids = []
-    for uuid_str in payload.uuids:
-        if uuid_str not in seen:
-            seen.add(uuid_str)
-            ordered_uuids.append(uuid_str)
+    ordered = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            ordered.append(item)
+    return ordered
 
-    if not ordered_uuids:
-        return {"rows": [], "missing": []}
 
-    # 1) find candidate base rows by UUID
-    base_rows: List[Card] = db.query(Card).filter(Card.db_uuid.in_(ordered_uuids)).all()
-
-    # Map uuid -> Card object
-    by_uuid = {c.db_uuid: c for c in base_rows}
-
-    # 2) batch-hydrate by type so subclass columns are present
+def _bucket_uuids_by_type(base_rows):
+    """Group base-row UUIDs into (singles, tornado_trio, maindeck, others) by card_type."""
     singles, tornado_trio, maindeck, others = [], [], [], []
     for c in base_rows:
         if c.card_type == CardType.single_competitor.value:
@@ -259,51 +245,56 @@ def cards_by_uuids(payload: UuidsRequest, db: Session = Depends(get_db)):
             maindeck.append(c.db_uuid)
         else:
             others.append(c.db_uuid)
+    return singles, tornado_trio, maindeck, others
 
-    # query each mapper
+
+def _hydrate(db, cls, uuids, *options):
+    """Query `cls` for the given UUIDs with eager-load options; return {uuid: row}."""
+    if not uuids:
+        return {}
+    rows = db.query(cls).options(*options).filter(cls.db_uuid.in_(uuids)).all()
+    return {row.db_uuid: row for row in rows}
+
+
+@router.post("/cards/by-uuids")
+def cards_by_uuids(payload: UuidsRequest, db: Session = Depends(get_db)):
+    """
+    Resolve a list of card UUIDs to full card rows, preserving the order of the input.
+    Returns any missing UUIDs for the UI to display.
+    """
+    ordered_uuids = _dedup_preserve_order(payload.uuids)
+    if not ordered_uuids:
+        return {"rows": [], "missing": []}
+
+    # 1) find candidate base rows by UUID
+    base_rows: List[Card] = db.query(Card).filter(Card.db_uuid.in_(ordered_uuids)).all()
+    by_uuid = {c.db_uuid: c for c in base_rows}
+
+    # 2) batch-hydrate by type so subclass columns are present
+    singles, tornado_trio, maindeck, others = _bucket_uuids_by_type(base_rows)
     hydrated: dict[str, Card] = {}
-
-    if singles:
-        for row in (
-            db.query(SingleCompetitorCard)
-            .options(
-                joinedload(Card.related_cards),
-                joinedload(SingleCompetitorCard.related_finishes),
-            )
-            .filter(SingleCompetitorCard.db_uuid.in_(singles))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    if tornado_trio:
-        for row in (
-            db.query(CompetitorCard)
-            .options(
-                joinedload(Card.related_cards),
-                joinedload(CompetitorCard.related_finishes),
-            )
-            .filter(CompetitorCard.db_uuid.in_(tornado_trio))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    if maindeck:
-        for row in (
-            db.query(MainDeckCard)
-            .options(joinedload(Card.related_cards))
-            .filter(MainDeckCard.db_uuid.in_(maindeck))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
-
-    if others:
-        for row in (
-            db.query(Card)
-            .options(joinedload(Card.related_cards))
-            .filter(Card.db_uuid.in_(others))
-            .all()
-        ):
-            hydrated[row.db_uuid] = row
+    hydrated.update(
+        _hydrate(
+            db,
+            SingleCompetitorCard,
+            singles,
+            joinedload(Card.related_cards),
+            joinedload(SingleCompetitorCard.related_finishes),
+        )
+    )
+    hydrated.update(
+        _hydrate(
+            db,
+            CompetitorCard,
+            tornado_trio,
+            joinedload(Card.related_cards),
+            joinedload(CompetitorCard.related_finishes),
+        )
+    )
+    hydrated.update(
+        _hydrate(db, MainDeckCard, maindeck, joinedload(Card.related_cards))
+    )
+    hydrated.update(_hydrate(db, Card, others, joinedload(Card.related_cards)))
 
     # 3) build output in the order of the input UUIDs
     rows_out = []
@@ -550,7 +541,15 @@ def list_cards(
     )
 
     items += _query_main_deck_cards(
-        db, card_type, q, is_banned, release_set, atk_type, play_order, deck_card_number_min, deck_card_number_max
+        db,
+        card_type,
+        q,
+        is_banned,
+        release_set,
+        atk_type,
+        play_order,
+        deck_card_number_min,
+        deck_card_number_max,
     )
 
     items += _query_other_cards(db, card_type, q, is_banned, release_set)
@@ -575,7 +574,7 @@ def list_cards(
 
         # Secondary sort: for MainDeckCard use deck_card_number, then name
         if card.card_type == CardType.main_deck.value:
-            deck_num = getattr(card, 'deck_card_number', None)
+            deck_num = getattr(card, "deck_card_number", None)
             # None values go to end (using 9999), otherwise use the deck number
             deck_num_key = 9999 if deck_num is None else deck_num
             card_name = (card.name or "").lower()

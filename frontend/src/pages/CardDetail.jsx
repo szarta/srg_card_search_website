@@ -23,6 +23,218 @@ const firstSentence = (txt) => {
   return (m ? m[0] : s).trim();
 };
 
+const capitalize = (k) => k.charAt(0).toUpperCase() + k.slice(1);
+
+function getOrigin() {
+  return typeof window !== "undefined" && window.location?.origin
+    ? window.location.origin
+    : "https://get-diced.com";
+}
+
+// Origin-prefixed fullsize image URL (used for SEO/JSON-LD), or undefined.
+function fullsizeImageUrl(card) {
+  if (!card?.db_uuid) return undefined;
+  return `${getOrigin()}/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`;
+}
+
+// Title / description / canonical URL for the card (or loading placeholders).
+function buildSeo(card, slug) {
+  if (!card) {
+    return {
+      seoTitle: "Loading… | get-diced.com",
+      seoDescription: "",
+      canonicalUrl: "",
+    };
+  }
+
+  const corePieces = [
+    card.name ? `${card.name}:` : null,
+    card.card_type ? prettyType(card.card_type) : null,
+    firstSentence(card.rules_text) ? `Rules: ${firstSentence(card.rules_text)}` : null,
+  ].filter(Boolean);
+
+  return {
+    seoTitle: `${card.name} | SRG Supershow Card Search`,
+    seoDescription: corePieces.join(" ").trim(),
+    canonicalUrl: `https://get-diced.com/card/${slug || card.db_uuid}`,
+  };
+}
+
+// schema.org Game structured data for the card.
+function buildJsonLd(card, canonicalUrl, seoDescription, slug) {
+  if (!card) return null;
+
+  const origin = getOrigin();
+  const base = {
+    "@context": "https://schema.org",
+    "@type": "Game",
+    name: card.name,
+    url: canonicalUrl || `${origin}/card/${slug || card.db_uuid}`,
+    image: fullsizeImageUrl(card),
+    description: seoDescription || `${card.name}: ${prettyType(card.card_type)}`,
+    identifier: card.db_uuid,
+    additionalProperty: [],
+  };
+
+  // Competitors: include the 6 stats (only those that exist)
+  if (COMPETITOR_TYPES.includes(card.card_type)) {
+    STAT_KEYS.forEach((k) => {
+      if (card[k] != null) {
+        base.additionalProperty.push({
+          "@type": "PropertyValue",
+          name: capitalize(k),
+          value: String(card[k]),
+        });
+      }
+    });
+  }
+
+  // MainDeckCard: include deck_card_number if present
+  if (card.card_type === "MainDeckCard" && card.deck_card_number != null) {
+    base.additionalProperty.push({
+      "@type": "PropertyValue",
+      name: "Deck Card #",
+      value: String(card.deck_card_number),
+    });
+  }
+
+  if (base.additionalProperty.length === 0) {
+    delete base.additionalProperty;
+  }
+
+  return base;
+}
+
+// A single label/value row in the basic info table (renders nothing when no value).
+function InfoRow({ label, show = true, children }) {
+  if (!show) return null;
+  return (
+    <tr>
+      <td className="w-32 pr-4 py-2 font-semibold text-right">{label}</td>
+      <td className="py-2">{children}</td>
+    </tr>
+  );
+}
+
+// Basic card attributes table.
+function CardInfoTable({ card, isCompetitor, stats }) {
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full table-fixed border-collapse">
+        <tbody className="text-sm align-top">
+          <InfoRow label="Type" show={!!card.card_type}>{card.card_type}</InfoRow>
+          <InfoRow label="Attack Type" show={!!card.atk_type}>{card.atk_type}</InfoRow>
+          <InfoRow label="Play Order" show={!!card.play_order}>{card.play_order}</InfoRow>
+          {card.srg_url && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
+              <td className="py-2">
+                <a
+                  href={card.srg_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-300 hover:underline"
+                >
+                  Official SRG Page
+                </a>
+              </td>
+            </tr>
+          )}
+          {card.srgpc_url && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
+              <td className="py-2">
+                <a
+                  href={card.srgpc_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-300 hover:underline"
+                >
+                  SRGPC Page
+                </a>
+              </td>
+            </tr>
+          )}
+          <InfoRow label="Banned" show={!!card.is_banned}>Yes</InfoRow>
+          <InfoRow label="Division" show={!!card.division}>{card.division}</InfoRow>
+          {card.rules_text && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>
+              <td className="whitespace-pre-wrap text-sm py-2">{card.rules_text}</td>
+            </tr>
+          )}
+          {isCompetitor &&
+            stats.map((stat) =>
+              card[stat] != null ? (
+                <InfoRow key={stat} label={capitalize(stat)}>{card[stat]}</InfoRow>
+              ) : null
+            )}
+          <InfoRow label="Deck Card #" show={card.deck_card_number != null}>
+            {card.deck_card_number}
+          </InfoRow>
+          {card.errata_text && card.errata_text.trim() !== "" && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right">Errata</td>
+              <td className="text-rose-300 whitespace-pre-wrap py-2">{card.errata_text}</td>
+            </tr>
+          )}
+          {card.tags && card.tags.length > 0 && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Tags</td>
+              <td className="py-2">
+                <div className="flex flex-wrap gap-2">
+                  {card.tags.map((t) => (
+                    <span key={t} className="bg-purple-800 rounded px-2 py-0.5 text-xs">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// Paginated grid of related cards/finishes (renders nothing when empty).
+function RelatedSection({ title, items, currentPage, itemsPerPage, onPageChange }) {
+  if (items.length === 0) return null;
+
+  const totalPages = Math.ceil(items.length / itemsPerPage) || 1;
+  const displayed = items.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+
+  return (
+    <div className="mt-8">
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        {displayed.map((rc) => (
+          <Link
+            to={`/card/${rc.db_uuid}`}
+            key={rc.db_uuid}
+            className="flex flex-col items-center bg-neutral-800 p-2 rounded hover:bg-neutral-700"
+          >
+            <img
+              src={`/images/thumbnails/${rc.db_uuid.slice(0, 2)}/${rc.db_uuid}.webp`}
+              alt={`${rc.name} — SRG Supershow card`}
+              className="w-20 h-28 object-cover mb-2 rounded"
+            />
+            <span className="text-sm text-center">{rc.name}</span>
+          </Link>
+        ))}
+      </div>
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={(page) => {
+          if (page >= 1 && page <= totalPages) onPageChange(page);
+        }}
+      />
+    </div>
+  );
+}
+
 export default function CardDetail() {
   const { idOrSlug } = useParams();
   const [card, setCard] = useState(null);
@@ -57,114 +269,24 @@ export default function CardDetail() {
   };
 
   // Build SEO fields once card is loaded (respecting only name, card_type, rules_text)
-  const { seoTitle, seoDescription, canonicalUrl } = useMemo(() => {
-    if (!card) {
-      return {
-        seoTitle: "Loading… | get-diced.com",
-        seoDescription: "",
-        canonicalUrl: "",
-      };
-    }
-    const title = `${card.name} | SRG Supershow Card Search`;
-    const canonical = `https://get-diced.com/card/${slug || card.db_uuid}`;
-
-    const corePieces = [
-      card.name ? `${card.name}:` : null,
-      card.card_type ? prettyType(card.card_type) : null,
-      firstSentence(card.rules_text) ? `Rules: ${firstSentence(card.rules_text)}` : null,
-    ].filter(Boolean);
-
-    const description = corePieces.join(" ").trim();
-
-    return {
-      seoTitle: title,
-      seoDescription: description,
-      canonicalUrl: canonical,
-    };
-  }, [card, slug]);
+  const { seoTitle, seoDescription, canonicalUrl } = useMemo(
+    () => buildSeo(card, slug),
+    [card, slug]
+  );
 
   // Build JSON-LD strictly to your spec — MUST be called every render
-  const jsonLd = useMemo(() => {
-    if (!card) return null;
-
-    const origin =
-      typeof window !== "undefined" && window.location?.origin
-        ? window.location.origin
-        : "https://get-diced.com";
-
-    const imageUrl = card?.db_uuid
-      ? `${origin}/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`
-      : undefined;
-
-    const base = {
-      "@context": "https://schema.org",
-      "@type": "Game",
-      name: card.name,
-      url: canonicalUrl || `${origin}/card/${slug || card.db_uuid}`,
-      image: imageUrl,
-      description: seoDescription || `${card.name}: ${prettyType(card.card_type)}`,
-      identifier: card.db_uuid,
-      additionalProperty: [],
-    };
-
-    // Competitors: include the 6 stats (only those that exist)
-    if (COMPETITOR_TYPES.includes(card.card_type)) {
-      STAT_KEYS.forEach((k) => {
-        if (card[k] != null) {
-          base.additionalProperty.push({
-            "@type": "PropertyValue",
-            name: k.charAt(0).toUpperCase() + k.slice(1),
-            value: String(card[k]),
-          });
-        }
-      });
-    }
-
-    // MainDeckCard: include deck_card_number if present
-    if (card.card_type === "MainDeckCard" && card.deck_card_number != null) {
-      base.additionalProperty.push({
-        "@type": "PropertyValue",
-        name: "Deck Card #",
-        value: String(card.deck_card_number),
-      });
-    }
-
-    if (base.additionalProperty.length === 0) {
-      delete base.additionalProperty;
-    }
-
-    return base;
-  }, [card, canonicalUrl, seoDescription, slug]);
+  const jsonLd = useMemo(
+    () => buildJsonLd(card, canonicalUrl, seoDescription, slug),
+    [card, canonicalUrl, seoDescription, slug]
+  );
 
   // ✅ Hooks are all above; now it's safe to early-return
   if (!card) return <div className="p-4 text-center text-gray-400">Loading...</div>;
 
   const isCompetitor = COMPETITOR_TYPES.includes(card.card_type);
-
-  const stats = STAT_KEYS;
-
-  // Related/paginated sections
   const relatedCards = card.related_cards || [];
-  const relCardsTotalPages = Math.ceil(relatedCards.length / itemsPerPage) || 1;
-  const displayedRelatedCards = relatedCards.slice(
-    (relCardsPage - 1) * itemsPerPage,
-    relCardsPage * itemsPerPage
-  );
-
   const relatedFinishes = card.related_finishes || [];
-  const relFinTotalPages = Math.ceil(relatedFinishes.length / itemsPerPage) || 1;
-  const displayedRelatedFinishes = relatedFinishes.slice(
-    (relFinPage - 1) * itemsPerPage,
-    relFinPage * itemsPerPage
-  );
-
-  const origin =
-    typeof window !== "undefined" && window.location?.origin
-      ? window.location.origin
-      : "https://get-diced.com";
-  const imageUrl = card?.db_uuid
-    ? `${origin}/images/fullsize/${card.db_uuid.slice(0, 2)}/${card.db_uuid}.webp`
-    : undefined;
+  const imageUrl = fullsizeImageUrl(card);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white p-6">
@@ -210,119 +332,7 @@ export default function CardDetail() {
             </div>
           )}
 
-
-{/* Basic Info Table */}
-<div className="overflow-x-auto">
-  <table className="w-full table-fixed border-collapse">
-    <tbody className="text-sm align-top">
-      {card.card_type && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Type</td>
-          <td className="py-2">{card.card_type}</td>
-        </tr>
-      )}
-      {card.atk_type && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Attack Type</td>
-          <td className="py-2">{card.atk_type}</td>
-        </tr>
-      )}
-      {card.play_order && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Play Order</td>
-          <td className="py-2">{card.play_order}</td>
-        </tr>
-      )}
-      {card.srg_url && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
-          <td className="py-2">
-            <a
-              href={card.srg_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline"
-            >
-              Official SRG Page
-            </a>
-          </td>
-        </tr>
-      )}
-      {card.srgpc_url && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Link</td>
-          <td className="py-2">
-            <a
-              href={card.srgpc_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline"
-            >
-              SRGPC Page
-            </a>
-          </td>
-        </tr>
-      )}
-      {card.is_banned && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Banned</td>
-          <td className="py-2">Yes</td>
-        </tr>
-      )}
-      {card.division && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Division</td>
-          <td className="py-2">{card.division}</td>
-        </tr>
-      )}
-      {card.rules_text && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>
-          <td className="whitespace-pre-wrap text-sm py-2">{card.rules_text}</td>
-        </tr>
-      )}
-      {isCompetitor &&
-        stats.map((stat) =>
-          card[stat] != null ? (
-            <tr key={stat}>
-              <td className="w-32 pr-4 py-2 font-semibold text-right">
-                {stat.charAt(0).toUpperCase() + stat.slice(1)}
-              </td>
-              <td className="py-2">{card[stat]}</td>
-            </tr>
-          ) : null
-        )}
-      {card.deck_card_number != null && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Deck Card #</td>
-          <td className="py-2">{card.deck_card_number}</td>
-        </tr>
-      )}
-      {card.errata_text && card.errata_text.trim() !== "" && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right">Errata</td>
-          <td className="text-rose-300 whitespace-pre-wrap py-2">{card.errata_text}</td>
-        </tr>
-      )}
-      {card.tags && card.tags.length > 0 && (
-        <tr>
-          <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Tags</td>
-          <td className="py-2">
-            <div className="flex flex-wrap gap-2">
-              {card.tags.map((t) => (
-                <span key={t} className="bg-purple-800 rounded px-2 py-0.5 text-xs">
-                  {t}
-                </span>
-              ))}
-            </div>
-          </td>
-        </tr>
-      )}
-    </tbody>
-  </table>
-</div>
-
-
+          <CardInfoTable card={card} isCompetitor={isCompetitor} stats={STAT_KEYS} />
 
           {/* Comments */}
           {card.comments && card.comments.trim() !== "" && (
@@ -334,68 +344,23 @@ export default function CardDetail() {
             </div>
           )}
 
-          {/* Related Cards Section */}
-          {relatedCards.length > 0 && (
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-2">Related Cards</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {displayedRelatedCards.map((rc) => (
-                  <Link
-                    to={`/card/${rc.db_uuid}`}
-                    key={rc.db_uuid}
-                    className="flex flex-col items-center bg-neutral-800 p-2 rounded hover:bg-neutral-700"
-                  >
-                    <img
-                      src={`/images/thumbnails/${rc.db_uuid.slice(0, 2)}/${rc.db_uuid}.webp`}
-                      alt={`${rc.name} — SRG Supershow card`}
-                      className="w-20 h-28 object-cover mb-2 rounded"
-                    />
-                    <span className="text-sm text-center">{rc.name}</span>
-                  </Link>
-                ))}
-              </div>
-              <Pagination
-                currentPage={relCardsPage}
-                totalPages={relCardsTotalPages}
-                onPageChange={(page) => {
-                  if (page >= 1 && page <= relCardsTotalPages) setRelCardsPage(page);
-                }}
-              />
-            </div>
-          )}
+          <RelatedSection
+            title="Related Cards"
+            items={relatedCards}
+            currentPage={relCardsPage}
+            itemsPerPage={itemsPerPage}
+            onPageChange={setRelCardsPage}
+          />
 
-          {/* Related Finishes Section */}
-          {relatedFinishes.length > 0 && (
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-2">Related Finishes</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {displayedRelatedFinishes.map((rf) => (
-                  <Link
-                    to={`/card/${rf.db_uuid}`}
-                    key={rf.db_uuid}
-                    className="flex flex-col items-center bg-neutral-800 p-2 rounded hover:bg-neutral-700"
-                  >
-                    <img
-                      src={`/images/thumbnails/${rf.db_uuid.slice(0, 2)}/${rf.db_uuid}.webp`}
-                      alt={`${rf.name} — SRG Supershow card`}
-                      className="w-20 h-28 object-cover mb-2 rounded"
-                    />
-                    <span className="text-sm text-center">{rf.name}</span>
-                  </Link>
-                ))}
-              </div>
-              <Pagination
-                currentPage={relFinPage}
-                totalPages={relFinTotalPages}
-                onPageChange={(page) => {
-                  if (page >= 1 && page <= relFinTotalPages) setRelFinPage(page);
-                }}
-              />
-            </div>
-          )}
+          <RelatedSection
+            title="Related Finishes"
+            items={relatedFinishes}
+            currentPage={relFinPage}
+            itemsPerPage={itemsPerPage}
+            onPageChange={setRelFinPage}
+          />
         </div>
       </div>
     </div>
   );
 }
-

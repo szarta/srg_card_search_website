@@ -4,6 +4,163 @@ import CardGrid from "./CardGrid";
 import Pagination from "./Pagination";
 import { slugify } from "../lib/slug";
 import { QRCodeSVG } from "qrcode.react";
+import { computeColumns, toCSV, toHTMLNoCSS, triggerDownload } from "../lib/cardExport";
+
+// POST a page of names to the batch endpoint; returns the matched rows (or []).
+async function fetchBatchRows(pageNames) {
+  try {
+    const resp = await fetch("/cards/by-names", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ names: pageNames }),
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      return Array.isArray(data?.rows) ? data.rows : [];
+    }
+  } catch { /* ignore network/parse errors and fall through */ }
+  return [];
+}
+
+// Index batch rows by slug and lowercased name for quick lookup.
+function indexRows(batchRows) {
+  const bySlug = new Map();
+  const byNameLower = new Map();
+  for (const r of batchRows) {
+    if (r?.name) {
+      bySlug.set(slugify(r.name), r);
+      byNameLower.set(String(r.name).toLowerCase(), r);
+    }
+  }
+  return { bySlug, byNameLower };
+}
+
+// Resolve a single name: batch index first, then slug lookup, then search fallback.
+async function resolveCardByName(n, bySlug, byNameLower) {
+  const s = slugify(n);
+  let row = bySlug.get(s) || byNameLower.get(n.toLowerCase());
+  if (row) return row;
+
+  try {
+    const r = await fetch(`/cards/slug/${s}`);
+    if (r.ok) row = await r.json();
+  } catch { /* ignore network/parse errors and fall through */ }
+  if (row) return row;
+
+  try {
+    const r2 = await fetch(`/cards?q=${encodeURIComponent(n)}&limit=50`);
+    if (r2.ok) {
+      const d2 = await r2.json();
+      const items = Array.isArray(d2?.items) ? d2.items : [];
+      row =
+        items.find((c) => slugify(c.name) === s) ||
+        items.find((c) => c.name?.toLowerCase() === n.toLowerCase());
+    }
+  } catch { /* ignore network/parse errors and fall through */ }
+  return row || null;
+}
+
+// Resolve a page of names into { fetched, missing }. Missing names get a
+// placeholder { name } row so the grid still renders a slot for them.
+async function resolvePageCards(pageNames) {
+  const batchRows = await fetchBatchRows(pageNames);
+  const { bySlug, byNameLower } = indexRows(batchRows);
+
+  const fetched = [];
+  const missing = [];
+  for (const n of pageNames) {
+    const row = await resolveCardByName(n, bySlug, byNameLower);
+    if (row) {
+      fetched.push(row);
+    } else {
+      fetched.push({ name: n });
+      missing.push(n);
+    }
+  }
+  return { fetched, missing };
+}
+
+// Share + export action buttons shown in the deck header.
+function DeckToolbar({ onShare, sharing, hasRows, enableExport, loading, onExportCsv, onExportHtml }) {
+  return (
+    <div className="flex gap-2 flex-wrap">
+      {/* Share button - positioned with export buttons */}
+      {onShare && hasRows && (
+        <button
+          className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
+          onClick={onShare}
+          disabled={sharing}
+          title="Create shareable link for this list"
+        >
+          {sharing ? "Creating..." : "Copy Shareable Link"}
+        </button>
+      )}
+
+      {/* Export buttons */}
+      {enableExport && (
+        <>
+          <button
+            className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
+            onClick={onExportCsv}
+            disabled={loading || !hasRows}
+            title="Download visible deck as CSV"
+          >
+            Download CSV
+          </button>
+          <button
+            className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
+            onClick={onExportHtml}
+            disabled={loading || !hasRows}
+            title="Download visible deck as HTML (no CSS)"
+          >
+            Download HTML (no CSS)
+          </button>
+        </>
+      )}
+    </div>
+  );
+}
+
+// Success panel with QR code shown after a shareable link is created.
+function SharePanel({ shareUrl }) {
+  if (!shareUrl) return null;
+  return (
+    <div className="mt-3 p-4 bg-green-50 border border-green-200 rounded-xl">
+      <p className="text-sm font-semibold text-green-800 mb-3">
+        Shareable link created and copied to clipboard!
+      </p>
+      <div className="flex gap-4 items-start">
+        {/* QR Code */}
+        <div className="flex-shrink-0 bg-white p-3 rounded-lg border border-green-300">
+          <QRCodeSVG value={shareUrl} size={160} level="M" includeMargin={false} />
+          <p className="text-xs text-center text-gray-600 mt-2">Scan to import</p>
+        </div>
+
+        {/* URL and Copy button */}
+        <div className="flex-1 min-w-0">
+          <label className="text-xs font-medium text-green-800 mb-1 block">Share URL:</label>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              readOnly
+              value={shareUrl}
+              className="flex-1 p-2 text-sm border rounded bg-white text-gray-800"
+            />
+            <button
+              onClick={() => navigator.clipboard.writeText(shareUrl)}
+              className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded whitespace-nowrap"
+            >
+              Copy
+            </button>
+          </div>
+          <p className="text-xs text-gray-600 mt-2">
+            Share this link or scan the QR code to import this deck
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function DeckGridFromNames({
   names = [],
@@ -15,7 +172,6 @@ export default function DeckGridFromNames({
   onShare = null,             // Share function passed from parent
   sharing = false,            // Sharing state
   shareUrl = "",              // Generated share URL
-  listName = "",              // List name for sharing
 }) {
   const [cards, setCards] = useState([]);
   const [notFound, setNotFound] = useState([]);
@@ -55,66 +211,9 @@ export default function DeckGridFromNames({
     const fetchPage = async () => {
       setLoading(true);
       try {
-        const fetched = [];
-        const missing = [];
-
         const start = (page - 1) * pageSize;
-        const end = start + pageSize;
-        const pageNames = names.slice(start, end);
-
-        let batchRows = [];
-        try {
-          const resp = await fetch("/cards/by-names", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ names: pageNames }),
-          });
-          if (resp.ok) {
-            const data = await resp.json();
-            batchRows = Array.isArray(data?.rows) ? data.rows : [];
-          }
-        } catch {}
-
-        const bySlug = new Map();
-        const byNameLower = new Map();
-        for (const r of batchRows) {
-          if (r?.name) {
-            bySlug.set(slugify(r.name), r);
-            byNameLower.set(String(r.name).toLowerCase(), r);
-          }
-        }
-
-        for (const n of pageNames) {
-          const s = slugify(n);
-          let row = bySlug.get(s) || byNameLower.get(n.toLowerCase());
-
-          if (!row) {
-            try {
-              const r = await fetch(`/cards/slug/${s}`);
-              if (r.ok) row = await r.json();
-            } catch {}
-          }
-          if (!row) {
-            try {
-              const r2 = await fetch(`/cards?q=${encodeURIComponent(n)}&limit=50`);
-              if (r2.ok) {
-                const d2 = await r2.json();
-                const items = Array.isArray(d2?.items) ? d2.items : [];
-                row =
-                  items.find((c) => slugify(c.name) === s) ||
-                  items.find((c) => c.name?.toLowerCase() === n.toLowerCase());
-              }
-            } catch {}
-          }
-
-          if (row) {
-            fetched.push(row);
-          } else {
-            fetched.push({ name: n });
-            missing.push(n);
-          }
-        }
-
+        const pageNames = names.slice(start, start + pageSize);
+        const { fetched, missing } = await resolvePageCards(pageNames);
         if (!cancelled) {
           setCards(fetched);
           setNotFound(missing);
@@ -134,153 +233,19 @@ export default function DeckGridFromNames({
   const defaultExportName =
     (exportFileName && exportFileName.trim()) || `${slugify(title || "deck")}.csv`;
 
-  const columns = useMemo(() => {
-    const rows = effectiveRows;
-    const keys = new Set();
-    rows.forEach((r) => Object.keys(r || {}).forEach((k) => keys.add(k)));
-
-    const hiddenAlways = new Set([
-      "db_uuid",
-      "is_banned",
-      "release_set",
-      "related_cards",
-      "related_finishes",
-      "comments",
-      "comment",
-      "srgpc_url",
-    ]);
-
-    const anyMainDeck = rows.some((r) => r?.card_type === "MainDeckCard");
-    const COMPETITOR_TYPES = new Set([
-      "SingleCompetitorCard",
-      "TornadoCompetitorCard",
-      "TrioCompetitorCard",
-    ]);
-    const anyCompetitor = rows.some((r) => COMPETITOR_TYPES.has(r?.card_type));
-
-    const mainDeckFields = ["atk_type", "play_order", "deck_card_number"];
-    const competitorFields = [
-      "power",
-      "agility",
-      "strike",
-      "submission",
-      "grapple",
-      "technique",
-    ];
-
-    if (!anyMainDeck) mainDeckFields.forEach((k) => hiddenAlways.add(k));
-    if (!anyCompetitor) competitorFields.forEach((k) => hiddenAlways.add(k));
-
-    const preferred = [
-      "name",
-      "card_type",
-      ...(anyMainDeck ? mainDeckFields : []),
-      ...(anyCompetitor ? competitorFields : []),
-      "srg_url",
-    ].filter((k) => keys.has(k) && !hiddenAlways.has(k));
-
-    preferred.forEach((k) => keys.delete(k));
-    hiddenAlways.forEach((k) => keys.delete(k));
-
-    return [...preferred, ...Array.from(keys).sort()];
-  }, [effectiveRows]);
-
-  const buildExportColumns = () => {
-    const rows = effectiveRows;
-    const cols = [...columns];
-
-    if (
-      rows.some((r) => Object.prototype.hasOwnProperty.call(r, "deck_card_number")) &&
-      !cols.includes("deck_card_number")
-    ) {
-      cols.push("deck_card_number");
-    }
-    return cols;
-  };
-
-  const htmlEscape = (v) => {
-    if (v === null || v === undefined) return "";
-    return String(v)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;");
-  };
-
-  const escapeCSV = (val) => {
-    if (val === null || val === undefined) return "";
-    let s = Array.isArray(val) || typeof val === "object" ? JSON.stringify(val) : String(val);
-    // Match Android app CSV scheme: replace commas with --, escape quotes with "", wrap in quotes
-    s = s.replace(/,/g, '--').replace(/"/g, '""');
-    return `"${s}"`;
-  };
-
-  const toCSV = () => {
-    const rows = effectiveRows;
-    const csvColumns = buildExportColumns();
-    const header = csvColumns.map(escapeCSV).join(",");
-    const body = rows
-      .map((r) => csvColumns.map((c) => escapeCSV(r?.[c])).join(","))
-      .join("\n");
-    return `${header}\n${body}`;
-  };
-
-  const toHTMLNoCSS = (titleStr = "SRG Card List") => {
-    const rows = effectiveRows;
-    const cols = buildExportColumns();
-    const thead = `<tr>${cols.map((c) => `<th>${htmlEscape(c)}</th>`).join("")}</tr>`;
-    const tbody = rows
-      .map((r) => {
-        const tds = cols
-          .map((c) => {
-            let val = r?.[c];
-            if (val === null || val === undefined) {
-              val = "";
-            } else if (Array.isArray(val) || typeof val === "object") {
-              try {
-                val = JSON.stringify(val);
-              } catch {
-                val = String(val ?? "");
-              }
-            }
-            return `<td>${htmlEscape(val)}</td>`;
-          })
-          .join("");
-        return `<tr>${tds}</tr>`;
-      })
-      .join("");
-    return `<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<title>${htmlEscape(titleStr)}</title>
-<table>
-  <thead>${thead}</thead>
-  <tbody>${tbody}</tbody>
-</table>
-</html>`;
-  };
-
-  const download = (filename, mime, data) => {
-    const blob = new Blob([data], { type: mime });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-  };
+  const columns = useMemo(() => computeColumns(effectiveRows), [effectiveRows]);
 
   const handleExportCsv = () => {
-    const csv = toCSV();
-    download(defaultExportName, "text/csv;charset=utf-8", csv);
+    triggerDownload(defaultExportName, toCSV(effectiveRows, columns), "text/csv;charset=utf-8");
   };
 
   const handleExportHtml = () => {
-    const html = toHTMLNoCSS("SRG Card List");
     const base = defaultExportName.replace(/\.csv$/i, "");
-    download(`${base}.html`, "text/html;charset=utf-8", html);
+    triggerDownload(
+      `${base}.html`,
+      toHTMLNoCSS(effectiveRows, columns, "SRG Card List"),
+      "text/html;charset=utf-8"
+    );
   };
 
   return (
@@ -293,87 +258,19 @@ export default function DeckGridFromNames({
           </p>
         </div>
 
-        <div className="flex gap-2 flex-wrap">
-          {/* Share button - positioned with export buttons */}
-          {onShare && effectiveRows.length > 0 && (
-            <button
-              className="px-3 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white"
-              onClick={onShare}
-              disabled={sharing}
-              title="Create shareable link for this list"
-            >
-              {sharing ? "Creating..." : "Copy Shareable Link"}
-            </button>
-          )}
-
-          {/* Export buttons */}
-          {enableExport && (
-            <>
-              <button
-                className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
-                onClick={handleExportCsv}
-                disabled={loading || effectiveRows.length === 0}
-                title="Download visible deck as CSV"
-              >
-                Download CSV
-              </button>
-              <button
-                className="px-3 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-black"
-                onClick={handleExportHtml}
-                disabled={loading || effectiveRows.length === 0}
-                title="Download visible deck as HTML (no CSS)"
-              >
-                Download HTML (no CSS)
-              </button>
-            </>
-          )}
-        </div>
+        <DeckToolbar
+          onShare={onShare}
+          sharing={sharing}
+          hasRows={effectiveRows.length > 0}
+          enableExport={enableExport}
+          loading={loading}
+          onExportCsv={handleExportCsv}
+          onExportHtml={handleExportHtml}
+        />
       </div>
 
       {/* Show share URL success message with QR code */}
-      {shareUrl && (
-        <div className="mt-3 p-4 bg-green-50 border border-green-200 rounded-xl">
-          <p className="text-sm font-semibold text-green-800 mb-3">
-            Shareable link created and copied to clipboard!
-          </p>
-          <div className="flex gap-4 items-start">
-            {/* QR Code */}
-            <div className="flex-shrink-0 bg-white p-3 rounded-lg border border-green-300">
-              <QRCodeSVG
-                value={shareUrl}
-                size={160}
-                level="M"
-                includeMargin={false}
-              />
-              <p className="text-xs text-center text-gray-600 mt-2">Scan to import</p>
-            </div>
-
-            {/* URL and Copy button */}
-            <div className="flex-1 min-w-0">
-              <label className="text-xs font-medium text-green-800 mb-1 block">
-                Share URL:
-              </label>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  readOnly
-                  value={shareUrl}
-                  className="flex-1 p-2 text-sm border rounded bg-white text-gray-800"
-                />
-                <button
-                  onClick={() => navigator.clipboard.writeText(shareUrl)}
-                  className="px-3 py-2 text-sm bg-green-600 hover:bg-green-500 text-white rounded whitespace-nowrap"
-                >
-                  Copy
-                </button>
-              </div>
-              <p className="text-xs text-gray-600 mt-2">
-                Share this link or scan the QR code to import this deck
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
+      <SharePanel shareUrl={shareUrl} />
 
       {loading ? (
         <p className="text-gray-400 mt-4">Loading...</p>

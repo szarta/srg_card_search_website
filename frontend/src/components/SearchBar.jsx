@@ -1,6 +1,139 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+const COMPETITOR_TYPES = [
+  "SingleCompetitorCard",
+  "TornadoCompetitorCard",
+  "TrioCompetitorCard",
+];
+
+const SELECT_CLASS = "bg-gray-900 text-white border border-gray-700 rounded p-2";
+
+// Normalize URL-provided defaults into concrete input values (with fallbacks).
+function normalizeDefaults(d) {
+  return {
+    query: d.query ?? "",
+    cardType: d.cardType ?? "",
+    atkType: d.atkType ?? "",
+    playOrder: d.playOrder ?? "",
+    deckCardNumberMin: d.deckCardNumberMin ?? "1",
+    deckCardNumberMax: d.deckCardNumberMax ?? "27",
+    power: d.power ?? "",
+    agility: d.agility ?? "",
+    strike: d.strike ?? "",
+    submission: d.submission ?? "",
+    grapple: d.grapple ?? "",
+    technique: d.technique ?? "",
+    pageSize: parseInt(d.limit ?? 20, 10) || 20,
+    division: d.division ?? "",
+  };
+}
+
+// Attack type / play order / deck-number filters — only meaningful for Main Deck cards.
+function MainDeckFilters({
+  isMainDeck,
+  atkType,
+  setAtkType,
+  playOrder,
+  setPlayOrder,
+  deckCardNumberMin,
+  setDeckCardNumberMin,
+  deckCardNumberMax,
+  setDeckCardNumberMax,
+}) {
+  const dim = isMainDeck ? "" : "opacity-50";
+  return (
+    <>
+      {/* Attack Type — only relevant to Main Deck */}
+      <select
+        value={atkType}
+        onChange={(e) => setAtkType(e.target.value)}
+        className={`${SELECT_CLASS} ${dim}`}
+        disabled={!isMainDeck}
+      >
+        <option value="">All Attack Types</option>
+        <option value="Strike">Strike</option>
+        <option value="Grapple">Grapple</option>
+        <option value="Submission">Submission</option>
+      </select>
+
+      {/* Play Order — only relevant to Main Deck */}
+      <select
+        value={playOrder}
+        onChange={(e) => setPlayOrder(e.target.value)}
+        className={`${SELECT_CLASS} ${dim}`}
+        disabled={!isMainDeck}
+      >
+        <option value="">Any Play Order</option>
+        <option value="Lead">Lead</option>
+        <option value="Followup">Follow Up</option>
+        <option value="Finish">Finish</option>
+      </select>
+
+      {/* Deck Card Number Range — only relevant to Main Deck */}
+      <div className={`flex items-center gap-2 ${dim}`}>
+        <input
+          type="number"
+          inputMode="numeric"
+          placeholder="Min"
+          value={deckCardNumberMin}
+          onChange={(e) => setDeckCardNumberMin(e.target.value)}
+          disabled={!isMainDeck}
+          min="1"
+          max="30"
+          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
+        />
+        <span className="text-gray-400">-</span>
+        <input
+          type="number"
+          inputMode="numeric"
+          placeholder="Max"
+          value={deckCardNumberMax}
+          onChange={(e) => setDeckCardNumberMax(e.target.value)}
+          disabled={!isMainDeck}
+          min="1"
+          max="30"
+          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
+        />
+      </div>
+    </>
+  );
+}
+
+// Competitor stat inputs + division — only shown for competitor card types.
+function CompetitorFilters({ isCompetitor, stats, division, setDivision }) {
+  if (!isCompetitor) return null;
+  return (
+    <>
+      {/* Competitor stats */}
+      <div className="flex gap-2 flex-wrap">
+        {stats.map(([label, value, setter]) => (
+          <input
+            key={label}
+            type="number"
+            inputMode="numeric"
+            placeholder={label}
+            value={value}
+            onChange={(e) => setter(e.target.value)}
+            className="w-24 bg-gray-900 text-white border border-gray-700 rounded p-2"
+          />
+        ))}
+      </div>
+
+      {/* Division: any Competitor card */}
+      <div className="flex flex-col">
+        <label className="text-sm font-medium">Division</label>
+        <input
+          className="bg-gray-900 text-white border border-gray-700 rounded p-2"
+          value={division}
+          onChange={(e) => setDivision(e.target.value)}
+          placeholder="e.g., United States"
+        />
+      </div>
+    </>
+  );
+}
+
 export default function SearchBar({ onSearch, defaultValues = {} }) {
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
@@ -24,20 +157,21 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
 
   // Hydrate inputs when URL-provided defaults change
   useEffect(() => {
-    setQuery(defaultValues.query ?? "");
-    setCardType(defaultValues.cardType ?? "");
-    setAtkType(defaultValues.atkType ?? "");
-    setPlayOrder(defaultValues.playOrder ?? "");
-    setDeckCardNumberMin(defaultValues.deckCardNumberMin ?? "1");
-    setDeckCardNumberMax(defaultValues.deckCardNumberMax ?? "27");
-    setPower(defaultValues.power ?? "");
-    setAgility(defaultValues.agility ?? "");
-    setStrike(defaultValues.strike ?? "");
-    setSubmission(defaultValues.submission ?? "");
-    setGrapple(defaultValues.grapple ?? "");
-    setTechnique(defaultValues.technique ?? "");
-    setPageSize(parseInt(defaultValues.limit ?? 20, 10) || 20);
-    setDivision(defaultValues.division ?? "");
+    const v = normalizeDefaults(defaultValues);
+    setQuery(v.query);
+    setCardType(v.cardType);
+    setAtkType(v.atkType);
+    setPlayOrder(v.playOrder);
+    setDeckCardNumberMin(v.deckCardNumberMin);
+    setDeckCardNumberMax(v.deckCardNumberMax);
+    setPower(v.power);
+    setAgility(v.agility);
+    setStrike(v.strike);
+    setSubmission(v.submission);
+    setGrapple(v.grapple);
+    setTechnique(v.technique);
+    setPageSize(v.pageSize);
+    setDivision(v.division);
   }, [defaultValues]);
 
   const submitWith = (extra = {}) => {
@@ -65,6 +199,26 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     submitWith();
   };
 
+  const handleCardTypeChange = (e) => {
+    const v = e.target.value;
+    setCardType(v);
+    // Clear fields that don't apply when switching card types
+    if (v !== "MainDeckCard") {
+      setDeckCardNumberMin("1");
+      setDeckCardNumberMax("27");
+      setAtkType("");
+      setPlayOrder("");
+    }
+    if (!COMPETITOR_TYPES.includes(v)) {
+      setPower("");
+      setAgility("");
+      setStrike("");
+      setSubmission("");
+      setGrapple("");
+      setTechnique("");
+      setDivision("");
+    }
+  };
 
   const handleViewTable = () => {
     // Build URLSearchParams with current filters (use same keys Home/Table expect)
@@ -99,6 +253,17 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     }
   };
 
+  const isMainDeck = cardType === "MainDeckCard";
+  const isCompetitor = COMPETITOR_TYPES.includes(cardType);
+  const competitorStats = [
+    ["power", power, setPower],
+    ["agility", agility, setAgility],
+    ["strike", strike, setStrike],
+    ["submission", submission, setSubmission],
+    ["grapple", grapple, setGrapple],
+    ["technique", technique, setTechnique],
+  ];
+
   return (
     <form
       onSubmit={handleSubmit}
@@ -114,30 +279,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       />
 
       {/* Card Type (full set) */}
-      <select
-        value={cardType}
-        onChange={(e) => {
-          const v = e.target.value;
-          setCardType(v);
-          // Clear fields that don't apply when switching card types
-          if (v !== "MainDeckCard") {
-            setDeckCardNumberMin("1");
-            setDeckCardNumberMax("27");
-            setAtkType("");
-            setPlayOrder("");
-          }
-          if (!["SingleCompetitorCard", "TornadoCompetitorCard", "TrioCompetitorCard"].includes(v)) {
-            setPower("");
-            setAgility("");
-            setStrike("");
-            setSubmission("");
-            setGrapple("");
-            setTechnique("");
-            setDivision("");
-          }
-        }}
-        className="bg-gray-900 text-white border border-gray-700 rounded p-2"
-      >
+      <select value={cardType} onChange={handleCardTypeChange} className={SELECT_CLASS}>
         <option value="">All Types</option>
         <option value="MainDeckCard">Main Deck</option>
         <option value="SingleCompetitorCard">Single Competitor</option>
@@ -148,100 +290,24 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
         <option value="CrowdMeterCard">Crowd Meter</option>
       </select>
 
-      {/* Attack Type — only relevant to Main Deck */}
-      <select
-        value={atkType}
-        onChange={(e) => setAtkType(e.target.value)}
-        className={`bg-gray-900 text-white border border-gray-700 rounded p-2 ${
-          cardType === "MainDeckCard" ? "" : "opacity-50"
-        }`}
-        disabled={cardType !== "MainDeckCard"}
-      >
-        <option value="">All Attack Types</option>
-        <option value="Strike">Strike</option>
-        <option value="Grapple">Grapple</option>
-        <option value="Submission">Submission</option>
-      </select>
+      <MainDeckFilters
+        isMainDeck={isMainDeck}
+        atkType={atkType}
+        setAtkType={setAtkType}
+        playOrder={playOrder}
+        setPlayOrder={setPlayOrder}
+        deckCardNumberMin={deckCardNumberMin}
+        setDeckCardNumberMin={setDeckCardNumberMin}
+        deckCardNumberMax={deckCardNumberMax}
+        setDeckCardNumberMax={setDeckCardNumberMax}
+      />
 
-      {/* Play Order — only relevant to Main Deck */}
-      <select
-        value={playOrder}
-        onChange={(e) => setPlayOrder(e.target.value)}
-        className={`bg-gray-900 text-white border border-gray-700 rounded p-2 ${
-          cardType === "MainDeckCard" ? "" : "opacity-50"
-        }`}
-        disabled={cardType !== "MainDeckCard"}
-      >
-        <option value="">Any Play Order</option>
-        <option value="Lead">Lead</option>
-        <option value="Followup">Follow Up</option>
-        <option value="Finish">Finish</option>
-      </select>
-
-      {/* Deck Card Number Range — only relevant to Main Deck */}
-      <div className={`flex items-center gap-2 ${cardType === "MainDeckCard" ? "" : "opacity-50"}`}>
-        <input
-          type="number"
-          inputMode="numeric"
-          placeholder="Min"
-          value={deckCardNumberMin}
-          onChange={(e) => setDeckCardNumberMin(e.target.value)}
-          disabled={cardType !== "MainDeckCard"}
-          min="1"
-          max="30"
-          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
-        />
-        <span className="text-gray-400">-</span>
-        <input
-          type="number"
-          inputMode="numeric"
-          placeholder="Max"
-          value={deckCardNumberMax}
-          onChange={(e) => setDeckCardNumberMax(e.target.value)}
-          disabled={cardType !== "MainDeckCard"}
-          min="1"
-          max="30"
-          className="w-20 bg-gray-900 text-white border border-gray-700 rounded p-2"
-        />
-      </div>
-
-      {/* Competitor stats — shown for competitor types */}
-      {["SingleCompetitorCard", "TornadoCompetitorCard", "TrioCompetitorCard"].includes(cardType) && (
-        <div className="flex gap-2 flex-wrap">
-          {[
-            ["power", power, setPower],
-            ["agility", agility, setAgility],
-            ["strike", strike, setStrike],
-            ["submission", submission, setSubmission],
-            ["grapple", grapple, setGrapple],
-            ["technique", technique, setTechnique],
-          ].map(([label, value, setter]) => (
-            <input
-              key={label}
-              type="number"
-              inputMode="numeric"
-              placeholder={label}
-              value={value}
-              onChange={(e) => setter(e.target.value)}
-              className="w-24 bg-gray-900 text-white border border-gray-700 rounded p-2"
-            />
-          ))}
-        </div>
-      )}
-
-        {/* Division: any Competitor card */}
-        {["SingleCompetitorCard","TornadoCompetitorCard","TrioCompetitorCard"].includes(cardType) && (
-        <div className="flex flex-col">
-            <label className="text-sm font-medium">Division</label>
-            <input
-            className="bg-gray-900 text-white border border-gray-700 rounded p-2"
-            value={division}
-            onChange={(e) => setDivision(e.target.value)}
-            placeholder="e.g., United States"
-            />
-        </div>
-        )}
-
+      <CompetitorFilters
+        isCompetitor={isCompetitor}
+        stats={competitorStats}
+        division={division}
+        setDivision={setDivision}
+      />
 
       {/* Page size selector (inside Search UI) */}
       <div className="flex items-center gap-2">
@@ -267,15 +333,14 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
         Search
       </button>
 
-    <button
-           type="button"
-           onClick={handleViewTable}
-           className="hidden md:inline-block bg-indigo-700 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
-           title="Open full results as a table (no pagination)"
-         >
-           View Table
-         </button>
+      <button
+        type="button"
+        onClick={handleViewTable}
+        className="hidden md:inline-block bg-indigo-700 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
+        title="Open full results as a table (no pagination)"
+      >
+        View Table
+      </button>
     </form>
   );
 }
-

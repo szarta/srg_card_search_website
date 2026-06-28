@@ -9362,7 +9362,16 @@
   tags: []
   wants_keywords:
     - Dog
-- name: Double Leg Takedown
+- name: Double Leg Takedown (#5)
+  db_uuid: 46cdfd3ea79e440e8e6bbf4dd17d3e9c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: Your opponent randomly reveals 2 cards in their hand; they choose 1 of those cards and bury it.
+  tags:
+    - Old School Wave 3
+- name: Double Leg Takedown (#8)
   db_uuid: 017eaa53489f4076b9e2dcf019ee30bf
   srgpc_url: https://www.srgpc.net/cards/8/double-leg-takedown/
   card_type: MainDeckCard
@@ -9370,8 +9379,7 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Grapple from your discard pile on top of your deck.
-  tags:
-    - Old School Wave 3
+  tags: []
 - name: Dragon Drop
   db_uuid: e23ef6218f714ce6890e13960d031fb5
   srgpc_url: https://www.srgpc.net/cards/8/dragon-drop/

@@ -341,23 +341,38 @@ def _apply_common_filters(
     return qry
 
 
-def _apply_stat_filters(
-    qry, cls, power, agility, strike, submission, grapple, technique
-):
-    """Extract stat filter logic"""
-    if power is not None:
-        qry = qry.filter(cls.power == power)
-    if agility is not None:
-        qry = qry.filter(cls.agility == agility)
-    if strike is not None:
-        qry = qry.filter(cls.strike == strike)
-    if submission is not None:
-        qry = qry.filter(cls.submission == submission)
-    if grapple is not None:
-        qry = qry.filter(cls.grapple == grapple)
-    if technique is not None:
-        qry = qry.filter(cls.technique == technique)
+STAT_NAMES = ("power", "agility", "strike", "submission", "grapple", "technique")
+
+# Comparison operators selectable per stat from the frontend. Unknown/missing
+# ops fall back to equality so older links (bare `power=5`) keep working.
+_STAT_OPS = {
+    "lt": lambda col, val: col < val,
+    "eq": lambda col, val: col == val,
+    "gt": lambda col, val: col > val,
+    "ne": lambda col, val: col != val,
+}
+
+
+def _apply_stat_filters(qry, cls, stat_values, stat_ops):
+    """Apply a comparison filter per provided stat.
+
+    stat_values / stat_ops are dicts keyed by stat name. A stat with a None
+    value is skipped; an unrecognized op falls back to equality.
+    """
+    for name in STAT_NAMES:
+        value = stat_values.get(name)
+        if value is None:
+            continue
+        op_fn = _STAT_OPS.get(stat_ops.get(name) or "eq", _STAT_OPS["eq"])
+        qry = qry.filter(op_fn(getattr(cls, name), value))
     return qry
+
+
+def _parse_divisions(division):
+    """Split a comma-separated division filter into a list of exact names."""
+    if not division:
+        return []
+    return [d.strip() for d in division.split(",") if d.strip()]
 
 
 def _query_single_competitors(
@@ -366,13 +381,9 @@ def _query_single_competitors(
     q,
     is_banned,
     release_set,
-    division,
-    power,
-    agility,
-    strike,
-    submission,
-    grapple,
-    technique,
+    divisions,
+    stat_values,
+    stat_ops,
 ) -> List[Card]:
     """Query single competitor cards"""
     if card_type is not None and card_type != CardType.single_competitor.value:
@@ -385,12 +396,10 @@ def _query_single_competitors(
         sq = sq.filter(
             SingleCompetitorCard.card_type == CardType.single_competitor.value
         )
-    if division:
-        sq = sq.filter(SingleCompetitorCard.division.ilike(f"%{division}%"))
+    if divisions:
+        sq = sq.filter(SingleCompetitorCard.division.in_(divisions))
 
-    sq = _apply_stat_filters(
-        sq, SingleCompetitorCard, power, agility, strike, submission, grapple, technique
-    )
+    sq = _apply_stat_filters(sq, SingleCompetitorCard, stat_values, stat_ops)
     return sq.all()
 
 
@@ -400,13 +409,9 @@ def _query_tornado_trio_competitors(
     q,
     is_banned,
     release_set,
-    division,
-    power,
-    agility,
-    strike,
-    submission,
-    grapple,
-    technique,
+    divisions,
+    stat_values,
+    stat_ops,
 ) -> List[Card]:
     """Query tornado/trio competitor cards"""
     tt_types = [CardType.tornado_competitor.value, CardType.trio_competitor.value]
@@ -421,12 +426,10 @@ def _query_tornado_trio_competitors(
     else:
         cq = cq.filter(CompetitorCard.card_type == card_type)
 
-    if division:
-        cq = cq.filter(CompetitorCard.division.ilike(f"%{division}%"))
+    if divisions:
+        cq = cq.filter(CompetitorCard.division.in_(divisions))
 
-    cq = _apply_stat_filters(
-        cq, CompetitorCard, power, agility, strike, submission, grapple, technique
-    )
+    cq = _apply_stat_filters(cq, CompetitorCard, stat_values, stat_ops)
     return cq.all()
 
 
@@ -501,13 +504,37 @@ def list_cards(
     submission: Optional[int] = Query(None),
     grapple: Optional[int] = Query(None),
     technique: Optional[int] = Query(None),
-    division: Optional[str] = Query(None, min_length=0, max_length=100),
+    power_op: Optional[str] = Query(None),
+    agility_op: Optional[str] = Query(None),
+    strike_op: Optional[str] = Query(None),
+    submission_op: Optional[str] = Query(None),
+    grapple_op: Optional[str] = Query(None),
+    technique_op: Optional[str] = Query(None),
+    division: Optional[str] = Query(None, min_length=0, max_length=200),
 ):
     """
     Robust list endpoint with reduced complexity.
     Query concrete mappers directly so subclass columns hydrate.
     """
     items: List[Card] = []
+
+    stat_values = {
+        "power": power,
+        "agility": agility,
+        "strike": strike,
+        "submission": submission,
+        "grapple": grapple,
+        "technique": technique,
+    }
+    stat_ops = {
+        "power": power_op,
+        "agility": agility_op,
+        "strike": strike_op,
+        "submission": submission_op,
+        "grapple": grapple_op,
+        "technique": technique_op,
+    }
+    divisions = _parse_divisions(division)
 
     # Query each card type using helper functions
     items += _query_single_competitors(
@@ -516,13 +543,9 @@ def list_cards(
         q,
         is_banned,
         release_set,
-        division,
-        power,
-        agility,
-        strike,
-        submission,
-        grapple,
-        technique,
+        divisions,
+        stat_values,
+        stat_ops,
     )
 
     items += _query_tornado_trio_competitors(
@@ -531,13 +554,9 @@ def list_cards(
         q,
         is_banned,
         release_set,
-        division,
-        power,
-        agility,
-        strike,
-        submission,
-        grapple,
-        technique,
+        divisions,
+        stat_values,
+        stat_ops,
     )
 
     items += _query_main_deck_cards(

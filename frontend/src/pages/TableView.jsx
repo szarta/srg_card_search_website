@@ -10,6 +10,8 @@ import {
 
 const SAFE_CHUNK = 100; // stay within backend validators
 
+const STAT_KEYS = ["power", "agility", "strike", "submission", "grapple", "technique"];
+
 // Translate UI filters into the backend's /cards query string.
 function buildQuery(filters, limit, offset) {
   const q = new URLSearchParams();
@@ -29,8 +31,10 @@ function buildQuery(filters, limit, offset) {
     appendInt(q, "deck_card_number_max", filters.deckCardNumberMax);
   }
 
-  ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {
+  STAT_KEYS.forEach((k) => {
     appendInt(q, k, filters[k]);
+    const op = filters[`${k}_op`];
+    if (op) q.append(`${k}_op`, op);
   });
 
   q.append("limit", String(limit));
@@ -82,7 +86,7 @@ function renderCell(r, c) {
 // Read UI filters out of the URL search params.
 function parseFilters(searchParams) {
   const obj = Object.fromEntries(searchParams.entries());
-  return {
+  const filters = {
     query: obj.query || "",
     cardType: obj.cardType || "",
     atkType: obj.atkType || "",
@@ -90,13 +94,12 @@ function parseFilters(searchParams) {
     deckCardNumberMin: obj.deckCardNumberMin || "1",
     deckCardNumberMax: obj.deckCardNumberMax || "27",
     division: obj.division || "",
-    power: obj.power || "",
-    agility: obj.agility || "",
-    strike: obj.strike || "",
-    submission: obj.submission || "",
-    grapple: obj.grapple || "",
-    technique: obj.technique || "",
   };
+  STAT_KEYS.forEach((k) => {
+    filters[k] = obj[k] || "";
+    filters[`${k}_op`] = obj[`${k}_op`] || "";
+  });
+  return filters;
 }
 
 // Fetch every matching row in SAFE_CHUNK-sized pages. Returns null if cancelled.

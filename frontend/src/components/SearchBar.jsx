@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 const COMPETITOR_TYPES = [
@@ -9,8 +9,44 @@ const COMPETITOR_TYPES = [
 
 const SELECT_CLASS = "bg-gray-900 text-white border border-gray-700 rounded p-2";
 
+const STAT_NAMES = ["power", "agility", "strike", "submission", "grapple", "technique"];
+
+// Comparison operators for stat filters. Value is the token sent to the backend;
+// label is what the user sees.
+const STAT_OPS = [
+  { value: "eq", label: "=" },
+  { value: "lt", label: "<" },
+  { value: "gt", label: ">" },
+  { value: "ne", label: "≠" },
+];
+
+// Known competitor divisions (checkbox multi-select).
+const DIVISIONS = [
+  "United States",
+  "Intergalactic",
+  "Hardcore",
+  "Global",
+  "World Championship",
+  "Old School",
+  "Underworld",
+  "Super Lucha",
+];
+
+// Parse the comma-separated `division` value from the URL into an array.
+function parseDivisions(value) {
+  if (!value) return [];
+  return value
+    .split(",")
+    .map((d) => d.trim())
+    .filter(Boolean);
+}
+
 // Normalize URL-provided defaults into concrete input values (with fallbacks).
 function normalizeDefaults(d) {
+  const statOps = {};
+  STAT_NAMES.forEach((s) => {
+    statOps[s] = d[`${s}_op`] || "eq";
+  });
   return {
     query: d.query ?? "",
     cardType: d.cardType ?? "",
@@ -24,6 +60,7 @@ function normalizeDefaults(d) {
     submission: d.submission ?? "",
     grapple: d.grapple ?? "",
     technique: d.technique ?? "",
+    statOps,
     pageSize: parseInt(d.limit ?? 20, 10) || 20,
     division: d.division ?? "",
   };
@@ -100,36 +137,118 @@ function MainDeckFilters({
   );
 }
 
+// A single stat filter: comparison operator + numeric value.
+function StatFilter({ name, value, setValue, op, setOp }) {
+  return (
+    <div className="flex items-center">
+      <select
+        aria-label={`${name} comparison`}
+        value={op}
+        onChange={(e) => setOp(name, e.target.value)}
+        className="bg-gray-900 text-white border border-gray-700 rounded-l p-2 border-r-0"
+      >
+        {STAT_OPS.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+      <input
+        type="number"
+        inputMode="numeric"
+        placeholder={name}
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        className="w-24 bg-gray-900 text-white border border-gray-700 rounded-r p-2"
+      />
+    </div>
+  );
+}
+
+// Multi-select division filter rendered as a checkbox dropdown.
+function DivisionFilter({ selected, setSelected }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+
+  // Close the dropdown when clicking outside of it.
+  useEffect(() => {
+    if (!open) return undefined;
+    const onClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onClick);
+    return () => document.removeEventListener("mousedown", onClick);
+  }, [open]);
+
+  const toggle = (division) => {
+    setSelected(
+      selected.includes(division)
+        ? selected.filter((d) => d !== division)
+        : [...selected, division]
+    );
+  };
+
+  const label =
+    selected.length === 0
+      ? "All Divisions"
+      : selected.length === 1
+        ? selected[0]
+        : `${selected.length} divisions`;
+
+  return (
+    <div className="flex flex-col" ref={ref}>
+      <label className="text-sm font-medium">Division</label>
+      <div className="relative">
+        <button
+          type="button"
+          onClick={() => setOpen((o) => !o)}
+          className="bg-gray-900 text-white border border-gray-700 rounded p-2 min-w-[160px] text-left"
+        >
+          {label} <span className="float-right text-gray-400">▾</span>
+        </button>
+        {open && (
+          <div className="absolute z-20 mt-1 w-max min-w-full bg-gray-900 border border-gray-700 rounded shadow-lg p-2 max-h-64 overflow-y-auto">
+            {DIVISIONS.map((division) => (
+              <label
+                key={division}
+                className="flex items-center gap-2 px-1 py-1 hover:bg-gray-800 rounded cursor-pointer whitespace-nowrap"
+              >
+                <input
+                  type="checkbox"
+                  checked={selected.includes(division)}
+                  onChange={() => toggle(division)}
+                />
+                <span>{division}</span>
+              </label>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 // Competitor stat inputs + division — only shown for competitor card types.
-function CompetitorFilters({ isCompetitor, stats, division, setDivision }) {
+function CompetitorFilters({ isCompetitor, stats, statOps, setStatOp, divisions, setDivisions }) {
   if (!isCompetitor) return null;
   return (
     <>
       {/* Competitor stats */}
       <div className="flex gap-2 flex-wrap">
-        {stats.map(([label, value, setter]) => (
-          <input
-            key={label}
-            type="number"
-            inputMode="numeric"
-            placeholder={label}
+        {stats.map(([name, value, setter]) => (
+          <StatFilter
+            key={name}
+            name={name}
             value={value}
-            onChange={(e) => setter(e.target.value)}
-            className="w-24 bg-gray-900 text-white border border-gray-700 rounded p-2"
+            setValue={setter}
+            op={statOps[name] ?? "eq"}
+            setOp={setStatOp}
           />
         ))}
       </div>
 
       {/* Division: any Competitor card */}
-      <div className="flex flex-col">
-        <label className="text-sm font-medium">Division</label>
-        <input
-          className="bg-gray-900 text-white border border-gray-700 rounded p-2"
-          value={division}
-          onChange={(e) => setDivision(e.target.value)}
-          placeholder="e.g., United States"
-        />
-      </div>
+      <DivisionFilter selected={divisions} setSelected={setDivisions} />
     </>
   );
 }
@@ -142,7 +261,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [playOrder, setPlayOrder] = useState("");
   const [deckCardNumberMin, setDeckCardNumberMin] = useState("1");
   const [deckCardNumberMax, setDeckCardNumberMax] = useState("27");
-  const [division, setDivision] = useState("");
+  const [divisions, setDivisions] = useState([]);
 
   // Competitor stats
   const [power, setPower] = useState("");
@@ -151,6 +270,13 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [submission, setSubmission] = useState("");
   const [grapple, setGrapple] = useState("");
   const [technique, setTechnique] = useState("");
+
+  // Per-stat comparison operators (default "eq")
+  const [statOps, setStatOps] = useState(() =>
+    STAT_NAMES.reduce((acc, s) => ((acc[s] = "eq"), acc), {})
+  );
+  const setStatOp = (name, op) =>
+    setStatOps((prev) => ({ ...prev, [name]: op }));
 
   // Page size (lives in URL via Home; controlled here for UI)
   const [pageSize, setPageSize] = useState(20);
@@ -170,9 +296,19 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     setSubmission(v.submission);
     setGrapple(v.grapple);
     setTechnique(v.technique);
+    setStatOps(v.statOps);
     setPageSize(v.pageSize);
-    setDivision(v.division);
+    setDivisions(parseDivisions(v.division));
   }, [defaultValues]);
+
+  // Emit each stat op as `${stat}_op`, omitting the default "eq".
+  const statOpParams = () => {
+    const out = {};
+    STAT_NAMES.forEach((s) => {
+      if (statOps[s] && statOps[s] !== "eq") out[`${s}_op`] = statOps[s];
+    });
+    return out;
+  };
 
   const submitWith = (extra = {}) => {
     onSearch({
@@ -188,7 +324,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       submission,
       grapple,
       technique,
-      division,
+      ...statOpParams(),
+      division: divisions.join(","),
       limit: pageSize,
       ...extra, // allow overrides
     });
@@ -216,7 +353,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       setSubmission("");
       setGrapple("");
       setTechnique("");
-      setDivision("");
+      setStatOps(STAT_NAMES.reduce((acc, s) => ((acc[s] = "eq"), acc), {}));
+      setDivisions([]);
     }
   };
 
@@ -238,7 +376,8 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     add("submission", submission);
     add("grapple", grapple);
     add("technique", technique);
-    add("division", division);
+    Object.entries(statOpParams()).forEach(([k, v]) => add(k, v));
+    add("division", divisions.join(","));
     // Keep current page size as a courtesy; TableView ignores pagination but might want to reflect "limit" in URL.
     add("limit", pageSize);
     navigate(`/table?${sp.toString()}`);
@@ -305,8 +444,10 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       <CompetitorFilters
         isCompetitor={isCompetitor}
         stats={competitorStats}
-        division={division}
-        setDivision={setDivision}
+        statOps={statOps}
+        setStatOp={setStatOp}
+        divisions={divisions}
+        setDivisions={setDivisions}
       />
 
       {/* Page size selector (inside Search UI) */}

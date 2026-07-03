@@ -5,6 +5,9 @@ import CardGrid from "../components/CardGrid";
 import Footer from "../components/Footer";
 import { appendInt } from "../lib/cardExport";
 
+const STAT_KEYS = ["power", "agility", "strike", "submission", "grapple", "technique"];
+const STAT_OP_KEYS = STAT_KEYS.map((k) => `${k}_op`);
+
 const FILTER_KEYS = [
   "query",
   "cardType",
@@ -12,16 +15,10 @@ const FILTER_KEYS = [
   "playOrder",
   "deckCardNumberMin",
   "deckCardNumberMax",
-  "power",
-  "agility",
-  "strike",
-  "submission",
-  "grapple",
-  "technique",
-  "division",     // NEW
+  ...STAT_KEYS,
+  ...STAT_OP_KEYS, // per-stat comparison operators
+  "division",
 ];
-
-const STAT_KEYS = ["power", "agility", "strike", "submission", "grapple", "technique"];
 
 const DEFAULT_LIMIT = 20;
 
@@ -69,7 +66,12 @@ function buildFetchParams(f, pNum, lNum) {
 
   STAT_KEYS.forEach((k) => appendInt(params, k, f?.[k]));
 
-  // NEW: forward division to backend
+  // Forward per-stat comparison operators (backend defaults to "eq" when absent)
+  STAT_OP_KEYS.forEach((k) => {
+    if (f?.[k]) params.append(k, f[k]);
+  });
+
+  // Forward division (comma-separated multi-select) to backend
   if (f.division) params.append("division", f.division);
 
   params.append("limit", String(lNum));

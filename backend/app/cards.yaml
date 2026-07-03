@@ -9362,7 +9362,16 @@
   tags: []
   wants_keywords:
     - Dog
-- name: Double Leg Takedown
+- name: Double Leg Takedown (#5)
+  db_uuid: 46cdfd3ea79e440e8e6bbf4dd17d3e9c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: Your opponent randomly reveals 2 cards in their hand; they choose 1 of those cards and bury it.
+  tags:
+    - Old School Wave 3
+- name: Double Leg Takedown (#8)
   db_uuid: 017eaa53489f4076b9e2dcf019ee30bf
   srgpc_url: https://www.srgpc.net/cards/8/double-leg-takedown/
   card_type: MainDeckCard
@@ -9370,8 +9379,7 @@
   play_order: Lead
   deck_card_number: 8
   rules_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Grapple from your discard pile on top of your deck.
-  tags:
-    - Old School Wave 3
+  tags: []
 - name: Dragon Drop
   db_uuid: e23ef6218f714ce6890e13960d031fb5
   srgpc_url: https://www.srgpc.net/cards/8/dragon-drop/
@@ -20207,7 +20215,7 @@
   rules_text: Flip 3 cards, then take 1 card from your discard pile and add it to your hand.
   tags:
     - Old School Wave 1
-- name: Clothesline Over the Top Rope
+- name: Clothesline Over the Top Rope (#22)
   db_uuid: e7673ba0474049f38229a78f4495d455
   srgpc_url: https://www.srgpc.net/cards/22/clothesline-over-the-top-rope/
   card_type: MainDeckCard
@@ -20219,7 +20227,6 @@
     Put up to 4 cards from your opponent''s discard pile on top of their deck.'
   tags:
     - Old School Wave 2
-    - Old School Wave 3
 - name: Corner Clothesline
   db_uuid: 5716c2579d2e40ffa768a14b42df323c
   srgpc_url: https://www.srgpc.net/cards/22/corner-clothesline/
@@ -78858,6 +78865,17 @@
   deck_card_number: 15
   rules_text: If your Technique skill is greater than your opponent's Technique skill, stop any Follow Up Strike or Finish Strike even if it cannot be stopped.
   tags: []
+- name: Clothesline Over the Top Rope (#7)
+  db_uuid: 4f3e2d273fae47659777c12652073c7b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'The Crowd Meter is considered +1 for card effects.
+
+    Draw 1 card.'
+  tags:
+    - Old School Wave 3
 - name: Jumping Elbow
   db_uuid: 5b7e8fc5247f468092686eaee0321578
   card_type: MainDeckCard

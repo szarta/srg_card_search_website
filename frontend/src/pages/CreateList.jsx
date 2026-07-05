@@ -22,6 +22,127 @@ function parseNames(text) {
   return names;
 }
 
+// Fetch a shared list and hydrate its cards. Returns { notFound } for a missing
+// id, otherwise { name, rows, names, missing }.
+async function fetchSharedListData(sharedId) {
+  const res = await fetch(`/api/shared-lists/${sharedId}`);
+  if (!res.ok) {
+    if (res.status === 404) return { notFound: true };
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  const sharedList = await res.json();
+
+  // Convert UUIDs back to card data
+  const cardRes = await fetch("/cards/by-uuids", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ uuids: sharedList.card_uuids }),
+  });
+  if (!cardRes.ok) throw new Error(`HTTP ${cardRes.status}`);
+  const cardData = await cardRes.json();
+
+  return {
+    name: sharedList.name || "",
+    rows: cardData.rows,
+    names: cardData.rows.map((row) => row.name),
+    missing: cardData.missing || [],
+  };
+}
+
+// Load curated list text from .txt (preferred) or .json; null if neither exists.
+async function fetchCuratedListText(slug) {
+  try {
+    const txtRes = await fetch(`/lists/${slug}.txt`);
+    if (txtRes.ok) return await txtRes.text();
+  } catch { /* ignore and try json */ }
+
+  try {
+    const jsonRes = await fetch(`/lists/${slug}.json`);
+    if (jsonRes.ok) {
+      const j = await jsonRes.json();
+      return Array.isArray(j?.names) ? j.names.join("\n") : "";
+    }
+  } catch { /* ignore */ }
+
+  return null;
+}
+
+// Resolve card names to rows via the batch endpoint.
+async function buildListRows(names) {
+  const res = await fetch("/cards/by-names", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ names }),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  return { rows: data.rows || [], unmatched: data.unmatched || [] };
+}
+
+// Extract shareable UUIDs from rows; returns { error } or { cardUuids, warning }.
+function prepareShareUuids(rows) {
+  // try both db_uuid and uuid fields
+  const cardUuids = rows.map((row) => row.db_uuid || row.uuid).filter(Boolean);
+
+  if (cardUuids.length === 0) {
+    return { error: "No valid card UUIDs found. Please rebuild the list." };
+  }
+
+  const warning =
+    cardUuids.length !== rows.length
+      ? `Warning: Only ${cardUuids.length} of ${rows.length} cards have valid UUIDs.`
+      : null;
+  return { cardUuids, warning };
+}
+
+async function createSharedList(listName, cardUuids) {
+  const res = await fetch("/api/shared-lists", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name: listName || "Untitled List",
+      card_uuids: cardUuids,
+    }),
+  });
+
+  if (!res.ok) {
+    const errorText = await res.text();
+    console.error("API Error:", res.status, errorText);
+    throw new Error(`HTTP ${res.status}: ${errorText}`);
+  }
+  return res.json();
+}
+
+function missingWarning(missing) {
+  if (missing.length === 0) return [];
+  return [`Warning: ${missing.length} cards could not be found in database`];
+}
+
+function computeExportFileName(query) {
+  const list = query.get("list");
+  if (list) return `${list}.csv`;
+  const shared = query.get("shared");
+  if (shared) return `shared-list-${shared}.csv`;
+  return "custom-list.csv";
+}
+
+function hasListParam(query) {
+  return Boolean(query.get("list") || query.get("shared"));
+}
+
+function ErrorBanner({ errors }) {
+  if (!errors?.length) return null;
+  const label =
+    errors.length === 1 && errors[0].includes("Unmatched") ? "Unmatched names:" : "Errors:";
+  return (
+    <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl">
+      <span className="font-semibold text-red-800">{label}</span>
+      <span className="text-red-700 ml-1">{errors.join(", ")}</span>
+    </div>
+  );
+}
+
 export default function CreateList() {
   const query = useQuery();
   const navigate = useNavigate();
@@ -36,6 +157,35 @@ export default function CreateList() {
   const [loadedFromShare, setLoadedFromShare] = useState(false);
   const textareaRef = useRef(null);
 
+  // Load shared list from database
+  const loadSharedList = async (sharedId) => {
+    try {
+      setLoading(true);
+      const result = await fetchSharedListData(sharedId);
+      if (result.notFound) {
+        setErrors(["Shared list not found."]);
+        return;
+      }
+
+      setListName(result.name);
+      setText(result.names.join("\n"));
+      setRows(result.rows);
+      setLoadedFromShare(true);
+      setErrors(missingWarning(result.missing));
+    } catch (e) {
+      console.error(e);
+      setErrors(["Failed to load shared list."]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Load curated list from files (existing functionality)
+  const loadCuratedList = async (slug) => {
+    const t = await fetchCuratedListText(slug);
+    if (t !== null) setText(t);
+  };
+
   // Load curated lists or shared lists
   useEffect(() => {
     const slug = query.get("list");
@@ -48,75 +198,6 @@ export default function CreateList() {
     }
   }, [query]);
 
-  // Load shared list from database
-  const loadSharedList = async (sharedId) => {
-    try {
-      setLoading(true);
-      const res = await fetch(`/api/shared-lists/${sharedId}`);
-      if (!res.ok) {
-        if (res.status === 404) {
-          setErrors(["Shared list not found."]);
-        } else {
-          throw new Error(`HTTP ${res.status}`);
-        }
-        return;
-      }
-
-      const sharedList = await res.json();
-      setListName(sharedList.name || "");
-
-      // Convert UUIDs back to card data
-      const cardRes = await fetch("/cards/by-uuids", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ uuids: sharedList.card_uuids }),
-      });
-
-      if (!cardRes.ok) throw new Error(`HTTP ${cardRes.status}`);
-      const cardData = await cardRes.json();
-
-      // Set the card names as text and rows for display
-      const names = cardData.rows.map(row => row.name);
-      setText(names.join("\n"));
-      setRows(cardData.rows);
-      setLoadedFromShare(true);
-
-      // Show any missing cards if they exist
-      if (cardData.missing && cardData.missing.length > 0) {
-        setErrors([`Warning: ${cardData.missing.length} cards could not be found in database`]);
-      } else {
-        setErrors([]);
-      }
-
-    } catch (e) {
-      console.error(e);
-      setErrors(["Failed to load shared list."]);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // Load curated list from files (existing functionality)
-  const loadCuratedList = async (slug) => {
-    try {
-      const txtRes = await fetch(`/lists/${slug}.txt`);
-      if (txtRes.ok) {
-        const t = await txtRes.text();
-        setText(t);
-        return;
-      }
-    } catch {}
-    try {
-      const jsonRes = await fetch(`/lists/${slug}.json`);
-      if (jsonRes.ok) {
-        const j = await jsonRes.json();
-        const t = Array.isArray(j?.names) ? j.names.join("\n") : "";
-        setText(t);
-        return;
-      }
-    } catch {}
-  };
-
   const handleBuild = async () => {
     const names = parseNames(text);
     if (names.length === 0) {
@@ -128,15 +209,9 @@ export default function CreateList() {
     setErrors([]);
 
     try {
-      const res = await fetch("/cards/by-names", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ names }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      setRows(data.rows || []);
-      setErrors(data.unmatched || []);
+      const { rows: builtRows, unmatched } = await buildListRows(names);
+      setRows(builtRows);
+      setErrors(unmatched);
     } catch (e) {
       console.error(e);
       setErrors(["Failed to build list. Check server logs."]);
@@ -153,41 +228,19 @@ export default function CreateList() {
 
     setSharing(true);
     try {
-      // Extract UUIDs - try both db_uuid and uuid fields
-      const cardUuids = rows.map(row => row.db_uuid || row.uuid).filter(Boolean);
-
-      if (cardUuids.length === 0) {
-        setErrors(["No valid card UUIDs found. Please rebuild the list."]);
+      const { cardUuids, error, warning } = prepareShareUuids(rows);
+      if (error) {
+        setErrors([error]);
         return;
       }
+      if (warning) setErrors([warning]);
 
-      if (cardUuids.length !== rows.length) {
-        setErrors([`Warning: Only ${cardUuids.length} of ${rows.length} cards have valid UUIDs.`]);
-      }
-
-      const res = await fetch("/api/shared-lists", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: listName || "Untitled List",
-          card_uuids: cardUuids,
-        }),
-      });
-
-      if (!res.ok) {
-        const errorText = await res.text();
-        console.error("API Error:", res.status, errorText);
-        throw new Error(`HTTP ${res.status}: ${errorText}`);
-      }
-
-      const result = await res.json();
-
+      const result = await createSharedList(listName, cardUuids);
       const fullUrl = `${window.location.origin}/create-list?shared=${result.id}`;
       setShareUrl(fullUrl);
 
       // Copy to clipboard
       await navigator.clipboard.writeText(fullUrl);
-
     } catch (e) {
       console.error("Share error:", e);
       setErrors([`Failed to create shareable link: ${e.message}`]);
@@ -204,16 +257,12 @@ export default function CreateList() {
     setListName("");
     setLoadedFromShare(false);
     textareaRef.current?.focus();
-    if (query.get("list") || query.get("shared")) {
+    if (hasListParam(query)) {
       navigate("/create-list", { replace: true });
     }
   };
 
-  const exportFileName = query.get("list")
-    ? `${query.get("list")}.csv`
-    : query.get("shared")
-    ? `shared-list-${query.get("shared")}.csv`
-    : "custom-list.csv";
+  const exportFileName = computeExportFileName(query);
 
   return (
     <div className="max-w-5xl mx-auto p-4">
@@ -270,16 +319,7 @@ export default function CreateList() {
         </div>
       </div>
 
-      {errors?.length > 0 && (
-        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl">
-          <span className="font-semibold text-red-800">
-            {errors.length === 1 && errors[0].includes("Unmatched")
-              ? "Unmatched names:"
-              : "Errors:"}
-          </span>
-          <span className="text-red-700 ml-1">{errors.join(", ")}</span>
-        </div>
-      )}
+      <ErrorBanner errors={errors} />
 
       {/* Add key prop to force remount when location changes */}
       <DeckGridFromNames
@@ -292,7 +332,6 @@ export default function CreateList() {
         onShare={handleShare}
         sharing={sharing}
         shareUrl={shareUrl}
-        listName={listName}
       />
     </div>
   );

@@ -3,6 +3,10 @@ import { useSearchParams } from "react-router-dom";
 import SearchBar from "../components/SearchBar";
 import CardGrid from "../components/CardGrid";
 import Footer from "../components/Footer";
+import { appendInt } from "../lib/cardExport";
+
+const STAT_KEYS = ["power", "agility", "strike", "submission", "grapple", "technique"];
+const STAT_OP_KEYS = STAT_KEYS.map((k) => `${k}_op`);
 
 const FILTER_KEYS = [
   "query",
@@ -11,16 +15,81 @@ const FILTER_KEYS = [
   "playOrder",
   "deckCardNumberMin",
   "deckCardNumberMax",
-  "power",
-  "agility",
-  "strike",
-  "submission",
-  "grapple",
-  "technique",
-  "division",     // NEW
+  ...STAT_KEYS,
+  ...STAT_OP_KEYS, // per-stat comparison operators
+  "division",
 ];
 
 const DEFAULT_LIMIT = 20;
+
+// Read filters + pagination out of the URL search params.
+function readFromURL(searchParams) {
+  const obj = Object.fromEntries(searchParams.entries());
+  // start from empty values so missing params reset correctly
+  const empty = FILTER_KEYS.reduce((acc, k) => ((acc[k] = ""), acc), {});
+  const f = { ...empty };
+  FILTER_KEYS.forEach((k) => {
+    if (obj[k] !== undefined) f[k] = obj[k];
+  });
+  const p = parseInt(obj.page || "1", 10);
+  const l = parseInt(obj.limit || String(DEFAULT_LIMIT), 10);
+  return { f, p: Number.isNaN(p) ? 1 : p, l: Number.isNaN(l) ? DEFAULT_LIMIT : l };
+}
+
+// Serialize filters + pagination into URLSearchParams (omitting defaults/blanks).
+function filtersToSearchParams(f, pageVal, limitVal) {
+  const sp = new URLSearchParams();
+  FILTER_KEYS.forEach((k) => {
+    const v = f[k];
+    if (v !== undefined && v !== null && String(v).trim() !== "") {
+      sp.set(k, String(v));
+    }
+  });
+  if (pageVal && pageVal !== 1) sp.set("page", String(pageVal));
+  if (limitVal && limitVal !== DEFAULT_LIMIT) sp.set("limit", String(limitVal));
+  return sp;
+}
+
+// Translate UI filters into the backend's /cards query string.
+function buildFetchParams(f, pNum, lNum) {
+  const params = new URLSearchParams();
+
+  if (f.query) params.append("q", f.query);
+  if (f.cardType) params.append("card_type", f.cardType);
+  if (f.atkType) params.append("atk_type", f.atkType);
+  if (f.playOrder) params.append("play_order", f.playOrder);
+
+  if (f.cardType === "MainDeckCard") {
+    appendInt(params, "deck_card_number_min", f.deckCardNumberMin);
+    appendInt(params, "deck_card_number_max", f.deckCardNumberMax);
+  }
+
+  STAT_KEYS.forEach((k) => appendInt(params, k, f?.[k]));
+
+  // Forward per-stat comparison operators (backend defaults to "eq" when absent)
+  STAT_OP_KEYS.forEach((k) => {
+    if (f?.[k]) params.append(k, f[k]);
+  });
+
+  // Forward division (comma-separated multi-select) to backend
+  if (f.division) params.append("division", f.division);
+
+  params.append("limit", String(lNum));
+  params.append("offset", String((pNum - 1) * lNum));
+  return params;
+}
+
+// Fetch a page of cards; returns { items, totalCount } or throws.
+async function fetchCardsData(f, pNum, lNum) {
+  const params = buildFetchParams(f, pNum, lNum);
+  const res = await fetch(`/cards?${params.toString()}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  return {
+    items: Array.isArray(data?.items) ? data.items : [],
+    totalCount: Number.isFinite(data?.total_count) ? data.total_count : 0,
+  };
+}
 
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -47,35 +116,10 @@ export default function Home() {
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const readFromURL = () => {
-    const obj = Object.fromEntries(searchParams.entries());
-    // start from empty values so missing params reset correctly
-    const empty = FILTER_KEYS.reduce((acc, k) => ((acc[k] = ""), acc), {});
-    const f = { ...empty };
-    FILTER_KEYS.forEach((k) => {
-      if (obj[k] !== undefined) f[k] = obj[k];
-    });
-    const p = parseInt(obj.page || "1", 10);
-    const l = parseInt(obj.limit || String(DEFAULT_LIMIT), 10);
-    return { f, p: Number.isNaN(p) ? 1 : p, l: Number.isNaN(l) ? DEFAULT_LIMIT : l };
-  };
-
   const writeToURL = (f, p, l) => {
-    const sp = new URLSearchParams();
-    const fObj = f ?? filters;
-
-    FILTER_KEYS.forEach((k) => {
-      const v = fObj[k];
-      if (v !== undefined && v !== null && String(v).trim() !== "") {
-        sp.set(k, String(v));
-      }
+    setSearchParams(filtersToSearchParams(f ?? filters, p ?? page, l ?? limit), {
+      replace: false,
     });
-
-    const pageVal = p ?? page;
-    const limitVal = l ?? limit;
-    if (pageVal && pageVal !== 1) sp.set("page", String(pageVal));
-    if (limitVal && limitVal !== DEFAULT_LIMIT) sp.set("limit", String(limitVal));
-    setSearchParams(sp, { replace: false });
   };
 
   const fetchCards = async (f, pNum = 1, lNum = limit) => {
@@ -84,44 +128,9 @@ export default function Home() {
     setTotalCount(0);
 
     try {
-      const params = new URLSearchParams();
-
-      if (f.query) params.append("q", f.query);
-      if (f.cardType) params.append("card_type", f.cardType);
-      if (f.atkType) params.append("atk_type", f.atkType);
-      if (f.playOrder) params.append("play_order", f.playOrder);
-
-      if (f.cardType === "MainDeckCard") {
-        if (f.deckCardNumberMin !== "" && f.deckCardNumberMin !== null && f.deckCardNumberMin !== undefined) {
-          const n = parseInt(f.deckCardNumberMin, 10);
-          if (!Number.isNaN(n)) params.append("deck_card_number_min", String(n));
-        }
-        if (f.deckCardNumberMax !== "" && f.deckCardNumberMax !== null && f.deckCardNumberMax !== undefined) {
-          const n = parseInt(f.deckCardNumberMax, 10);
-          if (!Number.isNaN(n)) params.append("deck_card_number_max", String(n));
-        }
-      }
-
-      ["power", "agility", "strike", "submission", "grapple", "technique"].forEach((k) => {
-        const v = f?.[k];
-        if (v !== "" && v !== null && v !== undefined) {
-          const n = parseInt(v, 10);
-          if (!Number.isNaN(n)) params.append(k, String(n));
-        }
-      });
-
-      // NEW: forward division to backend
-      if (f.division) params.append("division", f.division);
-
-      params.append("limit", String(lNum));
-      params.append("offset", String((pNum - 1) * lNum));
-
-      const res = await fetch(`/cards?${params.toString()}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-
-      setCards(Array.isArray(data?.items) ? data.items : []);
-      setTotalCount(Number.isFinite(data?.total_count) ? data.total_count : 0);
+      const { items, totalCount: tc } = await fetchCardsData(f, pNum, lNum);
+      setCards(items);
+      setTotalCount(tc);
       setPage(pNum);
       setLimit(lNum);
       setFilters(f);
@@ -134,7 +143,7 @@ export default function Home() {
 
   // Hydrate from URL & refetch on Back/Forward
   useEffect(() => {
-    const { f, p, l } = readFromURL();
+    const { f, p, l } = readFromURL(searchParams);
     setFilters(f);
     setPage(p);
     setLimit(l);
@@ -203,4 +212,3 @@ export default function Home() {
     </div>
   );
 }
-

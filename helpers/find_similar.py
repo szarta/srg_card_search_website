@@ -34,7 +34,7 @@ def orb_similarity(features1, features2, threshold=0.75):
 
     try:
         matches = bf.knnMatch(features1, features2, k=2)
-    except:
+    except Exception:
         return 0
 
     # Apply ratio test (Lowe's ratio test)
@@ -71,23 +71,55 @@ def load_cards_from_db(db_path):
     return cards
 
 
-def find_similar_hashes(db_path, output_file, phash_threshold=5, orb_threshold=30):
-    """Find pairs of images with similar pHashes or ORB features."""
+def _compare_pair(card1, card2, phash_threshold, orb_threshold):
+    """Compare two cards, returning (phash_match, orb_match, orb_checked).
 
-    print(f"Loading cards from database: {db_path}")
-    cards = load_cards_from_db(db_path)
-    print(f"Loaded {len(cards)} cards")
+    phash_match/orb_match are dicts when the pair qualifies, else None.
+    orb_checked is True whenever an ORB comparison was actually performed.
+    """
+    if not (card1["phash"] and card2["phash"]):
+        return None, None, False
 
-    # Group by similarity type
+    distance = hamming_distance(card1["phash"], card2["phash"])
+    if distance > phash_threshold:
+        return None, None, False
+
+    phash_match = {
+        "uuid1": card1["uuid"],
+        "uuid2": card2["uuid"],
+        "phash1": card1["phash"],
+        "phash2": card2["phash"],
+        "distance": distance,
+    }
+
+    # ONLY check ORB if pHash is similar (distance <= 5)
+    orb_match = None
+    orb_checked = (
+        distance <= 5
+        and card1["orb_features"] is not None
+        and card2["orb_features"] is not None
+    )
+    if orb_checked:
+        orb_score = orb_similarity(card1["orb_features"], card2["orb_features"])
+        if orb_score >= orb_threshold:
+            orb_match = {
+                "uuid1": card1["uuid"],
+                "uuid2": card2["uuid"],
+                "orb_score": orb_score,
+                "phash_distance": distance,
+            }
+
+    return phash_match, orb_match, orb_checked
+
+
+def _compare_all_pairs(cards, phash_threshold, orb_threshold):
+    """Compare every card pair, grouping pHash matches and collecting ORB matches."""
     phash_matches = defaultdict(list)
     orb_matches = []
-
-    print("Comparing all pairs...")
     total_comparisons = len(cards) * (len(cards) - 1) // 2
     current = 0
     orb_checks = 0
 
-    # Compare all pairs
     for i, card1 in enumerate(cards):
         for card2 in cards[i + 1 :]:
             current += 1
@@ -96,43 +128,21 @@ def find_similar_hashes(db_path, output_file, phash_threshold=5, orb_threshold=3
                     f"Progress: {current}/{total_comparisons} (ORB checks: {orb_checks})"
                 )
 
-            # Check pHash similarity
-            if card1["phash"] and card2["phash"]:
-                distance = hamming_distance(card1["phash"], card2["phash"])
-                if distance <= phash_threshold:
-                    phash_matches[distance].append(
-                        {
-                            "uuid1": card1["uuid"],
-                            "uuid2": card2["uuid"],
-                            "phash1": card1["phash"],
-                            "phash2": card2["phash"],
-                            "distance": distance,
-                        }
-                    )
+            phash_match, orb_match, orb_checked = _compare_pair(
+                card1, card2, phash_threshold, orb_threshold
+            )
+            if phash_match:
+                phash_matches[phash_match["distance"]].append(phash_match)
+            if orb_match:
+                orb_matches.append(orb_match)
+            if orb_checked:
+                orb_checks += 1
 
-                    # ONLY check ORB if pHash is similar (distance <= 5)
-                    if (
-                        distance <= 5
-                        and card1["orb_features"] is not None
-                        and card2["orb_features"] is not None
-                    ):
-                        orb_checks += 1
-                        orb_score = orb_similarity(
-                            card1["orb_features"], card2["orb_features"]
-                        )
-                        if orb_score >= orb_threshold:
-                            orb_matches.append(
-                                {
-                                    "uuid1": card1["uuid"],
-                                    "uuid2": card2["uuid"],
-                                    "orb_score": orb_score,
-                                    "phash_distance": distance,
-                                }
-                            )
+    return phash_matches, orb_matches, orb_checks
 
-    print(f"Total ORB checks performed: {orb_checks}")
 
-    # Write to file
+def _write_report(output_file, phash_matches, orb_matches, orb_checks, orb_threshold):
+    """Write the human-readable similarity report."""
     with open(output_file, "w") as f:
         f.write("=" * 60 + "\n")
         f.write("PERCEPTUAL HASH MATCHES\n")
@@ -176,6 +186,22 @@ def find_similar_hashes(db_path, output_file, phash_threshold=5, orb_threshold=3
             f"(threshold: {orb_threshold} good matches)\n"
         )
         f.write(f"Total ORB checks performed: {orb_checks}\n")
+
+
+def find_similar_hashes(db_path, output_file, phash_threshold=5, orb_threshold=30):
+    """Find pairs of images with similar pHashes or ORB features."""
+
+    print(f"Loading cards from database: {db_path}")
+    cards = load_cards_from_db(db_path)
+    print(f"Loaded {len(cards)} cards")
+
+    print("Comparing all pairs...")
+    phash_matches, orb_matches, orb_checks = _compare_all_pairs(
+        cards, phash_threshold, orb_threshold
+    )
+    print(f"Total ORB checks performed: {orb_checks}")
+
+    _write_report(output_file, phash_matches, orb_matches, orb_checks, orb_threshold)
 
     return phash_matches, orb_matches
 

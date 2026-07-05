@@ -17,6 +17,13 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 # Matches [anything not containing square brackets]
 BRACKET_RE = re.compile(r"\[([^\[\]]+)\]")
 
+STAT_KEYS = ["power", "technique", "agility", "strike", "submission", "grapple"]
+COMPETITOR_TYPES = (
+    "SingleCompetitorCard",
+    "TornadoCompetitorCard",
+    "TrioCompetitorCard",
+)
+
 
 def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
@@ -45,6 +52,72 @@ async def on_ready():
         print(f"Slash sync failed: {e}")
 
 
+def _extract_card_names(matches, limit=5):
+    """Unique, original-cased bracket names, capped at `limit` per message."""
+    seen = set()
+    names = []
+    for m in matches:
+        nm = m.strip()
+        key = nm.lower()
+        if nm and key not in seen:
+            seen.add(key)
+            names.append(nm)
+            if len(names) >= limit:
+                break
+    return names
+
+
+def _build_stat_line(data):
+    """Compact stats line, e.g. "Power 8 • Technique 6", for competitor/main-deck cards."""
+    stat_parts = []
+    if data.get("card_type") in COMPETITOR_TYPES:
+        for k in STAT_KEYS:
+            v = data.get(k)
+            if v is not None:
+                stat_parts.append(f"{k.capitalize()} {v}")
+
+    if (
+        data.get("card_type") == "MainDeckCard"
+        and data.get("deck_card_number") is not None
+    ):
+        stat_parts.append(f"Deck #{data.get('deck_card_number')}")
+
+    return " • ".join(stat_parts)
+
+
+def _build_card_embed(data, name, url):
+    """Build a discord.Embed from a resolved card payload."""
+    title = data.get("name") or name
+    rule_snip = (data.get("rules_text") or "").strip()
+    stat_line = _build_stat_line(data)
+
+    # description: stats (if any) + blank line + rules snippet
+    desc_chunks = [chunk for chunk in (stat_line, rule_snip) if chunk]
+    desc = "\n\n".join(desc_chunks) if desc_chunks else None
+
+    embed = discord.Embed(title=title, url=url, description=desc)
+    uuid = data.get("db_uuid")
+    if uuid:
+        img = f"{API_BASE}/images/fullsize/{uuid[:2]}/{uuid}.webp"
+        embed.set_thumbnail(url=img)
+    return embed
+
+
+async def _resolve_cards(session, names):
+    """Resolve card names into (embeds, fallback links)."""
+    embeds, links = [], []
+    for name in names:
+        slug = slugify(name)
+        url = f"{API_BASE}/card/{slug}"
+        data = await fetch_card(session, slug)
+        if data:
+            embeds.append(_build_card_embed(data, name, url))
+        else:
+            # fallback link if card not found via API
+            links.append(f"{name} → {url}")
+    return embeds, links
+
+
 @bot.event
 async def on_message(message: discord.Message):
     if message.author.bot:
@@ -55,87 +128,22 @@ async def on_message(message: discord.Message):
         return
 
     # keep it sane: unique, max 5 per message
-    seen = set()
-    names = []
-    for m in matches:
-        nm = m.strip()
-        key = nm.lower()
-        if nm and key not in seen:
-            seen.add(key)
-            names.append(nm)
-            if len(names) >= 5:
-                break
+    names = _extract_card_names(matches)
 
-    embeds, links = [], []
     async with aiohttp.ClientSession() as session:
-        for name in names:
-            slug = slugify(name)
-            data = await fetch_card(session, slug)
-            url = f"{API_BASE}/card/{slug}"
-
-            if data:
-                # Title + first sentence of rules
-                title = data.get("name") or name
-                rules = (data.get("rules_text") or "").strip()
-                rule_snip = rules
-
-                # Build compact stats line for competitor cards
-                stats_keys = [
-                    "power",
-                    "technique",
-                    "agility",
-                    "strike",
-                    "submission",
-                    "grapple",
-                ]
-                stat_parts = []
-                if data.get("card_type") in (
-                    "SingleCompetitorCard",
-                    "TornadoCompetitorCard",
-                    "TrioCompetitorCard",
-                ):
-                    for k in stats_keys:
-                        v = data.get(k)
-                        if v is not None:
-                            stat_parts.append(f"{k.capitalize()} {v}")
-
-                # Include deck_card_number for MainDeckCard if present
-                if (
-                    data.get("card_type") == "MainDeckCard"
-                    and data.get("deck_card_number") is not None
-                ):
-                    stat_parts.append(f"Deck #{data.get('deck_card_number')}")
-
-                stat_line = " • ".join(stat_parts)  # e.g. "Power 8 • Technique 6"
-
-                # Build description: stats (if any) + blank line + rules snippet
-                desc_chunks = []
-                if stat_line:
-                    desc_chunks.append(stat_line)
-                if rule_snip:
-                    desc_chunks.append(rule_snip)
-                desc = "\n\n".join(desc_chunks) if desc_chunks else None
-
-                embed = discord.Embed(title=title, url=url, description=desc)
-                uuid = data.get("db_uuid")
-                if uuid:
-                    img = f"{API_BASE}/images/fullsize/{uuid[:2]}/{uuid}.webp"
-                    embed.set_thumbnail(url=img)
-                embeds.append(embed)
-            else:
-                # fallback link if card not found via API
-                links.append(f"{name} → {url}")
+        embeds, links = await _resolve_cards(session, names)
 
     if embeds or links:
+        content = "\n".join(links) if links else None
         try:
             await message.reply(
-                content="\n".join(links) if links else None,
+                content=content,
                 embeds=embeds,
                 mention_author=False,
             )
         except discord.HTTPException:
             await message.channel.send(
-                content="\n".join(links) if links else None,
+                content=content,
                 embeds=embeds,
             )
 

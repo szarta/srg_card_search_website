@@ -2827,6 +2827,17 @@
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
     - Old School Wave 1
+- name: Nacho Knockout
+  db_uuid: 7ea6c4fdf49e408da7626eaf3c291497
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'Shuffle up to 1 card from your discard pile into your deck.
+
+    Your next turn roll is +1.'
+  tags:
+    - Super Lucha
 - name: Kick Into The Corner
   db_uuid: 7fb5d6c7305d4e5792358063e2a88c1f
   srg_url: https://supershowthegame.com/product/13-kick-into-the-corner/

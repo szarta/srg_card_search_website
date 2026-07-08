@@ -88467,3 +88467,12 @@
   tags: []
   related_cards:
     - 9826c24dec564015b0aa567a51d241ce
+- name: Firestarter Rocket
+  db_uuid: fb3e9c2b36114fedab8ff2909da841e6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: If you have a Stop in play, draw 2 cards.
+  tags:
+    - Super Lucha

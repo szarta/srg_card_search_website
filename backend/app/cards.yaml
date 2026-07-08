@@ -88115,3 +88115,162 @@
   tags: []
   related_cards:
     - 913eb19fc206422782d287f4aa23f11d
+- name: Velvet Assassin Indy Hunter
+  db_uuid: 931579e7f4d44fbcbd66f7105e51e40b
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 6
+  agility: 10
+  strike: 7
+  submission: 8
+  grapple: 5
+  rules_text: 'During your target''s turn:
+
+    Your next turn roll is + the number of cards they drew this turn.'
+  tags: []
+  related_finishes:
+    - 3ca2c8075fdf47e5a9ad1dd1367124f3
+    - 967c6b548f0547f5b9dba4799a08fd4d
+    - ee80dc2b5b264b9fbe1aea1091e0437e
+- name: Perfect Dropkick
+  db_uuid: 3ca2c8075fdf47e5a9ad1dd1367124f3
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Technique
+
+    +3 to Strike
+
+    At the start of your opponent''s next turn, each player draws 2 cards.'
+  tags: []
+  related_cards:
+    - 931579e7f4d44fbcbd66f7105e51e40b
+- name: Super Indytaker
+  db_uuid: 967c6b548f0547f5b9dba4799a08fd4d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +4 to Grapple'
+  tags: []
+  related_cards:
+    - 931579e7f4d44fbcbd66f7105e51e40b
+- name: Whip Choke
+  db_uuid: ee80dc2b5b264b9fbe1aea1091e0437e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Add 1 Lead from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 931579e7f4d44fbcbd66f7105e51e40b
+- name: Florida Man
+  db_uuid: fbcd9745386446b8be76731011edd80b
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  rules_text: 'Your "Alligator Roll" is also card #16, #17, and #18.'
+  tags: []
+  related_finishes:
+    - 57f678b34e1440688c158a2daf507535
+    - 3013b2235f8f4d379befa9e74df278b5
+    - 3be2c32ce8ad41199c019e51471b995c
+- name: The Florida Roll
+  db_uuid: 57f678b34e1440688c158a2daf507535
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Submission
+
+    +1 to Grapple
+
+    If you have at least 10 Strikes in play, your opponent cannot break out.'
+  tags: []
+  related_cards:
+    - fbcd9745386446b8be76731011edd80b
+- name: Gator Dunn DDT
+  db_uuid: 3013b2235f8f4d379befa9e74df278b5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: Shuffle 1 card from your discard pile into your deck, draw 1 card, and your Finish roll is +1 for each card you have in play with "Gator" in the name (Max +3).
+  tags: []
+  related_cards:
+    - fbcd9745386446b8be76731011edd80b
+- name: By The Skin of His Teeth
+  db_uuid: 3be2c32ce8ad41199c019e51471b995c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Power
+
+    +2 to Submission
+
+    You may discard "Alligator Roll" from your hand to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - fbcd9745386446b8be76731011edd80b
+- name: J Tagas
+  db_uuid: 30cad233d0364e188ba962d7f891619f
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 7
+  rules_text: When you hit a card with "Knee" or "Tiger" in the name, draw 1 card or add 1 Strike from your discard pile to your hand.
+  tags: []
+  related_finishes:
+    - 86f49e110d774926af2776e03ebc2038
+    - 771c2dfef2804e338eaa4085beedd8ff
+    - d46456ccf8a249bd980d085b4a110590
+- name: Lion Shot
+  db_uuid: 86f49e110d774926af2776e03ebc2038
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Agility
+
+    +1 to Strike
+
+    Discard 3 cards from your hand.'
+  tags: []
+  related_cards:
+    - 30cad233d0364e188ba962d7f891619f
+- name: Lion Uppercut
+  db_uuid: 771c2dfef2804e338eaa4085beedd8ff
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: +1 to Power and Grapple for each card you have in play with "Knee" or "Tiger" in the name (Max +3).
+  tags: []
+  related_cards:
+    - 30cad233d0364e188ba962d7f891619f
+- name: Lion Genocide
+  db_uuid: d46456ccf8a249bd980d085b4a110590
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: +3 to Submission this card is also a Strike.
+  tags: []
+  related_cards:
+    - 30cad233d0364e188ba962d7f891619f

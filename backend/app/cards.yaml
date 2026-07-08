@@ -88419,6 +88419,10 @@
 
     If you have equal or fewer cards in your hand than your target, and they won the last 2 turn rolls, draw 1 card.'
   tags: []
+  related_finishes:
+    - 3037518d1d17485fb779c5ddd5b7f3b6
+    - 762c311f6e464e8a953fd732fd4e87b8
+    - a5358d5adb2a4b67b6f45286fc6834a7
 - name: Spike Town
   db_uuid: 3037518d1d17485fb779c5ddd5b7f3b6
   card_type: MainDeckCard
@@ -88433,6 +88437,8 @@
 
     Draw 1 card.'
   tags: []
+  related_cards:
+    - 9826c24dec564015b0aa567a51d241ce
 - name: Stanton Dump
   db_uuid: 762c311f6e464e8a953fd732fd4e87b8
   card_type: MainDeckCard
@@ -88447,6 +88453,8 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  related_cards:
+    - 9826c24dec564015b0aa567a51d241ce
 - name: Stanton Stretch
   db_uuid: a5358d5adb2a4b67b6f45286fc6834a7
   card_type: MainDeckCard
@@ -88457,3 +88465,5 @@
 
     If your opponent won the last 2 turn rolls, stop any Finish Strike.'
   tags: []
+  related_cards:
+    - 9826c24dec564015b0aa567a51d241ce

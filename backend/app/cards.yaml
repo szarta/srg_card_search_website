@@ -88274,3 +88274,186 @@
   tags: []
   related_cards:
     - 30cad233d0364e188ba962d7f891619f
+- name: The Bull
+  db_uuid: 894c9965da684adb8ab5f532bafbff59
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  rules_text: 'When your turn roll is exactly 3 less than your target''s turn roll:
+
+    Your next turn roll is +1;
+
+    If it is exactly 4 less, it is +2,
+
+    If it is at least 5 less, it is +3.'
+  tags: []
+  related_finishes:
+    - 0f5e169b51db48cf98379560f921d891
+    - 7c70b4f783274d70b2ad60bd6dbb5020
+    - e10bbd58b40543a69da4253b5bfa33c5
+- name: Cake Smash
+  db_uuid: 0f5e169b51db48cf98379560f921d891
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Agility
+
+    +2 to Strike
+
+    Reveal the top 7 cards of your deck; randomly add 3 to your hand, and flip the others.'
+  tags: []
+  related_cards:
+    - 894c9965da684adb8ab5f532bafbff59
+- name: Pig Tail Swing
+  db_uuid: 7c70b4f783274d70b2ad60bd6dbb5020
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+3 to Technique
+
+    +2 to Agility
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If stopped, your next turn roll is -3.'
+  tags: []
+  related_cards:
+    - 894c9965da684adb8ab5f532bafbff59
+- name: The Iron Maiden
+  db_uuid: e10bbd58b40543a69da4253b5bfa33c5
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    +2 to Submission'
+  tags: []
+  related_cards:
+    - 894c9965da684adb8ab5f532bafbff59
+- name: Tomato Tomato Jr.
+  db_uuid: 9d97eac40c3048e392de35c0f3812a46
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 7
+  submission: 9
+  grapple: 6
+  rules_text: When you or your target roll Power for the turn roll, your target's turn roll is -1.
+  tags: []
+  related_finishes:
+    - 1d24ea1a8a354c9ab27a2776c91cda47
+    - b6896677acfb4ccc998b1a0e36102838
+    - cafd810652ea41c4b628e7cb2a1f583b
+- name: Beefsteak!
+  db_uuid: 1d24ea1a8a354c9ab27a2776c91cda47
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +2 to Strike
+
+    +1 to Submission
+
+    Discard 1 card from your hand.
+
+    Burn 1 card in your discard pile.'
+  tags: []
+  related_cards:
+    - 9d97eac40c3048e392de35c0f3812a46
+- name: Tomato Tomato Tornado Tornado
+  db_uuid: b6896677acfb4ccc998b1a0e36102838
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Grapple
+
+    If either player rolled Power for their turn roll, draw 2 cards.
+
+    If you rolled Agility or Strike for your Finish roll, you may draw 1 card to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 9d97eac40c3048e392de35c0f3812a46
+- name: Vine Time!
+  db_uuid: cafd810652ea41c4b628e7cb2a1f583b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Submission
+
+    +2 to Grapple
+
+    Add 1 card from yoru discard pile to your hand.
+
+    If both players rolled Power for their turn roll, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 9d97eac40c3048e392de35c0f3812a46
+- name: Sam Stanton
+  db_uuid: 9826c24dec564015b0aa567a51d241ce
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'During the turn roll:
+
+    If you have equal or fewer cards in your hand than your target, and they won the last 2 turn rolls, draw 1 card.'
+  tags: []
+- name: Spike Town
+  db_uuid: 3037518d1d17485fb779c5ddd5b7f3b6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+3 to Power
+
+    +1 to Agility
+
+    Shuffle up to 4 cards from your discard pile into your deck.
+
+    Draw 1 card.'
+  tags: []
+- name: Stanton Dump
+  db_uuid: 762c311f6e464e8a953fd732fd4e87b8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Technique
+
+    +3 to Submission
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+- name: Stanton Stretch
+  db_uuid: a5358d5adb2a4b67b6f45286fc6834a7
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    If your opponent won the last 2 turn rolls, stop any Finish Strike.'
+  tags: []

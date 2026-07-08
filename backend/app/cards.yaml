@@ -88476,3 +88476,14 @@
   rules_text: If you have a Stop in play, draw 2 cards.
   tags:
     - Super Lucha
+- name: Panini Press
+  db_uuid: 7dfc5caa9bbb4d12bb581382471bf0bc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Shuffle up to 1 card from your discard pile into your deck.
+
+    Your next turn roll is +1.'
+  tags:
+    - Super Lucha

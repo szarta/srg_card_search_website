@@ -79338,7 +79338,7 @@
   deck_card_number: 4
   rules_text: Search your deck or discard pile for a skill requirement card and add it to your hand.
   tags: []
-- name: Wonderful Muggin'
+- name: Wonderful Muggin' (Technique)
   db_uuid: 15f9445d98314f3b83d28e30d2a9bf56
   srgpc_url: https://www.srgpc.net/card/4/wonderful-muggin/
   card_type: MainDeckCard
@@ -79347,7 +79347,9 @@
   deck_card_number: 4
   rules_text: 'Stop any Follow Up Grapple.
 
-    Flip cards until you flip a Strike, add that Strike to your hand.'
+    Flip cards until you flip a Strike, add that Strike to your hand.
+
+    Skill Requirement: Technique 8+'
   tags: []
 - name: Cast Aside
   db_uuid: 65ad8c3e8604414c8a16abe85b907b00

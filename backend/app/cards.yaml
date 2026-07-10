@@ -15211,6 +15211,15 @@
   tags: []
   wants_keywords:
     - Chain
+- name: Lightning-Powered Rocket-Leg Kicks
+  db_uuid: 91ac43251ab54934b91cba40afcd6144
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: If you have another Follow Up in play, look at the top 4 cards of your deck; put 1 in your hand and flip the others.
+  tags:
+    - Super Lucha
 - name: Ax Bomber
   db_uuid: 8854c55820e44dc3a031cede7af0289a
   card_type: MainDeckCard

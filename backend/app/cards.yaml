@@ -15053,15 +15053,44 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: Takeover With The Ring Steps
+- name: Takeover With The Ring Steps (V1)
   db_uuid: a176d7c027f7451f9747987c3c7a4959
-  srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-ring-steps-v2/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
   deck_card_number: 15
   rules_text: Bury 3 cards in your opponent's discard pile.
   tags: []
+- name: Takeover With The Ring Steps (V2)
+  db_uuid: d716cf1bf44241529c7a04e39c0d60a8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Bury 3 cards in your opponent''s discard pile.
+
+    The Crowd Meter is considered -1 for all effects.'
+  tags: []
+- name: Fluting Frenzy
+  db_uuid: 4f165365eb314d1badfcd4b046f21aa2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: If you have a Stop in play, draw 2 cards.
+  tags:
+    - Super Lucha
+- name: Cobra Crush
+  db_uuid: 14f2c3494eaf4fe58f54c83e6afa990f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Shuffle up to 1 card from your discard pile into your deck.
+
+    Your next turn roll is +1.'
+  tags:
+    - Super Lucha
 - name: Takeover With The Sledgehammer (V1)
   db_uuid: 11264dcdf90249ad88b24abde6063a02
   srgpc_url: https://www.srgpc.net/cards/15/takeover-with-the-sledgehammer/

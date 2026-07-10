@@ -15813,15 +15813,6 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: Split Leg Drop
-  db_uuid: e78202e164554a4dafbaaf6c605d56a8
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 16
-  rules_text: If you have a Follow Up in play, look at your opponent's hand.
-  tags:
-    - Old School Wave 3
 - name: Roll, Flip, Squat!
   db_uuid: f0576b96ca954161b0f7bb25215dac7b
   srgpc_url: https://www.srgpc.net/cards/16/roll-flip-squat/

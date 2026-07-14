@@ -88619,6 +88619,7 @@
     - 1ea91ed2c91747f7806571a25debc498
 - name: Queen of Rock
   db_uuid: 5dbd7e84b45a4473b1c096c3b90cf9d3
+  card_type: SingleCompetitorCard
   power: 10
   technique: 7
   agility: 9

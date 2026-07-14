@@ -24336,6 +24336,27 @@
   deck_card_number: 27
   rules_text: Stop any Finish Strike, your next turn roll is +2.
   tags: []
+- name: Chicken Wing (V3)
+  db_uuid: 406865dda92640d8962e00d1e9f36834
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Your next turn roll is +2.'
+  tags: []
+- name: Spin-estrone Soup
+  db_uuid: cdd91cbaf92a4c149dc8c6e6504edb0c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'Stop any Lead Strike or Finish Strike.
+
+    Add 1 Follow Up Submission from your discard pile to your hand.'
+  tags:
+    - Super Lucha
 - name: Choke Out (V1)
   db_uuid: 6d182040e8414f419777a13f6a1ec838
   srgpc_url: https://www.srgpc.net/cards/27/choke-out/

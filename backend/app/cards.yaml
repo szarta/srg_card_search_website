@@ -23386,6 +23386,16 @@
 
     Your next turn roll is +2.'
   tags: []
+- name: Superman Punch (V3)
+  db_uuid: 3a3039782f3444d29bd2c00c7ab3311e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 25
+  rules_text: 'Stop any Lead Grapple or Finish Grapple.
+
+    Your next turn roll is +2.'
+  tags: []
 - name: Supersonic Slap (Strike)
   db_uuid: 3eeadbda73264d15badba997eda3dadc
   srgpc_url: https://www.srgpc.net/cards/25/supersonic-slap/
@@ -24083,6 +24093,16 @@
   play_order: Lead
   deck_card_number: 26
   rules_text: 'Stop any Finish Submission.
+
+    Your next turn roll is +2.'
+  tags: []
+- name: Spinning Side Slam (V3)
+  db_uuid: c80f6b8ee5a34fbfa1a58ee77fa75cb2
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'Stop any Lead Submission or Finish Submission.
 
     Your next turn roll is +2.'
   tags: []
@@ -85522,6 +85542,14 @@
   tags: []
   wants_keywords:
     - Wrapping Paper
+- name: Plátano Counter Dropkick
+  db_uuid: dee755acea90460db3945e1a17a8a188
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: Stop any Finish Grapple that doesn't have a competitor logo.
+  tags: []
 - name: Going Over the Holiday Wrapping Paper
   db_uuid: c6c2f5e621bc402b976d482f555a7104
   card_type: MainDeckCard

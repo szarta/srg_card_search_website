@@ -80376,6 +80376,17 @@
 
     The player with the fewest cards in hand draws 1 card.'
   tags: []
+- name: Choppin' Lumber
+  db_uuid: 0bd12a18508846f7840d3c41b8e12655
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Finish Grapple.
+
+    Bury 1 Strike in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: Jumping Dodge
   db_uuid: e29e1de9075a4c41ba661755cdf69369
   srgpc_url: https://www.srgpc.net/cards/19/jumping-dodge/
@@ -80386,6 +80397,16 @@
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
     Each player randomly discards 1 card from their hand.'
+  tags: []
+- name: Middle Rope Missile Kick
+  db_uuid: 9b8311f1f33d4ca3b312dcf5564da3a7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Each player flips 1 card.'
   tags: []
 - name: Terror Strikes
   db_uuid: 9da20eb2255748b3aec0f1cb1f0dcac6

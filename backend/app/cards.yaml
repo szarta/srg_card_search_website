@@ -21014,6 +21014,17 @@
 
     If this is a Triad match, you may shuffle your deck.'
   tags: []
+- name: Boom! Dynamite
+  db_uuid: 54f898b76af24321ab826ca8911ff51f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Your next 3 turn rolls are +1.'
+  tags:
+    - Super Lucha
 - name: Bridging German Suplex
   db_uuid: bccda824b93347b18db0ed76533b84a5
   card_type: MainDeckCard

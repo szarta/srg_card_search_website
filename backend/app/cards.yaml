@@ -80014,6 +80014,16 @@
 
     Shuffle your deck.'
   tags: []
+- name: Sadistic Slam (Power)
+  db_uuid: b860109eea18449b945dc8a8fb0f12a6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Search your deck or discard pile for a Grapple and add it to your hand.
+
+    You may re-roll your next turn roll.'
+  tags: []
 - name: Double Underhook Suplex
   db_uuid: 5eb9c275ebf441e9b52b9060091db35a
   card_type: MainDeckCard

@@ -9605,7 +9605,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
-- name: Once More, With Feeling
+- name: "Once More, With Feeling!"
   db_uuid: 89cd851ecd554ff9947dc12e66e241f4
   srgpc_url: https://www.srgpc.net/cards/8/once-more-with-feeling/
   card_type: MainDeckCard

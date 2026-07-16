@@ -79237,6 +79237,16 @@
     - Super Lucha
   related_cards:
     - 79b3b861f1eb4a9ab11fdf5742841708
+- name: Tango of the Toro
+  db_uuid: cb05280c50624fe082f41daa70ecd22a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Finish Strike.
+
+    Bury 1 Submission in either player''s discard pile.'
+  tags: []
 - name: Neck Spin
   db_uuid: fbe98a0ef0094575859e1cfe7d930689
   card_type: MainDeckCard
@@ -80606,6 +80616,17 @@
 
     If this card is flipped by "Set up the Table", add it to your hand.'
   tags: []
+- name: Erupting Llama Finger!!!
+  db_uuid: 9daa1cc9628441e9bae9fac6a22d5e70
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Bury 1 card in your discard pile.
+
+    Your next 3 turn rolls are +1.'
+  tags:
+    - Super Lucha
 - name: Beat With The Microphone
   db_uuid: 42bb47d5f8cd44e79dfb8364d6522e9b
   srgpc_url: https://www.srgpc.net/cards/22/beat-with-the-microphone/

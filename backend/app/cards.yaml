@@ -81109,7 +81109,7 @@
     Discard 1 card your opponent has in play.'
   tags:
     - Old School Wave 3
-- name: Seated Headlock
+- name: Sealed Headlock
   db_uuid: 06fff2b78dcc4a7b9eae219c39a448a9
   card_type: MainDeckCard
   atk_type: Submission

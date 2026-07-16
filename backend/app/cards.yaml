@@ -21245,9 +21245,8 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: Daredevil Slam
+- name: Daredevil Slam (V1)
   db_uuid: c32165b14bb4412882708c8b0aa7afb5
-  srgpc_url: https://www.srgpc.net/cards/23/daredevil-slam-v2/
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -21255,6 +21254,18 @@
   rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
 
     Shuffle your deck.'
+  tags: []
+- name: Daredevil Slam (V2)
+  db_uuid: ad7d690d604d41b58679e73a0fc549c8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
+
+    Shuffle your deck.
+
+    Draw 2 cards.'
   tags: []
 - name: Death Valley Driver
   db_uuid: 3a6c39261ec745c7b6a7f191194b738b

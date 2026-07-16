@@ -9605,7 +9605,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
-- name: "Once More, With Feeling!"
+- name: Once More, With Feeling!
   db_uuid: 89cd851ecd554ff9947dc12e66e241f4
   srgpc_url: https://www.srgpc.net/cards/8/once-more-with-feeling/
   card_type: MainDeckCard
@@ -24280,7 +24280,7 @@
   tags: []
   wants_keywords:
     - Microphone
-- name: Backlash With The Ring Steps
+- name: Backlash With The Ring Steps (V1)
   db_uuid: d04ee5b9ee8d4c65a168cf191c5d011e
   srgpc_url: https://www.srgpc.net/cards/27/backlash-with-the-ring-steps-v2/
   card_type: MainDeckCard
@@ -24290,6 +24290,16 @@
   rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Strike or Finish Strike.
 
     Draw 2 cards or your opponent randomly buries 1 card in their hand.'
+  tags: []
+- name: Backlash With The Ring Steps (V2)
+  db_uuid: 88c840b9d8c94b16bb91355a4bcf243b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Strike or Finish Strike.
+
+    Draw 2 cards.  Your opponent randomly buries 1 card in their hand.'
   tags: []
 - name: Backlash With The Steel Chain
   db_uuid: 1b1d4906d3144e00a5c3c64b3e5757f8

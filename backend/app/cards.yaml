@@ -22167,9 +22167,8 @@
 
     Add 1 Submission and 1 Strike from your discard pile to your hand, or your opponent buries 1 card in their hand.'
   tags: []
-- name: Crossbow (V1)
+- name: Crossbow (V2)
   db_uuid: a6ad070352174e75b7def01cded6224e
-  srgpc_url: https://www.srgpc.net/cards/24/crossbow/
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup
@@ -22177,7 +22176,7 @@
   rules_text: Search your deck or discard pile for 1 Submission, put it on top of your shuffled deck.
   tags:
     - Old School Wave 1
-- name: Crossbow (V2)
+- name: Crossbow (V1)
   db_uuid: 1520cc8877ce469cad7b69f8de85484f
   card_type: MainDeckCard
   atk_type: Submission

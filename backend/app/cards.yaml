@@ -23559,7 +23559,7 @@
   tags: []
   wants_keywords:
     - Guitar
-- name: Backlash With The Steel Chair
+- name: Backlash With The Steel Chair (V1)
   db_uuid: 017b1e1526544759ba955c29b3ae9fa3
   srgpc_url: https://www.srgpc.net/cards/26/backlash-with-the-steel-chair-v2/
   card_type: MainDeckCard
@@ -23569,6 +23569,16 @@
   rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Submission or Finish Submission.
 
     Draw 2 cards or shuffle 1 card from your discard pile into your deck.'
+  tags: []
+- name: Backlash With The Steel Chair (V2)
+  db_uuid: 08ba4390a2d54004a89c39aab45fa479
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  rules_text: 'If the Crowd Meter is 2 or less, stop any Lead Submission or Finish Submission.
+
+    Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
   tags: []
 - name: Backlash With The Table
   db_uuid: c40c366f6db845e8bba9ba0ed13db1b9

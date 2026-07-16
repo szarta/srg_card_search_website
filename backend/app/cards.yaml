@@ -79130,6 +79130,16 @@
 
     The next time your opponent''s Gimmick would draw them any number of cards, you draw 2 cards instead.'
   tags: []
+- name: Blindside Toss
+  db_uuid: 5bc6f93211884c558d57793fc2a1e5e3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Each player flips 1 card.'
+  tags: []
 - name: Death Riding DDT
   db_uuid: 85f73f91fe9549649baf47a5bafbaaf6
   srgpc_url: https://www.srgpc.net/cards/20/death-riding-ddt/

@@ -18013,6 +18013,16 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+- name: Lou Thez Press Punches
+  db_uuid: d27205ae68c54e859f896f476ca72674
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'Your opponent discards all Grapples they have in play.
+
+    Your next turn roll is +3.'
+  tags: []
 - name: Madness Unsealed (Agility)
   db_uuid: a401fc3b6fb6462ab85aff0b21de370d
   srgpc_url: https://www.srgpc.net/cards/19/madness-unsealed/

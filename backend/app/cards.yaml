@@ -20808,17 +20808,6 @@
 
     Draw 1 card.'
   tags: []
-- name: Show Boat
-  db_uuid: fa512c6ee7d14e4b9cb6690147fa4e70
-  srgpc_url: https://www.srgpc.net/cards/22/showboat-v2/
-  card_type: MainDeckCard
-  atk_type: Strike
-  play_order: Followup
-  deck_card_number: 22
-  rules_text: 'Search your deck for up to 4 cards and put them into your discard pile.
-
-    Shuffle your deck.'
-  tags: []
 - name: Sky-High Knee Drop
   db_uuid: d7d8149656db4acb86cef99cbbc0942d
   srgpc_url: https://www.srgpc.net/cards/22/sky-high-knee-drop/

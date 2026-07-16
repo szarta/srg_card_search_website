@@ -79140,6 +79140,17 @@
 
     Each player flips 1 card.'
   tags: []
+- name: Fling Into the Ring Ropes
+  db_uuid: 15b9f78c110d4fc98240d86813b40f86
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Bury 1 Grapple in either player''s discard pile.'
+  tags:
+    - Super Lucha
 - name: Death Riding DDT
   db_uuid: 85f73f91fe9549649baf47a5bafbaaf6
   srgpc_url: https://www.srgpc.net/cards/20/death-riding-ddt/

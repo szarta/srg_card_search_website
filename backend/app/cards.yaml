@@ -80408,6 +80408,16 @@
 
     Each player flips 1 card.'
   tags: []
+- name: He's My Friend, He's My Alibi
+  db_uuid: 2fd9894b4a4b457895af25651c213398
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
+
+    Your opponent and your tag team partner draw 1 card.'
+  tags: []
 - name: Terror Strikes
   db_uuid: 9da20eb2255748b3aec0f1cb1f0dcac6
   srgpc_url: https://www.srgpc.net/cards/19/terror-strikes/

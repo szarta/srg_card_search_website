@@ -79237,6 +79237,16 @@
     - Super Lucha
   related_cards:
     - 79b3b861f1eb4a9ab11fdf5742841708
+- name: Neck Spin
+  db_uuid: fbe98a0ef0094575859e1cfe7d930689
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Each player flips 1 card.'
+  tags: []
 - name: Catch Sleeper Stretch
   db_uuid: 6d5702935cc34524b20919b78cbc934e
   srgpc_url: https://www.srgpc.net/cards/21/catch-sleeper-stretch/

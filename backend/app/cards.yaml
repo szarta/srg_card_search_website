@@ -51425,9 +51425,10 @@
   db_uuid: 878b99961c7b41d491e9f1cab60d1df6
   card_type: SingleCompetitorCard
   division: Intergalactic
-  technique: 8
-  agility: 10
-  strike: 9
+  power: 8
+  technique: 10
+  agility: 9
+  strike: 6
   submission: 7
   grapple: 5
   rules_text: The maximum number of cards your opponent can draw for any card effect or Gimmick is 1 card.
@@ -61795,12 +61796,12 @@
   srgpc_url: https://www.srgpc.net/cards/competitors/ricochet/
   card_type: SingleCompetitorCard
   division: Global
-  power: 6
+  power: 8
   technique: 9
   agility: 10
   strike: 6
   submission: 5
-  grapple: 9
+  grapple: 7
   rules_text: After you flip any number of cards, draw 1 card.
   tags:
     - Hall of Fame

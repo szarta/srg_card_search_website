@@ -79,6 +79,7 @@ class Card(Base):
     srgpc_url = Column(String)
     release_set = Column(String)
     is_banned = Column(Boolean, default=False)
+    spotlight = Column(Boolean, default=False)
     rules_text = Column(String)
     errata_text = Column(String)
     comments = Column(String)

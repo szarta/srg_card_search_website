@@ -63,6 +63,7 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "play_order": getattr(card, "play_order", None),
         "deck_card_number": getattr(card, "deck_card_number", None),
         "is_banned": card.is_banned,
+        "spotlight": card.spotlight,
         "rules_text": card.rules_text,
         "errata_text": card.errata_text,
         "tags": card.tags or [],

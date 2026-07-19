@@ -861,6 +861,7 @@
     - c0bfb96bd9054080960a0ecbaeb13e64
 - name: Cuddle Time
   db_uuid: 2a38028795434275a8abbfbfa7e26e53
+  spotlight: true
   srg_url: https://supershowthegame.com/product/abigail-fairy-in-training/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -1437,6 +1438,7 @@
     - 56608588327c405bb148ae2d2feafecc
 - name: Half Nelson Suplex
   db_uuid: 4a8ada07bd32499b964de543c6ac5099
+  spotlight: true
   srg_url: https://supershowthegame.com/product/adam-page/
   card_type: MainDeckCard
   atk_type: Submission
@@ -3364,6 +3366,7 @@
   tags: []
 - name: 'Restoration Potion #8'
   db_uuid: d0c314cb65a94de78da5b21a9286b3d5
+  spotlight: true
   srg_url: https://supershowthegame.com/product/08-restoration-potion-8/
   srgpc_url: https://www.srgpc.net/cards/8/restoration-potion-8/
   card_type: MainDeckCard
@@ -3563,6 +3566,7 @@
   tags: []
 - name: Can You Afford This? (V1)
   db_uuid: a74d29fd1f9143d08bdd9a83fd4a1982
+  spotlight: true
   srg_url: https://supershowthegame.com/product/10-can-you-afford-this/
   srgpc_url: https://www.srgpc.net/cards/10/can-you-afford-this/
   card_type: MainDeckCard
@@ -3850,6 +3854,7 @@
     - Taunt
 - name: The Art Attack
   db_uuid: b6987823bf204fe8b1e170840d0d277d
+  spotlight: true
   srg_url: https://supershowthegame.com/product/art-the-seal/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4114,6 +4119,7 @@
     - 1a6c7ef85ca54ac991d99363f5fa8597
 - name: Liberté, Égalité, Fraternité!
   db_uuid: 75a5d7c95e20425d8c1d685cfd27a16f
+  spotlight: true
   srg_url: https://supershowthegame.com/product/alana-antoinnette/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4915,6 +4921,7 @@
   tags: []
 - name: Rope Ladder from the Jumbotron
   db_uuid: aef9375c26324249ba45a5edb6c8a7c6
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Followup
@@ -8484,6 +8491,7 @@
   tags: []
 - name: Charging Knee
   db_uuid: 544b051a837b410dac61b476dc54bf57
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Lead
@@ -8558,6 +8566,7 @@
     - Baseball Bat
 - name: Blinding Potion No. 7
   db_uuid: 5f0e6868fb3548a8b2edec12b58a65cb
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/blinding-potion-no-7/
   card_type: MainDeckCard
   atk_type: Strike
@@ -8739,6 +8748,7 @@
     - Super Lucha
 - name: Jump Kick
   db_uuid: 0b95e98f3b4448ffaf94817ccc881285
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/jump-kick/
   card_type: MainDeckCard
   atk_type: Strike
@@ -8751,6 +8761,7 @@
     - Old School Wave 1
 - name: Jumping Stomp
   db_uuid: 89f32ba6499a426d9b731c62f68c70f7
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/jumping-stomp/
   card_type: MainDeckCard
   atk_type: Strike
@@ -9041,6 +9052,7 @@
     - Old School Wave 2
 - name: Standing Dropkick
   db_uuid: c97ea70d1df749f9873f3a85bad5af5a
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/standing-dropkick/
   card_type: MainDeckCard
   atk_type: Strike
@@ -9170,6 +9182,7 @@
     - Old School Wave 2
 - name: Unacceptable Impact
   db_uuid: d25674b488a94ec7a5c4a6bb87623425
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/unacceptable-impact/
   card_type: MainDeckCard
   atk_type: Strike
@@ -9274,6 +9287,7 @@
   tags: []
 - name: Big Dimes Potion
   db_uuid: f9330c1604d34252acb1987faaf9800d
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/8/big-dimes-potion/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9460,6 +9474,7 @@
   tags: []
 - name: Greco Roman Takedown
   db_uuid: bbc5612baee94008ae4f5b03a6d413ed
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/8/greco-roman-takedown/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9485,6 +9500,7 @@
     - Guitar
 - name: Gut Buster
   db_uuid: b867f891bb1e45c1ae0af0235c796bc9
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/8/gut-buster/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9871,6 +9887,7 @@
   tags: []
 - name: Tiger Suplex
   db_uuid: 3d42009219a94529aac40e95cc3dfe28
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/8/tiger-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9967,6 +9984,7 @@
     - Super Lucha
 - name: The King's Gambit
   db_uuid: 652f58d1a6304da1892f117cede1834f
+  spotlight: true
   srg_url: https://supershowthegame.com/product/09-the-kings-gambit/
   srgpc_url: https://www.srgpc.net/cards/9/the-kings-gambit/
   card_type: MainDeckCard
@@ -10016,6 +10034,7 @@
   tags: []
 - name: Arm Buster
   db_uuid: 60016e6dbe27473f90cdf28cd9a63579
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/arm-buster/
   card_type: MainDeckCard
   atk_type: Submission
@@ -10095,6 +10114,7 @@
   tags: []
 - name: Chin Wrenching
   db_uuid: 8c5e9405027444abba10eb876065ab76
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/chin-wrenching/
   card_type: MainDeckCard
   atk_type: Submission
@@ -10181,6 +10201,7 @@
   tags: []
 - name: 'Escape Potion #9 (V1)'
   db_uuid: a695ccc133714ed6aaa1caaefa61705f
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/escape-potion-9-v2/
   card_type: MainDeckCard
   atk_type: Submission
@@ -10425,6 +10446,7 @@
     - Old School Wave 2
 - name: Restoration Hand Shake
   db_uuid: ed6069fb980543e99c81de6e935d39e1
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/restoration-hand-shake
   card_type: MainDeckCard
   atk_type: Submission
@@ -10470,6 +10492,7 @@
     - Ring Steps
 - name: Rolling Headlock
   db_uuid: 0d8a3553822c4eab9b3ff8a52022a152
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/rolling-headlock/
   card_type: MainDeckCard
   atk_type: Submission
@@ -10606,6 +10629,7 @@
     - Old School Wave 3
 - name: Submission Contest
   db_uuid: 5acd5c3cbd7647cea6a6a3d159b6f51e
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
@@ -11242,7 +11266,7 @@
   deck_card_number: 10
   rules_text: Your next turn roll is +1 for each Strike your opponent has in play.
   tags: []
-- name: Rabbit Punch
+- name: Rabbit Punch (#10)
   db_uuid: 73515b66459f401e80bc33fc605e9612
   srgpc_url: https://www.srgpc.net/cards/10/rabbit-punch/
   card_type: MainDeckCard
@@ -11668,6 +11692,7 @@
     - Old School Wave 3
 - name: Hello There (V1)
   db_uuid: 2095f8f102f24ab6802ac6edba0d43b8
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/11/hello-there/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -12606,6 +12631,7 @@
   tags: []
 - name: You Can't Cage Me (V1)
   db_uuid: b00da4f1238b41b8aece8e4d6c59f894
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/12/you-cant-cage-me/
   card_type: MainDeckCard
   atk_type: Submission
@@ -12830,8 +12856,9 @@
   tags: []
   wants_keywords:
     - Drumstick
-- name: Duck 1 Take 1
+- name: Duck 1 Take 1 (V1)
   db_uuid: d69fcd5666884f83a2d6d88210c737b1
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/13/duck-1-take-1/
   card_type: MainDeckCard
   atk_type: Strike
@@ -12840,6 +12867,15 @@
   rules_text: 'If any player played a Stop card last turn this card is also a Lead.
 
     When this card is in your discard pile, if your opponent stops a Strike, you may add it to your hand.'
+  tags: []
+- name: Duck 1 - Take 1 (V2)
+  db_uuid: a0befa0f98384d7a891b0b6574737b36
+  spotlight: true
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: If either player stopped a card last turn, this card is also a Lead.  When this card is in your discard pile, and either player stops a Strike, you may add this card to your hand.
   tags:
     - Old School Wave 3
 - name: Enzuigiri (Strike)
@@ -14230,8 +14266,9 @@
 
     Skill Requirement: Strike 8+'
   tags: []
-- name: Surprise Cutter
+- name: Surprise Cutter (V1)
   db_uuid: f1ad724d2fc547ddb9ba0371556143ee
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/14/surprise-cutter/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -14240,6 +14277,17 @@
   rules_text: 'If any player played a Stop card last turn this card is also a Lead.
 
     When this card is in your discard pile and your opponent stops a Grapple, add this card to your hand.'
+  tags: []
+- name: Surprise Cutter (V2)
+  db_uuid: b376e984f4674698bff5d50f2f020000
+  spotlight: true
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If either player stopped a card last turn, this card is also a Lead.
+
+    When this card is in your discard pile, and either player stops a Grapple, you may add this card to your hand.'
   tags:
     - Old School Wave 3
 - name: Takeover With The Steel Chair
@@ -14420,8 +14468,9 @@
 
     Each player draws 1 card.'
   tags: []
-- name: Apply Leverage
+- name: Apply Leverage (V1)
   db_uuid: 9a06109feeea495188ec5d966dbc623c
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/15/apply-leverage/
   card_type: MainDeckCard
   atk_type: Submission
@@ -14430,6 +14479,17 @@
   rules_text: 'If any player played a Stop card last turn this card is also a Lead.
 
     When this card is in your discard pile and your opponent stops a Submission, add this card to your hand.'
+  tags: []
+- name: Apply Leverage (V2)
+  db_uuid: e8f1b3d72942407cbd7bb16d5812b6e0
+  spotlight: true
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If either player stopped a card last turn, this card is also a Lead.
+
+    When this card is in your discard pile, and either player stopped a Submission, you may add this card to your hand.'
   tags:
     - Old School Wave 3
 - name: Armbar In the Ropes
@@ -15239,6 +15299,7 @@
   tags: []
 - name: A Powerful Impact
   db_uuid: add3a3df0dfc4f31a300804f64faaf77
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/16/a-powerful-impact/
   card_type: MainDeckCard
   atk_type: Strike
@@ -16205,6 +16266,7 @@
   tags: []
 - name: Compounded Assault
   db_uuid: 7ea3dc9e2aac4c2b94ffbaa8d9538100
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/17/compounded-assault/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -17009,6 +17071,7 @@
   tags: []
 - name: Feeling Dangerous
   db_uuid: 70bc7806864a424fa99a21177c8d5b06
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/18/feeling-dangerous/
   card_type: MainDeckCard
   atk_type: Submission
@@ -17676,6 +17739,7 @@
   tags: []
 - name: Cosmic Steel Chain Whip
   db_uuid: b9cd5a40c2004d829cca4225a340ee07
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/19/cosmic-steel-chain-whip/
   card_type: MainDeckCard
   atk_type: Strike
@@ -17952,6 +18016,7 @@
   tags: []
 - name: Knockdown the Ladder
   db_uuid: fbb77ed95adc4564ae62b844fd31e073
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/19/knockdown-the-ladder/
   card_type: MainDeckCard
   atk_type: Strike
@@ -18521,6 +18586,7 @@
     - Super Lucha
 - name: Big Steel Chain Throw
   db_uuid: 65d6c368c28c4773aab606168c98e225
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/20/big-steel-chain-throw/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -18803,6 +18869,7 @@
   tags: []
 - name: Knockdown the Table
   db_uuid: 1c655f78aba24d4ab6470a51f372b80f
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/20/knockdown-the-table/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -19664,6 +19731,7 @@
   tags: []
 - name: Knockdown the Steel Chain
   db_uuid: b5f3821913f14a9ea4b45eb95aa3959b
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/21/knockdown-the-steel-chain/
   card_type: MainDeckCard
   atk_type: Submission
@@ -20338,6 +20406,7 @@
     - Old School Wave 1
 - name: Diving Knee Drop (Strike)
   db_uuid: 6119d008eaaa4f57b9a9087178909feb
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/22/diving-knee-drop/
   card_type: MainDeckCard
   atk_type: Strike
@@ -20647,6 +20716,7 @@
   tags: []
 - name: Red Splash (Technique)
   db_uuid: 2aa42464af8341aca8a1ec311cf52e18
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/22/red-splash/
   card_type: MainDeckCard
   atk_type: Strike
@@ -20692,6 +20762,7 @@
   tags: []
 - name: Scratch
   db_uuid: 25824f9b22234a6b884ca37fbdb8917b
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/22/scratch/
   card_type: MainDeckCard
   atk_type: Strike
@@ -20834,6 +20905,7 @@
   tags: []
 - name: Snap Headbutt (Strike)
   db_uuid: 8ab52bee3fdc47a3a4a8077cbfef78ad
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/22/snap-headbutt/
   card_type: MainDeckCard
   atk_type: Strike
@@ -21177,6 +21249,7 @@
     - Old School Wave 3
 - name: Blindside Suplex (Grapple)
   db_uuid: 4e266f93eb034d498cde022b81363fd0
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/23/blindside-suplex/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -21281,6 +21354,7 @@
   tags: []
 - name: Dirt Drop
   db_uuid: 9feee0d2473e4d96972acfb18da6ab49
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/23/dirt-drop/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -21612,6 +21686,7 @@
   tags: []
 - name: Norseman's Fury (Grapple)
   db_uuid: 2f3b89e0937249588762eccbaae31699
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/23/norsemans-fury/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -21638,6 +21713,7 @@
     - Old School Wave 2
 - name: Pizza Toss (Power)
   db_uuid: 187971b3e7dd4e1ea94a4e388139a2b6
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/23/pizza-toss/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -22439,6 +22515,7 @@
   tags: []
 - name: Knee Stomps
   db_uuid: 442b57f6865747769ec372c192e3ad88
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/24/knee-stomps/
   card_type: MainDeckCard
   atk_type: Submission
@@ -22499,6 +22576,7 @@
   tags: []
 - name: Lockdown Hold (Submission)
   db_uuid: 50759870abbb43bf972d5b1845086128
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/24/lockdown-hold/
   card_type: MainDeckCard
   atk_type: Submission
@@ -25114,6 +25192,7 @@
     - dd3dae2839c7402d8cbb1745a5d41d05
 - name: Al13n Interference
   db_uuid: 253e1ed8fd794043b5912bad65234e1e
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Strike
@@ -25203,6 +25282,7 @@
     - ad37a60fc4184a49bc0cbdc7a693e909
 - name: Al13n Infestation
   db_uuid: 9bd1b410d4bc443eae2f2e2bc7526108
+  spotlight: true
   srg_url: https://supershowthegame.com/product/al13n-invader-origins-exclusive/
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader-new/
   card_type: MainDeckCard
@@ -25287,6 +25367,7 @@
     - Cosmic
 - name: Cosmic Wormhole
   db_uuid: dd3dae2839c7402d8cbb1745a5d41d05
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/competitors/al13n-invader/
   card_type: MainDeckCard
   atk_type: Submission
@@ -25585,6 +25666,7 @@
     - Suplex
 - name: Bomaye Splash!
   db_uuid: a11de26094be4e019f8bc3b08d20266f
+  spotlight: true
   srg_url: https://supershowthegame.com/product/alex-kane/
   card_type: MainDeckCard
   atk_type: Strike
@@ -25961,6 +26043,7 @@
     - a8bb450b4d4342459dca408e5927e502
 - name: Fly Fisting
   db_uuid: 6311008b202a4f64bc8b8a528ace8b1d
+  spotlight: true
   srg_url: https://supershowthegame.com/product/the-angler/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-angler/
   card_type: MainDeckCard
@@ -26130,6 +26213,7 @@
     - 16b331c7c2df463bad441c6166f0e15f
 - name: Desert Lotus
   db_uuid: f1d3aeb4dbc040d594e421703b657bac
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -26202,6 +26286,7 @@
     - 51aff101c37346fba003d6e1f21105b1
 - name: The Prize Counter
   db_uuid: 4bf3c601a0634b4397b8f19e4de5ad12
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -28111,6 +28196,7 @@
     - 3f262cc919a84d6b8d1d371695c1ce8f
 - name: American Iron Arm Wrench
   db_uuid: 4e68b0da643743aca4c32b23225d48c8
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -28433,6 +28519,7 @@
     - e292901e55c5415ca05911c0bb514183
 - name: Lo Mein Pain
   db_uuid: e292901e55c5415ca05911c0bb514183
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -34724,6 +34811,7 @@
     - 79847e06777b4d4f876f30cc82dc2ebf
 - name: Smack With a Shovel
   db_uuid: 12812fac9b5042c99da9cb3f85421e3b
+  spotlight: true
   srg_url: https://supershowthegame.com/product/28-smack-with-a-shovel/
   card_type: MainDeckCard
   atk_type: Strike
@@ -34776,6 +34864,7 @@
     - Logoless
 - name: Take a Seat
   db_uuid: 36da459381de4934a044f8c88ce58237
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/competitors/anarchys-son/
   card_type: MainDeckCard
   atk_type: Strike
@@ -79078,6 +79167,7 @@
   tags: []
 - name: Crucifix Roll Up
   db_uuid: 62841d13465e4afbb8900d1ecb6a0ea2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Lead
@@ -79686,6 +79776,7 @@
     - Table
 - name: Split Fire Story
   db_uuid: a2e993d0dd1b46ac8c07c66d70fc1af8
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/7/split-fire-story/
   card_type: MainDeckCard
   atk_type: Strike
@@ -79717,6 +79808,7 @@
   tags: []
 - name: Oh Snap!
   db_uuid: 508a99ee718341df9786b0b3c21a6b7c
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/8/oh-snap/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -79763,6 +79855,7 @@
     - Fin
 - name: I Hear Sheep Voices in My Head
   db_uuid: d9854fb647f642ed89480d1fea9cb515
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/9/i-hear-sheep-voices-in-my-head/
   card_type: MainDeckCard
   atk_type: Submission
@@ -80337,12 +80430,13 @@
     - Super Lucha
 - name: Firebomb Through The Table
   db_uuid: 63c98b8fc9e049968c6ce9859a69b8db
+  spotlight: true
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/17/firebomb-through-the-table/
   card_type: MainDeckCard
-  atk_type: Grapple
+  atk_type: Strike
   play_order: Followup
-  deck_card_number: 17
+  deck_card_number: 19
   rules_text: 'The Crowd Meter is +1.
 
     If this card is flipped by "Set up the Table" add it to your hand.'
@@ -80605,6 +80699,7 @@
   tags: []
 - name: Machine Gun Table Flip
   db_uuid: e04c0ff433db493e9afa9181a28c518b
+  spotlight: true
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/21/machine-gun-table-flip/
   card_type: MainDeckCard
@@ -84111,6 +84206,7 @@
     - a487ad6102b8487f8ecdabfe96dfc70b
 - name: Rabbit Punch (Ace Diamond)
   db_uuid: 3ae8bf2d06ab4a759027ed82af0d5b87
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -86943,6 +87039,7 @@
     - fe7b892e451848ca9d8fcdd2ed95ec04
 - name: Taunting Chicken Wing
   db_uuid: a1ef1a3dbe444d53b52c4e9b167ba7d3
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Followup

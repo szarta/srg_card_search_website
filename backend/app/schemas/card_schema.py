@@ -17,6 +17,7 @@ class Card(BaseModel):
     play_order: Optional[PlayOrderSubtype] = None
     deck_card_number: Optional[int] = None
     is_banned: bool
+    spotlight: bool = False
     rules_text: Optional[str]
     errata_text: Optional[str]
     tags: Optional[List[str]] = []

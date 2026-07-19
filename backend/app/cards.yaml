@@ -3169,6 +3169,7 @@
   tags: []
 - name: The Belle Hammer
   db_uuid: 29c395cc4903452997b8b353ce770a85
+  spotlight: true
   srg_url: https://supershowthegame.com/product/freedom-belle-iku-zo/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -4698,6 +4699,7 @@
     - 64f184e2aad14b30adda926175ee8e6e
 - name: Brain Drain
   db_uuid: 3e532f7d868c47b292fbabc58fbb1698
+  spotlight: true
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/big-bad-bobby-d/
   card_type: MainDeckCard
@@ -4868,6 +4870,7 @@
     - b69620138a614df0bea6b3bddcc2123d
 - name: Shimmering Wizard
   db_uuid: a3e716a43ae14c4f99a21cc2077e3f26
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -32471,6 +32474,7 @@
     - Hammer
 - name: Test Your Might
   db_uuid: 4a39cb20d46e41828607c82a54b4084c
+  spotlight: true
   srg_url: https://supershowthegame.com/product/d2/
   srgpc_url: https://www.srgpc.net/cards/competitors/d2/
   card_type: MainDeckCard
@@ -36592,6 +36596,7 @@
     - 4eaa3b32a4ff492981853408d42f1a59
 - name: The Bru Stupor
   db_uuid: d27ed6f300174baca245f35a79388b55
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -37685,6 +37690,7 @@
     - Chain
 - name: 3 Fathom Drop
   db_uuid: c037a636a5bd4383886a1957f24c6801
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -38689,6 +38695,7 @@
     - 0754bbd4adc44ad09413421b105a7944
 - name: Flight of the Salamander!
   db_uuid: 7a13c265702c4021857a92d851032903
+  spotlight: true
   srg_url: https://supershowthegame.com/product/sticky-the-salamander/
   card_type: MainDeckCard
   atk_type: Strike
@@ -38830,6 +38837,7 @@
     - f8dad17fa6a940b89d0466691d98b7fc
 - name: Caramel Drop
   db_uuid: e560c02fb4c3424b88e9666bfa8a7bf6
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -39766,6 +39774,7 @@
     - Puppy
 - name: The Cherry Bomb
   db_uuid: e71a475e20f742e6b804e033b6f6b7f3
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -45850,6 +45859,7 @@
     - a4b61c579c2d4ca59b5001ea5503fdef
 - name: Pan de Muerta
   db_uuid: 941e4585235a4778a8f11791502d94fc
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -48548,6 +48558,7 @@
     - 6dab213c9df54b6996af68c511f2e81e
 - name: You're Mad
   db_uuid: 201540e5c73d45a19d64f8ef3f513b2d
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -51179,6 +51190,7 @@
     - 0a72bde2abe84fef92b5695e8ec53a86
 - name: Steel Cuffs
   db_uuid: 470f474dae5e4ff99c55461fc59faca2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -51214,6 +51226,7 @@
     - Burn
 - name: Phoenix Down
   db_uuid: 1d40ee21bb324a2ab48e58fe3d516e7e
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -53269,6 +53282,7 @@
     - a09bc1774f984c6287207df2a01a4eee
 - name: The Sasketchewan Spinning Nerve Hold (V1)
   db_uuid: f51220f40c7248d7bb50d2a67bc67728
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -53297,6 +53311,7 @@
     - a09bc1774f984c6287207df2a01a4eee
 - name: The Sasketchewan Spinning Nerve Hold (V2)
   db_uuid: e5c31549c9914d599937847c821ff703
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -53776,6 +53791,7 @@
     - 49295df8c3bb48778a446b6eeba6982f
 - name: The Firewall
   db_uuid: 8c99aa79d2ac40cd8ea7473d6cd7f564
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -55565,6 +55581,7 @@
     - c6cea4fe18774ca5a4f879c8a243821a
 - name: Rick Rolled
   db_uuid: 0d3f9f79818f4fea97fa3afc157322ad
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -57355,6 +57372,7 @@
     - f9cb3b3b788346eda95fcb066e9305ad
 - name: Severus Snap
   db_uuid: f679e1b1ae774ea194954fcb8f3075a9
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -57728,6 +57746,7 @@
     - b724c6a2db604a95971f30f7a424d2de
 - name: Most Valuable Hold
   db_uuid: e1fcc304806b44aab0ab889522c294c9
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -58278,6 +58297,7 @@
     - 719cbdbaba434b719bd7fa7a2892813e
 - name: Override
   db_uuid: f6137708289243d4951fff204461ec97
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -61423,6 +61443,7 @@
     - 65ea7fd64bfa4c67b48adf62ce9298e6
 - name: A Trip to Dream Land
   db_uuid: 4b84de0e8037433aa699897715bb0761
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -61742,6 +61763,7 @@
   tags: []
 - name: Bear the Cross
   db_uuid: a169d4193f754869800b7470e68645bf
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -61976,6 +61998,7 @@
     - 5cf0d256efd841b3b5c220e2487db443
 - name: Soups Up Stunner
   db_uuid: c042f762f1a545d082db24282f08e3c2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -62578,6 +62601,7 @@
     - b1c536d936c143d7b31a0ce0490f8bd9
 - name: The Killer Interview (V1)
   db_uuid: d763c447d723413391187e8362e1079f
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -62590,6 +62614,7 @@
     - b1c536d936c143d7b31a0ce0490f8bd9
 - name: The Killer Interview (V2)
   db_uuid: 372755ff81c248ef9bf3069f646b2438
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -63363,6 +63388,7 @@
   tags: []
 - name: Arabian Face Buster
   db_uuid: 8fcb804d0aed4d0fa0180724ccd82a92
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -63695,6 +63721,7 @@
     - 70c1560bc5c8424aba5806a595069e77
 - name: Sami's Baseball Bat
   db_uuid: 3f0e7330fdb7447e8a3f85b8ce4c1fb0
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -65719,6 +65746,7 @@
     - 627444f08925427b973a23be26369043
 - name: Split Personality
   db_uuid: 4171d7464914421e9c36a381ed559aa1
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -66552,6 +66580,7 @@
     - a2895b52164743edbdd083272279e147
 - name: Mad Plaid
   db_uuid: df1807691e8f4345831b0b1eb96499c6
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -67838,6 +67867,7 @@
     - 4e2a4a8022b0485e8449750cb411d793
 - name: Chin-derella Story
   db_uuid: f6eeb443067744d4a02db8975f713e4f
+  spotlight: true
   srgpc_url: https://www.srgpc.net/competitors/uncle-awesome/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -69408,6 +69438,7 @@
     - Choke
 - name: My Most Powerful Spell
   db_uuid: 5603124c813e4dee802d0ddcd0c6245b
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -69796,6 +69827,7 @@
     - 2b02cdb188af4611b79c7a0e616ad692
 - name: Fisherman's Throw
   db_uuid: 93a42ac6bbb34e729812d9d1aa52e874
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -70126,6 +70158,7 @@
     - eae7c1b5fdc14e27bafc9106566cf89c
 - name: Spare Some Change
   db_uuid: 9c624a65ee934ba1ba965501d59329ce
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -74146,6 +74179,7 @@
     - 0c11ccf34cd44a5ebc5d2f9cb63d1b64
 - name: Wave Your Hands
   db_uuid: 5ee73edd8abe49c6965270c97e125946
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish

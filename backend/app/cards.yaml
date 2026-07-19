@@ -1121,6 +1121,7 @@
     - bb8f720590c44fe189ce68af24a73598
 - name: Ultimate Agony
   db_uuid: cb84282851514afd9bc6465c0d63ebf9
+  spotlight: true
   srg_url: https://supershowthegame.com/product/cuddy-warrior/
   card_type: MainDeckCard
   atk_type: Submission
@@ -3938,6 +3939,7 @@
     - 9af9c9c9ba454cbc8ea6bd87eb0adc9a
 - name: Keeping It Hardcore
   db_uuid: bff76f74503844ff81368b0433524aa7
+  spotlight: true
   srg_url: https://supershowthegame.com/product/big-jim-bias/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -3986,6 +3988,7 @@
     - b0e0b2696d984a10b6569efedd98c612
 - name: Escape Velocity
   db_uuid: 81d0941adf774cf19415e8c044aefce9
+  spotlight: true
   srg_url: https://supershowthegame.com/product/blackstar/
   card_type: MainDeckCard
   atk_type: Strike
@@ -4298,6 +4301,7 @@
     - 00e44c96da69423b95a40b5d756354b4
 - name: The LoTEK
   db_uuid: 31651dd912a748a49f6efa29cdd26cf0
+  spotlight: true
   srg_url: https://supershowthegame.com/product/citizen-x/
   card_type: MainDeckCard
   atk_type: Submission
@@ -26423,6 +26427,7 @@
     - 0f52d4e11c9b43bb975967aade20f0fc
 - name: Ewe-Decator (Baanomenal One)
   db_uuid: 505d3704784444a6b2efe2caa101aaeb
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -26547,6 +26552,7 @@
     - 0e8eca6185214b268fa7ffddb4bdf57b
 - name: No Tricks, Just Bricks
   db_uuid: b9661daa39ee402db89020f426d5bd1d
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -26595,6 +26601,7 @@
     - 958d306d9b6242e082dff4c387447402
 - name: The Jack-o'-Lantern
   db_uuid: 11d006b0e738470da8b6983152687fec
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -26794,6 +26801,7 @@
     - Back
 - name: It's All in the Reflexes
   db_uuid: 247dde936cf84664be0ea62a72c4ac5d
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -26880,6 +26888,7 @@
     - 5a60042042b64aa1add8fcc29685242e
 - name: '...In Chains'
   db_uuid: e9aa3f44cd2a44548676f7d96255819d
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -28685,6 +28694,7 @@
     - c5611af6ebe345b5893d42642001c099
 - name: Flight of Angels
   db_uuid: 484d54ca733146ef821f12bb50171520
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -28811,6 +28821,7 @@
     - fb9bb0244bed4be9b393fdd17778a2cb
 - name: Pay Up Sucka
   db_uuid: a832e552e82a4b70a5d6358c2514c4a0
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -28992,6 +29003,7 @@
     - Kendo Stick
 - name: Pinkie Toe Hold
   db_uuid: 705d88de1c9642219fc8a5faec85ee81
+  spotlight: true
   srgpc_url: https://www.srgpc.net/cards/competitors/the-big-guy/
   card_type: MainDeckCard
   atk_type: Submission
@@ -29252,6 +29264,7 @@
     - a499fe2c435c496eafc19442a044ec23
 - name: Get Behind the Pelican!
   db_uuid: 7f6eb1da92cc487d9762003069351085
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -37400,6 +37413,7 @@
     - d9a4d476808c4f43bd536ab181a3c275
 - name: Running Atgeir
   db_uuid: af011d20d1c74b8b96a3918b1a6ddb9c
+  spotlight: true
   srg_url: https://supershowthegame.com/product/bjorn-the-norseman/
   srgpc_url: https://www.srgpc.net/cards/competitors/bjorn-the-norseman/
   card_type: MainDeckCard
@@ -37637,6 +37651,7 @@
     - 9932fcbfe7ac4e61b445a809154529ba
 - name: The Right to Remain Silent
   db_uuid: 5fd04b2266144b71915d528838becd69
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -37774,6 +37789,7 @@
     - 85616c84da2a41b7b65448a08eb7a4ed
 - name: Rub-a-Dub-Dub
   db_uuid: bd2c7131765a4db9b7c6130adfe64048
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -38301,6 +38317,7 @@
     - 8b89fe0295184f92a159339ac164756b
 - name: Gizmo's Revenge
   db_uuid: d9691f0c50c94186abfffb99b59d4211
+  spotlight: true
   srg_url: https://supershowthegame.com/product/the-g-o-a-t-brock-smith/
   card_type: MainDeckCard
   atk_type: Submission
@@ -38419,6 +38436,7 @@
     - 6812bd4569e741bf811f9e6eaca8f7a2
 - name: Shipwrecked
   db_uuid: b7975e820e1d405c8d766f45193b0a3c
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -38484,6 +38502,7 @@
     - 08e16af4ac6a4a868f83dea0e0cddc63
 - name: The Oh Face!
   db_uuid: 2694e4b0b8964e72a01df69ffb8f32d2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -38900,6 +38919,7 @@
     - 95cf443904d84b21bd323b1bf97fd926
 - name: Holy Cannoli!!! (V1)
   db_uuid: 4c01fb72a0a0428596b3dae885e0380c
+  spotlight: true
   srg_url: https://supershowthegame.com/product/cannoli/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -38915,6 +38935,7 @@
     - 95cf443904d84b21bd323b1bf97fd926
 - name: Holy Cannoli!!! (V2)
   db_uuid: 3a5aa93ca5eb48e882a6312688a47753
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -39017,6 +39038,7 @@
     - ec8f8da4258044c6a467871bca609593
 - name: Captain Crunch
   db_uuid: 5acbaf2374d0482b9a16e7e5790b4ad8
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -39303,6 +39325,7 @@
     - ae6632e405ee4ed3bf72adc6560b1fe1
 - name: Goosekiller Poke
   db_uuid: 1d829e2051a146e7a106f69a1862c078
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -39625,6 +39648,7 @@
     - 1dd44fcb5df141a8bf5a30c78207e87d
 - name: Shining Cheetah
   db_uuid: 966629d870a045f4890de383d8b27957
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -39828,6 +39852,7 @@
     - d5b0a91599c44798b60eace1e372700c
 - name: The Jubjub Bird
   db_uuid: 424dd3dbe321448b9be72e091630f649
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -39989,6 +40014,7 @@
     - 282182c2f8ce4abeb0312088dafcb073
 - name: Botch Chug (V1)
   db_uuid: 3434a476a30b44ed84bf959bb3acfddd
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -40034,6 +40060,7 @@
     - 0205f2be185343c18bf0098ff3edbb64
 - name: Botch Chug (V2)
   db_uuid: 11e6fcf2a7ba473cba1e3f4d9bf620a7
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -40114,6 +40141,7 @@
     - b4f043464fa64700b5dcfcfc57069e62
 - name: Book Nook
   db_uuid: 0d2fac38c8164f3fac69690fe521a663
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -40299,6 +40327,7 @@
     - 06f7f4fc51e740afa993a3f2a21a95ae
 - name: Bionic Elbow
   db_uuid: 12501369984b4bcb97f2fa4352456769
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -40365,6 +40394,7 @@
     - 06f7f4fc51e740afa993a3f2a21a95ae
 - name: Flying Apple
   db_uuid: b6c370d7c44244db84358ea795406c55
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -40487,8 +40517,9 @@
   related_cards:
     - 941ba12c956546f4b9abf28336f9d92a
     - 9e57cd60fb34451bbf7426fb315033ca
-- name: Panada Muerta
+- name: Panda Muerta
   db_uuid: 94e0b44d813b4877b4e57c5dc3d1ce8c
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -40690,6 +40721,7 @@
     - a581eb463bac433395ccc06f78c365c1
 - name: Loebectomy
   db_uuid: 085efd6120724b2487722a90c5bb9352
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -70424,6 +70456,7 @@
   tags: []
 - name: Facebuster DDT
   db_uuid: eaf8f693c4524ebd9b1de45ad2527a9a
+  spotlight: true
   srg_url: https://supershowthegame.com/product/the-centipede/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -71716,6 +71749,7 @@
     - 5b632c3955d94e508776747ae99737a0
 - name: Babe, It's Over
   db_uuid: bf627ef3ad13454098b5a6047def8033
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -72019,6 +72053,7 @@
     - 1aac4d93a70f4f0aa1d5b610b16d4682
 - name: Crash! - Kiddo's Devious Plan
   db_uuid: 16b2e28f400241c3ac94413245a9d3e2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -72089,6 +72124,7 @@
     - 98f3f8c2a9624054b696f59bc8d89dd9
 - name: The Shadow Symphony
   db_uuid: 285f847b3e8f4b748444549593b47830
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -86103,6 +86139,7 @@
     - 653fa9e5afcd41939e367e92782fc63f
 - name: Emmy Winning Chair Shot
   db_uuid: 39fad95157294e0c89f9f83717521af2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish

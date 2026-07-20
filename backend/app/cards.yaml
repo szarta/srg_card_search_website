@@ -4512,6 +4512,7 @@
     - d2b10108b44646b4b6527e2d8b8f6de5
 - name: Gera Gera no Shanghai
   db_uuid: fa04c0bfe4f748ec82e7168ce00d4e82
+  spotlight: true
   srg_url: https://supershowthegame.com/product/30-gera-gera-no-shanghai/
   card_type: MainDeckCard
   atk_type: Submission
@@ -4525,6 +4526,7 @@
     - d2b10108b44646b4b6527e2d8b8f6de5
 - name: Davy Jones' Bit Locker
   db_uuid: 6bcb9ae282594a7e918a8a5c45622e3a
+  spotlight: true
   srg_url: https://supershowthegame.com/product/dread-pirate-tech-support/
   card_type: MainDeckCard
   atk_type: Submission
@@ -27493,6 +27495,7 @@
     - 3adafe5c67f745d891f6efe9697db0c7
 - name: The Twist Off
   db_uuid: a94781f350304b7494036b6062a30a20
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -29705,6 +29708,7 @@
     - fad605db94d44d3bb3fb2fc88e96a53d
 - name: I Don't Want to Talk About It
   db_uuid: 5b42aee101034aa3a6f1e6a8d41c3503
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -29840,6 +29844,7 @@
     - 5fcac94b705740a5918574d146b2f800
 - name: Poppin' Bottles
   db_uuid: c4966258c4e546e79a40900ef80f2ec9
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -30051,6 +30056,7 @@
     - bdfad56ca01a4a3e80a02b84a27ba5d2
 - name: '#Purpose'
   db_uuid: 2ef739f2e1d74f758c39951a4dbca2d5
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -30202,6 +30208,7 @@
     - Fire
 - name: To Honor the Flame
   db_uuid: c2125724080b4d058c693cb3439bd719
+  spotlight: true
   srg_url: https://supershowthegame.com/product/el-campeon-de-las-llamas-new/
   srgpc_url: https://www.srgpc.net/cards/competitors/el-campeon-de-las-llamas/
   card_type: MainDeckCard
@@ -33699,6 +33706,7 @@
     - 894eccb4c2544059906d26ee3fc10ad1
 - name: The Cash Out
   db_uuid: 2cc4bbe59edb44cfb4b5a8bbdf678ea9
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -34312,6 +34320,7 @@
     - 03bfb9ac23074c849c4060a007636218
 - name: Tipping Point
   db_uuid: f2bfba01e89648858fa2c5595bdf2d20
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -37165,6 +37174,7 @@
     - ed3ee94858c249e69bd462512b65c825
 - name: Meet Mr. Hyde Potion No. 5
   db_uuid: 0604e53d335e4e43a1957b553f2d6d67
+  spotlight: true
   srg_url: https://supershowthegame.com/product/dr-jake-hill-new-sub-finish/
   card_type: MainDeckCard
   atk_type: Grapple
@@ -40850,6 +40860,7 @@
     - 8be0afa58eb049048feb204eac5b48d2
 - name: Pushing Up Daisies
   db_uuid: 25930f205a2b489fb50aaaa0ba18f444
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -40911,6 +40922,7 @@
     - 34c5ce20f09847719ef1e45862a5efdb
 - name: Hydrangea
   db_uuid: 4f4343ff6c9249e49399f1fc8946e102
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -41047,6 +41059,7 @@
     - ade41d5ac0b6435f978ed5505e67ec18
 - name: Salsa Dance
   db_uuid: 3f9f1280923d4e939382937cec2f34b0
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -41218,6 +41231,7 @@
     - 323e4ac05b4a4492b4530097511d113f
 - name: Release Control Art Restriction Zero
   db_uuid: bdd44e9db09c4edd9186dd1d158922d2
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -41265,6 +41279,7 @@
     - e9e692f8a8c248d6aceb81e6232b53db
 - name: Lycanthropy
   db_uuid: 88d7c2bc790041a286c93fbc22fd6a23
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -41605,6 +41620,7 @@
     - 308de2fea17c4d1a8581fdd591951fef
 - name: Dripping Yellow Madness
   db_uuid: 236dcf5d036a4b91b64b8fd84c83a6d7
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -41736,6 +41752,7 @@
     - Hammer
 - name: Descent of the Hammer
   db_uuid: d37525f8853547ab8d103f066ba7c32e
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -41925,6 +41942,7 @@
     - Slam
 - name: Kilt Check
   db_uuid: 7f16300aad4e4fc48b4a2c6ab460c4d0
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -42060,6 +42078,7 @@
     - 323e4ac05b4a4492b4530097511d113f
 - name: The D-Roll
   db_uuid: 829558750e004882b6edd66ee7024f64
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
@@ -42499,6 +42518,7 @@
     - 89a3e95dd0044141836048a654029ee7
 - name: ō-Yoroi
   db_uuid: a478a4ab27af4b4ba2ba88c1bbb94e51
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
@@ -42557,6 +42577,7 @@
     - L.F.F.
 - name: Here I Come
   db_uuid: 3c3dd387d23740c6ba2fae08f3bd416a
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -42738,6 +42759,7 @@
     - ec06826801bb43dab5f8184444fd2eed
 - name: Hip Plunge
   db_uuid: a1154dc65b3044b692d42dd36188c801
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -42865,6 +42887,7 @@
     - 9ea4b8e23ad8424b9b606c5b752cace9
 - name: Shadow Kick
   db_uuid: f7efb357299d4afe85c7ec5822784760
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -72518,6 +72541,7 @@
     - Spine
 - name: Tool-Assisted Adjustment
   db_uuid: c862e531f7ce43d4a24a3b4e36878c45
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -87607,6 +87631,7 @@
     - 0ad7ae8ea4404ec886aecda52d0345d4
 - name: Kaboom!
   db_uuid: c46ce1faf2174cc5b31b61cc07c940d6
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
@@ -87623,6 +87648,7 @@
     - 5601d511bde4440d97c3b12e376fd669
 - name: The Powder Keg
   db_uuid: 155c419b0e5845419811725de915c11e
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish

@@ -2992,6 +2992,56 @@
   rules_text: If you have another Lead in play, draw 2 cards.
   tags:
     - Old School Wave 1
+- name: Emotional Damage
+  db_uuid: 8c5286b23ee64b30b5eb58414cb490fe
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'Your opponent''s effects cannot move this card from play.
+
+    If your opponent has a card in play, this card can only be stopped by Follow Ups.'
+  tags: []
+- name: Overhand Wrist Lock
+  db_uuid: 3e044c20203a40f0adc553b33f4020f1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'If your Gimmick is blank, your opponent''s Gimmick is blank.
+
+    If you have another Lead in play, look at your opponent''s hand.'
+  tags: []
+- name: Rising Threat
+  db_uuid: cb6ebef5a6914837848bbdf2ec7a4c72
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  rules_text: 'Your opponent''s next turn roll is -1 for each other Submission you have in play.
+
+    The next time your opponent''s Gimmick or Entrance would force you to bury or discard cards from your hand, you draw 2 cards instead.'
+  tags: []
+- name: Phenomenal Punch
+  db_uuid: c90591e2ee8a44868aeac10813992ac0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'Stop any Finish Grapple without a Competitor logo.
+
+    Your opponent cannot discard this card from play.'
+  tags: []
+- name: Strike The Body
+  db_uuid: a45ed72cc75e4993aba817864e5e6357
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
+
+    The player with fewest cards in hand draws 1 card.'
+  tags: []
 - name: Nacho Knockout
   db_uuid: 7ea6c4fdf49e408da7626eaf3c291497
   card_type: MainDeckCard
@@ -3933,6 +3983,16 @@
   rules_text: 'Your opponent discards 1 random card from their hand.
 
     Bury 2 cards in any player''s discard pile.'
+  tags: []
+- name: Big Blue Team Wins
+  db_uuid: 951fc73b2c624aa4ad4c60a4fa35a3a4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
+
+    The player with the fewest cards in hand draws 1 card.'
   tags: []
 - name: The Seven Seals (Strike)
   db_uuid: 9a58dadddf4d496386cdb4887febeae8

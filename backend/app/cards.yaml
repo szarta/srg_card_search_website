@@ -85409,7 +85409,9 @@
 
     Max Handsize 10
 
-    When you have a card in play with "Kendo Stick" in the name: when you hit a card with "Kendo Stick", "Swing", or "Chop" in the name, your opponent randomly discards 1 card from their hand. Finish rolls are + the Crowd Meter.'
+    When you have a card in play with "Kendo Stick" in the name: when you hit a card with "Kendo Stick", "Swing", or "Chop" in the name, your opponent randomly discards 1 card from their hand.
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
   tags: []
 - name: Ladder Match Crowd Meter 0
   db_uuid: 1f6d0a0657ab44859375764964febe93
@@ -86163,7 +86165,7 @@
 
     When a card would be moved from the discard pile to another location it is instead buried.
 
-    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter.'
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
   tags: []
 - name: Main Event Crowd Meter 0
   db_uuid: c8012d4f179f4e4b9f01296b46c4273e
@@ -86215,6 +86217,34 @@
 
     When a player rolls their highest skill for their 3rd Breakout roll, they break out.'
   tags: []
+- name: Ring of Fire Match
+  db_uuid: 9ffff9f94c6e4edcba75a52ce8cb2a80
+  card_type: CrowdMeterCard
+  rules_text: 'Stipulation: When any number of cards are moved from a player''s discard pile to any other location, they flip 1 card.
+
+    Max Hand Size: 8
+
+    No Disqualifications.
+
+    Special Finish: A player sets their opponent on fire when their opponent ends their turn with no cards in their deck.
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
+  tags: []
+- name: Ring Steps Match
+  db_uuid: 7e3796ff34f04bf4946502e08eeac2bb
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize: 10
+
+    When you have a card in play with "Ring Step" in the name:
+
+    When you hit a card with "Ring Step", "Slam", or "Suplex" in the name, choose 1 card your opponent has in play and discard it.
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
+  tags: []
 - name: Steel Cage Match
   db_uuid: 009c420db81a44029354e9814712286b
   card_type: CrowdMeterCard
@@ -86226,7 +86256,7 @@
 
     Special finish: a player escapes the cage when they have no playable cards in hand and no cards in their deck.
 
-    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'''
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
   tags: []
 - name: Soaring Dropkick
   db_uuid: ef3af8bc2a6a4058aced639e24e2f872

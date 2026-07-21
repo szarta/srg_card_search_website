@@ -89841,3 +89841,60 @@
   tags: []
   related_cards:
     - 7d08f0b03591491e8f1cea551a1da572
+- name: Drin
+  db_uuid: 1cce86a344d34d35b89f749703efb45d
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 7
+  strike: 6
+  submission: 8
+  grapple: 9
+  rules_text: When you stop a Lead, Draw 1 card; if that Lead was a Grapple, your opponent randomly buries 1 card in their hand.
+  tags: []
+  related_finishes:
+    - f65c7ed7697048ddaae4a75c323ef19f
+    - 3a71cb599e4244c2a683d8e99de3f974
+    - b7abb6d4f8f64b5dadd5bfd38e7311f4
+- name: The Knee Bone Is Connected To The Face Bone
+  db_uuid: f65c7ed7697048ddaae4a75c323ef19f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Agility
+
+    +4 to Strike
+
+    You may bury 1 Lead Grapple in your opponent''s discard pile.'
+  tags: []
+  related_cards:
+    - 1cce86a344d34d35b89f749703efb45d
+- name: DND 2K26
+  db_uuid: 3a71cb599e4244c2a683d8e99de3f974
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+4 to Power
+
+    Your opponent randomly buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 1cce86a344d34d35b89f749703efb45d
+- name: With Honors
+  db_uuid: b7abb6d4f8f64b5dadd5bfd38e7311f4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Power
+
+    +2 to Submission
+
+    Shuffle 1 card you have in play into your deck.
+
+    Your opponent''s cards in play have blank text.'
+  tags: []
+  related_cards:
+    - 1cce86a344d34d35b89f749703efb45d

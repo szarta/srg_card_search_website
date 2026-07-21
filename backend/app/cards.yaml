@@ -305,6 +305,24 @@
   deck_card_number: 2
   rules_text: +1 to Technique
   tags: []
+- name: I'm In Control
+  db_uuid: 05a6bf318b1a49998546aec6365bbb43
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: Stop any Finish Strike that doesn't have a Competitor logo.
+  tags: []
+- name: Full Throttle
+  db_uuid: a4ab7511468943d5b0cfd3954ce9a4e0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 3
+  rules_text: 'Stop any Lead Strike.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
 - name: Headlock
   db_uuid: 685b2201f4994f9785f6f966cd4030c7
   srg_url: https://supershowthegame.com/product/03-headlock-os/
@@ -324,6 +342,16 @@
   deck_card_number: 3
   rules_text: +1 to Power
   tags: []
+- name: Dive Skull First
+  db_uuid: b6b96464d6454ded9e3e7dd07705c04e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 4
+  rules_text: 'Stop any Follow Up Grapple.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
 - name: Kick
   db_uuid: 7f77eddfbef044728d4fb54fe5440a1d
   srg_url: https://supershowthegame.com/product/04-kick/
@@ -335,6 +363,16 @@
   rules_text: Stop any Follow Up Grapple.
   tags:
     - Old School Wave 1
+- name: Press Into the Ropes
+  db_uuid: d7380dec10cc442c9268f2e56bbf02a4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  rules_text: 'Stop any Follow Up Submission.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
 - name: Hip Toss
   db_uuid: f8197b5661294828847dd5e1865a2cfb
   srg_url: https://supershowthegame.com/product/05-hip-toss-os/
@@ -346,6 +384,16 @@
   rules_text: Stop any Follow Up Submission.
   tags:
     - Old School Wave 1
+- name: Ankle Scissor
+  db_uuid: 824a0c97f5d54df2b2b1454a059b8b83
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 6
+  rules_text: 'Stop any Follow Up Strike.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
 - name: Armbar
   db_uuid: cda286cadae54ff0bbaa5aa168598f05
   srg_url: https://supershowthegame.com/product/06-armbar-os/
@@ -2693,6 +2741,16 @@
   srg_url: https://supershowthegame.com/product/00-valiant-team-work/
   card_type: EntranceCard
   rules_text: 'Your opponent cannot prevent you from saving or double teaming with your partner.  Once per match: When you win a turn roll, your tag team partner may take the turn instead.'
+  tags: []
+- name: Cosmic Uprising
+  db_uuid: 1fd474d8e703422fa4b59c5dbc3961bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'Your opponent cannot move cards they have in play to any other location with their Gimmick.
+
+    Put 1 card with "Cosmic" in the name from your discard pile on the top of your deck.'
   tags: []
 - name: Stomp
   db_uuid: 46c5ed46ccdc4cd2984300175fcbbfdc
@@ -79621,7 +79679,7 @@
 
     Look at your opponent''s hand, choose 1 Follow Up Grapple and discard it.'
   tags: []
-- name: Dive To The Outside
+- name: Dive To The Outside (#4)
   db_uuid: 7705581120874fbda218552ab8172ff5
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
   srgpc_url: https://www.srgpc.net/cards/4/dive-to-the-outside/
@@ -79846,6 +79904,18 @@
   play_order: Lead
   deck_card_number: 6
   rules_text: '+1 to Submission.  Skill Requirement: Submission 8+'
+  tags: []
+- name: Dive to the Outside (#7)
+  db_uuid: 61519722e45b4a3f97b194c075735893
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'Search your deck or discard pile for "Flying Lariat" and add it to your hand.
+
+    Shuffle your deck.
+
+    When you flip cards for "Flying Lariat", add 2 of the flipped cards to your hand.'
   tags: []
 - name: Gut-Checking Elbow
   db_uuid: 0e0b368b6b624580be0c6ca982004102
@@ -85700,6 +85770,48 @@
   deck_card_number: 8
   rules_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
   tags: []
+- name: Boss-Rate Uprising
+  db_uuid: d45ffac567f04b7abaaf3dc175d8c045
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'Your opponent cannot move cards they have in play to any other location with their Gimmick.
+
+    Put 1 card with "Boss" in the name from your discard pile on top of your deck.'
+  tags: []
+- name: Dynamic Slam
+  db_uuid: f2d54c53487f42f8907eb0fe1cfd747d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'Search your deck or discard pile for "Drive Into The Corner" and add it to your hand.
+
+    Shuffle your deck.
+
+    When you flip cards for "Drive Into The Corner", add 2 of the flipped cards to your hand.'
+  tags: []
+- name: Time Jam
+  db_uuid: bf766f24ff3b4ca4aa3b8fd99ec11fb6
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  rules_text: 'The Crowd Meter is considered -2 for all effects.
+
+    If you would bump on the next turn roll, your opponent''s roll is instead -1.'
+  tags: []
+- name: You're A Slow Horse
+  db_uuid: c4e8c6e832a54058ac18c27b31b33aab
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  rules_text: 'The Crowd Meter is considered -2 for all effects.
+
+    If you would bump on the next turn roll, your opponent''s roll is instead -1.'
+  tags: []
 - name: Mancer Eye Gouge
   db_uuid: edc295abe72346a5bfbb8d4cae323199
   card_type: MainDeckCard
@@ -86337,6 +86449,16 @@
   tags: []
   wants_keywords:
     - Holiday
+- name: A Kangaroo Kick
+  db_uuid: f35170474cee46aa97ef90d2e123fd06
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 1
+  rules_text: 'Stop any Lead Grapple.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
 - name: Holiday Wrapping Paper
   db_uuid: 4c02c2628e5d42d28b0f946e609574eb
   card_type: MainDeckCard
@@ -87528,6 +87650,24 @@
   tags: []
   wants_keywords:
     - Ladder
+- name: Swift Takedown
+  db_uuid: a9a97c146f894e1996e5a24ed312da57
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: 'Stop any Lead Submission.
+
+    The player with the most cards in their hand discards 1 card from their hand.'
+  tags: []
+- name: Dude, Chill
+  db_uuid: a7c9d4362cfd4dc38601f84d0b0003d0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  rules_text: Stop any Finish Submission that doesn't have a Competitor logo.
+  tags: []
 - name: Seismic Suplex
   db_uuid: a2fa354ddccf4c949702c4250d0b86ba
   card_type: MainDeckCard

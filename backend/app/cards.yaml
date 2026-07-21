@@ -84841,6 +84841,84 @@
   tags: []
   related_cards:
     - 05d2c7245f2048528f7367e5ca8a137e
+- name: Bloodbath Brawl Match Crowd Meter 0
+  db_uuid: eda820db76cd47cbacdf8a56ad8e3d41
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    When you hit a Grapple, your opponent randomly buries 1 card in their hand.'
+  tags: []
+- name: Bloodbath Brawl Match Crowd Meter 1
+  db_uuid: 859704cfe1a24e70b1db74ef4e84c2c9
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    Finish rolls are +1.
+
+    When you roll Strike, your opponent''s next turn roll is -1.'
+  tags: []
+- name: Bloodbath Brawl Match Crowd Meter 2
+  db_uuid: d6848ea627914a66a84908a226c46796
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    Finish rolls are +2.
+
+    When you roll Technique, your opponent flips a card, if it is a Stop, draw 1 card.'
+  tags: []
+- name: Bloodbath Brawl Match Crowd Meter 3
+  db_uuid: 8912203762fa46b08953a3cb92c5176a
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    Finish rolls are +3.
+
+    If you roll the same skill for your 3rd Breakout roll as the skill rolled for the Finish roll, you break out.'
+  tags: []
+- name: Bloodbath Brawl Match Crowd Meter 4
+  db_uuid: 26c572b0d35e42c8a05855b17b74f60e
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    Finish rolls are +4.
+
+    Each player puts 1 Lead from their discard pile into play.'
+  tags: []
+- name: Bloodbath Brawl Match Crowd Meter 5
+  db_uuid: 9bf6ec172305404f858c1dd3aa9bd58d
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 12
+
+    Finish rolls are +5.
+
+    Finish cards cannot be stopped.
+
+    Spectacle cards are blank.'
+  tags: []
 - name: Beast Unchained Match
   db_uuid: 097c50ca47d74f26b06490ab41ca43bb
   srgpc_url: https://www.srgpc.net/cards/crowd-meters/beast-unchained/
@@ -85210,6 +85288,305 @@
   related_cards:
     - 1a7efcff683945e785b30d275cd85590
     - 9ca0c2b4ad014b109d46add2b7a6ba09
+- name: Grand Battle Crowd Meter 0
+  db_uuid: 365a83cac1804f4890bf69faabc7b2e7
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    The Crowd Meter only increases after 6 turn rolls; then on the next turn roll, the next entrant enters.
+
+    They draw 2 additional cards and their turn roll is +2.
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Grand Battle Crowd Meter 1
+  db_uuid: 444fd3de54934263b1a67ae87aacac07
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    They have the added text "Your Finish rolls are +1." The Crowd Meter only increases after 6 turn rolls; then on the next turn roll, the next entrant enters.
+
+    They draw 3 additional cards and their turn roll is +2.
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Grand Battle Crowd Meter 2
+  db_uuid: 60dd76de1fd246cab6e7ec7eea68f5e1
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +1.
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    The Crowd Meter only increases after 6 turn rolls; then on the next turn roll, the next entrant enters.
+
+    They draw 4 additional cards and their turn roll is +2.
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Grand Battle Crowd Meter 3
+  db_uuid: 662ddbda99664ecdab96e6274f6c1099
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +2.
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    They have the added text "Your opponent gets 2 Breakout rolls this turn."
+
+    The Crowd Meter only increases after 6 turn rolls; then on the next turn roll, the next entrant enters.
+
+    They draw 5 additional cards and their turn roll is +2.
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Grand Battle Crowd Meter 4
+  db_uuid: 350c8638659646e19e84444bef7600b3
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +2.
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    They have the added text "Your opponent gets 1 Breakout roll this turn."
+
+    The Crowd Meter only increases after 6 turn rolls; then on the next turn roll, the next entrant enters.
+
+    They draw 5 additional cards and their turn roll is +2.
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Grand Battle Crowd Meter 5
+  db_uuid: b0bde5b2ce8346e9ab8efd09ed9cd3f9
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +2.
+
+    Cards with "Over the Top" in the name are also Finishes.
+
+    They have the added text "Your opponent is eliminated."
+
+    "Universal Dropkick", "Sweeping Slam" and "Umbrella Hold" cannot stop Follow Ups with "Over the Top" in the name.'
+  tags: []
+- name: Kendo Stick Match
+  db_uuid: 1c99ac42f6fa402ca1eb0c2e882584b7
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    When you have a card in play with "Kendo Stick" in the name: when you hit a card with "Kendo Stick", "Swing", or "Chop" in the name, your opponent randomly discards 1 card from their hand. Finish rolls are + the Crowd Meter.'
+  tags: []
+- name: Ladder Match Crowd Meter 0
+  db_uuid: 1f6d0a0657ab44859375764964febe93
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    At the start of the match: you may search your deck for 1 card with "Ladder" in the name and put it in your discard pile.
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +3.'
+  tags: []
+- name: Ladder Match Crowd Meter 1
+  db_uuid: 385cc815cad94f729ff8d7c0f9dbddb1
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +2.'
+  tags: []
+- name: Ladder Match Crowd Meter 2
+  db_uuid: f7d0f3c6a69048b0a6b595816e8004de
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +1.
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +2.'
+  tags: []
+- name: Ladder Match Crowd Meter 3
+  db_uuid: ed1d7625cdc04d7a89cf65fd151ee77d
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +2.
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +2.'
+  tags: []
+- name: Ladder Match Crowd Meter 4
+  db_uuid: 95a8cb4098454881abc07b9ac343e02e
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +3.
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +2.'
+  tags: []
+- name: Ladder Match Crowd Meter 5
+  db_uuid: ebcaf03f474e48c094d48dd7ba41fa1e
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    Finish rolls are +4.
+
+    When you do not have a card with "Ladder" in the name in play, your opponent gets 1 additional Breakout roll, that roll is +2.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 0
+  db_uuid: 003873e40d84446ba81684d98e3130cd
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 1 card in their hand, 1 card in their discard pile, or they reveal the top card of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 1
+  db_uuid: b6f6d4a6dd734e38b7ce407525c1ae33
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Finish rolls are +1.
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 1 card in their hand, 1 card in their discard pile, or they reveal the top card of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 2
+  db_uuid: 0e1955a581cc4266aa9a387f5d175ed3
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Finish rolls are +2.
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 2 cards in their hand, 2 cards in their discard pile, or they reveal the top 2 cards of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 3
+  db_uuid: 19c1cc8e1a8e49598b9598c30ce330f9
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Finish rolls are +3.
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 2 cards in their hand, 2 cards in their discard pile, or they reveal the top 2 cards of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 4
+  db_uuid: 7bf2bc9eda1f468a9c8a13e6bc493aa0
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Finish rolls are +4.
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 3 cards in their hand, 3 cards in their discard pile, or they reveal the top 3 cards of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
+- name: Last Competitor Standing! Match Crowd Meter 5
+  db_uuid: 3d62d2d9a0184f0a846727f579b02033
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Count Outs
+
+    Max Handsize 10
+
+    High printed skill breaks out
+
+    Finish rolls are +5.
+
+    Each turn a player gets 10 total Breakout rolls, after your opponent''s breakout roll choose 1; they randomly reveal 4 cards in their hand, 4 cards in their discard pile, or they reveal the top 4 cards of their deck.  If the revealed card is #28, #29, or #30, it is removed from the game.  If it is not it is buried.
+
+    Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
+  tags: []
 - name: Dark Match
   db_uuid: 0ac0c133b4114b4596bba51037f00996
   card_type: CrowdMeterCard
@@ -85695,6 +86072,84 @@
   wants_keywords:
     - Corner
     - Turnbuckle
+- name: Lumberjack Match Crowd Meter 0
+  db_uuid: 2ddb1f9fa4854244a9ccc6d5f4b65614
+  card_type: CrowdMeterCard
+  rules_text: 'Starting hand size: 5
+
+    Max Hand Size: 10
+
+    No Disqualifications
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
+- name: Lumberjack Match Crowd Meter 1
+  db_uuid: 5eea9a33bdbd48d298d0c5b685da12f3
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 9
+
+    No Disqualifications
+
+    Finish cards have the added text "Your opponent buries 1 card in their hand."
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
+- name: Lumberjack Match Crowd Meter 2
+  db_uuid: 603fea995598400e9cae34b79b99b3a7
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 8
+
+    No Disqualifications
+
+    Finish cards have the added text "Your opponent buries 2 cards in their hand."
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
+- name: Lumberjack Match Crowd Meter 3
+  db_uuid: 6317e3777ae945cca8657c1a05b3b98b
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 7
+
+    No Disqualifications
+
+    Finish cards have the added text "Your opponent buries 3 cards in their hand."
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
+- name: Lumberjack Match Crowd Meter 4
+  db_uuid: 17a2d3934f824adcb7863825f4157f83
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 6
+
+    No Disqualifications
+
+    Finish cards have the added text "Your opponent buries 4 cards in their hand."
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
+- name: Lumberjack Match Crowd Meter 5
+  db_uuid: ef5a269b0e194928841bade32a0f0db8
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 5
+
+    No Disqualifications
+
+    Finish cards have the added text "Your opponent buries 5 cards in their hand."
+
+    Stipulation: When a card would be put in the discard pile it is instead randomly buried.
+
+    Special Finish: At the end of any turn if a player has 0 cards in their hand they lose the match via Count Out.'
+  tags: []
 - name: Liger's Den Match!
   db_uuid: 30f88b54c9af41aa9625086b536963b0
   card_type: CrowdMeterCard

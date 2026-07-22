@@ -21,6 +21,7 @@ class Card(BaseModel):
     rules_text: Optional[str]
     errata_text: Optional[str]
     tags: Optional[List[str]] = []
+    requirements: Optional[List[dict]] = []
     comments: Optional[str]
     srg_url: Optional[str]
     srgpc_url: Optional[str]

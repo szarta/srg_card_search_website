@@ -16,7 +16,7 @@ from sqlalchemy import (
     JSON,
 )
 from sqlalchemy.orm import relationship, declarative_base
-from sqlalchemy.dialects.postgresql import ARRAY, TEXT
+from sqlalchemy.dialects.postgresql import ARRAY, TEXT, JSONB
 from sqlalchemy.sql import func
 import enum
 import uuid
@@ -84,6 +84,9 @@ class Card(Base):
     errata_text = Column(String)
     comments = Column(String)
     tags = Column(ARRAY(TEXT), nullable=True)
+    # Structured requirements, e.g. [{"min_strike": 8}, {"min_agility": 9}].
+    # Open-ended list so freeform (non-skill) requirements can be added later.
+    requirements = Column(JSONB, nullable=True)
     card_type = Column(String)
 
     # Configure polymorphic mapping

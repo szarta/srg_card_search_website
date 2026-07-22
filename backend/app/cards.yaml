@@ -3451,6 +3451,8 @@
     Skill Requirement: Submission 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_submission: 8
 - name: Half Boston Crab
   db_uuid: 35860c66fb2a43049146f5b1553404b0
   srg_url: https://supershowthegame.com/product/24-half-boston-crab/
@@ -3501,6 +3503,8 @@
   deck_card_number: 9
   rules_text: 'You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards. Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Spinning Heel Kick
   db_uuid: 83b46be5fe38481e9cbbee07353c5861
   srg_url: https://supershowthegame.com/product/13-spinning-heel-kick/
@@ -3559,6 +3563,9 @@
 
     Your next turn roll is +1 for each Strike you have in play.  Skill Requirement:  Strike 10+, Agility 9+'
   tags: []
+  requirements:
+    - min_strike: 10
+    - min_agility: 9
 - name: Unwrap Some Sling-Cheese! (Technique)
   db_uuid: 97c4cca31c864ad786827d6863d509a4
   card_type: MainDeckCard
@@ -3570,6 +3577,8 @@
     Skill Requirement: Technique 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_technique: 8
 - name: Swashbuckle Barrage
   db_uuid: e08816c561e54dd1b872e3cd0e46b772
   card_type: MainDeckCard
@@ -3638,6 +3647,8 @@
     Skill Requirement: Agility 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_agility: 8
 - name: American Dragon Drop
   db_uuid: da4ed6a0dc0b4430a9455df55e55f33a
   srg_url: https://supershowthegame.com/product/17-american-dragon-drop/
@@ -3676,6 +3687,8 @@
     Skill Requirement: Grapple 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_grapple: 8
 - name: Reflective Parry
   db_uuid: 7b6bc01e61d847cc85a33cb82842034b
   srgpc_url: https://www.srgpc.net/cards/23/reflective-parry/
@@ -3697,6 +3710,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Grapple 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_grapple: 8
 - name: Super Lucha Stampede (Power)
   db_uuid: 0180fb4238bb46cb875588ae5c7e7e3e
   srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
@@ -3707,6 +3722,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Power 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_power: 8
 - name: Blindside Tackle
   db_uuid: ec82e20d3b184af083ccf764a19b747c
   srg_url: https://supershowthegame.com/product/kickstarter-comic-promos/
@@ -3897,6 +3914,8 @@
     Skill Requirement: Power 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_power: 8
 - name: Kneeling Chin Hold
   db_uuid: 53fed339ac5c44a68c252187ab183a5d
   card_type: MainDeckCard
@@ -4008,6 +4027,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Hold the Ladder
   db_uuid: fdb157d7a15b400abb00a9598d3592cc
   card_type: MainDeckCard
@@ -4874,6 +4895,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Big Bad Bobby D
   db_uuid: 64f184e2aad14b30adda926175ee8e6e
   srg_url: https://supershowthegame.com/product/big-bad-bobby-d-2/
@@ -5206,6 +5229,8 @@
     Skill Requirement: Strike 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_strike: 8
 - name: Moonsault
   db_uuid: e11192eb755d4fcdb8caccd2b31a7326
   srg_url: https://supershowthegame.com/product/22-moonsault/
@@ -5228,6 +5253,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Agility 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_agility: 8
 - name: Fantastic Doom Pipe Pounce! (Strike)
   db_uuid: b42187c7b6b740f2938057f3535e1105
   srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
@@ -5238,6 +5265,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Strike 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_strike: 8
 - name: Elbow Shot
   db_uuid: e4809829f15e4232937e72b281f75edc
   srg_url: https://supershowthegame.com/product/07-elbow-shot/
@@ -6729,6 +6758,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Hog Tie
   db_uuid: 29631d4588004c22836fc964b4e574c3
   srgpc_url: https://www.srgpc.net/cards/3/hog-tie
@@ -7319,6 +7350,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Kicks to the Gut
   db_uuid: e6fb4cd801174c2b93fe9e9418c0e8ac
   srgpc_url: https://www.srgpc.net/cards/4/kicks-to-the-gut
@@ -8521,6 +8554,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Jaw Wrench
   db_uuid: 9a2e8e84a9dd4b09b654df50ec5dc18e
   srgpc_url: https://www.srgpc.net/cards/6/jaw-wrench/
@@ -8886,6 +8921,8 @@
   deck_card_number: 7
   rules_text: 'When you have "Flying Super Snap Face Punch" in play, this card is also a finish.  Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Dragon Punch
   db_uuid: 7cda714d91bc443386071bdd3327985d
   srgpc_url: https://www.srgpc.net/cards/7/dragon-punch/
@@ -8908,6 +8945,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Drumstick Uprising
   db_uuid: 0c7c6c9d439b461499c8806be4f18a69
   srgpc_url: https://www.srgpc.net/cards/7/drumstick-uprising/
@@ -9215,6 +9254,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Run it Back
   db_uuid: 958d63b6e6bb4ec3800ef7eec3060c2f
   srgpc_url: https://www.srgpc.net/cards/7/run-it-back/
@@ -9569,6 +9610,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Check Under the Ring
   db_uuid: 4b9aedd8dd234b7e98e106bdefd5c3cb
   srg_url: https://supershowthegame.com/product/08-check-under-the-ring/
@@ -10014,6 +10057,8 @@
 
     If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Sweet & Salty Impact Drop (Grapple)
   db_uuid: 67ee5fd4625042778926e81052173083
   card_type: MainDeckCard
@@ -10024,6 +10069,8 @@
 
     If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Swing the Crowd
   db_uuid: 178e37258d1a4430b5406a3b83fa2ff2
   card_type: MainDeckCard
@@ -10141,6 +10188,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Toss Out of the Ring
   db_uuid: 3fe1f12b8df2431fa8337921dcde3b87
   srgpc_url: https://www.srgpc.net/cards/8/toss-out-of-the-ring/
@@ -10305,6 +10354,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Brainwashed
   db_uuid: 28e5071b77104535936cc2f0adfa2af8
   srgpc_url: https://www.srgpc.net/cards/9/brainwashed/
@@ -10368,6 +10419,8 @@
 
     If the Crowd Meter is 3 or greater, draw 5 cards instead. Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug! (Agility)
   db_uuid: f275dfe7304d4014852c712b5bdd60b4
   srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug-agility/
@@ -10381,6 +10434,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Chugga-Chugga-Chugga-Chugga-Chugga-Chugga-Chug!
   db_uuid: 8a1299aa5d354566a8686984becacc19
   srg_url: https://supershowthegame.com/product/09-chugga-chugga-chugga-chugga-chugga-chugga-chug/
@@ -11064,6 +11119,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
@@ -11080,6 +11137,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
@@ -11095,6 +11154,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
   related_cards:
     - c7c10be660374a0caa38dfab98aa0241
     - c8f2b59005a54db7aa26bacd590fdf31
@@ -11570,6 +11631,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Surprise Attack
   db_uuid: 9318fbd151b341d4a2cbec9c920a07cf
   srgpc_url: https://www.srgpc.net/cards/10/surprise-attack/
@@ -11734,6 +11797,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Boss Around
   db_uuid: be6ed076834c4502a9c9748f5a555875
   srgpc_url: https://www.srgpc.net/cards/11/boss-around/
@@ -11814,6 +11879,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Exploder Suplex
   db_uuid: 7c9d5b40bf654857a9bf1b3a853a58f4
   srgpc_url: https://www.srgpc.net/cards/11/exploder-suplex/
@@ -12005,6 +12072,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Put Some Respect On It! (Grapple)
   db_uuid: 506a434f50d743d6bec704fa4eeb561f
   srgpc_url: https://www.srgpc.net/cards/11/put-some-respect-on-it/
@@ -12020,6 +12089,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Reverse Backbreaker (V1)
   db_uuid: 8071e90b495940fba187893f9ca46cc9
   srgpc_url: https://www.srgpc.net/cards/11/reverse-backbreaker-v2/
@@ -12671,6 +12742,9 @@
 
     Skill Requirement: Grapple 10+, Technique 9+'
   tags: []
+  requirements:
+    - min_grapple: 10
+    - min_technique: 9
 - name: Ready to Rumble
   db_uuid: 09f77610a2ec48f5ac653ffbd8c8fbc2
   srg_url: https://supershowthegame.com/product/12-ready-to-rumble/
@@ -12719,6 +12793,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Shaking In My Boots
   db_uuid: 46a5efcf068644cebe98091da7ffeeb8
   srgpc_url: https://www.srgpc.net/cards/12/shaking-in-my-boots/
@@ -12817,6 +12893,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: The Numbers Game
   db_uuid: 40ba8751e355479ab41a9e30ac793c00
   srgpc_url: https://www.srgpc.net/cards/12/the-numbers-game/
@@ -12911,6 +12989,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Baseball Bat Takeover
   db_uuid: 7f1e6865feaa4b7da354a562f0ef394b
   card_type: MainDeckCard
@@ -12990,6 +13070,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Cannon Kick
   db_uuid: 19d7f570a8c94f4899b7dc10e153af6a
   srgpc_url: https://www.srgpc.net/cards/13/cannon-kick/
@@ -13023,6 +13105,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Cold Cocked Elbow
   db_uuid: 6eaf5c5b34b04687b22d44b3e6bc7492
   srgpc_url: https://www.srgpc.net/cards/13/cold-cocked-elbow/
@@ -13054,6 +13138,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Cosmic Sheep Elbow
   db_uuid: b6ccd22bb6c849b8a97eb06439da3c8d
   srgpc_url: https://www.srgpc.net/cards/13/cosmic-sheep-elbow/
@@ -13122,6 +13208,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Enzuigiri (Agility)
   db_uuid: 3c33b1bed6d341339ef0ef5e1302692c
   srgpc_url: https://www.srgpc.net/cards/13/enzuigiri/
@@ -13135,6 +13223,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Evasive Manuever
   db_uuid: 7ff25aa5dbd4499e88baf421265b613c
   srgpc_url: https://www.srgpc.net/cards/13/evasive-maneuver/
@@ -13295,6 +13385,8 @@
 
     Draw 2 cards.  Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Kick in the Ropes
   db_uuid: 095264251cae480981abcfcd179702da
   srgpc_url: https://www.srgpc.net/cards/13/kick-in-the-ropes/
@@ -13539,6 +13631,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Spinning Crossbody
   db_uuid: 7bc470809ecf416cb804fee581fb230f
   srgpc_url: https://www.srgpc.net/cards/13/spinning-crossbody/
@@ -13599,6 +13693,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Steel Chain Spin
   db_uuid: f40febdff67946279c449f9b8a10e19d
   srg_url: https://supershowthegame.com/product/13-steel-chain-spin/
@@ -13763,6 +13859,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Unreal Rope Balance
   db_uuid: 69023ec550614c05a8fa91ffa451e2e0
   srgpc_url: https://www.srgpc.net/cards/13/unreal-rope-balance/
@@ -13783,6 +13881,8 @@
 
     Your opponent discards 1 random card from their hand. Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Al13n Boot Drop
   db_uuid: fe6c2777a7e249438a2842f9c888d685
   srgpc_url: https://www.srgpc.net/cards/14/al13n-boot-drop/
@@ -13807,6 +13907,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Atomic Drop (V1)
   db_uuid: 90bf8b8280304b5680ad2d1b6119a70e
   srgpc_url: https://www.srgpc.net/cards/14/atomic-drop-v2/
@@ -13928,6 +14030,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Cheat to Win
   db_uuid: 5c567ab9e4f44743a792e3c92220e31b
   card_type: MainDeckCard
@@ -13958,6 +14062,9 @@
 
     Discard 2 cards your opponent has in play. Skill Requirement: Power 10, Grapple 9'
   tags: []
+  requirements:
+    - min_power: 10
+    - min_grapple: 9
 - name: Corner Snake Eyes
   db_uuid: 353c577e950b40e48cde04d6198a46a3
   srgpc_url: https://www.srgpc.net/cards/14/corner-snake-eyes/
@@ -14083,6 +14190,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Falling Powerslam
   db_uuid: 22ce4c4eb4f14b6cae463afced6d8b32
   srgpc_url: https://www.srgpc.net/cards/14/flipping-powerslam/
@@ -14299,6 +14408,8 @@
 
     Skill requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Oklahoma Stampede (Power)
   db_uuid: 640e8c055a764df0829c2efc7308ff59
   srgpc_url: https://www.srgpc.net/cards/14/oklahoma-stampede-power/
@@ -14312,6 +14423,8 @@
 
     Skill requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Overhead Suplex
   db_uuid: 8b0c213505e84300820787965d4f7b36
   srgpc_url: https://www.srgpc.net/cards/14/overhead-suplex/
@@ -14347,6 +14460,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Radical Bomb
   db_uuid: d9e11573cc9443d1ac7f112d829d70cb
   srgpc_url: https://www.srgpc.net/cards/14/radical-bomb/
@@ -14382,6 +14497,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Samoan Driver
   db_uuid: 17e2e79d0be0418aa3e23b341dd70bd3
   srgpc_url: https://www.srgpc.net/cards/14/samoan-driver/
@@ -14426,6 +14543,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Snap Back Drop
   db_uuid: 61d610a69c7b44c7a8764f0812219451
   srgpc_url: https://www.srgpc.net/cards/14/snap-back-drop/
@@ -14450,6 +14569,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Spike Powerbomb
   db_uuid: 47621b3eb87e4e4bb07b8099e148629d
   srgpc_url: https://www.srgpc.net/cards/14/spike-powerbomb/
@@ -14497,6 +14618,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Surprise Cutter (V1)
   db_uuid: f1ad724d2fc547ddb9ba0371556143ee
   spotlight: true
@@ -14688,6 +14811,8 @@
 
     Skill requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: All American Sheep Army
   db_uuid: d08e2853ed164700804d99964331d4c6
   srgpc_url: https://www.srgpc.net/cards/15/all-american-sheep-army/
@@ -14758,6 +14883,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Bear Hug (V1)
   db_uuid: c4bd29230d1248f9bc042434bf614b96
   srgpc_url: https://www.srgpc.net/cards/15/bear-hug/
@@ -14804,6 +14931,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Bend Around the Ring Post
   db_uuid: 5bf2cc2df56c4fe6b862cefce44f9196
   srgpc_url: https://www.srgpc.net/cards/15/bend-around-the-ring-post/
@@ -14841,6 +14970,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Boot to the Neck
   db_uuid: 6757972234594f0a9ff9375b0d8d2e70
   srgpc_url: https://www.srgpc.net/cards/15/boot-to-the-neck/
@@ -14886,6 +15017,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Crackin' Down
   db_uuid: b8ab8d1d5b3f4b6fa193c3b0df67cd9b
   srgpc_url: https://www.srgpc.net/cards/15/crackin-down/
@@ -14939,6 +15072,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Crossarm Chickenwing (Technique)
   db_uuid: c583520d1c4e4faf91ac3407095f2727
   srgpc_url: https://www.srgpc.net/cards/15/crossarm-chickenwing/
@@ -14952,6 +15087,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Double Arm Lock
   db_uuid: 070685fedcd5456b9423f37f6b5a9e68
   srgpc_url: https://www.srgpc.net/cards/15/double-arm-lock/
@@ -15125,6 +15262,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Leg Lasso
   db_uuid: 0988eb5370534ef295a3d431b9c2f285
   srgpc_url: https://www.srgpc.net/cards/15/leg-lasso/
@@ -15223,6 +15362,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Rope Break
   db_uuid: 910aab0a7e374b969d2d698e92dafdac
   srgpc_url: https://www.srgpc.net/cards/15/rope-break-njpw/
@@ -15298,6 +15439,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Spinning Hammer Hold
   db_uuid: 2e971c0eeca447d897226524cfe3d29f
   srgpc_url: https://www.srgpc.net/cards/15/spinning-hammer-hold/
@@ -15571,6 +15714,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Ambush With The Drumsticks
   db_uuid: fff0816a2267421b9ebef17b5f84a5b1
   srgpc_url: https://www.srgpc.net/cards/16/ambush-with-the-kendo-stick/
@@ -15697,6 +15842,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Chop Block
   db_uuid: a41e0599763c4d5cb61f7febf23f3207
   srgpc_url: https://www.srgpc.net/cards/16/chop-block/
@@ -15748,6 +15895,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Dangerous Knee Assault
   db_uuid: 463e0cf2dab9445da824d6eb92089721
   srgpc_url: https://www.srgpc.net/cards/16/dangerous-knee-assault/
@@ -15789,6 +15938,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Double Kick
   db_uuid: 183405017a9a49ed89bd21e0efc76242
   srgpc_url: https://www.srgpc.net/cards/16/double-kick/
@@ -15900,6 +16051,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
   related_cards:
     - 1a5d9a8a26a24f2cb51ee4b26499286b
     - 7c49b4a11b364873af1c67cd03273f64
@@ -16206,6 +16359,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Sledgehammer The Quad
   db_uuid: 38486c45ba484e51b751ef84465fb519
   srgpc_url: https://www.srgpc.net/cards/16/sledgehammer-the-quad/
@@ -16437,6 +16592,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Back Bump
   db_uuid: f10f39158a444fdeb93862eabd41d634
   srgpc_url: https://www.srgpc.net/cards/17/back-bump/
@@ -16578,6 +16735,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
   related_cards:
     - c8f2b59005a54db7aa26bacd590fdf31
 - name: Double Single Leg Flapjack
@@ -16886,6 +17045,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Slammin' Pixelplex
   db_uuid: cb260a74071c4521af888767c98950a6
   srgpc_url: https://www.srgpc.net/cards/17/slammin-pixelplex/
@@ -17039,6 +17200,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
   related_cards:
     - 0e6380f5281947439c1c62b75e9934f1
     - 7f8f679347c3493183871867fa8cf65f
@@ -17082,6 +17245,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Working Mom Makes Trash Can and Pineapple Champions
   db_uuid: 14f5311fc26e4e58bc210bb7026a8afb
   srgpc_url: https://www.srgpc.net/cards/17/working-mom-makes-trash-can-and-pineapple-champions/
@@ -17364,6 +17529,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Fog Breaker
   db_uuid: e4ac685647b3430a825f97deea9c7457
   srgpc_url: https://www.srgpc.net/cards/18/fog-breaker/
@@ -17414,6 +17581,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Imperial Stretch
   db_uuid: 35aec9fdee7147bc806067d9e14b5d1d
   srgpc_url: https://www.srgpc.net/cards/18/imperial-stretch/
@@ -17551,6 +17720,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Peg Leg Shanghai
   db_uuid: 4742bc528df74d14902420fc4b8a1c1c
   srgpc_url: https://www.srgpc.net/cards/18/peg-leg-shanghai/
@@ -17641,6 +17812,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Royal Stretch
   db_uuid: 74cf731917f34a36b95f73234dd5c4cc
   srgpc_url: https://www.srgpc.net/cards/18/royal-stretch/
@@ -17781,6 +17954,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Torture Rack Backbreaker
   db_uuid: f745e63f7ce24c788cfefaf128db3abc
   srgpc_url: https://www.srgpc.net/cards/18/torture-rack-backbreaker/
@@ -17825,6 +18000,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Tree of Woe
   db_uuid: 247289d34ac84cffa3eaff7dcaaae616
   srgpc_url: https://www.srgpc.net/cards/18/tree-of-woe/
@@ -18002,6 +18179,8 @@
 
     +2 to Agility.  Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Death Defying Elbow Drop (V1)
   db_uuid: 0c0a3d3523af430595a897fa757e9c43
   srgpc_url: https://www.srgpc.net/cards/19/death-defying-elbow-drop/
@@ -18183,6 +18362,8 @@
 
     Skill Requirement: Strike 16+'
   tags: []
+  requirements:
+    - min_strike: 16
 - name: Jumping Back Kick
   db_uuid: 8b242d5690af4b3097e7746579b842e0
   srgpc_url: https://www.srgpc.net/cards/19/jumping-back-kick/
@@ -18309,6 +18490,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Lou Thez Press Punches
   db_uuid: d27205ae68c54e859f896f476ca72674
   card_type: MainDeckCard
@@ -18330,6 +18513,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Missile Drop Kick (V1)
   db_uuid: e0531bc865434ca4b6db7c19366d4636
   card_type: MainDeckCard
@@ -18410,6 +18595,9 @@
 
     Your opponent''''s Gimmick is blank.  Skill Requirement: Agility 10+, Strike 9+'
   tags: []
+  requirements:
+    - min_agility: 10
+    - min_strike: 9
 - name: Power Punching
   db_uuid: 518c88dc8f0e4902b9342cb3b40280e7
   srgpc_url: https://www.srgpc.net/cards/19/power-punching/
@@ -18432,6 +18620,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Punch into the Turnbuckle (Agility)
   db_uuid: d2ffe1617c734e8fb50e0c0d98396a44
   srgpc_url: https://www.srgpc.net/cards/19/punch-into-the-turnbuckle/
@@ -18443,6 +18633,8 @@
 
     +2 to Strike.  Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Rain Down
   db_uuid: 3bf913cbb85f4a8ebdee84b5426d1745
   srgpc_url: https://www.srgpc.net/cards/19/rain-down/
@@ -18478,6 +18670,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Save the Bacon! (Strike)
   db_uuid: 83ad66c9de7345ebbf62cb3cb742793d
   srgpc_url: https://www.srgpc.net/cards/19/save-the-bacon/
@@ -18491,6 +18685,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Series of Kicks
   db_uuid: 816eedf545494030bf30fb5e4b6e6a8f
   srgpc_url: https://www.srgpc.net/cards/19/series-of-kicks/
@@ -18636,6 +18832,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: The 718 (Agility)
   db_uuid: d0b0c27841854f7ca8ed6b64fa01c7d4
   card_type: MainDeckCard
@@ -18648,6 +18846,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
   srgpc_Url: https://www.srgpc.net/cards/19/the-718-agility/
 - name: The Chop Heard Round the World (V1)
   db_uuid: 289081bf2bb14c029cf391203cb5f077
@@ -18684,6 +18884,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: The Seven Bells of the Belfry (V1)
   db_uuid: 6e681e5458d14ce8b1150b969647a730
   srgpc_url: https://www.srgpc.net/cards/19/the-seven-bells-of-the-belfry-v2/
@@ -18878,6 +19080,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Detroit Breaker Bomb
   db_uuid: 7e3b39ce46a24cdf8d7a84fba6cdaa2f
   srgpc_url: https://www.srgpc.net/cards/20/detroit-breaker-bomb/
@@ -18909,6 +19113,8 @@
 
     Skill Requirement: Grapple 16+'
   tags: []
+  requirements:
+    - min_grapple: 16
 - name: Double Leg Powerbomb
   db_uuid: 9a51d798372e4ecaa2ac60b4c29cacb8
   srgpc_url: https://www.srgpc.net/cards/20/double-leg-powerbomb/
@@ -18955,6 +19161,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Face Buster Suplex
   db_uuid: 35e7345681dc4768b1b626b2988f0125
   srgpc_url: https://www.srgpc.net/cards/20/face-buster-suplex/
@@ -19032,6 +19240,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Hold the Steel Chair
   db_uuid: cc6b18ddd1f04dd6aabdf531f9debaef
   srgpc_url: https://www.srgpc.net/cards/20/hold-the-steel-chair/
@@ -19194,6 +19404,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Press Slam (Power)
   db_uuid: 7c49b4a11b364873af1c67cd03273f64
   srgpc_url: https://www.srgpc.net/cards/20/press-slam-power/
@@ -19207,6 +19419,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Release German Suplex (V2)
   db_uuid: a69f7f4cd9074ac8a54b4cb6dd9e9bd5
   srgpc_url: https://www.srgpc.net/cards/20/release-german-suplex/
@@ -19285,6 +19499,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Skull Slam
   db_uuid: ff8842b730e4447ebf679e3444bf4b46
   srgpc_url: https://www.srgpc.net/cards/20/skull-slam/
@@ -19383,6 +19599,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Super Shoulder Breaker
   db_uuid: 16ade5b3ef2e4713b596450e3ab48c3a
   card_type: MainDeckCard
@@ -19406,6 +19624,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Superkick Suplex
   db_uuid: fd6faadb23a647ecbde9ac36c84d7eee
   srgpc_url: https://www.srgpc.net/cards/20/superkick-suplex/
@@ -19473,6 +19693,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: That Doesn't Work For Me, Brother! (Grapple)
   db_uuid: f6a2e224589e475a987fed9e8ea0601a
   srgpc_url: https://www.srgpc.net/cards/20/that-doesnt-work-for-me-brother/
@@ -19486,6 +19708,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Thunderous Flex
   db_uuid: d66659b2f2c546fbbe3297116b753eb5
   srg_url: https://supershowthegame.com/product/20-thunderous-flex/
@@ -19602,6 +19826,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Beatdown in the Corner
   db_uuid: 4837d69512cd48d39c6817286a2e31d8
   srgpc_url: https://www.srgpc.net/cards/21/beatdown-in-the-corner/
@@ -19651,6 +19877,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Boss Beatdown
   db_uuid: 6f871ce26019410aaebd627f0c28eae6
   srgpc_url: https://www.srgpc.net/cards/21/boss-beatdown/
@@ -19707,6 +19935,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Dog Off the Chain
   db_uuid: 524d595f09cc4fb1b55103b521614334
   srg_url: https://supershowthegame.com/product/21-dog-of-the-chain/
@@ -19794,6 +20024,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Full Nelson (Technique)
   db_uuid: 7f8f679347c3493183871867fa8cf65f
   srgpc_url: https://www.srgpc.net/cards/21/full-nelson-technique/
@@ -19807,6 +20039,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Hammer and Anvil Elbows
   db_uuid: 441c0616412b40618d9f8668434a6bf9
   srgpc_url: https://www.srgpc.net/cards/21/hammer-and-anvil-elbows/
@@ -19949,6 +20183,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Knockdown the Ring Steps
   db_uuid: 26fd8a1bab09431e885d4238221c6580
   srgpc_url: https://www.srgpc.net/cards/21/knockdown-the-ring-steps/
@@ -20095,6 +20331,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Octopus Hold
   db_uuid: 6d189703d2024aefb48a1b1b72984806
   srgpc_url: https://www.srgpc.net/cards/21/octopus-hold/
@@ -20157,6 +20395,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Roll Out of the Way
   db_uuid: 0e77f9dc38394f09a1445d4f1780dd6d
   srgpc_url: https://www.srgpc.net/cards/21/roll-out-of-the-way/
@@ -20273,6 +20513,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: The Madness Spreads (Grapple)
   db_uuid: 37bd5a41ed97461cb33e713e9a13571d
   srgpc_url: https://www.srgpc.net/cards/21/the-madness-spreads/
@@ -20282,6 +20524,8 @@
   deck_card_number: 21
   rules_text: 'Your opponent''s next Strike has the added text:"If stopped, you lose the match via Disqualification."Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Trap and Control (Submission)
   db_uuid: 6a138190c6ca4535a6596b2b5150de36
   srgpc_url: https://www.srgpc.net/cards/21/trap-and-control/
@@ -20295,6 +20539,8 @@
 
     Skill Requirement: Submission 16+'
   tags: []
+  requirements:
+    - min_submission: 16
 - name: Twisted Rope Burn
   db_uuid: 1dc0e864fceb44abbdde058730520a19
   srgpc_url: https://www.srgpc.net/cards/21/twisted-rope-burn/
@@ -20463,6 +20709,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Booty Drop Chop (Strike)
   db_uuid: 92c1ff259f5e4b6b931c90a13c3c1851
   srgpc_url: https://www.srgpc.net/cards/22/booty-drop-chop-strike/
@@ -20480,6 +20728,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Brass Knuckle Punch
   db_uuid: 7c8bd5a5fb2b4498b01d054f25b548ec
   srg_url: https://supershowthegame.com/product/22-brass-knuckle-punch/
@@ -20526,6 +20776,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Catch, Twist, Kick (Agility)
   db_uuid: 82dbb30da1e84bfb8aad957b572da0aa
   srgpc_url: https://www.srgpc.net/cards/22/catch-twist-kick/
@@ -20541,6 +20793,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Chair Shot
   db_uuid: 9fa7bdeaa4c84ef198d3fdbde50c381c
   srgpc_url: https://www.srgpc.net/cards/22/chair-shot/
@@ -20616,6 +20870,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Discus Elbow
   db_uuid: a7ef5df2b6fd421984806994e84949d7
   srgpc_url: https://www.srgpc.net/cards/22/discus-elbow/
@@ -20649,6 +20905,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Double Dose
   db_uuid: cb3e10c55c854a97b41a83065bea8cce
   srgpc_url: https://www.srgpc.net/cards/22/double-dose/
@@ -20746,6 +21004,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Flying Knee Strike (V1)
   db_uuid: 2981c172ae3e44d8a46a585edc49b718
   srgpc_url: https://www.srgpc.net/cards/22/flying-knee-strike-v1/
@@ -20959,6 +21219,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Rolling Tire Fire of Obliteration
   db_uuid: 704fef20c27c4443be99c63e88552f98
   srgpc_url: https://www.srgpc.net/cards/22/rolling-tire-fire-of-obliteration/
@@ -21148,6 +21410,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Soaring Skateboard Smash
   db_uuid: 226d7a4c82d94598927d4e0a3e12530f
   srgpc_url: https://www.srgpc.net/cards/22/soaring-skateboard-smash/
@@ -21350,6 +21614,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Atomic Backstabber
   db_uuid: 06c49b570477472fa3c9ddeef199b61e
   card_type: MainDeckCard
@@ -21455,6 +21721,8 @@
 
     If this is a Ring of Fire match, your opponent flips 3 cards. Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Backbreaker
   db_uuid: 4952ddfad34941ff9fd1838a2e755aac
   srgpc_url: https://www.srgpc.net/cards/23/backbreaker/
@@ -21492,6 +21760,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Brain Buster
   db_uuid: fe0ccdf965f8489c97c7db760dcb19cf
   srgpc_url: https://www.srgpc.net/cards/23/brain-buster/
@@ -21698,6 +21968,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Gut Punch Body Slam
   db_uuid: ccc1924697ec4176b6a0e79f831e7ca3
   srgpc_url: https://www.srgpc.net/cards/23/gut-punch-body-slam/
@@ -21757,6 +22029,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: High Crunching Stomps
   db_uuid: 0b82142a4c7c4691b534336e08468545
   srgpc_url: https://www.srgpc.net/cards/23/high-crunching-stomps/
@@ -21865,6 +22139,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Legendary American Sheep Union Break (Power)
   db_uuid: 8856e506dc864d38a52841065641a3a0
   card_type: MainDeckCard
@@ -21881,6 +22157,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Lucha Light House of Pain
   db_uuid: 2b3297c85ca94b79b4620fce31b7f112
   srgpc_url: https://www.srgpc.net/cards/23/lucha-light-house-of-pain/
@@ -21929,6 +22207,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Package Piledriver
   db_uuid: 49a53caf0d7145ad8d38f2ab386065ee
   srgpc_url: https://www.srgpc.net/cards/23/package-piledriver/
@@ -21956,6 +22236,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Poisonrana
   db_uuid: ad71ee341edc4ba0b6df52cf29bacc2c
   srgpc_url: https://www.srgpc.net/cards/23/poisonrana/
@@ -21982,6 +22264,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Pump Handle Slam
   db_uuid: 1bbd87f1e12c41708026407d768a608f
   srgpc_url: https://www.srgpc.net/cards/23/pump-handle-slam/
@@ -22318,6 +22602,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Sunset Sleeper Hold
   db_uuid: 967e451db96f4973978c4c464984c244
   srg_url: https://supershowthegame.com/product/gen-con-2025-daily-promo-bundle/
@@ -22434,6 +22720,8 @@
 
     If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Chowchi Says, "Go To Sheep"
   db_uuid: b7f5fab757e2458e82ebac0025b50838
   srgpc_url: https://www.srgpc.net/cards/24/chowchi-says-go-to-sheep/
@@ -22504,6 +22792,9 @@
 
     Skill Requirement: Technique 10+, Submission 9+'
   tags: []
+  requirements:
+    - min_technique: 10
+    - min_submission: 9
 - name: Destiny's Call (V1)
   db_uuid: 3d74224802234efb8e29a336db6ed590
   srgpc_url: https://www.srgpc.net/cards/24/destinys-call/
@@ -22589,6 +22880,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Flying Fly Trap (Submission)
   db_uuid: 9f1a114cac8142c8becd277019c49208
   srgpc_url: https://www.srgpc.net/cards/24/flying-fly-trap/
@@ -22602,6 +22895,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Getting Extreme Heat
   db_uuid: 467282f70bfe4d4cbc0c170904217910
   srgpc_url: https://www.srgpc.net/cards/24/getting-extreme-heat/
@@ -22794,6 +23089,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Leg Lariat Lock
   db_uuid: f32b15997ca74300bf0770d5029a0459
   srgpc_url: https://www.srgpc.net/cards/24/leg-lariat-lock/
@@ -22817,6 +23114,8 @@
 
     When this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Multiversal Stomps
   db_uuid: f00894dd8cfd479c8c865f1bcd0bd1aa
   srgpc_url: https://www.srgpc.net/cards/24/multiversal-stomps/
@@ -23738,6 +24037,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Swinging Double Axe Handle
   db_uuid: 2779b1cb80af4936be3dd155a5281329
   srgpc_url: https://www.srgpc.net/cards/25/swinging-double-axe-handle/
@@ -23852,6 +24153,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Attack of the Lucha-Bots!
   db_uuid: fe8f6547ea434a56a176db8839756a3c
   srgpc_url: https://www.srgpc.net/cards/26/attack-of-the-lucha-bots/
@@ -24009,6 +24312,9 @@
 
     This card is also a Follow Up.  Skill Requirement: Grapple 10+, Power 9+'
   tags: []
+  requirements:
+    - min_grapple: 10
+    - min_power: 9
 - name: Butterfly Suplex
   db_uuid: 1517fa38945d40749a4a3ccc1de79749
   srgpc_url: https://www.srgpc.net/cards/26/butterfly-suplex/
@@ -25110,6 +25416,8 @@
 
     Your Finish rolls are +1.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Smush into the Turnbuckle
   db_uuid: 37e307cb41c54764b432fcab6803a339
   srgpc_url: https://www.srgpc.net/cards/27/smush-into-the-turnbuckle/
@@ -79690,6 +79998,8 @@
     Skill Requirement: Power 16+'
   tags:
     - Logoless
+  requirements:
+    - min_power: 16
 - name: Sharpshooter (#30)
   db_uuid: dbfcd2fc470046ae9c39666d91a7958a
   srg_url: https://supershowthegame.com/product/30-sharpshooter/
@@ -79892,6 +80202,8 @@
 
     Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Splitting Up-Bird Cut
   db_uuid: 51d9f503d8b74162a1c3183fc76c97ba
   srgpc_url: https://www.srgpc.net/cards/4/splitting-up-bird-cut/
@@ -79925,6 +80237,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Cast Aside
   db_uuid: 65ad8c3e8604414c8a16abe85b907b00
   srgpc_url: https://www.srgpc.net/cards/5/cast-aside/
@@ -79981,6 +80295,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Swinging Sweep
   db_uuid: 458982fcc61a4a91b3ee12a4faecde56
   srgpc_url: https://www.srgpc.net/cards/5/swinging-sweep/
@@ -80003,6 +80319,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Game On
   db_uuid: 08b9e1258770439a9d94dfb2190ff48e
   srgpc_url: https://www.srgpc.net/cards/6/game-on/
@@ -80049,6 +80367,8 @@
 
     Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Starstruck
   db_uuid: dd081453551d4a6b9dc729a492bcf6d7
   srgpc_url: https://www.srgpc.net/cards/6/starstruck/
@@ -80069,6 +80389,8 @@
   deck_card_number: 6
   rules_text: '+1 to Submission.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Dive to the Outside (#7)
   db_uuid: 61519722e45b4a3f97b194c075735893
   card_type: MainDeckCard
@@ -80251,6 +80573,8 @@
 
     Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Stunning Table Sacrifice
   db_uuid: e666ecbffa0d49308401b372473b3d8a
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -80478,6 +80802,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Chaos Undivided
   db_uuid: e0a84dd1efc44ae285acaf774d094d64
   srgpc_url: https://www.srgpc.net/cards/14/chaos-undivided/
@@ -80981,6 +81307,8 @@
 
     Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: Over the Shoulder Slam
   db_uuid: 7d8cb36169ed416297e003cc369a104f
   srgpc_url: https://www.srgpc.net/cards/20/over-the-shoulder-slam/
@@ -81121,6 +81449,8 @@
 
     The next time you roll that skill draw 1 card.  Skill Requirement: Agility 8+'
   tags: []
+  requirements:
+    - min_agility: 8
 - name: Chokeslam Lariat Through The Table
   db_uuid: 71fe7b60ced74238bb449024527c1a80
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -81295,6 +81625,8 @@
 
     Skill Requirement: Power 8+'
   tags: []
+  requirements:
+    - min_power: 8
 - name: Unchained Aggression
   db_uuid: 9837b6ea441f4ee88f3217280e6ad1c6
   srg_url: https://supershowthegame.com/product/23-unchained-aggression/
@@ -81417,6 +81749,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Technique 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_technique: 8
 - name: Steak Sauce of Submission (Submission)
   db_uuid: 7cd910f49c9a4bd4ab573eb302c306b1
   srg_url: https://supershowthegame.com/product/super-lucha-skill-bundle/
@@ -81427,6 +81761,8 @@
   rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Submission 8+'
   tags:
     - Super Lucha
+  requirements:
+    - min_submission: 8
 - name: Blood Bath
   db_uuid: 7443b63c972a4731961f2aef778801ec
   card_type: MainDeckCard
@@ -81491,6 +81827,8 @@
 
     If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Ring Rat Chickenwing Choke
   db_uuid: eae737efaaff406f9b6a7a6016a0d28b
   srgpc_url: https://www.srgpc.net/cards/24/ring-rat-chickenwing-choke/
@@ -81526,6 +81864,8 @@
 
     Skill Requirement: Technique 8+'
   tags: []
+  requirements:
+    - min_technique: 8
 - name: Jumping Knee Drop
   db_uuid: 584408086c974349ac3e8f6f2ec1985b
   card_type: MainDeckCard
@@ -81764,6 +82104,8 @@
     Skill Requirement: Strike 8+'
   tags:
     - Logoless
+  requirements:
+    - min_strike: 8
 - name: Beat & Batter With The Kendo Stick
   db_uuid: 63118ae7468047ab910e79aca98967cb
   card_type: MainDeckCard
@@ -81955,6 +82297,9 @@
     Skill Requirement: Power 10+, Grapple 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_power: 10
+    - min_grapple: 9
 - name: High-Level Parkour
   db_uuid: b9290581e7194ab7a571b72adc5af960
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/high-level-parkour/
@@ -81968,6 +82313,9 @@
     Skill Requirement: Agility 10+, Strike 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_agility: 10
+    - min_strike: 9
 - name: Satellite Scan
   db_uuid: 296a66122216427690d4a75816e3c94a
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/satellite-scan/
@@ -81987,6 +82335,9 @@
     Skill Requirement: Technique 10+, Submission 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_technique: 10
+    - min_submission: 9
 - name: Solar Shotgun
   db_uuid: 05d2bb41fb0348189598d504dae41c0c
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/solar-shotgun/
@@ -82000,6 +82351,9 @@
     Skill Requirement: Strike 10+, Agility 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_strike: 10
+    - min_agility: 9
 - name: Summoning Circle
   db_uuid: 640ffd901b734092a8b181fb197ab391
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/summoning-circle/
@@ -82015,6 +82369,8 @@
     Technique 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_submission: 10
 - name: Volcanic Claymore
   db_uuid: d1052e6b0d5f4721a5425161a65b65cd
   srgpc_url: https://www.srgpc.net/cards/entrance-gears/volcanic-claymore/
@@ -82028,6 +82384,9 @@
     Skill Requirement: Grapple 10+, Power 9+'
   tags:
     - Entrance Gear
+  requirements:
+    - min_grapple: 10
+    - min_power: 9
 - name: Pretty Paul Says, "Let It Rip!"
   db_uuid: 5224820cfea446b6938f65d7154bd2f0
   card_type: EntranceCard
@@ -83050,6 +83409,8 @@
 
     You may play 1 Strike from your discard pile as an additional card this turn.  Skill Requirement: Strike 8+'
   tags: []
+  requirements:
+    - min_strike: 8
 - name: Blindside Asphyxiator (Submission)
   db_uuid: 218660f6319541c6be51ebf4ef0a910d
   card_type: MainDeckCard
@@ -83060,6 +83421,8 @@
 
     You may play 1 Submission from your discard pile as an additional card this turn.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Slithering Back Suplex (Grapple)
   db_uuid: 665ba404533b486cb27df11d1e16a803
   card_type: MainDeckCard
@@ -83070,6 +83433,8 @@
 
     You may play 1 Grapple from your discard pile as an additional card this turn.  Skill Requirement: Grapple 8+'
   tags: []
+  requirements:
+    - min_grapple: 8
 - name: El Pinguino
   db_uuid: b0c907179ca64ae19373d3bd697081ef
   card_type: SingleCompetitorCard
@@ -83908,6 +84273,8 @@
     When you have 8 or more cards in your hand, your opponent gets 2 Breakout rolls this turn. Skill Requirement: Power 8+'
   tags:
     - Logoless
+  requirements:
+    - min_power: 8
 - name: Crush With The Ring Step
   db_uuid: f5fe914f2af94600a78b15fc24afe3de
   card_type: MainDeckCard
@@ -83968,6 +84335,8 @@
     If your Finish roll is 6 or less, it is +2. Skill Requirement: Technique 8+'
   tags:
     - Logoless
+  requirements:
+    - min_technique: 8
 - name: Cross Face
   db_uuid: 34a0f14251954ecb8877727ef22b203e
   srg_url: https://supershowthegame.com/product/30-cross-face/
@@ -83992,6 +84361,8 @@
     Add 1 card from your discard pile to your hand.  Skill Requirement: Technique 8+'
   tags:
     - Logoless
+  requirements:
+    - min_technique: 8
 - name: Guilllotine Choke (Submission)
   db_uuid: 34bba7faa5e94ed997ebfaa322adf771
   srg_url: https://supershowthegame.com/product/30-guillotine-choke/
@@ -84001,6 +84372,8 @@
   deck_card_number: 30
   rules_text: 'If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.  Skill Requirement: Submission 8+'
   tags: []
+  requirements:
+    - min_submission: 8
 - name: Microphone Check
   db_uuid: 808f08622de94ce8a27b9db70fc5fdc0
   srg_url: https://supershowthegame.com/product/30-microphone-check/
@@ -84031,6 +84404,8 @@
     Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
   tags:
     - Logoless
+  requirements:
+    - min_submission: 8
 - name: Strangle With A Sledgehammer
   db_uuid: c53b628a6c6e4978b19f7a0f1904bfdb
   srg_url: https://supershowthegame.com/product/30-strangle-with-a-sledgehammer/
@@ -84343,6 +84718,8 @@
     Add 1 card from your discard pile to your hand.  Skill Requirement: Agility 8+'
   tags:
     - Logoless
+  requirements:
+    - min_agility: 8
 - name: Lightning Leg Drop
   db_uuid: a60eac4bb5514eaaaf98328a32aba7d2
   srg_url: https://supershowthegame.com/product/28-lightning-leg-drop/
@@ -84712,6 +85089,8 @@
     Add 1 Submission you have in play to your hand. Skill Requirement: Submission 8+'
   tags:
     - Logoless
+  requirements:
+    - min_submission: 8
 - name: Jack Knife Powerbomb (Power)
   db_uuid: 5f062df25b7c4807988b7488534bd529
   card_type: MainDeckCard
@@ -84727,6 +85106,8 @@
     Skill Requirement: Power 8+'
   tags:
     - Logoless
+  requirements:
+    - min_power: 8
 - name: Lariat Bomb
   db_uuid: e0e5e556d6514095baaac5b69b699850
   card_type: MainDeckCard
@@ -84911,6 +85292,8 @@
     Skill Requirement: Grapple 8+'
   tags:
     - Logoless
+  requirements:
+    - min_grapple: 8
 - name: Super Steel Chain-Plex
   db_uuid: 7c9fe053618f49d6bd83969b40e7a4eb
   srgpc_url: https://www.srgpc.net/cards/29/super-steel-chain-plex/
@@ -84968,6 +85351,8 @@
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
   tags:
     - Logoless
+  requirements:
+    - min_agility: 8
 - name: Raging Roundhouse (Strike)
   db_uuid: 7936f5b0481f4112bbfe1c5ed1bff2a0
   card_type: MainDeckCard
@@ -84983,6 +85368,8 @@
     Skill Requirement: Strike 8+'
   tags:
     - Logoless
+  requirements:
+    - min_strike: 8
 - name: Senton Splash
   db_uuid: 1518fd517fd7405dba4b7246768395ca
   card_type: MainDeckCard
@@ -88094,6 +88481,8 @@
     If your Finish roll is 6 or less, it is +2.  Skill Requirement: Power 8+'
   tags:
     - Logoless
+  requirements:
+    - min_power: 8
 - name: Just Doug
   db_uuid: 4a85789d266a4feb92c2beb5ca0197cc
   srgpc_url: https://www.srgpc.net/competitor-just-doug/
@@ -89005,6 +89394,8 @@
     Skill Requirement: Strike 16+'
   tags:
     - Logoless
+  requirements:
+    - min_strike: 16
 - name: Super Steel Chain Hold
   db_uuid: 96825e75eabd468b9fb5630fad6ac474
   srg_url: https://supershowthegame.com/product/30-super-steel-chain-hold/

@@ -85823,6 +85823,91 @@
 
     Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
   tags: []
+- name: Psycho Circus Crowd Meter 0
+  db_uuid: 499e5b58a095499eadd1078b15e05767
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    Stipulation:  At the start of the match, before the bell rings, search your deck for 3 cards and put them on top of your deck.'
+  tags: []
+- name: Psycho Circus Crowd Meter 1
+  db_uuid: bd1c3f689c834154a9f34d55efaa2b77
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    The Crowd Meter is considered +2 for your card effects.
+
+    All Finish rolls are +1.'
+  tags: []
+- name: Psycho Circus Crowd Meter 2
+  db_uuid: ecb3df17a1374677ad79cf39d67bdcfc
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    The Crowd Meter is considered +2 for your card effects.
+
+    All Finish rolls are +2.'
+  tags: []
+- name: Psycho Circus Crowd Meter 3
+  db_uuid: 8f35f87f717a46d9b5da41b0f719ac84
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    The Crowd Meter is considered +2 for your card effects.
+
+    All Finish rolls are +3.'
+  tags: []
+- name: Psycho Circus Crowd Meter 4
+  db_uuid: e6e33170c3ab4d38be38dda976b1d5da
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    The Crowd Meter is considered +2 for your card effects.
+
+    All Finish rolls are +4.'
+  tags: []
+- name: Psycho Circus Crowd Meter 5
+  db_uuid: 68a359b10ae840ecb8ec954fb7ce2a70
+  card_type: CrowdMeterCard
+  rules_text: 'Max Hand Size: 10
+
+    No Disqualifications
+
+    No Count Outs
+
+    The Crowd Meter is considered +2 for your card effects.
+
+    All Finish rolls are +5.'
+  tags: []
+- name: No DQ Match
+  db_uuid: 7f5806b10c06431ba1cd3e5cc44a3803
+  card_type: CrowdMeterCard
+  rules_text: 'No Disqualifications
+
+    No Countouts
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
+  tags: []
 - name: Dark Match
   db_uuid: 0ac0c133b4114b4596bba51037f00996
   card_type: CrowdMeterCard

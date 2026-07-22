@@ -85823,6 +85823,19 @@
 
     Special Finish: when your opponent has 3 Finish cards removed from the game, they lose the match via KO.'
   tags: []
+- name: Submission Match
+  db_uuid: 6c29dd5138064d4aaa256b2a6fdfcf30
+  card_type: CrowdMeterCard
+  rules_text: 'No Count Outs
+
+    No Disqualifications
+
+    Non Submission Finishes do not cause a Finish roll.
+
+    When you hit a Submission, shuffle 1 Submission from your discard pile into your deck.
+
+    Standard Crowd Meter rules (If any player breaks out, the Crowd Meter is incremented.  Finish rolls are + the Crowd Meter).'
+  tags: []
 - name: Psycho Circus Crowd Meter 0
   db_uuid: 499e5b58a095499eadd1078b15e05767
   card_type: CrowdMeterCard

@@ -3446,9 +3446,7 @@
 
     Add 1 card from your discard pile to your hand.
 
-    Draw 2 cards.
-
-    Skill Requirement: Submission 8+'
+    Draw 2 cards.'
   tags:
     - Super Lucha
   requirements:
@@ -3501,7 +3499,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 9
-  rules_text: 'You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards. Skill Requirement: Power 8+'
+  rules_text: You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards.
   tags: []
   requirements:
     - min_power: 8
@@ -3561,7 +3559,7 @@
   deck_card_number: 16
   rules_text: 'Your opponent discards 1 card from their hand for each strike you have in play.
 
-    Your next turn roll is +1 for each Strike you have in play.  Skill Requirement:  Strike 10+, Agility 9+'
+    Your next turn roll is +1 for each Strike you have in play.'
   tags: []
   requirements:
     - min_strike: 10
@@ -3572,9 +3570,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 16
-  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
-
-    Skill Requirement: Technique 8+'
+  rules_text: If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
   tags:
     - Super Lucha
   requirements:
@@ -3642,9 +3638,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 17
-  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
-
-    Skill Requirement: Agility 8+'
+  rules_text: If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
   tags:
     - Super Lucha
   requirements:
@@ -3682,9 +3676,7 @@
 
     Add 1 card from your discard pile to your hand.
 
-    Draw 2 cards.
-
-    Skill Requirement: Grapple 8+'
+    Draw 2 cards.'
   tags:
     - Super Lucha
   requirements:
@@ -3707,7 +3699,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Grapple 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -3719,7 +3711,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 23
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Power 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -3909,9 +3901,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
-  rules_text: 'If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
-
-    Skill Requirement: Power 8+'
+  rules_text: If you have another Follow Up in play, look at the top 4 cards of your deck; put 2 cards in your hand, flip or shuffle the other 2 cards into your deck.
   tags:
     - Super Lucha
   requirements:
@@ -4023,9 +4013,7 @@
   deck_card_number: 14
   rules_text: 'If your Power is greater than your opponent''s Power, stop any Submission.
 
-    Put 1 card from your discard pile on top of your deck.
-
-    Skill Requirement: Strike 8+'
+    Put 1 card from your discard pile on top of your deck.'
   tags: []
   requirements:
     - min_strike: 8
@@ -4891,9 +4879,7 @@
   deck_card_number: 17
   rules_text: 'Your Power skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.
-
-    Skill Requirement: Grapple 8+'
+    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -5224,9 +5210,7 @@
 
     Add 1 card from your discard pile to your hand.
 
-    Draw 2 cards.
-
-    Skill Requirement: Strike 8+'
+    Draw 2 cards.'
   tags:
     - Super Lucha
   requirements:
@@ -5250,7 +5234,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Agility 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -5262,7 +5246,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Strike 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -6754,9 +6738,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 3
-  rules_text: 'If this is the first turn of the game, this card is also a Finish.
-
-    Skill Requirement: Power 8+'
+  rules_text: If this is the first turn of the game, this card is also a Finish.
   tags: []
   requirements:
     - min_power: 8
@@ -7346,9 +7328,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 4
-  rules_text: '+1 to Strike.
-
-    Skill Requirement: Strike 8+'
+  rules_text: +1 to Strike.
   tags: []
   requirements:
     - min_strike: 8
@@ -8550,9 +8530,7 @@
   deck_card_number: 6
   rules_text: 'Stop any Follow Up Strike.
 
-    Flip cards until your flip a Submission, add that Submission to your hand.
-
-    Skill Requirement: Power 8+'
+    Flip cards until your flip a Submission, add that Submission to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -8919,7 +8897,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 7
-  rules_text: 'When you have "Flying Super Snap Face Punch" in play, this card is also a finish.  Skill Requirement: Strike 8+'
+  rules_text: When you have "Flying Super Snap Face Punch" in play, this card is also a finish.
   tags: []
   requirements:
     - min_strike: 8
@@ -8941,9 +8919,7 @@
   deck_card_number: 7
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.
-
-    Skill Requirement: Strike 8+'
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.'
   tags: []
   requirements:
     - min_strike: 8
@@ -9250,9 +9226,7 @@
   deck_card_number: 7
   rules_text: 'Draw 3 cards.
 
-    If the crowd meter is 3 or greater, draw 5 cards instead.
-
-    Skill Requirement: Technique 8+'
+    If the crowd meter is 3 or greater, draw 5 cards instead.'
   tags: []
   requirements:
     - min_technique: 8
@@ -9606,9 +9580,7 @@
   deck_card_number: 8
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.
-
-    Skill Requirement: Agility 8+'
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.'
   tags: []
   requirements:
     - min_agility: 8
@@ -10055,7 +10027,7 @@
   deck_card_number: 8
   rules_text: 'Your opponent buries 2 cards in their hand.
 
-    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Strike 8+'
+    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead.'
   tags: []
   requirements:
     - min_strike: 8
@@ -10067,7 +10039,7 @@
   deck_card_number: 8
   rules_text: 'Your opponent buries 2 cards in their hand.
 
-    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead. Skill Requirement: Grapple 8+'
+    If the Crowd Meter is 3 or greater, your opponent buries 3 cards in their hand instead.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -10184,9 +10156,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 8
-  rules_text: 'When you have "Slam Suplex Head Breaker Drop" in play, this card is also a Finish.
-
-    Skill Requirement: Grapple 8+'
+  rules_text: When you have "Slam Suplex Head Breaker Drop" in play, this card is also a Finish.
   tags: []
   requirements:
     - min_grapple: 8
@@ -10350,9 +10320,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 9
-  rules_text: 'When you have "Hyper Forearm Kicker Hold Choke" in play, this card is also a Finish.
-
-    Skill Requirement: Submission 8+'
+  rules_text: When you have "Hyper Forearm Kicker Hold Choke" in play, this card is also a Finish.
   tags: []
   requirements:
     - min_submission: 8
@@ -10417,7 +10385,7 @@
   deck_card_number: 9
   rules_text: 'Draw 3 cards.
 
-    If the Crowd Meter is 3 or greater, draw 5 cards instead. Skill Requirement: Submission 8+'
+    If the Crowd Meter is 3 or greater, draw 5 cards instead.'
   tags: []
   requirements:
     - min_submission: 8
@@ -10430,9 +10398,7 @@
   deck_card_number: 9
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.
-
-    Skill Requirement: Agility 8+'
+    If the Crowd Meter is 3 or greater, add 2 cards from your discard pile to your hand instead.'
   tags: []
   requirements:
     - min_agility: 8
@@ -11115,9 +11081,7 @@
   deck_card_number: 10
   rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
 
-    Your opponent''s next turn roll is -2 for each Lead you have in play.
-
-    Skill Requirement: Strike 8+'
+    Your opponent''s next turn roll is -2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_strike: 8
@@ -11133,9 +11097,7 @@
   deck_card_number: 10
   rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
 
-    Your opponent''s next turn roll is -2 for each Lead you have in play.
-
-    Skill Requirement: Grapple 8+'
+    Your opponent''s next turn roll is -2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -11150,9 +11112,7 @@
   deck_card_number: 10
   rules_text: 'Cannot be stopped by "Beg for Mercy". "Apocalypse" has blank text.
 
-    Your opponent''s next turn roll is -2 for each Lead you have in play.
-
-    Skill Requirement: Power 8+'
+    Your opponent''s next turn roll is -2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_power: 8
@@ -11627,9 +11587,7 @@
   deck_card_number: 10
   rules_text: 'Stop "Call to the Crowd".
 
-    Draw 1 card for each Lead you have in play.
-
-    Skill Requirement: Strike 8+'
+    Draw 1 card for each Lead you have in play.'
   tags: []
   requirements:
     - min_strike: 8
@@ -11793,9 +11751,7 @@
 
     "Rejected!" has blank text.
 
-    Your opponent''s next turn roll is -2 for each Lead you have in play.
-
-    Skill Requirement: Grapple 8+'
+    Your opponent''s next turn roll is -2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -11875,9 +11831,7 @@
   deck_card_number: 11
   rules_text: 'Stop "Strength in Numbers".
 
-    Draw 1 card for each Lead you have in play.
-
-    Skill Requirement: Grapple 8+'
+    Draw 1 card for each Lead you have in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -12068,9 +12022,7 @@
   deck_card_number: 11
   rules_text: 'Stop "Chugga-Chugga Chugga-Chugga Chugga-Chugga, Chug!".
 
-    Your next turn roll is +2 for each Lead you have in play.
-
-    Skill Requirement: Technique 8+'
+    Your next turn roll is +2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_technique: 8
@@ -12085,9 +12037,7 @@
 
     "Rejected!" has blank text.
 
-    Your opponent''s next turn roll is -2 for each Lead you have in play.
-
-    Skill Requirement: Grapple 8+'
+    Your opponent''s next turn roll is -2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -12738,9 +12688,7 @@
   deck_card_number: 12
   rules_text: 'Draw 1 card for each Lead you have in play.
 
-    Add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Grapple 10+, Technique 9+'
+    Add 1 card from your discard pile to your hand.'
   tags: []
   requirements:
     - min_grapple: 10
@@ -12789,9 +12737,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
-  rules_text: 'Stop "Rolling Forearm". Draw 1 card for each Lead you have in play.
-
-    Skill Requirement: Submission 8+'
+  rules_text: Stop "Rolling Forearm". Draw 1 card for each Lead you have in play.
   tags: []
   requirements:
     - min_submission: 8
@@ -12889,9 +12835,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 12
-  rules_text: 'Stop "Drawin'' Dimes". Your next turn roll is +2 for each Lead you have in play.
-
-    Skill Requirement: Power 8+'
+  rules_text: Stop "Drawin' Dimes". Your next turn roll is +2 for each Lead you have in play.
   tags: []
   requirements:
     - min_power: 8
@@ -12985,9 +12929,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
-  rules_text: 'If your Agility is greater than your opponent''s Agility, stop any Grapple.  Put 1 card from your discard pile on top of your deck.
-
-    Skill Requirement: Submission 8+'
+  rules_text: If your Agility is greater than your opponent's Agility, stop any Grapple.  Put 1 card from your discard pile on top of your deck.
   tags: []
   requirements:
     - min_submission: 8
@@ -13066,9 +13008,7 @@
   deck_card_number: 13
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Strike 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_strike: 8
@@ -13101,9 +13041,7 @@
   deck_card_number: 13
   rules_text: 'If your Agility skill is greater than your opponent''s Agility skill, stop any Grapple.
 
-    Choose 1 card your opponent has in play and discard it.
-
-    Skill Requirement: Strike 8+'
+    Choose 1 card your opponent has in play and discard it.'
   tags: []
   requirements:
     - min_strike: 8
@@ -13134,9 +13072,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 13
-  rules_text: 'You may add 1 other card you have in play to your hand.
-
-    Skill Requirement: Agility 8+'
+  rules_text: You may add 1 other card you have in play to your hand.
   tags: []
   requirements:
     - min_agility: 8
@@ -13204,9 +13140,7 @@
   deck_card_number: 13
   rules_text: 'Your opponent buries 2 cards in their hand.
 
-    +2 to your next turn roll.
-
-    Skill Requirement: Strike 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_strike: 8
@@ -13219,9 +13153,7 @@
   deck_card_number: 13
   rules_text: 'Your opponent buries 2 cards in their hand.
 
-    +2 to your next turn roll.
-
-    Skill Requirement: Agility 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_agility: 8
@@ -13383,7 +13315,7 @@
   deck_card_number: 13
   rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
 
-    Draw 2 cards.  Skill Requirement: Agility 8+'
+    Draw 2 cards.'
   tags: []
   requirements:
     - min_agility: 8
@@ -13627,9 +13559,7 @@
   deck_card_number: 13
   rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill Requirement: Submission 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_submission: 8
@@ -13689,9 +13619,7 @@
   deck_card_number: 13
   rules_text: 'If your Agility skill is greater than your Strike skill, stop any Grapple.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Strike 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_strike: 8
@@ -13855,9 +13783,7 @@
   deck_card_number: 13
   rules_text: 'If your Strike is greater than your Agility skill, stop any Grapple.
 
-    Your opponent''s next turn roll is +2.
-
-    Skill Requirement: Agility 8+'
+    Your opponent''s next turn roll is -2.'
   tags: []
   requirements:
     - min_agility: 8
@@ -13879,7 +13805,7 @@
   deck_card_number: 13
   rules_text: 'If your Strike skill is greater than your opponent''s Strike skill, stop any Grapple.
 
-    Your opponent discards 1 random card from their hand. Skill Requirement: Technique 8+'
+    Your opponent discards 1 random card from their hand.'
   tags: []
   requirements:
     - min_technique: 8
@@ -13903,9 +13829,7 @@
   deck_card_number: 14
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Grapple 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14026,9 +13950,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 14
-  rules_text: 'You may add 1 other card you have in play to your hand.
-
-    Skill Requirement: Agility 8+'
+  rules_text: You may add 1 other card you have in play to your hand.
   tags: []
   requirements:
     - min_agility: 8
@@ -14060,7 +13982,7 @@
   deck_card_number: 14
   rules_text: 'If your Power skill is greater than or equal to your opponent''s Power skill, stop any Submission.
 
-    Discard 2 cards your opponent has in play. Skill Requirement: Power 10, Grapple 9'
+    Discard 2 cards your opponent has in play.'
   tags: []
   requirements:
     - min_power: 10
@@ -14186,9 +14108,7 @@
   deck_card_number: 14
   rules_text: 'If your Grapple skill is greater than your Power skill, stop any Submission.
 
-    Your opponent''s next turn roll is -2.
-
-    Skill Requirement: Power 8+'
+    Your opponent''s next turn roll is -2.'
   tags: []
   requirements:
     - min_power: 8
@@ -14404,9 +14324,7 @@
   deck_card_number: 14
   rules_text: 'Draw 2 cards.
 
-    +2 to your next turn roll.
-
-    Skill requirement: Grapple 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14419,9 +14337,7 @@
   deck_card_number: 14
   rules_text: 'Draw 2 cards.
 
-    +2 to your next turn roll.
-
-    Skill requirement: Power 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_power: 8
@@ -14456,9 +14372,7 @@
   deck_card_number: 14
   rules_text: 'If your Power skill is greater than your Grapple skill, stop any Submission.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Grapple 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14493,9 +14407,7 @@
   deck_card_number: 14
   rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
 
-    Draw 2 cards.
-
-    Skill Requirement: Power 8+'
+    Draw 2 cards.'
   tags: []
   requirements:
     - min_power: 8
@@ -14539,9 +14451,7 @@
   deck_card_number: 14
   rules_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Submission.
 
-    Choose 1 card your opponent has in play and discard it.
-
-    Skill Requirement: Grapple 8+'
+    Choose 1 card your opponent has in play and discard it.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14565,9 +14475,7 @@
   deck_card_number: 14
   rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
 
-    Your opponent discards 1 random card from their hand.
-
-    Skill Requirement: Agility 8+'
+    Your opponent discards 1 random card from their hand.'
   tags: []
   requirements:
     - min_agility: 8
@@ -14614,9 +14522,7 @@
   deck_card_number: 14
   rules_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill Requirement: Strike 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_strike: 8
@@ -14807,9 +14713,7 @@
   deck_card_number: 15
   rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill requirement: Grapple 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14879,9 +14783,7 @@
   deck_card_number: 15
   rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
 
-    Draw 2 cards.
-
-    Skill Requirement: Technique 8+'
+    Draw 2 cards.'
   tags: []
   requirements:
     - min_technique: 8
@@ -14927,9 +14829,7 @@
   deck_card_number: 15
   rules_text: 'If your Technique is greater than your opponent''s Technique, stop any Strike.
 
-    Put 1 card from your discard pile on top of your deck.
-
-    Skill Requirement: Grapple 8+'
+    Put 1 card from your discard pile on top of your deck.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -14966,9 +14866,7 @@
   deck_card_number: 15
   rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
 
-    Your opponent discard 1 random card from their hand.
-
-    Skill Requirement: Power 8+'
+    Your opponent discard 1 random card from their hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -15013,9 +14911,7 @@
   deck_card_number: 15
   rules_text: 'If your Submission skill is greater than your Technique skill, stop any Strike.
 
-    Your opponent''s next turn roll is -2.
-
-    Skill Requirement: Technique 8+'
+    Your opponent''s next turn roll is -2.'
   tags: []
   requirements:
     - min_technique: 8
@@ -15068,9 +14964,7 @@
   deck_card_number: 15
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    +2 to your next turn roll.
-
-    Skill Requirement: Submission 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_submission: 8
@@ -15083,9 +14977,7 @@
   deck_card_number: 15
   rules_text: 'Take 1 card from your discard pile and add it to your hand.
 
-    +2 to your next turn roll.
-
-    Skill Requirement: Technique 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_technique: 8
@@ -15258,9 +15150,7 @@
   deck_card_number: 15
   rules_text: 'If your Technique skill is greater than your Submission skill, stop any Strike.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Submission 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_submission: 8
@@ -15358,9 +15248,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 15
-  rules_text: 'You may add 1 other card you have in play to your hand.
-
-    Skill Requirement: Power 8+'
+  rules_text: You may add 1 other card you have in play to your hand.
   tags: []
   requirements:
     - min_power: 8
@@ -15435,9 +15323,7 @@
   deck_card_number: 15
   rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, stop any Strike.
 
-    Choose 1 card your opponent has in play and discard it.
-
-    Skill Requirement: Submission 8+'
+    Choose 1 card your opponent has in play and discard it.'
   tags: []
   requirements:
     - min_submission: 8
@@ -15710,9 +15596,7 @@
   deck_card_number: 16
   rules_text: 'Your Grapple skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.
-
-    Skill Requirement: Power 8+'
+    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.'
   tags: []
   requirements:
     - min_power: 8
@@ -15838,9 +15722,7 @@
   deck_card_number: 16
   rules_text: 'Your Agility skill is +2 during Finish rolls.
 
-    If you have another Follow up in play and this is a Ring of Fire match, this card is also a Finish.
-
-    Skill Requirement: Strike 8+'
+    If you have another Follow up in play and this is a Ring of Fire match, this card is also a Finish.'
   tags: []
   requirements:
     - min_strike: 8
@@ -79993,9 +79875,7 @@
   deck_card_number: 28
   rules_text: 'If your opponent''s first Breakout roll is 20 or greater, their roll is -5.
 
-    Your Finish roll is +2 for each "Irish Whip", "Drag to the Center", or "Throw Into the Corner" you have in play.
-
-    Skill Requirement: Power 16+'
+    Your Finish roll is +2 for each "Irish Whip", "Drag to the Center", or "Throw Into the Corner" you have in play.'
   tags:
     - Logoless
   requirements:
@@ -80198,9 +80078,7 @@
 
     Draw 1 card.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Strike 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_strike: 8
@@ -80233,9 +80111,7 @@
   deck_card_number: 4
   rules_text: 'Stop any Follow Up Grapple.
 
-    Flip cards until you flip a Strike, add that Strike to your hand.
-
-    Skill Requirement: Technique 8+'
+    Flip cards until you flip a Strike, add that Strike to your hand.'
   tags: []
   requirements:
     - min_technique: 8
@@ -80291,9 +80167,7 @@
 
     Draw 1 card.
 
-    +2 to your next turn roll.
-
-    Skill Requirement: Grapple 8+'
+    +2 to your next turn roll.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -80315,9 +80189,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 5
-  rules_text: '+1 to Grapple
-
-    Skill Requirement: Grapple 8+'
+  rules_text: +1 to Grapple
   tags: []
   requirements:
     - min_grapple: 8
@@ -80363,9 +80235,7 @@
 
     Draw 1 card.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Submission 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_submission: 8
@@ -80387,7 +80257,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
-  rules_text: '+1 to Submission.  Skill Requirement: Submission 8+'
+  rules_text: +1 to Submission.
   tags: []
   requirements:
     - min_submission: 8
@@ -80569,9 +80439,7 @@
   deck_card_number: 10
   rules_text: 'Stop "Sweet & Salty Impact Drop".
 
-    Your next turn roll is +2 for each Lead you have in play.
-
-    Skill Requirement: Agility 8+'
+    Your next turn roll is +2 for each Lead you have in play.'
   tags: []
   requirements:
     - min_agility: 8
@@ -80798,9 +80666,7 @@
   deck_card_number: 14
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Power 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_power: 8
@@ -81303,9 +81169,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
 
-    +2 to Power.
-
-    Skill Requirement: Grapple 8+'
+    +2 to Power.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -81447,7 +81311,7 @@
   deck_card_number: 22
   rules_text: 'Choose a skill: Your opponent''''s skill of that type is -1.
 
-    The next time you roll that skill draw 1 card.  Skill Requirement: Agility 8+'
+    The next time you roll that skill draw 1 card.'
   tags: []
   requirements:
     - min_agility: 8
@@ -81621,9 +81485,7 @@
   deck_card_number: 23
   rules_text: 'Choose a skill: Your opponent''s skill of that type is -1.
 
-    The next time you roll that skill, draw 1 card.
-
-    Skill Requirement: Power 8+'
+    The next time you roll that skill, draw 1 card.'
   tags: []
   requirements:
     - min_power: 8
@@ -81746,7 +81608,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Technique 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -81758,7 +81620,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 24
-  rules_text: 'Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.  Skill Requirement: Submission 8+'
+  rules_text: Add 2 cards from your discard pile to your hand or look at the top 4 cards of your deck, put 2 cards in your hand, and bury the others.
   tags:
     - Super Lucha
   requirements:
@@ -81825,7 +81687,7 @@
   deck_card_number: 24
   rules_text: 'Search your deck or discard pile for 3 Submissions: Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Technique 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   tags: []
   requirements:
     - min_technique: 8
@@ -81860,9 +81722,7 @@
   deck_card_number: 24
   rules_text: 'Choose a skill: Your opponent''s Skill of that type is -1.
 
-    The next time you roll that skill, draw 1 card.
-
-    Skill Requirement: Technique 8+'
+    The next time you roll that skill, draw 1 card.'
   tags: []
   requirements:
     - min_technique: 8
@@ -82099,9 +81959,7 @@
 
     Draw 1 card.
 
-    If your Finish roll is 6 or less, it is +2.
-
-    Skill Requirement: Strike 8+'
+    If your Finish roll is 6 or less, it is +2.'
   tags:
     - Logoless
   requirements:
@@ -82292,9 +82150,7 @@
 
     Power-Power-Technique-Technique-Technique
 
-    Your opponent discards all cards they have in play.
-
-    Skill Requirement: Power 10+, Grapple 9+'
+    Your opponent discards all cards they have in play.'
   tags:
     - Entrance Gear
   requirements:
@@ -82308,9 +82164,7 @@
 
     Agility-Agility
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Agility 10+, Strike 9+'
+    Your next turn roll is +2.'
   tags:
     - Entrance Gear
   requirements:
@@ -82330,9 +82184,7 @@
 
     Strike
 
-    Look at your opponent''s hand.
-
-    Skill Requirement: Technique 10+, Submission 9+'
+    Look at your opponent''s hand.'
   tags:
     - Entrance Gear
   requirements:
@@ -82346,9 +82198,7 @@
 
     Power-Power-Strike
 
-    Your opponent discards 1 card from their hand.
-
-    Skill Requirement: Strike 10+, Agility 9+'
+    Your opponent discards 1 card from their hand.'
   tags:
     - Entrance Gear
   requirements:
@@ -82362,11 +82212,7 @@
 
     Power-Technique-Agility-Strike-Submission-Grapple
 
-    Add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Submission 10+
-
-    Technique 9+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Entrance Gear
   requirements:
@@ -82379,9 +82225,7 @@
 
     G-G-T
 
-    Draw 1 card.
-
-    Skill Requirement: Grapple 10+, Power 9+'
+    Draw 1 card.'
   tags:
     - Entrance Gear
   requirements:
@@ -83407,7 +83251,7 @@
   deck_card_number: 22
   rules_text: 'Draw 1 card.
 
-    You may play 1 Strike from your discard pile as an additional card this turn.  Skill Requirement: Strike 8+'
+    You may play 1 Strike from your discard pile as an additional card this turn.'
   tags: []
   requirements:
     - min_strike: 8
@@ -83419,7 +83263,7 @@
   deck_card_number: 24
   rules_text: 'Draw 1 card.
 
-    You may play 1 Submission from your discard pile as an additional card this turn.  Skill Requirement: Submission 8+'
+    You may play 1 Submission from your discard pile as an additional card this turn.'
   tags: []
   requirements:
     - min_submission: 8
@@ -83431,7 +83275,7 @@
   deck_card_number: 23
   rules_text: 'Draw 1 card.
 
-    You may play 1 Grapple from your discard pile as an additional card this turn.  Skill Requirement: Grapple 8+'
+    You may play 1 Grapple from your discard pile as an additional card this turn.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -84270,7 +84114,7 @@
 
     +1 to Submission
 
-    When you have 8 or more cards in your hand, your opponent gets 2 Breakout rolls this turn. Skill Requirement: Power 8+'
+    When you have 8 or more cards in your hand, your opponent gets 2 Breakout rolls this turn.'
   tags:
     - Logoless
   requirements:
@@ -84332,7 +84176,7 @@
 
     Draw 1 card.
 
-    If your Finish roll is 6 or less, it is +2. Skill Requirement: Technique 8+'
+    If your Finish roll is 6 or less, it is +2.'
   tags:
     - Logoless
   requirements:
@@ -84358,7 +84202,7 @@
 
     +3 to your lowest skill.
 
-    Add 1 card from your discard pile to your hand.  Skill Requirement: Technique 8+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Logoless
   requirements:
@@ -84370,7 +84214,7 @@
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  rules_text: 'If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.  Skill Requirement: Submission 8+'
+  rules_text: If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.
   tags: []
   requirements:
     - min_submission: 8
@@ -84401,7 +84245,7 @@
 
     +3 to your lowest skill
 
-    Add 1 card from your discard pile to your hand.  Skill Requirement: Submission 8+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Logoless
   requirements:
@@ -84715,7 +84559,7 @@
 
     +3 to your lowest skill.
 
-    Add 1 card from your discard pile to your hand.  Skill Requirement: Agility 8+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Logoless
   requirements:
@@ -85086,7 +84930,7 @@
 
     If this is a Trio match triple these bonuses.
 
-    Add 1 Submission you have in play to your hand. Skill Requirement: Submission 8+'
+    Add 1 Submission you have in play to your hand.'
   tags:
     - Logoless
   requirements:
@@ -85101,9 +84945,7 @@
 
     +3 to your lowest skill.
 
-    Add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Power 8+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Logoless
   requirements:
@@ -85287,9 +85129,7 @@
 
     +3 to your lowest skill
 
-    Add 1 card from your discard piel to your hand.
-
-    Skill Requirement: Grapple 8+'
+    Add 1 card from your discard piel to your hand.'
   tags:
     - Logoless
   requirements:
@@ -85348,7 +85188,7 @@
 
     Draw 1 card
 
-    If your Finish roll is 6 or less, it is +2.  Skill Requirement: Agility 8+'
+    If your Finish roll is 6 or less, it is +2.'
   tags:
     - Logoless
   requirements:
@@ -85363,9 +85203,7 @@
 
     +3 to your lowest skill.
 
-    Add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Strike 8+'
+    Add 1 card from your discard pile to your hand.'
   tags:
     - Logoless
   requirements:
@@ -88478,7 +88316,7 @@
 
     Draw 1 card.
 
-    If your Finish roll is 6 or less, it is +2.  Skill Requirement: Power 8+'
+    If your Finish roll is 6 or less, it is +2.'
   tags:
     - Logoless
   requirements:
@@ -89389,9 +89227,7 @@
   deck_card_number: 29
   rules_text: 'If your Technique skill is greater than your opponent''s Technique skill, their 1st breakout roll is -4.
 
-    If your Strike skill is greater than your opponent''s Strike skill, their 2nd breakout roll is -4.
-
-    Skill Requirement: Strike 16+'
+    If your Strike skill is greater than your opponent''s Strike skill, their 2nd breakout roll is -4.'
   tags:
     - Logoless
   requirements:

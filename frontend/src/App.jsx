@@ -19,6 +19,7 @@ import Play from "./pages/RunItBack/Play";
 import MyDecks from "./pages/RunItBack/MyDecks";
 import DeckEditor from "./pages/RunItBack/DeckEditor";
 import SavedGames from "./pages/RunItBack/SavedGames";
+import ReplayViewer from "./pages/RunItBack/ReplayViewer";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -134,6 +135,7 @@ const router = createBrowserRouter([
               { path: "decks/new", element: <DeckEditor /> },
               { path: "decks/:deckId", element: <DeckEditor /> },
               { path: "games", element: <SavedGames /> },
+              { path: "games/:recordId", element: <ReplayViewer /> },
             ],
           },
         ],

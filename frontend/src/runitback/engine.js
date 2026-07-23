@@ -79,6 +79,36 @@ class Session {
   }
 }
 
+// Reconstruct the full ordered Step sequence of a finished site game, so the
+// replay viewer can page forward/back. A `full` record stores the engine
+// snapshot (deck_a/deck_b/seats/seed) plus the ordered human decision indices;
+// re-opening and replaying those indices is deterministic (the AI seat resolves
+// from the same seed), reproducing every intermediate Step exactly — no dedicated
+// engine replay API needed.
+//
+// `snapshot` is the parsed snapshot object; `decisions` the recorded index array.
+// Returns the array of Step objects (decision steps first, terminal `done` last).
+export function reconstructReplay(snapshot, decisions) {
+  // Stored seats are objects ({mode, policy}); open() wants the string form.
+  const seatStr = (x) => (x?.mode === "remote" ? "remote" : x?.policy);
+  const seats = JSON.stringify({
+    A: seatStr(snapshot.seats?.A),
+    B: seatStr(snapshot.seats?.B),
+  });
+  const s = WasmSession.open(
+    JSON.stringify(snapshot.deck_a),
+    JSON.stringify(snapshot.deck_b),
+    seats,
+    BigInt(snapshot.seed),
+  );
+  const steps = [JSON.parse(s.step())];
+  const idx = decisions || [];
+  for (let i = 0; i < idx.length && steps[steps.length - 1].kind !== "done"; i++) {
+    steps.push(JSON.parse(s.submit(idx[i])));
+  }
+  return steps;
+}
+
 // No-skew check: the vendored WASM and the backend `srg` binary must agree on the
 // three schema versions (the enriched-deck shape is driven by effect_ir). We
 // compare schema versions, not `commit` (a committed pkg carries its parent

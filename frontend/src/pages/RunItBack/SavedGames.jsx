@@ -124,12 +124,20 @@ function GameRow({ record, confirming, busy, onAskDelete, onCancelDelete, onConf
             </button>
           </>
         ) : (
-          <button
-            onClick={onAskDelete}
-            className="rounded border border-gray-700 px-2 py-1 text-gray-400 hover:bg-gray-800"
-          >
-            Delete
-          </button>
+          <>
+            <Link
+              to={`/run-it-back/games/${record.id}`}
+              className="rounded border border-gray-600 px-2 py-1 text-gray-200 hover:bg-gray-800"
+            >
+              Replay
+            </Link>
+            <button
+              onClick={onAskDelete}
+              className="rounded border border-gray-700 px-2 py-1 text-gray-400 hover:bg-gray-800"
+            >
+              Delete
+            </button>
+          </>
         )}
       </div>
     </li>

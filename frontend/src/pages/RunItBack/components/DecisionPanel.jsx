@@ -102,7 +102,21 @@ const POINT_PROMPT = {
   reroll_target: "Whose roll gets re-rolled?",
 };
 
-export default function DecisionPanel({ request, onSubmit, busy }) {
+// Classes for one option button. In read-only replay mode the chosen option is
+// highlighted and the rest are dimmed; live mode is interactive.
+function optionClass(readOnly, isChosen) {
+  const base = "rounded-md border px-3 py-1.5 text-sm";
+  if (!readOnly) {
+    return `${base} border-gray-600 bg-gray-800 text-gray-100 hover:border-amber-400 hover:bg-gray-700 disabled:opacity-50`;
+  }
+  return isChosen
+    ? `${base} border-amber-400 bg-amber-400/10 text-amber-200`
+    : `${base} border-gray-700 bg-gray-800/40 text-gray-500`;
+}
+
+// request: the decision Step's request. In replay, pass readOnly + chosenIndex
+// (the recorded pick) instead of onSubmit.
+export default function DecisionPanel({ request, onSubmit, busy, readOnly = false, chosenIndex = null }) {
   const { viewer, point, legal, observable_state } = request;
   const cardIndex = buildCardIndex(observable_state);
   // Surface the effect's rules text once when the options don't already carry it.
@@ -111,7 +125,7 @@ export default function DecisionPanel({ request, onSubmit, busy }) {
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-900 p-3">
       <div className="mb-2 text-sm">
-        <span className="font-semibold text-amber-300">You</span> to decide
+        <span className="font-semibold text-amber-300">{readOnly ? "Played" : "You to decide"}</span>
         <span className="ml-2 text-gray-300">{POINT_PROMPT[point] ?? point}</span>
         <span className="ml-2 text-[10px] uppercase tracking-wide text-gray-500">{point}</span>
       </div>
@@ -122,9 +136,9 @@ export default function DecisionPanel({ request, onSubmit, busy }) {
         {legal.map((o, i) => (
           <button
             key={i}
-            disabled={busy}
-            onClick={() => onSubmit(i)}
-            className="rounded-md border border-gray-600 bg-gray-800 px-3 py-1.5 text-sm text-gray-100 hover:border-amber-400 hover:bg-gray-700 disabled:opacity-50"
+            disabled={busy || readOnly}
+            onClick={readOnly ? undefined : () => onSubmit(i)}
+            className={optionClass(readOnly, i === chosenIndex)}
           >
             {optionLabel(o, point, cardIndex)}
           </button>

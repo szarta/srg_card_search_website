@@ -39,15 +39,15 @@ const swapToFallback = (e) => {
 // size yet measures 0 wide, and a zero-area element never enters the viewport,
 // so lazy loading would wait forever. It also keeps every chip the same size
 // when source thumbnails differ by a few pixels.
-function Art({ card }) {
+function Art({ card, className = "mx-auto mb-1 h-[109px] w-[80px]", lazy = true }) {
   if (!card.db_uuid) return null;
   return (
     <img
       src={THUMB(card.db_uuid)}
       alt=""
-      loading="lazy"
+      loading={lazy ? "lazy" : "eager"}
       onError={swapToFallback}
-      className="mx-auto mb-1 h-[109px] w-[80px] rounded-sm object-contain"
+      className={`${className} rounded-sm object-contain`}
     />
   );
 }
@@ -68,6 +68,31 @@ function Zoom({ card, show }) {
       onError={swapToFallback}
       className="pointer-events-none absolute left-1/2 top-1/2 z-50 w-[300px] max-w-none -translate-x-1/2 -translate-y-1/2 rounded-md border border-gray-600 shadow-2xl shadow-black/80"
     />
+  );
+}
+
+// Standalone hoverable art, for cards that aren't part of the in-play chain —
+// a player's competitor and entrance sit in the board header, where the chip's
+// number/attack-type furniture would be noise.
+//
+// Sized by height with the width left to the image's own aspect, because these
+// two are shaped differently: a competitor is portrait (140x200) while an
+// entrance is landscape (295x200). Loading is eager for the same reason — a
+// width-less box measures 0 wide, and lazy loading never fires on a zero-area
+// element. There are only ever four of these on a page.
+export function CardPortrait({ card, label, className = "h-[68px] w-auto" }) {
+  const [hover, setHover] = useState(false);
+  if (!card?.db_uuid) return null;
+  return (
+    <span
+      className="relative inline-block shrink-0"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      title={label ? `${label}: ${card.name}` : card.name}
+    >
+      <Art card={card} className={className} lazy={false} />
+      <Zoom card={card} show={hover} />
+    </span>
   );
 }
 

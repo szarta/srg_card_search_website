@@ -78,15 +78,6 @@ function seatLabels(publicMode, record) {
   return { A: "You", B: "Opponent" };
 }
 
-// Competitor display names, falling back to the seat when a record didn't name one.
-function competitorNames(record) {
-  const p = record?.participants ?? {};
-  return {
-    A: p.A?.competitor || "Player A",
-    B: p.B?.competitor || "Player B",
-  };
-}
-
 export default function ReplayViewer({ publicMode = false }) {
   const { recordId } = useParams();
   const st = useReplay(recordId, publicMode);
@@ -121,7 +112,7 @@ export default function ReplayViewer({ publicMode = false }) {
             frame={seq[at]}
             frames={seq}
             at={at}
-            names={competitorNames(st.record)}
+            participants={st.record.participants}
             seatLabels={seatLabels(publicMode, st.record)}
             cards={st.cards}
           />

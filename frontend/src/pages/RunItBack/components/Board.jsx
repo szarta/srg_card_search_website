@@ -1,9 +1,13 @@
-import CardChip from "./CardChip.jsx";
+import CardChip, { CardPortrait } from "./CardChip.jsx";
 import DiscardStack from "./DiscardStack.jsx";
 
 // One player's half of the mat, rendered from an observable player-view. The
 // viewer's own hand is face-up; an opponent's is a hidden count (unless a Peek
 // revealed it, in which case the engine already put the cards in `hand`).
+//
+// The competitor and entrance sit in the header as art rather than names: they
+// don't change all match, so they belong with the identity, not the board — and
+// both zoom on hover like any other card.
 export default function Board({ label, view, isSelf, isActive }) {
   const comp = view.competitor;
   const hand = view.hand; // array when visible, else undefined (hand_size given)
@@ -14,18 +18,27 @@ export default function Board({ label, view, isSelf, isActive }) {
         isActive ? "border-amber-400/70 bg-amber-400/5" : "border-gray-800 bg-gray-900/40",
       ].join(" ")}
     >
-      <header className="mb-2 flex items-center justify-between">
-        <div>
-          <span className="text-xs uppercase tracking-wide text-gray-500">{label}</span>{" "}
-          <span className="font-semibold text-gray-100">{comp.name}</span>
-          {comp.division && <span className="ml-2 text-xs text-gray-400">{comp.division}</span>}
-          {view.gimmick_blanked && (
-            <span className="ml-2 rounded bg-rose-500/20 px-1.5 py-0.5 text-[10px] text-rose-300">
-              gimmick blanked
-            </span>
-          )}
+      <header className="mb-2 flex items-start justify-between gap-3">
+        <div className="flex items-start gap-2">
+          <CardPortrait card={comp} label="Competitor" />
+          <CardPortrait card={view.entrance} label="Entrance" />
+          <div className="pt-0.5">
+            <div>
+              <span className="text-xs uppercase tracking-wide text-gray-500">{label}</span>{" "}
+              <span className="font-semibold text-gray-100">{comp.name}</span>
+              {comp.division && <span className="ml-2 text-xs text-gray-400">{comp.division}</span>}
+              {view.gimmick_blanked && (
+                <span className="ml-2 rounded bg-rose-500/20 px-1.5 py-0.5 text-[10px] text-rose-300">
+                  gimmick blanked
+                </span>
+              )}
+            </div>
+            {view.entrance?.name && (
+              <div className="text-xs text-gray-500">entrance · {view.entrance.name}</div>
+            )}
+          </div>
         </div>
-        <span className="text-xs text-gray-400">deck {view.deck_size}</span>
+        <span className="shrink-0 text-xs text-gray-400">deck {view.deck_size}</span>
       </header>
 
       <div className="mb-2">

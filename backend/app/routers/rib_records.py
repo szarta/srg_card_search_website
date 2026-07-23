@@ -99,19 +99,24 @@ def _check_record(record: dict) -> dict:
 
 
 def _participants(record: dict) -> dict:
-    """Project the record's `players` into the summary shape the game lists render.
+    """Project the record's `players` into the summary shape the site renders.
 
-    Card references become their display names; the transcriber's `player` name
-    rides along so an imported match can say who actually played it.
+    The names drive the game lists; the uuids let the replay viewer show the
+    competitor and entrance art, since a frame carries only the two open zones
+    and never repeats who is playing. The transcriber's `player` name rides
+    along so an imported match can say who actually played it.
     """
     out = {}
     for seat, info in (record.get("players") or {}).items():
-        entry = {"competitor": (info.get("competitor") or {}).get("name")}
+        entry = {}
         if info.get("player"):
             entry["player"] = info["player"]
-        entrance = (info.get("entrance") or {}).get("name")
-        if entrance:
-            entry["entrance"] = entrance
+        for role in ("competitor", "entrance"):
+            ref = info.get(role) or {}
+            if ref.get("name"):
+                entry[role] = ref["name"]
+            if ref.get("card"):
+                entry[f"{role}_uuid"] = ref["card"]
         out[seat] = entry
     return out
 

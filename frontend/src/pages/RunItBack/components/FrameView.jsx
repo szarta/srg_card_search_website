@@ -34,10 +34,19 @@ const cardList = (refs, cards) => (refs ?? []).map((r) => refName(r, cards)).joi
 
 // A frame's per-player view -> Board's view shape. Hands are never revealed in a
 // frame; optional counts an importer didn't record show as "?".
-function boardView(player, competitorName, cards) {
+//
+// A frame carries only the two open zones — who is playing never repeats — so
+// the competitor and entrance come from the record's `participants` instead.
+// An archive that named them but couldn't identify them has a name and no uuid,
+// which renders as text with no art.
+function boardView(player, seatInfo, cards) {
   const p = player ?? {};
   return {
-    competitor: { name: competitorName },
+    competitor: { name: seatInfo.competitor, db_uuid: seatInfo.competitor_uuid },
+    entrance: seatInfo.entrance && {
+      name: seatInfo.entrance,
+      db_uuid: seatInfo.entrance_uuid,
+    },
     in_play: (p.in_play ?? []).map((r) => toCard(r, cards)),
     discard: (p.discard ?? []).map((r) => toCard(r, cards)),
     hand_size: p.hand_size ?? "?",
@@ -272,8 +281,13 @@ function RollLine({ roll, label, won, decided }) {
 // index (optional — everything degrades to the reference's own name).
 // `frames`/`at` are the whole sequence and this frame's index, which the
 // roll-off panel needs to look back across the turn.
-export default function FrameView({ frame, frames, at, names, seatLabels, cards }) {
+export default function FrameView({ frame, frames, at, participants, seatLabels, cards }) {
   const isNote = frame.action?.type === "note";
+  const seat = (s) => participants?.[s] ?? {};
+  const names = {
+    A: seat("A").competitor || "Player A",
+    B: seat("B").competitor || "Player B",
+  };
   return (
     <div className="space-y-3">
       <div className="flex gap-4 text-sm text-gray-400">
@@ -305,13 +319,13 @@ export default function FrameView({ frame, frames, at, names, seatLabels, cards 
 
       <Board
         label={seatLabels.B}
-        view={boardView(frame.players?.B, names.B, cards)}
+        view={boardView(frame.players?.B, { ...seat("B"), competitor: names.B }, cards)}
         isSelf={false}
         isActive={frame.active === "B"}
       />
       <Board
         label={seatLabels.A}
-        view={boardView(frame.players?.A, names.A, cards)}
+        view={boardView(frame.players?.A, { ...seat("A"), competitor: names.A }, cards)}
         isSelf={false}
         isActive={frame.active === "A"}
       />

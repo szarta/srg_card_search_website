@@ -15773,9 +15773,7 @@
   deck_card_number: 16
   rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in your hand.
 
-    When the Crowd Meter is 2 or greater this card is also a Lead.
-
-    Skill Requirement: Technique 8+'
+    When the Crowd Meter is 2 or greater this card is also a Lead.'
   tags: []
   requirements:
     - min_technique: 8
@@ -15816,9 +15814,7 @@
   deck_card_number: 16
   rules_text: 'Your Submission skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.
-
-    Skill Requirement: Grapple 8+'
+    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -15929,9 +15925,7 @@
   deck_card_number: 16
   rules_text: 'Stop "Press Slam".
 
-    Draw 1 card for each Follow Up you have in play.
-
-    Skill Requirement: Strike 8+'
+    Draw 1 card for each Follow Up you have in play.'
   tags: []
   requirements:
     - min_strike: 8
@@ -16237,9 +16231,7 @@
   deck_card_number: 16
   rules_text: 'Your Strike skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
-
-    Skill Requirement: Agility 8+'
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.'
   tags: []
   requirements:
     - min_agility: 8
@@ -16470,9 +16462,7 @@
   deck_card_number: 17
   rules_text: 'Your Submission skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.
-
-    Skill Requirement: Power 8+'
+    If you have another Follow Up in play and this is a Steel Chain match, this card is also a Finish.'
   tags: []
   requirements:
     - min_power: 8
@@ -16613,9 +16603,7 @@
   deck_card_number: 17
   rules_text: 'Cannot be stopped by "Apocalypse".
 
-    If you have another Grapple in play, add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Technique 8+'
+    If you have another Grapple in play, add 1 card from your discard pile to your hand.'
   tags: []
   requirements:
     - min_technique: 8
@@ -16923,9 +16911,7 @@
   deck_card_number: 17
   rules_text: 'Your Grapple skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
-
-    Skill Requirement: Power 8+'
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.'
   tags: []
   requirements:
     - min_power: 8
@@ -17078,9 +17064,7 @@
   deck_card_number: 17
   rules_text: 'Stop "Full Nelson".
 
-    Draw 1 card for each Follow Up you have in play.
-
-    Skill Requirement: Grapple 8+'
+    Draw 1 card for each Follow Up you have in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -17123,9 +17107,7 @@
   deck_card_number: 17
   rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in your hand.
 
-    When the Crowd Meter is 2 or greater this card is also a Lead.
-
-    Skill Requirement: Power 8+'
+    When the Crowd Meter is 2 or greater this card is also a Lead.'
   tags: []
   requirements:
     - min_power: 8
@@ -17407,9 +17389,7 @@
   deck_card_number: 18
   rules_text: 'Draw 1 card for each Follow Up you have in play, then bury 1 card in your hand.
 
-    When the Crowd Meter is 2 or greater this card is also a Lead.
-
-    Skill Requirement: Agility 8+'
+    When the Crowd Meter is 2 or greater this card is also a Lead.'
   tags: []
   requirements:
     - min_agility: 8
@@ -17459,9 +17439,7 @@
   deck_card_number: 18
   rules_text: 'Your Technique skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.
-
-    Skill Requirement: Submission 8+'
+    If you have another Follow Up in play and this is a Ring of Fire match, this card is also a Finish.'
   tags: []
   requirements:
     - min_submission: 8
@@ -17598,9 +17576,7 @@
   deck_card_number: 18
   rules_text: 'Your Agility skill is +2 during Finish rolls.
 
-    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
-
-    Skill Requirement: Agility 8+'
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.'
   tags: []
   requirements:
     - min_agility: 8
@@ -17690,9 +17666,7 @@
   deck_card_number: 18
   rules_text: 'Stop "The 718".
 
-    Draw 1 card for each Follow Up you have in play.
-
-    Skill Requirement: Submission 8+'
+    Draw 1 card for each Follow Up you have in play.'
   tags: []
   requirements:
     - min_submission: 8
@@ -17832,9 +17806,7 @@
   deck_card_number: 18
   rules_text: 'Cannot be stopped by "Rejected".
 
-    If you have another Submission in play, add 1 card from your discard pile to your hand.
-
-    Skill Requirement: Power 8+'
+    If you have another Submission in play, add 1 card from your discard pile to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -17878,9 +17850,7 @@
   deck_card_number: 18
   rules_text: 'Your Submission skill is +2 during Finish Rolls.
 
-    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.
-
-    Skill Requirement: Technique 8+'
+    If you have another Follow Up in play and this is a Steel Cage match, this card is also a Finish.'
   tags: []
   requirements:
     - min_technique: 8
@@ -18059,7 +18029,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
 
-    +2 to Agility.  Skill Requirement: Agility 8+'
+    +2 to Agility.'
   tags: []
   requirements:
     - min_agility: 8
@@ -18240,9 +18210,7 @@
   deck_card_number: 19
   rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
 
-    +1 to Strike
-
-    Skill Requirement: Strike 16+'
+    +1 to Strike'
   tags: []
   requirements:
     - min_strike: 16
@@ -18368,9 +18336,7 @@
   deck_card_number: 19
   rules_text: 'Your opponent discards all Grapples they have in play.
 
-    Your next turn roll is +3.
-
-    Skill Requirement: Strike 8+'
+    Your next turn roll is +3.'
   tags: []
   requirements:
     - min_strike: 8
@@ -18391,9 +18357,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 19
-  rules_text: 'Your opponent''s next Grapple has the added text: "If stopped, you lose the match via disqualification."
-
-    Skill Requirement: Agility 8+'
+  rules_text: 'Your opponent''s next Grapple has the added text: "If stopped, you lose the match via disqualification."'
   tags: []
   requirements:
     - min_agility: 8
@@ -18475,7 +18439,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
-    Your opponent''''s Gimmick is blank.  Skill Requirement: Agility 10+, Strike 9+'
+    Your opponent''''s Gimmick is blank.'
   tags: []
   requirements:
     - min_agility: 10
@@ -18498,9 +18462,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
 
-    +2 to Strike
-
-    Skill Requirement: Strike 8+'
+    +2 to Strike'
   tags: []
   requirements:
     - min_strike: 8
@@ -18513,7 +18475,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has 2 other Grapples in play, stop any Grapple.
 
-    +2 to Strike.  Skill Requirement: Agility 8+'
+    +2 to Strike.'
   tags: []
   requirements:
     - min_agility: 8
@@ -18548,9 +18510,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill Requirement: Submission 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_submission: 8
@@ -18563,9 +18523,7 @@
   deck_card_number: 19
   rules_text: 'If your opponent has another Grapple in play, stop any Grapple.
 
-    Copy the text of a Grapple your opponent has in play until th end of the turn.
-
-    Skill Requirement: Strike 8+'
+    Copy the text of a Grapple your opponent has in play until th end of the turn.'
   tags: []
   requirements:
     - min_strike: 8
@@ -18710,9 +18668,7 @@
   deck_card_number: 19
   rules_text: 'Add 1 card from your discard pile to your hand.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Strike 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_strike: 8
@@ -18724,9 +18680,7 @@
   deck_card_number: 19
   rules_text: 'Look at your opponent''s hand, they bury all Grapple cards.
 
-    Your next turn roll is +3.
-
-    Skill Requirement: Agility 8+'
+    Your next turn roll is +3.'
   tags: []
   requirements:
     - min_agility: 8
@@ -18762,9 +18716,7 @@
 
     Your opponent discards all Follow Ups from play.
 
-    Your partner chooses an opponent; they discard all Follow Ups in play.
-
-    Skill Requirement: Strike 8+'
+    Your partner chooses an opponent; they discard all Follow Ups in play.'
   tags: []
   requirements:
     - min_strike: 8
@@ -18958,9 +18910,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
 
-    +2 to Grapple
-
-    Skill Requirement: Power 8+'
+    +2 to Grapple'
   tags: []
   requirements:
     - min_power: 8
@@ -18991,9 +18941,7 @@
   deck_card_number: 20
   rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
 
-    +1 to Grapple.
-
-    Skill Requirement: Grapple 16+'
+    +1 to Grapple.'
   tags: []
   requirements:
     - min_grapple: 16
@@ -19039,9 +18987,7 @@
   atk_type: Grapple
   play_order: Followup
   deck_card_number: 20
-  rules_text: 'Your opponent''s next Submission has the added text: "If stopped, you lose the match via disqualification.
-
-    Skill Requirement: Strike 8+'
+  rules_text: 'Your opponent''s next Submission has the added text: "If stopped, you lose the match via disqualification.'
   tags: []
   requirements:
     - min_strike: 8
@@ -19118,9 +19064,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has another Submission in play, stop any Submission.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill Requirement: Strike 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_strike: 8
@@ -19282,9 +19226,7 @@
   deck_card_number: 20
   rules_text: 'Your opponent discards 2 cards from their hand.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Grapple 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -19297,9 +19239,7 @@
   deck_card_number: 20
   rules_text: 'Look at your opponent''s hand, they bury all Submission cards.
 
-    +3 to your next turn roll.
-
-    Skill Requirement: Power 8+'
+    +3 to your next turn roll.'
   tags: []
   requirements:
     - min_power: 8
@@ -19377,9 +19317,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
 
-    +2 to Grapple.
-
-    Skill Requirement: Grapple 8+'
+    +2 to Grapple.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -19477,9 +19415,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has 2 other Submissions in play, stop any Submission.
 
-    +2 to Power
-
-    Skill Requirement: Power 8+'
+    +2 to Power'
   tags: []
   requirements:
     - min_power: 8
@@ -19502,9 +19438,7 @@
   deck_card_number: 20
   rules_text: 'Your opponent discards all Submissions they have in play.
 
-    Your next turn roll is +3.
-
-    Skill Requirement: Grapple 8+'
+    Your next turn roll is +3.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -19571,9 +19505,7 @@
 
     Your opponent discards all Follow Ups from play.
 
-    Your partner chooses an opponent: they discard all Follow Ups in play.
-
-    Skill Requirement: Grapple 8+'
+    Your partner chooses an opponent: they discard all Follow Ups in play.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -19586,9 +19518,7 @@
   deck_card_number: 20
   rules_text: 'If your opponent has another Submission in play, stop any Submission.
 
-    Copy the text of a Submission your opponent has in play until the end of the turn.
-
-    Skill Requirement: Grapple 8+'
+    Copy the text of a Submission your opponent has in play until the end of the turn.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -19704,9 +19634,7 @@
   deck_card_number: 21
   rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
 
-    +2 to Technique.
-
-    Skill Requirement: Technique 8+'
+    +2 to Technique.'
   tags: []
   requirements:
     - min_technique: 8
@@ -19755,9 +19683,7 @@
   deck_card_number: 21
   rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
 
-    +2 to Submission.
-
-    Skill Requirement: Submission 8+'
+    +2 to Submission.'
   tags: []
   requirements:
     - min_submission: 8
@@ -19813,9 +19739,7 @@
 
     Your opponent discards all Follow Ups from play.
 
-    Your partner chooses an opponent: they discard all Follow Ups from play.
-
-    Skill Requirement: Submission 8+'
+    Your partner chooses an opponent: they discard all Follow Ups from play.'
   tags: []
   requirements:
     - min_submission: 8
@@ -19902,9 +19826,7 @@
   deck_card_number: 21
   rules_text: 'Draw 2 cards.
 
-    Your next turn roll is +2.
-
-    Skill Requirement: Submission 8+'
+    Your next turn roll is +2.'
   tags: []
   requirements:
     - min_submission: 8
@@ -19917,9 +19839,7 @@
   deck_card_number: 21
   rules_text: 'Look at your opponent''s hand, they bury all Strike cards.
 
-    Your next turn roll is +3.
-
-    Skill Requirement: Technique 8+'
+    Your next turn roll is +3.'
   tags: []
   requirements:
     - min_technique: 8
@@ -20061,9 +19981,7 @@
   deck_card_number: 21
   rules_text: 'Your opponent discards all Strikes they have in play.
 
-    Your next turn roll is +3.
-
-    Skill Requirement: Submission 8+'
+    Your next turn roll is +3.'
   tags: []
   requirements:
     - min_submission: 8
@@ -20209,9 +20127,7 @@
   deck_card_number: 21
   rules_text: 'If your opponent has another Strike in play, stop any Strike.
 
-    Shuffle 2 cards from your discard pile into your deck.
-
-    Skill Requirement: Grapple 8+'
+    Shuffle 2 cards from your discard pile into your deck.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -20273,9 +20189,7 @@
   deck_card_number: 21
   rules_text: 'If your opponent has 2 other Strikes in play, stop any Strike.
 
-    +2 to Submission.
-
-    Skill Requirement: Technique 8+'
+    +2 to Submission.'
   tags: []
   requirements:
     - min_technique: 8
@@ -20391,9 +20305,7 @@
   deck_card_number: 21
   rules_text: 'If your opponent has another Strike in play, stop any Strike.
 
-    Copy the text of a Strike your opponent has in play until the end of the turn.
-
-    Skill Requirement: Submission 8+'
+    Copy the text of a Strike your opponent has in play until the end of the turn.'
   tags: []
   requirements:
     - min_submission: 8
@@ -20404,7 +20316,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
-  rules_text: 'Your opponent''s next Strike has the added text:"If stopped, you lose the match via Disqualification."Skill Requirement: Grapple 8+'
+  rules_text: 'Your opponent''s next Strike has the added text:"If stopped, you lose the match via Disqualification."'
   tags: []
   requirements:
     - min_grapple: 8
@@ -20417,9 +20329,7 @@
   deck_card_number: 21
   rules_text: 'If the Crowd Meter is 1 or greater, your opponent''s Gimmick is blank.
 
-    +1 to Submission
-
-    Skill Requirement: Submission 16+'
+    +1 to Submission'
   tags: []
   requirements:
     - min_submission: 16
@@ -20587,9 +20497,7 @@
 
     Draw 3 cards.
 
-    Add the bottom 3 cards of your deck to your hand.
-
-    Skill Requirement: Power 8+'
+    Add the bottom 3 cards of your deck to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -20606,9 +20514,7 @@
 
     Draw 3 cards.
 
-    Add the bottom 3 cards of your deck to your hand.
-
-    Skill Requirement: Strike 8+'
+    Add the bottom 3 cards of your deck to your hand.'
   tags: []
   requirements:
     - min_strike: 8
@@ -20654,9 +20560,7 @@
   deck_card_number: 22
   rules_text: 'Choose a skill: your opponent''s skill of that type is -1.
 
-    The next time you roll that skill, draw 1 card.
-
-    Skill Requirement: Strike 8+'
+    The next time you roll that skill, draw 1 card.'
   tags: []
   requirements:
     - min_strike: 8
@@ -20671,9 +20575,7 @@
 
     Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Steel Chain match, draw 2 cards.
-
-    Skill Requirement: Agility 8+'
+    If this is a Steel Chain match, draw 2 cards.'
   tags: []
   requirements:
     - min_agility: 8
@@ -20748,9 +20650,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  rules_text: 'Flip 4 cards. Add 2 cards from your discard pile to your hand.
-
-    Skill Requirement: Agility 8+'
+  rules_text: 'Flip 4 cards. Add 2 cards from your discard pile to your hand.'
   tags: []
   requirements:
     - min_agility: 8
@@ -20783,9 +20683,7 @@
   deck_card_number: 22
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Strike 8+'
+    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_strike: 8
@@ -20882,9 +20780,7 @@
 
     Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.
-
-    Skill Requirement: Strike 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   tags: []
   requirements:
     - min_strike: 8
@@ -21097,9 +20993,7 @@
   deck_card_number: 22
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Technique 8+'
+    When this card is in your discard pile and you roll Technique for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_technique: 8
@@ -21288,9 +21182,7 @@
   deck_card_number: 22
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Strike for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Strike 8+'
+    When this card is in your discard pile and you roll Strike for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_strike: 8
@@ -21492,9 +21384,7 @@
 
     Add 1 to your hand, put 1 on the top of your deck, and bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.
-
-    Skill Requirement: Power 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   tags: []
   requirements:
     - min_power: 8
@@ -21601,7 +21491,7 @@
 
     Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards. Skill Requirement: Grapple 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -21638,9 +21528,7 @@
   deck_card_number: 23
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Grapple for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Grapple 8+'
+    When this card is in your discard pile and you roll Grapple for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -21846,9 +21734,7 @@
   deck_card_number: 23
   rules_text: 'Flip 4 cards.
 
-    Add 2 cards from your discard pile to your hand.
-
-    Skill Requirement: Grapple 8+'
+    Add 2 cards from your discard pile to your hand.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -21907,9 +21793,7 @@
 
     Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Steel Chain match, draw 2 cards.
-
-    Skill Requirement: Power 8+'
+    If this is a Steel Chain match, draw 2 cards.'
   tags: []
   requirements:
     - min_power: 8
@@ -22017,9 +21901,7 @@
 
     Draw 3 cards.
 
-    Add the bottom 3 cards of your deck to your hand.
-
-    Skill Requirement: Grapple 8+'
+    Add the bottom 3 cards of your deck to your hand.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -22035,9 +21917,7 @@
 
     Draw 3 cards.
 
-    Add the bottom 3 cards of your deck to your hand.
-
-    Skill Requirement: Power 8+'
+    Add the bottom 3 cards of your deck to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -22085,9 +21965,7 @@
   deck_card_number: 23
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Grapple 8+'
+    When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -22114,9 +21992,7 @@
   deck_card_number: 23
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Power 8+'
+    When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -22142,9 +22018,7 @@
   deck_card_number: 23
   rules_text: 'Flip 4 cards.
 
-    Add 2 cards from your discard pile to your hand.
-
-    Skill Requirement: Power 8+'
+    Add 2 cards from your discard pile to your hand.'
   tags: []
   requirements:
     - min_power: 8
@@ -22480,9 +22354,7 @@
   deck_card_number: 24
   rules_text: 'Search your deck or discard pile for 3 Submissions: Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Steel Cage match, draw 2 cards.
-
-    Skill Requirement: Technique 8+'
+    If this is a Steel Cage match, draw 2 cards.'
   tags: []
   requirements:
     - min_technique: 8
@@ -22600,7 +22472,7 @@
 
     Add 1 to your hand, put 1 on top of your deck, bury or put the other in your discard pile.
 
-    If this is a Ring of Fire match, your opponent flips 3 cards.  Skill Requirement: Submission 8+'
+    If this is a Ring of Fire match, your opponent flips 3 cards.'
   tags: []
   requirements:
     - min_submission: 8
@@ -22670,9 +22542,7 @@
   deck_card_number: 24
   rules_text: 'Look at your opponent''s hand, choose 1 card and discard it.
 
-    Your opponent''s next turn roll is -2.
-
-    Skill Requirement: Technique 10+, Submission 9+'
+    Your opponent''s next turn roll is -2.'
   tags: []
   requirements:
     - min_technique: 10
@@ -22758,9 +22628,7 @@
   deck_card_number: 24
   rules_text: 'Flip 4 cards.
 
-    Add 2 cards from your discard pile to your hand.
-
-    Skill Requirement: Technique 8+'
+    Add 2 cards from your discard pile to your hand.'
   tags: []
   requirements:
     - min_technique: 8
@@ -22773,9 +22641,7 @@
   deck_card_number: 24
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Agility for your turn roll, you may add it to your hand.
-
-    Skill Requirement: Submission 8+'
+    When this card is in your discard pile and you roll Agility for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_submission: 8
@@ -22967,9 +22833,7 @@
 
     Draw 3 cards.
 
-    Add the bottom 3 cards of your deck to your hand.
-
-    Skill Requirement: Submission 8+'
+    Add the bottom 3 cards of your deck to your hand.'
   tags: []
   requirements:
     - min_submission: 8
@@ -22994,7 +22858,7 @@
   deck_card_number: 24
   rules_text: 'Choose 1 card your opponent has in play and discard it.
 
-    When this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand.  Skill Requirement: Submission 8+'
+    When this card is in your discard pile and you roll Submission for your turn roll, you may add it to your hand.'
   tags: []
   requirements:
     - min_submission: 8
@@ -23915,9 +23779,7 @@
   deck_card_number: 25
   rules_text: 'Stop any Finish Grapple.
 
-    Your Finish rolls are +1.
-
-    Skill Requirement: Strike 8+'
+    Your Finish rolls are +1.'
   tags: []
   requirements:
     - min_strike: 8
@@ -24031,9 +23893,7 @@
   deck_card_number: 26
   rules_text: 'Stop any Finish Submission.
 
-    Your Finish rolls are +1.
-
-    Skill Requirement: Grapple 8+'
+    Your Finish rolls are +1.'
   tags: []
   requirements:
     - min_grapple: 8
@@ -24192,7 +24052,7 @@
 
     Draw 1 card.
 
-    This card is also a Follow Up.  Skill Requirement: Grapple 10+, Power 9+'
+    This card is also a Follow Up.'
   tags: []
   requirements:
     - min_grapple: 10
@@ -25296,7 +25156,7 @@
   deck_card_number: 27
   rules_text: 'Stop any Finish Strike.
 
-    Your Finish rolls are +1.  Skill Requirement: Submission 8+'
+    Your Finish rolls are +1.'
   tags: []
   requirements:
     - min_submission: 8

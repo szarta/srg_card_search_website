@@ -53,6 +53,18 @@ export default function SavedGames() {
     }
   };
 
+  const toggleVisibility = async (id, next) => {
+    setBusyId(id);
+    try {
+      await api.patch(`/api/rib/games/${id}`, { visibility: next });
+      await load();
+    } catch (e) {
+      setError(String(e?.detail ?? e?.message ?? e));
+    } finally {
+      setBusyId(null);
+    }
+  };
+
   return (
     <div className="mx-auto max-w-3xl p-4">
       <div className="mb-4 flex items-center justify-between">
@@ -89,6 +101,9 @@ export default function SavedGames() {
               onAskDelete={() => setConfirmId(r.id)}
               onCancelDelete={() => setConfirmId(null)}
               onConfirmDelete={() => remove(r.id)}
+              onToggleVisibility={() =>
+                toggleVisibility(r.id, r.visibility === "public" ? "private" : "public")
+              }
             />
           ))}
         </ul>
@@ -97,12 +112,28 @@ export default function SavedGames() {
   );
 }
 
-function GameRow({ record, confirming, busy, onAskDelete, onCancelDelete, onConfirmDelete }) {
+function GameRow({
+  record,
+  confirming,
+  busy,
+  onAskDelete,
+  onCancelDelete,
+  onConfirmDelete,
+  onToggleVisibility,
+}) {
   const { result, information_view: view } = record;
+  const isPublic = record.visibility === "public";
   return (
     <li className="flex items-center justify-between rounded-lg border border-gray-700 bg-srgGray p-3">
       <div>
-        <div className="font-medium text-white">{matchupLine(record)}</div>
+        <div className="font-medium text-white">
+          {matchupLine(record)}
+          {isPublic && (
+            <span className="ml-2 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] text-emerald-300">
+              public
+            </span>
+          )}
+        </div>
         <div className="text-xs text-gray-400">
           by {result?.reason} · {result?.turns} turns
           {view === "observer" && <span className="ml-2 text-sky-300">observer</span>}
@@ -131,6 +162,13 @@ function GameRow({ record, confirming, busy, onAskDelete, onCancelDelete, onConf
             >
               Replay
             </Link>
+            <button
+              onClick={onToggleVisibility}
+              disabled={busy}
+              className="rounded border border-gray-600 px-2 py-1 text-gray-200 hover:bg-gray-800 disabled:opacity-50"
+            >
+              {isPublic ? "Make private" : "Make public"}
+            </button>
             <button
               onClick={onAskDelete}
               className="rounded border border-gray-700 px-2 py-1 text-gray-400 hover:bg-gray-800"

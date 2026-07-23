@@ -101,5 +101,9 @@ class GameRecordResponse(GameRecordSummary):
     frames: Optional[List[Dict[str, Any]]] = None
 
 
+class GameRecordUpdate(BaseModel):
+    visibility: str = Field(..., pattern="^(private|public)$")
+
+
 class GameRecordListResponse(BaseModel):
     records: List[GameRecordSummary]

@@ -1,7 +1,7 @@
 // Access-key login for Run It Back. Keys are hand-minted and distributed
 // out-of-band; there is no self-service signup.
 import { useState } from "react";
-import { useNavigate, useLocation, Navigate } from "react-router-dom";
+import { useNavigate, useLocation, Navigate, Link } from "react-router-dom";
 import { useAuth } from "../../auth/AuthContext";
 
 export default function Login() {
@@ -63,6 +63,13 @@ export default function Login() {
           {submitting ? "Signing in…" : "Sign in"}
         </button>
       </form>
+      <p className="mt-6 text-sm text-gray-400">
+        No key?{" "}
+        <Link to="/run-it-back/public" className="text-srgPurple hover:underline">
+          Browse public games
+        </Link>{" "}
+        — no login needed.
+      </p>
     </div>
   );
 }

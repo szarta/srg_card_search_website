@@ -20,6 +20,7 @@ import MyDecks from "./pages/RunItBack/MyDecks";
 import DeckEditor from "./pages/RunItBack/DeckEditor";
 import SavedGames from "./pages/RunItBack/SavedGames";
 import ReplayViewer from "./pages/RunItBack/ReplayViewer";
+import PublicGames from "./pages/RunItBack/PublicGames";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -126,6 +127,10 @@ const router = createBrowserRouter([
         ),
         children: [
           { path: "login", element: <Login /> },
+          // Public archive — no login (outside RequireAuth), consistent with
+          // "login only gates your own decks/history".
+          { path: "public", element: <PublicGames /> },
+          { path: "public/:recordId", element: <ReplayViewer publicMode /> },
           {
             element: <RequireAuth />,
             children: [

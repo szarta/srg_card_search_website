@@ -22,6 +22,7 @@ from schemas.rib_schema import (
     GameRecordCreate,
     GameRecordListResponse,
     GameRecordResponse,
+    GameRecordUpdate,
 )
 
 router = APIRouter(prefix="/rib/games", tags=["rib-records"])
@@ -82,6 +83,21 @@ def get_record(
     db: Session = Depends(get_db),
 ):
     return _owned_record(record_id, user, db)
+
+
+@router.patch("/{record_id}", response_model=GameRecordResponse)
+def update_record(
+    record_id: str,
+    payload: GameRecordUpdate,
+    user: User = Depends(require_user),
+    db: Session = Depends(get_db),
+):
+    """Change a game's visibility (private <-> public). Owner only."""
+    record = _owned_record(record_id, user, db)
+    record.visibility = payload.visibility
+    db.commit()
+    db.refresh(record)
+    return record
 
 
 @router.delete("/{record_id}", status_code=204)

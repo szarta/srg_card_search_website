@@ -45,7 +45,14 @@ export default function RunItBackHome() {
           className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
         >
           <h2 className="text-lg font-semibold text-white">Saved games</h2>
-          <p className="text-sm text-gray-400">Review games you've saved.</p>
+          <p className="text-sm text-gray-400">Review and share games you've saved.</p>
+        </Link>
+        <Link
+          to="/run-it-back/public"
+          className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
+        >
+          <h2 className="text-lg font-semibold text-white">Public games</h2>
+          <p className="text-sm text-gray-400">Watch games players have shared.</p>
         </Link>
       </div>
     </div>

@@ -16,14 +16,16 @@ const errText = (e) => String(e?.detail ?? e?.message ?? e);
 const fmt = (n) => (n > 0 ? `+${n}` : `${n}`);
 
 // Load the engine + record and reconstruct the ordered step sequence.
-function useReplay(recordId) {
+// `publicMode` reads from the no-login public archive instead of the owner API.
+function useReplay(recordId, publicMode) {
   const [state, setState] = useState({ status: "loading" });
   useEffect(() => {
     let alive = true;
     (async () => {
       try {
         await ensureEngine();
-        const record = await api.get(`/api/rib/games/${recordId}`);
+        const path = publicMode ? `/api/games/public/${recordId}` : `/api/rib/games/${recordId}`;
+        const record = await api.get(path);
         if (record.information_view === "observer") {
           if (alive) setState({ status: "observer", record });
           return;
@@ -37,26 +39,26 @@ function useReplay(recordId) {
     return () => {
       alive = false;
     };
-  }, [recordId]);
+  }, [recordId, publicMode]);
   return state;
 }
 
-export default function ReplayViewer() {
+export default function ReplayViewer({ publicMode = false }) {
   const { recordId } = useParams();
-  const st = useReplay(recordId);
+  const st = useReplay(recordId, publicMode);
   const [cursor, setCursor] = useState(0);
 
-  if (st.status === "loading") return <Shell><p className="text-gray-400">Reconstructing game…</p></Shell>;
+  if (st.status === "loading") return <Shell publicMode={publicMode}><p className="text-gray-400">Reconstructing game…</p></Shell>;
   if (st.status === "error") {
     return (
-      <Shell>
+      <Shell publicMode={publicMode}>
         <div className="rounded border border-rose-600 bg-rose-950/60 p-3 text-sm text-rose-200">{st.error}</div>
       </Shell>
     );
   }
   if (st.status === "observer") {
     return (
-      <Shell>
+      <Shell publicMode={publicMode}>
         <p className="text-gray-400">
           This is an imported (observer) game. Frame-by-frame playback for imports arrives with the
           import feature.
@@ -71,21 +73,25 @@ export default function ReplayViewer() {
   const step = steps[at];
 
   return (
-    <Shell>
+    <Shell publicMode={publicMode}>
       <Scrubber at={at} last={last} onGo={(n) => setCursor(Math.max(0, Math.min(last, n)))} />
       <div className="mt-3">
         {step.kind === "done" ? (
-          <Result result={step.result} />
+          <Result result={step.result} publicMode={publicMode} />
         ) : (
-          <StepView step={step} chosenIndex={decisions[at]} />
+          <StepView step={step} chosenIndex={decisions[at]} publicMode={publicMode} />
         )}
       </div>
     </Shell>
   );
 }
 
-function StepView({ step, chosenIndex }) {
+function StepView({ step, chosenIndex, publicMode }) {
   const obs = step.request.observable_state;
+  // Steps are seat A's projection. The owner sees "You/Opponent"; a public
+  // spectator gets neutral seat labels.
+  const labelA = publicMode ? "Player A" : "You";
+  const labelB = publicMode ? "Player B" : "Opponent";
   return (
     <div className="space-y-3">
       <div className="flex gap-4 text-sm text-gray-400">
@@ -93,20 +99,24 @@ function StepView({ step, chosenIndex }) {
         <span>crowd meter <span className="font-mono text-gray-200">{fmt(obs.crowd_meter)}</span></span>
         <span>active {obs.active}</span>
       </div>
-      <Board label="Opponent" view={obs.players.B} isSelf={false} isActive={obs.active === "B"} />
-      <Board label="You" view={obs.players.A} isSelf isActive={obs.active === "A"} />
+      <Board label={labelB} view={obs.players.B} isSelf={false} isActive={obs.active === "B"} />
+      <Board label={labelA} view={obs.players.A} isSelf isActive={obs.active === "A"} />
       <DecisionPanel request={step.request} readOnly chosenIndex={chosenIndex} />
     </div>
   );
 }
 
-function Result({ result }) {
-  const you = result.winner === "A";
+function Result({ result, publicMode }) {
+  const aWon = result.winner === "A";
   const draw = result.winner === "draw";
+  let headline;
+  if (draw) headline = "Draw";
+  else if (publicMode) headline = `Player ${result.winner} wins`;
+  else headline = aWon ? "You win" : "You lose";
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-900 p-6 text-center">
-      <div className={`text-2xl font-bold ${draw ? "text-gray-300" : you ? "text-emerald-400" : "text-rose-400"}`}>
-        {draw ? "Draw" : you ? "You win" : "You lose"}
+      <div className={`text-2xl font-bold ${draw ? "text-gray-300" : aWon ? "text-emerald-400" : "text-rose-400"}`}>
+        {headline}
       </div>
       <div className="mt-1 text-gray-400">by {result.reason} in {result.turns} turns</div>
     </div>
@@ -130,13 +140,15 @@ function Scrubber({ at, last, onGo }) {
   );
 }
 
-function Shell({ children }) {
+function Shell({ children, publicMode }) {
+  const backTo = publicMode ? "/run-it-back/public" : "/run-it-back/games";
+  const backLabel = publicMode ? "← Public games" : "← Saved games";
   return (
     <div className="mx-auto max-w-4xl p-4">
       <div className="mb-4 flex items-center justify-between">
         <h1 className="text-xl font-bold text-white">Replay</h1>
-        <Link to="/run-it-back/games" className="text-sm text-gray-400 hover:text-srgPurple">
-          ← Saved games
+        <Link to={backTo} className="text-sm text-gray-400 hover:text-srgPurple">
+          {backLabel}
         </Link>
       </div>
       {children}

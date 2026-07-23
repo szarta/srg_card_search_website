@@ -3,6 +3,8 @@
 // A card whose parsed effects include an `Unsupported` node is flagged, since
 // some of its text safely no-ops under partial rules coverage (see FRONTEND_HANDOFF).
 
+import { useState } from "react";
+
 const ATK_TONE = {
   Strike: "border-rose-500/60",
   Grapple: "border-emerald-500/60",
@@ -20,12 +22,18 @@ export function hasUnsupported(card) {
   }
 }
 
-// The site's card art, keyed by uuid (same paths as CardGrid/CardDetail). Shown
-// at 125x170 — near the thumbnail's natural 147x200 and the same aspect, so it
-// is legible without upscaling. An unidentified imported card has no uuid and
-// simply gets no art.
+// The site's card art, keyed by uuid (same paths as CardGrid/CardDetail). The
+// chip art stays small — most of the time knowing *which* card is in play is
+// enough — and hovering blows it up to a readable size instead. An unidentified
+// imported card has no uuid and simply gets no art.
 const THUMB = (uuid) => `/images/thumbnails/${uuid.slice(0, 2)}/${uuid}.webp`;
+const FULL = (uuid) => `/images/fullsize/${uuid.slice(0, 2)}/${uuid}.webp`;
 const FALLBACK_THUMB = "/images/thumbnails/im/image_unavailable.webp";
+
+const swapToFallback = (e) => {
+  if (e.currentTarget.src.endsWith(FALLBACK_THUMB)) return;
+  e.currentTarget.src = FALLBACK_THUMB;
+};
 
 // The art box is a fixed size rather than `w-auto`: an image with no intrinsic
 // size yet measures 0 wide, and a zero-area element never enters the viewport,
@@ -38,11 +46,27 @@ function Art({ card }) {
       src={THUMB(card.db_uuid)}
       alt=""
       loading="lazy"
-      onError={(e) => {
-        if (e.currentTarget.src.endsWith(FALLBACK_THUMB)) return;
-        e.currentTarget.src = FALLBACK_THUMB;
-      }}
-      className="mx-auto mb-1 h-[170px] w-[125px] rounded-sm object-contain"
+      onError={swapToFallback}
+      className="mx-auto mb-1 h-[109px] w-[80px] rounded-sm object-contain"
+    />
+  );
+}
+
+// The hover blow-up. Centred on the chip and `pointer-events-none` so it can
+// never eat the click that plays the card, and only fetched on hover (an
+// in-play board would otherwise pull a dozen 450x614 images nobody looked at).
+//
+// `max-w-none` is load-bearing: the base stylesheet caps images at
+// `max-width: 100%`, and for an absolutely-positioned child that resolves
+// against the chip — without it the blow-up is clamped back to chip width.
+function Zoom({ card, show }) {
+  if (!card.db_uuid || !show) return null;
+  return (
+    <img
+      src={FULL(card.db_uuid)}
+      alt=""
+      onError={swapToFallback}
+      className="pointer-events-none absolute left-1/2 top-1/2 z-50 w-[300px] max-w-none -translate-x-1/2 -translate-y-1/2 rounded-md border border-gray-600 shadow-2xl shadow-black/80"
     />
   );
 }
@@ -50,12 +74,15 @@ function Art({ card }) {
 export default function CardChip({ card, selectable = false, selected = false, onClick }) {
   const tone = ATK_TONE[card.atk_type] ?? ATK_TONE.None;
   const partial = hasUnsupported(card);
+  const [hover, setHover] = useState(false);
   return (
     <div
       onClick={onClick}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
       className={[
-        // Wide enough for the 125px art plus the chip's own horizontal padding.
-        "w-[141px] shrink-0 rounded-md border bg-gray-900/80 px-2 py-1.5 text-left",
+        // Wide enough for the 80px art plus the chip's own horizontal padding.
+        "relative w-24 shrink-0 rounded-md border bg-gray-900/80 px-2 py-1.5 text-left",
         selected ? "border-amber-400 ring-1 ring-amber-400/60" : tone,
         selectable ? "cursor-pointer hover:bg-gray-800" : "",
       ].join(" ")}
@@ -75,6 +102,7 @@ export default function CardChip({ card, selectable = false, selected = false, o
         )}
       </div>
       <div className="text-[10px] text-gray-400">{card.atk_type}</div>
+      <Zoom card={card} show={hover} />
     </div>
   );
 }

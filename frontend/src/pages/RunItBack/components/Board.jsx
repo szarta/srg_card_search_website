@@ -28,13 +28,10 @@ export default function Board({ label, view, isSelf, isActive }) {
         <span className="text-xs text-gray-400">deck {view.deck_size}</span>
       </header>
 
-      <Row label="In play">
-        {view.in_play.length ? (
-          view.in_play.map((c, i) => <CardChip key={`${c.db_uuid}-${i}`} card={c} />)
-        ) : (
-          <Empty />
-        )}
-      </Row>
+      <div className="mb-2">
+        <div className="mb-1 text-[10px] uppercase tracking-wide text-gray-500">In play</div>
+        <InPlayLanes cards={view.in_play} />
+      </div>
 
       <Row label={isSelf ? "Hand" : "Hand (hidden)"}>
         {hand ? (
@@ -52,6 +49,44 @@ export default function Board({ label, view, isSelf, isActive }) {
         <DiscardStack cards={view.discard} />
       </div>
     </section>
+  );
+}
+
+// The in-play chain reads as three lanes — Lead, Follow Up, Finish — with each
+// lane stacking downwards, which is how the cards sit on a real table. Anything
+// whose play order we couldn't determine (an imported archive whose card uuid
+// didn't resolve) gets its own trailing lane rather than being dropped.
+const LANES = [
+  ["Lead", "Lead"],
+  ["Follow Up", "Followup"],
+  ["Finish", "Finish"],
+];
+
+function InPlayLanes({ cards }) {
+  if (!cards.length) return <Empty />;
+  const lanes = LANES.map(([label, order]) => [
+    label,
+    cards.filter((c) => c.play_order === order),
+  ]);
+  const known = new Set(LANES.map(([, order]) => order));
+  const rest = cards.filter((c) => !known.has(c.play_order));
+  if (rest.length) lanes.push(["Other", rest]);
+
+  return (
+    <div className="flex flex-wrap gap-3">
+      {lanes.map(([label, laneCards]) => (
+        <div key={label} className="min-w-24">
+          <div className="mb-1 text-[10px] uppercase tracking-wide text-gray-600">{label}</div>
+          <div className="flex flex-col gap-1.5">
+            {laneCards.length ? (
+              laneCards.map((c, i) => <CardChip key={`${c.db_uuid}-${i}`} card={c} />)
+            ) : (
+              <Empty />
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 

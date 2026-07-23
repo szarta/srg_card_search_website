@@ -11,6 +11,11 @@ import SubmitMissingImage from "./pages/SubmitMissingImage";
 import CreateList from "./pages/CreateList";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FinishCalculator from "./pages/FinishCalculator";
+import { AuthProvider } from "./auth/AuthContext";
+import RequireAuth from "./auth/RequireAuth";
+import Login from "./pages/RunItBack/Login";
+import RunItBackHome from "./pages/RunItBack/RunItBackHome";
+import Play from "./pages/RunItBack/Play";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -104,6 +109,29 @@ const router = createBrowserRouter([
       { path: "/submit-missing-image", element: <SubmitMissingImage /> },
       { path: "/finish-calculator", element: <FinishCalculator /> },
       { path: "/privacy", element: <PrivacyPolicy /> },
+
+      // Run It Back — the only login-gated section. AuthProvider is scoped
+      // here so the public pages above never trigger an auth check. The login
+      // page is public; everything under RequireAuth needs a session.
+      {
+        path: "run-it-back",
+        element: (
+          <AuthProvider>
+            <Outlet />
+          </AuthProvider>
+        ),
+        children: [
+          { path: "login", element: <Login /> },
+          {
+            element: <RequireAuth />,
+            children: [
+              { index: true, element: <RunItBackHome /> },
+              { path: "play", element: <Play /> },
+              // P3: deck list + editor mount here (task 9).
+            ],
+          },
+        ],
+      },
     ],
   },
 ]);

@@ -215,3 +215,50 @@ class SharedList(Base):
 
     def __repr__(self):
         return f"<SharedList(id='{self.id}', name='{self.name}', type='{self.list_type}', cards={len(self.card_uuids or [])})>"
+
+
+# ---------------------------------------------------------------------------
+# Run It Back — logged-in gameplay section.
+#
+# These tables are additive and login-gated; the public card-search site never
+# touches them. They are created by create_rib_tables.py (checkfirst, no drop),
+# NOT by create_db.py.
+# ---------------------------------------------------------------------------
+
+
+class User(Base):
+    __tablename__ = "rib_users"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    email = Column(String(320), nullable=False, unique=True)
+    # SHA-256 hex of a 256-bit URL-safe access key. Keys are hand-minted and
+    # high-entropy, so a plain hash (no bcrypt) is sufficient. Raw key is never
+    # stored; it is shown once by mint_user.py.
+    key_hash = Column(String(64), nullable=False, unique=True, index=True)
+    active = Column(Boolean, nullable=False, default=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    decks = relationship("Deck", back_populates="owner", cascade="all, delete-orphan")
+
+    def __repr__(self):
+        return f"<User(id='{self.id}', email='{self.email}', active={self.active})>"
+
+
+class Deck(Base):
+    __tablename__ = "rib_decks"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    user_id = Column(String, ForeignKey("rib_users.id"), nullable=False, index=True)
+    name = Column(String(255), nullable=False)
+    # Same slot structure used by SharedList.deck_data (see
+    # schemas/shared_list_schema.py DeckData): spectacle_type + slots[].
+    deck_data = Column(JSON, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
+    )
+
+    owner = relationship("User", back_populates="decks")
+
+    def __repr__(self):
+        return f"<Deck(id='{self.id}', user_id='{self.user_id}', name='{self.name}')>"

@@ -21,8 +21,9 @@ export function hasUnsupported(card) {
 }
 
 // The site's card art, keyed by uuid (same paths as CardGrid/CardDetail). Shown
-// at ~40% of the thumbnail's natural 147x200 so a whole board still fits on
-// screen; an unidentified imported card has no uuid and simply gets no art.
+// at 125x170 — near the thumbnail's natural 147x200 and the same aspect, so it
+// is legible without upscaling. An unidentified imported card has no uuid and
+// simply gets no art.
 const THUMB = (uuid) => `/images/thumbnails/${uuid.slice(0, 2)}/${uuid}.webp`;
 const FALLBACK_THUMB = "/images/thumbnails/im/image_unavailable.webp";
 
@@ -41,7 +42,7 @@ function Art({ card }) {
         if (e.currentTarget.src.endsWith(FALLBACK_THUMB)) return;
         e.currentTarget.src = FALLBACK_THUMB;
       }}
-      className="mx-auto mb-1 h-20 w-[60px] rounded-sm object-contain"
+      className="mx-auto mb-1 h-[170px] w-[125px] rounded-sm object-contain"
     />
   );
 }
@@ -53,7 +54,8 @@ export default function CardChip({ card, selectable = false, selected = false, o
     <div
       onClick={onClick}
       className={[
-        "w-28 shrink-0 rounded-md border bg-gray-900/80 px-2 py-1.5 text-left",
+        // Wide enough for the 125px art plus the chip's own horizontal padding.
+        "w-[141px] shrink-0 rounded-md border bg-gray-900/80 px-2 py-1.5 text-left",
         selected ? "border-amber-400 ring-1 ring-amber-400/60" : tone,
         selectable ? "cursor-pointer hover:bg-gray-800" : "",
       ].join(" ")}

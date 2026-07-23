@@ -136,9 +136,12 @@ function Shell({ children }) {
 // The setup form and, once a match is open, the live board + decision loop.
 function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   const session = useRef(null);
+  const decisionsRef = useRef([]); // human decision indices, in order (for replay)
+  const matchInfoRef = useRef(null); // { seed, participants } captured at open
   const [step, setStep] = useState(null);
   const [error, setError] = useState(null);
   const [starting, setStarting] = useState(false);
+  const [saveState, setSaveState] = useState("idle"); // idle | saving | saved
 
   // Setup form state. Defaults hit the golden path: Bull vs Fae, heuristic, seed 7.
   const [yourDeckId, setYourDeckId] = useState(initialYourId ?? deckOptions[0]?.id ?? "");
@@ -163,10 +166,17 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
       const opp = deckOptions.find((d) => d.id === oppDeckId);
       const [deckA, deckB] = await Promise.all([your.resolve(), opp.resolve()]);
       const seedNum = Number.parseInt(seed, 10);
-      session.current = openMatch(deckA, deckB, policy, Number.isFinite(seedNum) ? seedNum : 0);
+      const usedSeed = Number.isFinite(seedNum) ? seedNum : 0;
+      session.current = openMatch(deckA, deckB, policy, usedSeed);
+      matchInfoRef.current = {
+        seed: usedSeed,
+        participants: buildParticipants(deckA, deckB, your, opp, policy),
+      };
+      decisionsRef.current = [];
+      setSaveState("idle");
       setStep(session.current.step());
     } catch (e) {
-      setError(String(e?.detail ?? e?.message ?? e));
+      setError(errText(e));
       setStep(null);
     } finally {
       setStarting(false);
@@ -175,9 +185,10 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
 
   const submit = (i) => {
     try {
+      decisionsRef.current.push(i);
       setStep(session.current.submit(i));
     } catch (e) {
-      setError(String(e?.message ?? e));
+      setError(errText(e));
     }
   };
 
@@ -185,6 +196,28 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
     session.current = null;
     setStep(null);
     setError(null);
+    setSaveState("idle");
+  };
+
+  // Persist the finished game (full, re-simulatable: snapshot + seed + decisions).
+  const saveGame = async () => {
+    if (!session.current || step?.kind !== "done") return;
+    setSaveState("saving");
+    try {
+      const snapshot = session.current.snapshot();
+      const payload = buildGamePayload(
+        step.result,
+        version,
+        matchInfoRef.current,
+        decisionsRef.current,
+        snapshot,
+      );
+      await api.post("/api/rib/games", payload);
+      setSaveState("saved");
+    } catch (e) {
+      setError(errText(e));
+      setSaveState("idle");
+    }
   };
 
   // Live match view.
@@ -195,6 +228,8 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
         onSubmit={submit}
         onQuit={quit}
         onRematch={start}
+        onSave={saveGame}
+        saveState={saveState}
         error={error}
         busy={starting}
       />
@@ -240,7 +275,7 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   );
 }
 
-function MatchView({ step, onSubmit, onQuit, onRematch, error, busy }) {
+function MatchView({ step, onSubmit, onQuit, onRematch, onSave, saveState, error, busy }) {
   const done = step.kind === "done";
   const req = done ? null : step.request;
   const obs = req?.observable_state;
@@ -274,7 +309,7 @@ function MatchView({ step, onSubmit, onQuit, onRematch, error, busy }) {
       )}
 
       {done ? (
-        <Result result={step.result} />
+        <Result result={step.result} onSave={onSave} saveState={saveState} />
       ) : (
         <>
           <Board label="Opponent" view={obs.players.B} isSelf={false} isActive={obs.active === "B"} />
@@ -286,7 +321,7 @@ function MatchView({ step, onSubmit, onQuit, onRematch, error, busy }) {
   );
 }
 
-function Result({ result }) {
+function Result({ result, onSave, saveState }) {
   const you = result.winner === "A";
   const draw = result.winner === "draw";
   return (
@@ -297,8 +332,51 @@ function Result({ result }) {
       <div className="mt-1 text-gray-400">
         by {result.reason} in {result.turns} turns
       </div>
+      <div className="mt-4">
+        {saveState === "saved" ? (
+          <span className="text-sm text-emerald-400">
+            Saved ✓ —{" "}
+            <Link to="/run-it-back/games" className="underline hover:text-emerald-300">
+              your games
+            </Link>
+          </span>
+        ) : (
+          <button
+            onClick={onSave}
+            disabled={saveState === "saving"}
+            className="rounded-md border border-gray-600 bg-gray-800 px-4 py-2 text-sm text-gray-100 hover:bg-gray-700 disabled:opacity-50"
+          >
+            {saveState === "saving" ? "Saving…" : "Save this game"}
+          </button>
+        )}
+      </div>
     </div>
   );
+}
+
+const errText = (e) => String(e?.detail ?? e?.message ?? e);
+
+// Denormalized participant metadata captured at match open, for record display.
+function buildParticipants(deckA, deckB, your, opp, policy) {
+  return {
+    A: { competitor: deckA.competitor?.name ?? null, deck_name: your?.name ?? null },
+    B: { competitor: deckB.competitor?.name ?? null, deck_name: opp?.name ?? null, policy },
+  };
+}
+
+// Assemble the persisted record for a finished site game. Full information:
+// the engine snapshot re-simulates it, and seed + decisions replay it directly.
+function buildGamePayload(result, version, matchInfo, decisions, snapshot) {
+  return {
+    information_view: "full",
+    source: "site",
+    result,
+    engine_version: version ?? null,
+    participants: matchInfo?.participants ?? null,
+    seed: matchInfo ? String(matchInfo.seed) : null,
+    decisions,
+    snapshot,
+  };
 }
 
 function SkewBanner({ skew, version }) {

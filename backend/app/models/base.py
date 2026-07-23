@@ -239,6 +239,9 @@ class User(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     decks = relationship("Deck", back_populates="owner", cascade="all, delete-orphan")
+    records = relationship(
+        "GameRecord", back_populates="owner", cascade="all, delete-orphan"
+    )
 
     def __repr__(self):
         return f"<User(id='{self.id}', email='{self.email}', active={self.active})>"
@@ -262,3 +265,64 @@ class Deck(Base):
 
     def __repr__(self):
         return f"<Deck(id='{self.id}', user_id='{self.user_id}', name='{self.name}')>"
+
+
+class GameRecord(Base):
+    """A saved, replayable game.
+
+    Two information shapes share this table (see the Run It Back record design):
+
+    - ``full`` — a site-run game. Engine-authoritative and re-simulatable: the
+      ``snapshot`` string (from ``WasmSession.snapshot()``) is a self-contained,
+      version-stamped seed that ``restore()`` rebuilds byte-for-byte, and it
+      embeds decks + seed + seats + every decision. ``decisions``/``seed`` are
+      kept alongside as queryable, portable metadata.
+    - ``observer`` — an imported real-life / other-platform game. Only publicly
+      observable data: an ordered ``frames`` sequence (per-step public state +
+      action), no hidden zones and no seed, so it is NOT re-simulatable and is
+      played back frame-by-frame. (Import is task 18; the column exists now so
+      the schema serves both shapes.)
+
+    ``owner_id`` is nullable: site games belong to the player, but public /
+    imported games may be ownerless. ``visibility`` gates the public archive
+    (task 19); the public/observer projection is effectively an interchange
+    format, so keep it clean.
+    """
+
+    __tablename__ = "rib_game_records"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    owner_id = Column(String, ForeignKey("rib_users.id"), nullable=True, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    # 'full' (site-run, re-simulatable) | 'observer' (imported, playback only)
+    information_view = Column(String(16), nullable=False, default="full")
+    # 'private' (owner only) | 'public' (browsable/replayable by anyone)
+    visibility = Column(String(16), nullable=False, default="private")
+    # 'site' (played here) | 'import' (user-produced archive)
+    source = Column(String(16), nullable=False, default="site")
+
+    # Engine/schema stamp the record was produced with (replay fidelity needs
+    # it) — the `version()` / `srg info` schemas object.
+    engine_version = Column(JSON, nullable=True)
+    # { winner, reason, turns }
+    result = Column(JSON, nullable=False)
+    # Display metadata: { A: {competitor, deck_name}, B: {competitor, policy} }
+    participants = Column(JSON, nullable=True)
+
+    # u64 seed stored as a string to avoid JS/JSON integer-precision loss.
+    seed = Column(String(32), nullable=True)
+    # Ordered human decision indices (full games) — replay without the engine.
+    decisions = Column(JSON, nullable=True)
+    # Self-contained engine snapshot string (full games).
+    snapshot = Column(Text, nullable=True)
+    # Ordered observable frames (observer games) — playback source.
+    frames = Column(JSON, nullable=True)
+
+    owner = relationship("User", back_populates="records")
+
+    def __repr__(self):
+        return (
+            f"<GameRecord(id='{self.id}', view='{self.information_view}', "
+            f"visibility='{self.visibility}')>"
+        )

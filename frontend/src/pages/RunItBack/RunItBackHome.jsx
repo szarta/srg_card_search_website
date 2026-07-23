@@ -40,6 +40,13 @@ export default function RunItBackHome() {
           <h2 className="text-lg font-semibold text-white">Play</h2>
           <p className="text-sm text-gray-400">Pick a deck and an opponent.</p>
         </Link>
+        <Link
+          to="/run-it-back/games"
+          className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
+        >
+          <h2 className="text-lg font-semibold text-white">Saved games</h2>
+          <p className="text-sm text-gray-400">Review games you've saved.</p>
+        </Link>
       </div>
     </div>
   );

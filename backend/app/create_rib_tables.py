@@ -13,13 +13,14 @@ Run from inside backend/app:  python create_rib_tables.py
 """
 
 from database import engine
-from models.base import Base, User, Deck
+from models.base import Base, User, Deck, GameRecord
 
 # Only the RIB tables — explicitly listed so we never accidentally create
 # (or interact with) the card-search schema here.
 RIB_TABLES = [
     User.__table__,
     Deck.__table__,
+    GameRecord.__table__,
 ]
 
 

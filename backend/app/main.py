@@ -15,6 +15,7 @@ from routers import shared_lists
 from routers import submissions
 from routers import rib_auth
 from routers import rib_decks
+from routers import rib_records
 from routers import decks_public
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -102,4 +103,5 @@ app.include_router(submissions.router, prefix="/api", tags=["submissions"])
 app.include_router(shared_lists.router, prefix="/api", tags=["shared_lists"])
 app.include_router(rib_auth.router, prefix="/api", tags=["rib-auth"])
 app.include_router(rib_decks.router, prefix="/api", tags=["rib-decks"])
+app.include_router(rib_records.router, prefix="/api", tags=["rib-records"])
 app.include_router(decks_public.router, prefix="/api", tags=["decks-public"])

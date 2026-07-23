@@ -50,3 +50,56 @@ class DeckResponse(BaseModel):
 
 class DeckListResponse(BaseModel):
     decks: List[DeckResponse]
+
+
+# --- Game records (used by rib_records router, task 13) -------------------
+
+
+class GameResult(BaseModel):
+    winner: str  # 'A' | 'B' | 'draw'
+    reason: str  # finish | count_out | disqualification | pinfall | turn_cap
+    turns: int
+
+
+class GameRecordCreate(BaseModel):
+    """Persist a finished game. Site games send `snapshot` (+ seed/decisions);
+    observer imports send `frames`. Defaults describe a private, site-run,
+    full-information game."""
+
+    information_view: str = Field("full", pattern="^(full|observer)$")
+    visibility: str = Field("private", pattern="^(private|public)$")
+    source: str = Field("site", pattern="^(site|import)$")
+    result: GameResult
+    engine_version: Optional[Dict[str, Any]] = None
+    participants: Optional[Dict[str, Any]] = None
+    seed: Optional[str] = Field(None, max_length=32)
+    decisions: Optional[List[int]] = None
+    snapshot: Optional[str] = None
+    frames: Optional[List[Dict[str, Any]]] = None
+
+
+# Light row for lists — omits the bulky snapshot/frames/decisions payloads.
+class GameRecordSummary(BaseModel):
+    id: str
+    created_at: datetime
+    information_view: str
+    visibility: str
+    source: str
+    result: Dict[str, Any]
+    participants: Optional[Dict[str, Any]] = None
+
+    class Config:
+        from_attributes = True
+
+
+# Full record for GET /{id} — carries the replay payload.
+class GameRecordResponse(GameRecordSummary):
+    engine_version: Optional[Dict[str, Any]] = None
+    seed: Optional[str] = None
+    decisions: Optional[List[int]] = None
+    snapshot: Optional[str] = None
+    frames: Optional[List[Dict[str, Any]]] = None
+
+
+class GameRecordListResponse(BaseModel):
+    records: List[GameRecordSummary]

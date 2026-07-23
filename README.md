@@ -110,6 +110,110 @@ To reload the frontend (rebuild the static bundle nginx serves):
     sudo nginx -t && sudo systemctl reload nginx
 
 
+# Run It Back (deployment) #
+
+"Run It Back" is the login-gated section (`/run-it-back`) where a user owns decks
+and plays Supershow against an AI. The rest of the site stays public. It adds two
+deployment requirements beyond the normal reload above: the **`srg` engine
+binary** on the box, and a **matched WASM build** in the frontend bundle.
+
+## One-time database setup ##
+
+The Run It Back tables (`rib_users`, `rib_decks`, `rib_game_records`) are created
+additively:
+
+    cd backend/app
+    python create_rib_tables.py
+
+This uses `create_all(..., checkfirst=True)` against only those tables and NEVER
+drops anything, so it is safe to run against production. Re-run it after adding a
+new RIB table.
+
+**Do not run `create_db.py` on production — it DROPS ALL TABLES.**
+
+## Backend environment (on the `srg-backend` systemd unit) ##
+
+    RIB_SECRET_KEY=<stable random secret>   # REQUIRED
+    RIB_COOKIE_SECURE=1                     # production (https) only
+
+`RIB_SECRET_KEY` signs the session cookie. If it is unset the code falls back to a
+hard-coded development secret that is visible in the source — anyone could then
+forge a valid session cookie, so **it must be set in production**. Use a stable
+value: changing it invalidates every existing session (everyone must sign in
+again). Generate one once:
+
+    python -c "import secrets; print(secrets.token_urlsafe(48))"
+
+Optional, only if the engine is not at its default location:
+
+    SRG_BIN=/path/to/srg          # default: <SRG_SIM_DIR>/target/release/srg
+    SRG_SIM_DIR=/path/to/srg_sim  # default: ~/data/srg_sim
+    SRG_CARDS=/path/to/cards.yaml # default: backend/app/cards.yaml
+
+## The engine: binary and WASM pkg must be a matched pair ##
+
+The backend shells the `srg` binary to turn a stored deck into engine-ready
+(IR-enriched) JSON, and the browser runs the same engine compiled to WASM. Both
+sides must agree on the schema versions, or enriched decks will not load.
+
+Build both from one commit, in the engine checkout (`~/data/srg_sim`):
+
+    invoke release-web
+
+Then:
+
+1. Deploy the produced `srg` release binary to the box (at `SRG_BIN`, or the
+   default `target/release/srg`).
+2. Vendor the produced pkg into `frontend/src/runitback/pkg/`
+   (`srg_core.js` + `srg_core_bg.wasm`) and commit it. It is committed on purpose
+   so the frontend builds without a Rust toolchain.
+
+Verify the pair matches — compare **schema versions**, not the commit hash:
+
+    srg info          # e.g. {"schemas":{"effect_ir":70,"game_log":1,"observable_state":1}}
+    curl -s localhost:8000/api/decks/engine-info
+
+The play screen reads both and shows a version-skew warning if they disagree.
+
+## nginx ##
+
+The frontend is same-origin with the API (nginx proxies `/api` to the backend),
+which is what lets the `httpOnly` session cookie work. No CORS setup is needed in
+production.
+
+WASM must be served with the correct MIME type or the browser refuses to
+instantiate it. Check that nginx knows it:
+
+    grep wasm /etc/nginx/mime.types      # expect: application/wasm  wasm;
+
+If that line is missing (older nginx), add to the server block:
+
+    types { application/wasm wasm; }
+
+The `.wasm` file ships as a normal hashed asset under `dist/assets/`, so it is
+covered by whatever static-asset caching the site already uses.
+
+These endpoints are intentionally **public (no login)** and must not be gated:
+
+    /api/decks/enrich, /api/decks/validate, /api/decks/engine-info
+    /api/games/public, /api/games/public/{id}
+
+## Minting users ##
+
+There is no signup. Access keys are hand-minted by the admin, and the raw key is
+shown exactly once (only its SHA-256 hash is stored):
+
+    cd backend/app
+    python mint_user.py --email person@example.com
+    python mint_user.py --email person@example.com --rotate      # new key
+    python mint_user.py --email person@example.com --deactivate  # block login
+
+## Note on Node ##
+
+`npm run build` works on Node 18, but the Vite dev server (`npm run dev`)
+requires Node >= 20.19.
+
+
 # Contributions/Thanks #
 
 

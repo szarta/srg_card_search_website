@@ -87,6 +87,8 @@ class GameRecordSummary(BaseModel):
     source: str
     result: Dict[str, Any]
     participants: Optional[Dict[str, Any]] = None
+    # Imported archives only: {created, source, match_type, notes} provenance.
+    meta: Optional[Dict[str, Any]] = None
 
     class Config:
         from_attributes = True
@@ -103,6 +105,27 @@ class GameRecordResponse(GameRecordSummary):
 
 class GameRecordUpdate(BaseModel):
     visibility: str = Field(..., pattern="^(private|public)$")
+
+
+class GameRecordImport(BaseModel):
+    """Ingest a match record authored elsewhere (schemas/v1/match_record.md).
+
+    `record` is the whole record object, kind 'observer' (a transcribed
+    real-life match) or 'full'. It is validated by the engine before it is
+    stored; the site derives every stored column from it, so nothing about the
+    game is taken on the client's word.
+    """
+
+    record: Dict[str, Any]
+    visibility: str = Field("private", pattern="^(private|public)$")
+
+
+class RecordValidation(BaseModel):
+    """`srg validate-record` output. Errors reject the import; warnings are
+    advisory (a thin archive that still plays back)."""
+
+    errors: List[str]
+    warnings: List[str]
 
 
 class GameRecordListResponse(BaseModel):

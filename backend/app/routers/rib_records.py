@@ -14,18 +14,26 @@ later surface (task 19); this router is the owner's private management API.
 """
 
 from fastapi import APIRouter, Depends, HTTPException
+from rib_engine import validate_record
 from sqlalchemy.orm import Session
 
 from auth import get_db, require_user
 from models.base import GameRecord, User
 from schemas.rib_schema import (
     GameRecordCreate,
+    GameRecordImport,
     GameRecordListResponse,
     GameRecordResponse,
     GameRecordUpdate,
+    RecordValidation,
 )
 
 router = APIRouter(prefix="/rib/games", tags=["rib-records"])
+
+# The only match_record schema version this site knows how to store and replay.
+# The engine promises to bump it on any reader-breaking change, so refusing an
+# unknown version is safer than storing something we may render wrongly.
+SUPPORTED_RECORD_SCHEMA = 1
 
 
 def _owned_record(record_id: str, user: User, db: Session) -> GameRecord:
@@ -74,6 +82,88 @@ def create_record(
     db.commit()
     db.refresh(record)
     return record
+
+
+def _check_record(record: dict) -> dict:
+    """Version-gate then engine-validate an incoming record. Returns {errors, warnings}."""
+    version = record.get("schema_version")
+    if version != SUPPORTED_RECORD_SCHEMA:
+        return {
+            "errors": [
+                f"unsupported schema_version {version!r} "
+                f"(this site reads version {SUPPORTED_RECORD_SCHEMA})"
+            ],
+            "warnings": [],
+        }
+    return validate_record(record)
+
+
+def _participants(record: dict) -> dict:
+    """Project the record's `players` into the summary shape the game lists render.
+
+    Card references become their display names; the transcriber's `player` name
+    rides along so an imported match can say who actually played it.
+    """
+    out = {}
+    for seat, info in (record.get("players") or {}).items():
+        entry = {"competitor": (info.get("competitor") or {}).get("name")}
+        if info.get("player"):
+            entry["player"] = info["player"]
+        entrance = (info.get("entrance") or {}).get("name")
+        if entrance:
+            entry["entrance"] = entrance
+        out[seat] = entry
+    return out
+
+
+@router.post("/import/check", response_model=RecordValidation)
+def check_import(
+    payload: GameRecordImport,
+    user: User = Depends(require_user),
+):
+    """Dry-run an import: validate without storing anything.
+
+    The browser already runs the WASM validator, but only the server has the
+    card DB, so this is where 'that uuid is not a real card' is caught.
+    """
+    return _check_record(payload.record)
+
+
+@router.post("/import", response_model=GameRecordResponse, status_code=201)
+def import_record(
+    payload: GameRecordImport,
+    user: User = Depends(require_user),
+    db: Session = Depends(get_db),
+):
+    """Store an externally authored match record as a replayable game.
+
+    Every column is derived from the validated record — frames, result, and the
+    participant names — so a client cannot claim a result its frames don't show.
+    Imports keep their frames as the source of truth: an observed match has no
+    seed and is not re-simulatable, and even an imported `full` record arrives
+    without the engine snapshot our own games replay from.
+    """
+    record = payload.record
+    validation = _check_record(record)
+    if validation["errors"]:
+        raise HTTPException(status_code=422, detail=validation)
+
+    stored = GameRecord(
+        owner_id=user.id,
+        information_view=("full" if record.get("kind") == "full" else "observer"),
+        visibility=payload.visibility,
+        source="import",
+        result=record.get("result"),
+        engine_version=record.get("engine"),
+        participants=_participants(record),
+        seed=str((record.get("replay") or {}).get("seed") or "") or None,
+        frames=record.get("frames"),
+        meta=record.get("meta"),
+    )
+    db.add(stored)
+    db.commit()
+    db.refresh(stored)
+    return stored
 
 
 @router.get("/{record_id}", response_model=GameRecordResponse)

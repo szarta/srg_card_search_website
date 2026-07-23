@@ -126,8 +126,11 @@ additively:
     python create_rib_tables.py
 
 This uses `create_all(..., checkfirst=True)` against only those tables and NEVER
-drops anything, so it is safe to run against production. Re-run it after adding a
-new RIB table.
+drops anything, so it is safe to run against production. It then adds any model
+column a live table is missing (`ALTER TABLE ... ADD COLUMN`, nullable columns
+only — it never drops, renames, or retypes). Re-run it after adding a new RIB
+table or column; a `NOT NULL` column without a default is reported, not forced,
+and has to be added by hand.
 
 **Do not run `create_db.py` on production — it DROPS ALL TABLES.**
 
@@ -152,9 +155,10 @@ Optional, only if the engine is not at its default location:
 
 ## The engine: binary and WASM pkg must be a matched pair ##
 
-The backend shells the `srg` binary to turn a stored deck into engine-ready
-(IR-enriched) JSON, and the browser runs the same engine compiled to WASM. Both
-sides must agree on the schema versions, or enriched decks will not load.
+The backend shells the `srg` binary — to turn a stored deck into engine-ready
+(IR-enriched) JSON, and to validate imported match archives — and the browser
+runs the same engine compiled to WASM. Both sides must agree on the schema
+versions, or enriched decks will not load.
 
 Build both from one commit, in the engine checkout (`~/data/srg_sim`):
 
@@ -170,10 +174,26 @@ Then:
 
 Verify the pair matches — compare **schema versions**, not the commit hash:
 
-    srg info          # e.g. {"schemas":{"effect_ir":70,"game_log":1,"observable_state":1}}
+    srg info          # {"schemas":{"effect_ir":70,"game_log":1,
+                      #             "observable_state":1,"match_record":1}}
     curl -s localhost:8000/api/decks/engine-info
 
 The play screen reads both and shows a version-skew warning if they disagree.
+
+## Importing games played elsewhere ##
+
+`/run-it-back/games/import` ingests a **match record** — the portable format
+pinned in the engine checkout at `schemas/v1/match_record.md`, with a worked
+example at `fixtures/records/observer_example.json`. A record is written by hand
+(there is deliberately no authoring tool) and validated twice before anything is
+stored: in the browser by the WASM validator, and on the server by
+`srg validate-record --cards <cards.yaml>`, which also checks that every card
+uuid resolves. Only the server's verdict gates the write.
+
+The site stores only `schema_version: 1`. The engine bumps that number on any
+change that could break a reader, so an archive from a newer engine is refused
+rather than half-understood. Imported games play back from their frames; games
+played here still replay by re-simulating their stored snapshot.
 
 ## nginx ##
 

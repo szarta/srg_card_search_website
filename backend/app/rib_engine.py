@@ -154,6 +154,59 @@ def engine_info() -> dict:
     return json.loads(proc.stdout)
 
 
+def validate_record(record: dict) -> dict:
+    """Structurally validate a match record; returns {"errors": [], "warnings": []}.
+
+    Shells `srg validate-record <file> --cards <cards.yaml>`, which checks the
+    envelope, the frame ordering, the seat keys, and that every card uuid
+    resolves (schemas/v1/match_record.md). It is structural only — it does NOT
+    re-derive the rules, so it cannot say an imported match was played legally.
+
+    The browser runs the same check via WASM `validate_record` before upload;
+    this is the authoritative server-side gate, since the record is persisted
+    and may later be published.
+    """
+    srg = _srg_bin()
+    if not srg.exists():
+        raise HTTPException(
+            status_code=503,
+            detail="Game engine binary not available (build srg, or set SRG_BIN)",
+        )
+    with tempfile.TemporaryDirectory() as td:
+        path = Path(td) / "record.json"
+        path.write_text(json.dumps(record))
+        cmd = [str(srg), "validate-record", str(path), "--cards", str(_cards_path())]
+        try:
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        except subprocess.TimeoutExpired:
+            raise HTTPException(status_code=504, detail="Engine timed out")
+    return _parse_validation(proc)
+
+
+def _parse_validation(proc: subprocess.CompletedProcess) -> dict:
+    """Read `srg validate-record` output as {errors, warnings}.
+
+    The CLI has no --json mode; it prints one `  ERROR: <msg>` / `  warning:
+    <msg>` line per finding (srg_sim src/console/record_cmd.rs::report) and
+    exits non-zero iff there is at least one error. The exit code is what we
+    trust: if it is non-zero but no ERROR line parsed, the engine itself failed
+    (unreadable file, missing card DB), so report that verbatim rather than
+    claiming the archive was fine.
+    """
+    lines = [ln.strip() for ln in (proc.stdout or "").splitlines()]
+    errors = [ln[len("ERROR:") :].strip() for ln in lines if ln.startswith("ERROR:")]
+    warnings = [
+        ln[len("warning:") :].strip() for ln in lines if ln.startswith("warning:")
+    ]
+    if proc.returncode != 0 and not errors:
+        detail = (proc.stderr or proc.stdout or "").strip().splitlines()
+        last = detail[-1] if detail else "record validation failed"
+        # anyhow prefixes its bail!/context chain with "Error: "; drop it so the
+        # message reads as a finding rather than a stack of framing.
+        errors = [last.removeprefix("Error: ")]
+    return {"errors": errors, "warnings": warnings}
+
+
 def enrich_deck(deck_data: dict) -> dict:
     """Return the IR-enriched Deck JSON for a single stored deck.
 

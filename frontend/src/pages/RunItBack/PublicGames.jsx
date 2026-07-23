@@ -66,8 +66,8 @@ export default function PublicGames() {
                 <div className="font-medium text-white">{matchupLine(r)}</div>
                 <div className="text-xs text-gray-400">
                   by {r.result?.reason} · {r.result?.turns} turns
-                  {r.information_view === "observer" && (
-                    <span className="ml-2 text-sky-300">observer</span>
+                  {r.source === "import" && (
+                    <span className="ml-2 text-sky-300">{r.meta?.source || "imported"}</span>
                   )}
                 </div>
               </div>

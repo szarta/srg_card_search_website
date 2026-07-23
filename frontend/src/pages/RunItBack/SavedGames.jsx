@@ -1,6 +1,7 @@
-// Run It Back — the user's saved games. Lists /api/rib/games (summaries) with an
-// inline-confirm delete. Stepping through a saved game (replay) is a separate
-// screen (task 17); this is the management list.
+// Run It Back — the user's saved games: matches played here plus archives
+// imported from games played elsewhere. Lists /api/rib/games (summaries) with an
+// inline-confirm delete and a public/private toggle; stepping through a game is
+// the separate replay screen.
 
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -69,9 +70,17 @@ export default function SavedGames() {
     <div className="mx-auto max-w-3xl p-4">
       <div className="mb-4 flex items-center justify-between">
         <h1 className="text-xl font-bold text-white">Saved games</h1>
-        <Link to="/run-it-back" className="text-sm text-gray-400 hover:text-srgPurple">
-          ← Run It Back
-        </Link>
+        <div className="flex items-center gap-3 text-sm">
+          <Link
+            to="/run-it-back/games/import"
+            className="rounded border border-gray-600 px-2 py-1 text-gray-200 hover:bg-gray-800"
+          >
+            Import a game
+          </Link>
+          <Link to="/run-it-back" className="text-gray-400 hover:text-srgPurple">
+            ← Run It Back
+          </Link>
+        </div>
       </div>
 
       {error && (
@@ -88,7 +97,11 @@ export default function SavedGames() {
           <Link to="/run-it-back/play" className="text-srgPurple hover:underline">
             Play
           </Link>{" "}
-          and choose “Save this game”.
+          and choose “Save this game”, or{" "}
+          <Link to="/run-it-back/games/import" className="text-srgPurple hover:underline">
+            import a game
+          </Link>{" "}
+          played elsewhere.
         </p>
       ) : (
         <ul className="space-y-2">
@@ -121,8 +134,9 @@ function GameRow({
   onConfirmDelete,
   onToggleVisibility,
 }) {
-  const { result, information_view: view } = record;
+  const { result } = record;
   const isPublic = record.visibility === "public";
+  const imported = record.source === "import";
   return (
     <li className="flex items-center justify-between rounded-lg border border-gray-700 bg-srgGray p-3">
       <div>
@@ -136,7 +150,11 @@ function GameRow({
         </div>
         <div className="text-xs text-gray-400">
           by {result?.reason} · {result?.turns} turns
-          {view === "observer" && <span className="ml-2 text-sky-300">observer</span>}
+          {imported && (
+            <span className="ml-2 text-sky-300" title={record.meta?.source || "imported archive"}>
+              imported
+            </span>
+          )}
         </div>
       </div>
       <div className="flex items-center gap-2 text-sm">

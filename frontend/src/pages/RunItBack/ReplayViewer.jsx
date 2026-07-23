@@ -1,21 +1,45 @@
 // Run It Back — replay viewer. Steps forward/back through a saved game.
 //
-// A `full` record is re-simulated in the browser: reconstructReplay re-opens the
-// stored snapshot and replays the recorded decisions into the ordered Step
-// sequence, which we page through (read-only). `observer` records (imported,
-// task 18) carry frames instead of a snapshot and aren't handled yet.
+// Two playback modes, picked by what the record actually carries:
+//
+// - FRAMES (imported archives). The record stores an ordered observable-frame
+//   sequence (srg_sim schemas/v1/match_record.md). No engine involved — this is
+//   the only mode an imported match can use, since an observed game has no seed
+//   and is not re-simulatable.
+// - RE-SIMULATION (site games). The record stores the engine snapshot plus the
+//   ordered human decisions; reconstructReplay re-opens and replays them into
+//   the ordered Step sequence, which additionally shows the legal options at
+//   each decision and highlights the move that was played.
+//
+// Frames win when present: they say what actually happened, whereas
+// re-simulation says what today's engine would produce.
 
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../../lib/apiClient";
 import { ensureEngine, reconstructReplay } from "../../runitback/engine";
+import { resolveUuids } from "../../runitback/deckData";
 import Board from "./components/Board.jsx";
 import DecisionPanel from "./components/DecisionPanel.jsx";
+import FrameView, { frameCardUuids } from "./components/FrameView.jsx";
 
 const errText = (e) => String(e?.detail ?? e?.message ?? e);
 const fmt = (n) => (n > 0 ? `+${n}` : `${n}`);
 
-// Load the engine + record and reconstruct the ordered step sequence.
+// Frames carry card *references*; attack type, play order, and rules text live
+// in the card DB, which is public — so this works for a logged-out spectator
+// too. A failure here is cosmetic (chips fall back to the reference's own name),
+// so it must never take the replay down with it.
+async function frameCardIndex(frames) {
+  try {
+    const { rows } = await resolveUuids(frameCardUuids(frames));
+    return new Map(rows.map((r) => [r.db_uuid, r]));
+  } catch {
+    return new Map();
+  }
+}
+
+// Load the record and turn it into a pageable sequence.
 // `publicMode` reads from the no-login public archive instead of the owner API.
 function useReplay(recordId, publicMode) {
   const [state, setState] = useState({ status: "loading" });
@@ -23,15 +47,19 @@ function useReplay(recordId, publicMode) {
     let alive = true;
     (async () => {
       try {
-        await ensureEngine();
         const path = publicMode ? `/api/games/public/${recordId}` : `/api/rib/games/${recordId}`;
         const record = await api.get(path);
-        if (record.information_view === "observer") {
-          if (alive) setState({ status: "observer", record });
+        if (record.frames?.length) {
+          const cards = await frameCardIndex(record.frames);
+          if (alive) setState({ status: "frames", frames: record.frames, record, cards });
           return;
         }
+        if (!record.snapshot) {
+          throw new Error("This game has no frames and no snapshot — nothing to replay.");
+        }
+        await ensureEngine();
         const steps = reconstructReplay(JSON.parse(record.snapshot), record.decisions || []);
-        if (alive) setState({ status: "ready", steps, decisions: record.decisions || [], record });
+        if (alive) setState({ status: "steps", steps, decisions: record.decisions || [], record });
       } catch (e) {
         if (alive) setState({ status: "error", error: errText(e) });
       }
@@ -43,12 +71,34 @@ function useReplay(recordId, publicMode) {
   return state;
 }
 
+// Who-is-who labels. The owner of a site game is seat A; a spectator (and any
+// imported game, where neither seat is "you") gets neutral seat labels.
+function seatLabels(publicMode, record) {
+  if (publicMode || record?.source === "import") return { A: "Player A", B: "Player B" };
+  return { A: "You", B: "Opponent" };
+}
+
+// Competitor display names, falling back to the seat when a record didn't name one.
+function competitorNames(record) {
+  const p = record?.participants ?? {};
+  return {
+    A: p.A?.competitor || "Player A",
+    B: p.B?.competitor || "Player B",
+  };
+}
+
 export default function ReplayViewer({ publicMode = false }) {
   const { recordId } = useParams();
   const st = useReplay(recordId, publicMode);
   const [cursor, setCursor] = useState(0);
 
-  if (st.status === "loading") return <Shell publicMode={publicMode}><p className="text-gray-400">Reconstructing game…</p></Shell>;
+  if (st.status === "loading") {
+    return (
+      <Shell publicMode={publicMode}>
+        <p className="text-gray-400">Loading game…</p>
+      </Shell>
+    );
+  }
   if (st.status === "error") {
     return (
       <Shell publicMode={publicMode}>
@@ -56,37 +106,49 @@ export default function ReplayViewer({ publicMode = false }) {
       </Shell>
     );
   }
-  if (st.status === "observer") {
-    return (
-      <Shell publicMode={publicMode}>
-        <p className="text-gray-400">
-          This is an imported (observer) game. Frame-by-frame playback for imports arrives with the
-          import feature.
-        </p>
-      </Shell>
-    );
-  }
 
-  const { steps, decisions } = st;
-  const last = steps.length - 1;
+  const seq = st.status === "frames" ? st.frames : st.steps;
+  const last = seq.length - 1;
   const at = Math.min(cursor, last);
-  const step = steps[at];
 
   return (
     <Shell publicMode={publicMode}>
+      <Provenance record={st.record} />
       <Scrubber at={at} last={last} onGo={(n) => setCursor(Math.max(0, Math.min(last, n)))} />
       <div className="mt-3">
-        {step.kind === "done" ? (
-          <Result result={step.result} publicMode={publicMode} />
+        {st.status === "frames" ? (
+          <FrameView
+            frame={seq[at]}
+            names={competitorNames(st.record)}
+            seatLabels={seatLabels(publicMode, st.record)}
+            cards={st.cards}
+          />
         ) : (
-          <StepView step={step} chosenIndex={decisions[at]} publicMode={publicMode} />
+          <StepPane step={seq[at]} chosenIndex={st.decisions[at]} publicMode={publicMode} />
         )}
       </div>
     </Shell>
   );
 }
 
-function StepView({ step, chosenIndex, publicMode }) {
+// Where an imported match came from — the archive's own `meta` block.
+function Provenance({ record }) {
+  const meta = record?.meta;
+  if (record?.source !== "import" || !meta) return null;
+  return (
+    <div className="mb-3 rounded-lg border border-gray-800 bg-gray-900/60 p-3 text-sm">
+      <span className="mr-2 rounded bg-srgPurple/20 px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-srgPurple">
+        imported
+      </span>
+      <span className="text-gray-300">{meta.source || "archive"}</span>
+      {meta.created && <span className="ml-2 text-xs text-gray-500">{meta.created}</span>}
+      {meta.notes && <p className="mt-1 text-xs italic text-gray-400">{meta.notes}</p>}
+    </div>
+  );
+}
+
+function StepPane({ step, chosenIndex, publicMode }) {
+  if (step.kind === "done") return <Result result={step.result} publicMode={publicMode} />;
   const obs = step.request.observable_state;
   // Steps are seat A's projection. The owner sees "You/Opponent"; a public
   // spectator gets neutral seat labels.

@@ -4,8 +4,8 @@ Public (no-login) games archive.
 Records whose visibility is 'public' are browsable and replayable by anyone —
 login only gates a player's own decks and private history. A public site game
 carries full data (the website observer sees everything, by design), so the
-replay reconstructs exactly like the owner's; imported observer games (task 18)
-expose only their observable frames. No owner identity is returned.
+replay reconstructs exactly like the owner's; imported observer games expose
+only their observable frames. No owner identity is returned.
 
 Mounted under /api -> /api/games/public*.
 """

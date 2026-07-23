@@ -9,7 +9,12 @@
 // by `invoke release-web` in ~/data/srg_sim from the same commit as the backend
 // `srg` binary. See ~/data/srg_sim/FRONTEND_HANDOFF.md.
 
-import init, { WasmSession, version, policies } from "./pkg/srg_core.js";
+import init, {
+  WasmSession,
+  version,
+  policies,
+  validate_record,
+} from "./pkg/srg_core.js";
 
 let _initPromise = null;
 
@@ -77,6 +82,26 @@ class Session {
   snapshot() {
     return this._raw.snapshot();
   }
+
+  // The ordered observable-frame sequence so far (schemas/v1/match_record.md).
+  // Frames are the universal replay currency — they work for imported records
+  // too, which can't re-simulate at all.
+  frames() {
+    return JSON.parse(this._raw.frames());
+  }
+
+  // The whole finished match as a `full` match record (schema_version 1).
+  record(source) {
+    return JSON.parse(this._raw.record(source));
+  }
+}
+
+// Structural validation of a match record (either kind) — the same check as
+// `srg validate-record`, run in the browser before an import is uploaded.
+// `text` is the raw JSON string. Returns { errors:[...], warnings:[...] };
+// unparseable JSON comes back as one error, so this never throws on bad input.
+export function validateRecord(text) {
+  return JSON.parse(validate_record(text));
 }
 
 // Reconstruct the full ordered Step sequence of a finished site game, so the
@@ -109,13 +134,14 @@ export function reconstructReplay(snapshot, decisions) {
   return steps;
 }
 
-// No-skew check: the vendored WASM and the backend `srg` binary must agree on the
-// three schema versions (the enriched-deck shape is driven by effect_ir). We
+// No-skew check: the vendored WASM and the backend `srg` binary must agree on
+// every pinned schema version (the enriched-deck shape is driven by effect_ir;
+// match_record governs what an import may be validated and stored against). We
 // compare schema versions, not `commit` (a committed pkg carries its parent
 // commit's stamp by construction). Returns { ok, wasm, backend, mismatch:[...] }.
 export function checkSchemaSkew(backendInfo) {
   const wasm = engineVersion();
-  const keys = ["effect_ir", "game_log", "observable_state"];
+  const keys = ["effect_ir", "game_log", "observable_state", "match_record"];
   const mismatch = keys.filter(
     (k) => wasm.schemas?.[k] !== backendInfo?.schemas?.[k],
   );

@@ -48,6 +48,15 @@ export default function RunItBackHome() {
           <p className="text-sm text-gray-400">Review and share games you've saved.</p>
         </Link>
         <Link
+          to="/run-it-back/games/import"
+          className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
+        >
+          <h2 className="text-lg font-semibold text-white">Import a game</h2>
+          <p className="text-sm text-gray-400">
+            Upload a match you played in person and replay it here.
+          </p>
+        </Link>
+        <Link
           to="/run-it-back/public"
           className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
         >

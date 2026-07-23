@@ -280,8 +280,7 @@ class GameRecord(Base):
     - ``observer`` — an imported real-life / other-platform game. Only publicly
       observable data: an ordered ``frames`` sequence (per-step public state +
       action), no hidden zones and no seed, so it is NOT re-simulatable and is
-      played back frame-by-frame. (Import is task 18; the column exists now so
-      the schema serves both shapes.)
+      played back frame-by-frame.
 
     ``owner_id`` is nullable: site games belong to the player, but public /
     imported games may be ownerless. ``visibility`` gates the public archive
@@ -318,6 +317,10 @@ class GameRecord(Base):
     snapshot = Column(Text, nullable=True)
     # Ordered observable frames (observer games) — playback source.
     frames = Column(JSON, nullable=True)
+    # Provenance for imported archives: the record's `meta` block
+    # ({created, source, match_type, notes}) — where a real-life game was played
+    # and who transcribed it. Null for site games.
+    meta = Column(JSON, nullable=True)
 
     owner = relationship("User", back_populates="records")
 

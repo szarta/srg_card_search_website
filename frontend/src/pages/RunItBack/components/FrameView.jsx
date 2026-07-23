@@ -122,11 +122,157 @@ export function frameCardUuids(frames) {
   return [...uuids];
 }
 
+// The roll-off as it stands at `at`, as an ordered list of *exchanges*.
+//
+// A turn is not always one roll each: a tie triggers a bump, and both seats roll
+// again (`tie_bumps` counts how many times). Collapsing to "the last roll per
+// seat" would hide that, so rolls are grouped — a seat rolling a second time
+// starts a new exchange. The last exchange is the one that decided the turn.
+//
+// This is scanned rather than carried on the frame because the roll-off spans
+// several frames (A rolls, B rolls, result) and a viewer sitting on any one of
+// them should still see the whole exchange.
+export function rollOff(frames, at) {
+  const out = { exchanges: [], winner: null, tieBumps: 0 };
+  if (!frames?.[at]) return out;
+  const turn = frames[at].turn_no;
+  let current = {};
+  for (let i = 0; i <= at; i++) {
+    const f = frames[i];
+    if (f.turn_no !== turn) continue;
+    const a = f.action ?? {};
+    if (a.type === "roll") {
+      if (current[a.player]) {
+        out.exchanges.push(current);
+        current = {};
+      }
+      current[a.player] = a;
+    }
+    if (a.type === "turn_result") {
+      out.winner = a.winner;
+      out.tieBumps = a.tie_bumps ?? 0;
+    }
+  }
+  if (Object.keys(current).length) out.exchanges.push(current);
+  return out;
+}
+
+// Did the seat that took the turn have the highest logged number?
+//
+// Often it won't, and that is not a bug in either engine or viewer: a `roll`
+// frame records the roll AS MADE, while boosts, skill switches and re-rolls land
+// afterwards, and a standing effect can make the LOWEST roll win. So the winner
+// always comes from `turn_result` — never from comparing these values — and a
+// mismatch just earns a note explaining that the numbers aren't the whole story.
+function isHighest(exchange, seat) {
+  const mine = exchange[seat].value;
+  return Object.values(exchange).every((r) => r.value <= mine);
+}
+
+const modText = (mods) =>
+  (mods ?? []).map((m) => `${m.delta >= 0 ? "+" : ""}${m.delta} ${m.src}`).join(", ");
+
+// The turn's roll-off, given its own panel: this is the beat every turn hinges
+// on, and reading it off one line of action text buried it. The deciding
+// exchange is shown large; any bumped exchanges before it are listed above so a
+// tie-then-bump reads as the sequence it was.
+//
+// The winner is whatever `turn_result` said — never inferred from the numbers.
+// Some competitors and effects make the LOWEST roll take the turn, and a frame
+// does not carry which comparison applied.
+export function RollOff({ frames, at, names, seatLabels }) {
+  const { exchanges, winner, tieBumps } = rollOff(frames, at);
+  if (!exchanges.length) return null;
+  const deciding = exchanges[exchanges.length - 1];
+  const earlier = exchanges.slice(0, -1);
+  const upset = winner && deciding[winner] && !isHighest(deciding, winner);
+  return (
+    <div className="rounded-lg border border-gray-700 bg-gray-900/70 p-3">
+      <div className="mb-2 flex items-baseline justify-between">
+        <span className="text-[10px] uppercase tracking-wide text-gray-500">Roll-off</span>
+        {winner && (
+          <span className="text-xs text-emerald-300">
+            {/* "won", not "takes" — the label may be "You", and "You takes" reads badly. */}
+            {seatLabels[winner]} won the roll-off
+            {tieBumps ? ` (after ${tieBumps} tie bump${tieBumps === 1 ? "" : "s"})` : ""}
+          </span>
+        )}
+      </div>
+
+      {upset && (
+        <div
+          className="mb-2 text-xs text-amber-300/90"
+          title="A roll is recorded as it was made. Boosts, skill switches and re-rolls applied afterwards — and gimmicks that make the lowest roll win — are not in the frame, so the numbers shown are not always the ones compared."
+        >
+          decided against the numbers shown — see tooltip
+        </div>
+      )}
+
+      {earlier.map((ex, i) => (
+        <BumpedExchange key={i} exchange={ex} seatLabels={seatLabels} />
+      ))}
+
+      <div className="grid gap-2 sm:grid-cols-2">
+        {["A", "B"]
+          .filter((s) => deciding[s])
+          .map((seat) => (
+            <RollLine
+              key={seat}
+              roll={deciding[seat]}
+              label={`${seatLabels[seat]} · ${names[seat]}`}
+              won={winner === seat}
+              decided={Boolean(winner)}
+            />
+          ))}
+      </div>
+    </div>
+  );
+}
+
+// A tied exchange that got bumped away — one compact line, not a headline.
+function BumpedExchange({ exchange, seatLabels }) {
+  const part = (seat) =>
+    exchange[seat] && `${seatLabels[seat]} ${exchange[seat].skill} ${exchange[seat].value}`;
+  return (
+    <div className="mb-1.5 text-xs text-gray-500">
+      {["A", "B"].map(part).filter(Boolean).join("  vs  ")}
+      <span className="ml-2 text-gray-600">— bumped</span>
+    </div>
+  );
+}
+
+function RollLine({ roll, label, won, decided }) {
+  const mods = modText(roll.mods);
+  return (
+    <div
+      className={[
+        "flex items-center gap-3 rounded-md border px-3 py-2",
+        won ? "border-emerald-500/60 bg-emerald-500/10" : "border-gray-800 bg-gray-900",
+        decided && !won ? "opacity-60" : "",
+      ].join(" ")}
+    >
+      <span className={`font-mono text-3xl leading-none ${won ? "text-emerald-300" : "text-gray-200"}`}>
+        {roll.value}
+      </span>
+      <div className="min-w-0">
+        <div className="truncate text-sm text-gray-200">{roll.skill}</div>
+        <div className="truncate text-[11px] text-gray-500">
+          {label}
+          {roll.base != null && roll.base !== roll.value && ` · base ${roll.base}`}
+        </div>
+        {mods && <div className="truncate text-[11px] text-amber-300/80" title={mods}>{mods}</div>}
+      </div>
+    </div>
+  );
+}
+
 // `names` is { A, B } competitor display names (from the record's participants);
 // `seatLabels` is { A, B } who-is-who labels ("You"/"Opponent", or neutral
 // "Player A"/"Player B" for a spectator); `cards` is the uuid -> card-DB row
 // index (optional — everything degrades to the reference's own name).
-export default function FrameView({ frame, names, seatLabels, cards }) {
+// `frames`/`at` are the whole sequence and this frame's index, which the
+// roll-off panel needs to look back across the turn.
+export default function FrameView({ frame, frames, at, names, seatLabels, cards }) {
   const isNote = frame.action?.type === "note";
   return (
     <div className="space-y-3">
@@ -154,6 +300,8 @@ export default function FrameView({ frame, names, seatLabels, cards }) {
         </span>
         {actionLabel(frame.action, cards)}
       </div>
+
+      <RollOff frames={frames} at={at} names={names} seatLabels={seatLabels} />
 
       <Board
         label={seatLabels.B}

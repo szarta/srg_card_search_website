@@ -20,6 +20,7 @@ import bullSample from "../../runitback/sample/deckA.json";
 import faeSample from "../../runitback/sample/deckB.json";
 import Board from "./components/Board.jsx";
 import DecisionPanel from "./components/DecisionPanel.jsx";
+import { RollOff, actionLabel } from "./components/FrameView.jsx";
 
 // The vendored sample decks are already enriched — resolve to them directly.
 // Stored decks resolve by fetching the backend's /enriched endpoint on demand.
@@ -139,6 +140,11 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   const decisionsRef = useRef([]); // human decision indices, in order (for replay)
   const matchInfoRef = useRef(null); // { seed, participants } captured at open
   const [step, setStep] = useState(null);
+  // The engine's observable-frame sequence so far. observable_state describes the
+  // board but says nothing about the roll-off or what the AI just did between
+  // your decisions, so the frames are what makes the turn legible while playing.
+  const [frames, setFrames] = useState([]);
+  const seenRef = useRef(0); // frames already shown before the latest decision
   const [error, setError] = useState(null);
   const [starting, setStarting] = useState(false);
   const [saveState, setSaveState] = useState("idle"); // idle | saving | saved
@@ -173,8 +179,10 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
         participants: buildParticipants(deckA, deckB, your, opp, policy),
       };
       decisionsRef.current = [];
+      seenRef.current = 0;
       setSaveState("idle");
       setStep(session.current.step());
+      setFrames(session.current.frames());
     } catch (e) {
       setError(errText(e));
       setStep(null);
@@ -186,7 +194,11 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   const submit = (i) => {
     try {
       decisionsRef.current.push(i);
+      // Mark everything shown so far as read, so the feed can highlight only
+      // what the engine and the AI did in response to this move.
+      seenRef.current = frames.length;
       setStep(session.current.submit(i));
+      setFrames(session.current.frames());
     } catch (e) {
       setError(errText(e));
     }
@@ -195,6 +207,8 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   const quit = () => {
     session.current = null;
     setStep(null);
+    setFrames([]);
+    seenRef.current = 0;
     setError(null);
     setSaveState("idle");
   };
@@ -225,6 +239,8 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
     return (
       <MatchView
         step={step}
+        frames={frames}
+        since={seenRef.current}
         onSubmit={submit}
         onQuit={quit}
         onRematch={start}
@@ -275,7 +291,38 @@ function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   );
 }
 
-function MatchView({ step, onSubmit, onQuit, onRematch, onSave, saveState, error, busy }) {
+const SEAT_LABELS = { A: "You", B: "Opponent" };
+
+// Competitor names for the roll-off panel, read off the live projection.
+function liveNames(obs) {
+  return {
+    A: obs?.players?.A?.competitor?.name ?? "You",
+    B: obs?.players?.B?.competitor?.name ?? "Opponent",
+  };
+}
+
+// What the engine and the AI did since your last move. Cheap to read (the frame
+// sequence is re-derived each step) and it is the only place the opponent's play
+// is spelled out — the board alone makes you infer it.
+function ActionFeed({ frames, since }) {
+  const fresh = frames.slice(since);
+  if (!fresh.length) return null;
+  return (
+    <div className="rounded-lg border border-gray-800 bg-gray-900/40 p-3">
+      <div className="mb-1 text-[10px] uppercase tracking-wide text-gray-500">Since your last move</div>
+      <ul className="space-y-0.5 text-sm text-gray-300">
+        {fresh.map((f) => (
+          <li key={f.seq}>
+            <span className="mr-2 text-[10px] uppercase tracking-wide text-gray-600">{f.action?.type}</span>
+            {actionLabel(f.action)}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function MatchView({ step, frames, since, onSubmit, onQuit, onRematch, onSave, saveState, error, busy }) {
   const done = step.kind === "done";
   const req = done ? null : step.request;
   const obs = req?.observable_state;
@@ -312,6 +359,13 @@ function MatchView({ step, onSubmit, onQuit, onRematch, onSave, saveState, error
         <Result result={step.result} onSave={onSave} saveState={saveState} />
       ) : (
         <>
+          <RollOff
+            frames={frames}
+            at={frames.length - 1}
+            names={liveNames(obs)}
+            seatLabels={SEAT_LABELS}
+          />
+          <ActionFeed frames={frames} since={since} />
           <Board label="Opponent" view={obs.players.B} isSelf={false} isActive={obs.active === "B"} />
           <Board label="You" view={obs.players.A} isSelf isActive={obs.active === "A"} />
           <DecisionPanel request={req} onSubmit={onSubmit} busy={busy} />

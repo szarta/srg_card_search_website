@@ -20,6 +20,32 @@ export function hasUnsupported(card) {
   }
 }
 
+// The site's card art, keyed by uuid (same paths as CardGrid/CardDetail). Shown
+// at ~40% of the thumbnail's natural 147x200 so a whole board still fits on
+// screen; an unidentified imported card has no uuid and simply gets no art.
+const THUMB = (uuid) => `/images/thumbnails/${uuid.slice(0, 2)}/${uuid}.webp`;
+const FALLBACK_THUMB = "/images/thumbnails/im/image_unavailable.webp";
+
+// The art box is a fixed size rather than `w-auto`: an image with no intrinsic
+// size yet measures 0 wide, and a zero-area element never enters the viewport,
+// so lazy loading would wait forever. It also keeps every chip the same size
+// when source thumbnails differ by a few pixels.
+function Art({ card }) {
+  if (!card.db_uuid) return null;
+  return (
+    <img
+      src={THUMB(card.db_uuid)}
+      alt=""
+      loading="lazy"
+      onError={(e) => {
+        if (e.currentTarget.src.endsWith(FALLBACK_THUMB)) return;
+        e.currentTarget.src = FALLBACK_THUMB;
+      }}
+      className="mx-auto mb-1 h-20 w-[60px] rounded-sm object-contain"
+    />
+  );
+}
+
 export default function CardChip({ card, selectable = false, selected = false, onClick }) {
   const tone = ATK_TONE[card.atk_type] ?? ATK_TONE.None;
   const partial = hasUnsupported(card);
@@ -33,6 +59,7 @@ export default function CardChip({ card, selectable = false, selected = false, o
       ].join(" ")}
       title={card.raw_text || card.name}
     >
+      <Art card={card} />
       <div className="flex items-baseline justify-between text-[10px] text-gray-400">
         <span>#{card.number}</span>
         <span>{card.play_order}</span>

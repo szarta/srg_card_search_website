@@ -119,6 +119,8 @@ export default function ReplayViewer({ publicMode = false }) {
         {st.status === "frames" ? (
           <FrameView
             frame={seq[at]}
+            frames={seq}
+            at={at}
             names={competitorNames(st.record)}
             seatLabels={seatLabels(publicMode, st.record)}
             cards={st.cards}

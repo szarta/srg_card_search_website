@@ -7,7 +7,7 @@
 // enriched decks come from the backend (or the vendored sample fixtures).
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../../lib/apiClient";
 import {
   ensureEngine,
@@ -30,16 +30,18 @@ const SAMPLE_DECKS = [
 
 const fmt = (n) => (n > 0 ? `+${n}` : `${n}`);
 
-export default function Play() {
+// Load the engine (WASM), its version/policy list, the backend schema stamp for
+// the no-skew check, and the user's stored decks. Engine failure is fatal (no
+// play); the side loads degrade to no-ops. Kept as a hook so Play stays a thin
+// render over the resulting state.
+function useEngineSetup() {
   const [engineReady, setEngineReady] = useState(false);
   const [loadError, setLoadError] = useState(null);
-  const [skew, setSkew] = useState(null); // {ok, mismatch, ...} once checked
+  const [skew, setSkew] = useState(null);
   const [version, setVersion] = useState(null);
   const [policies, setPolicies] = useState([]);
   const [storedDecks, setStoredDecks] = useState([]);
 
-  // Load the engine, its version, policy list, the backend stamp (no-skew check),
-  // and the user's stored decks — all in parallel where possible.
   useEffect(() => {
     let alive = true;
     (async () => {
@@ -53,24 +55,29 @@ export default function Play() {
         if (alive) setLoadError(`Failed to load the game engine: ${e}`);
         return;
       }
-      // Non-fatal side loads.
-      try {
-        const info = await api.get("/api/decks/engine-info");
-        if (alive) setSkew(checkSchemaSkew(info));
-      } catch {
-        /* backend stamp unavailable — skip the skew check, engine still runs */
-      }
-      try {
-        const { decks } = await api.get("/api/rib/decks");
-        if (alive) setStoredDecks(decks ?? []);
-      } catch {
-        /* no stored decks / list failed — samples still work */
-      }
+      const info = await api.get("/api/decks/engine-info").catch(() => null);
+      if (alive && info) setSkew(checkSchemaSkew(info));
+      const decks = await api.get("/api/rib/decks").catch(() => null);
+      if (alive && decks) setStoredDecks(decks.decks ?? []);
     })();
     return () => {
       alive = false;
     };
   }, []);
+
+  return { engineReady, loadError, skew, version, policies, storedDecks };
+}
+
+// The stored deck (if any) to preselect from a ?your=<id> deep link.
+function deepLinkDeckId(requestedYourId, deckOptions) {
+  const id = `stored:${requestedYourId}`;
+  return requestedYourId && deckOptions.some((d) => d.id === id) ? id : null;
+}
+
+export default function Play() {
+  const [searchParams] = useSearchParams();
+  const requestedYourId = searchParams.get("your");
+  const { engineReady, loadError, skew, version, policies, storedDecks } = useEngineSetup();
 
   const deckOptions = useMemo(() => {
     const stored = storedDecks.map((d) => ({
@@ -106,6 +113,7 @@ export default function Play() {
         policies={policies}
         version={version}
         skew={skew}
+        initialYourId={deepLinkDeckId(requestedYourId, deckOptions)}
       />
     </Shell>
   );
@@ -126,19 +134,26 @@ function Shell({ children }) {
 }
 
 // The setup form and, once a match is open, the live board + decision loop.
-function PlaySession({ deckOptions, policies, version, skew }) {
+function PlaySession({ deckOptions, policies, version, skew, initialYourId }) {
   const session = useRef(null);
   const [step, setStep] = useState(null);
   const [error, setError] = useState(null);
   const [starting, setStarting] = useState(false);
 
   // Setup form state. Defaults hit the golden path: Bull vs Fae, heuristic, seed 7.
-  const [yourDeckId, setYourDeckId] = useState(deckOptions[0]?.id ?? "");
+  const [yourDeckId, setYourDeckId] = useState(initialYourId ?? deckOptions[0]?.id ?? "");
   const [oppDeckId, setOppDeckId] = useState(deckOptions[1]?.id ?? deckOptions[0]?.id ?? "");
   const [policy, setPolicy] = useState(policies.includes("heuristic") ? "heuristic" : policies[0] ?? "random");
   // Seed is kept as a raw string so the field can be cleared while typing without
   // snapping to 0 (Number("") === 0); it's coerced to a u64-ish number at start.
   const [seed, setSeed] = useState("7");
+
+  // The deep-linked deck (?your=<id>) may resolve after this component mounts
+  // (the stored-decks fetch finishes after the engine is ready), so apply it once
+  // it's a real option rather than only at initial state.
+  useEffect(() => {
+    if (initialYourId) setYourDeckId(initialYourId);
+  }, [initialYourId]);
 
   const start = async () => {
     setError(null);

@@ -16,6 +16,8 @@ import RequireAuth from "./auth/RequireAuth";
 import Login from "./pages/RunItBack/Login";
 import RunItBackHome from "./pages/RunItBack/RunItBackHome";
 import Play from "./pages/RunItBack/Play";
+import MyDecks from "./pages/RunItBack/MyDecks";
+import DeckEditor from "./pages/RunItBack/DeckEditor";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -127,7 +129,9 @@ const router = createBrowserRouter([
             children: [
               { index: true, element: <RunItBackHome /> },
               { path: "play", element: <Play /> },
-              // P3: deck list + editor mount here (task 9).
+              { path: "decks", element: <MyDecks /> },
+              { path: "decks/new", element: <DeckEditor /> },
+              { path: "decks/:deckId", element: <DeckEditor /> },
             ],
           },
         ],

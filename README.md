@@ -190,10 +190,10 @@ deck editor, the version-skew banner, and importing a game all return 503 — th
 are the three routes that shell the binary.
 
 **Worker time.** The backend shells `srg` synchronously inside the request, so
-each enrichment or import validation occupies a gunicorn worker for a second or
-more. Make sure the unit's worker count is more than one and its `--timeout` is
-comfortably above the engine call's own (30 s for enrichment, 60 s for record
-validation) or gunicorn will kill the worker mid-call.
+each call occupies a gunicorn worker for its duration. Both calls are fast —
+measured at ~0.13 s each for a deck enrichment and for validating a 358-frame
+record — so the default 30 s gunicorn timeout is not close. Just keep the unit
+on more than one worker so a burst of enrichments can't stall the whole API.
 
 Verify the pair matches — compare **schema versions**, not the commit hash:
 
@@ -241,7 +241,12 @@ NOT include it — add `application/wasm` if the site gzips static assets.
 **Raise the request body limit.** Importing a game POSTs the whole match record
 as JSON: a 40-turn engine record is around 800 KB, and a longer match will pass
 1 MB, which is nginx's default `client_max_body_size` — the symptom is a 413
-before the request ever reaches the backend. On the `/api` location:
+before the request ever reaches the backend.
+
+Note the get-diced config sets `client_max_body_size 10M` in the **port-80**
+server block only. That block just 301s to HTTPS, so it does nothing for real
+traffic; the directive has to be in the `listen 443` server block (or its
+`location ^~ /api/`) to take effect.
 
     client_max_body_size 10m;
 

@@ -70,6 +70,7 @@ function Layout() {
                 <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
                 <li><a className="hover:text-srgPurple" href="/finish-calculator">Finish Calculator</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
+                <li><a className="hover:text-srgPurple" href="/run-it-back">Run It Back</a></li>
               </ul>
             </div>
             <div>

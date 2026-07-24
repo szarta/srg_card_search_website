@@ -8,7 +8,14 @@ Neither is urgent, and neither blocks anything already shipped — the viewer pl
 back full and observer records today. Both look additive (no `schema_version`
 bump under the stated policy).
 
-## 1. A pass produces no frame
+## 1. A pass produces no frame — DONE (srg_sim 1e46358)
+
+Shipped as `Action::Pass { player }`, projected from the `turn_action` decision,
+schema and docs updated, no `schema_version` bump. The frontend renders it as
+"A passes"; the same seeded match that produced 335 frames now produces 358, of
+which 4 passes had no `bury` after them — the case that was previously invisible.
+
+The original ask, for the record:
 
 `take_turn_action` offers `{"kind":"pass"}` and, when chosen, calls `do_pass`,
 which logs only the `bury` of one card from discard — and logs *nothing at all*

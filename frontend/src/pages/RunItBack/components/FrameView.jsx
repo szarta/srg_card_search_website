@@ -92,6 +92,10 @@ const ACTION_LABELERS = {
     (a.reason ? ` (${a.reason})` : ""),
   turn_result: (a) =>
     `${a.winner} wins the roll-off${a.tie_bumps ? ` after ${a.tie_bumps} tie bump(s)` : ""}`,
+  // A pass carries the seat and nothing else. The card it recycles to the bottom
+  // of the deck arrives as its own `bury` right after — unless the discard was
+  // empty, in which case this frame is the whole of what happened.
+  pass: (a) => `${a.player} passes`,
   draw: (a) => `${a.player} draws ${a.count}`,
   discard: (a, cards) => moveLabel("discards", a, cards),
   bury: (a, cards) => moveLabel("buries", a, cards),

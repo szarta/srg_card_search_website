@@ -35,6 +35,10 @@ python3 backup_shared_lists.py backup || echo '⚠️  Warning: Could not backup
 echo ''
 
 # Step 4: Recreate main database
+# Rebuilds only the card-search tables (everything derived from cards.yaml).
+# The Run It Back tables are excluded from the drop — see models/base.py
+# RIB_MODELS — because accounts, decks and saved games are original data that
+# nothing regenerates. That is why there is no backup/restore pair for them.
 echo '🗄️  Step 3: Creating main database...'
 python3 create_db.py || echo '⚠️  Warning: Could not create main database'
 echo ''
@@ -42,6 +46,11 @@ echo ''
 # Step 5: Restore shared lists
 echo '📦 Step 4: Restoring shared lists...'
 python3 backup_shared_lists.py restore || echo '⚠️  Warning: Could not restore shared lists'
+echo ''
+
+# Step 5b: Run It Back schema (additive: creates on first deploy, then no-ops)
+echo '🎮 Step 4b: Ensuring Run It Back tables...'
+python3 create_rib_tables.py || echo '⚠️  Warning: Could not ensure Run It Back tables'
 echo ''
 
 # Step 6: Load cards into main database

@@ -62,6 +62,7 @@ KEY_ORDER = [
     "comments",
     "release_set",
     "tags",
+    "requirements",
     "related_cards",
     "related_finishes",
 ]
@@ -225,6 +226,8 @@ def _build_kwargs(entry: dict) -> dict:
         "comments": entry.get("comments"),
         # IMPORTANT: tags are now always a list (ARRAY in Postgres)
         "tags": _normalize_tags_value(entry.get("tags")),
+        # requirements: list of dicts (e.g. [{"min_strike": 8}]); JSONB in Postgres
+        "requirements": entry.get("requirements") or None,
         "card_type": entry.get("card_type"),
     }
 

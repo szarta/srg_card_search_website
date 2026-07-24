@@ -25,6 +25,21 @@ const firstSentence = (txt) => {
 
 const capitalize = (k) => k.charAt(0).toUpperCase() + k.slice(1);
 
+/* Format a requirement object into a readable label.
+   Skill requirements look like { min_strike: 8 } -> "Strike 8+".
+   Falls back gracefully for freeform / not-yet-modeled requirement shapes. */
+const formatRequirement = (req) => {
+  if (req == null) return "";
+  if (typeof req !== "object") return String(req);
+  if (typeof req.text === "string") return req.text;
+  return Object.entries(req)
+    .map(([k, v]) => {
+      const m = /^min_(.+)$/.exec(k);
+      return m ? `${capitalize(m[1])} ${v}+` : `${capitalize(k)}: ${v}`;
+    })
+    .join(", ");
+};
+
 function getOrigin() {
   return typeof window !== "undefined" && window.location?.origin
     ? window.location.origin
@@ -161,6 +176,20 @@ function CardInfoTable({ card, isCompetitor, stats }) {
             <tr>
               <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>
               <td className="whitespace-pre-wrap text-sm py-2">{card.rules_text}</td>
+            </tr>
+          )}
+          {card.requirements && card.requirements.length > 0 && (
+            <tr>
+              <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Requirements</td>
+              <td className="py-2">
+                <div className="flex flex-wrap gap-2">
+                  {card.requirements.map((req, i) => (
+                    <span key={i} className="bg-amber-800 rounded px-2 py-0.5 text-xs">
+                      {formatRequirement(req)}
+                    </span>
+                  ))}
+                </div>
+              </td>
             </tr>
           )}
           {isCompetitor &&

@@ -11,6 +11,17 @@ import SubmitMissingImage from "./pages/SubmitMissingImage";
 import CreateList from "./pages/CreateList";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FinishCalculator from "./pages/FinishCalculator";
+import { AuthProvider } from "./auth/AuthContext";
+import RequireAuth from "./auth/RequireAuth";
+import Login from "./pages/RunItBack/Login";
+import RunItBackHome from "./pages/RunItBack/RunItBackHome";
+import Play from "./pages/RunItBack/Play";
+import MyDecks from "./pages/RunItBack/MyDecks";
+import DeckEditor from "./pages/RunItBack/DeckEditor";
+import SavedGames from "./pages/RunItBack/SavedGames";
+import ReplayViewer from "./pages/RunItBack/ReplayViewer";
+import PublicGames from "./pages/RunItBack/PublicGames";
+import ImportGame from "./pages/RunItBack/ImportGame";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -59,6 +70,7 @@ function Layout() {
                 <li><a className="hover:text-srgPurple" href="/submit-missing-image">Submit Missing Image</a></li>
                 <li><a className="hover:text-srgPurple" href="/finish-calculator">Finish Calculator</a></li>
                 <li><a className="hover:text-srgPurple" href="/decks">Decks</a></li>
+                <li><a className="hover:text-srgPurple" href="/run-it-back">Run It Back</a></li>
               </ul>
             </div>
             <div>
@@ -104,6 +116,39 @@ const router = createBrowserRouter([
       { path: "/submit-missing-image", element: <SubmitMissingImage /> },
       { path: "/finish-calculator", element: <FinishCalculator /> },
       { path: "/privacy", element: <PrivacyPolicy /> },
+
+      // Run It Back — the only login-gated section. AuthProvider is scoped
+      // here so the public pages above never trigger an auth check. The login
+      // page is public; everything under RequireAuth needs a session.
+      {
+        path: "run-it-back",
+        element: (
+          <AuthProvider>
+            <Outlet />
+          </AuthProvider>
+        ),
+        children: [
+          { path: "login", element: <Login /> },
+          // Public archive — no login (outside RequireAuth), consistent with
+          // "login only gates your own decks/history".
+          { path: "public", element: <PublicGames /> },
+          { path: "public/:recordId", element: <ReplayViewer publicMode /> },
+          {
+            element: <RequireAuth />,
+            children: [
+              { index: true, element: <RunItBackHome /> },
+              { path: "play", element: <Play /> },
+              { path: "decks", element: <MyDecks /> },
+              { path: "decks/new", element: <DeckEditor /> },
+              { path: "decks/:deckId", element: <DeckEditor /> },
+              { path: "games", element: <SavedGames /> },
+              // Declared before the :recordId route so "import" isn't read as an id.
+              { path: "games/import", element: <ImportGame /> },
+              { path: "games/:recordId", element: <ReplayViewer /> },
+            ],
+          },
+        ],
+      },
     ],
   },
 ]);

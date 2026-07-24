@@ -110,6 +110,181 @@ To reload the frontend (rebuild the static bundle nginx serves):
     sudo nginx -t && sudo systemctl reload nginx
 
 
+# Run It Back (deployment) #
+
+"Run It Back" is the login-gated section (`/run-it-back`) where a user owns decks
+and plays Supershow against an AI. The rest of the site stays public. It adds two
+deployment requirements beyond the normal reload above: the **`srg` engine
+binary** on the box, and a **matched WASM build** in the frontend bundle.
+
+## Database: two kinds of table ##
+
+The deploy (`backend/app/workflow.sh`) rebuilds the database from `cards.yaml`
+on every run, because `cards.yaml` is the source of truth for card data. Run It
+Back data is not like that, so the schema is split in two:
+
+- **Derived** — the card tables. `create_db.py` drops and recreates them, and
+  `load_cards_from_yaml.py` refills them. Losing them costs nothing.
+- **Original** — `rib_users`, `rib_decks`, `rib_game_records`. Hand-minted
+  accounts, decks a user built, games they played or imported. Nothing
+  regenerates these, so `create_db.py` **excludes them from its drop** and
+  `create_rib_tables.py` creates them additively.
+
+The split is one list, `RIB_MODELS` in `models/base.py`, read by both scripts.
+`create_db.py` refuses to run if it finds a `rib_`-prefixed table missing from
+that list, so a new Run It Back table can't be dropped by an oversight.
+
+That is why there is no backup/restore pair for Run It Back the way there is for
+shared lists: the tables are never dropped in the first place.
+
+`workflow.sh` runs `create_rib_tables.py` on every deploy — the first one
+creates the tables, later ones are a no-op unless a model gained a column, in
+which case it is added in place (`ALTER TABLE ... ADD COLUMN`, nullable only; a
+`NOT NULL` column without a default is reported, not forced).
+
+To set the tables up outside a deploy:
+
+    cd backend/app
+    python create_rib_tables.py
+
+## Backend environment (on the `srg-backend` systemd unit) ##
+
+    RIB_SECRET_KEY=<stable random secret>   # REQUIRED
+    RIB_COOKIE_SECURE=1                     # production (https) only
+
+`RIB_SECRET_KEY` signs the session cookie. If it is unset the code falls back to a
+hard-coded development secret that is visible in the source — anyone could then
+forge a valid session cookie, so **it must be set in production**. Use a stable
+value: changing it invalidates every existing session (everyone must sign in
+again). Generate one once:
+
+    python -c "import secrets; print(secrets.token_urlsafe(48))"
+
+Optional, only if the engine is not at its default location:
+
+    SRG_BIN=/path/to/srg          # default: <SRG_SIM_DIR>/target/release/srg
+    SRG_SIM_DIR=/path/to/srg_sim  # default: ~/data/srg_sim
+    SRG_CARDS=/path/to/cards.yaml # default: backend/app/cards.yaml
+
+## The engine: binary and WASM pkg must be a matched pair ##
+
+The backend shells the `srg` binary — to turn a stored deck into engine-ready
+(IR-enriched) JSON, and to validate imported match archives — and the browser
+runs the same engine compiled to WASM. Both sides must agree on the schema
+versions, or enriched decks will not load.
+
+Build both from one commit, in the engine checkout (`~/data/srg_sim`):
+
+    invoke release-web
+
+Then:
+
+1. Deploy the produced `srg` release binary to the box and point `SRG_BIN` at it.
+   There is no engine checkout on the server, so the default
+   (`~/data/srg_sim/target/release/srg`) will not resolve — `SRG_BIN` is
+   effectively required in production.
+
+   The binary is dynamically linked. Check the server can run it before relying
+   on it:
+
+       ldd --version          # on the server; a binary built on a newer distro
+       ./srg info             # needs a glibc at least that new
+
+   If the server's glibc is older, build on the server or use a static
+   (`x86_64-unknown-linux-musl`) target instead of copying this one.
+2. Vendor the produced pkg into `frontend/src/runitback/pkg/`
+   (`srg_core.js` + `srg_core_bg.wasm`) and commit it. It is committed on purpose
+   so the frontend builds without a Rust toolchain.
+
+**What breaks without a working `srg`:** the public card site is unaffected, and
+so are replay, the public archive, and a match between the two vendored sample
+decks (they ship pre-enriched). Playing a *stored* deck, "Resolve & check" in the
+deck editor, the version-skew banner, and importing a game all return 503 — they
+are the three routes that shell the binary.
+
+**Worker time.** The backend shells `srg` synchronously inside the request, so
+each call occupies a gunicorn worker for its duration. Both calls are fast —
+measured at ~0.13 s each for a deck enrichment and for validating a 358-frame
+record — so the default 30 s gunicorn timeout is not close. Just keep the unit
+on more than one worker so a burst of enrichments can't stall the whole API.
+
+Verify the pair matches — compare **schema versions**, not the commit hash:
+
+    srg info          # {"schemas":{"effect_ir":70,"game_log":1,
+                      #             "observable_state":1,"match_record":1}}
+    curl -s localhost:8000/api/decks/engine-info
+
+The play screen reads both and shows a version-skew warning if they disagree.
+
+## Importing games played elsewhere ##
+
+`/run-it-back/games/import` ingests a **match record** — the portable format
+pinned in the engine checkout at `schemas/v1/match_record.md`, with a worked
+example at `fixtures/records/observer_example.json`. A record is written by hand
+(there is deliberately no authoring tool) and validated twice before anything is
+stored: in the browser by the WASM validator, and on the server by
+`srg validate-record --cards <cards.yaml>`, which also checks that every card
+uuid resolves. Only the server's verdict gates the write.
+
+The site stores only `schema_version: 1`. The engine bumps that number on any
+change that could break a reader, so an archive from a newer engine is refused
+rather than half-understood. Imported games play back from their frames; games
+played here still replay by re-simulating their stored snapshot.
+
+## nginx ##
+
+The frontend is same-origin with the API (nginx proxies `/api` to the backend),
+which is what lets the `httpOnly` session cookie work. No CORS setup is needed in
+production.
+
+WASM must be served with the correct MIME type or the browser refuses to
+instantiate it. Check that nginx knows it:
+
+    grep wasm /etc/nginx/mime.types      # expect: application/wasm  wasm;
+
+If that line is missing (older nginx), add to the server block:
+
+    types { application/wasm wasm; }
+
+The `.wasm` file ships as a normal hashed asset under `dist/assets/`, so it is
+covered by whatever static-asset caching the site already uses. It is ~1.4 MB
+and compresses to about a third of that, but nginx's default `gzip_types` does
+NOT include it — add `application/wasm` if the site gzips static assets.
+
+**Raise the request body limit.** Importing a game POSTs the whole match record
+as JSON: a 40-turn engine record is around 800 KB, and a longer match will pass
+1 MB, which is nginx's default `client_max_body_size` — the symptom is a 413
+before the request ever reaches the backend.
+
+Note the get-diced config sets `client_max_body_size 10M` in the **port-80**
+server block only. That block just 301s to HTTPS, so it does nothing for real
+traffic; the directive has to be in the `listen 443` server block (or its
+`location ^~ /api/`) to take effect.
+
+    client_max_body_size 10m;
+
+These endpoints are intentionally **public (no login)** and must not be gated:
+
+    /api/decks/enrich, /api/decks/validate, /api/decks/engine-info
+    /api/games/public, /api/games/public/{id}
+    /cards/by-uuids     (the public replay viewer joins frame card refs with it)
+
+## Minting users ##
+
+There is no signup. Access keys are hand-minted by the admin, and the raw key is
+shown exactly once (only its SHA-256 hash is stored):
+
+    cd backend/app
+    python mint_user.py --email person@example.com
+    python mint_user.py --email person@example.com --rotate      # new key
+    python mint_user.py --email person@example.com --deactivate  # block login
+
+## Note on Node ##
+
+`npm run build` works on Node 18, but the Vite dev server (`npm run dev`)
+requires Node >= 20.19.
+
+
 # Contributions/Thanks #
 
 

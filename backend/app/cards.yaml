@@ -15570,6 +15570,16 @@
   tags: []
   wants_keywords:
     - Chain
+- name: You Outkicked Your Coverage, Pal!
+  db_uuid: 66e7786eb0da4a029ae005fae8d9f54a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'If you have another Strike in play, shuffle 1 Strike from your discard pile into your deck, and draw 1 card.
+
+    If you have "Double Clothesline" in play, your Finish rolls are +1.'
+  tags: []
 - name: Lightning-Powered Rocket-Leg Kicks
   db_uuid: 91ac43251ab54934b91cba40afcd6144
   card_type: MainDeckCard
@@ -16394,6 +16404,42 @@
   tags: []
   related_cards:
     - 8734e9fde50c47b7a2e51cbc1adbc6de
+- name: Becoming Hateable
+  db_uuid: fe9e0b3608c949dcbdd4f51366771d1e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'If you have another Grapple in play, shuffle 1 Grapple from your discard pile into your deck, and draw 1 card.
+
+    If you have "Drop on the Floor" in play, your Finish rolls are +1.'
+  tags: []
+- name: Catch The Microphone!
+  db_uuid: c9cc16af06e34d8eb7773d097a18d416
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: 'Flip 2 cards for each card you have in play with "Microphone" in the name.
+
+    Add 1 card with "Microphone" in the name from your discard pile to your hand.'
+  tags: []
+- name: Demolition Driver (#17)
+  db_uuid: 22404c28050c4e6bb29bb5decaad9037
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: If you have another Grapple in play, search your deck for up to 3 Grapples and put them into your discard pile.  Shuffle your deck, and draw 1 card.
+  tags: []
+- name: Friends Putting Friends Through Tables
+  db_uuid: 13f3cb7cc2364146a4f3a38f68bb14db
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  rules_text: If you have another Grapple in play, discard 2 cards from your hand, and add 1 card from your discard pile to your hand.
+  tags: []
 - name: ¡Olé! ¡Olé! ¡Olé! ¡Olé!
   db_uuid: 43c341612d154be58d7ceeb607118799
   srgpc_url: https://www.srgpc.net/cards/17/ole-ole-ole-ole/
@@ -17149,6 +17195,42 @@
   play_order: Followup
   deck_card_number: 17
   rules_text: Draw 1 card for each Lead your opponent has in play.
+  tags: []
+- name: Bomb Spine Adjustment
+  db_uuid: 8728fb6f5d1946bbaa69b1c2dd516542
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: If you have another Submission in play, discard 2 cards from your hand, and add 1 card from your discard pile to your hand.
+  tags: []
+- name: Catch The Drumstick
+  db_uuid: ed2b3f64fb334928bc5809fadf3e8d29
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'Flip 2 cards for each card you have in play with "Drumstick" in the name.
+
+    Add 1 card with "Drumstick" in the name from your discard pile to your hand.'
+  tags: []
+- name: The Result Is The Same
+  db_uuid: 69411638d3ad4f8aa0af692db64185af
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: 'If you have another Submission in play, shuffle 1 Submission from your discard pile into your deck and draw 1 card.
+
+    If you have "Reverse the Pressure" in play, your Finish rolls are +1.'
+  tags: []
+- name: Game The System
+  db_uuid: 6c3ead01697c466db7c7f7a99d6710a4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  rules_text: If you have another Submission in play, search your deck for up to 3 Submissions and put them into your discard pile.  Shuffle your deck, and draw 1 card.
   tags: []
 - name: Abdominal Stretch (V1)
   db_uuid: 731363a81ad9432ebcdd36cc63cde50c
@@ -17947,6 +18029,14 @@
   errata_text: 'Search your deck or discard pile for "Ready to Rumble" and add it to your hand or you may play that card as an additional card this turn.
 
     If you have "Ready to Rumble" in play, your opponent''s Gimmick is blank.'
+  tags: []
+- name: Strike Hard
+  db_uuid: 592685b9407d4b73b039e7518d876752
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 19
+  rules_text: If your opponent has another Grapple in play, stop any Grapple or each player chooses 1 card their opponent has in play and discards it.
   tags: []
 - name: All American Baattering Ram
   db_uuid: 8c735afc21ea420f8b41543267be7950
@@ -18801,6 +18891,26 @@
   deck_card_number: 19
   rules_text: If your opponent stops this card they bury 1 card in their hand.
   tags: []
+- name: Drop Dead Gorgeous
+  db_uuid: d8de3b1ba3f240f0a30f2540185da784
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Your opponent and your tag team partner draw 1 card.
+
+    You cannot be prevented from double teaming or saving.'
+  tags: []
+- name: Fade Away
+  db_uuid: 4cc0a60e6a104b5199ab267bb918454a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  rules_text: If your opponent has another Submission in play, stop any Submission or each player chooses 1 card their opponent has in play and discards it.
+  tags: []
 - name: Airplane Slam
   db_uuid: 560ba7f5c61946f8828dcfde7cef7382
   srg_url: https://supershowthegame.com/product/08-airplane-spin/
@@ -19584,6 +19694,26 @@
   deck_card_number: 20
   rules_text: Your opponent cannot Double-Team with or Save other players.
   tags: []
+- name: Birds Of A Feather
+  db_uuid: 8382a07b32e54ba1a89a4d0ac1836fce
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: 'If your opponent has another Strike in play, stop any Strike.
+
+    Your opponent and your tag team partner draw 1 card.
+
+    You Cannot be prevented from double teaming or saving.'
+  tags: []
+- name: Never Lose Focus
+  db_uuid: d1c482a0812c462790cca02417de7ac2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 21
+  rules_text: If your opponent has another Strike in play, stop any Strike or each player chooses 1 card their opponent has in play and discards it.
+  tags: []
 - name: Chicken Wing of Crunchiness!
   db_uuid: 8c35ecca5dd9433aa076b7b5a12113a7
   card_type: MainDeckCard
@@ -20346,7 +20476,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 21
-  rules_text: 'Your opponent''s next Strike has the added text:"If stopped, you lose the match via Disqualification."'
+  rules_text: Your opponent's next Strike has the added text:"If stopped, you lose the match via Disqualification."
   tags: []
   requirements:
     - min_grapple: 8
@@ -20467,6 +20597,18 @@
     Draw 1 card.
 
     If either player rolls Agility for their turn roll, their turn roll is -1.'
+  tags: []
+- name: Cracking Goal Kick
+  db_uuid: 7a30cc718fae49c4b7e1d9877c018adc
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  rules_text: 'Discard the bottom 3 cards of your deck.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Atomic Knee Smash
   db_uuid: c1a201f39d384355bcc4c8f589be75cb
@@ -20680,7 +20822,7 @@
   atk_type: Strike
   play_order: Followup
   deck_card_number: 22
-  rules_text: 'Flip 4 cards. Add 2 cards from your discard pile to your hand.'
+  rules_text: Flip 4 cards. Add 2 cards from your discard pile to your hand.
   tags: []
   requirements:
     - min_agility: 8
@@ -21373,6 +21515,18 @@
     Look at the top 3 cards of your deck. Add 2 cards to your hand and put the other back on top.
 
     If this is a Triad match, you may shuffle your deck.'
+  tags: []
+- name: Cobra Clutch Slam
+  db_uuid: 65057da18ad64883a8f958fe3dafb462
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  rules_text: 'Discard the bottom 3 cards of your deck.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Boom! Dynamite
   db_uuid: 54f898b76af24321ab826ca8911ff51f
@@ -22341,6 +22495,18 @@
   rules_text: 'Add 1 card from your discard pile to your hand.
 
     Your tag team partner adds 1 card from their discard pile to their hand.'
+  tags: []
+- name: Lock Down The Starboard Side
+  db_uuid: 8f81a83730ae47cc89d7a2e97a0dd45f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  rules_text: 'Discard the bottom 3 cards of your deck.
+
+    Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 1 card.'
   tags: []
 - name: Baseball Bat & Thumbtacks
   db_uuid: 52202964693645858779371d94ccd202
@@ -27428,7 +27594,7 @@
   related_cards:
     - 7a8377ee227f42819a017bb69ad3e181
     - 9f936d7e3c5f41f18eda93e9644d6726
-- name: Demolition Driver
+- name: Demolition Driver (The Wreck)
   db_uuid: 9f1816444c0b449494183c28c0548c2e
   card_type: MainDeckCard
   atk_type: Grapple

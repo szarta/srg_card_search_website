@@ -5,9 +5,13 @@ See LICENSE.txt for details.
 Additively create the "Run It Back" tables (rib_users, rib_decks, ...).
 
 Unlike create_db.py, this script NEVER drops anything. It calls
-create_all(..., checkfirst=True) against only the RIB tables, so it is safe to
-run against the live production database — existing tables (cards, shared_lists,
-...) are untouched, and tables that already exist are skipped.
+create_all(..., checkfirst=True) against only the RIB tables, then adds any
+nullable column a live table is missing, so it is safe to run against the live
+production database — existing tables (cards, shared_lists, ...) are untouched,
+and tables that already exist keep their rows.
+
+workflow.sh runs this on every deploy: the first one creates the tables, later
+ones are a no-op unless a model gained a column.
 
 Run from inside backend/app:  python create_rib_tables.py
 """
@@ -15,15 +19,12 @@ Run from inside backend/app:  python create_rib_tables.py
 from sqlalchemy import inspect, text
 
 from database import engine
-from models.base import Base, User, Deck, GameRecord
+from models.base import RIB_MODELS, Base
 
-# Only the RIB tables — explicitly listed so we never accidentally create
-# (or interact with) the card-search schema here.
-RIB_TABLES = [
-    User.__table__,
-    Deck.__table__,
-    GameRecord.__table__,
-]
+# Only the RIB tables, from the one list that also tells create_db.py what NOT
+# to drop — so the two scripts can never disagree about which tables hold user
+# data.
+RIB_TABLES = [m.__table__ for m in RIB_MODELS]
 
 
 def add_missing_columns(connection):

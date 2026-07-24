@@ -329,3 +329,19 @@ class GameRecord(Base):
             f"<GameRecord(id='{self.id}', view='{self.information_view}', "
             f"visibility='{self.visibility}')>"
         )
+
+
+# The Run It Back tables and everything else are in different categories, and
+# the deploy has to treat them differently.
+#
+# Every other table is DERIVED: the card tables are rebuilt from cards.yaml,
+# which is the source of truth, so `create_db.py` drops and recreates them on
+# each deploy. These three are ORIGINAL — hand-minted accounts, decks a user
+# built, games they played or imported. Nothing regenerates them, so they must
+# survive a deploy. They carry no foreign key into the card tables (a deck
+# references cards by uuid string), so they can be left alone safely.
+#
+# `create_rib_tables.py` creates and extends them additively; `create_db.py`
+# excludes them from its drop. Anything added here must be listed here too, and
+# `create_db.py` asserts that every `rib_`-prefixed table is.
+RIB_MODELS = (User, Deck, GameRecord)

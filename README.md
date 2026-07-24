@@ -117,22 +117,35 @@ and plays Supershow against an AI. The rest of the site stays public. It adds tw
 deployment requirements beyond the normal reload above: the **`srg` engine
 binary** on the box, and a **matched WASM build** in the frontend bundle.
 
-## One-time database setup ##
+## Database: two kinds of table ##
 
-The Run It Back tables (`rib_users`, `rib_decks`, `rib_game_records`) are created
-additively:
+The deploy (`backend/app/workflow.sh`) rebuilds the database from `cards.yaml`
+on every run, because `cards.yaml` is the source of truth for card data. Run It
+Back data is not like that, so the schema is split in two:
+
+- **Derived** — the card tables. `create_db.py` drops and recreates them, and
+  `load_cards_from_yaml.py` refills them. Losing them costs nothing.
+- **Original** — `rib_users`, `rib_decks`, `rib_game_records`. Hand-minted
+  accounts, decks a user built, games they played or imported. Nothing
+  regenerates these, so `create_db.py` **excludes them from its drop** and
+  `create_rib_tables.py` creates them additively.
+
+The split is one list, `RIB_MODELS` in `models/base.py`, read by both scripts.
+`create_db.py` refuses to run if it finds a `rib_`-prefixed table missing from
+that list, so a new Run It Back table can't be dropped by an oversight.
+
+That is why there is no backup/restore pair for Run It Back the way there is for
+shared lists: the tables are never dropped in the first place.
+
+`workflow.sh` runs `create_rib_tables.py` on every deploy — the first one
+creates the tables, later ones are a no-op unless a model gained a column, in
+which case it is added in place (`ALTER TABLE ... ADD COLUMN`, nullable only; a
+`NOT NULL` column without a default is reported, not forced).
+
+To set the tables up outside a deploy:
 
     cd backend/app
     python create_rib_tables.py
-
-This uses `create_all(..., checkfirst=True)` against only those tables and NEVER
-drops anything, so it is safe to run against production. It then adds any model
-column a live table is missing (`ALTER TABLE ... ADD COLUMN`, nullable columns
-only — it never drops, renames, or retypes). Re-run it after adding a new RIB
-table or column; a `NOT NULL` column without a default is reported, not forced,
-and has to be added by hand.
-
-**Do not run `create_db.py` on production — it DROPS ALL TABLES.**
 
 ## Backend environment (on the `srg-backend` systemd unit) ##
 

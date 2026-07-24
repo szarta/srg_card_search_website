@@ -11,6 +11,26 @@
   comments: ''
   release_set: Unknown
   tags: []
+- name: Lift By The Skull
+  db_uuid: 63435bc6822d4fc7ad382183e7decc19
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'If your Submission skill is greater than your opponent''s Submission skill, stop any Strike.
+
+    The player with fewest cards in hand draws 1 card.'
+  tags: []
+- name: A Wrench In The Plan
+  db_uuid: b45bf94346e24a3a898a7b2171345ed3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  rules_text: 'Each player randomly buries 3 cards in their hand.
+
+    Draw 1 card.'
+  tags: []
 - name: The End is Near
   db_uuid: 9c522e6e0b2a4254b7b72aa3da805c72
   srg_url: https://supershowthegame.com/product/15-the-end-is-near/
@@ -3983,6 +4003,16 @@
   rules_text: 'Your opponent discards 1 random card from their hand.
 
     Bury 2 cards in any player''s discard pile.'
+  tags: []
+- name: Ring Collapse
+  db_uuid: 6175890040484215ade0d29c08b2639d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  rules_text: 'Each player randomly buries 3 cards in their hand.
+
+    Draw 1 card.'
   tags: []
 - name: Big Blue Team Wins
   db_uuid: 951fc73b2c624aa4ad4c60a4fa35a3a4
@@ -86814,6 +86844,24 @@
   tags: []
   wants_keywords:
     - Wrapping Paper
+- name: Missile Dropkick From The Sky
+  db_uuid: 6118dc49b7804494a8e2a27d1196e6fd
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: If you have another Strike in play, search your deck for up to 3 Strikes and put them into your discard pile, shuffle your deck, and draw 1 card.
+  tags: []
+- name: Grab A Guitar
+  db_uuid: 9c6f5740dd2a4a8b8f668254ccd4f1b2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  rules_text: 'Flip 2 cards for each card you have in play with "Guitar" in the name.
+
+    Add 1 card with "Guitar" in the name from your discard pile to your hand.'
+  tags: []
 - name: Ambush With The Holiday Wrapping Paper
   db_uuid: 81dadffd2280408383e180532abd766f
   card_type: MainDeckCard

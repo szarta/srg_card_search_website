@@ -11,13 +11,16 @@ srg engine wants IR-enriched Deck JSON. We get there by writing a decklist YAML
 shelling `srg session open`, whose output snapshot embeds the enriched decks.
 
 Config via env:
-  SRG_BIN    path to the srg binary (default: <srg_sim>/target/release/srg)
-  SRG_SIM_DIR root of the srg_sim checkout (default: ~/data/srg_sim)
+  SRG_BIN    path to the srg binary (default: `srg` on PATH, e.g. a
+             `cargo install`ed /usr/local/bin/srg; falls back to a
+             <srg_sim>/target build only for a dev checkout)
+  SRG_SIM_DIR root of the srg_sim checkout (dev fallback only; default ~/data/srg_sim)
   SRG_CARDS  path to the cards.yaml export (default: this backend's app/cards.yaml)
 """
 
 import json
 import os
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -32,9 +35,14 @@ def _srg_sim_dir() -> Path:
 
 
 def _srg_bin() -> Path:
+    # Explicit override wins; then a PATH-installed `srg` (the prod shape —
+    # `cargo install` to /usr/local/bin); then a dev checkout's build tree.
     env = os.environ.get("SRG_BIN")
     if env:
         return Path(env)
+    on_path = shutil.which("srg")
+    if on_path:
+        return Path(on_path)
     sim = _srg_sim_dir()
     release = sim / "target" / "release" / "srg"
     if release.exists():

@@ -166,11 +166,34 @@ Build both from one commit, in the engine checkout (`~/data/srg_sim`):
 
 Then:
 
-1. Deploy the produced `srg` release binary to the box (at `SRG_BIN`, or the
-   default `target/release/srg`).
+1. Deploy the produced `srg` release binary to the box and point `SRG_BIN` at it.
+   There is no engine checkout on the server, so the default
+   (`~/data/srg_sim/target/release/srg`) will not resolve — `SRG_BIN` is
+   effectively required in production.
+
+   The binary is dynamically linked. Check the server can run it before relying
+   on it:
+
+       ldd --version          # on the server; a binary built on a newer distro
+       ./srg info             # needs a glibc at least that new
+
+   If the server's glibc is older, build on the server or use a static
+   (`x86_64-unknown-linux-musl`) target instead of copying this one.
 2. Vendor the produced pkg into `frontend/src/runitback/pkg/`
    (`srg_core.js` + `srg_core_bg.wasm`) and commit it. It is committed on purpose
    so the frontend builds without a Rust toolchain.
+
+**What breaks without a working `srg`:** the public card site is unaffected, and
+so are replay, the public archive, and a match between the two vendored sample
+decks (they ship pre-enriched). Playing a *stored* deck, "Resolve & check" in the
+deck editor, the version-skew banner, and importing a game all return 503 — they
+are the three routes that shell the binary.
+
+**Worker time.** The backend shells `srg` synchronously inside the request, so
+each enrichment or import validation occupies a gunicorn worker for a second or
+more. Make sure the unit's worker count is more than one and its `--timeout` is
+comfortably above the engine call's own (30 s for enrichment, 60 s for record
+validation) or gunicorn will kill the worker mid-call.
 
 Verify the pair matches — compare **schema versions**, not the commit hash:
 
@@ -211,12 +234,22 @@ If that line is missing (older nginx), add to the server block:
     types { application/wasm wasm; }
 
 The `.wasm` file ships as a normal hashed asset under `dist/assets/`, so it is
-covered by whatever static-asset caching the site already uses.
+covered by whatever static-asset caching the site already uses. It is ~1.4 MB
+and compresses to about a third of that, but nginx's default `gzip_types` does
+NOT include it — add `application/wasm` if the site gzips static assets.
+
+**Raise the request body limit.** Importing a game POSTs the whole match record
+as JSON: a 40-turn engine record is around 800 KB, and a longer match will pass
+1 MB, which is nginx's default `client_max_body_size` — the symptom is a 413
+before the request ever reaches the backend. On the `/api` location:
+
+    client_max_body_size 10m;
 
 These endpoints are intentionally **public (no login)** and must not be gated:
 
     /api/decks/enrich, /api/decks/validate, /api/decks/engine-info
     /api/games/public, /api/games/public/{id}
+    /cards/by-uuids     (the public replay viewer joins frame card refs with it)
 
 ## Minting users ##
 

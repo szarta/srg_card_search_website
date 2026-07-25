@@ -55114,6 +55114,7 @@
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
+  spotlight: true
   deck_card_number: 29
   rules_text: '+1 to Power
 

@@ -55095,6 +55095,9 @@
     - 43fdf23b009948a9b0006e93b904b446
     - 76698f39f7a84d1ba5b19911c5326590
     - 6c78a18e46c84089b2ed458e547a5f19
+    - 57783400558942febbfca73d0b45d3bf
+    - 38f0ca50a172499fbb9b709a9ef20a16
+    - 5ce55a53b2c345789968e10ee6268c6d
 - name: Broken Butterfly
   db_uuid: 43fdf23b009948a9b0006e93b904b446
   card_type: MainDeckCard
@@ -65158,6 +65161,7 @@
   tags: []
   related_cards:
     - 17aed6b36bb347bf8eae88195831bf8b
+    - 31b5d4f1aa0743b4bc3d0622d81b0d92
 - name: Kill Shot
   db_uuid: 38f0ca50a172499fbb9b709a9ef20a16
   card_type: MainDeckCard
@@ -65172,6 +65176,7 @@
   tags: []
   related_cards:
     - 17aed6b36bb347bf8eae88195831bf8b
+    - 31b5d4f1aa0743b4bc3d0622d81b0d92
 - name: Fade to Black
   db_uuid: 5ce55a53b2c345789968e10ee6268c6d
   card_type: MainDeckCard
@@ -65184,6 +65189,7 @@
   tags: []
   related_cards:
     - 17aed6b36bb347bf8eae88195831bf8b
+    - 31b5d4f1aa0743b4bc3d0622d81b0d92
 - name: Shea McCoy
   db_uuid: be55d4aa4cfd4ed18b77690f51f47bfa
   srgpc_url: https://www.srgpc.net/cards/competitors/shea-mccoy/

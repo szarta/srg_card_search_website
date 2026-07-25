@@ -55111,10 +55111,10 @@
     - 31b5d4f1aa0743b4bc3d0622d81b0d92
 - name: A Trip to the Upside Down
   db_uuid: 76698f39f7a84d1ba5b19911c5326590
+  spotlight: true
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
-  spotlight: true
   deck_card_number: 29
   rules_text: '+1 to Power
 

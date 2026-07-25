@@ -90357,3 +90357,57 @@
   tags: []
   related_cards:
     - 1cce86a344d34d35b89f749703efb45d
+- name: Possum King
+  db_uuid: 9e5c51951a104635ac7af1fcd4c1dc67
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 8
+  submission: 10
+  grapple: 5
+  rules_text: When you hit a card with "King" or "Trash" in the name, your opponent randomly reveals a card in their hand; if it is a Stop, draw the bottom card of your deck, if not, they discard it.
+  comments: 'AKA: Possum Kang'
+  tags: []
+  related_finishes:
+    - e2c687e8a1db43c79f090f425b36378c
+    - 8811e20781fd4edaa98dda8e45bde8e7
+    - 30dfe4d091fd4673a241cf357297eca2
+- name: The King Trash Crash
+  db_uuid: e2c687e8a1db43c79f090f425b36378c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+2 to Grapple
+
+    Your opponent''s Power, Technique, and Agility are -1.'
+  tags: []
+  related_cards:
+    - 9e5c51951a104635ac7af1fcd4c1dc67
+- name: Cosmic King Cutter
+  db_uuid: 8811e20781fd4edaa98dda8e45bde8e7
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+2 to Power
+
+    +2 to Grapple
+
+    If you have a Follow Up Grapple in play with "Trash" in the name, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - 9e5c51951a104635ac7af1fcd4c1dc67
+- name: Pop, Pop That Possy!
+  db_uuid: 30dfe4d091fd4673a241cf357297eca2
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+3 to Technique
+
+    When this card is in your discard pile, and you have a card in play with "King" or "Trash" in the name: +5 to Grapple during breakout rolls.'
+  tags: []
+  related_cards:
+    - 9e5c51951a104635ac7af1fcd4c1dc67

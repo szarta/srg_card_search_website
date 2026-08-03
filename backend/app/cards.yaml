@@ -90418,3 +90418,86 @@
   tags: []
   related_cards:
     - 9e5c51951a104635ac7af1fcd4c1dc67
+- name: Doc Gallows
+  db_uuid: 2c8deb6b63c248989e27dfc2a9a4a0dd
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  rules_text: 'When your opponent hits a card:
+
+    If you rolled Power for your turn roll, they discard 2 cards from their hand.'
+  tags: []
+  related_finishes:
+    - edd25a6bbd104dd0beb3e083dd5216d4
+    - a8082093cb2347f68f3a1b34627aa3fc
+    - b6986b2204014aa587e72bfb130c3beb
+- name: Machine Gun Karl Anderson
+  db_uuid: fb005f38b84144d2ab8c377b3fbe3c43
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 10
+  rules_text: 'Once per turn:
+
+    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.'
+  tags: []
+  related_finishes:
+    - edd25a6bbd104dd0beb3e083dd5216d4
+    - a8082093cb2347f68f3a1b34627aa3fc
+    - b6986b2204014aa587e72bfb130c3beb
+- name: Boot of Doom
+  db_uuid: edd25a6bbd104dd0beb3e083dd5216d4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+4 to Agility
+
+    +1 to Strike
+
+    If stopped, and this is a Tag Team match, you may shuffle this card from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 2c8deb6b63c248989e27dfc2a9a4a0dd
+    - fb005f38b84144d2ab8c377b3fbe3c43
+- name: The Magic Killer
+  db_uuid: a8082093cb2347f68f3a1b34627aa3fc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Technique
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Your Finish roll is +1.
+
+    If this is a Tag Team match, triple these bonuses.'
+  tags: []
+  related_cards:
+    - 2c8deb6b63c248989e27dfc2a9a4a0dd
+    - fb005f38b84144d2ab8c377b3fbe3c43
+- name: Gallow's Pole
+  db_uuid: b6986b2204014aa587e72bfb130c3beb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+1 to Grapple
+
+    +5 to Submission
+
+    You may switch your next turn roll to Power.'
+  tags: []
+  related_cards:
+    - 2c8deb6b63c248989e27dfc2a9a4a0dd
+    - fb005f38b84144d2ab8c377b3fbe3c43

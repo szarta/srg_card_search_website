@@ -2037,7 +2037,7 @@
   db_uuid: 1febaf4eb764453eb8906335055d5bc0
   srg_url: https://supershowthegame.com/product/entrance-fast-rising-rivarly/
   card_type: EntranceCard
-  rules_text: 'Once per match: When your roll Agility for your turn roll, your turn roll is +1'
+  rules_text: 'Once per match: When you roll Agility for your turn roll, your turn roll is +1'
   tags: []
 - name: Fighting Champion's Spirit, End of an Era
   db_uuid: 3d311f960d8248c99ae0e86f7c46e167
@@ -8455,7 +8455,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
-  rules_text: Stop any Follow Up Strike or each player shuffles 1 Submission from their discar dpile into their deck.
+  rules_text: Stop any Follow Up Strike or each player shuffles 1 Submission from their discard pile into their deck.
   tags: []
 - name: Full Nelson Chicken Wing
   db_uuid: 12e89e07b2b742bab2e4cc2416634a25
@@ -17337,7 +17337,7 @@
   atk_type: Submission
   play_order: Followup
   deck_card_number: 18
-  rules_text: If you have another Submission in play, look at the top 3 cards of your opopnent's deck, you may flip any number of them, put the others back on top in any order.
+  rules_text: If you have another Submission in play, look at the top 3 cards of your opponent's deck, you may flip any number of them, put the others back on top in any order.
   tags:
     - Old School Wave 1
     - Old School Wave 2
@@ -18275,7 +18275,7 @@
   deck_card_number: 19
   rules_text: 'Draw 1 card. Bury 1 card in your hand.
 
-    Your oppponent''s next turn roll is -2.
+    Your opponent''s next turn roll is -2.
 
     If this is a Steel Cage match and your opponent has fewer cards in their deck than you, this card is also a Finish.'
   tags: []
@@ -26361,7 +26361,7 @@
   strike: 9
   submission: 7
   grapple: 5
-  rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is -2.
+  rules_text: When you roll 7 for your turn roll, your opponent's next turn roll is -2.
   tags: []
   related_finishes:
     - 06312b15461345f2beb41c51a78b88bd
@@ -26378,7 +26378,7 @@
   strike: 9
   submission: 10
   grapple: 8
-  rules_text: When you roll 7 for your turn roll, your opopnent's next turn roll is -2.
+  rules_text: When you roll 7 for your turn roll, your opponent's next turn roll is -2.
   tags: []
   related_finishes:
     - 06312b15461345f2beb41c51a78b88bd
@@ -26478,7 +26478,7 @@
 
     +1 to Agility
 
-    If stopped, your opopnent''s turn rolls are -1 until you hit a card or end your turn without playing a card.'
+    If stopped, your opponent''s turn rolls are -1 until you hit a card or end your turn without playing a card.'
   tags: []
   related_cards:
     - 47ab42f483b34d89bedc5b96374ab707
@@ -28508,7 +28508,7 @@
   deck_card_number: 28
   rules_text: '+2 to Technique
 
-    If stopped, and your opopnent has no Follow Ups in play, shuffle this card into your deck.'
+    If stopped, and your opponent has no Follow Ups in play, shuffle this card into your deck.'
   tags: []
   related_cards:
     - c652098659ee4aae959ed55e4842cc74
@@ -30533,7 +30533,7 @@
 
     +2 to Submission
 
-    When this card is in your discar dpile, replace "3" with "6" in your Gimmick.'
+    When this card is in your discard pile, replace "3" with "6" in your Gimmick.'
   tags: []
   related_cards:
     - bdfad56ca01a4a3e80a02b84a27ba5d2
@@ -32837,7 +32837,7 @@
   strike: 8
   submission: 7
   grapple: 9
-  rules_text: 'When your roll Power: flip 2 cards or add 1 card with "Lightning" or "Thunder" in the name from your discard pile to your hand.'
+  rules_text: 'When you roll Power: flip 2 cards or add 1 card with "Lightning" or "Thunder" in the name from your discard pile to your hand.'
   tags: []
   related_finishes:
     - 74e3fc792e7243e4a6154310ef9ad669
@@ -35368,7 +35368,7 @@
 
     +1 to Submission
 
-    When this card is in your discard pile and your roll Strike you may discard 1 card.  If stopped you lose the match via Disqualification.'
+    When this card is in your discard pile and you roll Strike you may discard 1 card.  If stopped you lose the match via Disqualification.'
   tags: []
   related_cards:
     - 77ebbb073d5d453c8a1d3c5fc552897e
@@ -36636,7 +36636,7 @@
 
     +1 to Grapple
 
-    Search your deck for 2 cards and put them into your discar dpile, shuffle your deck.
+    Search your deck for 2 cards and put them into your discard pile, shuffle your deck.
 
     Your opponent draws 2 cards.'
   tags: []
@@ -47835,7 +47835,7 @@
 
     +1 to Submission
 
-    If your opopnent has a greater number of cards in their hand than you, they randomly bury 1 card in their hand until they have the same number of cards as you.'
+    If your opponent has a greater number of cards in their hand than you, they randomly bury 1 card in their hand until they have the same number of cards as you.'
   tags: []
   related_cards:
     - 89174df957434c11b42ee945d9626972
@@ -48924,7 +48924,7 @@
   strike: 8
   submission: 10
   grapple: 5
-  rules_text: When your turn roll is at least 2 less than your opopnent's, your next turn roll is +1.
+  rules_text: When your turn roll is at least 2 less than your opponent's, your next turn roll is +1.
   tags:
     - T-50
   related_finishes:
@@ -69252,7 +69252,7 @@
   deck_card_number: 30
   rules_text: '+1 to Submission
 
-    When this card is in your discar dpile and your opponent stops a Follow Up Submission, you may add it to your hand.'
+    When this card is in your discard pile and your opponent stops a Follow Up Submission, you may add it to your hand.'
   tags: []
   related_cards:
     - 81fa1f8c73a04f7e8010d951be00e4c0
@@ -70366,7 +70366,7 @@
 
     +1 to Grapple
 
-    When this card is in your discard pile and you would bump, your opopnent''s turn roll is instead -1.'
+    When this card is in your discard pile and you would bump, your opponent''s turn roll is instead -1.'
   tags: []
   related_cards:
     - 2b02cdb188af4611b79c7a0e616ad692
@@ -75149,7 +75149,7 @@
   strike: 8
   submission: 7
   grapple: 6
-  rules_text: When your roll Technique, your Power is +1 until after you roll Power.
+  rules_text: When you roll Technique, your Power is +1 until after you roll Power.
   tags: []
 - name: Living Legends
   db_uuid: 027a8e6e5826403fa92ea3a76a1985b5

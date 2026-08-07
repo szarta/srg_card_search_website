@@ -90501,3 +90501,64 @@
   related_cards:
     - 2c8deb6b63c248989e27dfc2a9a4a0dd
     - fb005f38b84144d2ab8c377b3fbe3c43
+- name: Ms. Flawless
+  db_uuid: 50e90f21e5e348acb4f4a9431ec99ad9
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 10
+  agility: 6
+  strike: 5
+  submission: 8
+  grapple: 9
+  rules_text: Your Technique is +1.
+  tags: []
+  related_finishes:
+    - 42e8d04269ca4374a6f7d21c5d79bfed
+    - ee1431c634a8489e9248ddaa219f555f
+    - a93a441d11b84b228249702dc2e43c70
+- name: Flawless Dropkick
+  db_uuid: 42e8d04269ca4374a6f7d21c5d79bfed
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  rules_text: '+1 to Power
+
+    +2 to Agility
+
+    +3 to Strike
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 50e90f21e5e348acb4f4a9431ec99ad9
+- name: Flawless Fisherman Suplex
+  db_uuid: ee1431c634a8489e9248ddaa219f555f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  rules_text: '+1 to Power
+
+    +1 to Agility
+
+    If you rolled Technique for your turn roll,
+
+    +2 to Power
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - 50e90f21e5e348acb4f4a9431ec99ad9
+- name: Flawless Victory
+  db_uuid: a93a441d11b84b228249702dc2e43c70
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  rules_text: '+2 to Submission
+
+    If you rolled Technique for your turn roll and your Finish roll, your opponent cannot breakout.'
+  tags: []
+  related_cards:
+    - 50e90f21e5e348acb4f4a9431ec99ad9

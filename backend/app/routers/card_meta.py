@@ -46,7 +46,7 @@ def card_meta(id_or_slug: str):
 
     name = card.name or "SRG Supershow Card"
     ctype = card.card_type or "Card"
-    rule_snip = first_sentence(getattr(card, "rules_text", None))
+    rule_snip = first_sentence(getattr(card, "card_text", None))
 
     slug = slugify(card.name) if card.name else card.db_uuid
     canonical = f"https://get-diced.com/card/{slug}"

@@ -57,7 +57,7 @@ KEY_ORDER = [
     "strike",
     "submission",
     "grapple",
-    "rules_text",
+    "card_text",
     "errata_text",
     "comments",
     "release_set",
@@ -221,7 +221,7 @@ def _build_kwargs(entry: dict) -> dict:
         "release_set": entry.get("release_set"),
         "is_banned": entry.get("is_banned", False),
         "spotlight": entry.get("spotlight", False),
-        "rules_text": entry.get("rules_text"),
+        "card_text": entry.get("card_text"),
         "errata_text": entry.get("errata_text"),
         "comments": entry.get("comments"),
         # IMPORTANT: tags are now always a list (ARRAY in Postgres)

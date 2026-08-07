@@ -48,7 +48,7 @@ def main(argv):
     comp_without_rules = []
     deck_card_without_rules = []
     for item in y:
-        if "rules_text" not in item:
+        if "card_text" not in item:
             if item["card_type"] == "SingleCompetitorCard":
                 comp_without_rules.append(item)
             elif item["card_type"] == "MainDeckCard":

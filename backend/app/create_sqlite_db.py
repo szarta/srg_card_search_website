@@ -230,7 +230,9 @@ def insert_card_base(cursor, entry):
             entry.get("srgpc_url"),
             entry.get("release_set"),
             1 if entry.get("is_banned") else 0,
-            entry.get("rules_text"),
+            # Legacy `rules_text` column, sourced from the verbatim `card_text` (renamed
+            # rules_text -> card_text) for consumer compat.
+            entry.get("card_text"),
             entry.get("errata_text"),
             entry.get("comments"),
             normalize_tags(entry.get("tags")),

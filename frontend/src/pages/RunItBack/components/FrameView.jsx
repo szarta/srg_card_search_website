@@ -25,7 +25,7 @@ function toCard(ref, cards) {
     number: ref?.number ?? row?.deck_card_number ?? "?",
     atk_type: row?.atk_type ?? "",
     play_order: row?.play_order ?? "",
-    raw_text: row?.rules_text ?? "",
+    raw_text: row?.card_text ?? "",
   };
 }
 

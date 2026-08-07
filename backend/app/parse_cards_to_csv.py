@@ -79,7 +79,7 @@ def main(argv):
         "name",
         "card_type",
         "card_number",
-        "rules_text",
+        "card_text",
         "qty",
         "qty_tradeable",
         "qty_wanted",
@@ -96,7 +96,7 @@ def main(argv):
                 "card_number": card.get("deck_card_number", "")
                 if card.get("card_type") == "MainDeckCard"
                 else "",
-                "rules_text": card.get("rules_text", ""),
+                "card_text": card.get("card_text", ""),
                 "qty": "",  # Empty for user to fill in
                 "qty_tradeable": "",  # Empty for user to fill in
                 "qty_wanted": "",  # Empty for user to fill in

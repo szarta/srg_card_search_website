@@ -64,7 +64,7 @@ def safe_serialize_card(card, include_relationships=True, max_depth=2, current_d
         "deck_card_number": getattr(card, "deck_card_number", None),
         "is_banned": card.is_banned,
         "spotlight": card.spotlight,
-        "rules_text": card.rules_text,
+        "card_text": card.card_text,
         "errata_text": card.errata_text,
         "tags": card.tags or [],
         "requirements": getattr(card, "requirements", None) or [],
@@ -333,7 +333,7 @@ def _apply_common_filters(
     if q:
         qry = qry.filter(
             (cls.name.ilike(f"%{q}%"))
-            | (cls.rules_text.ilike(f"%{q}%"))
+            | (cls.card_text.ilike(f"%{q}%"))
             | (func.array_to_string(cls.tags, " ").ilike(f"%{q}%"))
         )
     if is_banned is not None:

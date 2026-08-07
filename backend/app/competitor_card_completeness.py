@@ -44,7 +44,7 @@ def analyze_competitor_cards(cards_data):
     missing_related_finishes = []
 
     for card in competitor_cards:
-        if "rules_text" not in card or card.get("rules_text") == "":
+        if "card_text" not in card or card.get("card_text") == "":
             missing_rules_text.append(card)
 
         if "power" not in card:

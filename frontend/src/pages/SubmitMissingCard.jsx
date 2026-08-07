@@ -33,7 +33,7 @@ export default function SubmitMissingCard() {
         body: JSON.stringify({
           card_name: cardName,
           card_type: cardType,
-          rules_text: rulesText || null,
+          card_text: rulesText || null,
         }),
       });
 

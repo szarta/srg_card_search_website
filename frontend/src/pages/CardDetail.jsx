@@ -65,7 +65,7 @@ function buildSeo(card, slug) {
   const corePieces = [
     card.name ? `${card.name}:` : null,
     card.card_type ? prettyType(card.card_type) : null,
-    firstSentence(card.rules_text) ? `Rules: ${firstSentence(card.rules_text)}` : null,
+    firstSentence(card.card_text) ? `Rules: ${firstSentence(card.card_text)}` : null,
   ].filter(Boolean);
 
   return {
@@ -172,10 +172,10 @@ function CardInfoTable({ card, isCompetitor, stats }) {
           )}
           <InfoRow label="Banned" show={!!card.is_banned}>Yes</InfoRow>
           <InfoRow label="Division" show={!!card.division}>{card.division}</InfoRow>
-          {card.rules_text && (
+          {card.card_text && (
             <tr>
               <td className="w-32 pr-4 py-2 font-semibold text-right align-top">Rules</td>
-              <td className="whitespace-pre-wrap text-sm py-2">{card.rules_text}</td>
+              <td className="whitespace-pre-wrap text-sm py-2">{card.card_text}</td>
             </tr>
           )}
           {card.requirements && card.requirements.length > 0 && (
@@ -297,7 +297,7 @@ export default function CardDetail() {
     });
   };
 
-  // Build SEO fields once card is loaded (respecting only name, card_type, rules_text)
+  // Build SEO fields once card is loaded (respecting only name, card_type, card_text)
   const { seoTitle, seoDescription, canonicalUrl } = useMemo(
     () => buildSeo(card, slug),
     [card, slug]

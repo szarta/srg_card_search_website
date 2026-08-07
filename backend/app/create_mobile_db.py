@@ -158,7 +158,9 @@ def insert_card(cursor, entry, sync_time):
             entry["db_uuid"],
             entry["name"],
             entry.get("card_type"),
-            entry.get("rules_text"),
+            # Mobile keeps the legacy `rules_text` column; source it from the verbatim
+            # `card_text` (the field was renamed rules_text -> card_text) for compat.
+            entry.get("card_text"),
             entry.get("errata_text"),
             1 if entry.get("is_banned") else 0,
             entry.get("release_set"),

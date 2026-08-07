@@ -47,7 +47,7 @@ def sanitize_filename(filename: str) -> str:
 class MissingCardSubmission(BaseModel):
     card_name: str
     card_type: str
-    rules_text: Optional[str] = None
+    card_text: Optional[str] = None
 
 
 @router.post("/submissions/missing-card")
@@ -76,7 +76,7 @@ async def submit_missing_card(
             f.write(f"Submission Time: {datetime.now().isoformat()}\n")
             f.write(f"Card Name: {payload.card_name}\n")
             f.write(f"Card Type: {payload.card_type}\n")
-            f.write(f"Rules Text: {payload.rules_text or '(none provided)'}\n")
+            f.write(f"Card Text: {payload.card_text or '(none provided)'}\n")
 
         return {
             "success": True,

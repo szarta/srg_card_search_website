@@ -80,7 +80,7 @@ class Card(Base):
     release_set = Column(String)
     is_banned = Column(Boolean, default=False)
     spotlight = Column(Boolean, default=False)
-    rules_text = Column(String)
+    card_text = Column(String)
     errata_text = Column(String)
     comments = Column(String)
     tags = Column(ARRAY(TEXT), nullable=True)

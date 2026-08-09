@@ -71396,9 +71396,9 @@
 - name: Nola Nightmare Slam
   db_uuid: 3f78feea50be406f816e6c57857b74fa
   card_type: MainDeckCard
-  atk_type: Strike
+  atk_type: Grapple
   play_order: Finish
-  deck_card_number: 28
+  deck_card_number: 29
   card_text: '+3 to Technique
 
     +1 to Grapple
@@ -71412,9 +71412,9 @@
 - name: Readiest Moonsault Ever
   db_uuid: e466fe26c2174300ad966f2f222ebc39
   card_type: MainDeckCard
-  atk_type: Grapple
+  atk_type: Strike
   play_order: Finish
-  deck_card_number: 29
+  deck_card_number: 28
   card_text: '+5 to Agility
 
     Your opponent randomly reveals 3 cards in their hand and discards all revealed Stops.'

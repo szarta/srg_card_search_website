@@ -90144,7 +90144,7 @@
   strike: 7
   submission: 6
   grapple: 10
-  card_text: After you flip any number of cards, draw the bottom card of your draw.
+  card_text: After you flip any number of cards, draw the bottom card of your deck.
   tags: []
   related_finishes:
     - 7ab882d2cdb849c8b8bee5d466e87b20

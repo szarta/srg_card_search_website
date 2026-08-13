@@ -2786,6 +2786,7 @@
 
     Put 1 card with "Cosmic" in the name from your discard pile on the top of your deck.'
   tags: []
+  text_lines_count: 6
 - name: Stomp
   db_uuid: 46c5ed46ccdc4cd2984300175fcbbfdc
   srg_url: https://supershowthegame.com/product/07-stomp/
@@ -2796,6 +2797,7 @@
   deck_card_number: 7
   card_text: Your opponent buries 1 card in their hand or your next turn roll is +1.
   tags: []
+  text_lines_count: 3
 - name: Supersonic Clothesline
   db_uuid: 20c41d2be357440bbd8cf2ba6de4e7b9
   card_type: MainDeckCard
@@ -2804,6 +2806,7 @@
   deck_card_number: 7
   card_text: Look at your opponent's hand.  Bury 1 card in each player's discard pile.
   tags: []
+  text_lines_count: 3
 - name: Terror Spin
   db_uuid: 494e6954d9b74d42941349e07a03135a
   srg_url: https://supershowthegame.com/product/07-terror-spin/
@@ -3794,6 +3797,7 @@
 
     Your opponent cannot double team, save, or protect until the end of their next turn.'
   tags: []
+  text_lines_count: 5
 - name: Drawin' Dimes
   db_uuid: 3985ce9c65644441becdde562788868a
   srg_url: https://supershowthegame.com/product/07-drawin-dimes/
@@ -3806,6 +3810,7 @@
 
     If your next turn roll is 10, it is +1.'
   tags: []
+  text_lines_count: 4
 - name: Hype the Crowd
   db_uuid: d49c7aed65a44b8d93e9be0bc0167691
   srg_url: https://supershowthegame.com/product/09-hype-the-crowd/
@@ -5314,6 +5319,7 @@
   deck_card_number: 7
   card_text: Draw 1 card or shuffle up to 3 cards from your discard pile into your deck.
   tags: []
+  text_lines_count: 3
 - name: I Was Made for the Spotlight
   db_uuid: e21a54a0092849c8bc7fc633214b73b8
   card_type: MainDeckCard
@@ -5322,6 +5328,7 @@
   deck_card_number: 7
   card_text: Search your deck for a Spotlight card and add it to your hand.
   tags: []
+  text_lines_count: 2
 - name: Running Leg Drop
   db_uuid: 9d524bcb76a842bb8044674f68fbd58b
   srg_url: https://supershowthegame.com/product/10-running-leg-drop/
@@ -9112,6 +9119,7 @@
     When this card is in your discard pile: When you roll Strike for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 3
+  text_lines_count: 7
 - name: Kneecap Soup!
   db_uuid: feb26fe575c74330a7dcc9d8b18e0859
   card_type: MainDeckCard
@@ -9121,6 +9129,7 @@
   card_text: Draw 1 card or add 1 Follow Up from your discard pile to your hand.
   tags:
     - Super Lucha
+  text_lines_count: 3
 - name: Back Elbow
   db_uuid: b7083110c10d42898b9d6622d35da1b3
   srgpc_url: https://www.srgpc.net/cards/7/back-elbow/
@@ -9130,6 +9139,7 @@
   deck_card_number: 7
   card_text: Randomly add 1 card from your discard pile to your hand or each player draws 1 card.
   tags: []
+  text_lines_count: 3
 - name: Back Smash
   db_uuid: 417773f219214b83bfc938bd8731a2ee
   srgpc_url: https://www.srgpc.net/cards/7/back-smash/
@@ -9139,6 +9149,7 @@
   deck_card_number: 7
   card_text: You may re-roll your next turn roll or your Tag Team partner draws 1 card.
   tags: []
+  text_lines_count: 3
 - name: Barrel Burner
   db_uuid: 28547586ed1e4ee1a046944cb6d62ed1
   srgpc_url: https://www.srgpc.net/cards/7/barrel-burner/
@@ -9148,6 +9159,7 @@
   deck_card_number: 7
   card_text: Draw 1 card or put 1 Submission from your discard pile on top of your deck.
   tags: []
+  text_lines_count: 3
 - name: Baseball Slide
   db_uuid: 82e3194e67ee41b78c75f5aa099877c4
   srgpc_url: https://www.srgpc.net/cards/7/baseball-slide/
@@ -9159,6 +9171,7 @@
 
     If this is a Steel Cage match, flip 1 card.'
   tags: []
+  text_lines_count: 5
 - name: Baseball Bat Uprising
   db_uuid: 89dfe3a02e9e4e68822867eba7413091
   srg_url: https://supershowthegame.com/product/07-baseball-bat-uprising/
@@ -9172,6 +9185,7 @@
 
     Reveal the top card of your deck: If it has "Baseball Bat" in the name, add that card to your hand, and you may re-roll your next turn roll.'
   tags: []
+  text_lines_count: 8
   wants_keywords:
     - Bat
     - Baseball Bat
@@ -9187,6 +9201,7 @@
 
     When this card is discarded from play for a breakout, your opponent randomly discards 1 card from their hand.'
   tags: []
+  text_lines_count: 5
 - name: Boss-rate Chop
   db_uuid: b80e9039cbe743f19ec0f1412397a57d
   srgpc_url: https://www.srgpc.net/cards/7/boss-rate-chop/
@@ -9196,6 +9211,7 @@
   deck_card_number: 7
   card_text: Your opponent's next turn roll is -1 or if you have fewer cards in your hand than your opponent they discard 1 random card in their hand.
   tags: []
+  text_lines_count: 5
 - name: Calling for Backup
   db_uuid: 87f37eb7cbcb4a4cb0c923bdb95b92dd
   srg_url: https://supershowthegame.com/product/sfge-promo-bundle/
@@ -9206,6 +9222,7 @@
   deck_card_number: 7
   card_text: During their turn, your opponent cannot play Finishes without a Follow Up in play. Your opponent's next turn roll is -2.
   tags: []
+  text_lines_count: 5
 - name: Cat Uprising
   db_uuid: 184d0e7a6e674a01943827813aad9a39
   srgpc_url: https://www.srgpc.net/cards/7/cat-uprising/
@@ -9217,6 +9234,7 @@
 
     Add 1 card with "Cat" in the name from your discard pile to your hand.'
   tags: []
+  text_lines_count: 4
   wants_keywords:
     - Cat
 - name: Charging Elbow
@@ -9228,6 +9246,7 @@
   deck_card_number: 7
   card_text: Your opponent randomly buries 1 card in their hand.
   tags: []
+  text_lines_count: 2
 - name: Chest Slap
   db_uuid: 4bc26310639641e9a19329c27f1e163d
   srgpc_url: https://www.srgpc.net/cards/7/chest-slap/
@@ -9237,6 +9256,7 @@
   deck_card_number: 7
   card_text: Your opponent discards 1 card from their hand or your opponent flips 4 cards.
   tags: []
+  text_lines_count: 3
 - name: Choppa-Choppa, Choppa-Choppa, Choppa-Choppa, Chop!
   db_uuid: af16823870df449cb1737c33b8a32af3
   srgpc_url: https://www.srgpc.net/cards/7/choppa-choppa-choppa-choppa-choppa-choppa-chop/
@@ -9248,6 +9268,7 @@
 
     If your opponent forces you to discard any number of cards from your hand, shuffle up to 3 cards from your discard pile into your deck.'
   tags: []
+  text_lines_count: 5
 - name: Discus Punch
   db_uuid: 36c7c0d50aaa49928de7d6dc651ee640
   srgpc_url: https://www.srgpc.net/cards/7/discus-punch/
@@ -9257,6 +9278,7 @@
   deck_card_number: 7
   card_text: Choose 1 card your opponent has in play and put it into their discard pile, or bury your hand and draw the same number of cards.
   tags: []
+  text_lines_count: 5
 - name: Doomsday Lariat (Strike)
   db_uuid: 35ca2bdfe72b4553aaa134122d58685a
   srgpc_url: https://www.srgpc.net/cards/7/doomsday-lariat/
@@ -9268,6 +9290,7 @@
   tags: []
   requirements:
     - min_strike: 8
+  text_lines_count: 3
 - name: Dragon Punch
   db_uuid: 7cda714d91bc443386071bdd3327985d
   srgpc_url: https://www.srgpc.net/cards/7/dragon-punch/
@@ -9277,6 +9300,7 @@
   deck_card_number: 7
   card_text: Reveal the top 2 cards of your deck, add 1 to your hand and shuffle the other back into your deck.
   tags: []
+  text_lines_count: 4
 - name: Drawin' Dimes (Strike)
   db_uuid: b684f046dbca4e608eeef10581716eb1
   srgpc_url: https://www.srgpc.net/cards/7/drawin-dimes-strike/
@@ -9290,6 +9314,7 @@
   tags: []
   requirements:
     - min_strike: 8
+  text_lines_count: 5
 - name: Drumstick Uprising
   db_uuid: 0c7c6c9d439b461499c8806be4f18a69
   srgpc_url: https://www.srgpc.net/cards/7/drumstick-uprising/
@@ -9301,6 +9326,7 @@
 
     Randomly reveal 1 card in your hand: if it has "Drumstick" in the name, bury 1 card in any player''s discard pile.'
   tags: []
+  text_lines_count: 6
   wants_keywords:
     - Drumstick
 - name: Elbow Drop
@@ -9312,6 +9338,7 @@
   deck_card_number: 7
   card_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Strike from your discard pile on top of your deck.
   tags: []
+  text_lines_count: 4
 - name: Elbow Smash
   db_uuid: 3f8141333cb7453aadfb0feed8f83ef4
   srgpc_url: https://www.srgpc.net/cards/7/elbow-smash/
@@ -9331,6 +9358,7 @@
   deck_card_number: 7
   card_text: Shuffle your deck and draw 1 card or add 2 cards with "Disqualification" in the text from your discard pile to your hand.
   tags: []
+  text_lines_count: 4
 - name: Face-Off
   db_uuid: 4d9d13cbb0c74d89bd1270e44015f91a
   srgpc_url: https://www.srgpc.net/cards/7/face-off/
@@ -9340,6 +9368,7 @@
   deck_card_number: 7
   card_text: Each player shuffles their hand into their deck and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile to your hand.
   tags: []
+  text_lines_count: 5
 - name: Forearm Shot
   db_uuid: 223b9ba299c044ed88fb92525bed1e43
   srgpc_url: https://www.srgpc.net/cards/7/forearm-shot/
@@ -9349,6 +9378,7 @@
   deck_card_number: 7
   card_text: Draw 1 card or take 4 cards from your discard pile and shuffle them into your deck.
   tags: []
+  text_lines_count: 3
 - name: I Came In Like a Wrecking Ball
   db_uuid: 6972d05be47f4099b44120bbf1edbf8f
   srgpc_url: https://www.srgpc.net/cards/7/i-came-in-like-a-wrecking-ball/
@@ -9359,6 +9389,7 @@
   card_text: Draw 1 card or take 4 cards from your discard pile and randomly put them on top of your deck.
   tags:
     - Super Lucha
+  text_lines_count: 4
 - name: Jump Kick
   db_uuid: 0b95e98f3b4448ffaf94817ccc881285
   spotlight: true
@@ -9372,6 +9403,7 @@
     When this card is in your discard pile and you roll Agility for your turn roll, you may add it to your hand.'
   tags:
     - Old School Wave 1
+  text_lines_count: 5
 - name: Jumping Stomp
   db_uuid: 89f32ba6499a426d9b731c62f68c70f7
   spotlight: true
@@ -9386,6 +9418,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 6
 - name: Kabuki
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
   srgpc_url: https://www.srgpc.net/cards/7/kabuki/
@@ -9397,6 +9430,7 @@
 
     Cards in your opponet''s discard pile have blank text.'
   tags: []
+  text_lines_count: 4
 - name: Kendo Stick Uprising
   db_uuid: 6f3e75fa3c22490980b75be621d4ecf3
   srgpc_url: https://www.srgpc.net/cards/7/kendo-stick-uprising/
@@ -9408,6 +9442,7 @@
 
     When your opponent increases their turn roll, draw 1 card.'
   tags: []
+  text_lines_count: 6
   wants_keywords:
     - Kendo Stick
 - name: Knife Edge Chop
@@ -9420,6 +9455,7 @@
   card_text: Flip 2 cards or take 1 Follow Up from your discard pile and add it to your hand.
   tags:
     - Old School Wave 1
+  text_lines_count: 3
 - name: Ladder Uprising
   db_uuid: 2af58ceb7d284d3ab73c4fc88864c04c
   srgpc_url: https://www.srgpc.net/cards/7/ladder-uprising/
@@ -9429,6 +9465,7 @@
   deck_card_number: 7
   card_text: Search your deck for 1 card with "Ladder" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Ladder
 - name: Long Boat Leap
@@ -9442,6 +9479,7 @@
 
     If this is a Steel Cage match, flip 1 card.'
   tags: []
+  text_lines_count: 5
 - name: Low Blow With The Chain
   db_uuid: d3e0f4ae49c6443d8c3b2edd8ca20a2a
   srgpc_url: https://www.srgpc.net/cards/7/low-blow-with-the-chain/
@@ -9451,6 +9489,7 @@
   deck_card_number: 7
   card_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck, or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Steel Chain
 - name: Making an Impact
@@ -9464,6 +9503,7 @@
 
     When your opponent forces you to bury any number of cards from your hand, draw 1 card.'
   tags: []
+  text_lines_count: 5
 - name: Muay Thai Knee
   db_uuid: a5fac40b35bf4b1c841b5ff764904061
   srgpc_url: https://www.srgpc.net/cards/7/muay-thai-knee/
@@ -9475,6 +9515,7 @@
 
     When you stop a card, the stopped card has blank text until the end of the turn, and you may bury it.'
   tags: []
+  text_lines_count: 6
 - name: Off the Ropes
   db_uuid: 79c0a55cc3ee4a0ea43547ebe4dee90b
   srgpc_url: https://www.srgpc.net/cards/7/off-the-ropes/
@@ -9484,6 +9525,7 @@
   deck_card_number: 7
   card_text: Search your deck or discard pile for "Clothesline" and add it to your hand, or you may force your opponent to re-roll their next turn roll.
   tags: []
+  text_lines_count: 5
 - name: Overrun
   db_uuid: 883f0e07eb9440a684591d82cfc9efab
   srgpc_url: https://www.srgpc.net/cards/7/overrun/
@@ -9493,6 +9535,7 @@
   deck_card_number: 7
   card_text: Draw 2 cards.
   tags: []
+  text_lines_count: 1
 - name: Pineapple Uprising
   db_uuid: a5258b6158364ff995d60cda1c10684a
   srgpc_url: https://www.srgpc.net/cards/7/pineapple-uprising/
@@ -9504,6 +9547,7 @@
 
     Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Pineapple
 - name: Posing With The Crowd
@@ -9521,6 +9565,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 5
 - name: Potion Uprising
   db_uuid: 9b059306ce624967ad27124a4d864c6e
   srgpc_url: https://www.srgpc.net/cards/7/potion-uprising/
@@ -9532,6 +9577,7 @@
 
     Your opponent cannot move this card from in play.'
   tags: []
+  text_lines_count: 4
   wants_keywords:
     - Potion
 - name: Pulverizing Pinball
@@ -9546,6 +9592,7 @@
     Draw 1 card.'
   tags:
     - Super Lucha
+  text_lines_count: 2
 - name: Rainbow Punch
   db_uuid: 14a171e84211442d9ead218029299e5d
   srgpc_url: https://www.srgpc.net/cards/7/rainbow-punch/
@@ -9555,6 +9602,7 @@
   deck_card_number: 7
   card_text: Search your deck for 1 Strike and put it into your discard pile, then shuffle your deck, or shufle 2 Strikes from your discard pile into your deck.
   tags: []
+  text_lines_count: 5
 - name: Razor Whip
   db_uuid: 9e65bf2574444dfab2b555debfdec34b
   srgpc_url: https://www.srgpc.net/cards/7/razor-whip/
@@ -9566,6 +9614,7 @@
 
     If this is a Triad match, you may choose both options.'
   tags: []
+  text_lines_count: 6
 - name: Ride the Wave
   db_uuid: dd0ff543ee0647259c947c9fd15aff15
   srgpc_url: https://www.srgpc.net/cards/7/ride-the-wave/
@@ -9575,6 +9624,7 @@
   deck_card_number: 7
   card_text: Bury 3 cards in your hand, draw 4 cards.
   tags: []
+  text_lines_count: 2
 - name: Rolling Forearm
   db_uuid: 6ad4619cdb2c4c50b6853cd3ee9e0d37
   srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm/
@@ -9584,6 +9634,7 @@
   deck_card_number: 7
   card_text: You may play 1 extra card this turn or if you have less cards in your hand than your opponent, draw 2 cards.
   tags: []
+  text_lines_count: 4
 - name: Rolling Forearm (Technique)
   db_uuid: ae508887f4354efa8263f4396da7c661
   srgpc_url: https://www.srgpc.net/cards/7/rolling-forearm-technique/
@@ -9597,6 +9648,7 @@
   tags: []
   requirements:
     - min_technique: 8
+  text_lines_count: 3
 - name: Run it Back
   db_uuid: 958d63b6e6bb4ec3800ef7eec3060c2f
   srgpc_url: https://www.srgpc.net/cards/7/run-it-back/
@@ -9608,6 +9660,7 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  text_lines_count: 3
 - name: Rainbow Kick
   db_uuid: b25ca3cc19584e428b3f2f582ff33d41
   srgpc_url: https://www.srgpc.net/cards/7/rainbow-kick/
@@ -9617,6 +9670,7 @@
   deck_card_number: 7
   card_text: If stopped, draw 2 cards.
   tags: []
+  text_lines_count: 1
 - name: Scissor Kick
   db_uuid: 82de40ce66744b89a2806840ca048525
   srgpc_url: https://www.srgpc.net/cards/7/scissor-kick/
@@ -9630,6 +9684,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 3
 - name: Skull Punch
   db_uuid: 046871f823a645f6b514bfc4408c92a2
   srgpc_url: https://www.srgpc.net/cards/7/skull-punch/
@@ -9639,6 +9694,7 @@
   deck_card_number: 7
   card_text: Your opponent's Gimmick is blank unti lthe end of their next turn.
   tags: []
+  text_lines_count: 2
 - name: Slithering Shot
   db_uuid: 147e378a324e44b78d38d653964c62d9
   srgpc_url: https://www.srgpc.net/cards/7/slithering-shot/
@@ -9650,6 +9706,7 @@
 
     If you have fewer cards in play than your opponent, you may play 1 additional card this turn. (After you hit another card this turn, your turn ends.)'
   tags: []
+  text_lines_count: 6
 - name: Springboard Leg Drop
   db_uuid: e6dccf40aac542c5a50c59c71f5e9a33
   srgpc_url: https://www.srgpc.net/cards/7/springboard-leg-drop/
@@ -9663,6 +9720,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 3
 - name: Standing Dropkick
   db_uuid: c97ea70d1df749f9873f3a85bad5af5a
   spotlight: true
@@ -9676,6 +9734,7 @@
     When this card is in your discard pile and you roll Strike for your turn roll, you may add it to your hand.'
   tags:
     - Old School Wave 1
+  text_lines_count: 5
 - name: Stomp in the Ropes
   db_uuid: 0a46f650115348f897ab665088cfabf5
   srgpc_url: https://www.srgpc.net/cards/7/stomp-in-the-ropes/
@@ -9689,6 +9748,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 6
 - name: Surprise Hit (V1)
   db_uuid: 466176151ead41faab01e638ac550443
   srgpc_url: https://www.srgpc.net/cards/7/surprise-hit-v2/
@@ -9698,6 +9758,7 @@
   deck_card_number: 7
   card_text: Your next turn roll is +2.
   tags: []
+  text_lines_count: 1
 - name: Surprise Hit (V2)
   db_uuid: d857de8645244d448295dd569f618fba
   card_type: MainDeckCard
@@ -9708,6 +9769,7 @@
 
     If the Crowd Meter is 1 or greater, it is +3 instead.'
   tags: []
+  text_lines_count: 3
 - name: Taunting Kick (V1)
   db_uuid: 5ee1c60c7bf9415cb4e10287062e6214
   srgpc_url: https://www.srgpc.net/cards/7/taunting-kick-v2/
@@ -80041,6 +80103,7 @@
     Draw 1 card.'
   tags:
     - Old School Wave 3
+  text_lines_count: 3
 - name: Jumping Elbow
   db_uuid: 5b7e8fc5247f468092686eaee0321578
   card_type: MainDeckCard
@@ -80052,6 +80115,7 @@
     Your opponent''s maximum handsize is -1.'
   tags:
     - Old School Wave 3
+  text_lines_count: 4
 - name: Bird's Eye View Kick
   db_uuid: 0b72959b72734b81be7bc8b86967869c
   srgpc_url: https://www.srgpc.net/cards/7/birds-eye-view-kick/
@@ -80063,6 +80127,7 @@
 
     If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
   tags: []
+  text_lines_count: 5
 - name: Simple Dropkick
   db_uuid: a206df7a223846d59bcfeb1c1ebc4eac
   card_type: MainDeckCard
@@ -80706,6 +80771,7 @@
 
     When you flip cards for "Flying Lariat", add 2 of the flipped cards to your hand.'
   tags: []
+  text_lines_count: 8
 - name: Gut-Checking Elbow
   db_uuid: 0e0b368b6b624580be0c6ca982004102
   srgpc_url: https://www.srgpc.net/cards/7/gut-checking-elbow/
@@ -80715,6 +80781,7 @@
   deck_card_number: 7
   card_text: Discard 2 cards from your hand. Add 2 Strikes from your discard pile to your hand.
   tags: []
+  text_lines_count: 4
 - name: Smash Your Face Into the Table
   db_uuid: d6108b622abf48fbb2404ea2d22891ff
   srg_url: https://supershowthegame.com/product/stipulation-pack-tables/
@@ -80725,6 +80792,7 @@
   deck_card_number: 7
   card_text: Search your deck for 1 card with "Table" in the name, add it to your hand or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Table
 - name: Split Fire Story
@@ -80739,6 +80807,7 @@
 
     When this card is discarded from play for a Breakout, draw 1 card.'
   tags: []
+  text_lines_count: 4
 - name: Take the Mantle
   db_uuid: b6ea1a90522b4a17a966c134583c88ad
   srgpc_url: https://www.srgpc.net/cards/7/take-the-mantle/
@@ -80748,6 +80817,7 @@
   deck_card_number: 7
   card_text: Search your deck for up to 3 cards and put them into your discard pile. Shuffle your deck.
   tags: []
+  text_lines_count: 3
 - name: Graveyard Toss
   db_uuid: 1e37e02416e14e64a4ccfa2ac71a18cd
   srgpc_url: https://www.srgpc.net/cards/8/graveyard-toss/
@@ -86743,6 +86813,7 @@
   deck_card_number: 7
   card_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
   tags: []
+  text_lines_count: 3
 - name: Call Your Shot
   db_uuid: 3a6101badfc0459dbbbfac47c981fcdf
   card_type: MainDeckCard
@@ -87584,6 +87655,7 @@
 
     If it has "Wrapping Paper" in the name, add that card to your hand.'
   tags: []
+  text_lines_count: 6
   wants_keywords:
     - Holiday
     - Wrapping Paper

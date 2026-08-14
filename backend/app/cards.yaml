@@ -2825,6 +2825,7 @@
   deck_card_number: 8
   card_text: Search your deck for a Spotlight card and add it to your hand.
   tags: []
+  text_lines_count: 2
 - name: Blinded By Salt
   db_uuid: 01c6d8f8cf834a3691f048432c2b29f2
   card_type: MainDeckCard
@@ -2874,6 +2875,7 @@
   deck_card_number: 8
   card_text: Your opponent randomly buries 1 card in their hand.
   tags: []
+  text_lines_count: 2
 - name: Rolling Pin Suplex!
   db_uuid: 020e205fb21f4d1dbfc4b8ee8a3c598a
   srg_url: https://supershowthegame.com/product/08-rolling-pin-suplex/
@@ -2884,6 +2886,7 @@
   card_text: Look at the top 4 cards of either player's deck and put them back on the top or bottom of their deck in any order.
   tags:
     - Super Lucha
+  text_lines_count: 4
 - name: Salt Shaker
   db_uuid: ae03c6b4945e4f0f82319a8a3d0f8fb1
   srg_url: https://supershowthegame.com/product/09-rip-n-ship-salt-shaker/
@@ -2904,6 +2907,7 @@
   deck_card_number: 8
   card_text: Your opponent buries 1 card in their hand or your next turn roll is +1.
   tags: []
+  text_lines_count: 3
 - name: Snap Suplex (V2)
   db_uuid: c2242a8c758a4c1bb055e609174b01ef
   card_type: MainDeckCard
@@ -2912,6 +2916,7 @@
   deck_card_number: 8
   card_text: Your opponent buries 1 card in their hand. Your next turn roll is +1.
   tags: []
+  text_lines_count: 3
 - name: Head Crush (V1)
   db_uuid: 28a1382196f34df6a8a7fe881c707e86
   srg_url: https://supershowthegame.com/product/09-head-crush/
@@ -3639,6 +3644,7 @@
 
     When this card is discarded from play for a breakout, shuffle 3 other cards from your discard pile into your deck.'
   tags: []
+  text_lines_count: 5
 - name: Armenian Power Punch
   db_uuid: 57f66614167f44bb9085e15b14d9268d
   srg_url: https://supershowthegame.com/product/22-armenian-power-punch/
@@ -3895,6 +3901,7 @@
 
     When your opponent forces you to burn any number of cards from your hand, draw 1 card.'
   tags: []
+  text_lines_count: 5
 - name: Snap Kick
   db_uuid: fd8b036af949412eaacb21be73676450
   srg_url: https://supershowthegame.com/product/04-snap-kick/
@@ -9833,6 +9840,7 @@
 
     Choose 3 cards in your discard pile, your opponent puts one in your hand, buries another, and the last stays in your discard pile.'
   tags: []
+  text_lines_count: 5
 - name: Took it on the Chin! (#7)
   db_uuid: 3cca1f55a44b48d6b3aac0d9b3af6863
   srgpc_url: https://www.srgpc.net/cards/7/took-it-on-the-chin/
@@ -9842,6 +9850,7 @@
   deck_card_number: 7
   card_text: Reveal your hand to your opponent, they choose and bury 1 card.  Draw 3 cards.
   tags: []
+  text_lines_count: 3
 - name: Tornillo
   db_uuid: 72e8bc2d2ddb40f68d50be7f62568f25
   srgpc_url: https://www.srgpc.net/cards/7/tornillo/
@@ -9855,6 +9864,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 6
 - name: Unacceptable Impact
   db_uuid: d25674b488a94ec7a5c4a6bb87623425
   spotlight: true
@@ -9867,6 +9877,7 @@
 
     When this card is discarded from play for a breakout, shuffle 3 other cards from your discard pile into your deck.'
   tags: []
+  text_lines_count: 5
 - name: Wrench Trip
   db_uuid: 0d08fcd610e74828ba6e418179b2aa46
   srgpc_url: https://www.srgpc.net/cards/7/wrench-trip/
@@ -9878,6 +9889,7 @@
 
     If this is a Ring of Fire or Lumberjack match and this card is stopped, shuffle 2 cards from your discard pile into your deck.'
   tags: []
+  text_lines_count: 7
 - name: You've Been Naughty (V1)
   db_uuid: cbf175624b4343869e2522451282979b
   srg_url: https://supershowthegame.com/product/07-youve-been-naughty/
@@ -9888,6 +9900,7 @@
   deck_card_number: 7
   card_text: Your opponent randomly buries 1 card in their hand.
   tags: []
+  text_lines_count: 2
 - name: A Head of Steam
   db_uuid: 919dc33ae4504d8fa183aab0e2797a0f
   srgpc_url: https://www.srgpc.net/cards/8/a-head-of-steam/
@@ -9899,7 +9912,8 @@
 
     If your opponent forces you to discard any number of cards from your hand, shuffle up to 3 cards from your discard pile into your deck.'
   tags: []
-- name: Enter El Leon
+  text_lines_count: 5
+- name: Enter El Leon!
   db_uuid: 204fabf856e940dabc5f7c0027436846
   card_type: MainDeckCard
   atk_type: Grapple
@@ -9908,6 +9922,7 @@
   card_text: Draw 1 card or add 1 Follow Up from your discard pile to your hand.
   tags:
     - Super Lucha
+  text_lines_count: 3
 - name: Air Raid Crash
   db_uuid: f60c818851f6456c9da8bf4389827808
   srgpc_url: https://www.srgpc.net/cards/8/air-raid-crash/
@@ -9921,6 +9936,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 6
 - name: Airplane Spin
   db_uuid: 952ce1bfcc2e44e184ff066b66cbec68
   srgpc_url: https://www.srgpc.net/cards/8/airplane-spin/
@@ -9932,6 +9948,7 @@
 
     If you have fewer cards in play than your opponent, you may play 1 additional card this turn.'
   tags: []
+  text_lines_count: 4
 - name: Armbar Takedown
   db_uuid: c6d823baac184022983d38242a5758cf
   srgpc_url: https://www.srgpc.net/cards/8/armbar-takedown/
@@ -9941,6 +9958,7 @@
   deck_card_number: 8
   card_text: Randomly add 1 card from your discard pile to your hand or each player draws 1 card.
   tags: []
+  text_lines_count: 3
 - name: Belly to Belly Suplex
   db_uuid: c5c1b01a1e014fff9faf1004544ff3e8
   srgpc_url: https://www.srgpc.net/cards/8/belly-to-belly-suplex/
@@ -9951,6 +9969,7 @@
   card_text: Flip 2 cards for each Lead you have in play.
   tags:
     - Old School Wave 1
+  text_lines_count: 3
 - name: Big Belly Suplex
   db_uuid: 13cf23c5fb354ce997e06905fcd54a45
   srgpc_url: https://www.srgpc.net/cards/8/big-belly-suplex/
@@ -9960,6 +9979,7 @@
   deck_card_number: 8
   card_text: Reveal the top 2 cards of your deck.  Put 1 in your hand and flip the other.
   tags: []
+  text_lines_count: 2
 - name: Big Dimes Potion
   db_uuid: f9330c1604d34252acb1987faaf9800d
   spotlight: true
@@ -9972,6 +9992,7 @@
 
     When this card is discarded from play for a breakout, draw 1 card.'
   tags: []
+  text_lines_count: 4
 - name: Body Slam
   db_uuid: 15301778a743475aaba62e88881d9114
   srgpc_url: https://www.srgpc.net/cards/8/body-slam/
@@ -9981,6 +10002,7 @@
   deck_card_number: 8
   card_text: Bury 2 cards in any players discard pile or look at your opponents hand.
   tags: []
+  text_lines_count: 3
 - name: Bulldog
   db_uuid: 7d7dab07f309491da632d114636f1b30
   srgpc_url: https://www.srgpc.net/cards/8/bulldog/
@@ -9990,6 +10012,7 @@
   deck_card_number: 8
   card_text: Search your deck for 1 Grapple and put it into your discard pile, then shuffle your deck, or shuffle 2 Grapples from your discard pile into your deck.
   tags: []
+  text_lines_count: 5
 - name: Call to the Crowd
   db_uuid: 8f5cc32925ee425b9087a086a10b6d21
   srg_url: https://supershowthegame.com/product/08-call-to-the-crowd/
@@ -10000,6 +10023,7 @@
   deck_card_number: 8
   card_text: You may play 1 extra card this turn, or if you have less cards in your hand than your opponent draw 2 cards.
   tags: []
+  text_lines_count: 4
 - name: Call to the Crowd (Agility)
   db_uuid: 3adee904e4614f00ad56f51e1db731e1
   srg_url: https://supershowthegame.com/product/08-call-to-the-crowd-agility/
@@ -10013,6 +10037,7 @@
   tags: []
   requirements:
     - min_agility: 8
+  text_lines_count: 5
 - name: Check Under the Ring
   db_uuid: 4b9aedd8dd234b7e98e106bdefd5c3cb
   srg_url: https://supershowthegame.com/product/08-check-under-the-ring/
@@ -10023,6 +10048,7 @@
   deck_card_number: 8
   card_text: Shuffle your deck and draw 1 card or add 2 cards with "Disqualification" in the text from your discard pile to your hand.
   tags: []
+  text_lines_count: 4
 - name: Choking With The Chain
   db_uuid: 7b6be7437582464799ced60a7dffb981
   srgpc_url: https://www.srgpc.net/cards/8/choking-with-the-chain/
@@ -10032,6 +10058,7 @@
   deck_card_number: 8
   card_text: Search your deck for 1 card with "Steel Chain" in the name, add it to your hand and shuffle your deck, or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Steel Chain
 - name: Crowd's Got My Back
@@ -10049,6 +10076,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 5
 - name: Diversion Drop
   db_uuid: 3322e541a84940838069802daf69270e
   srgpc_url: https://www.srgpc.net/cards/8/diversion-drop/
@@ -10058,6 +10086,7 @@
   deck_card_number: 8
   card_text: Your opponent's next turn roll is -1 or if you have fewer cards in your hand than your opponent, they discard 1 random card from their hand.
   tags: []
+  text_lines_count: 5
 - name: Dog Uprising
   db_uuid: a40fe1b9049e4f9fbde3376b0807b878
   srgpc_url: https://www.srgpc.net/cards/8/dog-uprising/
@@ -10069,6 +10098,7 @@
 
     Add 1 card with "Dog" in the name from your discard pile to your hand.'
   tags: []
+  text_lines_count: 4
   wants_keywords:
     - Dog
 - name: Double Leg Takedown (#5)
@@ -10090,6 +10120,7 @@
   deck_card_number: 8
   card_text: Look at the top 3 cards of your deck and put them back on top in any order, or put 1 Grapple from your discard pile on top of your deck.
   tags: []
+  text_lines_count: 4
 - name: Dragon Drop
   db_uuid: e23ef6218f714ce6890e13960d031fb5
   srgpc_url: https://www.srgpc.net/cards/8/dragon-drop/
@@ -10099,6 +10130,7 @@
   deck_card_number: 8
   card_text: Reveal the top 2 cards of your deck, put 1 in your hand, flip the other.
   tags: []
+  text_lines_count: 2
 - name: Face Takedown
   db_uuid: 031a74bc46154859a766988ac55e6ee3
   srgpc_url: https://www.srgpc.net/cards/8/face-takedown/
@@ -10108,6 +10140,7 @@
   deck_card_number: 8
   card_text: Your opponent discards 1 card from their hand or your opponent flips 4 cards.
   tags: []
+  text_lines_count: 3
 - name: Fireman's Carry
   db_uuid: 65b6ced826bf4bdcacc7c4d28e821274
   srgpc_url: https://www.srgpc.net/cards/8/firemans-carry/
@@ -10117,6 +10150,7 @@
   deck_card_number: 8
   card_text: Choose 1 card your opponent has in play and put it into their discard pile, or bury your hand and draw the same number of cards.
   tags: []
+  text_lines_count: 5
 - name: Flip the Bird
   db_uuid: 4afd884cfead4277857fd81ade9bc725
   srgpc_url: https://www.srgpc.net/cards/8/flip-the-bird/
@@ -10128,6 +10162,7 @@
 
     When you stop a card, the stopped card has blank text until the end of the turn and you may bury it.'
   tags: []
+  text_lines_count: 6
 - name: Flying Slam
   db_uuid: ae2e60f2160743749ad1136557acab35
   srgpc_url: https://www.srgpc.net/cards/8/flying-slam/
@@ -10139,6 +10174,7 @@
 
     The next time your opponent''s Gimmick would make you bury or discard any number of cards from your hand, draw 2 cards instead.'
   tags: []
+  text_lines_count: 5
 - name: German Suplex
   db_uuid: 91f63dfe8c904b8dafca32a254b769bf
   srgpc_url: https://www.srgpc.net/cards/8/german-suplex/
@@ -10148,6 +10184,7 @@
   deck_card_number: 8
   card_text: Your opponent randomly buries 1 card in their hand.
   tags: []
+  text_lines_count: 2
 - name: Greco Roman Takedown
   db_uuid: bbc5612baee94008ae4f5b03a6d413ed
   spotlight: true
@@ -10161,6 +10198,7 @@
     When this card is in your discard pile and you roll Grapple for your turn roll, you may add it to your hand.'
   tags:
     - Old School Wave 1
+  text_lines_count: 5
 - name: Guitar Uprising
   db_uuid: d2db83eedae445afa3dbf03483c6ed7b
   srgpc_url: https://www.srgpc.net/cards/8/guitar-uprising/
@@ -10172,6 +10210,7 @@
 
     Randomly reveal 1 card in your hand: If it has "Guitar" in the name, draw 1 card.'
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Guitar
 - name: Gut Buster
@@ -10187,6 +10226,7 @@
     When this card is in your discard pile and you roll Power for your turn roll, you may add it to your hand.'
   tags:
     - Old School Wave 1
+  text_lines_count: 6
 - name: Half-and-Half Suplex
   db_uuid: 2b813cf6984b4e6fbab456dd72f2ce3b
   srgpc_url: https://www.srgpc.net/cards/8/half-and-half-suplex/
@@ -10200,6 +10240,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 3
 - name: Jumping Suplex
   db_uuid: 6e50946143724e42a569e6d551a00f4a
   srgpc_url: https://www.srgpc.net/cards/8/jumping-suplex/
@@ -10211,6 +10252,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 6
 - name: Old School Yeeting
   db_uuid: eeff684f04ef47058f17abfaea8a47d0
   card_type: MainDeckCard
@@ -10222,6 +10264,7 @@
     Your opponent''s maximum handsize is -1.'
   tags:
     - Old School Wave 3
+  text_lines_count: 4
 - name: Kabloow (V1)
   db_uuid: 4f5b73c6a84b465e89503efd000bfb11
   srgpc_url: https://www.srgpc.net/cards/8/kabloow/
@@ -10233,6 +10276,7 @@
 
     Cards in your opponent''s discard pile have blank text.'
   tags: []
+  text_lines_count: 5
 - name: Kabloow (V2)
   db_uuid: 621922f41ab64307a2d2310b3e707a5c
   card_type: MainDeckCard
@@ -10243,6 +10287,7 @@
 
     Cards in your opponent''s discard pile have blank text.'
   tags: []
+  text_lines_count: 5
 - name: King's Welcome
   db_uuid: 241cd51903f442b2b92e8b9fd659ebc9
   srgpc_url: https://www.srgpc.net/cards/8/kings-welcome/
@@ -10252,6 +10297,7 @@
   deck_card_number: 8
   card_text: Bury 3 cards in your hand, draw 4 cards.
   tags: []
+  text_lines_count: 2
 - name: Lucha, Rinse, Repeat!
   db_uuid: b590c40c1cca4aa4890c0a2846d95924
   srgpc_url: https://www.srgpc.net/cards/8/lucha-rinse-repeat/
@@ -10262,6 +10308,7 @@
   card_text: Draw 1 card or take 4 cards from your discard pile and randomly put them on top of your deck.
   tags:
     - Super Lucha
+  text_lines_count: 4
 - name: Making Waves
   db_uuid: 6f24daf8cef340cf8b88d53e0f60c067
   srgpc_url: https://www.srgpc.net/cards/8/making-waves/
@@ -10273,6 +10320,7 @@
 
     Your opponent cannot Double Team, Save, or Protect until the end of their next turn.'
   tags: []
+  text_lines_count: 5
 - name: Money to Burn
   db_uuid: c0e30d75b81a459c94166d7ad732fec5
   srgpc_url: https://www.srgpc.net/cards/8/money-to-burn/
@@ -10284,6 +10332,7 @@
 
     If this is a Ring of Fire or Lumberjack match and this card is stopped, shuffle 2 cards from your discard pile into your deck.'
   tags: []
+  text_lines_count: 7
 - name: Northern Lights Suplex
   db_uuid: 561a27e336a84b5a8a6b65ef52ec342e
   srgpc_url: https://www.srgpc.net/cards/8/northern-lights-suplex/
@@ -10297,6 +10346,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
+  text_lines_count: 3
 - name: Once More, With Feeling!
   db_uuid: 89cd851ecd554ff9947dc12e66e241f4
   srgpc_url: https://www.srgpc.net/cards/8/once-more-with-feeling/
@@ -10308,6 +10358,7 @@
 
     Add 1 Grapple from your discard pile to your hand.'
   tags: []
+  text_lines_count: 4
 - name: One More Time
   db_uuid: 67fd3364a1944796a1bf9967b7a562e5
   srgpc_url: https://www.srgpc.net/cards/8/one-more-time/
@@ -10319,6 +10370,7 @@
 
     Add 1 card from your discard pile to your hand.'
   tags: []
+  text_lines_count: 3
 - name: Pump Up the Crowd (V1)
   db_uuid: 053f0da1807f499680072ff1e73f339a
   srgpc_url: https://www.srgpc.net/cards/8/pump-up-the-crowd-v2/
@@ -10328,6 +10380,7 @@
   deck_card_number: 8
   card_text: Your next turn roll is +2.
   tags: []
+  text_lines_count: 1
 - name: Pump Up the Crowd (V2)
   db_uuid: e24477f0abee455fa370b1fd69d1c229
   card_type: MainDeckCard
@@ -10338,6 +10391,7 @@
 
     If the Crowd Meter is 1 or greater, it is +3 instead.'
   tags: []
+  text_lines_count: 3
 - name: Reverse Scoop Slam
   db_uuid: cc0f951e80054c7997e07eb2be71ac35
   srgpc_url: https://www.srgpc.net/cards/8/reverse-scoop-slam
@@ -10347,6 +10401,7 @@
   deck_card_number: 8
   card_text: Draw 1 card or shuffle up to 3 cards from your discard pile into your deck.
   tags: []
+  text_lines_count: 3
 - name: Scoop Slam
   db_uuid: 447cb460131e4da390511a59641fe257
   srg_url: https://supershowthegame.com/product/08-scoop-slam/
@@ -10357,6 +10412,7 @@
   deck_card_number: 8
   card_text: Draw 1 card or take 4 cards from your discard pile and shuffle them into your deck.
   tags: []
+  text_lines_count: 3
 - name: Seal Uprising
   db_uuid: 7dd90a3f225146e9abde4613a07226ec
   srgpc_url: https://www.srgpc.net/cards/8/table-uprising/
@@ -10368,6 +10424,7 @@
 
     Your opponent cannot move this card from in play.'
   tags: []
+  text_lines_count: 4
   wants_keywords:
     - Seal
 - name: Slam Off the Ring
@@ -10379,6 +10436,7 @@
   deck_card_number: 8
   card_text: You may re-roll your next turn roll or your tag team partner draws 1 card.
   tags: []
+  text_lines_count: 3
 - name: Slash
   db_uuid: f246a36b6c1a47669c4793e8d15af71e
   srgpc_url: https://www.srgpc.net/cards/8/slash/
@@ -10388,6 +10446,7 @@
   deck_card_number: 8
   card_text: Draw 1 card or put 1 Strike from your discard pile on top of your deck.
   tags: []
+  text_lines_count: 3
 - name: Steel Chair Uprising
   db_uuid: 821ed2394cd84ef39280b2486bf2218f
   srgpc_url: https://www.srgpc.net/cards/8/steel-chair-uprising/
@@ -10399,6 +10458,7 @@
 
     When your opponent increases their turn roll, draw 1 card.'
   tags: []
+  text_lines_count: 6
   wants_keywords:
     - Steel Chair
 - name: Stunning Suplex
@@ -10410,6 +10470,7 @@
   deck_card_number: 8
   card_text: Your opponent's Gimmick is blank until the end of their next turn.
   tags: []
+  text_lines_count: 2
 - name: Sunset Spin
   db_uuid: dbeb5f9a4f7a43a3abcbed3a72197494
   srgpc_url: https://www.srgpc.net/cards/8/sunset-spin/
@@ -10419,6 +10480,7 @@
   deck_card_number: 8
   card_text: If stopped, draw 2 cards.
   tags: []
+  text_lines_count: 1
 - name: Surfboard Buster
   db_uuid: 572b9bc170e84cb69aae0acd959f50c7
   srgpc_url: https://www.srgpc.net/cards/8/surfboard-buster/
@@ -10430,6 +10492,7 @@
 
     If this is a Steel Cage match, draw 2 cards.'
   tags: []
+  text_lines_count: 4
 - name: A Simple Call
   db_uuid: 1eabd9fc50ba4f49942893412c1e1b16
   card_type: MainDeckCard
@@ -10438,6 +10501,7 @@
   deck_card_number: 8
   card_text: Search your deck for up to 3 cards and put them into your discard pile.  Shuffle your deck.
   tags: []
+  text_lines_count: 3
 - name: Sweet & Salty Impact Drop
   db_uuid: e9adfc9b7a3043c3892329fefe5e8e1b
   card_type: MainDeckCard
@@ -10448,6 +10512,7 @@
 
     If your next turn roll is 10, it is +1.'
   tags: []
+  text_lines_count: 4
 - name: Sweet & Salty Impact Drop (Strike)
   db_uuid: 36ebe021c9604d3cbc8c50f5f80cdff0
   srgpc_url: https://www.srgpc.net/cards/8/sweet-salty-impact-drop-strike/
@@ -10461,6 +10526,7 @@
   tags: []
   requirements:
     - min_strike: 8
+  text_lines_count: 5
 - name: Sweet & Salty Impact Drop (Grapple)
   db_uuid: 67ee5fd4625042778926e81052173083
   card_type: MainDeckCard
@@ -10473,6 +10539,7 @@
   tags: []
   requirements:
     - min_grapple: 8
+  text_lines_count: 5
 - name: Swing the Crowd
   db_uuid: 178e37258d1a4430b5406a3b83fa2ff2
   card_type: MainDeckCard
@@ -10484,6 +10551,7 @@
     Draw 1 card.'
   tags:
     - Old School Wave 3
+  text_lines_count: 3
 - name: Swing Around the Ring
   db_uuid: e2dc29143f57497aa9372b2943791a0a
   srgpc_url: https://www.srgpc.net/cards/8/swing-around-the-ring/
@@ -10495,6 +10563,7 @@
 
     Your opponent''s next turn roll is -2.'
   tags: []
+  text_lines_count: 5
 - name: Swinging Neckbreaker
   db_uuid: e8701bcd29b34d3d8a75edf09392c90b
   srgpc_url: https://www.srgpc.net/cards/8/swinging-neckbreaker/
@@ -10506,6 +10575,7 @@
 
     If this is a Steel Cage match, flip 1 card.'
   tags: []
+  text_lines_count: 5
 - name: Table Uprising
   db_uuid: f38632d5c22e4af0a937e18a3e3ed383
   card_type: MainDeckCard
@@ -10514,6 +10584,7 @@
   deck_card_number: 8
   card_text: Search your deck for 1 card with "Table" in the name, add it to your hand and shuffle your deck or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Table
 - name: Takedown
@@ -10525,6 +10596,7 @@
   deck_card_number: 8
   card_text: Draw 2 cards.
   tags: []
+  text_lines_count: 1
 - name: Taunt
   db_uuid: 12f71a2a6e6b4be2a14f44b87802670d
   srgpc_url: https://www.srgpc.net/cards/8/taunt/
@@ -10536,6 +10608,7 @@
 
     Choose 3 cards in your discard pile, your opponent puts one in your hand, buries another, and the last stays in your discard pile.'
   tags: []
+  text_lines_count: 5
 - name: Taunting Takedown (V1)
   db_uuid: 0a5efb37f09b49b0b680f12858c2bfb9
   srgpc_url: https://www.srgpc.net/cards/8/taunting-takedown-v2/
@@ -10545,6 +10618,7 @@
   deck_card_number: 8
   card_text: Reveal the top 2 cards of your deck, add 1 to your hand and shuffle the other back into your deck.
   tags: []
+  text_lines_count: 4
 - name: Taunting Takedown (V2)
   db_uuid: 65073c998b484fca897ed1ee630a79b7
   card_type: MainDeckCard
@@ -10553,6 +10627,7 @@
   deck_card_number: 8
   card_text: Reveal the top 3 cards of your deck, add 1 to your hand and shuffle the others back into your deck.
   tags: []
+  text_lines_count: 4
 - name: Thunderous Goozle
   db_uuid: 10d9a03cf6444876adf157d4705c43b8
   srg_url: https://supershowthegame.com/product/08-thunderous-goozle/
@@ -10565,6 +10640,7 @@
 
     If this match is a Triad match, you may choose both options.'
   tags: []
+  text_lines_count: 6
 - name: Tiger Suplex
   db_uuid: 3d42009219a94529aac40e95cc3dfe28
   spotlight: true
@@ -10579,6 +10655,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+  text_lines_count: 6
 - name: Tornado Chin Takedown (Grapple)
   db_uuid: 3c568a5653024a46ac9c591d15ba39f2
   srgpc_url: https://www.srgpc.net/cards/8/tornado-chin-takedown/
@@ -10590,6 +10667,7 @@
   tags: []
   requirements:
     - min_grapple: 8
+  text_lines_count: 3
 - name: Toss Out of the Ring
   db_uuid: 3fe1f12b8df2431fa8337921dcde3b87
   srgpc_url: https://www.srgpc.net/cards/8/toss-out-of-the-ring/
@@ -10599,6 +10677,7 @@
   deck_card_number: 8
   card_text: Each player shuffles their hand into their deck and adds the top 5 cards of their deck to their hand or add 2 Skill Requirement cards from your discard pile into your hand.
   tags: []
+  text_lines_count: 5
 - name: Trash Can Uprising
   db_uuid: e182c5784db04a73b36c231617c73d0e
   srgpc_url: https://www.srgpc.net/cards/8/trash-can-uprising/
@@ -10610,6 +10689,7 @@
 
     Ignore any "Cannot be stopped" text on your opponent''s Finish cards.'
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Trash Can
 - name: Turbo Top Spin
@@ -10624,6 +10704,7 @@
     Draw 1 card.'
   tags:
     - Super Lucha
+  text_lines_count: 2
 - name: Work the Crowd
   db_uuid: 1077de64aefd40e0b26bc093a7bf36da
   srgpc_url: https://www.srgpc.net/cards/8/work-the-crowd/
@@ -10635,6 +10716,7 @@
 
     Draw 3 cards.'
   tags: []
+  text_lines_count: 3
 - name: What Will Break First?
   db_uuid: d710136ca0f04dca85f4ff2a68d09e38
   srgpc_url: https://www.srgpc.net/cards/8/what-will-break-first/
@@ -10644,6 +10726,7 @@
   deck_card_number: 8
   card_text: Seach your deck or discard pile for "Backbreaker" and add it to your hand, or you may force your opponent to re-roll their next turn roll.
   tags: []
+  text_lines_count: 5
 - name: 2 Handed Grab
   db_uuid: 6e278d01a7cc4b8f8ff155be9e747cff
   srgpc_url: https://www.srgpc.net/cards/9/a-punchers-chance/
@@ -80150,6 +80233,7 @@
     When this card is in your discard pile: When you roll Grapple for your turn roll, you may put this card on top of your deck.'
   tags:
     - Old School Wave 3
+  text_lines_count: 7
 - name: Chug-Chug-Chug!
   db_uuid: 93766c996abf4f4c94d3479e78232e3b
   srgpc_url: https://www.srgpc.net/cards/8/chug-chug-chug/
@@ -80161,6 +80245,7 @@
 
     If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
   tags: []
+  text_lines_count: 5
 - name: Extreme Leg Drop
   db_uuid: b2071f5e08d44fd68f58285fd627dacc
   card_type: MainDeckCard
@@ -80171,6 +80256,7 @@
 
     Bury up to 4 cards in your opponent''s discard pile.'
   tags: []
+  text_lines_count: 3
 - name: Rise to the Occasion
   db_uuid: e79a29233e1c49db8648b3f18c0c181b
   srgpc_url: https://www.srgpc.net/cards/11/rise-to-the-occasion/
@@ -80829,6 +80915,7 @@
 
     Add 2 Grapples from your discard pile to your hand.'
   tags: []
+  text_lines_count: 4
 - name: Oh Snap!
   db_uuid: 508a99ee718341df9786b0b3c21a6b7c
   spotlight: true
@@ -80841,6 +80928,7 @@
 
     When this card is discarded from play for a Breakout, your opponent randomly discards 1 card from their hand.'
   tags: []
+  text_lines_count: 5
 - name: Extreme Chinlock
   db_uuid: 5af5e40fc1b6445182df321e763d9443
   card_type: MainDeckCard
@@ -86763,6 +86851,7 @@
   deck_card_number: 8
   card_text: Each player randomly buries 1 card in their hand.  Draw 2 cards.
   tags: []
+  text_lines_count: 3
 - name: Boss-Rate Uprising
   db_uuid: d45ffac567f04b7abaaf3dc175d8c045
   card_type: MainDeckCard
@@ -86773,6 +86862,7 @@
 
     Put 1 card with "Boss" in the name from your discard pile on top of your deck.'
   tags: []
+  text_lines_count: 6
 - name: Dynamic Slam
   db_uuid: f2d54c53487f42f8907eb0fe1cfd747d
   card_type: MainDeckCard
@@ -86785,6 +86875,7 @@
 
     When you flip cards for "Drive Into The Corner", add 2 of the flipped cards to your hand.'
   tags: []
+  text_lines_count: 8
 - name: Time Jam
   db_uuid: bf766f24ff3b4ca4aa3b8fd99ec11fb6
   card_type: MainDeckCard
@@ -86795,6 +86886,7 @@
 
     If you would bump on the next turn roll, your opponent''s roll is instead -1.'
   tags: []
+  text_lines_count: 5
 - name: You're A Slow Horse
   db_uuid: c4e8c6e832a54058ac18c27b31b33aab
   card_type: MainDeckCard
@@ -86805,6 +86897,7 @@
 
     If you would bump on the next turn roll, your opponent''s roll is instead -1.'
   tags: []
+  text_lines_count: 5
 - name: Mancer Eye Gouge
   db_uuid: edc295abe72346a5bfbb8d4cae323199
   card_type: MainDeckCard
@@ -88629,6 +88722,7 @@
   deck_card_number: 8
   card_text: Search your deck for 1 card with "Ladder" in the name and add it to your hand, or each player buries 1 card in their hand.
   tags: []
+  text_lines_count: 5
   wants_keywords:
     - Ladder
 - name: Spinning Crackback
@@ -89913,6 +90007,7 @@
     If you have a card with "Training With" in the name revealed, you may draw 1 card and bury 1 card in your hand.'
   tags:
     - Saber of Light
+  text_lines_count: 8
   wants_keywords:
     - Training With
 - name: Dive Over the Competition

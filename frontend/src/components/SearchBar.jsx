@@ -11,6 +11,18 @@ const SELECT_CLASS = "bg-gray-900 text-white border border-gray-700 rounded p-2"
 
 const STAT_NAMES = ["power", "agility", "strike", "submission", "grapple", "technique"];
 
+// Skill-requirement filter options. Value is the token sent to the backend as
+// `has_requirements`: "" = no filter, "any" = has any requirement, or a stat
+// name to require that specific skill.
+const SKILL_REQ_OPTIONS = [
+  { value: "", label: "Any requirement" },
+  { value: "any", label: "Has skill requirement" },
+  ...STAT_NAMES.map((s) => ({
+    value: s,
+    label: `Requires ${s.charAt(0).toUpperCase() + s.slice(1)}`,
+  })),
+];
+
 // Comparison operators for stat filters. Value is the token sent to the backend;
 // label is what the user sees.
 const STAT_OPS = [
@@ -63,6 +75,7 @@ function normalizeDefaults(d) {
     statOps,
     pageSize: parseInt(d.limit ?? 20, 10) || 20,
     division: d.division ?? "",
+    skillReq: d.skillReq ?? "",
   };
 }
 
@@ -262,6 +275,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
   const [deckCardNumberMin, setDeckCardNumberMin] = useState("1");
   const [deckCardNumberMax, setDeckCardNumberMax] = useState("27");
   const [divisions, setDivisions] = useState([]);
+  const [skillReq, setSkillReq] = useState("");
 
   // Competitor stats
   const [power, setPower] = useState("");
@@ -299,6 +313,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     setStatOps(v.statOps);
     setPageSize(v.pageSize);
     setDivisions(parseDivisions(v.division));
+    setSkillReq(v.skillReq);
   }, [defaultValues]);
 
   // Emit each stat op as `${stat}_op`, omitting the default "eq".
@@ -326,6 +341,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
       technique,
       ...statOpParams(),
       division: divisions.join(","),
+      skillReq,
       limit: pageSize,
       ...extra, // allow overrides
     });
@@ -378,6 +394,7 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
     add("technique", technique);
     Object.entries(statOpParams()).forEach(([k, v]) => add(k, v));
     add("division", divisions.join(","));
+    add("skillReq", skillReq);
     // Keep current page size as a courtesy; TableView ignores pagination but might want to reflect "limit" in URL.
     add("limit", pageSize);
     navigate(`/table?${sp.toString()}`);
@@ -427,6 +444,21 @@ export default function SearchBar({ onSearch, defaultValues = {} }) {
         <option value="EntranceCard">Entrance</option>
         <option value="SpectacleCard">Spectacle</option>
         <option value="CrowdMeterCard">Crowd Meter</option>
+      </select>
+
+      {/* Skill Requirement — applies across card types (mostly Main Deck) */}
+      <select
+        value={skillReq}
+        onChange={(e) => setSkillReq(e.target.value)}
+        className={SELECT_CLASS}
+        aria-label="Skill requirement filter"
+        title="Filter to cards with skill requirements"
+      >
+        {SKILL_REQ_OPTIONS.map((o) => (
+          <option key={o.value || "none"} value={o.value}>
+            {o.label}
+          </option>
+        ))}
       </select>
 
       <MainDeckFilters

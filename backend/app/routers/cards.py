@@ -327,7 +327,12 @@ def normalize_for_matching(text: str) -> str:
 
 
 def _apply_common_filters(
-    qry, cls, q: Optional[str], is_banned: Optional[bool], release_set: Optional[str]
+    qry,
+    cls,
+    q: Optional[str],
+    is_banned: Optional[bool],
+    release_set: Optional[str],
+    has_requirements: Optional[str] = None,
 ):
     """Extract common filter logic to reduce complexity"""
     if q:
@@ -340,10 +345,35 @@ def _apply_common_filters(
         qry = qry.filter(cls.is_banned == is_banned)
     if release_set:
         qry = qry.filter(cls.release_set == release_set)
+    qry = _apply_requirements_filter(qry, cls, has_requirements)
     return qry
 
 
 STAT_NAMES = ("power", "agility", "strike", "submission", "grapple", "technique")
+
+
+def _apply_requirements_filter(qry, cls, has_requirements: Optional[str]):
+    """Filter by structured skill requirements.
+
+    Cards with no requirements store JSONB ``null`` (or an empty array), so
+    emptiness is tested with the jsonpath ``@?`` operator rather than an
+    ``IS NULL`` check. ``has_requirements`` may be:
+      - "any": cards carrying at least one requirement (``strict $[*]``
+        matches a non-empty array only; strict mode avoids lax-mode's
+        auto-wrapping of the JSON ``null`` used for empty requirements)
+      - a stat name (e.g. "strike"): cards requiring that specific skill,
+        matched against the ``min_<stat>`` key inside the JSONB array.
+    """
+    if not has_requirements:
+        return qry
+    if has_requirements == "any":
+        return qry.filter(cls.requirements.op("@?")("strict $[*]"))
+    if has_requirements in STAT_NAMES:
+        # `@?` tests a jsonpath against the JSONB array; `$[*].min_<stat>`
+        # matches when any element carries that skill key.
+        return qry.filter(cls.requirements.op("@?")(f"$[*].min_{has_requirements}"))
+    return qry
+
 
 # Comparison operators selectable per stat from the frontend. Unknown/missing
 # ops fall back to equality so older links (bare `power=5`) keep working.
@@ -386,13 +416,16 @@ def _query_single_competitors(
     divisions,
     stat_values,
     stat_ops,
+    has_requirements=None,
 ) -> List[Card]:
     """Query single competitor cards"""
     if card_type is not None and card_type != CardType.single_competitor.value:
         return []
 
     sq = db.query(SingleCompetitorCard)
-    sq = _apply_common_filters(sq, SingleCompetitorCard, q, is_banned, release_set)
+    sq = _apply_common_filters(
+        sq, SingleCompetitorCard, q, is_banned, release_set, has_requirements
+    )
 
     if card_type == CardType.single_competitor.value:
         sq = sq.filter(
@@ -414,6 +447,7 @@ def _query_tornado_trio_competitors(
     divisions,
     stat_values,
     stat_ops,
+    has_requirements=None,
 ) -> List[Card]:
     """Query tornado/trio competitor cards"""
     tt_types = [CardType.tornado_competitor.value, CardType.trio_competitor.value]
@@ -421,7 +455,9 @@ def _query_tornado_trio_competitors(
         return []
 
     cq = db.query(CompetitorCard)
-    cq = _apply_common_filters(cq, CompetitorCard, q, is_banned, release_set)
+    cq = _apply_common_filters(
+        cq, CompetitorCard, q, is_banned, release_set, has_requirements
+    )
 
     if card_type is None:
         cq = cq.filter(CompetitorCard.card_type.in_(tt_types))
@@ -445,13 +481,16 @@ def _query_main_deck_cards(
     play_order,
     deck_card_number_min,
     deck_card_number_max,
+    has_requirements=None,
 ) -> List[Card]:
     """Query main deck cards"""
     if card_type is not None and card_type != CardType.main_deck.value:
         return []
 
     mq = db.query(MainDeckCard)
-    mq = _apply_common_filters(mq, MainDeckCard, q, is_banned, release_set)
+    mq = _apply_common_filters(
+        mq, MainDeckCard, q, is_banned, release_set, has_requirements
+    )
 
     if atk_type in [e.value for e in AttackSubtype]:
         mq = mq.filter(MainDeckCard.atk_type == atk_type)
@@ -465,7 +504,9 @@ def _query_main_deck_cards(
     return mq.all()
 
 
-def _query_other_cards(db: Session, card_type, q, is_banned, release_set) -> List[Card]:
+def _query_other_cards(
+    db: Session, card_type, q, is_banned, release_set, has_requirements=None
+) -> List[Card]:
     """Query entrance, spectacle, crowd meter cards"""
     other_types = {
         CardType.entrance.value,
@@ -476,7 +517,7 @@ def _query_other_cards(db: Session, card_type, q, is_banned, release_set) -> Lis
         return []
 
     oq = db.query(Card)
-    oq = _apply_common_filters(oq, Card, q, is_banned, release_set)
+    oq = _apply_common_filters(oq, Card, q, is_banned, release_set, has_requirements)
 
     if card_type in other_types:
         oq = oq.filter(Card.card_type == card_type)
@@ -513,6 +554,11 @@ def list_cards(
     grapple_op: Optional[str] = Query(None),
     technique_op: Optional[str] = Query(None),
     division: Optional[str] = Query(None, min_length=0, max_length=200),
+    has_requirements: Optional[str] = Query(
+        None,
+        description="Filter by skill requirements: 'any' for any requirement, or a "
+        "stat name (power/agility/strike/submission/grapple/technique).",
+    ),
 ):
     """
     Robust list endpoint with reduced complexity.
@@ -548,6 +594,7 @@ def list_cards(
         divisions,
         stat_values,
         stat_ops,
+        has_requirements,
     )
 
     items += _query_tornado_trio_competitors(
@@ -559,6 +606,7 @@ def list_cards(
         divisions,
         stat_values,
         stat_ops,
+        has_requirements,
     )
 
     items += _query_main_deck_cards(
@@ -571,9 +619,12 @@ def list_cards(
         play_order,
         deck_card_number_min,
         deck_card_number_max,
+        has_requirements,
     )
 
-    items += _query_other_cards(db, card_type, q, is_banned, release_set)
+    items += _query_other_cards(
+        db, card_type, q, is_banned, release_set, has_requirements
+    )
 
     # Sort and paginate
     reverse = sort_order == "desc"

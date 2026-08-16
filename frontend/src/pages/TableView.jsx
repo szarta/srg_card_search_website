@@ -20,6 +20,7 @@ function buildQuery(filters, limit, offset) {
   if (filters.cardType) q.append("card_type", filters.cardType);
   if (filters.atkType) q.append("atk_type", filters.atkType);
   if (filters.division) q.append("division", filters.division);
+  if (filters.skillReq) q.append("has_requirements", filters.skillReq);
 
   if (filters.playOrder) {
     const po = filters.playOrder === "Follow Up" ? "Followup" : filters.playOrder;
@@ -94,6 +95,7 @@ function parseFilters(searchParams) {
     deckCardNumberMin: obj.deckCardNumberMin || "1",
     deckCardNumberMax: obj.deckCardNumberMax || "27",
     division: obj.division || "",
+    skillReq: obj.skillReq || "",
   };
   STAT_KEYS.forEach((k) => {
     filters[k] = obj[k] || "";

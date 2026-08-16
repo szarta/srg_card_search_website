@@ -18,6 +18,7 @@ const FILTER_KEYS = [
   ...STAT_KEYS,
   ...STAT_OP_KEYS, // per-stat comparison operators
   "division",
+  "skillReq", // skill-requirement filter ("any" or a stat name)
 ];
 
 const DEFAULT_LIMIT = 20;
@@ -74,6 +75,9 @@ function buildFetchParams(f, pNum, lNum) {
   // Forward division (comma-separated multi-select) to backend
   if (f.division) params.append("division", f.division);
 
+  // Forward skill-requirement filter ("any" or a specific stat name)
+  if (f.skillReq) params.append("has_requirements", f.skillReq);
+
   params.append("limit", String(lNum));
   params.append("offset", String((pNum - 1) * lNum));
   return params;
@@ -109,6 +113,7 @@ export default function Home() {
     grapple: "",
     technique: "",
     division: "",   // NEW
+    skillReq: "",
   });
 
   const [page, setPage] = useState(1);

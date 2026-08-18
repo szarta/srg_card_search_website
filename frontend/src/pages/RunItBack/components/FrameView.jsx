@@ -91,7 +91,11 @@ const ACTION_LABELERS = {
     `${a.player} stops ${refName(a.stopped, cards)} with ${refName(a.card, cards)}` +
     (a.reason ? ` (${a.reason})` : ""),
   turn_result: (a) =>
-    `${a.winner} wins the roll-off${a.tie_bumps ? ` after ${a.tie_bumps} tie bump(s)` : ""}`,
+    `${a.winner} wins the roll-off` +
+    // `value`/`opponent_value` are the winning and losing totals (additive fields);
+    // show the score when the record carries them.
+    (a.value != null ? ` ${a.value}–${a.opponent_value}` : "") +
+    (a.tie_bumps ? ` after ${a.tie_bumps} tie bump(s)` : ""),
   // A pass carries the seat and nothing else. The card it recycles to the bottom
   // of the deck arrives as its own `bury` right after — unless the discard was
   // empty, in which case this frame is the whole of what happened.
@@ -146,7 +150,7 @@ export function frameCardUuids(frames) {
 // several frames (A rolls, B rolls, result) and a viewer sitting on any one of
 // them should still see the whole exchange.
 export function rollOff(frames, at) {
-  const out = { exchanges: [], winner: null, tieBumps: 0 };
+  const out = { exchanges: [], winner: null, tieBumps: 0, winnerValue: null, opponentValue: null };
   if (!frames?.[at]) return out;
   const turn = frames[at].turn_no;
   let current = {};
@@ -164,6 +168,11 @@ export function rollOff(frames, at) {
     if (a.type === "turn_result") {
       out.winner = a.winner;
       out.tieBumps = a.tie_bumps ?? 0;
+      // The authoritative final (post-modifier/bump) totals — the numbers actually
+      // compared to decide the turn. Newer records carry them; older archives don't,
+      // so they stay null and the panel falls back to the roll frames "as made".
+      if (a.value != null) out.winnerValue = a.value;
+      if (a.opponent_value != null) out.opponentValue = a.opponent_value;
     }
   }
   if (Object.keys(current).length) out.exchanges.push(current);
@@ -194,11 +203,23 @@ const modText = (mods) =>
 // Some competitors and effects make the LOWEST roll take the turn, and a frame
 // does not carry which comparison applied.
 export function RollOff({ frames, at, names, seatLabels }) {
-  const { exchanges, winner, tieBumps } = rollOff(frames, at);
+  const { exchanges, winner, tieBumps, winnerValue, opponentValue } = rollOff(frames, at);
   if (!exchanges.length) return null;
   const deciding = exchanges[exchanges.length - 1];
   const earlier = exchanges.slice(0, -1);
-  const upset = winner && deciding[winner] && !isHighest(deciding, winner);
+  const seats = ["A", "B"].filter((s) => deciding[s]);
+  const loser = winner ? seats.find((s) => s !== winner) : null;
+  // The winning/losing totals as actually compared, when the record carries them —
+  // these are the winning roll, so we headline them instead of the "as made" values.
+  const haveFinal = winner != null && winnerValue != null;
+  const finalOf = (seat) =>
+    !haveFinal ? null : seat === winner ? winnerValue : seat === loser ? opponentValue : null;
+  // With authoritative totals the numbers shown ARE the compared ones, so an upset is
+  // simply the lowest total taking the turn; without them we fall back to the old
+  // "the winner isn't the highest logged number" heuristic (which the tooltip caveats).
+  const upset = haveFinal
+    ? loser != null && finalOf(winner) < finalOf(loser)
+    : Boolean(winner && deciding[winner] && !isHighest(deciding, winner));
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-900/70 p-3">
       <div className="mb-2 flex items-baseline justify-between">
@@ -207,6 +228,7 @@ export function RollOff({ frames, at, names, seatLabels }) {
           <span className="text-xs text-emerald-300">
             {/* "won", not "takes" — the label may be "You", and "You takes" reads badly. */}
             {seatLabels[winner]} won the roll-off
+            {haveFinal ? ` ${winnerValue}–${opponentValue}` : ""}
             {tieBumps ? ` (after ${tieBumps} tie bump${tieBumps === 1 ? "" : "s"})` : ""}
           </span>
         )}
@@ -217,7 +239,9 @@ export function RollOff({ frames, at, names, seatLabels }) {
           className="mb-2 text-xs text-amber-300/90"
           title="A roll is recorded as it was made. Boosts, skill switches and re-rolls applied afterwards — and gimmicks that make the lowest roll win — are not in the frame, so the numbers shown are not always the ones compared."
         >
-          decided against the numbers shown — see tooltip
+          {haveFinal
+            ? "the lowest total took the turn"
+            : "decided against the numbers shown — see tooltip"}
         </div>
       )}
 
@@ -226,17 +250,16 @@ export function RollOff({ frames, at, names, seatLabels }) {
       ))}
 
       <div className="grid gap-2 sm:grid-cols-2">
-        {["A", "B"]
-          .filter((s) => deciding[s])
-          .map((seat) => (
-            <RollLine
-              key={seat}
-              roll={deciding[seat]}
-              label={`${seatLabels[seat]} · ${names[seat]}`}
-              won={winner === seat}
-              decided={Boolean(winner)}
-            />
-          ))}
+        {seats.map((seat) => (
+          <RollLine
+            key={seat}
+            roll={deciding[seat]}
+            final={finalOf(seat)}
+            label={`${seatLabels[seat]} · ${names[seat]}`}
+            won={winner === seat}
+            decided={Boolean(winner)}
+          />
+        ))}
       </div>
     </div>
   );
@@ -254,8 +277,13 @@ function BumpedExchange({ exchange, seatLabels }) {
   );
 }
 
-function RollLine({ roll, label, won, decided }) {
+function RollLine({ roll, final, label, won, decided }) {
   const mods = modText(roll.mods);
+  // `final` (the total compared to decide the turn) is the winning roll; headline it.
+  // When it differs from the roll "as made", show the as-made value as context so the
+  // post-roll adjustment (a boost, skill switch, or re-roll) is still legible.
+  const headline = final != null ? final : roll.value;
+  const adjusted = final != null && final !== roll.value;
   return (
     <div
       className={[
@@ -265,13 +293,15 @@ function RollLine({ roll, label, won, decided }) {
       ].join(" ")}
     >
       <span className={`font-mono text-3xl leading-none ${won ? "text-emerald-300" : "text-gray-200"}`}>
-        {roll.value}
+        {headline}
       </span>
       <div className="min-w-0">
         <div className="truncate text-sm text-gray-200">{roll.skill}</div>
         <div className="truncate text-[11px] text-gray-500">
           {label}
-          {roll.base != null && roll.base !== roll.value && ` · base ${roll.base}`}
+          {adjusted
+            ? ` · rolled ${roll.value}`
+            : roll.base != null && roll.base !== roll.value && ` · base ${roll.base}`}
         </div>
         {mods && <div className="truncate text-[11px] text-amber-300/80" title={mods}>{mods}</div>}
       </div>

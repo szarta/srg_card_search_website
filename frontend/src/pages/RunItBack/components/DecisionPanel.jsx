@@ -62,6 +62,9 @@ const POINT_LABELERS = {
   return_to_hand: (o, n, w) => `Return ${n} to hand${w}`,
   bury: (o, n, w) => `Bury ${n}${w}`,
   discard: (o, n) => `Discard ${n}`,
+  // "Discard any number" (Dismantler): pick a card to discard, or stop with what
+  // you've discarded so far — a real choice, so you are never forced to empty out.
+  coupled_discard: (o, n) => (o.kind === "none" ? "Done — discard no more" : `Discard ${n}`),
   bury_hand: (o, n) => `Discard ${n}`,
   discard_opp_hand: (o, n) => `Discard opponent's ${n}`,
   bury_opp_hand: (o, n) => `Bury opponent's ${n}`,
@@ -95,6 +98,7 @@ const POINT_PROMPT = {
   return_to_hand: "Return an in-play card to hand",
   bury: "Bury a card to the bottom of a deck",
   discard: "Discard a card from your hand",
+  coupled_discard: "Discard any number of cards — pick more, or stop",
   discard_opp_hand: "Force an opponent's card to discard",
   bury_hand: "Bury a card from your hand",
   bury_opp_hand: "Bury a card from the opponent's hand",

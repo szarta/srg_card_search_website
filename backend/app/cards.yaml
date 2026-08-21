@@ -91207,3 +91207,24 @@
   tags: []
   related_cards:
     - 50e90f21e5e348acb4f4a9431ec99ad9
+- name: Toe-to-Toe Showdown
+  db_uuid: 7c79f8fdd5894a2db478d231495f4a99
+  card_type: EntranceCard
+  card_text: 'If you ropponent has "Jump the Bell" revealed, your first turn roll is -3.
+
+    After the first turn roll, draw 1 card.'
+  tags: []
+- name: Streamer Celebration
+  db_uuid: d0925e2e404143289f5edcdeb9194ec9
+  card_type: EntranceCard
+  card_text: 'Once per match:
+
+    If you ended your turn without playing a card, your target shuffles their hand into their deck and adds the same number of cards from the top of their deck to their hand.'
+  tags: []
+- name: Don't Mess With My Cheese
+  db_uuid: f7f8f01d079d4affbb08fa2a89d367a6
+  card_type: EntranceCard
+  card_text: 'Once per match:
+
+    If you ended your turn without playing a card, bury 2 cards in your discard pile.'
+  tags: []

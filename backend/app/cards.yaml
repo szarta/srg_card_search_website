@@ -91232,6 +91232,7 @@
     If you ended your turn without playing a card, bury 2 cards in your discard pile.'
   tags: []
 - name: The Good Brothers
+  card_type: TornadoCompetitorCard
   db_uuid: 0a1969f947ed4ca3936079cc88de22b1
   power: 18
   technique: 14

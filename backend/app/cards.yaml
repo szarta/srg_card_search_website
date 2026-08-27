@@ -91232,8 +91232,8 @@
     If you ended your turn without playing a card, bury 2 cards in your discard pile.'
   tags: []
 - name: The Good Brothers
-  card_type: TornadoCompetitorCard
   db_uuid: 0a1969f947ed4ca3936079cc88de22b1
+  card_type: TornadoCompetitorCard
   power: 18
   technique: 14
   agility: 10
@@ -91241,11 +91241,6 @@
   submission: 12
   grapple: 20
   tags: []
-  rules_text: 'Once per turn:
-
-    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.
-
-    When your opponent hits a card: If you rolled Power for your turn roll, they discard 2 cards from their hand.'
   related_cards:
     - fb005f38b84144d2ab8c377b3fbe3c43
     - 2c8deb6b63c248989e27dfc2a9a4a0dd
@@ -91253,6 +91248,11 @@
     - edd25a6bbd104dd0beb3e083dd5216d4
     - a8082093cb2347f68f3a1b34627aa3fc
     - b6986b2204014aa587e72bfb130c3beb
+  rules_text: 'Once per turn:
+
+    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.
+
+    When your opponent hits a card: If you rolled Power for your turn roll, they discard 2 cards from their hand.'
 - name: The Hardys
   db_uuid: 17581fbc1af44bf4b0efd8e6b9b53e2a
   card_type: TornadoCompetitorCard
@@ -91312,3 +91312,62 @@
   related_cards:
     - 17581fbc1af44bf4b0efd8e6b9b53e2a
   rules_text: If this is the first turn of the game, this card is also a Lead or +10 to Submission.
+- name: Jeff Hardy
+  db_uuid: c6c2a56b202541bfab598891fc3602d1
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 8
+  tags: []
+  related_finishes:
+    - 7db787b4552c4190ab8a708eca8a3fd5
+    - d22785b286da4d33850fcf6b01af3d25
+    - 6fd814f6fc424ca8ac1a7f524517d66c
+  rules_text: 'When you roll Agility for your turn roll: discard 2 cards from your hand, then add 1 card from your discard pile to your hand.'
+- name: Swanton Bomb
+  db_uuid: 7db787b4552c4190ab8a708eca8a3fd5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
+  rules_text: '+2 to Power
+
+    +2 to Technique
+
+    +1 to Strike
+
+    If this match has "Cage" or "Ladder" in the name, the Crowd Meter is +1.'
+- name: Twist of Fate
+  db_uuid: d22785b286da4d33850fcf6b01af3d25
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
+  rules_text: '+3 to Submission
+
+    +2 to Grapple
+
+    The next time you roll Submission, you may discard 1 card from your hand to re-roll your roll.'
+- name: Spinal Destination
+  db_uuid: 6fd814f6fc424ca8ac1a7f524517d66c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
+  rules_text: '+2 to Technique
+
+    +2 to Submission
+
+    Search your deck or discard pile for "Swanton Bomb" and "Twist of Fate" and add those cards to your hand.'

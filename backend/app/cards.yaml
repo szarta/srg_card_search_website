@@ -88200,9 +88200,9 @@
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  card_text: 'If you have a card with "Sault" in teh name in play, your Finish roll is +1.
+  card_text: 'If you have a card with "Sault" in the name in play, your Finish roll is +1.
 
-    If you have a card with "Sky" in teh name in play, once per turn: You may re-roll your Finish roll.'
+    If you have a card with "Sky" in the name in play, once per turn: You may re-roll your Finish roll.'
   tags: []
   related_cards:
     - 118a839bd2574376acc5489f6ef6e9c3
@@ -91240,6 +91240,11 @@
   strike: 16
   submission: 12
   grapple: 20
+  card_text: 'Once per turn:
+
+    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.
+
+    When your opponent hits a card: If you rolled Power for your turn roll, they discard 2 cards from their hand.'
   tags: []
   related_cards:
     - fb005f38b84144d2ab8c377b3fbe3c43
@@ -91248,11 +91253,6 @@
     - edd25a6bbd104dd0beb3e083dd5216d4
     - a8082093cb2347f68f3a1b34627aa3fc
     - b6986b2204014aa587e72bfb130c3beb
-  rules_text: 'Once per turn:
-
-    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.
-
-    When your opponent hits a card: If you rolled Power for your turn roll, they discard 2 cards from their hand.'
 - name: The Hardys
   db_uuid: 17581fbc1af44bf4b0efd8e6b9b53e2a
   card_type: TornadoCompetitorCard
@@ -91262,38 +91262,35 @@
   strike: 12
   submission: 10
   grapple: 20
+  card_text: When you roll Strike, Grapple, or Submission, add 1 Finish of that move type from your discard pile to your hand.
   tags: []
   related_finishes:
     - d4e8a43b7a2445248edc2085c3c6cb48
     - 52cf43c4cba7424483dbf75e1b12499d
     - ebaf2c4ebed748c099401491c35ebd2c
-  rules_text: When you roll Strike, Grapple, or Submission, add 1 Finish of that move type from your discard pile to your hand.
 - name: Poetry in Motion
   db_uuid: d4e8a43b7a2445248edc2085c3c6cb48
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  tags: []
-  related_cards:
-    - 17581fbc1af44bf4b0efd8e6b9b53e2a
-  rules_text: '+2 to Agility
+  card_text: '+2 to Agility
 
     +6 to Strike
 
     Add 1 card from your discard pile to your hand.  You may search your deck for 1 Strike and put itinto your discard pile.
 
     Shuffle your deck.'
+  tags: []
+  related_cards:
+    - 17581fbc1af44bf4b0efd8e6b9b53e2a
 - name: Extreme Combination
   db_uuid: 52cf43c4cba7424483dbf75e1b12499d
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  tags: []
-  related_cards:
-    - 17581fbc1af44bf4b0efd8e6b9b53e2a
-  rules_text: '+2 to Technique
+  card_text: '+2 to Technique
 
     +1 to Agility
 
@@ -91302,16 +91299,19 @@
     This card is also a Finish Strike.
 
     This card will only be stopped by 2 stops.'
+  tags: []
+  related_cards:
+    - 17581fbc1af44bf4b0efd8e6b9b53e2a
 - name: That Hardys Pop
   db_uuid: ebaf2c4ebed748c099401491c35ebd2c
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
+  card_text: If this is the first turn of the game, this card is also a Lead or +10 to Submission.
   tags: []
   related_cards:
     - 17581fbc1af44bf4b0efd8e6b9b53e2a
-  rules_text: If this is the first turn of the game, this card is also a Lead or +10 to Submission.
 - name: Jeff Hardy
   db_uuid: c6c2a56b202541bfab598891fc3602d1
   card_type: SingleCompetitorCard
@@ -91321,53 +91321,112 @@
   strike: 9
   submission: 5
   grapple: 8
+  card_text: 'When you roll Agility for your turn roll: discard 2 cards from your hand, then add 1 card from your discard pile to your hand.'
   tags: []
   related_finishes:
     - 7db787b4552c4190ab8a708eca8a3fd5
     - d22785b286da4d33850fcf6b01af3d25
     - 6fd814f6fc424ca8ac1a7f524517d66c
-  rules_text: 'When you roll Agility for your turn roll: discard 2 cards from your hand, then add 1 card from your discard pile to your hand.'
 - name: Swanton Bomb
   db_uuid: 7db787b4552c4190ab8a708eca8a3fd5
   card_type: MainDeckCard
   atk_type: Strike
   play_order: Finish
   deck_card_number: 28
-  tags: []
-  related_cards:
-    - c6c2a56b202541bfab598891fc3602d1
-  rules_text: '+2 to Power
+  card_text: '+2 to Power
 
     +2 to Technique
 
     +1 to Strike
 
     If this match has "Cage" or "Ladder" in the name, the Crowd Meter is +1.'
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
 - name: Twist of Fate
   db_uuid: d22785b286da4d33850fcf6b01af3d25
   card_type: MainDeckCard
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  tags: []
-  related_cards:
-    - c6c2a56b202541bfab598891fc3602d1
-  rules_text: '+3 to Submission
+  card_text: '+3 to Submission
 
     +2 to Grapple
 
     The next time you roll Submission, you may discard 1 card from your hand to re-roll your roll.'
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
 - name: Spinal Destination
   db_uuid: 6fd814f6fc424ca8ac1a7f524517d66c
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
-  tags: []
-  related_cards:
-    - c6c2a56b202541bfab598891fc3602d1
-  rules_text: '+2 to Technique
+  card_text: '+2 to Technique
 
     +2 to Submission
 
     Search your deck or discard pile for "Swanton Bomb" and "Twist of Fate" and add those cards to your hand.'
+  tags: []
+  related_cards:
+    - c6c2a56b202541bfab598891fc3602d1
+- name: Elayna Black
+  db_uuid: a466d4a8625e453ca670e877d709d76b
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 10
+  card_text: When your target rolls Grapple for their turn roll, you may bump.
+  tags: []
+  related_finishes:
+    - 301dca850cde48cba432eb19595bace6
+    - 7c01c4800acb4211bf4af249381af96b
+    - 80d1de2469db483cb27e99965547ed66
+- name: Springboard Double Foot Stomp
+  db_uuid: 301dca850cde48cba432eb19595bace6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +2 to Agility
+
+    Draw 2 cards.
+
+    If you bumped on the previous turn roll, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - a466d4a8625e453ca670e877d709d76b
+- name: Black Out
+  db_uuid: 7c01c4800acb4211bf4af249381af96b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +2 to Submission
+
+    If your opponent rolled Grapple for their turn roll, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - a466d4a8625e453ca670e877d709d76b
+- name: Elayna's Chin Lock
+  db_uuid: 80d1de2469db483cb27e99965547ed66
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Technique
+
+    Once per turn:
+
+    If your target rolled Grapple for their turn roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - a466d4a8625e453ca670e877d709d76b

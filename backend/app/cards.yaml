@@ -91112,6 +91112,7 @@
   related_cards:
     - 2c8deb6b63c248989e27dfc2a9a4a0dd
     - fb005f38b84144d2ab8c377b3fbe3c43
+    - 0a1969f947ed4ca3936079cc88de22b1
 - name: The Magic Killer
   db_uuid: a8082093cb2347f68f3a1b34627aa3fc
   card_type: MainDeckCard
@@ -91131,6 +91132,7 @@
   related_cards:
     - 2c8deb6b63c248989e27dfc2a9a4a0dd
     - fb005f38b84144d2ab8c377b3fbe3c43
+    - 0a1969f947ed4ca3936079cc88de22b1
 - name: Gallow's Pole
   db_uuid: b6986b2204014aa587e72bfb130c3beb
   card_type: MainDeckCard
@@ -91146,6 +91148,7 @@
   related_cards:
     - 2c8deb6b63c248989e27dfc2a9a4a0dd
     - fb005f38b84144d2ab8c377b3fbe3c43
+    - 0a1969f947ed4ca3936079cc88de22b1
 - name: Ms. Flawless
   db_uuid: 50e90f21e5e348acb4f4a9431ec99ad9
   card_type: SingleCompetitorCard
@@ -91228,3 +91231,83 @@
 
     If you ended your turn without playing a card, bury 2 cards in your discard pile.'
   tags: []
+- name: The Good Brothers
+  db_uuid: 0a1969f947ed4ca3936079cc88de22b1
+  power: 18
+  technique: 14
+  agility: 10
+  strike: 16
+  submission: 12
+  grapple: 20
+  tags: []
+  rules_text: 'Once per turn:
+
+    When your opponent stops your Grapple, if you rolled Grapple for your turn roll, you may play that card again from your discard pile as an additional card this turn.
+
+    When your opponent hits a card: If you rolled Power for your turn roll, they discard 2 cards from their hand.'
+  related_cards:
+    - fb005f38b84144d2ab8c377b3fbe3c43
+    - 2c8deb6b63c248989e27dfc2a9a4a0dd
+  related_finishes:
+    - edd25a6bbd104dd0beb3e083dd5216d4
+    - a8082093cb2347f68f3a1b34627aa3fc
+    - b6986b2204014aa587e72bfb130c3beb
+- name: The Hardys
+  db_uuid: 17581fbc1af44bf4b0efd8e6b9b53e2a
+  card_type: TornadoCompetitorCard
+  power: 16
+  technique: 14
+  agility: 18
+  strike: 12
+  submission: 10
+  grapple: 20
+  tags: []
+  related_finishes:
+    - d4e8a43b7a2445248edc2085c3c6cb48
+    - 52cf43c4cba7424483dbf75e1b12499d
+    - ebaf2c4ebed748c099401491c35ebd2c
+  rules_text: When you roll Strike, Grapple, or Submission, add 1 Finish of that move type from your discard pile to your hand.
+- name: Poetry in Motion
+  db_uuid: d4e8a43b7a2445248edc2085c3c6cb48
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  tags: []
+  related_cards:
+    - 17581fbc1af44bf4b0efd8e6b9b53e2a
+  rules_text: '+2 to Agility
+
+    +6 to Strike
+
+    Add 1 card from your discard pile to your hand.  You may search your deck for 1 Strike and put itinto your discard pile.
+
+    Shuffle your deck.'
+- name: Extreme Combination
+  db_uuid: 52cf43c4cba7424483dbf75e1b12499d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  tags: []
+  related_cards:
+    - 17581fbc1af44bf4b0efd8e6b9b53e2a
+  rules_text: '+2 to Technique
+
+    +1 to Agility
+
+    +4 to Strike
+
+    This card is also a Finish Strike.
+
+    This card will only be stopped by 2 stops.'
+- name: That Hardys Pop
+  db_uuid: ebaf2c4ebed748c099401491c35ebd2c
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  tags: []
+  related_cards:
+    - 17581fbc1af44bf4b0efd8e6b9b53e2a
+  rules_text: If this is the first turn of the game, this card is also a Lead or +10 to Submission.

@@ -75893,6 +75893,19 @@
   tags: []
   related_cards:
     - ab42b20b29f64d29954f90ab0ac00bb8
+- name: Bad Boy Ref
+  db_uuid: c43266612ad54b14893e2adaa14f286b
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 10
+  card_text: 'Once per turn:
+
+    When your opponent discards a single card of a particular move type from their hand due to card effects, you may add one card of the same move type from your discard pile to your hand.'
+  tags: []
 - name: Ref Dave
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999
   srgpc_url: https://www.srgpc.net/competitor/ref-dave/
@@ -75910,6 +75923,7 @@
     - 935b0b797580455a8a142e7b39705b11
     - daa51d55022f47d6952ea739978e5517
     - 5161f54c17674788a7f23b3effb7a897
+    - 36d87301e65c45118a06e5f3e12faa8a
 - name: Bell Ringer
   db_uuid: 935b0b797580455a8a142e7b39705b11
   card_type: MainDeckCard
@@ -75961,6 +75975,38 @@
   tags: []
   related_cards:
     - 1d9b3cf7c70a4e2884608942d3901999
+- name: The Hard Counter
+  db_uuid: 36d87301e65c45118a06e5f3e12faa8a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Submission
+
+    Your opponent''s Strike skill is -2.
+
+    When this card is in your discard pile:
+
+    When your target won the last turn roll, your turn roll is +1;
+
+    if your target won the last 2 turn rolls, your turn roll is +2 instead.'
+  tags: []
+  related_cards:
+    - 1d9b3cf7c70a4e2884608942d3901999
+- name: '...And Still'
+  db_uuid: e2c45fff64ae4dffa2ab33f3e38d1f99
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +2 to Agility
+
+    +1 to Submission
+
+    You Lose the match via disqualification.'
+  tags: []
 - name: Rockstar Joey Sins
   db_uuid: d2d94474f54c430197061e0c2531012c
   card_type: SingleCompetitorCard

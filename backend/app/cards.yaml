@@ -91510,3 +91510,58 @@
   tags: []
   related_cards:
     - a466d4a8625e453ca670e877d709d76b
+- name: The Matador
+  db_uuid: 936973e3117943788ad42fb963803c2a
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 8
+  agility: 10
+  strike: 6
+  submission: 9
+  grapple: 7
+  card_text: When you stop a Strike, you may play a Lead Grapple or Follow Up Grapple from your hand as if it were your turn.
+  tags: []
+  related_finishes:
+    - c03dc9f350aa424690f1d1ceedb74ece
+    - 28df851d3bd0420fb2c165eb98f7359d
+    - 27bb6bf268d54e2ba43fb00a2547d3d4
+- name: Flying Salamanca Attack
+  db_uuid: c03dc9f350aa424690f1d1ceedb74ece
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Power
+
+    +3 to Strike
+
+    If stopped, shuffle 1 Grapple from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 936973e3117943788ad42fb963803c2a
+- name: Rolling Ibiza Drop
+  db_uuid: 28df851d3bd0420fb2c165eb98f7359d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: 'Your opponent''s Power and Technique are -2.
+
+    Shuffle any number of Grapples from your discard pile into your deck.
+
+    If you stopped a Finish Strike this turn, this card is also a Follow Up Grapple for your effects.'
+  tags: []
+  related_cards:
+    - 936973e3117943788ad42fb963803c2a
+- name: ¡No La Cara!
+  db_uuid: 27bb6bf268d54e2ba43fb00a2547d3d4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+4 to Power
+
+    When this card is in your discard pile: Your opponent''s Submissions are considered Strikes for your Gimmick.'
+  tags: []
+  related_cards:
+    - 936973e3117943788ad42fb963803c2a

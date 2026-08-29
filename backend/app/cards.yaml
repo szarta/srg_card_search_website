@@ -75893,19 +75893,6 @@
   tags: []
   related_cards:
     - ab42b20b29f64d29954f90ab0ac00bb8
-- name: Bad Boy Ref
-  db_uuid: c43266612ad54b14893e2adaa14f286b
-  card_type: SingleCompetitorCard
-  power: 8
-  technique: 5
-  agility: 7
-  strike: 6
-  submission: 9
-  grapple: 10
-  card_text: 'Once per turn:
-
-    When your opponent discards a single card of a particular move type from their hand due to card effects, you may add one card of the same move type from your discard pile to your hand.'
-  tags: []
 - name: Ref Dave
   db_uuid: 1d9b3cf7c70a4e2884608942d3901999
   srgpc_url: https://www.srgpc.net/competitor/ref-dave/
@@ -75993,6 +75980,37 @@
   tags: []
   related_cards:
     - 1d9b3cf7c70a4e2884608942d3901999
+- name: Bad Boy Ref
+  db_uuid: c43266612ad54b14893e2adaa14f286b
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 7
+  strike: 6
+  submission: 9
+  grapple: 10
+  card_text: 'Once per turn:
+
+    When your opponent discards a single card of a particular move type from their hand due to card effects, you may add one card of the same move type from your discard pile to your hand.'
+  tags: []
+  related_finishes:
+    - 4cbd13f014f84bb49094ceb58f069a5f
+    - e2c45fff64ae4dffa2ab33f3e38d1f99
+    - f076870e86ba49a483986f30ca74295e
+- name: Screw Job Lariat
+  db_uuid: 4cbd13f014f84bb49094ceb58f069a5f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +3 to Strike
+
+    Look at your opponent''s hand, choose 1 card and discard it.'
+  tags: []
+  related_cards:
+    - c43266612ad54b14893e2adaa14f286b
 - name: '...And Still'
   db_uuid: e2c45fff64ae4dffa2ab33f3e38d1f99
   card_type: MainDeckCard
@@ -76007,6 +76025,22 @@
 
     You Lose the match via disqualification.'
   tags: []
+  related_cards:
+    - c43266612ad54b14893e2adaa14f286b
+- name: Stockholm Syndrome
+  db_uuid: f076870e86ba49a483986f30ca74295e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: 'Your opponent''s Technique is -2.
+
+    Your opponent''s Agility is -2.
+
+    Your opponent randomly discards 1 card from their hand; you may copy its text.'
+  tags: []
+  related_cards:
+    - c43266612ad54b14893e2adaa14f286b
 - name: Rockstar Joey Sins
   db_uuid: d2d94474f54c430197061e0c2531012c
   card_type: SingleCompetitorCard

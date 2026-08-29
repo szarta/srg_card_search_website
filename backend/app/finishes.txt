@@ -3,20 +3,18 @@
   atk_type: Strike
   play_order: Finish
   card_type: MainDeckCard
-  rules_text: ""
+  card_text: ""
 
 - name: ""
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
   card_type: MainDeckCard
-  rules_text: ""
+  card_text: ""
 
 - name: ""
   atk_type: Submission
   play_order: Finish
   deck_card_number: 30
   card_type: MainDeckCard
-  rules_text: ""
-
-
+  card_text: ""

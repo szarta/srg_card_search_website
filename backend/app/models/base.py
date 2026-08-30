@@ -9,11 +9,13 @@ from sqlalchemy import (
     Boolean,
     Enum,
     Integer,
+    BigInteger,
     ForeignKey,
     Table,
     DateTime,
     Text,
     JSON,
+    text,
 )
 from sqlalchemy.orm import relationship, declarative_base
 from sqlalchemy.dialects.postgresql import ARRAY, TEXT, JSONB
@@ -331,6 +333,73 @@ class GameRecord(Base):
         )
 
 
+class Match(Base):
+    """A Run It Back player-vs-player match.
+
+    This table's rows are WRITTEN by the Rust ``srg-match-server`` (the
+    snapshot-authoritative referee: it owns the create/join/submit lifecycle and
+    all engine-state columns). This SQLAlchemy model is the AUTHORITATIVE SCHEMA
+    for that shared table — ``create_rib_tables.py`` creates it additively at
+    deploy, and the Rust service's own ``CREATE TABLE`` (``pg.rs``) is only a
+    dev-mode subset. FastAPI never mutates a match; it only READS these rows, to
+    mint seat tokens (``rib_match_token``) and to list a user's games.
+
+    The columns mirror ``srg_sim`` ``match-server/src/pg.rs`` exactly. The three
+    JSON blobs (``deck_a``, ``snapshot``, ``result``) are engine-serialized JSON
+    the Rust side stores via ``serde_json::to_string`` into a text column, so they
+    are ``Text`` (not ``JSON``) to preserve that string round-trip.
+
+    Every column the Rust ``INSERT`` on *create* omits (``seat_b_user``,
+    ``snapshot``, ``whose_turn``, ``result`` and the defaulted ``finished`` /
+    ``seq``) is nullable or carries a DB-level ``server_default`` — an ORM-only
+    ``default=`` would not fire for the Rust raw-SQL writer.
+
+    ``seat_a_user`` / ``seat_b_user`` hold a ``rib_users.id`` (the opaque user id
+    the seat token carries as ``sub``). No ORM ``relationship`` is declared — the
+    reads are explicit seat-filtered queries, which sidesteps the two-FKs-to-one-
+    table disambiguation and keeps this a pure schema mirror.
+    """
+
+    __tablename__ = "rib_matches"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    # Seat bindings → rib_users.id. Seat B is null while the match is `pending`.
+    # Indexed: the games-list query filters on `seat_a_user = me OR seat_b_user = me`.
+    seat_a_user = Column(String, ForeignKey("rib_users.id"), nullable=False, index=True)
+    seat_b_user = Column(String, ForeignKey("rib_users.id"), nullable=True, index=True)
+
+    # Seat A's enriched deck (engine JSON as text); seat B's lives inside `snapshot`.
+    deck_a = Column(Text, nullable=False)
+    # u64 replay seed (Rust binds it as i64 → BIGINT).
+    seed = Column(BigInteger, nullable=False)
+    # One-time code the creator shares out-of-band for seat B to redeem.
+    join_code = Column(String, nullable=False)
+
+    # 'private' (default) | 'public' — the creator's choice for the saved record.
+    visibility = Column(String(16), nullable=False, server_default=text("'private'"))
+    # 'pending' (awaiting seat B) | 'active' | 'finished'.
+    status = Column(String(16), nullable=False, server_default=text("'pending'"))
+
+    # Engine state, all written by the match-server. Null until seat B joins.
+    # Self-contained SessionSnapshot string — restore() rebuilds the match.
+    snapshot = Column(Text, nullable=True)
+    # 'A' | 'B' — the seat that owns the outstanding decision (null if finished).
+    whose_turn = Column(String, nullable=True)
+    finished = Column(Boolean, nullable=False, server_default=text("false"))
+    # { winner, reason, turns } as a JSON string, once the match ends.
+    result = Column(Text, nullable=True)
+    # Monotonic decision counter (optimistic-concurrency / audit).
+    seq = Column(BigInteger, nullable=False, server_default=text("0"))
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
+    )
+
+    def __repr__(self):
+        return f"<Match(id='{self.id}', status='{self.status}')>"
+
+
 # The Run It Back tables and everything else are in different categories, and
 # the deploy has to treat them differently.
 #
@@ -344,4 +413,4 @@ class GameRecord(Base):
 # `create_rib_tables.py` creates and extends them additively; `create_db.py`
 # excludes them from its drop. Anything added here must be listed here too, and
 # `create_db.py` asserts that every `rib_`-prefixed table is.
-RIB_MODELS = (User, Deck, GameRecord)
+RIB_MODELS = (User, Deck, GameRecord, Match)

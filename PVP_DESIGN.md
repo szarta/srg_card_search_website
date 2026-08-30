@@ -145,6 +145,19 @@ per-turn deadline and has the **server AI play the outstanding decision** for th
 seat, tagging that decision `actor: ai` in the frame/record. Reuses the same `Session::submit`
 path — the policy just stands in for the human on that one decision.
 
+**Schema ownership (deploy-time, Python-owned).** `rib_matches` is live user data that must
+survive deploys, exactly like `rib_game_records` — so it is a **Python SQLAlchemy model in
+`backend/app/models/base.py`, added to `RIB_MODELS`**, created/extended **additively** by
+`create_rib_tables.py` on `invoke create-db` (never dropped; `create_db.py` excludes
+`rib_`-prefixed tables). The DB is only (re)built at deploy time (`invoke release-web` /
+`invoke create-db`), so the schema authority is the Python model — **not** the Rust service,
+which reads/writes the table the deploy created. `srg-match-server` carries a dev-only
+`CREATE TABLE IF NOT EXISTS` gated behind `SRG_MATCH_AUTO_MIGRATE` (for local dev without the
+Python tooling); its columns must stay a subset of the Python model. Engine-state columns
+(this slice): `id, snapshot, whose_turn, finished, result, seq, created_at, updated_at`; the
+auth slice **additively adds** the relational columns (`owner_id`, seat-A/B user, deck refs,
+`visibility`, turn-timer config, per-turn deadline) — all nullable, per the additive rule.
+
 > Caveat: `GameRecord.decisions` is a single flat human-decision list (a single-player
 > ergonomic). A PvP match stores answers **per seat**, so treat the **snapshot** as the source
 > of truth for replay, not the flat `decisions` column (`match_record.md:161-163`).

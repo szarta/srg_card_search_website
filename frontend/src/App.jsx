@@ -22,6 +22,10 @@ import SavedGames from "./pages/RunItBack/SavedGames";
 import ReplayViewer from "./pages/RunItBack/ReplayViewer";
 import PublicGames from "./pages/RunItBack/PublicGames";
 import ImportGame from "./pages/RunItBack/ImportGame";
+import PvpGames from "./pages/RunItBack/PvpGames";
+import PvpNew from "./pages/RunItBack/PvpNew";
+import PvpJoin from "./pages/RunItBack/PvpJoin";
+import PvpPlay from "./pages/RunItBack/PvpPlay";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -138,6 +142,12 @@ const router = createBrowserRouter([
             children: [
               { index: true, element: <RunItBackHome /> },
               { path: "play", element: <Play /> },
+              // Two-player (PvP), refereed by the match-server. "new"/"join"
+              // precede ":matchId" so they aren't read as a match id.
+              { path: "pvp", element: <PvpGames /> },
+              { path: "pvp/new", element: <PvpNew /> },
+              { path: "pvp/join", element: <PvpJoin /> },
+              { path: "pvp/:matchId", element: <PvpPlay /> },
               { path: "decks", element: <MyDecks /> },
               { path: "decks/new", element: <DeckEditor /> },
               { path: "decks/:deckId", element: <DeckEditor /> },

@@ -37,8 +37,17 @@ export default function RunItBackHome() {
           to="/run-it-back/play"
           className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
         >
-          <h2 className="text-lg font-semibold text-white">Play</h2>
-          <p className="text-sm text-gray-400">Pick a deck and an opponent.</p>
+          <h2 className="text-lg font-semibold text-white">Play vs AI</h2>
+          <p className="text-sm text-gray-400">Pick a deck and an AI opponent.</p>
+        </Link>
+        <Link
+          to="/run-it-back/pvp"
+          className="rounded-lg border border-gray-700 bg-srgGray p-5 hover:border-srgPurple"
+        >
+          <h2 className="text-lg font-semibold text-white">Two-player game</h2>
+          <p className="text-sm text-gray-400">
+            Play a real person — start a game and share the code.
+          </p>
         </Link>
         <Link
           to="/run-it-back/games"

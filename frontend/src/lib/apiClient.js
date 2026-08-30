@@ -46,6 +46,10 @@ async function request(path, { method = "GET", body, headers, ...rest } = {}) {
   return data;
 }
 
+// A short display string for any thrown error — the ApiError detail, a plain
+// Error message, or the value itself. Shared by the authed screens' catch blocks.
+export const errText = (e) => String(e?.detail ?? e?.message ?? e);
+
 export const api = {
   get: (path, opts) => request(path, { ...opts, method: "GET" }),
   post: (path, body, opts) => request(path, { ...opts, method: "POST", body }),

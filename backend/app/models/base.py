@@ -391,6 +391,12 @@ class Match(Base):
     # Monotonic decision counter (optimistic-concurrency / audit).
     seq = Column(BigInteger, nullable=False, server_default=text("0"))
 
+    # Per-turn time limit in seconds (null = untimed friendly game) and the current
+    # decision's deadline. The match-server writes both (start on join, reset each
+    # move, clear on finish); on expiry it fills the turn with an AI stand-in.
+    turn_seconds = Column(Integer, nullable=True)
+    turn_deadline = Column(DateTime(timezone=True), nullable=True)
+
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(
         DateTime(timezone=True), server_default=func.now(), onupdate=func.now()

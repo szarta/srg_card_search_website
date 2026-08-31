@@ -88,6 +88,7 @@ export default function PvpGames() {
 
 function MatchRow({ match }) {
   const opponent = match.opponent_email ?? (match.status === "pending" ? "—" : "opponent");
+  const clock = deadlineLabel(match.turn_deadline);
   return (
     <li>
       <Link
@@ -99,7 +100,10 @@ function MatchRow({ match }) {
             vs {opponent}
             <span className="ml-2 text-xs text-gray-500">seat {match.your_seat}</span>
           </div>
-          <div className="text-xs text-gray-500">{STATUS_LABEL[match.status] ?? match.status}</div>
+          <div className="text-xs text-gray-500">
+            {STATUS_LABEL[match.status] ?? match.status}
+            {clock && <span className="ml-2">· {clock}</span>}
+          </div>
         </div>
         {match.your_turn && (
           <span className="rounded bg-amber-400/20 px-2 py-0.5 text-xs text-amber-300">
@@ -109,4 +113,18 @@ function MatchRow({ match }) {
       </Link>
     </li>
   );
+}
+
+// A coarse, static "time left" for the current turn (the list isn't live). Null
+// for an untimed / pending / finished match.
+function deadlineLabel(deadline) {
+  if (!deadline) return null;
+  const s = Math.floor(deadline - Date.now() / 1000);
+  if (s <= 0) return "⏱ turn expired";
+  const d = Math.floor(s / 86400);
+  const h = Math.floor((s % 86400) / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  if (d > 0) return `⏱ ${d}d left`;
+  if (h > 0) return `⏱ ${h}h left`;
+  return `⏱ ${Math.max(1, m)}m left`;
 }

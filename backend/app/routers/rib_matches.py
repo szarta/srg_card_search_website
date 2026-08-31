@@ -129,6 +129,9 @@ def list_matches(user: User = Depends(require_user), db: Session = Depends(get_d
                 opponent_email=emails.get(opponent_id),
                 your_turn=(not m.finished and m.whose_turn == your_seat),
                 visibility=m.visibility,
+                turn_deadline=(
+                    int(m.turn_deadline.timestamp()) if m.turn_deadline else None
+                ),
             )
         )
     return MatchListResponse(matches=summaries)

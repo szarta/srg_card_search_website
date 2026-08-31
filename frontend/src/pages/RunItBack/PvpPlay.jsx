@@ -93,7 +93,43 @@ function Body({ state, inviteCode, onSubmit, busy }) {
   if (state.your_turn && state.decision) {
     return <YourTurn state={state} onSubmit={onSubmit} busy={busy} />;
   }
-  return <OpponentTurn whoseTurn={state.whose_turn} seat={state.seat} />;
+  return (
+    <OpponentTurn
+      whoseTurn={state.whose_turn}
+      seat={state.seat}
+      deadline={state.turn_deadline}
+    />
+  );
+}
+
+// A live countdown to the current turn's deadline (Unix epoch seconds). Ticks once
+// a second; once past, the server may fill the turn with an AI stand-in.
+function TurnClock({ deadline }) {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+  if (!deadline) return null;
+  const remaining = deadline * 1000 - now;
+  const expired = remaining <= 0;
+  return (
+    <span className={expired ? "text-rose-400" : "text-gray-400"}>
+      {expired ? "⏱ turn expired" : `⏱ ${fmtDuration(remaining)} left`}
+    </span>
+  );
+}
+
+function fmtDuration(ms) {
+  const s = Math.floor(ms / 1000);
+  const d = Math.floor(s / 86400);
+  const h = Math.floor((s % 86400) / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  if (d > 0) return `${d}d ${h}h`;
+  if (h > 0) return `${h}h ${m}m`;
+  if (m > 0) return `${m}m ${String(sec).padStart(2, "0")}s`;
+  return `${sec}s`;
 }
 
 // Seat A, no opponent yet: show what to share. The invite link prefills the join
@@ -157,7 +193,7 @@ function Copyable({ label, value, mono }) {
   );
 }
 
-function OpponentTurn({ whoseTurn, seat }) {
+function OpponentTurn({ whoseTurn, seat, deadline }) {
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-900 p-6 text-center">
       <div className="text-lg font-semibold text-gray-200">Opponent is deciding…</div>
@@ -165,6 +201,11 @@ function OpponentTurn({ whoseTurn, seat }) {
         You're seat {seat}. It's seat {whoseTurn ?? "?"}'s move — this page updates when
         it's your turn.
       </p>
+      {deadline && (
+        <div className="mt-2 text-sm">
+          <TurnClock deadline={deadline} />
+        </div>
+      )}
     </div>
   );
 }
@@ -176,12 +217,17 @@ function YourTurn({ state, onSubmit, busy }) {
   const opp = you === "A" ? "B" : "A";
   return (
     <div className="space-y-3">
-      <div className="flex gap-4 text-sm text-gray-400">
+      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
         <span>turn {obs.turn_no}</span>
         <span>
           crowd meter <span className="font-mono text-gray-200">{fmt(obs.crowd_meter)}</span>
         </span>
         <span>active {obs.active}</span>
+        {state.turn_deadline && (
+          <span className="ml-auto">
+            <TurnClock deadline={state.turn_deadline} />
+          </span>
+        )}
       </div>
       <Board label="Opponent" view={obs.players[opp]} isSelf={false} isActive={obs.active === opp} />
       <Board label="You" view={obs.players[you]} isSelf isActive={obs.active === you} />

@@ -15,6 +15,7 @@ export default function PvpNew() {
   const [deckId, setDeckId] = useState("");
   const [seed, setSeed] = useState("7");
   const [visibility, setVisibility] = useState("private");
+  const [turnLimit, setTurnLimit] = useState("0"); // seconds; "0" = untimed
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState(null);
 
@@ -38,10 +39,12 @@ export default function PvpNew() {
     try {
       const deck = await deckOptions.find((d) => d.id === deckId).resolve();
       const seedNum = Number.parseInt(seed, 10);
+      const secs = Number.parseInt(turnLimit, 10);
       const { match_id, join_code } = await createMatch({
         deck,
         seed: Number.isFinite(seedNum) ? seedNum : 0,
         visibility,
+        turnSeconds: Number.isFinite(secs) && secs > 0 ? secs : null,
       });
       navigate(`/run-it-back/pvp/${match_id}?code=${encodeURIComponent(join_code)}`);
     } catch (e) {
@@ -73,6 +76,19 @@ export default function PvpNew() {
                   options={[
                     ["private", "Private (invite only)"],
                     ["public", "Public (listed for spectators)"],
+                  ]}
+                />
+              </Field>
+              <Field label="Turn timer">
+                <Select
+                  value={turnLimit}
+                  onChange={setTurnLimit}
+                  options={[
+                    ["0", "No limit"],
+                    ["259200", "3 days per turn"],
+                    ["86400", "1 day per turn"],
+                    ["28800", "8 hours per turn"],
+                    ["3600", "1 hour per turn"],
                   ]}
                 />
               </Field>

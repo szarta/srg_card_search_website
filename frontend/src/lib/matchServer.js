@@ -76,12 +76,18 @@ async function call(key, path, { method = "GET", body } = {}) {
   return data;
 }
 
-// Create a match. `deck` is enriched Deck JSON (seat A). Returns
-// { match_id, join_code }. Uses a create/join token (no seat yet).
-export async function createMatch({ deck, seed = 0, visibility = "private" }) {
+// Create a match. `deck` is enriched Deck JSON (seat A). `turnSeconds` is the
+// per-turn limit (null/0 = untimed). Returns { match_id, join_code }. Uses a
+// create/join token (no seat yet).
+export async function createMatch({
+  deck,
+  seed = 0,
+  visibility = "private",
+  turnSeconds = null,
+}) {
   return call("", "/matches", {
     method: "POST",
-    body: { deck_a: deck, seed, visibility },
+    body: { deck_a: deck, seed, visibility, turn_seconds: turnSeconds },
   });
 }
 

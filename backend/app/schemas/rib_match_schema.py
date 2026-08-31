@@ -33,6 +33,9 @@ class MatchSummary(BaseModel):
     opponent_email: Optional[str] = None
     your_turn: bool
     visibility: str
+    # The current turn's deadline as Unix epoch seconds, or null if the match is
+    # untimed / pending / finished. The client counts down to it on the games list.
+    turn_deadline: Optional[int] = None
 
 
 class MatchListResponse(BaseModel):

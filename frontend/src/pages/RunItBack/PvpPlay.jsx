@@ -8,7 +8,7 @@
 // per seat, so the opponent's hidden cards never reach us.
 import { useCallback, useEffect, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { fetchState, submitDecision } from "../../lib/matchServer";
+import { fetchState, submitDecision, resignMatch } from "../../lib/matchServer";
 import { errText } from "../../lib/apiClient";
 import Board from "./components/Board.jsx";
 import DecisionPanel from "./components/DecisionPanel.jsx";
@@ -61,6 +61,19 @@ export default function PvpPlay() {
     }
   };
 
+  const resign = async () => {
+    setBusy(true);
+    try {
+      const s = await resignMatch(matchId);
+      setState(s);
+      setError(null);
+    } catch (e) {
+      setError(errText(e));
+    } finally {
+      setBusy(false);
+    }
+  };
+
   return (
     <div className="mx-auto max-w-4xl p-4">
       <div className="mb-4 flex items-center justify-between">
@@ -78,27 +91,78 @@ export default function PvpPlay() {
 
       {!state && !error && <div className="text-gray-400">Loading…</div>}
 
-      {state && <Body state={state} inviteCode={inviteCode} onSubmit={submit} busy={busy} />}
+      {state && (
+        <Body
+          state={state}
+          inviteCode={inviteCode}
+          onSubmit={submit}
+          onResign={resign}
+          busy={busy}
+        />
+      )}
     </div>
   );
 }
 
-function Body({ state, inviteCode, onSubmit, busy }) {
+function Body({ state, inviteCode, onSubmit, onResign, busy }) {
   if (state.finished && state.result) {
     return <Result result={state.result} seat={state.seat} />;
   }
   if (state.status === "pending") {
     return <WaitingForOpponent matchId={state.match_id} inviteCode={inviteCode} />;
   }
-  if (state.your_turn && state.decision) {
-    return <YourTurn state={state} onSubmit={onSubmit} busy={busy} />;
+  // Active match (your turn or the opponent's): the board, plus a resign control —
+  // you can concede whether or not it's your move.
+  const inner =
+    state.your_turn && state.decision ? (
+      <YourTurn state={state} onSubmit={onSubmit} busy={busy} />
+    ) : (
+      <OpponentTurn whoseTurn={state.whose_turn} seat={state.seat} deadline={state.turn_deadline} />
+    );
+  return (
+    <div className="space-y-3">
+      {inner}
+      <ResignBar onResign={onResign} busy={busy} />
+    </div>
+  );
+}
+
+// Concede the match. A two-click inline confirm (no blocking browser dialog) guards
+// against a stray click; on confirm the server finishes the game and the returned
+// state flips this view to the result.
+function ResignBar({ onResign, busy }) {
+  const [confirming, setConfirming] = useState(false);
+  if (!confirming) {
+    return (
+      <div className="flex justify-end">
+        <button
+          onClick={() => setConfirming(true)}
+          disabled={busy}
+          className="text-xs text-gray-500 hover:text-rose-400 disabled:opacity-40"
+        >
+          Resign
+        </button>
+      </div>
+    );
   }
   return (
-    <OpponentTurn
-      whoseTurn={state.whose_turn}
-      seat={state.seat}
-      deadline={state.turn_deadline}
-    />
+    <div className="flex items-center justify-end gap-2 text-xs">
+      <span className="text-gray-400">Resign and forfeit this match?</span>
+      <button
+        onClick={onResign}
+        disabled={busy}
+        className="rounded border border-rose-600 px-2 py-1 text-rose-300 hover:bg-rose-950/60 disabled:opacity-40"
+      >
+        {busy ? "Resigning…" : "Confirm resign"}
+      </button>
+      <button
+        onClick={() => setConfirming(false)}
+        disabled={busy}
+        className="rounded border border-gray-600 px-2 py-1 text-gray-300 hover:bg-gray-800 disabled:opacity-40"
+      >
+        Cancel
+      </button>
+    </div>
   );
 }
 

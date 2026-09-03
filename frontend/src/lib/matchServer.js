@@ -115,6 +115,17 @@ export async function submitDecision(matchId, requestId, choice) {
   });
 }
 
+// Resign this seat — concede the match; the other seat wins by resignation.
+// Returns the fresh (finished) state. Uses a per-match seat token, so a player can
+// only resign their own seat; the body carries no seat (the server reads it from
+// the token).
+export async function resignMatch(matchId) {
+  return call(matchId, `/matches/${matchId}/resign`, {
+    method: "POST",
+    body: {},
+  });
+}
+
 // Drop cached tokens (e.g. on sign-out). Cheap and side-effect-free otherwise.
 export function clearTokenCache() {
   tokenCache.clear();

@@ -397,6 +397,13 @@ class Match(Base):
     turn_seconds = Column(Integer, nullable=True)
     turn_deadline = Column(DateTime(timezone=True), nullable=True)
 
+    # Consecutive AI-filled (timed-out) turns per seat; a seat's own real move resets
+    # its count. When a seat reaches the match-server's cap it is auto-resigned (the
+    # absent player forfeits). The match-server owns these; server_default (not ORM
+    # default=) so the raw-SQL writer sees 0 on insert.
+    ai_fill_streak_a = Column(Integer, nullable=False, server_default=text("0"))
+    ai_fill_streak_b = Column(Integer, nullable=False, server_default=text("0"))
+
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(
         DateTime(timezone=True), server_default=func.now(), onupdate=func.now()

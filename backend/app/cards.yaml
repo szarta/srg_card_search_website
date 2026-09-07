@@ -81124,7 +81124,7 @@
   card_type: MainDeckCard
   atk_type: Submission
   play_order: Lead
-  deck_card_number: 4
+  deck_card_number: 9
   card_text: 'Add 1 card with "Fin" in the name from your discard pile to your hand.
 
     Your opponent cannot move this card from in play.'

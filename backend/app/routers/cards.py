@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session, joinedload
 from typing import Optional, List, Tuple
 import re
 from pydantic import BaseModel
-from sqlalchemy import func, not_, or_
+from sqlalchemy import func, not_
 
 
 from models.base import (
@@ -370,11 +370,9 @@ def _apply_requirements_filter(qry, cls, has_requirements: Optional[str]):
     if has_requirements == "any":
         return qry.filter(cls.requirements.op("@?")("strict $[*]"))
     if has_requirements == "none":
+        # `@?` yields NULL (not false) for JSONB null, so coalesce before negating.
         return qry.filter(
-            or_(
-                cls.requirements.is_(None),
-                not_(cls.requirements.op("@?")("strict $[*]")),
-            )
+            not_(func.coalesce(cls.requirements.op("@?")("strict $[*]"), False))
         )
     if has_requirements in STAT_NAMES:
         # `@?` tests a jsonpath against the JSONB array; `$[*].min_<stat>`

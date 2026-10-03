@@ -12,11 +12,12 @@ const SELECT_CLASS = "bg-gray-900 text-white border border-gray-700 rounded p-2"
 const STAT_NAMES = ["power", "agility", "strike", "submission", "grapple", "technique"];
 
 // Skill-requirement filter options. Value is the token sent to the backend as
-// `has_requirements`: "" = no filter, "any" = has any requirement, or a stat
+// `has_requirements`: "" = no filter, "any" = has any requirement, "none" = has no requirement, or a stat
 // name to require that specific skill.
 const SKILL_REQ_OPTIONS = [
   { value: "", label: "Any requirement" },
   { value: "any", label: "Has skill requirement" },
+  { value: "none", label: "No skill requirement" },
   ...STAT_NAMES.map((s) => ({
     value: s,
     label: `Requires ${s.charAt(0).toUpperCase() + s.slice(1)}`,

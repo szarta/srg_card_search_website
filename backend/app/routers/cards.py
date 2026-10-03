@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session, joinedload
 from typing import Optional, List, Tuple
 import re
 from pydantic import BaseModel
-from sqlalchemy import func
+from sqlalchemy import func, not_, or_
 
 
 from models.base import (
@@ -363,11 +363,19 @@ def _apply_requirements_filter(qry, cls, has_requirements: Optional[str]):
         auto-wrapping of the JSON ``null`` used for empty requirements)
       - a stat name (e.g. "strike"): cards requiring that specific skill,
         matched against the ``min_<stat>`` key inside the JSONB array.
+      - "none": cards with no requirements (SQL NULL, JSONB null, or empty array)
     """
     if not has_requirements:
         return qry
     if has_requirements == "any":
         return qry.filter(cls.requirements.op("@?")("strict $[*]"))
+    if has_requirements == "none":
+        return qry.filter(
+            or_(
+                cls.requirements.is_(None),
+                not_(cls.requirements.op("@?")("strict $[*]")),
+            )
+        )
     if has_requirements in STAT_NAMES:
         # `@?` tests a jsonpath against the JSONB array; `$[*].min_<stat>`
         # matches when any element carries that skill key.
@@ -556,8 +564,8 @@ def list_cards(
     division: Optional[str] = Query(None, min_length=0, max_length=200),
     has_requirements: Optional[str] = Query(
         None,
-        description="Filter by skill requirements: 'any' for any requirement, or a "
-        "stat name (power/agility/strike/submission/grapple/technique).",
+        description="Filter by skill requirements: 'any' for any requirement, 'none' for no "
+        "requirement, or a stat name (power/agility/strike/submission/grapple/technique).",
     ),
 ):
     """

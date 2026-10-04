@@ -7,7 +7,6 @@
   play_order: Lead
   deck_card_number: 1
   card_text: Each player adds the bottom card of their deck to their hand or stop any lead Grapple.
-  errata_text: ''
   comments: ''
   release_set: Unknown
   tags: []
@@ -91565,3 +91564,67 @@
   tags: []
   related_cards:
     - 936973e3117943788ad42fb963803c2a
+- name: El Beekeeper
+  db_uuid: 77baf4e7f7d444299de3742468f8c499
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 9
+  strike: 8
+  submission: 10
+  grapple: 7
+  card_text: 'When you roll Technique for your turn roll, collect 1 Bee token (Max 2).
+
+    During your turn roll: you may remove all your Bee tokens and your target''s turn roll is -1 for each Bee token removed.'
+  errata_text: At the end of a turn roll, if you rolled Technique collect 1 Bee token.  You may remove all Bee tokens and your target's turn roll is -1 for each Bee token removed (Max -2).
+  tags:
+    - Super Lucha
+  related_finishes:
+    - 51eac622e9ce426d98ebf1f612988492
+    - 28d39719d313467fb79de7950cffb7b0
+    - 0c3c21085edf496b96eb13f1abed1178
+- name: Hive Mind
+  db_uuid: 51eac622e9ce426d98ebf1f612988492
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Power
+
+    +1 to Strike
+
+    If you roll Technique or Grapple, you may discard 1 Bee token to make your Finish roll +1.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 77baf4e7f7d444299de3742468f8c499
+- name: Humo de Lambada
+  db_uuid: 28d39719d313467fb79de7950cffb7b0
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Agility
+
+    +2 to Grapple
+
+    Your opponent can''t force you to re-roll your Finish roll.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 77baf4e7f7d444299de3742468f8c499
+- name: Bee's Knees
+  db_uuid: 0c3c21085edf496b96eb13f1abed1178
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Power
+
+    +3 to Technique
+
+    Collect 2 Bee tokens.'
+  tags:
+    - Super Lucha
+  related_cards:
+    - 77baf4e7f7d444299de3742468f8c499

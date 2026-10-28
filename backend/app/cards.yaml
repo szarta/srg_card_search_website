@@ -91628,3 +91628,53 @@
     - Super Lucha
   related_cards:
     - 77baf4e7f7d444299de3742468f8c499
+- name: Commissioner Myers
+  db_uuid: ac2eb26b34ec403086bd25163451a0b8
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 10
+  agility: 6
+  strike: 9
+  submission: 5
+  grapple: 7
+  card_text: 'At the start of the match: You may reveal 1 Competitor card with a Create a Pro logo that is different from your opponent''s; add that Gimmick to yours.'
+  tags:
+    - Create A Pro Logo
+- name: Heat-Seeking Elbow
+  db_uuid: 3331b3024b6847cdb92f7c8d55dfc4fa
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Agility
+
+    +1 to Strike
+
+    Discard 1 card in your hand; look at your opponent''s hand, discard 1 card in their hand that matches the move type of the card you discarded.'
+  tags: []
+- name: System Overload
+  db_uuid: eb6626a2a5864269b35ca90127402738
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Power
+
+    +1 to Submission
+
+    +2 to Grapple
+
+    If your opponent''s Competitor card has the Create a Pro logo, this card is also a Follow Up.'
+  tags: []
+- name: Roster Cut
+  db_uuid: 86f611dd5dca4974953f713e704c6d6a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Strike
+
+    +3 to Submission
+
+    You may swap your additional revealed Create a Pro card with another Create a Pro competitor card.'
+  tags: []

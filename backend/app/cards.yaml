@@ -91750,3 +91750,11 @@
   tags: []
   related_cards:
     - b09ec3ccb569412d8ca5d575df922a3c
+- name: High Sea's Heel Hold
+  db_uuid: fa3ba4b9aebf4c54bb58a0b2a3d677a0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  card_text: For each Submission you have in play, choose up to 1 non-Finish card in your opponent's discard pile and put it into play.
+  tags: []

@@ -82184,7 +82184,7 @@
   deck_card_number: 23
   card_text: If you have 3 other Follow Ups in play, this card is a Finish instead.
   tags: []
-- name: Blockbuster
+- name: Blockbuster (#23)
   db_uuid: e9c5df693ed343b09f09c28a5fc5dd07
   card_type: MainDeckCard
   atk_type: Grapple
@@ -91640,6 +91640,10 @@
   card_text: 'At the start of the match: You may reveal 1 Competitor card with a Create a Pro logo that is different from your opponent''s; add that Gimmick to yours.'
   tags:
     - Create A Pro Logo
+  related_finishes:
+    - 3331b3024b6847cdb92f7c8d55dfc4fa
+    - eb6626a2a5864269b35ca90127402738
+    - 86f611dd5dca4974953f713e704c6d6a
 - name: Heat-Seeking Elbow
   db_uuid: 3331b3024b6847cdb92f7c8d55dfc4fa
   card_type: MainDeckCard
@@ -91652,6 +91656,8 @@
 
     Discard 1 card in your hand; look at your opponent''s hand, discard 1 card in their hand that matches the move type of the card you discarded.'
   tags: []
+  related_cards:
+    - ac2eb26b34ec403086bd25163451a0b8
 - name: System Overload
   db_uuid: eb6626a2a5864269b35ca90127402738
   card_type: MainDeckCard
@@ -91666,6 +91672,8 @@
 
     If your opponent''s Competitor card has the Create a Pro logo, this card is also a Follow Up.'
   tags: []
+  related_cards:
+    - ac2eb26b34ec403086bd25163451a0b8
 - name: Roster Cut
   db_uuid: 86f611dd5dca4974953f713e704c6d6a
   card_type: MainDeckCard
@@ -91678,3 +91686,67 @@
 
     You may swap your additional revealed Create a Pro card with another Create a Pro competitor card.'
   tags: []
+  related_cards:
+    - ac2eb26b34ec403086bd25163451a0b8
+- name: The Shooter Boys
+  db_uuid: b09ec3ccb569412d8ca5d575df922a3c
+  card_type: TornadoCompetitorCard
+  power: 14
+  technique: 16
+  agility: 12
+  strike: 10
+  submission: 20
+  grapple: 18
+  card_text: 'During the turn roll: When you roll Submission, shuffle 1 Submission from your discard pile into your deck; when you roll Grapple, bury 1 Grapple in your discard pile.'
+  tags:
+    - Create A Pro Logo
+  related_finishes:
+    - 3b15f46ddc49439183afdcd4d82ee38a
+    - 75c7c65787604c7dab13b3448311cf3e
+    - caab6bd8c7194e04b0c06ee5d70a7b8b
+- name: Double Superkick
+  db_uuid: 3b15f46ddc49439183afdcd4d82ee38a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+10 to Strike
+
+    Your next turn roll is +10.'
+  tags: []
+  related_cards:
+    - b09ec3ccb569412d8ca5d575df922a3c
+- name: Blockbuster (#29)
+  db_uuid: 75c7c65787604c7dab13b3448311cf3e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+4 to Power
+
+    +6 to Agility
+
+    +1 to Grapple
+
+    Discard 1 card your opponent has in play.'
+  tags: []
+  related_cards:
+    - b09ec3ccb569412d8ca5d575df922a3c
+- name: Double Ankle Lock
+  db_uuid: caab6bd8c7194e04b0c06ee5d70a7b8b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Power
+
+    +2 to Technique
+
+    Draw 2 cards.
+
+    Once per finish roll:
+
+    You may discard 1 Submission from your hand to force your opponent to re-roll their breakout roll.'
+  tags: []
+  related_cards:
+    - b09ec3ccb569412d8ca5d575df922a3c

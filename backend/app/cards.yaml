@@ -83169,7 +83169,7 @@
   deck_card_number: 30
   card_text: 'Choose Technique or Submission. If you roll that skill for your Finish roll, it is +3.
 
-    Reveal the top card of your deck: If it has "Barbed Wire" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
+    Reveal the top card of your deck: If it has "Barbed Wire" in the name, you may re-roll your Finish roll.'
   tags:
     - Logoless
   wants_keywords:

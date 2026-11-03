@@ -23568,6 +23568,24 @@
   card_text: Draw 3 cards.
   tags:
     - Old School Wave 1
+- name: Roaring Rolling Rampage
+  db_uuid: 06e22bf2f1bb4fff9a4ddca16ffd0609
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  card_text: +1 to Submission
+  tags:
+    - Super Lucha
+- name: Double Dragon
+  db_uuid: 4e46a84543004f13a3e50736e5dfc092
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  card_text: +1 to Technique
+  tags:
+    - Super Lucha
 - name: Heel Hold (Super Lucha)
   db_uuid: 0c22301bf2c04ca2be17587ebad5f9da
   card_type: MainDeckCard
@@ -82254,6 +82272,24 @@
 
     If stopped, you lose the match via disqualification.'
   tags: []
+- name: Bossiest Bossaball Throw
+  db_uuid: 8a795030a6a94b7dbf5fa26dc61ea4bd
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: +1 to Power
+  tags:
+    - Super Lucha
+- name: Hammered by Fire and Madness
+  db_uuid: 423ce474e7e14ea89ab6411ef7f1e1bc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: +1 to Grapple
+  tags:
+    - Super Lucha
 - name: Gorilla Press (#23)
   db_uuid: b82eca8a3ab94420972c48354492897d
   card_type: MainDeckCard
@@ -84103,6 +84139,24 @@
   card_type: EntranceCard
   card_text: Finishes with "Cannot Breakout" in the text instead have blank text.
   tags: []
+- name: Rev Up The Cheese Bus
+  db_uuid: 63b1648be6504a48bf2b04ebf4e2d084
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  card_text: +1 to Strike
+  tags:
+    - Super Lucha
+- name: Do Bats Eat Cats?
+  db_uuid: f717e9d6bceb4808bea218a584c00ec6
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  card_text: +1 to Agility
+  tags:
+    - Super Lucha
 - name: Thumbtacks in Barbed Wire
   db_uuid: b36e240f7ea640a19e5a0581fb2ead52
   card_type: MainDeckCard

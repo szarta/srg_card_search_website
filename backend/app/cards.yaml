@@ -1825,12 +1825,39 @@
     Once per match: When your opponent hits a Finish, draw 2 cards.'
   tags:
     - Create A Pro Logo
+- name: Create A Pro Tag Team Titles
+  db_uuid: e6465397b19d486897077f8e605c1b42
+  card_type: EntranceCard
+  card_text: If you are a Tag Team your opponent's cards in play count as 2 cards in play of the same card and move type for your card effects.
+  tags:
+    - Create A Pro Logo
+- name: Create A Pro Television Title
+  db_uuid: 191be722a1ce4130953e27a95a2fbbff
+  card_type: EntranceCard
+  card_text: 'When the Crowd Meter increases, it increases by 2.
+
+    Once per match: when the Crowd Meter increases, draw 1 card.'
+  tags:
+    - Create A Pro Logo
 - name: Calling in Kanik
   db_uuid: 043060c38ea24c07a361760340332804
   card_type: EntranceCard
   card_text: 'Once per match:
 
     If your Finish roll is 6 or less, it is +2.'
+  tags: []
+- name: Create A Pro Women's Title
+  db_uuid: 35face8817f84ccbb7ce5272a75a48b2
+  card_type: EntranceCard
+  card_text: 'At the start of the match: Your target reveals the top 4 cards of their deck, put them back on top or bottom of their deck in any order.'
+  tags:
+    - Create A Pro Logo
+- name: Talking Shop With The Good Brothers
+  db_uuid: 36d9a313c4184a6c84294663d58b2552
+  card_type: EntranceCard
+  card_text: 'Once per match:
+
+    If you and your target would roll the same skill for your turn roll, draw 2 cards instead and each player re-rolls their turn roll.'
   tags: []
 - name: The Royal Family's Own Tyler Rich
   db_uuid: f106ad353db54acb87774bc79eaffae0
@@ -5705,7 +5732,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 1
-  card_text: Stop any Grapple with a skill requirement.
+  card_text: Stop any Grapple with a Skill Requirement.
   tags: []
   text_lines_count: 2
 - name: Finger Poke of Doom (Technique)
@@ -6923,7 +6950,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 3
-  card_text: Stop any Strike with a skill requirement.
+  card_text: Stop any Strike with a Skill Requirement.
   tags: []
   text_lines_count: 2
 - name: Get the Higher Ground
@@ -8281,7 +8308,7 @@
   atk_type: Grapple
   play_order: Lead
   deck_card_number: 5
-  card_text: 'Your cards cannot be stopped by cards with skill requirements.
+  card_text: 'Your cards cannot be stopped by cards with Skill Requirements.
 
     If your Grapple skill is greater than your opponent''s Grapple skill, this card cannot be stopped.'
   tags:
@@ -8959,7 +8986,7 @@
   atk_type: Submission
   play_order: Lead
   deck_card_number: 6
-  card_text: 'Your cards cannot be stopped by cards with skill requirements.
+  card_text: 'Your cards cannot be stopped by cards with Skill Requirements.
 
     If your Technique skill is greater than your opponent''s Technique skill, this card cannot be stopped.'
   tags:
@@ -14124,6 +14151,16 @@
   card_text: If your Strike skill is greater than your opponent's Strike skill, stop any Grapple.
   tags:
     - Old School Wave 1
+- name: Running Lariat (Strike)
+  db_uuid: ad9f1abb83d4415e8ff64e7c0a633c7b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 13
+  card_text: +2 to Strike
+  tags: []
+  requirements:
+    - min_strike: 8
 - name: Schoolyard Beatdown
   db_uuid: 3a7a9ec83e884aab93012969d93d868f
   srgpc_url: https://www.srgpc.net/cards/13/schoolyard-beatdown/
@@ -14654,6 +14691,16 @@
   card_text: If your Grapple skill is greater than your opponent's Grapple skill, stop any Submission.
   tags:
     - Old School Wave 1
+- name: DDT (Grapple)
+  db_uuid: a572f334141f4ffca56ea83153d1e67a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  card_text: +2 to Grapple
+  tags: []
+  requirements:
+    - min_grapple: 8
 - name: Delayed Atomic Drop
   db_uuid: bc0fd01e83ca4e4a9116a5b7e17e29ee
   srgpc_url: https://www.srgpc.net/cards/14/delayed-atomic-drop/
@@ -15507,6 +15554,16 @@
   card_text: If your Submission skill is greater than your opponent's Submission skill, stop any Strike.
   tags:
     - Old School Wave 1
+- name: Bow and Arrow (Submission)
+  db_uuid: 75c9e812a7294ab4be27c73b570c835b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 15
+  card_text: +2 to Submission
+  tags: []
+  requirements:
+    - min_submission: 8
 - name: Capture Sleeper Hold (Technique)
   db_uuid: 052248bcf06740aeb41439fec8491033
   srgpc_url: https://www.srgpc.net/cards/15/capture-sleeper-hold/
@@ -25345,7 +25402,7 @@
   deck_card_number: 26
   card_text: 'Stop any printed Finish Submission.
 
-    If the stopped card did not have a competitor logo or skill requirement, this card is also a Finish.'
+    If the stopped card did not have a Competitor Logo or Skill Requirement, this card is also a Finish.'
   tags: []
 - name: Sweeping Slam (V2)
   db_uuid: 6c976b91ce43441eb69301e84d512994
@@ -25355,7 +25412,7 @@
   deck_card_number: 26
   card_text: 'Stop any Finish Submission.
 
-    If the stopped card did not have a competitor logo or skill requirement, the Crowd Meter is +1 and this card is also a Finish.'
+    If the stopped card did not have a Competitor Logo or Skill Requirement, the Crowd Meter is +1 and this card is also a Finish.'
   tags: []
 - name: Tabletop Monkey Flip
   db_uuid: 80b8e65c50604fb687c248a31f76a47b
@@ -25997,7 +26054,7 @@
   deck_card_number: 27
   card_text: 'Stop any printed Finish Strike.
 
-    If the stopped card did not have a competitor logo or skill requirement, this card is also a Finish.'
+    If the stopped card did not have a Competitor Logo or Skill Requirement, this card is also a Finish.'
   tags: []
 - name: Umbrella Hold (V2)
   db_uuid: c353c415d5aa42a594c801d22a99b0aa
@@ -26008,7 +26065,7 @@
   deck_card_number: 27
   card_text: 'Stop any Finish Strike.
 
-    If the stopped card did not have a competitor logo or skill requirement, the Crowd Meter is +1 and this card is also a Finish.'
+    If the stopped card did not have a Competitor Logo or Skill Requirement, the Crowd Meter is +1 and this card is also a Finish.'
   tags: []
 - name: Wrap in the Ropes
   db_uuid: d1f7c5ef29fc4e7b81eb7035e6b0ac73
@@ -38362,7 +38419,7 @@
 
     Discard all cards your opponent has in play.
 
-    Your Finish roll is +1 for each skill requirement card discarded.'
+    Your Finish roll is +1 for each Skill Requirement card discarded.'
   tags: []
   related_cards:
     - 80b626dbcde047a595f325056eaa6907
@@ -48967,7 +49024,7 @@
   atk_type: Grapple
   play_order: Finish
   deck_card_number: 29
-  card_text: +2 to your skills for each skill requirement card your opponent has in play.
+  card_text: +2 to your skills for each Skill Requirement card your opponent has in play.
   tags: []
   related_cards:
     - e7f4079b9154426e94cbc0bf90a6aa18
@@ -64247,7 +64304,7 @@
   deck_card_number: 30
   card_text: '+2 to Grapple
 
-    If you have 5 skill requirement cards in play, this card cannot be stopped.'
+    If you have 5 Skill Requirement cards in play, this card cannot be stopped.'
   tags: []
   related_cards:
     - be895fbbb37448009c28ff251d72b650
@@ -80842,7 +80899,7 @@
   atk_type: Strike
   play_order: Lead
   deck_card_number: 4
-  card_text: Search your deck or discard pile for a skill requirement card and add it to your hand.
+  card_text: Search your deck or discard pile for a Skill Requirement card and add it to your hand.
   tags: []
   text_lines_count: 3
 - name: Wonderful Muggin' (Technique)

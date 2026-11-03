@@ -91945,3 +91945,60 @@
   tags: []
   related_cards:
     - 3acd69c448ed41be9e752a17fa1631ce
+- name: Fire Furon
+  db_uuid: 320ac5a9dd5f42fcbafe2f7df8d95140
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 5
+  submission: 7
+  grapple: 9
+  card_text: 'During your turn:
+
+    When you hit a Strike, Submission, or Grapple, your opponent reveals the top card of their deck.  If the move type matches the move hit, flip it; if not, you may bury it.'
+  tags: []
+  related_finishes:
+    - f1dd4afd5a984d94b5eec0d1afe48a4c
+    - c1b0f40c02494dfcaf2d66e488412f8b
+    - 2e7a791af38f456fb3d78eb7c287c8d6
+- name: Magma Jet Punch
+  db_uuid: f1dd4afd5a984d94b5eec0d1afe48a4c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Strike
+
+    +1 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 320ac5a9dd5f42fcbafe2f7df8d95140
+- name: Snap The Dragon's Neck Suplex
+  db_uuid: c1b0f40c02494dfcaf2d66e488412f8b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Technique
+
+    For each card you have in play with "Dragon", "Neck", or "Snap" in the name, your opponent flips 1 card, discards 1 card from their hand, and you bury 1 card in your discard pile.'
+  tags: []
+  related_cards:
+    - 320ac5a9dd5f42fcbafe2f7df8d95140
+- name: Fire Of The Abyss
+  db_uuid: 2e7a791af38f456fb3d78eb7c287c8d6
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Technique
+
+    +2 to Submission
+
+    Each time your opponent rolls for a Breakout roll, bury up to 3 cards in their discard pile.'
+  tags: []
+  related_cards:
+    - 320ac5a9dd5f42fcbafe2f7df8d95140

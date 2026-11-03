@@ -3725,6 +3725,14 @@
 
     If this is a Triad match, you may add those cards to each player''s hand.'
   tags: []
+- name: Dropping Dead Weight
+  db_uuid: 8464e960abd34d8f9a575c8629c5e465
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  card_text: For each Grapple you have in play, choose up to 1 non-Finish card in your opponent's discard pile and put it into play.
+  tags: []
 - name: Hammer Time Knee Knocker (Agility)
   db_uuid: 69e1cc1248c142198e2744aec1358fab
   card_type: MainDeckCard
@@ -21477,6 +21485,15 @@
   card_text: Draw 3 cards.
   tags:
     - Old School Wave 1
+- name: Dive Off the Top Rope!
+  db_uuid: 1ddfcef89591470da0719db87482c38f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 22
+  card_text: Draw 3 cards.
+  tags:
+    - Super Lucha
 - name: Diving Knee Drop (Strike)
   db_uuid: 6119d008eaaa4f57b9a9087178909feb
   spotlight: true
@@ -23001,6 +23018,15 @@
   card_text: Draw 3 cards.
   tags:
     - Old School Wave 1
+- name: Super Arm Drag (Super Lucha)
+  db_uuid: f4f1e5319617403eb6991c05793d3ef4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: Draw 3 cards.
+  tags:
+    - Super Lucha
 - name: Super Sonic Slam
   db_uuid: b8c91f7ca1a64dfaa8f68b5681e00933
   srgpc_url: https://www.srgpc.net/cards/23/super-sonic-slam/
@@ -23542,6 +23568,15 @@
   card_text: Draw 3 cards.
   tags:
     - Old School Wave 1
+- name: Heel Hold (Super Lucha)
+  db_uuid: 0c22301bf2c04ca2be17587ebad5f9da
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 24
+  card_text: Draw 3 cards.
+  tags:
+    - Super Lucha
 - name: Hold 'Em And Hog Tie 'Em
   db_uuid: ceb9bdd8d57c49f49a129d1904ddf274
   srgpc_url: https://www.srgpc.net/cards/24/hold-em-and-hog-tie-em/

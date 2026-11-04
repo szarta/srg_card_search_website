@@ -16892,7 +16892,7 @@
   deck_card_number: 16
   card_text: Your next turn roll is +1 for each other Follow Up you have in play.
   tags: []
-- name: Rebound Lariat
+- name: "Rebound Lariat (#16)"
   db_uuid: 59372b4d484f4bfc8903a74504114733
   srgpc_url: https://www.srgpc.net/cards/16/rebound-lariat/
   card_type: MainDeckCard
@@ -30367,7 +30367,7 @@
   tags: []
   related_cards:
     - cd8adce92e39456e83a70fe5cdc26977
-- name: Billy Goat's Curse
+- name: "Billy Goat's Curse (Leo Sparrow)"
   db_uuid: b72317028c3f41d89aa5256aebb29c5f
   card_type: MainDeckCard
   atk_type: Submission
@@ -41719,7 +41719,7 @@
   related_cards:
     - 5bb4fee5cc3a4996936776aea3f700cb
     - ee6c96e6131446909a2014075f80f2f7
-- name: Billy Goat's Curse
+- name: Billy Goat's Curse (Colt Cabana)
   db_uuid: 06f7f4fc51e740afa993a3f2a21a95ae
   card_type: MainDeckCard
   atk_type: Submission
@@ -46860,7 +46860,7 @@
     - 2a822c66136147fabaebd510c388cc8e
     - 7ae6bc438b9f4d409d520dec45cf3cd1
     - ce7d04087a444658aa12a744c11317f3
-- name: Rebound Lariat
+- name: Rebound Lariat (Gabby Forza)
   db_uuid: 2a822c66136147fabaebd510c388cc8e
   card_type: MainDeckCard
   atk_type: Strike
@@ -88855,7 +88855,7 @@
     - 2dd7acb181ec4e77a4e2f204c93c25de
     - a020f149790a4f4d970ee34b5cde0cf3
     - 3f93b208b84d49b4942cc1bf2715c40c
-- name: Heat-Seeking Elbow
+- name: Heat-Seeking Elbow (Brian Myers)
   db_uuid: 2dd7acb181ec4e77a4e2f204c93c25de
   card_type: MainDeckCard
   atk_type: Strike
@@ -88881,7 +88881,7 @@
   tags: []
   related_cards:
     - 6fb339329f8742adace2dcaca0b0c0e1
-- name: Roster Cut
+- name: Roster Cut (Brian Myers)
   db_uuid: 3f93b208b84d49b4942cc1bf2715c40c
   card_type: MainDeckCard
   atk_type: Submission
@@ -92225,7 +92225,7 @@
     - 3331b3024b6847cdb92f7c8d55dfc4fa
     - eb6626a2a5864269b35ca90127402738
     - 86f611dd5dca4974953f713e704c6d6a
-- name: Heat-Seeking Elbow
+- name: Heat-Seeking Elbow (Commissioner Myers)
   db_uuid: 3331b3024b6847cdb92f7c8d55dfc4fa
   card_type: MainDeckCard
   atk_type: Strike
@@ -92255,7 +92255,7 @@
   tags: []
   related_cards:
     - ac2eb26b34ec403086bd25163451a0b8
-- name: Roster Cut
+- name: Roster Cut (Commissioner Myers)
   db_uuid: 86f611dd5dca4974953f713e704c6d6a
   card_type: MainDeckCard
   atk_type: Submission

@@ -18841,7 +18841,7 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
-- name: Double Clothesline
+- name: Double Clothesline (#19)
   db_uuid: 6706f07a6a3c463aa2566cfdbc362b94
   srgpc_url: https://www.srgpc.net/cards/19/double-clothesline/
   card_type: MainDeckCard
@@ -19357,7 +19357,7 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
-- name: Spear
+- name: Spear (#19)
   db_uuid: 08f93887b1b94730956eec9d5f585935
   srgpc_url: https://www.srgpc.net/cards/19/spear/
   card_type: MainDeckCard
@@ -19734,7 +19734,7 @@
   deck_card_number: 20
   card_text: If your opponent has another Submission in play, stop any Submission or each player buries 1 card in their discard pile.
   tags: []
-- name: Drop On The Floor
+- name: Drop On The Floor (#20)
   db_uuid: 05492d7935bc49b9bc54febac62d051c
   srgpc_url: https://www.srgpc.net/cards/20/drop-over-the-top/
   card_type: MainDeckCard
@@ -20960,7 +20960,7 @@
   deck_card_number: 21
   card_text: Add 1 card from your discard pile to your hand.
   tags: []
-- name: Reverse the Pressure
+- name: Reverse the Pressure (#21)
   db_uuid: ff72e21de1a143d88e1c8b24b06e99f5
   srgpc_url: https://www.srgpc.net/cards/21/reverse-the-pressure/
   card_type: MainDeckCard
@@ -24107,6 +24107,16 @@
 
     If either player rolls Submission for their Finish roll, their roll is +1.'
   tags: []
+- name: Double Clothesline (#25)
+  db_uuid: 7b6bea54e17a4116af4c057e458b84a8
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 25
+  card_text: 'Stop any Grapple.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
+  tags: []
 - name: A Rabbit Out of a Hat
   db_uuid: 56c451a5edc74d2caec72363e28fe1df
   srgpc_url: https://www.srgpc.net/cards/25/a-rabbit-out-of-a-hat/
@@ -24754,6 +24764,16 @@
     Draw 1 card.'
   tags:
     - Super Lucha
+- name: Drop On The Floor (#26)
+  db_uuid: 8e802a751867453cae43990311ad8b09
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  tags: []
+  rules_text: 'Stop any Submission.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
 - name: Alpaca Slam
   db_uuid: 662a432d1fe84d3288ab055dff4f6021
   srgpc_url: https://www.srgpc.net/cards/26/alpaca-slam/
@@ -25510,6 +25530,16 @@
   card_text: 'Stop any Lead Strike or Finish Strike.
 
     Shuffle 2 Submissions from your discard pile into your deck.'
+  tags: []
+- name: Reverse the Pressure (#27)
+  db_uuid: 0c36276247714e3db2cb886f99fd6b85
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 27
+  card_text: 'Stop any Strike.
+
+    If either player has fewer than 4 cards in their hand, they draw 2 cards.'
   tags: []
 - name: Avert Your Eyes
   db_uuid: cafb4b1d5b8443a18a1c42f69e9bb630
@@ -28439,6 +28469,17 @@
   tags: []
   related_cards:
     - f8a15098e9e04c5e948f78558974f233
+- name: European Vacation
+  db_uuid: 140c70b6008d4db283577c0d88d00549
+  card_type: TornadoCompetitorCard
+  power: 20
+  technique: 10
+  agility: 18
+  strike: 12
+  submission: 16
+  grapple: 14
+  card_text: Change "+" to "-" and "-" to "+" on your opponent's Gimmick and Finish cards.
+  tags: []
 - name: Chicken Riders
   db_uuid: 9230f2acae874c1ab7ec4d4be053a85c
   srgpc_url: https://www.srgpc.net/competitor/chicken-riders/
@@ -83149,6 +83190,15 @@
 
     Shuffle your deck.'
   tags: []
+- name: We Won't Be Denied
+  db_uuid: cbc022bc848642b9b1af24225daafd9c
+  card_type: EntranceCard
+  card_text: 'Your TNA Wrestling Gimmick cannot be blanked.
+
+    Once per match:
+
+    When you stop a card, you are considered to have fewer than 4 cards in your hand.'
+  tags: []
 - name: Always Live With WTF Nation Radio
   db_uuid: 3901cff8fe75490f836a96b9281ab6d5
   card_type: EntranceCard
@@ -92271,3 +92321,142 @@
   tags: []
   related_cards:
     - 45af710d090549fa929592ccbf906552
+- name: Princess of the Crypt
+  db_uuid: 52a935e5408846ad9071fb2a9836581b
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 9
+  strike: 5
+  submission: 6
+  grapple: 8
+  card_text: It is considered a Ravensblood Cemetery match for your card effects.
+  tags: []
+  related_finishes:
+    - beaf178ecfc24bd7b4873612e50d4ee5
+    - a4bd87a3bfb34e24a6dd28f08d6a7a69
+    - 970ff8c8fd76427b8664f12d0b1ddb8f
+    - afa045ec55c84110bcde83c700f2517e
+- name: Our Farewell
+  db_uuid: beaf178ecfc24bd7b4873612e50d4ee5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Strike
+
+    +1 to Grapple
+
+    Your opponent randomly buries 1 card from: their hand, discard, and in play.
+
+    If this is a Ravensblood Cemetery match, triple these bonuses.
+
+    If stopped, you lose the match via Disqualification.'
+  tags: []
+  related_cards:
+    - 52a935e5408846ad9071fb2a9836581b
+- name: Dolphin Flurry
+  db_uuid: a4bd87a3bfb34e24a6dd28f08d6a7a69
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +3 to Strike
+
+    Draw 1 card.
+
+    Reveal up to 2 Strikes from your hand and this card copies their effects until the end of the turn.'
+  tags: []
+  related_cards:
+    - 52a935e5408846ad9071fb2a9836581b
+- name: Anteroom of Death
+  db_uuid: 970ff8c8fd76427b8664f12d0b1ddb8f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +1 to Technique
+
+    This card is considered a Submission for your Gimmick and card effects.
+
+    If this is a Ravensblood Cemetery match, you may draw 1 card and add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 52a935e5408846ad9071fb2a9836581b
+- name: Black December
+  db_uuid: afa045ec55c84110bcde83c700f2517e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Strike
+
+    +2 to Submission
+
+    Draw 2 cards.  If this is a Ravensblood Cemetery match, and your opponent hit a Finish last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - 52a935e5408846ad9071fb2a9836581b
+- name: Moose
+  db_uuid: 7856b03bb89e465aa1795e518be290e8
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 7
+  agility: 8
+  strike: 9
+  submission: 5
+  grapple: 6
+  card_text: When you roll Power or Agility for your turn roll, your Power and Agility are +2 during the next turn roll.
+  tags: []
+  related_finishes:
+    - 83f949b50be04a25a37ad7db6aee12c1
+    - 0f4880d556fb49d3b74d81c269e000b1
+    - 265de054077d4208af8fde985f0e3feb
+- name: Spear (Moose)
+  db_uuid: 83f949b50be04a25a37ad7db6aee12c1
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +3 to Grapple
+
+    If your turn roll was 10 or greater, your Finish roll is +1; If it was 12 or greater, it is +2 instead.'
+  tags: []
+  related_cards:
+    - 7856b03bb89e465aa1795e518be290e8
+- name: Powerbomb
+  db_uuid: 0f4880d556fb49d3b74d81c269e000b1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +4 to Grapple
+
+    If your turn roll was 10 or greater, you may re-roll your Finish roll once; if it was 12 or greater, you may re-roll it twice.'
+  tags: []
+  related_cards:
+    - 7856b03bb89e465aa1795e518be290e8
+- name: Go To Hell
+  db_uuid: 265de054077d4208af8fde985f0e3feb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Power
+
+    +3 to Grapple
+
+    Once per match:
+
+    You may discard this card from your hand to stop any Finish Strike, even if it cannot be stopped.'
+  tags: []
+  related_cards:
+    - 7856b03bb89e465aa1795e518be290e8

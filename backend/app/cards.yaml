@@ -12196,7 +12196,7 @@
   deck_card_number: 10
   card_text: If your opponent has a Stop in play, choose 1 card your opponent has in play and discard it.
   tags: []
-- name: Stiff Left Hand
+- name: Stiff Left Hand (V1)
   db_uuid: 4661b819043343df9145e4e1b19876bc
   srgpc_url: https://www.srgpc.net/cards/10/stiff-left-hand/
   card_type: MainDeckCard
@@ -12207,6 +12207,14 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+- name: Stiff Left Hand (V2)
+  db_uuid: 29e2016e9ff0442e9e2177383b9aa82e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  card_text: If you have another Lead in play, draw 1 card or put 1 Finish Strike from your discard pile on top of your deck.
+  tags: []
 - name: Steel Chain Punch
   db_uuid: 3838803665c74184aa4b3e8abf3b6fb9
   srgpc_url: https://www.srgpc.net/cards/10/steel-chain-punch/
@@ -12279,6 +12287,14 @@
   deck_card_number: 10
   card_text: If you have another Lead in play, draw the bottom card of your deck.
   tags: []
+- name: Head Plant
+  db_uuid: 6476793cbb9a4a5ca45ed1f1eb6eeffc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_text: If you have another Lead in play, put 1 Grapple from your discard pile on top of your deck.
+  tags: []
 - name: Eagle Vision!
   db_uuid: 23d6a98e082a4eff802a5edd5271c27f
   card_type: MainDeckCard
@@ -12333,7 +12349,7 @@
   deck_card_number: 11
   card_text: If you have another Lead in play, you may re-roll your next turn roll.
   tags: []
-- name: Backflip Out of the Corner
+- name: Backflip Out Of The Corner (V1)
   db_uuid: 5bf264206e0740e4ad699aeea2dda878
   srgpc_url: https://www.srgpc.net/cards/11/backflip-out-of-the-corner/
   card_type: MainDeckCard
@@ -12344,6 +12360,14 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+- name: Backflip Out Of The Corner (V2)
+  db_uuid: ce72b6e88c4f46ba816c294e0aedd46b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_text: If you have another Lead in play, draw 1 card or put 1 Finish Grapple from your discard pile on top of your deck.
+  tags: []
 - name: Barrel of Monkeys
   db_uuid: b39135f34a1148e4a4b3e7dbe2b280e0
   srgpc_url: https://www.srgpc.net/cards/11/barrel-of-monkeys/
@@ -13430,7 +13454,7 @@
   deck_card_number: 12
   card_text: If you have another Submission in play, your opponent's next turn roll is -2.
   tags: []
-- name: Standing Cloverleaf
+- name: Standing Cloverleaf (V1)
   db_uuid: 6384e09e43dc474d9fa6e559263b2a52
   srgpc_url: https://www.srgpc.net/cards/12/standing-cloverleaf/
   card_type: MainDeckCard
@@ -13441,6 +13465,22 @@
   tags:
     - Old School Wave 2
     - Old School Wave 3
+- name: Standing Cloverleaf (V2)
+  db_uuid: 60e45eee14b84e2bb26a5a9a7111c803
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  card_text: If you have another Lead in play, draw 1 card or put 1 Finish Submission from your discard pile on top of your deck.
+  tags: []
+- name: Head Trap
+  db_uuid: 3642462d23604f10acdf062734b2f85b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  card_text: If you have another Lead in play, put 1 Submission from your discard pile on top of your deck.
+  tags: []
 - name: Sundown Clutch
   db_uuid: 77a910eac9c74b0b83b6ffe5b3095a8b
   srgpc_url: https://www.srgpc.net/cards/12/sundown-clutch/
@@ -24896,7 +24936,7 @@
 
     If it is a Trios match, they are -9.'
   tags: []
-- name: Blue Thunder Bomb
+- name: 'Blue Thunder Bomb #26'
   db_uuid: 1964a861b3a642ce9517377a722d72db
   srgpc_url: https://www.srgpc.net/cards/26/blue-thunder-bomb/
   card_type: MainDeckCard
@@ -25633,7 +25673,7 @@
   card_text: Your opponent's Gimmick is blank.
   tags:
     - Old School Wave 1
-- name: Boston Crab
+- name: 'Boston Crab #27'
   db_uuid: 7c0c16f90aa14db5a4bb88fa9e584219
   srgpc_url: https://www.srgpc.net/cards/27/boston-crab/
   card_type: MainDeckCard
@@ -30281,6 +30321,124 @@
     - b6944de2e4c1406889adb81ea2f4a8be
   wants_keywords:
     - Kendo Stick
+- name: Leo Sparrow
+  db_uuid: cd8adce92e39456e83a70fe5cdc26977
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 5
+  submission: 9
+  grapple: 6
+  card_text: When you roll Agility for your turn roll, your Power is +2 until the end of the next turn roll.
+  tags:
+    - Create A Pro Logo
+  related_finishes:
+    - 3d8c175dfd1d4a9bb303f3f1b50c7bb5
+    - 6d8a3884502b4ab79ef4524009c6324d
+    - b72317028c3f41d89aa5256aebb29c5f
+- name: Broccoli Buster
+  db_uuid: 3d8c175dfd1d4a9bb303f3f1b50c7bb5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Strike
+
+    +2 to Grapple
+
+    Your opponent''s Agility is -1.
+
+    If you rolled Agility for your turn roll, +1 to Power.'
+  tags: []
+  related_cards:
+    - cd8adce92e39456e83a70fe5cdc26977
+- name: Revolution DDT
+  db_uuid: 6d8a3884502b4ab79ef4524009c6324d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+4 to Grapple
+
+    Once per turn:
+
+    If your opponent rolls the same skill for their Breakout roll as your Finish roll, you may make them re-roll their Breakout roll.'
+  tags: []
+  related_cards:
+    - cd8adce92e39456e83a70fe5cdc26977
+- name: Billy Goat's Curse
+  db_uuid: b72317028c3f41d89aa5256aebb29c5f
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Technique
+
+    +1 to Submission
+
+    Your opponent''s maximum handsize is 3.'
+  tags: []
+  related_cards:
+    - cd8adce92e39456e83a70fe5cdc26977
+- name: Bobby Orlando
+  db_uuid: 8db2923d8d77438a880969385ca12725
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 8
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 5
+  card_text: If you win the first turn roll, draw 3 cards; if you did not, your target buries 2 cards in their hand.
+  tags:
+    - Create A Pro Logo
+  related_finishes:
+    - 10079b94c309466fab90766d1b9ebb88
+    - 7550757e8e254ab1a7618f2185c4424a
+    - dbee628b18bd4817a143cf47f8366dbc
+- name: Drop The Elbow
+  db_uuid: 10079b94c309466fab90766d1b9ebb88
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +2 to Agility
+
+    Draw 3 cards or your opponent buries 2 cards in their hand.'
+  tags: []
+  related_cards:
+    - 8db2923d8d77438a880969385ca12725
+- name: Blue Thunder Bomb (Bobby Orlando)
+  db_uuid: 7550757e8e254ab1a7618f2185c4424a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+5 to Grapple
+
+    If stopped by a Lead, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 8db2923d8d77438a880969385ca12725
+- name: Boston Crab (Bobby Orlando)
+  db_uuid: dbee628b18bd4817a143cf47f8366dbc
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Technique
+
+    +4 to Submission
+
+    Look at your opponent''s hand;
+
+    Choose 4 cards, your opponent discards the others.'
+  tags: []
+  related_cards:
+    - 8db2923d8d77438a880969385ca12725
 - name: Bobby Ohio
   db_uuid: 411a3ec208cf4d5794932bb99b35800c
   srgpc_url: https://www.srgpc.net/cards/competitors/bobby-ohio/
@@ -80596,6 +80754,14 @@
 
     Draw 1 card.'
   tags: []
+- name: Falcon Arrow
+  db_uuid: 72a7ada6e76642ba8772c68d067e7acc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  card_text: If you have another Grapple in play, draw 1 card or add 1 Grapple from your discard pile to your hand.
+  tags: []
 - name: Crowd Pleaser
   db_uuid: 9454f68580e642c2984909ddccc1f74e
   srg_url: https://supershowthegame.com/product/17-crowd-pleaser/
@@ -81434,6 +81600,14 @@
     If the Crowd Meter is 2 or greater, you may play an additional card this turn.'
   tags: []
   text_lines_count: 5
+- name: Drop-Sault
+  db_uuid: 97f97d789f074adda50558dd608da263
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  card_text: If you have another Lead in play, put 1 Strike from your discard pile on top of your deck.
+  tags: []
 - name: Fire Up!
   db_uuid: 6795003480a44a62955267ab5e99e19d
   srgpc_url: https://www.srgpc.net/cards/10/fire-up/
@@ -82020,6 +82194,14 @@
   card_text: 'If you have another Grapple in play, shuffle 1 Grapple from your discard pile into your deck and draw 1 card.
 
     If you have "Turn the Tables" in play, your Finish rolls are +1.'
+  tags: []
+- name: Death Shooter
+  db_uuid: cb1902a6e29c421fb8d2f16fc619ae8e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Followup
+  deck_card_number: 18
+  card_text: If you have another Submission in play, draw 1 card or add 1 Submission from your discard pile to your hand.
   tags: []
 - name: Breather Hold
   db_uuid: 393f66999eca4e89a9d0468076433479
@@ -84503,6 +84685,14 @@
     - Super Lucha
   related_cards:
     - 8afc71160a9b48f6bcbe5671f96e042d
+- name: Jumping Elbow Drop
+  db_uuid: b23a93eb659647ffab89ca9b3d4bfe8f
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Followup
+  deck_card_number: 16
+  card_text: If you have another Strike in play, draw 1 card or add 1 Strike from your discard pile to your hand.
+  tags: []
 - name: Springboard Kick
   db_uuid: eb43ad2b72034522a53498b66581277b
   card_type: MainDeckCard

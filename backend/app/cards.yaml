@@ -92460,3 +92460,64 @@
   tags: []
   related_cards:
     - 7856b03bb89e465aa1795e518be290e8
+- name: Xia Brookside
+  db_uuid: 7faf73c71b774d0a857a0f72d25e77f7
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 8
+  agility: 10
+  strike: 7
+  submission: 5
+  grapple: 9
+  card_text: When you have fewer cards in your hand than your target, your Power is +2.
+  tags: []
+  related_finishes:
+    - 4e421e1871f145ceaced154283063ee5
+    - d1fec24829874195921715b8a67b396c
+    - 2138d6c51fc64985a001ef2717c32305
+- name: Running Dropkick
+  db_uuid: 4e421e1871f145ceaced154283063ee5
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +2 to Strike
+
+    If you have more cards in your hand than your opponent, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 7faf73c71b774d0a857a0f72d25e77f7
+- name: Darkside DDT
+  db_uuid: d1fec24829874195921715b8a67b396c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Technique
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    You may bury up to 2 cards in your hand, your Submission is +1 for each card buried.'
+  tags: []
+  related_cards:
+    - 7faf73c71b774d0a857a0f72d25e77f7
+- name: Strap Or Tap
+  db_uuid: 2138d6c51fc64985a001ef2717c32305
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Power
+
+    +2 to Technique
+
+    +2 to Submission
+
+    When this card is in your discard pile, the number of cards in your hand is considered -1.'
+  tags: []
+  related_cards:
+    - 7faf73c71b774d0a857a0f72d25e77f7

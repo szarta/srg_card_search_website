@@ -16892,7 +16892,7 @@
   deck_card_number: 16
   card_text: Your next turn roll is +1 for each other Follow Up you have in play.
   tags: []
-- name: "Rebound Lariat (#16)"
+- name: Rebound Lariat (#16)
   db_uuid: 59372b4d484f4bfc8903a74504114733
   srgpc_url: https://www.srgpc.net/cards/16/rebound-lariat/
   card_type: MainDeckCard
@@ -30367,7 +30367,7 @@
   tags: []
   related_cards:
     - cd8adce92e39456e83a70fe5cdc26977
-- name: "Billy Goat's Curse (Leo Sparrow)"
+- name: Billy Goat's Curse (Leo Sparrow)
   db_uuid: b72317028c3f41d89aa5256aebb29c5f
   card_type: MainDeckCard
   atk_type: Submission
@@ -80460,6 +80460,26 @@
   grapple: 18
   card_text: When you hit a Strike or Submission, draw 2 cards.
   tags: []
+  related_finishes:
+    - dcd21d42462d447b9a616adf3fe16301
+- name: Offer You Can't Refuse
+  db_uuid: dcd21d42462d447b9a616adf3fe16301
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+10 to Technique
+
+    +7 to Grapple
+
+    Unblank your Gimmick.
+
+    Draw 2 cards.
+
+    If your opponent breaks out, your Gimmick cannot be blanked until the Crowd Meter increases.'
+  tags: []
+  related_cards:
+    - cc5b7ec583cd42d099a84abf9d2cbdfd
 - name: The First Triumvirate
   db_uuid: d16073414ba74786afc2653391d61667
   srg_url: https://supershowthegame.com/product/first-triumvrate/
@@ -89272,6 +89292,17 @@
   wants_keywords:
     - America
     - Union
+- name: Elevate The Competition
+  db_uuid: 50d2c9ab82604d84975cbe56c8ddc3e2
+  card_type: EntranceCard
+  card_text: 'During your turn:
+
+    It is considered a Ladder Match for your card effects.
+
+    Once per match:
+
+    It is considered Crowd Meter 2 for your card effects with "Ladder" in the name.'
+  tags: []
 - name: L.F.F. Under-World Title Belt
   db_uuid: fae3c232c18c4afeae73889a67b7a3a0
   card_type: EntranceCard
@@ -92773,3 +92804,64 @@
   tags: []
   related_cards:
     - 3a5743078e74427d9a96cdb48f4a5b8b
+- name: The Black Patriot
+  db_uuid: 9cb49150efc24316bdfb21d98c30f55d
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 5
+  grapple: 9
+  card_text: 'If you rolled Power, Strike, or Submission for your turn roll:
+
+    When you hit a Grapple or Submission, draw 1 card.'
+  tags: []
+  related_finishes:
+    - 9b062ab83d1a4027ab267ba956fba56e
+    - ae6350407dea4c01ae77dcbefd0515ec
+    - 8640df4e389642e9b11adb7146a5481e
+- name: Sail Maker Splash!
+  db_uuid: 9b062ab83d1a4027ab267ba956fba56e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+4 to Strike
+
+    Draw 1 card.
+
+    If you rolled Power, Strike, or Submission for your turn roll, this card is also considered a Submission and Grapple for your card effects.'
+  tags: []
+  related_cards:
+    - 9cb49150efc24316bdfb21d98c30f55d
+- name: Stars, Stripes, and Spinebusters!
+  db_uuid: ae6350407dea4c01ae77dcbefd0515ec
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    Put any number of cards with "Sail" or "Spirit" in the name from your hand into play.'
+  tags: []
+  related_cards:
+    - 9cb49150efc24316bdfb21d98c30f55d
+- name: Spirit of '76
+  db_uuid: 8640df4e389642e9b11adb7146a5481e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +2 to Submission
+
+    If your opponent breaks out, shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 9cb49150efc24316bdfb21d98c30f55d

@@ -46645,6 +46645,66 @@
   tags: []
   wants_keywords:
     - Chug
+- name: Gabby Forza
+  db_uuid: c28ba38c02d14649aaed0040d011e2a3
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  card_text: You may bury 3 cards in your hand to stop a Lead.
+  tags:
+    - Create A Pro Logo
+  related_finishes:
+    - 2a822c66136147fabaebd510c388cc8e
+    - 7ae6bc438b9f4d409d520dec45cf3cd1
+    - ce7d04087a444658aa12a744c11317f3
+- name: Rebound Lariat
+  db_uuid: 2a822c66136147fabaebd510c388cc8e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Agility
+
+    +1 to Strike
+
+    Draw 3 cards.
+
+    If you stopped a Lead with your Gimmick last turn, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - c28ba38c02d14649aaed0040d011e2a3
+- name: Gnomeberg Spear & Jackhammer
+  db_uuid: 7ae6bc438b9f4d409d520dec45cf3cd1
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +3 to Agility
+
+    Your next 2 rolls are +1.'
+  tags: []
+  related_cards:
+    - c28ba38c02d14649aaed0040d011e2a3
+- name: Okla-Gnome-a-Stampede
+  db_uuid: ce7d04087a444658aa12a744c11317f3
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Strike
+
+    +2 to Submission
+
+    +1 to Grapple'
+  tags: []
+  related_cards:
+    - c28ba38c02d14649aaed0040d011e2a3
 - name: Gabby Ortiz
   db_uuid: 0f15d434bd974b2a906aa62268028efb
   srgpc_url: https://www.srgpc.net/cards/competitors/gabby-ortiz/
@@ -53704,6 +53764,66 @@
   tags: []
   related_cards:
     - 4acf043a506344ebbf95aa8c006b1dde
+- name: Lones
+  db_uuid: b7e71297d5b444e6bd9156111f3134d8
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 9
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 10
+  card_text: 'When you have 3 Strieks in play, +2 to Submission.
+
+    When you have 2 Submissions in play, +1 to Strike.'
+  tags:
+    - Super Lucha
+  related_finishes:
+    - 27f89da0d19a4efe9798e318f745b4d4
+    - 79d85710d1c0481e8242b541fd990483
+    - c408e315457f4ef6831e437159e3d55e
+- name: Talking Trash
+  db_uuid: 27f89da0d19a4efe9798e318f745b4d4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Strike
+
+    +1 to Submission
+
+    Your opponent flips 2 cards.'
+  tags: []
+  related_cards:
+    - b7e71297d5b444e6bd9156111f3134d8
+- name: Tuesday!
+  db_uuid: 79d85710d1c0481e8242b541fd990483
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +2 to Agility
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - b7e71297d5b444e6bd9156111f3134d8
+- name: Kinda Metal
+  db_uuid: c408e315457f4ef6831e437159e3d55e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +1 to Technique
+
+    If you roll Agility for your Finish roll, shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - b7e71297d5b444e6bd9156111f3134d8
 - name: Lonestar
   db_uuid: b9371784bd32450993c3b7574677c3c7
   srgpc_url: https://www.srgpc.net/cards/competitors/lonestar/
@@ -92091,3 +92211,63 @@
   tags: []
   related_cards:
     - 320ac5a9dd5f42fcbafe2f7df8d95140
+- name: Nat Castle
+  db_uuid: 45af710d090549fa929592ccbf906552
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 5
+  strike: 9
+  submission: 10
+  grapple: 6
+  card_text: When you roll Power, draw 1 card from each Stop you have in play (Max 2).
+  tags:
+    - Create A Pro Logo
+  related_finishes:
+    - 2ec5c53ad8564211b939f047cb94c860
+    - 056a7ccbad97409dbf7b48b846e7159a
+    - e1d9df1241a7428abff7ae05bbffc640
+- name: Chest Kicks
+  db_uuid: 2ec5c53ad8564211b939f047cb94c860
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +1 to Strike
+
+    Your opponent randomly discards 1 card from their hand for each card you have in play with "Kick" in the name.'
+  tags: []
+  related_cards:
+    - 45af710d090549fa929592ccbf906552
+- name: Spice Rack
+  db_uuid: 056a7ccbad97409dbf7b48b846e7159a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +3 to Grapple
+
+    Shuffle 3 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 45af710d090549fa929592ccbf906552
+- name: Spice of the Earth
+  db_uuid: e1d9df1241a7428abff7ae05bbffc640
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +2 to Technique
+
+    Your Agility is + the Crowd Meter.
+
+    Your opponent''s first Breakout roll is - the Crowd Meter.'
+  tags: []
+  related_cards:
+    - 45af710d090549fa929592ccbf906552

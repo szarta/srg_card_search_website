@@ -46541,6 +46541,67 @@
   tags: []
   related_cards:
     - 483f70a0f19841288d1d8ea046225744
+- name: Emo Foxworthy
+  db_uuid: 7d0a9983e49b4bd1b3ce01d60e9e8b4b
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  card_text: When you hit a card with "Emo", "Sad", or "Sing" in the name, you may re-roll your next turn roll.
+  tags: []
+  related_finishes:
+    - 9eda326deb8b4cd9b642585c12e3c051
+    - 17fa67c8aeaf4522a19023016db411ef
+    - 5c411d666ce34074bd0045752211788e
+- name: Self-Conclusion
+  db_uuid: 9eda326deb8b4cd9b642585c12e3c051
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +4 to Agility
+
+    Each player discards cards from their hand equal to the Crowd Meter +2;
+
+    Each player buries the same number of cards in their discard pile.'
+  tags: []
+  related_cards:
+    - 7d0a9983e49b4bd1b3ce01d60e9e8b4b
+- name: Not For Nothing
+  db_uuid: 17fa67c8aeaf4522a19023016db411ef
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    +2 to Grapple
+
+    Twice per turn:
+
+    You may discard 2 cards from your hand with "Emo", "Sad", or "Sing" in the name to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 7d0a9983e49b4bd1b3ce01d60e9e8b4b
+- name: I Want To Hear You Sad
+  db_uuid: 5c411d666ce34074bd0045752211788e
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Technique
+
+    +2 to Agility
+
+    When this card is in your discard pile and you re-rolled your turn roll, you may reveal and bury 1 card from your hand with "Emo" or "Sad" in the name to add +1 to your turn roll.'
+  tags: []
+  related_cards:
+    - 7d0a9983e49b4bd1b3ce01d60e9e8b4b
 - name: Foxworthy (V1)
   db_uuid: 518058d6535f46c692afbbfcbb8cc115
   srg_url: https://supershowthegame.com/product/foxworthy/
@@ -93127,3 +93188,58 @@
   tags: []
   related_cards:
     - 9cb49150efc24316bdfb21d98c30f55d
+- name: Eager Engineer
+  db_uuid: a62bc793122c431a8c448c5722f145d2
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 8
+  card_text: At the end of your target's turn, draw until you reach your minimum handsize (Max 6 cards).
+  tags: []
+  related_finishes:
+    - 49127d4f22c74618a5c46975fdbbc310
+    - 19520786df944b18b713cb844e6eb104
+    - 3c2bd088ecab49fe972a605477af9534
+- name: Furious Flying Forearm
+  db_uuid: 49127d4f22c74618a5c46975fdbbc310
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Agility
+
+    +2 to Grapple
+
+    If you drew cards from your Gimmick last turn, this card is also a Lead.'
+  tags: []
+  related_cards:
+    - a62bc793122c431a8c448c5722f145d2
+- name: Steam Roller
+  db_uuid: 19520786df944b18b713cb844e6eb104
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +3 to Agility
+
+    Bury any number of cards in your hand; your opponent buries the same number of cards in their hand.'
+  tags: []
+  related_cards:
+    - a62bc793122c431a8c448c5722f145d2
+- name: Track Twister
+  db_uuid: 3c2bd088ecab49fe972a605477af9534
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+4 to Power
+
+    If your minimum handsize is greater than your opponent''s minimum handsize, your opponent gets 1 fewer Breakout roll.'
+  tags: []
+  related_cards:
+    - a62bc793122c431a8c448c5722f145d2

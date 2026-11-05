@@ -12158,6 +12158,18 @@
   deck_card_number: 10
   card_text: Your next turn roll is +1 for each Strike your opponent has in play.
   tags: []
+- name: Pier Six Brawl (Strike)
+  db_uuid: 7f42ea303e6f44acbb426c4aae741f8d
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 10
+  card_text: 'Your next turn roll is +1 for each Strike in play.
+
+    Search your deck or discard pile for "It''s Chaos And Pandemonium" and add it to your hand or you may play that card as an additional card this turn.'
+  tags: []
+  requirements:
+    - min_strike: 8
 - name: Rabbit Punch (#10)
   db_uuid: 73515b66459f401e80bc33fc605e9612
   srgpc_url: https://www.srgpc.net/cards/10/rabbit-punch/
@@ -12903,7 +12915,7 @@
   deck_card_number: 11
   card_text: Bury 2 cards in your opponent's discard pile for each other Lead you have in play.
   tags: []
-- name: Turn the Tables
+- name: Turn The Tables
   db_uuid: 8695ceb259c84733ac70c26406194f57
   srgpc_url: https://www.srgpc.net/cards/11/turn-the-tables/
   card_type: MainDeckCard
@@ -12912,6 +12924,18 @@
   deck_card_number: 11
   card_text: Your next turn roll is +1 for each Grapple your opponent has in play.
   tags: []
+- name: Turn The Tables (Grapple)
+  db_uuid: 9d3625805a3e41969dff22c3a422777f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_text: 'Your next turn roll is +1 for each Grapple in play.
+
+    Search your deck or discard pile for "Raise The Tide" and add it to your hand or you may play that card as an additional card this turn.'
+  tags: []
+  requirements:
+    - min_grapple: 8
 - name: Ushigoroshi
   db_uuid: fd0fac2845af48a8b8c30b98a2b3eace
   srgpc_url: https://www.srgpc.net/cards/11/ushigoroshi/
@@ -13394,6 +13418,18 @@
   deck_card_number: 12
   card_text: Your next turn roll is +1 for each Submission your opponent has in play.
   tags: []
+- name: Reverse Hold (Submission)
+  db_uuid: 6981be5002ec4b86864a9c9d63c35d56
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Lead
+  deck_card_number: 12
+  card_text: 'Your next turn roll is +1 for each Submission in play.
+
+    Search your deck or discard pile for "Turn The Tension Into Power" and add it to your hand or you may play that card as an additional card this turn.'
+  tags: []
+  requirements:
+    - min_submission: 8
 - name: Rolling Forearm Lock (Submission)
   db_uuid: 16c6ece1c89d4ca68b5542346f5059c3
   srgpc_url: https://www.srgpc.net/cards/12/rolling-forearm-lock/
@@ -35891,6 +35927,87 @@
   tags: []
   related_cards:
     - ee1179b3778240f09d9cd167420d9e1f
+- name: Vicious Demons Of The North
+  db_uuid: e45ba070a75c497b84fb5e3e017dfd25
+  card_type: TornadoCompetitorCard
+  power: 16
+  technique: 10
+  agility: 14
+  strike: 18
+  submission: 12
+  grapple: 20
+  card_text: 'After you flip any number of cards, draw the bottom card of your deck.
+
+    When your opponent stops a Strike, Submission, or Grapple, their skill of that type is -3 during the next turn roll.'
+  tags: []
+  related_finishes:
+    - 0fc3ae68e60c4a3d8c7466c1498a1c0c
+    - e8569c807606426fa6e6aea9f014f79f
+    - cc159859f34946be8d9613988c17a845
+- name: The Stygian Coterie
+  db_uuid: 7a5883f4bd78481c81f346546d4fe0c9
+  card_type: TrioCompetitorCard
+  power: 24
+  technique: 15
+  agility: 21
+  strike: 27
+  submission: 18
+  grapple: 30
+  card_text: 'Your "Destiny''s Call" is also #15 and #18.
+
+    Your "Destiny''s Call" is instead a Finish with the Vicious Demons Of The North Logo.'
+  tags: []
+  related_finishes:
+    - 0fc3ae68e60c4a3d8c7466c1498a1c0c
+    - e8569c807606426fa6e6aea9f014f79f
+    - cc159859f34946be8d9613988c17a845
+- name: Ragnarok
+  db_uuid: 0fc3ae68e60c4a3d8c7466c1498a1c0c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Power
+
+    +2 to Agility
+
+    +2 to Strike
+
+    Your opponent randomly discards 3 cards.'
+  tags: []
+  related_cards:
+    - 7a5883f4bd78481c81f346546d4fe0c9
+    - e45ba070a75c497b84fb5e3e017dfd25
+- name: As Above So Below
+  db_uuid: e8569c807606426fa6e6aea9f014f79f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Technique
+
+    +2 to Agility
+
+    If you flipped any number of cards last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 7a5883f4bd78481c81f346546d4fe0c9
+    - e45ba070a75c497b84fb5e3e017dfd25
+- name: Slammed Into The Void
+  db_uuid: cc159859f34946be8d9613988c17a845
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+4 to Technique
+
+    +6 To Submission
+
+    Your opponent gets 1 fewer Breakout roll for each Vicious Demons Of The North card in your discard pile (Max 2 Fewer).'
+  tags: []
+  related_cards:
+    - 7a5883f4bd78481c81f346546d4fe0c9
+    - e45ba070a75c497b84fb5e3e017dfd25
 - name: Freak Show (V1)
   db_uuid: 43d7ce2d37734096a657e5133cf614c1
   card_type: TrioCompetitorCard
@@ -36315,6 +36432,14 @@
     - 77ebbb073d5d453c8a1d3c5fc552897e
     - 183c91a3aa75493fb106835743668d78
     - f6b76009bcb4461994a9d8bd57dd9ac4
+- name: Chases Off The Manager
+  db_uuid: ec54d87bedd84c21b2af43c475cee77b
+  card_type: SpectacleCard
+  card_text: 'Once a match:
+
+    Change "Twice per match" in the text of your opponent''s entrance card to "Once per match".'
+  tags:
+    - Valiant
 - name: Advise from the Sidelines
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
   card_type: SpectacleCard
@@ -82280,7 +82405,7 @@
 
     Stop any Finish Strike that cannot be stopped.'
   tags: []
-- name: Turn the Tension into Power
+- name: Turn The Tension Into Power
   db_uuid: df576122c28f481f998634973945e334
   srgpc_url: https://www.srgpc.net/cards/18/turn-the-tension-into-power/
   card_type: MainDeckCard

@@ -36038,6 +36038,17 @@
   tags: []
   wants_keywords:
     - Hold
+- name: Brawl Duke
+  db_uuid: 1b723c8c63d9400a800261a8cd79719d
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 10
+  agility: 9
+  strike: 5
+  submission: 7
+  grapple: 8
+  card_text: When you stop a card with a Lead, your next turn roll is +2.
+  tags: []
 - name: Joey Ryan
   db_uuid: ff880ca42bb946a5945d9407b31ee671
   is_banned: true
@@ -36432,6 +36443,14 @@
     - 77ebbb073d5d453c8a1d3c5fc552897e
     - 183c91a3aa75493fb106835743668d78
     - f6b76009bcb4461994a9d8bd57dd9ac4
+- name: Outside Interfence From
+  db_uuid: 0e9ed7aea3fa492f8cfa8ff6eb82147b
+  card_type: SpectacleCard
+  card_text: 'Once a match:
+
+    Change "Once per match" in the text of your Entrance Card to "Twice Per Match And Once Per Turn".'
+  tags:
+    - Newman
 - name: Chases Off The Manager
   db_uuid: ec54d87bedd84c21b2af43c475cee77b
   card_type: SpectacleCard

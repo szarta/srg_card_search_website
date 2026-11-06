@@ -5479,7 +5479,8 @@
   submission: 5
   grapple: 9
   card_text: 'When you roll Strike for your turn roll: Add 1 Lead from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Major Player
   related_finishes:
     - 96925c47a74240b3b5d628e72c7668df
     - 96cb6e7c88a34b43ac8d9de699f50b69
@@ -30462,6 +30463,7 @@
 - name: Leo Sparrow
   db_uuid: cd8adce92e39456e83a70fe5cdc26977
   card_type: SingleCompetitorCard
+  division: Global
   power: 7
   technique: 8
   agility: 10
@@ -53029,7 +53031,8 @@
   card_text: 'During your opponent''s turn:
 
     Their cards with "Chop", "Kick", or "Strike" in the name have blank text.'
-  tags: []
+  tags:
+    - New South
   related_finishes:
     - 0bcba95f29034546874dd0327783a782
     - 0669524c25b944e58531d79d6773864a
@@ -53095,7 +53098,8 @@
   submission: 5
   grapple: 9
   card_text: 'During your turn: Double the numbers in your cards with "Chair" in the name.'
-  tags: []
+  tags:
+    - MLW
   related_finishes:
     - 5044c61b9aa94935a510e138d4f825fd
     - 1aef1e6fff704676bdfa9e1cfe2221ee
@@ -58269,7 +58273,29 @@
   tags: []
   related_cards:
     - dc9085f6ecfa4c50aa45d770b149caef
-- name: Meta
+- name: Meta (V2)
+  db_uuid: f92dc16d3f384804a4408a69ec404c21
+  card_type: SingleCompetitorCard
+  division: Global
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 6
+  card_text: 'Once per turn roll:
+
+    When you bump, you may re-roll your turn roll.'
+  tags: []
+  related_finishes:
+    - 26ab74bace184763bf130ecef447355a
+    - ad316b217250457eb24d8bd625361a70
+    - 837e985cf5d14203a06279411e2b2865
+    - d4e6ad31e85e40bbadb8e946724e89cc
+    - 5aa8dcf83576420abbf1aa5d47a7e090
+    - 6763e8dd6af64bf9b2446fa5d870776b
+    - fba2a9e153fe4c50b87c16415da363ed
+- name: Meta (V1)
   db_uuid: bcf674a4d8bf422e8f844a7639345553
   srg_url: https://supershowthegame.com/product/meta-new/
   srgpc_url: https://www.srgpc.net/cards/competitors/meta/
@@ -85599,7 +85625,8 @@
   submission: 6
   grapple: 8
   card_text: 'When you roll Power for your turn or Finish roll: if you have fewer cards in hand than your target, draw 3 cards.'
-  tags: []
+  tags:
+    - TNA
   related_finishes:
     - 66b2514d3f2a475490fb05fe1115215d
     - 9d33a0c6ac9e46439fb4ca6220aa5efa
@@ -89954,7 +89981,8 @@
   submission: 5
   grapple: 9
   card_text: When you have a Strike, Grapple, and Submission in play, your Technique is +3.
-  tags: []
+  tags:
+    - Major Player
   related_finishes:
     - c0016b0f9d114efd8c084f1b48a96142
     - f3db111d7eb840259c548a9a25725bcb

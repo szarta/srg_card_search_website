@@ -56,6 +56,7 @@
   grapple: 7
   card_text: When you roll Strike, Grapple, or Submission for your turn roll, you may discard a card of that move type and your turn roll is +1.
   tags:
+    - Hall of Fame
     - Super Lucha
   related_finishes:
     - e5ff1a81186d437cbd28c6d54db9f441
@@ -240,7 +241,7 @@
   srg_url: https://supershowthegame.com/product/the-rising-sun/
   srgpc_url: https://www.srgpc.net/cards/competitors/the-rising-sun/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 5
   technique: 9
   agility: 7
@@ -637,6 +638,7 @@
   card_text: When you roll Power for your turn roll draw 2 cards.
   release_set: Unknown
   tags:
+    - Faction Wars Hall of Fame
     - Hall of Fame
   related_finishes:
     - b36a163260f2481b9fe93ca951a27f8a
@@ -3365,6 +3367,7 @@
   card_text: Your cards with "Super" in the name have the added text "Your opponent buries 2 cards in their hand." Your 3rd breakout roll each turn is +2.
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
@@ -4988,6 +4991,7 @@
   grapple: 8
   card_text: When you roll Power for your turn roll, draw 1 card and your opponent buries 1 card in their hand.
   tags:
+    - Faction Wars Hall of Fame
     - Hall of Fame
   related_cards:
     - ee1179b3778240f09d9cd167420d9e1f
@@ -36229,7 +36233,7 @@
   db_uuid: 98d943afc0ad4074a534d4e92ab0b9dc
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 5
   technique: 10
   agility: 8
@@ -36237,7 +36241,8 @@
   submission: 9
   grapple: 7
   card_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your discard pile to your hand.'
-  tags: []
+  tags:
+    - New Japan
   related_finishes:
     - 8e3db67fc80348098e4f8a24d47aab99
     - 08c1d2a050984c88bb3b7b6231dd2817
@@ -42007,7 +42012,8 @@
   card_text: 'Once during any player''s turn:
 
     When your opponents roll their printed 8 skill for their turn roll, you may switch 1 card in your hand with 1 card in your discard pile.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 284a8a1a4eb046c6be6657b48433bfc2
     - 5e12c423b6454817a6bdcc9073305041
@@ -52198,7 +52204,7 @@
   db_uuid: 8ddf0b4f072e4799bcb6df6b22e84b18
   srgpc_url: https://www.srgpc.net/cards/competitors/king-brian-cage/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 10
   technique: 6
   agility: 8
@@ -53351,7 +53357,7 @@
   srg_url: https://supershowthegame.com/product/la-fenix-2/
   srgpc_url: https://www.srgpc.net/cards/competitors/la-fenix/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 8
   technique: 9
   agility: 7
@@ -59597,7 +59603,8 @@
   submission: 10
   grapple: 8
   card_text: When you have 6 or more cards in your hand; your Grapple skill is +2.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - b0bec9e32a724a9fbda3f1b8ac95c448
     - fc037785d3f74567aed85e632deba09b
@@ -63761,7 +63768,8 @@
   submission: 9
   grapple: 5
   card_text: Your skills are considered higher than your opponent's skills for card effects.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 4b84de0e8037433aa699897715bb0761
     - 9a011df6183c4e21adbfa71700602e5e
@@ -64303,6 +64311,7 @@
     Look at the top 2 cards of your deck, add 1 to your hand, put the other back on top or bury it.'
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - b8d2707e485e40d08d0f29e5efaa8552
     - c042f762f1a545d082db24282f08e3c2
@@ -64831,6 +64840,7 @@
   card_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -64851,6 +64861,7 @@
   card_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -72375,7 +72386,7 @@
   db_uuid: 6359a3a6d77d45ae8e05f43c37b5a001
   srgpc_url: https://www.srgpc.net/cards/competitors/zack-sabre-jr-njpw/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 5
   technique: 10
   agility: 8
@@ -72383,7 +72394,8 @@
   submission: 9
   grapple: 7
   card_text: 'When you roll Technique: Flip 3 cards or add 1 Submission from your discard pile to your hand.'
-  tags: []
+  tags:
+    - New Japan
   related_finishes:
     - 8e3db67fc80348098e4f8a24d47aab99
     - df4fa4058d284a43862f4f201d056260
@@ -74978,6 +74990,8 @@
     When you hit a card with "Disqualification" in the text, draw 2 cards.'
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
+    - Major Player
   related_finishes:
     - 96925c47a74240b3b5d628e72c7668df
     - 96cb6e7c88a34b43ac8d9de699f50b69
@@ -76494,7 +76508,7 @@
 - name: Joe Hendry
   db_uuid: 87b26269da2d464da1bbf43c3f7b2d32
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: World Championship
   power: 10
   technique: 5
   agility: 8
@@ -76502,7 +76516,8 @@
   submission: 7
   grapple: 9
   card_text: 'When you roll Power for your turn roll: Search your deck for 1 Joe Hendry card and add it to your hand; shuffle your deck.'
-  tags: []
+  tags:
+    - TNA
   related_finishes:
     - 5ee73edd8abe49c6965270c97e125946
     - 68be9b3096f84d46bc49656eb9ebcc82
@@ -89819,7 +89834,8 @@
   card_text: 'During your turn roll:
 
     When you roll Technique: Choose odd or even and reveal the top or bottom card of your deck; if it matches the number parity, add it to your hand, if not, you may bury it.'
-  tags: []
+  tags:
+    - Major Player
   related_finishes:
     - 2208f798086442dabc4dd297783354d6
     - 3f7967b8bb2f4bd79ce7279622c72344
@@ -91412,6 +91428,7 @@
 - name: El Roy Majestico Jr.
   db_uuid: e866ae48340545e69a3530a17e68bc1b
   card_type: SingleCompetitorCard
+  division: World Championship
   power: 5
   technique: 10
   agility: 9
@@ -91876,7 +91893,7 @@
 - name: Math Guy
   db_uuid: 913eb19fc206422782d287f4aa23f11d
   card_type: SingleCompetitorCard
-  division: United States
+  division: World Championship
   power: 10
   technique: 9
   agility: 5
@@ -92046,6 +92063,7 @@
 - name: J Tagas
   db_uuid: 30cad233d0364e188ba962d7f891619f
   card_type: SingleCompetitorCard
+  division: World Championship
   power: 6
   technique: 10
   agility: 8

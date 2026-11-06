@@ -27902,7 +27902,8 @@
   submission: 9
   grapple: 7
   card_text: When you stop a card, your next turn roll is +1.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 5fdd4b4aea8845e3ab9572c773d8f813
     - b9661daa39ee402db89020f426d5bd1d
@@ -32467,7 +32468,7 @@
   tags: []
   related_cards:
     - ed9f1e55e6094478bf87e93f209347a4
-- name: Hamish MacDeath (V1)
+- name: Hamish MacDeath
   db_uuid: aa604e7ca9b047619e658e3c8ba5301e
   srgpc_url: https://www.srgpc.net/cards/competitors/hamish-macdeath/
   card_type: SingleCompetitorCard
@@ -32479,7 +32480,8 @@
   submission: 7
   grapple: 8
   card_text: When you would bump, you may instead put 2 cards from your discard pile into your hand and your turn roll is -1.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - e070f51ba68249d8b63fd303689d349c
     - 5f2efddce40e43afafed7ca11564987c
@@ -33127,7 +33129,8 @@
   submission: 9
   grapple: 8
   card_text: When you roll Technique for your turn roll; choose 1 card any player has in play and add it to their hand.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 9e58305626554e9caf7dc101d5920c3e
     - b10575053f8a4750a44e1ed4d0a21b5d
@@ -34366,7 +34369,8 @@
   submission: 10
   grapple: 8
   card_text: When your opponent's turn roll is Submission, search your deck for 1 Lead or Follow Up Submission, reveal it, and add it to your hand.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 9d1f2d4aadbb4ab8a183bd447d783c66
     - 943853be9a154f509b1fec67e16e5da6
@@ -34479,7 +34483,8 @@
   card_text: '3 times per match:
 
     When you roll Technique for your turn roll, add 1 card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 7ad7c5dc5ad74946bda122243834dba0
     - 395e666caa52440f9d4504f67cc66fca
@@ -34783,6 +34788,7 @@
   grapple: 8
   card_text: When you roll Agility for your turn roll, look at the top 4 cards of your deck, add 1 to your hand and randomly put the others back on top of your deck.
   tags:
+    - Faction Wars Hall of Fame
     - Old School
   related_finishes:
     - 91ac0d644d8c4ea3ac9dc6c994528c8e
@@ -44231,7 +44237,8 @@
     Once during your turn, you may bury 3 cards in each player''s discard pile and turn this card over.
 
     BACK: Cards in your opponent''s discards pile have blank text.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - e778afd4fc134596941db594acc5eaf0
     - 9c881560fa7546b9914fc774e40f607b
@@ -45915,7 +45922,8 @@
   submission: 10
   grapple: 9
   card_text: 'When you roll Agility for your turn roll: Look at your opponent''s hand, choose 1 card, and put it on top of their deck.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - dbc7b6210a004525acd013fcc293d872
     - 150f2eea8e714e99b703b9092151e8f3
@@ -46569,7 +46577,8 @@
   submission: 5
   grapple: 10
   card_text: 'Choose you or your opponent: When that player rolls Agility for their turn roll, look at the top 3 cards of your deck.  Add 1 Stop to your hand and bury the others.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 8463f5cf2fe24f7385c512ca6efc912b
     - 119f3f319c414c86a9b02f794f089cf0
@@ -49333,7 +49342,8 @@
   card_text: 'During your opponent''s turn:
 
     When you rolled Agility for your turn roll; Choose Strike, Submission, or Grapple, your opponent cannot play cards of the chosen type this turn.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 355dc0cdbcd44136b3c47d770af3a6d1
     - d806f7c4bb15400e8234fb9a4282492e
@@ -50497,7 +50507,8 @@
   submission: 10
   grapple: 5
   card_text: When your turn roll is at least 2 less than your opponent's, your next turn roll is +1.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - a9cb06a84ac64e7194ffc8c64c51d74f
     - 4b80eaa3299c4e2eb4929997ffb2b7e1
@@ -56288,7 +56299,8 @@
 
     When they are in your discard pile they have blank text.'
   comments: This character is universally booked in all Project Spider divisions (so it's not technically banned, just not realistically playable for tournament play?).
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - b32c8e6993f944de95147d333f4f7696
     - 2440a8e20bd542e09dafca7cebfc0896
@@ -56883,7 +56895,8 @@
   submission: 8
   grapple: 5
   card_text: When you bump, your opponent's next turn roll is -2.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 43fdf23b009948a9b0006e93b904b446
     - 76698f39f7a84d1ba5b19911c5326590
@@ -63459,7 +63472,7 @@
   db_uuid: 7b1af704863e498b8b473e44c8d42ed4
   srgpc_url: https://www.srgpc.net/competitors/queen-of-cheer-adrianna-dee/
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: United States
   power: 8
   technique: 7
   agility: 5
@@ -64884,6 +64897,7 @@
   card_text: Once a turn roll, if your opponent won the last turn roll, you may re-roll your turn roll.
   tags:
     - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - 8fd1c286a8664a2f955f1fe245929090
     - 8b7fb3c43aa8436eb615780fef8b61db
@@ -66238,7 +66252,9 @@
   card_text: 'You may 3 times per match:
 
     When you roll Power, shuffle 2 cards from your discard pile into your deck and draw 1 card.'
-  tags: []
+  tags:
+    - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - 8b9405f2c2a3449c9bdae57c8d683512
     - e7e46c622ae54df3944c9c4c012f31d6
@@ -66620,6 +66636,7 @@
   card_text: Your Agility is +1 for each card in your discard pile with "Spin" or "Stretch" in the name (Max +2).
   tags:
     - Old School
+    - Faction Wars Hall of Fame
   related_finishes:
     - e56291bed5814c36b104f9847cab8770
     - 019f6efb60964ff78d3531e2d2784b97
@@ -73326,7 +73343,8 @@
   submission: 12
   grapple: 14
   card_text: When you roll Strike for your turn roll, draw 1 card or your next turn roll is +2.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - c011391c36af415bb2f314f7da0ade1e
     - 794a3111445e4b53b1bfdff7e5d216dc
@@ -74109,7 +74127,8 @@
   card_text: 'When your opponent stops a card, their Gimmick is blank until the end of their next turn.
 
     When your opponent would move any cards from their discard pile, they are instead randomly buried.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: Brimelight
   db_uuid: 2185fb6d71e54ad19fa567ff04464047
   srgpc_url: https://www.srgpc.net/competitor/brimelight/
@@ -75518,7 +75537,9 @@
   submission: 7
   grapple: 9
   card_text: After your opponent hits a Follow Up or you breakout, draw 1 card or shuffle 2 cards from your discard pile into your deck.
-  tags: []
+  tags:
+    - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
@@ -75537,7 +75558,9 @@
   grapple: 9
   card_text: 'When you roll Agility for your turn roll: Draw 1 card or your roll is +1.'
   comments: 10th anniversary edition
-  tags: []
+  tags:
+    - Hall of Fame
+    - Faction Wars Hall of Fame
   related_finishes:
     - ac693f80214649c9a71bf99186efb3eb
     - 63034684664a4ac9ba689abb6cc2aa97
@@ -75841,7 +75864,8 @@
     Draw 1 additional card for bumps.
 
     If your 3rd Breakout roll is Strike, it is +5.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_cards:
     - 504e8e4759024076b094608d6b8172a6
     - 325738205e8248dcba7efb484c0c37ef
@@ -76356,7 +76380,8 @@
   card_text: 'Once during your turn: You may reveal and bury a Follow Up from your hand to draw 2 cards.
 
     When you roll Agility: You may add 1 card from your discard  pile to your hand and your opponent draws 2 cards.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: Immortal Brick Brothers (V2)
   db_uuid: 2de6760a624f4802aebb40c4c235c706
   card_type: TornadoCompetitorCard
@@ -76369,7 +76394,8 @@
   card_text: 'Once during your turn: You may reveal and bury a Follow Up from your hand and your opponent randomly buries 1 card in their hand.
 
     When you roll Agility: You may bury 2 cards in your hand to add 1 card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: Impact
   db_uuid: 52b85a8fd80843099a633da09f475cd8
   srg_url: https://supershowthegame.com/product/impact/
@@ -76381,7 +76407,8 @@
   submission: 27
   grapple: 24
   card_text: 'Your cards with "Impact" in the name have the added text: "Add 1 non Finish card and 1 Finish card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   wants_keywords:
     - Impact
 - name: Isaac
@@ -76795,7 +76822,7 @@
 - name: La Fenix (Super Lucha)
   db_uuid: 80ae186a6d6a43ee8402b85c112964c1
   card_type: SingleCompetitorCard
-  division: World Championship
+  division: Super Lucha
   power: 8
   technique: 9
   agility: 7
@@ -79222,7 +79249,8 @@
   card_text: 'Before the start of the match:
 
     Your opponent may blank their Gimmick; if they do not, you may change the Crowd Meter to any stipulation.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 44cb89f64a234337a7897fad2983fdc2
     - cc97ddd2f6964da9be0038fee59d6132
@@ -80684,7 +80712,8 @@
   submission: 10
   grapple: 16
   card_text: Double the numbers in the text of your Strike & Grapple cards.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: Time Travel Extraordinaires
   db_uuid: 8c57d96fbf76423384286e0604c7aff7
   srgpc_url: https://www.srgpc.net/cards/competitors/time-travel-extraordinaires/
@@ -81391,7 +81420,8 @@
   card_text: 'Once per turn roll:
 
     When any player rolls 30, look at the top 3 cards of your deck, flip 1, bury 1, and put the other on top of your deck and add 1 Finish from your discard pile to your hand or your opponent''s next turn roll is -3.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: The Higher Class (V2)
   db_uuid: e18ebfba1579417aaea354b0c4168969
   srg_url: https://supershowthegame.com/product/the-higher-class-v2/
@@ -81405,7 +81435,8 @@
   card_text: 'Once per turn roll:
 
     When any player rolls 30, look at the top 3 cards of your deck, flip 1, bury 1, and put the other on top of your deck and add 1 Finish from your discard pile to your hand or your opponent''s next turn roll is -3.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: The Line
   db_uuid: 766bda5233b642a3aa2714637e68de62
   srg_url: https://supershowthegame.com/product/the-line/
@@ -81419,7 +81450,8 @@
   card_text: 'You get 1 additional Breakout roll on all breakouts.
 
     When you stop a card: Add 1 card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
 - name: The Low Rollers
   db_uuid: d04c3aed8aea4fc6a34812eba6a33d6c
   srg_url: https://supershowthegame.com/product/the-low-rollers/
@@ -81475,7 +81507,8 @@
   card_text: 'When you stop a card: Add the bottom card of your deck to your hand.
 
     If you lose a turn roll, your next turn roll is +2 for each card you have in play with "Sheep", "Cult", or "Flock" in the name (Max +6).'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   wants_keywords:
     - Sheep
     - Cult

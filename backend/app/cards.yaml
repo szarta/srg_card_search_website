@@ -53364,6 +53364,63 @@
   tags: []
   related_cards:
     - 9cbb880d1b93435f9db7624ad7eb90c9
+- name: Original Trash Chief
+  db_uuid: 99b5b19cf7e1497195f5f689528129f2
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 8
+  card_text: When you hit a card with "Trash Can" in the name, you may re-roll your next turn roll.
+  tags: []
+  related_finishes:
+    - 859080a5f71e441b899e2ecee71f9a47
+    - 1ab3da50e5184920a7423ee72a15596f
+    - 089cfb5e1d064ffcaac8cee9c1efcae0
+- name: Trashman Punch
+  db_uuid: 859080a5f71e441b899e2ecee71f9a47
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +2 to Agility
+
+    If you have a card in play with "Trash Can" in the name, this card is also a Follow Up.'
+  tags: []
+  related_cards:
+    - 99b5b19cf7e1497195f5f689528129f2
+- name: Understand Your Place
+  db_uuid: 1ab3da50e5184920a7423ee72a15596f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +2 to Agility
+
+    When this card is in your discard pile: You are considered to have a card with "Trash Can" in the name in play for your effects.'
+  tags: []
+  related_cards:
+    - 99b5b19cf7e1497195f5f689528129f2
+- name: Trash Everyone And Leave
+  db_uuid: 089cfb5e1d064ffcaac8cee9c1efcae0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Technique
+
+    +3 to Submission
+
+    Your opponent discards 1 card from their hand for each card you have in play with "Trash" in the name.'
+  tags: []
+  related_cards:
+    - 99b5b19cf7e1497195f5f689528129f2
 - name: Le Penguin (V3)
   db_uuid: 4333c3e1620946e1a124895b7309db51
   card_type: SingleCompetitorCard

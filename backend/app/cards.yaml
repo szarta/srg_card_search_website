@@ -46927,6 +46927,124 @@
   tags: []
   related_cards:
     - d89414c9e0e943d2844fcdeec92be5e5
+- name: Grand Master Payne
+  db_uuid: 9f612edec09242a790101a18074cc65d
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 8
+  submission: 7
+  grapple: 9
+  card_text: Whenever you would discard or bury any number of cards from your hand for a card effect or Gimmick, the number of cards buried or discarded is -1.
+  tags: []
+  related_finishes:
+    - 7ecd868404524f258009b03d9e8d7e81
+    - 7ea17d2197e345c18fc5586ef62f7a49
+    - 69fb2c3806ed4ec7be1e4b5bba1f9ede
+- name: Shield Of Faith
+  db_uuid: 7ecd868404524f258009b03d9e8d7e81
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +2 to Strike
+
+    If stopped, choose Strike, Grapple, or Submission.  If your opponent wins the next turn roll, they cannot play a card of the chosen type.'
+  tags: []
+  related_cards:
+    - 9f612edec09242a790101a18074cc65d
+- name: Crusade Ender
+  db_uuid: 7ea17d2197e345c18fc5586ef62f7a49
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+4 to Agility
+
+    +1 to Grapple
+
+    If your opponent has more cards in their hand than you, their maximum handsize is -6.'
+  tags: []
+  related_cards:
+    - 9f612edec09242a790101a18074cc65d
+- name: Divine Judgment
+  db_uuid: 69fb2c3806ed4ec7be1e4b5bba1f9ede
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Agility
+
+    +3 to Submission
+
+    Each player reveals 1 card in their hand; if your card number is greater than your opponent''s card number, your Finish roll is +1; if not, they discard the revealed card.'
+  tags: []
+  related_cards:
+    - 9f612edec09242a790101a18074cc65d
+- name: The Judge
+  db_uuid: 00bf968d082b455a9718c0dabe1907c0
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 8
+  strike: 6
+  submission: 10
+  grapple: 9
+  card_text: 'At the start of the match:
+
+    Draw 3 cards, and you and your target randomly bury 1 card in your hands.'
+  tags: []
+  related_finishes:
+    - af6aa6bfb47043d680c7d70fb354581e
+    - 9f73c0de7a94419995681dc909c50be5
+    - 3345c4c696b44939b8db36299038637a
+- name: Destroya
+  db_uuid: af6aa6bfb47043d680c7d70fb354581e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +3 to Strike
+
+    When this card would be randomly buries or randomly discarded: you may reveal it, add it to your hand, and your opponent randomly discards 1 card from their hand instead.'
+  tags: []
+  related_cards:
+    - 00bf968d082b455a9718c0dabe1907c0
+- name: Understanding In A Car Crash
+  db_uuid: 9f73c0de7a94419995681dc909c50be5
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Technique
+
+    +1 to Grapple
+
+    You may randomly bury either player''s discard pile.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 00bf968d082b455a9718c0dabe1907c0
+- name: Suffocate City
+  db_uuid: 3345c4c696b44939b8db36299038637a
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Technique
+
+    +1 to Grapple
+
+    If the Crowd Meter is 3 or greater, and you rolled Submission for your turn roll, this card cannot be stopped.'
+  tags: []
+  related_cards:
+    - 00bf968d082b455a9718c0dabe1907c0
 - name: Frequent Agent
   db_uuid: b9ffc00c57094a6da297f4f8e0507aac
   card_type: SingleCompetitorCard

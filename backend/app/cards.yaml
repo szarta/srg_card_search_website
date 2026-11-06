@@ -37789,6 +37789,72 @@
   wants_keywords:
     - Stomp
 - name: Krule (WR)
+  db_uuid: efdd346739c54f8f9deba943aa787990
+  division: Global
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 8
+  submission: 7
+  grapple: 9
+  card_text: If this match has no Disqualifications, +1 to Technique and +1 to Strike.
+  tags:
+    - Wrestling Revolver
+  related_finishes:
+    - 68a2c535f73f464c9df774c5303182a2
+    - 6b6267b80b8746ff9e2092175d572179
+    - 14d4e967ee0042839a34ec6712626cb0
+- name: Steel Chair Punch
+  db_uuid: 68a2c535f73f464c9df774c5303182a2
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Power
+
+    +3 to Strike
+
+    Discard 3 cards from your hand.
+
+    Your opponent discards 4 cards from their hand.
+
+    Stop any Grapple with "Steel Chair" in the name.'
+  tags: []
+  related_cards:
+    - efdd346739c54f8f9deba943aa787990
+- name: Scorched Earth (WR)
+  db_uuid: 6b6267b80b8746ff9e2092175d572179
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +1 to Submission
+
+    +1 to Grapple
+
+    If stopped, look at the top 3 cards of your opponent''s deck; discard 1 and put the others back on the top or bottom of their deck in any order.'
+  tags: []
+  related_cards:
+    - efdd346739c54f8f9deba943aa787990
+- name: Sweet Dreams Choke
+  db_uuid: 14d4e967ee0042839a34ec6712626cb0
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Agility
+
+    +2 to Submission
+
+    Your opponent''s Gimmick is blank.
+
+    When this card is in your discard pile, the match has No Disqualifications.'
+  tags: []
+  related_cards:
+    - efdd346739c54f8f9deba943aa787990
+- name: Krule (V2)
   db_uuid: 2695fc73c09a4f3c83bdffc4ec01479f
   card_type: SingleCompetitorCard
   division: Global
@@ -37799,8 +37865,7 @@
   submission: 9
   grapple: 8
   card_text: 'When you hit a card with "Steel Chain" or "Light Tubes" in the name: Shuffle up to 2 cards from your discard pile into your deck, or draw 1 card.'
-  tags:
-    - Wrestling Revolver
+  tags: []
 - name: Krule (V1)
   db_uuid: 6405174e3a3f4c77acbffedf7f0c932c
   srgpc_url: https://www.srgpc.net/cards/competitors/krule/

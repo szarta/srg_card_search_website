@@ -52392,7 +52392,59 @@
   wants_keywords:
     - Arm
     - Breaker
-- name: King Kong Dundy
+- name: King Kong Dundy (V2)
+  db_uuid: 9ccb5d23c5a74ddea9580f91b0eaa7ac
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  power: 7
+  technique: 6
+  agility: 9
+  strike: 5
+  submission: 10
+  grapple: 8
+  card_text: 'When you hit a card with "Block" or "Jam" in the name: choose 1 card your opponent has in play and discard it; if you discarded a Stop, you may bury 1 card in any player''s discard pile.'
+  tags: []
+  related_finishes:
+    - 799e69ae554146d4be4514c930a0292e
+    - 9855bccbd1064d9b9fd9379d7b88960c
+    - 61e7b1e7b7024ffc900d18f58e063ca1
+- name: The Jam Line
+  db_uuid: 799e69ae554146d4be4514c930a0292e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+4 to Strike
+
+    Once per turn: If your opponent has fewer cards in play than you, you may force them to re-roll their first Breakout roll.'
+  tags: []
+  related_cards:
+    - 9ccb5d23c5a74ddea9580f91b0eaa7ac
+- name: The Kong-Crete Block
+  db_uuid: 9855bccbd1064d9b9fd9379d7b88960c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Grapple
+
+    If stopped, you may discard 1 card from your hand and put this card into play.'
+  tags: []
+  related_cards:
+    - 9ccb5d23c5a74ddea9580f91b0eaa7ac
+- name: The Last Lap
+  db_uuid: 61e7b1e7b7024ffc900d18f58e063ca1
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    Your Strike skill is + the Crowd Meter (Min +2).'
+  tags: []
+  related_cards:
+    - 9ccb5d23c5a74ddea9580f91b0eaa7ac
+- name: King Kong Dundy (V1)
   db_uuid: ad7d8a1ad1f94531ba438895bbdc4fd7
   srgpc_url: https://www.srgpc.net/cards/competitors/king-kong-dundy/
   card_type: SingleCompetitorCard

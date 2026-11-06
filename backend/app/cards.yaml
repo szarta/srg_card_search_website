@@ -37790,6 +37790,7 @@
     - Stomp
 - name: Krule (WR)
   db_uuid: efdd346739c54f8f9deba943aa787990
+  card_type: SingleCompetitorCard
   division: Global
   power: 10
   technique: 5

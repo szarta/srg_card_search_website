@@ -32045,7 +32045,7 @@
   db_uuid: ef5f0e0716a54929bba3f278d7f4b354
   srgpc_url: https://www.srgpc.net/competitor/general-lee-wong-v2/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 10
   technique: 6
   agility: 5
@@ -32055,7 +32055,8 @@
   card_text: 'Each time you roll Power, Agility, and Technique for your turn rolls:
 
     Draw 3 cards and your next turn roll is +2.'
-  tags: []
+  tags:
+    - Hall of Fame
   related_finishes:
     - 4211f86d253e480091a57f67eaacb84f
     - 3338fa96bc264df98dd5b8df6c2d9c7f
@@ -40923,7 +40924,7 @@
   db_uuid: 831eb73c2ab9435794db4413c7e2521b
   srgpc_url: https://www.srgpc.net/cards/competitors/theo-the-greek-neo/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 7
   technique: 5
   agility: 9
@@ -57852,7 +57853,7 @@
 - name: Memes Dealer (V2)
   db_uuid: c6cea4fe18774ca5a4f879c8a243821a
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 9
   technique: 5
   agility: 7
@@ -58891,7 +58892,7 @@
   db_uuid: 924e81a6d29b4983bf9be0918a459760
   srgpc_url: https://www.srgpc.net/cards/competitors/mimic/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 5
   technique: 10
   agility: 8
@@ -58899,7 +58900,8 @@
   submission: 9
   grapple: 7
   card_text: When your opponent increases their skills, your skills are also increased the same amount.
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - a7d30b53ad2b4df8bfa5d123f494faef
     - 6db3ab4f495a4f6db026f47b652e6da3
@@ -60954,7 +60956,7 @@
   db_uuid: c4a7dc18e187401ba7632cc682b14879
   srgpc_url: https://www.srgpc.net/cards/competitors/the-oracle/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 8
   technique: 5
   agility: 7
@@ -61142,7 +61144,7 @@
 - name: Overdog (V1)
   db_uuid: 5f78183903ba49eabae4c4ec9f0ffd11
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 5
   technique: 7
   agility: 6
@@ -61160,7 +61162,7 @@
 - name: Overdog (V2)
   db_uuid: 64639328a1d9437d8af22c5d648f4b70
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 5
   technique: 7
   agility: 6
@@ -64068,7 +64070,7 @@
   db_uuid: 289c8f5092744a71a376e27dd231bd04
   srgpc_url: https://www.srgpc.net/cards/competitors/reverend-good-brain/
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: United States
   power: 10
   technique: 9
   agility: 6
@@ -85997,7 +85999,7 @@
 - name: El Gato Shinobi
   db_uuid: 44a083f3214148959e40c125bb5eb7b2
   card_type: SingleCompetitorCard
-  division: Underworld
+  division: Super Lucha
   power: 5
   technique: 6
   agility: 9

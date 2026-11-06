@@ -59402,7 +59402,7 @@
     - ab2e17c9e2ef4e97a6816fb625f0311e
   wants_keywords:
     - Wonder
-- name: Mr. C
+- name: Mr. C (V1)
   db_uuid: a1088686b5a342cb90fe49b2f3cc7b8c
   srgpc_url: https://www.srgpc.net/cards/competitors/mr-c/
   card_type: SingleCompetitorCard
@@ -93801,7 +93801,7 @@
   tags: []
   related_cards:
     - 5aa3e95e68324d8690519c11fe323480
-- name: Mr. C
+- name: Mr. C (V2)
   db_uuid: d8aa5764dd194092b36cd6b680ecda59
   card_type: SingleCompetitorCard
   power: 5

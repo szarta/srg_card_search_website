@@ -789,7 +789,8 @@
   submission: 7
   grapple: 10
   card_text: 'When you roll Agility for your turn roll: flip 2 cards or 3 times per match:  Add 1 card from your discard pile to your hand.'
-  tags: []
+  tags:
+    - Faction Wars Hall of Fame
   related_finishes:
     - 0bf8b12f88e741c8a772eaa84907f5b9
     - bc0996058a224c84b9ec922e3cdd7ccf
@@ -9540,7 +9541,7 @@
     - Old School Wave 2
     - Old School Wave 3
   text_lines_count: 6
-- name: Kabuki
+- name: Kabuki (V1)
   db_uuid: 6803ec601ba34ed88ddf6a07b12bed12
   srgpc_url: https://www.srgpc.net/cards/7/kabuki/
   card_type: MainDeckCard
@@ -9552,6 +9553,16 @@
     Cards in your opponet''s discard pile have blank text.'
   tags: []
   text_lines_count: 4
+- name: Kabuki (V2)
+  db_uuid: 13bb2d4e7ec844c0a7a2659fe38d905a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Lead
+  deck_card_number: 7
+  card_text: '+3 to Technique, Agility, and Strike during your next turn roll.
+
+    Cards in your opponent''s discard pile have blank text.'
+  tags: []
 - name: Kendo Stick Uprising
   db_uuid: 6f3e75fa3c22490980b75be621d4ecf3
   srgpc_url: https://www.srgpc.net/cards/7/kendo-stick-uprising/
@@ -22664,7 +22675,7 @@
   card_text: Add 1 card from your discard pile to your hand or look at the top 3 cards of your deck, put 2 cards in your hand and bury the other.
   tags:
     - Super Lucha
-- name: Flying Cutter
+- name: Flying Cutter (V1)
   db_uuid: 6b41ebfc8bce402cadf36491eaa81844
   srgpc_url: https://www.srgpc.net/cards/23/flying-cutter/
   card_type: MainDeckCard
@@ -22672,6 +22683,16 @@
   play_order: Followup
   deck_card_number: 23
   card_text: Take 2 cards from your discard pile and shuffle them into your deck, then draw 2 cards.
+  tags: []
+- name: Flying Cutter (V2)
+  db_uuid: c6dbe2ac499d45ecb9f083374f31a3ea
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: 'Shuffle 2 cards from your discard pile into your deck.
+
+    Draw 2 cards.'
   tags: []
 - name: Flying Face Buster
   db_uuid: 0e9e4b1f0a30469da19aefb44bcce4cd
@@ -93243,3 +93264,148 @@
   tags: []
   related_cards:
     - a62bc793122c431a8c448c5722f145d2
+- name: Razzle Dazzle & Tux
+  db_uuid: 38ca3e5cc07e42ff8920de764675b5b6
+  card_type: SingleCompetitorCard
+  division: Global
+  power: 5
+  technique: 7
+  agility: 8
+  strike: 10
+  submission: 6
+  grapple: 9
+  card_text: You and your target cannot bury Stops from the discard pile when a turn is passed.
+  tags: []
+  related_finishes:
+    - b2201cdaac9343d787950d4bf5a7b413
+    - 644a7fbb8c3f45da9be5ea7ad9377308
+    - 581fa57f538b429883908a334924a490
+- name: Head, Shoulders, Knees and Toes
+  db_uuid: b2201cdaac9343d787950d4bf5a7b413
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Power
+
+    +1 to Technique
+
+    +1 to Agility
+
+    Your opponent flips 1 card for each card you ahve in play with "Head", "Shoulder", "Knee", or "Toe" in the name.'
+  tags: []
+  related_cards:
+    - 38ca3e5cc07e42ff8920de764675b5b6
+- name: The Merry Go Round Broke Down
+  db_uuid: 644a7fbb8c3f45da9be5ea7ad9377308
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Power
+
+    +1 to Agility
+
+    +1 to Grapple
+
+    You may randomly discard 1 card from your hand to shuffle all cards you have in play into your deck.
+
+    Draw 2 cards.'
+  tags: []
+  related_cards:
+    - 38ca3e5cc07e42ff8920de764675b5b6
+- name: Test of Penguin
+  db_uuid: 581fa57f538b429883908a334924a490
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +4 to Submission
+
+    Shuffle 4 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 38ca3e5cc07e42ff8920de764675b5b6
+- name: Misfit
+  db_uuid: 5716b4ba5cc54d1b8d6ba65366957a25
+  card_type: SingleCompetitorCard
+  division: Hardcore
+  power: 8
+  technique: 7
+  agility: 5
+  strike: 10
+  submission: 6
+  grapple: 9
+  card_text: When your opponent hits a card, your Power and Technique are +1 until the start of the next turn.
+  tags: []
+  related_finishes:
+    - 8d15b3b9c7a24432ab8452d39291367c
+    - f62f337e649d4b7380372e59d9ddc45a
+    - 7d654bc2d35f4b6f9a02fd681f74c1e8
+    - 75276f9044da4c7ab93b9795431aebea
+- name: The Most Entertaining Leg Drop
+  db_uuid: 8d15b3b9c7a24432ab8452d39291367c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +1 to Technique
+
+    +2 to Agility
+
+    If your opponent hit a card last turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - 5716b4ba5cc54d1b8d6ba65366957a25
+- name: Violent World
+  db_uuid: f62f337e649d4b7380372e59d9ddc45a
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Technique
+
+    +3 to Agility
+
+    +1 to Strike
+
+    +2 to Grapple
+
+    If your opponent breaks out, both players shuffle their discard piles into their deck, and you draw 1 card.'
+  tags: []
+  related_cards:
+    - 5716b4ba5cc54d1b8d6ba65366957a25
+- name: Written And Directed By The Misfit
+  db_uuid: 7d654bc2d35f4b6f9a02fd681f74c1e8
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Submission
+
+    +1 to Grapple
+
+    When this card is in your discard pile: If your target won the last 3 turn rolls, add this card to your hand, and your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 5716b4ba5cc54d1b8d6ba65366957a25
+- name: Admit That I'm Better
+  db_uuid: 75276f9044da4c7ab93b9795431aebea
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Agility
+
+    +3 to Submission
+
+    Once per turn:
+
+    If you rolled Agility for your Finish roll, you may re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 5716b4ba5cc54d1b8d6ba65366957a25

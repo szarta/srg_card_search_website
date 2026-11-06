@@ -4033,6 +4033,16 @@
 
     If this is a Steel Cage match, flip 3 cards.'
   tags: []
+- name: Knockdown The Thumbtacks
+  db_uuid: cf18f329e0344ae1830f099b81bec7b3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 20
+  card_text: 'If your opponent has another Submission in play, stop any Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Jurassic Chokeslam
   db_uuid: 21125f12c22b4086919eb14911780474
   card_type: MainDeckCard
@@ -7992,6 +8002,16 @@
     Draw 1 card. Your opponent randomly buries 1 card in their hand.'
   tags: []
   text_lines_count: 4
+- name: Going Over The Thumbtacks
+  db_uuid: 8bc1c4bcabc84fcf879e828b34479f37
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 5
+  card_text: 'Stop any Follow Up Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Spin It to Win It
   db_uuid: 032116f5b74e4d8fa75293380d1ae2f5
   card_type: MainDeckCard
@@ -12364,6 +12384,16 @@
   play_order: Lead
   deck_card_number: 10
   card_text: If you have another Lead in play, draw the bottom card of your deck.
+  tags: []
+- name: Gathering The Thumbtacks
+  db_uuid: a0fe6a6d1bc346ca8c41cbbaa07d48fc
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 11
+  card_text: 'Shuffle 1 card with "Thumbtack" in the name from your discard pile into your deck for each Lead you have in play.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
   tags: []
 - name: Head Plant
   db_uuid: 6476793cbb9a4a5ca45ed1f1eb6eeffc
@@ -37758,7 +37788,20 @@
     - 9aea25a1ebc64c38bcae52df7777e63e
   wants_keywords:
     - Stomp
-- name: Krule
+- name: Krule (WR)
+  db_uuid: 2695fc73c09a4f3c83bdffc4ec01479f
+  card_type: SingleCompetitorCard
+  division: Global
+  power: 10
+  technique: 5
+  agility: 6
+  strike: 7
+  submission: 9
+  grapple: 8
+  card_text: 'When you hit a card with "Steel Chain" or "Light Tubes" in the name: Shuffle up to 2 cards from your discard pile into your deck, or draw 1 card.'
+  tags:
+    - Wrestling Revolver
+- name: Krule (V1)
   db_uuid: 6405174e3a3f4c77acbffedf7f0c932c
   srgpc_url: https://www.srgpc.net/cards/competitors/krule/
   card_type: SingleCompetitorCard
@@ -52854,7 +52897,8 @@
   submission: 5
   grapple: 6
   card_text: When you roll Submission for your turn roll, choose 1 card your opponent has in play and discard it.
-  tags: []
+  tags:
+    - New Japan
   related_finishes:
     - ccb0b890fb6a403d949451ee67908daf
     - 6c3f3bb7036d462da14343fc4fbe8a17
@@ -76573,7 +76617,8 @@
   submission: 5
   grapple: 8
   card_text: Your opponent's breakout rolls are -1.
-  tags: []
+  tags:
+    - WWX
   related_finishes:
     - d807803e5544497ca5aa5d3414ea7c33
     - 4dea307721734fdd9f44ce6ce7148f66
@@ -81484,6 +81529,18 @@
 
     This card counts as 2 Lead Strikes in play.'
   tags: []
+- name: Thumbtack Uprising
+  db_uuid: ed4074ace6944f63b7d4dca17735237d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 8
+  card_text: 'Put 1 card with "Thumbtack" in the name from your discard pile on top of your deck.
+
+    Your next turn roll is +1.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Crucifix Roll Up
   db_uuid: 62841d13465e4afbb8900d1ecb6a0ea2
   spotlight: true
@@ -81715,6 +81772,16 @@
   card_text: Copy the text of a card in your opponent's discard pile.
   tags:
     - Logoless
+- name: Thumbtacks
+  db_uuid: a06d0952e09440c1b64b8112f8fcb69d
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 2
+  card_text: 'Stop any Lead Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Till I Collapse
   db_uuid: 4e27aad6eaad43eaae226cfe5074668d
   srgpc_url: https://www.srgpc.net/cards/2/till-i-collapse/
@@ -82493,6 +82560,26 @@
 
     Shuffle your deck.'
   tags: []
+- name: Catch The Thumbtacks
+  db_uuid: 465b8113408f47feb8d83c4e9b61c70c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  card_text: 'If your Grapple skill is greater than your opponent''s Grapple skill, stop any Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
+- name: Takeover With the Thumbtacks
+  db_uuid: de98bd303d724bb197f733ea3523ddb9
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 14
+  card_text: 'If your Power skill is greater than your opponent''s Power skill, stop any Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Sadistic Slam (Power)
   db_uuid: b860109eea18449b945dc8a8fb0f12a6
   card_type: MainDeckCard
@@ -83269,6 +83356,18 @@
 
     If stopped, you lose the match via disqualification.'
   tags: []
+- name: Set Up The Thumbtacks
+  db_uuid: 522b54b65d894367a8f3e1eecb5b2d73
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: 'Search your deck for 1 card with "Tack" in the name and add it to your hand.
+
+    All Finish Grapples have the added text: "Your opponent''s breakout rolls are -1."
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Bossiest Bossaball Throw
   db_uuid: 8a795030a6a94b7dbf5fa26dc61ea4bd
   card_type: MainDeckCard
@@ -83691,6 +83790,16 @@
 
     Draw 2 cards. Shuffle 1 card from your discard pile into your deck.'
   tags: []
+- name: Backlash With The Thumbtacks
+  db_uuid: 4e388e9fffc64f3abd8d3fa6cc9bd92b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Lead
+  deck_card_number: 26
+  card_text: 'Stop any Submission.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
+  tags: []
 - name: Game-Time Drop
   db_uuid: a9f9d35d59ec429fb161752b6de961b1
   srgpc_url: https://www.srgpc.net/cards/26/game-time-drop/
@@ -84025,6 +84134,13 @@
   card_text: 'Search your deck for a Finish Grapple and add it to your hand.
 
     Shuffle your deck.'
+  tags: []
+- name: Pouring Out The Thumbtacks!
+  db_uuid: aeba062c25cd4ed486ede3f556d3bc93
+  card_type: EntranceCard
+  card_text: 'Twice per match:
+
+    When you reveal the top card of your deck and it does not have "Thumbtack" in the name, you may shuffle your deck and reveal another card instead.'
   tags: []
 - name: We Won't Be Denied
   db_uuid: cbc022bc848642b9b1af24225daafd9c
@@ -85384,6 +85500,16 @@
   card_text: 'If you have another Follow Up in play, discard 1 card you opponent has in play.
 
     If your opponent hit a Strike this turn, stop any Strike.'
+  tags: []
+- name: Ambush With The Thumbtacks
+  db_uuid: 3f48325ae03844c995e36a9a1a44ccee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 17
+  card_text: 'If you have another card in play with "Thumbtack" in the name, look at the top 3 cards of your deck; add 1 to your hand, put the others on top or bottom of your deck in any order.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force both players to re-roll their next turn roll.'
   tags: []
 - name: Corner-Conrana
   db_uuid: cb631225f25548588d13775cd89b9d67
@@ -89139,7 +89265,8 @@
   submission: 10
   grapple: 9
   card_text: 'When your opponent stops your Follow Up: You may discard 1 Follow Up or Finish they have in play, and their next turn roll is -1.'
-  tags: []
+  tags:
+    - Wrestling Revolver
   related_finishes:
     - 48f5bb088ff043dea9612612859fb1db
     - 007ff4f3d9994b1c97c0aee27c374d33
@@ -93831,4 +93958,14 @@
   db_uuid: daf93e4580fa41188f6daec029f70a94
   card_type: SingleCompetitorCard
   division: Global
+  tags: []
+- name: Pineapple Powerbomb On The Thumbtacks
+  db_uuid: 58da15aaaa104aa0aa150dadd1333f33
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: 'Choose Power or Grapple; If you roll that skill for your Finish roll, it is +3.
+
+    Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []

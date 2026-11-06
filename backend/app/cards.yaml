@@ -93742,3 +93742,123 @@
   tags: []
   related_cards:
     - 5716b4ba5cc54d1b8d6ba65366957a25
+- name: Mister Coldfinger
+  db_uuid: 5aa3e95e68324d8690519c11fe323480
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 7
+  agility: 10
+  strike: 6
+  submission: 9
+  grapple: 8
+  card_text: 'Your "Flying Cutter" is also #17, #22, and #24.
+
+    If your opponent is Yung Allergy, their Gimmick is blank.'
+  tags: []
+  related_finishes:
+    - da05203567c54bb8860c8cf41bc49c13
+    - 8e9ecca477b9453fa5d5669da9e8a067
+    - 93cfaed325624fe7864f8513a08f6b85
+- name: The Ice Sickle
+  db_uuid: da05203567c54bb8860c8cf41bc49c13
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Power
+
+    +2 to Strike
+
+    If your opponent breaks out, shuffle up to 4 cards with "Cutter" in the name from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 5aa3e95e68324d8690519c11fe323480
+- name: The Coldfinger Cutter
+  db_uuid: 8e9ecca477b9453fa5d5669da9e8a067
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +1 to Grapple
+
+    If you have at least 2 "Flying Cutter" cards in play, this card cannot be stopped by Follow Ups.'
+  tags: []
+  related_cards:
+    - 5aa3e95e68324d8690519c11fe323480
+- name: The Temperature Check
+  db_uuid: 93cfaed325624fe7864f8513a08f6b85
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Power
+
+    +1 to Submission
+
+    You may bury 2 "Flying Cutter" cards from your discard pile to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 5aa3e95e68324d8690519c11fe323480
+- name: Mr. C
+  db_uuid: d8aa5764dd194092b36cd6b680ecda59
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 9
+  agility: 10
+  strike: 6
+  submission: 8
+  grapple: 7
+  card_text: 'Once per turn roll:
+
+    If you or your target would lose the turn roll with the lowest roll, that player re-rolls their turn roll.'
+  tags: []
+  related_finishes:
+    - 9edd86d533d045ceb7f413ede09e5e47
+    - c44440b72cb14c75afb1536338af4b76
+    - c55f6dba89614f25958107377fa1a3de
+- name: Mr. C Saw
+  db_uuid: 9edd86d533d045ceb7f413ede09e5e47
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Power
+
+    +1 to Strike
+
+    +1 to Grapple
+
+    If you re-rolled your turn roll, double these bonuses.'
+  tags: []
+  related_cards:
+    - d8aa5764dd194092b36cd6b680ecda59
+- name: Power Play Plunge
+  db_uuid: c44440b72cb14c75afb1536338af4b76
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: 'Your Finish roll is +1.
+
+    If you re-rolled your turn roll, your Power is +3.
+
+    Each player buries 4 cards in their hand.'
+  tags: []
+  related_cards:
+    - d8aa5764dd194092b36cd6b680ecda59
+- name: The Final Draw
+  db_uuid: c55f6dba89614f25958107377fa1a3de
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Strike
+
+    +1 to Submission
+
+    Draw the bottom 2 cards of your deck.'
+  tags: []
+  related_cards:
+    - d8aa5764dd194092b36cd6b680ecda59

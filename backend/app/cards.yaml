@@ -49674,7 +49674,7 @@
   tags: []
   related_cards:
     - e7f4079b9154426e94cbc0bf90a6aa18
-- name: The French Revolution
+- name: The French Revolution (Jean Constance)
   db_uuid: 3c52f18ef2594ecd941f6bf6b0db7be9
   card_type: MainDeckCard
   atk_type: Grapple
@@ -53364,6 +53364,59 @@
   tags: []
   related_cards:
     - 9cbb880d1b93435f9db7624ad7eb90c9
+- name: Le Penguin (V3)
+  db_uuid: 4333c3e1620946e1a124895b7309db51
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 9
+  grapple: 8
+  card_text: 'When you roll Strike for your turn roll: you may search your deck for up to 1 card, put it into your discard pile, and shuffle your deck.'
+  tags: []
+  related_finishes:
+    - 3ab8eba71c754fad984205dca4139792
+    - af1e4ac6fd96457ebbbf64c46dd89aad
+    - b18fd33e2edf456c806c11fb9f39e58b
+- name: The French Revolution (Le Penguin)
+  db_uuid: 3ab8eba71c754fad984205dca4139792
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+3 to Agility
+
+    +3 to Strike
+
+    Stop any Finish Grapple with "Cannot Breakout" in the text.
+
+    If your opponent has more cards in their hand than you, randomly add 1 card from your discard pile to your hand until you have an equal number of cards in hand.'
+  tags: []
+  related_cards:
+    - 4333c3e1620946e1a124895b7309db51
+- name: La Glace Guillotine
+  db_uuid: af1e4ac6fd96457ebbbf64c46dd89aad
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Grapple
+
+    If your opponent breaks out, you may put this card into play from your discard pile.'
+  tags: []
+  related_cards:
+    - 4333c3e1620946e1a124895b7309db51
+- name: The King of The Birds The Creme Of The Flock
+  db_uuid: b18fd33e2edf456c806c11fb9f39e58b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: +1 to Power, Agility, and Grapple for each card you have in play with "Bird", "Flock", or "Press" in the name (Max +2).
+  tags: []
+  related_cards:
+    - 4333c3e1620946e1a124895b7309db51
 - name: Leader of the Black Sheep (V1)
   db_uuid: 52492d03968e461d8a3e1e860491db9a
   srg_url: https://supershowthegame.com/product/leader-of-the-black-sheep/

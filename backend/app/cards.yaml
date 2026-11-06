@@ -46927,6 +46927,59 @@
   tags: []
   related_cards:
     - d89414c9e0e943d2844fcdeec92be5e5
+- name: Frequent Agent
+  db_uuid: b9ffc00c57094a6da297f4f8e0507aac
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 8
+  agility: 10
+  strike: 9
+  submission: 5
+  grapple: 6
+  card_text: When your opponent hits a Lead or Follow Up, you may discard 1 card with "High" or "Table" in the name from your hand to blank that card's text until the end of the turn.
+  tags: []
+  related_finishes:
+    - d67ab50fbeb149ebac126e230f2f1232
+    - 03b49c4d126442e0999c11f835947307
+    - 3430bce5ee1b41d4915d13f07d4b949b
+- name: Those Who Cling To Life, Die
+  db_uuid: d67ab50fbeb149ebac126e230f2f1232
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Power
+
+    If stopped, you may discard 1 card from your hand with "High" or "Table" in the name to shuffle this card into your deck.'
+  tags: []
+  related_cards:
+    - b9ffc00c57094a6da297f4f8e0507aac
+- name: Those Who Cling to Death, Live
+  db_uuid: 03b49c4d126442e0999c11f835947307
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Grapple
+
+    Your next Breakout roll is +1.
+
+    If your opponent breaks out, you may discard 1 card with "High" or "Table" in the name from your hand to add this card to your hand.'
+  tags: []
+  related_cards:
+    - b9ffc00c57094a6da297f4f8e0507aac
+- name: Binding Debt To Be Paid
+  db_uuid: 3430bce5ee1b41d4915d13f07d4b949b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+5 to Submission
+
+    The next time your opponent breaks out, if the Crowd Meter is 5 or greater, your opponent loses the match via pinfall.'
+  tags: []
+  related_cards:
+    - b9ffc00c57094a6da297f4f8e0507aac
 - name: Frequent Flyer
   db_uuid: 8f4d6cf02cf04c15bcb6908883bc5fd0
   srgpc_url: https://www.srgpc.net/cards/competitors/the-frequent-flyer/

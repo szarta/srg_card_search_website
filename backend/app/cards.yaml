@@ -36582,7 +36582,8 @@
   card_text: 'Once a match:
 
     You may ignore the "Cannot be stopped" effect on a Finish played by your opponent.'
-  tags: []
+  tags:
+    - Newman
 - name: Advise from the Sidelines
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
   card_type: SpectacleCard

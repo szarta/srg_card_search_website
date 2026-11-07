@@ -3770,6 +3770,18 @@
   card_text: Your next turn roll is +1 for each Grapple you have in play.
   tags:
     - Old School Wave 1
+- name: Powerbomb (Power)
+  db_uuid: 9e8fd19b3bfb40d780b0917610f61f7e
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Followup
+  deck_card_number: 23
+  card_text: 'Flip 4 cards.
+
+    Add 2 cards from your discard pile to your hand.'
+  tags: []
+  requirements:
+    - min_power: 8
 - name: Protoplasmic Slam (Grapple)
   db_uuid: 8293e63a85ea45a6bc9c489d5d345ae3
   card_type: MainDeckCard
@@ -93623,7 +93635,7 @@
   tags: []
   related_cards:
     - 7856b03bb89e465aa1795e518be290e8
-- name: Powerbomb
+- name: Powerbomb (Moose)
   db_uuid: 0f4880d556fb49d3b74d81c269e000b1
   card_type: MainDeckCard
   atk_type: Grapple

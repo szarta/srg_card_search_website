@@ -36584,6 +36584,14 @@
     You may ignore the "Cannot be stopped" effect on a Finish played by your opponent.'
   tags:
     - Newman
+- name: Drags You Down
+  db_uuid: f8fa8bd915e64c6b9a5726642d2bb610
+  card_type: SpectacleCard
+  card_text: 'Once a match:
+
+    Until the end of the turn change the "If stopped" text on your opponent''s card to "If stopped, each player buries 1 card in their hand.'
+  tags:
+    - Newman
 - name: Advise from the Sidelines
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
   card_type: SpectacleCard

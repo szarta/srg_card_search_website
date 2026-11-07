@@ -64964,6 +64964,17 @@
     - 5c61b09db55549b6a957926b3ae14a4b
     - caf514310b2a453cbd9fbe7a3affc12d
     - b1c536d936c143d7b31a0ce0490f8bd9
+- name: Guillotine Choke (Submission)
+  db_uuid: 7f29f88e9e194e2faa1ac66a20d54dac
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: If your opponent rolled their lowest skill for their turn or Breakout roll, their skills are -1 until the end of the turn.
+  tags:
+    - Logoless
+  requirements:
+    - min_submission: 8
 - name: Guillotine Choke (Robert Dunn)
   db_uuid: 396bd59faaae43bd97f8948161d777d6
   card_type: MainDeckCard

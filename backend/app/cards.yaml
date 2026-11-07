@@ -36576,6 +36576,13 @@
     Change "Twice per match" in the text of your opponent''s entrance card to "Once per match".'
   tags:
     - Valiant
+- name: Does The Unspeakable
+  db_uuid: 3e9b1fccfb5b4cd0b2fa83706bd8be38
+  card_type: SpectacleCard
+  card_text: 'Once a match:
+
+    You may ignore the "Cannot be stopped" effect on a Finish played by your opponent.'
+  tags: []
 - name: Advise from the Sidelines
   db_uuid: 517f5ae98ae542a9b8281727589b80f6
   card_type: SpectacleCard

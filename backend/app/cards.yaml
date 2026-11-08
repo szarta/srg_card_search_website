@@ -13471,7 +13471,7 @@
 
     If this is a Steel Cage match, your opponent''s next turn roll is -2.'
   tags: []
-- name: Pin Into the Corner
+- name: Pin Into The Corner
   db_uuid: e35bf919cff34d86aef1808708a32d9a
   srgpc_url: https://www.srgpc.net/cards/12/pin-into-the-corner/
   card_type: MainDeckCard
@@ -13480,7 +13480,7 @@
   deck_card_number: 12
   card_text: If your opponent has a Stop in play, draw 2 cards.
   tags: []
-- name: Raise the Dead (Grapple, Technique)
+- name: Raise The Dead (Grapple, Technique)
   db_uuid: 6f992635e10e4478838254efbc1d4526
   srgpc_url: https://www.srgpc.net/cards/12/raise-the-dead/
   card_type: MainDeckCard
@@ -78880,7 +78880,7 @@
 
     If you moved a card from your discard pile to your hand last turn, this card is also a Follow Up.
 
-    When you have "Raise the Dead" in play and your Finish roll is 6 or less, it is +2.'
+    When you have "Raise The Dead" in play and your Finish roll is 6 or less, it is +2.'
   tags: []
   related_cards:
     - 6a32e401cff74db8937a966a156ae2c3
@@ -94197,3 +94197,62 @@
 
     Reveal the top card of your deck: If it has "Thumbtack" in the name, add that card to your hand, and you may force your opponent to re-roll their next turn roll.'
   tags: []
+- name: SJW
+  db_uuid: 8949b428fd4d44eaa804d5a01b5ba2ff
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 9
+  agility: 6
+  strike: 5
+  submission: 10
+  grapple: 8
+  card_text: 'Your "Raise The Dead" is also card #9, #10, and #11.'
+  tags: []
+  related_finishes:
+    - 869140382aad41d9958d847dde86071b
+    - d5aa50357daf4b3e8235be32eacd9b5f
+    - 88c8a4995da84b89ae1238b9f0afe4aa
+- name: Wakey Wakey
+  db_uuid: 869140382aad41d9958d847dde86071b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +2 to Strike
+
+    If you have "Raise The Dead" in play, your Finish roll is +1.'
+  tags: []
+  related_cards:
+    - 8949b428fd4d44eaa804d5a01b5ba2ff
+- name: Solo Leveling Up
+  db_uuid: d5aa50357daf4b3e8235be32eacd9b5f
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Grapple
+
+    When this card is in your discard pile or in play, your Power is +1 for each "Raise The Dead" in your discard pile.'
+  tags: []
+  related_cards:
+    - 8949b428fd4d44eaa804d5a01b5ba2ff
+- name: Praiseworthy Attempt
+  db_uuid: 88c8a4995da84b89ae1238b9f0afe4aa
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Grapple
+
+    Add all "Raise The Dead" cards from your discard pile or in play to your hand.
+
+    Your next turn roll is +2.'
+  tags: []
+  related_cards:
+    - 8949b428fd4d44eaa804d5a01b5ba2ff

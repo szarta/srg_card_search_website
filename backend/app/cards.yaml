@@ -32254,10 +32254,16 @@
   grapple: 7
   card_text: 'Once per turn roll, when you roll Technique: Choose any player to re-roll their turn roll.'
   tags: []
+  related_cards:
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
     - 64b48dd07372438ca90eb9b8f4a8d627
+    - 7a913d2bb1174318bd7f582c3dfe60d0
+    - 6abab511651f4ca7a883f7050186b2c4
+    - bd03d130bd00408a81df28394e4309f4
 - name: Grim Librarian (V2)
   db_uuid: b95f873118b944b0b07a8af9c8731752
   srg_url: https://supershowthegame.com/product/grim-librarian-2/
@@ -32272,10 +32278,16 @@
   grapple: 7
   card_text: 'Once per turn roll, when you roll Technique: You may choose any player to re-roll their turn roll.'
   tags: []
+  related_cards:
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
     - 64b48dd07372438ca90eb9b8f4a8d627
+    - 7a913d2bb1174318bd7f582c3dfe60d0
+    - 6abab511651f4ca7a883f7050186b2c4
+    - bd03d130bd00408a81df28394e4309f4
 - name: Grim Librarian (V3)
   db_uuid: d5edc30f9dc04838bc821938c31f0312
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -32289,10 +32301,16 @@
   grapple: 7
   card_text: 'When you or your opponent roll Technique: you may draw 1 card then bury 1 card in your hand.'
   tags: []
+  related_cards:
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
   related_finishes:
     - eded279be1754024a020abc484bab3a3
     - c4abae61d6c54a009e94302bd57781f8
     - 64b48dd07372438ca90eb9b8f4a8d627
+    - 7a913d2bb1174318bd7f582c3dfe60d0
+    - 6abab511651f4ca7a883f7050186b2c4
+    - bd03d130bd00408a81df28394e4309f4
 - name: '"Shhhhh"'
   db_uuid: eded279be1754024a020abc484bab3a3
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -32310,6 +32328,8 @@
     - eea0b5bfc97b49dd8dacc7c787ad62a3
     - b95f873118b944b0b07a8af9c8731752
     - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
 - name: Close the Book
   db_uuid: c4abae61d6c54a009e94302bd57781f8
   srgpc_url: https://www.srgpc.net/cards/competitors/grim-librarian/
@@ -32327,6 +32347,8 @@
     - eea0b5bfc97b49dd8dacc7c787ad62a3
     - b95f873118b944b0b07a8af9c8731752
     - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
   wants_keywords:
     - School
 - name: The Final Chapter
@@ -32346,6 +32368,60 @@
     - eea0b5bfc97b49dd8dacc7c787ad62a3
     - b95f873118b944b0b07a8af9c8731752
     - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
+- name: Silence Is Golden
+  db_uuid: 7a913d2bb1174318bd7f582c3dfe60d0
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Submission
+
+    +1 to Grapple
+
+    Your Agility is +1 for each card your opponent has in play.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
+- name: Knowledge Is Power
+  db_uuid: 6abab511651f4ca7a883f7050186b2c4
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Power
+
+    +3 to Technique
+
+    You may add "Split Finger Lock" and "Flying Cutter" from your discard pile or in play to your hand.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
+- name: Book Binding
+  db_uuid: bd03d130bd00408a81df28394e4309f4
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Grapple
+
+    Draw 3 cards.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+    - 909bc2dbd32c42e3bb06177eb37a618e
+    - 63f7476894324ad6a5f0fff08e01771f
 - name: Gropar the Great and Powerful
   db_uuid: 92712ad7966a404ebfb48b4482912594
   srgpc_url: https://www.srgpc.net/cards/competitors/gropar-the-great-and-powerful/
@@ -94256,3 +94332,122 @@
   tags: []
   related_cards:
     - 8949b428fd4d44eaa804d5a01b5ba2ff
+- name: Grim Thoughts
+  db_uuid: 63f7476894324ad6a5f0fff08e01771f
+  card_type: TornadoCompetitorCard
+  power: 20
+  technique: 16
+  agility: 10
+  strike: 18
+  submission: 14
+  grapple: 12
+  card_text: 'Once per turn roll:
+
+    If your opponent stopped your card last turn, or you rolled Technique, you may force your opponent to re-roll their turn roll.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+    - 5c61b09db55549b6a957926b3ae14a4b
+    - caf514310b2a453cbd9fbe7a3affc12d
+    - b1c536d936c143d7b31a0ce0490f8bd9
+  related_finishes:
+    - ce5f2abe72904f48964d86d1172ba70b
+    - a08dea2e8f904082b59fb736c8553003
+    - f470faed7161411c8d00891f636965e8
+    - eded279be1754024a020abc484bab3a3
+    - c4abae61d6c54a009e94302bd57781f8
+    - 64b48dd07372438ca90eb9b8f4a8d627
+    - 7a913d2bb1174318bd7f582c3dfe60d0
+    - 6abab511651f4ca7a883f7050186b2c4
+    - bd03d130bd00408a81df28394e4309f4
+    - 8fd1c286a8664a2f955f1fe245929090
+    - 8b7fb3c43aa8436eb615780fef8b61db
+    - 396bd59faaae43bd97f8948161d777d6
+    - 372755ff81c248ef9bf3069f646b2438
+    - d763c447d723413391187e8362e1079f
+- name: Steel Oat Cutter
+  db_uuid: ce5f2abe72904f48964d86d1172ba70b
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+7 to Agility
+
+    +1 to Strike
+
+    Add 2 cards with "Cut", "Kick", or "Steel" in the name from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 63f7476894324ad6a5f0fff08e01771f
+    - 909bc2dbd32c42e3bb06177eb37a618e
+- name: Mega-Steel Brainbuster
+  db_uuid: a08dea2e8f904082b59fb736c8553003
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Technique
+
+    +6 to Grapple
+
+    Draw 1 card for each card you have in play with "Brain", "Kick", or "Steel" in the name.'
+  tags: []
+  related_cards:
+    - 63f7476894324ad6a5f0fff08e01771f
+    - 909bc2dbd32c42e3bb06177eb37a618e
+- name: Steel Cut Power Rack
+  db_uuid: f470faed7161411c8d00891f636965e8
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+4 to Power
+
+    +4 to Submission
+
+    +4 to Grapple
+
+    If your Gimmick is blank, +2 to Technique.'
+  tags: []
+  related_cards:
+    - 63f7476894324ad6a5f0fff08e01771f
+    - 909bc2dbd32c42e3bb06177eb37a618e
+- name: Grim Steel
+  db_uuid: 909bc2dbd32c42e3bb06177eb37a618e
+  card_type: TrioCompetitorCard
+  power: 30
+  technique: 24
+  agility: 15
+  strike: 27
+  submission: 21
+  grapple: 18
+  card_text: 'Once per turn roll:
+
+    If your opponent stopped your card last turn or you rolled Technique, you may force your opponent to re-roll their turn roll.
+
+    When you roll Strike for your turn roll, shuffle 1 card with "Kick" or "Steel" from your discard pile into your deck and draw 1 card.'
+  tags: []
+  related_cards:
+    - eea0b5bfc97b49dd8dacc7c787ad62a3
+    - b95f873118b944b0b07a8af9c8731752
+    - d5edc30f9dc04838bc821938c31f0312
+    - 63f7476894324ad6a5f0fff08e01771f
+  related_finishes:
+    - 595b7bc4492643deaa2b16239d8d7cb8
+    - ee807116e6ae4c17bc709dad8712029a
+    - 95dce62414c34823a4c2577c2d771e18
+    - 53ed3f4392b14fa9b31ccb3f8bd2be9b
+    - eded279be1754024a020abc484bab3a3
+    - c4abae61d6c54a009e94302bd57781f8
+    - 64b48dd07372438ca90eb9b8f4a8d627
+    - 7a913d2bb1174318bd7f582c3dfe60d0
+    - 6abab511651f4ca7a883f7050186b2c4
+    - bd03d130bd00408a81df28394e4309f4
+    - ce5f2abe72904f48964d86d1172ba70b
+    - a08dea2e8f904082b59fb736c8553003
+    - f470faed7161411c8d00891f636965e8
+  wants_keywords:
+    - Steel
+    - Kick

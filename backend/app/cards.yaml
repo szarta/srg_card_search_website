@@ -77735,6 +77735,7 @@
 - name: Jeff the Skywalker
   db_uuid: e15db16bfba144349fd523895d8631e5
   card_type: SingleCompetitorCard
+  division: Global
   power: 6
   technique: 7
   agility: 10
@@ -94793,11 +94794,6 @@
   tags: []
   related_cards:
     - d8aa5764dd194092b36cd6b680ecda59
-- name: Jeff the Skywalker
-  db_uuid: daf93e4580fa41188f6daec029f70a94
-  card_type: SingleCompetitorCard
-  division: Global
-  tags: []
 - name: Pineapple Powerbomb On The Thumbtacks
   db_uuid: 58da15aaaa104aa0aa150dadd1333f33
   card_type: MainDeckCard

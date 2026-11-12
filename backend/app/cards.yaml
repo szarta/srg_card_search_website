@@ -77732,6 +77732,67 @@
   tags: []
   related_cards:
     - 3d7652ac29af4c77842e419996e11278
+- name: Jeff the Skywalker
+  db_uuid: e15db16bfba144349fd523895d8631e5
+  card_type: SingleCompetitorCard
+  power: 6
+  technique: 7
+  agility: 10
+  strike: 9
+  submission: 8
+  grapple: 5
+  card_text: 'When you have a card with "Sky" and a card with "Walk" in the name:
+
+    In play, your Technique is +2.
+
+    In your discard pile, your Technique is +1.'
+  tags: []
+  related_finishes:
+    - 605d57968b194a58b336816af96a78b7
+    - a49a18124fd5421d8e6084da6204e28c
+    - df4a0922f48549ba972ecc36bc765691
+- name: Walk The Sky
+  db_uuid: 605d57968b194a58b336816af96a78b7
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Strike
+
+    +3 to Grapple'
+  tags: []
+  related_cards:
+    - e15db16bfba144349fd523895d8631e5
+- name: The Sky Scraper
+  db_uuid: a49a18124fd5421d8e6084da6204e28c
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Power
+
+    +1 to Technique
+
+    Draw 2 cards for each card you have in play with "Sky" or "Walk" in the name.'
+  tags: []
+  related_cards:
+    - e15db16bfba144349fd523895d8631e5
+- name: The Sky Bender
+  db_uuid: df4a0922f48549ba972ecc36bc765691
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Power
+
+    +1 to Technique
+
+    +1 to Submission
+
+    Search your deck or discard pile for 2 cards, put 1 in your hand and 1 in your discard pile.'
+  tags: []
+  related_cards:
+    - e15db16bfba144349fd523895d8631e5
 - name: Sancta
   db_uuid: fb771939df774ac4b4bff5e26a9d0691
   card_type: SingleCompetitorCard

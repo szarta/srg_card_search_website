@@ -26359,6 +26359,67 @@
     Draw 1 card.'
   tags:
     - Super Lucha
+- name: Dub O
+  db_uuid: 951c627a35874ed6a0323c3fa0ae4750
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 6
+  agility: 10
+  strike: 8
+  submission: 5
+  grapple: 9
+  card_text: 'When you roll Strike for your turn roll:
+
+    Draw 1 card for each Strike you have in play (Max 2).'
+  tags: []
+  related_finishes:
+    - 54a081008fa64bdcace0f0e1e000342e
+    - 636503c2be6f4dbda8a259630dda0ad3
+    - 5ab027e3370e42e198f04aaef9b7b645
+- name: Son Of A... Fun
+  db_uuid: 54a081008fa64bdcace0f0e1e000342e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +2 to Technique
+
+    +1 to Strike
+
+    If you rolled Strike for your turn roll, your opponent''s Breakout rolls are -1.'
+  tags: []
+  related_cards:
+    - 951c627a35874ed6a0323c3fa0ae4750
+- name: Ha! Got 'Eem
+  db_uuid: 636503c2be6f4dbda8a259630dda0ad3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Technique
+
+    +1 to Grapple
+
+    When this card is in your discard pile: When both you and your target rolled Agility for the turn roll, you may add this card to your hand.'
+  tags: []
+  related_cards:
+    - 951c627a35874ed6a0323c3fa0ae4750
+- name: Dub O Or Nothing
+  db_uuid: 5ab027e3370e42e198f04aaef9b7b645
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Power
+
+    +2 to Technique
+
+    +3 to Submission'
+  tags: []
+  related_cards:
+    - 951c627a35874ed6a0323c3fa0ae4750
 - name: AJ Styles
   db_uuid: b5a305c0f693405f8cb43b4e5864e559
   srg_url: https://supershowthegame.com/product/aj-styles/

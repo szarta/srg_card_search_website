@@ -23041,19 +23041,6 @@
   tags:
     - Old School Wave 1
     - Old School Wave 2
-- name: Powerbomb (Power)
-  db_uuid: 73d02e53f7f745a0aba77497b5898f5d
-  srgpc_url: https://www.srgpc.net/cards/23/powerbomb/
-  card_type: MainDeckCard
-  atk_type: Grapple
-  play_order: Followup
-  deck_card_number: 23
-  card_text: 'Flip 4 cards.
-
-    Add 2 cards from your discard pile to your hand.'
-  tags: []
-  requirements:
-    - min_power: 8
 - name: Pump Handle Slam
   db_uuid: 1bbd87f1e12c41708026407d768a608f
   srgpc_url: https://www.srgpc.net/cards/23/pump-handle-slam/
@@ -94197,6 +94184,63 @@
   tags: []
   related_cards:
     - 5aa3e95e68324d8690519c11fe323480
+- name: Youngstar Brian
+  db_uuid: 5017ddf57a88458c80b0d8afdcd74dbb
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 7
+  agility: 10
+  strike: 5
+  submission: 6
+  grapple: 9
+  card_text: When you roll 8 for your turn roll, your next turn roll is +2.
+  tags: []
+  related_finishes:
+    - 4f6efefacdda41c590781c061472f5c4
+    - 86b1ba0f2a0848b5ba2e4ea6d01f6931
+    - 336ece18f36147188b62445c218992ca
+- name: Father Son Gaelic Gun
+  db_uuid: 4f6efefacdda41c590781c061472f5c4
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Strike
+
+    +1 to Submission
+
+    Once per turn:
+
+    You may discard 1 card from your hand with "Son" in the name to re-roll your Finish roll.'
+  tags: []
+  related_cards:
+    - 5017ddf57a88458c80b0d8afdcd74dbb
+- name: The Casual Dream Eater
+  db_uuid: 86b1ba0f2a0848b5ba2e4ea6d01f6931
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Power
+
+    +3 to Submission'
+  tags: []
+  related_cards:
+    - 5017ddf57a88458c80b0d8afdcd74dbb
+- name: Destiny Bond
+  db_uuid: 336ece18f36147188b62445c218992ca
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+1 to Technique
+
+    +2 to Submission
+
+    If you and your opponent have the same number of cards in play, they get 1 fewer Breakout roll this turn.'
+  tags: []
+  related_cards:
+    - 5017ddf57a88458c80b0d8afdcd74dbb
 - name: Mr. C (V2)
   db_uuid: d8aa5764dd194092b36cd6b680ecda59
   card_type: SingleCompetitorCard

@@ -77732,6 +77732,118 @@
   tags: []
   related_cards:
     - 3d7652ac29af4c77842e419996e11278
+- name: A-Corn The Book Dragon
+  db_uuid: 0d5f12252d274867943db5cfd0ca0b93
+  card_type: SingleCompetitorCard
+  power: 5
+  technique: 10
+  agility: 8
+  strike: 6
+  submission: 9
+  grapple: 7
+  card_text: 'During your turn:
+
+    When you hit a card with "Book", "Page", "Read" or "Turn" in the name, search your deck for 1 card with "Dragon" in the name, and add it to your hand; shuffle your deck.'
+  tags: []
+  related_finishes:
+    - 5e88b18657d2456d94e77fc226c196ff
+    - e751b970c5bc4c8ab5089f45165e6c28
+    - 4b8160edf8ff4f50915f90050482392c
+- name: Book Dragon Rising
+  db_uuid: 4b8160edf8ff4f50915f90050482392c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: Your Power and Strike are +1 for each card you have in play with "Book", "Dragon", "Page", "Read", or "Turn" in the name (Max +4).
+  tags: []
+  related_cards:
+    - 0d5f12252d274867943db5cfd0ca0b93
+- name: Reading A Bedtime Book
+  db_uuid: 5e88b18657d2456d94e77fc226c196ff
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Strike
+
+    +2 to Grapple
+
+    Bury 3 cards in either player''s discard pile.'
+  tags: []
+  related_cards:
+    - 0d5f12252d274867943db5cfd0ca0b93
+- name: Book Dragon's Repose
+  db_uuid: e751b970c5bc4c8ab5089f45165e6c28
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Power
+
+    +1 to Submission
+
+    Shuffle any number of cards from your discard pile into your deck, draw 1 card.'
+  tags: []
+  related_cards:
+    - 0d5f12252d274867943db5cfd0ca0b93
+- name: Boppi
+  db_uuid: 84cb37cd84ad4bc5b545fc1ae68d09b9
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 9
+  agility: 7
+  strike: 6
+  submission: 10
+  grapple: 5
+  card_text: When you roll Submission or Grapple, your target's turn roll is -1.
+  tags: []
+  related_finishes:
+    - ec5e9a23deef40e2b8320cea670c9e2c
+    - 775ff113c4694b499b4bf38eafd4c97b
+    - 3a71d7cbcb4b4c0c8cd49d1149222d91
+- name: Take That, You Big Grump!
+  db_uuid: ec5e9a23deef40e2b8320cea670c9e2c
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +1 to Agility
+
+    +3 to Strike
+
+    Draw 1 card.'
+  tags: []
+  related_cards:
+    - 84cb37cd84ad4bc5b545fc1ae68d09b9
+- name: Roll Daddy Off The Ring
+  db_uuid: 775ff113c4694b499b4bf38eafd4c97b
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Power
+
+    If your opponent has no cards in play, you may re-roll your Finish roll.
+
+    If your opponent ended their last turn without playing a card, +4 to Grapple.'
+  tags: []
+  related_cards:
+    - 84cb37cd84ad4bc5b545fc1ae68d09b9
+- name: Yarrrr! Yarr! Yarrrrr!
+  db_uuid: 3a71d7cbcb4b4c0c8cd49d1149222d91
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+4 to Grapple
+
+    Shuffle 2 cards from your discard pile into your deck.'
+  tags: []
+  related_cards:
+    - 84cb37cd84ad4bc5b545fc1ae68d09b9
 - name: Bruiser Beans
   db_uuid: c7cc2a824fab4b5dad84a3f863605373
   srgpc_url: https://www.srgpc.net/competitor/bruiser-beans/

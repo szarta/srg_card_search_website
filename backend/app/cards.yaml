@@ -77603,6 +77603,63 @@
   tags: []
   related_cards:
     - 09afe21c91b44543b97072e1d1894dab
+- name: Just Raine
+  db_uuid: ea305f3e3c4d4305855274bde4164fd5
+  card_type: SingleCompetitorCard
+  power: 8
+  technique: 5
+  agility: 6
+  strike: 10
+  submission: 9
+  grapple: 7
+  card_text: When you and your opponent roll the same skill, look at the bottom 2 cards of your opponent's deck, put one on top of your opponent's deck and discard the other.
+  tags: []
+  related_finishes:
+    - 967feb74183343ab8e9786ebbe0807bb
+    - 705265825dac45eab22ceb491e53e36a
+    - 06f807cc10c74e28bd8a2fe3e67dd742
+- name: Big Sister Abigail
+  db_uuid: 967feb74183343ab8e9786ebbe0807bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Power
+
+    +2 to Grapple
+
+    If your opponent breaks out, put a Lead from your discard pile into play.'
+  tags: []
+  related_cards:
+    - ea305f3e3c4d4305855274bde4164fd5
+- name: Don't Make Me Get My Daddy!
+  db_uuid: 705265825dac45eab22ceb491e53e36a
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +1 to Agility
+
+    If you rolled the same skill as your opponent for your turn roll, your opponent gets 1 fewer Breakout roll.'
+  tags: []
+  related_cards:
+    - ea305f3e3c4d4305855274bde4164fd5
+- name: Mommie's Music Of The Night
+  db_uuid: 06f807cc10c74e28bd8a2fe3e67dd742
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Technique
+
+    +1 to Submission
+
+    When this card is in your discard pile: When your opponent ends their turn without playing a card, your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - ea305f3e3c4d4305855274bde4164fd5
 - name: The Phenomenal Beast Chris Angels
   db_uuid: 3d7652ac29af4c77842e419996e11278
   srg_url: https://supershowthegame.com/product/the-phenomenal-beast-chris-angels/
@@ -77827,7 +77884,89 @@
   card_type: SingleCompetitorCard
   division: Hardcore
   tags: []
-- name: The Franchise
+- name: Smoke Master
+  db_uuid: 78faa2d3db454ac29b4594b89bcec9f8
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 5
+  strike: 7
+  submission: 8
+  grapple: 9
+  card_text: 'During your turn:
+
+    When you hit a card with "Ash", "Rib", or "Smoke" in the name, draw 1 card and your next turn roll is +1.'
+  tags: []
+  related_finishes:
+    - 1f4eaf6d4e90494fa903e357dfa7b4da
+    - 11fc50beef0749a1a4bd75e977db35ee
+    - a7038fb651484fa1ba45434d19b2e2fb
+- name: The Meat Tenderizer
+  db_uuid: 1f4eaf6d4e90494fa903e357dfa7b4da
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    +3 to Agility
+
+    Draw 1 card.
+
+    Your next turn roll is +1.'
+  tags: []
+  related_cards:
+    - 78faa2d3db454ac29b4594b89bcec9f8
+- name: The Pit Boss Plunge
+  db_uuid: 11fc50beef0749a1a4bd75e977db35ee
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+3 to Strike
+
+    +1 to Submission
+
+    Your opponent discards 1 card from their hand for each card with "Burn", "Chicken", "Chop", "Pit", "Pull", "Rib", "Rub", "Sauce", "Smoke", or "Steak" in the name that you have in play.'
+  tags: []
+  related_cards:
+    - 78faa2d3db454ac29b4594b89bcec9f8
+- name: Smoke The Ribs
+  db_uuid: a7038fb651484fa1ba45434d19b2e2fb
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Technique
+
+    +1 to Agility
+
+    +1 to Strike
+
+    Discard 2 cards from your hand.
+
+    Add 1 card from your discard pile to your hand.'
+  tags: []
+  related_cards:
+    - 78faa2d3db454ac29b4594b89bcec9f8
+- name: The Franchise (V2)
+  db_uuid: 8421ff6b419d44d78757f449878ec02b
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 6
+  agility: 8
+  strike: 5
+  submission: 9
+  grapple: 7
+  card_text: 'At the start of the match:
+
+    You may reveal 2 different additional Entrance cards with "Steel Chain" in the text.'
+  tags: []
+  related_finishes:
+    - 1fc13094935e426ab5492d7e5415fe73
+    - 582d1953ca704ca4b223ca6b45dfe6ab
+    - af9a166b17da47299fd20f8dc3830def
+- name: The Franchise (V1)
   db_uuid: 5b6cc3273f03415cbe6635d2a0796f03
   srg_url: https://supershowthegame.com/product/the-franchise/
   srgpc_url: https://www.srgpc.net/competitor/the-franchise/
@@ -94519,6 +94658,19 @@
   related_cards:
     - 63f7476894324ad6a5f0fff08e01771f
     - 909bc2dbd32c42e3bb06177eb37a618e
+- name: National Champs
+  db_uuid: e55f954eca824842a0bf7f9fbd90ae62
+  card_type: TrioCompetitorCard
+  power: 15
+  technique: 21
+  agility: 27
+  strike: 18
+  submission: 24
+  grapple: 30
+  card_text: 'Your Finish and Breakout rolls are +2 for each card you have in play with "Sledgehammer" or "Steel Chain" in the name (Max +6).
+
+    When you roll Power for your turn roll: add 1 card from your discard pile to your hand.'
+  tags: []
 - name: Grim Steel
   db_uuid: 909bc2dbd32c42e3bb06177eb37a618e
   card_type: TrioCompetitorCard

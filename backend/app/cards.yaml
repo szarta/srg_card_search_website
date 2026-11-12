@@ -77732,6 +77732,124 @@
   tags: []
   related_cards:
     - 3d7652ac29af4c77842e419996e11278
+- name: Sancta
+  db_uuid: fb771939df774ac4b4bff5e26a9d0691
+  card_type: SingleCompetitorCard
+  power: 7
+  technique: 5
+  agility: 10
+  strike: 8
+  submission: 9
+  grapple: 6
+  card_text: 'Once per turn roll:
+
+    When your turn roll was increased by a card effect, you may re-roll your turn roll without any increases.'
+  tags: []
+  related_finishes:
+    - bb57ef3879214fd7be48c1017a2d80de
+    - 0bede178fb23456bb2eb1e3a7f4104aa
+    - 053099eee3a24f36a9ecdb7d89ff893b
+- name: Dragonfly Splash
+  db_uuid: bb57ef3879214fd7be48c1017a2d80de
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Power
+
+    +2 to Technique
+
+    +2 to Agility'
+  tags: []
+  related_cards:
+    - fb771939df774ac4b4bff5e26a9d0691
+- name: Sol Crusher
+  db_uuid: 0bede178fb23456bb2eb1e3a7f4104aa
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+4 to Grapple
+
+    Bury 1 card in your discard pile.  Your next 2 turn rolls are +1.'
+  tags: []
+  related_cards:
+    - fb771939df774ac4b4bff5e26a9d0691
+- name: Mignardise
+  db_uuid: 053099eee3a24f36a9ecdb7d89ff893b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+3 to Technique
+
+    Your opponent''s Technique is -2.
+
+    If your turn roll was increased, your opponent gets 1 fewer Breakout roll.'
+  tags: []
+  related_cards:
+    - fb771939df774ac4b4bff5e26a9d0691
+- name: Rampaige
+  db_uuid: d9f42715b51e481d8fc4762b5a5188fd
+  card_type: SingleCompetitorCard
+  power: 9
+  technique: 5
+  agility: 7
+  strike: 10
+  submission: 6
+  grapple: 8
+  card_text: 'Once per match:
+
+    You may search your deck or discard pile for 1 card, reveal it to your opponent, and add it to your hand.'
+  tags: []
+  related_finishes:
+    - 3bef3631451d4e32a2976f776b2af0bb
+    - d3f7db4679944a00821e97c206c65784
+    - 1960139ad1fe41529722af0a8c0f7125
+- name: Rampaige Reckoning
+  db_uuid: 3bef3631451d4e32a2976f776b2af0bb
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+2 to Technique
+
+    Your Finish roll is +1.
+
+    If you have a card in play with "Headbutt" in the name, your Finish roll is +2.'
+  tags: []
+  related_cards:
+    - d9f42715b51e481d8fc4762b5a5188fd
+- name: Rampaige'd
+  db_uuid: d3f7db4679944a00821e97c206c65784
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+1 to Power
+
+    +2 to Grapple
+
+    You may search your deck or discard pile for 1 card, reveal it to your opponent, and add it to your hand.'
+  tags: []
+  related_cards:
+    - d9f42715b51e481d8fc4762b5a5188fd
+- name: Read'em And Sleep
+  db_uuid: 1960139ad1fe41529722af0a8c0f7125
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Technique
+
+    +2 to Submission
+
+    +1 to Grapple
+
+    If this card was revealed for your Gimmick this turn, double these bonuses.'
+  tags: []
+  related_cards:
+    - d9f42715b51e481d8fc4762b5a5188fd
 - name: A-Corn The Book Dragon
   db_uuid: 0d5f12252d274867943db5cfd0ca0b93
   card_type: SingleCompetitorCard

@@ -45200,7 +45200,7 @@
     - fb98c823c0cd44c780d9199f2723033c
     - 85b70664cbe94aefa6b9e8f6e544e1c9
     - c8f2be0b716f4d68aa34e1dddc4ec118
-- name: Emo Mam
+- name: Emo MaM
   db_uuid: 621336854c0d4f8d8d02ea15e46fa711
   srgpc_url: https://www.srgpc.net/cards/competitors/emo-mam/
   card_type: SingleCompetitorCard
@@ -77732,6 +77732,69 @@
   tags: []
   related_cards:
     - 3d7652ac29af4c77842e419996e11278
+- name: GM MaM
+  db_uuid: 35be74477e5948fbab8d3ca9f83e0221
+  card_type: SingleCompetitorCard
+  power: 10
+  technique: 5
+  agility: 8
+  strike: 9
+  submission: 7
+  grapple: 6
+  card_text: When you hit a card with "Boss", "Power", or "She" in the name, draw 1 card.
+  tags: []
+  related_finishes:
+    - 7c3259e24a2740e0a33f2c286222d91e
+    - 7c0c905c80724a0b953fa31c1952bad3
+    - 9e1f36558f434ee9ac76c17e064dd05b
+    - 7ffef15ba2bd44c8ae8f77b263464607
+    - 3bb82a8c6fe940149c3d2cfa38eef7bb
+    - a6be63c4a7a3480c8e7256fd5b697233
+    - e22393623b474346a39e93dae92f620d
+    - af7fb58dea1c4a499ed16767c916ec08
+    - 23306b5fe097480bae0f94cd1ddc8a02
+- name: 'Lucky #13'
+  db_uuid: 7c3259e24a2740e0a33f2c286222d91e
+  card_type: MainDeckCard
+  atk_type: Strike
+  play_order: Finish
+  deck_card_number: 28
+  card_text: '+1 to Agility
+
+    +1 to Submission
+
+    When this card is in your discard pile:  When you hit a card with "Partner" or "Double Team" in the text, you and your partner get +1 to your next turn rolls.'
+  tags: []
+  related_cards:
+    - 35be74477e5948fbab8d3ca9f83e0221
+- name: Revenge Of The Skibidi
+  db_uuid: 7c0c905c80724a0b953fa31c1952bad3
+  card_type: MainDeckCard
+  atk_type: Grapple
+  play_order: Finish
+  deck_card_number: 29
+  card_text: '+2 to Technique
+
+    +3 to Grapple
+
+    Each time your opponent rolls the same skill for their Breakout roll that you rolled for your Finish roll, draw 2 cards.'
+  tags: []
+  related_cards:
+    - 35be74477e5948fbab8d3ca9f83e0221
+- name: Not Today, Bucko
+  db_uuid: 9e1f36558f434ee9ac76c17e064dd05b
+  card_type: MainDeckCard
+  atk_type: Submission
+  play_order: Finish
+  deck_card_number: 30
+  card_text: '+2 to Technique
+
+    +1 to Submission
+
+    If you have another card in play with "Partner" or "Double Team" in the text, double these bonuses.'
+  tags: []
+  related_cards:
+    - 35be74477e5948fbab8d3ca9f83e0221
 - name: Jeff the Skywalker
   db_uuid: e15db16bfba144349fd523895d8631e5
   card_type: SingleCompetitorCard
